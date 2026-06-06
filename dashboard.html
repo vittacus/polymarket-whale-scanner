@@ -1,0 +1,1558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Polymarket Whale Scanner — Consensus signals from top traders</title>
+  <meta name="description" content="Real-time dashboard tracking when Polymarket's top 20 PnL traders pile into the same market. Consensus signals scored by rank weight and position size. Updated every 15 minutes.">
+  <meta property="og:title" content="Polymarket Whale Scanner">
+  <meta property="og:description" content="Real-time consensus signals from Polymarket's top 20 traders by all-time PnL. Updated every 15 minutes.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Polymarket Whale Scanner">
+  <meta name="twitter:description" content="When top Polymarket traders agree on an outcome, this scanner catches it. Updated every 15 minutes.">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+  <style>
+    :root {
+      --bg:          #0d0f18;
+      --surface:     #161927;
+      --surface-2:   #1e2135;
+      --border:      #2a2e4a;
+      --text:        #e2e8f0;
+      --muted:       #5a6080;
+      --accent:      #818cf8;
+      --green:       #22c55e;
+      --green-bg:    rgba(34,197,94,0.12);
+      --green-border:rgba(34,197,94,0.4);
+      --red:         #ef4444;
+      --red-bg:      rgba(239,68,68,0.12);
+      --red-border:  rgba(239,68,68,0.4);
+      --blue:        #60a5fa;
+      --blue-bg:     rgba(96,165,250,0.12);
+      --blue-border: rgba(96,165,250,0.4);
+      --yellow:        #eab308;
+      --yellow-bg:     rgba(234,179,8,0.12);
+      --yellow-border: rgba(234,179,8,0.4);
+      --gray:        #94a3b8;
+      --gray-bg:     rgba(148,163,184,0.1);
+      --gray-border: rgba(148,163,184,0.35);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+      font-size: 14px;
+      line-height: 1.5;
+      padding: 28px 32px;
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid var(--border);
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .header-left h1 { font-size: 18px; font-weight: 700; color: var(--accent); letter-spacing: 0.02em; }
+    .header-left p  { color: var(--muted); font-size: 12px; margin-top: 3px; }
+
+    .header-right { text-align: right; font-size: 12px; color: var(--muted); flex-shrink: 0; }
+
+    .signal-count { font-size: 28px; font-weight: 800; color: var(--text); line-height: 1; display: block; }
+
+    #last-updated {
+      margin-top: 6px; display: flex; align-items: center;
+      justify-content: flex-end; gap: 6px;
+    }
+
+    .dot {
+      width: 7px; height: 7px; border-radius: 50%;
+      background: var(--green); flex-shrink: 0;
+      animation: blink 2.4s ease-in-out infinite;
+    }
+
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
+
+    /* ── Stats bars ── */
+    .stats-bar {
+      display: flex; align-items: center;
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 8px; padding: 12px 20px; margin-bottom: 16px;
+      flex-wrap: wrap; row-gap: 10px;
+    }
+
+    .stat-item { display: flex; flex-direction: column; align-items: center; padding: 0 20px; min-width: 90px; }
+    .stat-item:first-child { padding-left: 4px; }
+
+    .stat-divider { width: 1px; height: 32px; background: var(--border); flex-shrink: 0; }
+
+    .stat-label {
+      font-size: 10px; font-weight: 600; text-transform: uppercase;
+      letter-spacing: 0.08em; color: var(--muted); margin-bottom: 3px; white-space: nowrap;
+    }
+
+    .stat-value { font-size: 18px; font-weight: 800; color: var(--text); line-height: 1; }
+    .stat-value.green  { color: var(--green);  }
+    .stat-value.yellow { color: var(--yellow); }
+    .stat-value.gray   { color: var(--gray);   }
+    .stat-value.accent { color: var(--accent); }
+
+    .stat-meta { font-size: 11px; color: var(--muted); margin-left: auto; padding-left: 20px; white-space: nowrap; }
+
+    /* ── How it works ── */
+    .explainer {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 8px; margin-bottom: 20px;
+    }
+
+    .explainer summary {
+      padding: 13px 20px; cursor: pointer; list-style: none;
+      display: flex; align-items: center; justify-content: space-between;
+      font-weight: 600; font-size: 13px; color: var(--text); user-select: none;
+    }
+
+    .explainer summary::-webkit-details-marker { display: none; }
+
+    .toggle-icon {
+      color: var(--muted); font-size: 18px; line-height: 1;
+      transition: transform 0.2s ease; display: inline-block;
+    }
+
+    .explainer[open] .toggle-icon { transform: rotate(90deg); }
+
+    .explainer-steps {
+      display: flex; align-items: stretch; gap: 0;
+      padding: 16px 20px; border-top: 1px solid var(--border);
+      flex-wrap: wrap; gap: 8px;
+    }
+
+    .step {
+      flex: 1; min-width: 160px;
+      background: var(--surface-2); border: 1px solid var(--border);
+      border-radius: 8px; padding: 16px; text-align: center;
+    }
+
+    .step-icon { font-size: 26px; margin-bottom: 8px; }
+
+    .step-num {
+      font-size: 10px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.12em; color: var(--accent); margin-bottom: 5px;
+    }
+
+    .step-text { font-size: 12px; color: var(--muted); line-height: 1.5; }
+
+    .step-arrow {
+      display: flex; align-items: center; color: var(--border);
+      font-size: 22px; flex-shrink: 0; padding: 0 4px;
+    }
+
+    /* ── Filter buttons ── */
+    .filter-row {
+      display: flex; gap: 6px; padding: 10px 18px;
+      border-bottom: 1px solid var(--border);
+      background: var(--surface-2); flex-wrap: wrap;
+    }
+
+    .filter-btn {
+      padding: 4px 12px; border-radius: 20px; border: 1px solid var(--border);
+      background: transparent; color: var(--muted); font-size: 12px; font-weight: 600;
+      cursor: pointer; transition: all 0.15s ease; font-family: inherit;
+    }
+
+    .filter-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+    .filter-btn.active {
+      background: rgba(129,140,248,0.15); border-color: var(--accent); color: var(--accent);
+    }
+
+    /* ── Fallback label ── */
+    .fallback-label {
+      padding: 7px 18px; font-size: 11px; font-weight: 600;
+      color: var(--yellow); background: rgba(234,179,8,0.06);
+      border-bottom: 1px solid var(--border);
+      text-transform: uppercase; letter-spacing: 0.08em;
+    }
+
+    /* ── Layout grid ── */
+    .grid {
+      display: grid; grid-template-columns: 1fr 340px;
+      gap: 20px; align-items: start; margin-bottom: 20px;
+    }
+
+    .sidebar { display: flex; flex-direction: column; gap: 20px; }
+
+    /* ── Cards ── */
+    .card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 12px; overflow: hidden; margin-bottom: 20px;
+    }
+
+    .card:last-child { margin-bottom: 0; }
+
+    .card-header {
+      padding: 11px 18px; border-bottom: 1px solid var(--border);
+      font-size: 11px; font-weight: 600; color: var(--muted);
+      text-transform: uppercase; letter-spacing: 0.1em; background: var(--surface-2);
+    }
+
+    /* ── Table ── */
+    .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+    table { width: 100%; border-collapse: collapse; min-width: 460px; }
+
+    thead th {
+      padding: 9px 18px; text-align: left; font-size: 11px; font-weight: 600;
+      color: var(--muted); text-transform: uppercase; letter-spacing: 0.07em;
+      background: var(--surface-2); border-bottom: 1px solid var(--border); white-space: nowrap;
+    }
+
+    thead th.r { text-align: right; }
+    thead th.c { text-align: center; }
+
+    tbody td { padding: 11px 18px; border-bottom: 1px solid var(--border); vertical-align: middle; }
+    tbody tr:last-child td { border-bottom: none; }
+    tbody tr:hover td { background: rgba(255,255,255,0.025); }
+
+    td.r { text-align: right; font-variant-numeric: tabular-nums; font-family: "SF Mono","Fira Code","Cascadia Code",monospace; }
+    td.c { text-align: center; }
+
+    .market-title { font-weight: 500; color: var(--text); max-width: 380px; }
+
+    .market-link { color: inherit; text-decoration: none; }
+    .market-link:hover { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+
+    .market-ranks { font-size: 11px; color: var(--muted); margin-top: 3px; }
+
+    .whale-num { font-size: 17px; font-weight: 800; color: var(--accent); }
+
+    /* ── Signal item cards ── */
+    .signal-item {
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--border);
+    }
+    .signal-item:last-child { border-bottom: none; }
+    .signal-item-title {
+      font-size: 14px; font-weight: 600; color: var(--text);
+      margin-bottom: 8px; line-height: 1.4;
+    }
+    .signal-meta-row {
+      display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+      margin-bottom: 6px;
+    }
+    .signal-meta-usd {
+      font-family: "SF Mono","Fira Code",monospace;
+      font-size: 12px; font-weight: 700; color: var(--text);
+    }
+    .signal-meta-whale { font-size: 13px; font-weight: 700; color: var(--accent); }
+    .signal-footer {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 8px; margin-top: 4px;
+    }
+    .signal-footer-ranks { font-size: 10px; color: var(--muted); }
+
+    /* ── Top signal callout ── */
+    .top-signal-body { padding: 18px 20px; }
+    .top-signal-label {
+      font-size: 10px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.1em; color: var(--muted); margin-bottom: 10px;
+    }
+    .top-signal-title {
+      font-size: 13px; font-weight: 600; color: var(--text);
+      line-height: 1.45; margin-bottom: 12px;
+    }
+
+    /* ── Whale leaderboard rows ── */
+    .whale-row {
+      display: flex; align-items: center; gap: 14px;
+      padding: 12px 18px; border-bottom: 1px solid var(--border);
+      border-left: 3px solid transparent;
+    }
+    .whale-row:last-child { border-bottom: none; }
+    .whale-row-rank {
+      font-size: 22px; font-weight: 800; color: var(--muted);
+      min-width: 40px; text-align: right; flex-shrink: 0;
+    }
+    .whale-row-info { flex: 1; min-width: 0; }
+    .whale-row-addr {
+      font-family: "SF Mono","Fira Code",monospace;
+      font-size: 12px; color: var(--text);
+    }
+    .whale-signals-badge {
+      display: inline-flex; align-items: center; justify-content: center;
+      padding: 3px 10px; border-radius: 20px; flex-shrink: 0;
+      font-size: 12px; font-weight: 700;
+      background: rgba(45,212,191,0.12); color: #2dd4bf;
+      border: 1px solid rgba(45,212,191,0.3);
+    }
+
+    /* ── Strategy Lab sub-tabs ── */
+    .sub-tab-bar {
+      display: flex; gap: 0;
+      border-bottom: 2px solid var(--border); margin-bottom: 20px;
+      overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none;
+    }
+    .sub-tab-bar::-webkit-scrollbar { display: none; }
+    .sub-tab-btn {
+      padding: 7px 11px; border: none; background: transparent;
+      color: var(--muted); font-size: 11px; font-weight: 600;
+      cursor: pointer; white-space: nowrap; font-family: inherit;
+      border-bottom: 2px solid transparent; margin-bottom: -2px;
+      transition: color 0.15s ease, border-color 0.15s ease; flex-shrink: 0;
+    }
+    .sub-tab-btn:hover { color: var(--text); }
+    .sub-tab-btn.sub-active { color: var(--accent); border-bottom-color: var(--accent); }
+    .sub-tab-panel { display: none; }
+    .sub-tab-panel.sub-active { display: block; animation: tabFadeIn 0.15s ease; }
+
+    /* ── Strategy cards (used in sub-tabs) ── */
+    .slab-card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 12px; overflow: hidden; margin-bottom: 20px;
+    }
+    .slab-card.strategy-a { border-top: 3px solid #2dd4bf; }
+    .slab-card.strategy-b { border-top: 3px solid var(--red); }
+    .slab-card.strategy-c { border-top: 3px solid var(--green); }
+    .slab-card.strategy-d { border-top: 3px solid var(--yellow); }
+    .slab-card-header {
+      padding: 11px 18px; border-bottom: 1px solid var(--border);
+      font-size: 11px; font-weight: 600; color: var(--muted);
+      text-transform: uppercase; letter-spacing: 0.1em; background: var(--surface-2);
+    }
+    .slab-hypothesis {
+      padding: 16px 20px; font-size: 13px; color: var(--muted); line-height: 1.75;
+      border-bottom: 1px solid var(--border);
+    }
+    .slab-record {
+      display: flex; align-items: center; gap: 20px;
+      padding: 14px 20px; flex-wrap: wrap; border-bottom: 1px solid var(--border);
+    }
+    .slab-stat { display: flex; flex-direction: column; gap: 2px; }
+    .slab-stat-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+    .slab-stat-value { font-size: 22px; font-weight: 800; }
+    .slab-stat-value.correct { color: var(--green); }
+    .slab-stat-value.wrong   { color: var(--red);   }
+    .slab-stat-value.pending { color: var(--muted); }
+    .slab-win-bar {
+      flex: 1; min-width: 100px; max-width: 220px;
+      height: 8px; background: var(--surface-2); border-radius: 4px;
+      overflow: hidden; border: 1px solid var(--border);
+    }
+    .slab-win-fill {
+      height: 100%; border-radius: 4px;
+      background: linear-gradient(90deg, var(--green), #16a34a);
+      transition: width 0.6s ease;
+    }
+    .slab-win-pct { font-size: 15px; font-weight: 800; color: var(--text); }
+
+    /* ── B vs C callout ── */
+    .bc-callout {
+      background: rgba(129,140,248,0.07); border: 1px solid rgba(129,140,248,0.22);
+      border-radius: 8px; padding: 14px 18px; margin-bottom: 20px;
+      font-size: 12px; color: var(--muted); line-height: 1.75;
+    }
+    .bc-callout strong { color: var(--accent); font-weight: 700; }
+
+    /* ── Hypothesis board (pre-data overview) ── */
+    .hypothesis-board {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 16px; padding: 20px;
+    }
+    .hypothesis-tile {
+      background: var(--surface-2); border: 1px solid var(--border);
+      border-radius: 8px; padding: 22px 20px;
+      border-top: 3px solid var(--border);
+    }
+    .hypothesis-tile.strategy-a { border-top-color: #2dd4bf; }
+    .hypothesis-tile.strategy-b { border-top-color: var(--red); }
+    .hypothesis-tile.strategy-c { border-top-color: var(--green); }
+    .hypothesis-tile.strategy-d { border-top-color: var(--yellow); }
+    .hypothesis-tile-icon { font-size: 22px; margin-bottom: 10px; }
+    .hypothesis-tile-key  { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin-bottom: 4px; }
+    .hypothesis-tile-name { font-size: 13px; font-weight: 700; color: var(--text); margin-bottom: 10px; }
+    .hypothesis-tile-text { font-size: 12px; color: var(--muted); line-height: 1.7; }
+
+    /* ── Overview chart container ── */
+    .overview-chart-wrap { padding: 20px; min-height: 160px; }
+
+    /* ── Pending note ── */
+    .pending-note {
+      padding: 12px 20px; font-size: 12px; color: var(--yellow);
+      background: rgba(234,179,8,0.06); border-top: 1px solid var(--border);
+    }
+
+    .tf-pills { margin-top: 3px; }
+    .tf-badge {
+      display: inline-flex; align-items: center;
+      padding: 1px 5px; border-radius: 3px;
+      font-size: 9px; font-weight: 700; letter-spacing: 0.04em;
+      border: 1px solid; margin-right: 2px;
+    }
+    .tf-badge.tf-all     { color: var(--accent);  border-color: rgba(129,140,248,0.4); background: rgba(129,140,248,0.1); }
+    .tf-badge.tf-monthly { color: var(--green);   border-color: rgba(34,197,94,0.4);   background: var(--green-bg); }
+    .tf-badge.tf-weekly  { color: var(--yellow);  border-color: rgba(234,179,8,0.4);   background: var(--yellow-bg); }
+    .tf-badge.tf-daily   { color: var(--gray);    border-color: rgba(148,163,184,0.3); background: var(--gray-bg); }
+
+    /* ── Badges ── */
+    .badge {
+      display: inline-flex; align-items: center; padding: 3px 9px;
+      border-radius: 5px; font-size: 11px; font-weight: 700;
+      letter-spacing: 0.05em; white-space: nowrap; border: 1px solid;
+    }
+
+    .cat-tag {
+      display: inline-block; margin-right: 7px; padding: 1px 7px; border-radius: 3px;
+      font-size: 10px; font-weight: 600; letter-spacing: 0.04em;
+      background: rgba(148,163,184,0.1); color: #94a3b8;
+      border: 1px solid rgba(148,163,184,0.25); vertical-align: middle; white-space: nowrap;
+    }
+
+    .badge.yes      { background: var(--green-bg);  color: var(--green);  border-color: var(--green-border);  }
+    .badge.no       { background: var(--red-bg);    color: var(--red);    border-color: var(--red-border);    }
+    .badge.name     { background: var(--blue-bg);   color: var(--blue);   border-color: var(--blue-border);   }
+    .badge.strong   { background: var(--green-bg);  color: var(--green);  border-color: var(--green-border);  }
+    .badge.moderate { background: var(--yellow-bg); color: var(--yellow); border-color: var(--yellow-border); }
+    .badge.weak     { background: var(--gray-bg);   color: var(--gray);   border-color: var(--gray-border);   }
+
+    /* ── Result badge ── */
+    .result-badge {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 24px; height: 24px; border-radius: 50%;
+      font-size: 13px; font-weight: 800; border: 1px solid;
+    }
+
+    .result-badge.correct { background: var(--green-bg); color: var(--green); border-color: var(--green-border); }
+    .result-badge.wrong   { background: var(--red-bg);   color: var(--red);   border-color: var(--red-border);   }
+
+    /* ── Win-rate summary ── */
+    .win-summary { padding: 16px 20px; border-bottom: 1px solid var(--border); }
+
+    .win-headline { font-size: 15px; font-weight: 700; margin-bottom: 10px; color: var(--text); }
+    .win-headline span { color: var(--accent); }
+
+    .win-bar-track {
+      height: 8px; background: var(--surface-2); border-radius: 4px;
+      overflow: hidden; margin-bottom: 10px; border: 1px solid var(--border);
+    }
+
+    .win-bar-fill {
+      height: 100%; border-radius: 4px;
+      background: linear-gradient(90deg, var(--green), #16a34a);
+      transition: width 0.5s ease;
+    }
+
+    .tier-row { display: flex; gap: 20px; font-size: 12px; color: var(--muted); flex-wrap: wrap; }
+    .tier-item { display: flex; align-items: center; gap: 5px; }
+    .tier-pct  { font-weight: 700; }
+    .tier-item.strong   .tier-pct { color: var(--green);  }
+    .tier-item.moderate .tier-pct { color: var(--yellow); }
+    .tier-item.weak     .tier-pct { color: var(--gray);   }
+
+    /* ── Results Tracker ── */
+    .rt-tier-block { border-bottom: 1px solid var(--border); }
+    .rt-tier-block:last-child { border-bottom: none; }
+
+    .rt-tier-header {
+      display: flex; align-items: center; gap: 12px;
+      padding: 14px 20px 10px;
+    }
+    .rt-tier-label { font-size: 13px; font-weight: 700; }
+    .rt-record { font-size: 13px; font-weight: 700; color: var(--text); }
+    .rt-record span { color: var(--accent); }
+    .rt-bar-track {
+      flex: 1; height: 6px; background: var(--surface-2);
+      border-radius: 3px; overflow: hidden; border: 1px solid var(--border);
+      min-width: 60px; max-width: 180px;
+    }
+    .rt-bar-fill { height: 100%; border-radius: 3px; transition: width 0.5s ease; }
+    .rt-bar-fill.strong   { background: linear-gradient(90deg,var(--green),#16a34a); }
+    .rt-bar-fill.moderate { background: linear-gradient(90deg,var(--yellow),#ca8a04); }
+    .rt-bar-fill.weak     { background: linear-gradient(90deg,var(--gray),#64748b); }
+    .rt-empty { padding: 10px 20px 16px; font-size: 12px; color: var(--muted); }
+
+    /* ── ROI Simulator ── */
+    .roi-section {
+      margin: 0; padding: 16px 20px;
+      border-top: 1px solid var(--border);
+      background: var(--surface-2);
+    }
+    .roi-title { font-size: 12px; font-weight: 700; letter-spacing: 0.07em; color: var(--muted); text-transform: uppercase; margin-bottom: 12px; }
+    .roi-grid { display: flex; gap: 24px; flex-wrap: wrap; }
+    .roi-item { display: flex; flex-direction: column; gap: 2px; }
+    .roi-label { font-size: 11px; color: var(--muted); }
+    .roi-value { font-size: 17px; font-weight: 800; color: var(--text); }
+    .roi-value.green { color: var(--green); }
+    .roi-value.red   { color: var(--red);   }
+    .roi-disclaimer { margin-top: 10px; font-size: 10px; color: var(--muted); }
+
+    /* ── Tab bar ── */
+    .tab-bar {
+      position: sticky; top: 0; z-index: 100;
+      display: flex; background: var(--bg);
+      border-bottom: 2px solid var(--border);
+      margin: 0 -32px 20px; padding: 0 32px;
+      overflow-x: auto; -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+    }
+    .tab-bar::-webkit-scrollbar { display: none; }
+
+    .tab-btn {
+      padding: 11px 16px; border: none; background: transparent;
+      color: var(--muted); font-size: 13px; font-weight: 600;
+      cursor: pointer; white-space: nowrap; font-family: inherit;
+      border-bottom: 2px solid transparent; margin-bottom: -2px;
+      transition: color 0.15s ease, border-color 0.15s ease; flex-shrink: 0;
+    }
+    .tab-btn:hover  { color: var(--text); }
+    .tab-btn.active { color: #2dd4bf; border-bottom-color: #2dd4bf; }
+
+    /* ── Tab panels ── */
+    .tab-panel { display: none; }
+    .tab-panel.tab-active { display: block; animation: tabFadeIn 0.15s ease; }
+    @keyframes tabFadeIn { from { opacity: 0; transform: translateY(3px); } to { opacity: 1; transform: none; } }
+
+    /* ── Chart panel ── */
+    .chart-wrap { padding: 16px; }
+
+    /* ── States ── */
+    .empty { padding: 40px 24px; text-align: center; color: var(--muted); font-size: 13px; }
+
+    .error-box { padding: 20px 24px; color: var(--red); font-size: 12px; font-family: "SF Mono","Fira Code",monospace; line-height: 1.8; }
+    .error-box a { color: var(--accent); }
+
+    /* ── Resolution date ── */
+    .resolve-date   { font-size: 11px; margin-top: 3px; font-weight: 500; }
+    .resolve-muted  { color: var(--muted);  }
+    .resolve-yellow { color: var(--yellow); }
+    .resolve-red    { color: var(--red);    }
+
+    /* ── Timestamps ── */
+    .ts-cell { font-family: "SF Mono","Fira Code",monospace; font-size: 11px; color: var(--muted); white-space: nowrap; }
+
+    /* ── Mobile ── */
+    @media (max-width: 768px) {
+      body { padding: 14px 16px; }
+      header { margin-bottom: 14px; }
+      .header-right { text-align: left; width: 100%; }
+      #last-updated { justify-content: flex-start; }
+      .signal-count { font-size: 22px; }
+      .stats-bar { padding: 10px 14px; }
+      .stat-item { padding: 0 12px; min-width: 70px; }
+      .stat-item:first-child { padding-left: 2px; }
+      .stat-meta { width: 100%; margin-left: 0; padding-left: 0; padding-top: 6px; }
+      .grid { grid-template-columns: 1fr; }
+      .step-arrow { display: none; }
+      .market-title { max-width: 100%; }
+      .tier-row { gap: 12px; }
+      .tab-bar { margin: 0 -16px 16px; padding: 0 16px; }
+      .tab-btn { padding: 10px 13px; font-size: 12px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <h1>🐋 Polymarket Whale Scanner</h1>
+    <p>Top-20 PnL trader consensus signals · updated every 15 min</p>
+  </div>
+  <div class="header-right">
+    <span class="signal-count" id="signal-count">—</span>
+    active signals
+    <div id="last-updated"><span class="dot"></span><span id="ts-text">loading...</span></div>
+  </div>
+</header>
+
+<!-- Tab bar -->
+<nav class="tab-bar" role="tablist">
+  <button class="tab-btn active" data-tab="results"  onclick="switchTab('results')"  role="tab">🧪 Strategy Lab</button>
+  <button class="tab-btn" data-tab="live"     onclick="switchTab('live')"     role="tab">🔴 Live Signals</button>
+  <button class="tab-btn" data-tab="history"  onclick="switchTab('history')"  role="tab">📋 History</button>
+  <button class="tab-btn" data-tab="overview" onclick="switchTab('overview')" role="tab">📊 Overview</button>
+</nav>
+
+<!-- ── Tab 1: Overview ── -->
+<div class="tab-panel" id="panel-overview">
+
+  <div id="alltime-bar" class="stats-bar" style="display:none">
+    <div class="stat-item">
+      <span class="stat-label">Total Signals</span>
+      <span class="stat-value accent" id="at-total">—</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-label">Unique Markets</span>
+      <span class="stat-value" id="at-markets">—</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-label">Largest Position</span>
+      <span class="stat-value" id="at-largest">—</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-label">Most Active Rank</span>
+      <span class="stat-value" id="at-rank">—</span>
+    </div>
+  </div>
+
+  <div id="backtest-bar" class="stats-bar" style="display:none">
+    <div class="stat-item">
+      <span class="stat-label">Overall Hit Rate</span>
+      <span class="stat-value" id="sb-overall">—</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-label">Strong</span>
+      <span class="stat-value green" id="sb-strong">—</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-label">Moderate</span>
+      <span class="stat-value yellow" id="sb-moderate">—</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-label">Weak</span>
+      <span class="stat-value gray" id="sb-weak">—</span>
+    </div>
+    <span class="stat-meta" id="sb-meta"></span>
+  </div>
+
+  <details class="explainer">
+    <summary>
+      <span>How this works</span>
+      <span class="toggle-icon">›</span>
+    </summary>
+    <div class="explainer-steps">
+      <div class="step">
+        <div class="step-icon">🏆</div>
+        <div class="step-num">Step 1</div>
+        <div class="step-text">Track top 20 traders by all-time PnL on Polymarket</div>
+      </div>
+      <div class="step-arrow">›</div>
+      <div class="step">
+        <div class="step-icon">🐋</div>
+        <div class="step-num">Step 2</div>
+        <div class="step-text">Find markets where 3 or more of them hold the same position</div>
+      </div>
+      <div class="step-arrow">›</div>
+      <div class="step">
+        <div class="step-icon">📡</div>
+        <div class="step-num">Step 3</div>
+        <div class="step-text">Score by rank weight × position size — alert Discord when new consensus emerges</div>
+      </div>
+    </div>
+  </details>
+
+  <div class="card">
+    <div class="card-header">Whale Leaderboard</div>
+    <div id="whale-board"><div class="empty" style="padding:24px">Loading...</div></div>
+  </div>
+
+</div>
+
+<!-- ── Tab 2: Live Signals ── -->
+<div class="tab-panel" id="panel-live">
+
+  <div class="grid">
+    <div class="card" style="margin-bottom:0">
+      <div class="card-header">Current Signals</div>
+      <div class="filter-row">
+        <button class="filter-btn active" onclick="setFilter('All')">All</button>
+        <button class="filter-btn" onclick="setFilter('Sports')">Sports</button>
+        <button class="filter-btn" onclick="setFilter('Economy')">Economy</button>
+        <button class="filter-btn" onclick="setFilter('Politics')">Politics</button>
+      </div>
+      <div id="table-container"><div class="empty">Loading...</div></div>
+    </div>
+    <div class="sidebar">
+      <div class="card" style="margin-bottom:0">
+        <div class="card-header">Top Signal</div>
+        <div id="top-signal-container"><div class="empty" style="padding:24px">Loading…</div></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ── Tab 3: History ── -->
+<div class="tab-panel" id="panel-history">
+
+  <div class="card">
+    <div class="card-header">Recent Alerts</div>
+    <div id="alerts-container"><div class="empty">Loading...</div></div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">Signal History (last 20 unique)</div>
+    <div id="history-container"><div class="empty">Loading...</div></div>
+  </div>
+
+</div>
+
+<!-- ── Tab 4: Strategy Lab ── -->
+<div class="tab-panel tab-active" id="panel-results">
+
+  <nav class="sub-tab-bar" role="tablist">
+    <button class="sub-tab-btn sub-active" data-subtab="overview" onclick="switchSubTab('overview')" role="tab">📊 Overview</button>
+    <button class="sub-tab-btn" data-subtab="sa" onclick="switchSubTab('sa')" role="tab">🐋 Strategy A</button>
+    <button class="sub-tab-btn" data-subtab="sb" onclick="switchSubTab('sb')" role="tab">📉 Strategy B</button>
+    <button class="sub-tab-btn" data-subtab="sc" onclick="switchSubTab('sc')" role="tab">📈 Strategy C</button>
+    <button class="sub-tab-btn" data-subtab="sd" onclick="switchSubTab('sd')" role="tab">💰 Strategy D</button>
+  </nav>
+
+  <div class="sub-tab-panel sub-active" id="subpanel-overview">
+    <div id="overview-content"><div class="empty" style="padding:48px">Loading strategy data…</div></div>
+  </div>
+
+  <div class="sub-tab-panel" id="subpanel-sa">
+    <div id="strategy-sa-content"><div class="empty" style="padding:48px">Loading…</div></div>
+  </div>
+
+  <div class="sub-tab-panel" id="subpanel-sb">
+    <div id="strategy-sb-content"><div class="empty" style="padding:48px">Loading…</div></div>
+  </div>
+
+  <div class="sub-tab-panel" id="subpanel-sc">
+    <div id="strategy-sc-content"><div class="empty" style="padding:48px">Loading…</div></div>
+  </div>
+
+  <div class="sub-tab-panel" id="subpanel-sd">
+    <div id="strategy-sd-content"><div class="empty" style="padding:48px">Loading…</div></div>
+  </div>
+
+</div>
+
+<script>
+  let strategyChart  = null;
+  let rollingChart   = null;
+  let activeFilter   = "All";
+  let currentSignals = [];
+  let currentLog     = [];
+  let activeTab      = "results";
+  let activeSubTab   = "overview";
+
+  // ── Tab navigation ────────────────────────────────────────────────────────
+
+  function switchTab(name) {
+    activeTab = name;
+    document.querySelectorAll(".tab-btn").forEach(b =>
+      b.classList.toggle("active", b.dataset.tab === name)
+    );
+    document.querySelectorAll(".tab-panel").forEach(p =>
+      p.classList.toggle("tab-active", p.id === "panel-" + name)
+    );
+    // Chart.js dimensions are wrong when canvas was hidden during initial render
+    if (name === "results") {
+      if (strategyChart) setTimeout(() => strategyChart.resize(), 30);
+      if (rollingChart)  setTimeout(() => rollingChart.resize(),  30);
+    }
+  }
+
+  function switchSubTab(name) {
+    activeSubTab = name;
+    document.querySelectorAll(".sub-tab-btn").forEach(b =>
+      b.classList.toggle("sub-active", b.dataset.subtab === name)
+    );
+    document.querySelectorAll(".sub-tab-panel").forEach(p =>
+      p.classList.toggle("sub-active", p.id === "subpanel-" + name)
+    );
+    if (name === "overview" && strategyChart) setTimeout(() => strategyChart.resize(), 30);
+  }
+
+  Chart.register(ChartDataLabels);
+
+  // ── Helpers ──────────────────────────────────────────────────────────────
+
+  function esc(s) {
+    return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+  }
+
+  function badgeInfo(outcome) {
+    const o = outcome.toLowerCase().trim();
+    if (o === "yes") return { cls: "yes",  label: "YES" };
+    if (o === "no")  return { cls: "no",   label: "NO"  };
+    const label = outcome.length > 20 ? outcome.slice(0,19)+"…" : outcome;
+    return { cls: "name", label };
+  }
+
+  function confidenceInfo(score) {
+    if (score >= 10) return { cls: "strong",   label: "Strong"   };
+    if (score >= 4)  return { cls: "moderate", label: "Moderate" };
+    return                  { cls: "weak",     label: "Weak"     };
+  }
+
+  function chartColor(outcome) {
+    const o = outcome.toLowerCase().trim();
+    if (o === "yes") return { bg:"rgba(34,197,94,0.65)",  border:"rgba(34,197,94,1)"  };
+    if (o === "no")  return { bg:"rgba(239,68,68,0.65)",  border:"rgba(239,68,68,1)"  };
+    return                  { bg:"rgba(96,165,250,0.65)", border:"rgba(96,165,250,1)" };
+  }
+
+  function fmtUSD(n) {
+    return "$" + Math.round(n).toLocaleString("en-US");
+  }
+
+  function fmtUSDShort(n) {
+    if (n >= 1e6) return "$" + (n/1e6).toFixed(1) + "M";
+    if (n >= 1e3) return "$" + Math.round(n/1e3) + "K";
+    return "$" + Math.round(n);
+  }
+
+  function fmtResolveDate(dateStr) {
+    if (!dateStr) return null;
+    const d = new Date(dateStr + "T00:00:00Z");
+    if (isNaN(d.getTime())) return null;
+    const diffHours = (d.getTime() - Date.now()) / 36e5;
+    const label = "Resolves " + d.toLocaleDateString("en-US",{month:"short",day:"numeric",timeZone:"UTC"});
+    if (diffHours <= 0)   return { label:"Resolved", cls:"resolve-muted"  };
+    if (diffHours <= 48)  return { label,            cls:"resolve-red"    };
+    if (diffHours <= 168) return { label,            cls:"resolve-yellow" };
+    return                       { label,            cls:"resolve-muted"  };
+  }
+
+  function polyLink(id) { return "https://polymarket.com/event/" + id; }
+
+  function shortAddr(w) { return w.slice(0,6) + "…" + w.slice(-4); }
+
+  // ── Category filter grouping ──────────────────────────────────────────────
+
+  const SPORT_TERMS = ["mlb","nba","nfl","nhl","soccer","tennis","golf","mma","boxing",
+                       "cricket","formula","esport","ncaa","sport","olympic","hockey",
+                       "football","basketball","baseball","rugby","ufc","wrestling"];
+  const ECON_TERMS  = ["economy","crypto","finance","market","stock","business","trade",
+                       "bitcoin","ethereum","fed","gdp","inflation","commodit"];
+  const POL_TERMS   = ["politic","election","government","congress","senate","president",
+                       "democrat","republican","vote","ballot","white house","parliament"];
+
+  function signalGroup(s) {
+    const cat = (s.category || "").toLowerCase();
+    if (SPORT_TERMS.some(t => cat.includes(t))) return "Sports";
+    if (ECON_TERMS.some(t =>  cat.includes(t))) return "Economy";
+    if (POL_TERMS.some(t =>   cat.includes(t))) return "Politics";
+    return null;
+  }
+
+  function setFilter(f) {
+    activeFilter = f;
+    document.querySelectorAll(".filter-btn").forEach(btn => {
+      btn.classList.toggle("active", btn.textContent === f);
+    });
+    renderTable(currentSignals);
+  }
+
+  // ── All-time stats ────────────────────────────────────────────────────────
+
+  function renderAlltimeStats(log) {
+    let totalSignals = 0;
+    const uniqueMarkets = new Set();
+    let largestPosition = 0;
+    const rankCounts = {};
+    for (const scan of log) {
+      for (const s of (scan.signals || [])) {
+        totalSignals++;
+        uniqueMarkets.add(s.condition_id);
+        if ((s.total_value_usd || 0) > largestPosition) largestPosition = s.total_value_usd;
+        for (const r of (s.ranks || [])) rankCounts[r] = (rankCounts[r] || 0) + 1;
+      }
+    }
+    let mostActiveRank = "—", maxCount = 0;
+    for (const [rank, count] of Object.entries(rankCounts)) {
+      if (count > maxCount) { maxCount = count; mostActiveRank = "#" + rank; }
+    }
+    document.getElementById("at-total").textContent   = totalSignals;
+    document.getElementById("at-markets").textContent = uniqueMarkets.size;
+    document.getElementById("at-largest").textContent = fmtUSDShort(largestPosition);
+    document.getElementById("at-rank").textContent    = mostActiveRank;
+    document.getElementById("alltime-bar").style.display = "flex";
+  }
+
+  // ── Whale leaderboard ─────────────────────────────────────────────────────
+
+  const TF_META = [
+    { label: "All",     cls: "tf-all" },
+    { label: "Monthly", cls: "tf-monthly" },
+    { label: "Weekly",  cls: "tf-weekly" },
+    { label: "Daily",   cls: "tf-daily" },
+  ];
+
+  function tfPills(wallet, whaleTimeframes) {
+    const tfs = (whaleTimeframes || {})[wallet] || [];
+    if (!tfs.length) return "";
+    const badges = TF_META
+      .filter(m => tfs.includes(m.label))
+      .map(m => `<span class="tf-badge ${m.cls}">${m.label}</span>`)
+      .join("");
+    return `<div class="tf-pills">${badges}</div>`;
+  }
+
+  function consistencyBadge(wallet, whaleTimeframes) {
+    const n = ((whaleTimeframes || {})[wallet] || []).length;
+    if (!n) return "";
+    return `<span class="consistency-badge c${n}" title="${n} timeframe${n !== 1 ? "s" : ""}">${n}</span>`;
+  }
+
+  function renderWhaleLeaderboard(signals, whaleTimeframes) {
+    const el = document.getElementById("whale-board");
+
+    // Use current signals; fall back to recent unique history if scan is empty
+    let source = [...signals];
+    if (!source.length) {
+      const seen = new Set();
+      for (let i = currentLog.length - 1; i >= 0; i--) {
+        for (const s of (currentLog[i].signals || [])) {
+          if (!seen.has(s.signal_key)) { seen.add(s.signal_key); source.push(s); }
+        }
+        if (!Object.keys(whaleTimeframes || {}).length) {
+          whaleTimeframes = currentLog[i].whale_timeframes || {};
+        }
+        if (source.length >= 20) break;
+      }
+    }
+
+    const whales = {};
+    for (const s of source) {
+      (s.wallets || []).forEach((w, i) => {
+        if (!whales[w]) whales[w] = { rank: (s.ranks || [])[i] || 99, count: 0 };
+        whales[w].count++;
+      });
+    }
+
+    const rows = Object.entries(whales)
+      .map(([wallet, d]) => ({ wallet, ...d }))
+      .sort((a, b) => a.rank - b.rank)
+      .slice(0, 10);
+
+    if (!rows.length) {
+      el.innerHTML = '<div class="empty" style="padding:24px">No whale data yet.</div>';
+      return;
+    }
+
+    const borderColor = n => n >= 4 ? "var(--green)" : n >= 3 ? "var(--yellow)" : "rgba(148,163,184,0.35)";
+    const html = rows.map(d => {
+      const n = ((whaleTimeframes || {})[d.wallet] || []).length;
+      return `<div class="whale-row" style="border-left-color:${borderColor(n)}">
+        <div class="whale-row-rank">#${d.rank}</div>
+        <div class="whale-row-info">
+          <div class="whale-row-addr">${esc(shortAddr(d.wallet))}</div>
+          ${tfPills(d.wallet, whaleTimeframes)}
+        </div>
+        <span class="whale-signals-badge">${d.count}</span>
+      </div>`;
+    }).join("");
+
+    el.innerHTML = html;
+  }
+
+  // ── Recent alerts ─────────────────────────────────────────────────────────
+
+  function renderAlerts(log) {
+    const el = document.getElementById("alerts-container");
+
+    // Compute new signals per scan (same logic as main.py)
+    const alerts = [];
+    for (let i = 0; i < log.length; i++) {
+      const prevKeys = i > 0
+        ? new Set((log[i-1].signals || []).map(s => s.signal_key))
+        : new Set();
+      for (const s of (log[i].signals || [])) {
+        if (!prevKeys.has(s.signal_key)) {
+          alerts.push({ ts: log[i].timestamp, signal: s });
+        }
+      }
+    }
+
+    const recent = alerts.slice(-5).reverse(); // last 5, newest first
+
+    if (!recent.length) {
+      el.innerHTML = '<div class="empty">No alerts sent yet — signals appear here when new consensus is detected.</div>';
+      return;
+    }
+
+    const rows = recent.map(({ ts, signal: s }) => {
+      const dir  = badgeInfo(s.outcome);
+      const conf = confidenceInfo(s.score);
+      const time = ts ? ts.slice(0,16).replace("T"," ") + " UTC" : "—";
+      return `<tr>
+        <td class="ts-cell">${esc(time)}</td>
+        <td>
+          <div class="market-title" style="max-width:none">
+            ${s.category ? `<span class="cat-tag">${esc(s.category)}</span>` : ""}
+            <a class="market-link" href="${esc(polyLink(s.condition_id))}" target="_blank" rel="noopener">${esc(s.title)}</a>
+          </div>
+        </td>
+        <td><span class="badge ${dir.cls}">${esc(dir.label)}</span></td>
+        <td><span class="badge ${conf.cls}">${conf.label}</span></td>
+        <td class="r">${esc(fmtUSD(s.total_value_usd || 0))}</td>
+      </tr>`;
+    }).join("");
+
+    el.innerHTML = `<div class="table-scroll"><table>
+      <thead><tr>
+        <th>Sent</th><th>Market</th><th>Direction</th><th>Confidence</th><th class="r">Total USD</th>
+      </tr></thead>
+      <tbody>${rows}</tbody>
+    </table></div>`;
+  }
+
+  // ── Signal history ────────────────────────────────────────────────────────
+
+  function renderHistory(log) {
+    const el = document.getElementById("history-container");
+    const seen = {};
+    for (const scan of log) {
+      for (const s of (scan.signals || [])) {
+        const key = s.signal_key || (s.condition_id + ":" + s.outcome_index);
+        if (!seen[key]) seen[key] = { ...s, first_seen: scan.timestamp };
+      }
+    }
+    const history = Object.values(seen).sort((a,b) => b.first_seen.localeCompare(a.first_seen)).slice(0,20);
+    if (!history.length) {
+      el.innerHTML = '<div class="empty">No history yet — run a scan first.</div>';
+      return;
+    }
+    const rows = history.map(s => {
+      const dir     = badgeInfo(s.outcome);
+      const conf    = confidenceInfo(s.score);
+      const resolve = fmtResolveDate(s.end_date);
+      const ts      = s.first_seen ? s.first_seen.slice(0,16).replace("T"," ") + " UTC" : "—";
+      return `<tr>
+        <td class="ts-cell">${esc(ts)}</td>
+        <td>
+          <div class="market-title">
+            ${s.category ? `<span class="cat-tag">${esc(s.category)}</span>` : ""}
+            <a class="market-link" href="${esc(polyLink(s.condition_id))}" target="_blank" rel="noopener">${esc(s.title)}</a>
+          </div>
+          ${resolve ? `<div class="resolve-date ${resolve.cls}">${resolve.label}</div>` : ""}
+        </td>
+        <td><span class="badge ${dir.cls}">${esc(dir.label)}</span></td>
+        <td><span class="badge ${conf.cls}">${conf.label}</span></td>
+        <td class="r">${esc(fmtUSD(s.total_value_usd || 0))}</td>
+      </tr>`;
+    }).join("");
+    el.innerHTML = `<div class="table-scroll"><table>
+      <thead><tr>
+        <th>First Seen</th><th>Market</th><th>Direction</th><th>Confidence</th><th class="r">Total USD</th>
+      </tr></thead>
+      <tbody>${rows}</tbody>
+    </table></div>`;
+  }
+
+  // ── Strategy Lab ─────────────────────────────────────────────────────────
+
+  const STRATEGY_META = {
+    "A": {
+      icon: "🐋", name: "Whale Consensus",
+      hypothesis: "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake — consensus among them is a stronger signal than any individual call.",
+    },
+    "B": {
+      icon: "📉", name: "Contrarian",
+      hypothesis: "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets — same trigger, opposite bets — so the results are a direct comparison.",
+    },
+    "C": {
+      icon: "📈", name: "Heavy Favorite",
+      hypothesis: "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B — same markets, opposite calls.",
+    },
+    "D": {
+      icon: "💰", name: "Conviction Sizing",
+      hypothesis: "Signals where total position size exceeds $500k represent the highest-conviction whale bets. When top traders put serious capital behind a position, that's a qualitatively different signal from a small stake. This filters for only the highest-conviction consensus calls to test whether size predicts accuracy.",
+    },
+  };
+
+  const BC_CALLOUT = `<div class="bc-callout">
+    <strong>Strategy B and C are tested on identical markets</strong> (price &gt;85% on one side).
+    B bets against the crowd, C bets with it. This is a direct test of whether Polymarket
+    heavy favorites are over or underpriced — the two win rates will always sum toward 100%
+    on the same resolved signal set.
+  </div>`;
+
+  function fmtShortDate(s) {
+    if (!s) return "—";
+    const d = new Date((s.length === 10 ? s + "T00:00:00Z" : s));
+    return d.toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric",timeZone:"UTC"});
+  }
+
+  function slabSignalsTable(signals) {
+    if (!signals.length) return '<div class="empty" style="padding:32px">No signals have triggered this strategy yet.</div>';
+
+    const rows = signals.map(s => {
+      const dir      = badgeInfo(s.whale_direction || "");
+      const actBadge = s.resolved_outcome ? badgeInfo(s.resolved_outcome) : null;
+      const entryHtml = s.entry_price != null
+        ? `<span style="font-family:'SF Mono','Fira Code',monospace;font-size:11px">${Math.round(s.entry_price * 100)}¢</span>`
+        : `<span style="color:var(--muted)">—</span>`;
+      const dateLabel = s.resolved_date ? fmtShortDate(s.resolved_date) : (s.end_date ? fmtShortDate(s.end_date) : "—");
+      const resultHtml = s.result === "correct"
+        ? `<span class="result-badge correct">✓</span>`
+        : s.result === "wrong"
+        ? `<span class="result-badge wrong">✗</span>`
+        : `<span style="color:var(--muted);font-size:11px">Pending</span>`;
+      return `<tr${s.result === "pending" ? ' style="opacity:0.6"' : ""}>
+        <td>
+          <div class="market-title">
+            ${s.category ? `<span class="cat-tag">${esc(s.category)}</span>` : ""}
+            <a class="market-link" href="${esc(polyLink(s.condition_id))}" target="_blank" rel="noopener">${esc(s.title)}</a>
+          </div>
+        </td>
+        <td><span class="badge ${dir.cls}">${esc(dir.label)}</span></td>
+        <td>${entryHtml}</td>
+        <td>${actBadge ? `<span class="badge ${actBadge.cls}">${esc(actBadge.label)}</span>` : `<span style="color:var(--muted)">—</span>`}</td>
+        <td class="ts-cell">${esc(dateLabel)}</td>
+        <td class="c">${resultHtml}</td>
+      </tr>`;
+    }).join("");
+
+    return `<div class="table-scroll"><table>
+      <thead><tr>
+        <th>Market</th><th>Whale Bet</th><th>Entry Price</th>
+        <th>Actual Outcome</th><th>Date</th><th class="c">Result</th>
+      </tr></thead>
+      <tbody>${rows}</tbody>
+    </table></div>`;
+  }
+
+  function renderStrategySubTab(key, data) {
+    const el = document.getElementById(`strategy-s${key.toLowerCase()}-content`);
+    if (!el) return;
+    const meta    = STRATEGY_META[key] || {};
+    const correct = data.correct  ?? 0;
+    const wrong   = data.wrong    ?? 0;
+    const pending = data.pending  ?? 0;
+    const wr      = data.win_rate;
+    const pct     = wr ?? 0;
+    const signals = data.signals ?? [];
+    const donutId = `donut-${key}`;
+
+    const pendingSignals = signals.filter(s => s.result === "pending");
+    const pendingDates   = pendingSignals.map(s => s.end_date || "").filter(Boolean).sort();
+    const statusHtml     = (correct + wrong) === 0 && pendingDates.length > 0
+      ? `<div class="pending-note">Waiting for first resolution — check back after ${fmtShortDate(pendingDates[0])}</div>`
+      : "";
+
+    const total = correct + wrong + pending;
+
+    el.innerHTML = `
+      <div class="slab-card strategy-${key.toLowerCase()}">
+        <div class="slab-card-header">${meta.icon || ""} ${key}: ${meta.name || data.name || ""}</div>
+        <div class="slab-hypothesis">${esc(meta.hypothesis || data.hypothesis || data.description || "")}</div>
+        <div class="slab-record">
+          <div class="slab-stat">
+            <span class="slab-stat-label">Correct</span>
+            <span class="slab-stat-value correct">${correct}</span>
+          </div>
+          <div class="slab-stat">
+            <span class="slab-stat-label">Wrong</span>
+            <span class="slab-stat-value wrong">${wrong}</span>
+          </div>
+          <div class="slab-stat">
+            <span class="slab-stat-label">Pending</span>
+            <span class="slab-stat-value pending">${pending}</span>
+          </div>
+          ${(correct + wrong) > 0 ? `
+            <div class="slab-win-bar"><div class="slab-win-fill" style="width:${pct}%"></div></div>
+            <span class="slab-win-pct">${pct}% win rate</span>
+          ` : ""}
+          ${total > 0 ? `<div style="margin-left:auto;flex-shrink:0"><canvas id="${donutId}" width="90" height="90"></canvas></div>` : ""}
+        </div>
+      </div>
+      <div class="slab-card">
+        <div class="slab-card-header">Signals</div>
+        ${statusHtml}
+        ${slabSignalsTable(signals)}
+      </div>`;
+
+    if (total > 0) {
+      requestAnimationFrame(() => {
+        const canvas = document.getElementById(donutId);
+        if (!canvas) return;
+        new Chart(canvas, {
+          type: "doughnut",
+          data: {
+            labels: ["Correct", "Wrong", "Pending"],
+            datasets: [{
+              data: [correct, wrong, pending],
+              backgroundColor: ["rgba(34,197,94,0.75)", "rgba(239,68,68,0.75)", "rgba(90,96,128,0.35)"],
+              borderColor:     ["#22c55e",              "#ef4444",              "#2a2e4a"             ],
+              borderWidth: 1,
+            }]
+          },
+          options: {
+            responsive: false,
+            cutout: "62%",
+            plugins: {
+              legend: { display: false },
+              datalabels: { display: false },
+              tooltip: {
+                callbacks: { label: ctx => ` ${ctx.label}: ${ctx.raw}` },
+                backgroundColor: "#1e2135", borderColor: "#2a2e4a", borderWidth: 1,
+                titleColor: "#e2e8f0", bodyColor: "#9ca3af",
+              }
+            }
+          }
+        });
+      });
+    }
+  }
+
+  function computeRolling7DayWinRate(signals) {
+    const MS7D = 7 * 24 * 60 * 60 * 1000;
+    const resolved = signals
+      .filter(s => s.result === "correct" || s.result === "wrong")
+      .map(s => ({ date: s.resolved_date || "", correct: s.result === "correct" }))
+      .filter(s => s.date)
+      .sort((a, b) => a.date.localeCompare(b.date));
+    if (resolved.length < 2) return null;
+    const dates = [...new Set(resolved.map(s => s.date))].sort();
+    return dates.map(date => {
+      const cutoffMs = new Date(date + "T00:00:00Z").getTime();
+      const w = resolved.filter(s => {
+        const t = new Date(s.date + "T00:00:00Z").getTime();
+        return t >= cutoffMs - MS7D && t <= cutoffMs;
+      });
+      if (!w.length) return null;
+      return { date, winRate: Math.round(w.filter(s => s.correct).length / w.length * 100), count: w.length };
+    }).filter(Boolean);
+  }
+
+  const STRAT_COLORS = {
+    "A": { bar: "rgba(45,212,191,0.75)",  border: "#2dd4bf" },
+    "B": { bar: "rgba(239,68,68,0.75)",   border: "#ef4444" },
+    "C": { bar: "rgba(34,197,94,0.75)",   border: "#22c55e" },
+    "D": { bar: "rgba(234,179,8,0.75)",   border: "#eab308" },
+  };
+
+  function renderStrategyOverview(strategies, totalPending) {
+    const el   = document.getElementById("overview-content");
+    const KEYS = ["A", "B", "C", "D"];
+    const rates   = KEYS.map(k => strategies[k]?.win_rate ?? 0);
+    const bgs     = KEYS.map(k => STRAT_COLORS[k].bar);
+    const borders = KEYS.map(k => STRAT_COLORS[k].border);
+
+    const tableRows = KEYS.map(k => {
+      const d  = strategies[k] || {};
+      const m  = STRATEGY_META[k] || {};
+      const wr = d.win_rate != null ? `${d.win_rate}%` : "—";
+      return `<tr>
+        <td style="width:32px"><strong style="color:${STRAT_COLORS[k].border}">${k}</strong></td>
+        <td>${esc(m.name || "")}</td>
+        <td class="r">${d.signals_evaluated ?? 0}</td>
+        <td class="r" style="color:var(--green)">${d.correct ?? 0}</td>
+        <td class="r" style="color:var(--red)">${d.wrong ?? 0}</td>
+        <td class="r" style="font-weight:700">${wr}</td>
+      </tr>`;
+    }).join("");
+
+    const signalsA    = strategies["A"]?.signals ?? [];
+    const rollingData = computeRolling7DayWinRate(signalsA);
+    const hasLineData = rollingData && rollingData.length >= 2;
+
+    el.innerHTML = `
+      ${BC_CALLOUT}
+      <div class="slab-card">
+        <div class="slab-card-header">Win Rate by Strategy</div>
+        <div class="overview-chart-wrap" style="min-height:210px"><canvas id="strategy-chart"></canvas></div>
+      </div>
+      <div class="slab-card">
+        <div class="slab-card-header">Summary</div>
+        <div class="table-scroll"><table>
+          <thead><tr>
+            <th>Key</th><th>Strategy</th>
+            <th class="r">Evaluated</th><th class="r">Correct</th>
+            <th class="r">Wrong</th><th class="r">Win Rate</th>
+          </tr></thead>
+          <tbody>${tableRows}</tbody>
+        </table></div>
+        ${totalPending ? `<div class="pending-note">${totalPending} signal${totalPending !== 1 ? "s" : ""} pending — excluded from win rates</div>` : ""}
+      </div>
+      ${hasLineData ? `
+      <div class="slab-card">
+        <div class="slab-card-header">Strategy A · Rolling 7-Day Accuracy</div>
+        <div class="overview-chart-wrap" style="min-height:180px"><canvas id="rolling-chart"></canvas></div>
+      </div>` : ""}`;
+
+    requestAnimationFrame(() => {
+      const canvas = document.getElementById("strategy-chart");
+      if (canvas) {
+        if (strategyChart) strategyChart.destroy();
+        strategyChart = new Chart(canvas, {
+          type: "bar",
+          data: {
+            labels: KEYS.map(k => STRATEGY_META[k]?.name ?? k),
+            datasets: [{
+              data: rates,
+              backgroundColor: bgs,
+              borderColor: borders,
+              borderWidth: 2,
+              borderRadius: 6,
+            }]
+          },
+          options: {
+            responsive: true,
+            aspectRatio: 2.4,
+            plugins: {
+              legend: { display: false },
+              tooltip: {
+                callbacks: { label: ctx => `  ${ctx.raw ?? 0}% win rate` },
+                backgroundColor: "#1e2135", borderColor: "#2a2e4a", borderWidth: 1,
+                titleColor: "#e2e8f0", bodyColor: "#9ca3af",
+              },
+              datalabels: {
+                anchor: "end", align: "top",
+                formatter: val => val > 0 ? `${val}%` : "—",
+                color: "#e2e8f0", font: { size: 13, weight: "700" }, offset: 4,
+              }
+            },
+            scales: {
+              x: { grid: { display: false }, ticks: { color: "#e2e8f0", font: { size: 12 } } },
+              y: {
+                min: 0, max: 100,
+                grid: { color: "rgba(255,255,255,0.04)" },
+                ticks: { color: "#5a6080", font: { size: 10 }, callback: v => v + "%" }
+              }
+            }
+          }
+        });
+      }
+
+      if (hasLineData) {
+        const lineCanvas = document.getElementById("rolling-chart");
+        if (lineCanvas) {
+          if (rollingChart) rollingChart.destroy();
+          rollingChart = new Chart(lineCanvas, {
+            type: "line",
+            data: {
+              labels: rollingData.map(d => d.date),
+              datasets: [{
+                data: rollingData.map(d => d.winRate),
+                borderColor: "#2dd4bf",
+                backgroundColor: "rgba(45,212,191,0.08)",
+                borderWidth: 2,
+                pointRadius: 4,
+                pointBackgroundColor: "#2dd4bf",
+                fill: true,
+                tension: 0.3,
+              }]
+            },
+            options: {
+              responsive: true,
+              aspectRatio: 3,
+              plugins: {
+                legend: { display: false },
+                tooltip: {
+                  callbacks: {
+                    label: ctx => `  ${ctx.raw}% (${rollingData[ctx.dataIndex]?.count ?? "?"} signals)`,
+                  },
+                  backgroundColor: "#1e2135", borderColor: "#2a2e4a", borderWidth: 1,
+                  titleColor: "#e2e8f0", bodyColor: "#9ca3af",
+                },
+                datalabels: { display: false },
+              },
+              scales: {
+                x: {
+                  grid: { display: false },
+                  ticks: { color: "#5a6080", font: { size: 10 }, maxTicksLimit: 8 }
+                },
+                y: {
+                  min: 0, max: 100,
+                  grid: { color: "rgba(255,255,255,0.04)" },
+                  ticks: { color: "#5a6080", font: { size: 10 }, callback: v => v + "%" }
+                }
+              }
+            }
+          });
+        }
+      }
+    });
+  }
+
+  function renderStrategyLab(d) {
+    const strategies = d.strategies || {};
+    renderStrategyOverview(strategies, d.total_pending ?? 0);
+    for (const k of ["A", "B", "C", "D"]) {
+      renderStrategySubTab(k, strategies[k] || {});
+    }
+  }
+
+  // ── Current signals table (with empty-state fallback) ────────────────────
+
+  function signalRowHtml(s, opts = {}) {
+    const dir     = badgeInfo(s.outcome);
+    const conf    = confidenceInfo(s.score);
+    const ranks   = Array.isArray(s.ranks) ? s.ranks.map(r => "#"+r).join(", ") : "—";
+    const resolve = fmtResolveDate(s.end_date);
+    const lastSeenNote = opts.lastSeen ? `Last seen ${esc(opts.lastSeen)} · ` : "";
+    return `<div class="signal-item"${opts.dim ? ' style="opacity:0.65"' : ""}>
+      <div class="signal-item-title">
+        ${s.category ? `<span class="cat-tag">${esc(s.category)}</span>` : ""}
+        <a class="market-link" href="${esc(polyLink(s.condition_id))}" target="_blank" rel="noopener">${esc(s.title)}</a>
+      </div>
+      <div class="signal-meta-row">
+        <span class="signal-meta-whale">🐋 ${s.whale_count}</span>
+        <span class="badge ${dir.cls}">${esc(dir.label)}</span>
+        <span class="signal-meta-usd">${esc(fmtUSD(s.total_value_usd || 0))}</span>
+        <span class="badge ${conf.cls}">${conf.label}</span>
+      </div>
+      <div class="signal-footer">
+        ${resolve ? `<span class="resolve-date ${resolve.cls}">${resolve.label}</span>` : "<span></span>"}
+        <span class="signal-footer-ranks">${lastSeenNote}Ranks: ${esc(ranks)}</span>
+      </div>
+    </div>`;
+  }
+
+  function renderTable(signals) {
+    const el = document.getElementById("table-container");
+
+    const filtered = activeFilter === "All"
+      ? signals
+      : signals.filter(s => signalGroup(s) === activeFilter);
+
+    if (!filtered.length && activeFilter !== "All") {
+      el.innerHTML = `<div class="empty">No ${esc(activeFilter)} signals in the latest scan.</div>`;
+      return;
+    }
+
+    if (!filtered.length) {
+      // No active signals — show last 3 unique from history
+      const seen = new Set();
+      const fallback = [];
+      for (let i = currentLog.length - 1; i >= 0 && fallback.length < 3; i--) {
+        for (const s of (currentLog[i].signals || [])) {
+          if (!seen.has(s.signal_key)) {
+            seen.add(s.signal_key);
+            fallback.push({ ...s, _ts: currentLog[i].timestamp });
+          }
+          if (fallback.length >= 3) break;
+        }
+      }
+      if (!fallback.length) {
+        el.innerHTML = '<div class="empty">No signals detected yet — scanner is running.</div>';
+        return;
+      }
+      const rows = fallback.map(s => signalRowHtml(s, { dim: true, lastSeen: s._ts ? s._ts.slice(0,10) : "" })).join("");
+      el.innerHTML = `
+        <div class="fallback-label">Last Detected — No active signals in this scan</div>
+        ${rows}`;
+      return;
+    }
+
+    const rows = filtered.map(s => signalRowHtml(s)).join("");
+    el.innerHTML = rows;
+  }
+
+  // ── Top signal callout ────────────────────────────────────────────────────
+
+  function renderTopSignal(signals) {
+    const el = document.getElementById("top-signal-container");
+    if (!el) return;
+    const s = signals[0];
+    if (!s) {
+      el.innerHTML = '<div class="empty" style="padding:24px">No signals.</div>';
+      return;
+    }
+    const dir     = badgeInfo(s.outcome);
+    const conf    = confidenceInfo(s.score);
+    const resolve = fmtResolveDate(s.end_date);
+    const ranks   = Array.isArray(s.ranks) ? s.ranks.map(r => "#"+r).join(", ") : "—";
+    el.innerHTML = `<div class="top-signal-body">
+      <div class="top-signal-label">Top Signal</div>
+      <div class="top-signal-title">
+        ${s.category ? `<span class="cat-tag">${esc(s.category)}</span>` : ""}
+        <a class="market-link" href="${esc(polyLink(s.condition_id))}" target="_blank" rel="noopener">${esc(s.title)}</a>
+      </div>
+      <div class="signal-meta-row" style="margin-bottom:12px">
+        <span class="signal-meta-whale">🐋 ${s.whale_count}</span>
+        <span class="badge ${dir.cls}">${esc(dir.label)}</span>
+        <span class="badge ${conf.cls}">${conf.label}</span>
+      </div>
+      <div style="font-size:20px;font-weight:800;color:var(--text)">${esc(fmtUSD(s.total_value_usd || 0))}</div>
+      <div style="font-size:11px;color:var(--muted);margin-top:2px">total position</div>
+      ${resolve ? `<div class="resolve-date ${resolve.cls}" style="margin-top:10px">${resolve.label}</div>` : ""}
+      <div style="font-size:10px;color:var(--muted);margin-top:8px">Whale ranks: ${esc(ranks)}</div>
+    </div>`;
+  }
+
+  // ── Backtest results ──────────────────────────────────────────────────────
+
+  async function loadBacktest() {
+    try {
+      const res = await fetch("backtest_results.json?_=" + Date.now());
+      if (!res.ok) return;
+      const d = await res.json();
+      const fmt = v => v != null ? v + "%" : "—";
+      document.getElementById("sb-overall").textContent  = fmt(d.overall_hit_rate);
+      document.getElementById("sb-strong").textContent   = fmt(d.by_tier?.Strong?.hit_rate);
+      document.getElementById("sb-moderate").textContent = fmt(d.by_tier?.Moderate?.hit_rate);
+      document.getElementById("sb-weak").textContent     = fmt(d.by_tier?.Weak?.hit_rate);
+      document.getElementById("sb-meta").textContent     =
+        `${d.total_signals} signals tracked · ${d.total_resolved} resolved · run ${d.generated_at?.slice(0,10) ?? ""}`;
+      document.getElementById("backtest-bar").style.display = "flex";
+    } catch (_) {}
+
+    try {
+      const res = await fetch("strategy_results.json?_=" + Date.now());
+      if (res.ok) {
+        renderStrategyLab(await res.json());
+      } else {
+        // No strategy data yet — show hypothesis board with empty state
+        renderStrategyLab({ strategies: {}, total_pending: 0 });
+      }
+    } catch (_) {
+      renderStrategyLab({ strategies: {}, total_pending: 0 });
+    }
+  }
+
+  // ── Load data ─────────────────────────────────────────────────────────────
+
+  async function load() {
+    try {
+      const res = await fetch("signals_log.json?_=" + Date.now());
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      const log    = await res.json();
+      const latest = log.length ? log[log.length - 1] : null;
+      const signals = latest ? (latest.signals || []) : [];
+      const whaleTimeframes = latest ? (latest.whale_timeframes || {}) : {};
+
+      currentLog     = log;
+      currentSignals = signals;
+
+      document.getElementById("signal-count").textContent = signals.length;
+      document.getElementById("ts-text").textContent =
+        latest ? "last scan: " + latest.timestamp : "no scans yet";
+
+      renderTable(signals);
+      renderTopSignal(signals);
+      renderAlltimeStats(log);
+      renderWhaleLeaderboard(signals, whaleTimeframes);
+      renderAlerts(log);
+      renderHistory(log);
+
+    } catch (err) {
+      document.getElementById("table-container").innerHTML = `
+        <div class="error-box">
+          Failed to load signals_log.json: ${esc(err.message)}<br><br>
+          Browsers block fetch() on file:// URLs. Serve locally instead:<br><br>
+          &nbsp;&nbsp;<strong>python -m http.server 8080</strong><br><br>
+          Then open <a href="http://localhost:8080/dashboard.html">http://localhost:8080/dashboard.html</a>
+        </div>`;
+      document.getElementById("signal-count").textContent = "—";
+      document.getElementById("ts-text").textContent = "error";
+    }
+  }
+
+  load();
+  loadBacktest();
+  setInterval(load,         15 * 60 * 1000);
+  setInterval(loadBacktest, 15 * 60 * 1000);
+</script>
+</body>
+</html>

@@ -1,0 +1,4889 @@
+[
+  {
+    "timestamp": "2026-06-02T21:30:57+00:00",
+    "signals": [
+      {
+        "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
+        "condition_id": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e",
+        "title": "Roland Garros ATP: Jakub Mensik vs Joao Fonseca",
+        "outcome": "Jakub Mensik",
+        "outcome_index": 0,
+        "whale_count": 6,
+        "wallets": [
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x0dcf5b49627c5194805bd1af846fd0bd3388c556",
+          "0x5966db1fe50763c9e3c014d756369bad07e1f804",
+          "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+          "0x5bec79df9add70a3892041ab1a5516b60f53b215",
+          "0xac0a9aad817df58f1f37dad0ca0352e1c00cf89e"
+        ],
+        "ranks": [
+          2,
+          3,
+          5,
+          7,
+          11,
+          15
+        ],
+        "total_value_usd": 714547.3,
+        "score": 17.9784
+      },
+      {
+        "signal_key": "0x219a46b65fa82394ca4eb6a4aaef12689fba9ca2ad957842ff9730c1af1916be:0",
+        "condition_id": "0x219a46b65fa82394ca4eb6a4aaef12689fba9ca2ad957842ff9730c1af1916be",
+        "title": "Cleveland Guardians vs. New York Yankees",
+        "outcome": "Cleveland Guardians",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xb91aeb5accc33a5f9a8615b8ed6b2d352e913987",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+          "0x72d815133f9f8b6529e911cf3be492846ce05213"
+        ],
+        "ranks": [
+          8,
+          9,
+          10
+        ],
+        "total_value_usd": 77200.33,
+        "score": 3.7827
+      },
+      {
+        "signal_key": "0x9d46eeb0a5095c8b4d2aeef967da3e8291a1a46484237b2fad8c17e9d6feda80:1",
+        "condition_id": "0x9d46eeb0a5095c8b4d2aeef967da3e8291a1a46484237b2fad8c17e9d6feda80",
+        "title": "San Francisco Giants vs. Milwaukee Brewers",
+        "outcome": "Milwaukee Brewers",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+          "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd",
+          "0x1d1ade627d0bb0205758580b20d808573e720df6"
+        ],
+        "ranks": [
+          9,
+          16,
+          19
+        ],
+        "total_value_usd": 165958.0,
+        "score": 2.7193
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-03T01:29:59+00:00",
+    "signals": [
+      {
+        "signal_key": "0xee5416e379078b7995a947423a6d6f494826f5769a24efd8cc83096fd0d6f46f:0",
+        "condition_id": "0xee5416e379078b7995a947423a6d6f494826f5769a24efd8cc83096fd0d6f46f",
+        "title": "Detroit Tigers vs. Tampa Bay Rays",
+        "outcome": "Detroit Tigers",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xb91aeb5accc33a5f9a8615b8ed6b2d352e913987",
+          "0x72d815133f9f8b6529e911cf3be492846ce05213",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+          "0x9495425feeb0c250accb89275c97587011b19a27"
+        ],
+        "ranks": [
+          2,
+          3,
+          12,
+          13
+        ],
+        "total_value_usd": 407686.67,
+        "score": 12.8354,
+        "category": "MLB"
+      },
+      {
+        "signal_key": "0x219a46b65fa82394ca4eb6a4aaef12689fba9ca2ad957842ff9730c1af1916be:0",
+        "condition_id": "0x219a46b65fa82394ca4eb6a4aaef12689fba9ca2ad957842ff9730c1af1916be",
+        "title": "Cleveland Guardians vs. New York Yankees",
+        "outcome": "Cleveland Guardians",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xb91aeb5accc33a5f9a8615b8ed6b2d352e913987",
+          "0x72d815133f9f8b6529e911cf3be492846ce05213",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+          "0x9495425feeb0c250accb89275c97587011b19a27"
+        ],
+        "ranks": [
+          2,
+          3,
+          12,
+          13
+        ],
+        "total_value_usd": 337638.18,
+        "score": 12.6481,
+        "category": "MLB"
+      },
+      {
+        "signal_key": "0xe901587ff351d7a6eff5d5fa3fdc6af7cbe720ec33af354fbbb79c710be266ba:1",
+        "condition_id": "0xe901587ff351d7a6eff5d5fa3fdc6af7cbe720ec33af354fbbb79c710be266ba",
+        "title": "Chicago White Sox vs. Minnesota Twins",
+        "outcome": "Minnesota Twins",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x72d815133f9f8b6529e911cf3be492846ce05213",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+          "0x9495425feeb0c250accb89275c97587011b19a27"
+        ],
+        "ranks": [
+          3,
+          12,
+          13
+        ],
+        "total_value_usd": 150590.7,
+        "score": 5.8847,
+        "category": "MLB"
+      },
+      {
+        "signal_key": "0x9d46eeb0a5095c8b4d2aeef967da3e8291a1a46484237b2fad8c17e9d6feda80:1",
+        "condition_id": "0x9d46eeb0a5095c8b4d2aeef967da3e8291a1a46484237b2fad8c17e9d6feda80",
+        "title": "San Francisco Giants vs. Milwaukee Brewers",
+        "outcome": "Milwaukee Brewers",
+        "outcome_index": 1,
+        "whale_count": 5,
+        "wallets": [
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+          "0x9495425feeb0c250accb89275c97587011b19a27",
+          "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd",
+          "0x1d1ade627d0bb0205758580b20d808573e720df6"
+        ],
+        "ranks": [
+          11,
+          12,
+          13,
+          16,
+          19
+        ],
+        "total_value_usd": 419066.76,
+        "score": 4.742,
+        "category": "MLB"
+      },
+      {
+        "signal_key": "0x219a46b65fa82394ca4eb6a4aaef12689fba9ca2ad957842ff9730c1af1916be:1",
+        "condition_id": "0x219a46b65fa82394ca4eb6a4aaef12689fba9ca2ad957842ff9730c1af1916be",
+        "title": "Cleveland Guardians vs. New York Yankees",
+        "outcome": "New York Yankees",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+          "0x9495425feeb0c250accb89275c97587011b19a27"
+        ],
+        "ranks": [
+          11,
+          12,
+          13
+        ],
+        "total_value_usd": 40869.17,
+        "score": 2.6669,
+        "category": "MLB"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-03T01:51:23+00:00",
+    "signals": [
+      {
+        "signal_key": "0x219a46b65fa82394ca4eb6a4aaef12689fba9ca2ad957842ff9730c1af1916be:0",
+        "condition_id": "0x219a46b65fa82394ca4eb6a4aaef12689fba9ca2ad957842ff9730c1af1916be",
+        "title": "Cleveland Guardians vs. New York Yankees",
+        "outcome": "Cleveland Guardians",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xb91aeb5accc33a5f9a8615b8ed6b2d352e913987",
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x9495425feeb0c250accb89275c97587011b19a27"
+        ],
+        "ranks": [
+          2,
+          4,
+          6
+        ],
+        "total_value_usd": 507779.06,
+        "score": 12.043,
+        "category": "MLB"
+      },
+      {
+        "signal_key": "0x3733a1b647e7364095736ab0966465d896a84cf3b6bc1695ca1f26c3239b3868:1",
+        "condition_id": "0x3733a1b647e7364095736ab0966465d896a84cf3b6bc1695ca1f26c3239b3868",
+        "title": "MicroStrategy sells any Bitcoin by May 31, 2026?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 9,
+        "wallets": [
+          "0x672f13d830d3617efea21c2ec7f4bda5d2c27fcc",
+          "0xa2cd4ccda9a1f95949df7a3355c4c2daa0642ba0",
+          "0x8cb0e35148f57403e8e785ed13c7bbb2f34f9811",
+          "0x7bb3c7931b6c1bfb9a1b38096bdd3e906febef60",
+          "0x5bb0de4e97698184ead80c80cb17a26cd6f6814b",
+          "0x4099db7f2d394449ccf89c8d42260ecaf1d79fb8",
+          "0x02e7f29f3e612a95a9ccca7131ce7dd5d56b59e5",
+          "0xf284ad6d607f777f34bc643cea587c33a886b9f9",
+          "0x9501ec3b8b3e330ae593ebe5b071c3d11b648223"
+        ],
+        "ranks": [
+          9,
+          10,
+          12,
+          13,
+          14,
+          15,
+          16,
+          19,
+          20
+        ],
+        "total_value_usd": 48422980.15,
+        "score": 11.9373,
+        "category": "Economy"
+      },
+      {
+        "signal_key": "0xee5416e379078b7995a947423a6d6f494826f5769a24efd8cc83096fd0d6f46f:0",
+        "condition_id": "0xee5416e379078b7995a947423a6d6f494826f5769a24efd8cc83096fd0d6f46f",
+        "title": "Detroit Tigers vs. Tampa Bay Rays",
+        "outcome": "Detroit Tigers",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xb91aeb5accc33a5f9a8615b8ed6b2d352e913987",
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x9495425feeb0c250accb89275c97587011b19a27"
+        ],
+        "ranks": [
+          2,
+          4,
+          6
+        ],
+        "total_value_usd": 262433.26,
+        "score": 11.4379,
+        "category": "MLB"
+      },
+      {
+        "signal_key": "0x4ab32addd22f40ad39609824e7f10a4a0bc00e73d46f095851dbf8a3c7698244:1",
+        "condition_id": "0x4ab32addd22f40ad39609824e7f10a4a0bc00e73d46f095851dbf8a3c7698244",
+        "title": "San Diego Padres vs. Philadelphia Phillies",
+        "outcome": "Philadelphia Phillies",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x9495425feeb0c250accb89275c97587011b19a27",
+          "0x32ed517a571c01b6e9adecf61ba81ca48ff2f960"
+        ],
+        "ranks": [
+          3,
+          6,
+          18
+        ],
+        "total_value_usd": 310448.76,
+        "score": 7.0254,
+        "category": "MLB"
+      },
+      {
+        "signal_key": "0x9d46eeb0a5095c8b4d2aeef967da3e8291a1a46484237b2fad8c17e9d6feda80:1",
+        "condition_id": "0x9d46eeb0a5095c8b4d2aeef967da3e8291a1a46484237b2fad8c17e9d6feda80",
+        "title": "San Francisco Giants vs. Milwaukee Brewers",
+        "outcome": "Milwaukee Brewers",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x9495425feeb0c250accb89275c97587011b19a27",
+          "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd",
+          "0x1d1ade627d0bb0205758580b20d808573e720df6"
+        ],
+        "ranks": [
+          6,
+          8,
+          11
+        ],
+        "total_value_usd": 317043.02,
+        "score": 4.846,
+        "category": "MLB"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-03T04:17:23+00:00",
+    "signals": [
+      {
+        "signal_key": "0x300efb6f8aee02cb55d9995fee67f9f163d3644fbe9bd2f2fd9bbf629f04f280:1",
+        "condition_id": "0x300efb6f8aee02cb55d9995fee67f9f163d3644fbe9bd2f2fd9bbf629f04f280",
+        "title": "New York Mets vs. Seattle Mariners",
+        "outcome": "Seattle Mariners",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x9495425feeb0c250accb89275c97587011b19a27",
+          "0x1d1ade627d0bb0205758580b20d808573e720df6"
+        ],
+        "ranks": [
+          4,
+          7,
+          9
+        ],
+        "total_value_usd": 345231.23,
+        "score": 6.4266,
+        "category": "MLB"
+      },
+      {
+        "signal_key": "0x3733a1b647e7364095736ab0966465d896a84cf3b6bc1695ca1f26c3239b3868:1",
+        "condition_id": "0x3733a1b647e7364095736ab0966465d896a84cf3b6bc1695ca1f26c3239b3868",
+        "title": "MicroStrategy sells any Bitcoin by May 31, 2026?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xa2cd4ccda9a1f95949df7a3355c4c2daa0642ba0",
+          "0x672f13d830d3617efea21c2ec7f4bda5d2c27fcc",
+          "0x5bb0de4e97698184ead80c80cb17a26cd6f6814b"
+        ],
+        "ranks": [
+          8,
+          19,
+          20
+        ],
+        "total_value_usd": 24567878.03,
+        "score": 3.8736,
+        "category": "Economy"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-03T04:29:36+00:00",
+    "signals": [
+      {
+        "signal_key": "0x300efb6f8aee02cb55d9995fee67f9f163d3644fbe9bd2f2fd9bbf629f04f280:1",
+        "condition_id": "0x300efb6f8aee02cb55d9995fee67f9f163d3644fbe9bd2f2fd9bbf629f04f280",
+        "title": "New York Mets vs. Seattle Mariners",
+        "outcome": "Seattle Mariners",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x9495425feeb0c250accb89275c97587011b19a27",
+          "0x1d1ade627d0bb0205758580b20d808573e720df6"
+        ],
+        "ranks": [
+          4,
+          7,
+          9
+        ],
+        "total_value_usd": 346621.89,
+        "score": 6.4286,
+        "category": "MLB",
+        "end_date": "2026-06-10"
+      },
+      {
+        "signal_key": "0x3733a1b647e7364095736ab0966465d896a84cf3b6bc1695ca1f26c3239b3868:1",
+        "condition_id": "0x3733a1b647e7364095736ab0966465d896a84cf3b6bc1695ca1f26c3239b3868",
+        "title": "MicroStrategy sells any Bitcoin by May 31, 2026?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xa2cd4ccda9a1f95949df7a3355c4c2daa0642ba0",
+          "0x672f13d830d3617efea21c2ec7f4bda5d2c27fcc",
+          "0x5bb0de4e97698184ead80c80cb17a26cd6f6814b"
+        ],
+        "ranks": [
+          8,
+          19,
+          20
+        ],
+        "total_value_usd": 24790667.5,
+        "score": 3.8757,
+        "category": "Economy",
+        "end_date": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-03T06:26:51+00:00",
+    "signals": []
+  },
+  {
+    "timestamp": "2026-06-03T09:17:45+00:00",
+    "signals": []
+  },
+  {
+    "timestamp": "2026-06-03T14:12:53+00:00",
+    "signals": [
+      {
+        "signal_key": "0x89389a6b1439856a8d366234c795d72865c927a1aa3cf9d4cc04a3a400defde1:0",
+        "condition_id": "0x89389a6b1439856a8d366234c795d72865c927a1aa3cf9d4cc04a3a400defde1",
+        "title": "Will the Vegas Golden Knights win the 2026 NHL Stanley Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xaa075924e1dc7cff3b9fab67401126338c4d2125",
+          "0x03805a13a0b3e058f55f6c6af95389d4f431073d",
+          "0x1117eade222413335b7ec959e5b48c1d3dbc3532"
+        ],
+        "ranks": [
+          7,
+          8,
+          20
+        ],
+        "total_value_usd": 88023.11,
+        "score": 3.6189,
+        "category": "Hockey",
+        "end_date": "2026-06-30"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-03T18:33:10+00:00",
+    "signals": [
+      {
+        "signal_key": "0x61e65a3ca7b9486c544db814d07e049a6fd384e39dbba5f50dc783ddc0905931:1",
+        "condition_id": "0x61e65a3ca7b9486c544db814d07e049a6fd384e39dbba5f50dc783ddc0905931",
+        "title": "Roland Garros ATP: Felix Auger-Aliassime vs Flavio Cobolli",
+        "outcome": "Flavio Cobolli",
+        "outcome_index": 1,
+        "whale_count": 5,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x1136368d7f6728e94ed14c532ab95a932f710c2e",
+          "0xc3acf5878a03523d09a3ac859943445d7baeb964",
+          "0xf284ad6d607f777f34bc643cea587c33a886b9f9",
+          "0xa8e089ade142c95538e06196e09c85681112ad50"
+        ],
+        "ranks": [
+          3,
+          4,
+          5,
+          9,
+          11
+        ],
+        "total_value_usd": 1447070.7,
+        "score": 13.9773,
+        "category": "Tennis",
+        "end_date": "2026-06-10"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-03T21:38:34+00:00",
+    "signals": [
+      {
+        "signal_key": "0x6bb965c8530decd8db873671d33fd22ffbdd170d07cf5acd8e0cfd70d52c4b6e:1",
+        "condition_id": "0x6bb965c8530decd8db873671d33fd22ffbdd170d07cf5acd8e0cfd70d52c4b6e",
+        "title": "Roland Garros ATP: Matteo Berrettini vs Matteo Arnaldi",
+        "outcome": "Matteo Arnaldi",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x1136368d7f6728e94ed14c532ab95a932f710c2e",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+        ],
+        "ranks": [
+          3,
+          4,
+          14,
+          20
+        ],
+        "total_value_usd": 157877.14,
+        "score": 8.4357,
+        "category": "Tennis",
+        "end_date": "2026-06-10"
+      },
+      {
+        "signal_key": "0x3733a1b647e7364095736ab0966465d896a84cf3b6bc1695ca1f26c3239b3868:1",
+        "condition_id": "0x3733a1b647e7364095736ab0966465d896a84cf3b6bc1695ca1f26c3239b3868",
+        "title": "MicroStrategy sells any Bitcoin by May 31, 2026?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x7bc14171ccb0d3e6bac219ec6a76211826e28db4",
+          "0xf284ad6d607f777f34bc643cea587c33a886b9f9",
+          "0xa2cd4ccda9a1f95949df7a3355c4c2daa0642ba0"
+        ],
+        "ranks": [
+          5,
+          13,
+          15
+        ],
+        "total_value_usd": 6606182.09,
+        "score": 5.3956,
+        "category": "Economy",
+        "end_date": "2026-07-01"
+      },
+      {
+        "signal_key": "0xc4c3dbcc37a957a817599b0bf9fb5bd6b62b19210b0f527fec57cb75c7ed150a:0",
+        "condition_id": "0xc4c3dbcc37a957a817599b0bf9fb5bd6b62b19210b0f527fec57cb75c7ed150a",
+        "title": "Will Keiko Fujimori win the 2026 Peruvian presidential election?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x7bc14171ccb0d3e6bac219ec6a76211826e28db4",
+          "0x03805a13a0b3e058f55f6c6af95389d4f431073d",
+          "0x23d81ba9371e576015c1e562db09c689f56b0288"
+        ],
+        "ranks": [
+          5,
+          6,
+          10
+        ],
+        "total_value_usd": 25498.07,
+        "score": 4.735,
+        "category": "Global Elections",
+        "end_date": "2026-06-07"
+      },
+      {
+        "signal_key": "0xdb6d800c5a747965d1bdea8c0e61a2116305f75e45c46ae4c6596f795f4e6a5e:1",
+        "condition_id": "0xdb6d800c5a747965d1bdea8c0e61a2116305f75e45c46ae4c6596f795f4e6a5e",
+        "title": "Perugia: Chun-Hsin Tseng vs Timofey Skatov",
+        "outcome": "Timofey Skatov",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+        ],
+        "ranks": [
+          11,
+          14,
+          20
+        ],
+        "total_value_usd": 87789.21,
+        "score": 2.417,
+        "category": "Tennis",
+        "end_date": "2026-06-10"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-03T23:22:48+00:00",
+    "signals": [
+      {
+        "signal_key": "0x3733a1b647e7364095736ab0966465d896a84cf3b6bc1695ca1f26c3239b3868:1",
+        "condition_id": "0x3733a1b647e7364095736ab0966465d896a84cf3b6bc1695ca1f26c3239b3868",
+        "title": "MicroStrategy sells any Bitcoin by May 31, 2026?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x7bc14171ccb0d3e6bac219ec6a76211826e28db4",
+          "0xf284ad6d607f777f34bc643cea587c33a886b9f9",
+          "0xa2cd4ccda9a1f95949df7a3355c4c2daa0642ba0"
+        ],
+        "ranks": [
+          5,
+          14,
+          17
+        ],
+        "total_value_usd": 6797785.02,
+        "score": 5.1956,
+        "category": "Economy",
+        "end_date": "2026-07-01"
+      },
+      {
+        "signal_key": "0xc4c3dbcc37a957a817599b0bf9fb5bd6b62b19210b0f527fec57cb75c7ed150a:0",
+        "condition_id": "0xc4c3dbcc37a957a817599b0bf9fb5bd6b62b19210b0f527fec57cb75c7ed150a",
+        "title": "Will Keiko Fujimori win the 2026 Peruvian presidential election?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x7bc14171ccb0d3e6bac219ec6a76211826e28db4",
+          "0x03805a13a0b3e058f55f6c6af95389d4f431073d",
+          "0x23d81ba9371e576015c1e562db09c689f56b0288"
+        ],
+        "ranks": [
+          5,
+          6,
+          10
+        ],
+        "total_value_usd": 24843.6,
+        "score": 4.7229,
+        "category": "Global Elections",
+        "end_date": "2026-06-07"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-04T02:04:29+00:00",
+    "signals": [
+      {
+        "signal_key": "0xde04b189b3f19eaccda02529a3ea67abfc46bff5c0c8fc42d8a2d0ed7b8f0d41:0",
+        "condition_id": "0xde04b189b3f19eaccda02529a3ea67abfc46bff5c0c8fc42d8a2d0ed7b8f0d41",
+        "title": "Will there be no change in Fed interest rates after the June 2026 meeting?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5bb0de4e97698184ead80c80cb17a26cd6f6814b",
+          "0x02e7f29f3e612a95a9ccca7131ce7dd5d56b59e5",
+          "0xa8b202e6e9a4c2091b6860f1f5c9e9119bbc9a39"
+        ],
+        "ranks": [
+          3,
+          6,
+          13
+        ],
+        "total_value_usd": 802694.09,
+        "score": 7.8437,
+        "category": "Economic Policy",
+        "end_date": "2026-06-17"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-04T06:55:34+00:00",
+    "signals": [
+      {
+        "signal_key": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37:0",
+        "condition_id": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+        "title": "Will the New York Knicks win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
+        ],
+        "ranks": [
+          1,
+          11,
+          17
+        ],
+        "total_value_usd": 405796.35,
+        "score": 14.8472,
+        "category": "NBA",
+        "end_date": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-04T10:37:10+00:00",
+    "signals": [
+      {
+        "signal_key": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37:0",
+        "condition_id": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+        "title": "Will the New York Knicks win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
+        ],
+        "ranks": [
+          1,
+          12,
+          18
+        ],
+        "total_value_usd": 405796.35,
+        "score": 14.7072,
+        "category": "NBA",
+        "end_date": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-04T13:48:04+00:00",
+    "signals": [
+      {
+        "signal_key": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37:0",
+        "condition_id": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+        "title": "Will the New York Knicks win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
+        ],
+        "ranks": [
+          1,
+          11,
+          19
+        ],
+        "total_value_usd": 405796.35,
+        "score": 14.7672,
+        "category": "NBA",
+        "end_date": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-04T16:50:11+00:00",
+    "signals": [
+      {
+        "signal_key": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37:0",
+        "condition_id": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+        "title": "Will the New York Knicks win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
+        ],
+        "ranks": [
+          1,
+          12,
+          18
+        ],
+        "total_value_usd": 407314.76,
+        "score": 14.7114,
+        "category": "NBA",
+        "end_date": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-04T19:20:41+00:00",
+    "signals": [
+      {
+        "signal_key": "0xdc09be650f66b005c91e585611c924c6ecaac2a313a467b145f0978e5e675f39:1",
+        "condition_id": "0xdc09be650f66b005c91e585611c924c6ecaac2a313a467b145f0978e5e675f39",
+        "title": "Roland Garros WTA: Diana Shnaider vs Maja Chwalinska",
+        "outcome": "Maja Chwalinska",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xf8831548531d56ad6a4331493243c447a827cd1f",
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x38337de21ff0bb0a11a40761507d51e318d633d1"
+        ],
+        "ranks": [
+          4,
+          9,
+          18
+        ],
+        "total_value_usd": 966947.16,
+        "score": 5.7425,
+        "category": "Tennis",
+        "end_date": "2026-06-11"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-04T21:10:54+00:00",
+    "signals": []
+  },
+  {
+    "timestamp": "2026-06-04T22:44:32+00:00",
+    "signals": []
+  },
+  {
+    "timestamp": "2026-06-04T23:53:27+00:00",
+    "signals": []
+  },
+  {
+    "timestamp": "2026-06-05T02:51:44+00:00",
+    "whale_timeframes": {
+      "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbddf61af533ff524d27154e589d2d7a81510c684": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf284ad6d607f777f34bc643cea587c33a886b9f9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x47a83fb1debcd11cc93f3bbbf5aeb3a5caeb52f9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x37d366a769f58ef478f72c6b1bf730424b2b709a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8075693f48668a264b9fa313b47f52712fcc12b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb9c7d35d1f04d08624fabcfd3b6cee2d3c9baade": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x37e4728b3c4607fb2b3b205386bb1d1fb1a8c991": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xaa075924e1dc7cff3b9fab67401126338c4d2125": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x21f333307ac6d2e65ac82f014b3dd2b64cbc35e3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa080dadd87036ad01dbf5e9c254b0c3dbdba234f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1136368d7f6728e94ed14c532ab95a932f710c2e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa73a10a7224c387eaaec7597271c302eb894b6a5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7a8885c8dc075f0578b648f29fa233408a7d41cc": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x18bb751dcec69d2f15a683a640e61e22d0d9e5cd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xf792cf396c4c62ac101698a75885eaba32ed3c17866b250cdb8f8a73b2d87849:0",
+        "condition_id": "0xf792cf396c4c62ac101698a75885eaba32ed3c17866b250cdb8f8a73b2d87849",
+        "title": "Pittsburgh Pirates vs. Houston Astros",
+        "outcome": "Pittsburgh Pirates",
+        "outcome_index": 0,
+        "whale_count": 5,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+        ],
+        "ranks": [
+          2,
+          4,
+          7,
+          13,
+          17
+        ],
+        "total_value_usd": 78960.84,
+        "score": 20.2987,
+        "category": "MLB",
+        "end_date": "2026-06-12"
+      },
+      {
+        "signal_key": "0x2ab235678b623f2e7804227c97e2578aa932a2605d6d6f8bf95086da4f7686ec:0",
+        "condition_id": "0x2ab235678b623f2e7804227c97e2578aa932a2605d6d6f8bf95086da4f7686ec",
+        "title": "Kansas City Royals vs. Minnesota Twins",
+        "outcome": "Kansas City Royals",
+        "outcome_index": 0,
+        "whale_count": 5,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x18bb751dcec69d2f15a683a640e61e22d0d9e5cd"
+        ],
+        "ranks": [
+          2,
+          4,
+          13,
+          17,
+          20
+        ],
+        "total_value_usd": 34030.2,
+        "score": 17.088,
+        "category": "MLB",
+        "end_date": "2026-06-11"
+      },
+      {
+        "signal_key": "0x8425d3c4ecb8ad00f3eb54393076197c946af1ff750ba71262fb9f3e53899451:1",
+        "condition_id": "0x8425d3c4ecb8ad00f3eb54393076197c946af1ff750ba71262fb9f3e53899451",
+        "title": "Athletics vs. Chicago Cubs",
+        "outcome": "Chicago Cubs",
+        "outcome_index": 1,
+        "whale_count": 6,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x18bb751dcec69d2f15a683a640e61e22d0d9e5cd"
+        ],
+        "ranks": [
+          2,
+          4,
+          7,
+          13,
+          17,
+          20
+        ],
+        "total_value_usd": 6421.86,
+        "score": 16.5494,
+        "category": "MLB",
+        "end_date": "2026-06-12"
+      },
+      {
+        "signal_key": "0x8425d3c4ecb8ad00f3eb54393076197c946af1ff750ba71262fb9f3e53899451:0",
+        "condition_id": "0x8425d3c4ecb8ad00f3eb54393076197c946af1ff750ba71262fb9f3e53899451",
+        "title": "Athletics vs. Chicago Cubs",
+        "outcome": "Athletics",
+        "outcome_index": 0,
+        "whale_count": 6,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x21f333307ac6d2e65ac82f014b3dd2b64cbc35e3",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7"
+        ],
+        "ranks": [
+          4,
+          7,
+          12,
+          13,
+          17,
+          19
+        ],
+        "total_value_usd": 62231.06,
+        "score": 12.8379,
+        "category": "MLB",
+        "end_date": "2026-06-12"
+      },
+      {
+        "signal_key": "0xd7452ed15f208a7fdd9df2fd4489d7351a919cc90d1f3387c6f7222ebacc12be:0",
+        "condition_id": "0xd7452ed15f208a7fdd9df2fd4489d7351a919cc90d1f3387c6f7222ebacc12be",
+        "title": "Los Angeles Dodgers vs. Arizona Diamondbacks",
+        "outcome": "Los Angeles Dodgers",
+        "outcome_index": 0,
+        "whale_count": 5,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x21f333307ac6d2e65ac82f014b3dd2b64cbc35e3",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+        ],
+        "ranks": [
+          4,
+          7,
+          12,
+          13,
+          17
+        ],
+        "total_value_usd": 81101.14,
+        "score": 12.1048,
+        "category": "MLB",
+        "end_date": "2026-06-12"
+      },
+      {
+        "signal_key": "0xd7452ed15f208a7fdd9df2fd4489d7351a919cc90d1f3387c6f7222ebacc12be:1",
+        "condition_id": "0xd7452ed15f208a7fdd9df2fd4489d7351a919cc90d1f3387c6f7222ebacc12be",
+        "title": "Los Angeles Dodgers vs. Arizona Diamondbacks",
+        "outcome": "Arizona Diamondbacks",
+        "outcome_index": 1,
+        "whale_count": 5,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+          "0x1136368d7f6728e94ed14c532ab95a932f710c2e",
+          "0x18bb751dcec69d2f15a683a640e61e22d0d9e5cd"
+        ],
+        "ranks": [
+          4,
+          7,
+          13,
+          15,
+          20
+        ],
+        "total_value_usd": 119882.61,
+        "score": 12.0016,
+        "category": "MLB",
+        "end_date": "2026-06-12"
+      },
+      {
+        "signal_key": "0x2ab235678b623f2e7804227c97e2578aa932a2605d6d6f8bf95086da4f7686ec:1",
+        "condition_id": "0x2ab235678b623f2e7804227c97e2578aa932a2605d6d6f8bf95086da4f7686ec",
+        "title": "Kansas City Royals vs. Minnesota Twins",
+        "outcome": "Minnesota Twins",
+        "outcome_index": 1,
+        "whale_count": 5,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+          "0x1136368d7f6728e94ed14c532ab95a932f710c2e",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+        ],
+        "ranks": [
+          4,
+          7,
+          13,
+          15,
+          17
+        ],
+        "total_value_usd": 50443.13,
+        "score": 11.2804,
+        "category": "MLB",
+        "end_date": "2026-06-11"
+      },
+      {
+        "signal_key": "0xf7b5491e70b477d451afe7d9c1fde4bf1a927e69ff289d294b96df164f6c10f0:0",
+        "condition_id": "0xf7b5491e70b477d451afe7d9c1fde4bf1a927e69ff289d294b96df164f6c10f0",
+        "title": "Will the Carolina Hurricanes win the 2026 NHL Stanley Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xb9c7d35d1f04d08624fabcfd3b6cee2d3c9baade",
+          "0xaa075924e1dc7cff3b9fab67401126338c4d2125"
+        ],
+        "ranks": [
+          4,
+          9,
+          11
+        ],
+        "total_value_usd": 36419.26,
+        "score": 8.3081,
+        "category": "Hockey",
+        "end_date": "2026-06-30"
+      },
+      {
+        "signal_key": "0x89389a6b1439856a8d366234c795d72865c927a1aa3cf9d4cc04a3a400defde1:0",
+        "condition_id": "0x89389a6b1439856a8d366234c795d72865c927a1aa3cf9d4cc04a3a400defde1",
+        "title": "Will the Vegas Golden Knights win the 2026 NHL Stanley Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xb9c7d35d1f04d08624fabcfd3b6cee2d3c9baade",
+          "0xaa075924e1dc7cff3b9fab67401126338c4d2125",
+          "0x1136368d7f6728e94ed14c532ab95a932f710c2e",
+          "0x7a8885c8dc075f0578b648f29fa233408a7d41cc"
+        ],
+        "ranks": [
+          9,
+          11,
+          15,
+          18
+        ],
+        "total_value_usd": 179798.47,
+        "score": 6.8656,
+        "category": "Hockey",
+        "end_date": "2026-06-30"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-05T07:04:01+00:00",
+    "whale_timeframes": {
+      "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbddf61af533ff524d27154e589d2d7a81510c684": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb91aeb5accc33a5f9a8615b8ed6b2d352e913987": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x18bb751dcec69d2f15a683a640e61e22d0d9e5cd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd65c3279408a33866a9129bed6943064cb6ee96": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd81e5bc01e4a98d0af93d82dc2c542a4c0f9e3d0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x37e4728b3c4607fb2b3b205386bb1d1fb1a8c991": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x21f333307ac6d2e65ac82f014b3dd2b64cbc35e3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xced2f8b215dd3cbc6b556056b85f8cd93792d98a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x37d366a769f58ef478f72c6b1bf730424b2b709a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1136368d7f6728e94ed14c532ab95a932f710c2e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf705fa045201391d9632b7f3cde06a5e24453ca7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1117eade222413335b7ec959e5b48c1d3dbc3532": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37:0",
+        "condition_id": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+        "title": "Will the New York Knicks win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x84dbb7103982e3617704a2ed7d5b39691952aeeb"
+        ],
+        "ranks": [
+          2,
+          4,
+          6
+        ],
+        "total_value_usd": 139374.07,
+        "score": 19.0012,
+        "category": "NBA",
+        "end_date": "2026-07-01"
+      },
+      {
+        "signal_key": "0xb6b3d7a2037b3faa7e1306d741840d453432902d73cc9a146a035e40271eae73:0",
+        "condition_id": "0xb6b3d7a2037b3faa7e1306d741840d453432902d73cc9a146a035e40271eae73",
+        "title": "Will the San Antonio Spurs win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x84dbb7103982e3617704a2ed7d5b39691952aeeb",
+          "0x1117eade222413335b7ec959e5b48c1d3dbc3532"
+        ],
+        "ranks": [
+          4,
+          6,
+          19
+        ],
+        "total_value_usd": 162837.08,
+        "score": 9.8557,
+        "category": "NBA",
+        "end_date": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-05T10:54:39+00:00",
+    "whale_timeframes": {
+      "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbddf61af533ff524d27154e589d2d7a81510c684": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb91aeb5accc33a5f9a8615b8ed6b2d352e913987": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe16d3f2a5807999b358affd9445c3a09e45e5e30": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x18bb751dcec69d2f15a683a640e61e22d0d9e5cd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd65c3279408a33866a9129bed6943064cb6ee96": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf705fa045201391d9632b7f3cde06a5e24453ca7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd81e5bc01e4a98d0af93d82dc2c542a4c0f9e3d0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x37e4728b3c4607fb2b3b205386bb1d1fb1a8c991": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x21f333307ac6d2e65ac82f014b3dd2b64cbc35e3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xced2f8b215dd3cbc6b556056b85f8cd93792d98a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x37d366a769f58ef478f72c6b1bf730424b2b709a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1136368d7f6728e94ed14c532ab95a932f710c2e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1117eade222413335b7ec959e5b48c1d3dbc3532": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37:0",
+        "condition_id": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+        "title": "Will the New York Knicks win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x84dbb7103982e3617704a2ed7d5b39691952aeeb"
+        ],
+        "ranks": [
+          2,
+          5,
+          7
+        ],
+        "total_value_usd": 138857.39,
+        "score": 17.4658,
+        "category": "NBA",
+        "end_date": "2026-07-01"
+      },
+      {
+        "signal_key": "0xb6b3d7a2037b3faa7e1306d741840d453432902d73cc9a146a035e40271eae73:0",
+        "condition_id": "0xb6b3d7a2037b3faa7e1306d741840d453432902d73cc9a146a035e40271eae73",
+        "title": "Will the San Antonio Spurs win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x84dbb7103982e3617704a2ed7d5b39691952aeeb",
+          "0x1117eade222413335b7ec959e5b48c1d3dbc3532"
+        ],
+        "ranks": [
+          5,
+          7,
+          20
+        ],
+        "total_value_usd": 162837.08,
+        "score": 8.2504,
+        "category": "NBA",
+        "end_date": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-05T13:50:48+00:00",
+    "whale_timeframes": {
+      "0xe16d3f2a5807999b358affd9445c3a09e45e5e30": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbddf61af533ff524d27154e589d2d7a81510c684": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb91aeb5accc33a5f9a8615b8ed6b2d352e913987": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfbf3d501e88815464642d0e913f15379c3eeb218": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf705fa045201391d9632b7f3cde06a5e24453ca7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x18bb751dcec69d2f15a683a640e61e22d0d9e5cd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd65c3279408a33866a9129bed6943064cb6ee96": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xee00ba338c59557141789b127927a55f5cc5cea1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x37e4728b3c4607fb2b3b205386bb1d1fb1a8c991": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0dcf5b49627c5194805bd1af846fd0bd3388c556": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x67bb64fac5252df3f61ee2d91a4b1350e40eb6ef": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x93fb8127a1b21a112b11af936361225df0563e4a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd81e5bc01e4a98d0af93d82dc2c542a4c0f9e3d0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x21f333307ac6d2e65ac82f014b3dd2b64cbc35e3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37:0",
+        "condition_id": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+        "title": "Will the New York Knicks win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x84dbb7103982e3617704a2ed7d5b39691952aeeb"
+        ],
+        "ranks": [
+          2,
+          5,
+          7
+        ],
+        "total_value_usd": 134723.96,
+        "score": 17.4212,
+        "category": "NBA",
+        "end_date": "2026-07-01"
+      },
+      {
+        "signal_key": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f:0",
+        "condition_id": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f",
+        "title": "Will England win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x37e4728b3c4607fb2b3b205386bb1d1fb1a8c991",
+          "0x93fb8127a1b21a112b11af936361225df0563e4a"
+        ],
+        "ranks": [
+          2,
+          14,
+          17
+        ],
+        "total_value_usd": 170107.43,
+        "score": 13.284,
+        "category": "Soccer",
+        "end_date": "2026-07-20"
+      },
+      {
+        "signal_key": "0xb6b3d7a2037b3faa7e1306d741840d453432902d73cc9a146a035e40271eae73:0",
+        "condition_id": "0xb6b3d7a2037b3faa7e1306d741840d453432902d73cc9a146a035e40271eae73",
+        "title": "Will the San Antonio Spurs win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x84dbb7103982e3617704a2ed7d5b39691952aeeb",
+          "0x67bb64fac5252df3f61ee2d91a4b1350e40eb6ef"
+        ],
+        "ranks": [
+          5,
+          7,
+          16
+        ],
+        "total_value_usd": 162507.07,
+        "score": 8.5114,
+        "category": "NBA",
+        "end_date": "2026-07-01"
+      },
+      {
+        "signal_key": "0x1c28ae00bd1c44f532709cf0f58926699aae2cb59e3c3e699b90f3e16054d6f4:0",
+        "condition_id": "0x1c28ae00bd1c44f532709cf0f58926699aae2cb59e3c3e699b90f3e16054d6f4",
+        "title": "Roland Garros ATP: Jakub Mensik vs Alexander Zverev",
+        "outcome": "Jakub Mensik",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x37e4728b3c4607fb2b3b205386bb1d1fb1a8c991",
+          "0x0dcf5b49627c5194805bd1af846fd0bd3388c556",
+          "0x21f333307ac6d2e65ac82f014b3dd2b64cbc35e3"
+        ],
+        "ranks": [
+          8,
+          14,
+          15,
+          19
+        ],
+        "total_value_usd": 99286.18,
+        "score": 6.3572,
+        "category": "Tennis",
+        "end_date": "2026-06-12"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-05T16:28:03+00:00",
+    "whale_timeframes": {
+      "0xf8831548531d56ad6a4331493243c447a827cd1f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe16d3f2a5807999b358affd9445c3a09e45e5e30": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbddf61af533ff524d27154e589d2d7a81510c684": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb91aeb5accc33a5f9a8615b8ed6b2d352e913987": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x068162f52e8534620c419c174be1aa5337dff713": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf705fa045201391d9632b7f3cde06a5e24453ca7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x93fb8127a1b21a112b11af936361225df0563e4a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x73e3fec494611d73c170cb2f23850fd998b21be9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x38f0b76ed812c24166a4f6293f991ac4b9972768": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1136368d7f6728e94ed14c532ab95a932f710c2e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd65c3279408a33866a9129bed6943064cb6ee96": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x72a0d79b4325638bc2bcfc9a2b8a380c2d81c059": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x52911b9d1d9da4d4783fb3280c0ccd6e73f0d4b6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd81e5bc01e4a98d0af93d82dc2c542a4c0f9e3d0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd84949634cf9aac74cab066cb978ac33ac676ac7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37:0",
+        "condition_id": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+        "title": "Will the New York Knicks win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x84dbb7103982e3617704a2ed7d5b39691952aeeb"
+        ],
+        "ranks": [
+          4,
+          7,
+          11
+        ],
+        "total_value_usd": 134982.3,
+        "score": 10.0007,
+        "category": "NBA",
+        "end_date": "2026-07-01"
+      },
+      {
+        "signal_key": "0xe8c4faf45974a68fa5b72d7bb52012a249357454f17235f14e310dc4bb526a99:0",
+        "condition_id": "0xe8c4faf45974a68fa5b72d7bb52012a249357454f17235f14e310dc4bb526a99",
+        "title": "Will Bitcoin dip to $47,500 in June?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x068162f52e8534620c419c174be1aa5337dff713",
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+          "0x93fb8127a1b21a112b11af936361225df0563e4a"
+        ],
+        "ranks": [
+          6,
+          8,
+          9
+        ],
+        "total_value_usd": 9042.88,
+        "score": 6.4212,
+        "category": "Bitcoin",
+        "end_date": "2026-07-01"
+      },
+      {
+        "signal_key": "0xd61673fdbb2e2ceeeeb7ec4fbaba10859e59cbb4abc311779c114e18dbadfb1b:0",
+        "condition_id": "0xd61673fdbb2e2ceeeeb7ec4fbaba10859e59cbb4abc311779c114e18dbadfb1b",
+        "title": "Will Bitcoin dip to $50,000 in June?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x068162f52e8534620c419c174be1aa5337dff713",
+          "0x93fb8127a1b21a112b11af936361225df0563e4a",
+          "0x72a0d79b4325638bc2bcfc9a2b8a380c2d81c059"
+        ],
+        "ranks": [
+          6,
+          9,
+          16
+        ],
+        "total_value_usd": 22459.94,
+        "score": 5.9665,
+        "category": "Bitcoin",
+        "end_date": "2026-07-01"
+      },
+      {
+        "signal_key": "0x946bb3ec7e7d9bf146b4487be87e71ace99f1e0e9978cf36fbb5063c23900afb:0",
+        "condition_id": "0x946bb3ec7e7d9bf146b4487be87e71ace99f1e0e9978cf36fbb5063c23900afb",
+        "title": "Will Bitcoin dip to $60,000 in June?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+          "0x93fb8127a1b21a112b11af936361225df0563e4a",
+          "0x72a0d79b4325638bc2bcfc9a2b8a380c2d81c059"
+        ],
+        "ranks": [
+          8,
+          9,
+          16
+        ],
+        "total_value_usd": 55735.75,
+        "score": 5.7108,
+        "category": "Bitcoin",
+        "end_date": "2026-07-01"
+      },
+      {
+        "signal_key": "0x6992fdf39435fb8aa0b765e24f98cb621fd1f7b6458865387c0ea303da2f0003:0",
+        "condition_id": "0x6992fdf39435fb8aa0b765e24f98cb621fd1f7b6458865387c0ea303da2f0003",
+        "title": "Will Bitcoin dip to $57,500 in June?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+          "0x93fb8127a1b21a112b11af936361225df0563e4a",
+          "0x72a0d79b4325638bc2bcfc9a2b8a380c2d81c059"
+        ],
+        "ranks": [
+          8,
+          9,
+          16
+        ],
+        "total_value_usd": 38049.52,
+        "score": 5.5114,
+        "category": "Bitcoin",
+        "end_date": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-05T18:22:16+00:00",
+    "whale_timeframes": {
+      "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf8831548531d56ad6a4331493243c447a827cd1f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe16d3f2a5807999b358affd9445c3a09e45e5e30": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbddf61af533ff524d27154e589d2d7a81510c684": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x068162f52e8534620c419c174be1aa5337dff713": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb91aeb5accc33a5f9a8615b8ed6b2d352e913987": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbee54d90051720e27921dc6874f02d646ffca636": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd65c3279408a33866a9129bed6943064cb6ee96": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf705fa045201391d9632b7f3cde06a5e24453ca7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x73e3fec494611d73c170cb2f23850fd998b21be9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x93fb8127a1b21a112b11af936361225df0563e4a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x38f0b76ed812c24166a4f6293f991ac4b9972768": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x73afc8160c17830c0c7281a7bf570c871455b880": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd84949634cf9aac74cab066cb978ac33ac676ac7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xad89f899f1524533adfd1e6a07da692fcd92f6e1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x72a0d79b4325638bc2bcfc9a2b8a380c2d81c059": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd81e5bc01e4a98d0af93d82dc2c542a4c0f9e3d0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37:0",
+        "condition_id": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+        "title": "Will the New York Knicks win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x84dbb7103982e3617704a2ed7d5b39691952aeeb"
+        ],
+        "ranks": [
+          4,
+          7,
+          12
+        ],
+        "total_value_usd": 135369.81,
+        "score": 9.8465,
+        "category": "NBA",
+        "end_date": "2026-07-01"
+      },
+      {
+        "signal_key": "0xe8c4faf45974a68fa5b72d7bb52012a249357454f17235f14e310dc4bb526a99:0",
+        "condition_id": "0xe8c4faf45974a68fa5b72d7bb52012a249357454f17235f14e310dc4bb526a99",
+        "title": "Will Bitcoin dip to $47,500 in June?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x068162f52e8534620c419c174be1aa5337dff713",
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+          "0x93fb8127a1b21a112b11af936361225df0563e4a"
+        ],
+        "ranks": [
+          5,
+          10,
+          13
+        ],
+        "total_value_usd": 8800.24,
+        "score": 5.9911,
+        "category": "Bitcoin",
+        "end_date": "2026-07-01"
+      },
+      {
+        "signal_key": "0xd61673fdbb2e2ceeeeb7ec4fbaba10859e59cbb4abc311779c114e18dbadfb1b:0",
+        "condition_id": "0xd61673fdbb2e2ceeeeb7ec4fbaba10859e59cbb4abc311779c114e18dbadfb1b",
+        "title": "Will Bitcoin dip to $50,000 in June?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x068162f52e8534620c419c174be1aa5337dff713",
+          "0x93fb8127a1b21a112b11af936361225df0563e4a",
+          "0x72a0d79b4325638bc2bcfc9a2b8a380c2d81c059"
+        ],
+        "ranks": [
+          5,
+          13,
+          19
+        ],
+        "total_value_usd": 21953.33,
+        "score": 5.7653,
+        "category": "Bitcoin",
+        "end_date": "2026-07-01"
+      },
+      {
+        "signal_key": "0xd14c2ee48e14082291c8a21d18613883e71ce3a5f31459553c979fb6982dbc7e:0",
+        "condition_id": "0xd14c2ee48e14082291c8a21d18613883e71ce3a5f31459553c979fb6982dbc7e",
+        "title": "Roland Garros ATP: Matteo Arnaldi vs Flavio Cobolli",
+        "outcome": "Matteo Arnaldi",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xbee54d90051720e27921dc6874f02d646ffca636",
+          "0x73afc8160c17830c0c7281a7bf570c871455b880",
+          "0xad89f899f1524533adfd1e6a07da692fcd92f6e1"
+        ],
+        "ranks": [
+          8,
+          16,
+          18
+        ],
+        "total_value_usd": 661815.28,
+        "score": 5.7008,
+        "category": "Tennis",
+        "end_date": "2026-06-12"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-05T20:22:45+00:00",
+    "whale_timeframes": {
+      "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf8831548531d56ad6a4331493243c447a827cd1f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe16d3f2a5807999b358affd9445c3a09e45e5e30": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x068162f52e8534620c419c174be1aa5337dff713": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbddf61af533ff524d27154e589d2d7a81510c684": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb91aeb5accc33a5f9a8615b8ed6b2d352e913987": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbee54d90051720e27921dc6874f02d646ffca636": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x93fb8127a1b21a112b11af936361225df0563e4a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf705fa045201391d9632b7f3cde06a5e24453ca7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd65c3279408a33866a9129bed6943064cb6ee96": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x52911b9d1d9da4d4783fb3280c0ccd6e73f0d4b6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x73e3fec494611d73c170cb2f23850fd998b21be9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x38f0b76ed812c24166a4f6293f991ac4b9972768": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x73afc8160c17830c0c7281a7bf570c871455b880": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x18bb751dcec69d2f15a683a640e61e22d0d9e5cd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd84949634cf9aac74cab066cb978ac33ac676ac7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0dcf5b49627c5194805bd1af846fd0bd3388c556": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xe973b7d952f48306c058c57814c32d35010adf2499466bbff41320f4b55b86fd:0",
+        "condition_id": "0xe973b7d952f48306c058c57814c32d35010adf2499466bbff41320f4b55b86fd",
+        "title": "San Francisco Giants vs. Chicago Cubs",
+        "outcome": "San Francisco Giants",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a",
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
+        ],
+        "ranks": [
+          1,
+          5,
+          7
+        ],
+        "total_value_usd": 241345.39,
+        "score": 29.1259,
+        "category": "MLB",
+        "end_date": "2026-06-12"
+      },
+      {
+        "signal_key": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37:0",
+        "condition_id": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+        "title": "Will the New York Knicks win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x84dbb7103982e3617704a2ed7d5b39691952aeeb"
+        ],
+        "ranks": [
+          5,
+          7,
+          13
+        ],
+        "total_value_usd": 135757.32,
+        "score": 8.6821,
+        "category": "NBA",
+        "end_date": "2026-07-01"
+      },
+      {
+        "signal_key": "0xe8c4faf45974a68fa5b72d7bb52012a249357454f17235f14e310dc4bb526a99:0",
+        "condition_id": "0xe8c4faf45974a68fa5b72d7bb52012a249357454f17235f14e310dc4bb526a99",
+        "title": "Will Bitcoin dip to $47,500 in June?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x068162f52e8534620c419c174be1aa5337dff713",
+          "0x93fb8127a1b21a112b11af936361225df0563e4a",
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7"
+        ],
+        "ranks": [
+          4,
+          9,
+          10
+        ],
+        "total_value_usd": 9415.45,
+        "score": 7.3837,
+        "category": "Bitcoin",
+        "end_date": "2026-07-01"
+      },
+      {
+        "signal_key": "0xe973b7d952f48306c058c57814c32d35010adf2499466bbff41320f4b55b86fd:1",
+        "condition_id": "0xe973b7d952f48306c058c57814c32d35010adf2499466bbff41320f4b55b86fd",
+        "title": "San Francisco Giants vs. Chicago Cubs",
+        "outcome": "Chicago Cubs",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xcd65c3279408a33866a9129bed6943064cb6ee96",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+        ],
+        "ranks": [
+          7,
+          11,
+          16
+        ],
+        "total_value_usd": 17180.16,
+        "score": 5.0559,
+        "category": "MLB",
+        "end_date": "2026-06-12"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-05T21:55:00+00:00",
+    "whale_timeframes": {
+      "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf8831548531d56ad6a4331493243c447a827cd1f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe16d3f2a5807999b358affd9445c3a09e45e5e30": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbddf61af533ff524d27154e589d2d7a81510c684": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x068162f52e8534620c419c174be1aa5337dff713": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb91aeb5accc33a5f9a8615b8ed6b2d352e913987": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbee54d90051720e27921dc6874f02d646ffca636": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x73e3fec494611d73c170cb2f23850fd998b21be9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf705fa045201391d9632b7f3cde06a5e24453ca7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x93fb8127a1b21a112b11af936361225df0563e4a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd65c3279408a33866a9129bed6943064cb6ee96": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x38f0b76ed812c24166a4f6293f991ac4b9972768": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x73afc8160c17830c0c7281a7bf570c871455b880": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd84949634cf9aac74cab066cb978ac33ac676ac7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xad89f899f1524533adfd1e6a07da692fcd92f6e1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xe973b7d952f48306c058c57814c32d35010adf2499466bbff41320f4b55b86fd:0",
+        "condition_id": "0xe973b7d952f48306c058c57814c32d35010adf2499466bbff41320f4b55b86fd",
+        "title": "San Francisco Giants vs. Chicago Cubs",
+        "outcome": "San Francisco Giants",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a",
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
+        ],
+        "ranks": [
+          1,
+          4,
+          8,
+          16
+        ],
+        "total_value_usd": 420134.04,
+        "score": 32.5731,
+        "category": "MLB",
+        "end_date": "2026-06-12"
+      },
+      {
+        "signal_key": "0x3aa11abcc00014f70f661b44fbf6e0a6f83521ae6c31f6ad9920249834ae20c3:0",
+        "condition_id": "0x3aa11abcc00014f70f661b44fbf6e0a6f83521ae6c31f6ad9920249834ae20c3",
+        "title": "Chicago White Sox vs. Philadelphia Phillies",
+        "outcome": "Chicago White Sox",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a",
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
+        ],
+        "ranks": [
+          1,
+          4,
+          8,
+          16
+        ],
+        "total_value_usd": 173293.61,
+        "score": 30.3454,
+        "category": "MLB",
+        "end_date": "2026-06-12"
+      },
+      {
+        "signal_key": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37:0",
+        "condition_id": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+        "title": "Will the New York Knicks win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x84dbb7103982e3617704a2ed7d5b39691952aeeb"
+        ],
+        "ranks": [
+          4,
+          8,
+          13
+        ],
+        "total_value_usd": 135498.98,
+        "score": 9.3454,
+        "category": "NBA",
+        "end_date": "2026-07-01"
+      },
+      {
+        "signal_key": "0x4f8fff3379573c7a4b8bbcfe11aea61b20b03044c2e59000a9ef2b3de1fb5374:1",
+        "condition_id": "0x4f8fff3379573c7a4b8bbcfe11aea61b20b03044c2e59000a9ef2b3de1fb5374",
+        "title": "Seattle Mariners vs. Detroit Tigers",
+        "outcome": "Detroit Tigers",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
+        ],
+        "ranks": [
+          4,
+          8,
+          16
+        ],
+        "total_value_usd": 28249.98,
+        "score": 7.8468,
+        "category": "MLB",
+        "end_date": "2026-06-12"
+      },
+      {
+        "signal_key": "0xe8c4faf45974a68fa5b72d7bb52012a249357454f17235f14e310dc4bb526a99:0",
+        "condition_id": "0xe8c4faf45974a68fa5b72d7bb52012a249357454f17235f14e310dc4bb526a99",
+        "title": "Will Bitcoin dip to $47,500 in June?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x068162f52e8534620c419c174be1aa5337dff713",
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+          "0x93fb8127a1b21a112b11af936361225df0563e4a"
+        ],
+        "ranks": [
+          5,
+          10,
+          11
+        ],
+        "total_value_usd": 8682.46,
+        "score": 6.2041,
+        "category": "Bitcoin",
+        "end_date": "2026-07-01"
+      },
+      {
+        "signal_key": "0x3f8a38c7fe024bab93596cf3a4da36c59f8eae0c3395bb141c91a5c88958c686:1",
+        "condition_id": "0x3f8a38c7fe024bab93596cf3a4da36c59f8eae0c3395bb141c91a5c88958c686",
+        "title": "Tampa Bay Rays vs. Miami Marlins",
+        "outcome": "Miami Marlins",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+        ],
+        "ranks": [
+          8,
+          16,
+          17
+        ],
+        "total_value_usd": 5951.58,
+        "score": 3.7466,
+        "category": "MLB",
+        "end_date": "2026-06-12"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-05T23:02:12+00:00",
+    "whale_timeframes": {
+      "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf8831548531d56ad6a4331493243c447a827cd1f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe16d3f2a5807999b358affd9445c3a09e45e5e30": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbddf61af533ff524d27154e589d2d7a81510c684": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x068162f52e8534620c419c174be1aa5337dff713": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb91aeb5accc33a5f9a8615b8ed6b2d352e913987": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbee54d90051720e27921dc6874f02d646ffca636": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x73e3fec494611d73c170cb2f23850fd998b21be9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf705fa045201391d9632b7f3cde06a5e24453ca7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd65c3279408a33866a9129bed6943064cb6ee96": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x93fb8127a1b21a112b11af936361225df0563e4a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x38f0b76ed812c24166a4f6293f991ac4b9972768": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x73afc8160c17830c0c7281a7bf570c871455b880": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x714a685b5454ea4d52979563bbafa77b8168ab2f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb2a3623364c33561d8312e1edb79eb941c798510": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x4f8fff3379573c7a4b8bbcfe11aea61b20b03044c2e59000a9ef2b3de1fb5374:1",
+        "condition_id": "0x4f8fff3379573c7a4b8bbcfe11aea61b20b03044c2e59000a9ef2b3de1fb5374",
+        "title": "Seattle Mariners vs. Detroit Tigers",
+        "outcome": "Detroit Tigers",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xcd65c3279408a33866a9129bed6943064cb6ee96"
+        ],
+        "ranks": [
+          4,
+          9,
+          10,
+          12
+        ],
+        "total_value_usd": 23812.04,
+        "score": 9.6021,
+        "category": "MLB",
+        "end_date": "2026-06-12"
+      },
+      {
+        "signal_key": "0x3aa11abcc00014f70f661b44fbf6e0a6f83521ae6c31f6ad9920249834ae20c3:1",
+        "condition_id": "0x3aa11abcc00014f70f661b44fbf6e0a6f83521ae6c31f6ad9920249834ae20c3",
+        "title": "Chicago White Sox vs. Philadelphia Phillies",
+        "outcome": "Philadelphia Phillies",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0xb91aeb5accc33a5f9a8615b8ed6b2d352e913987",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
+        ],
+        "ranks": [
+          6,
+          9,
+          10,
+          18
+        ],
+        "total_value_usd": 151518.39,
+        "score": 9.0458,
+        "category": "MLB",
+        "end_date": "2026-06-12"
+      },
+      {
+        "signal_key": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37:0",
+        "condition_id": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+        "title": "Will the New York Knicks win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x84dbb7103982e3617704a2ed7d5b39691952aeeb"
+        ],
+        "ranks": [
+          4,
+          9,
+          14
+        ],
+        "total_value_usd": 135240.64,
+        "score": 8.9432,
+        "category": "NBA",
+        "end_date": "2026-07-01"
+      },
+      {
+        "signal_key": "0x2e6864617fe1d1b2925bbfcadd8e8883c6b51190941fcaf4a9804a3b3e898b6c:0",
+        "condition_id": "0x2e6864617fe1d1b2925bbfcadd8e8883c6b51190941fcaf4a9804a3b3e898b6c",
+        "title": "Cleveland Guardians vs. Texas Rangers",
+        "outcome": "Cleveland Guardians",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xb91aeb5accc33a5f9a8615b8ed6b2d352e913987",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          6,
+          9,
+          10
+        ],
+        "total_value_usd": 126621.95,
+        "score": 7.7674,
+        "category": "MLB",
+        "end_date": "2026-06-13"
+      },
+      {
+        "signal_key": "0xe8c4faf45974a68fa5b72d7bb52012a249357454f17235f14e310dc4bb526a99:0",
+        "condition_id": "0xe8c4faf45974a68fa5b72d7bb52012a249357454f17235f14e310dc4bb526a99",
+        "title": "Will Bitcoin dip to $47,500 in June?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x068162f52e8534620c419c174be1aa5337dff713",
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+          "0x93fb8127a1b21a112b11af936361225df0563e4a"
+        ],
+        "ranks": [
+          5,
+          11,
+          13
+        ],
+        "total_value_usd": 9183.37,
+        "score": 5.874,
+        "category": "Bitcoin",
+        "end_date": "2026-07-01"
+      },
+      {
+        "signal_key": "0x4f8fff3379573c7a4b8bbcfe11aea61b20b03044c2e59000a9ef2b3de1fb5374:0",
+        "condition_id": "0x4f8fff3379573c7a4b8bbcfe11aea61b20b03044c2e59000a9ef2b3de1fb5374",
+        "title": "Seattle Mariners vs. Detroit Tigers",
+        "outcome": "Seattle Mariners",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
+        ],
+        "ranks": [
+          9,
+          10,
+          18
+        ],
+        "total_value_usd": 29275.25,
+        "score": 4.7994,
+        "category": "MLB",
+        "end_date": "2026-06-12"
+      },
+      {
+        "signal_key": "0x3f8a38c7fe024bab93596cf3a4da36c59f8eae0c3395bb141c91a5c88958c686:1",
+        "condition_id": "0x3f8a38c7fe024bab93596cf3a4da36c59f8eae0c3395bb141c91a5c88958c686",
+        "title": "Tampa Bay Rays vs. Miami Marlins",
+        "outcome": "Miami Marlins",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
+        ],
+        "ranks": [
+          9,
+          10,
+          18
+        ],
+        "total_value_usd": 19422.68,
+        "score": 4.608,
+        "category": "MLB",
+        "end_date": "2026-06-12"
+      },
+      {
+        "signal_key": "0x2464bc38d9c12f850404f7f7bf56dc303f6e9b21e6a08899a4f960feefa45b88:0",
+        "condition_id": "0x2464bc38d9c12f850404f7f7bf56dc303f6e9b21e6a08899a4f960feefa45b88",
+        "title": "Baltimore Orioles vs. Toronto Blue Jays",
+        "outcome": "Baltimore Orioles",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
+        ],
+        "ranks": [
+          9,
+          10,
+          18
+        ],
+        "total_value_usd": 8961.08,
+        "score": 4.247,
+        "category": "MLB",
+        "end_date": "2026-06-12"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-06T00:19:07+00:00",
+    "whale_timeframes": {
+      "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf8831548531d56ad6a4331493243c447a827cd1f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe16d3f2a5807999b358affd9445c3a09e45e5e30": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbddf61af533ff524d27154e589d2d7a81510c684": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x068162f52e8534620c419c174be1aa5337dff713": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb91aeb5accc33a5f9a8615b8ed6b2d352e913987": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbee54d90051720e27921dc6874f02d646ffca636": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x73e3fec494611d73c170cb2f23850fd998b21be9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb2a3623364c33561d8312e1edb79eb941c798510": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x93fb8127a1b21a112b11af936361225df0563e4a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf705fa045201391d9632b7f3cde06a5e24453ca7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd65c3279408a33866a9129bed6943064cb6ee96": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x38f0b76ed812c24166a4f6293f991ac4b9972768": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x52911b9d1d9da4d4783fb3280c0ccd6e73f0d4b6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x73afc8160c17830c0c7281a7bf570c871455b880": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x3aa11abcc00014f70f661b44fbf6e0a6f83521ae6c31f6ad9920249834ae20c3:0",
+        "condition_id": "0x3aa11abcc00014f70f661b44fbf6e0a6f83521ae6c31f6ad9920249834ae20c3",
+        "title": "Chicago White Sox vs. Philadelphia Phillies",
+        "outcome": "Chicago White Sox",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
+        ],
+        "ranks": [
+          1,
+          8,
+          11
+        ],
+        "total_value_usd": 109480.29,
+        "score": 24.6904,
+        "category": "MLB",
+        "end_date": "2026-06-12"
+      },
+      {
+        "signal_key": "0x4f8fff3379573c7a4b8bbcfe11aea61b20b03044c2e59000a9ef2b3de1fb5374:1",
+        "condition_id": "0x4f8fff3379573c7a4b8bbcfe11aea61b20b03044c2e59000a9ef2b3de1fb5374",
+        "title": "Seattle Mariners vs. Detroit Tigers",
+        "outcome": "Detroit Tigers",
+        "outcome_index": 1,
+        "whale_count": 5,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0xcd65c3279408a33866a9129bed6943064cb6ee96"
+        ],
+        "ranks": [
+          4,
+          8,
+          11,
+          14,
+          15
+        ],
+        "total_value_usd": 76980.38,
+        "score": 11.8927,
+        "category": "MLB",
+        "end_date": "2026-06-12"
+      },
+      {
+        "signal_key": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37:0",
+        "condition_id": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+        "title": "Will the New York Knicks win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x84dbb7103982e3617704a2ed7d5b39691952aeeb"
+        ],
+        "ranks": [
+          4,
+          11,
+          16
+        ],
+        "total_value_usd": 135240.64,
+        "score": 8.3409,
+        "category": "NBA",
+        "end_date": "2026-07-01"
+      },
+      {
+        "signal_key": "0x3aa11abcc00014f70f661b44fbf6e0a6f83521ae6c31f6ad9920249834ae20c3:1",
+        "condition_id": "0x3aa11abcc00014f70f661b44fbf6e0a6f83521ae6c31f6ad9920249834ae20c3",
+        "title": "Chicago White Sox vs. Philadelphia Phillies",
+        "outcome": "Philadelphia Phillies",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xb91aeb5accc33a5f9a8615b8ed6b2d352e913987",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
+        ],
+        "ranks": [
+          6,
+          8,
+          11
+        ],
+        "total_value_usd": 198743.25,
+        "score": 8.1678,
+        "category": "MLB",
+        "end_date": "2026-06-12"
+      },
+      {
+        "signal_key": "0x2e6864617fe1d1b2925bbfcadd8e8883c6b51190941fcaf4a9804a3b3e898b6c:0",
+        "condition_id": "0x2e6864617fe1d1b2925bbfcadd8e8883c6b51190941fcaf4a9804a3b3e898b6c",
+        "title": "Cleveland Guardians vs. Texas Rangers",
+        "outcome": "Cleveland Guardians",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xb91aeb5accc33a5f9a8615b8ed6b2d352e913987",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
+        ],
+        "ranks": [
+          6,
+          8,
+          11
+        ],
+        "total_value_usd": 129793.8,
+        "score": 7.8826,
+        "category": "MLB",
+        "end_date": "2026-06-13"
+      },
+      {
+        "signal_key": "0x2464bc38d9c12f850404f7f7bf56dc303f6e9b21e6a08899a4f960feefa45b88:1",
+        "condition_id": "0x2464bc38d9c12f850404f7f7bf56dc303f6e9b21e6a08899a4f960feefa45b88",
+        "title": "Baltimore Orioles vs. Toronto Blue Jays",
+        "outcome": "Toronto Blue Jays",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+        ],
+        "ranks": [
+          4,
+          11,
+          14
+        ],
+        "total_value_usd": 55467.36,
+        "score": 7.8823,
+        "category": "MLB",
+        "end_date": "2026-06-12"
+      },
+      {
+        "signal_key": "0xe8c4faf45974a68fa5b72d7bb52012a249357454f17235f14e310dc4bb526a99:0",
+        "condition_id": "0xe8c4faf45974a68fa5b72d7bb52012a249357454f17235f14e310dc4bb526a99",
+        "title": "Will Bitcoin dip to $47,500 in June?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x068162f52e8534620c419c174be1aa5337dff713",
+          "0x93fb8127a1b21a112b11af936361225df0563e4a",
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7"
+        ],
+        "ranks": [
+          5,
+          12,
+          13
+        ],
+        "total_value_usd": 10059.96,
+        "score": 5.8105,
+        "category": "Bitcoin",
+        "end_date": "2026-07-01"
+      },
+      {
+        "signal_key": "0x3f8a38c7fe024bab93596cf3a4da36c59f8eae0c3395bb141c91a5c88958c686:1",
+        "condition_id": "0x3f8a38c7fe024bab93596cf3a4da36c59f8eae0c3395bb141c91a5c88958c686",
+        "title": "Tampa Bay Rays vs. Miami Marlins",
+        "outcome": "Miami Marlins",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+        ],
+        "ranks": [
+          8,
+          11,
+          14
+        ],
+        "total_value_usd": 4969.73,
+        "score": 4.2798,
+        "category": "MLB",
+        "end_date": "2026-06-12"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-06T04:34:48+00:00",
+    "whale_timeframes": {
+      "0xbddf61af533ff524d27154e589d2d7a81510c684": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa380c504a480f591c7dfbf9944fac3994b9b21ff": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf284ad6d607f777f34bc643cea587c33a886b9f9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe5b70fd855af9258d9463992e4f1ed7987905ee3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xad9c94a65d1f053b8bb31815865a0d4c64b69889": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa0f21e6d351baa9185716b5c00c2925ed9621848": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6db568e61e5e3de7d87f831431b673f38ce2e279": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2b3ff45c91540e46fae1e0c72f61f4b049453446": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9f2fe025f84839ca81dd8e0338892605702d2ca8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcb6dd4d997833afc2cd64b17e2170647055e387f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc71bed951076a6dfd27f6a341c441b8543ed033": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8e089ade142c95538e06196e09c85681112ad50": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xde7cdcab3e0c5b0e8315da358e80c7d80a12c933": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37:0",
+        "condition_id": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+        "title": "Will the New York Knicks win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 7,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x2b3ff45c91540e46fae1e0c72f61f4b049453446",
+          "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+          "0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1",
+          "0xdc71bed951076a6dfd27f6a341c441b8543ed033",
+          "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5",
+          "0xde7cdcab3e0c5b0e8315da358e80c7d80a12c933"
+        ],
+        "ranks": [
+          1,
+          9,
+          11,
+          13,
+          14,
+          15,
+          20
+        ],
+        "total_value_usd": 1263214.35,
+        "score": 36.0687,
+        "category": "NBA",
+        "end_date": "2026-07-01"
+      },
+      {
+        "signal_key": "0x747dc809fb79e1b05be09c42d6179459a58de2ef3e40f02484a4e1260f741f75:1",
+        "condition_id": "0x747dc809fb79e1b05be09c42d6179459a58de2ef3e40f02484a4e1260f741f75",
+        "title": "Will the US confirm that aliens exist before 2027?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xe5b70fd855af9258d9463992e4f1ed7987905ee3",
+          "0xdc71bed951076a6dfd27f6a341c441b8543ed033",
+          "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4"
+        ],
+        "ranks": [
+          5,
+          14,
+          19
+        ],
+        "total_value_usd": 51914.7,
+        "score": 6.1573,
+        "category": "Culture",
+        "end_date": "2026-12-31"
+      },
+      {
+        "signal_key": "0xb6b3d7a2037b3faa7e1306d741840d453432902d73cc9a146a035e40271eae73:0",
+        "condition_id": "0xb6b3d7a2037b3faa7e1306d741840d453432902d73cc9a146a035e40271eae73",
+        "title": "Will the San Antonio Spurs win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xe5b70fd855af9258d9463992e4f1ed7987905ee3",
+          "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4",
+          "0xde7cdcab3e0c5b0e8315da358e80c7d80a12c933"
+        ],
+        "ranks": [
+          5,
+          19,
+          20
+        ],
+        "total_value_usd": 33521.28,
+        "score": 5.5185,
+        "category": "NBA",
+        "end_date": "2026-07-01"
+      },
+      {
+        "signal_key": "0x06f20c6de170545a11ec43be696b001bad1cd290d44de2db7db0849bf792f8f9:0",
+        "condition_id": "0x06f20c6de170545a11ec43be696b001bad1cd290d44de2db7db0849bf792f8f9",
+        "title": "Roland Garros WTA: Maja Chwalinska vs Mirra Andreeva",
+        "outcome": "Maja Chwalinska",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+          "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5",
+          "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4"
+        ],
+        "ranks": [
+          10,
+          15,
+          19
+        ],
+        "total_value_usd": 24331.13,
+        "score": 3.8759,
+        "category": "Tennis",
+        "end_date": "2026-06-13"
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-06T07:36:34+00:00",
+    "whale_timeframes": {
+      "0xbddf61af533ff524d27154e589d2d7a81510c684": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa380c504a480f591c7dfbf9944fac3994b9b21ff": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf284ad6d607f777f34bc643cea587c33a886b9f9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe5b70fd855af9258d9463992e4f1ed7987905ee3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xad9c94a65d1f053b8bb31815865a0d4c64b69889": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa0f21e6d351baa9185716b5c00c2925ed9621848": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6db568e61e5e3de7d87f831431b673f38ce2e279": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2b3ff45c91540e46fae1e0c72f61f4b049453446": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9f2fe025f84839ca81dd8e0338892605702d2ca8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcb6dd4d997833afc2cd64b17e2170647055e387f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc71bed951076a6dfd27f6a341c441b8543ed033": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8e089ade142c95538e06196e09c85681112ad50": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb45a797faa52b0fd8adc56d30382022b7b12192c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37:0",
+        "condition_id": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+        "title": "Will the New York Knicks win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 6,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x2b3ff45c91540e46fae1e0c72f61f4b049453446",
+          "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+          "0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1",
+          "0xdc71bed951076a6dfd27f6a341c441b8543ed033",
+          "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5"
+        ],
+        "ranks": [
+          1,
+          9,
+          12,
+          14,
+          15,
+          16
+        ],
+        "total_value_usd": 1044753.42,
+        "score": 33.835,
+        "category": "NBA",
+        "end_date": "2026-07-01",
+        "entry_price": null
+      },
+      {
+        "signal_key": "0x06f20c6de170545a11ec43be696b001bad1cd290d44de2db7db0849bf792f8f9:0",
+        "condition_id": "0x06f20c6de170545a11ec43be696b001bad1cd290d44de2db7db0849bf792f8f9",
+        "title": "Roland Garros WTA: Maja Chwalinska vs Mirra Andreeva",
+        "outcome": "Maja Chwalinska",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xf284ad6d607f777f34bc643cea587c33a886b9f9",
+          "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+          "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5",
+          "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4"
+        ],
+        "ranks": [
+          4,
+          10,
+          16,
+          20
+        ],
+        "total_value_usd": 45685.6,
+        "score": 8.6842,
+        "category": "Tennis",
+        "end_date": "2026-06-13",
+        "entry_price": null
+      },
+      {
+        "signal_key": "0x747dc809fb79e1b05be09c42d6179459a58de2ef3e40f02484a4e1260f741f75:1",
+        "condition_id": "0x747dc809fb79e1b05be09c42d6179459a58de2ef3e40f02484a4e1260f741f75",
+        "title": "Will the US confirm that aliens exist before 2027?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xe5b70fd855af9258d9463992e4f1ed7987905ee3",
+          "0xdc71bed951076a6dfd27f6a341c441b8543ed033",
+          "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4"
+        ],
+        "ranks": [
+          5,
+          15,
+          20
+        ],
+        "total_value_usd": 51914.7,
+        "score": 6.0168,
+        "category": "Culture",
+        "end_date": "2026-12-31",
+        "entry_price": null
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-06T09:47:29+00:00",
+    "whale_timeframes": {
+      "0xbddf61af533ff524d27154e589d2d7a81510c684": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa380c504a480f591c7dfbf9944fac3994b9b21ff": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf284ad6d607f777f34bc643cea587c33a886b9f9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe5b70fd855af9258d9463992e4f1ed7987905ee3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xad9c94a65d1f053b8bb31815865a0d4c64b69889": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa0f21e6d351baa9185716b5c00c2925ed9621848": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6db568e61e5e3de7d87f831431b673f38ce2e279": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2b3ff45c91540e46fae1e0c72f61f4b049453446": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9f2fe025f84839ca81dd8e0338892605702d2ca8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcb6dd4d997833afc2cd64b17e2170647055e387f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc71bed951076a6dfd27f6a341c441b8543ed033": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8e089ade142c95538e06196e09c85681112ad50": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xee0d153c17fe82b8866b484753b56a700ab457ab": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb45a797faa52b0fd8adc56d30382022b7b12192c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37:0",
+        "condition_id": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+        "title": "Will the New York Knicks win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 6,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x2b3ff45c91540e46fae1e0c72f61f4b049453446",
+          "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+          "0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1",
+          "0xdc71bed951076a6dfd27f6a341c441b8543ed033",
+          "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5"
+        ],
+        "ranks": [
+          1,
+          9,
+          12,
+          14,
+          15,
+          16
+        ],
+        "total_value_usd": 1033007.29,
+        "score": 33.8074,
+        "category": "NBA",
+        "end_date": "2026-07-01",
+        "entry_price": null
+      },
+      {
+        "signal_key": "0x06f20c6de170545a11ec43be696b001bad1cd290d44de2db7db0849bf792f8f9:0",
+        "condition_id": "0x06f20c6de170545a11ec43be696b001bad1cd290d44de2db7db0849bf792f8f9",
+        "title": "Roland Garros WTA: Maja Chwalinska vs Mirra Andreeva",
+        "outcome": "Maja Chwalinska",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xf284ad6d607f777f34bc643cea587c33a886b9f9",
+          "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+          "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5"
+        ],
+        "ranks": [
+          4,
+          10,
+          16
+        ],
+        "total_value_usd": 48099.89,
+        "score": 7.7826,
+        "category": "Tennis",
+        "end_date": "2026-06-13",
+        "entry_price": null
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-06T11:21:18+00:00",
+    "whale_timeframes": {
+      "0xbddf61af533ff524d27154e589d2d7a81510c684": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa380c504a480f591c7dfbf9944fac3994b9b21ff": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf284ad6d607f777f34bc643cea587c33a886b9f9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe5b70fd855af9258d9463992e4f1ed7987905ee3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xad9c94a65d1f053b8bb31815865a0d4c64b69889": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa0f21e6d351baa9185716b5c00c2925ed9621848": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6db568e61e5e3de7d87f831431b673f38ce2e279": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2b3ff45c91540e46fae1e0c72f61f4b049453446": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9f2fe025f84839ca81dd8e0338892605702d2ca8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcb6dd4d997833afc2cd64b17e2170647055e387f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc71bed951076a6dfd27f6a341c441b8543ed033": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xee0d153c17fe82b8866b484753b56a700ab457ab": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8e089ade142c95538e06196e09c85681112ad50": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb45a797faa52b0fd8adc56d30382022b7b12192c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37:0",
+        "condition_id": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+        "title": "Will the New York Knicks win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 6,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x2b3ff45c91540e46fae1e0c72f61f4b049453446",
+          "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+          "0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1",
+          "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5",
+          "0xdc71bed951076a6dfd27f6a341c441b8543ed033"
+        ],
+        "ranks": [
+          1,
+          9,
+          13,
+          14,
+          15,
+          16
+        ],
+        "total_value_usd": 1184534.22,
+        "score": 33.9846,
+        "category": "NBA",
+        "end_date": "2026-07-01",
+        "entry_price": null
+      },
+      {
+        "signal_key": "0x06f20c6de170545a11ec43be696b001bad1cd290d44de2db7db0849bf792f8f9:0",
+        "condition_id": "0x06f20c6de170545a11ec43be696b001bad1cd290d44de2db7db0849bf792f8f9",
+        "title": "Roland Garros WTA: Maja Chwalinska vs Mirra Andreeva",
+        "outcome": "Maja Chwalinska",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xf284ad6d607f777f34bc643cea587c33a886b9f9",
+          "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+          "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5"
+        ],
+        "ranks": [
+          4,
+          10,
+          15
+        ],
+        "total_value_usd": 131350.01,
+        "score": 8.5937,
+        "category": "Tennis",
+        "end_date": "2026-06-13",
+        "entry_price": null
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-06T12:50:16+00:00",
+    "whale_timeframes": {
+      "0xbddf61af533ff524d27154e589d2d7a81510c684": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa380c504a480f591c7dfbf9944fac3994b9b21ff": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf284ad6d607f777f34bc643cea587c33a886b9f9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe5b70fd855af9258d9463992e4f1ed7987905ee3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xad9c94a65d1f053b8bb31815865a0d4c64b69889": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6db568e61e5e3de7d87f831431b673f38ce2e279": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9f2fe025f84839ca81dd8e0338892605702d2ca8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2b3ff45c91540e46fae1e0c72f61f4b049453446": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa0f21e6d351baa9185716b5c00c2925ed9621848": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcb6dd4d997833afc2cd64b17e2170647055e387f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe16d3f2a5807999b358affd9445c3a09e45e5e30": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc71bed951076a6dfd27f6a341c441b8543ed033": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xee0d153c17fe82b8866b484753b56a700ab457ab": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8e089ade142c95538e06196e09c85681112ad50": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37:0",
+        "condition_id": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+        "title": "Will the New York Knicks win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 6,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x2b3ff45c91540e46fae1e0c72f61f4b049453446",
+          "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+          "0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1",
+          "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5",
+          "0xdc71bed951076a6dfd27f6a341c441b8543ed033"
+        ],
+        "ranks": [
+          1,
+          9,
+          14,
+          15,
+          16,
+          17
+        ],
+        "total_value_usd": 1180771.4,
+        "score": 33.534,
+        "category": "NBA",
+        "end_date": "2026-07-01",
+        "entry_price": null
+      },
+      {
+        "signal_key": "0x06f20c6de170545a11ec43be696b001bad1cd290d44de2db7db0849bf792f8f9:0",
+        "condition_id": "0x06f20c6de170545a11ec43be696b001bad1cd290d44de2db7db0849bf792f8f9",
+        "title": "Roland Garros WTA: Maja Chwalinska vs Mirra Andreeva",
+        "outcome": "Maja Chwalinska",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xf284ad6d607f777f34bc643cea587c33a886b9f9",
+          "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+          "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5"
+        ],
+        "ranks": [
+          4,
+          8,
+          16
+        ],
+        "total_value_usd": 124249.99,
+        "score": 8.9808,
+        "category": "Tennis",
+        "end_date": "2026-06-13",
+        "entry_price": null
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-06T14:26:57+00:00",
+    "whale_timeframes": {
+      "0xbddf61af533ff524d27154e589d2d7a81510c684": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa380c504a480f591c7dfbf9944fac3994b9b21ff": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf284ad6d607f777f34bc643cea587c33a886b9f9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe5b70fd855af9258d9463992e4f1ed7987905ee3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xad9c94a65d1f053b8bb31815865a0d4c64b69889": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6db568e61e5e3de7d87f831431b673f38ce2e279": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2b3ff45c91540e46fae1e0c72f61f4b049453446": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa0f21e6d351baa9185716b5c00c2925ed9621848": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9f2fe025f84839ca81dd8e0338892605702d2ca8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcb6dd4d997833afc2cd64b17e2170647055e387f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf8831548531d56ad6a4331493243c447a827cd1f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc71bed951076a6dfd27f6a341c441b8543ed033": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xee0d153c17fe82b8866b484753b56a700ab457ab": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37:0",
+        "condition_id": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+        "title": "Will the New York Knicks win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 6,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x2b3ff45c91540e46fae1e0c72f61f4b049453446",
+          "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+          "0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1",
+          "0xdc71bed951076a6dfd27f6a341c441b8543ed033",
+          "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5"
+        ],
+        "ranks": [
+          1,
+          8,
+          13,
+          15,
+          16,
+          17
+        ],
+        "total_value_usd": 1188423.41,
+        "score": 34.024,
+        "category": "NBA",
+        "end_date": "2026-07-01",
+        "entry_price": null
+      },
+      {
+        "signal_key": "0x06f20c6de170545a11ec43be696b001bad1cd290d44de2db7db0849bf792f8f9:0",
+        "condition_id": "0x06f20c6de170545a11ec43be696b001bad1cd290d44de2db7db0849bf792f8f9",
+        "title": "Roland Garros WTA: Maja Chwalinska vs Mirra Andreeva",
+        "outcome": "Maja Chwalinska",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xf284ad6d607f777f34bc643cea587c33a886b9f9",
+          "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+          "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          4,
+          11,
+          17,
+          18
+        ],
+        "total_value_usd": 40120.26,
+        "score": 8.4453,
+        "category": "Tennis",
+        "end_date": "2026-06-13",
+        "entry_price": null
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-06T15:50:31+00:00",
+    "whale_timeframes": {
+      "0xbddf61af533ff524d27154e589d2d7a81510c684": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf8831548531d56ad6a4331493243c447a827cd1f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa380c504a480f591c7dfbf9944fac3994b9b21ff": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf284ad6d607f777f34bc643cea587c33a886b9f9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe5b70fd855af9258d9463992e4f1ed7987905ee3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xad9c94a65d1f053b8bb31815865a0d4c64b69889": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6db568e61e5e3de7d87f831431b673f38ce2e279": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2b3ff45c91540e46fae1e0c72f61f4b049453446": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa0f21e6d351baa9185716b5c00c2925ed9621848": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcb6dd4d997833afc2cd64b17e2170647055e387f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9f2fe025f84839ca81dd8e0338892605702d2ca8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc71bed951076a6dfd27f6a341c441b8543ed033": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8e089ade142c95538e06196e09c85681112ad50": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37:0",
+        "condition_id": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+        "title": "Will the New York Knicks win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 6,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x2b3ff45c91540e46fae1e0c72f61f4b049453446",
+          "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+          "0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1",
+          "0xdc71bed951076a6dfd27f6a341c441b8543ed033",
+          "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5"
+        ],
+        "ranks": [
+          1,
+          9,
+          13,
+          15,
+          16,
+          17
+        ],
+        "total_value_usd": 1200567.49,
+        "score": 33.7085,
+        "category": "NBA",
+        "end_date": "2026-07-01",
+        "entry_price": null
+      },
+      {
+        "signal_key": "0x06f20c6de170545a11ec43be696b001bad1cd290d44de2db7db0849bf792f8f9:1",
+        "condition_id": "0x06f20c6de170545a11ec43be696b001bad1cd290d44de2db7db0849bf792f8f9",
+        "title": "Roland Garros WTA: Maja Chwalinska vs Mirra Andreeva",
+        "outcome": "Mirra Andreeva",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xf8831548531d56ad6a4331493243c447a827cd1f",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xa8e089ade142c95538e06196e09c85681112ad50"
+        ],
+        "ranks": [
+          2,
+          18,
+          20
+        ],
+        "total_value_usd": 4799441.95,
+        "score": 16.3028,
+        "category": "Tennis",
+        "end_date": "2026-06-13",
+        "entry_price": null
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-06T17:05:37+00:00",
+    "whale_timeframes": {
+      "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbddf61af533ff524d27154e589d2d7a81510c684": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf8831548531d56ad6a4331493243c447a827cd1f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa380c504a480f591c7dfbf9944fac3994b9b21ff": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf284ad6d607f777f34bc643cea587c33a886b9f9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe5b70fd855af9258d9463992e4f1ed7987905ee3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xad9c94a65d1f053b8bb31815865a0d4c64b69889": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6db568e61e5e3de7d87f831431b673f38ce2e279": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2b3ff45c91540e46fae1e0c72f61f4b049453446": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa0f21e6d351baa9185716b5c00c2925ed9621848": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcb6dd4d997833afc2cd64b17e2170647055e387f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9f2fe025f84839ca81dd8e0338892605702d2ca8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc71bed951076a6dfd27f6a341c441b8543ed033": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8e089ade142c95538e06196e09c85681112ad50": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37:0",
+        "condition_id": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+        "title": "Will the New York Knicks win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 6,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x2b3ff45c91540e46fae1e0c72f61f4b049453446",
+          "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+          "0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1",
+          "0xdc71bed951076a6dfd27f6a341c441b8543ed033",
+          "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5"
+        ],
+        "ranks": [
+          2,
+          9,
+          12,
+          14,
+          16,
+          20
+        ],
+        "total_value_usd": 1196789.74,
+        "score": 21.5127,
+        "category": "NBA",
+        "end_date": "2026-07-01",
+        "entry_price": null
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-06-06T18:20:03+00:00",
+    "whale_timeframes": {
+      "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf8831548531d56ad6a4331493243c447a827cd1f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbddf61af533ff524d27154e589d2d7a81510c684": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa380c504a480f591c7dfbf9944fac3994b9b21ff": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf284ad6d607f777f34bc643cea587c33a886b9f9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe5b70fd855af9258d9463992e4f1ed7987905ee3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xad9c94a65d1f053b8bb31815865a0d4c64b69889": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6db568e61e5e3de7d87f831431b673f38ce2e279": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2b3ff45c91540e46fae1e0c72f61f4b049453446": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcb6dd4d997833afc2cd64b17e2170647055e387f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa0f21e6d351baa9185716b5c00c2925ed9621848": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9f2fe025f84839ca81dd8e0338892605702d2ca8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc71bed951076a6dfd27f6a341c441b8543ed033": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8e089ade142c95538e06196e09c85681112ad50": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xee0d153c17fe82b8866b484753b56a700ab457ab": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37:0",
+        "condition_id": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+        "title": "Will the New York Knicks win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 5,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x2b3ff45c91540e46fae1e0c72f61f4b049453446",
+          "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+          "0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1",
+          "0xdc71bed951076a6dfd27f6a341c441b8543ed033"
+        ],
+        "ranks": [
+          3,
+          9,
+          12,
+          14,
+          16
+        ],
+        "total_value_usd": 1181582.45,
+        "score": 16.1914,
+        "category": "NBA",
+        "end_date": "2026-07-01",
+        "entry_price": null
+      }
+    ]
+  }
+]

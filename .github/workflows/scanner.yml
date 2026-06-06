@@ -1,0 +1,59 @@
+name: Whale Scanner
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'   # every 15 minutes
+  workflow_dispatch:           # allow manual trigger from the Actions tab
+
+permissions:
+  contents: write              # needed to push signals_log.json back to the repo
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scan
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          python -c "
+          import logging
+          logging.basicConfig(
+              level=logging.INFO,
+              format='%(asctime)s [%(levelname)s] %(name)s - %(message)s',
+              datefmt='%Y-%m-%d %H:%M:%S',
+          )
+          from main import run_scan
+          run_scan()
+          "
+
+      - name: Update backtest results
+        run: python backtest.py
+
+      - name: Run strategy comparison
+        run: python strategies.py
+
+      - name: Commit updated data files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add signals_log.json backtest_results.json strategy_results.json
+          if git diff --staged --quiet; then
+            echo "No data changes to commit"
+          else
+            git commit -m "chore: update signals log [skip ci]"
+            git push
+          fi

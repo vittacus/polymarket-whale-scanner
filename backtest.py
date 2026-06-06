@@ -1,0 +1,237 @@
+"""
+Hit-rate backtest: checks how often whale consensus signals were correct.
+
+Reads every signal from signals_log.json, queries the Gamma API to see if
+the market has resolved, and tracks whether the consensus outcome won.
+Results are saved to backtest_results.json and printed to stdout.
+
+Usage:
+    python backtest.py
+"""
+
+import json
+import logging
+import time
+from datetime import datetime, timezone
+from pathlib import Path
+from typing import Dict, List, Optional, Tuple
+
+import requests
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
+)
+logger = logging.getLogger(__name__)
+
+GAMMA_API_BASE   = "https://gamma-api.polymarket.com"
+SIGNALS_LOG      = Path("signals_log.json")
+BACKTEST_RESULTS = Path("backtest_results.json")
+REQUEST_DELAY    = 0.3   # seconds between Gamma API calls
+
+
+def confidence_label(score: float) -> str:
+    if score >= 10: return "Strong"
+    if score >= 4:  return "Moderate"
+    return "Weak"
+
+
+def check_market(condition_id: str) -> Tuple[bool, List[float], List[str], str]:
+    """
+    Query the Gamma markets API for a conditionId.
+
+    Returns (resolved, outcome_prices, outcome_names, resolved_date).
+    - outcome_prices is parallel to outcome_names: [1.0, 0.0] means index-0 won.
+    - resolved_date is "YYYY-MM-DD" when available, empty string otherwise.
+    Returns (False, [], [], "") on any error.
+    """
+    try:
+        resp = requests.get(
+            f"{GAMMA_API_BASE}/markets",
+            params={"conditionIds": condition_id},
+            timeout=15,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        if not data:
+            return False, [], [], ""
+
+        market = data[0]
+        resolved = not market.get("active", True) or market.get("closed", False)
+
+        prices: List[float] = []
+        for raw in (market.get("outcomePrices") or []):
+            try:
+                prices.append(float(raw))
+            except (ValueError, TypeError):
+                prices.append(0.0)
+
+        # outcomes is a JSON-encoded string array in the Gamma API: '["Yes","No"]'
+        raw_outcomes = market.get("outcomes", "[]")
+        try:
+            if isinstance(raw_outcomes, str):
+                outcomes: List[str] = json.loads(raw_outcomes)
+            else:
+                outcomes = list(raw_outcomes or [])
+        except Exception:
+            outcomes = []
+
+        # Resolution date — try several field names the Gamma API may use
+        resolved_date = ""
+        for field in ("resolutionTime", "closeTime", "endDate", "endDateIso"):
+            val = market.get(field) or ""
+            if val:
+                resolved_date = str(val)[:10]
+                break
+
+        return resolved, prices, outcomes, resolved_date
+    except Exception as exc:
+        logger.warning("Gamma API error for %s…: %s", condition_id[:16], exc)
+        return False, [], [], ""
+
+
+def run_backtest() -> None:
+    if not SIGNALS_LOG.exists():
+        logger.error("signals_log.json not found — run main.py first to collect signals.")
+        return
+
+    with open(SIGNALS_LOG) as f:
+        log: List[Dict] = json.load(f)
+
+    # De-duplicate: keep the FIRST scan in which each signal appeared.
+    unique: Dict[str, Dict] = {}
+    for scan in log:
+        for s in scan.get("signals", []):
+            key = s.get("signal_key", "")
+            if key and key not in unique:
+                unique[key] = s
+
+    total = len(unique)
+    logger.info("Unique signals to evaluate: %d", total)
+
+    tiers: Dict[str, Dict] = {
+        "Strong":   {"total": 0, "resolved": 0, "correct": 0},
+        "Moderate": {"total": 0, "resolved": 0, "correct": 0},
+        "Weak":     {"total": 0, "resolved": 0, "correct": 0},
+    }
+    details: List[Dict] = []
+
+    for i, (key, s) in enumerate(unique.items(), 1):
+        condition_id  = s.get("condition_id", "")
+        outcome_index = int(s.get("outcome_index", 0))
+        score         = float(s.get("score", 0))
+        tier          = confidence_label(score)
+
+        logger.info("[%d/%d] %s", i, total, s.get("title", condition_id)[:60])
+        tiers[tier]["total"] += 1
+
+        resolved, prices, outcomes, resolved_date = check_market(condition_id)
+        time.sleep(REQUEST_DELAY)
+
+        if not resolved:
+            details.append({
+                "signal_key":      key,
+                "condition_id":    condition_id,
+                "title":           s.get("title", ""),
+                "category":        s.get("category", ""),
+                "whale_direction": s.get("outcome", ""),
+                "outcome_index":   outcome_index,
+                "tier":            tier,
+                "score":           score,
+                "total_value_usd": s.get("total_value_usd", 0),
+                "entry_price":     s.get("entry_price"),
+                "end_date":        s.get("end_date", ""),
+                "resolved":        False,
+                "correct":         None,
+                "resolved_outcome": None,
+                "resolved_date":   None,
+            })
+            continue
+
+        tiers[tier]["resolved"] += 1
+
+        outcome_price: Optional[float] = (
+            prices[outcome_index] if len(prices) > outcome_index else None
+        )
+        correct = outcome_price is not None and outcome_price >= 0.5
+
+        winner_index = max(range(len(prices)), key=lambda idx: prices[idx]) if prices else None
+        resolved_outcome = (
+            outcomes[winner_index]
+            if (winner_index is not None and winner_index < len(outcomes))
+            else None
+        )
+
+        if correct:
+            tiers[tier]["correct"] += 1
+
+        details.append({
+            "signal_key":      key,
+            "condition_id":    condition_id,
+            "title":           s.get("title", ""),
+            "category":        s.get("category", ""),
+            "whale_direction": s.get("outcome", ""),
+            "outcome_index":   outcome_index,
+            "tier":            tier,
+            "score":           score,
+            "total_value_usd": s.get("total_value_usd", 0),
+            "entry_price":     s.get("entry_price"),
+            "end_date":        s.get("end_date", ""),
+            "resolved":        True,
+            "correct":         correct,
+            "resolved_outcome": resolved_outcome,
+            "resolved_date":   resolved_date or None,
+        })
+
+    # Build summary
+    total_resolved = sum(t["resolved"] for t in tiers.values())
+    total_correct  = sum(t["correct"]  for t in tiers.values())
+    overall_rate: Optional[float] = (
+        round(total_correct / total_resolved * 100, 1) if total_resolved > 0 else None
+    )
+
+    def tier_rate(t: Dict) -> Optional[float]:
+        return round(t["correct"] / t["resolved"] * 100, 1) if t["resolved"] > 0 else None
+
+    summary = {
+        "generated_at":     datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "total_signals":    total,
+        "total_resolved":   total_resolved,
+        "total_correct":    total_correct,
+        "overall_hit_rate": overall_rate,
+        "by_tier": {
+            tier: {
+                "total":    d["total"],
+                "resolved": d["resolved"],
+                "correct":  d["correct"],
+                "hit_rate": tier_rate(d),
+            }
+            for tier, d in tiers.items()
+        },
+        "signals": details,
+    }
+
+    with open(BACKTEST_RESULTS, "w") as f:
+        json.dump(summary, f, indent=2)
+
+    # ── Print summary ──────────────────────────────────────────────────────
+    print(f"\n{'═' * 58}")
+    print(f"  BACKTEST RESULTS  ·  {summary['generated_at']}")
+    print(f"{'═' * 58}")
+    print(f"  Signals tracked  : {total}")
+    print(f"  Resolved         : {total_resolved}")
+    print(f"  Correct calls    : {total_correct}")
+    overall_str = f"{overall_rate}%" if overall_rate is not None else "— (no resolved signals yet)"
+    print(f"  Overall hit rate : {overall_str}")
+    print()
+    for tier in ("Strong", "Moderate", "Weak"):
+        d = summary["by_tier"][tier]
+        rate_str = f"{d['hit_rate']}%" if d["hit_rate"] is not None else "—"
+        print(f"  {tier:<10}  {d['resolved']:>3} / {d['total']:>3} resolved   {rate_str}")
+    print(f"{'═' * 58}")
+    print(f"\n  Full results saved to backtest_results.json\n")
+
+
+if __name__ == "__main__":
+    run_backtest()
