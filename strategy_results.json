@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-06T22:05:41+00:00",
-  "total_evaluated": 50,
-  "total_pending": 50,
+  "generated_at": "2026-06-06T23:16:55+00:00",
+  "total_evaluated": 51,
+  "total_pending": 51,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 50,
+      "signals_evaluated": 51,
       "correct": 0,
       "wrong": 0,
-      "pending": 50,
+      "pending": 51,
       "win_rate": null,
       "signals": [
         {
@@ -658,6 +658,19 @@
           "tier": "Moderate",
           "entry_price": null,
           "whale_direction": "Atlanta Braves",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-13",
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xa70061ae463608b9d7194055f28d5aec793f1082c4e881332a20c511f6fe1637:0",
+          "condition_id": "0xa70061ae463608b9d7194055f28d5aec793f1082c4e881332a20c511f6fe1637",
+          "title": "Chicago White Sox vs. Philadelphia Phillies",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": null,
+          "whale_direction": "Chicago White Sox",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-06-13",

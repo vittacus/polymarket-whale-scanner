@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-06T22:05:41+00:00",
-  "total_signals": 50,
+  "generated_at": "2026-06-06T23:16:55+00:00",
+  "total_signals": 51,
   "total_resolved": 0,
   "total_correct": 0,
   "overall_hit_rate": null,
   "by_tier": {
     "Strong": {
-      "total": 19,
+      "total": 20,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
@@ -868,6 +868,23 @@
       "tier": "Moderate",
       "score": 7.8907,
       "total_value_usd": 33031.93,
+      "entry_price": null,
+      "end_date": "2026-06-13",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xa70061ae463608b9d7194055f28d5aec793f1082c4e881332a20c511f6fe1637:0",
+      "condition_id": "0xa70061ae463608b9d7194055f28d5aec793f1082c4e881332a20c511f6fe1637",
+      "title": "Chicago White Sox vs. Philadelphia Phillies",
+      "category": "MLB",
+      "whale_direction": "Chicago White Sox",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 11.9779,
+      "total_value_usd": 119954.37,
       "entry_price": null,
       "end_date": "2026-06-13",
       "resolved": false,
