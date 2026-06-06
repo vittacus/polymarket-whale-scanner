@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-06T20:58:55+00:00",
-  "total_evaluated": 48,
-  "total_pending": 48,
+  "generated_at": "2026-06-06T22:05:41+00:00",
+  "total_evaluated": 50,
+  "total_pending": 50,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 48,
+      "signals_evaluated": 50,
       "correct": 0,
       "wrong": 0,
-      "pending": 48,
+      "pending": 50,
       "win_rate": null,
       "signals": [
         {
@@ -632,6 +632,32 @@
           "tier": "Strong",
           "entry_price": null,
           "whale_direction": "San Francisco Giants",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-13",
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xa7c5e44991eec5a3c365faf7c0f5b6972239bed86e42ebb70e355f29537481c3:1",
+          "condition_id": "0xa7c5e44991eec5a3c365faf7c0f5b6972239bed86e42ebb70e355f29537481c3",
+          "title": "Tampa Bay Rays vs. Miami Marlins",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": null,
+          "whale_direction": "Miami Marlins",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-13",
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x3d78dceb861c4d79c2a6de5f426d514c4604eeb0e26664cf5044267446f77cad:1",
+          "condition_id": "0x3d78dceb861c4d79c2a6de5f426d514c4604eeb0e26664cf5044267446f77cad",
+          "title": "Pittsburgh Pirates vs. Atlanta Braves",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": null,
+          "whale_direction": "Atlanta Braves",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-06-13",
