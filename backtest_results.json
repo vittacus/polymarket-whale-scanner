@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-07T22:45:39+00:00",
-  "total_signals": 63,
+  "generated_at": "2026-06-07T23:48:38+00:00",
+  "total_signals": 64,
   "total_resolved": 0,
   "total_correct": 0,
   "overall_hit_rate": null,
@@ -18,7 +18,7 @@
       "hit_rate": null
     },
     "Weak": {
-      "total": 7,
+      "total": 8,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
@@ -1091,6 +1091,23 @@
       "total_value_usd": 64022.22,
       "entry_price": null,
       "end_date": "2026-06-14",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xeb332c4077ea1847eaa8a6c1e24a46c9cae14f426d3e7ec08861c3694f15194d:1",
+      "condition_id": "0xeb332c4077ea1847eaa8a6c1e24a46c9cae14f426d3e7ec08861c3694f15194d",
+      "title": "San Francisco Giants vs. Chicago Cubs",
+      "category": "MLB",
+      "whale_direction": "Chicago Cubs",
+      "outcome_index": 1,
+      "tier": "Weak",
+      "score": 3.7103,
+      "total_value_usd": 21142.41,
+      "entry_price": null,
+      "end_date": "2026-06-15",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

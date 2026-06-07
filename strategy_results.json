@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-07T22:45:39+00:00",
-  "total_evaluated": 63,
-  "total_pending": 63,
+  "generated_at": "2026-06-07T23:48:38+00:00",
+  "total_evaluated": 64,
+  "total_pending": 64,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 63,
+      "signals_evaluated": 64,
       "correct": 0,
       "wrong": 0,
-      "pending": 63,
+      "pending": 64,
       "win_rate": null,
       "signals": [
         {
@@ -893,6 +893,20 @@
           "resolved_date": null,
           "end_date": "2026-06-14",
           "total_value_usd": 64022.22,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xeb332c4077ea1847eaa8a6c1e24a46c9cae14f426d3e7ec08861c3694f15194d:1",
+          "condition_id": "0xeb332c4077ea1847eaa8a6c1e24a46c9cae14f426d3e7ec08861c3694f15194d",
+          "title": "San Francisco Giants vs. Chicago Cubs",
+          "category": "MLB",
+          "tier": "Weak",
+          "entry_price": null,
+          "whale_direction": "Chicago Cubs",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-15",
+          "total_value_usd": 21142.41,
           "result": "pending"
         }
       ]
