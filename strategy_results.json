@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-07T01:36:31+00:00",
-  "total_evaluated": 53,
-  "total_pending": 53,
+  "generated_at": "2026-06-07T06:07:55+00:00",
+  "total_evaluated": 55,
+  "total_pending": 55,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 53,
+      "signals_evaluated": 55,
       "correct": 0,
       "wrong": 0,
-      "pending": 53,
+      "pending": 55,
       "win_rate": null,
       "signals": [
         {
@@ -700,6 +700,32 @@
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-07-01",
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37:1",
+          "condition_id": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+          "title": "Will the New York Knicks win the 2026 NBA Finals?",
+          "category": "NBA",
+          "tier": "Moderate",
+          "entry_price": null,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-01",
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x0bbc63372aaf0867db23fc361b4e37f7d3125c7acef6cc8e2d5ce40f65b7e523:1",
+          "condition_id": "0x0bbc63372aaf0867db23fc361b4e37f7d3125c7acef6cc8e2d5ce40f65b7e523",
+          "title": "Boston Red Sox vs. New York Yankees",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": null,
+          "whale_direction": "New York Yankees",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-13",
           "result": "pending"
         }
       ]
