@@ -8075,5 +8075,203 @@
         "entry_price": null
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-07T22:44:55+00:00",
+    "whale_timeframes": {
+      "0xf8831548531d56ad6a4331493243c447a827cd1f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb91aeb5accc33a5f9a8615b8ed6b2d352e913987": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3d6ac5150675a83e2090234414222e968888c2b5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbee54d90051720e27921dc6874f02d646ffca636": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x03e8a544e97eeff5753bc1e90d46e5ef22af1697": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xefddbb135e2cc2648e3ca6a6b3d4fa4994d5017f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdbade4c82fb72780a0db9a38f821d8671aba9c95": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf1528f12e645462c344799b62b1b421a6a4c64aa": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd6966eb1ae7b52320ba7ab1016680198c9e08a49": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb859a551fcf56e49416160911476bea7307152f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x52911b9d1d9da4d4783fb3280c0ccd6e73f0d4b6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf201a19b43471261a3c1ba9247335d55270e527e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x73e3fec494611d73c170cb2f23850fd998b21be9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd3b034d7bfb2473fb252d0414646d9786bac329e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1117eade222413335b7ec959e5b48c1d3dbc3532": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7a8885c8dc075f0578b648f29fa233408a7d41cc": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x2d9bd01aa8536b9a88ea289b569547818ea1e54ee099f7fc113b0273c11e4ad6:1",
+        "condition_id": "0x2d9bd01aa8536b9a88ea289b569547818ea1e54ee099f7fc113b0273c11e4ad6",
+        "title": "Los Angeles Angels vs. Los Angeles Dodgers",
+        "outcome": "Los Angeles Dodgers",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xf1528f12e645462c344799b62b1b421a6a4c64aa"
+        ],
+        "ranks": [
+          5,
+          9,
+          11
+        ],
+        "total_value_usd": 162607.01,
+        "score": 8.4418,
+        "category": "MLB",
+        "end_date": "2026-06-14",
+        "entry_price": null
+      },
+      {
+        "signal_key": "0xb6b3d7a2037b3faa7e1306d741840d453432902d73cc9a146a035e40271eae73:0",
+        "condition_id": "0xb6b3d7a2037b3faa7e1306d741840d453432902d73cc9a146a035e40271eae73",
+        "title": "Will the San Antonio Spurs win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xefddbb135e2cc2648e3ca6a6b3d4fa4994d5017f",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x1117eade222413335b7ec959e5b48c1d3dbc3532",
+          "0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5"
+        ],
+        "ranks": [
+          8,
+          9,
+          18,
+          20
+        ],
+        "total_value_usd": 76653.49,
+        "score": 6.7248,
+        "category": "NBA",
+        "end_date": "2026-07-01",
+        "entry_price": null
+      },
+      {
+        "signal_key": "0xe19b02b324d24ded95c879cc30b544dee7278bfedad14e6bc7b88da15725a6ba:0",
+        "condition_id": "0xe19b02b324d24ded95c879cc30b544dee7278bfedad14e6bc7b88da15725a6ba",
+        "title": "New York Mets vs. San Diego Padres",
+        "outcome": "New York Mets",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xf1528f12e645462c344799b62b1b421a6a4c64aa",
+          "0x7a8885c8dc075f0578b648f29fa233408a7d41cc"
+        ],
+        "ranks": [
+          9,
+          11,
+          19
+        ],
+        "total_value_usd": 77274.33,
+        "score": 5.0157,
+        "category": "MLB",
+        "end_date": "2026-06-14",
+        "entry_price": null
+      }
+    ]
   }
 ]
