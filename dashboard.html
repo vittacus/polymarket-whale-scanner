@@ -354,6 +354,44 @@
     }
     .slab-win-pct { font-size: 15px; font-weight: 800; color: var(--text); }
 
+    /* ── Strategy Lab 2×2 card grid ── */
+    .strat-grid {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 16px; padding: 20px;
+    }
+    @media (max-width: 640px) { .strat-grid { grid-template-columns: 1fr; } }
+    .strat-card {
+      background: var(--surface-2); border: 1px solid var(--border);
+      border-radius: 10px; padding: 18px 20px; border-top: 3px solid transparent;
+    }
+    .strat-card.sa { border-top-color: #2dd4bf; }
+    .strat-card.sb { border-top-color: var(--red); }
+    .strat-card.sc { border-top-color: var(--green); }
+    .strat-card.sd { border-top-color: var(--yellow); }
+    .strat-card-top { margin-bottom: 2px; }
+    .strat-key { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); }
+    .strat-name { font-size: 14px; font-weight: 700; color: var(--text); margin-bottom: 3px; }
+    .strat-desc { font-size: 12px; color: var(--muted); margin-bottom: 12px; line-height: 1.5; }
+    .strat-record { font-size: 12px; color: var(--muted); margin-bottom: 8px; }
+    .strat-record .c { color: var(--green); font-weight: 700; }
+    .strat-record .w { color: var(--red); font-weight: 700; }
+    .strat-record .p { color: var(--muted); font-weight: 600; }
+    .strat-bar-track {
+      height: 6px; background: var(--surface); border-radius: 3px;
+      overflow: hidden; margin-bottom: 6px; border: 1px solid var(--border);
+    }
+    .strat-bar-fill {
+      height: 100%; border-radius: 3px;
+      background: linear-gradient(90deg, var(--green), #16a34a);
+      transition: width 0.6s ease;
+    }
+    .strat-winrate { font-size: 12px; color: var(--muted); margin-bottom: 8px; }
+    .strat-winrate strong { color: var(--text); font-weight: 700; }
+    .strat-interest {
+      font-size: 11px; color: var(--muted); line-height: 1.6;
+      border-top: 1px solid var(--border); padding-top: 10px; margin-top: 4px;
+    }
+
     /* ── B vs C callout ── */
     .bc-callout {
       background: rgba(129,140,248,0.07); border: 1px solid rgba(129,140,248,0.22);
@@ -702,45 +740,15 @@
 
 <!-- ── Tab 4: Strategy Lab ── -->
 <div class="tab-panel tab-active" id="panel-results">
-
-  <nav class="sub-tab-bar" role="tablist">
-    <button class="sub-tab-btn sub-active" data-subtab="overview" onclick="switchSubTab('overview')" role="tab">📊 Overview</button>
-    <button class="sub-tab-btn" data-subtab="sa" onclick="switchSubTab('sa')" role="tab">🐋 Strategy A</button>
-    <button class="sub-tab-btn" data-subtab="sb" onclick="switchSubTab('sb')" role="tab">📉 Strategy B</button>
-    <button class="sub-tab-btn" data-subtab="sc" onclick="switchSubTab('sc')" role="tab">📈 Strategy C</button>
-    <button class="sub-tab-btn" data-subtab="sd" onclick="switchSubTab('sd')" role="tab">💰 Strategy D</button>
-  </nav>
-
-  <div class="sub-tab-panel sub-active" id="subpanel-overview">
-    <div id="overview-content"><div class="empty" style="padding:48px">Loading strategy data…</div></div>
-  </div>
-
-  <div class="sub-tab-panel" id="subpanel-sa">
-    <div id="strategy-sa-content"><div class="empty" style="padding:48px">Loading…</div></div>
-  </div>
-
-  <div class="sub-tab-panel" id="subpanel-sb">
-    <div id="strategy-sb-content"><div class="empty" style="padding:48px">Loading…</div></div>
-  </div>
-
-  <div class="sub-tab-panel" id="subpanel-sc">
-    <div id="strategy-sc-content"><div class="empty" style="padding:48px">Loading…</div></div>
-  </div>
-
-  <div class="sub-tab-panel" id="subpanel-sd">
-    <div id="strategy-sd-content"><div class="empty" style="padding:48px">Loading…</div></div>
-  </div>
-
+  <div id="strategy-lab-content"><div class="empty" style="padding:48px">Loading strategy data…</div></div>
 </div>
 
 <script>
   let strategyChart  = null;
-  let rollingChart   = null;
   let activeFilter   = "All";
   let currentSignals = [];
   let currentLog     = [];
   let activeTab      = "results";
-  let activeSubTab   = "overview";
 
   // ── Tab navigation ────────────────────────────────────────────────────────
 
@@ -752,22 +760,7 @@
     document.querySelectorAll(".tab-panel").forEach(p =>
       p.classList.toggle("tab-active", p.id === "panel-" + name)
     );
-    // Chart.js dimensions are wrong when canvas was hidden during initial render
-    if (name === "results") {
-      if (strategyChart) setTimeout(() => strategyChart.resize(), 30);
-      if (rollingChart)  setTimeout(() => rollingChart.resize(),  30);
-    }
-  }
-
-  function switchSubTab(name) {
-    activeSubTab = name;
-    document.querySelectorAll(".sub-tab-btn").forEach(b =>
-      b.classList.toggle("sub-active", b.dataset.subtab === name)
-    );
-    document.querySelectorAll(".sub-tab-panel").forEach(p =>
-      p.classList.toggle("sub-active", p.id === "subpanel-" + name)
-    );
-    if (name === "overview" && strategyChart) setTimeout(() => strategyChart.resize(), 30);
+    if (name === "results" && strategyChart) setTimeout(() => strategyChart.resize(), 30);
   }
 
   Chart.register(ChartDataLabels);
@@ -1050,22 +1043,30 @@
 
   // ── Strategy Lab ─────────────────────────────────────────────────────────
 
-  const STRATEGY_META = {
+  const LAB_META = {
     "A": {
-      icon: "🐋", name: "Whale Consensus",
-      hypothesis: "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake — consensus among them is a stronger signal than any individual call.",
+      color: "sa",
+      name: "Whale Consensus",
+      desc: "3+ top-PnL wallets on same side",
+      interest: "When top traders independently agree, does their collective judgment beat random chance?",
     },
     "B": {
-      icon: "📉", name: "Contrarian",
-      hypothesis: "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets — same trigger, opposite bets — so the results are a direct comparison.",
+      color: "sb",
+      name: "Contrarian",
+      desc: "Market priced >85% one side — bet the other",
+      interest: "Do prediction markets overconfidently price heavy favorites at the extremes?",
     },
     "C": {
-      icon: "📈", name: "Heavy Favorite",
-      hypothesis: "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B — same markets, opposite calls.",
+      color: "sc",
+      name: "Heavy Favorite",
+      desc: "Market priced >85% one side — bet with the crowd",
+      interest: "Baseline: the crowd is usually right at 85%+ confidence — but by how much?",
     },
     "D": {
-      icon: "💰", name: "Conviction Sizing",
-      hypothesis: "Signals where total position size exceeds $500k represent the highest-conviction whale bets. When top traders put serious capital behind a position, that's a qualitatively different signal from a small stake. This filters for only the highest-conviction consensus calls to test whether size predicts accuracy.",
+      color: "sd",
+      name: "Conviction Sizing",
+      desc: "Total whale position >$500k",
+      interest: "Does capital commitment signal quality? Filters only highest-conviction consensus bets.",
     },
   };
 
@@ -1082,21 +1083,58 @@
     return d.toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric",timeZone:"UTC"});
   }
 
-  function slabSignalsTable(signals) {
-    if (!signals.length) return '<div class="empty" style="padding:32px">No signals have triggered this strategy yet.</div>';
+  const STRAT_COLORS = {
+    "A": { bar: "rgba(45,212,191,0.75)",  border: "#2dd4bf" },
+    "B": { bar: "rgba(239,68,68,0.75)",   border: "#ef4444" },
+    "C": { bar: "rgba(34,197,94,0.75)",   border: "#22c55e" },
+    "D": { bar: "rgba(234,179,8,0.75)",   border: "#eab308" },
+  };
+
+  const STRAT_BADGE_COLORS = {
+    A: { bg:"rgba(45,212,191,0.12)", color:"#2dd4bf", border:"rgba(45,212,191,0.35)" },
+    B: { bg:"rgba(239,68,68,0.12)",  color:"#ef4444", border:"rgba(239,68,68,0.35)"  },
+    C: { bg:"rgba(34,197,94,0.12)",  color:"#22c55e", border:"rgba(34,197,94,0.35)"  },
+    D: { bg:"rgba(234,179,8,0.12)",  color:"#eab308", border:"rgba(234,179,8,0.35)"  },
+  };
+
+  function buildUnifiedSignals(strategies) {
+    const byCondition = {};
+    for (const [key, data] of Object.entries(strategies)) {
+      for (const s of (data.signals || [])) {
+        const cid = s.condition_id;
+        if (!byCondition[cid]) {
+          byCondition[cid] = { ...s, flaggedBy: [] };
+        }
+        byCondition[cid].flaggedBy.push(key);
+        if (s.result && s.result !== "pending") {
+          byCondition[cid].result        = s.result;
+          byCondition[cid].resolved_date = s.resolved_date || byCondition[cid].resolved_date;
+          byCondition[cid].resolved_outcome = s.resolved_outcome || byCondition[cid].resolved_outcome;
+        }
+      }
+    }
+    const order = { wrong: 0, correct: 1, pending: 2 };
+    return Object.values(byCondition).sort((a, b) => (order[a.result] ?? 2) - (order[b.result] ?? 2));
+  }
+
+  function renderUnifiedTable(signals) {
+    if (!signals.length) return '<div class="empty" style="padding:32px">No signals yet — strategy data will appear here once markets resolve.</div>';
 
     const rows = signals.map(s => {
-      const dir      = badgeInfo(s.whale_direction || "");
-      const actBadge = s.resolved_outcome ? badgeInfo(s.resolved_outcome) : null;
+      const dir       = badgeInfo(s.whale_direction || "");
+      const dateLabel = s.resolved_date ? fmtShortDate(s.resolved_date) : (s.end_date ? fmtShortDate(s.end_date) : "—");
       const entryHtml = s.entry_price != null
         ? `<span style="font-family:'SF Mono','Fira Code',monospace;font-size:11px">${Math.round(s.entry_price * 100)}¢</span>`
         : `<span style="color:var(--muted)">—</span>`;
-      const dateLabel = s.resolved_date ? fmtShortDate(s.resolved_date) : (s.end_date ? fmtShortDate(s.end_date) : "—");
       const resultHtml = s.result === "correct"
         ? `<span class="result-badge correct">✓</span>`
         : s.result === "wrong"
         ? `<span class="result-badge wrong">✗</span>`
         : `<span style="color:var(--muted);font-size:11px">Pending</span>`;
+      const stratBadges = (s.flaggedBy || []).map(k => {
+        const c = STRAT_BADGE_COLORS[k] || {};
+        return `<span style="display:inline-flex;align-items:center;padding:2px 7px;border-radius:4px;font-size:10px;font-weight:700;background:${c.bg};color:${c.color};border:1px solid ${c.border};margin-right:3px">${k}</span>`;
+      }).join("");
       return `<tr${s.result === "pending" ? ' style="opacity:0.6"' : ""}>
         <td>
           <div class="market-title">
@@ -1106,281 +1144,127 @@
         </td>
         <td><span class="badge ${dir.cls}">${esc(dir.label)}</span></td>
         <td>${entryHtml}</td>
-        <td>${actBadge ? `<span class="badge ${actBadge.cls}">${esc(actBadge.label)}</span>` : `<span style="color:var(--muted)">—</span>`}</td>
         <td class="ts-cell">${esc(dateLabel)}</td>
+        <td>${stratBadges}</td>
         <td class="c">${resultHtml}</td>
       </tr>`;
     }).join("");
 
     return `<div class="table-scroll"><table>
       <thead><tr>
-        <th>Market</th><th>Whale Bet</th><th>Entry Price</th>
-        <th>Actual Outcome</th><th>Date</th><th class="c">Result</th>
+        <th>Market</th><th>Direction</th><th>Entry</th>
+        <th>Date</th><th>Strategies</th><th class="c">Result</th>
       </tr></thead>
       <tbody>${rows}</tbody>
     </table></div>`;
   }
 
-  function renderStrategySubTab(key, data) {
-    const el = document.getElementById(`strategy-s${key.toLowerCase()}-content`);
-    if (!el) return;
-    const meta    = STRATEGY_META[key] || {};
-    const correct = data.correct  ?? 0;
-    const wrong   = data.wrong    ?? 0;
-    const pending = data.pending  ?? 0;
-    const wr      = data.win_rate;
-    const pct     = wr ?? 0;
-    const signals = data.signals ?? [];
-    const donutId = `donut-${key}`;
+  function renderStrategyLab(d) {
+    const el         = document.getElementById("strategy-lab-content");
+    const strategies = d.strategies || {};
+    const KEYS       = ["A", "B", "C", "D"];
+    const rates      = KEYS.map(k => strategies[k]?.win_rate ?? 0);
+    const bgs        = KEYS.map(k => STRAT_COLORS[k].bar);
+    const borders    = KEYS.map(k => STRAT_COLORS[k].border);
 
-    const pendingSignals = signals.filter(s => s.result === "pending");
-    const pendingDates   = pendingSignals.map(s => s.end_date || "").filter(Boolean).sort();
-    const statusHtml     = (correct + wrong) === 0 && pendingDates.length > 0
-      ? `<div class="pending-note">Waiting for first resolution — check back after ${fmtShortDate(pendingDates[0])}</div>`
-      : "";
+    const cards = KEYS.map(k => {
+      const m       = LAB_META[k];
+      const data    = strategies[k] || {};
+      const correct = data.correct ?? 0;
+      const wrong   = data.wrong   ?? 0;
+      const pending = data.pending ?? 0;
+      const wr      = data.win_rate;
+      const resolved = correct + wrong;
 
-    const total = correct + wrong + pending;
+      const pendingDates = (data.signals || [])
+        .filter(s => s.result === "pending")
+        .map(s => s.end_date || "").filter(Boolean).sort();
 
-    el.innerHTML = `
-      <div class="slab-card strategy-${key.toLowerCase()}">
-        <div class="slab-card-header">${meta.icon || ""} ${key}: ${meta.name || data.name || ""}</div>
-        <div class="slab-hypothesis">${esc(meta.hypothesis || data.hypothesis || data.description || "")}</div>
-        <div class="slab-record">
-          <div class="slab-stat">
-            <span class="slab-stat-label">Correct</span>
-            <span class="slab-stat-value correct">${correct}</span>
-          </div>
-          <div class="slab-stat">
-            <span class="slab-stat-label">Wrong</span>
-            <span class="slab-stat-value wrong">${wrong}</span>
-          </div>
-          <div class="slab-stat">
-            <span class="slab-stat-label">Pending</span>
-            <span class="slab-stat-value pending">${pending}</span>
-          </div>
-          ${(correct + wrong) > 0 ? `
-            <div class="slab-win-bar"><div class="slab-win-fill" style="width:${pct}%"></div></div>
-            <span class="slab-win-pct">${pct}% win rate</span>
-          ` : ""}
-          ${total > 0 ? `<div style="margin-left:auto;flex-shrink:0"><canvas id="${donutId}" width="90" height="90"></canvas></div>` : ""}
+      const noDataLabel = resolved === 0 && pendingDates.length > 0
+        ? `Resolves from ${fmtShortDate(pendingDates[0])}`
+        : resolved === 0 ? "No resolved signals yet" : null;
+
+      const barHtml = noDataLabel
+        ? `<div class="strat-bar-track"><div class="strat-bar-fill" style="width:0%"></div></div>
+           <div class="strat-winrate" style="color:var(--muted)">${noDataLabel}</div>`
+        : `<div class="strat-bar-track"><div class="strat-bar-fill" style="width:${wr}%"></div></div>
+           <div class="strat-winrate"><strong>${wr}% win rate</strong></div>`;
+
+      return `<div class="strat-card ${m.color}">
+        <div class="strat-card-top"><span class="strat-key">Strategy ${k}</span></div>
+        <div class="strat-name">${esc(m.name)}</div>
+        <div class="strat-desc">${esc(m.desc)}</div>
+        <div class="strat-record">
+          <span class="c">${correct} correct</span> /
+          <span class="w">${wrong} wrong</span> /
+          <span class="p">${pending} pending</span>
         </div>
-      </div>
-      <div class="slab-card">
-        <div class="slab-card-header">Signals</div>
-        ${statusHtml}
-        ${slabSignalsTable(signals)}
+        ${barHtml}
+        <div class="strat-interest">${esc(m.interest)}</div>
       </div>`;
-
-    if (total > 0) {
-      requestAnimationFrame(() => {
-        const canvas = document.getElementById(donutId);
-        if (!canvas) return;
-        new Chart(canvas, {
-          type: "doughnut",
-          data: {
-            labels: ["Correct", "Wrong", "Pending"],
-            datasets: [{
-              data: [correct, wrong, pending],
-              backgroundColor: ["rgba(34,197,94,0.75)", "rgba(239,68,68,0.75)", "rgba(90,96,128,0.35)"],
-              borderColor:     ["#22c55e",              "#ef4444",              "#2a2e4a"             ],
-              borderWidth: 1,
-            }]
-          },
-          options: {
-            responsive: false,
-            cutout: "62%",
-            plugins: {
-              legend: { display: false },
-              datalabels: { display: false },
-              tooltip: {
-                callbacks: { label: ctx => ` ${ctx.label}: ${ctx.raw}` },
-                backgroundColor: "#1e2135", borderColor: "#2a2e4a", borderWidth: 1,
-                titleColor: "#e2e8f0", bodyColor: "#9ca3af",
-              }
-            }
-          }
-        });
-      });
-    }
-  }
-
-  function computeRolling7DayWinRate(signals) {
-    const MS7D = 7 * 24 * 60 * 60 * 1000;
-    const resolved = signals
-      .filter(s => s.result === "correct" || s.result === "wrong")
-      .map(s => ({ date: s.resolved_date || "", correct: s.result === "correct" }))
-      .filter(s => s.date)
-      .sort((a, b) => a.date.localeCompare(b.date));
-    if (resolved.length < 2) return null;
-    const dates = [...new Set(resolved.map(s => s.date))].sort();
-    return dates.map(date => {
-      const cutoffMs = new Date(date + "T00:00:00Z").getTime();
-      const w = resolved.filter(s => {
-        const t = new Date(s.date + "T00:00:00Z").getTime();
-        return t >= cutoffMs - MS7D && t <= cutoffMs;
-      });
-      if (!w.length) return null;
-      return { date, winRate: Math.round(w.filter(s => s.correct).length / w.length * 100), count: w.length };
-    }).filter(Boolean);
-  }
-
-  const STRAT_COLORS = {
-    "A": { bar: "rgba(45,212,191,0.75)",  border: "#2dd4bf" },
-    "B": { bar: "rgba(239,68,68,0.75)",   border: "#ef4444" },
-    "C": { bar: "rgba(34,197,94,0.75)",   border: "#22c55e" },
-    "D": { bar: "rgba(234,179,8,0.75)",   border: "#eab308" },
-  };
-
-  function renderStrategyOverview(strategies, totalPending) {
-    const el   = document.getElementById("overview-content");
-    const KEYS = ["A", "B", "C", "D"];
-    const rates   = KEYS.map(k => strategies[k]?.win_rate ?? 0);
-    const bgs     = KEYS.map(k => STRAT_COLORS[k].bar);
-    const borders = KEYS.map(k => STRAT_COLORS[k].border);
-
-    const tableRows = KEYS.map(k => {
-      const d  = strategies[k] || {};
-      const m  = STRATEGY_META[k] || {};
-      const wr = d.win_rate != null ? `${d.win_rate}%` : "—";
-      return `<tr>
-        <td style="width:32px"><strong style="color:${STRAT_COLORS[k].border}">${k}</strong></td>
-        <td>${esc(m.name || "")}</td>
-        <td class="r">${d.signals_evaluated ?? 0}</td>
-        <td class="r" style="color:var(--green)">${d.correct ?? 0}</td>
-        <td class="r" style="color:var(--red)">${d.wrong ?? 0}</td>
-        <td class="r" style="font-weight:700">${wr}</td>
-      </tr>`;
     }).join("");
 
-    const signalsA    = strategies["A"]?.signals ?? [];
-    const rollingData = computeRolling7DayWinRate(signalsA);
-    const hasLineData = rollingData && rollingData.length >= 2;
+    const unifiedSignals = buildUnifiedSignals(strategies);
 
     el.innerHTML = `
+      <div class="slab-card" style="margin-bottom:20px">
+        <div class="slab-card-header">Strategy Performance</div>
+        <div class="strat-grid">${cards}</div>
+      </div>
       ${BC_CALLOUT}
-      <div class="slab-card">
-        <div class="slab-card-header">Win Rate by Strategy</div>
+      <div class="slab-card" style="margin-bottom:20px">
+        <div class="slab-card-header">Win Rate Comparison</div>
         <div class="overview-chart-wrap" style="min-height:210px"><canvas id="strategy-chart"></canvas></div>
       </div>
       <div class="slab-card">
-        <div class="slab-card-header">Summary</div>
-        <div class="table-scroll"><table>
-          <thead><tr>
-            <th>Key</th><th>Strategy</th>
-            <th class="r">Evaluated</th><th class="r">Correct</th>
-            <th class="r">Wrong</th><th class="r">Win Rate</th>
-          </tr></thead>
-          <tbody>${tableRows}</tbody>
-        </table></div>
-        ${totalPending ? `<div class="pending-note">${totalPending} signal${totalPending !== 1 ? "s" : ""} pending — excluded from win rates</div>` : ""}
-      </div>
-      ${hasLineData ? `
-      <div class="slab-card">
-        <div class="slab-card-header">Strategy A · Rolling 7-Day Accuracy</div>
-        <div class="overview-chart-wrap" style="min-height:180px"><canvas id="rolling-chart"></canvas></div>
-      </div>` : ""}`;
+        <div class="slab-card-header">All Signals — Strategy Overlap</div>
+        ${renderUnifiedTable(unifiedSignals)}
+        ${d.total_pending ? `<div class="pending-note">${d.total_pending} signal${d.total_pending !== 1 ? "s" : ""} pending — excluded from win rates</div>` : ""}
+      </div>`;
 
     requestAnimationFrame(() => {
       const canvas = document.getElementById("strategy-chart");
-      if (canvas) {
-        if (strategyChart) strategyChart.destroy();
-        strategyChart = new Chart(canvas, {
-          type: "bar",
-          data: {
-            labels: KEYS.map(k => STRATEGY_META[k]?.name ?? k),
-            datasets: [{
-              data: rates,
-              backgroundColor: bgs,
-              borderColor: borders,
-              borderWidth: 2,
-              borderRadius: 6,
-            }]
-          },
-          options: {
-            responsive: true,
-            aspectRatio: 2.4,
-            plugins: {
-              legend: { display: false },
-              tooltip: {
-                callbacks: { label: ctx => `  ${ctx.raw ?? 0}% win rate` },
-                backgroundColor: "#1e2135", borderColor: "#2a2e4a", borderWidth: 1,
-                titleColor: "#e2e8f0", bodyColor: "#9ca3af",
-              },
-              datalabels: {
-                anchor: "end", align: "top",
-                formatter: val => val > 0 ? `${val}%` : "—",
-                color: "#e2e8f0", font: { size: 13, weight: "700" }, offset: 4,
-              }
+      if (!canvas) return;
+      if (strategyChart) strategyChart.destroy();
+      strategyChart = new Chart(canvas, {
+        type: "bar",
+        data: {
+          labels: KEYS.map(k => LAB_META[k].name),
+          datasets: [{
+            data: rates,
+            backgroundColor: bgs,
+            borderColor: borders,
+            borderWidth: 2,
+            borderRadius: 6,
+          }]
+        },
+        options: {
+          responsive: true,
+          aspectRatio: 2.4,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              callbacks: { label: ctx => `  ${ctx.raw ?? 0}% win rate` },
+              backgroundColor: "#1e2135", borderColor: "#2a2e4a", borderWidth: 1,
+              titleColor: "#e2e8f0", bodyColor: "#9ca3af",
             },
-            scales: {
-              x: { grid: { display: false }, ticks: { color: "#e2e8f0", font: { size: 12 } } },
-              y: {
-                min: 0, max: 100,
-                grid: { color: "rgba(255,255,255,0.04)" },
-                ticks: { color: "#5a6080", font: { size: 10 }, callback: v => v + "%" }
-              }
+            datalabels: {
+              anchor: "end", align: "top",
+              formatter: val => val > 0 ? `${val}%` : "—",
+              color: "#e2e8f0", font: { size: 13, weight: "700" }, offset: 4,
+            }
+          },
+          scales: {
+            x: { grid: { display: false }, ticks: { color: "#e2e8f0", font: { size: 12 } } },
+            y: {
+              min: 0, max: 100,
+              grid: { color: "rgba(255,255,255,0.04)" },
+              ticks: { color: "#5a6080", font: { size: 10 }, callback: v => v + "%" }
             }
           }
-        });
-      }
-
-      if (hasLineData) {
-        const lineCanvas = document.getElementById("rolling-chart");
-        if (lineCanvas) {
-          if (rollingChart) rollingChart.destroy();
-          rollingChart = new Chart(lineCanvas, {
-            type: "line",
-            data: {
-              labels: rollingData.map(d => d.date),
-              datasets: [{
-                data: rollingData.map(d => d.winRate),
-                borderColor: "#2dd4bf",
-                backgroundColor: "rgba(45,212,191,0.08)",
-                borderWidth: 2,
-                pointRadius: 4,
-                pointBackgroundColor: "#2dd4bf",
-                fill: true,
-                tension: 0.3,
-              }]
-            },
-            options: {
-              responsive: true,
-              aspectRatio: 3,
-              plugins: {
-                legend: { display: false },
-                tooltip: {
-                  callbacks: {
-                    label: ctx => `  ${ctx.raw}% (${rollingData[ctx.dataIndex]?.count ?? "?"} signals)`,
-                  },
-                  backgroundColor: "#1e2135", borderColor: "#2a2e4a", borderWidth: 1,
-                  titleColor: "#e2e8f0", bodyColor: "#9ca3af",
-                },
-                datalabels: { display: false },
-              },
-              scales: {
-                x: {
-                  grid: { display: false },
-                  ticks: { color: "#5a6080", font: { size: 10 }, maxTicksLimit: 8 }
-                },
-                y: {
-                  min: 0, max: 100,
-                  grid: { color: "rgba(255,255,255,0.04)" },
-                  ticks: { color: "#5a6080", font: { size: 10 }, callback: v => v + "%" }
-                }
-              }
-            }
-          });
         }
-      }
+      });
     });
-  }
-
-  function renderStrategyLab(d) {
-    const strategies = d.strategies || {};
-    renderStrategyOverview(strategies, d.total_pending ?? 0);
-    for (const k of ["A", "B", "C", "D"]) {
-      renderStrategySubTab(k, strategies[k] || {});
-    }
   }
 
   // ── Current signals table (with empty-state fallback) ────────────────────
