@@ -1159,52 +1159,137 @@
     </table></div>`;
   }
 
+  function renderResolutionTimeline(strategies) {
+    // Deduplicate pending signals across all strategies
+    const pendingMap = {};
+    for (const k of ["A","B","C","D"]) {
+      for (const s of (strategies[k]?.signals || [])) {
+        if (s.result !== "pending" || !s.end_date) continue;
+        if (!pendingMap[s.condition_id]) {
+          pendingMap[s.condition_id] = { date: s.end_date.slice(0,10), tier: s.tier || "weak", usd: +(s.total_value_usd||0) };
+        }
+      }
+    }
+
+    const byDate = {};
+    for (const {date, tier, usd} of Object.values(pendingMap)) {
+      if (!date) continue;
+      if (!byDate[date]) byDate[date] = { count: 0, usd: 0, tier: "weak" };
+      byDate[date].count++;
+      byDate[date].usd += usd;
+      const rank = { strong: 2, moderate: 1, weak: 0 };
+      if ((rank[tier.toLowerCase()] ?? 0) > (rank[byDate[date].tier] ?? 0)) byDate[date].tier = tier.toLowerCase();
+    }
+
+    const groups = Object.entries(byDate).sort(([a],[b]) => a.localeCompare(b));
+    if (!groups.length) return '<div class="empty" style="padding:32px">No pending signals.</div>';
+
+    const totalCount = groups.reduce((s,[,g]) => s + g.count, 0);
+    const totalUSD   = groups.reduce((s,[,g]) => s + g.usd, 0);
+    const maxCount   = Math.max(...groups.map(([,g]) => g.count));
+
+    const tierColor = { strong: "#22c55e", moderate: "#eab308", weak: "#5a6080" };
+
+    const dotItems = groups.map(([date, g]) => ({
+      label: new Date(date + "T00:00:00Z").toLocaleDateString("en-US", { month: "short", day: "numeric", timeZone: "UTC" }),
+      count: g.count,
+      size:  Math.max(8, Math.min(24, Math.round(8 + (g.count / maxCount) * 16))),
+      color: tierColor[g.tier] || "#5a6080",
+    }));
+
+    const dotsRow = dotItems.map(it =>
+      `<div style="flex:1;display:flex;justify-content:center;align-items:center">
+        <div style="width:${it.size}px;height:${it.size}px;border-radius:50%;background:${it.color};position:relative;z-index:1"></div>
+      </div>`
+    ).join("");
+
+    const labelsRow = dotItems.map(it =>
+      `<div style="flex:1;text-align:center;padding-top:8px">
+        <div style="font-size:11px;font-weight:700;color:#e2e8f0">${it.label}</div>
+        <div style="font-size:10px;color:#5a6080">${it.count} signal${it.count !== 1 ? "s" : ""}</div>
+      </div>`
+    ).join("");
+
+    const usdNote = totalUSD > 0 ? ` · ${fmtUSDShort(totalUSD)} at stake` : "";
+
+    return `<div style="padding:20px 24px 16px">
+      <div style="font-size:11px;color:#5a6080;text-align:center;margin-bottom:20px">
+        ${totalCount} signal${totalCount !== 1 ? "s" : ""} pending · ${groups.length} resolution date${groups.length !== 1 ? "s" : ""}${usdNote}
+      </div>
+      <div style="position:relative;margin:0 16px">
+        <div style="position:absolute;left:0;right:0;top:50%;height:2px;background:#2a2e4a;transform:translateY(-50%);z-index:0"></div>
+        <div style="display:flex;align-items:center;position:relative">${dotsRow}</div>
+        <div style="display:flex">${labelsRow}</div>
+      </div>
+      <div style="text-align:center;font-size:11px;color:#5a6080;margin-top:16px;font-style:italic">
+        Win rate charts will populate as markets resolve
+      </div>
+    </div>`;
+  }
+
   function renderStrategyLab(d) {
     const el         = document.getElementById("strategy-lab-content");
     const strategies = d.strategies || {};
     const KEYS       = ["A", "B", "C", "D"];
-    const rates      = KEYS.map(k => strategies[k]?.win_rate ?? 0);
-    const bgs        = KEYS.map(k => STRAT_COLORS[k].bar);
-    const borders    = KEYS.map(k => STRAT_COLORS[k].border);
+
+    const hasResolved = KEYS.some(k => (strategies[k]?.correct ?? 0) + (strategies[k]?.wrong ?? 0) > 0);
 
     const cards = KEYS.map(k => {
-      const m       = LAB_META[k];
-      const data    = strategies[k] || {};
-      const correct = data.correct ?? 0;
-      const wrong   = data.wrong   ?? 0;
-      const pending = data.pending ?? 0;
-      const wr      = data.win_rate;
+      const m        = LAB_META[k];
+      const data     = strategies[k] || {};
+      const correct  = data.correct ?? 0;
+      const wrong    = data.wrong   ?? 0;
+      const pending  = data.pending ?? 0;
+      const wr       = data.win_rate;
       const resolved = correct + wrong;
 
-      const pendingDates = (data.signals || [])
-        .filter(s => s.result === "pending")
-        .map(s => s.end_date || "").filter(Boolean).sort();
-
-      const noDataLabel = resolved === 0 && pendingDates.length > 0
-        ? `Resolves from ${fmtShortDate(pendingDates[0])}`
-        : resolved === 0 ? "No resolved signals yet" : null;
-
-      const barHtml = noDataLabel
-        ? `<div class="strat-bar-track"><div class="strat-bar-fill" style="width:0%"></div></div>
-           <div class="strat-winrate" style="color:var(--muted)">${noDataLabel}</div>`
-        : `<div class="strat-bar-track"><div class="strat-bar-fill" style="width:${wr}%"></div></div>
-           <div class="strat-winrate"><strong>${wr}% win rate</strong></div>`;
+      let statusHtml;
+      if (resolved > 0) {
+        statusHtml = `
+          <div class="strat-record">
+            <span class="c">${correct} correct</span> /
+            <span class="w">${wrong} wrong</span> /
+            <span class="p">${pending} pending</span>
+          </div>
+          <div class="strat-bar-track"><div class="strat-bar-fill" style="width:${wr ?? 0}%"></div></div>
+          <div class="strat-winrate"><strong>${wr}% win rate</strong></div>`;
+      } else {
+        const pendingSignals = (data.signals || []).filter(s => s.result === "pending");
+        const pendingDates   = pendingSignals.map(s => s.end_date || "").filter(Boolean).sort();
+        const pendingUSD     = pendingSignals.reduce((acc, s) => acc + +(s.total_value_usd || 0), 0);
+        const nextDate       = pendingDates[0];
+        statusHtml = `
+          <div class="strat-record"><span class="p">${pending} pending</span></div>
+          <div style="margin-bottom:8px">
+            ${nextDate
+              ? `<div style="font-size:12px;font-weight:700;color:var(--text);margin-bottom:2px">Next resolution: ${fmtShortDate(nextDate)}</div>`
+              : ""}
+            ${pendingUSD > 0
+              ? `<div style="font-size:11px;color:var(--muted)">${fmtUSDShort(pendingUSD)} at stake</div>`
+              : ""}
+          </div>`;
+      }
 
       return `<div class="strat-card ${m.color}">
         <div class="strat-card-top"><span class="strat-key">Strategy ${k}</span></div>
         <div class="strat-name">${esc(m.name)}</div>
         <div class="strat-desc">${esc(m.desc)}</div>
-        <div class="strat-record">
-          <span class="c">${correct} correct</span> /
-          <span class="w">${wrong} wrong</span> /
-          <span class="p">${pending} pending</span>
-        </div>
-        ${barHtml}
+        ${statusHtml}
         <div class="strat-interest">${esc(m.interest)}</div>
       </div>`;
     }).join("");
 
     const unifiedSignals = buildUnifiedSignals(strategies);
+
+    const chartOrTimeline = hasResolved
+      ? `<div class="slab-card" style="margin-bottom:20px">
+           <div class="slab-card-header">Win Rate Comparison</div>
+           <div class="overview-chart-wrap" style="min-height:210px"><canvas id="strategy-chart"></canvas></div>
+         </div>`
+      : `<div class="slab-card" style="margin-bottom:20px">
+           <div class="slab-card-header">Signals Pending Resolution</div>
+           ${renderResolutionTimeline(strategies)}
+         </div>`;
 
     el.innerHTML = `
       <div class="slab-card" style="margin-bottom:20px">
@@ -1212,59 +1297,54 @@
         <div class="strat-grid">${cards}</div>
       </div>
       ${BC_CALLOUT}
-      <div class="slab-card" style="margin-bottom:20px">
-        <div class="slab-card-header">Win Rate Comparison</div>
-        <div class="overview-chart-wrap" style="min-height:210px"><canvas id="strategy-chart"></canvas></div>
-      </div>
+      ${chartOrTimeline}
       <div class="slab-card">
         <div class="slab-card-header">All Signals — Strategy Overlap</div>
         ${renderUnifiedTable(unifiedSignals)}
         ${d.total_pending ? `<div class="pending-note">${d.total_pending} signal${d.total_pending !== 1 ? "s" : ""} pending — excluded from win rates</div>` : ""}
       </div>`;
 
-    requestAnimationFrame(() => {
-      const canvas = document.getElementById("strategy-chart");
-      if (!canvas) return;
-      if (strategyChart) strategyChart.destroy();
-      strategyChart = new Chart(canvas, {
-        type: "bar",
-        data: {
-          labels: KEYS.map(k => LAB_META[k].name),
-          datasets: [{
-            data: rates,
-            backgroundColor: bgs,
-            borderColor: borders,
-            borderWidth: 2,
-            borderRadius: 6,
-          }]
-        },
-        options: {
-          responsive: true,
-          aspectRatio: 2.4,
-          plugins: {
-            legend: { display: false },
-            tooltip: {
-              callbacks: { label: ctx => `  ${ctx.raw ?? 0}% win rate` },
-              backgroundColor: "#1e2135", borderColor: "#2a2e4a", borderWidth: 1,
-              titleColor: "#e2e8f0", bodyColor: "#9ca3af",
-            },
-            datalabels: {
-              anchor: "end", align: "top",
-              formatter: val => val > 0 ? `${val}%` : "—",
-              color: "#e2e8f0", font: { size: 13, weight: "700" }, offset: 4,
-            }
+    if (hasResolved) {
+      const rates   = KEYS.map(k => strategies[k]?.win_rate ?? 0);
+      const bgs     = KEYS.map(k => STRAT_COLORS[k].bar);
+      const borders = KEYS.map(k => STRAT_COLORS[k].border);
+      requestAnimationFrame(() => {
+        const canvas = document.getElementById("strategy-chart");
+        if (!canvas) return;
+        if (strategyChart) strategyChart.destroy();
+        strategyChart = new Chart(canvas, {
+          type: "bar",
+          data: {
+            labels: KEYS.map(k => LAB_META[k].name),
+            datasets: [{ data: rates, backgroundColor: bgs, borderColor: borders, borderWidth: 2, borderRadius: 6 }]
           },
-          scales: {
-            x: { grid: { display: false }, ticks: { color: "#e2e8f0", font: { size: 12 } } },
-            y: {
-              min: 0, max: 100,
-              grid: { color: "rgba(255,255,255,0.04)" },
-              ticks: { color: "#5a6080", font: { size: 10 }, callback: v => v + "%" }
+          options: {
+            responsive: true, aspectRatio: 2.4,
+            plugins: {
+              legend: { display: false },
+              tooltip: {
+                callbacks: { label: ctx => `  ${ctx.raw ?? 0}% win rate` },
+                backgroundColor: "#1e2135", borderColor: "#2a2e4a", borderWidth: 1,
+                titleColor: "#e2e8f0", bodyColor: "#9ca3af",
+              },
+              datalabels: {
+                anchor: "end", align: "top",
+                formatter: val => val > 0 ? `${val}%` : "—",
+                color: "#e2e8f0", font: { size: 13, weight: "700" }, offset: 4,
+              }
+            },
+            scales: {
+              x: { grid: { display: false }, ticks: { color: "#e2e8f0", font: { size: 12 } } },
+              y: {
+                min: 0, max: 100,
+                grid: { color: "rgba(255,255,255,0.04)" },
+                ticks: { color: "#5a6080", font: { size: 10 }, callback: v => v + "%" }
+              }
             }
           }
-        }
+        });
       });
-    });
+    }
   }
 
   // ── Current signals table (with empty-state fallback) ────────────────────

@@ -189,6 +189,7 @@ def run_comparison() -> Dict:
                 "resolved_outcome": s.get("resolved_outcome"),
                 "resolved_date":    s.get("resolved_date"),
                 "end_date":         s.get("end_date", ""),
+                "total_value_usd":  s.get("total_value_usd", 0),
                 "result":           result_label,
             })
 
