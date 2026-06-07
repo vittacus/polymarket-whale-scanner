@@ -7589,5 +7589,224 @@
         "entry_price": null
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-07T20:09:17+00:00",
+    "whale_timeframes": {
+      "0xf8831548531d56ad6a4331493243c447a827cd1f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb91aeb5accc33a5f9a8615b8ed6b2d352e913987": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3d6ac5150675a83e2090234414222e968888c2b5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbee54d90051720e27921dc6874f02d646ffca636": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x03e8a544e97eeff5753bc1e90d46e5ef22af1697": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xefddbb135e2cc2648e3ca6a6b3d4fa4994d5017f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdbade4c82fb72780a0db9a38f821d8671aba9c95": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf201a19b43471261a3c1ba9247335d55270e527e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xee00ba338c59557141789b127927a55f5cc5cea1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf1528f12e645462c344799b62b1b421a6a4c64aa": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd3b034d7bfb2473fb252d0414646d9786bac329e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x349606c1b77f3ba668879cbc9347f15a44cf8fc4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1117eade222413335b7ec959e5b48c1d3dbc3532": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x52911b9d1d9da4d4783fb3280c0ccd6e73f0d4b6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x73e3fec494611d73c170cb2f23850fd998b21be9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x780a7539200e74e882dde303952029bda21684f0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0dcf5b49627c5194805bd1af846fd0bd3388c556": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x09af9830986ce1a73c99647bcca34b9fd8b46a0ad3ac234ba0b06ee76f53bc1e:0",
+        "condition_id": "0x09af9830986ce1a73c99647bcca34b9fd8b46a0ad3ac234ba0b06ee76f53bc1e",
+        "title": "Kansas City Royals vs. Minnesota Twins",
+        "outcome": "Kansas City Royals",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xb91aeb5accc33a5f9a8615b8ed6b2d352e913987",
+          "0xf1528f12e645462c344799b62b1b421a6a4c64aa",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
+        ],
+        "ranks": [
+          2,
+          12,
+          16
+        ],
+        "total_value_usd": 131021.21,
+        "score": 13.3174,
+        "category": "MLB",
+        "end_date": "2026-06-14",
+        "entry_price": null
+      },
+      {
+        "signal_key": "0x4502f3bd525238d8b935f0b5e57bbc53c9582f45195de866c90897a049e89f6b:1",
+        "condition_id": "0x4502f3bd525238d8b935f0b5e57bbc53c9582f45195de866c90897a049e89f6b",
+        "title": "Chicago White Sox vs. Philadelphia Phillies",
+        "outcome": "Philadelphia Phillies",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0xf1528f12e645462c344799b62b1b421a6a4c64aa",
+          "0x1117eade222413335b7ec959e5b48c1d3dbc3532"
+        ],
+        "ranks": [
+          6,
+          12,
+          15
+        ],
+        "total_value_usd": 179182.51,
+        "score": 6.7033,
+        "category": "MLB",
+        "end_date": "2026-06-14",
+        "entry_price": null
+      },
+      {
+        "signal_key": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37:1",
+        "condition_id": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+        "title": "Will the New York Knicks win the 2026 NBA Finals?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xefddbb135e2cc2648e3ca6a6b3d4fa4994d5017f",
+          "0xee00ba338c59557141789b127927a55f5cc5cea1",
+          "0x1117eade222413335b7ec959e5b48c1d3dbc3532"
+        ],
+        "ranks": [
+          8,
+          11,
+          15
+        ],
+        "total_value_usd": 77064.57,
+        "score": 5.5644,
+        "category": "NBA",
+        "end_date": "2026-07-01",
+        "entry_price": null
+      },
+      {
+        "signal_key": "0xb6b3d7a2037b3faa7e1306d741840d453432902d73cc9a146a035e40271eae73:0",
+        "condition_id": "0xb6b3d7a2037b3faa7e1306d741840d453432902d73cc9a146a035e40271eae73",
+        "title": "Will the San Antonio Spurs win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xefddbb135e2cc2648e3ca6a6b3d4fa4994d5017f",
+          "0x1117eade222413335b7ec959e5b48c1d3dbc3532",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
+        ],
+        "ranks": [
+          8,
+          15,
+          16
+        ],
+        "total_value_usd": 74778.5,
+        "score": 4.9916,
+        "category": "NBA",
+        "end_date": "2026-07-01",
+        "entry_price": null
+      }
+    ]
   }
 ]

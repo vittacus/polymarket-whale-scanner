@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-07T18:56:54+00:00",
-  "total_signals": 57,
+  "generated_at": "2026-06-07T20:10:01+00:00",
+  "total_signals": 59,
   "total_resolved": 0,
   "total_correct": 0,
   "overall_hit_rate": null,
   "by_tier": {
     "Strong": {
-      "total": 24,
+      "total": 25,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
     },
     "Moderate": {
-      "total": 26,
+      "total": 27,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
@@ -987,6 +987,40 @@
       "tier": "Strong",
       "score": 43.4534,
       "total_value_usd": 7431193.3,
+      "entry_price": null,
+      "end_date": "2026-06-14",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x09af9830986ce1a73c99647bcca34b9fd8b46a0ad3ac234ba0b06ee76f53bc1e:0",
+      "condition_id": "0x09af9830986ce1a73c99647bcca34b9fd8b46a0ad3ac234ba0b06ee76f53bc1e",
+      "title": "Kansas City Royals vs. Minnesota Twins",
+      "category": "MLB",
+      "whale_direction": "Kansas City Royals",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 13.3174,
+      "total_value_usd": 131021.21,
+      "entry_price": null,
+      "end_date": "2026-06-14",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x4502f3bd525238d8b935f0b5e57bbc53c9582f45195de866c90897a049e89f6b:1",
+      "condition_id": "0x4502f3bd525238d8b935f0b5e57bbc53c9582f45195de866c90897a049e89f6b",
+      "title": "Chicago White Sox vs. Philadelphia Phillies",
+      "category": "MLB",
+      "whale_direction": "Philadelphia Phillies",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 6.7033,
+      "total_value_usd": 179182.51,
       "entry_price": null,
       "end_date": "2026-06-14",
       "resolved": false,
