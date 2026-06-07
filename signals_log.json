@@ -6756,5 +6756,182 @@
         "entry_price": null
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-07T14:55:25+00:00",
+    "whale_timeframes": {
+      "0xf8831548531d56ad6a4331493243c447a827cd1f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb91aeb5accc33a5f9a8615b8ed6b2d352e913987": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x03e8a544e97eeff5753bc1e90d46e5ef22af1697": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xefddbb135e2cc2648e3ca6a6b3d4fa4994d5017f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdbade4c82fb72780a0db9a38f821d8671aba9c95": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3d6ac5150675a83e2090234414222e968888c2b5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbee54d90051720e27921dc6874f02d646ffca636": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9f2fe025f84839ca81dd8e0338892605702d2ca8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x528635df9791d3dcebf9b82ad4b83e8570440d47": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1465b79bff7992bc703e1aafb3683b1089647072": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf201a19b43471261a3c1ba9247335d55270e527e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb9c7d35d1f04d08624fabcfd3b6cee2d3c9baade": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1117eade222413335b7ec959e5b48c1d3dbc3532": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd6966eb1ae7b52320ba7ab1016680198c9e08a49": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd65c3279408a33866a9129bed6943064cb6ee96": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8fbb3c32496d4bcff8f456c3342f90edaaa09a17": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x23073ad0c9dff45353cedb11760570b995663934": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x784feec38475dc47e63c3a16cbd24b905dab5df9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x221b05db581e0beb3bd140683b89b06f6bb565f67674fb7243c6d3789ee18b96:1",
+        "condition_id": "0x221b05db581e0beb3bd140683b89b06f6bb565f67674fb7243c6d3789ee18b96",
+        "title": "Roland Garros ATP: Flavio Cobolli vs Alexander Zverev",
+        "outcome": "Alexander Zverev",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0xf8831548531d56ad6a4331493243c447a827cd1f",
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x3d6ac5150675a83e2090234414222e968888c2b5",
+          "0xbee54d90051720e27921dc6874f02d646ffca636"
+        ],
+        "ranks": [
+          1,
+          3,
+          8,
+          9
+        ],
+        "total_value_usd": 7431193.3,
+        "score": 43.4534,
+        "category": "Tennis",
+        "end_date": "2026-06-14",
+        "entry_price": null
+      },
+      {
+        "signal_key": "0x221b05db581e0beb3bd140683b89b06f6bb565f67674fb7243c6d3789ee18b96:0",
+        "condition_id": "0x221b05db581e0beb3bd140683b89b06f6bb565f67674fb7243c6d3789ee18b96",
+        "title": "Roland Garros ATP: Flavio Cobolli vs Alexander Zverev",
+        "outcome": "Flavio Cobolli",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0xefddbb135e2cc2648e3ca6a6b3d4fa4994d5017f",
+          "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+          "0xcd65c3279408a33866a9129bed6943064cb6ee96"
+        ],
+        "ranks": [
+          3,
+          6,
+          10,
+          17
+        ],
+        "total_value_usd": 179671.49,
+        "score": 13.9493,
+        "category": "Tennis",
+        "end_date": "2026-06-14",
+        "entry_price": null
+      }
+    ]
   }
 ]
