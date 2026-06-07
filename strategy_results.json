@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-07T11:26:26+00:00",
-  "total_evaluated": 55,
-  "total_pending": 55,
+  "generated_at": "2026-06-07T12:59:49+00:00",
+  "total_evaluated": 56,
+  "total_pending": 56,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 55,
+      "signals_evaluated": 56,
       "correct": 0,
       "wrong": 0,
-      "pending": 55,
+      "pending": 56,
       "win_rate": null,
       "signals": [
         {
@@ -781,6 +781,20 @@
           "resolved_date": null,
           "end_date": "2026-06-13",
           "total_value_usd": 43444.72,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x221b05db581e0beb3bd140683b89b06f6bb565f67674fb7243c6d3789ee18b96:0",
+          "condition_id": "0x221b05db581e0beb3bd140683b89b06f6bb565f67674fb7243c6d3789ee18b96",
+          "title": "Roland Garros ATP: Flavio Cobolli vs Alexander Zverev",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": null,
+          "whale_direction": "Flavio Cobolli",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-14",
+          "total_value_usd": 459583.7,
           "result": "pending"
         }
       ]
