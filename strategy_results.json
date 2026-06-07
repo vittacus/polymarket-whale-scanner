@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-07T20:10:01+00:00",
-  "total_evaluated": 59,
-  "total_pending": 59,
+  "generated_at": "2026-06-07T21:36:39+00:00",
+  "total_evaluated": 63,
+  "total_pending": 63,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 59,
+      "signals_evaluated": 63,
       "correct": 0,
       "wrong": 0,
-      "pending": 59,
+      "pending": 63,
       "win_rate": null,
       "signals": [
         {
@@ -837,6 +837,62 @@
           "resolved_date": null,
           "end_date": "2026-06-14",
           "total_value_usd": 179182.51,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x4d3cecff457d3da44258237c36d78d33d432499a76bb0cf94bb9f3d84c9b9e4e:1",
+          "condition_id": "0x4d3cecff457d3da44258237c36d78d33d432499a76bb0cf94bb9f3d84c9b9e4e",
+          "title": "Washington Nationals vs. Arizona Diamondbacks",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": null,
+          "whale_direction": "Arizona Diamondbacks",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-14",
+          "total_value_usd": 294168.74,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe19b02b324d24ded95c879cc30b544dee7278bfedad14e6bc7b88da15725a6ba:1",
+          "condition_id": "0xe19b02b324d24ded95c879cc30b544dee7278bfedad14e6bc7b88da15725a6ba",
+          "title": "New York Mets vs. San Diego Padres",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": null,
+          "whale_direction": "San Diego Padres",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-14",
+          "total_value_usd": 53230.2,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x2d9bd01aa8536b9a88ea289b569547818ea1e54ee099f7fc113b0273c11e4ad6:1",
+          "condition_id": "0x2d9bd01aa8536b9a88ea289b569547818ea1e54ee099f7fc113b0273c11e4ad6",
+          "title": "Los Angeles Angels vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": null,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-14",
+          "total_value_usd": 73002.15,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe19b02b324d24ded95c879cc30b544dee7278bfedad14e6bc7b88da15725a6ba:0",
+          "condition_id": "0xe19b02b324d24ded95c879cc30b544dee7278bfedad14e6bc7b88da15725a6ba",
+          "title": "New York Mets vs. San Diego Padres",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": null,
+          "whale_direction": "New York Mets",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-14",
+          "total_value_usd": 64022.22,
           "result": "pending"
         }
       ]
