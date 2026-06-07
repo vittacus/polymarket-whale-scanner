@@ -1,80 +1,78 @@
 # Polymarket Strategy Backtester
 
-Tests and compares prediction market trading strategies using on-chain data from top Polymarket traders. Tracks signal accuracy over time to determine which approach to market analysis actually works.
+A live data pipeline that scans the top Polymarket traders and tests whether following smart money actually works. Four strategies run in parallel against the same signal set. Win rates populate as markets resolve.
 
-## Why I built this
+![Strategy Lab](screenshots/strategy-lab.png)
 
-I'd been watching Polymarket for a while and noticed something: the leaderboard is completely public. You can see exactly who the top traders are and what they're betting on in real time. Most people just use Polymarket to place their own bets, but I thought there was something more interesting here. What if you could just watch what the best forecasters were doing and use that as a signal?
+## What this is
 
-The hypothesis was simple. When multiple proven traders independently converge on the same position in the same market, that's probably not a coincidence. These aren't random people. They have track records across hundreds of markets and real money on the line. So I built a scanner to surface exactly that: markets where 3 or more top-PnL wallets are on the same side.
+Polymarket's leaderboard is public. You can see exactly who the top traders are and what they're betting on right now. This project asks a simple question: when multiple proven traders independently converge on the same position, does that actually predict the outcome better than simpler approaches?
 
-From there the natural question is: how does this strategy actually perform? And how does it compare to simpler approaches — like just fading the crowd when a market is priced near certainty? This project tracks all of that.
+To answer it, I built a scanner that pulls the top 20 wallets across four leaderboard time windows, finds markets where 3 or more of them hold the same side, and tracks whether those calls resolve correctly over time. Four strategies run against the same resolved signal set so you can compare them directly.
+
+![Live Signals](screenshots/live-signals.png)
 
 ## Strategies
 
-| | Strategy | Signal condition |
+| | Strategy | Signal |
 |---|---|---|
-| **A** | Whale Consensus | 3+ top-PnL wallets hold the same outcome |
-| **B** | Contrarian | Whale entry price >85% — bet the other side |
+| A | Whale Consensus | 3+ top-PnL wallets on the same side |
+| B | Contrarian | Market priced above 85% — bet the other side |
+| C | Heavy Favorite | Market priced above 85% — bet with the crowd |
+| D | Conviction Sizing | Whale consensus signals where total position exceeds $500k |
 
-Each resolved market gets evaluated against both strategies. `strategies.py` runs after every scan and outputs a side-by-side accuracy comparison to `strategy_results.json`.
-
-## What I'd build next
-
-The most interesting extension would be tracking position entry timing. Right now two whales show up the same whether one entered at 20 cents and one at 80 cents. The one who entered early and is still holding is a fundamentally different signal. I'd also want to add a volume anomaly strategy once Polymarket exposes historical volume data, layer in Brier scores for calibration analysis, and keep growing the resolved signal set until there's enough history to actually validate or invalidate the core hypothesis with statistical confidence.
-
----
+B and C are tested on identical markets so their win rates are directly comparable. Together they answer whether Polymarket's extreme favorites are over or underpriced.
 
 ## How it works
 
-**1. Fetch the top 20 wallets** across four leaderboard time windows (all-time, 30d, 7d, 1d). Wallets are de-duplicated; those appearing in multiple windows get a scoring bonus of `1.0 + 0.25 × (n_periods − 1)` — up to 1.75× for a wallet in the top 20 across all four.
+The scanner runs every 15 minutes via GitHub Actions.
 
-**2. Harvest open positions** for each wallet. Filters applied:
-- Resolved markets dropped (`curPrice == 0`)
-- Dust positions under $500 ignored
-- Markets resolving within 48 hours skipped
+1. Fetch the top 20 wallets across four leaderboard windows (all-time, 30d, 7d, 1d). Wallets appearing in multiple windows get a scoring bonus up to 1.75x. Only wallets ranked in the top 20 across at least 2 timeframes qualify for consensus checks — this filters out one-week streaks.
 
-**3. Find consensus** by grouping on `(conditionId, outcomeIndex)`. Any group with 3+ wallets is a signal.
+2. For each wallet, pull all open positions. Drop resolved markets, positions under $500, and anything resolving within 48 hours.
 
-**4. Score signals:**
-```
-score = whale_count × avg_weighted_reciprocal_rank × ln(1 + total_value_usd)
-```
-Each whale's weight is `(1 / rank) × timeframe_bonus`. Rank-1 weighs 1.0, rank-10 weighs 0.1. The log term keeps position size relevant without letting a single huge bet dominate.
+3. Group positions by market and outcome. Any market with 3+ whales on the same side is a consensus signal.
 
-**5. Alert** on new signals via Discord. Signal keys from the previous scan are stored in `signals_log.json`; repeat signals don't re-fire.
+4. Score signals: `whale_count x avg_weighted_reciprocal_rank x ln(1 + total_usd)`. Rank-1 weighs 10x more than rank-10. The log term keeps position size relevant without one big bet dominating everything.
 
-**6. Backtest** by querying the Gamma API after markets resolve to compare the consensus outcome to the actual winner.
+5. Fire a Discord alert for new signals only. Repeat signals don't re-fire.
 
-**7. Compare strategies** — `strategies.py` evaluates Strategy A (whale consensus) and Strategy B (contrarian on >85% markets) against all resolved signals and writes side-by-side accuracy stats to `strategy_results.json`.
+6. After markets resolve, backtest.py checks the actual outcome against the whale consensus direction and logs correct/wrong to backtest_results.json.
 
----
+7. strategies.py evaluates all four strategies against resolved signals and writes side-by-side accuracy stats to strategy_results.json.
+
+## Current signals
+
+36 signals pending across 11 resolution dates. First resolutions start Jun 13. Win rate charts populate automatically as markets close.
 
 ## Setup
 
 ```bash
 pip install -r requirements.txt
-cp .env.example .env   # add DISCORD_WEBHOOK_URL to enable alerts
+cp .env.example .env
+# add DISCORD_WEBHOOK_URL to .env for alerts
 python main.py
 ```
 
-Open `dashboard.html` via a local server (browsers block `fetch()` on `file://`):
+Open the dashboard locally:
 
 ```bash
 python -m http.server 8080
-# → http://localhost:8080/dashboard.html
+# open http://localhost:8080/dashboard.html
 ```
-
-The scanner also runs automatically every 15 minutes via GitHub Actions, committing updated `signals_log.json` and `backtest_results.json` back to the repo — so the dashboard stays live when hosted on GitHub Pages.
 
 ## Project structure
 
 ```
-├── main.py              # scheduler, table output, alert dispatch
-├── scanner.py           # leaderboard + position fetch, consensus detection, scoring
-├── alerts.py            # Discord webhook
-├── backtest.py          # hit-rate tracker against resolved markets
-├── strategies.py        # strategy comparison engine (A vs B)
-├── dashboard.html       # tabbed dashboard (signals, history, results, strategy comparison)
-└── .github/workflows/scanner.yml
+scanner.py          — core pipeline: fetch whales, find consensus positions, score signals
+main.py             — scheduler: run scanner, log signals, fire Discord alerts
+backtest.py         — check resolved markets against logged signals, compute hit rates
+strategies.py       — evaluate A/B/C/D strategies against backtest results
+backfill.py         — one-off: pull historical resolved positions from leaderboard wallets
+alerts.py           — Discord webhook formatting and delivery
+dashboard.html      — single-file dashboard, reads JSON data files via fetch()
+signals_log.json    — append-only log of every scan's consensus signals
+backtest_results.json  — resolved signal outcomes by confidence tier
+strategy_results.json  — per-strategy accuracy stats (A/B/C/D)
+.github/workflows/scanner.yml  — GitHub Actions cron (every 15 min)
 ```
