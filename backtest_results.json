@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-08T12:45:34+00:00",
-  "total_signals": 67,
+  "generated_at": "2026-06-08T16:41:01+00:00",
+  "total_signals": 68,
   "total_resolved": 0,
   "total_correct": 0,
   "overall_hit_rate": null,
@@ -12,7 +12,7 @@
       "hit_rate": null
     },
     "Moderate": {
-      "total": 30,
+      "total": 31,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
@@ -1159,6 +1159,23 @@
       "total_value_usd": 15604.15,
       "entry_price": null,
       "end_date": "2026-06-30",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x5ccfe1b69a582d2985db08a8481a0d74c314b1fce9b4711ae2efb2c6467fe6aa:0",
+      "condition_id": "0x5ccfe1b69a582d2985db08a8481a0d74c314b1fce9b4711ae2efb2c6467fe6aa",
+      "title": "Will Mexico win the 2026 FIFA World Cup?",
+      "category": "Soccer",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 6.3361,
+      "total_value_usd": 19425.27,
+      "entry_price": null,
+      "end_date": "2026-07-20",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
