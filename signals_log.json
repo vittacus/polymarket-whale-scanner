@@ -8644,5 +8644,178 @@
         "entry_price": null
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-08T08:18:26+00:00",
+    "whale_timeframes": {
+      "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb91aeb5accc33a5f9a8615b8ed6b2d352e913987": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb2a3623364c33561d8312e1edb79eb941c798510": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x37d366a769f58ef478f72c6b1bf730424b2b709a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe3726a1b9c6ba2f06585d1c9e01d00afaedaeb38": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x763427e72a4dcbd078a819a9de9b32de2794600d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0a854897a06d4999e5b2dde5693609f1428ffe9d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x03805a13a0b3e058f55f6c6af95389d4f431073d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xafac3978537771688598b0b65b9bb222e8318730": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcb4c32ea10e917e5daac3710c64981aebdb66d64": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1465b79bff7992bc703e1aafb3683b1089647072": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9592adb70397e9de67ba9abe6971e3f50fb7a7b8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf39651f0addaad0221806d828197064b97feed0d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbde33ac3839672f1bd3fecfc0271ad95f07c4a49": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa938bd6071fed6384654b06ffa3e67d7a8d4bad0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x784feec38475dc47e63c3a16cbd24b905dab5df9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x0bbc63372aaf0867db23fc361b4e37f7d3125c7acef6cc8e2d5ce40f65b7e523:1",
+        "condition_id": "0x0bbc63372aaf0867db23fc361b4e37f7d3125c7acef6cc8e2d5ce40f65b7e523",
+        "title": "Boston Red Sox vs. New York Yankees",
+        "outcome": "New York Yankees",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x763427e72a4dcbd078a819a9de9b32de2794600d",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          2,
+          9,
+          10
+        ],
+        "total_value_usd": 50230.82,
+        "score": 13.4704,
+        "category": "MLB",
+        "end_date": "2026-06-13",
+        "entry_price": null
+      },
+      {
+        "signal_key": "0xb6b3d7a2037b3faa7e1306d741840d453432902d73cc9a146a035e40271eae73:1",
+        "condition_id": "0xb6b3d7a2037b3faa7e1306d741840d453432902d73cc9a146a035e40271eae73",
+        "title": "Will the San Antonio Spurs win the 2026 NBA Finals?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x03805a13a0b3e058f55f6c6af95389d4f431073d",
+          "0xbde33ac3839672f1bd3fecfc0271ad95f07c4a49"
+        ],
+        "ranks": [
+          2,
+          12,
+          18
+        ],
+        "total_value_usd": 51094.84,
+        "score": 12.1214,
+        "category": "NBA",
+        "end_date": "2026-07-01",
+        "entry_price": null
+      }
+    ]
   }
 ]
