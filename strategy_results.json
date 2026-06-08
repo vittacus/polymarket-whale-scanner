@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-07T23:48:38+00:00",
-  "total_evaluated": 64,
-  "total_pending": 64,
+  "generated_at": "2026-06-08T03:00:40+00:00",
+  "total_evaluated": 67,
+  "total_pending": 67,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 64,
+      "signals_evaluated": 67,
       "correct": 0,
       "wrong": 0,
-      "pending": 64,
+      "pending": 67,
       "win_rate": null,
       "signals": [
         {
@@ -907,6 +907,48 @@
           "resolved_date": null,
           "end_date": "2026-06-15",
           "total_value_usd": 21142.41,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846:0",
+          "condition_id": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
+          "title": "Will the U.S. invade Iran before 2027?",
+          "category": "Geopolitics",
+          "tier": "Moderate",
+          "entry_price": null,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-12-31",
+          "total_value_usd": 223583.66,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x676e7cda423f5826bcbb3c141e808ad7c66bc2d055e4d0aca79c26779712062c:0",
+          "condition_id": "0x676e7cda423f5826bcbb3c141e808ad7c66bc2d055e4d0aca79c26779712062c",
+          "title": "Israel closes its airspace by June 30?",
+          "category": "Iran",
+          "tier": "Weak",
+          "entry_price": null,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-30",
+          "total_value_usd": 98156.81,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x6897736d782ce70f47126dfcec6669073f563d6e757e60bc61c0367370d6f73e:0",
+          "condition_id": "0x6897736d782ce70f47126dfcec6669073f563d6e757e60bc61c0367370d6f73e",
+          "title": "Kharg Island no longer under Iranian control by June 30?",
+          "category": "Khamenei",
+          "tier": "Weak",
+          "entry_price": null,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-30",
+          "total_value_usd": 15604.15,
           "result": "pending"
         }
       ]

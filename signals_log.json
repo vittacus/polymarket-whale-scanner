@@ -8448,5 +8448,201 @@
         "entry_price": null
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-08T02:59:52+00:00",
+    "whale_timeframes": {
+      "0x37d366a769f58ef478f72c6b1bf730424b2b709a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb2a3623364c33561d8312e1edb79eb941c798510": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe3726a1b9c6ba2f06585d1c9e01d00afaedaeb38": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7fdc0f0e0205aac4ee092e7ed6bd35add9451830": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xafbacaeeda63f31202759eff7f8126e49adfe61b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb91aeb5accc33a5f9a8615b8ed6b2d352e913987": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3e5b23e9f71b2a2edcd5629d3f948f12f591073b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x763427e72a4dcbd078a819a9de9b32de2794600d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1465b79bff7992bc703e1aafb3683b1089647072": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0a854897a06d4999e5b2dde5693609f1428ffe9d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9592adb70397e9de67ba9abe6971e3f50fb7a7b8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x23d81ba9371e576015c1e562db09c689f56b0288": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa938bd6071fed6384654b06ffa3e67d7a8d4bad0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcb4c32ea10e917e5daac3710c64981aebdb66d64": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x076baf4f9155d6d596bbcd2e380c798a5f1357af": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7bc14171ccb0d3e6bac219ec6a76211826e28db4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xae7c98235d5dc797edfa3d3af2e0334238a4487e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6b6017aad92663e20336b8c39172245a13da9c7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846:0",
+        "condition_id": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
+        "title": "Will the U.S. invade Iran before 2027?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x0a854897a06d4999e5b2dde5693609f1428ffe9d",
+          "0x9592adb70397e9de67ba9abe6971e3f50fb7a7b8",
+          "0xae7c98235d5dc797edfa3d3af2e0334238a4487e"
+        ],
+        "ranks": [
+          11,
+          13,
+          19
+        ],
+        "total_value_usd": 223583.66,
+        "score": 4.7523,
+        "category": "Geopolitics",
+        "end_date": "2026-12-31",
+        "entry_price": null
+      },
+      {
+        "signal_key": "0x676e7cda423f5826bcbb3c141e808ad7c66bc2d055e4d0aca79c26779712062c:0",
+        "condition_id": "0x676e7cda423f5826bcbb3c141e808ad7c66bc2d055e4d0aca79c26779712062c",
+        "title": "Israel closes its airspace by June 30?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x9592adb70397e9de67ba9abe6971e3f50fb7a7b8",
+          "0xcb4c32ea10e917e5daac3710c64981aebdb66d64",
+          "0xae7c98235d5dc797edfa3d3af2e0334238a4487e"
+        ],
+        "ranks": [
+          13,
+          16,
+          19
+        ],
+        "total_value_usd": 98156.81,
+        "score": 3.8632,
+        "category": "Iran",
+        "end_date": "2026-06-30",
+        "entry_price": null
+      },
+      {
+        "signal_key": "0x6897736d782ce70f47126dfcec6669073f563d6e757e60bc61c0367370d6f73e:0",
+        "condition_id": "0x6897736d782ce70f47126dfcec6669073f563d6e757e60bc61c0367370d6f73e",
+        "title": "Kharg Island no longer under Iranian control by June 30?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x0a854897a06d4999e5b2dde5693609f1428ffe9d",
+          "0x9592adb70397e9de67ba9abe6971e3f50fb7a7b8",
+          "0xae7c98235d5dc797edfa3d3af2e0334238a4487e"
+        ],
+        "ranks": [
+          11,
+          13,
+          19
+        ],
+        "total_value_usd": 15604.15,
+        "score": 3.7251,
+        "category": "Khamenei",
+        "end_date": "2026-06-30",
+        "entry_price": null
+      }
+    ]
   }
 ]
