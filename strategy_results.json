@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-08T16:41:02+00:00",
-  "total_evaluated": 68,
-  "total_pending": 68,
+  "generated_at": "2026-06-08T19:09:15+00:00",
+  "total_evaluated": 69,
+  "total_pending": 69,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 68,
+      "signals_evaluated": 69,
       "correct": 0,
       "wrong": 0,
-      "pending": 68,
+      "pending": 69,
       "win_rate": null,
       "signals": [
         {
@@ -963,6 +963,20 @@
           "resolved_date": null,
           "end_date": "2026-07-20",
           "total_value_usd": 19425.27,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x4f3421fb2daf5cca7430ed8d8132463963081572d75434393a1808fdb8829fe8:0",
+          "condition_id": "0x4f3421fb2daf5cca7430ed8d8132463963081572d75434393a1808fdb8829fe8",
+          "title": "Will Portugal win the 2026 FIFA World Cup?",
+          "category": "Soccer",
+          "tier": "Moderate",
+          "entry_price": null,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-20",
+          "total_value_usd": 9214.76,
           "result": "pending"
         }
       ]
