@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-09T19:11:37+00:00",
-  "total_signals": 78,
+  "generated_at": "2026-06-09T21:10:37+00:00",
+  "total_signals": 79,
   "total_resolved": 0,
   "total_correct": 0,
   "overall_hit_rate": null,
@@ -12,7 +12,7 @@
       "hit_rate": null
     },
     "Moderate": {
-      "total": 47,
+      "total": 48,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
@@ -1344,6 +1344,23 @@
       "tier": "Weak",
       "score": 3.6344,
       "total_value_usd": 14169.97,
+      "entry_price": 0.51,
+      "end_date": "2026-06-16",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x00cb155d600f0f7641bfb677a564ba842fa76017075486b6ddc558e66a5d7d5b:1",
+      "condition_id": "0x00cb155d600f0f7641bfb677a564ba842fa76017075486b6ddc558e66a5d7d5b",
+      "title": "Seattle Mariners vs. Baltimore Orioles",
+      "category": "MLB",
+      "whale_direction": "Baltimore Orioles",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 8.8938,
+      "total_value_usd": 65402.31,
       "entry_price": 0.51,
       "end_date": "2026-06-16",
       "resolved": false,
