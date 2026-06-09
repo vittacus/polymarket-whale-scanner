@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-09T01:42:01+00:00",
-  "total_evaluated": 62,
-  "total_pending": 62,
+  "generated_at": "2026-06-09T04:33:46+00:00",
+  "total_evaluated": 64,
+  "total_pending": 64,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 62,
+      "signals_evaluated": 64,
       "correct": 0,
       "wrong": 0,
-      "pending": 62,
+      "pending": 64,
       "win_rate": null,
       "signals": [
         {
@@ -879,6 +879,34 @@
           "resolved_date": null,
           "end_date": "2026-06-16",
           "total_value_usd": 160995.16,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x0837b939fdfe8a75ee9795d59961ef46e8d5380c9f0bbd9f81252d543ec14777:0",
+          "condition_id": "0x0837b939fdfe8a75ee9795d59961ef46e8d5380c9f0bbd9f81252d543ec14777",
+          "title": "Milwaukee Brewers vs. Athletics",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.52,
+          "whale_direction": "Milwaukee Brewers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-16",
+          "total_value_usd": 11988.69,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x867d356663531b8c39ac4452bf981e3a8dc933d16a5d96006b7a02817220cb79:1",
+          "condition_id": "0x867d356663531b8c39ac4452bf981e3a8dc933d16a5d96006b7a02817220cb79",
+          "title": "Cincinnati Reds vs. San Diego Padres",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.52,
+          "whale_direction": "San Diego Padres",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-16",
+          "total_value_usd": 123194.52,
           "result": "pending"
         }
       ]
