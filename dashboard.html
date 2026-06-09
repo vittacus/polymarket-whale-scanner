@@ -392,13 +392,24 @@
       border-top: 1px solid var(--border); padding-top: 10px; margin-top: 4px;
     }
 
-    /* ── B vs C callout ── */
-    .bc-callout {
-      background: rgba(129,140,248,0.07); border: 1px solid rgba(129,140,248,0.22);
-      border-radius: 8px; padding: 14px 18px; margin-bottom: 20px;
-      font-size: 12px; color: var(--muted); line-height: 1.75;
+    /* ── Strategy card click-expand ── */
+    .strat-card { cursor: pointer; }
+    .strat-card:hover { border-color: rgba(255,255,255,0.12); }
+    .strat-expand-icon {
+      float: right; font-size: 14px; color: var(--muted);
+      transition: transform 0.3s ease; line-height: 1;
     }
-    .bc-callout strong { color: var(--accent); font-weight: 700; }
+    .strat-card.expanded .strat-expand-icon { transform: rotate(90deg); }
+    .strat-detail {
+      max-height: 0; overflow: hidden;
+      transition: max-height 0.35s ease;
+      border-top: 0px solid var(--border);
+    }
+    .strat-detail.open {
+      max-height: 220px;
+      border-top: 1px solid var(--border);
+      margin-top: 12px; padding-top: 12px;
+    }
 
     /* ── Hypothesis board (pre-data overview) ── */
     .hypothesis-board {
@@ -745,6 +756,8 @@
 
 <script>
   let strategyChart  = null;
+  let donutCharts    = {};
+  let strategyLabData = null;
   let activeFilter   = "All";
   let currentSignals = [];
   let currentLog     = [];
@@ -1070,13 +1083,6 @@
     },
   };
 
-  const BC_CALLOUT = `<div class="bc-callout">
-    <strong>Strategy B and C are tested on identical markets</strong> (price &gt;85% on one side).
-    B bets against the crowd, C bets with it. This is a direct test of whether Polymarket
-    heavy favorites are over or underpriced — the two win rates will always sum toward 100%
-    on the same resolved signal set.
-  </div>`;
-
   function fmtShortDate(s) {
     if (!s) return "—";
     const d = new Date((s.length === 10 ? s + "T00:00:00Z" : s));
@@ -1227,10 +1233,68 @@
     </div>`;
   }
 
+  function toggleStratCard(el, key) {
+    const detail = el.querySelector(".strat-detail");
+    const isOpen = detail.classList.contains("open");
+
+    // Collapse all cards first
+    document.querySelectorAll(".strat-card").forEach(c => {
+      c.classList.remove("expanded");
+      c.querySelector(".strat-detail").classList.remove("open");
+    });
+
+    if (!isOpen) {
+      el.classList.add("expanded");
+      detail.classList.add("open");
+
+      const data    = strategyLabData?.[key] || {};
+      const correct = data.correct ?? 0;
+      const wrong   = data.wrong   ?? 0;
+      const pending = data.pending ?? 0;
+      if (correct + wrong === 0) return; // "Waiting" text shown, no chart needed
+
+      requestAnimationFrame(() => {
+        const canvas = document.getElementById(`donut-${key}`);
+        if (!canvas) return;
+        if (donutCharts[key]) donutCharts[key].destroy();
+        const sc = STRAT_COLORS[key];
+        donutCharts[key] = new Chart(canvas, {
+          type: "doughnut",
+          data: {
+            labels: ["Correct", "Wrong", "Pending"],
+            datasets: [{
+              data: [correct, wrong, pending],
+              backgroundColor: ["rgba(34,197,94,0.8)", "rgba(239,68,68,0.75)", "rgba(90,96,128,0.5)"],
+              borderColor:     ["#22c55e", "#ef4444", "#2a2e4a"],
+              borderWidth: 1,
+            }]
+          },
+          options: {
+            cutout: "62%",
+            responsive: true, maintainAspectRatio: false,
+            plugins: {
+              legend: {
+                position: "right",
+                labels: { color: "#e2e8f0", font: { size: 11 }, padding: 12, boxWidth: 12 }
+              },
+              datalabels: { display: false },
+              tooltip: {
+                backgroundColor: "#1e2135", borderColor: "#2a2e4a", borderWidth: 1,
+                titleColor: "#e2e8f0", bodyColor: "#9ca3af",
+                callbacks: { label: ctx => `  ${ctx.raw} signal${ctx.raw !== 1 ? "s" : ""}` }
+              }
+            }
+          }
+        });
+      });
+    }
+  }
+
   function renderStrategyLab(d) {
     const el         = document.getElementById("strategy-lab-content");
     const strategies = d.strategies || {};
     const KEYS       = ["A", "B", "C", "D"];
+    strategyLabData  = strategies;
 
     const hasResolved = KEYS.some(k => (strategies[k]?.correct ?? 0) + (strategies[k]?.wrong ?? 0) > 0);
 
@@ -1270,12 +1334,17 @@
           </div>`;
       }
 
-      return `<div class="strat-card ${m.color}">
-        <div class="strat-card-top"><span class="strat-key">Strategy ${k}</span></div>
+      const detailInner = resolved > 0
+        ? `<div style="height:160px"><canvas id="donut-${k}"></canvas></div>`
+        : `<div style="padding:14px 0;text-align:center;font-size:12px;color:var(--muted);font-style:italic">Waiting for first resolution…</div>`;
+
+      return `<div class="strat-card ${m.color}" onclick="toggleStratCard(this,'${k}')">
+        <div class="strat-card-top"><span class="strat-key">Strategy ${k}</span><span class="strat-expand-icon">›</span></div>
         <div class="strat-name">${esc(m.name)}</div>
         <div class="strat-desc">${esc(m.desc)}</div>
         ${statusHtml}
         <div class="strat-interest">${esc(m.interest)}</div>
+        <div class="strat-detail">${detailInner}</div>
       </div>`;
     }).join("");
 
@@ -1296,7 +1365,6 @@
         <div class="slab-card-header">Strategy Performance</div>
         <div class="strat-grid">${cards}</div>
       </div>
-      ${BC_CALLOUT}
       ${chartOrTimeline}
       <div class="slab-card">
         <div class="slab-card-header">All Signals — Strategy Overlap</div>

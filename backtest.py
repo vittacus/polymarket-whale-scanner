@@ -100,12 +100,24 @@ def run_backtest() -> None:
         log: List[Dict] = json.load(f)
 
     # De-duplicate: keep the FIRST scan in which each signal appeared.
+    # entry_price: use the earliest non-None value seen (scanner may have had
+    # None on initial runs before the json.loads fix was deployed).
     unique: Dict[str, Dict] = {}
+    best_entry_price: Dict[str, Optional[float]] = {}
     for scan in log:
         for s in scan.get("signals", []):
             key = s.get("signal_key", "")
-            if key and key not in unique:
+            if not key:
+                continue
+            if key not in unique:
                 unique[key] = s
+            ep = s.get("entry_price")
+            if ep is not None and key not in best_entry_price:
+                best_entry_price[key] = ep
+
+    for key, s in unique.items():
+        if s.get("entry_price") is None and key in best_entry_price:
+            s["entry_price"] = best_entry_price[key]
 
     total = len(unique)
     logger.info("Unique signals to evaluate: %d", total)

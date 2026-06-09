@@ -3,6 +3,7 @@ Core data pipeline: fetch whales from all four leaderboard time periods,
 collect their open positions, and surface markets where 3+ whales agree.
 """
 
+import json
 import math
 import logging
 import time
@@ -203,14 +204,27 @@ def fetch_entry_price(condition_id: str) -> Optional[float]:
         return _price_cache[condition_id]
 
     price: Optional[float] = None
-    try:
-        data = _get(f"{GAMMA_API_BASE}/markets", params={"conditionIds": condition_id})
-        if data and isinstance(data, list):
-            raw_prices = data[0].get("outcomePrices") or []
-            if raw_prices:
-                price = float(raw_prices[0])
-    except Exception as exc:
-        logger.debug("Entry price fetch failed for %s: %s", condition_id[:16], exc)
+    for attempt in range(3):
+        if attempt > 0:
+            time.sleep(1.5)
+        try:
+            data = _get(f"{GAMMA_API_BASE}/markets", params={"conditionIds": condition_id})
+            if data and isinstance(data, list):
+                raw = data[0].get("outcomePrices") or []
+                # outcomePrices is returned as a JSON-encoded string by the Gamma API
+                if isinstance(raw, str):
+                    raw = json.loads(raw)
+                if raw:
+                    price = float(raw[0])
+                    break
+        except Exception as exc:
+            logger.warning(
+                "Entry price fetch failed for %s (attempt %d/3): %s",
+                condition_id[:16], attempt + 1, exc,
+            )
+
+    if price is None:
+        logger.warning("Entry price unavailable for %s — strategies B/C will skip this signal", condition_id[:16])
 
     _price_cache[condition_id] = price
     return price
