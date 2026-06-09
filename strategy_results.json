@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-09T16:47:36+00:00",
-  "total_evaluated": 74,
-  "total_pending": 74,
+  "generated_at": "2026-06-09T19:11:37+00:00",
+  "total_evaluated": 78,
+  "total_pending": 78,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 74,
+      "signals_evaluated": 78,
       "correct": 0,
       "wrong": 0,
-      "pending": 74,
+      "pending": 78,
       "win_rate": null,
       "signals": [
         {
@@ -1047,6 +1047,62 @@
           "resolved_date": null,
           "end_date": "2026-06-16",
           "total_value_usd": 8417.29,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf282bfe9826a358541f0b97e16d8862a551d1f2bf8028ebb01eb6d25a51bfb51:0",
+          "condition_id": "0xf282bfe9826a358541f0b97e16d8862a551d1f2bf8028ebb01eb6d25a51bfb51",
+          "title": "Stuttgart Open: Nick Kyrgios vs Corentin Moutet",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "Nick Kyrgios",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-15",
+          "total_value_usd": 263610.72,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xb91bcf97aed2a45f079de5a8683035e8505562523bc2b643518175ee11fb7bed:1",
+          "condition_id": "0xb91bcf97aed2a45f079de5a8683035e8505562523bc2b643518175ee11fb7bed",
+          "title": "Arizona Diamondbacks vs. Miami Marlins",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "Miami Marlins",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-16",
+          "total_value_usd": 22211.81,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x0ca89503584e4edfdcc7001477de40d6dc144ae28fbab8b3a5201859703a865e:1",
+          "condition_id": "0x0ca89503584e4edfdcc7001477de40d6dc144ae28fbab8b3a5201859703a865e",
+          "title": "Stuttgart Open: Daniel Altmaier vs Frances Tiafoe",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "Frances Tiafoe",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-15",
+          "total_value_usd": 141784.38,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x3f5361492841955af485c2e155768f103859a9fb2b3ba29415d8f09741da3354:0",
+          "condition_id": "0x3f5361492841955af485c2e155768f103859a9fb2b3ba29415d8f09741da3354",
+          "title": "Libema Open: Nikola Bartunkova vs Hanne Vandewinkel",
+          "category": "Tennis",
+          "tier": "Weak",
+          "entry_price": 0.51,
+          "whale_direction": "Nikola Bartunkova",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-16",
+          "total_value_usd": 14169.97,
           "result": "pending"
         }
       ]
