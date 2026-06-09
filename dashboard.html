@@ -439,6 +439,33 @@
       background: rgba(234,179,8,0.06); border-top: 1px solid var(--border);
     }
 
+    /* ── History tab ── */
+    tr.hist-row-correct td { background: rgba(34,197,94,0.05); }
+    tr.hist-row-correct td:first-child { box-shadow: inset 3px 0 0 #22c55e; }
+    tr.hist-row-wrong td   { background: rgba(239,68,68,0.05); }
+    tr.hist-row-wrong td:first-child   { box-shadow: inset 3px 0 0 #ef4444; }
+    tr.hist-row-correct:hover td { background: rgba(34,197,94,0.09) !important; }
+    tr.hist-row-wrong:hover td   { background: rgba(239,68,68,0.09) !important; }
+
+    .date-group-header {
+      display: flex; align-items: center; gap: 10px;
+      padding: 9px 18px; background: var(--surface-2);
+      border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
+    }
+    .date-group-label {
+      font-size: 11px; font-weight: 700; color: var(--muted);
+      text-transform: uppercase; letter-spacing: 0.08em;
+    }
+    .date-group-countdown { font-size: 11px; color: var(--muted); }
+    .date-group-countdown.near { color: var(--yellow); font-weight: 700; }
+
+    .split-badge {
+      display: inline-flex; align-items: center; padding: 2px 7px;
+      border-radius: 4px; font-size: 10px; font-weight: 700;
+      background: rgba(234,179,8,0.15); color: #eab308;
+      border: 1px solid rgba(234,179,8,0.35);
+    }
+
     .tf-pills { margin-top: 3px; }
     .tf-badge {
       display: inline-flex; align-items: center;
@@ -738,13 +765,18 @@
 <div class="tab-panel" id="panel-history">
 
   <div class="card">
-    <div class="card-header">Recent Alerts</div>
-    <div id="alerts-container"><div class="empty">Loading...</div></div>
+    <div class="card-header">Resolved</div>
+    <div id="resolved-container"><div class="empty">Loading...</div></div>
   </div>
 
   <div class="card">
-    <div class="card-header">Signal History (last 20 unique)</div>
-    <div id="history-container"><div class="empty">Loading...</div></div>
+    <div class="card-header">Pending</div>
+    <div id="pending-container"><div class="empty">Loading...</div></div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">Recent Alerts</div>
+    <div id="alerts-container"><div class="empty">Loading...</div></div>
   </div>
 
 </div>
@@ -761,6 +793,7 @@
   let activeFilter   = "All";
   let currentSignals = [];
   let currentLog     = [];
+  let backtestSignals = [];
   let activeTab      = "results";
 
   // ── Tab navigation ────────────────────────────────────────────────────────
@@ -1013,45 +1046,176 @@
 
   // ── Signal history ────────────────────────────────────────────────────────
 
-  function renderHistory(log) {
-    const el = document.getElementById("history-container");
-    const seen = {};
+  function fmtGroupDate(d) {
+    if (!d || d === "Unknown") return "Unknown date";
+    const dt = new Date(d + "T00:00:00Z");
+    return dt.toLocaleDateString("en-US", { month: "short", day: "numeric", timeZone: "UTC" });
+  }
+
+  function renderHistory(log, btSignals) {
+    // Backtest lookup by signal_key
+    const btByKey = {};
+    for (const s of (btSignals || [])) btByKey[s.signal_key] = s;
+
+    // Unique signals from log (first seen per signal_key)
+    const byKey = {};
     for (const scan of log) {
       for (const s of (scan.signals || [])) {
-        const key = s.signal_key || (s.condition_id + ":" + s.outcome_index);
-        if (!seen[key]) seen[key] = { ...s, first_seen: scan.timestamp };
+        const k = s.signal_key || (s.condition_id + ":" + s.outcome_index);
+        if (!byKey[k]) byKey[k] = { ...s, first_seen: scan.timestamp };
       }
     }
-    const history = Object.values(seen).sort((a,b) => b.first_seen.localeCompare(a.first_seen)).slice(0,20);
-    if (!history.length) {
-      el.innerHTML = '<div class="empty">No history yet — run a scan first.</div>';
+
+    // Group by condition_id to detect splits (same market, different whale directions)
+    const byCid = {};
+    for (const s of Object.values(byKey)) {
+      if (!byCid[s.condition_id]) byCid[s.condition_id] = [];
+      byCid[s.condition_id].push(s);
+    }
+
+    // Build display entries
+    const entries = [];
+    for (const [cid, sigs] of Object.entries(byCid)) {
+      sigs.sort((a, b) => b.score - a.score);
+      const primary  = sigs[0];
+      const bt       = btByKey[primary.signal_key] || {};
+      const totalUsd = sigs.reduce((acc, s) => acc + (s.total_value_usd || 0), 0);
+      entries.push({
+        cid,
+        title:            primary.title,
+        category:         primary.category,
+        end_date:         primary.end_date || "",
+        signal_key:       primary.signal_key,
+        score:            primary.score,
+        total_value_usd:  totalUsd,
+        isSplit:          sigs.length > 1,
+        directions:       sigs.map(s => s.outcome),
+        whale_direction:  sigs.length === 1 ? primary.outcome : null,
+        resolved:         bt.resolved  || false,
+        correct:          bt.correct   ?? null,
+        resolved_outcome: bt.resolved_outcome || null,
+        resolved_date:    bt.resolved_date    || null,
+      });
+    }
+
+    const resolved = entries.filter(e => e.resolved)
+      .sort((a, b) => (b.resolved_date || "").localeCompare(a.resolved_date || ""));
+    const pending = entries.filter(e => !e.resolved)
+      .sort((a, b) => (a.end_date || "9").localeCompare(b.end_date || "9"));
+
+    // ── Resolved section ──────────────────────────────────────────────────
+    const resEl = document.getElementById("resolved-container");
+    if (!resolved.length) {
+      resEl.innerHTML = `<div class="empty" style="padding:28px;font-style:italic">
+        First resolutions arriving Jun 13 — win/loss record will populate here automatically.
+      </div>`;
+    } else {
+      const rows = resolved.map(e => {
+        const rowCls   = e.correct === true ? "hist-row-correct" : e.correct === false ? "hist-row-wrong" : "";
+        const resultHtml = e.correct === true
+          ? `<span style="font-size:15px">✅</span>`
+          : e.correct === false
+          ? `<span style="font-size:15px">❌</span>`
+          : `<span style="color:var(--muted)">—</span>`;
+        const dirHtml = e.isSplit
+          ? `<span class="split-badge">Split</span>`
+          : `<span class="badge ${badgeInfo(e.whale_direction).cls}">${esc(badgeInfo(e.whale_direction).label)}</span>`;
+        const conf = confidenceInfo(e.score);
+        return `<tr class="${rowCls}">
+          <td style="width:32px;text-align:center">${resultHtml}</td>
+          <td>
+            <div class="market-title">
+              ${e.category ? `<span class="cat-tag">${esc(e.category)}</span>` : ""}
+              <a class="market-link" href="${esc(polyLink(e.cid))}" target="_blank" rel="noopener">${esc(e.title)}</a>
+            </div>
+          </td>
+          <td>${dirHtml}</td>
+          <td><span style="font-size:12px;color:var(--muted)">${esc(e.resolved_outcome || "—")}</span></td>
+          <td><span class="badge ${conf.cls}">${conf.label}</span></td>
+          <td class="r">${fmtUSD(e.total_value_usd || 0)}</td>
+          <td class="ts-cell">${e.resolved_date ? fmtShortDate(e.resolved_date) : "—"}</td>
+        </tr>`;
+      }).join("");
+      resEl.innerHTML = `<div class="table-scroll"><table>
+        <thead><tr>
+          <th></th><th>Market</th><th>Direction</th><th>Outcome</th>
+          <th>Confidence</th><th class="r">Total USD</th><th>Date</th>
+        </tr></thead>
+        <tbody>${rows}</tbody>
+      </table></div>`;
+    }
+
+    // ── Pending section (grouped by date) ────────────────────────────────
+    const pendEl = document.getElementById("pending-container");
+    if (!pending.length) {
+      pendEl.innerHTML = `<div class="empty" style="padding:28px">No pending signals.</div>`;
       return;
     }
-    const rows = history.map(s => {
-      const dir     = badgeInfo(s.outcome);
-      const conf    = confidenceInfo(s.score);
-      const resolve = fmtResolveDate(s.end_date);
-      const ts      = s.first_seen ? s.first_seen.slice(0,16).replace("T"," ") + " UTC" : "—";
-      return `<tr>
-        <td class="ts-cell">${esc(ts)}</td>
-        <td>
-          <div class="market-title">
-            ${s.category ? `<span class="cat-tag">${esc(s.category)}</span>` : ""}
-            <a class="market-link" href="${esc(polyLink(s.condition_id))}" target="_blank" rel="noopener">${esc(s.title)}</a>
-          </div>
-          ${resolve ? `<div class="resolve-date ${resolve.cls}">${resolve.label}</div>` : ""}
-        </td>
-        <td><span class="badge ${dir.cls}">${esc(dir.label)}</span></td>
-        <td><span class="badge ${conf.cls}">${conf.label}</span></td>
-        <td class="r">${esc(fmtUSD(s.total_value_usd || 0))}</td>
-      </tr>`;
-    }).join("");
-    el.innerHTML = `<div class="table-scroll"><table>
-      <thead><tr>
-        <th>First Seen</th><th>Market</th><th>Direction</th><th>Confidence</th><th class="r">Total USD</th>
-      </tr></thead>
-      <tbody>${rows}</tbody>
-    </table></div>`;
+
+    const byDate = {};
+    for (const e of pending) {
+      const dk = e.end_date ? e.end_date.slice(0, 10) : "Unknown";
+      if (!byDate[dk]) byDate[dk] = [];
+      byDate[dk].push(e);
+    }
+
+    const todayStr = new Date().toISOString().slice(0, 10);
+    const now = new Date(); now.setUTCHours(0, 0, 0, 0);
+
+    function daysUntil(dk) {
+      if (!dk || dk === "Unknown") return null;
+      const diff = Math.round((new Date(dk + "T00:00:00Z") - now) / 86400000);
+      if (diff < -1)  return `${Math.abs(diff)} days overdue`;
+      if (diff === -1) return "yesterday";
+      if (diff === 0)  return "today";
+      if (diff === 1)  return "tomorrow";
+      return `${diff} days away`;
+    }
+
+    const sortedDates = Object.keys(byDate).sort((a, b) => {
+      if (a === "Unknown") return 1;
+      if (b === "Unknown") return -1;
+      return a.localeCompare(b);
+    });
+
+    const firstUpcoming = sortedDates.find(d => d !== "Unknown" && d >= todayStr);
+
+    let html = "";
+    for (const dk of sortedDates) {
+      const countdown = daysUntil(dk);
+      const isNearest = dk === firstUpcoming;
+
+      html += `<div class="date-group-header">
+        <span class="date-group-label">Resolves ${fmtGroupDate(dk)}</span>
+        ${countdown ? `<span class="date-group-countdown${isNearest ? " near" : ""}">${countdown}</span>` : ""}
+      </div>`;
+
+      const rows = byDate[dk].map(e => {
+        const dirHtml = e.isSplit
+          ? `<span class="split-badge">Split</span> <span style="font-size:11px;color:var(--muted);margin-left:4px">${esc(e.directions.join(" / "))}</span>`
+          : `<span class="badge ${badgeInfo(e.whale_direction).cls}">${esc(badgeInfo(e.whale_direction).label)}</span>`;
+        const conf = confidenceInfo(e.score);
+        return `<tr>
+          <td>
+            <div class="market-title">
+              ${e.category ? `<span class="cat-tag">${esc(e.category)}</span>` : ""}
+              <a class="market-link" href="${esc(polyLink(e.cid))}" target="_blank" rel="noopener">${esc(e.title)}</a>
+            </div>
+          </td>
+          <td>${dirHtml}</td>
+          <td><span class="badge ${conf.cls}">${conf.label}</span></td>
+          <td class="r">${fmtUSD(e.total_value_usd || 0)}</td>
+        </tr>`;
+      }).join("");
+
+      html += `<div class="table-scroll"><table>
+        <thead><tr>
+          <th>Market</th><th>Direction</th><th>Confidence</th><th class="r">Total USD</th>
+        </tr></thead>
+        <tbody>${rows}</tbody>
+      </table></div>`;
+    }
+    pendEl.innerHTML = html;
   }
 
   // ── Strategy Lab ─────────────────────────────────────────────────────────
@@ -1528,6 +1692,8 @@
       document.getElementById("sb-meta").textContent     =
         `${d.total_signals} signals tracked · ${d.total_resolved} resolved · run ${d.generated_at?.slice(0,10) ?? ""}`;
       document.getElementById("backtest-bar").style.display = "flex";
+      backtestSignals = d.signals || [];
+      renderHistory(currentLog, backtestSignals);
     } catch (_) {}
 
     try {
@@ -1566,7 +1732,7 @@
       renderAlltimeStats(log);
       renderWhaleLeaderboard(signals, whaleTimeframes);
       renderAlerts(log);
-      renderHistory(log);
+      renderHistory(log, backtestSignals);
 
     } catch (err) {
       document.getElementById("table-container").innerHTML = `
