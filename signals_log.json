@@ -12910,5 +12910,201 @@
         "entry_price": 0.505
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-10T12:03:06+00:00",
+    "whale_timeframes": {
+      "0x492442eab586f242b53bda933fd5de859c8a3782": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x72d815133f9f8b6529e911cf3be492846ce05213": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x35353a3a2988c7c26e53849d602be60df49aa775": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1d1ade627d0bb0205758580b20d808573e720df6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1e7792acc779a6af8304bd7991ff31d16d468c33": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8075693f48668a264b9fa313b47f52712fcc12b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe5f0ae9cc9aef77ae3c2a64c9e69caa3f335dc1d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7a8885c8dc075f0578b648f29fa233408a7d41cc": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa39826566cb711cc10220fbe9fcc560c2faf6c83": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x99a75dee1487879c95b3d61c92e4493e2c63fc82": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd65c3279408a33866a9129bed6943064cb6ee96": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x1f2bb0bfc3c7b3c9ab678ce9e89cf68bd6daa83385c4834f669cb00c540276f2:1",
+        "condition_id": "0x1f2bb0bfc3c7b3c9ab678ce9e89cf68bd6daa83385c4834f669cb00c540276f2",
+        "title": "Will Scotland win on 2026-06-13?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          4,
+          5,
+          17
+        ],
+        "total_value_usd": 6093.09,
+        "score": 7.7603,
+        "category": "Soccer",
+        "end_date": "2026-06-14",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x48880e3355f031da13b5ed1142d209396bdec61acf6c0945234ff6e5edab9ebf:1",
+        "condition_id": "0x48880e3355f031da13b5ed1142d209396bdec61acf6c0945234ff6e5edab9ebf",
+        "title": "Will T\u00fcrkiye win on 2026-06-14?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x72d815133f9f8b6529e911cf3be492846ce05213",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          4,
+          8,
+          17
+        ],
+        "total_value_usd": 8970.68,
+        "score": 6.91,
+        "category": "FIFA World Cup",
+        "end_date": "2026-06-14",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x89389a6b1439856a8d366234c795d72865c927a1aa3cf9d4cc04a3a400defde1:1",
+        "condition_id": "0x89389a6b1439856a8d366234c795d72865c927a1aa3cf9d4cc04a3a400defde1",
+        "title": "Will the Vegas Golden Knights win the 2026 NHL Stanley Cup?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x1e7792acc779a6af8304bd7991ff31d16d468c33",
+          "0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227"
+        ],
+        "ranks": [
+          5,
+          11,
+          19
+        ],
+        "total_value_usd": 78305.71,
+        "score": 6.7745,
+        "category": "Hockey",
+        "end_date": "2026-06-30",
+        "entry_price": 0.505
+      }
+    ]
   }
 ]
