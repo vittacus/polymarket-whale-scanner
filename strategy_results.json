@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-10T18:42:47+00:00",
-  "total_evaluated": 104,
-  "total_pending": 104,
+  "generated_at": "2026-06-10T21:15:32+00:00",
+  "total_evaluated": 106,
+  "total_pending": 106,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 104,
+      "signals_evaluated": 106,
       "correct": 0,
       "wrong": 0,
-      "pending": 104,
+      "pending": 106,
       "win_rate": null,
       "signals": [
         {
@@ -1467,6 +1467,34 @@
           "resolved_date": null,
           "end_date": "2026-06-17",
           "total_value_usd": 114941.84,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x4fc53c04db29af550c2f1c9168c89b857734127abcf2ef9d52fb9044474aab02:0",
+          "condition_id": "0x4fc53c04db29af550c2f1c9168c89b857734127abcf2ef9d52fb9044474aab02",
+          "title": "Washington Nationals vs. San Francisco Giants",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "Washington Nationals",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-17",
+          "total_value_usd": 71173.8,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xb3d8611a37297d53401111fce7b5d7bcb306e68ea3127ac2aa7abdb86389c5ca:0",
+          "condition_id": "0xb3d8611a37297d53401111fce7b5d7bcb306e68ea3127ac2aa7abdb86389c5ca",
+          "title": "Cincinnati Reds vs. San Diego Padres",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "Cincinnati Reds",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-17",
+          "total_value_usd": 265962.5,
           "result": "pending"
         }
       ]

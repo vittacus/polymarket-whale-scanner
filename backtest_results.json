@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-10T18:42:47+00:00",
-  "total_signals": 104,
+  "generated_at": "2026-06-10T21:15:32+00:00",
+  "total_signals": 106,
   "total_resolved": 0,
   "total_correct": 0,
   "overall_hit_rate": null,
@@ -12,7 +12,7 @@
       "hit_rate": null
     },
     "Moderate": {
-      "total": 65,
+      "total": 67,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
@@ -1786,6 +1786,40 @@
       "tier": "Moderate",
       "score": 5.0382,
       "total_value_usd": 114941.84,
+      "entry_price": 0.51,
+      "end_date": "2026-06-17",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x4fc53c04db29af550c2f1c9168c89b857734127abcf2ef9d52fb9044474aab02:0",
+      "condition_id": "0x4fc53c04db29af550c2f1c9168c89b857734127abcf2ef9d52fb9044474aab02",
+      "title": "Washington Nationals vs. San Francisco Giants",
+      "category": "MLB",
+      "whale_direction": "Washington Nationals",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 9.0974,
+      "total_value_usd": 71173.8,
+      "entry_price": 0.51,
+      "end_date": "2026-06-17",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xb3d8611a37297d53401111fce7b5d7bcb306e68ea3127ac2aa7abdb86389c5ca:0",
+      "condition_id": "0xb3d8611a37297d53401111fce7b5d7bcb306e68ea3127ac2aa7abdb86389c5ca",
+      "title": "Cincinnati Reds vs. San Diego Padres",
+      "category": "MLB",
+      "whale_direction": "Cincinnati Reds",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 8.284,
+      "total_value_usd": 265962.5,
       "entry_price": 0.51,
       "end_date": "2026-06-17",
       "resolved": false,
