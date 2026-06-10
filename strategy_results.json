@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-10T16:08:35+00:00",
-  "total_evaluated": 100,
-  "total_pending": 100,
+  "generated_at": "2026-06-10T18:42:47+00:00",
+  "total_evaluated": 104,
+  "total_pending": 104,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 100,
+      "signals_evaluated": 104,
       "correct": 0,
       "wrong": 0,
-      "pending": 100,
+      "pending": 104,
       "win_rate": null,
       "signals": [
         {
@@ -1412,6 +1412,62 @@
           "end_date": "2026-07-20",
           "total_value_usd": 7481.8,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xd500e617d0fca74f823c5724a45bea209cb36e3adb74b1ccf7dafaab21acd193:1",
+          "condition_id": "0xd500e617d0fca74f823c5724a45bea209cb36e3adb74b1ccf7dafaab21acd193",
+          "title": "Boston Red Sox vs. Tampa Bay Rays",
+          "category": "baseball",
+          "tier": "Strong",
+          "entry_price": 0.51,
+          "whale_direction": "Tampa Bay Rays",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-17",
+          "total_value_usd": 767316.03,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd5cb530c6ae7fb76fc164332a64718818a5397ac27c2e0eea2a674c83af57c28:0",
+          "condition_id": "0xd5cb530c6ae7fb76fc164332a64718818a5397ac27c2e0eea2a674c83af57c28",
+          "title": "New York Yankees vs. Cleveland Guardians",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.51,
+          "whale_direction": "New York Yankees",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-17",
+          "total_value_usd": 143777.69,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x514ec956661f4e1291058eae35c7e61ef68f21b95fe3ba3c6df0d8bbefbd8412:1",
+          "condition_id": "0x514ec956661f4e1291058eae35c7e61ef68f21b95fe3ba3c6df0d8bbefbd8412",
+          "title": "Stuttgart Open: Jan-Lennard Struff vs Alexander Bublik",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "Alexander Bublik",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-17",
+          "total_value_usd": 92206.19,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x78a43a5b0732f53953f11a5f1a0c2d8f158a971120ac3542f8ac7b95e0e2ccf3:0",
+          "condition_id": "0x78a43a5b0732f53953f11a5f1a0c2d8f158a971120ac3542f8ac7b95e0e2ccf3",
+          "title": "Lyon: Nikolas Sanchez Izquierdo vs Luca Van Assche",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "Nikolas Sanchez Izquierdo",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-17",
+          "total_value_usd": 114941.84,
+          "result": "pending"
         }
       ]
     },
@@ -1441,10 +1497,10 @@
       "name": "Conviction Sizing",
       "description": "Total whale position >$500k",
       "hypothesis": "Signals where total position size exceeds $500k represent the highest-conviction whale bets. When top traders put serious capital behind a position, that's a qualitatively different signal from a small stake. This filters for only the highest-conviction consensus calls to test whether size predicts accuracy.",
-      "signals_evaluated": 8,
+      "signals_evaluated": 9,
       "correct": 0,
       "wrong": 0,
-      "pending": 8,
+      "pending": 9,
       "win_rate": null,
       "signals": [
         {
@@ -1557,6 +1613,20 @@
           "resolved_date": null,
           "end_date": "2026-06-09",
           "total_value_usd": 949754.12,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd500e617d0fca74f823c5724a45bea209cb36e3adb74b1ccf7dafaab21acd193:1",
+          "condition_id": "0xd500e617d0fca74f823c5724a45bea209cb36e3adb74b1ccf7dafaab21acd193",
+          "title": "Boston Red Sox vs. Tampa Bay Rays",
+          "category": "baseball",
+          "tier": "Strong",
+          "entry_price": 0.51,
+          "whale_direction": "Tampa Bay Rays",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-17",
+          "total_value_usd": 767316.03,
           "result": "pending"
         }
       ]

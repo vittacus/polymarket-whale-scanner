@@ -13325,5 +13325,251 @@
         "entry_price": 0.51
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-10T18:41:33+00:00",
+    "whale_timeframes": {
+      "0x492442eab586f242b53bda933fd5de859c8a3782": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd65c3279408a33866a9129bed6943064cb6ee96": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x06dc51826bc524d9a83770e7de9dd7e005b04524": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd218e474776403a330142299f7796e8ba32eb5c9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x89dd49bf87c41be422927372a0b75c6ab577f662": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x35353a3a2988c7c26e53849d602be60df49aa775": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x72d815133f9f8b6529e911cf3be492846ce05213": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1d1ade627d0bb0205758580b20d808573e720df6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5f659bccbc353dbf7bcdffdee73bee60bb482036": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1e7792acc779a6af8304bd7991ff31d16d468c33": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x780a7539200e74e882dde303952029bda21684f0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xd500e617d0fca74f823c5724a45bea209cb36e3adb74b1ccf7dafaab21acd193:1",
+        "condition_id": "0xd500e617d0fca74f823c5724a45bea209cb36e3adb74b1ccf7dafaab21acd193",
+        "title": "Boston Red Sox vs. Tampa Bay Rays",
+        "outcome": "Tampa Bay Rays",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae",
+          "0xcd65c3279408a33866a9129bed6943064cb6ee96",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+        ],
+        "ranks": [
+          3,
+          7,
+          8,
+          9
+        ],
+        "total_value_usd": 767316.03,
+        "score": 16.8913,
+        "category": "baseball",
+        "end_date": "2026-06-17",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0xd5cb530c6ae7fb76fc164332a64718818a5397ac27c2e0eea2a674c83af57c28:0",
+        "condition_id": "0xd5cb530c6ae7fb76fc164332a64718818a5397ac27c2e0eea2a674c83af57c28",
+        "title": "New York Yankees vs. Cleveland Guardians",
+        "outcome": "New York Yankees",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xcd65c3279408a33866a9129bed6943064cb6ee96",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x89dd49bf87c41be422927372a0b75c6ab577f662"
+        ],
+        "ranks": [
+          6,
+          7,
+          9,
+          13
+        ],
+        "total_value_usd": 143777.69,
+        "score": 10.3408,
+        "category": "MLB",
+        "end_date": "2026-06-17",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0xb6b3d7a2037b3faa7e1306d741840d453432902d73cc9a146a035e40271eae73:0",
+        "condition_id": "0xb6b3d7a2037b3faa7e1306d741840d453432902d73cc9a146a035e40271eae73",
+        "title": "Will the San Antonio Spurs win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xd218e474776403a330142299f7796e8ba32eb5c9",
+          "0x72d815133f9f8b6529e911cf3be492846ce05213"
+        ],
+        "ranks": [
+          6,
+          12,
+          15
+        ],
+        "total_value_usd": 162841.06,
+        "score": 6.6503,
+        "category": "NBA",
+        "end_date": "2026-07-01",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0x514ec956661f4e1291058eae35c7e61ef68f21b95fe3ba3c6df0d8bbefbd8412:1",
+        "condition_id": "0x514ec956661f4e1291058eae35c7e61ef68f21b95fe3ba3c6df0d8bbefbd8412",
+        "title": "Stuttgart Open: Jan-Lennard Struff vs Alexander Bublik",
+        "outcome": "Alexander Bublik",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xcd65c3279408a33866a9129bed6943064cb6ee96",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319"
+        ],
+        "ranks": [
+          7,
+          9,
+          19
+        ],
+        "total_value_usd": 92206.19,
+        "score": 6.1337,
+        "category": "Tennis",
+        "end_date": "2026-06-17",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x78a43a5b0732f53953f11a5f1a0c2d8f158a971120ac3542f8ac7b95e0e2ccf3:0",
+        "condition_id": "0x78a43a5b0732f53953f11a5f1a0c2d8f158a971120ac3542f8ac7b95e0e2ccf3",
+        "title": "Lyon: Nikolas Sanchez Izquierdo vs Luca Van Assche",
+        "outcome": "Nikolas Sanchez Izquierdo",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0xd218e474776403a330142299f7796e8ba32eb5c9",
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319"
+        ],
+        "ranks": [
+          9,
+          12,
+          19
+        ],
+        "total_value_usd": 114941.84,
+        "score": 5.0382,
+        "category": "Tennis",
+        "end_date": "2026-06-17",
+        "entry_price": 0.51
+      }
+    ]
   }
 ]
