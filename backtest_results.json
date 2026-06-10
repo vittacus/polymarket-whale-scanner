@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-10T00:08:24+00:00",
-  "total_signals": 92,
+  "generated_at": "2026-06-10T04:47:38+00:00",
+  "total_signals": 94,
   "total_resolved": 0,
   "total_correct": 0,
   "overall_hit_rate": null,
   "by_tier": {
     "Strong": {
-      "total": 26,
+      "total": 27,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
     },
     "Moderate": {
-      "total": 56,
+      "total": 57,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
@@ -1584,6 +1584,40 @@
       "total_value_usd": 48298.95,
       "entry_price": 0.51,
       "end_date": "2026-06-15",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x1ef76bf63c4b9ec4b854ac39a10750f7b57af7c811fc4e569371fb89871dbe3d:1",
+      "condition_id": "0x1ef76bf63c4b9ec4b854ac39a10750f7b57af7c811fc4e569371fb89871dbe3d",
+      "title": "Cincinnati Reds vs. San Diego Padres",
+      "category": "MLB",
+      "whale_direction": "San Diego Padres",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 14.9397,
+      "total_value_usd": 113701.61,
+      "entry_price": 0.505,
+      "end_date": "2026-06-17",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x89389a6b1439856a8d366234c795d72865c927a1aa3cf9d4cc04a3a400defde1:1",
+      "condition_id": "0x89389a6b1439856a8d366234c795d72865c927a1aa3cf9d4cc04a3a400defde1",
+      "title": "Will the Vegas Golden Knights win the 2026 NHL Stanley Cup?",
+      "category": "Hockey",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 9.0928,
+      "total_value_usd": 79942.76,
+      "entry_price": 0.505,
+      "end_date": "2026-06-30",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
