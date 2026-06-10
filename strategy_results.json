@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-10T21:15:32+00:00",
-  "total_evaluated": 106,
-  "total_pending": 106,
+  "generated_at": "2026-06-10T22:59:25+00:00",
+  "total_evaluated": 111,
+  "total_pending": 111,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 106,
+      "signals_evaluated": 111,
       "correct": 0,
       "wrong": 0,
-      "pending": 106,
+      "pending": 111,
       "win_rate": null,
       "signals": [
         {
@@ -1495,6 +1495,76 @@
           "resolved_date": null,
           "end_date": "2026-06-17",
           "total_value_usd": 265962.5,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe019971a21471bafef51fa115830d095f2c5a28d828d8ee6317efc8cab867bc4:0",
+          "condition_id": "0xe019971a21471bafef51fa115830d095f2c5a28d828d8ee6317efc8cab867bc4",
+          "title": "Los Angeles Dodgers vs. Pittsburgh Pirates",
+          "category": "baseball",
+          "tier": "Strong",
+          "entry_price": 0.51,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-17",
+          "total_value_usd": 341382.75,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe019971a21471bafef51fa115830d095f2c5a28d828d8ee6317efc8cab867bc4:1",
+          "condition_id": "0xe019971a21471bafef51fa115830d095f2c5a28d828d8ee6317efc8cab867bc4",
+          "title": "Los Angeles Dodgers vs. Pittsburgh Pirates",
+          "category": "baseball",
+          "tier": "Strong",
+          "entry_price": 0.51,
+          "whale_direction": "Pittsburgh Pirates",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-17",
+          "total_value_usd": 196214.4,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x262d9c799b2bfe7565d387e521b407062c14f646a00f6dadbf00199b6de2bc58:1",
+          "condition_id": "0x262d9c799b2bfe7565d387e521b407062c14f646a00f6dadbf00199b6de2bc58",
+          "title": "Seattle Mariners vs. Baltimore Orioles",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "Baltimore Orioles",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-17",
+          "total_value_usd": 66393.21,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xb3d8611a37297d53401111fce7b5d7bcb306e68ea3127ac2aa7abdb86389c5ca:1",
+          "condition_id": "0xb3d8611a37297d53401111fce7b5d7bcb306e68ea3127ac2aa7abdb86389c5ca",
+          "title": "Cincinnati Reds vs. San Diego Padres",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "San Diego Padres",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-17",
+          "total_value_usd": 68491.44,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x4fc53c04db29af550c2f1c9168c89b857734127abcf2ef9d52fb9044474aab02:1",
+          "condition_id": "0x4fc53c04db29af550c2f1c9168c89b857734127abcf2ef9d52fb9044474aab02",
+          "title": "Washington Nationals vs. San Francisco Giants",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "San Francisco Giants",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-17",
+          "total_value_usd": 63971.86,
           "result": "pending"
         }
       ]
