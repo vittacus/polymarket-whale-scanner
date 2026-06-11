@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-11T19:38:29+00:00",
-  "total_evaluated": 116,
-  "total_pending": 116,
+  "generated_at": "2026-06-11T21:50:54+00:00",
+  "total_evaluated": 122,
+  "total_pending": 122,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 116,
+      "signals_evaluated": 122,
       "correct": 0,
       "wrong": 0,
-      "pending": 116,
+      "pending": 122,
       "win_rate": null,
       "signals": [
         {
@@ -1636,6 +1636,90 @@
           "end_date": "2026-06-17",
           "total_value_usd": 27165.99,
           "result": "pending"
+        },
+        {
+          "signal_key": "0x9352c559e9648ab4cab236087b64ca85c5b7123a4c7d9d7d4efde4a39c18056f:1",
+          "condition_id": "0x9352c559e9648ab4cab236087b64ca85c5b7123a4c7d9d7d4efde4a39c18056f",
+          "title": "Will the Iranian regime fall by June 30?",
+          "category": "Iran",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-30",
+          "total_value_usd": 1029830.37,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xbb4d51e6364066d92eb6f9b8413dd7193de70966736044463b205834805a1f3b:1",
+          "condition_id": "0xbb4d51e6364066d92eb6f9b8413dd7193de70966736044463b205834805a1f3b",
+          "title": "Will the Iranian regime fall before 2027?",
+          "category": "Israel",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-12-31",
+          "total_value_usd": 842772.88,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846:1",
+          "condition_id": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
+          "title": "Will the U.S. invade Iran before 2027?",
+          "category": "Geopolitics",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-12-31",
+          "total_value_usd": 355632.12,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x348cd9adf4f6855f58bd9c6dbf9ff251c4142ef77233a5dc95c65b4b61cd2187:0",
+          "condition_id": "0x348cd9adf4f6855f58bd9c6dbf9ff251c4142ef77233a5dc95c65b4b61cd2187",
+          "title": "Strait of Hormuz traffic returns to normal by end of June?",
+          "category": "Macro Geopolitics",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-30",
+          "total_value_usd": 139450.51,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd86a816093fcd0a0e1ca440bc5ce199bd3c5a8d6139e044b076958164f8c5423:0",
+          "condition_id": "0xd86a816093fcd0a0e1ca440bc5ce199bd3c5a8d6139e044b076958164f8c5423",
+          "title": "US x Iran permanent peace deal by June 15, 2026?",
+          "category": "Iran",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-15",
+          "total_value_usd": 127338.26,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xb8e6d129a06d0ccb21d7b32eb529ea455eddba3cf29bfa097112202cbdf5bf21:0",
+          "condition_id": "0xb8e6d129a06d0ccb21d7b32eb529ea455eddba3cf29bfa097112202cbdf5bf21",
+          "title": "Strait of Hormuz traffic returns to normal by July 31?",
+          "category": "Strait of Hormuz",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-31",
+          "total_value_usd": 77552.52,
+          "result": "pending"
         }
       ]
     },
@@ -1665,10 +1749,10 @@
       "name": "Conviction Sizing",
       "description": "Total whale position >$500k",
       "hypothesis": "Signals where total position size exceeds $500k represent the highest-conviction whale bets. When top traders put serious capital behind a position, that's a qualitatively different signal from a small stake. This filters for only the highest-conviction consensus calls to test whether size predicts accuracy.",
-      "signals_evaluated": 9,
+      "signals_evaluated": 11,
       "correct": 0,
       "wrong": 0,
-      "pending": 9,
+      "pending": 11,
       "win_rate": null,
       "signals": [
         {
@@ -1795,6 +1879,34 @@
           "resolved_date": null,
           "end_date": "2026-06-17",
           "total_value_usd": 767316.03,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x9352c559e9648ab4cab236087b64ca85c5b7123a4c7d9d7d4efde4a39c18056f:1",
+          "condition_id": "0x9352c559e9648ab4cab236087b64ca85c5b7123a4c7d9d7d4efde4a39c18056f",
+          "title": "Will the Iranian regime fall by June 30?",
+          "category": "Iran",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-30",
+          "total_value_usd": 1029830.37,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xbb4d51e6364066d92eb6f9b8413dd7193de70966736044463b205834805a1f3b:1",
+          "condition_id": "0xbb4d51e6364066d92eb6f9b8413dd7193de70966736044463b205834805a1f3b",
+          "title": "Will the Iranian regime fall before 2027?",
+          "category": "Israel",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-12-31",
+          "total_value_usd": 842772.88,
           "result": "pending"
         }
       ]
