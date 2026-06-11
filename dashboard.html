@@ -433,6 +433,15 @@
     /* ── Overview chart container ── */
     .overview-chart-wrap { padding: 20px; min-height: 160px; }
 
+    /* ── Sparklines ── */
+    .sparkline-wrap {
+      margin-top: 8px; padding-top: 8px;
+      border-top: 1px solid var(--border);
+      display: flex; align-items: center; gap: 10px;
+    }
+    .sparkline-label { font-size: 10px; color: var(--muted); white-space: nowrap; }
+    .sparkline-canvas { display: block; }
+
     /* ── Pending note ── */
     .pending-note {
       padding: 12px 20px; font-size: 12px; color: var(--yellow);
@@ -735,6 +744,14 @@
     <div id="whale-board"><div class="empty" style="padding:24px">Loading...</div></div>
   </div>
 
+  <div class="card">
+    <div class="card-header">Signal Breakdown by Category</div>
+    <div id="category-chart-container" style="display:flex;align-items:center;justify-content:center;gap:32px;padding:20px;min-height:180px">
+      <canvas id="category-donut" width="160" height="160" style="flex-shrink:0"></canvas>
+      <div id="category-legend" style="font-size:12px;line-height:1.9"></div>
+    </div>
+  </div>
+
 </div>
 
 <!-- ── Tab 2: Live Signals ── -->
@@ -765,6 +782,11 @@
 <div class="tab-panel" id="panel-history">
 
   <div class="card">
+    <div class="card-header">Daily Signal Volume</div>
+    <div class="overview-chart-wrap" style="min-height:140px"><canvas id="volume-chart"></canvas></div>
+  </div>
+
+  <div class="card">
     <div class="card-header">Resolved</div>
     <div id="resolved-container"><div class="empty">Loading...</div></div>
   </div>
@@ -790,6 +812,10 @@
   let strategyChart  = null;
   let donutCharts    = {};
   let strategyLabData = null;
+  let volumeChart    = null;
+  let categoryChart  = null;
+  let sparklineCharts = {};
+  let sparklineCache  = {};
   let activeFilter   = "All";
   let currentSignals = [];
   let currentLog     = [];
@@ -1218,6 +1244,227 @@
     pendEl.innerHTML = html;
   }
 
+  // ── Signal volume chart ────────────────────────────────────────────────────
+
+  function renderSignalVolumeChart(log) {
+    const canvas = document.getElementById("volume-chart");
+    if (!canvas) return;
+
+    // Count unique first-seen signals per calendar day (UTC)
+    const firstSeen = {};
+    for (const scan of log) {
+      const day = scan.timestamp.slice(0, 10);
+      for (const s of (scan.signals || [])) {
+        const k = s.signal_key || s.condition_id;
+        if (!firstSeen[k]) firstSeen[k] = { day, score: s.score };
+      }
+    }
+
+    const byDay = {};
+    for (const { day, score } of Object.values(firstSeen)) {
+      if (!byDay[day]) byDay[day] = { total: 0, strong: 0, moderate: 0, weak: 0 };
+      byDay[day].total++;
+      if (score >= 10) byDay[day].strong++;
+      else if (score >= 4) byDay[day].moderate++;
+      else byDay[day].weak++;
+    }
+
+    const days = Object.keys(byDay).sort();
+    if (!days.length) return;
+
+    const labels = days.map(d => {
+      const dt = new Date(d + "T00:00:00Z");
+      return dt.toLocaleDateString("en-US", { month: "short", day: "numeric", timeZone: "UTC" });
+    });
+    const counts = days.map(d => byDay[d].total);
+    const colors = days.map(d => {
+      const { strong, moderate, total } = byDay[d];
+      if (strong / total >= 0.5)   return "rgba(34,197,94,0.75)";
+      if (moderate / total >= 0.4) return "rgba(234,179,8,0.75)";
+      return "rgba(90,96,128,0.65)";
+    });
+
+    if (volumeChart) volumeChart.destroy();
+    volumeChart = new Chart(canvas, {
+      type: "bar",
+      data: {
+        labels,
+        datasets: [{
+          data: counts,
+          backgroundColor: colors,
+          borderColor: colors.map(c => c.replace("0.75","1").replace("0.65","1")),
+          borderWidth: 1, borderRadius: 4,
+        }]
+      },
+      options: {
+        responsive: true, aspectRatio: 3.5,
+        plugins: {
+          legend: { display: false },
+          datalabels: { display: false },
+          tooltip: {
+            backgroundColor: "#1e2135", borderColor: "#2a2e4a", borderWidth: 1,
+            titleColor: "#e2e8f0", bodyColor: "#9ca3af",
+            callbacks: { label: ctx => `  ${ctx.raw} new signal${ctx.raw !== 1 ? "s" : ""}` }
+          }
+        },
+        scales: {
+          x: {
+            grid: { display: false },
+            ticks: { color: "#5a6080", font: { size: 10 }, maxRotation: 45 }
+          },
+          y: {
+            min: 0, ticks: { stepSize: 1, color: "#5a6080", font: { size: 10 } },
+            grid: { color: "rgba(255,255,255,0.04)" }
+          }
+        }
+      }
+    });
+  }
+
+  // ── Category donut chart ───────────────────────────────────────────────────
+
+  const CAT_PALETTE = [
+    "#2dd4bf","#818cf8","#f472b6","#fb923c","#34d399",
+    "#60a5fa","#e879f9","#fbbf24","#a3e635","#f87171",
+    "#38bdf8","#c084fc","#4ade80","#facc15","#fb7185",
+  ];
+
+  function renderCategoryChart(log) {
+    const canvas = document.getElementById("category-donut");
+    const legendEl = document.getElementById("category-legend");
+    if (!canvas || !legendEl) return;
+
+    const counts = {};
+    const seen = new Set();
+    for (const scan of log) {
+      for (const s of (scan.signals || [])) {
+        if (seen.has(s.signal_key || s.condition_id)) continue;
+        seen.add(s.signal_key || s.condition_id);
+        const cat = (s.category || "").trim() || "General";
+        counts[cat] = (counts[cat] || 0) + 1;
+      }
+    }
+
+    const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+    if (!sorted.length) return;
+
+    const labels  = sorted.map(([k]) => k);
+    const data    = sorted.map(([, v]) => v);
+    const bgColors = labels.map((_, i) => CAT_PALETTE[i % CAT_PALETTE.length]);
+    const total   = data.reduce((a, b) => a + b, 0);
+
+    if (categoryChart) categoryChart.destroy();
+    categoryChart = new Chart(canvas, {
+      type: "doughnut",
+      data: {
+        labels,
+        datasets: [{
+          data,
+          backgroundColor: bgColors,
+          borderColor: "rgba(0,0,0,0.3)",
+          borderWidth: 1,
+        }]
+      },
+      options: {
+        cutout: "58%",
+        responsive: false,
+        plugins: {
+          legend: { display: false },
+          datalabels: { display: false },
+          tooltip: {
+            backgroundColor: "#1e2135", borderColor: "#2a2e4a", borderWidth: 1,
+            titleColor: "#e2e8f0", bodyColor: "#9ca3af",
+            callbacks: { label: ctx => `  ${ctx.raw} signals (${Math.round(ctx.raw/total*100)}%)` }
+          }
+        }
+      }
+    });
+
+    legendEl.innerHTML = sorted.map(([cat, count], i) => {
+      const color = CAT_PALETTE[i % CAT_PALETTE.length];
+      const pct   = Math.round(count / total * 100);
+      return `<div style="display:flex;align-items:center;gap:7px">
+        <span style="display:inline-block;width:10px;height:10px;border-radius:2px;background:${color};flex-shrink:0"></span>
+        <span style="color:var(--text)">${esc(cat)}</span>
+        <span style="color:var(--muted);margin-left:auto;padding-left:12px">${count} · ${pct}%</span>
+      </div>`;
+    }).join("");
+  }
+
+  // ── Sparklines ─────────────────────────────────────────────────────────────
+
+  async function renderSparklines(signals) {
+    for (const s of signals) {
+      const safeId = s.condition_id.replace(/[^a-z0-9]/gi,"").slice(0,24) + "_" + (s.outcome_index || 0);
+      const sparkId = "spark-" + safeId;
+      const wrapId  = "swrap-" + sparkId;
+      const canvas  = document.getElementById(sparkId);
+      const wrap    = document.getElementById(wrapId);
+      if (!canvas || !wrap) continue;
+
+      try {
+        let history = sparklineCache[sparkId];
+        if (!history) {
+          // Step 1: get clobTokenIds for this conditionId
+          const mktRes = await fetch(
+            `https://gamma-api.polymarket.com/markets?conditionIds=${s.condition_id}`
+          );
+          if (!mktRes.ok) continue;
+          const mktData = await mktRes.json();
+          if (!mktData || !mktData[0]) continue;
+          const rawTokens = mktData[0].clobTokenIds || "[]";
+          const tokenIds  = JSON.parse(rawTokens);
+          const tokenId   = tokenIds[s.outcome_index] || tokenIds[0];
+          if (!tokenId) continue;
+
+          // Step 2: get price history for this outcome's token
+          const histRes = await fetch(
+            `https://clob.polymarket.com/prices-history?interval=1w&fidelity=60&market=${tokenId}`
+          );
+          if (!histRes.ok) continue;
+          const histData = await histRes.json();
+          history = (histData.history || []).filter(pt => pt.p != null);
+          if (history.length < 3) continue;
+          sparklineCache[sparkId] = history;
+        }
+
+        const prices = history.map(pt => pt.p);
+        const n = prices.length;
+        const segment = Math.max(1, Math.floor(n * 0.2));
+        const avgFirst = prices.slice(0, segment).reduce((a, b) => a + b) / segment;
+        const avgLast  = prices.slice(-segment).reduce((a, b) => a + b) / segment;
+        const rising   = avgLast > avgFirst;
+        const color    = rising ? "#22c55e" : "#ef4444";
+
+        if (sparklineCharts[sparkId]) sparklineCharts[sparkId].destroy();
+        sparklineCharts[sparkId] = new Chart(canvas, {
+          type: "line",
+          data: {
+            labels: history.map(pt => pt.t),
+            datasets: [{
+              data: prices,
+              borderColor: color, borderWidth: 1.5,
+              backgroundColor: rising
+                ? "rgba(34,197,94,0.08)" : "rgba(239,68,68,0.08)",
+              fill: true, pointRadius: 0, tension: 0.3,
+            }]
+          },
+          options: {
+            responsive: false, animation: false,
+            plugins: {
+              legend: { display: false },
+              datalabels: { display: false },
+              tooltip: { enabled: false }
+            },
+            scales: { x: { display: false }, y: { display: false } }
+          }
+        });
+
+        wrap.style.display = "flex";
+      } catch (_) {}
+    }
+  }
+
   // ── Strategy Lab ─────────────────────────────────────────────────────────
 
   const LAB_META = {
@@ -1587,6 +1834,7 @@
     const ranks   = Array.isArray(s.ranks) ? s.ranks.map(r => "#"+r).join(", ") : "—";
     const resolve = fmtResolveDate(s.end_date);
     const lastSeenNote = opts.lastSeen ? `Last seen ${esc(opts.lastSeen)} · ` : "";
+    const sparkId = "spark-" + s.condition_id.replace(/[^a-z0-9]/gi,"").slice(0,24) + "_" + (s.outcome_index || 0);
     return `<div class="signal-item"${opts.dim ? ' style="opacity:0.65"' : ""}>
       <div class="signal-item-title">
         ${s.category ? `<span class="cat-tag">${esc(s.category)}</span>` : ""}
@@ -1601,6 +1849,10 @@
       <div class="signal-footer">
         ${resolve ? `<span class="resolve-date ${resolve.cls}">${resolve.label}</span>` : "<span></span>"}
         <span class="signal-footer-ranks">${lastSeenNote}Ranks: ${esc(ranks)}</span>
+      </div>
+      <div class="sparkline-wrap" id="swrap-${sparkId}" style="display:none">
+        <span class="sparkline-label">7d price trend</span>
+        <canvas id="${sparkId}" width="120" height="40" class="sparkline-canvas"></canvas>
       </div>
     </div>`;
   }
@@ -1643,6 +1895,8 @@
 
     const rows = filtered.map(s => signalRowHtml(s)).join("");
     el.innerHTML = rows;
+    // Sparklines run async after DOM update
+    requestAnimationFrame(() => renderSparklines(filtered));
   }
 
   // ── Top signal callout ────────────────────────────────────────────────────
@@ -1733,6 +1987,9 @@
       renderWhaleLeaderboard(signals, whaleTimeframes);
       renderAlerts(log);
       renderHistory(log, backtestSignals);
+      renderSignalVolumeChart(log);
+      renderCategoryChart(log);
+      renderSparklines(signals);
 
     } catch (err) {
       document.getElementById("table-container").innerHTML = `
