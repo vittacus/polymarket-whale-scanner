@@ -14157,5 +14157,412 @@
         "entry_price": 0.52
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-11T00:18:08+00:00",
+    "whale_timeframes": {
+      "0x492442eab586f242b53bda933fd5de859c8a3782": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbddf61af533ff524d27154e589d2d7a81510c684": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd65c3279408a33866a9129bed6943064cb6ee96": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd218e474776403a330142299f7796e8ba32eb5c9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4ab9b54427ec4b7f3646b1a0ef1bed73bc708ebe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x35353a3a2988c7c26e53849d602be60df49aa775": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x72d815133f9f8b6529e911cf3be492846ce05213": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x08fff5b9a79576a7c6e18a9d05ece0658a34ba79": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x06dc51826bc524d9a83770e7de9dd7e005b04524": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0a854897a06d4999e5b2dde5693609f1428ffe9d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1d1ade627d0bb0205758580b20d808573e720df6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xe019971a21471bafef51fa115830d095f2c5a28d828d8ee6317efc8cab867bc4:0",
+        "condition_id": "0xe019971a21471bafef51fa115830d095f2c5a28d828d8ee6317efc8cab867bc4",
+        "title": "Los Angeles Dodgers vs. Pittsburgh Pirates",
+        "outcome": "Los Angeles Dodgers",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae",
+          "0xcd65c3279408a33866a9129bed6943064cb6ee96",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319"
+        ],
+        "ranks": [
+          2,
+          6,
+          8,
+          13
+        ],
+        "total_value_usd": 438844.98,
+        "score": 19.7481,
+        "category": "baseball",
+        "end_date": "2026-06-17",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37:0",
+        "condition_id": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+        "title": "Will the New York Knicks win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
+        ],
+        "ranks": [
+          3,
+          5,
+          8
+        ],
+        "total_value_usd": 113307.64,
+        "score": 13.4078,
+        "category": "NBA",
+        "end_date": "2026-07-01",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892:0",
+        "condition_id": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892",
+        "title": "Will Spain win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xd218e474776403a330142299f7796e8ba32eb5c9",
+          "0x08fff5b9a79576a7c6e18a9d05ece0658a34ba79"
+        ],
+        "ranks": [
+          3,
+          8,
+          9,
+          16
+        ],
+        "total_value_usd": 122743.2,
+        "score": 12.9588,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.52
+      },
+      {
+        "signal_key": "0x30d55d8124ee1e12dabe89201badc45669b81dff69e4ce44d961f32878ec178a:0",
+        "condition_id": "0x30d55d8124ee1e12dabe89201badc45669b81dff69e4ce44d961f32878ec178a",
+        "title": "Will Brazil win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x08fff5b9a79576a7c6e18a9d05ece0658a34ba79"
+        ],
+        "ranks": [
+          3,
+          8,
+          16
+        ],
+        "total_value_usd": 78245.7,
+        "score": 10.27,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x9be56371f6a29d12769b2f196847ee825b9585ebb8bfa042136be031b081eba1:0",
+        "condition_id": "0x9be56371f6a29d12769b2f196847ee825b9585ebb8bfa042136be031b081eba1",
+        "title": "Will Netherlands win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x08fff5b9a79576a7c6e18a9d05ece0658a34ba79"
+        ],
+        "ranks": [
+          3,
+          8,
+          16
+        ],
+        "total_value_usd": 69064.74,
+        "score": 10.1562,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x7b52405ad0e0d31bfe970940b67d77f24ecedeab8a2361c11148c02a006e325c:0",
+        "condition_id": "0x7b52405ad0e0d31bfe970940b67d77f24ecedeab8a2361c11148c02a006e325c",
+        "title": "Will Norway win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x08fff5b9a79576a7c6e18a9d05ece0658a34ba79"
+        ],
+        "ranks": [
+          3,
+          8,
+          16
+        ],
+        "total_value_usd": 16928.7,
+        "score": 8.8747,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0xbaf7780f9059e34b84301fd411f8dc573b4d56adfe6e0cda33daf304b1438da4:0",
+        "condition_id": "0xbaf7780f9059e34b84301fd411f8dc573b4d56adfe6e0cda33daf304b1438da4",
+        "title": "Will Ecuador win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xbddf61af533ff524d27154e589d2d7a81510c684",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x08fff5b9a79576a7c6e18a9d05ece0658a34ba79"
+        ],
+        "ranks": [
+          3,
+          8,
+          16
+        ],
+        "total_value_usd": 7827.75,
+        "score": 8.1717,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x983cfc25754a6b18da3b549f50f756c81f090cf387c40113cd20b954978e7e7b:0",
+        "condition_id": "0x983cfc25754a6b18da3b549f50f756c81f090cf387c40113cd20b954978e7e7b",
+        "title": "Atlanta Braves vs. Chicago White Sox",
+        "outcome": "Atlanta Braves",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xcd65c3279408a33866a9129bed6943064cb6ee96",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319"
+        ],
+        "ranks": [
+          6,
+          8,
+          13
+        ],
+        "total_value_usd": 50000.1,
+        "score": 6.9791,
+        "category": "baseball",
+        "end_date": "2026-06-17",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0xb6b3d7a2037b3faa7e1306d741840d453432902d73cc9a146a035e40271eae73:0",
+        "condition_id": "0xb6b3d7a2037b3faa7e1306d741840d453432902d73cc9a146a035e40271eae73",
+        "title": "Will the San Antonio Spurs win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xd218e474776403a330142299f7796e8ba32eb5c9",
+          "0x72d815133f9f8b6529e911cf3be492846ce05213"
+        ],
+        "ranks": [
+          8,
+          9,
+          15
+        ],
+        "total_value_usd": 162190.57,
+        "score": 6.3565,
+        "category": "NBA",
+        "end_date": "2026-07-01",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894:0",
+        "condition_id": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
+        "title": "Will France win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xd218e474776403a330142299f7796e8ba32eb5c9",
+          "0x08fff5b9a79576a7c6e18a9d05ece0658a34ba79"
+        ],
+        "ranks": [
+          8,
+          9,
+          16
+        ],
+        "total_value_usd": 54689.74,
+        "score": 5.7009,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.52
+      },
+      {
+        "signal_key": "0x4f3421fb2daf5cca7430ed8d8132463963081572d75434393a1808fdb8829fe8:0",
+        "condition_id": "0x4f3421fb2daf5cca7430ed8d8132463963081572d75434393a1808fdb8829fe8",
+        "title": "Will Portugal win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xd218e474776403a330142299f7796e8ba32eb5c9",
+          "0x08fff5b9a79576a7c6e18a9d05ece0658a34ba79"
+        ],
+        "ranks": [
+          8,
+          9,
+          16
+        ],
+        "total_value_usd": 33741.21,
+        "score": 5.4486,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.52
+      },
+      {
+        "signal_key": "0xe019971a21471bafef51fa115830d095f2c5a28d828d8ee6317efc8cab867bc4:1",
+        "condition_id": "0xe019971a21471bafef51fa115830d095f2c5a28d828d8ee6317efc8cab867bc4",
+        "title": "Los Angeles Dodgers vs. Pittsburgh Pirates",
+        "outcome": "Pittsburgh Pirates",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x72d815133f9f8b6529e911cf3be492846ce05213"
+        ],
+        "ranks": [
+          8,
+          13,
+          15
+        ],
+        "total_value_usd": 14894.04,
+        "score": 4.5164,
+        "category": "baseball",
+        "end_date": "2026-06-17",
+        "entry_price": 0.51
+      }
+    ]
   }
 ]

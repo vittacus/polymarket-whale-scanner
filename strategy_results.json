@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-10T22:59:25+00:00",
-  "total_evaluated": 111,
-  "total_pending": 111,
+  "generated_at": "2026-06-11T00:20:04+00:00",
+  "total_evaluated": 114,
+  "total_pending": 114,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 111,
+      "signals_evaluated": 114,
       "correct": 0,
       "wrong": 0,
-      "pending": 111,
+      "pending": 114,
       "win_rate": null,
       "signals": [
         {
@@ -1565,6 +1565,48 @@
           "resolved_date": null,
           "end_date": "2026-06-17",
           "total_value_usd": 63971.86,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x7b52405ad0e0d31bfe970940b67d77f24ecedeab8a2361c11148c02a006e325c:0",
+          "condition_id": "0x7b52405ad0e0d31bfe970940b67d77f24ecedeab8a2361c11148c02a006e325c",
+          "title": "Will Norway win the 2026 FIFA World Cup?",
+          "category": "Soccer",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-20",
+          "total_value_usd": 16928.7,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xbaf7780f9059e34b84301fd411f8dc573b4d56adfe6e0cda33daf304b1438da4:0",
+          "condition_id": "0xbaf7780f9059e34b84301fd411f8dc573b4d56adfe6e0cda33daf304b1438da4",
+          "title": "Will Ecuador win the 2026 FIFA World Cup?",
+          "category": "Soccer",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-20",
+          "total_value_usd": 7827.75,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x983cfc25754a6b18da3b549f50f756c81f090cf387c40113cd20b954978e7e7b:0",
+          "condition_id": "0x983cfc25754a6b18da3b549f50f756c81f090cf387c40113cd20b954978e7e7b",
+          "title": "Atlanta Braves vs. Chicago White Sox",
+          "category": "baseball",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "Atlanta Braves",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-17",
+          "total_value_usd": 50000.1,
           "result": "pending"
         }
       ]
