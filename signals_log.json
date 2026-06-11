@@ -15124,5 +15124,205 @@
         "entry_price": 0.51
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-11T16:58:43+00:00",
+    "whale_timeframes": {
+      "0x6db568e61e5e3de7d87f831431b673f38ce2e279": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x157efb90bf2f3bae9eea4f1e9d02abf12ff3add7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd0ee8005ad44501453bd5ee31ea863b1b038b834": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x89dd49bf87c41be422927372a0b75c6ab577f662": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x408fe71e6b5401ecd6733970cb6f1a25e984b2f4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x492442eab586f242b53bda933fd5de859c8a3782": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x94d71d0d28709da91fd44c7d89da272fe86dbef5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5601f1f658ea940e254c16dfe0403bc543d3e1a5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcc5bd3dd093f5f73730501e369f8928371b91edc": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcf6c5492124794394dd9eac46498a8babbe47e66": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5f659bccbc353dbf7bcdffdee73bee60bb482036": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3da47940a647e8d1ad8e15c27c15ee449ee5367e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37:0",
+        "condition_id": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+        "title": "Will the New York Knicks win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 5,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5",
+          "0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1",
+          "0x84dbb7103982e3617704a2ed7d5b39691952aeeb",
+          "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e"
+        ],
+        "ranks": [
+          9,
+          10,
+          12,
+          14,
+          17
+        ],
+        "total_value_usd": 830372.73,
+        "score": 10.1298,
+        "category": "NBA",
+        "end_date": "2026-07-01",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0xd133d26d2ce46531a15e564e7641aca719dcc02a320b2f4b4903f3cfc17860e3:0",
+        "condition_id": "0xd133d26d2ce46531a15e564e7641aca719dcc02a320b2f4b4903f3cfc17860e3",
+        "title": "Stuttgart Open: Martin Landaluce vs Taylor Fritz",
+        "outcome": "Martin Landaluce",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0xcf6c5492124794394dd9eac46498a8babbe47e66",
+          "0x5f659bccbc353dbf7bcdffdee73bee60bb482036"
+        ],
+        "ranks": [
+          6,
+          18,
+          19
+        ],
+        "total_value_usd": 27165.99,
+        "score": 4.9108,
+        "category": "Tennis",
+        "end_date": "2026-06-17",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x9be56371f6a29d12769b2f196847ee825b9585ebb8bfa042136be031b081eba1:0",
+        "condition_id": "0x9be56371f6a29d12769b2f196847ee825b9585ebb8bfa042136be031b081eba1",
+        "title": "Will Netherlands win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x94d71d0d28709da91fd44c7d89da272fe86dbef5",
+          "0x5601f1f658ea940e254c16dfe0403bc543d3e1a5"
+        ],
+        "ranks": [
+          9,
+          13,
+          15
+        ],
+        "total_value_usd": 12076.93,
+        "score": 4.1894,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.51
+      }
+    ]
   }
 ]

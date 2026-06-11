@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-11T13:01:13+00:00",
-  "total_signals": 115,
+  "generated_at": "2026-06-11T16:59:55+00:00",
+  "total_signals": 116,
   "total_resolved": 0,
   "total_correct": 0,
   "overall_hit_rate": null,
@@ -12,7 +12,7 @@
       "hit_rate": null
     },
     "Moderate": {
-      "total": 73,
+      "total": 74,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
@@ -1975,6 +1975,23 @@
       "total_value_usd": 140962.85,
       "entry_price": 0.515,
       "end_date": "2026-06-18",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xd133d26d2ce46531a15e564e7641aca719dcc02a320b2f4b4903f3cfc17860e3:0",
+      "condition_id": "0xd133d26d2ce46531a15e564e7641aca719dcc02a320b2f4b4903f3cfc17860e3",
+      "title": "Stuttgart Open: Martin Landaluce vs Taylor Fritz",
+      "category": "Tennis",
+      "whale_direction": "Martin Landaluce",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 4.9108,
+      "total_value_usd": 27165.99,
+      "entry_price": 0.51,
+      "end_date": "2026-06-17",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

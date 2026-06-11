@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-11T13:01:13+00:00",
-  "total_evaluated": 115,
-  "total_pending": 115,
+  "generated_at": "2026-06-11T16:59:55+00:00",
+  "total_evaluated": 116,
+  "total_pending": 116,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 115,
+      "signals_evaluated": 116,
       "correct": 0,
       "wrong": 0,
-      "pending": 115,
+      "pending": 116,
       "win_rate": null,
       "signals": [
         {
@@ -1621,6 +1621,20 @@
           "resolved_date": null,
           "end_date": "2026-06-18",
           "total_value_usd": 140962.85,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd133d26d2ce46531a15e564e7641aca719dcc02a320b2f4b4903f3cfc17860e3:0",
+          "condition_id": "0xd133d26d2ce46531a15e564e7641aca719dcc02a320b2f4b4903f3cfc17860e3",
+          "title": "Stuttgart Open: Martin Landaluce vs Taylor Fritz",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "Martin Landaluce",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-17",
+          "total_value_usd": 27165.99,
           "result": "pending"
         }
       ]
