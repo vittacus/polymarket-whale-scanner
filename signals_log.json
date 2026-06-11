@@ -15814,5 +15814,249 @@
         "entry_price": 0.51
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-11T23:17:31+00:00",
+    "whale_timeframes": {
+      "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6db568e61e5e3de7d87f831431b673f38ce2e279": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x157efb90bf2f3bae9eea4f1e9d02abf12ff3add7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd0ee8005ad44501453bd5ee31ea863b1b038b834": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x408fe71e6b5401ecd6733970cb6f1a25e984b2f4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbaa2bcb5439e985ce4ccf815b4700027d1b92c73": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x492442eab586f242b53bda933fd5de859c8a3782": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5f659bccbc353dbf7bcdffdee73bee60bb482036": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x96489abcb9f583d6835c8ef95ffc923d05a86825": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x03e8a544e97eeff5753bc1e90d46e5ef22af1697": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x94d71d0d28709da91fd44c7d89da272fe86dbef5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5601f1f658ea940e254c16dfe0403bc543d3e1a5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcc5bd3dd093f5f73730501e369f8928371b91edc": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc6587b11a2209e46dfe3928b31c5514a8e33b784": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37:0",
+        "condition_id": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+        "title": "Will the New York Knicks win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1",
+          "0x84dbb7103982e3617704a2ed7d5b39691952aeeb"
+        ],
+        "ranks": [
+          4,
+          6,
+          12,
+          18
+        ],
+        "total_value_usd": 322869.82,
+        "score": 12.3326,
+        "category": "NBA",
+        "end_date": "2026-07-01",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0x9352c559e9648ab4cab236087b64ca85c5b7123a4c7d9d7d4efde4a39c18056f:1",
+        "condition_id": "0x9352c559e9648ab4cab236087b64ca85c5b7123a4c7d9d7d4efde4a39c18056f",
+        "title": "Will the Iranian regime fall by June 30?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xbaa2bcb5439e985ce4ccf815b4700027d1b92c73",
+          "0x96489abcb9f583d6835c8ef95ffc923d05a86825",
+          "0xc6587b11a2209e46dfe3928b31c5514a8e33b784"
+        ],
+        "ranks": [
+          9,
+          13,
+          20
+        ],
+        "total_value_usd": 1029830.37,
+        "score": 5.7672,
+        "category": "Iran",
+        "end_date": "2026-06-30",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0xbb4d51e6364066d92eb6f9b8413dd7193de70966736044463b205834805a1f3b:1",
+        "condition_id": "0xbb4d51e6364066d92eb6f9b8413dd7193de70966736044463b205834805a1f3b",
+        "title": "Will the Iranian regime fall before 2027?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xbaa2bcb5439e985ce4ccf815b4700027d1b92c73",
+          "0x96489abcb9f583d6835c8ef95ffc923d05a86825",
+          "0xc6587b11a2209e46dfe3928b31c5514a8e33b784"
+        ],
+        "ranks": [
+          9,
+          13,
+          20
+        ],
+        "total_value_usd": 845071.64,
+        "score": 5.6849,
+        "category": "Israel",
+        "end_date": "2026-12-31",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846:1",
+        "condition_id": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
+        "title": "Will the U.S. invade Iran before 2027?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xbaa2bcb5439e985ce4ccf815b4700027d1b92c73",
+          "0x96489abcb9f583d6835c8ef95ffc923d05a86825",
+          "0xc6587b11a2209e46dfe3928b31c5514a8e33b784"
+        ],
+        "ranks": [
+          9,
+          13,
+          20
+        ],
+        "total_value_usd": 355632.12,
+        "score": 5.3243,
+        "category": "Geopolitics",
+        "end_date": "2026-12-31",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x9be56371f6a29d12769b2f196847ee825b9585ebb8bfa042136be031b081eba1:0",
+        "condition_id": "0x9be56371f6a29d12769b2f196847ee825b9585ebb8bfa042136be031b081eba1",
+        "title": "Will Netherlands win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x94d71d0d28709da91fd44c7d89da272fe86dbef5",
+          "0x5601f1f658ea940e254c16dfe0403bc543d3e1a5"
+        ],
+        "ranks": [
+          6,
+          15,
+          17
+        ],
+        "total_value_usd": 11593.84,
+        "score": 4.7847,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.51
+      }
+    ]
   }
 ]
