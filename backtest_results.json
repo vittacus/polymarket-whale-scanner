@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-11T09:21:36+00:00",
-  "total_signals": 114,
+  "generated_at": "2026-06-11T13:01:13+00:00",
+  "total_signals": 115,
   "total_resolved": 0,
   "total_correct": 0,
   "overall_hit_rate": null,
   "by_tier": {
     "Strong": {
-      "total": 31,
+      "total": 32,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
@@ -1958,6 +1958,23 @@
       "total_value_usd": 50000.1,
       "entry_price": 0.51,
       "end_date": "2026-06-17",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xe6990e0d300c4e67ab87532c08fd4adcbce2440f1d4b2d724e3f19484948a144:1",
+      "condition_id": "0xe6990e0d300c4e67ab87532c08fd4adcbce2440f1d4b2d724e3f19484948a144",
+      "title": "Libema Open: Tallon Griekspoor vs Zhizhen Zhang",
+      "category": "Tennis",
+      "whale_direction": "Zhizhen Zhang",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 11.5269,
+      "total_value_usd": 140962.85,
+      "entry_price": 0.515,
+      "end_date": "2026-06-18",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
