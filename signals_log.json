@@ -17824,5 +17824,201 @@
         "entry_price": 0.51
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-12T14:04:26+00:00",
+    "whale_timeframes": {
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2b3ff45c91540e46fae1e0c72f61f4b049453446": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0346afae2603313d2bbee96b628536c8cbe352a5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x924379a79c64b77ad5816ad362122a5f6228658e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbc43c8bfbc4d77c2fc9011adad38ba43b88996d3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb859a551fcf56e49416160911476bea7307152f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8e089ade142c95538e06196e09c85681112ad50": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4328b28f95d4fbf9ed47eaee1a33eb7de15b0310": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x16c7f9b7b239c980929a2aa5d53b23c5cac03931": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4be1fa92e6ceaf886aac0bbec3be6c527133aa70": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x21064fd320bfd5a86f8c92a94d3209edf4154dea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xee00ba338c59557141789b127927a55f5cc5cea1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x19254b55e7c48e88baab9e62cc218223a6544654": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xbabc896225844371b57a54468c5e2638a47fc64039765fb61c68d10f23885331:1",
+        "condition_id": "0xbabc896225844371b57a54468c5e2638a47fc64039765fb61c68d10f23885331",
+        "title": "Atlanta Braves vs. Chicago White Sox",
+        "outcome": "Chicago White Sox",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0xdb859a551fcf56e49416160911476bea7307152f",
+          "0xa8e089ade142c95538e06196e09c85681112ad50"
+        ],
+        "ranks": [
+          3,
+          11,
+          12
+        ],
+        "total_value_usd": 100848.43,
+        "score": 10.234,
+        "category": "MLB",
+        "end_date": "2026-06-18",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0xf7b5491e70b477d451afe7d9c1fde4bf1a927e69ff289d294b96df164f6c10f0:0",
+        "condition_id": "0xf7b5491e70b477d451afe7d9c1fde4bf1a927e69ff289d294b96df164f6c10f0",
+        "title": "Will the Carolina Hurricanes win the 2026 NHL Stanley Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227",
+          "0x19254b55e7c48e88baab9e62cc218223a6544654"
+        ],
+        "ranks": [
+          8,
+          9,
+          20
+        ],
+        "total_value_usd": 176573.11,
+        "score": 6.0491,
+        "category": "Hockey",
+        "end_date": "2026-06-30",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37:1",
+        "condition_id": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+        "title": "Will the New York Knicks win the 2026 NBA Finals?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227",
+          "0xee00ba338c59557141789b127927a55f5cc5cea1"
+        ],
+        "ranks": [
+          8,
+          9,
+          19
+        ],
+        "total_value_usd": 49599.09,
+        "score": 5.4632,
+        "category": "NBA",
+        "end_date": "2026-07-01",
+        "entry_price": 0.515
+      }
+    ]
   }
 ]
