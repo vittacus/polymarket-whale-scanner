@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-12T14:05:42+00:00",
-  "total_evaluated": 142,
-  "total_pending": 142,
+  "generated_at": "2026-06-12T17:15:49+00:00",
+  "total_evaluated": 143,
+  "total_pending": 143,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 142,
+      "signals_evaluated": 143,
       "correct": 0,
       "wrong": 0,
-      "pending": 142,
+      "pending": 143,
       "win_rate": null,
       "signals": [
         {
@@ -1999,6 +1999,20 @@
           "resolved_date": null,
           "end_date": "2026-07-20",
           "total_value_usd": 3792.96,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd90bf5f45f24c5de7881707cb5374f3d991388a2d220fa7e0fe2be912cd7642a:1",
+          "condition_id": "0xd90bf5f45f24c5de7881707cb5374f3d991388a2d220fa7e0fe2be912cd7642a",
+          "title": "Knicks vs. Spurs",
+          "category": "NBA",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "Spurs",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-14",
+          "total_value_usd": 55740.96,
           "result": "pending"
         }
       ]

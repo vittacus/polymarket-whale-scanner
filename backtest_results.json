@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-12T14:05:42+00:00",
-  "total_signals": 142,
+  "generated_at": "2026-06-12T17:15:49+00:00",
+  "total_signals": 143,
   "total_resolved": 0,
   "total_correct": 0,
   "overall_hit_rate": null,
@@ -12,7 +12,7 @@
       "hit_rate": null
     },
     "Moderate": {
-      "total": 97,
+      "total": 98,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
@@ -2434,6 +2434,23 @@
       "total_value_usd": 3792.96,
       "entry_price": 0.51,
       "end_date": "2026-07-20",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xd90bf5f45f24c5de7881707cb5374f3d991388a2d220fa7e0fe2be912cd7642a:1",
+      "condition_id": "0xd90bf5f45f24c5de7881707cb5374f3d991388a2d220fa7e0fe2be912cd7642a",
+      "title": "Knicks vs. Spurs",
+      "category": "NBA",
+      "whale_direction": "Spurs",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 5.4035,
+      "total_value_usd": 55740.96,
+      "entry_price": 0.51,
+      "end_date": "2026-06-14",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
