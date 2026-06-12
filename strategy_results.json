@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-11T23:18:42+00:00",
-  "total_evaluated": 122,
-  "total_pending": 122,
+  "generated_at": "2026-06-12T01:56:55+00:00",
+  "total_evaluated": 128,
+  "total_pending": 128,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 122,
+      "signals_evaluated": 128,
       "correct": 0,
       "wrong": 0,
-      "pending": 122,
+      "pending": 128,
       "win_rate": null,
       "signals": [
         {
@@ -1719,6 +1719,90 @@
           "resolved_date": null,
           "end_date": "2026-07-31",
           "total_value_usd": 77552.52,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf846c22b3cca1ccf6756f014dd7245f8015e605070e9b3226bbb72e8c0383f94:1",
+          "condition_id": "0xf846c22b3cca1ccf6756f014dd7245f8015e605070e9b3226bbb72e8c0383f94",
+          "title": "Los Angeles Dodgers vs. Pittsburgh Pirates",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Pittsburgh Pirates",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-18",
+          "total_value_usd": 45617.24,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xfca70ad7514154e87278badf00646e2c5c51f41bf318c7d8f4d63b3e93b282c9:1",
+          "condition_id": "0xfca70ad7514154e87278badf00646e2c5c51f41bf318c7d8f4d63b3e93b282c9",
+          "title": "Seattle Mariners vs. Baltimore Orioles",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Baltimore Orioles",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-18",
+          "total_value_usd": 243233.62,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xa70fc3695a65833b91b45df6db6015096f3e1471b70352ca411b4209010e7633:0",
+          "condition_id": "0xa70fc3695a65833b91b45df6db6015096f3e1471b70352ca411b4209010e7633",
+          "title": "US-Iran nuclear deal by June 30?",
+          "category": "World",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-30",
+          "total_value_usd": 243612.66,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x20af55ab35186377b81219db6cb8615240cba42cea41731091be9484a5f5b122:0",
+          "condition_id": "0x20af55ab35186377b81219db6cb8615240cba42cea41731091be9484a5f5b122",
+          "title": "US x Iran permanent peace deal by July 31, 2026?",
+          "category": "Iran",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-31",
+          "total_value_usd": 39754.76,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x9d3f02264a94bafc676afd7add8b11442e6ec72dabaa69cefef835f0672275c7:0",
+          "condition_id": "0x9d3f02264a94bafc676afd7add8b11442e6ec72dabaa69cefef835f0672275c7",
+          "title": " Iran agrees to end enrichment of uranium by June 30?",
+          "category": "Trump",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-30",
+          "total_value_usd": 29791.74,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x6cb3ec9e0fb1c258898f648f8b33422f59ba3e8a71aee551449d7cb147bb8ead:0",
+          "condition_id": "0x6cb3ec9e0fb1c258898f648f8b33422f59ba3e8a71aee551449d7cb147bb8ead",
+          "title": "Iran agrees to surrender enriched uranium stockpile by June 30, 2026?",
+          "category": "Geopolitics",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-30",
+          "total_value_usd": 8652.78,
           "result": "pending"
         }
       ]
