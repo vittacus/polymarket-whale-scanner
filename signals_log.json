@@ -18237,5 +18237,243 @@
         "entry_price": 0.515
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-12T19:23:10+00:00",
+    "whale_timeframes": {
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2b3ff45c91540e46fae1e0c72f61f4b049453446": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x89dd49bf87c41be422927372a0b75c6ab577f662": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0346afae2603313d2bbee96b628536c8cbe352a5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x924379a79c64b77ad5816ad362122a5f6228658e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbc43c8bfbc4d77c2fc9011adad38ba43b88996d3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x13414a77a4be48988851c73dfd824d0168e70853": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb859a551fcf56e49416160911476bea7307152f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x39932ca2b7a1b8ab6cbf0b8f7419261b950ccded": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xde7be6d489bce070a959e0cb813128ae659b5f4b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4ab9b54427ec4b7f3646b1a0ef1bed73bc708ebe": [
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc6587b11a2209e46dfe3928b31c5514a8e33b784": [
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892:0",
+        "condition_id": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892",
+        "title": "Will Spain win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4",
+          "0x13414a77a4be48988851c73dfd824d0168e70853",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6"
+        ],
+        "ranks": [
+          7,
+          12,
+          13
+        ],
+        "total_value_usd": 70850.34,
+        "score": 5.9242,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.52
+      },
+      {
+        "signal_key": "0xf7b5491e70b477d451afe7d9c1fde4bf1a927e69ff289d294b96df164f6c10f0:0",
+        "condition_id": "0xf7b5491e70b477d451afe7d9c1fde4bf1a927e69ff289d294b96df164f6c10f0",
+        "title": "Will the Carolina Hurricanes win the 2026 NHL Stanley Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227",
+          "0x13414a77a4be48988851c73dfd824d0168e70853",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6"
+        ],
+        "ranks": [
+          10,
+          12,
+          13
+        ],
+        "total_value_usd": 202394.5,
+        "score": 5.5647,
+        "category": "Hockey",
+        "end_date": "2026-06-30",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0xd90bf5f45f24c5de7881707cb5374f3d991388a2d220fa7e0fe2be912cd7642a:1",
+        "condition_id": "0xd90bf5f45f24c5de7881707cb5374f3d991388a2d220fa7e0fe2be912cd7642a",
+        "title": "Knicks vs. Spurs",
+        "outcome": "Spurs",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227",
+          "0x13414a77a4be48988851c73dfd824d0168e70853",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6"
+        ],
+        "ranks": [
+          10,
+          12,
+          13
+        ],
+        "total_value_usd": 55740.96,
+        "score": 4.9774,
+        "category": "NBA",
+        "end_date": "2026-06-14",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x348cd9adf4f6855f58bd9c6dbf9ff251c4142ef77233a5dc95c65b4b61cd2187:0",
+        "condition_id": "0x348cd9adf4f6855f58bd9c6dbf9ff251c4142ef77233a5dc95c65b4b61cd2187",
+        "title": "Strait of Hormuz traffic returns to normal by end of June?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0xc6587b11a2209e46dfe3928b31c5514a8e33b784",
+          "0xde7be6d489bce070a959e0cb813128ae659b5f4b"
+        ],
+        "ranks": [
+          13,
+          14,
+          18
+        ],
+        "total_value_usd": 185324.15,
+        "score": 4.1118,
+        "category": "Macro Geopolitics",
+        "end_date": "2026-06-30",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x20af55ab35186377b81219db6cb8615240cba42cea41731091be9484a5f5b122:0",
+        "condition_id": "0x20af55ab35186377b81219db6cb8615240cba42cea41731091be9484a5f5b122",
+        "title": "US x Iran permanent peace deal by July 31, 2026?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0xc6587b11a2209e46dfe3928b31c5514a8e33b784",
+          "0xde7be6d489bce070a959e0cb813128ae659b5f4b"
+        ],
+        "ranks": [
+          13,
+          14,
+          18
+        ],
+        "total_value_usd": 53274.07,
+        "score": 3.6892,
+        "category": "Iran",
+        "end_date": "2026-07-31",
+        "entry_price": 0.505
+      }
+    ]
   }
 ]
