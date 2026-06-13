@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-13T04:59:47+00:00",
-  "total_signals": 152,
+  "generated_at": "2026-06-13T08:24:14+00:00",
+  "total_signals": 153,
   "total_resolved": 0,
   "total_correct": 0,
   "overall_hit_rate": null,
@@ -12,7 +12,7 @@
       "hit_rate": null
     },
     "Moderate": {
-      "total": 102,
+      "total": 103,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
@@ -2604,6 +2604,23 @@
       "total_value_usd": 12259.97,
       "entry_price": 0.51,
       "end_date": "2026-06-17",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x7ebb07134794576c154f06fbaa1cc61a5292d58e280ce98207977771c0326c27:0",
+      "condition_id": "0x7ebb07134794576c154f06fbaa1cc61a5292d58e280ce98207977771c0326c27",
+      "title": "Will United States win on 2026-06-19?",
+      "category": "Soccer",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 7.0499,
+      "total_value_usd": 9145.61,
+      "entry_price": 0.51,
+      "end_date": "2026-06-19",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
