@@ -22804,5 +22804,900 @@
         "entry_price": 0.51
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-13T17:44:16+00:00",
+    "whale_timeframes": {
+      "0x0346afae2603313d2bbee96b628536c8cbe352a5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9f2fe025f84839ca81dd8e0338892605702d2ca8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0a55f6b56bd976ae3ddfbffc9c2c4b70a0f9f9be": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8cb4ca5af7d9361322340bb307a828d288c91057": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xde7be6d489bce070a959e0cb813128ae659b5f4b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa38a455bbdd4b68486548b7e19da99903f4f821d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc6587b11a2209e46dfe3928b31c5514a8e33b784": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd65c3279408a33866a9129bed6943064cb6ee96": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbaa2bcb5439e985ce4ccf815b4700027d1b92c73": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7c1ee865a785de4c00ee90ed86a38489fb8bbab3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1136368d7f6728e94ed14c532ab95a932f710c2e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x53e55bc7cb3d67ad177c023ce891ad076a9d6177": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8849a93e05a2ae1b49bb07787a9e0059bb4e17e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x53757615de1c42b83f893b79d4241a009dc2aeea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x162f6fff88a52864f2ecc9833e58089d5254798d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xa5501b4dc0c99c382b1c2871ad9141c7f58509a0f962f70a38bb6566ec570049:0",
+        "condition_id": "0xa5501b4dc0c99c382b1c2871ad9141c7f58509a0f962f70a38bb6566ec570049",
+        "title": "Will Spain win on 2026-06-15?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x0346afae2603313d2bbee96b628536c8cbe352a5",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x53757615de1c42b83f893b79d4241a009dc2aeea"
+        ],
+        "ranks": [
+          1,
+          4,
+          14,
+          19
+        ],
+        "total_value_usd": 125339.73,
+        "score": 28.2272,
+        "category": "Soccer",
+        "end_date": "2026-06-15",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0xc6f7e4a015ec643eb49c749da19553a2257add76278a252805a12dfa85103269:0",
+        "condition_id": "0xc6f7e4a015ec643eb49c749da19553a2257add76278a252805a12dfa85103269",
+        "title": "Will Sweden win on 2026-06-14?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x0346afae2603313d2bbee96b628536c8cbe352a5",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6"
+        ],
+        "ranks": [
+          1,
+          4,
+          14
+        ],
+        "total_value_usd": 7308.94,
+        "score": 20.5743,
+        "category": "Soccer",
+        "end_date": "2026-06-15",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0xe76d397afa47ea028b914eec69543c69f9bbec8c313bd3a1dba022bd050b4c22:0",
+        "condition_id": "0xe76d397afa47ea028b914eec69543c69f9bbec8c313bd3a1dba022bd050b4c22",
+        "title": "Spread: Spain (-2.5)",
+        "outcome": "Spain",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x0346afae2603313d2bbee96b628536c8cbe352a5",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+        ],
+        "ranks": [
+          1,
+          4,
+          13
+        ],
+        "total_value_usd": 5709.39,
+        "score": 20.0864,
+        "category": "Soccer",
+        "end_date": "2026-06-15",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0xd86a816093fcd0a0e1ca440bc5ce199bd3c5a8d6139e044b076958164f8c5423:0",
+        "condition_id": "0xd86a816093fcd0a0e1ca440bc5ce199bd3c5a8d6139e044b076958164f8c5423",
+        "title": "US x Iran permanent peace deal by June 15, 2026?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 7,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+          "0xc6587b11a2209e46dfe3928b31c5514a8e33b784",
+          "0xbaa2bcb5439e985ce4ccf815b4700027d1b92c73",
+          "0x53e55bc7cb3d67ad177c023ce891ad076a9d6177",
+          "0xc8849a93e05a2ae1b49bb07787a9e0059bb4e17e",
+          "0x162f6fff88a52864f2ecc9833e58089d5254798d"
+        ],
+        "ranks": [
+          6,
+          8,
+          10,
+          12,
+          17,
+          18,
+          20
+        ],
+        "total_value_usd": 1077858.07,
+        "score": 15.5423,
+        "category": "Iran",
+        "end_date": "2026-06-15",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x348cd9adf4f6855f58bd9c6dbf9ff251c4142ef77233a5dc95c65b4b61cd2187:0",
+        "condition_id": "0x348cd9adf4f6855f58bd9c6dbf9ff251c4142ef77233a5dc95c65b4b61cd2187",
+        "title": "Strait of Hormuz traffic returns to normal by end of June?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 6,
+        "wallets": [
+          "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+          "0xc6587b11a2209e46dfe3928b31c5514a8e33b784",
+          "0xbaa2bcb5439e985ce4ccf815b4700027d1b92c73",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0xc8849a93e05a2ae1b49bb07787a9e0059bb4e17e",
+          "0x162f6fff88a52864f2ecc9833e58089d5254798d"
+        ],
+        "ranks": [
+          8,
+          10,
+          12,
+          14,
+          18,
+          20
+        ],
+        "total_value_usd": 304157.54,
+        "score": 10.7227,
+        "category": "Macro Geopolitics",
+        "end_date": "2026-06-30",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37:0",
+        "condition_id": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+        "title": "Will the New York Knicks win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xa38a455bbdd4b68486548b7e19da99903f4f821d",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x53757615de1c42b83f893b79d4241a009dc2aeea"
+        ],
+        "ranks": [
+          4,
+          9,
+          14,
+          19
+        ],
+        "total_value_usd": 151744.85,
+        "score": 10.1291,
+        "category": "NBA",
+        "end_date": "2026-07-01",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0xb6b3d7a2037b3faa7e1306d741840d453432902d73cc9a146a035e40271eae73:0",
+        "condition_id": "0xb6b3d7a2037b3faa7e1306d741840d453432902d73cc9a146a035e40271eae73",
+        "title": "Will the San Antonio Spurs win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xa38a455bbdd4b68486548b7e19da99903f4f821d",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x53757615de1c42b83f893b79d4241a009dc2aeea"
+        ],
+        "ranks": [
+          4,
+          9,
+          14,
+          19
+        ],
+        "total_value_usd": 115496.13,
+        "score": 9.8974,
+        "category": "NBA",
+        "end_date": "2026-07-01",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0xbb4d51e6364066d92eb6f9b8413dd7193de70966736044463b205834805a1f3b:1",
+        "condition_id": "0xbb4d51e6364066d92eb6f9b8413dd7193de70966736044463b205834805a1f3b",
+        "title": "Will the Iranian regime fall before 2027?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+          "0xc6587b11a2209e46dfe3928b31c5514a8e33b784",
+          "0xbaa2bcb5439e985ce4ccf815b4700027d1b92c73",
+          "0xc8849a93e05a2ae1b49bb07787a9e0059bb4e17e"
+        ],
+        "ranks": [
+          8,
+          10,
+          12,
+          18
+        ],
+        "total_value_usd": 668630.79,
+        "score": 8.5415,
+        "category": "Israel",
+        "end_date": "2026-12-31",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x9352c559e9648ab4cab236087b64ca85c5b7123a4c7d9d7d4efde4a39c18056f:1",
+        "condition_id": "0x9352c559e9648ab4cab236087b64ca85c5b7123a4c7d9d7d4efde4a39c18056f",
+        "title": "Will the Iranian regime fall by June 30?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+          "0xc6587b11a2209e46dfe3928b31c5514a8e33b784",
+          "0xbaa2bcb5439e985ce4ccf815b4700027d1b92c73",
+          "0xc8849a93e05a2ae1b49bb07787a9e0059bb4e17e"
+        ],
+        "ranks": [
+          8,
+          10,
+          12,
+          18
+        ],
+        "total_value_usd": 555394.09,
+        "score": 8.4233,
+        "category": "Iran",
+        "end_date": "2026-06-30",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0xed4fa0c7a11d55f2c3bcb5e13d94d10b0dced33d7f195748990be092b70952c3:0",
+        "condition_id": "0xed4fa0c7a11d55f2c3bcb5e13d94d10b0dced33d7f195748990be092b70952c3",
+        "title": "UFC Freedom 250: Justin Gaethje vs. Ilia Topuria (Lightweight, Main Card)",
+        "outcome": "Justin Gaethje",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x53757615de1c42b83f893b79d4241a009dc2aeea"
+        ],
+        "ranks": [
+          3,
+          14,
+          19
+        ],
+        "total_value_usd": 27199.23,
+        "score": 8.1733,
+        "category": "UFC",
+        "end_date": "2026-06-15",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894:0",
+        "condition_id": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
+        "title": "Will France win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x53757615de1c42b83f893b79d4241a009dc2aeea"
+        ],
+        "ranks": [
+          4,
+          14,
+          19
+        ],
+        "total_value_usd": 127516.01,
+        "score": 7.6955,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.52
+      },
+      {
+        "signal_key": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892:0",
+        "condition_id": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892",
+        "title": "Will Spain win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x53757615de1c42b83f893b79d4241a009dc2aeea"
+        ],
+        "ranks": [
+          4,
+          14,
+          19
+        ],
+        "total_value_usd": 123101.49,
+        "score": 7.6725,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.52
+      },
+      {
+        "signal_key": "0x4f3421fb2daf5cca7430ed8d8132463963081572d75434393a1808fdb8829fe8:0",
+        "condition_id": "0x4f3421fb2daf5cca7430ed8d8132463963081572d75434393a1808fdb8829fe8",
+        "title": "Will Portugal win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x53757615de1c42b83f893b79d4241a009dc2aeea"
+        ],
+        "ranks": [
+          4,
+          14,
+          19
+        ],
+        "total_value_usd": 120606.13,
+        "score": 7.6591,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.52
+      },
+      {
+        "signal_key": "0x20af55ab35186377b81219db6cb8615240cba42cea41731091be9484a5f5b122:0",
+        "condition_id": "0x20af55ab35186377b81219db6cb8615240cba42cea41731091be9484a5f5b122",
+        "title": "US x Iran permanent peace deal by July 31, 2026?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+          "0xc6587b11a2209e46dfe3928b31c5514a8e33b784",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0xc8849a93e05a2ae1b49bb07787a9e0059bb4e17e"
+        ],
+        "ranks": [
+          8,
+          10,
+          14,
+          18
+        ],
+        "total_value_usd": 205068.2,
+        "score": 7.534,
+        "category": "Iran",
+        "end_date": "2026-07-31",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0xa70fc3695a65833b91b45df6db6015096f3e1471b70352ca411b4209010e7633:0",
+        "condition_id": "0xa70fc3695a65833b91b45df6db6015096f3e1471b70352ca411b4209010e7633",
+        "title": "US-Iran nuclear deal by June 30?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+          "0xbaa2bcb5439e985ce4ccf815b4700027d1b92c73",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x162f6fff88a52864f2ecc9833e58089d5254798d"
+        ],
+        "ranks": [
+          8,
+          12,
+          14,
+          20
+        ],
+        "total_value_usd": 435684.85,
+        "score": 7.4932,
+        "category": "World",
+        "end_date": "2026-06-30",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f:0",
+        "condition_id": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f",
+        "title": "Will England win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x53757615de1c42b83f893b79d4241a009dc2aeea"
+        ],
+        "ranks": [
+          4,
+          14,
+          19
+        ],
+        "total_value_usd": 54069.5,
+        "score": 7.1339,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x9be56371f6a29d12769b2f196847ee825b9585ebb8bfa042136be031b081eba1:0",
+        "condition_id": "0x9be56371f6a29d12769b2f196847ee825b9585ebb8bfa042136be031b081eba1",
+        "title": "Will Netherlands win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x53757615de1c42b83f893b79d4241a009dc2aeea"
+        ],
+        "ranks": [
+          4,
+          14,
+          19
+        ],
+        "total_value_usd": 42028.09,
+        "score": 6.969,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0xcdb1f0400949238a63d3e88243d2ada08cd9c2a71985ced9f0cfd5e66354cf90:0",
+        "condition_id": "0xcdb1f0400949238a63d3e88243d2ada08cd9c2a71985ced9f0cfd5e66354cf90",
+        "title": "Will USA win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x53757615de1c42b83f893b79d4241a009dc2aeea"
+        ],
+        "ranks": [
+          4,
+          14,
+          19
+        ],
+        "total_value_usd": 31790.84,
+        "score": 6.7863,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x86bfb53af7250a40928975c551d12c185b762fa4ce0b40c6a64a50c946d72587:0",
+        "condition_id": "0x86bfb53af7250a40928975c551d12c185b762fa4ce0b40c6a64a50c946d72587",
+        "title": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x53e55bc7cb3d67ad177c023ce891ad076a9d6177",
+          "0x53757615de1c42b83f893b79d4241a009dc2aeea"
+        ],
+        "ranks": [
+          4,
+          17,
+          19
+        ],
+        "total_value_usd": 44873.31,
+        "score": 6.7756,
+        "category": "US Election",
+        "end_date": "2026-11-03",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x04b6d6630d49e6513355ff045c96439c929335cb0d18da7792dea6c2fc717ead:0",
+        "condition_id": "0x04b6d6630d49e6513355ff045c96439c929335cb0d18da7792dea6c2fc717ead",
+        "title": "Will France win on 2026-06-16?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x53757615de1c42b83f893b79d4241a009dc2aeea"
+        ],
+        "ranks": [
+          4,
+          14,
+          19
+        ],
+        "total_value_usd": 27990.04,
+        "score": 6.7029,
+        "category": "FIFA World Cup",
+        "end_date": "2026-06-16",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846:1",
+        "condition_id": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
+        "title": "Will the U.S. invade Iran before 2027?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+          "0xc6587b11a2209e46dfe3928b31c5514a8e33b784",
+          "0xbaa2bcb5439e985ce4ccf815b4700027d1b92c73"
+        ],
+        "ranks": [
+          8,
+          10,
+          12
+        ],
+        "total_value_usd": 245832.53,
+        "score": 6.6975,
+        "category": "Geopolitics",
+        "end_date": "2026-12-31",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x8971d6d3b52a5afd048fc453ab752b93d907f460951147842b5372ce37287e4d:0",
+        "condition_id": "0x8971d6d3b52a5afd048fc453ab752b93d907f460951147842b5372ce37287e4d",
+        "title": "Miami Marlins vs. Pittsburgh Pirates",
+        "outcome": "Miami Marlins",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x53757615de1c42b83f893b79d4241a009dc2aeea"
+        ],
+        "ranks": [
+          4,
+          13,
+          19
+        ],
+        "total_value_usd": 22682.44,
+        "score": 6.6617,
+        "category": "MLB",
+        "end_date": "2026-06-20",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x307a1ed89d60b61002dd5bbf00e1408c5ed2ab3fcdb056191ca7ef9bc34d38f3:1",
+        "condition_id": "0x307a1ed89d60b61002dd5bbf00e1408c5ed2ab3fcdb056191ca7ef9bc34d38f3",
+        "title": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x53e55bc7cb3d67ad177c023ce891ad076a9d6177",
+          "0x53757615de1c42b83f893b79d4241a009dc2aeea"
+        ],
+        "ranks": [
+          4,
+          17,
+          19
+        ],
+        "total_value_usd": 32350.7,
+        "score": 6.5686,
+        "category": "US Election",
+        "end_date": "2026-11-03",
+        "entry_price": 0.52
+      },
+      {
+        "signal_key": "0x2a7a6ab8f4984f1ae82eacd7fb408832a50e63162ac6b98fff1fe094b8e9d3b5:0",
+        "condition_id": "0x2a7a6ab8f4984f1ae82eacd7fb408832a50e63162ac6b98fff1fe094b8e9d3b5",
+        "title": "Will Argentina win on 2026-06-16?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x53757615de1c42b83f893b79d4241a009dc2aeea"
+        ],
+        "ranks": [
+          4,
+          14,
+          19
+        ],
+        "total_value_usd": 18162.28,
+        "score": 6.4198,
+        "category": "FIFA World Cup",
+        "end_date": "2026-06-17",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x7ebb07134794576c154f06fbaa1cc61a5292d58e280ce98207977771c0326c27:0",
+        "condition_id": "0x7ebb07134794576c154f06fbaa1cc61a5292d58e280ce98207977771c0326c27",
+        "title": "Will United States win on 2026-06-19?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x53757615de1c42b83f893b79d4241a009dc2aeea"
+        ],
+        "ranks": [
+          4,
+          14,
+          19
+        ],
+        "total_value_usd": 11963.38,
+        "score": 6.1465,
+        "category": "Soccer",
+        "end_date": "2026-06-19",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x9d3f02264a94bafc676afd7add8b11442e6ec72dabaa69cefef835f0672275c7:0",
+        "condition_id": "0x9d3f02264a94bafc676afd7add8b11442e6ec72dabaa69cefef835f0672275c7",
+        "title": " Iran agrees to end enrichment of uranium by June 30?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+          "0xbaa2bcb5439e985ce4ccf815b4700027d1b92c73",
+          "0x53e55bc7cb3d67ad177c023ce891ad076a9d6177",
+          "0x162f6fff88a52864f2ecc9833e58089d5254798d"
+        ],
+        "ranks": [
+          8,
+          12,
+          17,
+          20
+        ],
+        "total_value_usd": 60063.6,
+        "score": 6.107,
+        "category": "Trump",
+        "end_date": "2026-06-30",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0xf7b5491e70b477d451afe7d9c1fde4bf1a927e69ff289d294b96df164f6c10f0:0",
+        "condition_id": "0xf7b5491e70b477d451afe7d9c1fde4bf1a927e69ff289d294b96df164f6c10f0",
+        "title": "Will the Carolina Hurricanes win the 2026 NHL Stanley Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x53757615de1c42b83f893b79d4241a009dc2aeea"
+        ],
+        "ranks": [
+          4,
+          14,
+          19
+        ],
+        "total_value_usd": 6395.15,
+        "score": 5.7366,
+        "category": "Hockey",
+        "end_date": "2026-06-30",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0xb8e6d129a06d0ccb21d7b32eb529ea455eddba3cf29bfa097112202cbdf5bf21:0",
+        "condition_id": "0xb8e6d129a06d0ccb21d7b32eb529ea455eddba3cf29bfa097112202cbdf5bf21",
+        "title": "Strait of Hormuz traffic returns to normal by July 31?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xc6587b11a2209e46dfe3928b31c5514a8e33b784",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0xc8849a93e05a2ae1b49bb07787a9e0059bb4e17e",
+          "0x162f6fff88a52864f2ecc9833e58089d5254798d"
+        ],
+        "ranks": [
+          10,
+          14,
+          18,
+          20
+        ],
+        "total_value_usd": 98535.04,
+        "score": 5.5734,
+        "category": "Strait of Hormuz",
+        "end_date": "2026-07-31",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x25fb28382075f418a944a781a9f8840e2f541152eea0d9798d1cabfa1466adbb:0",
+        "condition_id": "0x25fb28382075f418a944a781a9f8840e2f541152eea0d9798d1cabfa1466adbb",
+        "title": "Will Mojtaba Khamenei be head of state in Iran end of 2026?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+          "0xbaa2bcb5439e985ce4ccf815b4700027d1b92c73",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6"
+        ],
+        "ranks": [
+          8,
+          12,
+          14
+        ],
+        "total_value_usd": 31868.93,
+        "score": 5.0767,
+        "category": "Iran",
+        "end_date": "2026-12-31",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x9769f78cbc95a5ed11895e6064bac471d8fd8f930b260cf581b68d3f58630d27:0",
+        "condition_id": "0x9769f78cbc95a5ed11895e6064bac471d8fd8f930b260cf581b68d3f58630d27",
+        "title": "US x Iran permanent peace deal by December 31, 2026?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xc6587b11a2209e46dfe3928b31c5514a8e33b784",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0xc8849a93e05a2ae1b49bb07787a9e0059bb4e17e"
+        ],
+        "ranks": [
+          10,
+          14,
+          18
+        ],
+        "total_value_usd": 20469.12,
+        "score": 3.9431,
+        "category": "Iran",
+        "end_date": "2026-12-31",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0xda519921a7090298cbdc56ee838a403a5193c2b3f637aef3e154e52de7b5e79c:0",
+        "condition_id": "0xda519921a7090298cbdc56ee838a403a5193c2b3f637aef3e154e52de7b5e79c",
+        "title": "US x Iran permanent peace deal by August 31, 2026?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xc6587b11a2209e46dfe3928b31c5514a8e33b784",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0xc8849a93e05a2ae1b49bb07787a9e0059bb4e17e"
+        ],
+        "ranks": [
+          10,
+          14,
+          18
+        ],
+        "total_value_usd": 10934.49,
+        "score": 3.6941,
+        "category": "Iran",
+        "end_date": "2026-08-31",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x087713ab2905e789c42c3fafdf747512f8d7883b7fab1ac554b703310c09d869:0",
+        "condition_id": "0x087713ab2905e789c42c3fafdf747512f8d7883b7fab1ac554b703310c09d869",
+        "title": "US x Iran permanent peace deal by October 31, 2026?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xc6587b11a2209e46dfe3928b31c5514a8e33b784",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0xc8849a93e05a2ae1b49bb07787a9e0059bb4e17e"
+        ],
+        "ranks": [
+          10,
+          14,
+          18
+        ],
+        "total_value_usd": 5878.12,
+        "score": 3.4476,
+        "category": "Iran",
+        "end_date": "2026-10-31",
+        "entry_price": 0.51
+      }
+    ]
   }
 ]
