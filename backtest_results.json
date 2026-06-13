@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-13T12:18:30+00:00",
-  "total_signals": 155,
+  "generated_at": "2026-06-13T14:37:37+00:00",
+  "total_signals": 157,
   "total_resolved": 0,
   "total_correct": 0,
   "overall_hit_rate": null,
   "by_tier": {
     "Strong": {
-      "total": 39,
+      "total": 40,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
     },
     "Moderate": {
-      "total": 105,
+      "total": 106,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
@@ -2655,6 +2655,40 @@
       "total_value_usd": 6741.56,
       "entry_price": 0.51,
       "end_date": "2026-06-19",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x75632c047c314459500d1efb10e00ede9926af2143d165112d92a0ee9dad3dc0:0",
+      "condition_id": "0x75632c047c314459500d1efb10e00ede9926af2143d165112d92a0ee9dad3dc0",
+      "title": "Iraq vs. Norway: O/U 2.5",
+      "category": "Soccer",
+      "whale_direction": "Over",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 19.2342,
+      "total_value_usd": 14647.68,
+      "entry_price": 0.51,
+      "end_date": "2026-06-16",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xf6b217a1be6f5260be951d1b10b93ccd3ac3735e0ea1efa3d2bba5b857e19ec2:0",
+      "condition_id": "0xf6b217a1be6f5260be951d1b10b93ccd3ac3735e0ea1efa3d2bba5b857e19ec2",
+      "title": "HSBC Championships: Katie Boulter vs Donna Vekic",
+      "category": "Tennis",
+      "whale_direction": "Katie Boulter",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 4.2455,
+      "total_value_usd": 4641.13,
+      "entry_price": 0.51,
+      "end_date": "2026-06-20",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

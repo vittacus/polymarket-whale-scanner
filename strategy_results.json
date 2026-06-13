@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-13T12:18:30+00:00",
-  "total_evaluated": 155,
-  "total_pending": 155,
+  "generated_at": "2026-06-13T14:37:37+00:00",
+  "total_evaluated": 157,
+  "total_pending": 157,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 155,
+      "signals_evaluated": 157,
       "correct": 0,
       "wrong": 0,
-      "pending": 155,
+      "pending": 157,
       "win_rate": null,
       "signals": [
         {
@@ -2181,6 +2181,34 @@
           "resolved_date": null,
           "end_date": "2026-06-19",
           "total_value_usd": 6741.56,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x75632c047c314459500d1efb10e00ede9926af2143d165112d92a0ee9dad3dc0:0",
+          "condition_id": "0x75632c047c314459500d1efb10e00ede9926af2143d165112d92a0ee9dad3dc0",
+          "title": "Iraq vs. Norway: O/U 2.5",
+          "category": "Soccer",
+          "tier": "Strong",
+          "entry_price": 0.51,
+          "whale_direction": "Over",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-16",
+          "total_value_usd": 14647.68,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf6b217a1be6f5260be951d1b10b93ccd3ac3735e0ea1efa3d2bba5b857e19ec2:0",
+          "condition_id": "0xf6b217a1be6f5260be951d1b10b93ccd3ac3735e0ea1efa3d2bba5b857e19ec2",
+          "title": "HSBC Championships: Katie Boulter vs Donna Vekic",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "Katie Boulter",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-20",
+          "total_value_usd": 4641.13,
           "result": "pending"
         }
       ]
