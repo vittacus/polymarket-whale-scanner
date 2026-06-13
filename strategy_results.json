@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-13T21:45:25+00:00",
-  "total_evaluated": 167,
-  "total_pending": 167,
+  "generated_at": "2026-06-13T22:48:44+00:00",
+  "total_evaluated": 170,
+  "total_pending": 170,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 167,
+      "signals_evaluated": 170,
       "correct": 0,
       "wrong": 0,
-      "pending": 167,
+      "pending": 170,
       "win_rate": null,
       "signals": [
         {
@@ -2349,6 +2349,48 @@
           "resolved_date": null,
           "end_date": "2026-06-16",
           "total_value_usd": 3210.87,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x2a7a6ab8f4984f1ae82eacd7fb408832a50e63162ac6b98fff1fe094b8e9d3b5:1",
+          "condition_id": "0x2a7a6ab8f4984f1ae82eacd7fb408832a50e63162ac6b98fff1fe094b8e9d3b5",
+          "title": "Will Argentina win on 2026-06-16?",
+          "category": "FIFA World Cup",
+          "tier": "Strong",
+          "entry_price": 0.51,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-17",
+          "total_value_usd": 26917.46,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x8151448835d86bd930bfe4ccae07ca8cf54b1b1e0b943707a74c03337820d932:1",
+          "condition_id": "0x8151448835d86bd930bfe4ccae07ca8cf54b1b1e0b943707a74c03337820d932",
+          "title": "Detroit Tigers vs. Cleveland Guardians",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.51,
+          "whale_direction": "Cleveland Guardians",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-20",
+          "total_value_usd": 12249.6,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x7180c163f26020820fcbc6813fa8617fb22e24bd44682d361fee0a1bee25ce34:1",
+          "condition_id": "0x7180c163f26020820fcbc6813fa8617fb22e24bd44682d361fee0a1bee25ce34",
+          "title": "Seattle Mariners vs. Washington Nationals",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "Washington Nationals",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-20",
+          "total_value_usd": 117038.51,
           "result": "pending"
         }
       ]
