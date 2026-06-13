@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-13T10:45:53+00:00",
-  "total_signals": 153,
+  "generated_at": "2026-06-13T12:18:30+00:00",
+  "total_signals": 155,
   "total_resolved": 0,
   "total_correct": 0,
   "overall_hit_rate": null,
@@ -12,7 +12,7 @@
       "hit_rate": null
     },
     "Moderate": {
-      "total": 103,
+      "total": 105,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
@@ -2619,6 +2619,40 @@
       "tier": "Moderate",
       "score": 7.0499,
       "total_value_usd": 9145.61,
+      "entry_price": 0.51,
+      "end_date": "2026-06-19",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x6f05c7bc5ad978f8f9916f05d30a7f752e02b81508c56d82ed7c9245bca163b0:0",
+      "condition_id": "0x6f05c7bc5ad978f8f9916f05d30a7f752e02b81508c56d82ed7c9245bca163b0",
+      "title": "Will Mexico win on 2026-06-18?",
+      "category": "FIFA World Cup",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 6.1305,
+      "total_value_usd": 12225.93,
+      "entry_price": 0.51,
+      "end_date": "2026-06-19",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xa6ae199ce172475dd0e29d7584810a15a1d4608398d2f42d7ca39bfac45ed52b:0",
+      "condition_id": "0xa6ae199ce172475dd0e29d7584810a15a1d4608398d2f42d7ca39bfac45ed52b",
+      "title": "Will Korea Republic win on 2026-06-18?",
+      "category": "FIFA World Cup",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 5.7428,
+      "total_value_usd": 6741.56,
       "entry_price": 0.51,
       "end_date": "2026-06-19",
       "resolved": false,
