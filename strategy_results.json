@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-13T14:37:37+00:00",
-  "total_evaluated": 157,
-  "total_pending": 157,
+  "generated_at": "2026-06-13T16:06:21+00:00",
+  "total_evaluated": 158,
+  "total_pending": 158,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 157,
+      "signals_evaluated": 158,
       "correct": 0,
       "wrong": 0,
-      "pending": 157,
+      "pending": 158,
       "win_rate": null,
       "signals": [
         {
@@ -2209,6 +2209,20 @@
           "resolved_date": null,
           "end_date": "2026-06-20",
           "total_value_usd": 4641.13,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x8971d6d3b52a5afd048fc453ab752b93d907f460951147842b5372ce37287e4d:0",
+          "condition_id": "0x8971d6d3b52a5afd048fc453ab752b93d907f460951147842b5372ce37287e4d",
+          "title": "Miami Marlins vs. Pittsburgh Pirates",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "Miami Marlins",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-20",
+          "total_value_usd": 22214.76,
           "result": "pending"
         }
       ]

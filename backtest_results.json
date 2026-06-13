@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-13T14:37:37+00:00",
-  "total_signals": 157,
+  "generated_at": "2026-06-13T16:06:21+00:00",
+  "total_signals": 158,
   "total_resolved": 0,
   "total_correct": 0,
   "overall_hit_rate": null,
@@ -12,7 +12,7 @@
       "hit_rate": null
     },
     "Moderate": {
-      "total": 106,
+      "total": 107,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
@@ -2687,6 +2687,23 @@
       "tier": "Moderate",
       "score": 4.2455,
       "total_value_usd": 4641.13,
+      "entry_price": 0.51,
+      "end_date": "2026-06-20",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x8971d6d3b52a5afd048fc453ab752b93d907f460951147842b5372ce37287e4d:0",
+      "condition_id": "0x8971d6d3b52a5afd048fc453ab752b93d907f460951147842b5372ce37287e4d",
+      "title": "Miami Marlins vs. Pittsburgh Pirates",
+      "category": "MLB",
+      "whale_direction": "Miami Marlins",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 7.0894,
+      "total_value_usd": 22214.76,
       "entry_price": 0.51,
       "end_date": "2026-06-20",
       "resolved": false,
