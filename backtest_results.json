@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-13T19:00:13+00:00",
-  "total_signals": 163,
+  "generated_at": "2026-06-13T20:19:41+00:00",
+  "total_signals": 164,
   "total_resolved": 0,
   "total_correct": 0,
   "overall_hit_rate": null,
@@ -12,7 +12,7 @@
       "hit_rate": null
     },
     "Moderate": {
-      "total": 109,
+      "total": 110,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
@@ -919,7 +919,7 @@
       "tier": "Strong",
       "score": 23.8919,
       "total_value_usd": 80711.61,
-      "entry_price": null,
+      "entry_price": 0.51,
       "end_date": "2026-07-01",
       "resolved": false,
       "correct": null,
@@ -2791,6 +2791,23 @@
       "total_value_usd": 5878.12,
       "entry_price": 0.51,
       "end_date": "2026-10-31",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x21327084c3f1ea177ba1352d13805cf7a612c68db81637ede4917297f1c6af25:0",
+      "condition_id": "0x21327084c3f1ea177ba1352d13805cf7a612c68db81637ede4917297f1c6af25",
+      "title": "Arizona Diamondbacks vs. Cincinnati Reds",
+      "category": "MLB",
+      "whale_direction": "Arizona Diamondbacks",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 5.9577,
+      "total_value_usd": 26285.58,
+      "entry_price": 0.51,
+      "end_date": "2026-06-20",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

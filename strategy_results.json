@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-13T19:00:13+00:00",
-  "total_evaluated": 163,
-  "total_pending": 163,
+  "generated_at": "2026-06-13T20:19:41+00:00",
+  "total_evaluated": 164,
+  "total_pending": 164,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 163,
+      "signals_evaluated": 164,
       "correct": 0,
       "wrong": 0,
-      "pending": 163,
+      "pending": 164,
       "win_rate": null,
       "signals": [
         {
@@ -747,7 +747,7 @@
           "title": "Will the San Antonio Spurs win the 2026 NBA Finals?",
           "category": "NBA",
           "tier": "Strong",
-          "entry_price": null,
+          "entry_price": 0.51,
           "whale_direction": "No",
           "resolved_outcome": null,
           "resolved_date": null,
@@ -2293,6 +2293,20 @@
           "resolved_date": null,
           "end_date": "2026-10-31",
           "total_value_usd": 5878.12,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x21327084c3f1ea177ba1352d13805cf7a612c68db81637ede4917297f1c6af25:0",
+          "condition_id": "0x21327084c3f1ea177ba1352d13805cf7a612c68db81637ede4917297f1c6af25",
+          "title": "Arizona Diamondbacks vs. Cincinnati Reds",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "Arizona Diamondbacks",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-20",
+          "total_value_usd": 26285.58,
           "result": "pending"
         }
       ]
