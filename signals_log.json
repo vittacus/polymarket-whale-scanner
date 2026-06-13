@@ -18775,5 +18775,201 @@
         "entry_price": 0.505
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-13T00:16:32+00:00",
+    "whale_timeframes": {
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x89dd49bf87c41be422927372a0b75c6ab577f662": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0346afae2603313d2bbee96b628536c8cbe352a5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x81da605d7dac06478367ed1bae0593b7791ca109": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2b3ff45c91540e46fae1e0c72f61f4b049453446": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x349606c1b77f3ba668879cbc9347f15a44cf8fc4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8e089ade142c95538e06196e09c85681112ad50": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x987b441a20dd4aa4ba6d53069e852e7f820adf43": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc6a63ad5a788a576d4acc9911c50fef9fde49458": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbc43c8bfbc4d77c2fc9011adad38ba43b88996d3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc660ae71765d0d9eaf5fa8328c1c959841d2bd28": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x13414a77a4be48988851c73dfd824d0168e70853": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb859a551fcf56e49416160911476bea7307152f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x39932ca2b7a1b8ab6cbf0b8f7419261b950ccded": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd65c3279408a33866a9129bed6943064cb6ee96": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xf8a19e64dc6bcbfc18fedd69153f6b099ebc0de623fefebad5f8105346d22dd1:0",
+        "condition_id": "0xf8a19e64dc6bcbfc18fedd69153f6b099ebc0de623fefebad5f8105346d22dd1",
+        "title": "New York Yankees vs. Toronto Blue Jays",
+        "outcome": "New York Yankees",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563"
+        ],
+        "ranks": [
+          3,
+          7,
+          9
+        ],
+        "total_value_usd": 18907.18,
+        "score": 10.1209,
+        "category": "MLB",
+        "end_date": "2026-06-19",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0xbabc896225844371b57a54468c5e2638a47fc64039765fb61c68d10f23885331:1",
+        "condition_id": "0xbabc896225844371b57a54468c5e2638a47fc64039765fb61c68d10f23885331",
+        "title": "Atlanta Braves vs. Chicago White Sox",
+        "outcome": "Chicago White Sox",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0xa8e089ade142c95538e06196e09c85681112ad50",
+          "0xdb859a551fcf56e49416160911476bea7307152f"
+        ],
+        "ranks": [
+          3,
+          12,
+          18
+        ],
+        "total_value_usd": 76393.32,
+        "score": 9.2916,
+        "category": "MLB",
+        "end_date": "2026-06-18",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x464992e12ee92211fec2d2f212d919b79d80aefc1efdbc19d8ccaf32b2a87ee8:0",
+        "condition_id": "0x464992e12ee92211fec2d2f212d919b79d80aefc1efdbc19d8ccaf32b2a87ee8",
+        "title": "Arizona Diamondbacks vs. Cincinnati Reds",
+        "outcome": "Arizona Diamondbacks",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4",
+          "0xa8e089ade142c95538e06196e09c85681112ad50",
+          "0xcd65c3279408a33866a9129bed6943064cb6ee96"
+        ],
+        "ranks": [
+          10,
+          12,
+          20
+        ],
+        "total_value_usd": 14202.28,
+        "score": 3.9042,
+        "category": "MLB",
+        "end_date": "2026-06-19",
+        "entry_price": 0.51
+      }
+    ]
   }
 ]

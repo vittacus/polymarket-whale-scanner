@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-12T22:48:38+00:00",
-  "total_signals": 143,
+  "generated_at": "2026-06-13T00:17:49+00:00",
+  "total_signals": 145,
   "total_resolved": 0,
   "total_correct": 0,
   "overall_hit_rate": null,
   "by_tier": {
     "Strong": {
-      "total": 35,
+      "total": 36,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
@@ -18,7 +18,7 @@
       "hit_rate": null
     },
     "Weak": {
-      "total": 10,
+      "total": 11,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
@@ -2451,6 +2451,40 @@
       "total_value_usd": 55740.96,
       "entry_price": 0.51,
       "end_date": "2026-06-14",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xf8a19e64dc6bcbfc18fedd69153f6b099ebc0de623fefebad5f8105346d22dd1:0",
+      "condition_id": "0xf8a19e64dc6bcbfc18fedd69153f6b099ebc0de623fefebad5f8105346d22dd1",
+      "title": "New York Yankees vs. Toronto Blue Jays",
+      "category": "MLB",
+      "whale_direction": "New York Yankees",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 10.1209,
+      "total_value_usd": 18907.18,
+      "entry_price": 0.51,
+      "end_date": "2026-06-19",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x464992e12ee92211fec2d2f212d919b79d80aefc1efdbc19d8ccaf32b2a87ee8:0",
+      "condition_id": "0x464992e12ee92211fec2d2f212d919b79d80aefc1efdbc19d8ccaf32b2a87ee8",
+      "title": "Arizona Diamondbacks vs. Cincinnati Reds",
+      "category": "MLB",
+      "whale_direction": "Arizona Diamondbacks",
+      "outcome_index": 0,
+      "tier": "Weak",
+      "score": 3.9042,
+      "total_value_usd": 14202.28,
+      "entry_price": 0.51,
+      "end_date": "2026-06-19",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
