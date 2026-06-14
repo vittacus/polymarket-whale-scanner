@@ -26930,5 +26930,201 @@
         "entry_price": 0.51
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-14T00:01:35+00:00",
+    "whale_timeframes": {
+      "0x8cb4ca5af7d9361322340bb307a828d288c91057": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0346afae2603313d2bbee96b628536c8cbe352a5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4761ecf3578e388a9b16c43f874efe32ee855ae8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xee00ba338c59557141789b127927a55f5cc5cea1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbc43c8bfbc4d77c2fc9011adad38ba43b88996d3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0a55f6b56bd976ae3ddfbffc9c2c4b70a0f9f9be": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x37e053beabee77acc15e641dfe8e395b2b2d024e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa38a455bbdd4b68486548b7e19da99903f4f821d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x37e4728b3c4607fb2b3b205386bb1d1fb1a8c991": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x924379a79c64b77ad5816ad362122a5f6228658e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x81da605d7dac06478367ed1bae0593b7791ca109": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbaa2bcb5439e985ce4ccf815b4700027d1b92c73": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa71093cafc0c099b4ccab24c3cb8018d817923c4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x032eb1bc893940263ad0b01889f262fc232f2a9e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x2a7a6ab8f4984f1ae82eacd7fb408832a50e63162ac6b98fff1fe094b8e9d3b5:1",
+        "condition_id": "0x2a7a6ab8f4984f1ae82eacd7fb408832a50e63162ac6b98fff1fe094b8e9d3b5",
+        "title": "Will Argentina win on 2026-06-16?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x0346afae2603313d2bbee96b628536c8cbe352a5",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x924379a79c64b77ad5816ad362122a5f6228658e"
+        ],
+        "ranks": [
+          2,
+          3,
+          14
+        ],
+        "total_value_usd": 26917.46,
+        "score": 16.1509,
+        "category": "FIFA World Cup",
+        "end_date": "2026-06-17",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37:1",
+        "condition_id": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+        "title": "Will the New York Knicks win the 2026 NBA Finals?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xee00ba338c59557141789b127927a55f5cc5cea1",
+          "0x032eb1bc893940263ad0b01889f262fc232f2a9e"
+        ],
+        "ranks": [
+          4,
+          7,
+          19
+        ],
+        "total_value_usd": 13027.19,
+        "score": 7.3867,
+        "category": "NBA",
+        "end_date": "2026-07-01",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0xb6b3d7a2037b3faa7e1306d741840d453432902d73cc9a146a035e40271eae73:0",
+        "condition_id": "0xb6b3d7a2037b3faa7e1306d741840d453432902d73cc9a146a035e40271eae73",
+        "title": "Will the San Antonio Spurs win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xa38a455bbdd4b68486548b7e19da99903f4f821d",
+          "0x032eb1bc893940263ad0b01889f262fc232f2a9e"
+        ],
+        "ranks": [
+          6,
+          12,
+          19
+        ],
+        "total_value_usd": 74441.21,
+        "score": 5.941,
+        "category": "NBA",
+        "end_date": "2026-07-01",
+        "entry_price": 0.515
+      }
+    ]
   }
 ]
