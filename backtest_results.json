@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-14T16:55:46+00:00",
-  "total_signals": 174,
+  "generated_at": "2026-06-14T18:10:44+00:00",
+  "total_signals": 176,
   "total_resolved": 0,
   "total_correct": 0,
   "overall_hit_rate": null,
@@ -12,7 +12,7 @@
       "hit_rate": null
     },
     "Moderate": {
-      "total": 116,
+      "total": 118,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
@@ -2978,6 +2978,40 @@
       "total_value_usd": 28059.57,
       "entry_price": 0.52,
       "end_date": "2026-07-20",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x068c37c9b4ce10d1906a62fcd4ea97d8d2045362b20f7ebf2d28db311a941dd3:0",
+      "condition_id": "0x068c37c9b4ce10d1906a62fcd4ea97d8d2045362b20f7ebf2d28db311a941dd3",
+      "title": "Miami Marlins vs. Pittsburgh Pirates",
+      "category": "MLB",
+      "whale_direction": "Miami Marlins",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 8.9494,
+      "total_value_usd": 9501.43,
+      "entry_price": 0.52,
+      "end_date": "2026-06-21",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x10be1745047799c6e1c253e658fc0b3261ba36a7b1278a51f570a2ad16f0fb3a:1",
+      "condition_id": "0x10be1745047799c6e1c253e658fc0b3261ba36a7b1278a51f570a2ad16f0fb3a",
+      "title": "Atlanta Braves vs. New York Mets",
+      "category": "MLB",
+      "whale_direction": "New York Mets",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 8.8363,
+      "total_value_usd": 28554.64,
+      "entry_price": 0.52,
+      "end_date": "2026-06-21",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

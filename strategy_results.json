@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-14T16:55:46+00:00",
-  "total_evaluated": 174,
-  "total_pending": 174,
+  "generated_at": "2026-06-14T18:10:44+00:00",
+  "total_evaluated": 176,
+  "total_pending": 176,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 174,
+      "signals_evaluated": 176,
       "correct": 0,
       "wrong": 0,
-      "pending": 174,
+      "pending": 176,
       "win_rate": null,
       "signals": [
         {
@@ -2447,6 +2447,34 @@
           "resolved_date": null,
           "end_date": "2026-07-20",
           "total_value_usd": 28059.57,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x068c37c9b4ce10d1906a62fcd4ea97d8d2045362b20f7ebf2d28db311a941dd3:0",
+          "condition_id": "0x068c37c9b4ce10d1906a62fcd4ea97d8d2045362b20f7ebf2d28db311a941dd3",
+          "title": "Miami Marlins vs. Pittsburgh Pirates",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.52,
+          "whale_direction": "Miami Marlins",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-21",
+          "total_value_usd": 9501.43,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x10be1745047799c6e1c253e658fc0b3261ba36a7b1278a51f570a2ad16f0fb3a:1",
+          "condition_id": "0x10be1745047799c6e1c253e658fc0b3261ba36a7b1278a51f570a2ad16f0fb3a",
+          "title": "Atlanta Braves vs. New York Mets",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.52,
+          "whale_direction": "New York Mets",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-21",
+          "total_value_usd": 28554.64,
           "result": "pending"
         }
       ]
