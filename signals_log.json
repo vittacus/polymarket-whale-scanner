@@ -27126,5 +27126,186 @@
         "entry_price": 0.515
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-14T05:05:01+00:00",
+    "whale_timeframes": {
+      "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e4dbe95f805e27959532f4845e2e4180017b874": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2e69bb3db7ffcedc4f83b56fe3e6f93371d1858d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xad9c94a65d1f053b8bb31815865a0d4c64b69889": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6db568e61e5e3de7d87f831431b673f38ce2e279": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xccd81fbd3395dc43a0531f8484b21c2462daf4de": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5966db1fe50763c9e3c014d756369bad07e1f804": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x97cb27132b9dd66a2ef49390893cbeb26c3fe4d0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe5b70fd855af9258d9463992e4f1ed7987905ee3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcfb69f94b3764e75228515ad9d169570d5f906da": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc660ae71765d0d9eaf5fa8328c1c959841d2bd28": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa38a455bbdd4b68486548b7e19da99903f4f821d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9f2fe025f84839ca81dd8e0338892605702d2ca8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0a55f6b56bd976ae3ddfbffc9c2c4b70a0f9f9be": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37:0",
+        "condition_id": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
+        "title": "Will the New York Knicks win the 2026 NBA Finals?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 7,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+          "0xa38a455bbdd4b68486548b7e19da99903f4f821d",
+          "0xc8ec6d4cef5c5fe8409ef69303c37f05b678e8f1",
+          "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+          "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e"
+        ],
+        "ranks": [
+          6,
+          8,
+          9,
+          15,
+          17,
+          18,
+          19
+        ],
+        "total_value_usd": 1810931.29,
+        "score": 16.0491,
+        "category": "NBA",
+        "end_date": "2026-07-01",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0x50b6deadae2107626418d5d3b6be15da9a47c09d575c7ff3cac60662b55f1c2d:1",
+        "condition_id": "0x50b6deadae2107626418d5d3b6be15da9a47c09d575c7ff3cac60662b55f1c2d",
+        "title": "Colorado Rockies vs. Athletics",
+        "outcome": "Athletics",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
+        ],
+        "ranks": [
+          2,
+          6,
+          8
+        ],
+        "total_value_usd": 54212.05,
+        "score": 15.102,
+        "category": "MLB",
+        "end_date": "2026-06-21",
+        "entry_price": 0.51
+      }
+    ]
   }
 ]

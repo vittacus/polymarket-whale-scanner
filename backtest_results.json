@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-14T00:03:01+00:00",
-  "total_signals": 170,
+  "generated_at": "2026-06-14T05:06:28+00:00",
+  "total_signals": 171,
   "total_resolved": 0,
   "total_correct": 0,
   "overall_hit_rate": null,
   "by_tier": {
     "Strong": {
-      "total": 43,
+      "total": 44,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
@@ -2910,6 +2910,23 @@
       "total_value_usd": 117038.51,
       "entry_price": 0.51,
       "end_date": "2026-06-20",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x50b6deadae2107626418d5d3b6be15da9a47c09d575c7ff3cac60662b55f1c2d:1",
+      "condition_id": "0x50b6deadae2107626418d5d3b6be15da9a47c09d575c7ff3cac60662b55f1c2d",
+      "title": "Colorado Rockies vs. Athletics",
+      "category": "MLB",
+      "whale_direction": "Athletics",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 15.102,
+      "total_value_usd": 54212.05,
+      "entry_price": 0.51,
+      "end_date": "2026-06-21",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
