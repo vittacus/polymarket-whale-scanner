@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-14T05:06:28+00:00",
-  "total_signals": 171,
+  "generated_at": "2026-06-14T08:50:31+00:00",
+  "total_signals": 172,
   "total_resolved": 0,
   "total_correct": 0,
   "overall_hit_rate": null,
@@ -12,7 +12,7 @@
       "hit_rate": null
     },
     "Moderate": {
-      "total": 113,
+      "total": 114,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
@@ -2927,6 +2927,23 @@
       "total_value_usd": 54212.05,
       "entry_price": 0.51,
       "end_date": "2026-06-21",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x6972edb1b3f8cd8192651a665fc424dff846efe1c4a2376f628d4b20c704144c:0",
+      "condition_id": "0x6972edb1b3f8cd8192651a665fc424dff846efe1c4a2376f628d4b20c704144c",
+      "title": "Will Senegal win the 2026 FIFA World Cup?",
+      "category": "Soccer",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 6.6112,
+      "total_value_usd": 26136.12,
+      "entry_price": 0.52,
+      "end_date": "2026-07-20",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

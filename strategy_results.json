@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-14T05:06:28+00:00",
-  "total_evaluated": 171,
-  "total_pending": 171,
+  "generated_at": "2026-06-14T08:50:31+00:00",
+  "total_evaluated": 172,
+  "total_pending": 172,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 171,
+      "signals_evaluated": 172,
       "correct": 0,
       "wrong": 0,
-      "pending": 171,
+      "pending": 172,
       "win_rate": null,
       "signals": [
         {
@@ -2405,6 +2405,20 @@
           "resolved_date": null,
           "end_date": "2026-06-21",
           "total_value_usd": 54212.05,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x6972edb1b3f8cd8192651a665fc424dff846efe1c4a2376f628d4b20c704144c:0",
+          "condition_id": "0x6972edb1b3f8cd8192651a665fc424dff846efe1c4a2376f628d4b20c704144c",
+          "title": "Will Senegal win the 2026 FIFA World Cup?",
+          "category": "Soccer",
+          "tier": "Moderate",
+          "entry_price": 0.52,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-20",
+          "total_value_usd": 26136.12,
           "result": "pending"
         }
       ]
