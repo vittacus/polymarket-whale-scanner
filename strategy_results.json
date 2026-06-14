@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-14T11:27:39+00:00",
-  "total_evaluated": 172,
-  "total_pending": 172,
+  "generated_at": "2026-06-14T13:14:49+00:00",
+  "total_evaluated": 174,
+  "total_pending": 174,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 172,
+      "signals_evaluated": 174,
       "correct": 0,
       "wrong": 0,
-      "pending": 172,
+      "pending": 174,
       "win_rate": null,
       "signals": [
         {
@@ -2419,6 +2419,34 @@
           "resolved_date": null,
           "end_date": "2026-07-20",
           "total_value_usd": 26136.12,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe99cc59f32b10d23acf196d1a0e8264ea30fca198428acadd3464b06ff60e771:0",
+          "condition_id": "0xe99cc59f32b10d23acf196d1a0e8264ea30fca198428acadd3464b06ff60e771",
+          "title": "Will Colombia win the 2026 FIFA World Cup?",
+          "category": "Soccer",
+          "tier": "Moderate",
+          "entry_price": 0.52,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-20",
+          "total_value_usd": 68888.34,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x3a26ca6425e2d98f14935670bc22cdb0744defc6f6d83c65f8c413a921c5c70c:0",
+          "condition_id": "0x3a26ca6425e2d98f14935670bc22cdb0744defc6f6d83c65f8c413a921c5c70c",
+          "title": "Will Switzerland win the 2026 FIFA World Cup?",
+          "category": "Soccer",
+          "tier": "Moderate",
+          "entry_price": 0.52,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-20",
+          "total_value_usd": 28059.57,
           "result": "pending"
         }
       ]
