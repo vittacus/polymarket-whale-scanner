@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-17T12:03:45+00:00",
-  "total_signals": 181,
+  "generated_at": "2026-06-17T16:03:38+00:00",
+  "total_signals": 183,
   "total_resolved": 0,
   "total_correct": 0,
   "overall_hit_rate": null,
   "by_tier": {
     "Strong": {
-      "total": 44,
+      "total": 45,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
@@ -18,7 +18,7 @@
       "hit_rate": null
     },
     "Weak": {
-      "total": 14,
+      "total": 15,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
@@ -3097,6 +3097,40 @@
       "total_value_usd": 22270.84,
       "entry_price": 0.52,
       "end_date": "2026-06-20",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xa90ce8b69a218dced329076162df3b79f99596d1dc71d93bd30a64a2c8b6ba3e:0",
+      "condition_id": "0xa90ce8b69a218dced329076162df3b79f99596d1dc71d93bd30a64a2c8b6ba3e",
+      "title": "Will Ecuador win on 2026-06-20?",
+      "category": "Soccer",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 11.0631,
+      "total_value_usd": 34659.97,
+      "entry_price": 0.515,
+      "end_date": "2026-06-21",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x32cfa52198e85e070d1b17d1b53c5c3a6aaae7736cdc33fa6aa04d353f0c2811:0",
+      "condition_id": "0x32cfa52198e85e070d1b17d1b53c5c3a6aaae7736cdc33fa6aa04d353f0c2811",
+      "title": "Will Belgium win the 2026 FIFA World Cup?",
+      "category": "Soccer",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Weak",
+      "score": 2.8653,
+      "total_value_usd": 3844.38,
+      "entry_price": 0.515,
+      "end_date": "2026-07-20",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
