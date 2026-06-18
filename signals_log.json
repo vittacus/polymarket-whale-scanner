@@ -35685,5 +35685,155 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-06-18T23:07:14+00:00",
+    "whale_timeframes": {
+      "0x3f87d51f27ba6e19ec52aaeebb68559a839c742c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e4c3b5b81171e2ca4ab776ac0d6bba787f9dba2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x97cb27132b9dd66a2ef49390893cbeb26c3fe4d0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x198a38b9704cf3a5ed321f28c8a7836559676762": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd65c3279408a33866a9129bed6943064cb6ee96": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5966db1fe50763c9e3c014d756369bad07e1f804": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcfb69f94b3764e75228515ad9d169570d5f906da": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8cb4ca5af7d9361322340bb307a828d288c91057": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x81da605d7dac06478367ed1bae0593b7791ca109": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x23d81ba9371e576015c1e562db09c689f56b0288": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x89dd49bf87c41be422927372a0b75c6ab577f662": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2117ae94a97d69b78cbc81b6680a62deb1955c26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcf6c5492124794394dd9eac46498a8babbe47e66": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x349606c1b77f3ba668879cbc9347f15a44cf8fc4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6e5d3a30439a880007f7de2ea0e4e38a89bc3c28": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xb3a40e1e7abeab732ed3691d992f49b50d69d09643650710f9b4f7063b50fbae:0",
+        "condition_id": "0xb3a40e1e7abeab732ed3691d992f49b50d69d09643650710f9b4f7063b50fbae",
+        "title": "New York Mets vs. Philadelphia Phillies",
+        "outcome": "New York Mets",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
+        ],
+        "ranks": [
+          5,
+          14,
+          15
+        ],
+        "total_value_usd": 44684.97,
+        "score": 6.3352,
+        "category": "MLB",
+        "end_date": "2026-06-25",
+        "entry_price": 0.515
+      }
+    ]
   }
 ]
