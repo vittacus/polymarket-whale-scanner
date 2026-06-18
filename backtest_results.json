@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-18T09:46:02+00:00",
-  "total_signals": 189,
+  "generated_at": "2026-06-18T12:42:48+00:00",
+  "total_signals": 191,
   "total_resolved": 0,
   "total_correct": 0,
   "overall_hit_rate": null,
@@ -12,7 +12,7 @@
       "hit_rate": null
     },
     "Moderate": {
-      "total": 126,
+      "total": 128,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
@@ -3233,6 +3233,40 @@
       "total_value_usd": 14409.11,
       "entry_price": 0.52,
       "end_date": "2026-06-20",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xdfdb1d206fd64f7b84edd436a96032fa56b1066bf93f99966a89e6c55dc16391:1",
+      "condition_id": "0xdfdb1d206fd64f7b84edd436a96032fa56b1066bf93f99966a89e6c55dc16391",
+      "title": "Nottingham Open: Viktorija Golubic vs Zeynep Sonmez",
+      "category": "Tennis",
+      "whale_direction": "Zeynep Sonmez",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 9.8559,
+      "total_value_usd": 83295.31,
+      "entry_price": 0.51,
+      "end_date": "2026-06-25",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xdfdb1d206fd64f7b84edd436a96032fa56b1066bf93f99966a89e6c55dc16391:0",
+      "condition_id": "0xdfdb1d206fd64f7b84edd436a96032fa56b1066bf93f99966a89e6c55dc16391",
+      "title": "Nottingham Open: Viktorija Golubic vs Zeynep Sonmez",
+      "category": "Tennis",
+      "whale_direction": "Viktorija Golubic",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 9.8188,
+      "total_value_usd": 79819.43,
+      "entry_price": 0.51,
+      "end_date": "2026-06-25",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

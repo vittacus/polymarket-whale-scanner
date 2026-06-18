@@ -34949,5 +34949,270 @@
         "entry_price": 0.52
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-18T12:41:09+00:00",
+    "whale_timeframes": {
+      "0x5e4c3b5b81171e2ca4ab776ac0d6bba787f9dba2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd65c3279408a33866a9129bed6943064cb6ee96": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5966db1fe50763c9e3c014d756369bad07e1f804": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x709e8dcb133555794decc598e07f2c923b8366f5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc660ae71765d0d9eaf5fa8328c1c959841d2bd28": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x987b441a20dd4aa4ba6d53069e852e7f820adf43": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x81da605d7dac06478367ed1bae0593b7791ca109": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcfb69f94b3764e75228515ad9d169570d5f906da": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0346afae2603313d2bbee96b628536c8cbe352a5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6e5d3a30439a880007f7de2ea0e4e38a89bc3c28": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5bdd63899629bcfa0375496df6fdc271c18dc4cb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5f659bccbc353dbf7bcdffdee73bee60bb482036": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x30d55d8124ee1e12dabe89201badc45669b81dff69e4ce44d961f32878ec178a:0",
+        "condition_id": "0x30d55d8124ee1e12dabe89201badc45669b81dff69e4ce44d961f32878ec178a",
+        "title": "Will Brazil win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xcfb69f94b3764e75228515ad9d169570d5f906da",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
+        ],
+        "ranks": [
+          3,
+          13,
+          16
+        ],
+        "total_value_usd": 295102.33,
+        "score": 10.4202,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0xdfdb1d206fd64f7b84edd436a96032fa56b1066bf93f99966a89e6c55dc16391:1",
+        "condition_id": "0xdfdb1d206fd64f7b84edd436a96032fa56b1066bf93f99966a89e6c55dc16391",
+        "title": "Nottingham Open: Viktorija Golubic vs Zeynep Sonmez",
+        "outcome": "Zeynep Sonmez",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
+        ],
+        "ranks": [
+          3,
+          9,
+          19
+        ],
+        "total_value_usd": 83295.31,
+        "score": 9.8559,
+        "category": "Tennis",
+        "end_date": "2026-06-25",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0xdfdb1d206fd64f7b84edd436a96032fa56b1066bf93f99966a89e6c55dc16391:0",
+        "condition_id": "0xdfdb1d206fd64f7b84edd436a96032fa56b1066bf93f99966a89e6c55dc16391",
+        "title": "Nottingham Open: Viktorija Golubic vs Zeynep Sonmez",
+        "outcome": "Viktorija Golubic",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
+        ],
+        "ranks": [
+          3,
+          9,
+          19
+        ],
+        "total_value_usd": 79819.43,
+        "score": 9.8188,
+        "category": "Tennis",
+        "end_date": "2026-06-25",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0xe99cc59f32b10d23acf196d1a0e8264ea30fca198428acadd3464b06ff60e771:0",
+        "condition_id": "0xe99cc59f32b10d23acf196d1a0e8264ea30fca198428acadd3464b06ff60e771",
+        "title": "Will Colombia win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xcfb69f94b3764e75228515ad9d169570d5f906da",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
+        ],
+        "ranks": [
+          3,
+          13,
+          16
+        ],
+        "total_value_usd": 79242.53,
+        "score": 9.3324,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.52
+      },
+      {
+        "signal_key": "0x37a6de1b21803e5f3fb1965116218215d79963af4f7e51659696366267a63a03:0",
+        "condition_id": "0x37a6de1b21803e5f3fb1965116218215d79963af4f7e51659696366267a63a03",
+        "title": "Will Morocco win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xcfb69f94b3764e75228515ad9d169570d5f906da",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
+        ],
+        "ranks": [
+          3,
+          13,
+          16
+        ],
+        "total_value_usd": 41808.79,
+        "score": 8.8035,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x6972edb1b3f8cd8192651a665fc424dff846efe1c4a2376f628d4b20c704144c:0",
+        "condition_id": "0x6972edb1b3f8cd8192651a665fc424dff846efe1c4a2376f628d4b20c704144c",
+        "title": "Will Senegal win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xcfb69f94b3764e75228515ad9d169570d5f906da",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
+        ],
+        "ranks": [
+          3,
+          13,
+          16
+        ],
+        "total_value_usd": 21586.12,
+        "score": 8.2566,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.52
+      }
+    ]
   }
 ]
