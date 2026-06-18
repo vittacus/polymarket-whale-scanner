@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-18T00:05:25+00:00",
-  "total_evaluated": 185,
-  "total_pending": 185,
+  "generated_at": "2026-06-18T05:02:55+00:00",
+  "total_evaluated": 189,
+  "total_pending": 189,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 185,
+      "signals_evaluated": 189,
       "correct": 0,
       "wrong": 0,
-      "pending": 185,
+      "pending": 189,
       "win_rate": null,
       "signals": [
         {
@@ -2601,6 +2601,62 @@
           "resolved_date": null,
           "end_date": "2026-06-24",
           "total_value_usd": 314498.49,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x0189df05ed7bf84d799213b01a79571e305c03b2ac5359cfbb3a323448ba20fa:0",
+          "condition_id": "0x0189df05ed7bf84d799213b01a79571e305c03b2ac5359cfbb3a323448ba20fa",
+          "title": "Will Japan win the 2026 FIFA World Cup?",
+          "category": "Soccer",
+          "tier": "Moderate",
+          "entry_price": 0.52,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-20",
+          "total_value_usd": 25319.18,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x65307f30dce84ac35e41813035d3c04933da830dc4efbbb2fcdc4b282700ef3b:0",
+          "condition_id": "0x65307f30dce84ac35e41813035d3c04933da830dc4efbbb2fcdc4b282700ef3b",
+          "title": "Will South Korea win the 2026 FIFA World Cup?",
+          "category": "Soccer",
+          "tier": "Moderate",
+          "entry_price": 0.52,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-20",
+          "total_value_usd": 4380.26,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x7bed81b0bd1cbe7cae0ad49fcf2d9e068d1ea2da49a36e638712daa55712a184:0",
+          "condition_id": "0x7bed81b0bd1cbe7cae0ad49fcf2d9e068d1ea2da49a36e638712daa55712a184",
+          "title": "Will T\u00fcrkiye win on 2026-06-19?",
+          "category": "Soccer",
+          "tier": "Weak",
+          "entry_price": 0.52,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-20",
+          "total_value_usd": 22582.89,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xc90381f6021b8dc8d07dd3d783d3927f34706f8ce1ed097b21cc92f31b5be076:0",
+          "condition_id": "0xc90381f6021b8dc8d07dd3d783d3927f34706f8ce1ed097b21cc92f31b5be076",
+          "title": "Will Brazil win on 2026-06-19?",
+          "category": "FIFA World Cup",
+          "tier": "Weak",
+          "entry_price": 0.52,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-20",
+          "total_value_usd": 14409.11,
           "result": "pending"
         }
       ]
