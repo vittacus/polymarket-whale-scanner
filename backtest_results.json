@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-17T22:45:14+00:00",
-  "total_signals": 184,
+  "generated_at": "2026-06-18T00:05:25+00:00",
+  "total_signals": 185,
   "total_resolved": 0,
   "total_correct": 0,
   "overall_hit_rate": null,
   "by_tier": {
     "Strong": {
-      "total": 45,
+      "total": 46,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
@@ -3146,6 +3146,23 @@
       "tier": "Moderate",
       "score": 8.3141,
       "total_value_usd": 150940.51,
+      "entry_price": 0.52,
+      "end_date": "2026-06-24",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x3c985d77d6861007f67a967a55700bd848cb17f623bb0a78caf3284ebe4d675b:1",
+      "condition_id": "0x3c985d77d6861007f67a967a55700bd848cb17f623bb0a78caf3284ebe4d675b",
+      "title": "Chicago White Sox vs. New York Yankees",
+      "category": "MLB",
+      "whale_direction": "New York Yankees",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 10.0114,
+      "total_value_usd": 314498.49,
       "entry_price": 0.52,
       "end_date": "2026-06-24",
       "resolved": false,

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-17T22:45:15+00:00",
-  "total_evaluated": 184,
-  "total_pending": 184,
+  "generated_at": "2026-06-18T00:05:25+00:00",
+  "total_evaluated": 185,
+  "total_pending": 185,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 184,
+      "signals_evaluated": 185,
       "correct": 0,
       "wrong": 0,
-      "pending": 184,
+      "pending": 185,
       "win_rate": null,
       "signals": [
         {
@@ -2587,6 +2587,20 @@
           "resolved_date": null,
           "end_date": "2026-06-24",
           "total_value_usd": 150940.51,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x3c985d77d6861007f67a967a55700bd848cb17f623bb0a78caf3284ebe4d675b:1",
+          "condition_id": "0x3c985d77d6861007f67a967a55700bd848cb17f623bb0a78caf3284ebe4d675b",
+          "title": "Chicago White Sox vs. New York Yankees",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.52,
+          "whale_direction": "New York Yankees",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-24",
+          "total_value_usd": 314498.49,
           "result": "pending"
         }
       ]
