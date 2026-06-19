@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-18T23:08:52+00:00",
-  "total_signals": 192,
+  "generated_at": "2026-06-19T02:06:26+00:00",
+  "total_signals": 194,
   "total_resolved": 0,
   "total_correct": 0,
   "overall_hit_rate": null,
@@ -12,7 +12,7 @@
       "hit_rate": null
     },
     "Moderate": {
-      "total": 129,
+      "total": 131,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
@@ -3284,6 +3284,40 @@
       "total_value_usd": 44684.97,
       "entry_price": 0.515,
       "end_date": "2026-06-25",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x1d26822ad5fca756e61c5dce8af6667df6ba521510893f792ae425ba7ccca332:1",
+      "condition_id": "0x1d26822ad5fca756e61c5dce8af6667df6ba521510893f792ae425ba7ccca332",
+      "title": "Los Angeles Angels vs. Athletics",
+      "category": "MLB",
+      "whale_direction": "Athletics",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 9.9858,
+      "total_value_usd": 123399.87,
+      "entry_price": 0.515,
+      "end_date": "2026-06-26",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x18b1c135d0a40c5894da9412e77311827d9caf16cf4cd6591b247a34730af919:0",
+      "condition_id": "0x18b1c135d0a40c5894da9412e77311827d9caf16cf4cd6591b247a34730af919",
+      "title": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+      "category": "US Election",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 4.0611,
+      "total_value_usd": 175713.37,
+      "entry_price": 0.515,
+      "end_date": "2028-11-07",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
