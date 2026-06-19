@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-19T07:28:01+00:00",
-  "total_signals": 197,
+  "generated_at": "2026-06-19T11:48:50+00:00",
+  "total_signals": 199,
   "total_resolved": 0,
   "total_correct": 0,
   "overall_hit_rate": null,
@@ -12,7 +12,7 @@
       "hit_rate": null
     },
     "Moderate": {
-      "total": 134,
+      "total": 136,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
@@ -3369,6 +3369,40 @@
       "total_value_usd": 20867.61,
       "entry_price": 0.51,
       "end_date": "2026-06-22",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x61b31949ecaad18217d0f4f709e07b2e94a04e41e6934d5351f783010d67b6ab:0",
+      "condition_id": "0x61b31949ecaad18217d0f4f709e07b2e94a04e41e6934d5351f783010d67b6ab",
+      "title": "Nottingham Open: Marie Bouzkova vs Tatjana Maria",
+      "category": "Tennis",
+      "whale_direction": "Marie Bouzkova",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 8.1584,
+      "total_value_usd": 19170.45,
+      "entry_price": 0.51,
+      "end_date": "2026-06-26",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xbe3d3f97a50d7898b6ccdc40c5520a9767cb05479843006cc7977358414d734f:0",
+      "condition_id": "0xbe3d3f97a50d7898b6ccdc40c5520a9767cb05479843006cc7977358414d734f",
+      "title": "Brescia: Elizara Yaneva vs Ekaterine Gorgodze",
+      "category": "Tennis",
+      "whale_direction": "Elizara Yaneva",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 8.0548,
+      "total_value_usd": 16914.76,
+      "entry_price": 0.51,
+      "end_date": "2026-06-26",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

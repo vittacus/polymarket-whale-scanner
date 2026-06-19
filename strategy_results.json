@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-19T07:28:01+00:00",
-  "total_evaluated": 197,
-  "total_pending": 197,
+  "generated_at": "2026-06-19T11:48:50+00:00",
+  "total_evaluated": 199,
+  "total_pending": 199,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 197,
+      "signals_evaluated": 199,
       "correct": 0,
       "wrong": 0,
-      "pending": 197,
+      "pending": 199,
       "win_rate": null,
       "signals": [
         {
@@ -2769,6 +2769,34 @@
           "resolved_date": null,
           "end_date": "2026-06-22",
           "total_value_usd": 20867.61,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x61b31949ecaad18217d0f4f709e07b2e94a04e41e6934d5351f783010d67b6ab:0",
+          "condition_id": "0x61b31949ecaad18217d0f4f709e07b2e94a04e41e6934d5351f783010d67b6ab",
+          "title": "Nottingham Open: Marie Bouzkova vs Tatjana Maria",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "Marie Bouzkova",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-26",
+          "total_value_usd": 19170.45,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xbe3d3f97a50d7898b6ccdc40c5520a9767cb05479843006cc7977358414d734f:0",
+          "condition_id": "0xbe3d3f97a50d7898b6ccdc40c5520a9767cb05479843006cc7977358414d734f",
+          "title": "Brescia: Elizara Yaneva vs Ekaterine Gorgodze",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "Elizara Yaneva",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-26",
+          "total_value_usd": 16914.76,
           "result": "pending"
         }
       ]
