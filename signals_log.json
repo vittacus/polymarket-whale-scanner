@@ -37640,5 +37640,431 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-06-20T01:28:52+00:00",
+    "whale_timeframes": {
+      "0x9d36d18057ac9a61308b22128839e903bea30e68": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0346afae2603313d2bbee96b628536c8cbe352a5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6d20c35f65d9899b6d6b74f8466e824580f9a165": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd218e474776403a330142299f7796e8ba32eb5c9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcfb69f94b3764e75228515ad9d169570d5f906da": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x81da605d7dac06478367ed1bae0593b7791ca109": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x709e8dcb133555794decc598e07f2c923b8366f5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb915070c8007b1bdf4b1ef04e56b066a022e8da5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf1528f12e645462c344799b62b1b421a6a4c64aa": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x408fe71e6b5401ecd6733970cb6f1a25e984b2f4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5966db1fe50763c9e3c014d756369bad07e1f804": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x96489abcb9f583d6835c8ef95ffc923d05a86825": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2dc13c6bda81b202281e796953a7323de675b33c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf731ab9c4ffeb18d1d7f8596853d5b36ab62e013": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd48a81db62f742c4e42d86dfc23a7ee345366e90": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x032eb1bc893940263ad0b01889f262fc232f2a9e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892:0",
+        "condition_id": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892",
+        "title": "Will Spain win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xd218e474776403a330142299f7796e8ba32eb5c9",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xd48a81db62f742c4e42d86dfc23a7ee345366e90"
+        ],
+        "ranks": [
+          6,
+          7,
+          19
+        ],
+        "total_value_usd": 110165.6,
+        "score": 7.3579,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.52
+      },
+      {
+        "signal_key": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894:0",
+        "condition_id": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
+        "title": "Will France win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xd218e474776403a330142299f7796e8ba32eb5c9",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xd48a81db62f742c4e42d86dfc23a7ee345366e90"
+        ],
+        "ranks": [
+          6,
+          7,
+          19
+        ],
+        "total_value_usd": 98818.72,
+        "score": 7.289,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.52
+      },
+      {
+        "signal_key": "0xa7b34c55da0fcd45908bbc802c5fbd5f650e9b4dbb8639bfcd32baee8c62e243:1",
+        "condition_id": "0xa7b34c55da0fcd45908bbc802c5fbd5f650e9b4dbb8639bfcd32baee8c62e243",
+        "title": "Will Algeria win Group J in the 2026 FIFA World Cup?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xd218e474776403a330142299f7796e8ba32eb5c9",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x032eb1bc893940263ad0b01889f262fc232f2a9e"
+        ],
+        "ranks": [
+          6,
+          7,
+          20
+        ],
+        "total_value_usd": 81734.62,
+        "score": 7.1167,
+        "category": "world cup",
+        "end_date": "2026-06-27",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x0d8762d1041c935a9acf165eea57897df5aeeb7a600ab4aa8ebab39a99d8679d:1",
+        "condition_id": "0x0d8762d1041c935a9acf165eea57897df5aeeb7a600ab4aa8ebab39a99d8679d",
+        "title": "Washington Nationals vs. Tampa Bay Rays",
+        "outcome": "Tampa Bay Rays",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0xd48a81db62f742c4e42d86dfc23a7ee345366e90"
+        ],
+        "ranks": [
+          7,
+          8,
+          19
+        ],
+        "total_value_usd": 111855.93,
+        "score": 6.5199,
+        "category": "MLB",
+        "end_date": "2026-06-26",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x9ad73ff7534b1051e2dad167a0b1617ae20f64f20770ae8bf89a59a7a7290669:0",
+        "condition_id": "0x9ad73ff7534b1051e2dad167a0b1617ae20f64f20770ae8bf89a59a7a7290669",
+        "title": "Will Netherlands win Group F in the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xd218e474776403a330142299f7796e8ba32eb5c9",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x032eb1bc893940263ad0b01889f262fc232f2a9e"
+        ],
+        "ranks": [
+          6,
+          7,
+          20
+        ],
+        "total_value_usd": 11602.48,
+        "score": 5.8884,
+        "category": "Soccer",
+        "end_date": "2026-06-27",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x4ae4a0aecfc6479374c5a9a355f0f0cba2c0680dff010b48a2c8b380423efd05:0",
+        "condition_id": "0x4ae4a0aecfc6479374c5a9a355f0f0cba2c0680dff010b48a2c8b380423efd05",
+        "title": "Will France win Group I in the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xd218e474776403a330142299f7796e8ba32eb5c9",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x032eb1bc893940263ad0b01889f262fc232f2a9e"
+        ],
+        "ranks": [
+          6,
+          7,
+          20
+        ],
+        "total_value_usd": 10134.93,
+        "score": 5.8033,
+        "category": "Soccer",
+        "end_date": "2026-06-27",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x33ec07ceef529f87a3a070e06d5f9b6df9d3e4e6713faec26d9510786f7cd6be:1",
+        "condition_id": "0x33ec07ceef529f87a3a070e06d5f9b6df9d3e4e6713faec26d9510786f7cd6be",
+        "title": "Will Brazil win Group C in the 2026 FIFA World Cup?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xd218e474776403a330142299f7796e8ba32eb5c9",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x032eb1bc893940263ad0b01889f262fc232f2a9e"
+        ],
+        "ranks": [
+          6,
+          7,
+          20
+        ],
+        "total_value_usd": 7502.55,
+        "score": 5.6141,
+        "category": "Soccer",
+        "end_date": "2026-06-27",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0xb477ae770a67625d6897e52343b4adff5e4ec2d9b6dadd74d99ab7f1c157fb31:1",
+        "condition_id": "0xb477ae770a67625d6897e52343b4adff5e4ec2d9b6dadd74d99ab7f1c157fb31",
+        "title": "Cincinnati Reds vs. New York Yankees",
+        "outcome": "New York Yankees",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0xd48a81db62f742c4e42d86dfc23a7ee345366e90"
+        ],
+        "ranks": [
+          7,
+          8,
+          19
+        ],
+        "total_value_usd": 17643.06,
+        "score": 5.4841,
+        "category": "MLB",
+        "end_date": "2026-06-26",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0xcbc96c93a1e80ffb7b5efeb2bd6c6a587ec16957eec8d2e823988cc51d6dac30:1",
+        "condition_id": "0xcbc96c93a1e80ffb7b5efeb2bd6c6a587ec16957eec8d2e823988cc51d6dac30",
+        "title": "Will USA win Group D in the 2026 FIFA World Cup?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xd218e474776403a330142299f7796e8ba32eb5c9",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x032eb1bc893940263ad0b01889f262fc232f2a9e"
+        ],
+        "ranks": [
+          6,
+          7,
+          20
+        ],
+        "total_value_usd": 3930.44,
+        "score": 5.2075,
+        "category": "Soccer",
+        "end_date": "2026-06-27",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x615d18f2a9ea90ede61d1d2dcf64446d121e479b8318b6156466b7b4a4fb71ff:1",
+        "condition_id": "0x615d18f2a9ea90ede61d1d2dcf64446d121e479b8318b6156466b7b4a4fb71ff",
+        "title": "San Diego Padres vs. Texas Rangers",
+        "outcome": "Texas Rangers",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xf1528f12e645462c344799b62b1b421a6a4c64aa",
+          "0xd48a81db62f742c4e42d86dfc23a7ee345366e90"
+        ],
+        "ranks": [
+          7,
+          13,
+          19
+        ],
+        "total_value_usd": 29359.97,
+        "score": 4.9042,
+        "category": "MLB",
+        "end_date": "2026-06-27",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x9da323e862ca9e583ae67a5130c8c79960cf173e7d76165cefd4ecd7f9333b90:0",
+        "condition_id": "0x9da323e862ca9e583ae67a5130c8c79960cf173e7d76165cefd4ecd7f9333b90",
+        "title": "Will Norway win Group I in the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xd218e474776403a330142299f7796e8ba32eb5c9",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x032eb1bc893940263ad0b01889f262fc232f2a9e"
+        ],
+        "ranks": [
+          6,
+          7,
+          20
+        ],
+        "total_value_usd": 2409.2,
+        "score": 4.8996,
+        "category": "Soccer",
+        "end_date": "2026-06-27",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0xfada1a1ea8a231ee0e232b0fbb0b57b1230693f0981de1e72176fd5b4f4700b1:1",
+        "condition_id": "0xfada1a1ea8a231ee0e232b0fbb0b57b1230693f0981de1e72176fd5b4f4700b1",
+        "title": "Baltimore Orioles vs. Los Angeles Dodgers",
+        "outcome": "Los Angeles Dodgers",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xf1528f12e645462c344799b62b1b421a6a4c64aa",
+          "0xd48a81db62f742c4e42d86dfc23a7ee345366e90"
+        ],
+        "ranks": [
+          7,
+          13,
+          19
+        ],
+        "total_value_usd": 24279.3,
+        "score": 4.8136,
+        "category": "MLB",
+        "end_date": "2026-06-27",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x2308d78dccdf19bf2a66acc8af60dfc3a435e7f55482a651e602658e354aac6f:1",
+        "condition_id": "0x2308d78dccdf19bf2a66acc8af60dfc3a435e7f55482a651e602658e354aac6f",
+        "title": "San Francisco Giants vs. Atlanta Braves",
+        "outcome": "Atlanta Braves",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xf1528f12e645462c344799b62b1b421a6a4c64aa",
+          "0x032eb1bc893940263ad0b01889f262fc232f2a9e"
+        ],
+        "ranks": [
+          7,
+          13,
+          20
+        ],
+        "total_value_usd": 25367.16,
+        "score": 4.7878,
+        "category": "MLB",
+        "end_date": "2026-06-25",
+        "entry_price": 0.51
+      }
+    ]
   }
 ]
