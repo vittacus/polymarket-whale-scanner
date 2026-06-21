@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-21T15:24:04+00:00",
-  "total_signals": 221,
+  "generated_at": "2026-06-21T17:03:12+00:00",
+  "total_signals": 222,
   "total_resolved": 0,
   "total_correct": 0,
   "overall_hit_rate": null,
   "by_tier": {
     "Strong": {
-      "total": 48,
+      "total": 49,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
@@ -3777,6 +3777,23 @@
       "total_value_usd": 4318.53,
       "entry_price": 0.51,
       "end_date": "2026-06-24",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xe8d9302b2491ab432ff28c5f58c49fb1603ad1a64c4c827c721e9c7e5fbae4b9:0",
+      "condition_id": "0xe8d9302b2491ab432ff28c5f58c49fb1603ad1a64c4c827c721e9c7e5fbae4b9",
+      "title": "Grass Court Championships: Jessica Pegula vs Linda Noskova",
+      "category": "Tennis",
+      "whale_direction": "Jessica Pegula",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 13.4867,
+      "total_value_usd": 145303.94,
+      "entry_price": 0.51,
+      "end_date": "2026-06-28",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
