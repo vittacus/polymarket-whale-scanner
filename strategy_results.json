@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-21T03:34:22+00:00",
-  "total_evaluated": 217,
-  "total_pending": 217,
+  "generated_at": "2026-06-21T08:18:25+00:00",
+  "total_evaluated": 220,
+  "total_pending": 220,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 217,
+      "signals_evaluated": 220,
       "correct": 0,
       "wrong": 0,
-      "pending": 217,
+      "pending": 220,
       "win_rate": null,
       "signals": [
         {
@@ -3049,6 +3049,48 @@
           "resolved_date": null,
           "end_date": "2026-06-25",
           "total_value_usd": 25367.16,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x9814196ae917e1c962ce23612be50554586828a996b06c800d502a137001bc25:0",
+          "condition_id": "0x9814196ae917e1c962ce23612be50554586828a996b06c800d502a137001bc25",
+          "title": "Will Norway win on 2026-06-22?",
+          "category": "Soccer",
+          "tier": "Strong",
+          "entry_price": 0.51,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-23",
+          "total_value_usd": 9858.0,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x32552863fe8014da2613037970661f0d49f415c86a88cb3d65af7a43395bc4ad:0",
+          "condition_id": "0x32552863fe8014da2613037970661f0d49f415c86a88cb3d65af7a43395bc4ad",
+          "title": "Will United States win on 2026-06-25?",
+          "category": "FIFA World Cup",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-26",
+          "total_value_usd": 196363.72,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x1f5cd4d1a23c11229b2781303dd39fb60ec6ee369dd173cedef8a7f7a1a27298:0",
+          "condition_id": "0x1f5cd4d1a23c11229b2781303dd39fb60ec6ee369dd173cedef8a7f7a1a27298",
+          "title": "Will Mexico win on 2026-06-24?",
+          "category": "FIFA World Cup",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-25",
+          "total_value_usd": 104489.22,
           "result": "pending"
         }
       ]
