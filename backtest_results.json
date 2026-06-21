@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-21T21:53:33+00:00",
-  "total_signals": 223,
+  "generated_at": "2026-06-21T23:08:19+00:00",
+  "total_signals": 224,
   "total_resolved": 0,
   "total_correct": 0,
   "overall_hit_rate": null,
@@ -12,7 +12,7 @@
       "hit_rate": null
     },
     "Moderate": {
-      "total": 157,
+      "total": 158,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
@@ -3809,6 +3809,23 @@
       "tier": "Moderate",
       "score": 6.3425,
       "total_value_usd": 6564.58,
+      "entry_price": 0.51,
+      "end_date": "2026-06-28",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x2a39cace2081a0e2715a75997be27782ab6973b2607c88db8d8335c9b91e7485:0",
+      "condition_id": "0x2a39cace2081a0e2715a75997be27782ab6973b2607c88db8d8335c9b91e7485",
+      "title": "Los Angeles Angels vs. Athletics",
+      "category": "MLB",
+      "whale_direction": "Los Angeles Angels",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 9.478,
+      "total_value_usd": 3373.6,
       "entry_price": 0.51,
       "end_date": "2026-06-28",
       "resolved": false,
