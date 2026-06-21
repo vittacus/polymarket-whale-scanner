@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-21T13:23:55+00:00",
-  "total_signals": 220,
+  "generated_at": "2026-06-21T15:24:04+00:00",
+  "total_signals": 221,
   "total_resolved": 0,
   "total_correct": 0,
   "overall_hit_rate": null,
   "by_tier": {
     "Strong": {
-      "total": 47,
+      "total": 48,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
@@ -3760,6 +3760,23 @@
       "total_value_usd": 104489.22,
       "entry_price": 0.51,
       "end_date": "2026-06-25",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xd14544ac7360f37de17eb6a442694de21a8c5ea01714323be6409b002c4d7d7d:0",
+      "condition_id": "0xd14544ac7360f37de17eb6a442694de21a8c5ea01714323be6409b002c4d7d7d",
+      "title": "Will Brazil win on 2026-06-24?",
+      "category": "Soccer",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 16.672,
+      "total_value_usd": 4318.53,
+      "entry_price": 0.51,
+      "end_date": "2026-06-24",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-21T13:23:55+00:00",
-  "total_evaluated": 220,
-  "total_pending": 220,
+  "generated_at": "2026-06-21T15:24:04+00:00",
+  "total_evaluated": 221,
+  "total_pending": 221,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 220,
+      "signals_evaluated": 221,
       "correct": 0,
       "wrong": 0,
-      "pending": 220,
+      "pending": 221,
       "win_rate": null,
       "signals": [
         {
@@ -3091,6 +3091,20 @@
           "resolved_date": null,
           "end_date": "2026-06-25",
           "total_value_usd": 104489.22,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd14544ac7360f37de17eb6a442694de21a8c5ea01714323be6409b002c4d7d7d:0",
+          "condition_id": "0xd14544ac7360f37de17eb6a442694de21a8c5ea01714323be6409b002c4d7d7d",
+          "title": "Will Brazil win on 2026-06-24?",
+          "category": "Soccer",
+          "tier": "Strong",
+          "entry_price": 0.51,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-24",
+          "total_value_usd": 4318.53,
           "result": "pending"
         }
       ]
