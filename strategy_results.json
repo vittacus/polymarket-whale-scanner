@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-21T23:08:19+00:00",
-  "total_evaluated": 224,
-  "total_pending": 224,
+  "generated_at": "2026-06-22T00:23:26+00:00",
+  "total_evaluated": 225,
+  "total_pending": 225,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 224,
+      "signals_evaluated": 225,
       "correct": 0,
       "wrong": 0,
-      "pending": 224,
+      "pending": 225,
       "win_rate": null,
       "signals": [
         {
@@ -3147,6 +3147,20 @@
           "resolved_date": null,
           "end_date": "2026-06-28",
           "total_value_usd": 3373.6,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x96774b432f1fac5ff2980a00b8b4aa21a1d2b131e48af38c08114b29d08984ab:0",
+          "condition_id": "0x96774b432f1fac5ff2980a00b8b4aa21a1d2b131e48af38c08114b29d08984ab",
+          "title": "New York Mets vs. Philadelphia Phillies",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.51,
+          "whale_direction": "New York Mets",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-28",
+          "total_value_usd": 30247.37,
           "result": "pending"
         }
       ]
