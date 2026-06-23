@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-23T01:30:32+00:00",
-  "total_evaluated": 225,
-  "total_pending": 225,
+  "generated_at": "2026-06-23T05:45:52+00:00",
+  "total_evaluated": 228,
+  "total_pending": 228,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 225,
+      "signals_evaluated": 228,
       "correct": 0,
       "wrong": 0,
-      "pending": 225,
+      "pending": 228,
       "win_rate": null,
       "signals": [
         {
@@ -3161,6 +3161,48 @@
           "resolved_date": null,
           "end_date": "2026-06-28",
           "total_value_usd": 30247.37,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x51e8c8df709aa78f64d2d9324d9d2556270f81e3966ade308099e5338bb4e4c9:0",
+          "condition_id": "0x51e8c8df709aa78f64d2d9324d9d2556270f81e3966ade308099e5338bb4e4c9",
+          "title": "Will Iraq win the 2026 FIFA World Cup?",
+          "category": "Soccer",
+          "tier": "Moderate",
+          "entry_price": 0.52,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-20",
+          "total_value_usd": 6225.19,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x9e5f9d8c384f8fe368b195fa9a780be58643dff7360588a4e577012df8af00a7:0",
+          "condition_id": "0x9e5f9d8c384f8fe368b195fa9a780be58643dff7360588a4e577012df8af00a7",
+          "title": "Will New Zealand win the 2026 FIFA World Cup?",
+          "category": "Soccer",
+          "tier": "Moderate",
+          "entry_price": 0.52,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-20",
+          "total_value_usd": 5578.77,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x4fe305a2ae995a52ff278895344895fe587b4fec3d5f04347b4dbf5e99bce99c:0",
+          "condition_id": "0x4fe305a2ae995a52ff278895344895fe587b4fec3d5f04347b4dbf5e99bce99c",
+          "title": "Will Qatar win the 2026 FIFA World Cup?",
+          "category": "Soccer",
+          "tier": "Moderate",
+          "entry_price": 0.52,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-20",
+          "total_value_usd": 4876.34,
           "result": "pending"
         }
       ]
