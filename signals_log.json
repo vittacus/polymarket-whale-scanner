@@ -45344,5 +45344,178 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-06-23T22:45:03+00:00",
+    "whale_timeframes": {
+      "0xf8831548531d56ad6a4331493243c447a827cd1f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd6505aab3c6bef32ae6c96dbd8023d7c4df114fb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa4b1eac99a65ed70e3d560126febe1086e6c5143": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4c6a21c3c9ba8a4c0a79abe7b32b204cfe150f47": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb687f00464e33934f5d591f224e71c3559ecaee5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9ee8bbc36d378af72e5f6b8e2ea2eb67c05a89de": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x39d3c773be30fcc73161fc6768f46d563a779ef0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x83255595ba1fadd2e734cb30a0fb8110301a19cc": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe22ad3eb4f3581dfe78cb71579f858e4a3cf2703": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe9a6ed2e4d4ee8ce47cd47cac834746dc4cf627b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfd22b8843ae03a33a8a4c5e39ef1e5ff33ebad91": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2d7be5170a8026c18709eaea1027c7f12e8ce2ce": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x709e8dcb133555794decc598e07f2c923b8366f5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0346afae2603313d2bbee96b628536c8cbe352a5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x53e55bc7cb3d67ad177c023ce891ad076a9d6177": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xea2b4224411e723499a803ce3f4758779fb31fc6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc71bed951076a6dfd27f6a341c441b8543ed033": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x374d4c9c12e766653de985450899cf2181edf47189894bc9c870216b5c6b1d83:1",
+        "condition_id": "0x374d4c9c12e766653de985450899cf2181edf47189894bc9c870216b5c6b1d83",
+        "title": "Will Korea Republic win on 2026-06-24?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x2d7be5170a8026c18709eaea1027c7f12e8ce2ce",
+          "0x0346afae2603313d2bbee96b628536c8cbe352a5"
+        ],
+        "ranks": [
+          4,
+          15,
+          17
+        ],
+        "total_value_usd": 59468.55,
+        "score": 7.2237,
+        "category": "FIFA World Cup",
+        "end_date": "2026-06-25",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0x1f5cd4d1a23c11229b2781303dd39fb60ec6ee369dd173cedef8a7f7a1a27298:1",
+        "condition_id": "0x1f5cd4d1a23c11229b2781303dd39fb60ec6ee369dd173cedef8a7f7a1a27298",
+        "title": "Will Mexico win on 2026-06-24?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x2d7be5170a8026c18709eaea1027c7f12e8ce2ce",
+          "0x0346afae2603313d2bbee96b628536c8cbe352a5"
+        ],
+        "ranks": [
+          4,
+          15,
+          17
+        ],
+        "total_value_usd": 28312.86,
+        "score": 6.7361,
+        "category": "FIFA World Cup",
+        "end_date": "2026-06-25",
+        "entry_price": 0.515
+      }
+    ]
   }
 ]
