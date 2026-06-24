@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-24T17:16:46+00:00",
-  "total_signals": 256,
+  "generated_at": "2026-06-24T18:25:17+00:00",
+  "total_signals": 258,
   "total_resolved": 193,
   "total_correct": 121,
   "overall_hit_rate": 62.7,
@@ -12,13 +12,13 @@
       "hit_rate": 59.1
     },
     "Moderate": {
-      "total": 178,
+      "total": 179,
       "resolved": 121,
       "correct": 80,
       "hit_rate": 66.1
     },
     "Weak": {
-      "total": 31,
+      "total": 32,
       "resolved": 28,
       "correct": 15,
       "hit_rate": 53.6
@@ -528,7 +528,7 @@
       "tier": "Moderate",
       "score": 5.9665,
       "total_value_usd": 22459.94,
-      "entry_price": null,
+      "entry_price": 0.525,
       "end_date": "2026-07-01",
       "resolved": false,
       "correct": null,
@@ -562,7 +562,7 @@
       "tier": "Moderate",
       "score": 5.5114,
       "total_value_usd": 38049.52,
-      "entry_price": null,
+      "entry_price": 0.525,
       "end_date": "2026-07-01",
       "resolved": false,
       "correct": null,
@@ -4376,6 +4376,40 @@
       "correct": true,
       "resolved_outcome": "Ugo Humbert",
       "resolved_date": "2026-07-01"
+    },
+    {
+      "signal_key": "0xadebd6bbf401c9509dd2e78b65a16b567f1f386dccd8cac86cd389bb53ec3a58:0",
+      "condition_id": "0xadebd6bbf401c9509dd2e78b65a16b567f1f386dccd8cac86cd389bb53ec3a58",
+      "title": "Will Bitcoin dip to $55,000 in June?",
+      "category": "Bitcoin",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 4.3868,
+      "total_value_usd": 33380.77,
+      "entry_price": 0.525,
+      "end_date": "2026-07-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xe322faca2a534900680db54e3a4349a61427d347b6f906d2eeb01f81ae1b082c:0",
+      "condition_id": "0xe322faca2a534900680db54e3a4349a61427d347b6f906d2eeb01f81ae1b082c",
+      "title": "Will Spain win on 2026-06-26?",
+      "category": "FIFA World Cup",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Weak",
+      "score": 3.9343,
+      "total_value_usd": 6848.05,
+      "entry_price": 0.525,
+      "end_date": "2026-06-27",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }

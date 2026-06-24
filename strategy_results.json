@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-24T17:49:08+00:00",
-  "total_evaluated": 256,
-  "total_pending": 63,
+  "generated_at": "2026-06-24T18:25:17+00:00",
+  "total_evaluated": 258,
+  "total_pending": 65,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 256,
+      "signals_evaluated": 258,
       "correct": 121,
       "wrong": 72,
-      "pending": 63,
+      "pending": 65,
       "win_rate": 62.7,
       "signals": [
         {
@@ -425,7 +425,7 @@
           "title": "Will Bitcoin dip to $50,000 in June?",
           "category": "Bitcoin",
           "tier": "Moderate",
-          "entry_price": null,
+          "entry_price": 0.525,
           "whale_direction": "Yes",
           "resolved_outcome": null,
           "resolved_date": null,
@@ -453,7 +453,7 @@
           "title": "Will Bitcoin dip to $57,500 in June?",
           "category": "Bitcoin",
           "tier": "Moderate",
-          "entry_price": null,
+          "entry_price": 0.525,
           "whale_direction": "Yes",
           "resolved_outcome": null,
           "resolved_date": null,
@@ -3596,6 +3596,34 @@
           "end_date": "2026-07-01",
           "total_value_usd": 33043.43,
           "result": "correct"
+        },
+        {
+          "signal_key": "0xadebd6bbf401c9509dd2e78b65a16b567f1f386dccd8cac86cd389bb53ec3a58:0",
+          "condition_id": "0xadebd6bbf401c9509dd2e78b65a16b567f1f386dccd8cac86cd389bb53ec3a58",
+          "title": "Will Bitcoin dip to $55,000 in June?",
+          "category": "Bitcoin",
+          "tier": "Moderate",
+          "entry_price": 0.525,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-01",
+          "total_value_usd": 33380.77,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe322faca2a534900680db54e3a4349a61427d347b6f906d2eeb01f81ae1b082c:0",
+          "condition_id": "0xe322faca2a534900680db54e3a4349a61427d347b6f906d2eeb01f81ae1b082c",
+          "title": "Will Spain win on 2026-06-26?",
+          "category": "FIFA World Cup",
+          "tier": "Weak",
+          "entry_price": 0.525,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-27",
+          "total_value_usd": 6848.05,
+          "result": "pending"
         }
       ]
     },
