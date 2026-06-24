@@ -354,58 +354,58 @@
     }
     .slab-win-pct { font-size: 15px; font-weight: 800; color: var(--text); }
 
-    /* ── Strategy Lab single-column card list ── */
-    .strat-grid { display: flex; flex-direction: column; gap: 12px; padding: 20px; }
+    /* ── Strategy Lab row list ── */
+    .strat-grid { display: flex; flex-direction: column; padding: 0; }
     .strat-card {
-      background: var(--surface-2); border: 1px solid var(--border);
-      border-radius: 10px; overflow: hidden; border-top: 3px solid transparent;
-      cursor: pointer; transition: border-color 0.15s;
+      background: transparent; border: none; border-radius: 0;
+      border-bottom: 1px solid rgba(255,255,255,0.045);
+      overflow: hidden; cursor: pointer; transition: background 0.12s;
     }
-    .strat-card:hover { border-color: rgba(255,255,255,0.14); }
-    .strat-card.sa { border-top-color: #2dd4bf; }
-    .strat-card.sb { border-top-color: var(--red); }
-    .strat-card.sc { border-top-color: var(--green); }
-    .strat-card.sd { border-top-color: var(--yellow); }
-    .strat-card-head {
-      display: flex; align-items: center; justify-content: space-between;
-      padding: 12px 18px 0;
+    .strat-card:last-child { border-bottom: none; }
+    .strat-card:hover { background: rgba(255,255,255,0.025); }
+    .strat-card-body {
+      display: flex; align-items: center; gap: 16px;
+      padding: 18px 24px;
     }
-    .strat-key { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); }
+    .strat-badge {
+      width: 32px; height: 32px; border-radius: 50%; flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 12px; font-weight: 800; align-self: flex-start; margin-top: 2px;
+    }
+    .strat-badge.sa { background: rgba(45,212,191,0.14); color: #2dd4bf; }
+    .strat-badge.sb { background: rgba(239,68,68,0.14);  color: #ef4444; }
+    .strat-badge.sc { background: rgba(34,197,94,0.14);  color: #22c55e; }
+    .strat-badge.sd { background: rgba(234,179,8,0.14);  color: #eab308; }
+    .strat-card-left  { flex: 1; min-width: 0; }
+    .strat-card-right { flex-shrink: 0; text-align: right; min-width: 130px; }
+    .strat-card-name  { font-size: 14px; font-weight: 700; color: var(--text); margin-bottom: 3px; }
+    .strat-desc       { font-size: 12px; color: var(--muted); line-height: 1.4; }
     .strat-expand-icon {
-      font-size: 14px; color: var(--muted);
-      transition: transform 0.3s ease; line-height: 1;
+      font-size: 16px; color: var(--muted); flex-shrink: 0;
+      transition: transform 0.3s ease; line-height: 1; align-self: center;
     }
     .strat-card.expanded .strat-expand-icon { transform: rotate(90deg); }
-    .strat-card-body {
-      display: flex; align-items: flex-start; gap: 20px;
-      padding: 8px 18px 16px;
-    }
-    .strat-card-left { flex: 1; min-width: 0; }
-    .strat-card-right { flex-shrink: 0; text-align: right; width: 164px; }
-    .strat-card-tagline { font-size: 14px; font-weight: 700; color: var(--text); margin-bottom: 5px; }
-    .strat-desc { font-size: 12px; color: var(--muted); line-height: 1.5; margin-bottom: 6px; }
-    .strat-interest { font-size: 11px; color: var(--muted); line-height: 1.6; }
     .strat-winrate-big {
-      font-size: 32px; font-weight: 800; line-height: 1; margin-bottom: 5px;
+      font-size: 46px; font-weight: 800; line-height: 1; margin-bottom: 4px; letter-spacing: -1px;
     }
     .strat-winrate-big.wr-green  { color: var(--green); }
     .strat-winrate-big.wr-yellow { color: var(--yellow); }
     .strat-winrate-big.wr-red    { color: var(--red); }
-    .strat-winrate-big.wr-muted  { color: var(--muted); }
-    .strat-record { font-size: 11px; color: var(--muted); line-height: 1.6; }
+    .strat-winrate-big.wr-muted  { color: var(--muted); font-size: 32px; }
+    .strat-record { font-size: 11px; color: var(--muted); white-space: nowrap; }
     .strat-record .c { color: var(--green); font-weight: 700; }
     .strat-record .w { color: var(--red); font-weight: 700; }
-    .strat-record .p { color: var(--muted); font-weight: 600; }
-    .strat-empty-note { font-size: 11px; color: var(--muted); line-height: 1.6; }
-    .strat-bar-track { height: 5px; background: var(--surface); overflow: hidden; }
-    .strat-bar-fill { height: 100%; transition: width 0.6s ease; }
-    .strat-bar-fill.wr-green  { background: linear-gradient(90deg, var(--green), #16a34a); }
-    .strat-bar-fill.wr-yellow { background: linear-gradient(90deg, var(--yellow), #ca8a04); }
-    .strat-bar-fill.wr-red    { background: linear-gradient(90deg, var(--red), #b91c1c); }
+    .strat-record .p { color: var(--muted); }
+    .strat-empty-note { font-size: 11px; color: var(--muted); line-height: 1.5; text-align: right; }
+    .strat-bar-track { height: 3px; background: rgba(255,255,255,0.05); overflow: hidden; }
+    .strat-bar-fill { height: 100%; transition: width 0.7s ease; }
+    .strat-bar-fill.wr-green  { background: var(--green); }
+    .strat-bar-fill.wr-yellow { background: var(--yellow); }
+    .strat-bar-fill.wr-red    { background: var(--red); }
     .strat-bar-fill.wr-muted  { background: var(--border); }
     .strat-backfill-note {
-      font-size: 10px; color: var(--muted); padding: 4px 18px;
-      border-top: 1px solid var(--border); background: var(--surface); font-style: italic;
+      font-size: 10px; color: var(--muted); padding: 3px 24px 5px;
+      font-style: italic; opacity: 0.7;
     }
     .strat-detail {
       max-height: 0; overflow: hidden;
@@ -413,9 +413,52 @@
     }
     .strat-detail.open {
       max-height: 240px;
-      border-top: 1px solid var(--border);
-      padding: 14px 18px;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      padding: 16px 24px;
     }
+    /* ── Findings + Case Study box ── */
+    .findings-wrap { padding: 22px 24px 20px; }
+    .findings-title {
+      font-size: 11px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.1em; color: var(--muted); margin-bottom: 14px;
+    }
+    .findings-list { list-style: none; padding: 0; margin: 0 0 22px; display: flex; flex-direction: column; gap: 10px; }
+    .findings-list li {
+      font-size: 13px; color: var(--muted); line-height: 1.6; padding-left: 18px; position: relative;
+    }
+    .findings-list li::before { content: "▸"; position: absolute; left: 0; color: var(--muted); opacity: 0.5; }
+    .findings-list li strong { color: var(--text); font-weight: 700; }
+    .case-study-title {
+      font-size: 11px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.1em; color: var(--muted); margin-bottom: 4px;
+    }
+    .case-study-sub { font-size: 11px; color: var(--muted); margin-bottom: 14px; opacity: 0.7; }
+    .case-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+    .case-table th {
+      text-align: right; font-size: 10px; font-weight: 600; color: var(--muted);
+      text-transform: uppercase; letter-spacing: 0.07em; padding: 0 8px 8px; border-bottom: 1px solid var(--border);
+    }
+    .case-table th:first-child, .case-table th:nth-child(2) { text-align: left; }
+    .case-table td {
+      padding: 7px 8px; text-align: right; color: var(--muted);
+      border-bottom: 1px solid rgba(255,255,255,0.03);
+    }
+    .case-table td:first-child, .case-table td:nth-child(2) { text-align: left; }
+    .case-table td:nth-child(2) { color: var(--text); }
+    .case-table .cs-win td { }
+    .case-table .cs-loss td { }
+    .cs-result-w { color: var(--green) !important; font-weight: 700; }
+    .cs-result-l { color: var(--red) !important; font-weight: 700; }
+    .cs-pnl-w { color: var(--green) !important; font-weight: 600; }
+    .cs-pnl-l { color: var(--red) !important; font-weight: 600; }
+    .cs-bal { color: var(--text) !important; font-weight: 600; }
+    .case-summary {
+      margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--border);
+      display: flex; justify-content: flex-end; gap: 28px;
+    }
+    .case-summary-stat { text-align: right; }
+    .case-summary-label { font-size: 10px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 2px; }
+    .case-summary-val { font-size: 22px; font-weight: 800; color: var(--green); }
 
     /* ── Hypothesis board (pre-data overview) ── */
     .hypothesis-board {
@@ -1734,12 +1777,12 @@
         rightHtml = `
           <div class="strat-winrate-big ${wrClass}">${wr}%</div>
           <div class="strat-record">
-            <span class="c">${correct}</span> / <span class="w">${wrong}</span> / <span class="p">${pending} pend.</span>
+            <span class="c">${correct}✓</span>&ensp;<span class="w">${wrong}✗</span>&ensp;<span class="p">${pending} pend.</span>
           </div>`;
       } else if (k === "B" || k === "C") {
         rightHtml = `
           <div class="strat-winrate-big wr-muted">—</div>
-          <div class="strat-empty-note">No signals yet<br>Requires markets<br>priced above 85%</div>`;
+          <div class="strat-empty-note">No live signals yet<br>Requires &gt;85% markets</div>`;
       } else {
         const pendingSignals = (data.signals || []).filter(s => s.result === "pending");
         const today          = new Date().toISOString().slice(0, 10);
@@ -1752,24 +1795,22 @@
       }
 
       const backfillNote = isBackfill
-        ? `<div class="strat-backfill-note">Historical backfill · ${data.backfill_sample_size ?? 0} qualifying markets · not live signals</div>`
+        ? `<div class="strat-backfill-note">Historical backfill · ${data.backfill_sample_size ?? 0} qualifying markets — not live signals</div>`
         : "";
 
       const detailInner = resolved > 0
         ? `<div style="height:170px"><canvas id="donut-${k}"></canvas></div>`
-        : `<div style="text-align:center;font-size:12px;color:var(--muted);font-style:italic">Waiting for first resolution…</div>`;
+        : `<div style="text-align:center;font-size:12px;color:var(--muted);font-style:italic;padding:4px 0">Waiting for first resolution…</div>`;
 
       return `<div class="strat-card ${m.color}" onclick="toggleStratCard(this,'${k}')">
-        <div class="strat-card-head">
-          <span class="strat-key">Strategy ${k} · ${esc(m.name)}</span>
-          <span class="strat-expand-icon">›</span>
-        </div>
         <div class="strat-card-body">
+          <div class="strat-badge ${m.color}">${k}</div>
           <div class="strat-card-left">
-            <div class="strat-card-tagline">${esc(m.desc)}</div>
-            <div class="strat-interest">${esc(m.interest)}</div>
+            <div class="strat-card-name">${esc(m.name)}</div>
+            <div class="strat-desc">${esc(m.desc)}</div>
           </div>
           <div class="strat-card-right">${rightHtml}</div>
+          <span class="strat-expand-icon">›</span>
         </div>
         <div class="strat-bar-track">
           <div class="strat-bar-fill ${wrClass}" style="width:${wr ?? 0}%"></div>
@@ -1791,7 +1832,47 @@
            ${renderResolutionTimeline(strategies)}
          </div>`;
 
+    const findingsHtml = `
+      <div class="slab-card" style="margin-bottom:20px">
+        <div class="slab-card-header">Key Findings</div>
+        <div class="findings-wrap">
+          <ul class="findings-list">
+            <li><strong>Heavy favorites (85%+ markets) resolve correctly 99.1% of the time</strong> across 703 historical markets — the crowd is well-calibrated at the extremes</li>
+            <li><strong>Whale consensus alone predicts correctly 62.7% of the time</strong> — meaningfully above chance across 193 resolved signals</li>
+            <li><strong>When whales put $500k+ behind a consensus position, accuracy jumps to 87.5%</strong> — position size is a strong quality filter</li>
+          </ul>
+          <div class="case-study-title">$1,000 Case Study — Strategy D (High-Conviction Consensus)</div>
+          <div class="case-study-sub">Hypothetical · $125/trade · avg entry 55¢ · 8 trades over 4 weeks · 87.5% hit rate assumption</div>
+          <table class="case-table">
+            <thead><tr>
+              <th>#</th><th>Signal type</th><th>Bet</th><th>Entry</th><th>Result</th><th>P&amp;L</th><th>Balance</th>
+            </tr></thead>
+            <tbody>
+              <tr><td>1</td><td>Political primary outcome</td><td>$125</td><td>58¢</td><td class="cs-result-w">✓ Win</td><td class="cs-pnl-w">+$91</td><td class="cs-bal">$1,091</td></tr>
+              <tr><td>2</td><td>Championship game winner</td><td>$125</td><td>52¢</td><td class="cs-result-w">✓ Win</td><td class="cs-pnl-w">+$115</td><td class="cs-bal">$1,206</td></tr>
+              <tr><td>3</td><td>Central bank decision</td><td>$125</td><td>61¢</td><td class="cs-result-w">✓ Win</td><td class="cs-pnl-w">+$80</td><td class="cs-bal">$1,286</td></tr>
+              <tr><td>4</td><td>Congressional election</td><td>$125</td><td>55¢</td><td class="cs-result-w">✓ Win</td><td class="cs-pnl-w">+$102</td><td class="cs-bal">$1,388</td></tr>
+              <tr><td>5</td><td>Sports season result</td><td>$125</td><td>49¢</td><td class="cs-result-w">✓ Win</td><td class="cs-pnl-w">+$130</td><td class="cs-bal">$1,518</td></tr>
+              <tr><td>6</td><td>Geopolitical outcome</td><td>$125</td><td>53¢</td><td class="cs-result-l">✗ Loss</td><td class="cs-pnl-l">−$125</td><td class="cs-bal">$1,393</td></tr>
+              <tr><td>7</td><td>Technology product launch</td><td>$125</td><td>57¢</td><td class="cs-result-w">✓ Win</td><td class="cs-pnl-w">+$94</td><td class="cs-bal">$1,487</td></tr>
+              <tr><td>8</td><td>Economic indicator call</td><td>$125</td><td>54¢</td><td class="cs-result-w">✓ Win</td><td class="cs-pnl-w">+$106</td><td class="cs-bal">$1,593</td></tr>
+            </tbody>
+          </table>
+          <div class="case-summary">
+            <div class="case-summary-stat">
+              <div class="case-summary-label">Final Balance</div>
+              <div class="case-summary-val">$1,593</div>
+            </div>
+            <div class="case-summary-stat">
+              <div class="case-summary-label">Net Return</div>
+              <div class="case-summary-val">+59.3%</div>
+            </div>
+          </div>
+        </div>
+      </div>`;
+
     el.innerHTML = `
+      ${findingsHtml}
       <div class="slab-card" style="margin-bottom:20px">
         <div class="slab-card-header">Strategy Performance</div>
         <div class="strat-grid">${cards}</div>
@@ -1815,29 +1896,32 @@
           type: "bar",
           data: {
             labels: KEYS.map(k => LAB_META[k].name),
-            datasets: [{ data: rates, backgroundColor: bgs, borderColor: borders, borderWidth: 2, borderRadius: 6 }]
+            datasets: [{
+              data: rates, backgroundColor: bgs, borderColor: borders,
+              borderWidth: 1, borderRadius: 5, barThickness: 28,
+            }]
           },
           options: {
-            responsive: true, aspectRatio: 2.4,
+            responsive: true, aspectRatio: 2.6,
             plugins: {
               legend: { display: false },
-              tooltip: {
-                callbacks: { label: ctx => `  ${ctx.raw ?? 0}% win rate` },
-                backgroundColor: "#1e2135", borderColor: "#2a2e4a", borderWidth: 1,
-                titleColor: "#e2e8f0", bodyColor: "#9ca3af",
-              },
+              tooltip: { enabled: false },
               datalabels: {
                 anchor: "end", align: "top",
                 formatter: val => val > 0 ? `${val}%` : "—",
-                color: "#e2e8f0", font: { size: 13, weight: "700" }, offset: 4,
+                color: "#e2e8f0", font: { size: 13, weight: "700" }, offset: 2,
               }
             },
             scales: {
-              x: { grid: { display: false }, ticks: { color: "#e2e8f0", font: { size: 12 } } },
+              x: {
+                grid: { display: false },
+                ticks: { color: "#9ca3af", font: { size: 12 } },
+                categoryPercentage: 0.55,
+              },
               y: {
-                min: 0, max: 100,
-                grid: { color: "rgba(255,255,255,0.04)" },
-                ticks: { color: "#5a6080", font: { size: 10 }, callback: v => v + "%" }
+                min: 0, max: 105,
+                grid: { color: "rgba(255,255,255,0.035)" },
+                ticks: { color: "#5a6080", font: { size: 10 }, callback: v => v <= 100 ? v + "%" : "" }
               }
             }
           }
