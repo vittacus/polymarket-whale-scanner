@@ -68697,5 +68697,174 @@
         "entry_price": 0.525
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-24T20:16:16+00:00",
+    "whale_timeframes": {
+      "0xe22ad3eb4f3581dfe78cb71579f858e4a3cf2703": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf731ab9c4ffeb18d1d7f8596853d5b36ab62e013": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9854aeab8b073c34ab7643f3e8aa316f3b616bf2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x08a30a0a0fb71ebddc8907145791030782b88666": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0346afae2603313d2bbee96b628536c8cbe352a5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe734e7bf7cfb9e464681f71822f6c2f6be514f0c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf705fa045201391d9632b7f3cde06a5e24453ca7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb61b2079b95f6b7476fd3203e0274ffb93308a06": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9b89ef1f344d3e17b37ccdff3bccf62d04f04244": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8a269634753d90783f52c58e5ae9a8b9679e937e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x408fe71e6b5401ecd6733970cb6f1a25e984b2f4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xee00ba338c59557141789b127927a55f5cc5cea1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0b6a8ebfa3a626337cc45e8eed30eaafb182fef": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe9a6ed2e4d4ee8ce47cd47cac834746dc4cf627b": [
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7c1ee865a785de4c00ee90ed86a38489fb8bbab3": [
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x47a6744156620245419bc4e33e491a45b54b5b6b550fd58c0c880fd6bc085b7e:0",
+        "condition_id": "0x47a6744156620245419bc4e33e491a45b54b5b6b550fd58c0c880fd6bc085b7e",
+        "title": "Boston Red Sox vs. Colorado Rockies",
+        "outcome": "Boston Red Sox",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+        ],
+        "ranks": [
+          2,
+          4,
+          17
+        ],
+        "total_value_usd": 29025.37,
+        "score": 14.3939,
+        "category": "MLB",
+        "end_date": "2026-07-01",
+        "entry_price": 0.52
+      },
+      {
+        "signal_key": "0x47a6744156620245419bc4e33e491a45b54b5b6b550fd58c0c880fd6bc085b7e:1",
+        "condition_id": "0x47a6744156620245419bc4e33e491a45b54b5b6b550fd58c0c880fd6bc085b7e",
+        "title": "Boston Red Sox vs. Colorado Rockies",
+        "outcome": "Colorado Rockies",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+        ],
+        "ranks": [
+          2,
+          4,
+          17
+        ],
+        "total_value_usd": 6141.53,
+        "score": 12.2186,
+        "category": "MLB",
+        "end_date": "2026-07-01",
+        "entry_price": 0.52
+      }
+    ]
   }
 ]
