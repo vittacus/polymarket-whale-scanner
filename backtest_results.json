@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-24T05:50:58+00:00",
-  "total_signals": 236,
+  "generated_at": "2026-06-24T08:59:49+00:00",
+  "total_signals": 237,
   "total_resolved": 0,
   "total_correct": 0,
   "overall_hit_rate": null,
@@ -12,7 +12,7 @@
       "hit_rate": null
     },
     "Moderate": {
-      "total": 168,
+      "total": 169,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
@@ -4032,6 +4032,23 @@
       "total_value_usd": 8636.81,
       "entry_price": 0.515,
       "end_date": "2026-07-20",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x81cef42df3d25aecf0bf7e96c344202e86f447f2f3ba2e4b8eb59f4680efeb22:0",
+      "condition_id": "0x81cef42df3d25aecf0bf7e96c344202e86f447f2f3ba2e4b8eb59f4680efeb22",
+      "title": "Will T\u00fcrkiye win on 2026-06-25?",
+      "category": "FIFA World Cup",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 6.8768,
+      "total_value_usd": 3248.31,
+      "entry_price": 0.515,
+      "end_date": "2026-06-26",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

@@ -46243,5 +46243,224 @@
         "entry_price": 0.515
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-24T08:57:51+00:00",
+    "whale_timeframes": {
+      "0xe22ad3eb4f3581dfe78cb71579f858e4a3cf2703": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf731ab9c4ffeb18d1d7f8596853d5b36ab62e013": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9854aeab8b073c34ab7643f3e8aa316f3b616bf2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0346afae2603313d2bbee96b628536c8cbe352a5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4ab9b54427ec4b7f3646b1a0ef1bed73bc708ebe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb61b2079b95f6b7476fd3203e0274ffb93308a06": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9b89ef1f344d3e17b37ccdff3bccf62d04f04244": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x408fe71e6b5401ecd6733970cb6f1a25e984b2f4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xee00ba338c59557141789b127927a55f5cc5cea1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8a269634753d90783f52c58e5ae9a8b9679e937e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0b6a8ebfa3a626337cc45e8eed30eaafb182fef": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe414ebd2f365b5f68839d25d259b1e8cb1b5dbbd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9cb990f1862568a63d8601efeebe0304225c32f2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x2cc359648ba6695498c169ceaa44c5444e0479102c453289c47ed9489e7f3e93:1",
+        "condition_id": "0x2cc359648ba6695498c169ceaa44c5444e0479102c453289c47ed9489e7f3e93",
+        "title": "Will Croatia win on 2026-06-27?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x0346afae2603313d2bbee96b628536c8cbe352a5",
+          "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c"
+        ],
+        "ranks": [
+          3,
+          7,
+          19
+        ],
+        "total_value_usd": 15749.39,
+        "score": 8.944,
+        "category": "FIFA World Cup",
+        "end_date": "2026-06-27",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0x4c9b5ee73c4eb7c4a4757a0a722a9b7d10547732d10db6b0285e44042e39dd00:0",
+        "condition_id": "0x4c9b5ee73c4eb7c4a4757a0a722a9b7d10547732d10db6b0285e44042e39dd00",
+        "title": "Paraguay vs. Australia: O/U 1.5",
+        "outcome": "Over",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x0346afae2603313d2bbee96b628536c8cbe352a5",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6"
+        ],
+        "ranks": [
+          3,
+          7,
+          10
+        ],
+        "total_value_usd": 5365.11,
+        "score": 8.6594,
+        "category": "Soccer",
+        "end_date": "2026-06-26",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0x67339ac82b996dacb1f2ee7caf1599cd542e09598c6ca3f688b3926927588245:1",
+        "condition_id": "0x67339ac82b996dacb1f2ee7caf1599cd542e09598c6ca3f688b3926927588245",
+        "title": "Paraguay vs. Australia: O/U 2.5",
+        "outcome": "Under",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x0346afae2603313d2bbee96b628536c8cbe352a5",
+          "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c"
+        ],
+        "ranks": [
+          3,
+          7,
+          19
+        ],
+        "total_value_usd": 8695.99,
+        "score": 8.3944,
+        "category": "Soccer",
+        "end_date": "2026-06-26",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0x81cef42df3d25aecf0bf7e96c344202e86f447f2f3ba2e4b8eb59f4680efeb22:0",
+        "condition_id": "0x81cef42df3d25aecf0bf7e96c344202e86f447f2f3ba2e4b8eb59f4680efeb22",
+        "title": "Will T\u00fcrkiye win on 2026-06-25?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c"
+        ],
+        "ranks": [
+          3,
+          10,
+          19
+        ],
+        "total_value_usd": 3248.31,
+        "score": 6.8768,
+        "category": "FIFA World Cup",
+        "end_date": "2026-06-26",
+        "entry_price": 0.515
+      }
+    ]
   }
 ]

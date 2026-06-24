@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-24T05:50:58+00:00",
-  "total_evaluated": 236,
-  "total_pending": 236,
+  "generated_at": "2026-06-24T08:59:49+00:00",
+  "total_evaluated": 237,
+  "total_pending": 237,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 236,
+      "signals_evaluated": 237,
       "correct": 0,
       "wrong": 0,
-      "pending": 236,
+      "pending": 237,
       "win_rate": null,
       "signals": [
         {
@@ -3315,6 +3315,20 @@
           "resolved_date": null,
           "end_date": "2026-07-20",
           "total_value_usd": 8636.81,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x81cef42df3d25aecf0bf7e96c344202e86f447f2f3ba2e4b8eb59f4680efeb22:0",
+          "condition_id": "0x81cef42df3d25aecf0bf7e96c344202e86f447f2f3ba2e4b8eb59f4680efeb22",
+          "title": "Will T\u00fcrkiye win on 2026-06-25?",
+          "category": "FIFA World Cup",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-26",
+          "total_value_usd": 3248.31,
           "result": "pending"
         }
       ]
