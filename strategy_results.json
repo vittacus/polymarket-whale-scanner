@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T17:16:50+00:00",
+  "generated_at": "2026-06-24T17:49:08+00:00",
   "total_evaluated": 256,
   "total_pending": 63,
   "strategies": {
@@ -3603,23 +3603,29 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 0,
-      "correct": 0,
-      "wrong": 0,
+      "signals_evaluated": 703,
+      "correct": 6,
+      "wrong": 697,
       "pending": 0,
-      "win_rate": null,
-      "signals": []
+      "win_rate": 0.9,
+      "signals": [],
+      "source": "historical_backfill",
+      "backfill_sample_size": 703,
+      "backfill_generated_at": "2026-06-24T17:48:32.035096+00:00"
     },
     "C": {
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 0,
-      "correct": 0,
-      "wrong": 0,
+      "signals_evaluated": 703,
+      "correct": 697,
+      "wrong": 6,
       "pending": 0,
-      "win_rate": null,
-      "signals": []
+      "win_rate": 99.1,
+      "signals": [],
+      "source": "historical_backfill",
+      "backfill_sample_size": 703,
+      "backfill_generated_at": "2026-06-24T17:48:32.035096+00:00"
     },
     "D": {
       "name": "Conviction Sizing",

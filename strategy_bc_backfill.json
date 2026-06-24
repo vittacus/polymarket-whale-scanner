@@ -1,0 +1,6346 @@
+{
+  "generated_at": "2026-06-24T17:48:32.035096+00:00",
+  "description": "Historical B/C backfill from Gamma API resolved markets + CLOB daily price history",
+  "methodology": "For each resolved binary market, fetched daily CLOB price history. The last pre-resolution price above 0.5% was used as the signal price. Markets where that price exceeded 85% on one side qualified as B/C signals.",
+  "markets_sampled": 996,
+  "markets_qualifying": 703,
+  "B": {
+    "correct": 6,
+    "wrong": 697,
+    "win_rate": 0.9
+  },
+  "C": {
+    "correct": 697,
+    "wrong": 6,
+    "win_rate": 99.1
+  },
+  "signals": [
+    {
+      "title": "[Single Market] Will Ron DeSantis win the U.S. 2024 Republican presidential nomination?",
+      "end_date": "2024-09-10",
+      "fav_outcome": "No",
+      "fav_price": 0.924,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "[Single Market] Will Donald J. Trump win the U.S. 2024 Republican presidential nomination?",
+      "end_date": "2024-09-10",
+      "fav_outcome": "Yes",
+      "fav_price": 0.99,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "[Single Market] Will Nikki Haley win the U.S. 2024 Republican presidential nomination?",
+      "end_date": "2024-09-10",
+      "fav_outcome": "No",
+      "fav_price": 0.987,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "[Single Market] Will Joe Biden win the U.S. 2024 Democratic presidential nomination?",
+      "end_date": "2024-08-10",
+      "fav_outcome": "No",
+      "fav_price": 0.9885,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "[Single Market] Will Kamala Harris win the U.S. 2024 Democratic presidential nomination?",
+      "end_date": "2024-08-10",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9845,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "[Single Market] Will Pete Buttigieg win the U.S. 2024 Democratic presidential nomination?",
+      "end_date": "2024-08-10",
+      "fav_outcome": "No",
+      "fav_price": 0.99,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "[Single Market] Will Hillary Clinton win the U.S. 2024 Democratic presidential nomination?",
+      "end_date": "2024-08-10",
+      "fav_outcome": "No",
+      "fav_price": 0.99,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "[Single Market] Will Tucker Carlson win the U.S. 2024 Republican presidential nomination?",
+      "end_date": "2024-09-10",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "[Single Market] Will Ben Shapiro win the U.S. 2024 Republican presidential nomination?",
+      "end_date": "2024-09-10",
+      "fav_outcome": "No",
+      "fav_price": 0.9925,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "[Single Market] Will Joe Rogan win the U.S. 2024 Republican presidential nomination?",
+      "end_date": "2024-09-10",
+      "fav_outcome": "No",
+      "fav_price": 0.992,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "[Single Market] Will Kanye West win the U.S. 2024 Republican presidential nomination?",
+      "end_date": "2024-09-10",
+      "fav_outcome": "No",
+      "fav_price": 0.99,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "[Single Market] Will Peter Thiel win the U.S. 2024 Republican presidential nomination?",
+      "end_date": "2024-09-10",
+      "fav_outcome": "No",
+      "fav_price": 0.9555,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "[Single Market] Will Donald Trump Jr. win the U.S. 2024 Republican presidential nomination?",
+      "end_date": "2024-09-10",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "[Single Market] Will Gavin Newsom win the U.S. 2024 Democratic presidential nomination?",
+      "end_date": "2024-09-10",
+      "fav_outcome": "No",
+      "fav_price": 0.9895,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "[Single Market] Will Mike Pence win the U.S. 2024 Republican presidential nomination?",
+      "end_date": "2024-09-10",
+      "fav_outcome": "No",
+      "fav_price": 0.955,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Trump win the 2024 Iowa Caucus?",
+      "end_date": "2024-02-05",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9875,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "[Single Market] Will Vivek Ramaswamy win the U.S. 2024 Republican presidential nomination?",
+      "end_date": "2024-09-10",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "[Single Market] Will Robert F. Kennedy Jr. win the U.S. 2024 Democratic presidential nomination?",
+      "end_date": "2024-08-10",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "[Single Market] Will Chris Christie win the 2024 Republican presidential nomination?",
+      "end_date": "2024-09-10",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Trump and Biden both win nomination?",
+      "end_date": "2024-09-10",
+      "fav_outcome": "No",
+      "fav_price": 0.985,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Haaland to break PL goal record this season?",
+      "end_date": "2024-05-19",
+      "fav_outcome": "No",
+      "fav_price": 0.981,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Man City win the Premier League?",
+      "end_date": "2024-05-19",
+      "fav_outcome": "Yes",
+      "fav_price": 0.88,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "[Single Market] Will Tim Scott win the U.S. 2024 Republican vice presidential nomination?",
+      "end_date": "2024-09-09",
+      "fav_outcome": "No",
+      "fav_price": 0.87,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "[Single Market] Will Kari Lake win the U.S. 2024 Republican vice presidential nomination?",
+      "end_date": "2024-09-09",
+      "fav_outcome": "No",
+      "fav_price": 0.951,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Republican VP nominee be a woman?",
+      "end_date": "2024-09-10",
+      "fav_outcome": "No",
+      "fav_price": 0.935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Joe Biden be President of the United States on February 1, 2024?",
+      "end_date": "2024-02-01",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9905,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Trump be disqualified from California's primary ballot?",
+      "end_date": "2024-03-04",
+      "fav_outcome": "No",
+      "fav_price": 0.9875,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Katie Porter advance from the 2024 CA Senate Primary?",
+      "end_date": "2024-03-05",
+      "fav_outcome": "No",
+      "fav_price": 0.855,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Adam Schiff advance from the 2024 CA Senate Primary?",
+      "end_date": "2024-03-05",
+      "fav_outcome": "Yes",
+      "fav_price": 0.964,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Barbara Lee advance from the 2024 CA Senate Primary?",
+      "end_date": "2024-03-05",
+      "fav_outcome": "No",
+      "fav_price": 0.985,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Aaron Rodgers play again this season?",
+      "end_date": "2024-02-11",
+      "fav_outcome": "No",
+      "fav_price": 0.895,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Newsom appoint a black woman as Feinstein's replacement?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9705,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Laphonza Butler advance from the 2024 CA Senate Primary?",
+      "end_date": "2024-03-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9905,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "SBF guilty of any charges?",
+      "end_date": "2024-06-30",
+      "fav_outcome": "Yes",
+      "fav_price": 0.98,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "SBF guilty of all charges?",
+      "end_date": "2024-06-30",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "SBF sentenced to 50+ years?",
+      "end_date": "2024-06-30",
+      "fav_outcome": "No",
+      "fav_price": 0.905,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will SBF testify?",
+      "end_date": "2024-06-30",
+      "fav_outcome": "Yes",
+      "fav_price": 0.945,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Caroline testify?",
+      "end_date": "2024-06-30",
+      "fav_outcome": "Yes",
+      "fav_price": 0.89,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Kevin McCarthy be the next Speaker?",
+      "end_date": "2024-06-30",
+      "fav_outcome": "No",
+      "fav_price": 0.886,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Patrick McHenry be the next Speaker?",
+      "end_date": "2024-06-30",
+      "fav_outcome": "No",
+      "fav_price": 0.9175,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Steve Scalise be the next Speaker?",
+      "end_date": "2024-06-29",
+      "fav_outcome": "No",
+      "fav_price": 0.9815,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Jim Jordan be the next Speaker?",
+      "end_date": "2024-06-30",
+      "fav_outcome": "No",
+      "fav_price": 0.9675,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Donald Trump be the next Speaker?",
+      "end_date": "2024-06-30",
+      "fav_outcome": "No",
+      "fav_price": 0.9775,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Kari Lake be the next Speaker?",
+      "end_date": "2024-06-30",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "SBF sentenced to life?",
+      "end_date": "2024-06-30",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Saudi and Israel peace deal by March 2024?",
+      "end_date": "2024-03-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Donald Trump be President of the USA on January 31, 2024?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Tom Emmer be the next Speaker?",
+      "end_date": "2024-06-30",
+      "fav_outcome": "No",
+      "fav_price": 0.9905,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Hakeem Jeffries be the next Speaker?",
+      "end_date": "2024-06-30",
+      "fav_outcome": "No",
+      "fav_price": 0.969,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Saudi Arabia accept invitation to join BRICS?",
+      "end_date": "2024-01-01",
+      "fav_outcome": "Yes",
+      "fav_price": 0.915,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Salah join a Saudi club next transfer window?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.962,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Trump and Biden both lose nomination?",
+      "end_date": "2024-06-30",
+      "fav_outcome": "No",
+      "fav_price": 0.985,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "[Single Market] Will Dean Phillips win the U.S. Democratic presidential nomination?",
+      "end_date": "2024-08-10",
+      "fav_outcome": "No",
+      "fav_price": 0.9905,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Indonesia Election: Prabowo Subianto wins?",
+      "end_date": "2024-02-14",
+      "fav_outcome": "Yes",
+      "fav_price": 0.915,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Swift + Kelce break up by end of NFL season?",
+      "end_date": "2024-01-07",
+      "fav_outcome": "No",
+      "fav_price": 0.9355,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Putin be reelected?",
+      "end_date": "2024-03-17",
+      "fav_outcome": "Yes",
+      "fav_price": 0.986,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will $ETH hit $1,800 or $2,200 first?",
+      "end_date": "2024-07-01",
+      "fav_outcome": "$2200",
+      "fav_price": 0.925,
+      "winner": "$2200",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Manchin announce presidential run by Mar 5?",
+      "end_date": "2024-03-05",
+      "fav_outcome": "No",
+      "fav_price": 0.975,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Ilya still at OpenAI on Jan 1?",
+      "end_date": "2024-01-01",
+      "fav_outcome": "Yes",
+      "fav_price": 0.975,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Blur Season 3 end by May?",
+      "end_date": "2024-05-31",
+      "fav_outcome": "No",
+      "fav_price": 0.875,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Blast airdrop by May?",
+      "end_date": "2024-05-31",
+      "fav_outcome": "No",
+      "fav_price": 0.904,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the Blast bridge be exploited by end of February?",
+      "end_date": "2024-02-28",
+      "fav_outcome": "No",
+      "fav_price": 0.985,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Respiratory illness surge in China declared a global pandemic by Feb 1?",
+      "end_date": "2024-02-01",
+      "fav_outcome": "No",
+      "fav_price": 0.9895,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will an AI win the $5 million AI Math Olympiad Prize before August?",
+      "end_date": "2024-08-01",
+      "fav_outcome": "No",
+      "fav_price": 0.9835,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Taiwan Presidential Election: Will Hou Yu-ih win?",
+      "end_date": "2024-01-13",
+      "fav_outcome": "No",
+      "fav_price": 0.855,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will \u226510% of Votes go to 3rd Party Candidates in the 2024 US Presidential Election?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.981,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will OpenAI be for-profit by March?",
+      "end_date": "2024-03-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9495,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Shein IPO at a $90b valuation?",
+      "end_date": "2024-06-30",
+      "fav_outcome": "No",
+      "fav_price": 0.9575,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Kraken IPO by June?",
+      "end_date": "2024-06-30",
+      "fav_outcome": "No",
+      "fav_price": 0.9835,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Circle IPO by June?",
+      "end_date": "2024-06-30",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "LayerZero airdrop by April?",
+      "end_date": "2024-04-30",
+      "fav_outcome": "No",
+      "fav_price": 0.9905,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "zkSync airdrop by April?",
+      "end_date": "2024-04-30",
+      "fav_outcome": "No",
+      "fav_price": 0.955,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Aleo airdrop by April?",
+      "end_date": "2024-04-30",
+      "fav_outcome": "No",
+      "fav_price": 0.9905,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "EigenLayer airdrop by April?",
+      "end_date": "2024-04-30",
+      "fav_outcome": "No",
+      "fav_price": 0.965,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Milady flip MAYC by March 1?",
+      "end_date": "2024-03-01",
+      "fav_outcome": "No",
+      "fav_price": 0.99,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will OpenSea announce bankruptcy by March 1?",
+      "end_date": "2024-03-01",
+      "fav_outcome": "No",
+      "fav_price": 0.9495,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "OpenSea token announcement in 2024?",
+      "end_date": "2024-12-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9545,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "New lockdown in US?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.98,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Qatar buy Bitcoin by Jan 31?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.925,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Conor McGregor announce presidential run by Feb 29?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.89,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Venezuela invade Guyana before February?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9685,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will any Republican congressman come out as gay before March?",
+      "end_date": "2024-03-01",
+      "fav_outcome": "No",
+      "fav_price": 0.9805,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Fed rate cut by May 1?",
+      "end_date": "2024-05-01",
+      "fav_outcome": "No",
+      "fav_price": 0.9865,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Harvard get fewer applicants this year?",
+      "end_date": "2024-12-31",
+      "fav_outcome": "Yes",
+      "fav_price": 0.98,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will George Santos announce he's running for congress before May?",
+      "end_date": "2024-04-30",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Taylor Swift pregnant before March?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Zelensky remain President of Ukraine through March?",
+      "end_date": "2024-03-31",
+      "fav_outcome": "Yes",
+      "fav_price": 0.994,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Hamas surrender before February?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9905,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the Fed raise interest rates by 0 bps after its January meeting?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "Yes",
+      "fav_price": 0.991,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the Fed raise interest rates by 25 bps after its January meeting?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.985,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the Fed decrease interest rates by 25 bps after its January meeting?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.992,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Logan Paul refund CryptoZoo investors by Jan 31?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.95,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "All 3 University Presidents who testified on antisemitism out by Jan 31?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.988,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "marginfi airdrop by March 1?",
+      "end_date": "2024-03-01",
+      "fav_outcome": "No",
+      "fav_price": 0.93,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Taylor Swift and Travis Kelce break up by March 1?",
+      "end_date": "2024-03-01",
+      "fav_outcome": "No",
+      "fav_price": 0.985,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Kamino airdrop by March 1?",
+      "end_date": "2024-03-01",
+      "fav_outcome": "No",
+      "fav_price": 0.9645,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Base airdrop by May 1?",
+      "end_date": "2024-05-01",
+      "fav_outcome": "No",
+      "fav_price": 0.9745,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Saga airdrop By March 1?",
+      "end_date": "2024-03-01",
+      "fav_outcome": "No",
+      "fav_price": 0.905,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Biden be impeached by March 31, 2024?",
+      "end_date": "2024-03-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9925,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Brock Purdy win NFL MVP for the 2023-24 season?",
+      "end_date": "2024-02-09",
+      "fav_outcome": "No",
+      "fav_price": 0.94,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Dak Prescott win NFL MVP for the 2023-24 season?",
+      "end_date": "2024-02-09",
+      "fav_outcome": "No",
+      "fav_price": 0.945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Ethereum spot ETF approved by Jan 31?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.993,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Starlink available in Gaza by Jan 31?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.925,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Ceasefire between Russia and Ukraine by June 30?",
+      "end_date": "2024-06-30",
+      "fav_outcome": "No",
+      "fav_price": 0.993,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Elon Musk own X through June 30?",
+      "end_date": "2024-06-30",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9505,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Kanye West's song \"Everybody\" reach #1 on Billboard Hot 100?",
+      "end_date": "2024-04-01",
+      "fav_outcome": "No",
+      "fav_price": 0.972,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Taylor Swift engaged by April 1?",
+      "end_date": "2024-04-01",
+      "fav_outcome": "No",
+      "fav_price": 0.984,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Rabby airdrop by March 1?",
+      "end_date": "2024-03-01",
+      "fav_outcome": "No",
+      "fav_price": 0.97,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Another Tesla recall before July?",
+      "end_date": "2024-06-30",
+      "fav_outcome": "Yes",
+      "fav_price": 0.985,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Hunter Biden arrested before April?",
+      "end_date": "2024-03-31",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Mohamed Deif still in Hamas leadership through March 1?",
+      "end_date": "2024-03-01",
+      "fav_outcome": "Yes",
+      "fav_price": 0.95,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Another Israel x Hamas ceasefire before February?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.987,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Hamas release any more hostages by Jan 15?",
+      "end_date": "2024-01-15",
+      "fav_outcome": "No",
+      "fav_price": 0.9855,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "US call for Gaza ceasefire before February?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9705,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Haley win the Iowa Caucus?",
+      "end_date": "2024-01-15",
+      "fav_outcome": "No",
+      "fav_price": 0.985,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Haniyeh still in Hamas leadership through March 1?",
+      "end_date": "2024-03-01",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9865,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Yahya Sinwar still Hamas leader through March 1?",
+      "end_date": "2024-03-01",
+      "fav_outcome": "Yes",
+      "fav_price": 0.95,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Another Ledger exploit by Jan 31?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "US congress stock trading ban by June 30?",
+      "end_date": "2024-06-30",
+      "fav_outcome": "No",
+      "fav_price": 0.975,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Bitcoin all time high by Mar 31?",
+      "end_date": "2024-03-31",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9325,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "'Dune 2' bigger opening weekend than 'Dune'?",
+      "end_date": "2024-03-04",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9945,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Coinbase a top 100 app before Feb?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Ethereum spot ETF approved by Mar 31?",
+      "end_date": "2024-03-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Fed rate cut by March 20?",
+      "end_date": "2024-03-20",
+      "fav_outcome": "No",
+      "fav_price": 0.9925,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Sweden join NATO by January 31?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.99,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Confederate Memorial at Arlington Cemetery removed by Jan 1?",
+      "end_date": "2024-01-01",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9625,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will U.S. Supreme Court vote to reinstate Trump on Colorado's 2024 ballot?",
+      "end_date": "2024-03-05",
+      "fav_outcome": "Yes",
+      "fav_price": 0.92,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Trump appear on Colorado primary ballot?",
+      "end_date": "2024-03-06",
+      "fav_outcome": "Yes",
+      "fav_price": 0.899,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will another state court disqualify Trump from ballot by Jan 31?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9815,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Trump be Speaker by Mar 1?",
+      "end_date": "2024-03-01",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Do Kwon extradited before March?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.925,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the Epstein documents name Bill Clinton?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "Yes",
+      "fav_price": 0.925,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the Epstein documents name any sitting US congressman?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the Epstein documents name Prince Andrew?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "Yes",
+      "fav_price": 0.96,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the Epstein documents name Bill Gates?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.971,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the Epstein documents name Elon Musk?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.955,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Trump >50% chance of winning nomination after Super Tuesday?",
+      "end_date": "2024-03-06",
+      "fav_outcome": "Yes",
+      "fav_price": 0.975,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Girona win La Liga 2023-24?",
+      "end_date": "2024-05-31",
+      "fav_outcome": "No",
+      "fav_price": 0.987,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Fed rate cut by January 31?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.988,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "CZ jail before March?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Ayatollah Khamenei still in power in Iran by June 30?",
+      "end_date": "2024-06-30",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9595,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will US attack Yemen before February?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "Yes",
+      "fav_price": 0.985,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "TikTok banned in the US by June 30?",
+      "end_date": "2024-06-29",
+      "fav_outcome": "No",
+      "fav_price": 0.9915,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Pope Francis remain Pope through June 30?",
+      "end_date": "2024-06-30",
+      "fav_outcome": "Yes",
+      "fav_price": 0.95,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the US confirm that aliens exist by June?",
+      "end_date": "2024-06-30",
+      "fav_outcome": "No",
+      "fav_price": 0.9775,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will BTC hit $50,000 by Jan 31?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.989,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Jupiter airdrop by Jan 31?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "Yes",
+      "fav_price": 0.885,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Joe Biden be President of the United States on April 1, 2024?",
+      "end_date": "2024-04-01",
+      "fav_outcome": "Yes",
+      "fav_price": 0.994,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "JUP above $1 one week after launch?",
+      "end_date": "2024-10-31",
+      "fav_outcome": "No",
+      "fav_price": 0.885,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "\u201cAll I want for Christmas is You\u201d #1 on Billboard Hot 100 first week of 2024?",
+      "end_date": "2024-01-06",
+      "fav_outcome": "No",
+      "fav_price": 0.972,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Kanye release \u2018Vultures\u2019 by Jan 12?",
+      "end_date": "2024-01-12",
+      "fav_outcome": "No",
+      "fav_price": 0.97,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Ye say something antisemitic before February?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.993,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Kanye release \u2018Vultures\u2019 by Jan 31?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9655,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will SpaceX's Starship launch before March?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Another Israel x Hamas ceasefire by Jan 15?",
+      "end_date": "2024-01-15",
+      "fav_outcome": "No",
+      "fav_price": 0.977,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Claudine Gay out as Harvard President by Jan 15?",
+      "end_date": "2024-01-15",
+      "fav_outcome": "No",
+      "fav_price": 0.86,
+      "winner": "Yes",
+      "b_correct": true,
+      "c_correct": false
+    },
+    {
+      "title": "Will Ukraine receive F-16s by end of January?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.95,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "$BONK all time high before February?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.979,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Another Ledger leak/exploit by Mar 31?",
+      "end_date": "2024-03-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9875,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "2023-24 Detroit Pistons worst NBA team of all time?",
+      "end_date": "2024-04-14",
+      "fav_outcome": "No",
+      "fav_price": 0.9735,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "$Bitcoin (Hpos10i) all time high by Jan 31?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.855,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Netanyahu out by June 30?",
+      "end_date": "2024-06-30",
+      "fav_outcome": "No",
+      "fav_price": 0.99,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will a nuclear weapon detonate by June 30, 2024?",
+      "end_date": "2024-06-30",
+      "fav_outcome": "No",
+      "fav_price": 0.9875,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "North Korea nuke by March 31?",
+      "end_date": "2024-03-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "OpenAI settlement with NYT by end of 2024?",
+      "end_date": "2024-12-31",
+      "fav_outcome": "No",
+      "fav_price": 0.983,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "OpenAI settlement with NYT by March?",
+      "end_date": "2024-03-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9805,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "NYT drop OpenAI case by March?",
+      "end_date": "2024-03-31",
+      "fav_outcome": "No",
+      "fav_price": 0.96,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will a world leader shit themselves before March?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.9855,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Trump say a racial slur before February?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Iran officially join the war before February?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9895,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will 2024 be better than 2023?",
+      "end_date": "2024-12-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9855,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "AI on Amazon speaker by June?",
+      "end_date": "2024-06-30",
+      "fav_outcome": "Yes",
+      "fav_price": 0.86,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "OpenAI announces it has achieved AGI in 2024?",
+      "end_date": "2024-12-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9915,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Trump appear on Maine primary ballot?",
+      "end_date": "2024-03-05",
+      "fav_outcome": "Yes",
+      "fav_price": 0.994,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Solana Network go down in January?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9775,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Any Hamas leader out in January?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.87,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Joe Biden impeached before 2024 election?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9925,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the Epstein documents name Jimmy Kimmel?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Hezbollah deploy ground forces in Israel in January?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9545,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Maersk resume shipping through Red Sea by Jan 15?",
+      "end_date": "2024-01-15",
+      "fav_outcome": "No",
+      "fav_price": 0.9735,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Bangladesh Election: Sheikh Hasina reelected as Prime Minister?",
+      "end_date": "2024-01-07",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9895,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Meissner effect confirmed near room temperature?",
+      "end_date": "2024-12-31",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Putin remain President of Russia through March?",
+      "end_date": "2024-03-31",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9945,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Bill Clinton arrested by Jan 10?",
+      "end_date": "2024-01-10",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Joe Biden win the 2024 US Presidential Election?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9305,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Nikki Haley win the 2024 US Presidential Election?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Gavin Newsom win the 2024 US Presidential Election?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9925,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Robert F. Kennedy Jr. win the 2024 US Presidential Election?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Ron DeSantis win the 2024 US Presidential Election?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Vivek Ramaswamy win the 2024 US Presidential Election?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will OpenAI release GPT-4.5 before April?",
+      "end_date": "2024-03-31",
+      "fav_outcome": "No",
+      "fav_price": 0.925,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Trump in jail before election day?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the Dallas Cowboys win Super Bowl LVIII?",
+      "end_date": "2024-02-10",
+      "fav_outcome": "No",
+      "fav_price": 0.975,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Nikki Haley win the New Hampshire Republican Primary?",
+      "end_date": "2024-01-23",
+      "fav_outcome": "No",
+      "fav_price": 0.971,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Donald Trump win the New Hampshire Republican Primary?",
+      "end_date": "2024-01-23",
+      "fav_outcome": "Yes",
+      "fav_price": 0.969,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Michelle Obama win the 2024 US Presidential Election?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Hillary Clinton win the 2024 US Presidential Election?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Ron DeSantis win the New Hampshire Republican Primary?",
+      "end_date": "2024-01-23",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Chris Christie win the New Hampshire Republican Primary?",
+      "end_date": "2024-01-23",
+      "fav_outcome": "No",
+      "fav_price": 0.982,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Vivek Ramaswamy win the New Hampshire Republican Primary?",
+      "end_date": "2024-01-23",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Asa Hutchinson win the New Hampshire Republican Primary?",
+      "end_date": "2024-01-23",
+      "fav_outcome": "No",
+      "fav_price": 0.993,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will anyone else win the New Hampshire Republican Primary?",
+      "end_date": "2024-01-23",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the Philadelphia Eagles win Super Bowl LVIII?",
+      "end_date": "2024-02-10",
+      "fav_outcome": "No",
+      "fav_price": 0.9495,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the Miami Dolphins win Super Bowl LVIII?",
+      "end_date": "2024-02-10",
+      "fav_outcome": "No",
+      "fav_price": 0.9695,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the Jacksonville Jaguars win Super Bowl LVIII?",
+      "end_date": "2024-02-10",
+      "fav_outcome": "No",
+      "fav_price": 0.977,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the Los Angeles Rams win Super Bowl LVIII?",
+      "end_date": "2024-02-10",
+      "fav_outcome": "No",
+      "fav_price": 0.9725,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the Cleveland Browns win Super Bowl LVIII?",
+      "end_date": "2024-02-10",
+      "fav_outcome": "No",
+      "fav_price": 0.9595,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the Indianapolis Colts win Super Bowl LVIII?",
+      "end_date": "2024-02-10",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the Houston Texans win Super Bowl LVIII?",
+      "end_date": "2024-02-10",
+      "fav_outcome": "No",
+      "fav_price": 0.9725,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the Tampa Bay Buccaneers win Super Bowl LVIII?",
+      "end_date": "2024-02-10",
+      "fav_outcome": "No",
+      "fav_price": 0.9695,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the New Orleans Saints win Super Bowl LVIII?",
+      "end_date": "2024-02-10",
+      "fav_outcome": "No",
+      "fav_price": 0.985,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the Green Bay Packers win Super Bowl LVIII?",
+      "end_date": "2024-02-10",
+      "fav_outcome": "No",
+      "fav_price": 0.96,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the Pittsburgh Steelers win Super Bowl LVIII?",
+      "end_date": "2024-02-10",
+      "fav_outcome": "No",
+      "fav_price": 0.993,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the Seattle Seahawks win Super Bowl LVIII?",
+      "end_date": "2024-02-10",
+      "fav_outcome": "No",
+      "fav_price": 0.985,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the Atlanta Falcons win Super Bowl LVIII?",
+      "end_date": "2024-02-10",
+      "fav_outcome": "No",
+      "fav_price": 0.9995,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the Minnesota Vikings win Super Bowl LVIII?",
+      "end_date": "2024-02-10",
+      "fav_outcome": "No",
+      "fav_price": 0.9995,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Chris Christie win the 2024 US Presidential Election?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Elizabeth Warren win the 2024 US Presidential Election?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.992,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Bernie Sanders win the 2024 US Presidential Election?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will any other Democratic Politician win the 2024 US Presidential Election?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will any other Republican Politician win the 2024 US Presidential Election?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Kanye West win the 2024 US Presidential Election?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9925,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Texans vs. Colts go to overtime?",
+      "end_date": "2024-01-06",
+      "fav_outcome": "No",
+      "fav_price": 0.95,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Texans vs. Colts: Margin of Victory 1-2?",
+      "end_date": "2024-01-06",
+      "fav_outcome": "No",
+      "fav_price": 0.91,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Texans vs. Colts: Margin of Victory 14-20?",
+      "end_date": "2024-01-06",
+      "fav_outcome": "No",
+      "fav_price": 0.86,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Texans vs. Colts: Margin of Victory 21-29?",
+      "end_date": "2024-01-06",
+      "fav_outcome": "No",
+      "fav_price": 0.95,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Texans vs. Colts: Margin of Victory 30+?",
+      "end_date": "2024-01-06",
+      "fav_outcome": "No",
+      "fav_price": 0.9705,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Neri Oxman's MIT degree revoked?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.985,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Mexican Presidential Election: Will Claudia Sheinbaum win?",
+      "end_date": "2024-05-30",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Mexican Presidential Election: Will X\u00f3chitl G\u00e1lvez win?",
+      "end_date": "2024-05-30",
+      "fav_outcome": "No",
+      "fav_price": 0.8915,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "SEC approves first spot Bitcoin ETF on Jan 8?",
+      "end_date": "2024-01-08",
+      "fav_outcome": "No",
+      "fav_price": 0.9755,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "SEC approves first spot Bitcoin ETF on Jan 9?",
+      "end_date": "2024-01-09",
+      "fav_outcome": "No",
+      "fav_price": 0.9755,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Ramaswamy place 2nd in the 2024 Iowa Caucus?",
+      "end_date": "2024-01-15",
+      "fav_outcome": "No",
+      "fav_price": 0.925,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Trump place 2nd in the 2024 Iowa Caucus?",
+      "end_date": "2024-01-15",
+      "fav_outcome": "No",
+      "fav_price": 0.9835,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will someone else place 2nd in the 2024 Iowa Caucus?",
+      "end_date": "2024-01-15",
+      "fav_outcome": "No",
+      "fav_price": 0.998,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Sally Kornbluth out as MIT President in January?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.95,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will North Korea invade South Korea in 2024?",
+      "end_date": "2024-12-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Nikki Haley win the 2024 Republican Iowa Caucus?",
+      "end_date": "2024-01-15",
+      "fav_outcome": "No",
+      "fav_price": 0.9835,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Ron DeSantis win the 2024 Republican Iowa Caucus?",
+      "end_date": "2024-01-15",
+      "fav_outcome": "No",
+      "fav_price": 0.9885,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Vivek Ramaswamy win the 2024 Republican Iowa Caucus?",
+      "end_date": "2024-01-15",
+      "fav_outcome": "No",
+      "fav_price": 0.984,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will another candidate win the 2024 Republican Iowa Caucus?",
+      "end_date": "2024-01-15",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Donald Trump win the 2024 Republican Iowa Caucus?",
+      "end_date": "2024-01-15",
+      "fav_outcome": "Yes",
+      "fav_price": 0.964,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will any MIT faculty lose their job due to plagiarism in January?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9505,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "2024 presidential election: GOP wins by 215+",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.991,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "2024 presidential election: GOP wins by 155-214",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.978,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "2024 presidential election: GOP wins by 35-64",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.86,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "2024 presidential election: GOP wins by 15-34",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.94,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "2024 presidential election: GOP wins by 1-4",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.985,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "2024 presidential election: GOP wins by 5-14",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9735,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "2024 presidential election: Democrats win by 0-4",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9255,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "2024 presidential election: Democrats win by 5-14",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "2024 presidential election: Democrats win by 15-34",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9405,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "2024 presidential election: Democrats win by 35-64",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.91,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "2024 presidential election: Democrats win by 65-104",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.8685,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "2024 presidential election: Democrats win by 105-154",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.943,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "2024 presidential election: Democrats win by 215+",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9625,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Boeing Max 9 cleared to fly by Friday?",
+      "end_date": "2024-01-12",
+      "fav_outcome": "No",
+      "fav_price": 0.9695,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will another plane's cabin door blow off in January?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.981,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Donald J. Trump win the 2024 Republican presidential nomination?",
+      "end_date": "2024-07-13",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9945,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Ron DeSantis win the 2024 Republican Presidential Nomination?",
+      "end_date": "2024-07-13",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Vivek Ramaswamy win the 2024 Republican Presidential Nomination?",
+      "end_date": "2024-07-13",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Nikki Haley win the 2024 Republican Presidential Nomination?",
+      "end_date": "2024-07-13",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Gavin Newsom win the 2024 Democratic Presidential Nomination?",
+      "end_date": "2024-08-19",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Robert F. Kennedy Jr. win the 2024 Democratic Presidential Nomination?",
+      "end_date": "2024-08-19",
+      "fav_outcome": "No",
+      "fav_price": 0.9925,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Kamala Harris win the 2024 Democratic Presidential Nomination?",
+      "end_date": "2024-08-19",
+      "fav_outcome": "Yes",
+      "fav_price": 0.989,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Hillary Clinton win the 2024 Democratic Presidential Nomination?",
+      "end_date": "2024-08-19",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Michelle Obama win the 2024 Democratic Presidential Nomination?",
+      "end_date": "2024-08-19",
+      "fav_outcome": "No",
+      "fav_price": 0.9925,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "2024 presidential election: GOP wins by 105-154",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.937,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "2024 presidential election: Democrats win by 155-214",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.96,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Biden wins the Popular Vote?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Nikki Haley win the popular vote in the 2024 Presidential Election?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will RFK Jr. win the popular vote in the 2024 Presidential Election?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Gavin Newsom win the popular vote in the 2024 Presidential Election?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9855,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Vivek Ramaswamy win the popular vote in the 2024 Presidential Election?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9845,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Ron DeSantis win the popular vote in the 2024 Presidential Election?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.991,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Michelle Obama win the popular vote in the 2024 Presidential Election?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Hillary Clinton win the popular vote in the 2024 Presidential Election?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Elizabeth Warren win the popular vote in the 2024 Presidential Election?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Bernie Sanders win the popular vote in the 2024 Presidential Election?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will AOC win the popular vote in the 2024 Presidential Election?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9905,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Kanye West win the popular vote in the 2024 Presidential Election?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will any other Democrat Politician win the popular vote in the 2024 Presidential Election?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will any other Republican Politician win the popular vote in the 2024 Presidential Election?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Israel invade Lebanon by January 20?",
+      "end_date": "2024-01-20",
+      "fav_outcome": "No",
+      "fav_price": 0.983,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Ethereum ETF approved by May 31?",
+      "end_date": "2024-05-31",
+      "fav_outcome": "Yes",
+      "fav_price": 0.991,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "$BTC price <$40,000 1 hour after ETF approval?",
+      "end_date": "2024-01-14",
+      "fav_outcome": "No",
+      "fav_price": 0.9605,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "$BTC price >$50,000 1 hour after ETF approval?",
+      "end_date": "2024-01-15",
+      "fav_outcome": "No",
+      "fav_price": 0.855,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Was @SECGov really hacked?",
+      "end_date": "2024-01-12",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9935,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Trump margin of victory in Iowa Caucus <20%",
+      "end_date": "2024-01-15",
+      "fav_outcome": "No",
+      "fav_price": 0.94,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Trump lose the 2024 Iowa Caucus?",
+      "end_date": "2024-01-15",
+      "fav_outcome": "No",
+      "fav_price": 0.9775,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Trump margin of victory in Iowa Caucus 20-25%",
+      "end_date": "2024-01-15",
+      "fav_outcome": "No",
+      "fav_price": 0.915,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will there be a US government shutdown by Jan 20?",
+      "end_date": "2024-01-20",
+      "fav_outcome": "No",
+      "fav_price": 0.9815,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Musk tweet less than 160 times between Jan 10-16?",
+      "end_date": "2024-01-16",
+      "fav_outcome": "No",
+      "fav_price": 0.9895,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will anyone from the Epstein documents be indicted by March 31?",
+      "end_date": "2024-03-31",
+      "fav_outcome": "No",
+      "fav_price": 0.992,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Ecuadorian drug lord Fito remain at large throughout January?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9735,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will they find another Jewish tunnel in NYC by Monday?",
+      "end_date": "2024-01-15",
+      "fav_outcome": "No",
+      "fav_price": 0.9785,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "BTC ETFs first week combined AUM under $10 billion?",
+      "end_date": "2024-01-19",
+      "fav_outcome": "No",
+      "fav_price": 0.9925,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "BTC ETFs first week combined AUM between $10-30 billion?",
+      "end_date": "2024-01-19",
+      "fav_outcome": "Yes",
+      "fav_price": 0.94,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "BTC ETFs first week combined AUM between $30-60 billion?",
+      "end_date": "2024-01-19",
+      "fav_outcome": "No",
+      "fav_price": 0.935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "BTC ETFs first week combined AUM over $60 billion?",
+      "end_date": "2024-01-19",
+      "fav_outcome": "No",
+      "fav_price": 0.991,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Nikki Haley be the next major GOP presidential race dropout?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9625,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Donald Trump be the next major GOP presidential race dropout?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9915,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Over $4 billion inflows in spot Bitcoin ETFs on first day of trading?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9915,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the ICJ find Israel guilty of genocide before April?",
+      "end_date": "2024-04-01",
+      "fav_outcome": "No",
+      "fav_price": 0.979,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Sweden join NATO by February 29?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.98,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will BTC or ETH reach all-time high first?",
+      "end_date": "2024-12-31",
+      "fav_outcome": "BTC",
+      "fav_price": 0.9705,
+      "winner": "BTC",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Jordan Henderson leave Saudi Arabia this transfer window?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "Yes",
+      "fav_price": 0.985,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will New York Knicks be 2023-24 NBA Champions?",
+      "end_date": "2024-06-06",
+      "fav_outcome": "No",
+      "fav_price": 0.9665,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Philadelphia 76ers be 2023-24 NBA Champions?",
+      "end_date": "2024-06-06",
+      "fav_outcome": "No",
+      "fav_price": 0.985,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Chicago Bulls be 2023-24 NBA Champions?",
+      "end_date": "2024-06-06",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Cleveland Cavaliers be  2023-24 NBA Champions?",
+      "end_date": "2024-06-06",
+      "fav_outcome": "No",
+      "fav_price": 0.9905,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Indiana Pacers be 2023-24 NBA Champions?",
+      "end_date": "2024-06-06",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Milwaukee Bucks be 2023-24 NBA Champions?",
+      "end_date": "2024-06-06",
+      "fav_outcome": "No",
+      "fav_price": 0.99,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Atlanta Hawks be 2023-24 NBA Champions?",
+      "end_date": "2024-06-06",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Miami Heat be 2023-24 NBA Champions?",
+      "end_date": "2024-06-06",
+      "fav_outcome": "No",
+      "fav_price": 0.984,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Orlando Magic be 2023-24 NBA Champions?",
+      "end_date": "2024-06-06",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will New Orleans Pelicans be 2023-24 NBA Champions?",
+      "end_date": "2024-06-06",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Minnesota Timberwolves be 2023-24 NBA Champions?",
+      "end_date": "2024-06-06",
+      "fav_outcome": "No",
+      "fav_price": 0.9365,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Oklahoma City Thunder be 2023-24 NBA Champions?",
+      "end_date": "2024-06-06",
+      "fav_outcome": "No",
+      "fav_price": 0.969,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Golden State Warriors be 2023-24 NBA Champions?",
+      "end_date": "2024-06-06",
+      "fav_outcome": "No",
+      "fav_price": 0.9845,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will LA Clippers be 2023-24 NBA Champions?",
+      "end_date": "2024-06-06",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Los Angeles Lakers be 2023-24 NBA Champions?",
+      "end_date": "2024-06-06",
+      "fav_outcome": "No",
+      "fav_price": 0.993,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Phoenix Suns be 2023-24 NBA Champions?",
+      "end_date": "2024-06-06",
+      "fav_outcome": "No",
+      "fav_price": 0.9845,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Sacramento Kings be 2023-24 NBA Champions?",
+      "end_date": "2024-06-06",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Amazon be the largest company in the world on January 31?",
+      "end_date": "2024-01-30",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Saudi Aramco be the largest company in the world on January 31?",
+      "end_date": "2024-01-30",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will another company be the largest company in the world on January 31?",
+      "end_date": "2024-01-30",
+      "fav_outcome": "No",
+      "fav_price": 0.9905,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Alphabet (Google) be the largest company in the world on January 31?",
+      "end_date": "2024-01-30",
+      "fav_outcome": "No",
+      "fav_price": 0.987,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "US strike against Houthis by Friday?",
+      "end_date": "2024-01-12",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9955,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Democrats and Republicans both lose the 2024 Presidential Election?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Elizabeth Warren win the 2024 Democratic Presidential Nomination?",
+      "end_date": "2024-08-19",
+      "fav_outcome": "No",
+      "fav_price": 0.993,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will someone else win the 2024 Democratic Presidential Nomination?",
+      "end_date": "2024-08-19",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Donald Trump Jr. win the 2024 Republican Presidential Nomination?",
+      "end_date": "2024-07-13",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will \"Oppenheimer\" win the Oscar for Best Picture?",
+      "end_date": "2024-03-09",
+      "fav_outcome": "Yes",
+      "fav_price": 0.94,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will \"Poor Things\" win the Oscar for Best Picture?",
+      "end_date": "2024-03-09",
+      "fav_outcome": "No",
+      "fav_price": 0.974,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will \"Killers of the Flower Moon\" win the Oscar for Best Picture?",
+      "end_date": "2024-03-09",
+      "fav_outcome": "No",
+      "fav_price": 0.9875,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will \"Barbie\" win the Oscar for Best Picture?",
+      "end_date": "2024-03-09",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will \"The Holdovers\" win the Oscar for Best Picture?",
+      "end_date": "2024-03-09",
+      "fav_outcome": "No",
+      "fav_price": 0.9915,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will \"Past Lives\" win the Oscar for Best Picture?",
+      "end_date": "2024-03-09",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will \"Maestro\" win the Oscar for Best Picture?",
+      "end_date": "2024-03-09",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will \"Anatomy of a Fall\" win the Oscar for Best Picture?",
+      "end_date": "2024-03-09",
+      "fav_outcome": "No",
+      "fav_price": 0.993,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will \"American Fiction\" win the Oscar for Best Picture?",
+      "end_date": "2024-03-09",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will \"The Zone of Interest\" win the Oscar for Best Picture?",
+      "end_date": "2024-03-09",
+      "fav_outcome": "No",
+      "fav_price": 0.9855,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will someone else win the 2024 Republican Presidential Nomination?",
+      "end_date": "2024-07-13",
+      "fav_outcome": "No",
+      "fav_price": 0.9885,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will ETH hit $3,000 in January?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.993,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will 2024 be the hottest year on record?",
+      "end_date": "2025-03-01",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9945,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Finnish Presidential Election: Will Alexander Stubb win?",
+      "end_date": "2024-01-25",
+      "fav_outcome": "Yes",
+      "fav_price": 0.855,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Finnish Presidential Election: Will Pekka Haavisto win?",
+      "end_date": "2024-01-26",
+      "fav_outcome": "No",
+      "fav_price": 0.865,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Finnish Presidential Election: Will Olli Rehn win?",
+      "end_date": "2024-01-26",
+      "fav_outcome": "No",
+      "fav_price": 0.984,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Finnish Presidential Election: Will Jussi Halla-aho win?",
+      "end_date": "2024-01-26",
+      "fav_outcome": "No",
+      "fav_price": 0.948,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Finnish Presidential Election: Will Jutta Urpilainen win?",
+      "end_date": "2024-01-26",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Mexican Presidential Election: Will Jorge \u00c1lvarez M\u00e1ynez win?",
+      "end_date": "2024-05-30",
+      "fav_outcome": "No",
+      "fav_price": 0.9915,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Mexican Presidential Election: Will another candidate win?",
+      "end_date": "2024-05-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Dean Phillips win the 2024 Democratic Presidential Nomination?",
+      "end_date": "2024-08-19",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Abbott Elementary win Outstanding Comedy Series at the 75th Emmys?",
+      "end_date": "2024-01-16",
+      "fav_outcome": "No",
+      "fav_price": 0.915,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Jury Duty win Outstanding Comedy Series at the 75th Emmys?",
+      "end_date": "2024-01-16",
+      "fav_outcome": "No",
+      "fav_price": 0.97,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Jeremy Strong win Lead Drama Actor at the 75th Emmys?",
+      "end_date": "2024-01-16",
+      "fav_outcome": "No",
+      "fav_price": 0.88,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Pedro Pascal win Lead Drama Actor at the 75th Emmys?",
+      "end_date": "2024-01-16",
+      "fav_outcome": "No",
+      "fav_price": 0.875,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Bob Odenkirk win Lead Drama Actor at the 75th Emmys?",
+      "end_date": "2024-01-16",
+      "fav_outcome": "No",
+      "fav_price": 0.885,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will China invade Taiwan in 2024?",
+      "end_date": "2024-12-31",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will another film win the Oscar for Best Picture?",
+      "end_date": "2024-03-09",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Trump margin of victory in New Hampshire Primary 10-12.5%",
+      "end_date": "2024-01-22",
+      "fav_outcome": "No",
+      "fav_price": 0.895,
+      "winner": "Yes",
+      "b_correct": true,
+      "c_correct": false
+    },
+    {
+      "title": "Trump margin of victory in New Hampshire Primary 7.5-10%",
+      "end_date": "2024-01-22",
+      "fav_outcome": "No",
+      "fav_price": 0.925,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Trump margin of victory in New Hampshire Primary 0-2.5%",
+      "end_date": "2024-01-22",
+      "fav_outcome": "No",
+      "fav_price": 0.969,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Trump margin of victory in New Hampshire Primary 5-7.5%",
+      "end_date": "2024-01-22",
+      "fav_outcome": "No",
+      "fav_price": 0.925,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Trump margin of victory in New Hampshire Primary 2.5-5%",
+      "end_date": "2024-01-22",
+      "fav_outcome": "No",
+      "fav_price": 0.935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Trump lose the New Hampshire Primary?",
+      "end_date": "2024-01-22",
+      "fav_outcome": "No",
+      "fav_price": 0.935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Tether Insolvent in 2024?",
+      "end_date": "2024-12-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9925,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will USDC flip USDT in market cap in 2024?",
+      "end_date": "2024-12-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will weed be rescheduled in 2024?",
+      "end_date": "2024-12-31",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Belichick head coach the Falcons in the 2024-25 NFL season?",
+      "end_date": "2024-09-04",
+      "fav_outcome": "No",
+      "fav_price": 0.9915,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Belichick not be head coach in the 2024-25 NFL season?",
+      "end_date": "2024-09-04",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9825,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Belichick head coach the Chargers in the 2024-25 NFL season?",
+      "end_date": "2024-09-04",
+      "fav_outcome": "No",
+      "fav_price": 0.9795,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Belichick head coach the Commanders in the 2024-25 NFL season?",
+      "end_date": "2024-09-04",
+      "fav_outcome": "No",
+      "fav_price": 0.9155,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Belichick head coach the Cowboys in the 2024-25 NFL season?",
+      "end_date": "2024-09-04",
+      "fav_outcome": "No",
+      "fav_price": 0.993,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Belichick head coach the Titans in the 2024-25 NFL season?",
+      "end_date": "2024-09-04",
+      "fav_outcome": "No",
+      "fav_price": 0.9885,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Belichick head coach the Giants in the 2024-25 NFL season?",
+      "end_date": "2024-09-04",
+      "fav_outcome": "No",
+      "fav_price": 0.991,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Belichick head coach the Eagles in the 2024-25 NFL season?",
+      "end_date": "2024-09-04",
+      "fav_outcome": "No",
+      "fav_price": 0.9905,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Kamala Harris be the Democratic VP nominee?",
+      "end_date": "2024-08-22",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Finnish Presidential Election: Will Li Andersson win?",
+      "end_date": "2024-01-26",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Finnish Presidential Election: Will Sari Essayah win?",
+      "end_date": "2024-01-26",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Finnish Presidential Election: Will Mika Aaltola win?",
+      "end_date": "2024-01-26",
+      "fav_outcome": "No",
+      "fav_price": 0.9925,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Finnish Presidential Election: Will Harry Harkimo win?",
+      "end_date": "2024-01-26",
+      "fav_outcome": "No",
+      "fav_price": 0.986,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Finnish Presidential Election: Will Paavo Vayrynen win?",
+      "end_date": "2024-01-26",
+      "fav_outcome": "No",
+      "fav_price": 0.99,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Donald Trump win the South Carolina Republican Primary?",
+      "end_date": "2024-02-21",
+      "fav_outcome": "Yes",
+      "fav_price": 0.991,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Nikki Haley win the South Carolina Republican Primary?",
+      "end_date": "2024-02-21",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Ron DeSantis win the South Carolina Republican Primary?",
+      "end_date": "2024-02-21",
+      "fav_outcome": "No",
+      "fav_price": 0.9925,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will another candidate win the South Carolina Republican Primary?",
+      "end_date": "2024-02-21",
+      "fav_outcome": "No",
+      "fav_price": 0.9985,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Finnish Presidential Election: Will another candidate win?",
+      "end_date": "2024-01-26",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Andrew Tate guilty of human trafficking in 2024?",
+      "end_date": "2024-12-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Sherrone Moore be the next head coach of the Michigan Wolverines?",
+      "end_date": "2024-08-22",
+      "fav_outcome": "Yes",
+      "fav_price": 0.97,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Jim Harbaugh be the next head coach of the Michigan Wolverines?",
+      "end_date": "2024-08-22",
+      "fav_outcome": "No",
+      "fav_price": 0.9905,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Chris Klieman be the next head coach of the Michigan Wolverines?",
+      "end_date": "2024-08-22",
+      "fav_outcome": "No",
+      "fav_price": 0.9885,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Brian Kelly be the next head coach of the Michigan Wolverines?",
+      "end_date": "2024-08-22",
+      "fav_outcome": "No",
+      "fav_price": 0.9755,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will someone else be the next head coach of the Michigan Wolverines?",
+      "end_date": "2024-08-22",
+      "fav_outcome": "No",
+      "fav_price": 0.9905,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "El Salvador Presidential Election: Will Nayib Bukele win?",
+      "end_date": "2024-02-02",
+      "fav_outcome": "Yes",
+      "fav_price": 0.987,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Cillian Murphy win the Oscar for Best Actor?",
+      "end_date": "2024-03-08",
+      "fav_outcome": "Yes",
+      "fav_price": 0.89,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Paul Giamatti win the Oscar for Best Actor?",
+      "end_date": "2024-03-08",
+      "fav_outcome": "No",
+      "fav_price": 0.9,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Colman Domingo win the Oscar for Best Actor?",
+      "end_date": "2024-03-08",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Jeffrey Wright win the Oscar for Best Actor?",
+      "end_date": "2024-03-08",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Andrew Scott win the Oscar for Best Actor?",
+      "end_date": "2024-03-08",
+      "fav_outcome": "No",
+      "fav_price": 0.86,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Bradley Cooper win the Oscar for Best Actor?",
+      "end_date": "2024-03-08",
+      "fav_outcome": "No",
+      "fav_price": 0.985,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Leonardo DiCaprio win the Oscar for Best Actor?",
+      "end_date": "2024-03-08",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "More hostages in Gaza freed by Feb 29?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.965,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will someone else win the Oscar for Best Actor?",
+      "end_date": "2024-03-08",
+      "fav_outcome": "No",
+      "fav_price": 0.99,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the median gas price per blob be <0.0001 ETH one month after EIP-4844?",
+      "end_date": "2024-12-29",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9825,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the median gas price per blob be between 0.0001 and 0.001 ETH one month after EIP-4844?",
+      "end_date": "2024-12-29",
+      "fav_outcome": "No",
+      "fav_price": 0.992,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the median gas price per blob be between 0.001 and 0.01 ETH one month after EIP-4844?",
+      "end_date": "2024-12-29",
+      "fav_outcome": "No",
+      "fav_price": 0.986,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the median gas price per blob be between 0.01 and 0.1 ETH one month after EIP-4844?",
+      "end_date": "2024-12-29",
+      "fav_outcome": "No",
+      "fav_price": 0.991,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "EIP-4844 doesn't launch by end of 2024?",
+      "end_date": "2024-12-29",
+      "fav_outcome": "No",
+      "fav_price": 0.993,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the median gas price per blob be >=0.1 ETH one month after EIP-4844?",
+      "end_date": "2024-12-29",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Iran or Pakistan declare war against the other in January?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.99,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Spirit Airlines announce bankruptcy by Jan 31?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.988,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will 'Dune: Part Two' gross under $70m opening weekend?",
+      "end_date": "2024-03-01",
+      "fav_outcome": "No",
+      "fav_price": 0.947,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will 'Dune: Part Two' gross between $90m-100m opening weekend?",
+      "end_date": "2024-03-01",
+      "fav_outcome": "No",
+      "fav_price": 0.87,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will 'Dune: Part Two' gross over $100m opening weekend?",
+      "end_date": "2024-03-01",
+      "fav_outcome": "No",
+      "fav_price": 0.905,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Tim Scott win the 2024 Republican VP nomination?",
+      "end_date": "2024-09-06",
+      "fav_outcome": "No",
+      "fav_price": 0.9785,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Elise Stefanik win the 2024 Republican VP nomination?",
+      "end_date": "2024-09-06",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Kristi Noem win the 2024 Republican VP nomination?",
+      "end_date": "2024-09-06",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Vivek Ramaswamy win the 2024 Republican VP nomination?",
+      "end_date": "2024-09-06",
+      "fav_outcome": "No",
+      "fav_price": 0.98,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Nikki Haley win the 2024 Republican VP nomination?",
+      "end_date": "2024-09-06",
+      "fav_outcome": "No",
+      "fav_price": 0.9875,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Kari Lake win the 2024 Republican VP nomination?",
+      "end_date": "2024-09-06",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Byron Donalds win the 2024 Republican VP nomination?",
+      "end_date": "2024-09-06",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Robert F. Kennedy Jr. win the 2024 Republican VP nomination?",
+      "end_date": "2024-09-06",
+      "fav_outcome": "No",
+      "fav_price": 0.9635,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Ron DeSantis win the 2024 Republican VP nomination?",
+      "end_date": "2024-09-06",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Tucker Carlson win the 2024 Republican VP nomination?",
+      "end_date": "2024-09-06",
+      "fav_outcome": "No",
+      "fav_price": 0.9925,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Nawaz Sharif be next prime minister of Pakistan?",
+      "end_date": "2024-02-06",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9685,
+      "winner": "No",
+      "b_correct": true,
+      "c_correct": false
+    },
+    {
+      "title": "Will Bilawal Bhutto Zardari be next prime minister of Pakistan?",
+      "end_date": "2024-02-06",
+      "fav_outcome": "No",
+      "fav_price": 0.9745,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Ben Carson win the 2024 Republican VP nomination?",
+      "end_date": "2024-09-06",
+      "fav_outcome": "No",
+      "fav_price": 0.9585,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will a nuclear weapon detonate in 2024?",
+      "end_date": "2024-12-30",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Argentina dollarize in 2024?",
+      "end_date": "2024-12-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9885,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Reddit IPO at a less than $2.5b valuation?",
+      "end_date": "2024-12-29",
+      "fav_outcome": "No",
+      "fav_price": 0.993,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Reddit IPO at between $2.5b-5b valuation?",
+      "end_date": "2024-12-29",
+      "fav_outcome": "No",
+      "fav_price": 0.973,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Reddit IPO at between $10b-12.5b valuation?",
+      "end_date": "2024-12-29",
+      "fav_outcome": "No",
+      "fav_price": 0.925,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Reddit IPO at between $12.5b-15b valuation?",
+      "end_date": "2024-12-29",
+      "fav_outcome": "No",
+      "fav_price": 0.982,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Reddit IPO at a greater than $15b valuation?",
+      "end_date": "2024-12-29",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "No Reddit IPO in 2024",
+      "end_date": "2024-12-29",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Sundar Pichai out as Google CEO in 2024?",
+      "end_date": "2024-12-31",
+      "fav_outcome": "No",
+      "fav_price": 0.987,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "WIF listed on Coinbase or Binance?",
+      "end_date": "2024-02-15",
+      "fav_outcome": "No",
+      "fav_price": 0.991,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Houthis strike U.S. military by end of January?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Donald Trump be President of the USA on April 30, 2024?",
+      "end_date": "2024-04-30",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Did MrBeast's Twitter post with over 124m views make between $0 and $5k?",
+      "end_date": "2024-01-24",
+      "fav_outcome": "No",
+      "fav_price": 0.875,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will MrBeast not say how much his Twitter post with over 124m views made?",
+      "end_date": "2024-01-24",
+      "fav_outcome": "No",
+      "fav_price": 0.9905,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Israel invade Lebanon before March?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.9925,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Joe Biden win the New Hampshire Democratic primary?",
+      "end_date": "2024-01-21",
+      "fav_outcome": "Yes",
+      "fav_price": 0.991,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Dean Phillips win the New Hampshire Democratic primary?",
+      "end_date": "2024-01-21",
+      "fav_outcome": "No",
+      "fav_price": 0.987,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Marianne Williamson win the New Hampshire Democratic primary?",
+      "end_date": "2024-01-21",
+      "fav_outcome": "No",
+      "fav_price": 0.9995,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will another candidate win the New Hampshire Democratic primary?",
+      "end_date": "2024-01-21",
+      "fav_outcome": "No",
+      "fav_price": 0.9995,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Nikki Haley drop out before South Carolina primary?",
+      "end_date": "2024-02-24",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will US attack Iran by February 15?",
+      "end_date": "2024-02-15",
+      "fav_outcome": "No",
+      "fav_price": 0.9895,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Russia invade Alaska before March?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.9925,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will MrBeast's giveaway tweet be reposted <1.5m times?",
+      "end_date": "2024-01-23",
+      "fav_outcome": "No",
+      "fav_price": 0.9995,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will MrBeast's giveaway tweet be reposted between 1.5-2m times?",
+      "end_date": "2024-01-23",
+      "fav_outcome": "No",
+      "fav_price": 0.992,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will MrBeast's giveaway tweet be reposted between 2-2.5m times?",
+      "end_date": "2024-01-23",
+      "fav_outcome": "No",
+      "fav_price": 0.97,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will MrBeast's giveaway tweet be reposted between 3-3.5m times?",
+      "end_date": "2024-01-23",
+      "fav_outcome": "No",
+      "fav_price": 0.9845,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will ETH dip below $2,000 by end of Jan?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9915,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Imran Khan be next prime minister of Pakistan?",
+      "end_date": "2024-02-06",
+      "fav_outcome": "No",
+      "fav_price": 0.9895,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Annette Bening win the Oscar for Best Actress?",
+      "end_date": "2024-03-09",
+      "fav_outcome": "No",
+      "fav_price": 0.985,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Sandra H\u00fcller win the Oscar for Best Actress?",
+      "end_date": "2024-03-09",
+      "fav_outcome": "No",
+      "fav_price": 0.9735,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Carey Mulligan win the Oscar for Best Actress?",
+      "end_date": "2024-03-09",
+      "fav_outcome": "No",
+      "fav_price": 0.9905,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Justine Triet win the Oscar for Best Director?",
+      "end_date": "2024-03-08",
+      "fav_outcome": "No",
+      "fav_price": 0.9915,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Martin Scorsese win the Oscar for Best Director?",
+      "end_date": "2024-03-08",
+      "fav_outcome": "No",
+      "fav_price": 0.979,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Christopher Nolan win the Oscar for Best Director?",
+      "end_date": "2024-03-08",
+      "fav_outcome": "Yes",
+      "fav_price": 0.955,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Yorgos Lanthimos win the Oscar for Best Director?",
+      "end_date": "2024-03-08",
+      "fav_outcome": "No",
+      "fav_price": 0.9745,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Jonathan Glazer win the Oscar for Best Director?",
+      "end_date": "2024-03-08",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Ring of Fire have no official winner?",
+      "end_date": "2024-05-18",
+      "fav_outcome": "No",
+      "fav_price": 0.9345,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Trump and Biden debate before Election?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9905,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Martha Pollack out as Cornell President before March?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.9895,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Minouche Shafik out as Columbia President before March?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.9925,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "$WIF all time high before February? ",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.937,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Jim Cramer tweet bitcoin 5+ times Jan 26-Feb 1?",
+      "end_date": "2024-01-30",
+      "fav_outcome": "No",
+      "fav_price": 0.895,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will America ban Zyn in 2024?",
+      "end_date": "2024-12-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Trump win the South Carolina Primary by between 10-20% of the vote?",
+      "end_date": "2024-02-22",
+      "fav_outcome": "No",
+      "fav_price": 0.902,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Trump win the South Carolina Primary by between 40-50% of the vote?",
+      "end_date": "2024-02-22",
+      "fav_outcome": "No",
+      "fav_price": 0.875,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Trump win the South Carolina Primary by more than 50% of the vote?",
+      "end_date": "2024-02-22",
+      "fav_outcome": "No",
+      "fav_price": 0.95,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Israel attack Iran by February 15?",
+      "end_date": "2024-02-15",
+      "fav_outcome": "No",
+      "fav_price": 0.9845,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Trump win the South Carolina Primary by less than 10% of the vote?",
+      "end_date": "2024-02-22",
+      "fav_outcome": "No",
+      "fav_price": 0.972,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "COVID lab leak confirmed by US in 2024?",
+      "end_date": "2024-12-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will May December win the Oscar for Best Original Screenplay?",
+      "end_date": "2024-03-08",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Past Lives win the Oscar for Best Original Screenplay?",
+      "end_date": "2024-03-08",
+      "fav_outcome": "No",
+      "fav_price": 0.971,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Maestro win the Oscar for Best Original Screenplay?",
+      "end_date": "2024-03-08",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Zone of Interest win the Oscar for Best Adapted Screenplay?",
+      "end_date": "2024-03-08",
+      "fav_outcome": "No",
+      "fav_price": 0.983,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Barbie win the Oscar for Best Adapted Screenplay?",
+      "end_date": "2024-03-08",
+      "fav_outcome": "No",
+      "fav_price": 0.895,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Poor Things win the Oscar for Best Adapted Screenplay?",
+      "end_date": "2024-03-08",
+      "fav_outcome": "No",
+      "fav_price": 0.9605,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Sarah Huckabee Sanders win the 2024 Republican VP nomination?",
+      "end_date": "2024-09-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9855,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Mark Ruffalo win the Oscar for Best Supporting Actor?",
+      "end_date": "2024-03-08",
+      "fav_outcome": "No",
+      "fav_price": 0.986,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Robert De Niro win the Oscar for Best Supporting Actor?",
+      "end_date": "2024-03-08",
+      "fav_outcome": "No",
+      "fav_price": 0.98,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Robert Downey Jr. win the Oscar for Best Supporting Actor?",
+      "end_date": "2024-03-08",
+      "fav_outcome": "Yes",
+      "fav_price": 0.935,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Sterling K. Brown win the Oscar for Best Supporting Actor?",
+      "end_date": "2024-03-08",
+      "fav_outcome": "No",
+      "fav_price": 0.989,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Ryan Gosling win the Oscar for Best Supporting Actor?",
+      "end_date": "2024-03-08",
+      "fav_outcome": "No",
+      "fav_price": 0.97,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will America Ferrera win the Oscar for Best Supporting Actress?",
+      "end_date": "2024-03-08",
+      "fav_outcome": "No",
+      "fav_price": 0.988,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Danielle Brooks win the Oscar for Best Supporting Actress?",
+      "end_date": "2024-03-08",
+      "fav_outcome": "No",
+      "fav_price": 0.9815,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Da'Vine Joy Randolph win the Oscar for Best Supporting Actress?",
+      "end_date": "2024-03-08",
+      "fav_outcome": "Yes",
+      "fav_price": 0.965,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Emily Blunt win the Oscar for Best Supporting Actress?",
+      "end_date": "2024-03-08",
+      "fav_outcome": "No",
+      "fav_price": 0.978,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Jodie Foster win the Oscar for Best Supporting Actress?",
+      "end_date": "2024-03-08",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Katie Britt win the 2024 Republican VP nomination?",
+      "end_date": "2024-09-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Nancy Mace win the 2024 Republican VP nomination?",
+      "end_date": "2024-09-05",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Marjorie Taylor Greene win the 2024 Republican VP nomination?",
+      "end_date": "2024-09-05",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Border + Ukraine aid deal by Feb 9?",
+      "end_date": "2024-02-09",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "US government shutdown by Mar 9?",
+      "end_date": "2024-03-09",
+      "fav_outcome": "No",
+      "fav_price": 0.9645,
+      "winner": "Yes",
+      "b_correct": true,
+      "c_correct": false
+    },
+    {
+      "title": "GRAMMYs 2024: Will \"A&W\" by Lana Del Rey win Song of the Year?",
+      "end_date": "2024-02-02",
+      "fav_outcome": "No",
+      "fav_price": 0.969,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "GRAMMYs 2024: Will \"Butterfly\" by Jon Batiste win Song of the Year?",
+      "end_date": "2024-02-02",
+      "fav_outcome": "No",
+      "fav_price": 0.91,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "GRAMMYs 2024: Will \"Dance The Night\" by Dua Lipa win Song of the Year?",
+      "end_date": "2024-02-02",
+      "fav_outcome": "No",
+      "fav_price": 0.976,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "GRAMMYs 2024: Will \"Flowers\" by Miley Cyrus win Song of the Year?",
+      "end_date": "2024-02-02",
+      "fav_outcome": "No",
+      "fav_price": 0.925,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "GRAMMYs 2024: Will \"Vampire\" by Olivia Rodrigo win Song of the Year?",
+      "end_date": "2024-02-02",
+      "fav_outcome": "No",
+      "fav_price": 0.95,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "GRAMMYs 2024: Will \u2018Worship\u2019 by Jon Batiste win Record of the Year?",
+      "end_date": "2024-02-02",
+      "fav_outcome": "No",
+      "fav_price": 0.9915,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "GRAMMYs 2024: Will \u2018Not Strong Enough\u2019 by boygenius win Record of the Year?",
+      "end_date": "2024-02-02",
+      "fav_outcome": "No",
+      "fav_price": 0.975,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "GRAMMYs 2024: Will \u2018On My Mama\u2019 by Victoria Monet win Record of the Year?",
+      "end_date": "2024-02-02",
+      "fav_outcome": "No",
+      "fav_price": 0.991,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "GRAMMYs 2024: Will \u2018Vampire\u2019 by Olivia Rodrigo win Record of the Year?",
+      "end_date": "2024-02-02",
+      "fav_outcome": "No",
+      "fav_price": 0.9885,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "GRAMMYs 2024: Will \u2018World Music Radio\u2019 by Jon Batiste win Album of the Year?",
+      "end_date": "2024-02-02",
+      "fav_outcome": "No",
+      "fav_price": 0.96,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "GRAMMYs 2024: Will \u2019the record\u2019 by boygenius win Album of the Year?",
+      "end_date": "2024-02-02",
+      "fav_outcome": "No",
+      "fav_price": 0.935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "GRAMMYs 2024: Will \u2018Endless Summer Vacation\u2019 by Miley Cyrus win Album of the Year?",
+      "end_date": "2024-02-02",
+      "fav_outcome": "No",
+      "fav_price": 0.975,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "GRAMMYs 2024: Will \u2018Did You Know That There\u2019s A Tunnel Under Ocean Blvd\u2019 by Lana Del Rey win Album of the Year?",
+      "end_date": "2024-02-02",
+      "fav_outcome": "No",
+      "fav_price": 0.975,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "GRAMMYs 2024: Will \u2018The Age Of Pleasure\u2019 Janelle Monae win Album of the Year?",
+      "end_date": "2024-02-02",
+      "fav_outcome": "No",
+      "fav_price": 0.975,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "GRAMMYs 2024: Will \u2018GUTS\u2019 by Olivia Rodrigo win Album of the Year?",
+      "end_date": "2024-02-02",
+      "fav_outcome": "No",
+      "fav_price": 0.98,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Istanbul Mayoral Election 2024: Will another party win?",
+      "end_date": "2024-03-31",
+      "fav_outcome": "No",
+      "fav_price": 0.99,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will US resume UNRWA funding before March?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Trump tweet again by April 1?",
+      "end_date": "2024-04-01",
+      "fav_outcome": "No",
+      "fav_price": 0.9885,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Zvbear arrested before February?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9875,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the US ban sharing deepfake nudes in 2024?",
+      "end_date": "2024-12-31",
+      "fav_outcome": "No",
+      "fav_price": 0.985,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Israel x Hamas ceasefire before March?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.975,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Taylor Swift attend the Super Bowl?",
+      "end_date": "2024-02-11",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9565,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Travis Kelce propose to Taylor Swift at the Super Bowl?",
+      "end_date": "2024-02-11",
+      "fav_outcome": "No",
+      "fav_price": 0.95,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Nikki Haley drop out before Super Tuesday?",
+      "end_date": "2024-03-05",
+      "fav_outcome": "No",
+      "fav_price": 0.993,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the feds cut the razor wire in Shelby Park, Texas?",
+      "end_date": "2024-02-15",
+      "fav_outcome": "No",
+      "fav_price": 0.9755,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "US/Iran declare war before March?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.9885,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "OpenSea acquired before March?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.9755,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Ben Armstrong vs. More Light have no official winner?",
+      "end_date": "2024-12-29",
+      "fav_outcome": "No",
+      "fav_price": 0.915,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Mike Pompeo win the 2024 Republican VP nomination?",
+      "end_date": "2024-09-09",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Marco Rubio win the 2024 Republican VP nomination?",
+      "end_date": "2024-09-09",
+      "fav_outcome": "No",
+      "fav_price": 0.913,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Wesley Hunt win the 2024 Republican VP nomination?",
+      "end_date": "2024-09-09",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Henry McMaster win the 2024 Republican VP nomination?",
+      "end_date": "2024-09-09",
+      "fav_outcome": "No",
+      "fav_price": 0.9925,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "US response to Iran\u2019s drone attack by Jan 31?",
+      "end_date": "2024-01-31",
+      "fav_outcome": "No",
+      "fav_price": 0.974,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Lee Zeldin win the 2024 Republican VP nomination?",
+      "end_date": "2024-09-09",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will a Trump family member win the 2024 Republican VP nomination?",
+      "end_date": "2024-09-09",
+      "fav_outcome": "No",
+      "fav_price": 0.9925,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will another woman win the 2024 Republican VP nomination?",
+      "end_date": "2024-09-09",
+      "fav_outcome": "No",
+      "fav_price": 0.9825,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Mike Pence win the 2024 Republican VP nomination?",
+      "end_date": "2024-09-09",
+      "fav_outcome": "No",
+      "fav_price": 0.9915,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Joe Biden be President of the United States on June 1, 2024?",
+      "end_date": "2024-06-01",
+      "fav_outcome": "Yes",
+      "fav_price": 0.99,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Taylor Swift endorse Biden at the Super Bowl?",
+      "end_date": "2024-02-11",
+      "fav_outcome": "No",
+      "fav_price": 0.981,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Copenhagen win the 2023-24 Champions League?",
+      "end_date": "2024-05-30",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Real Sociedad win the 2023-24 Champions League?",
+      "end_date": "2024-05-30",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will PSV win the 2023-24 Champions League?",
+      "end_date": "2024-05-30",
+      "fav_outcome": "No",
+      "fav_price": 0.992,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Porto win the 2023-24 Champions League?",
+      "end_date": "2024-05-30",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will RB Leipzig win the 2023-24 Champions League?",
+      "end_date": "2024-05-30",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Lazio win the 2023-24 Champions League?",
+      "end_date": "2024-05-30",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Inter win the 2023-24 Champions League?",
+      "end_date": "2024-05-30",
+      "fav_outcome": "No",
+      "fav_price": 0.91,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Atletico Madrid win the 2023-24 Champions League?",
+      "end_date": "2024-05-30",
+      "fav_outcome": "No",
+      "fav_price": 0.925,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Napoli win the 2023-24 Champions League?",
+      "end_date": "2024-05-30",
+      "fav_outcome": "No",
+      "fav_price": 0.9925,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Barcelona win the 2023-24 Champions League?",
+      "end_date": "2024-05-30",
+      "fav_outcome": "No",
+      "fav_price": 0.872,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will JUP be below $0.40 one day after airdrop?",
+      "end_date": "2024-01-30",
+      "fav_outcome": "No",
+      "fav_price": 0.979,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will JUP be above $1.00 one day after airdrop?",
+      "end_date": "2024-01-30",
+      "fav_outcome": "No",
+      "fav_price": 0.977,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will 'Argylle' gross under $20m opening weekend?",
+      "end_date": "2024-02-03",
+      "fav_outcome": "Yes",
+      "fav_price": 0.89,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will 'Argylle' gross between $20m and $25m opening weekend?",
+      "end_date": "2024-02-03",
+      "fav_outcome": "No",
+      "fav_price": 0.91,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will 'Argylle' gross between $25m and $30m opening weekend?",
+      "end_date": "2024-02-03",
+      "fav_outcome": "No",
+      "fav_price": 0.96,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will 'Argylle' gross over $30m opening weekend?",
+      "end_date": "2024-02-03",
+      "fav_outcome": "No",
+      "fav_price": 0.987,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Is John McAfee alive?",
+      "end_date": "2024-12-31",
+      "fav_outcome": "No",
+      "fav_price": 0.992,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Ilhan Omar expelled from Congress before March?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.9905,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will FTX payouts start in Q1 2024?",
+      "end_date": "2024-03-29",
+      "fav_outcome": "No",
+      "fav_price": 0.992,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will FTX payouts start in Q2 2024?",
+      "end_date": "2024-06-28",
+      "fav_outcome": "No",
+      "fav_price": 0.9825,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will FTX payouts start in Q3 2024?",
+      "end_date": "2024-09-28",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will FTX payouts start in Q4 2024?",
+      "end_date": "2024-12-29",
+      "fav_outcome": "No",
+      "fav_price": 0.9885,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "FTX doesn't start payouts in 2024?",
+      "end_date": "2024-12-30",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9945,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Sinema announce she's running for re-election?",
+      "end_date": "2024-04-08",
+      "fav_outcome": "No",
+      "fav_price": 0.945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will JUP be below $0.40 one week after airdrop?",
+      "end_date": "2024-02-05",
+      "fav_outcome": "No",
+      "fav_price": 0.95,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will JUP be above $1.00 one week after airdrop?",
+      "end_date": "2024-02-05",
+      "fav_outcome": "No",
+      "fav_price": 0.95,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Canada federal election in 2024?",
+      "end_date": "2024-12-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the Fed decrease interest rates by 50+ bps after its March 2024 meeting?",
+      "end_date": "2024-03-18",
+      "fav_outcome": "No",
+      "fav_price": 0.9905,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "No change in Fed raise interest rates after its 2024 March meeting?",
+      "end_date": "2024-03-18",
+      "fav_outcome": "Yes",
+      "fav_price": 0.985,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the Fed decrease interest rates by 25 bps after its 2024 March meeting?",
+      "end_date": "2024-03-18",
+      "fav_outcome": "No",
+      "fav_price": 0.993,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the Fed raise interest rates by 25+ bps after its 2024 March meeting?",
+      "end_date": "2024-03-18",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Fed rate cut by June 12?",
+      "end_date": "2024-06-12",
+      "fav_outcome": "No",
+      "fav_price": 0.9755,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will 'Deadpool 3' gross most in 2024?",
+      "end_date": "2024-12-29",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will 'Dune: Part 2' gross most in 2024?",
+      "end_date": "2024-12-29",
+      "fav_outcome": "No",
+      "fav_price": 0.9915,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will 'Joker 2' gross most in 2024?",
+      "end_date": "2024-12-29",
+      "fav_outcome": "No",
+      "fav_price": 0.993,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will 'Furiosa: A Mad Max Saga' gross most in 2024?",
+      "end_date": "2024-12-29",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will 'Despicable Me 4' gross most in 2024?",
+      "end_date": "2024-12-29",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will 'Inside Out 2' gross most in 2024?",
+      "end_date": "2024-12-29",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9945,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will another movie gross most in 2024?",
+      "end_date": "2024-12-29",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "US bank failure in February?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.986,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Michelle Obama announce presidential run before August?",
+      "end_date": "2024-07-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Andrew Tate launch a cryptocurrency in February?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.9885,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "New Zhu Su/Kyle Davies crypto company before March?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.895,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Ukraine aid package in February?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.9795,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the Gatorade shower at 2024 Super Bowl be blue?",
+      "end_date": "2024-02-09",
+      "fav_outcome": "No",
+      "fav_price": 0.855,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the Gatorade shower at 2024 Super Bowl be clear/water?",
+      "end_date": "2024-02-09",
+      "fav_outcome": "No",
+      "fav_price": 0.91,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "No Gatorade shower at Super Bowl 58?",
+      "end_date": "2024-02-09",
+      "fav_outcome": "No",
+      "fav_price": 0.9375,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "TikTok/UMG deal before March?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.955,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Tony Snell be signed today?",
+      "end_date": "2024-02-02",
+      "fav_outcome": "No",
+      "fav_price": 0.925,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will US gain 300k-353k jobs in February?",
+      "end_date": "2024-03-05",
+      "fav_outcome": "No",
+      "fav_price": 0.895,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will US gain more than 353k jobs in February?",
+      "end_date": "2024-03-05",
+      "fav_outcome": "No",
+      "fav_price": 0.885,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Farcaster unique users less than 15k on Feb 5?",
+      "end_date": "2024-02-03",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Farcaster unique users between 15-20k on Feb 5?",
+      "end_date": "2024-02-03",
+      "fav_outcome": "No",
+      "fav_price": 0.9865,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Farcaster unique users between 20-25k on Feb 5?",
+      "end_date": "2024-02-03",
+      "fav_outcome": "No",
+      "fav_price": 0.9795,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Farcaster's growth peak on Sunday?",
+      "end_date": "2024-02-07",
+      "fav_outcome": "No",
+      "fav_price": 0.945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Farcaster's growth peak on Thursday?",
+      "end_date": "2024-02-07",
+      "fav_outcome": "No",
+      "fav_price": 0.945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Larry Sukernik last the longest-lasting of the listed Cryptothegame participants?",
+      "end_date": "2024-05-30",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will mgiuelpf last the longest-lasting of the listed Cryptothegame participants?",
+      "end_date": "2024-05-30",
+      "fav_outcome": "No",
+      "fav_price": 0.9985,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Lito Coen last the longest-lasting of the listed Cryptothegame participants?",
+      "end_date": "2024-05-30",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will 3lau last the longest-lasting of the listed Cryptothegame participants?",
+      "end_date": "2024-05-30",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will web3brett last the longest-lasting of the listed Cryptothegame participants?",
+      "end_date": "2024-05-30",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Anish Agnihotri win Crypto: The Game?",
+      "end_date": "2024-05-31",
+      "fav_outcome": "No",
+      "fav_price": 0.969,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Jesse Pollak win Crypto: The Game?",
+      "end_date": "2024-05-31",
+      "fav_outcome": "No",
+      "fav_price": 0.99,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Goldy win Crypto: The Game?",
+      "end_date": "2024-05-31",
+      "fav_outcome": "No",
+      "fav_price": 0.985,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Gabriel Haines win Crypto: The Game?",
+      "end_date": "2024-05-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will BeraMVP win Crypto: The Game?",
+      "end_date": "2024-05-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9745,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Packy McCormick win Crypto: The Game?",
+      "end_date": "2024-05-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9675,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will lito.eth win Crypto: The Game?",
+      "end_date": "2024-05-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will DeeZe win Crypto: The Game?",
+      "end_date": "2024-05-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Tucker Carlson interview Putin in February?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "Yes",
+      "fav_price": 0.991,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Super Bowl LVIII: Travis Kelce scores first touchdown?",
+      "end_date": "2024-02-10",
+      "fav_outcome": "No",
+      "fav_price": 0.895,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Adam Neumann buy back WeWork in February?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.9885,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Warpcast break top 5 on the iOS App Store in February?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Solana Network go down again in February?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.981,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Warpcast flip X on the app store in February?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Super Bowl LVIII: Overtime?",
+      "end_date": "2024-02-10",
+      "fav_outcome": "No",
+      "fav_price": 0.925,
+      "winner": "Yes",
+      "b_correct": true,
+      "c_correct": false
+    },
+    {
+      "title": "Tucker Carlson + Putin interview released by Friday?",
+      "end_date": "2024-02-09",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9475,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Super Bowl LVIII: Will the Chiefs win by more than 21 points?",
+      "end_date": "2024-02-09",
+      "fav_outcome": "No",
+      "fav_price": 0.95,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Super Bowl LVIII: Will the Chiefs win by between 1 and 2 points?",
+      "end_date": "2024-02-09",
+      "fav_outcome": "No",
+      "fav_price": 0.915,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Super Bowl LVIII: Will the 49ers win by between 1 and 2 points?",
+      "end_date": "2024-02-09",
+      "fav_outcome": "No",
+      "fav_price": 0.92,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Super Bowl LVIII: Will the 49ers win by more than 21 points?",
+      "end_date": "2024-02-09",
+      "fav_outcome": "No",
+      "fav_price": 0.95,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Super Bowl LVIII: Will the Chiefs win by between 15 and 21 points?",
+      "end_date": "2024-02-09",
+      "fav_outcome": "No",
+      "fav_price": 0.945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Super Bowl LVIII: Will the 49ers win by between 15 and 21 points?",
+      "end_date": "2024-02-09",
+      "fav_outcome": "No",
+      "fav_price": 0.93,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Adam Neumann buy back WeWork in 2024?",
+      "end_date": "2024-12-31",
+      "fav_outcome": "No",
+      "fav_price": 0.99,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Super Bowl LVIII: Will Usher's first song of the Super Bowl LVIII Halftime Show be \"OMG\"?",
+      "end_date": "2024-02-09",
+      "fav_outcome": "No",
+      "fav_price": 0.915,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Super Bowl LVIII: Will Usher's first song of the Super Bowl LVIII Halftime Show be \"Yeah!\"?",
+      "end_date": "2024-02-09",
+      "fav_outcome": "No",
+      "fav_price": 0.925,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Super Bowl LVIII: Will Usher's first song of the Super Bowl LVIII Halftime Show be \"DJ Got Us Fallin\u2019 In Love\"?",
+      "end_date": "2024-02-09",
+      "fav_outcome": "No",
+      "fav_price": 0.935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Super Bowl LVIII: Will Usher's first song of the Super Bowl LVIII Halftime Show be something else?",
+      "end_date": "2024-02-09",
+      "fav_outcome": "No",
+      "fav_price": 0.905,
+      "winner": "Yes",
+      "b_correct": true,
+      "c_correct": false
+    },
+    {
+      "title": "Mayorkas impeached by Feb 15?",
+      "end_date": "2024-02-15",
+      "fav_outcome": "Yes",
+      "fav_price": 0.88,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Ronna Mcdaniel step down as RNC Chair before Super Tuesday?",
+      "end_date": "2024-03-05",
+      "fav_outcome": "No",
+      "fav_price": 0.987,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Yahya Sinwar still at large through February?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9845,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Wormhole airdrop in February?",
+      "end_date": "2024-02-28",
+      "fav_outcome": "No",
+      "fav_price": 0.92,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Wormhole airdrop in March?",
+      "end_date": "2024-03-30",
+      "fav_outcome": "No",
+      "fav_price": 0.93,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Wormhole airdrop in April?",
+      "end_date": "2024-04-29",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9755,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Wormhole airdrop in May?",
+      "end_date": "2024-05-30",
+      "fav_outcome": "No",
+      "fav_price": 0.875,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Wormhole airdrop in June?",
+      "end_date": "2024-06-29",
+      "fav_outcome": "No",
+      "fav_price": 0.9,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "No Wormhole airdrop before July?",
+      "end_date": "2024-06-29",
+      "fav_outcome": "No",
+      "fav_price": 0.8955,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Vladimir Putin say Kissinger in his upcoming interview with Tucker Carlson?",
+      "end_date": "2024-02-07",
+      "fav_outcome": "No",
+      "fav_price": 0.935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Vladimir Putin say Prigozhin in his upcoming interview with Tucker Carlson?",
+      "end_date": "2024-02-07",
+      "fav_outcome": "No",
+      "fav_price": 0.915,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Vladimir Putin say Merkel in his upcoming interview with Tucker Carlson?",
+      "end_date": "2024-02-07",
+      "fav_outcome": "No",
+      "fav_price": 0.895,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Vladimir Putin say Navalny in his upcoming interview with Tucker Carlson?",
+      "end_date": "2024-02-07",
+      "fav_outcome": "No",
+      "fav_price": 0.905,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Wormhole token FDV less than 4 billion a week after airdrop?",
+      "end_date": "2024-12-29",
+      "fav_outcome": "No",
+      "fav_price": 0.993,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Wormhole token FDV between 4-5 billion a week after airdrop?",
+      "end_date": "2024-12-29",
+      "fav_outcome": "No",
+      "fav_price": 0.991,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Wormhole token FDV between 5-6 billion a week after airdrop?",
+      "end_date": "2024-12-29",
+      "fav_outcome": "No",
+      "fav_price": 0.991,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Wormhole token FDV between 6-7 billion a week after airdrop?",
+      "end_date": "2024-12-30",
+      "fav_outcome": "No",
+      "fav_price": 0.9855,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Wormhole token FDV more than 7 billion a week after airdrop?",
+      "end_date": "2024-12-30",
+      "fav_outcome": "Yes",
+      "fav_price": 0.95,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Biden drop out by Friday?",
+      "end_date": "2024-02-16",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Ether Rock sell for over $600k at Sotheby\u2019s?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.9615,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Sam Altman raise >$1 trillion in Q1 2024?",
+      "end_date": "2024-03-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9905,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Trump election interference trial start in July or earlier?",
+      "end_date": "2024-07-29",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Trump election interference trial start in August?",
+      "end_date": "2024-08-29",
+      "fav_outcome": "No",
+      "fav_price": 0.991,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Trump election interference trial start in September or October?",
+      "end_date": "2024-10-29",
+      "fav_outcome": "No",
+      "fav_price": 0.9915,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Trump election interference trial doesn't start before November?",
+      "end_date": "2024-10-30",
+      "fav_outcome": "Yes",
+      "fav_price": 0.982,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Venezuela invade Guyana in February?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Taylor Swift pregnant in 2024?",
+      "end_date": "2024-12-31",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Biden or Haley drop out first?",
+      "end_date": "2024-11-05",
+      "fav_outcome": "Haley",
+      "fav_price": 0.964,
+      "winner": "Haley",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Taylor Swift engaged in 2024?",
+      "end_date": "2024-12-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9865,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Was the Super Bowl rigged?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "EigenLayer airdrop by June 30?",
+      "end_date": "2024-06-30",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Bitcoin all time high in 2024?",
+      "end_date": "2024-12-31",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9655,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Ethereum all time high in 2024?",
+      "end_date": "2024-12-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Sweden join NATO by March 31?",
+      "end_date": "2024-03-31",
+      "fav_outcome": "Yes",
+      "fav_price": 0.994,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "NY-3 Special Election: Will Suozzi (D) win by over 5%?",
+      "end_date": "2024-02-13",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9925,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will NYC have less than 3.5 inches of snowfall on Tuesday?",
+      "end_date": "2024-02-11",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9745,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will NYC have between 3.5 and 4.5 inches of snowfall on Tuesday?",
+      "end_date": "2024-02-11",
+      "fav_outcome": "No",
+      "fav_price": 0.9905,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will NYC have between 4.5 and 5.5 inches of snowfall on Tuesday?",
+      "end_date": "2024-02-11",
+      "fav_outcome": "No",
+      "fav_price": 0.9995,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will NYC have between 5.5 and 6.5 inches of snowfall on Tuesday?",
+      "end_date": "2024-02-11",
+      "fav_outcome": "No",
+      "fav_price": 0.9995,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will NYC have between 6.5 and 7.5 inches of snowfall on Tuesday?",
+      "end_date": "2024-02-11",
+      "fav_outcome": "No",
+      "fav_price": 0.9995,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will NYC have more than 7.5 inches of snowfall on Tuesday?",
+      "end_date": "2024-02-11",
+      "fav_outcome": "No",
+      "fav_price": 0.9985,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Fed rate cut by July 31?",
+      "end_date": "2024-07-31",
+      "fav_outcome": "No",
+      "fav_price": 0.945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Pudgy Penguins flip BAYC in February?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9565,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Biden cognitive test before April?",
+      "end_date": "2024-03-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Starknet airdrop in February?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9945,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Aleo airdrop by June 30?",
+      "end_date": "2024-06-28",
+      "fav_outcome": "No",
+      "fav_price": 0.9875,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Rabby airdrop by June 30?",
+      "end_date": "2024-06-28",
+      "fav_outcome": "No",
+      "fav_price": 0.991,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Base airdrop by June 30?",
+      "end_date": "2024-06-28",
+      "fav_outcome": "No",
+      "fav_price": 0.9885,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Blast airdrop by June 30?",
+      "end_date": "2024-06-28",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9945,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Friend.Tech airdrop by June 30?",
+      "end_date": "2024-06-28",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9945,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Pudgy Penguins airdrop by June 30?",
+      "end_date": "2024-06-28",
+      "fav_outcome": "No",
+      "fav_price": 0.9865,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Rainbow airdrop by June 30?",
+      "end_date": "2024-06-28",
+      "fav_outcome": "No",
+      "fav_price": 0.99,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Saga airdrop by June 30?",
+      "end_date": "2024-06-28",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9725,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Google or NVIDIA be worth more on March 1?",
+      "end_date": "2024-03-01",
+      "fav_outcome": "NVIDIA",
+      "fav_price": 0.991,
+      "winner": "NVIDIA",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Russian nuke in space by March 31?",
+      "end_date": "2024-03-31",
+      "fav_outcome": "No",
+      "fav_price": 0.9885,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Aevo airdrop by June 30?",
+      "end_date": "2024-06-28",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9805,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Hyperliquid airdrop by June 30?",
+      "end_date": "2024-06-28",
+      "fav_outcome": "Yes",
+      "fav_price": 0.992,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "zkSync airdrop by June 30?",
+      "end_date": "2024-06-28",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9945,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the crypto market cap be less than 1.8 trillion on March 1?",
+      "end_date": "2024-02-27",
+      "fav_outcome": "No",
+      "fav_price": 0.945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will the crypto market cap be between 1.8 trillion and 1.9 trillion on March 1?",
+      "end_date": "2024-02-27",
+      "fav_outcome": "No",
+      "fav_price": 0.945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will OpenAI launch a Web Search Product by March 31?",
+      "end_date": "2024-03-31",
+      "fav_outcome": "No",
+      "fav_price": 0.935,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Ian Miles Cheong be arrested in February?",
+      "end_date": "2024-02-29",
+      "fav_outcome": "No",
+      "fav_price": 0.993,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Linea airdrop by June 30?",
+      "end_date": "2024-06-29",
+      "fav_outcome": "No",
+      "fav_price": 0.9945,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "LayerZero airdrop by June 30?",
+      "end_date": "2024-06-28",
+      "fav_outcome": "Yes",
+      "fav_price": 0.985,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Scroll airdrop by June 30?",
+      "end_date": "2024-06-29",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Tensor airdrop by June 30?",
+      "end_date": "2024-06-28",
+      "fav_outcome": "Yes",
+      "fav_price": 0.975,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Berachain airdrop by June 30?",
+      "end_date": "2024-06-28",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Drift airdrop by June 30?",
+      "end_date": "2024-06-28",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9895,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "MarginFi airdrop by June 30?",
+      "end_date": "2024-06-28",
+      "fav_outcome": "No",
+      "fav_price": 0.994,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Parcl airdrop by June 30?",
+      "end_date": "2024-06-28",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9885,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Dutch government formed before June?",
+      "end_date": "2024-05-31",
+      "fav_outcome": "Yes",
+      "fav_price": 0.97,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Azerbaijan invade Armenia before April?",
+      "end_date": "2024-03-31",
+      "fav_outcome": "No",
+      "fav_price": 0.989,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will ETH hit $3,500 by May 31?",
+      "end_date": "2024-05-31",
+      "fav_outcome": "Yes",
+      "fav_price": 0.915,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Mbapp\u00e9 sign for Real Madrid?",
+      "end_date": "2024-09-01",
+      "fav_outcome": "Yes",
+      "fav_price": 0.9855,
+      "winner": "Yes",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Teo Yoo win the BAFTA for Best Actor?",
+      "end_date": "2024-02-16",
+      "fav_outcome": "No",
+      "fav_price": 0.992,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    },
+    {
+      "title": "Will Paul Giamatti win the BAFTA for Best Actor?",
+      "end_date": "2024-02-16",
+      "fav_outcome": "No",
+      "fav_price": 0.88,
+      "winner": "No",
+      "b_correct": false,
+      "c_correct": true
+    }
+  ]
+}

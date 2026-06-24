@@ -354,61 +354,67 @@
     }
     .slab-win-pct { font-size: 15px; font-weight: 800; color: var(--text); }
 
-    /* ── Strategy Lab 2×2 card grid ── */
-    .strat-grid {
-      display: grid; grid-template-columns: 1fr 1fr;
-      gap: 16px; padding: 20px;
-    }
-    @media (max-width: 640px) { .strat-grid { grid-template-columns: 1fr; } }
+    /* ── Strategy Lab single-column card list ── */
+    .strat-grid { display: flex; flex-direction: column; gap: 12px; padding: 20px; }
     .strat-card {
       background: var(--surface-2); border: 1px solid var(--border);
-      border-radius: 10px; padding: 18px 20px; border-top: 3px solid transparent;
+      border-radius: 10px; overflow: hidden; border-top: 3px solid transparent;
+      cursor: pointer; transition: border-color 0.15s;
     }
+    .strat-card:hover { border-color: rgba(255,255,255,0.14); }
     .strat-card.sa { border-top-color: #2dd4bf; }
     .strat-card.sb { border-top-color: var(--red); }
     .strat-card.sc { border-top-color: var(--green); }
     .strat-card.sd { border-top-color: var(--yellow); }
-    .strat-card-top { margin-bottom: 2px; }
+    .strat-card-head {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 12px 18px 0;
+    }
     .strat-key { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); }
-    .strat-name { font-size: 14px; font-weight: 700; color: var(--text); margin-bottom: 3px; }
-    .strat-desc { font-size: 12px; color: var(--muted); margin-bottom: 12px; line-height: 1.5; }
-    .strat-record { font-size: 12px; color: var(--muted); margin-bottom: 8px; }
-    .strat-record .c { color: var(--green); font-weight: 700; }
-    .strat-record .w { color: var(--red); font-weight: 700; }
-    .strat-record .p { color: var(--muted); font-weight: 600; }
-    .strat-bar-track {
-      height: 6px; background: var(--surface); border-radius: 3px;
-      overflow: hidden; margin-bottom: 6px; border: 1px solid var(--border);
-    }
-    .strat-bar-fill {
-      height: 100%; border-radius: 3px;
-      background: linear-gradient(90deg, var(--green), #16a34a);
-      transition: width 0.6s ease;
-    }
-    .strat-winrate { font-size: 12px; color: var(--muted); margin-bottom: 8px; }
-    .strat-winrate strong { color: var(--text); font-weight: 700; }
-    .strat-interest {
-      font-size: 11px; color: var(--muted); line-height: 1.6;
-      border-top: 1px solid var(--border); padding-top: 10px; margin-top: 4px;
-    }
-
-    /* ── Strategy card click-expand ── */
-    .strat-card { cursor: pointer; }
-    .strat-card:hover { border-color: rgba(255,255,255,0.12); }
     .strat-expand-icon {
-      float: right; font-size: 14px; color: var(--muted);
+      font-size: 14px; color: var(--muted);
       transition: transform 0.3s ease; line-height: 1;
     }
     .strat-card.expanded .strat-expand-icon { transform: rotate(90deg); }
+    .strat-card-body {
+      display: flex; align-items: flex-start; gap: 20px;
+      padding: 8px 18px 16px;
+    }
+    .strat-card-left { flex: 1; min-width: 0; }
+    .strat-card-right { flex-shrink: 0; text-align: right; width: 164px; }
+    .strat-card-tagline { font-size: 14px; font-weight: 700; color: var(--text); margin-bottom: 5px; }
+    .strat-desc { font-size: 12px; color: var(--muted); line-height: 1.5; margin-bottom: 6px; }
+    .strat-interest { font-size: 11px; color: var(--muted); line-height: 1.6; }
+    .strat-winrate-big {
+      font-size: 32px; font-weight: 800; line-height: 1; margin-bottom: 5px;
+    }
+    .strat-winrate-big.wr-green  { color: var(--green); }
+    .strat-winrate-big.wr-yellow { color: var(--yellow); }
+    .strat-winrate-big.wr-red    { color: var(--red); }
+    .strat-winrate-big.wr-muted  { color: var(--muted); }
+    .strat-record { font-size: 11px; color: var(--muted); line-height: 1.6; }
+    .strat-record .c { color: var(--green); font-weight: 700; }
+    .strat-record .w { color: var(--red); font-weight: 700; }
+    .strat-record .p { color: var(--muted); font-weight: 600; }
+    .strat-empty-note { font-size: 11px; color: var(--muted); line-height: 1.6; }
+    .strat-bar-track { height: 5px; background: var(--surface); overflow: hidden; }
+    .strat-bar-fill { height: 100%; transition: width 0.6s ease; }
+    .strat-bar-fill.wr-green  { background: linear-gradient(90deg, var(--green), #16a34a); }
+    .strat-bar-fill.wr-yellow { background: linear-gradient(90deg, var(--yellow), #ca8a04); }
+    .strat-bar-fill.wr-red    { background: linear-gradient(90deg, var(--red), #b91c1c); }
+    .strat-bar-fill.wr-muted  { background: var(--border); }
+    .strat-backfill-note {
+      font-size: 10px; color: var(--muted); padding: 4px 18px;
+      border-top: 1px solid var(--border); background: var(--surface); font-style: italic;
+    }
     .strat-detail {
       max-height: 0; overflow: hidden;
       transition: max-height 0.35s ease;
-      border-top: 0px solid var(--border);
     }
     .strat-detail.open {
-      max-height: 220px;
+      max-height: 240px;
       border-top: 1px solid var(--border);
-      margin-top: 12px; padding-top: 12px;
+      padding: 14px 18px;
     }
 
     /* ── Hypothesis board (pre-data overview) ── */
@@ -1717,45 +1723,58 @@
       const pending  = data.pending ?? 0;
       const wr       = data.win_rate;
       const resolved = correct + wrong;
+      const isBackfill = data.source === "historical_backfill";
 
-      let statusHtml;
+      const wrClass = resolved > 0
+        ? (wr >= 60 ? "wr-green" : wr >= 50 ? "wr-yellow" : "wr-red")
+        : "wr-muted";
+
+      let rightHtml;
       if (resolved > 0) {
-        statusHtml = `
+        rightHtml = `
+          <div class="strat-winrate-big ${wrClass}">${wr}%</div>
           <div class="strat-record">
-            <span class="c">${correct} correct</span> /
-            <span class="w">${wrong} wrong</span> /
-            <span class="p">${pending} pending</span>
-          </div>
-          <div class="strat-bar-track"><div class="strat-bar-fill" style="width:${wr ?? 0}%"></div></div>
-          <div class="strat-winrate"><strong>${wr}% win rate</strong></div>`;
+            <span class="c">${correct}</span> / <span class="w">${wrong}</span> / <span class="p">${pending} pend.</span>
+          </div>`;
+      } else if (k === "B" || k === "C") {
+        rightHtml = `
+          <div class="strat-winrate-big wr-muted">—</div>
+          <div class="strat-empty-note">No signals yet<br>Requires markets<br>priced above 85%</div>`;
       } else {
         const pendingSignals = (data.signals || []).filter(s => s.result === "pending");
         const today          = new Date().toISOString().slice(0, 10);
         const pendingDates   = pendingSignals.map(s => s.end_date || "").filter(d => d >= today).sort();
-        const pendingUSD     = pendingSignals.reduce((acc, s) => acc + +(s.total_value_usd || 0), 0);
         const nextDate       = pendingDates[0];
-        statusHtml = `
+        rightHtml = `
+          <div class="strat-winrate-big wr-muted">—</div>
           <div class="strat-record"><span class="p">${pending} pending</span></div>
-          <div style="margin-bottom:8px">
-            ${nextDate
-              ? `<div style="font-size:12px;font-weight:700;color:var(--text);margin-bottom:2px">Next resolution: ${fmtShortDate(nextDate)}</div>`
-              : ""}
-            ${pendingUSD > 0
-              ? `<div style="font-size:11px;color:var(--muted)">${fmtUSDShort(pendingUSD)} at stake</div>`
-              : ""}
-          </div>`;
+          ${nextDate ? `<div style="font-size:10px;color:var(--muted);margin-top:4px">Next: ${fmtShortDate(nextDate)}</div>` : ""}`;
       }
 
+      const backfillNote = isBackfill
+        ? `<div class="strat-backfill-note">Historical backfill · ${data.backfill_sample_size ?? 0} qualifying markets · not live signals</div>`
+        : "";
+
       const detailInner = resolved > 0
-        ? `<div style="height:160px"><canvas id="donut-${k}"></canvas></div>`
-        : `<div style="padding:14px 0;text-align:center;font-size:12px;color:var(--muted);font-style:italic">Waiting for first resolution…</div>`;
+        ? `<div style="height:170px"><canvas id="donut-${k}"></canvas></div>`
+        : `<div style="text-align:center;font-size:12px;color:var(--muted);font-style:italic">Waiting for first resolution…</div>`;
 
       return `<div class="strat-card ${m.color}" onclick="toggleStratCard(this,'${k}')">
-        <div class="strat-card-top"><span class="strat-key">Strategy ${k}</span><span class="strat-expand-icon">›</span></div>
-        <div class="strat-name">${esc(m.name)}</div>
-        <div class="strat-desc">${esc(m.desc)}</div>
-        ${statusHtml}
-        <div class="strat-interest">${esc(m.interest)}</div>
+        <div class="strat-card-head">
+          <span class="strat-key">Strategy ${k} · ${esc(m.name)}</span>
+          <span class="strat-expand-icon">›</span>
+        </div>
+        <div class="strat-card-body">
+          <div class="strat-card-left">
+            <div class="strat-card-tagline">${esc(m.desc)}</div>
+            <div class="strat-interest">${esc(m.interest)}</div>
+          </div>
+          <div class="strat-card-right">${rightHtml}</div>
+        </div>
+        <div class="strat-bar-track">
+          <div class="strat-bar-fill ${wrClass}" style="width:${wr ?? 0}%"></div>
+        </div>
+        ${backfillNote}
         <div class="strat-detail">${detailInner}</div>
       </div>`;
     }).join("");

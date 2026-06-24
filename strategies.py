@@ -31,6 +31,7 @@ logger = logging.getLogger(__name__)
 
 BACKTEST_RESULTS  = Path("backtest_results.json")
 STRATEGY_RESULTS  = Path("strategy_results.json")
+BACKFILL_BC       = Path("strategy_bc_backfill.json")
 
 HEAVY_FAV_HIGH  = 0.85   # whale's outcome priced above this → "heavy favorite territory"
 HEAVY_FAV_LOW   = 0.15   # whale's outcome priced below this → other side is heavy fav
@@ -209,6 +210,30 @@ def run_comparison() -> Dict:
         }
         for k in STRATEGIES
     }
+
+    # Merge B/C from historical backfill when no live signals exist
+    if BACKFILL_BC.exists():
+        try:
+            with open(BACKFILL_BC) as f:
+                bf = json.load(f)
+            for k in ("B", "C"):
+                if strategies_out[k]["signals_evaluated"] == 0:
+                    bd = bf.get(k, {})
+                    total_bf = bd.get("correct", 0) + bd.get("wrong", 0)
+                    if total_bf > 0:
+                        strategies_out[k].update({
+                            "correct":              bd["correct"],
+                            "wrong":                bd["wrong"],
+                            "pending":              0,
+                            "signals_evaluated":    total_bf,
+                            "win_rate":             bd.get("win_rate"),
+                            "source":               "historical_backfill",
+                            "backfill_sample_size": bf.get("markets_qualifying", 0),
+                            "backfill_generated_at": bf.get("generated_at", ""),
+                        })
+            logger.info("Merged B/C backfill data (%d qualifying markets)", bf.get("markets_qualifying", 0))
+        except Exception as exc:
+            logger.warning("Could not load B/C backfill data: %s", exc)
 
     total_pending = sum(
         1 for s in all_signals
