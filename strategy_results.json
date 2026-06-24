@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-24T08:59:49+00:00",
-  "total_evaluated": 237,
-  "total_pending": 237,
+  "generated_at": "2026-06-24T11:49:16+00:00",
+  "total_evaluated": 241,
+  "total_pending": 241,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 237,
+      "signals_evaluated": 241,
       "correct": 0,
       "wrong": 0,
-      "pending": 237,
+      "pending": 241,
       "win_rate": null,
       "signals": [
         {
@@ -3329,6 +3329,62 @@
           "resolved_date": null,
           "end_date": "2026-06-26",
           "total_value_usd": 3248.31,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x32552863fe8014da2613037970661f0d49f415c86a88cb3d65af7a43395bc4ad:1",
+          "condition_id": "0x32552863fe8014da2613037970661f0d49f415c86a88cb3d65af7a43395bc4ad",
+          "title": "Will United States win on 2026-06-25?",
+          "category": "FIFA World Cup",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-26",
+          "total_value_usd": 250396.28,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x695915526d635c2cdd411dd315313c691d329bd6a92b62f56686a33146d13186:0",
+          "condition_id": "0x695915526d635c2cdd411dd315313c691d329bd6a92b62f56686a33146d13186",
+          "title": "T\u00fcrkiye vs. United States: O/U 2.5",
+          "category": "Soccer",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "Over",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-26",
+          "total_value_usd": 18496.76,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x2cc359648ba6695498c169ceaa44c5444e0479102c453289c47ed9489e7f3e93:0",
+          "condition_id": "0x2cc359648ba6695498c169ceaa44c5444e0479102c453289c47ed9489e7f3e93",
+          "title": "Will Croatia win on 2026-06-27?",
+          "category": "FIFA World Cup",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-27",
+          "total_value_usd": 17628.4,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe4d7c15b723f83a1d16663a990d64faab84a684c650e06c035d6b533d23b0040:0",
+          "condition_id": "0xe4d7c15b723f83a1d16663a990d64faab84a684c650e06c035d6b533d23b0040",
+          "title": "Croatia vs. Ghana: O/U 1.5",
+          "category": "Soccer",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "Over",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-27",
+          "total_value_usd": 3570.6,
           "result": "pending"
         }
       ]
