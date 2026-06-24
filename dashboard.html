@@ -1730,7 +1730,8 @@
           <div class="strat-winrate"><strong>${wr}% win rate</strong></div>`;
       } else {
         const pendingSignals = (data.signals || []).filter(s => s.result === "pending");
-        const pendingDates   = pendingSignals.map(s => s.end_date || "").filter(Boolean).sort();
+        const today          = new Date().toISOString().slice(0, 10);
+        const pendingDates   = pendingSignals.map(s => s.end_date || "").filter(d => d >= today).sort();
         const pendingUSD     = pendingSignals.reduce((acc, s) => acc + +(s.total_value_usd || 0), 0);
         const nextDate       = pendingDates[0];
         statusHtml = `
