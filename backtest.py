@@ -25,10 +25,10 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-GAMMA_API_BASE   = "https://gamma-api.polymarket.com"
+CLOB_API_BASE    = "https://clob.polymarket.com"
 SIGNALS_LOG      = Path("signals_log.json")
 BACKTEST_RESULTS = Path("backtest_results.json")
-REQUEST_DELAY    = 0.3   # seconds between Gamma API calls
+REQUEST_DELAY    = 0.3   # seconds between API calls
 
 
 def confidence_label(score: float) -> str:
@@ -39,7 +39,11 @@ def confidence_label(score: float) -> str:
 
 def check_market(condition_id: str) -> Tuple[bool, List[float], List[str], str]:
     """
-    Query the Gamma markets API for a conditionId.
+    Query the CLOB API for a conditionId.
+
+    Uses clob.polymarket.com/markets/<conditionId> which accepts the same
+    condition IDs stored by the scanner (unlike the Gamma API which ignores
+    the conditionIds filter and returns unrelated markets).
 
     Returns (resolved, outcome_prices, outcome_names, resolved_date).
     - outcome_prices is parallel to outcome_names: [1.0, 0.0] means index-0 won.
@@ -48,46 +52,26 @@ def check_market(condition_id: str) -> Tuple[bool, List[float], List[str], str]:
     """
     try:
         resp = requests.get(
-            f"{GAMMA_API_BASE}/markets",
-            params={"conditionIds": condition_id},
+            f"{CLOB_API_BASE}/markets/{condition_id}",
             timeout=15,
         )
         resp.raise_for_status()
-        data = resp.json()
-        if not data:
+        market = resp.json()
+        if not market:
             return False, [], [], ""
 
-        market = data[0]
-        resolved = not market.get("active", True) or market.get("closed", False)
+        resolved = market.get("closed", False)
 
-        prices: List[float] = []
-        for raw in (market.get("outcomePrices") or []):
-            try:
-                prices.append(float(raw))
-            except (ValueError, TypeError):
-                prices.append(0.0)
+        # tokens array: [{"outcome": "Yes", "price": 1.0, "winner": true}, ...]
+        tokens: List[dict] = market.get("tokens") or []
+        prices   = [float(t.get("price", 0)) for t in tokens]
+        outcomes = [str(t.get("outcome", ""))  for t in tokens]
 
-        # outcomes is a JSON-encoded string array in the Gamma API: '["Yes","No"]'
-        raw_outcomes = market.get("outcomes", "[]")
-        try:
-            if isinstance(raw_outcomes, str):
-                outcomes: List[str] = json.loads(raw_outcomes)
-            else:
-                outcomes = list(raw_outcomes or [])
-        except Exception:
-            outcomes = []
-
-        # Resolution date — try several field names the Gamma API may use
-        resolved_date = ""
-        for field in ("resolutionTime", "closeTime", "endDate", "endDateIso"):
-            val = market.get(field) or ""
-            if val:
-                resolved_date = str(val)[:10]
-                break
+        resolved_date = str(market.get("end_date_iso") or "")[:10]
 
         return resolved, prices, outcomes, resolved_date
     except Exception as exc:
-        logger.warning("Gamma API error for %s…: %s", condition_id[:16], exc)
+        logger.warning("CLOB API error for %s…: %s", condition_id[:16], exc)
         return False, [], [], ""
 
 
