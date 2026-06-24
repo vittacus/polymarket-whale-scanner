@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-24T11:49:16+00:00",
-  "total_evaluated": 241,
-  "total_pending": 241,
+  "generated_at": "2026-06-24T14:18:31+00:00",
+  "total_evaluated": 244,
+  "total_pending": 244,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 241,
+      "signals_evaluated": 244,
       "correct": 0,
       "wrong": 0,
-      "pending": 241,
+      "pending": 244,
       "win_rate": null,
       "signals": [
         {
@@ -3385,6 +3385,48 @@
           "resolved_date": null,
           "end_date": "2026-06-27",
           "total_value_usd": 3570.6,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x057885f5f49261eb41504e24899a88e53cb364ddf95e3c0df5608200feaddff8:1",
+          "condition_id": "0x057885f5f49261eb41504e24899a88e53cb364ddf95e3c0df5608200feaddff8",
+          "title": "Will Norway win on 2026-06-26?",
+          "category": "Soccer",
+          "tier": "Strong",
+          "entry_price": 0.515,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-26",
+          "total_value_usd": 104764.7,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x17b8079494b8d39a53a3ced3a044a2015c44097e2fd45bb692a869bc03328b53:0",
+          "condition_id": "0x17b8079494b8d39a53a3ced3a044a2015c44097e2fd45bb692a869bc03328b53",
+          "title": "Bad Homburg Open: Iga Swiatek vs Emma Navarro",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "Iga Swiatek",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-01",
+          "total_value_usd": 15562.23,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x078d11b2d2a08a20611b9af1208ae0718630c03226f307dee276f26597c431ce:0",
+          "condition_id": "0x078d11b2d2a08a20611b9af1208ae0718630c03226f307dee276f26597c431ce",
+          "title": "Lexus Eastbourne Open: Ugo Humbert vs Jenson Brooksby",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "Ugo Humbert",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-01",
+          "total_value_usd": 33043.43,
           "result": "pending"
         }
       ]
