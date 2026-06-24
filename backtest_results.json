@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-23T23:44:15+00:00",
-  "total_signals": 230,
+  "generated_at": "2026-06-24T01:34:24+00:00",
+  "total_signals": 232,
   "total_resolved": 0,
   "total_correct": 0,
   "overall_hit_rate": null,
@@ -12,7 +12,7 @@
       "hit_rate": null
     },
     "Moderate": {
-      "total": 163,
+      "total": 165,
       "resolved": 0,
       "correct": 0,
       "hit_rate": null
@@ -3930,6 +3930,40 @@
       "total_value_usd": 28312.86,
       "entry_price": 0.515,
       "end_date": "2026-06-25",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x2cbaf57a009d98bb3e65fbcf08d0bf5afe323bb0ac258c01483ef14acd7c3540:0",
+      "condition_id": "0x2cbaf57a009d98bb3e65fbcf08d0bf5afe323bb0ac258c01483ef14acd7c3540",
+      "title": "Philadelphia Phillies vs. Washington Nationals",
+      "category": "MLB",
+      "whale_direction": "Philadelphia Phillies",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 9.5953,
+      "total_value_usd": 238228.42,
+      "entry_price": 0.515,
+      "end_date": "2026-06-30",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x2364b309827fcda2921f7e65ff957c0cdce217fa9d44d4eee0f025c53ecc8fde:0",
+      "condition_id": "0x2364b309827fcda2921f7e65ff957c0cdce217fa9d44d4eee0f025c53ecc8fde",
+      "title": "Seattle Mariners vs. Pittsburgh Pirates",
+      "category": "MLB",
+      "whale_direction": "Seattle Mariners",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 6.4438,
+      "total_value_usd": 31450.02,
+      "entry_price": 0.515,
+      "end_date": "2026-06-30",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

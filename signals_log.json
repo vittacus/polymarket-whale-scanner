@@ -45690,5 +45690,293 @@
         "entry_price": 0.515
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-24T01:31:51+00:00",
+    "whale_timeframes": {
+      "0xe22ad3eb4f3581dfe78cb71579f858e4a3cf2703": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf731ab9c4ffeb18d1d7f8596853d5b36ab62e013": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9854aeab8b073c34ab7643f3e8aa316f3b616bf2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0346afae2603313d2bbee96b628536c8cbe352a5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x408fe71e6b5401ecd6733970cb6f1a25e984b2f4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0b6a8ebfa3a626337cc45e8eed30eaafb182fef": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9b89ef1f344d3e17b37ccdff3bccf62d04f04244": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8a269634753d90783f52c58e5ae9a8b9679e937e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2d7be5170a8026c18709eaea1027c7f12e8ce2ce": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc1da9728491b4d25480a771bbf932dbeddc5fefa": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9f0cc3ffd74a5892eb9b386edf6d706c445f7ca5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe5428c1b7fae9f29cc5ce3b393d9a77251541d6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7d787c72c8317046fda90814a93c87fc192529a5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x4f3421fb2daf5cca7430ed8d8132463963081572d75434393a1808fdb8829fe8:0",
+        "condition_id": "0x4f3421fb2daf5cca7430ed8d8132463963081572d75434393a1808fdb8829fe8",
+        "title": "Will Portugal win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x9854aeab8b073c34ab7643f3e8aa316f3b616bf2",
+          "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4"
+        ],
+        "ranks": [
+          3,
+          5,
+          13
+        ],
+        "total_value_usd": 77580.17,
+        "score": 12.0241,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.52
+      },
+      {
+        "signal_key": "0x32552863fe8014da2613037970661f0d49f415c86a88cb3d65af7a43395bc4ad:0",
+        "condition_id": "0x32552863fe8014da2613037970661f0d49f415c86a88cb3d65af7a43395bc4ad",
+        "title": "Will United States win on 2026-06-25?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x0346afae2603313d2bbee96b628536c8cbe352a5",
+          "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4"
+        ],
+        "ranks": [
+          3,
+          6,
+          13
+        ],
+        "total_value_usd": 142979.66,
+        "score": 11.9846,
+        "category": "FIFA World Cup",
+        "end_date": "2026-06-26",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f:0",
+        "condition_id": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f",
+        "title": "Will England win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+          "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4"
+        ],
+        "ranks": [
+          3,
+          10,
+          13
+        ],
+        "total_value_usd": 198916.55,
+        "score": 10.8946,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x1595b4818eeb1ea1e0bec5de6f057218e557feee9b405a0e930d290384fa1d16:0",
+        "condition_id": "0x1595b4818eeb1ea1e0bec5de6f057218e557feee9b405a0e930d290384fa1d16",
+        "title": "Will Germany win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+          "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4"
+        ],
+        "ranks": [
+          3,
+          10,
+          13
+        ],
+        "total_value_usd": 95565.38,
+        "score": 10.24,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x30d55d8124ee1e12dabe89201badc45669b81dff69e4ce44d961f32878ec178a:0",
+        "condition_id": "0x30d55d8124ee1e12dabe89201badc45669b81dff69e4ce44d961f32878ec178a",
+        "title": "Will Brazil win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+          "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4"
+        ],
+        "ranks": [
+          3,
+          10,
+          13
+        ],
+        "total_value_usd": 49512.77,
+        "score": 9.6528,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x2cbaf57a009d98bb3e65fbcf08d0bf5afe323bb0ac258c01483ef14acd7c3540:0",
+        "condition_id": "0x2cbaf57a009d98bb3e65fbcf08d0bf5afe323bb0ac258c01483ef14acd7c3540",
+        "title": "Philadelphia Phillies vs. Washington Nationals",
+        "outcome": "Philadelphia Phillies",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf"
+        ],
+        "ranks": [
+          4,
+          7,
+          20
+        ],
+        "total_value_usd": 238228.42,
+        "score": 9.5953,
+        "category": "MLB",
+        "end_date": "2026-06-30",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0x2364b309827fcda2921f7e65ff957c0cdce217fa9d44d4eee0f025c53ecc8fde:0",
+        "condition_id": "0x2364b309827fcda2921f7e65ff957c0cdce217fa9d44d4eee0f025c53ecc8fde",
+        "title": "Seattle Mariners vs. Pittsburgh Pirates",
+        "outcome": "Seattle Mariners",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1",
+          "0xfe5428c1b7fae9f29cc5ce3b393d9a77251541d6",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf"
+        ],
+        "ranks": [
+          4,
+          18,
+          20
+        ],
+        "total_value_usd": 31450.02,
+        "score": 6.4438,
+        "category": "MLB",
+        "end_date": "2026-06-30",
+        "entry_price": 0.515
+      }
+    ]
   }
 ]

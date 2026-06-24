@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-23T23:44:15+00:00",
-  "total_evaluated": 230,
-  "total_pending": 230,
+  "generated_at": "2026-06-24T01:34:24+00:00",
+  "total_evaluated": 232,
+  "total_pending": 232,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 230,
+      "signals_evaluated": 232,
       "correct": 0,
       "wrong": 0,
-      "pending": 230,
+      "pending": 232,
       "win_rate": null,
       "signals": [
         {
@@ -3231,6 +3231,34 @@
           "resolved_date": null,
           "end_date": "2026-06-25",
           "total_value_usd": 28312.86,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x2cbaf57a009d98bb3e65fbcf08d0bf5afe323bb0ac258c01483ef14acd7c3540:0",
+          "condition_id": "0x2cbaf57a009d98bb3e65fbcf08d0bf5afe323bb0ac258c01483ef14acd7c3540",
+          "title": "Philadelphia Phillies vs. Washington Nationals",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "Philadelphia Phillies",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-30",
+          "total_value_usd": 238228.42,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x2364b309827fcda2921f7e65ff957c0cdce217fa9d44d4eee0f025c53ecc8fde:0",
+          "condition_id": "0x2364b309827fcda2921f7e65ff957c0cdce217fa9d44d4eee0f025c53ecc8fde",
+          "title": "Seattle Mariners vs. Pittsburgh Pirates",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "Seattle Mariners",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-30",
+          "total_value_usd": 31450.02,
           "result": "pending"
         }
       ]
