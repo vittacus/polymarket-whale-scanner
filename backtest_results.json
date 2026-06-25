@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-25T16:01:34+00:00",
-  "total_signals": 268,
+  "generated_at": "2026-06-25T18:18:43+00:00",
+  "total_signals": 269,
   "total_resolved": 202,
   "total_correct": 125,
   "overall_hit_rate": 61.9,
   "by_tier": {
     "Strong": {
-      "total": 49,
+      "total": 50,
       "resolved": 47,
       "correct": 28,
       "hit_rate": 59.6
@@ -4576,6 +4576,23 @@
       "total_value_usd": 110886.91,
       "entry_price": 0.52,
       "end_date": "2026-06-27",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x782d19c493717c65f6099a403fbb9ddb86c217a0c979af3b48c7652f8b5d5321:0",
+      "condition_id": "0x782d19c493717c65f6099a403fbb9ddb86c217a0c979af3b48c7652f8b5d5321",
+      "title": "Seattle Mariners vs. Pittsburgh Pirates",
+      "category": "MLB",
+      "whale_direction": "Seattle Mariners",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 10.7706,
+      "total_value_usd": 21599.84,
+      "entry_price": 0.515,
+      "end_date": "2026-07-02",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
