@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-25T08:07:06+00:00",
-  "total_signals": 265,
+  "generated_at": "2026-06-25T11:10:14+00:00",
+  "total_signals": 267,
   "total_resolved": 202,
   "total_correct": 125,
   "overall_hit_rate": 61.9,
@@ -12,7 +12,7 @@
       "hit_rate": 59.6
     },
     "Moderate": {
-      "total": 182,
+      "total": 184,
       "resolved": 127,
       "correct": 82,
       "hit_rate": 64.6
@@ -4524,6 +4524,40 @@
       "score": 8.9382,
       "total_value_usd": 49807.26,
       "entry_price": 0.515,
+      "end_date": "2026-06-28",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xd01a16e5adf6934d12c7a0e9875332356f74289ae6652a57aacb853e252fbbf4:0",
+      "condition_id": "0xd01a16e5adf6934d12c7a0e9875332356f74289ae6652a57aacb853e252fbbf4",
+      "title": "Will Belgium win on 2026-06-26?",
+      "category": "FIFA World Cup",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 6.8254,
+      "total_value_usd": 36338.76,
+      "entry_price": 0.52,
+      "end_date": "2026-06-27",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x7806f3a191784bfedb4bb3d99db890d05a834e413a50ecbf6893f7926089e45b:0",
+      "condition_id": "0x7806f3a191784bfedb4bb3d99db890d05a834e413a50ecbf6893f7926089e45b",
+      "title": "Will Algeria win on 2026-06-27?",
+      "category": "Soccer",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 5.751,
+      "total_value_usd": 10327.49,
+      "entry_price": 0.52,
       "end_date": "2026-06-28",
       "resolved": false,
       "correct": null,
