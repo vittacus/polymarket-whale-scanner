@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-25T18:18:43+00:00",
-  "total_signals": 269,
-  "total_resolved": 202,
+  "generated_at": "2026-06-25T20:31:43+00:00",
+  "total_signals": 271,
+  "total_resolved": 203,
   "total_correct": 125,
-  "overall_hit_rate": 61.9,
+  "overall_hit_rate": 61.6,
   "by_tier": {
     "Strong": {
-      "total": 50,
-      "resolved": 47,
+      "total": 52,
+      "resolved": 48,
       "correct": 28,
-      "hit_rate": 59.6
+      "hit_rate": 58.3
     },
     "Moderate": {
       "total": 184,
@@ -4591,6 +4591,40 @@
       "tier": "Strong",
       "score": 10.7706,
       "total_value_usd": 21599.84,
+      "entry_price": 0.515,
+      "end_date": "2026-07-02",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Pittsburgh Pirates",
+      "resolved_date": "2026-07-02"
+    },
+    {
+      "signal_key": "0x7122b57616861c549463d47ea07d747118450bcff2c3aa4deaeaf7703c8f01e9:1",
+      "condition_id": "0x7122b57616861c549463d47ea07d747118450bcff2c3aa4deaeaf7703c8f01e9",
+      "title": "Athletics vs. San Francisco Giants",
+      "category": "MLB",
+      "whale_direction": "San Francisco Giants",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 19.8725,
+      "total_value_usd": 133564.05,
+      "entry_price": 0.515,
+      "end_date": "2026-07-02",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x7122b57616861c549463d47ea07d747118450bcff2c3aa4deaeaf7703c8f01e9:0",
+      "condition_id": "0x7122b57616861c549463d47ea07d747118450bcff2c3aa4deaeaf7703c8f01e9",
+      "title": "Athletics vs. San Francisco Giants",
+      "category": "MLB",
+      "whale_direction": "Athletics",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 11.1103,
+      "total_value_usd": 19453.34,
       "entry_price": 0.515,
       "end_date": "2026-07-02",
       "resolved": false,

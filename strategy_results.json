@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-25T18:18:43+00:00",
-  "total_evaluated": 269,
-  "total_pending": 67,
+  "generated_at": "2026-06-25T20:31:43+00:00",
+  "total_evaluated": 271,
+  "total_pending": 68,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 269,
+      "signals_evaluated": 271,
       "correct": 125,
-      "wrong": 77,
-      "pending": 67,
-      "win_rate": 61.9,
+      "wrong": 78,
+      "pending": 68,
+      "win_rate": 61.6,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -3773,10 +3773,38 @@
           "tier": "Strong",
           "entry_price": 0.515,
           "whale_direction": "Seattle Mariners",
+          "resolved_outcome": "Pittsburgh Pirates",
+          "resolved_date": "2026-07-02",
+          "end_date": "2026-07-02",
+          "total_value_usd": 21599.84,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x7122b57616861c549463d47ea07d747118450bcff2c3aa4deaeaf7703c8f01e9:1",
+          "condition_id": "0x7122b57616861c549463d47ea07d747118450bcff2c3aa4deaeaf7703c8f01e9",
+          "title": "Athletics vs. San Francisco Giants",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.515,
+          "whale_direction": "San Francisco Giants",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-07-02",
-          "total_value_usd": 21599.84,
+          "total_value_usd": 133564.05,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x7122b57616861c549463d47ea07d747118450bcff2c3aa4deaeaf7703c8f01e9:0",
+          "condition_id": "0x7122b57616861c549463d47ea07d747118450bcff2c3aa4deaeaf7703c8f01e9",
+          "title": "Athletics vs. San Francisco Giants",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.515,
+          "whale_direction": "Athletics",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-02",
+          "total_value_usd": 19453.34,
           "result": "pending"
         }
       ]
