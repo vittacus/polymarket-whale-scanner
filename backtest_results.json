@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-25T00:23:20+00:00",
-  "total_signals": 262,
-  "total_resolved": 196,
-  "total_correct": 122,
-  "overall_hit_rate": 62.2,
+  "generated_at": "2026-06-25T04:44:59+00:00",
+  "total_signals": 264,
+  "total_resolved": 202,
+  "total_correct": 125,
+  "overall_hit_rate": 61.9,
   "by_tier": {
     "Strong": {
       "total": 49,
-      "resolved": 46,
-      "correct": 27,
-      "hit_rate": 58.7
+      "resolved": 47,
+      "correct": 28,
+      "hit_rate": 59.6
     },
     "Moderate": {
-      "total": 179,
-      "resolved": 122,
-      "correct": 80,
-      "hit_rate": 65.6
+      "total": 181,
+      "resolved": 127,
+      "correct": 82,
+      "hit_rate": 64.6
     },
     "Weak": {
       "total": 34,
@@ -3658,10 +3658,10 @@
       "total_value_usd": 17226.3,
       "entry_price": 0.51,
       "end_date": "2026-06-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-06-25"
     },
     {
       "signal_key": "0xc2679bdf8ccfc75b5954af816f6d7f26e56e3d7e00cefcf5654214ebaa2b2797:1",
@@ -3811,10 +3811,10 @@
       "total_value_usd": 7502.55,
       "entry_price": 0.51,
       "end_date": "2026-06-27",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-06-27"
     },
     {
       "signal_key": "0xb477ae770a67625d6897e52343b4adff5e4ec2d9b6dadd74d99ab7f1c157fb31:1",
@@ -3964,10 +3964,10 @@
       "total_value_usd": 104489.22,
       "entry_price": 0.51,
       "end_date": "2026-06-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-06-25"
     },
     {
       "signal_key": "0xd14544ac7360f37de17eb6a442694de21a8c5ea01714323be6409b002c4d7d7d:0",
@@ -3981,10 +3981,10 @@
       "total_value_usd": 4318.53,
       "entry_price": 0.51,
       "end_date": "2026-06-24",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-06-24"
     },
     {
       "signal_key": "0xe8d9302b2491ab432ff28c5f58c49fb1603ad1a64c4c827c721e9c7e5fbae4b9:0",
@@ -4117,10 +4117,10 @@
       "total_value_usd": 59468.55,
       "entry_price": 0.515,
       "end_date": "2026-06-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-06-25"
     },
     {
       "signal_key": "0x1f5cd4d1a23c11229b2781303dd39fb60ec6ee369dd173cedef8a7f7a1a27298:1",
@@ -4134,10 +4134,10 @@
       "total_value_usd": 28312.86,
       "entry_price": 0.515,
       "end_date": "2026-06-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-06-25"
     },
     {
       "signal_key": "0x2cbaf57a009d98bb3e65fbcf08d0bf5afe323bb0ac258c01483ef14acd7c3540:0",
@@ -4474,6 +4474,40 @@
       "total_value_usd": 3100.22,
       "entry_price": 0.515,
       "end_date": "2026-07-20",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x4e4f77e7dbf4cab666e9a1943674d7ae66348e862df03ea6f44b11eb95731928:0",
+      "condition_id": "0x4e4f77e7dbf4cab666e9a1943674d7ae66348e862df03ea6f44b11eb95731928",
+      "title": "Will the Republican Party control the House after the 2026 Midterm elections?",
+      "category": "US Election",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 7.769,
+      "total_value_usd": 18179.4,
+      "entry_price": 0.515,
+      "end_date": "2026-11-03",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x749d8eccbc0a99447e71fc5e40a0096842774bef4d5c8838b8adb39af068b3cb:0",
+      "condition_id": "0x749d8eccbc0a99447e71fc5e40a0096842774bef4d5c8838b8adb39af068b3cb",
+      "title": "Will the Los Angeles Dodgers win the 2026 World Series?",
+      "category": "MLB",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 7.6508,
+      "total_value_usd": 15658.63,
+      "entry_price": 0.515,
+      "end_date": "2026-10-31",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
