@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-24T23:03:06+00:00",
-  "total_evaluated": 260,
-  "total_pending": 65,
+  "generated_at": "2026-06-25T00:23:20+00:00",
+  "total_evaluated": 262,
+  "total_pending": 66,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 260,
+      "signals_evaluated": 262,
       "correct": 122,
-      "wrong": 73,
-      "pending": 65,
-      "win_rate": 62.6,
+      "wrong": 74,
+      "pending": 66,
+      "win_rate": 62.2,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -3367,11 +3367,11 @@
           "tier": "Moderate",
           "entry_price": 0.52,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-07-20",
           "end_date": "2026-07-20",
           "total_value_usd": 4876.34,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x374d4c9c12e766653de985450899cf2181edf47189894bc9c870216b5c6b1d83:1",
@@ -3652,6 +3652,34 @@
           "end_date": "2026-07-01",
           "total_value_usd": 6141.53,
           "result": "correct"
+        },
+        {
+          "signal_key": "0xfa021d817ad33e0fa28e04051b4fea25b0a090e94bb1b2a38b377bce9778eb8e:0",
+          "condition_id": "0xfa021d817ad33e0fa28e04051b4fea25b0a090e94bb1b2a38b377bce9778eb8e",
+          "title": "Will Kylian Mbappe be the top goalscorer at the 2026 FIFA World Cup?",
+          "category": "FIFA World Cup",
+          "tier": "Weak",
+          "entry_price": 0.515,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-20",
+          "total_value_usd": 12969.97,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xb4431b4a10c926381c72d581ba9bec629f430feea5e72fbaff3a9e2ac87a3001:0",
+          "condition_id": "0xb4431b4a10c926381c72d581ba9bec629f430feea5e72fbaff3a9e2ac87a3001",
+          "title": "Will Erling Haaland be the top goalscorer at the 2026 FIFA World Cup?",
+          "category": "FIFA World Cup",
+          "tier": "Weak",
+          "entry_price": 0.515,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-20",
+          "total_value_usd": 3100.22,
+          "result": "pending"
         }
       ]
     },

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-24T23:03:06+00:00",
-  "total_signals": 260,
-  "total_resolved": 195,
+  "generated_at": "2026-06-25T00:23:20+00:00",
+  "total_signals": 262,
+  "total_resolved": 196,
   "total_correct": 122,
-  "overall_hit_rate": 62.6,
+  "overall_hit_rate": 62.2,
   "by_tier": {
     "Strong": {
       "total": 49,
@@ -13,12 +13,12 @@
     },
     "Moderate": {
       "total": 179,
-      "resolved": 121,
+      "resolved": 122,
       "correct": 80,
-      "hit_rate": 66.1
+      "hit_rate": 65.6
     },
     "Weak": {
-      "total": 32,
+      "total": 34,
       "resolved": 28,
       "correct": 15,
       "hit_rate": 53.6
@@ -4100,10 +4100,10 @@
       "total_value_usd": 4876.34,
       "entry_price": 0.52,
       "end_date": "2026-07-20",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-20"
     },
     {
       "signal_key": "0x374d4c9c12e766653de985450899cf2181edf47189894bc9c870216b5c6b1d83:1",
@@ -4444,6 +4444,40 @@
       "correct": true,
       "resolved_outcome": "Colorado Rockies",
       "resolved_date": "2026-07-01"
+    },
+    {
+      "signal_key": "0xfa021d817ad33e0fa28e04051b4fea25b0a090e94bb1b2a38b377bce9778eb8e:0",
+      "condition_id": "0xfa021d817ad33e0fa28e04051b4fea25b0a090e94bb1b2a38b377bce9778eb8e",
+      "title": "Will Kylian Mbappe be the top goalscorer at the 2026 FIFA World Cup?",
+      "category": "FIFA World Cup",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Weak",
+      "score": 3.8743,
+      "total_value_usd": 12969.97,
+      "entry_price": 0.515,
+      "end_date": "2026-07-20",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xb4431b4a10c926381c72d581ba9bec629f430feea5e72fbaff3a9e2ac87a3001:0",
+      "condition_id": "0xb4431b4a10c926381c72d581ba9bec629f430feea5e72fbaff3a9e2ac87a3001",
+      "title": "Will Erling Haaland be the top goalscorer at the 2026 FIFA World Cup?",
+      "category": "FIFA World Cup",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Weak",
+      "score": 3.2889,
+      "total_value_usd": 3100.22,
+      "entry_price": 0.515,
+      "end_date": "2026-07-20",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
