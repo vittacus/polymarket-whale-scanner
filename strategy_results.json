@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-25T13:27:50+00:00",
-  "total_evaluated": 267,
-  "total_pending": 65,
+  "generated_at": "2026-06-25T16:01:34+00:00",
+  "total_evaluated": 268,
+  "total_pending": 66,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 267,
+      "signals_evaluated": 268,
       "correct": 125,
       "wrong": 77,
-      "pending": 65,
+      "pending": 66,
       "win_rate": 61.9,
       "signals": [
         {
@@ -3749,6 +3749,20 @@
           "resolved_date": null,
           "end_date": "2026-06-28",
           "total_value_usd": 10327.49,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe949e3949780dfce68fc24136bb3f79e5e1ad94d0001079ee26f6b474d77d355:0",
+          "condition_id": "0xe949e3949780dfce68fc24136bb3f79e5e1ad94d0001079ee26f6b474d77d355",
+          "title": "Will Cabo Verde win on 2026-06-26?",
+          "category": "Soccer",
+          "tier": "Weak",
+          "entry_price": 0.52,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-06-27",
+          "total_value_usd": 110886.91,
           "result": "pending"
         }
       ]
