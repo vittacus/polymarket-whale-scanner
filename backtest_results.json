@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-25T23:45:43+00:00",
+  "generated_at": "2026-06-26T01:55:12+00:00",
   "total_signals": 276,
-  "total_resolved": 205,
-  "total_correct": 126,
-  "overall_hit_rate": 61.5,
+  "total_resolved": 206,
+  "total_correct": 127,
+  "overall_hit_rate": 61.7,
   "by_tier": {
     "Strong": {
       "total": 52,
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 189,
-      "resolved": 127,
-      "correct": 82,
-      "hit_rate": 64.6
+      "resolved": 128,
+      "correct": 83,
+      "hit_rate": 64.8
     },
     "Weak": {
       "total": 35,
@@ -4661,10 +4661,10 @@
       "total_value_usd": 31951.59,
       "entry_price": 0.535,
       "end_date": "2026-07-02",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Houston Astros",
+      "resolved_date": "2026-07-02"
     },
     {
       "signal_key": "0x1fc7c76b0f48ef63013827bf7b353e4e757d1acb8f9637b06e9a7248ee08a2bd:0",

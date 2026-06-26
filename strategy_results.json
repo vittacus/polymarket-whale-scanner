@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-25T23:45:44+00:00",
+  "generated_at": "2026-06-26T01:55:12+00:00",
   "total_evaluated": 276,
-  "total_pending": 71,
+  "total_pending": 70,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 276,
-      "correct": 126,
+      "correct": 127,
       "wrong": 79,
-      "pending": 71,
-      "win_rate": 61.5,
+      "pending": 70,
+      "win_rate": 61.7,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -3829,11 +3829,11 @@
           "tier": "Moderate",
           "entry_price": 0.535,
           "whale_direction": "Houston Astros",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Houston Astros",
+          "resolved_date": "2026-07-02",
           "end_date": "2026-07-02",
           "total_value_usd": 31951.59,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x1fc7c76b0f48ef63013827bf7b353e4e757d1acb8f9637b06e9a7248ee08a2bd:0",
