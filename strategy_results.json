@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-26T01:55:12+00:00",
+  "generated_at": "2026-06-26T06:08:05+00:00",
   "total_evaluated": 276,
-  "total_pending": 70,
+  "total_pending": 61,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 276,
-      "correct": 127,
-      "wrong": 79,
-      "pending": 70,
-      "win_rate": 61.7,
+      "correct": 133,
+      "wrong": 82,
+      "pending": 61,
+      "win_rate": 61.9,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -3101,11 +3101,11 @@
           "tier": "Moderate",
           "entry_price": 0.51,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Yes",
+          "resolved_date": "2026-06-27",
           "end_date": "2026-06-27",
           "total_value_usd": 11602.48,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x4ae4a0aecfc6479374c5a9a355f0f0cba2c0680dff010b48a2c8b380423efd05:0",
@@ -3241,11 +3241,11 @@
           "tier": "Moderate",
           "entry_price": 0.51,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-06-26",
           "end_date": "2026-06-26",
           "total_value_usd": 196363.72,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x1f5cd4d1a23c11229b2781303dd39fb60ec6ee369dd173cedef8a7f7a1a27298:0",
@@ -3451,11 +3451,11 @@
           "tier": "Moderate",
           "entry_price": 0.515,
           "whale_direction": "Over",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Under",
+          "resolved_date": "2026-06-26",
           "end_date": "2026-06-26",
           "total_value_usd": 5319.26,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x67339ac82b996dacb1f2ee7caf1599cd542e09598c6ca3f688b3926927588245:1",
@@ -3465,11 +3465,11 @@
           "tier": "Moderate",
           "entry_price": 0.515,
           "whale_direction": "Under",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Under",
+          "resolved_date": "2026-06-26",
           "end_date": "2026-06-26",
           "total_value_usd": 8580.64,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xd2a8caba5559bc21e14f6b2aa504cb14a1782751658b71409e25b82e432c0a97:0",
@@ -3493,11 +3493,11 @@
           "tier": "Moderate",
           "entry_price": 0.515,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Yes",
+          "resolved_date": "2026-06-26",
           "end_date": "2026-06-26",
           "total_value_usd": 3248.31,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x32552863fe8014da2613037970661f0d49f415c86a88cb3d65af7a43395bc4ad:1",
@@ -3507,11 +3507,11 @@
           "tier": "Moderate",
           "entry_price": 0.515,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-06-26",
           "end_date": "2026-06-26",
           "total_value_usd": 250396.28,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x695915526d635c2cdd411dd315313c691d329bd6a92b62f56686a33146d13186:0",
@@ -3521,11 +3521,11 @@
           "tier": "Moderate",
           "entry_price": 0.515,
           "whale_direction": "Over",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Over",
+          "resolved_date": "2026-06-26",
           "end_date": "2026-06-26",
           "total_value_usd": 18496.76,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x2cc359648ba6695498c169ceaa44c5444e0479102c453289c47ed9489e7f3e93:0",
@@ -3843,11 +3843,11 @@
           "tier": "Moderate",
           "entry_price": 0.535,
           "whale_direction": "Texas Rangers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Texas Rangers",
+          "resolved_date": "2026-07-02",
           "end_date": "2026-07-02",
           "total_value_usd": 12190.94,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xff3744285965810d599d4ac7037760134c349eab25c289c14ba2523320debda7:1",
@@ -3871,11 +3871,11 @@
           "tier": "Moderate",
           "entry_price": 0.535,
           "whale_direction": "Washington Nationals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Philadelphia Phillies",
+          "resolved_date": "2026-07-02",
           "end_date": "2026-07-02",
           "total_value_usd": 147686.24,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
