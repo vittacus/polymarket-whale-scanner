@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-27T20:58:02+00:00",
-  "total_signals": 281,
+  "generated_at": "2026-06-27T22:02:38+00:00",
+  "total_signals": 282,
   "total_resolved": 230,
   "total_correct": 142,
   "overall_hit_rate": 61.7,
   "by_tier": {
     "Strong": {
-      "total": 57,
+      "total": 58,
       "resolved": 56,
       "correct": 34,
       "hit_rate": 60.7
@@ -4801,6 +4801,23 @@
       "correct": true,
       "resolved_outcome": "Boston Red Sox",
       "resolved_date": "2026-07-04"
+    },
+    {
+      "signal_key": "0x276bc80f1f6576865e8db86bf02187daf862303bd6bc6c7b53ebcf62b1585425:1",
+      "condition_id": "0x276bc80f1f6576865e8db86bf02187daf862303bd6bc6c7b53ebcf62b1585425",
+      "title": "Cincinnati Reds vs. Pittsburgh Pirates",
+      "category": "MLB",
+      "whale_direction": "Pittsburgh Pirates",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 18.6241,
+      "total_value_usd": 144324.34,
+      "entry_price": 0.515,
+      "end_date": "2026-07-04",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }

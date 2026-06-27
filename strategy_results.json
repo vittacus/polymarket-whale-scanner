@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-27T20:58:02+00:00",
-  "total_evaluated": 281,
-  "total_pending": 51,
+  "generated_at": "2026-06-27T22:02:38+00:00",
+  "total_evaluated": 282,
+  "total_pending": 52,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 281,
+      "signals_evaluated": 282,
       "correct": 142,
       "wrong": 88,
-      "pending": 51,
+      "pending": 52,
       "win_rate": 61.7,
       "signals": [
         {
@@ -3946,6 +3946,20 @@
           "end_date": "2026-07-04",
           "total_value_usd": 26346.65,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x276bc80f1f6576865e8db86bf02187daf862303bd6bc6c7b53ebcf62b1585425:1",
+          "condition_id": "0x276bc80f1f6576865e8db86bf02187daf862303bd6bc6c7b53ebcf62b1585425",
+          "title": "Cincinnati Reds vs. Pittsburgh Pirates",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.515,
+          "whale_direction": "Pittsburgh Pirates",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-04",
+          "total_value_usd": 144324.34,
+          "result": "pending"
         }
       ]
     },

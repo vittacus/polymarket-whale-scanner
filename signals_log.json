@@ -78185,5 +78185,178 @@
         "entry_price": 0.51
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-27T22:00:05+00:00",
+    "whale_timeframes": {
+      "0x72254fe1a79fc8fd37de0168be735e6af4bd659a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x03e8a544e97eeff5753bc1e90d46e5ef22af1697": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc1da9728491b4d25480a771bbf932dbeddc5fefa": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x924379a79c64b77ad5816ad362122a5f6228658e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa7b7505abe2fdcc497c00074534f7fbd7e07962e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe3c9c84c9917d21351902f3bfde3420543ea4b9c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc6a63ad5a788a576d4acc9911c50fef9fde49458": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x492442eab586f242b53bda933fd5de859c8a3782": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7c1ee865a785de4c00ee90ed86a38489fb8bbab3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8075693f48668a264b9fa313b47f52712fcc12b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4d4f13a12d943faabc0d154fb2d546f649a9e5f3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9cb990f1862568a63d8601efeebe0304225c32f2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5b4ec9c06b284ee52c41a761974d836992880232": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x276bc80f1f6576865e8db86bf02187daf862303bd6bc6c7b53ebcf62b1585425:1",
+        "condition_id": "0x276bc80f1f6576865e8db86bf02187daf862303bd6bc6c7b53ebcf62b1585425",
+        "title": "Cincinnati Reds vs. Pittsburgh Pirates",
+        "outcome": "Pittsburgh Pirates",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1"
+        ],
+        "ranks": [
+          2,
+          3,
+          16
+        ],
+        "total_value_usd": 144324.34,
+        "score": 18.6241,
+        "category": "MLB",
+        "end_date": "2026-07-04",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f:0",
+        "condition_id": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f",
+        "title": "Will England win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+          "0xe3c9c84c9917d21351902f3bfde3420543ea4b9c"
+        ],
+        "ranks": [
+          3,
+          4,
+          10
+        ],
+        "total_value_usd": 218596.35,
+        "score": 14.7028,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.51
+      }
+    ]
   }
 ]
