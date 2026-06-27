@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-27T15:49:42+00:00",
-  "total_signals": 278,
-  "total_resolved": 226,
-  "total_correct": 138,
-  "overall_hit_rate": 61.1,
+  "generated_at": "2026-06-27T17:06:10+00:00",
+  "total_signals": 279,
+  "total_resolved": 227,
+  "total_correct": 139,
+  "overall_hit_rate": 61.2,
   "by_tier": {
     "Strong": {
-      "total": 54,
-      "resolved": 52,
-      "correct": 30,
-      "hit_rate": 57.7
+      "total": 55,
+      "resolved": 53,
+      "correct": 31,
+      "hit_rate": 58.5
     },
     "Moderate": {
       "total": 189,
@@ -4744,6 +4744,23 @@
       "tier": "Strong",
       "score": 13.2464,
       "total_value_usd": 97656.21,
+      "entry_price": 0.52,
+      "end_date": "2026-07-04",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Sumit Nagal",
+      "resolved_date": "2026-07-04"
+    },
+    {
+      "signal_key": "0x7ad50d9322d5ef0949bb20ae3b1b1b9269357499a239dda85654bac564b93372:0",
+      "condition_id": "0x7ad50d9322d5ef0949bb20ae3b1b1b9269357499a239dda85654bac564b93372",
+      "title": "Plovdiv: Inaki Montes vs Sandro Kopp",
+      "category": "Tennis",
+      "whale_direction": "Inaki Montes",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 12.8477,
+      "total_value_usd": 60616.51,
       "entry_price": 0.52,
       "end_date": "2026-07-04",
       "resolved": false,
