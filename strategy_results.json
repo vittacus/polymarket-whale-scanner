@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-27T14:27:08+00:00",
-  "total_evaluated": 277,
+  "generated_at": "2026-06-27T15:49:42+00:00",
+  "total_evaluated": 278,
   "total_pending": 52,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 277,
+      "signals_evaluated": 278,
       "correct": 138,
-      "wrong": 87,
+      "wrong": 88,
       "pending": 52,
-      "win_rate": 61.3,
+      "win_rate": 61.1,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -3885,10 +3885,24 @@
           "tier": "Strong",
           "entry_price": 0.515,
           "whale_direction": "Ethan Quinn",
+          "resolved_outcome": "Alejandro Davidovich Fokina",
+          "resolved_date": "2026-07-04",
+          "end_date": "2026-07-04",
+          "total_value_usd": 25254.71,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x2b2636850c8d8bd2b96532f0e28036b374cf0214c28411185b66ba365294de0f:1",
+          "condition_id": "0x2b2636850c8d8bd2b96532f0e28036b374cf0214c28411185b66ba365294de0f",
+          "title": "Targu Mures: Felix Balshaw vs Sumit Nagal",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.52,
+          "whale_direction": "Sumit Nagal",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-07-04",
-          "total_value_usd": 25254.71,
+          "total_value_usd": 97656.21,
           "result": "pending"
         }
       ]

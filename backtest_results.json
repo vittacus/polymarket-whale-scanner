@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-27T14:27:08+00:00",
-  "total_signals": 277,
-  "total_resolved": 225,
+  "generated_at": "2026-06-27T15:49:42+00:00",
+  "total_signals": 278,
+  "total_resolved": 226,
   "total_correct": 138,
-  "overall_hit_rate": 61.3,
+  "overall_hit_rate": 61.1,
   "by_tier": {
     "Strong": {
-      "total": 53,
-      "resolved": 51,
+      "total": 54,
+      "resolved": 52,
       "correct": 30,
-      "hit_rate": 58.8
+      "hit_rate": 57.7
     },
     "Moderate": {
       "total": 189,
@@ -4728,6 +4728,23 @@
       "score": 12.0234,
       "total_value_usd": 25254.71,
       "entry_price": 0.515,
+      "end_date": "2026-07-04",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Alejandro Davidovich Fokina",
+      "resolved_date": "2026-07-04"
+    },
+    {
+      "signal_key": "0x2b2636850c8d8bd2b96532f0e28036b374cf0214c28411185b66ba365294de0f:1",
+      "condition_id": "0x2b2636850c8d8bd2b96532f0e28036b374cf0214c28411185b66ba365294de0f",
+      "title": "Targu Mures: Felix Balshaw vs Sumit Nagal",
+      "category": "Tennis",
+      "whale_direction": "Sumit Nagal",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 13.2464,
+      "total_value_usd": 97656.21,
+      "entry_price": 0.52,
       "end_date": "2026-07-04",
       "resolved": false,
       "correct": null,
