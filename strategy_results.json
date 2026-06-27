@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-27T17:06:10+00:00",
-  "total_evaluated": 279,
-  "total_pending": 52,
+  "generated_at": "2026-06-27T18:19:39+00:00",
+  "total_evaluated": 281,
+  "total_pending": 53,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 279,
-      "correct": 139,
+      "signals_evaluated": 281,
+      "correct": 140,
       "wrong": 88,
-      "pending": 52,
-      "win_rate": 61.2,
+      "pending": 53,
+      "win_rate": 61.4,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -3913,10 +3913,38 @@
           "tier": "Strong",
           "entry_price": 0.52,
           "whale_direction": "Inaki Montes",
+          "resolved_outcome": "Inaki Montes",
+          "resolved_date": "2026-07-04",
+          "end_date": "2026-07-04",
+          "total_value_usd": 60616.51,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xd8b9f9cadd09bba69601f97b64f358dd93159addfc4b7d0ad07b55a1abaf1f8f:0",
+          "condition_id": "0xd8b9f9cadd09bba69601f97b64f358dd93159addfc4b7d0ad07b55a1abaf1f8f",
+          "title": "ITF Palma Del Rio: Eva Vedder vs Amandine Hesse",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.525,
+          "whale_direction": "Eva Vedder",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-07-04",
-          "total_value_usd": 60616.51,
+          "total_value_usd": 20675.36,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xb56bc35aa6debdc1b1f53a32521a736939c3e429328bfef3c5fdccb0f5ada138:1",
+          "condition_id": "0xb56bc35aa6debdc1b1f53a32521a736939c3e429328bfef3c5fdccb0f5ada138",
+          "title": "New York Yankees vs. Boston Red Sox",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.525,
+          "whale_direction": "Boston Red Sox",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-04",
+          "total_value_usd": 26346.65,
           "result": "pending"
         }
       ]
