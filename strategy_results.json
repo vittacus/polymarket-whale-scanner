@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-27T00:21:46+00:00",
+  "generated_at": "2026-06-27T04:34:06+00:00",
   "total_evaluated": 276,
-  "total_pending": 60,
+  "total_pending": 54,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 276,
-      "correct": 134,
-      "wrong": 82,
-      "pending": 60,
-      "win_rate": 62.0,
+      "correct": 137,
+      "wrong": 85,
+      "pending": 54,
+      "win_rate": 61.7,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -3115,11 +3115,11 @@
           "tier": "Moderate",
           "entry_price": 0.51,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Yes",
+          "resolved_date": "2026-06-27",
           "end_date": "2026-06-27",
           "total_value_usd": 10134.93,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x33ec07ceef529f87a3a070e06d5f9b6df9d3e4e6713faec26d9510786f7cd6be:1",
@@ -3185,11 +3185,11 @@
           "tier": "Moderate",
           "entry_price": 0.51,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-06-27",
           "end_date": "2026-06-27",
           "total_value_usd": 2409.2,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xfada1a1ea8a231ee0e232b0fbb0b57b1230693f0981de1e72176fd5b4f4700b1:1",
@@ -3339,11 +3339,11 @@
           "tier": "Moderate",
           "entry_price": 0.52,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-07-20",
           "end_date": "2026-07-20",
           "total_value_usd": 6225.19,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x9e5f9d8c384f8fe368b195fa9a780be58643dff7360588a4e577012df8af00a7:0",
@@ -3619,11 +3619,11 @@
           "tier": "Weak",
           "entry_price": 0.525,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Yes",
+          "resolved_date": "2026-06-27",
           "end_date": "2026-06-27",
           "total_value_usd": 6848.05,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x47a6744156620245419bc4e33e491a45b54b5b6b550fd58c0c880fd6bc085b7e:0",
@@ -3759,11 +3759,11 @@
           "tier": "Weak",
           "entry_price": 0.52,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-06-27",
           "end_date": "2026-06-27",
           "total_value_usd": 110886.91,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x782d19c493717c65f6099a403fbb9ddb86c217a0c979af3b48c7652f8b5d5321:0",
@@ -3857,11 +3857,11 @@
           "tier": "Moderate",
           "entry_price": 0.535,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-06-27",
           "end_date": "2026-06-27",
           "total_value_usd": 47931.36,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xb735d67ec0d26547a913e3d29e3336c32b750d21808aa4d9179f3ba1c0e7034b:1",
