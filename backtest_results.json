@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-27T12:52:40+00:00",
-  "total_signals": 276,
+  "generated_at": "2026-06-27T14:27:08+00:00",
+  "total_signals": 277,
   "total_resolved": 225,
   "total_correct": 138,
   "overall_hit_rate": 61.3,
   "by_tier": {
     "Strong": {
-      "total": 52,
+      "total": 53,
       "resolved": 51,
       "correct": 30,
       "hit_rate": 58.8
@@ -4716,6 +4716,23 @@
       "correct": false,
       "resolved_outcome": "Philadelphia Phillies",
       "resolved_date": "2026-07-02"
+    },
+    {
+      "signal_key": "0x29941bbd2d71ae78cca565df160099415cab7f5bca3b71b972f0b9fe31a04de3:0",
+      "condition_id": "0x29941bbd2d71ae78cca565df160099415cab7f5bca3b71b972f0b9fe31a04de3",
+      "title": "Mallorca Championships: Ethan Quinn vs Alejandro Davidovich Fokina",
+      "category": "Tennis",
+      "whale_direction": "Ethan Quinn",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 12.0234,
+      "total_value_usd": 25254.71,
+      "entry_price": 0.515,
+      "end_date": "2026-07-04",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
