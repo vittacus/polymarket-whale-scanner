@@ -79835,5 +79835,178 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-06-28T20:45:28+00:00",
+    "whale_timeframes": {
+      "0x72254fe1a79fc8fd37de0168be735e6af4bd659a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x58483a07148bf1c4ddc4a1f0c0ea8daeb9e8a698": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x10a6fadcbacd66330862206f6199b197e3ad4d8b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc1da9728491b4d25480a771bbf932dbeddc5fefa": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1b47e9b128e6b671edebfb2cac23dd3efc40d814": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa7b7505abe2fdcc497c00074534f7fbd7e07962e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc41d736bded9ed1accd6a44235039266219774fd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9ee8bbc36d378af72e5f6b8e2ea2eb67c05a89de": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x05a381bab88ae0d4fdf818d7c222653980892672": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6211f97a76ed5c4b1d658f637041ac5f293db89e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x580d9dcca035b1de4155be73c1804aef74ebeb6d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc6a63ad5a788a576d4acc9911c50fef9fde49458": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4d4f13a12d943faabc0d154fb2d546f649a9e5f3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x56604973f2f37e86c213fef9ac209151258054bf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa4b1eac99a65ed70e3d560126febe1086e6c5143": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe22ad3eb4f3581dfe78cb71579f858e4a3cf2703": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x8ec1344d38fb55aa4adf043a3d81899bda2762b89bebec5769a81a50c3b9c25f:1",
+        "condition_id": "0x8ec1344d38fb55aa4adf043a3d81899bda2762b89bebec5769a81a50c3b9c25f",
+        "title": "Will Netherlands win on 2026-06-29?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
+          "0xc1da9728491b4d25480a771bbf932dbeddc5fefa",
+          "0xc6a63ad5a788a576d4acc9911c50fef9fde49458"
+        ],
+        "ranks": [
+          4,
+          5,
+          16
+        ],
+        "total_value_usd": 208655.11,
+        "score": 10.9853,
+        "category": "Soccer",
+        "end_date": "2026-06-30",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0xafa5a0ce360d8e378d3af2a9ab2ad4f0ef1456ada49df62ae090fb169f409018:0",
+        "condition_id": "0xafa5a0ce360d8e378d3af2a9ab2ad4f0ef1456ada49df62ae090fb169f409018",
+        "title": "Texas Rangers vs. Toronto Blue Jays",
+        "outcome": "Texas Rangers",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x10a6fadcbacd66330862206f6199b197e3ad4d8b",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+        ],
+        "ranks": [
+          3,
+          9,
+          12
+        ],
+        "total_value_usd": 109486.34,
+        "score": 10.7172,
+        "category": "MLB",
+        "end_date": "2026-07-05",
+        "entry_price": 0.515
+      }
+    ]
   }
 ]

@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-28T19:46:25+00:00",
-  "total_signals": 283,
+  "generated_at": "2026-06-28T20:47:48+00:00",
+  "total_signals": 285,
   "total_resolved": 239,
   "total_correct": 146,
   "overall_hit_rate": 61.1,
   "by_tier": {
     "Strong": {
-      "total": 59,
+      "total": 61,
       "resolved": 58,
       "correct": 34,
       "hit_rate": 58.6
@@ -4835,6 +4835,40 @@
       "correct": false,
       "resolved_outcome": "Tampa Bay Rays",
       "resolved_date": "2026-07-04"
+    },
+    {
+      "signal_key": "0x8ec1344d38fb55aa4adf043a3d81899bda2762b89bebec5769a81a50c3b9c25f:1",
+      "condition_id": "0x8ec1344d38fb55aa4adf043a3d81899bda2762b89bebec5769a81a50c3b9c25f",
+      "title": "Will Netherlands win on 2026-06-29?",
+      "category": "Soccer",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 10.9853,
+      "total_value_usd": 208655.11,
+      "entry_price": 0.515,
+      "end_date": "2026-06-30",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xafa5a0ce360d8e378d3af2a9ab2ad4f0ef1456ada49df62ae090fb169f409018:0",
+      "condition_id": "0xafa5a0ce360d8e378d3af2a9ab2ad4f0ef1456ada49df62ae090fb169f409018",
+      "title": "Texas Rangers vs. Toronto Blue Jays",
+      "category": "MLB",
+      "whale_direction": "Texas Rangers",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 10.7172,
+      "total_value_usd": 109486.34,
+      "entry_price": 0.515,
+      "end_date": "2026-07-05",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
