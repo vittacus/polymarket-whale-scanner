@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-27T23:13:00+00:00",
+  "generated_at": "2026-06-28T00:16:22+00:00",
   "total_signals": 283,
-  "total_resolved": 230,
-  "total_correct": 142,
+  "total_resolved": 235,
+  "total_correct": 145,
   "overall_hit_rate": 61.7,
   "by_tier": {
     "Strong": {
       "total": 59,
-      "resolved": 56,
+      "resolved": 57,
       "correct": 34,
-      "hit_rate": 60.7
+      "hit_rate": 59.6
     },
     "Moderate": {
       "total": 189,
-      "resolved": 144,
-      "correct": 92,
-      "hit_rate": 63.9
+      "resolved": 148,
+      "correct": 95,
+      "hit_rate": 64.2
     },
     "Weak": {
       "total": 35,
@@ -4185,10 +4185,10 @@
       "total_value_usd": 15749.39,
       "entry_price": 0.515,
       "end_date": "2026-06-27",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-06-27"
     },
     {
       "signal_key": "0x4c9b5ee73c4eb7c4a4757a0a722a9b7d10547732d10db6b0285e44042e39dd00:0",
@@ -4304,10 +4304,10 @@
       "total_value_usd": 17628.4,
       "entry_price": 0.515,
       "end_date": "2026-06-27",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-06-27"
     },
     {
       "signal_key": "0xe4d7c15b723f83a1d16663a990d64faab84a684c650e06c035d6b533d23b0040:0",
@@ -4321,10 +4321,10 @@
       "total_value_usd": 3570.6,
       "entry_price": 0.515,
       "end_date": "2026-06-27",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Over",
+      "resolved_date": "2026-06-27"
     },
     {
       "signal_key": "0x057885f5f49261eb41504e24899a88e53cb364ddf95e3c0df5608200feaddff8:1",
@@ -4644,10 +4644,10 @@
       "total_value_usd": 14737.43,
       "entry_price": 0.535,
       "end_date": "2026-06-27",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-06-27"
     },
     {
       "signal_key": "0x1e876a58baa4f74f05fae2c8ec5fd388df4ae0af7d7df3c7e675e9a5cb079421:0",
@@ -4814,10 +4814,10 @@
       "total_value_usd": 144324.34,
       "entry_price": 0.515,
       "end_date": "2026-07-04",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Cincinnati Reds",
+      "resolved_date": "2026-07-04"
     },
     {
       "signal_key": "0xe4bb12cb5222683ea5cab59484b97304a5e5e353ecde8d3a328d3cedff68e1bc:0",
