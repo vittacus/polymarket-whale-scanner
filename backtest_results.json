@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-28T20:47:48+00:00",
+  "generated_at": "2026-06-28T22:00:38+00:00",
   "total_signals": 285,
-  "total_resolved": 239,
-  "total_correct": 146,
-  "overall_hit_rate": 61.1,
+  "total_resolved": 240,
+  "total_correct": 147,
+  "overall_hit_rate": 61.3,
   "by_tier": {
     "Strong": {
       "total": 61,
-      "resolved": 58,
-      "correct": 34,
-      "hit_rate": 58.6
+      "resolved": 59,
+      "correct": 35,
+      "hit_rate": 59.3
     },
     "Moderate": {
       "total": 189,
@@ -4865,10 +4865,10 @@
       "total_value_usd": 109486.34,
       "entry_price": 0.515,
       "end_date": "2026-07-05",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Texas Rangers",
+      "resolved_date": "2026-07-05"
     }
   ]
 }
