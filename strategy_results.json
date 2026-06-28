@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-28T00:16:22+00:00",
+  "generated_at": "2026-06-28T04:55:11+00:00",
   "total_evaluated": 283,
-  "total_pending": 48,
+  "total_pending": 45,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 283,
-      "correct": 145,
-      "wrong": 90,
-      "pending": 48,
-      "win_rate": 61.7,
+      "correct": 146,
+      "wrong": 92,
+      "pending": 45,
+      "win_rate": 61.3,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -3717,11 +3717,11 @@
           "tier": "Moderate",
           "entry_price": 0.515,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Yes",
+          "resolved_date": "2026-06-28",
           "end_date": "2026-06-28",
           "total_value_usd": 49807.26,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xd01a16e5adf6934d12c7a0e9875332356f74289ae6652a57aacb853e252fbbf4:0",
@@ -3745,11 +3745,11 @@
           "tier": "Moderate",
           "entry_price": 0.52,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-06-28",
           "end_date": "2026-06-28",
           "total_value_usd": 10327.49,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xe949e3949780dfce68fc24136bb3f79e5e1ad94d0001079ee26f6b474d77d355:0",
@@ -3969,11 +3969,11 @@
           "tier": "Strong",
           "entry_price": 0.515,
           "whale_direction": "Arizona Diamondbacks",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Tampa Bay Rays",
+          "resolved_date": "2026-07-04",
           "end_date": "2026-07-04",
           "total_value_usd": 3493.21,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },

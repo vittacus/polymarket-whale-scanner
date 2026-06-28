@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-28T00:16:22+00:00",
+  "generated_at": "2026-06-28T04:55:11+00:00",
   "total_signals": 283,
-  "total_resolved": 235,
-  "total_correct": 145,
-  "overall_hit_rate": 61.7,
+  "total_resolved": 238,
+  "total_correct": 146,
+  "overall_hit_rate": 61.3,
   "by_tier": {
     "Strong": {
       "total": 59,
-      "resolved": 57,
+      "resolved": 58,
       "correct": 34,
-      "hit_rate": 59.6
+      "hit_rate": 58.6
     },
     "Moderate": {
       "total": 189,
-      "resolved": 148,
-      "correct": 95,
-      "hit_rate": 64.2
+      "resolved": 150,
+      "correct": 96,
+      "hit_rate": 64.0
     },
     "Weak": {
       "total": 35,
@@ -4525,10 +4525,10 @@
       "total_value_usd": 49807.26,
       "entry_price": 0.515,
       "end_date": "2026-06-28",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-06-28"
     },
     {
       "signal_key": "0xd01a16e5adf6934d12c7a0e9875332356f74289ae6652a57aacb853e252fbbf4:0",
@@ -4559,10 +4559,10 @@
       "total_value_usd": 10327.49,
       "entry_price": 0.52,
       "end_date": "2026-06-28",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-06-28"
     },
     {
       "signal_key": "0xe949e3949780dfce68fc24136bb3f79e5e1ad94d0001079ee26f6b474d77d355:0",
@@ -4831,10 +4831,10 @@
       "total_value_usd": 3493.21,
       "entry_price": 0.515,
       "end_date": "2026-07-04",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Tampa Bay Rays",
+      "resolved_date": "2026-07-04"
     }
   ]
 }
