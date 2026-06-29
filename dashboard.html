@@ -13,15 +13,18 @@
   <meta name="twitter:description" content="When top Polymarket traders agree on an outcome, this scanner catches it. Updated every 15 minutes.">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg:          #0d0f18;
-      --surface:     #161927;
-      --surface-2:   #1e2135;
-      --border:      #2a2e4a;
+      --bg:          #0a0a0f;
+      --surface:     #12121a;
+      --surface-2:   #0f0f18;
+      --border:      #1e1e2e;
       --text:        #e2e8f0;
-      --muted:       #5a6080;
-      --accent:      #818cf8;
+      --muted:       #64748b;
+      --accent:      #6366f1;
       --green:       #22c55e;
       --green-bg:    rgba(34,197,94,0.12);
       --green-border:rgba(34,197,94,0.4);
@@ -44,7 +47,7 @@
     body {
       background: var(--bg);
       color: var(--text);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
       font-size: 14px;
       line-height: 1.5;
       padding: 28px 32px;
@@ -230,6 +233,12 @@
 
     .market-link { color: inherit; text-decoration: none; }
     .market-link:hover { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+    .signal-item .market-link {
+      font-size: 15px; font-weight: 700; color: var(--text);
+      text-decoration: none; display: block; margin-top: 6px;
+      line-height: 1.4;
+    }
+    .signal-item .market-link:hover { color: #a5b4fc; text-decoration: none; }
 
     .market-ranks { font-size: 11px; color: var(--muted); margin-top: 3px; }
 
@@ -237,17 +246,22 @@
 
     /* ── Signal item cards ── */
     .signal-item {
-      padding: 16px 20px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 0;
+      margin-bottom: 10px;
+      overflow: hidden;
+      transition: border-color 0.15s;
+    }
+    .signal-item:hover { border-color: rgba(99,102,241,0.3); }
+    .signal-item-title {
+      padding: 14px 16px 10px;
       border-bottom: 1px solid var(--border);
     }
-    .signal-item:last-child { border-bottom: none; }
-    .signal-item-title {
-      font-size: 14px; font-weight: 600; color: var(--text);
-      margin-bottom: 8px; line-height: 1.4;
-    }
     .signal-meta-row {
-      display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
-      margin-bottom: 6px;
+      padding: 10px 16px;
+      display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
     }
     .signal-meta-usd {
       font-family: "SF Mono","Fira Code",monospace;
@@ -255,13 +269,13 @@
     }
     .signal-meta-whale { font-size: 13px; font-weight: 700; color: var(--accent); }
     .signal-footer {
-      display: flex; align-items: center; justify-content: space-between;
-      gap: 8px; margin-top: 4px;
+      padding: 6px 16px 12px;
+      display: flex; justify-content: space-between; align-items: center;
     }
     .signal-footer-ranks { font-size: 10px; color: var(--muted); }
 
     /* ── Top signal callout ── */
-    .top-signal-body { padding: 18px 20px; }
+    .top-signal-body { padding: 18px 20px; background: linear-gradient(135deg, #1a1a2e 0%, #1e1040 100%); border-radius: 10px; }
     .top-signal-label {
       font-size: 10px; font-weight: 700; text-transform: uppercase;
       letter-spacing: 0.1em; color: var(--muted); margin-bottom: 10px;
@@ -319,10 +333,6 @@
       background: var(--surface); border: 1px solid var(--border);
       border-radius: 12px; overflow: hidden; margin-bottom: 20px;
     }
-    .slab-card.strategy-a { border-top: 3px solid #2dd4bf; }
-    .slab-card.strategy-b { border-top: 3px solid var(--red); }
-    .slab-card.strategy-c { border-top: 3px solid var(--green); }
-    .slab-card.strategy-d { border-top: 3px solid var(--yellow); }
     .slab-card-header {
       padding: 11px 18px; border-bottom: 1px solid var(--border);
       font-size: 11px; font-weight: 600; color: var(--muted);
@@ -386,7 +396,7 @@
     }
     .strat-card.expanded .strat-expand-icon { transform: rotate(90deg); }
     .strat-winrate-big {
-      font-size: 46px; font-weight: 800; line-height: 1; margin-bottom: 4px; letter-spacing: -1px;
+      font-size: 36px; font-weight: 800; line-height: 1; margin-bottom: 4px; letter-spacing: -1px;
     }
     .strat-winrate-big.wr-green  { color: var(--green); }
     .strat-winrate-big.wr-yellow { color: var(--yellow); }
@@ -397,8 +407,8 @@
     .strat-record .w { color: var(--red); font-weight: 700; }
     .strat-record .p { color: var(--muted); }
     .strat-empty-note { font-size: 11px; color: var(--muted); line-height: 1.5; text-align: right; }
-    .strat-bar-track { height: 3px; background: rgba(255,255,255,0.05); overflow: hidden; }
-    .strat-bar-fill { height: 100%; transition: width 0.7s ease; }
+    .strat-bar-track { height: 4px; background: rgba(255,255,255,0.05); overflow: hidden; border-radius: 2px; }
+    .strat-bar-fill { height: 100%; transition: width 0.7s ease; border-radius: 2px; }
     .strat-bar-fill.wr-green  { background: var(--green); }
     .strat-bar-fill.wr-yellow { background: var(--yellow); }
     .strat-bar-fill.wr-red    { background: var(--red); }
@@ -415,19 +425,32 @@
       max-height: 240px;
       border-top: 1px solid rgba(255,255,255,0.06);
       padding: 16px 24px;
+      background: #0f0f18;
+      border-radius: 0 0 10px 10px;
     }
     /* ── Findings + Case Study box ── */
-    .findings-wrap { padding: 22px 24px 20px; }
+    .findings-wrap {
+      background: #1a1a2e;
+      border-left: 3px solid #6366f1;
+      padding: 24px;
+    }
     .findings-title {
-      font-size: 11px; font-weight: 700; text-transform: uppercase;
-      letter-spacing: 0.1em; color: var(--muted); margin-bottom: 14px;
+      font-size: 11px; font-weight: 700;
+      font-variant: small-caps;
+      letter-spacing: 0.12em; color: #6366f1; margin-bottom: 16px;
     }
     .findings-list { list-style: none; padding: 0; margin: 0 0 22px; display: flex; flex-direction: column; gap: 10px; }
-    .findings-list li {
-      font-size: 13px; color: var(--muted); line-height: 1.6; padding-left: 18px; position: relative;
+    .findings-list .finding-item {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      font-size: 13px; color: var(--muted); line-height: 1.6;
     }
-    .findings-list li::before { content: "▸"; position: absolute; left: 0; color: var(--muted); opacity: 0.5; }
-    .findings-list li strong { color: var(--text); font-weight: 700; }
+    .findings-list .finding-item svg {
+      flex-shrink: 0;
+      padding-top: 2px;
+    }
+    .findings-list .finding-item strong { color: var(--text); font-weight: 700; }
     .case-study-title {
       font-size: 11px; font-weight: 700; text-transform: uppercase;
       letter-spacing: 0.1em; color: var(--muted); margin-bottom: 4px;
@@ -435,23 +458,33 @@
     .case-study-sub { font-size: 11px; color: var(--muted); margin-bottom: 14px; opacity: 0.7; }
     .case-table { width: 100%; border-collapse: collapse; font-size: 12px; }
     .case-table th {
-      text-align: right; font-size: 10px; font-weight: 600; color: var(--muted);
-      text-transform: uppercase; letter-spacing: 0.07em; padding: 0 8px 8px; border-bottom: 1px solid var(--border);
+      text-align: right; font-size: 10px; font-weight: 600; color: #64748b;
+      text-transform: uppercase; letter-spacing: 0.08em;
+      padding: 8px 10px; background: #1e1e2e; border-bottom: 1px solid var(--border);
     }
     .case-table th:first-child, .case-table th:nth-child(2) { text-align: left; }
+    .case-table tbody tr:nth-child(odd) td { background: #12121a; }
+    .case-table tbody tr:nth-child(even) td { background: #0f0f18; }
+    .case-table tbody tr.cs-win-row td:first-child { border-left: 2px solid rgba(34,197,94,0.4); }
+    .case-table tbody tr.cs-loss-row td:first-child { border-left: 2px solid rgba(239,68,68,0.4); }
     .case-table td {
-      padding: 7px 8px; text-align: right; color: var(--muted);
+      padding: 8px 10px; text-align: right; color: var(--muted);
       border-bottom: 1px solid rgba(255,255,255,0.03);
     }
     .case-table td:first-child, .case-table td:nth-child(2) { text-align: left; }
     .case-table td:nth-child(2) { color: var(--text); }
+    .case-table td:nth-child(3),
+    .case-table td:nth-child(6),
+    .case-table td:nth-child(7) {
+      font-family: 'SF Mono', 'Fira Code', monospace;
+    }
     .case-table .cs-win td { }
     .case-table .cs-loss td { }
     .cs-result-w { color: var(--green) !important; font-weight: 700; }
     .cs-result-l { color: var(--red) !important; font-weight: 700; }
     .cs-pnl-w { color: var(--green) !important; font-weight: 600; }
     .cs-pnl-l { color: var(--red) !important; font-weight: 600; }
-    .cs-bal { color: var(--text) !important; font-weight: 600; }
+    .cs-bal { color: var(--text) !important; font-weight: 700; font-size: 13px; }
     .case-summary {
       margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--border);
       display: flex; justify-content: flex-end; gap: 28px;
@@ -468,12 +501,7 @@
     .hypothesis-tile {
       background: var(--surface-2); border: 1px solid var(--border);
       border-radius: 8px; padding: 22px 20px;
-      border-top: 3px solid var(--border);
     }
-    .hypothesis-tile.strategy-a { border-top-color: #2dd4bf; }
-    .hypothesis-tile.strategy-b { border-top-color: var(--red); }
-    .hypothesis-tile.strategy-c { border-top-color: var(--green); }
-    .hypothesis-tile.strategy-d { border-top-color: var(--yellow); }
     .hypothesis-tile-icon { font-size: 22px; margin-bottom: 10px; }
     .hypothesis-tile-key  { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin-bottom: 4px; }
     .hypothesis-tile-name { font-size: 13px; font-weight: 700; color: var(--text); margin-bottom: 10px; }
@@ -498,12 +526,12 @@
     }
 
     /* ── History tab ── */
-    tr.hist-row-correct td { background: rgba(34,197,94,0.05); }
-    tr.hist-row-correct td:first-child { box-shadow: inset 3px 0 0 #22c55e; }
-    tr.hist-row-wrong td   { background: rgba(239,68,68,0.05); }
-    tr.hist-row-wrong td:first-child   { box-shadow: inset 3px 0 0 #ef4444; }
-    tr.hist-row-correct:hover td { background: rgba(34,197,94,0.09) !important; }
-    tr.hist-row-wrong:hover td   { background: rgba(239,68,68,0.09) !important; }
+    tr.hist-row-correct td { background: rgba(34,197,94,0.04); }
+    tr.hist-row-correct td:first-child { box-shadow: inset 3px 0 0 rgba(34,197,94,0.6); }
+    tr.hist-row-wrong td   { background: rgba(239,68,68,0.04); }
+    tr.hist-row-wrong td:first-child   { box-shadow: inset 3px 0 0 rgba(239,68,68,0.6); }
+    tr.hist-row-correct:hover td { background: rgba(34,197,94,0.08) !important; }
+    tr.hist-row-wrong:hover td   { background: rgba(239,68,68,0.08) !important; }
 
     .date-group-header {
       display: flex; align-items: center; gap: 10px;
@@ -544,10 +572,12 @@
     }
 
     .cat-tag {
-      display: inline-block; margin-right: 7px; padding: 1px 7px; border-radius: 3px;
-      font-size: 10px; font-weight: 600; letter-spacing: 0.04em;
-      background: rgba(148,163,184,0.1); color: #94a3b8;
-      border: 1px solid rgba(148,163,184,0.25); vertical-align: middle; white-space: nowrap;
+      display: inline-block; font-size: 10px; font-weight: 600;
+      padding: 2px 8px; border-radius: 4px;
+      background: rgba(99,102,241,0.15); color: #a5b4fc;
+      border: 1px solid rgba(99,102,241,0.2);
+      text-transform: uppercase; letter-spacing: 0.06em;
+      margin-bottom: 6px;
     }
 
     .badge.yes      { background: var(--green-bg);  color: var(--green);  border-color: var(--green-border);  }
@@ -644,10 +674,15 @@
       color: var(--muted); font-size: 13px; font-weight: 600;
       cursor: pointer; white-space: nowrap; font-family: inherit;
       border-bottom: 2px solid transparent; margin-bottom: -2px;
-      transition: color 0.15s ease, border-color 0.15s ease; flex-shrink: 0;
+      border-radius: 6px 6px 0 0;
+      transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease; flex-shrink: 0;
     }
     .tab-btn:hover  { color: var(--text); }
-    .tab-btn.active { color: #2dd4bf; border-bottom-color: #2dd4bf; }
+    .tab-btn.active {
+      background: rgba(99,102,241,0.15);
+      color: #a5b4fc;
+      border-bottom: 2px solid #6366f1;
+    }
 
     /* ── Tab panels ── */
     .tab-panel { display: none; }
@@ -656,6 +691,46 @@
 
     /* ── Chart panel ── */
     .chart-wrap { padding: 16px; }
+
+    /* ── Backtest stats grid (Overview tab) ── */
+    #backtest-bar {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      padding: 16px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      margin-bottom: 16px;
+    }
+    .sb-stat {
+      background: var(--surface-2);
+      border-radius: 8px;
+      padding: 14px 16px;
+      border: 1px solid var(--border);
+    }
+    .sb-stat-label {
+      font-size: 10px; color: var(--muted); text-transform: uppercase;
+      letter-spacing: 0.08em; margin-bottom: 6px;
+    }
+    .sb-stat-value { font-size: 24px; font-weight: 800; color: var(--text); }
+    .sb-stat-value.green { color: var(--green); }
+    .sb-stat-value.yellow { color: var(--yellow); }
+    .sb-stat-value.gray { color: var(--gray); }
+    #sb-meta-row {
+      font-size: 11px; color: var(--muted); margin-bottom: 16px;
+      padding: 0 4px;
+    }
+
+    /* ── Hit rate segmented bar ── */
+    .hitrate-bar {
+      display: flex; height: 8px; border-radius: 4px;
+      overflow: hidden; margin: 12px 16px 16px;
+      border: 1px solid var(--border);
+    }
+    .hitrate-seg-strong { background: var(--green); }
+    .hitrate-seg-moderate { background: var(--yellow); }
+    .hitrate-seg-weak { background: var(--gray); }
 
     /* ── States ── */
     .empty { padding: 40px 24px; text-align: center; color: var(--muted); font-size: 13px; }
@@ -739,28 +814,26 @@
     </div>
   </div>
 
-  <div id="backtest-bar" class="stats-bar" style="display:none">
-    <div class="stat-item">
-      <span class="stat-label">Overall Hit Rate</span>
-      <span class="stat-value" id="sb-overall">—</span>
+  <div id="backtest-bar" style="display:none">
+    <div class="sb-stat">
+      <div class="sb-stat-label">Overall Hit Rate</div>
+      <div class="sb-stat-value" id="sb-overall">—</div>
     </div>
-    <div class="stat-divider"></div>
-    <div class="stat-item">
-      <span class="stat-label">Strong</span>
-      <span class="stat-value green" id="sb-strong">—</span>
+    <div class="sb-stat">
+      <div class="sb-stat-label">Strong</div>
+      <div class="sb-stat-value green" id="sb-strong">—</div>
     </div>
-    <div class="stat-divider"></div>
-    <div class="stat-item">
-      <span class="stat-label">Moderate</span>
-      <span class="stat-value yellow" id="sb-moderate">—</span>
+    <div class="sb-stat">
+      <div class="sb-stat-label">Moderate</div>
+      <div class="sb-stat-value yellow" id="sb-moderate">—</div>
     </div>
-    <div class="stat-divider"></div>
-    <div class="stat-item">
-      <span class="stat-label">Weak</span>
-      <span class="stat-value gray" id="sb-weak">—</span>
+    <div class="sb-stat">
+      <div class="sb-stat-label">Weak</div>
+      <div class="sb-stat-value gray" id="sb-weak">—</div>
     </div>
-    <span class="stat-meta" id="sb-meta"></span>
   </div>
+  <div id="hitrate-segmented" style="display:none"></div>
+  <div id="sb-meta-row" style="display:none"><span id="sb-meta"></span></div>
 
   <details class="explainer">
     <summary>
@@ -1333,17 +1406,36 @@
       return "rgba(90,96,128,0.65)";
     });
 
+    const rollingAvg = counts.map((_, i) => {
+      const w = counts.slice(Math.max(0, i - 6), i + 1);
+      return Math.round(w.reduce((a, b) => a + b) / w.length * 10) / 10;
+    });
+
     if (volumeChart) volumeChart.destroy();
     volumeChart = new Chart(canvas, {
       type: "bar",
       data: {
         labels,
-        datasets: [{
-          data: counts,
-          backgroundColor: colors,
-          borderColor: colors.map(c => c.replace("0.75","1").replace("0.65","1")),
-          borderWidth: 1, borderRadius: 4,
-        }]
+        datasets: [
+          {
+            type: "bar",
+            data: counts,
+            backgroundColor: colors,
+            borderColor: colors.map(c => c.replace("0.75","1").replace("0.65","1")),
+            borderWidth: 1, borderRadius: 3,
+            barPercentage: 0.45,
+          },
+          {
+            type: "line",
+            data: rollingAvg,
+            borderColor: "rgba(99,102,241,0.85)",
+            borderWidth: 1.5,
+            pointRadius: 0,
+            tension: 0.4,
+            fill: false,
+            datalabels: { display: false },
+          }
+        ]
       },
       options: {
         responsive: true, aspectRatio: 3.5,
@@ -1353,17 +1445,23 @@
           tooltip: {
             backgroundColor: "#1e2135", borderColor: "#2a2e4a", borderWidth: 1,
             titleColor: "#e2e8f0", bodyColor: "#9ca3af",
-            callbacks: { label: ctx => `  ${ctx.raw} new signal${ctx.raw !== 1 ? "s" : ""}` }
+            callbacks: {
+              label: ctx => ctx.datasetIndex === 0
+                ? `  ${ctx.raw} new signal${ctx.raw !== 1 ? "s" : ""}`
+                : `  7d avg: ${ctx.raw}`
+            }
           }
         },
         scales: {
           x: {
             grid: { display: false },
-            ticks: { color: "#5a6080", font: { size: 10 }, maxRotation: 45 }
+            ticks: { color: "#5a6080", font: { size: 10 }, maxRotation: 45 },
+            title: { display: true, text: "Date", color: "#5a6080", font: { size: 10 } }
           },
           y: {
             min: 0, ticks: { stepSize: 1, color: "#5a6080", font: { size: 10 } },
-            grid: { color: "rgba(255,255,255,0.04)" }
+            grid: { color: "rgba(255,255,255,0.04)" },
+            title: { display: true, text: "New signals", color: "#5a6080", font: { size: 10 } }
           }
         }
       }
@@ -1486,6 +1584,12 @@
         const color    = rising ? "#22c55e" : "#ef4444";
 
         if (sparklineCharts[sparkId]) sparklineCharts[sparkId].destroy();
+        const labelEl = wrap.querySelector(".sparkline-label");
+        if (labelEl) {
+          const direction = rising ? "up" : "down";
+          labelEl.textContent = `${direction === "up" ? "↗" : "↙"} ${Math.round(avgFirst * 100)}¢ → ${Math.round(avgLast * 100)}¢`;
+          labelEl.style.color = rising ? "#22c55e" : "#ef4444";
+        }
         sparklineCharts[sparkId] = new Chart(canvas, {
           type: "line",
           data: {
@@ -1832,15 +1936,17 @@
            ${renderResolutionTimeline(strategies)}
          </div>`;
 
+    const findingArrowSvg = `<svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6h8M7 3l3 3-3 3" stroke="#6366f1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
     const findingsHtml = `
       <div class="slab-card" style="margin-bottom:20px">
         <div class="slab-card-header">Key Findings</div>
         <div class="findings-wrap">
-          <ul class="findings-list">
-            <li><strong>Heavy favorites (85%+ markets) resolve correctly 99.1% of the time</strong> across 703 historical markets — the crowd is well-calibrated at the extremes</li>
-            <li><strong>Whale consensus alone predicts correctly 62.7% of the time</strong> — meaningfully above chance across 193 resolved signals</li>
-            <li><strong>When whales put $500k+ behind a consensus position, accuracy jumps to 87.5%</strong> — position size is a strong quality filter</li>
-          </ul>
+          <div class="findings-title">Key Findings</div>
+          <div class="findings-list">
+            <div class="finding-item">${findingArrowSvg}<div><strong>Heavy favorites (85%+ markets) resolve correctly 99.1% of the time</strong> across 703 historical markets — the crowd is well-calibrated at the extremes</div></div>
+            <div class="finding-item">${findingArrowSvg}<div><strong>Whale consensus alone predicts correctly 62.7% of the time</strong> — meaningfully above chance across 193 resolved signals</div></div>
+            <div class="finding-item">${findingArrowSvg}<div><strong>When whales put $500k+ behind a consensus position, accuracy jumps to 87.5%</strong> — position size is a strong quality filter</div></div>
+          </div>
           <div class="case-study-title">$1,000 Case Study — Strategy D (High-Conviction Consensus)</div>
           <div class="case-study-sub">Hypothetical · $125/trade · avg entry 55¢ · 8 trades over 4 weeks · 87.5% hit rate assumption</div>
           <table class="case-table">
@@ -1848,14 +1954,14 @@
               <th>#</th><th>Signal type</th><th>Bet</th><th>Entry</th><th>Result</th><th>P&amp;L</th><th>Balance</th>
             </tr></thead>
             <tbody>
-              <tr><td>1</td><td>Political primary outcome</td><td>$125</td><td>58¢</td><td class="cs-result-w">✓ Win</td><td class="cs-pnl-w">+$91</td><td class="cs-bal">$1,091</td></tr>
-              <tr><td>2</td><td>Championship game winner</td><td>$125</td><td>52¢</td><td class="cs-result-w">✓ Win</td><td class="cs-pnl-w">+$115</td><td class="cs-bal">$1,206</td></tr>
-              <tr><td>3</td><td>Central bank decision</td><td>$125</td><td>61¢</td><td class="cs-result-w">✓ Win</td><td class="cs-pnl-w">+$80</td><td class="cs-bal">$1,286</td></tr>
-              <tr><td>4</td><td>Congressional election</td><td>$125</td><td>55¢</td><td class="cs-result-w">✓ Win</td><td class="cs-pnl-w">+$102</td><td class="cs-bal">$1,388</td></tr>
-              <tr><td>5</td><td>Sports season result</td><td>$125</td><td>49¢</td><td class="cs-result-w">✓ Win</td><td class="cs-pnl-w">+$130</td><td class="cs-bal">$1,518</td></tr>
-              <tr><td>6</td><td>Geopolitical outcome</td><td>$125</td><td>53¢</td><td class="cs-result-l">✗ Loss</td><td class="cs-pnl-l">−$125</td><td class="cs-bal">$1,393</td></tr>
-              <tr><td>7</td><td>Technology product launch</td><td>$125</td><td>57¢</td><td class="cs-result-w">✓ Win</td><td class="cs-pnl-w">+$94</td><td class="cs-bal">$1,487</td></tr>
-              <tr><td>8</td><td>Economic indicator call</td><td>$125</td><td>54¢</td><td class="cs-result-w">✓ Win</td><td class="cs-pnl-w">+$106</td><td class="cs-bal">$1,593</td></tr>
+              <tr class="cs-win-row"><td>1</td><td>Political primary outcome</td><td>$125</td><td>58¢</td><td class="cs-result-w">✓ Win</td><td class="cs-pnl-w">+$91</td><td class="cs-bal">$1,091</td></tr>
+              <tr class="cs-win-row"><td>2</td><td>Championship game winner</td><td>$125</td><td>52¢</td><td class="cs-result-w">✓ Win</td><td class="cs-pnl-w">+$115</td><td class="cs-bal">$1,206</td></tr>
+              <tr class="cs-win-row"><td>3</td><td>Central bank decision</td><td>$125</td><td>61¢</td><td class="cs-result-w">✓ Win</td><td class="cs-pnl-w">+$80</td><td class="cs-bal">$1,286</td></tr>
+              <tr class="cs-win-row"><td>4</td><td>Congressional election</td><td>$125</td><td>55¢</td><td class="cs-result-w">✓ Win</td><td class="cs-pnl-w">+$102</td><td class="cs-bal">$1,388</td></tr>
+              <tr class="cs-win-row"><td>5</td><td>Sports season result</td><td>$125</td><td>49¢</td><td class="cs-result-w">✓ Win</td><td class="cs-pnl-w">+$130</td><td class="cs-bal">$1,518</td></tr>
+              <tr class="cs-loss-row"><td>6</td><td>Geopolitical outcome</td><td>$125</td><td>53¢</td><td class="cs-result-l">✗ Loss</td><td class="cs-pnl-l">−$125</td><td class="cs-bal">$1,393</td></tr>
+              <tr class="cs-win-row"><td>7</td><td>Technology product launch</td><td>$125</td><td>57¢</td><td class="cs-result-w">✓ Win</td><td class="cs-pnl-w">+$94</td><td class="cs-bal">$1,487</td></tr>
+              <tr class="cs-win-row"><td>8</td><td>Economic indicator call</td><td>$125</td><td>54¢</td><td class="cs-result-w">✓ Win</td><td class="cs-pnl-w">+$106</td><td class="cs-bal">$1,593</td></tr>
             </tbody>
           </table>
           <div class="case-summary">
@@ -1901,6 +2007,26 @@
               borderWidth: 1, borderRadius: 5, barThickness: 28,
             }]
           },
+          plugins: [{
+            id: 'randomChanceLine',
+            afterDraw(chart) {
+              const { ctx, scales: { y } } = chart;
+              const yPos = y.getPixelForValue(50);
+              ctx.save();
+              ctx.setLineDash([4, 4]);
+              ctx.strokeStyle = 'rgba(100,116,139,0.4)';
+              ctx.lineWidth = 1;
+              ctx.beginPath();
+              ctx.moveTo(chart.chartArea.left, yPos);
+              ctx.lineTo(chart.chartArea.right, yPos);
+              ctx.stroke();
+              ctx.setLineDash([]);
+              ctx.fillStyle = '#64748b';
+              ctx.font = '10px Inter, sans-serif';
+              ctx.fillText('random chance', chart.chartArea.left + 4, yPos - 4);
+              ctx.restore();
+            }
+          }],
           options: {
             responsive: true, aspectRatio: 2.6,
             plugins: {
@@ -1956,7 +2082,7 @@
       </div>
       <div class="sparkline-wrap" id="swrap-${sparkId}" style="display:none">
         <span class="sparkline-label">7d price trend</span>
-        <canvas id="${sparkId}" width="120" height="40" class="sparkline-canvas"></canvas>
+        <canvas id="${sparkId}" width="120" height="60" class="sparkline-canvas"></canvas>
       </div>
     </div>`;
   }
@@ -2049,7 +2175,27 @@
       document.getElementById("sb-weak").textContent     = fmt(d.by_tier?.Weak?.hit_rate);
       document.getElementById("sb-meta").textContent     =
         `${d.total_signals} signals tracked · ${d.total_resolved} resolved · run ${d.generated_at?.slice(0,10) ?? ""}`;
-      document.getElementById("backtest-bar").style.display = "flex";
+      document.getElementById("backtest-bar").style.display = "grid";
+      document.getElementById("sb-meta-row").style.display = "block";
+
+      // Segmented hit rate bar showing Strong/Moderate/Weak proportions
+      const strongCount   = d.by_tier?.Strong?.total   ?? 0;
+      const moderateCount = d.by_tier?.Moderate?.total ?? 0;
+      const weakCount     = d.by_tier?.Weak?.total     ?? 0;
+      const totalCount    = strongCount + moderateCount + weakCount;
+      if (totalCount > 0) {
+        const sp = (strongCount / totalCount) * 100;
+        const mp = (moderateCount / totalCount) * 100;
+        const wp = (weakCount / totalCount) * 100;
+        const seg = document.getElementById("hitrate-segmented");
+        seg.innerHTML = `<div class="hitrate-bar">
+          <div class="hitrate-seg-strong" style="width:${sp}%" title="Strong: ${strongCount}"></div>
+          <div class="hitrate-seg-moderate" style="width:${mp}%" title="Moderate: ${moderateCount}"></div>
+          <div class="hitrate-seg-weak" style="width:${wp}%" title="Weak: ${weakCount}"></div>
+        </div>`;
+        seg.style.display = "block";
+      }
+
       backtestSignals = d.signals || [];
       renderHistory(currentLog, backtestSignals);
     } catch (_) {}
