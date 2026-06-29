@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-29T05:12:40+00:00",
-  "total_signals": 285,
+  "generated_at": "2026-06-29T10:00:43+00:00",
+  "total_signals": 286,
   "total_resolved": 240,
   "total_correct": 147,
   "overall_hit_rate": 61.3,
@@ -18,7 +18,7 @@
       "hit_rate": 63.6
     },
     "Weak": {
-      "total": 35,
+      "total": 36,
       "resolved": 30,
       "correct": 16,
       "hit_rate": 53.3
@@ -4869,6 +4869,23 @@
       "correct": true,
       "resolved_outcome": "Texas Rangers",
       "resolved_date": "2026-07-05"
+    },
+    {
+      "signal_key": "0x289568d555ec620ed6fa33c936c5f42649d3a2e30748a1daf7079f42453fbea4:0",
+      "condition_id": "0x289568d555ec620ed6fa33c936c5f42649d3a2e30748a1daf7079f42453fbea4",
+      "title": "Will Ivory Coast win the 2026 FIFA World Cup?",
+      "category": "Soccer",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Weak",
+      "score": 2.8826,
+      "total_value_usd": 3222.65,
+      "entry_price": 0.515,
+      "end_date": "2026-07-20",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
