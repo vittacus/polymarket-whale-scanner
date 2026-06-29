@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-29T22:21:55+00:00",
-  "total_signals": 295,
+  "generated_at": "2026-06-29T23:35:36+00:00",
+  "total_signals": 296,
   "total_resolved": 245,
   "total_correct": 150,
   "overall_hit_rate": 61.2,
@@ -12,7 +12,7 @@
       "hit_rate": 59.3
     },
     "Moderate": {
-      "total": 194,
+      "total": 195,
       "resolved": 156,
       "correct": 99,
       "hit_rate": 63.5
@@ -5035,6 +5035,23 @@
       "total_value_usd": 116054.76,
       "entry_price": 0.515,
       "end_date": "2026-07-29",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x0c4cd2055d6ea89354ffddc55d6dbcef9355748112ea952fc925f3db6a5c457f:1",
+      "condition_id": "0x0c4cd2055d6ea89354ffddc55d6dbcef9355748112ea952fc925f3db6a5c457f",
+      "title": "Will Argentina win the 2026 FIFA World Cup?",
+      "category": "Soccer",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 5.522,
+      "total_value_usd": 4052367.83,
+      "entry_price": 0.515,
+      "end_date": "2026-07-20",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
