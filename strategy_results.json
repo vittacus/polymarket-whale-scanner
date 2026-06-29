@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-29T17:14:24+00:00",
-  "total_evaluated": 292,
-  "total_pending": 52,
+  "generated_at": "2026-06-29T19:18:15+00:00",
+  "total_evaluated": 294,
+  "total_pending": 50,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 292,
-      "correct": 147,
-      "wrong": 93,
-      "pending": 52,
-      "win_rate": 61.3,
+      "signals_evaluated": 294,
+      "correct": 150,
+      "wrong": 94,
+      "pending": 50,
+      "win_rate": 61.5,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -4025,11 +4025,11 @@
           "tier": "Moderate",
           "entry_price": 0.515,
           "whale_direction": "Alejandro Davidovich Fokina",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alejandro Davidovich Fokina",
+          "resolved_date": "2026-07-06",
           "end_date": "2026-07-06",
           "total_value_usd": 82832.16,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x66df82929b8f0062f8f9e82258f8d36c65c848924ba64dffad13afa920766166:0",
@@ -4039,11 +4039,11 @@
           "tier": "Moderate",
           "entry_price": 0.515,
           "whale_direction": "Jan-Lennard Struff",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jan-Lennard Struff",
+          "resolved_date": "2026-07-06",
           "end_date": "2026-07-06",
           "total_value_usd": 21677.44,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x516a9352c117d1f3622ee2bd64865992d19e740649bd22bf6cd57ac595e87771:1",
@@ -4053,11 +4053,11 @@
           "tier": "Moderate",
           "entry_price": 0.515,
           "whale_direction": "Oliver Tarvet",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Arthur Rinderknech",
+          "resolved_date": "2026-07-06",
           "end_date": "2026-07-06",
           "total_value_usd": 6105.33,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x516a9352c117d1f3622ee2bd64865992d19e740649bd22bf6cd57ac595e87771:0",
@@ -4067,11 +4067,11 @@
           "tier": "Moderate",
           "entry_price": 0.515,
           "whale_direction": "Arthur Rinderknech",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Arthur Rinderknech",
+          "resolved_date": "2026-07-06",
           "end_date": "2026-07-06",
           "total_value_usd": 6041.09,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xd0dbdc94b28c5cffeef64ed6b13e5f0f2324fb177e5ffaa634b48c88fe18d5e7:0",
@@ -4099,6 +4099,34 @@
           "resolved_date": null,
           "end_date": "2026-07-20",
           "total_value_usd": 3293.01,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x65f5760095b3b903c895b320765ccdd4074b72750458b09fde516f6254bcec67:1",
+          "condition_id": "0x65f5760095b3b903c895b320765ccdd4074b72750458b09fde516f6254bcec67",
+          "title": "Will Mexico win on 2026-06-30?",
+          "category": "Soccer",
+          "tier": "Strong",
+          "entry_price": 0.515,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-01",
+          "total_value_usd": 72249.62,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xb7dc069ed1fa05b964f3fcf5a201fc5f19c812d7f2f1328b2c922abab8dc250e:0",
+          "condition_id": "0xb7dc069ed1fa05b964f3fcf5a201fc5f19c812d7f2f1328b2c922abab8dc250e",
+          "title": "Spread: Argentina (-1.5)",
+          "category": "Soccer",
+          "tier": "Strong",
+          "entry_price": 0.515,
+          "whale_direction": "Argentina",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-03",
+          "total_value_usd": 33334.2,
           "result": "pending"
         }
       ]

@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-29T17:14:24+00:00",
-  "total_signals": 292,
-  "total_resolved": 240,
-  "total_correct": 147,
-  "overall_hit_rate": 61.3,
+  "generated_at": "2026-06-29T19:18:15+00:00",
+  "total_signals": 294,
+  "total_resolved": 244,
+  "total_correct": 150,
+  "overall_hit_rate": 61.5,
   "by_tier": {
     "Strong": {
-      "total": 61,
+      "total": 63,
       "resolved": 59,
       "correct": 35,
       "hit_rate": 59.3
     },
     "Moderate": {
       "total": 194,
-      "resolved": 151,
-      "correct": 96,
-      "hit_rate": 63.6
+      "resolved": 155,
+      "correct": 99,
+      "hit_rate": 63.9
     },
     "Weak": {
       "total": 37,
@@ -4899,10 +4899,10 @@
       "total_value_usd": 82832.16,
       "entry_price": 0.515,
       "end_date": "2026-07-06",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Alejandro Davidovich Fokina",
+      "resolved_date": "2026-07-06"
     },
     {
       "signal_key": "0x66df82929b8f0062f8f9e82258f8d36c65c848924ba64dffad13afa920766166:0",
@@ -4916,10 +4916,10 @@
       "total_value_usd": 21677.44,
       "entry_price": 0.515,
       "end_date": "2026-07-06",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Jan-Lennard Struff",
+      "resolved_date": "2026-07-06"
     },
     {
       "signal_key": "0x516a9352c117d1f3622ee2bd64865992d19e740649bd22bf6cd57ac595e87771:1",
@@ -4933,10 +4933,10 @@
       "total_value_usd": 6105.33,
       "entry_price": 0.515,
       "end_date": "2026-07-06",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Arthur Rinderknech",
+      "resolved_date": "2026-07-06"
     },
     {
       "signal_key": "0x516a9352c117d1f3622ee2bd64865992d19e740649bd22bf6cd57ac595e87771:0",
@@ -4950,10 +4950,10 @@
       "total_value_usd": 6041.09,
       "entry_price": 0.515,
       "end_date": "2026-07-06",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Arthur Rinderknech",
+      "resolved_date": "2026-07-06"
     },
     {
       "signal_key": "0xd0dbdc94b28c5cffeef64ed6b13e5f0f2324fb177e5ffaa634b48c88fe18d5e7:0",
@@ -4984,6 +4984,40 @@
       "total_value_usd": 3293.01,
       "entry_price": 0.515,
       "end_date": "2026-07-20",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x65f5760095b3b903c895b320765ccdd4074b72750458b09fde516f6254bcec67:1",
+      "condition_id": "0x65f5760095b3b903c895b320765ccdd4074b72750458b09fde516f6254bcec67",
+      "title": "Will Mexico win on 2026-06-30?",
+      "category": "Soccer",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 28.3893,
+      "total_value_usd": 72249.62,
+      "entry_price": 0.515,
+      "end_date": "2026-07-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xb7dc069ed1fa05b964f3fcf5a201fc5f19c812d7f2f1328b2c922abab8dc250e:0",
+      "condition_id": "0xb7dc069ed1fa05b964f3fcf5a201fc5f19c812d7f2f1328b2c922abab8dc250e",
+      "title": "Spread: Argentina (-1.5)",
+      "category": "Soccer",
+      "whale_direction": "Argentina",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 23.0092,
+      "total_value_usd": 33334.2,
+      "entry_price": 0.515,
+      "end_date": "2026-07-03",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
