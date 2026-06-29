@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-29T14:08:45+00:00",
-  "total_evaluated": 286,
-  "total_pending": 46,
+  "generated_at": "2026-06-29T17:14:24+00:00",
+  "total_evaluated": 292,
+  "total_pending": 52,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 286,
+      "signals_evaluated": 292,
       "correct": 147,
       "wrong": 93,
-      "pending": 46,
+      "pending": 52,
       "win_rate": 61.3,
       "signals": [
         {
@@ -4015,6 +4015,90 @@
           "resolved_date": null,
           "end_date": "2026-07-20",
           "total_value_usd": 3222.65,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x56f271ae09f3bbd20aeffb0050cb00dacea9678f741f664b2707b3002ede6c94:0",
+          "condition_id": "0x56f271ae09f3bbd20aeffb0050cb00dacea9678f741f664b2707b3002ede6c94",
+          "title": "Wimbledon ATP: Alejandro Davidovich Fokina vs Juan Manuel Cerundolo",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "Alejandro Davidovich Fokina",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-06",
+          "total_value_usd": 82832.16,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x66df82929b8f0062f8f9e82258f8d36c65c848924ba64dffad13afa920766166:0",
+          "condition_id": "0x66df82929b8f0062f8f9e82258f8d36c65c848924ba64dffad13afa920766166",
+          "title": "Wimbledon ATP: Jan-Lennard Struff vs Sebastian Baez",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "Jan-Lennard Struff",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-06",
+          "total_value_usd": 21677.44,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x516a9352c117d1f3622ee2bd64865992d19e740649bd22bf6cd57ac595e87771:1",
+          "condition_id": "0x516a9352c117d1f3622ee2bd64865992d19e740649bd22bf6cd57ac595e87771",
+          "title": "Wimbledon ATP: Arthur Rinderknech vs Oliver Tarvet",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "Oliver Tarvet",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-06",
+          "total_value_usd": 6105.33,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x516a9352c117d1f3622ee2bd64865992d19e740649bd22bf6cd57ac595e87771:0",
+          "condition_id": "0x516a9352c117d1f3622ee2bd64865992d19e740649bd22bf6cd57ac595e87771",
+          "title": "Wimbledon ATP: Arthur Rinderknech vs Oliver Tarvet",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "Arthur Rinderknech",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-06",
+          "total_value_usd": 6041.09,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd0dbdc94b28c5cffeef64ed6b13e5f0f2324fb177e5ffaa634b48c88fe18d5e7:0",
+          "condition_id": "0xd0dbdc94b28c5cffeef64ed6b13e5f0f2324fb177e5ffaa634b48c88fe18d5e7",
+          "title": "Will Sweden win the 2026 FIFA World Cup?",
+          "category": "Soccer",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-20",
+          "total_value_usd": 5284.74,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xfe230d510eaf545198c0d62bb17871e5fe8989f1b19aa54c0c062b858360987c:0",
+          "condition_id": "0xfe230d510eaf545198c0d62bb17871e5fe8989f1b19aa54c0c062b858360987c",
+          "title": "Will Austria win the 2026 FIFA World Cup?",
+          "category": "Soccer",
+          "tier": "Weak",
+          "entry_price": 0.515,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-20",
+          "total_value_usd": 3293.01,
           "result": "pending"
         }
       ]
