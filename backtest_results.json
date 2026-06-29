@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-29T19:18:15+00:00",
-  "total_signals": 294,
+  "generated_at": "2026-06-29T21:09:07+00:00",
+  "total_signals": 295,
   "total_resolved": 244,
   "total_correct": 150,
   "overall_hit_rate": 61.5,
   "by_tier": {
     "Strong": {
-      "total": 63,
+      "total": 64,
       "resolved": 59,
       "correct": 35,
       "hit_rate": 59.3
@@ -5018,6 +5018,23 @@
       "total_value_usd": 33334.2,
       "entry_price": 0.515,
       "end_date": "2026-07-03",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x8bf1c1536ecb1c08fe13c6b71e8ab1f58bf3461c4cb79f5f1679f869a06aef86:0",
+      "condition_id": "0x8bf1c1536ecb1c08fe13c6b71e8ab1f58bf3461c4cb79f5f1679f869a06aef86",
+      "title": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+      "category": "fomc",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 11.5646,
+      "total_value_usd": 116054.76,
+      "entry_price": 0.515,
+      "end_date": "2026-07-29",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
