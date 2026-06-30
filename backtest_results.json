@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-30T11:59:48+00:00",
-  "total_signals": 297,
-  "total_resolved": 248,
+  "generated_at": "2026-06-30T14:22:59+00:00",
+  "total_signals": 298,
+  "total_resolved": 249,
   "total_correct": 151,
-  "overall_hit_rate": 60.9,
+  "overall_hit_rate": 60.6,
   "by_tier": {
     "Strong": {
       "total": 64,
@@ -12,10 +12,10 @@
       "hit_rate": 60.0
     },
     "Moderate": {
-      "total": 196,
-      "resolved": 158,
+      "total": 197,
+      "resolved": 159,
       "correct": 99,
-      "hit_rate": 62.7
+      "hit_rate": 62.3
     },
     "Weak": {
       "total": 37,
@@ -5069,6 +5069,23 @@
       "total_value_usd": 117939.49,
       "entry_price": 0.515,
       "end_date": "2026-07-06",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Jesper de Jong",
+      "resolved_date": "2026-07-06"
+    },
+    {
+      "signal_key": "0xe9d96f957f3f5e4ffa0e920087edf967c4cc353e9d1ad0c2d7ae928b32b61cb0:0",
+      "condition_id": "0xe9d96f957f3f5e4ffa0e920087edf967c4cc353e9d1ad0c2d7ae928b32b61cb0",
+      "title": "Will United States win on 2026-07-01?",
+      "category": "Soccer",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 5.2348,
+      "total_value_usd": 94472.84,
+      "entry_price": 0.515,
+      "end_date": "2026-07-02",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
