@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-30T20:29:51+00:00",
-  "total_signals": 300,
+  "generated_at": "2026-06-30T21:58:07+00:00",
+  "total_signals": 301,
   "total_resolved": 251,
   "total_correct": 152,
   "overall_hit_rate": 60.6,
   "by_tier": {
     "Strong": {
-      "total": 64,
+      "total": 65,
       "resolved": 60,
       "correct": 36,
       "hit_rate": 60.0
@@ -5124,6 +5124,23 @@
       "correct": false,
       "resolved_outcome": "Zizou Bergs",
       "resolved_date": "2026-07-06"
+    },
+    {
+      "signal_key": "0xa947b7c696453a288460a8e12aae31b854ca02d0b87970ffc259cec8a9fffcd2:0",
+      "condition_id": "0xa947b7c696453a288460a8e12aae31b854ca02d0b87970ffc259cec8a9fffcd2",
+      "title": "Will Morocco win on 2026-07-04?",
+      "category": "Soccer",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 24.5271,
+      "total_value_usd": 164927.48,
+      "entry_price": 0.505,
+      "end_date": "2026-07-04",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
