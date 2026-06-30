@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-30T16:37:44+00:00",
+  "generated_at": "2026-06-30T18:26:26+00:00",
   "total_signals": 300,
-  "total_resolved": 249,
-  "total_correct": 151,
+  "total_resolved": 251,
+  "total_correct": 152,
   "overall_hit_rate": 60.6,
   "by_tier": {
     "Strong": {
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 199,
-      "resolved": 159,
-      "correct": 99,
-      "hit_rate": 62.3
+      "resolved": 161,
+      "correct": 100,
+      "hit_rate": 62.1
     },
     "Weak": {
       "total": 37,
@@ -5103,10 +5103,10 @@
       "total_value_usd": 411338.0,
       "entry_price": 0.515,
       "end_date": "2026-07-06",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Alexander Bublik",
+      "resolved_date": "2026-07-06"
     },
     {
       "signal_key": "0x451e9e2fbd76c060394569270753570f939e739219a314822c90d20bc83a33a1:0",
@@ -5120,10 +5120,10 @@
       "total_value_usd": 12218.86,
       "entry_price": 0.515,
       "end_date": "2026-07-06",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Zizou Bergs",
+      "resolved_date": "2026-07-06"
     }
   ]
 }
