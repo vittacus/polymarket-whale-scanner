@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-30T01:39:11+00:00",
-  "total_signals": 296,
-  "total_resolved": 245,
-  "total_correct": 150,
-  "overall_hit_rate": 61.2,
+  "generated_at": "2026-06-30T05:57:39+00:00",
+  "total_signals": 297,
+  "total_resolved": 247,
+  "total_correct": 151,
+  "overall_hit_rate": 61.1,
   "by_tier": {
     "Strong": {
       "total": 64,
-      "resolved": 59,
-      "correct": 35,
-      "hit_rate": 59.3
+      "resolved": 60,
+      "correct": 36,
+      "hit_rate": 60.0
     },
     "Moderate": {
-      "total": 195,
-      "resolved": 156,
+      "total": 196,
+      "resolved": 157,
       "correct": 99,
-      "hit_rate": 63.5
+      "hit_rate": 63.1
     },
     "Weak": {
       "total": 37,
@@ -1788,10 +1788,10 @@
       "total_value_usd": 19208.78,
       "entry_price": 0.51,
       "end_date": "2026-07-20",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-20"
     },
     {
       "signal_key": "0x9be56371f6a29d12769b2f196847ee825b9585ebb8bfa042136be031b081eba1:0",
@@ -4848,10 +4848,10 @@
       "total_value_usd": 208655.11,
       "entry_price": 0.515,
       "end_date": "2026-06-30",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-06-30"
     },
     {
       "signal_key": "0xafa5a0ce360d8e378d3af2a9ab2ad4f0ef1456ada49df62ae090fb169f409018:0",
@@ -5052,6 +5052,23 @@
       "total_value_usd": 4052367.83,
       "entry_price": 0.515,
       "end_date": "2026-07-20",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x81a9bf420ad3960903ebba6bc8b4cbf5275c96b83063452e233a7ee618f6e948:1",
+      "condition_id": "0x81a9bf420ad3960903ebba6bc8b4cbf5275c96b83063452e233a7ee618f6e948",
+      "title": "Wimbledon ATP: Jesper de Jong vs Rinky Hijikata",
+      "category": "Tennis",
+      "whale_direction": "Rinky Hijikata",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 6.2371,
+      "total_value_usd": 117939.49,
+      "entry_price": 0.515,
+      "end_date": "2026-07-06",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
