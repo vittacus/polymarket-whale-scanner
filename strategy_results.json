@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-06-30T21:58:07+00:00",
-  "total_evaluated": 301,
-  "total_pending": 50,
+  "generated_at": "2026-06-30T23:10:07+00:00",
+  "total_evaluated": 307,
+  "total_pending": 55,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 301,
+      "signals_evaluated": 307,
       "correct": 152,
-      "wrong": 99,
-      "pending": 50,
-      "win_rate": 60.6,
+      "wrong": 100,
+      "pending": 55,
+      "win_rate": 60.3,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -4011,11 +4011,11 @@
           "tier": "Weak",
           "entry_price": 0.515,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-07-20",
           "end_date": "2026-07-20",
           "total_value_usd": 3222.65,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x56f271ae09f3bbd20aeffb0050cb00dacea9678f741f664b2707b3002ede6c94:0",
@@ -4225,6 +4225,90 @@
           "resolved_date": null,
           "end_date": "2026-07-04",
           "total_value_usd": 164927.48,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x43bde2aa4a2067139451beb84649e5acaff989a3a0817fb1c592046c993d4168:0",
+          "condition_id": "0x43bde2aa4a2067139451beb84649e5acaff989a3a0817fb1c592046c993d4168",
+          "title": "Will Portugal win on 2026-07-02?",
+          "category": "Soccer",
+          "tier": "Strong",
+          "entry_price": 0.51,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-02",
+          "total_value_usd": 42567.92,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xab186f403a2260444ccc536fce775670e1a851d8ceff6b7fff3f5f3d240ba412:0",
+          "condition_id": "0xab186f403a2260444ccc536fce775670e1a851d8ceff6b7fff3f5f3d240ba412",
+          "title": "Spread: United States (-1.5)",
+          "category": "Soccer",
+          "tier": "Strong",
+          "entry_price": 0.51,
+          "whale_direction": "United States",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-02",
+          "total_value_usd": 15284.92,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x67443cb1ffb2bf180f7df5b6ca7adff63f7e8e933c7e41405ba118f3e9f8befb:0",
+          "condition_id": "0x67443cb1ffb2bf180f7df5b6ca7adff63f7e8e933c7e41405ba118f3e9f8befb",
+          "title": "Will Canada win the 2026 FIFA World Cup?",
+          "category": "Soccer",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-20",
+          "total_value_usd": 7624.26,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xb81d9a63be774f9c3db1b96af4d0e869128643a29c6eb922c0d8a20137880120:0",
+          "condition_id": "0xb81d9a63be774f9c3db1b96af4d0e869128643a29c6eb922c0d8a20137880120",
+          "title": "Will Argentina win on 2026-07-03?",
+          "category": "Soccer",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-03",
+          "total_value_usd": 98100.73,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x675bba4df50fd123f7fbfbafa67e9b75f4092d85ce0f9148ce78fc945964c856:0",
+          "condition_id": "0x675bba4df50fd123f7fbfbafa67e9b75f4092d85ce0f9148ce78fc945964c856",
+          "title": "Will Paraguay win the 2026 FIFA World Cup?",
+          "category": "Soccer",
+          "tier": "Weak",
+          "entry_price": 0.51,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-20",
+          "total_value_usd": 2966.16,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf3a4ebc0e59aadc6c37a49f7e50c34233925d15868fbdef7a83c4da274e1dfb3:0",
+          "condition_id": "0xf3a4ebc0e59aadc6c37a49f7e50c34233925d15868fbdef7a83c4da274e1dfb3",
+          "title": "Will Egypt win on 2026-07-03?",
+          "category": "Soccer",
+          "tier": "Weak",
+          "entry_price": 0.51,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-03",
+          "total_value_usd": 4655.3,
           "result": "pending"
         }
       ]
