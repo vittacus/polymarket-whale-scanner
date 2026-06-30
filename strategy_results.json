@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-06-30T14:23:00+00:00",
-  "total_evaluated": 298,
-  "total_pending": 49,
+  "generated_at": "2026-06-30T16:37:45+00:00",
+  "total_evaluated": 300,
+  "total_pending": 51,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 298,
+      "signals_evaluated": 300,
       "correct": 151,
       "wrong": 98,
-      "pending": 49,
+      "pending": 51,
       "win_rate": 60.6,
       "signals": [
         {
@@ -4183,6 +4183,34 @@
           "resolved_date": null,
           "end_date": "2026-07-02",
           "total_value_usd": 94472.84,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x475b9074e64d7a3960f3348290afbe2b74f53f6a64316e02b39373ab278316d1:1",
+          "condition_id": "0x475b9074e64d7a3960f3348290afbe2b74f53f6a64316e02b39373ab278316d1",
+          "title": "Wimbledon ATP: Thanasi Kokkinakis vs Alexander Bublik",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "Alexander Bublik",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-06",
+          "total_value_usd": 411338.0,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x451e9e2fbd76c060394569270753570f939e739219a314822c90d20bc83a33a1:0",
+          "condition_id": "0x451e9e2fbd76c060394569270753570f939e739219a314822c90d20bc83a33a1",
+          "title": "Wimbledon ATP: Ugo Humbert vs Zizou Bergs",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "Ugo Humbert",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-06",
+          "total_value_usd": 12218.86,
           "result": "pending"
         }
       ]
