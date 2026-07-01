@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-01T17:00:44+00:00",
-  "total_evaluated": 308,
-  "total_pending": 46,
+  "generated_at": "2026-07-01T19:03:01+00:00",
+  "total_evaluated": 310,
+  "total_pending": 48,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 308,
+      "signals_evaluated": 310,
       "correct": 153,
       "wrong": 109,
-      "pending": 46,
+      "pending": 48,
       "win_rate": 58.4,
       "signals": [
         {
@@ -4323,6 +4323,34 @@
           "resolved_date": null,
           "end_date": "2028-11-07",
           "total_value_usd": 350659.94,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x381a231517cf6088520a51df34bd1db9b93d035ba51913f98ca845d661e5e738:0",
+          "condition_id": "0x381a231517cf6088520a51df34bd1db9b93d035ba51913f98ca845d661e5e738",
+          "title": "Detroit Tigers vs. New York Yankees",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.525,
+          "whale_direction": "Detroit Tigers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-08",
+          "total_value_usd": 38980.25,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x405ad8b0b07bc4296631721c78e94677f65e6f2b2ebd1d550b0e25894752fcff:0",
+          "condition_id": "0x405ad8b0b07bc4296631721c78e94677f65e6f2b2ebd1d550b0e25894752fcff",
+          "title": "Texas Rangers vs. Cleveland Guardians",
+          "category": "baseball",
+          "tier": "Strong",
+          "entry_price": 0.525,
+          "whale_direction": "Texas Rangers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-08",
+          "total_value_usd": 10007.24,
           "result": "pending"
         }
       ]
