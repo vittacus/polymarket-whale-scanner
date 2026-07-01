@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-01T05:06:34+00:00",
-  "total_signals": 307,
-  "total_resolved": 253,
-  "total_correct": 152,
-  "overall_hit_rate": 60.1,
+  "generated_at": "2026-07-01T08:57:56+00:00",
+  "total_signals": 308,
+  "total_resolved": 261,
+  "total_correct": 153,
+  "overall_hit_rate": 58.6,
   "by_tier": {
     "Strong": {
       "total": 67,
-      "resolved": 60,
+      "resolved": 61,
       "correct": 36,
-      "hit_rate": 60.0
+      "hit_rate": 59.0
     },
     "Moderate": {
-      "total": 201,
-      "resolved": 162,
-      "correct": 100,
-      "hit_rate": 61.7
+      "total": 202,
+      "resolved": 169,
+      "correct": 101,
+      "hit_rate": 59.8
     },
     "Weak": {
       "total": 39,
@@ -513,10 +513,10 @@
       "total_value_usd": 9042.88,
       "entry_price": null,
       "end_date": "2026-07-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-01"
     },
     {
       "signal_key": "0xd61673fdbb2e2ceeeeb7ec4fbaba10859e59cbb4abc311779c114e18dbadfb1b:0",
@@ -530,10 +530,10 @@
       "total_value_usd": 22459.94,
       "entry_price": 0.525,
       "end_date": "2026-07-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-01"
     },
     {
       "signal_key": "0x946bb3ec7e7d9bf146b4487be87e71ace99f1e0e9978cf36fbb5063c23900afb:0",
@@ -564,10 +564,10 @@
       "total_value_usd": 38049.52,
       "entry_price": 0.525,
       "end_date": "2026-07-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-01"
     },
     {
       "signal_key": "0xd14c2ee48e14082291c8a21d18613883e71ce3a5f31459553c979fb6982dbc7e:0",
@@ -2043,10 +2043,10 @@
       "total_value_usd": 7827.75,
       "entry_price": 0.51,
       "end_date": "2026-07-20",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-20"
     },
     {
       "signal_key": "0x983cfc25754a6b18da3b549f50f756c81f090cf387c40113cd20b954978e7e7b:0",
@@ -2264,10 +2264,10 @@
       "total_value_usd": 1029830.37,
       "entry_price": 0.51,
       "end_date": "2026-06-30",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-06-30"
     },
     {
       "signal_key": "0xbb4d51e6364066d92eb6f9b8413dd7193de70966736044463b205834805a1f3b:1",
@@ -2434,10 +2434,10 @@
       "total_value_usd": 29791.74,
       "entry_price": 0.505,
       "end_date": "2026-06-30",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-06-30"
     },
     {
       "signal_key": "0x6cb3ec9e0fb1c258898f648f8b33422f59ba3e8a71aee551449d7cb147bb8ead:0",
@@ -4389,10 +4389,10 @@
       "total_value_usd": 33380.77,
       "entry_price": 0.525,
       "end_date": "2026-07-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-01"
     },
     {
       "signal_key": "0xe322faca2a534900680db54e3a4349a61427d347b6f906d2eeb01f81ae1b082c:0",
@@ -5001,10 +5001,10 @@
       "total_value_usd": 72249.62,
       "entry_price": 0.515,
       "end_date": "2026-07-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-07-01"
     },
     {
       "signal_key": "0xb7dc069ed1fa05b964f3fcf5a201fc5f19c812d7f2f1328b2c922abab8dc250e:0",
@@ -5239,6 +5239,23 @@
       "total_value_usd": 4655.3,
       "entry_price": 0.51,
       "end_date": "2026-07-03",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x7ad403c3508f8e3912940fd1a913f227591145ca0614074208e0b962d5fcc422:0",
+      "condition_id": "0x7ad403c3508f8e3912940fd1a913f227591145ca0614074208e0b962d5fcc422",
+      "title": "Will JD Vance win the 2028 US Presidential Election?",
+      "category": "World Elections",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 7.1374,
+      "total_value_usd": 350659.94,
+      "entry_price": 0.51,
+      "end_date": "2028-11-07",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
