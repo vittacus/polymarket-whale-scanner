@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-01T19:03:01+00:00",
-  "total_evaluated": 310,
+  "generated_at": "2026-07-01T20:53:02+00:00",
+  "total_evaluated": 311,
   "total_pending": 48,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 310,
+      "signals_evaluated": 311,
       "correct": 153,
-      "wrong": 109,
+      "wrong": 110,
       "pending": 48,
-      "win_rate": 58.4,
+      "win_rate": 58.2,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -4347,10 +4347,24 @@
           "tier": "Strong",
           "entry_price": 0.525,
           "whale_direction": "Texas Rangers",
+          "resolved_outcome": "Cleveland Guardians",
+          "resolved_date": "2026-07-08",
+          "end_date": "2026-07-08",
+          "total_value_usd": 10007.24,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x512ecdaf48f51c46d9cc4eecc1fa21712aed7a2bf30e1de21f32662f8f1ef319:0",
+          "condition_id": "0x512ecdaf48f51c46d9cc4eecc1fa21712aed7a2bf30e1de21f32662f8f1ef319",
+          "title": "Wimbledon ATP: Rafael Jodar vs Pablo Carreno Busta",
+          "category": "Tennis",
+          "tier": "Weak",
+          "entry_price": 0.52,
+          "whale_direction": "Rafael Jodar",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-07-08",
-          "total_value_usd": 10007.24,
+          "total_value_usd": 64500.79,
           "result": "pending"
         }
       ]

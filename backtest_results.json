@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-01T19:03:01+00:00",
-  "total_signals": 310,
-  "total_resolved": 262,
+  "generated_at": "2026-07-01T20:53:02+00:00",
+  "total_signals": 311,
+  "total_resolved": 263,
   "total_correct": 153,
-  "overall_hit_rate": 58.4,
+  "overall_hit_rate": 58.2,
   "by_tier": {
     "Strong": {
       "total": 69,
-      "resolved": 61,
+      "resolved": 62,
       "correct": 36,
-      "hit_rate": 59.0
+      "hit_rate": 58.1
     },
     "Moderate": {
       "total": 202,
@@ -18,7 +18,7 @@
       "hit_rate": 59.4
     },
     "Weak": {
-      "total": 39,
+      "total": 40,
       "resolved": 31,
       "correct": 16,
       "hit_rate": 51.6
@@ -5289,6 +5289,23 @@
       "score": 10.0596,
       "total_value_usd": 10007.24,
       "entry_price": 0.525,
+      "end_date": "2026-07-08",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Cleveland Guardians",
+      "resolved_date": "2026-07-08"
+    },
+    {
+      "signal_key": "0x512ecdaf48f51c46d9cc4eecc1fa21712aed7a2bf30e1de21f32662f8f1ef319:0",
+      "condition_id": "0x512ecdaf48f51c46d9cc4eecc1fa21712aed7a2bf30e1de21f32662f8f1ef319",
+      "title": "Wimbledon ATP: Rafael Jodar vs Pablo Carreno Busta",
+      "category": "Tennis",
+      "whale_direction": "Rafael Jodar",
+      "outcome_index": 0,
+      "tier": "Weak",
+      "score": 3.281,
+      "total_value_usd": 64500.79,
+      "entry_price": 0.52,
       "end_date": "2026-07-08",
       "resolved": false,
       "correct": null,
