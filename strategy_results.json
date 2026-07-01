@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-01T20:53:02+00:00",
-  "total_evaluated": 311,
-  "total_pending": 48,
+  "generated_at": "2026-07-01T22:17:44+00:00",
+  "total_evaluated": 314,
+  "total_pending": 50,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 311,
-      "correct": 153,
+      "signals_evaluated": 314,
+      "correct": 154,
       "wrong": 110,
-      "pending": 48,
-      "win_rate": 58.2,
+      "pending": 50,
+      "win_rate": 58.3,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -4333,11 +4333,11 @@
           "tier": "Strong",
           "entry_price": 0.525,
           "whale_direction": "Detroit Tigers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Detroit Tigers",
+          "resolved_date": "2026-07-08",
           "end_date": "2026-07-08",
           "total_value_usd": 38980.25,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x405ad8b0b07bc4296631721c78e94677f65e6f2b2ebd1d550b0e25894752fcff:0",
@@ -4365,6 +4365,48 @@
           "resolved_date": null,
           "end_date": "2026-07-08",
           "total_value_usd": 64500.79,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xb81d9a63be774f9c3db1b96af4d0e869128643a29c6eb922c0d8a20137880120:1",
+          "condition_id": "0xb81d9a63be774f9c3db1b96af4d0e869128643a29c6eb922c0d8a20137880120",
+          "title": "Will Argentina win on 2026-07-03?",
+          "category": "Soccer",
+          "tier": "Moderate",
+          "entry_price": 0.52,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-03",
+          "total_value_usd": 28221.8,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x498cd7fcb7d5209192cd31676f27413e0a3bdb8c8d8d228229cac24c0701fc27:0",
+          "condition_id": "0x498cd7fcb7d5209192cd31676f27413e0a3bdb8c8d8d228229cac24c0701fc27",
+          "title": "Will Switzerland win on 2026-07-02?",
+          "category": "Soccer",
+          "tier": "Moderate",
+          "entry_price": 0.52,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-03",
+          "total_value_usd": 90146.48,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xfffb1f8d13c2180831f8dc8302324b85321bc3d74ad28432de109428759e3c9c:0",
+          "condition_id": "0xfffb1f8d13c2180831f8dc8302324b85321bc3d74ad28432de109428759e3c9c",
+          "title": "Colombia vs. Ghana: O/U 2.5",
+          "category": "Soccer",
+          "tier": "Moderate",
+          "entry_price": 0.52,
+          "whale_direction": "Over",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-04",
+          "total_value_usd": 13605.9,
           "result": "pending"
         }
       ]
