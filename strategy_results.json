@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-02T16:04:58+00:00",
-  "total_evaluated": 319,
-  "total_pending": 49,
+  "generated_at": "2026-07-02T18:03:53+00:00",
+  "total_evaluated": 322,
+  "total_pending": 52,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 319,
+      "signals_evaluated": 322,
       "correct": 158,
       "wrong": 112,
-      "pending": 49,
+      "pending": 52,
       "win_rate": 58.5,
       "signals": [
         {
@@ -4477,6 +4477,48 @@
           "resolved_date": null,
           "end_date": "2026-07-09",
           "total_value_usd": 373771.96,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x683b5a5e07c42cc4bcdc0124deca94f8a973c64ff152e336b615a2fb6be54e38:1",
+          "condition_id": "0x683b5a5e07c42cc4bcdc0124deca94f8a973c64ff152e336b615a2fb6be54e38",
+          "title": "Pittsburgh Pirates vs. Philadelphia Phillies",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.52,
+          "whale_direction": "Philadelphia Phillies",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-09",
+          "total_value_usd": 92103.33,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x24e14f76cfd2c3cbb06898a53933d966dc443b25aa7396f36b2183e16d26d965:0",
+          "condition_id": "0x24e14f76cfd2c3cbb06898a53933d966dc443b25aa7396f36b2183e16d26d965",
+          "title": "Cincinnati Reds vs. Milwaukee Brewers",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.52,
+          "whale_direction": "Cincinnati Reds",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-09",
+          "total_value_usd": 14677.65,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x683b5a5e07c42cc4bcdc0124deca94f8a973c64ff152e336b615a2fb6be54e38:0",
+          "condition_id": "0x683b5a5e07c42cc4bcdc0124deca94f8a973c64ff152e336b615a2fb6be54e38",
+          "title": "Pittsburgh Pirates vs. Philadelphia Phillies",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.52,
+          "whale_direction": "Pittsburgh Pirates",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-09",
+          "total_value_usd": 35877.26,
           "result": "pending"
         }
       ]
