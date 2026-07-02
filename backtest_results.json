@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-02T21:01:07+00:00",
+  "generated_at": "2026-07-02T22:12:39+00:00",
   "total_signals": 329,
-  "total_resolved": 277,
-  "total_correct": 163,
+  "total_resolved": 279,
+  "total_correct": 164,
   "overall_hit_rate": 58.8,
   "by_tier": {
     "Strong": {
       "total": 79,
-      "resolved": 70,
+      "resolved": 71,
       "correct": 42,
-      "hit_rate": 60.0
+      "hit_rate": 59.2
     },
     "Moderate": {
       "total": 210,
-      "resolved": 175,
-      "correct": 104,
-      "hit_rate": 59.4
+      "resolved": 176,
+      "correct": 105,
+      "hit_rate": 59.7
     },
     "Weak": {
       "total": 40,
@@ -5477,10 +5477,10 @@
       "total_value_usd": 14677.65,
       "entry_price": 0.52,
       "end_date": "2026-07-09",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Cincinnati Reds",
+      "resolved_date": "2026-07-09"
     },
     {
       "signal_key": "0x683b5a5e07c42cc4bcdc0124deca94f8a973c64ff152e336b615a2fb6be54e38:0",
@@ -5511,10 +5511,10 @@
       "total_value_usd": 13763.51,
       "entry_price": 0.52,
       "end_date": "2026-07-09",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Cincinnati Reds",
+      "resolved_date": "2026-07-09"
     },
     {
       "signal_key": "0xf7da86422359832bae8d4771b7adb0235073ddb7451f89a9ef796bc0da3b9867:1",

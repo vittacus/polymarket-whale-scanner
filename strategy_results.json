@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-02T21:01:07+00:00",
+  "generated_at": "2026-07-02T22:12:39+00:00",
   "total_evaluated": 329,
-  "total_pending": 52,
+  "total_pending": 50,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 329,
-      "correct": 163,
-      "wrong": 114,
-      "pending": 52,
+      "correct": 164,
+      "wrong": 115,
+      "pending": 50,
       "win_rate": 58.8,
       "signals": [
         {
@@ -4501,11 +4501,11 @@
           "tier": "Moderate",
           "entry_price": 0.52,
           "whale_direction": "Cincinnati Reds",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Cincinnati Reds",
+          "resolved_date": "2026-07-09",
           "end_date": "2026-07-09",
           "total_value_usd": 14677.65,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x683b5a5e07c42cc4bcdc0124deca94f8a973c64ff152e336b615a2fb6be54e38:0",
@@ -4529,11 +4529,11 @@
           "tier": "Strong",
           "entry_price": 0.52,
           "whale_direction": "Milwaukee Brewers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Cincinnati Reds",
+          "resolved_date": "2026-07-09",
           "end_date": "2026-07-09",
           "total_value_usd": 13763.51,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xf7da86422359832bae8d4771b7adb0235073ddb7451f89a9ef796bc0da3b9867:1",
