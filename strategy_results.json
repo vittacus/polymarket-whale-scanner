@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-02T02:46:43+00:00",
-  "total_evaluated": 316,
+  "generated_at": "2026-07-02T06:28:23+00:00",
+  "total_evaluated": 318,
   "total_pending": 49,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 316,
-      "correct": 156,
-      "wrong": 111,
+      "signals_evaluated": 318,
+      "correct": 157,
+      "wrong": 112,
       "pending": 49,
       "win_rate": 58.4,
       "signals": [
@@ -4417,11 +4417,11 @@
           "tier": "Strong",
           "entry_price": 0.52,
           "whale_direction": "Minnesota Twins",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Minnesota Twins",
+          "resolved_date": "2026-07-09",
           "end_date": "2026-07-09",
           "total_value_usd": 110066.82,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xcc3f41af4b7ef6c7b399c1666801913d6b129594b261c84c1d1a838f4f76242a:0",
@@ -4431,10 +4431,38 @@
           "tier": "Strong",
           "entry_price": 0.52,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Athletics",
+          "resolved_date": "2026-07-09",
           "end_date": "2026-07-09",
           "total_value_usd": 126447.22,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xe6f040d202cefefe47bdc9d192303905418223fec440f96eb2abe98f3b701bd4:0",
+          "condition_id": "0xe6f040d202cefefe47bdc9d192303905418223fec440f96eb2abe98f3b701bd4",
+          "title": "Will Norway win on 2026-07-05?",
+          "category": "Soccer",
+          "tier": "Strong",
+          "entry_price": 0.52,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-05",
+          "total_value_usd": 7318.61,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xc4a26ee77fc5777d5036854f3835bf7ce44b42a61e3c6325c22b444627757eca:0",
+          "condition_id": "0xc4a26ee77fc5777d5036854f3835bf7ce44b42a61e3c6325c22b444627757eca",
+          "title": "Will Colombia win on 2026-07-03?",
+          "category": "Soccer",
+          "tier": "Moderate",
+          "entry_price": 0.52,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-04",
+          "total_value_usd": 60410.27,
           "result": "pending"
         }
       ]

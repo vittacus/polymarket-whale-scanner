@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-02T02:46:43+00:00",
-  "total_signals": 316,
-  "total_resolved": 267,
-  "total_correct": 156,
+  "generated_at": "2026-07-02T06:28:23+00:00",
+  "total_signals": 318,
+  "total_resolved": 269,
+  "total_correct": 157,
   "overall_hit_rate": 58.4,
   "by_tier": {
     "Strong": {
-      "total": 71,
-      "resolved": 64,
-      "correct": 38,
-      "hit_rate": 59.4
+      "total": 72,
+      "resolved": 66,
+      "correct": 39,
+      "hit_rate": 59.1
     },
     "Moderate": {
-      "total": 205,
+      "total": 206,
       "resolved": 172,
       "correct": 102,
       "hit_rate": 59.3
@@ -5375,10 +5375,10 @@
       "total_value_usd": 110066.82,
       "entry_price": 0.52,
       "end_date": "2026-07-09",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Minnesota Twins",
+      "resolved_date": "2026-07-09"
     },
     {
       "signal_key": "0xcc3f41af4b7ef6c7b399c1666801913d6b129594b261c84c1d1a838f4f76242a:0",
@@ -5392,6 +5392,40 @@
       "total_value_usd": 126447.22,
       "entry_price": 0.52,
       "end_date": "2026-07-09",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Athletics",
+      "resolved_date": "2026-07-09"
+    },
+    {
+      "signal_key": "0xe6f040d202cefefe47bdc9d192303905418223fec440f96eb2abe98f3b701bd4:0",
+      "condition_id": "0xe6f040d202cefefe47bdc9d192303905418223fec440f96eb2abe98f3b701bd4",
+      "title": "Will Norway win on 2026-07-05?",
+      "category": "Soccer",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 12.1981,
+      "total_value_usd": 7318.61,
+      "entry_price": 0.52,
+      "end_date": "2026-07-05",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xc4a26ee77fc5777d5036854f3835bf7ce44b42a61e3c6325c22b444627757eca:0",
+      "condition_id": "0xc4a26ee77fc5777d5036854f3835bf7ce44b42a61e3c6325c22b444627757eca",
+      "title": "Will Colombia win on 2026-07-03?",
+      "category": "Soccer",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 9.0371,
+      "total_value_usd": 60410.27,
+      "entry_price": 0.52,
+      "end_date": "2026-07-04",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
