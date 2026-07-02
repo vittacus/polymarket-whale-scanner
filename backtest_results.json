@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-02T13:53:31+00:00",
-  "total_signals": 318,
-  "total_resolved": 269,
-  "total_correct": 157,
-  "overall_hit_rate": 58.4,
+  "generated_at": "2026-07-02T16:04:57+00:00",
+  "total_signals": 319,
+  "total_resolved": 270,
+  "total_correct": 158,
+  "overall_hit_rate": 58.5,
   "by_tier": {
     "Strong": {
       "total": 72,
@@ -12,16 +12,16 @@
       "hit_rate": 59.1
     },
     "Moderate": {
-      "total": 206,
+      "total": 207,
       "resolved": 172,
       "correct": 102,
       "hit_rate": 59.3
     },
     "Weak": {
       "total": 40,
-      "resolved": 31,
-      "correct": 16,
-      "hit_rate": 51.6
+      "resolved": 32,
+      "correct": 17,
+      "hit_rate": 53.1
     }
   },
   "signals": [
@@ -5307,10 +5307,10 @@
       "total_value_usd": 64500.79,
       "entry_price": 0.52,
       "end_date": "2026-07-08",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Rafael Jodar",
+      "resolved_date": "2026-07-08"
     },
     {
       "signal_key": "0xb81d9a63be774f9c3db1b96af4d0e869128643a29c6eb922c0d8a20137880120:1",
@@ -5426,6 +5426,23 @@
       "total_value_usd": 60410.27,
       "entry_price": 0.52,
       "end_date": "2026-07-04",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xdbf69c69fe1e6b0bbbea06b89a59a6e7dbb1ec356087d36744b683e8aa1498c3:1",
+      "condition_id": "0xdbf69c69fe1e6b0bbbea06b89a59a6e7dbb1ec356087d36744b683e8aa1498c3",
+      "title": "Wimbledon ATP: James Duckworth vs Flavio Cobolli",
+      "category": "Tennis",
+      "whale_direction": "Flavio Cobolli",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 5.6247,
+      "total_value_usd": 373771.96,
+      "entry_price": 0.52,
+      "end_date": "2026-07-09",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
