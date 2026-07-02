@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-02T19:53:04+00:00",
+  "generated_at": "2026-07-02T21:01:07+00:00",
   "total_signals": 329,
-  "total_resolved": 271,
-  "total_correct": 159,
-  "overall_hit_rate": 58.7,
+  "total_resolved": 277,
+  "total_correct": 163,
+  "overall_hit_rate": 58.8,
   "by_tier": {
     "Strong": {
       "total": 79,
-      "resolved": 66,
-      "correct": 39,
-      "hit_rate": 59.1
+      "resolved": 70,
+      "correct": 42,
+      "hit_rate": 60.0
     },
     "Moderate": {
       "total": 210,
-      "resolved": 173,
-      "correct": 103,
-      "hit_rate": 59.5
+      "resolved": 175,
+      "correct": 104,
+      "hit_rate": 59.4
     },
     "Weak": {
       "total": 40,
@@ -5460,10 +5460,10 @@
       "total_value_usd": 92103.33,
       "entry_price": 0.52,
       "end_date": "2026-07-09",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Pittsburgh Pirates",
+      "resolved_date": "2026-07-09"
     },
     {
       "signal_key": "0x24e14f76cfd2c3cbb06898a53933d966dc443b25aa7396f36b2183e16d26d965:0",
@@ -5494,10 +5494,10 @@
       "total_value_usd": 35877.26,
       "entry_price": 0.52,
       "end_date": "2026-07-09",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Pittsburgh Pirates",
+      "resolved_date": "2026-07-09"
     },
     {
       "signal_key": "0x24e14f76cfd2c3cbb06898a53933d966dc443b25aa7396f36b2183e16d26d965:1",
@@ -5545,10 +5545,10 @@
       "total_value_usd": 163520.38,
       "entry_price": 0.52,
       "end_date": "2026-07-09",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Grigor Dimitrov",
+      "resolved_date": "2026-07-09"
     },
     {
       "signal_key": "0x749d3ee163e3ea4e670c664a81d700538dac926e40ac8b4c1a7819ee41ddbf66:0",
@@ -5562,10 +5562,10 @@
       "total_value_usd": 144297.99,
       "entry_price": 0.52,
       "end_date": "2026-07-09",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Frances Tiafoe",
+      "resolved_date": "2026-07-09"
     },
     {
       "signal_key": "0xc2b77717f57e01c4471aa3d6184f24dffad5099bba9ca0768e46bad7e61f7d3f:1",
@@ -5579,10 +5579,10 @@
       "total_value_usd": 86733.65,
       "entry_price": 0.52,
       "end_date": "2026-07-09",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Grigor Dimitrov",
+      "resolved_date": "2026-07-09"
     },
     {
       "signal_key": "0x3995bc2cf89c091220a47daa68e4087f8d55ee2758dbfc8fd0884af04b4203ed:1",
@@ -5596,10 +5596,10 @@
       "total_value_usd": 63144.94,
       "entry_price": 0.52,
       "end_date": "2026-07-09",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Linda Noskova",
+      "resolved_date": "2026-07-09"
     },
     {
       "signal_key": "0xf7da86422359832bae8d4771b7adb0235073ddb7451f89a9ef796bc0da3b9867:0",

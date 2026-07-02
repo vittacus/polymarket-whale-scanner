@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-02T19:53:04+00:00",
+  "generated_at": "2026-07-02T21:01:07+00:00",
   "total_evaluated": 329,
-  "total_pending": 58,
+  "total_pending": 52,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 329,
-      "correct": 159,
-      "wrong": 112,
-      "pending": 58,
-      "win_rate": 58.7,
+      "correct": 163,
+      "wrong": 114,
+      "pending": 52,
+      "win_rate": 58.8,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -4487,11 +4487,11 @@
           "tier": "Moderate",
           "entry_price": 0.52,
           "whale_direction": "Philadelphia Phillies",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Pittsburgh Pirates",
+          "resolved_date": "2026-07-09",
           "end_date": "2026-07-09",
           "total_value_usd": 92103.33,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x24e14f76cfd2c3cbb06898a53933d966dc443b25aa7396f36b2183e16d26d965:0",
@@ -4515,11 +4515,11 @@
           "tier": "Moderate",
           "entry_price": 0.52,
           "whale_direction": "Pittsburgh Pirates",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Pittsburgh Pirates",
+          "resolved_date": "2026-07-09",
           "end_date": "2026-07-09",
           "total_value_usd": 35877.26,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x24e14f76cfd2c3cbb06898a53933d966dc443b25aa7396f36b2183e16d26d965:1",
@@ -4557,11 +4557,11 @@
           "tier": "Strong",
           "entry_price": 0.52,
           "whale_direction": "Jakub Mensik",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Grigor Dimitrov",
+          "resolved_date": "2026-07-09",
           "end_date": "2026-07-09",
           "total_value_usd": 163520.38,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x749d3ee163e3ea4e670c664a81d700538dac926e40ac8b4c1a7819ee41ddbf66:0",
@@ -4571,11 +4571,11 @@
           "tier": "Strong",
           "entry_price": 0.52,
           "whale_direction": "Frances Tiafoe",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Frances Tiafoe",
+          "resolved_date": "2026-07-09",
           "end_date": "2026-07-09",
           "total_value_usd": 144297.99,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc2b77717f57e01c4471aa3d6184f24dffad5099bba9ca0768e46bad7e61f7d3f:1",
@@ -4585,11 +4585,11 @@
           "tier": "Strong",
           "entry_price": 0.52,
           "whale_direction": "Grigor Dimitrov",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Grigor Dimitrov",
+          "resolved_date": "2026-07-09",
           "end_date": "2026-07-09",
           "total_value_usd": 86733.65,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x3995bc2cf89c091220a47daa68e4087f8d55ee2758dbfc8fd0884af04b4203ed:1",
@@ -4599,11 +4599,11 @@
           "tier": "Strong",
           "entry_price": 0.52,
           "whale_direction": "Linda Noskova",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Linda Noskova",
+          "resolved_date": "2026-07-09",
           "end_date": "2026-07-09",
           "total_value_usd": 63144.94,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf7da86422359832bae8d4771b7adb0235073ddb7451f89a9ef796bc0da3b9867:0",
