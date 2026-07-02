@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-01T23:48:14+00:00",
-  "total_signals": 314,
-  "total_resolved": 264,
-  "total_correct": 154,
-  "overall_hit_rate": 58.3,
+  "generated_at": "2026-07-02T02:46:43+00:00",
+  "total_signals": 316,
+  "total_resolved": 267,
+  "total_correct": 156,
+  "overall_hit_rate": 58.4,
   "by_tier": {
     "Strong": {
-      "total": 69,
-      "resolved": 63,
-      "correct": 37,
-      "hit_rate": 58.7
+      "total": 71,
+      "resolved": 64,
+      "correct": 38,
+      "hit_rate": 59.4
     },
     "Moderate": {
       "total": 205,
-      "resolved": 170,
-      "correct": 101,
-      "hit_rate": 59.4
+      "resolved": 172,
+      "correct": 102,
+      "hit_rate": 59.3
     },
     "Weak": {
       "total": 40,
@@ -2077,10 +2077,10 @@
       "total_value_usd": 35273.26,
       "entry_price": 0.51,
       "end_date": "2026-07-20",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-20"
     },
     {
       "signal_key": "0x133b396987296b9710c2eebbed735eed7ef5709410fc65c20d0a64b846b99515:1",
@@ -5086,10 +5086,10 @@
       "total_value_usd": 94472.84,
       "entry_price": 0.515,
       "end_date": "2026-07-02",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-07-02"
     },
     {
       "signal_key": "0x475b9074e64d7a3960f3348290afbe2b74f53f6a64316e02b39373ab278316d1:1",
@@ -5171,10 +5171,10 @@
       "total_value_usd": 15284.92,
       "entry_price": 0.51,
       "end_date": "2026-07-02",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "United States",
+      "resolved_date": "2026-07-02"
     },
     {
       "signal_key": "0x67443cb1ffb2bf180f7df5b6ca7adff63f7e8e933c7e41405ba118f3e9f8befb:0",
@@ -5358,6 +5358,40 @@
       "total_value_usd": 13605.9,
       "entry_price": 0.52,
       "end_date": "2026-07-04",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x3e47e9ab777735fd1dae04df35e34536c38cbd4a01f173eb1acee0ce88b80c13:0",
+      "condition_id": "0x3e47e9ab777735fd1dae04df35e34536c38cbd4a01f173eb1acee0ce88b80c13",
+      "title": "Minnesota Twins vs. Houston Astros",
+      "category": "MLB",
+      "whale_direction": "Minnesota Twins",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 22.0084,
+      "total_value_usd": 110066.82,
+      "entry_price": 0.52,
+      "end_date": "2026-07-09",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xcc3f41af4b7ef6c7b399c1666801913d6b129594b261c84c1d1a838f4f76242a:0",
+      "condition_id": "0xcc3f41af4b7ef6c7b399c1666801913d6b129594b261c84c1d1a838f4f76242a",
+      "title": "Los Angeles Dodgers vs. Athletics",
+      "category": "MLB",
+      "whale_direction": "Los Angeles Dodgers",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 18.6003,
+      "total_value_usd": 126447.22,
+      "entry_price": 0.52,
+      "end_date": "2026-07-09",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

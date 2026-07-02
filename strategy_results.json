@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-01T23:48:14+00:00",
-  "total_evaluated": 314,
-  "total_pending": 50,
+  "generated_at": "2026-07-02T02:46:43+00:00",
+  "total_evaluated": 316,
+  "total_pending": 49,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 314,
-      "correct": 154,
-      "wrong": 110,
-      "pending": 50,
-      "win_rate": 58.3,
+      "signals_evaluated": 316,
+      "correct": 156,
+      "wrong": 111,
+      "pending": 49,
+      "win_rate": 58.4,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -1701,11 +1701,11 @@
           "tier": "Moderate",
           "entry_price": 0.51,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-07-20",
           "end_date": "2026-07-20",
           "total_value_usd": 35273.26,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x133b396987296b9710c2eebbed735eed7ef5709410fc65c20d0a64b846b99515:1",
@@ -4179,11 +4179,11 @@
           "tier": "Moderate",
           "entry_price": 0.515,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Yes",
+          "resolved_date": "2026-07-02",
           "end_date": "2026-07-02",
           "total_value_usd": 94472.84,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x475b9074e64d7a3960f3348290afbe2b74f53f6a64316e02b39373ab278316d1:1",
@@ -4249,11 +4249,11 @@
           "tier": "Strong",
           "entry_price": 0.51,
           "whale_direction": "United States",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "United States",
+          "resolved_date": "2026-07-02",
           "end_date": "2026-07-02",
           "total_value_usd": 15284.92,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x67443cb1ffb2bf180f7df5b6ca7adff63f7e8e933c7e41405ba118f3e9f8befb:0",
@@ -4407,6 +4407,34 @@
           "resolved_date": null,
           "end_date": "2026-07-04",
           "total_value_usd": 13605.9,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x3e47e9ab777735fd1dae04df35e34536c38cbd4a01f173eb1acee0ce88b80c13:0",
+          "condition_id": "0x3e47e9ab777735fd1dae04df35e34536c38cbd4a01f173eb1acee0ce88b80c13",
+          "title": "Minnesota Twins vs. Houston Astros",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.52,
+          "whale_direction": "Minnesota Twins",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-09",
+          "total_value_usd": 110066.82,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xcc3f41af4b7ef6c7b399c1666801913d6b129594b261c84c1d1a838f4f76242a:0",
+          "condition_id": "0xcc3f41af4b7ef6c7b399c1666801913d6b129594b261c84c1d1a838f4f76242a",
+          "title": "Los Angeles Dodgers vs. Athletics",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.52,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-09",
+          "total_value_usd": 126447.22,
           "result": "pending"
         }
       ]
