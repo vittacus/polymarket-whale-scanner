@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-02T22:12:39+00:00",
+  "generated_at": "2026-07-02T23:24:07+00:00",
   "total_evaluated": 329,
-  "total_pending": 50,
+  "total_pending": 48,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 329,
-      "correct": 164,
-      "wrong": 115,
-      "pending": 50,
-      "win_rate": 58.8,
+      "correct": 165,
+      "wrong": 116,
+      "pending": 48,
+      "win_rate": 58.7,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -4543,11 +4543,11 @@
           "tier": "Strong",
           "entry_price": 0.52,
           "whale_direction": "Colorado Rockies",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Colorado Rockies",
+          "resolved_date": "2026-07-09",
           "end_date": "2026-07-09",
           "total_value_usd": 25976.74,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc2b77717f57e01c4471aa3d6184f24dffad5099bba9ca0768e46bad7e61f7d3f:0",
@@ -4613,11 +4613,11 @@
           "tier": "Strong",
           "entry_price": 0.52,
           "whale_direction": "Miami Marlins",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Colorado Rockies",
+          "resolved_date": "2026-07-09",
           "end_date": "2026-07-09",
           "total_value_usd": 55933.11,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
