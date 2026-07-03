@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-02T23:24:07+00:00",
-  "total_evaluated": 329,
+  "generated_at": "2026-07-03T01:10:55+00:00",
+  "total_evaluated": 330,
   "total_pending": 48,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 329,
+      "signals_evaluated": 330,
       "correct": 165,
-      "wrong": 116,
+      "wrong": 117,
       "pending": 48,
-      "win_rate": 58.7,
+      "win_rate": 58.5,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -4095,11 +4095,11 @@
           "tier": "Weak",
           "entry_price": 0.515,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-07-20",
           "end_date": "2026-07-20",
           "total_value_usd": 3293.01,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x65f5760095b3b903c895b320765ccdd4074b72750458b09fde516f6254bcec67:1",
@@ -4618,6 +4618,20 @@
           "end_date": "2026-07-09",
           "total_value_usd": 55933.11,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x4f3421fb2daf5cca7430ed8d8132463963081572d75434393a1808fdb8829fe8:1",
+          "condition_id": "0x4f3421fb2daf5cca7430ed8d8132463963081572d75434393a1808fdb8829fe8",
+          "title": "Will Portugal win the 2026 FIFA World Cup?",
+          "category": "Soccer",
+          "tier": "Strong",
+          "entry_price": 0.52,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-20",
+          "total_value_usd": 20844.43,
+          "result": "pending"
         }
       ]
     },

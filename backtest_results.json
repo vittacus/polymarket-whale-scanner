@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-02T23:24:07+00:00",
-  "total_signals": 329,
-  "total_resolved": 281,
+  "generated_at": "2026-07-03T01:10:55+00:00",
+  "total_signals": 330,
+  "total_resolved": 282,
   "total_correct": 165,
-  "overall_hit_rate": 58.7,
+  "overall_hit_rate": 58.5,
   "by_tier": {
     "Strong": {
-      "total": 79,
+      "total": 80,
       "resolved": 73,
       "correct": 43,
       "hit_rate": 58.9
@@ -19,9 +19,9 @@
     },
     "Weak": {
       "total": 40,
-      "resolved": 32,
+      "resolved": 33,
       "correct": 17,
-      "hit_rate": 53.1
+      "hit_rate": 51.5
     }
   },
   "signals": [
@@ -4984,10 +4984,10 @@
       "total_value_usd": 3293.01,
       "entry_price": 0.515,
       "end_date": "2026-07-20",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-20"
     },
     {
       "signal_key": "0x65f5760095b3b903c895b320765ccdd4074b72750458b09fde516f6254bcec67:1",
@@ -5617,6 +5617,23 @@
       "correct": false,
       "resolved_outcome": "Colorado Rockies",
       "resolved_date": "2026-07-09"
+    },
+    {
+      "signal_key": "0x4f3421fb2daf5cca7430ed8d8132463963081572d75434393a1808fdb8829fe8:1",
+      "condition_id": "0x4f3421fb2daf5cca7430ed8d8132463963081572d75434393a1808fdb8829fe8",
+      "title": "Will Portugal win the 2026 FIFA World Cup?",
+      "category": "Soccer",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 13.0527,
+      "total_value_usd": 20844.43,
+      "entry_price": 0.52,
+      "end_date": "2026-07-20",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
