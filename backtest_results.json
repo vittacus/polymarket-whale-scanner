@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-03T20:35:57+00:00",
-  "total_signals": 331,
-  "total_resolved": 285,
+  "generated_at": "2026-07-03T21:46:29+00:00",
+  "total_signals": 332,
+  "total_resolved": 286,
   "total_correct": 167,
-  "overall_hit_rate": 58.6,
+  "overall_hit_rate": 58.4,
   "by_tier": {
     "Strong": {
-      "total": 80,
+      "total": 81,
       "resolved": 74,
       "correct": 44,
       "hit_rate": 59.5
@@ -19,9 +19,9 @@
     },
     "Weak": {
       "total": 40,
-      "resolved": 34,
+      "resolved": 35,
       "correct": 17,
-      "hit_rate": 50.0
+      "hit_rate": 48.6
     }
   },
   "signals": [
@@ -5239,10 +5239,10 @@
       "total_value_usd": 4655.3,
       "entry_price": 0.51,
       "end_date": "2026-07-03",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-03"
     },
     {
       "signal_key": "0x7ad403c3508f8e3912940fd1a913f227591145ca0614074208e0b962d5fcc422:0",
@@ -5647,6 +5647,23 @@
       "total_value_usd": 41274.15,
       "entry_price": 0.56,
       "end_date": "2026-07-06",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xe741bae99fc9da13f2b1dd8591f92dfff369e79f7a0a48f8a4dc3b26afc0c0f4:1",
+      "condition_id": "0xe741bae99fc9da13f2b1dd8591f92dfff369e79f7a0a48f8a4dc3b26afc0c0f4",
+      "title": "Pittsburgh Pirates vs. Washington Nationals",
+      "category": "MLB",
+      "whale_direction": "Washington Nationals",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 15.3073,
+      "total_value_usd": 77536.79,
+      "entry_price": 0.555,
+      "end_date": "2026-07-10",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
