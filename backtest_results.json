@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-04T11:52:49+00:00",
-  "total_signals": 336,
+  "generated_at": "2026-07-04T13:13:38+00:00",
+  "total_signals": 337,
   "total_resolved": 292,
   "total_correct": 170,
   "overall_hit_rate": 58.2,
@@ -12,7 +12,7 @@
       "hit_rate": 59.2
     },
     "Moderate": {
-      "total": 215,
+      "total": 216,
       "resolved": 181,
       "correct": 108,
       "hit_rate": 59.7
@@ -5731,6 +5731,23 @@
       "score": 5.1394,
       "total_value_usd": 4405.39,
       "entry_price": 0.52,
+      "end_date": "2026-07-10",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x2605a86f36e02c088e12678a73754894497f32b5cedb8d2943c357271d1c24bc:1",
+      "condition_id": "0x2605a86f36e02c088e12678a73754894497f32b5cedb8d2943c357271d1c24bc",
+      "title": "Wimbledon WTA: Liudmila Samsonova vs Marie Bouzkova",
+      "category": "Tennis",
+      "whale_direction": "Marie Bouzkova",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 5.2404,
+      "total_value_usd": 299109.31,
+      "entry_price": 0.515,
       "end_date": "2026-07-10",
       "resolved": false,
       "correct": null,

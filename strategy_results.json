@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-04T11:52:49+00:00",
-  "total_evaluated": 336,
-  "total_pending": 44,
+  "generated_at": "2026-07-04T13:13:38+00:00",
+  "total_evaluated": 337,
+  "total_pending": 45,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 336,
+      "signals_evaluated": 337,
       "correct": 170,
       "wrong": 122,
-      "pending": 44,
+      "pending": 45,
       "win_rate": 58.2,
       "signals": [
         {
@@ -4715,6 +4715,20 @@
           "resolved_date": null,
           "end_date": "2026-07-10",
           "total_value_usd": 4405.39,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x2605a86f36e02c088e12678a73754894497f32b5cedb8d2943c357271d1c24bc:1",
+          "condition_id": "0x2605a86f36e02c088e12678a73754894497f32b5cedb8d2943c357271d1c24bc",
+          "title": "Wimbledon WTA: Liudmila Samsonova vs Marie Bouzkova",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "Marie Bouzkova",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-10",
+          "total_value_usd": 299109.31,
           "result": "pending"
         }
       ]
