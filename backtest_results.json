@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-04T22:41:01+00:00",
-  "total_signals": 344,
+  "generated_at": "2026-07-04T23:45:27+00:00",
+  "total_signals": 345,
   "total_resolved": 301,
   "total_correct": 174,
   "overall_hit_rate": 57.8,
   "by_tier": {
     "Strong": {
-      "total": 85,
+      "total": 86,
       "resolved": 78,
       "correct": 47,
       "hit_rate": 60.3
@@ -5868,6 +5868,23 @@
       "total_value_usd": 26343.35,
       "entry_price": 0.525,
       "end_date": "2026-07-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xb2b937174fa5cd0184c921a2af822bfc968683a55ce4c6b482bcef3c15876b2d:1",
+      "condition_id": "0xb2b937174fa5cd0184c921a2af822bfc968683a55ce4c6b482bcef3c15876b2d",
+      "title": "Tampa Bay Rays vs. Houston Astros",
+      "category": "MLB",
+      "whale_direction": "Houston Astros",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 28.6195,
+      "total_value_usd": 113755.03,
+      "entry_price": 0.52,
+      "end_date": "2026-07-11",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
