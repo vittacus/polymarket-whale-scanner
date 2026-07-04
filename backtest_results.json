@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-03T23:45:50+00:00",
-  "total_signals": 332,
-  "total_resolved": 286,
-  "total_correct": 167,
-  "overall_hit_rate": 58.4,
+  "generated_at": "2026-07-04T01:20:22+00:00",
+  "total_signals": 333,
+  "total_resolved": 289,
+  "total_correct": 168,
+  "overall_hit_rate": 58.1,
   "by_tier": {
     "Strong": {
       "total": 81,
-      "resolved": 74,
+      "resolved": 75,
       "correct": 44,
-      "hit_rate": 59.5
+      "hit_rate": 58.7
     },
     "Moderate": {
-      "total": 211,
-      "resolved": 177,
-      "correct": 106,
-      "hit_rate": 59.9
+      "total": 212,
+      "resolved": 179,
+      "correct": 107,
+      "hit_rate": 59.8
     },
     "Weak": {
       "total": 40,
@@ -5018,10 +5018,10 @@
       "total_value_usd": 33334.2,
       "entry_price": 0.515,
       "end_date": "2026-07-03",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Cabo Verde",
+      "resolved_date": "2026-07-03"
     },
     {
       "signal_key": "0x8bf1c1536ecb1c08fe13c6b71e8ab1f58bf3461c4cb79f5f1679f869a06aef86:0",
@@ -5205,10 +5205,10 @@
       "total_value_usd": 98100.73,
       "entry_price": 0.51,
       "end_date": "2026-07-03",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-03"
     },
     {
       "signal_key": "0x675bba4df50fd123f7fbfbafa67e9b75f4092d85ce0f9148ce78fc945964c856:0",
@@ -5324,10 +5324,10 @@
       "total_value_usd": 28221.8,
       "entry_price": 0.52,
       "end_date": "2026-07-03",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-03"
     },
     {
       "signal_key": "0x498cd7fcb7d5209192cd31676f27413e0a3bdb8c8d8d228229cac24c0701fc27:0",
@@ -5664,6 +5664,23 @@
       "total_value_usd": 77536.79,
       "entry_price": 0.555,
       "end_date": "2026-07-10",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x7412d284c8f63791fec807f9b1f61c6fe61163621775a3dc8686cd2575272abe:0",
+      "condition_id": "0x7412d284c8f63791fec807f9b1f61c6fe61163621775a3dc8686cd2575272abe",
+      "title": "Will Egypt win the 2026 FIFA World Cup?",
+      "category": "Soccer",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 4.0176,
+      "total_value_usd": 3751.76,
+      "entry_price": 0.515,
+      "end_date": "2026-07-20",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
