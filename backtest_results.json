@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-04T01:20:22+00:00",
-  "total_signals": 333,
-  "total_resolved": 289,
-  "total_correct": 168,
-  "overall_hit_rate": 58.1,
+  "generated_at": "2026-07-04T05:08:13+00:00",
+  "total_signals": 334,
+  "total_resolved": 292,
+  "total_correct": 170,
+  "overall_hit_rate": 58.2,
   "by_tier": {
     "Strong": {
       "total": 81,
-      "resolved": 75,
-      "correct": 44,
-      "hit_rate": 58.7
+      "resolved": 76,
+      "correct": 45,
+      "hit_rate": 59.2
     },
     "Moderate": {
-      "total": 212,
-      "resolved": 179,
-      "correct": 107,
-      "hit_rate": 59.8
+      "total": 213,
+      "resolved": 181,
+      "correct": 108,
+      "hit_rate": 59.7
     },
     "Weak": {
       "total": 40,
@@ -5358,10 +5358,10 @@
       "total_value_usd": 13605.9,
       "entry_price": 0.52,
       "end_date": "2026-07-04",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Under",
+      "resolved_date": "2026-07-04"
     },
     {
       "signal_key": "0x3e47e9ab777735fd1dae04df35e34536c38cbd4a01f173eb1acee0ce88b80c13:0",
@@ -5426,10 +5426,10 @@
       "total_value_usd": 60410.27,
       "entry_price": 0.52,
       "end_date": "2026-07-04",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-07-04"
     },
     {
       "signal_key": "0xdbf69c69fe1e6b0bbbea06b89a59a6e7dbb1ec356087d36744b683e8aa1498c3:1",
@@ -5664,10 +5664,10 @@
       "total_value_usd": 77536.79,
       "entry_price": 0.555,
       "end_date": "2026-07-10",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Washington Nationals",
+      "resolved_date": "2026-07-10"
     },
     {
       "signal_key": "0x7412d284c8f63791fec807f9b1f61c6fe61163621775a3dc8686cd2575272abe:0",
@@ -5681,6 +5681,23 @@
       "total_value_usd": 3751.76,
       "entry_price": 0.515,
       "end_date": "2026-07-20",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x02103f049a5fe127c4ea03c9531772e82f3b9f5e9f5f30d67fda5b472fb56c17:0",
+      "condition_id": "0x02103f049a5fe127c4ea03c9531772e82f3b9f5e9f5f30d67fda5b472fb56c17",
+      "title": "Will Belgium win on 2026-07-06?",
+      "category": "Soccer",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 6.8693,
+      "total_value_usd": 218302.18,
+      "entry_price": 0.53,
+      "end_date": "2026-07-07",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
