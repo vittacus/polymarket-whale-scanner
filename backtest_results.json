@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-04T13:13:38+00:00",
-  "total_signals": 337,
-  "total_resolved": 292,
-  "total_correct": 170,
-  "overall_hit_rate": 58.2,
+  "generated_at": "2026-07-04T14:48:11+00:00",
+  "total_signals": 340,
+  "total_resolved": 295,
+  "total_correct": 171,
+  "overall_hit_rate": 58.0,
   "by_tier": {
     "Strong": {
       "total": 81,
@@ -12,10 +12,10 @@
       "hit_rate": 59.2
     },
     "Moderate": {
-      "total": 216,
-      "resolved": 181,
-      "correct": 108,
-      "hit_rate": 59.7
+      "total": 219,
+      "resolved": 184,
+      "correct": 109,
+      "hit_rate": 59.2
     },
     "Weak": {
       "total": 40,
@@ -5715,10 +5715,10 @@
       "total_value_usd": 61545.28,
       "entry_price": 0.52,
       "end_date": "2026-07-10",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Marie Bouzkova",
+      "resolved_date": "2026-07-10"
     },
     {
       "signal_key": "0x0263bcf6a71f2dada63c49172a7bb9bbbe8f3aaa23c40fb692932ca536dc25f4:1",
@@ -5732,10 +5732,10 @@
       "total_value_usd": 4405.39,
       "entry_price": 0.52,
       "end_date": "2026-07-10",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Alex de Minaur",
+      "resolved_date": "2026-07-10"
     },
     {
       "signal_key": "0x2605a86f36e02c088e12678a73754894497f32b5cedb8d2943c357271d1c24bc:1",
@@ -5747,6 +5747,57 @@
       "tier": "Moderate",
       "score": 5.2404,
       "total_value_usd": 299109.31,
+      "entry_price": 0.515,
+      "end_date": "2026-07-10",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Marie Bouzkova",
+      "resolved_date": "2026-07-10"
+    },
+    {
+      "signal_key": "0xc8a02f1d046942a43372b0afb195c479a5c5116b21808a0ad28160312f9a7d66:0",
+      "condition_id": "0xc8a02f1d046942a43372b0afb195c479a5c5116b21808a0ad28160312f9a7d66",
+      "title": "Wimbledon ATP: Karen Khachanov vs Flavio Cobolli",
+      "category": "Tennis",
+      "whale_direction": "Karen Khachanov",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 7.7637,
+      "total_value_usd": 62189.92,
+      "entry_price": 0.515,
+      "end_date": "2026-07-11",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xc8a02f1d046942a43372b0afb195c479a5c5116b21808a0ad28160312f9a7d66:1",
+      "condition_id": "0xc8a02f1d046942a43372b0afb195c479a5c5116b21808a0ad28160312f9a7d66",
+      "title": "Wimbledon ATP: Karen Khachanov vs Flavio Cobolli",
+      "category": "Tennis",
+      "whale_direction": "Flavio Cobolli",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 7.3259,
+      "total_value_usd": 33370.95,
+      "entry_price": 0.515,
+      "end_date": "2026-07-11",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x0c4334e84edeff507fe1907f7c206a883027983f74b81469fd48d8a7746cec97:0",
+      "condition_id": "0x0c4334e84edeff507fe1907f7c206a883027983f74b81469fd48d8a7746cec97",
+      "title": "Wimbledon ATP: Zizou Bergs vs Arthur Fery",
+      "category": "Tennis",
+      "whale_direction": "Zizou Bergs",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 7.1033,
+      "total_value_usd": 24316.94,
       "entry_price": 0.515,
       "end_date": "2026-07-10",
       "resolved": false,

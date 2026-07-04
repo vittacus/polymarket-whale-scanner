@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-04T13:13:38+00:00",
-  "total_evaluated": 337,
+  "generated_at": "2026-07-04T14:48:11+00:00",
+  "total_evaluated": 340,
   "total_pending": 45,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 337,
-      "correct": 170,
-      "wrong": 122,
+      "signals_evaluated": 340,
+      "correct": 171,
+      "wrong": 124,
       "pending": 45,
-      "win_rate": 58.2,
+      "win_rate": 58.0,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -4697,11 +4697,11 @@
           "tier": "Moderate",
           "entry_price": 0.52,
           "whale_direction": "Liudmila Samsonova",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Marie Bouzkova",
+          "resolved_date": "2026-07-10",
           "end_date": "2026-07-10",
           "total_value_usd": 61545.28,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x0263bcf6a71f2dada63c49172a7bb9bbbe8f3aaa23c40fb692932ca536dc25f4:1",
@@ -4711,11 +4711,11 @@
           "tier": "Moderate",
           "entry_price": 0.52,
           "whale_direction": "Zachary Svajda",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alex de Minaur",
+          "resolved_date": "2026-07-10",
           "end_date": "2026-07-10",
           "total_value_usd": 4405.39,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x2605a86f36e02c088e12678a73754894497f32b5cedb8d2943c357271d1c24bc:1",
@@ -4725,10 +4725,52 @@
           "tier": "Moderate",
           "entry_price": 0.515,
           "whale_direction": "Marie Bouzkova",
+          "resolved_outcome": "Marie Bouzkova",
+          "resolved_date": "2026-07-10",
+          "end_date": "2026-07-10",
+          "total_value_usd": 299109.31,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xc8a02f1d046942a43372b0afb195c479a5c5116b21808a0ad28160312f9a7d66:0",
+          "condition_id": "0xc8a02f1d046942a43372b0afb195c479a5c5116b21808a0ad28160312f9a7d66",
+          "title": "Wimbledon ATP: Karen Khachanov vs Flavio Cobolli",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "Karen Khachanov",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-11",
+          "total_value_usd": 62189.92,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xc8a02f1d046942a43372b0afb195c479a5c5116b21808a0ad28160312f9a7d66:1",
+          "condition_id": "0xc8a02f1d046942a43372b0afb195c479a5c5116b21808a0ad28160312f9a7d66",
+          "title": "Wimbledon ATP: Karen Khachanov vs Flavio Cobolli",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "Flavio Cobolli",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-11",
+          "total_value_usd": 33370.95,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x0c4334e84edeff507fe1907f7c206a883027983f74b81469fd48d8a7746cec97:0",
+          "condition_id": "0x0c4334e84edeff507fe1907f7c206a883027983f74b81469fd48d8a7746cec97",
+          "title": "Wimbledon ATP: Zizou Bergs vs Arthur Fery",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "Zizou Bergs",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-07-10",
-          "total_value_usd": 299109.31,
+          "total_value_usd": 24316.94,
           "result": "pending"
         }
       ]
