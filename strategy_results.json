@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-04T21:42:18+00:00",
+  "generated_at": "2026-07-04T22:41:01+00:00",
   "total_evaluated": 344,
-  "total_pending": 45,
+  "total_pending": 43,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 344,
-      "correct": 173,
-      "wrong": 126,
-      "pending": 45,
-      "win_rate": 57.9,
+      "correct": 174,
+      "wrong": 127,
+      "pending": 43,
+      "win_rate": 57.8,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -4263,11 +4263,11 @@
           "tier": "Moderate",
           "entry_price": 0.51,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-07-20",
           "end_date": "2026-07-20",
           "total_value_usd": 7624.26,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xb81d9a63be774f9c3db1b96af4d0e869128643a29c6eb922c0d8a20137880120:0",
@@ -4781,11 +4781,11 @@
           "tier": "Strong",
           "entry_price": 0.525,
           "whale_direction": "Alexander Bublik",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alexander Bublik",
+          "resolved_date": "2026-07-11",
           "end_date": "2026-07-11",
           "total_value_usd": 104145.74,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x99f0c39e4235d840bd25d2c229b2cda57cc087b6b8c2780f804fffeed0d0c628:0",

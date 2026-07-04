@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-04T21:42:18+00:00",
+  "generated_at": "2026-07-04T22:41:01+00:00",
   "total_signals": 344,
-  "total_resolved": 299,
-  "total_correct": 173,
-  "overall_hit_rate": 57.9,
+  "total_resolved": 301,
+  "total_correct": 174,
+  "overall_hit_rate": 57.8,
   "by_tier": {
     "Strong": {
       "total": 85,
-      "resolved": 77,
-      "correct": 46,
-      "hit_rate": 59.7
+      "resolved": 78,
+      "correct": 47,
+      "hit_rate": 60.3
     },
     "Moderate": {
       "total": 219,
-      "resolved": 187,
+      "resolved": 188,
       "correct": 110,
-      "hit_rate": 58.8
+      "hit_rate": 58.5
     },
     "Weak": {
       "total": 40,
@@ -5188,10 +5188,10 @@
       "total_value_usd": 7624.26,
       "entry_price": 0.51,
       "end_date": "2026-07-20",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-20"
     },
     {
       "signal_key": "0xb81d9a63be774f9c3db1b96af4d0e869128643a29c6eb922c0d8a20137880120:0",
@@ -5817,10 +5817,10 @@
       "total_value_usd": 104145.74,
       "entry_price": 0.525,
       "end_date": "2026-07-11",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Alexander Bublik",
+      "resolved_date": "2026-07-11"
     },
     {
       "signal_key": "0x99f0c39e4235d840bd25d2c229b2cda57cc087b6b8c2780f804fffeed0d0c628:0",
