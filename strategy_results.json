@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-04T08:07:06+00:00",
-  "total_evaluated": 334,
-  "total_pending": 42,
+  "generated_at": "2026-07-04T10:27:42+00:00",
+  "total_evaluated": 336,
+  "total_pending": 44,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 334,
+      "signals_evaluated": 336,
       "correct": 170,
       "wrong": 122,
-      "pending": 42,
+      "pending": 44,
       "win_rate": 58.2,
       "signals": [
         {
@@ -4687,6 +4687,34 @@
           "resolved_date": null,
           "end_date": "2026-07-07",
           "total_value_usd": 218302.18,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x2605a86f36e02c088e12678a73754894497f32b5cedb8d2943c357271d1c24bc:0",
+          "condition_id": "0x2605a86f36e02c088e12678a73754894497f32b5cedb8d2943c357271d1c24bc",
+          "title": "Wimbledon WTA: Liudmila Samsonova vs Marie Bouzkova",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.52,
+          "whale_direction": "Liudmila Samsonova",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-10",
+          "total_value_usd": 61545.28,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x0263bcf6a71f2dada63c49172a7bb9bbbe8f3aaa23c40fb692932ca536dc25f4:1",
+          "condition_id": "0x0263bcf6a71f2dada63c49172a7bb9bbbe8f3aaa23c40fb692932ca536dc25f4",
+          "title": "Wimbledon ATP: Alex de Minaur vs Zachary Svajda",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.52,
+          "whale_direction": "Zachary Svajda",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-10",
+          "total_value_usd": 4405.39,
           "result": "pending"
         }
       ]

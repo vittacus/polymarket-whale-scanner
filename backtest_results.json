@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-04T08:07:06+00:00",
-  "total_signals": 334,
+  "generated_at": "2026-07-04T10:27:42+00:00",
+  "total_signals": 336,
   "total_resolved": 292,
   "total_correct": 170,
   "overall_hit_rate": 58.2,
@@ -12,7 +12,7 @@
       "hit_rate": 59.2
     },
     "Moderate": {
-      "total": 213,
+      "total": 215,
       "resolved": 181,
       "correct": 108,
       "hit_rate": 59.7
@@ -5698,6 +5698,40 @@
       "total_value_usd": 218302.18,
       "entry_price": 0.53,
       "end_date": "2026-07-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x2605a86f36e02c088e12678a73754894497f32b5cedb8d2943c357271d1c24bc:0",
+      "condition_id": "0x2605a86f36e02c088e12678a73754894497f32b5cedb8d2943c357271d1c24bc",
+      "title": "Wimbledon WTA: Liudmila Samsonova vs Marie Bouzkova",
+      "category": "Tennis",
+      "whale_direction": "Liudmila Samsonova",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 5.9597,
+      "total_value_usd": 61545.28,
+      "entry_price": 0.52,
+      "end_date": "2026-07-10",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x0263bcf6a71f2dada63c49172a7bb9bbbe8f3aaa23c40fb692932ca536dc25f4:1",
+      "condition_id": "0x0263bcf6a71f2dada63c49172a7bb9bbbe8f3aaa23c40fb692932ca536dc25f4",
+      "title": "Wimbledon ATP: Alex de Minaur vs Zachary Svajda",
+      "category": "Tennis",
+      "whale_direction": "Zachary Svajda",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 5.1394,
+      "total_value_usd": 4405.39,
+      "entry_price": 0.52,
+      "end_date": "2026-07-10",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
