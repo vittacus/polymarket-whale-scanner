@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-04T15:50:45+00:00",
+  "generated_at": "2026-07-04T17:01:15+00:00",
   "total_signals": 340,
-  "total_resolved": 295,
-  "total_correct": 171,
-  "overall_hit_rate": 58.0,
+  "total_resolved": 297,
+  "total_correct": 172,
+  "overall_hit_rate": 57.9,
   "by_tier": {
     "Strong": {
       "total": 81,
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 219,
-      "resolved": 184,
-      "correct": 109,
-      "hit_rate": 59.2
+      "resolved": 186,
+      "correct": 110,
+      "hit_rate": 59.1
     },
     "Weak": {
       "total": 40,
@@ -5766,10 +5766,10 @@
       "total_value_usd": 62189.92,
       "entry_price": 0.515,
       "end_date": "2026-07-11",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Flavio Cobolli",
+      "resolved_date": "2026-07-11"
     },
     {
       "signal_key": "0xc8a02f1d046942a43372b0afb195c479a5c5116b21808a0ad28160312f9a7d66:1",
@@ -5783,10 +5783,10 @@
       "total_value_usd": 33370.95,
       "entry_price": 0.515,
       "end_date": "2026-07-11",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Flavio Cobolli",
+      "resolved_date": "2026-07-11"
     },
     {
       "signal_key": "0x0c4334e84edeff507fe1907f7c206a883027983f74b81469fd48d8a7746cec97:0",
