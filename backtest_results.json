@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-07-05T01:27:36+00:00",
+  "generated_at": "2026-07-05T05:36:39+00:00",
   "total_signals": 354,
-  "total_resolved": 301,
-  "total_correct": 174,
-  "overall_hit_rate": 57.8,
+  "total_resolved": 312,
+  "total_correct": 181,
+  "overall_hit_rate": 58.0,
   "by_tier": {
     "Strong": {
       "total": 94,
-      "resolved": 78,
-      "correct": 47,
-      "hit_rate": 60.3
+      "resolved": 87,
+      "correct": 53,
+      "hit_rate": 60.9
     },
     "Moderate": {
       "total": 220,
-      "resolved": 188,
-      "correct": 110,
-      "hit_rate": 58.5
+      "resolved": 189,
+      "correct": 111,
+      "hit_rate": 58.7
     },
     "Weak": {
       "total": 40,
-      "resolved": 35,
+      "resolved": 36,
       "correct": 17,
-      "hit_rate": 48.6
+      "hit_rate": 47.2
     }
   },
   "signals": [
@@ -5222,10 +5222,10 @@
       "total_value_usd": 2966.16,
       "entry_price": 0.51,
       "end_date": "2026-07-20",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-20"
     },
     {
       "signal_key": "0xf3a4ebc0e59aadc6c37a49f7e50c34233925d15868fbdef7a83c4da274e1dfb3:0",
@@ -5885,10 +5885,10 @@
       "total_value_usd": 113755.03,
       "entry_price": 0.52,
       "end_date": "2026-07-11",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Houston Astros",
+      "resolved_date": "2026-07-11"
     },
     {
       "signal_key": "0xb2b937174fa5cd0184c921a2af822bfc968683a55ce4c6b482bcef3c15876b2d:0",
@@ -5902,10 +5902,10 @@
       "total_value_usd": 458922.68,
       "entry_price": 0.52,
       "end_date": "2026-07-11",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Houston Astros",
+      "resolved_date": "2026-07-11"
     },
     {
       "signal_key": "0x24bd47775326bbf1ebaaef68188569e86f0db836d7949b49450dea1ccc9db35a:1",
@@ -5919,10 +5919,10 @@
       "total_value_usd": 278421.61,
       "entry_price": 0.52,
       "end_date": "2026-07-12",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Atlanta Braves",
+      "resolved_date": "2026-07-12"
     },
     {
       "signal_key": "0x115e3cddede86ddc66a9c731a17bb93e3e9d9f2bac488b86979bf85ae77ea300:1",
@@ -5936,10 +5936,10 @@
       "total_value_usd": 35894.39,
       "entry_price": 0.52,
       "end_date": "2026-07-12",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Philadelphia Phillies",
+      "resolved_date": "2026-07-12"
     },
     {
       "signal_key": "0xe8368efeb188668bc6d0a45342ea0bdb78e609e632be67ff3c6fb4696ad0e313:0",
@@ -5953,10 +5953,10 @@
       "total_value_usd": 158208.44,
       "entry_price": 0.52,
       "end_date": "2026-07-11",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Baltimore Orioles",
+      "resolved_date": "2026-07-11"
     },
     {
       "signal_key": "0x77e903b237f3f03d2999dca850f002cfea6231ce459349ed1c852f370e8e7fc0:1",
@@ -5970,10 +5970,10 @@
       "total_value_usd": 98837.83,
       "entry_price": 0.52,
       "end_date": "2026-07-11",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Chicago White Sox",
+      "resolved_date": "2026-07-11"
     },
     {
       "signal_key": "0x115e3cddede86ddc66a9c731a17bb93e3e9d9f2bac488b86979bf85ae77ea300:0",
@@ -5987,10 +5987,10 @@
       "total_value_usd": 72791.03,
       "entry_price": 0.52,
       "end_date": "2026-07-12",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Philadelphia Phillies",
+      "resolved_date": "2026-07-12"
     },
     {
       "signal_key": "0x77e903b237f3f03d2999dca850f002cfea6231ce459349ed1c852f370e8e7fc0:0",
@@ -6004,10 +6004,10 @@
       "total_value_usd": 59228.81,
       "entry_price": 0.52,
       "end_date": "2026-07-11",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Chicago White Sox",
+      "resolved_date": "2026-07-11"
     },
     {
       "signal_key": "0x2d8bd0c647ff9237e77240b99d93bd0aba18213748744f2d3c2d8f18d063e5c3:0",
@@ -6021,10 +6021,10 @@
       "total_value_usd": 34787.88,
       "entry_price": 0.52,
       "end_date": "2026-07-12",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Miami Marlins",
+      "resolved_date": "2026-07-12"
     },
     {
       "signal_key": "0x3d77afacb8e48519fcee67b289dfd994bc2287eb7c19268612c759056f329c44:0",
@@ -6038,10 +6038,10 @@
       "total_value_usd": 6049.92,
       "entry_price": 0.52,
       "end_date": "2026-07-12",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "San Francisco Giants",
+      "resolved_date": "2026-07-12"
     }
   ]
 }
