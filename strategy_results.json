@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-05T20:24:00+00:00",
-  "total_evaluated": 359,
-  "total_pending": 46,
+  "generated_at": "2026-07-05T21:35:46+00:00",
+  "total_evaluated": 360,
+  "total_pending": 45,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 359,
-      "correct": 182,
+      "signals_evaluated": 360,
+      "correct": 184,
       "wrong": 131,
-      "pending": 46,
-      "win_rate": 58.1,
+      "pending": 45,
+      "win_rate": 58.4,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -5005,11 +5005,11 @@
           "tier": "Moderate",
           "entry_price": 0.515,
           "whale_direction": "Minnesota Twins",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Minnesota Twins",
+          "resolved_date": "2026-07-12",
           "end_date": "2026-07-12",
           "total_value_usd": 87611.59,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x87d01f6df1ace6b16fc6a77c72eea3393909a43c089355bd87436b3e7e497612:0",
@@ -5033,10 +5033,24 @@
           "tier": "Moderate",
           "entry_price": 0.515,
           "whale_direction": "Pittsburgh Pirates",
+          "resolved_outcome": "Pittsburgh Pirates",
+          "resolved_date": "2026-07-12",
+          "end_date": "2026-07-12",
+          "total_value_usd": 47621.46,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x65fb4e35499b71e8bea61a992a0b6411d56ef28d3c2415fee87d7dc8d2a15083:1",
+          "condition_id": "0x65fb4e35499b71e8bea61a992a0b6411d56ef28d3c2415fee87d7dc8d2a15083",
+          "title": "Wimbledon WTA: Belinda Bencic vs Coco Gauff",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "Coco Gauff",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-07-12",
-          "total_value_usd": 47621.46,
+          "total_value_usd": 72728.43,
           "result": "pending"
         }
       ]

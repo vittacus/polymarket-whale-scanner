@@ -106754,5 +106754,178 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-07-05T21:32:53+00:00",
+    "whale_timeframes": {
+      "0xf5fabdcdc6eb6d9765a228824f16cca9c91f62df": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb687f00464e33934f5d591f224e71c3559ecaee5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x25d3d4e435ac54775b873708c25705321c31efe2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x72254fe1a79fc8fd37de0168be735e6af4bd659a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4be1fa92e6ceaf886aac0bbec3be6c527133aa70": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x37e053beabee77acc15e641dfe8e395b2b2d024e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9d5d726b75be95f1b32c69e0bf5b71bfa63fe218": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7d6d24d5d9393cc2dd566a95a1cccbe0aa882654": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1b47e9b128e6b671edebfb2cac23dd3efc40d814": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x13414a77a4be48988851c73dfd824d0168e70853": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbb5fbe810633ab08d106b82db84418a0e2ca2e21": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa7b7505abe2fdcc497c00074534f7fbd7e07962e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf28e42d20e4826f2b10a24bc952001697947cab2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe548376f231af12b4d56aff55a7503a88892a9fe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe72bb501df5306c75c89383d48a1e81073fbb0a0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa01c0a5e4f8c1114e95c68ee97694bc95e51766c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x65fb4e35499b71e8bea61a992a0b6411d56ef28d3c2415fee87d7dc8d2a15083:1",
+        "condition_id": "0x65fb4e35499b71e8bea61a992a0b6411d56ef28d3c2415fee87d7dc8d2a15083",
+        "title": "Wimbledon WTA: Belinda Bencic vs Coco Gauff",
+        "outcome": "Coco Gauff",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x7d6d24d5d9393cc2dd566a95a1cccbe0aa882654",
+          "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c"
+        ],
+        "ranks": [
+          5,
+          9,
+          12
+        ],
+        "total_value_usd": 72728.43,
+        "score": 7.7273,
+        "category": "Tennis",
+        "end_date": "2026-07-12",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0x02103f049a5fe127c4ea03c9531772e82f3b9f5e9f5f30d67fda5b472fb56c17:0",
+        "condition_id": "0x02103f049a5fe127c4ea03c9531772e82f3b9f5e9f5f30d67fda5b472fb56c17",
+        "title": "Will Belgium win on 2026-07-06?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c"
+        ],
+        "ranks": [
+          5,
+          11,
+          12
+        ],
+        "total_value_usd": 113908.4,
+        "score": 7.6254,
+        "category": "Soccer",
+        "end_date": "2026-07-07",
+        "entry_price": 0.53
+      }
+    ]
   }
 ]

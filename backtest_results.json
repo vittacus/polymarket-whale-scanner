@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-05T20:24:00+00:00",
-  "total_signals": 359,
-  "total_resolved": 313,
-  "total_correct": 182,
-  "overall_hit_rate": 58.1,
+  "generated_at": "2026-07-05T21:35:46+00:00",
+  "total_signals": 360,
+  "total_resolved": 315,
+  "total_correct": 184,
+  "overall_hit_rate": 58.4,
   "by_tier": {
     "Strong": {
       "total": 95,
@@ -12,10 +12,10 @@
       "hit_rate": 60.9
     },
     "Moderate": {
-      "total": 224,
-      "resolved": 190,
-      "correct": 112,
-      "hit_rate": 58.9
+      "total": 225,
+      "resolved": 192,
+      "correct": 114,
+      "hit_rate": 59.4
     },
     "Weak": {
       "total": 40,
@@ -6089,10 +6089,10 @@
       "total_value_usd": 87611.59,
       "entry_price": 0.515,
       "end_date": "2026-07-12",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Minnesota Twins",
+      "resolved_date": "2026-07-12"
     },
     {
       "signal_key": "0x87d01f6df1ace6b16fc6a77c72eea3393909a43c089355bd87436b3e7e497612:0",
@@ -6121,6 +6121,23 @@
       "tier": "Moderate",
       "score": 4.4767,
       "total_value_usd": 47621.46,
+      "entry_price": 0.515,
+      "end_date": "2026-07-12",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Pittsburgh Pirates",
+      "resolved_date": "2026-07-12"
+    },
+    {
+      "signal_key": "0x65fb4e35499b71e8bea61a992a0b6411d56ef28d3c2415fee87d7dc8d2a15083:1",
+      "condition_id": "0x65fb4e35499b71e8bea61a992a0b6411d56ef28d3c2415fee87d7dc8d2a15083",
+      "title": "Wimbledon WTA: Belinda Bencic vs Coco Gauff",
+      "category": "Tennis",
+      "whale_direction": "Coco Gauff",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 7.7273,
+      "total_value_usd": 72728.43,
       "entry_price": 0.515,
       "end_date": "2026-07-12",
       "resolved": false,
