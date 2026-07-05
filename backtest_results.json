@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-05T16:45:17+00:00",
+  "generated_at": "2026-07-05T17:48:28+00:00",
   "total_signals": 355,
-  "total_resolved": 312,
-  "total_correct": 181,
-  "overall_hit_rate": 58.0,
+  "total_resolved": 313,
+  "total_correct": 182,
+  "overall_hit_rate": 58.1,
   "by_tier": {
     "Strong": {
       "total": 94,
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 221,
-      "resolved": 189,
-      "correct": 111,
-      "hit_rate": 58.7
+      "resolved": 190,
+      "correct": 112,
+      "hit_rate": 58.9
     },
     "Weak": {
       "total": 40,
@@ -6055,10 +6055,10 @@
       "total_value_usd": 304785.67,
       "entry_price": 0.515,
       "end_date": "2026-07-12",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Novak Djokovic",
+      "resolved_date": "2026-07-12"
     }
   ]
 }
