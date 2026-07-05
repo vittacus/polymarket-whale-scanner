@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-05T17:48:28+00:00",
-  "total_signals": 355,
+  "generated_at": "2026-07-05T19:10:45+00:00",
+  "total_signals": 359,
   "total_resolved": 313,
   "total_correct": 182,
   "overall_hit_rate": 58.1,
   "by_tier": {
     "Strong": {
-      "total": 94,
+      "total": 95,
       "resolved": 87,
       "correct": 53,
       "hit_rate": 60.9
     },
     "Moderate": {
-      "total": 221,
+      "total": 224,
       "resolved": 190,
       "correct": 112,
       "hit_rate": 58.9
@@ -6059,6 +6059,74 @@
       "correct": true,
       "resolved_outcome": "Novak Djokovic",
       "resolved_date": "2026-07-12"
+    },
+    {
+      "signal_key": "0x87d01f6df1ace6b16fc6a77c72eea3393909a43c089355bd87436b3e7e497612:1",
+      "condition_id": "0x87d01f6df1ace6b16fc6a77c72eea3393909a43c089355bd87436b3e7e497612",
+      "title": "New York Mets vs. Atlanta Braves",
+      "category": "MLB",
+      "whale_direction": "Atlanta Braves",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 10.7315,
+      "total_value_usd": 46289.14,
+      "entry_price": 0.515,
+      "end_date": "2026-07-12",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x1ce84d9d2bb671b57727adb256ff5eabd0728d88c80ca689250d3a8ca0d02bd3:0",
+      "condition_id": "0x1ce84d9d2bb671b57727adb256ff5eabd0728d88c80ca689250d3a8ca0d02bd3",
+      "title": "Minnesota Twins vs. New York Yankees",
+      "category": "MLB",
+      "whale_direction": "Minnesota Twins",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 9.7091,
+      "total_value_usd": 87611.59,
+      "entry_price": 0.515,
+      "end_date": "2026-07-12",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x87d01f6df1ace6b16fc6a77c72eea3393909a43c089355bd87436b3e7e497612:0",
+      "condition_id": "0x87d01f6df1ace6b16fc6a77c72eea3393909a43c089355bd87436b3e7e497612",
+      "title": "New York Mets vs. Atlanta Braves",
+      "category": "MLB",
+      "whale_direction": "New York Mets",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 9.395,
+      "total_value_usd": 213427.89,
+      "entry_price": 0.515,
+      "end_date": "2026-07-12",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x9198139a69951b7eb4c13e226533c4e4f34e634c019691c6bc326d77d3b2d348:0",
+      "condition_id": "0x9198139a69951b7eb4c13e226533c4e4f34e634c019691c6bc326d77d3b2d348",
+      "title": "Pittsburgh Pirates vs. Washington Nationals",
+      "category": "MLB",
+      "whale_direction": "Pittsburgh Pirates",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 4.4767,
+      "total_value_usd": 47621.46,
+      "entry_price": 0.515,
+      "end_date": "2026-07-12",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }

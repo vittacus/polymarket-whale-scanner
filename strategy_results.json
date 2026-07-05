@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-05T17:48:28+00:00",
-  "total_evaluated": 355,
-  "total_pending": 42,
+  "generated_at": "2026-07-05T19:10:45+00:00",
+  "total_evaluated": 359,
+  "total_pending": 46,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 355,
+      "signals_evaluated": 359,
       "correct": 182,
       "wrong": 131,
-      "pending": 42,
+      "pending": 46,
       "win_rate": 58.1,
       "signals": [
         {
@@ -4982,6 +4982,62 @@
           "end_date": "2026-07-12",
           "total_value_usd": 304785.67,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x87d01f6df1ace6b16fc6a77c72eea3393909a43c089355bd87436b3e7e497612:1",
+          "condition_id": "0x87d01f6df1ace6b16fc6a77c72eea3393909a43c089355bd87436b3e7e497612",
+          "title": "New York Mets vs. Atlanta Braves",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.515,
+          "whale_direction": "Atlanta Braves",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-12",
+          "total_value_usd": 46289.14,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x1ce84d9d2bb671b57727adb256ff5eabd0728d88c80ca689250d3a8ca0d02bd3:0",
+          "condition_id": "0x1ce84d9d2bb671b57727adb256ff5eabd0728d88c80ca689250d3a8ca0d02bd3",
+          "title": "Minnesota Twins vs. New York Yankees",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "Minnesota Twins",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-12",
+          "total_value_usd": 87611.59,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x87d01f6df1ace6b16fc6a77c72eea3393909a43c089355bd87436b3e7e497612:0",
+          "condition_id": "0x87d01f6df1ace6b16fc6a77c72eea3393909a43c089355bd87436b3e7e497612",
+          "title": "New York Mets vs. Atlanta Braves",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "New York Mets",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-12",
+          "total_value_usd": 213427.89,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x9198139a69951b7eb4c13e226533c4e4f34e634c019691c6bc326d77d3b2d348:0",
+          "condition_id": "0x9198139a69951b7eb4c13e226533c4e4f34e634c019691c6bc326d77d3b2d348",
+          "title": "Pittsburgh Pirates vs. Washington Nationals",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "Pittsburgh Pirates",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-12",
+          "total_value_usd": 47621.46,
+          "result": "pending"
         }
       ]
     },
