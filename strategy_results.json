@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-05T12:14:00+00:00",
-  "total_evaluated": 354,
-  "total_pending": 42,
+  "generated_at": "2026-07-05T14:11:50+00:00",
+  "total_evaluated": 355,
+  "total_pending": 43,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 354,
+      "signals_evaluated": 355,
       "correct": 181,
       "wrong": 131,
-      "pending": 42,
+      "pending": 43,
       "win_rate": 58.0,
       "signals": [
         {
@@ -4968,6 +4968,20 @@
           "end_date": "2026-07-12",
           "total_value_usd": 6049.92,
           "result": "correct"
+        },
+        {
+          "signal_key": "0xf2dbce3795ec857534dde21ec1cc07aed421c1cfc8d632557b74dbd2a81ea181:1",
+          "condition_id": "0xf2dbce3795ec857534dde21ec1cc07aed421c1cfc8d632557b74dbd2a81ea181",
+          "title": "Wimbledon ATP: Roman Safiullin vs Novak Djokovic",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "Novak Djokovic",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-12",
+          "total_value_usd": 304785.67,
+          "result": "pending"
         }
       ]
     },

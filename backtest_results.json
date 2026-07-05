@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-05T12:14:00+00:00",
-  "total_signals": 354,
+  "generated_at": "2026-07-05T14:11:50+00:00",
+  "total_signals": 355,
   "total_resolved": 312,
   "total_correct": 181,
   "overall_hit_rate": 58.0,
@@ -12,7 +12,7 @@
       "hit_rate": 60.9
     },
     "Moderate": {
-      "total": 220,
+      "total": 221,
       "resolved": 189,
       "correct": 111,
       "hit_rate": 58.7
@@ -6042,6 +6042,23 @@
       "correct": true,
       "resolved_outcome": "San Francisco Giants",
       "resolved_date": "2026-07-12"
+    },
+    {
+      "signal_key": "0xf2dbce3795ec857534dde21ec1cc07aed421c1cfc8d632557b74dbd2a81ea181:1",
+      "condition_id": "0xf2dbce3795ec857534dde21ec1cc07aed421c1cfc8d632557b74dbd2a81ea181",
+      "title": "Wimbledon ATP: Roman Safiullin vs Novak Djokovic",
+      "category": "Tennis",
+      "whale_direction": "Novak Djokovic",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 4.6922,
+      "total_value_usd": 304785.67,
+      "entry_price": 0.515,
+      "end_date": "2026-07-12",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
