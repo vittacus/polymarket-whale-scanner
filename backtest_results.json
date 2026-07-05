@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-05T22:41:33+00:00",
+  "generated_at": "2026-07-05T23:46:14+00:00",
   "total_signals": 364,
-  "total_resolved": 318,
-  "total_correct": 186,
-  "overall_hit_rate": 58.5,
+  "total_resolved": 319,
+  "total_correct": 187,
+  "overall_hit_rate": 58.6,
   "by_tier": {
     "Strong": {
       "total": 95,
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 229,
-      "resolved": 193,
-      "correct": 115,
-      "hit_rate": 59.6
+      "resolved": 194,
+      "correct": 116,
+      "hit_rate": 59.8
     },
     "Weak": {
       "total": 40,
@@ -6140,10 +6140,10 @@
       "total_value_usd": 72728.43,
       "entry_price": 0.515,
       "end_date": "2026-07-12",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Coco Gauff",
+      "resolved_date": "2026-07-12"
     },
     {
       "signal_key": "0x982941d6030e30ed0f56043622c52d71db557f6ef2774a11a06945248e7076ab:1",

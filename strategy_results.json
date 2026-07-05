@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-05T22:41:33+00:00",
+  "generated_at": "2026-07-05T23:46:14+00:00",
   "total_evaluated": 364,
-  "total_pending": 46,
+  "total_pending": 45,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 364,
-      "correct": 186,
+      "correct": 187,
       "wrong": 132,
-      "pending": 46,
-      "win_rate": 58.5,
+      "pending": 45,
+      "win_rate": 58.6,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -5047,11 +5047,11 @@
           "tier": "Moderate",
           "entry_price": 0.515,
           "whale_direction": "Coco Gauff",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Coco Gauff",
+          "resolved_date": "2026-07-12",
           "end_date": "2026-07-12",
           "total_value_usd": 72728.43,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x982941d6030e30ed0f56043622c52d71db557f6ef2774a11a06945248e7076ab:1",
