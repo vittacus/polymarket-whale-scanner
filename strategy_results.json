@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-06T14:05:15+00:00",
-  "total_evaluated": 367,
+  "generated_at": "2026-07-06T17:17:27+00:00",
+  "total_evaluated": 368,
   "total_pending": 41,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 367,
-      "correct": 191,
+      "signals_evaluated": 368,
+      "correct": 192,
       "wrong": 135,
       "pending": 41,
-      "win_rate": 58.6,
+      "win_rate": 58.7,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -5145,10 +5145,24 @@
           "tier": "Strong",
           "entry_price": 0.51,
           "whale_direction": "Elise Mertens",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elise Mertens",
+          "resolved_date": "2026-07-12",
           "end_date": "2026-07-12",
           "total_value_usd": 1269564.98,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xcfd05b8542186b65050be56282039a00a5099d36b956408b440cddac4bff1f96:1",
+          "condition_id": "0xcfd05b8542186b65050be56282039a00a5099d36b956408b440cddac4bff1f96",
+          "title": "Wimbledon WTA: Madison Keys vs Linda Noskova",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "Linda Noskova",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-13",
+          "total_value_usd": 227053.78,
           "result": "pending"
         }
       ]
@@ -5186,10 +5200,10 @@
       "description": "Total whale position >$500k",
       "hypothesis": "Signals where total position size exceeds $500k represent the highest-conviction whale bets. When top traders put serious capital behind a position, that's a qualitatively different signal from a small stake. This filters for only the highest-conviction consensus calls to test whether size predicts accuracy.",
       "signals_evaluated": 12,
-      "correct": 8,
+      "correct": 9,
       "wrong": 1,
-      "pending": 3,
-      "win_rate": 88.9,
+      "pending": 2,
+      "win_rate": 90.0,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -5353,11 +5367,11 @@
           "tier": "Strong",
           "entry_price": 0.51,
           "whale_direction": "Elise Mertens",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elise Mertens",
+          "resolved_date": "2026-07-12",
           "end_date": "2026-07-12",
           "total_value_usd": 1269564.98,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     }

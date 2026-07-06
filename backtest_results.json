@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-06T14:05:15+00:00",
-  "total_signals": 367,
-  "total_resolved": 326,
-  "total_correct": 191,
-  "overall_hit_rate": 58.6,
+  "generated_at": "2026-07-06T17:17:27+00:00",
+  "total_signals": 368,
+  "total_resolved": 327,
+  "total_correct": 192,
+  "overall_hit_rate": 58.7,
   "by_tier": {
     "Strong": {
       "total": 97,
-      "resolved": 92,
-      "correct": 57,
-      "hit_rate": 62.0
+      "resolved": 93,
+      "correct": 58,
+      "hit_rate": 62.4
     },
     "Moderate": {
-      "total": 230,
+      "total": 231,
       "resolved": 198,
       "correct": 117,
       "hit_rate": 59.1
@@ -6259,6 +6259,23 @@
       "total_value_usd": 1269564.98,
       "entry_price": 0.51,
       "end_date": "2026-07-12",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Elise Mertens",
+      "resolved_date": "2026-07-12"
+    },
+    {
+      "signal_key": "0xcfd05b8542186b65050be56282039a00a5099d36b956408b440cddac4bff1f96:1",
+      "condition_id": "0xcfd05b8542186b65050be56282039a00a5099d36b956408b440cddac4bff1f96",
+      "title": "Wimbledon WTA: Madison Keys vs Linda Noskova",
+      "category": "Tennis",
+      "whale_direction": "Linda Noskova",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 6.5869,
+      "total_value_usd": 227053.78,
+      "entry_price": 0.51,
+      "end_date": "2026-07-13",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
