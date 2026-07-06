@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-06T21:03:31+00:00",
-  "total_signals": 368,
+  "generated_at": "2026-07-06T22:23:01+00:00",
+  "total_signals": 369,
   "total_resolved": 328,
   "total_correct": 193,
   "overall_hit_rate": 58.8,
@@ -12,7 +12,7 @@
       "hit_rate": 62.4
     },
     "Moderate": {
-      "total": 231,
+      "total": 232,
       "resolved": 199,
       "correct": 118,
       "hit_rate": 59.3
@@ -6280,6 +6280,23 @@
       "correct": true,
       "resolved_outcome": "Linda Noskova",
       "resolved_date": "2026-07-13"
+    },
+    {
+      "signal_key": "0xa2fbf26da58b976e1eb5afbbf1b1b73d4643ec03e7dacb467404d9ff5869b0b5:1",
+      "condition_id": "0xa2fbf26da58b976e1eb5afbbf1b1b73d4643ec03e7dacb467404d9ff5869b0b5",
+      "title": "Wimbledon ATP: Jiri Lehecka vs Alexander Zverev",
+      "category": "Tennis",
+      "whale_direction": "Alexander Zverev",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 5.6126,
+      "total_value_usd": 74990.99,
+      "entry_price": 0.51,
+      "end_date": "2026-07-13",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }

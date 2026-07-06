@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-06T21:03:31+00:00",
-  "total_evaluated": 368,
-  "total_pending": 40,
+  "generated_at": "2026-07-06T22:23:01+00:00",
+  "total_evaluated": 369,
+  "total_pending": 41,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 368,
+      "signals_evaluated": 369,
       "correct": 193,
       "wrong": 135,
-      "pending": 40,
+      "pending": 41,
       "win_rate": 58.8,
       "signals": [
         {
@@ -5164,6 +5164,20 @@
           "end_date": "2026-07-13",
           "total_value_usd": 227053.78,
           "result": "correct"
+        },
+        {
+          "signal_key": "0xa2fbf26da58b976e1eb5afbbf1b1b73d4643ec03e7dacb467404d9ff5869b0b5:1",
+          "condition_id": "0xa2fbf26da58b976e1eb5afbbf1b1b73d4643ec03e7dacb467404d9ff5869b0b5",
+          "title": "Wimbledon ATP: Jiri Lehecka vs Alexander Zverev",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "Alexander Zverev",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-13",
+          "total_value_usd": 74990.99,
+          "result": "pending"
         }
       ]
     },
