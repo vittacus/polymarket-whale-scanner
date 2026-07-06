@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-05T23:46:14+00:00",
-  "total_signals": 364,
-  "total_resolved": 319,
+  "generated_at": "2026-07-06T01:27:48+00:00",
+  "total_signals": 365,
+  "total_resolved": 320,
   "total_correct": 187,
-  "overall_hit_rate": 58.6,
+  "overall_hit_rate": 58.4,
   "by_tier": {
     "Strong": {
-      "total": 95,
+      "total": 96,
       "resolved": 89,
       "correct": 54,
       "hit_rate": 60.7
     },
     "Moderate": {
       "total": 229,
-      "resolved": 194,
+      "resolved": 195,
       "correct": 116,
-      "hit_rate": 59.8
+      "hit_rate": 59.5
     },
     "Weak": {
       "total": 40,
@@ -1771,10 +1771,10 @@
       "total_value_usd": 19518.12,
       "entry_price": 0.51,
       "end_date": "2026-07-20",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-20"
     },
     {
       "signal_key": "0x1595b4818eeb1ea1e0bec5de6f057218e557feee9b405a0e930d290384fa1d16:0",
@@ -6208,6 +6208,23 @@
       "total_value_usd": 4570.25,
       "entry_price": 0.515,
       "end_date": "2026-07-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xd490eca0191314746162741fd490d5c3c66d5795e980c7e491c4f8e65e68ebba:0",
+      "condition_id": "0xd490eca0191314746162741fd490d5c3c66d5795e980c7e491c4f8e65e68ebba",
+      "title": "San Diego Padres vs. Los Angeles Dodgers",
+      "category": "MLB",
+      "whale_direction": "San Diego Padres",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 26.4362,
+      "total_value_usd": 322795.37,
+      "entry_price": 0.515,
+      "end_date": "2026-07-12",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

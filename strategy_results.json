@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-05T23:46:14+00:00",
-  "total_evaluated": 364,
+  "generated_at": "2026-07-06T01:27:49+00:00",
+  "total_evaluated": 365,
   "total_pending": 45,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 364,
+      "signals_evaluated": 365,
       "correct": 187,
-      "wrong": 132,
+      "wrong": 133,
       "pending": 45,
-      "win_rate": 58.6,
+      "win_rate": 58.4,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -1449,11 +1449,11 @@
           "tier": "Moderate",
           "entry_price": 0.51,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-07-20",
           "end_date": "2026-07-20",
           "total_value_usd": 19518.12,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x1595b4818eeb1ea1e0bec5de6f057218e557feee9b405a0e930d290384fa1d16:0",
@@ -5107,6 +5107,20 @@
           "resolved_date": null,
           "end_date": "2026-07-07",
           "total_value_usd": 4570.25,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd490eca0191314746162741fd490d5c3c66d5795e980c7e491c4f8e65e68ebba:0",
+          "condition_id": "0xd490eca0191314746162741fd490d5c3c66d5795e980c7e491c4f8e65e68ebba",
+          "title": "San Diego Padres vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.515,
+          "whale_direction": "San Diego Padres",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-12",
+          "total_value_usd": 322795.37,
           "result": "pending"
         }
       ]
