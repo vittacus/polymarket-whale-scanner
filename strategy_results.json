@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-07T16:27:16+00:00",
-  "total_evaluated": 374,
+  "generated_at": "2026-07-07T18:30:32+00:00",
+  "total_evaluated": 375,
   "total_pending": 33,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 374,
-      "correct": 199,
+      "signals_evaluated": 375,
+      "correct": 200,
       "wrong": 142,
       "pending": 33,
-      "win_rate": 58.4,
+      "win_rate": 58.5,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -5173,11 +5173,11 @@
           "tier": "Moderate",
           "entry_price": 0.51,
           "whale_direction": "Alexander Zverev",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alexander Zverev",
+          "resolved_date": "2026-07-13",
           "end_date": "2026-07-13",
           "total_value_usd": 74990.99,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc2ab0a2dbf173b5d75d19e402ae02c1af6c32c82a127c93873c47b0315593d2a:1",
@@ -5248,6 +5248,20 @@
           "end_date": "2026-07-14",
           "total_value_usd": 46401.35,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x71cf19220d20cbad74d50c08f51995fc8aa7f93455878bffbbec739d1d63cee6:1",
+          "condition_id": "0x71cf19220d20cbad74d50c08f51995fc8aa7f93455878bffbbec739d1d63cee6",
+          "title": "Wimbledon ATP: Felix Auger-Aliassime vs Novak Djokovic",
+          "category": "Tennis",
+          "tier": "Weak",
+          "entry_price": 0.515,
+          "whale_direction": "Novak Djokovic",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-14",
+          "total_value_usd": 242769.78,
+          "result": "pending"
         }
       ]
     },

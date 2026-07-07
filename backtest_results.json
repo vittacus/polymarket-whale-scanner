@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-07T16:27:16+00:00",
-  "total_signals": 374,
-  "total_resolved": 341,
-  "total_correct": 199,
-  "overall_hit_rate": 58.4,
+  "generated_at": "2026-07-07T18:30:32+00:00",
+  "total_signals": 375,
+  "total_resolved": 342,
+  "total_correct": 200,
+  "overall_hit_rate": 58.5,
   "by_tier": {
     "Strong": {
       "total": 100,
@@ -13,12 +13,12 @@
     },
     "Moderate": {
       "total": 234,
-      "resolved": 207,
-      "correct": 122,
-      "hit_rate": 58.9
+      "resolved": 208,
+      "correct": 123,
+      "hit_rate": 59.1
     },
     "Weak": {
-      "total": 40,
+      "total": 41,
       "resolved": 36,
       "correct": 17,
       "hit_rate": 47.2
@@ -6293,10 +6293,10 @@
       "total_value_usd": 74990.99,
       "entry_price": 0.51,
       "end_date": "2026-07-13",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Alexander Zverev",
+      "resolved_date": "2026-07-13"
     },
     {
       "signal_key": "0xc2ab0a2dbf173b5d75d19e402ae02c1af6c32c82a127c93873c47b0315593d2a:1",
@@ -6382,6 +6382,23 @@
       "correct": true,
       "resolved_outcome": "Jannik Sinner",
       "resolved_date": "2026-07-14"
+    },
+    {
+      "signal_key": "0x71cf19220d20cbad74d50c08f51995fc8aa7f93455878bffbbec739d1d63cee6:1",
+      "condition_id": "0x71cf19220d20cbad74d50c08f51995fc8aa7f93455878bffbbec739d1d63cee6",
+      "title": "Wimbledon ATP: Felix Auger-Aliassime vs Novak Djokovic",
+      "category": "Tennis",
+      "whale_direction": "Novak Djokovic",
+      "outcome_index": 1,
+      "tier": "Weak",
+      "score": 3.6468,
+      "total_value_usd": 242769.78,
+      "entry_price": 0.515,
+      "end_date": "2026-07-14",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
