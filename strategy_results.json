@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-07T01:26:10+00:00",
-  "total_evaluated": 371,
-  "total_pending": 41,
+  "generated_at": "2026-07-07T05:33:56+00:00",
+  "total_evaluated": 372,
+  "total_pending": 35,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 371,
-      "correct": 194,
-      "wrong": 136,
-      "pending": 41,
-      "win_rate": 58.8,
+      "signals_evaluated": 372,
+      "correct": 197,
+      "wrong": 140,
+      "pending": 35,
+      "win_rate": 58.5,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -2303,11 +2303,11 @@
           "tier": "Moderate",
           "entry_price": 0.51,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-07-20",
           "end_date": "2026-07-20",
           "total_value_usd": 28578.18,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xcaaa1338d38b5c614196c9a926dd84babc3984442f2ec9b937a16284a199ec3a:0",
@@ -4683,11 +4683,11 @@
           "tier": "Moderate",
           "entry_price": 0.53,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Yes",
+          "resolved_date": "2026-07-07",
           "end_date": "2026-07-07",
           "total_value_usd": 218302.18,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x2605a86f36e02c088e12678a73754894497f32b5cedb8d2943c357271d1c24bc:0",
@@ -4823,11 +4823,11 @@
           "tier": "Strong",
           "entry_price": 0.525,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-07-07",
           "end_date": "2026-07-07",
           "total_value_usd": 26343.35,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xb2b937174fa5cd0184c921a2af822bfc968683a55ce4c6b482bcef3c15876b2d:1",
@@ -5061,11 +5061,11 @@
           "tier": "Moderate",
           "entry_price": 0.515,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-07-07",
           "end_date": "2026-07-07",
           "total_value_usd": 190675.27,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x4d39d238893ea8f7e0f4d53822a594129b9a98a1fc18744dab57351742e6a702:1",
@@ -5103,11 +5103,11 @@
           "tier": "Moderate",
           "entry_price": 0.515,
           "whale_direction": "Belgium",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Belgium",
+          "resolved_date": "2026-07-07",
           "end_date": "2026-07-07",
           "total_value_usd": 4570.25,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xd490eca0191314746162741fd490d5c3c66d5795e980c7e491c4f8e65e68ebba:0",
@@ -5187,11 +5187,11 @@
           "tier": "Strong",
           "entry_price": 0.51,
           "whale_direction": "Atlanta Braves",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Mets",
+          "resolved_date": "2026-07-13",
           "end_date": "2026-07-13",
           "total_value_usd": 54247.41,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x4692415c33db73c5ddcc7b0c94079fb3abf29c9b51678d451c0208719e4cab77:0",
@@ -5201,10 +5201,24 @@
           "tier": "Strong",
           "entry_price": 0.51,
           "whale_direction": "Houston Astros",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Washington Nationals",
+          "resolved_date": "2026-07-13",
           "end_date": "2026-07-13",
           "total_value_usd": 69375.61,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xb940a4d630a6d79b5d6a18dd3c701d94f49b19c2531370d7e077f130562bb137:1",
+          "condition_id": "0xb940a4d630a6d79b5d6a18dd3c701d94f49b19c2531370d7e077f130562bb137",
+          "title": "Colorado Rockies vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.51,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-14",
+          "total_value_usd": 311183.38,
           "result": "pending"
         }
       ]

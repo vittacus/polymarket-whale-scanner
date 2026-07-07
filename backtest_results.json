@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-07T01:26:10+00:00",
-  "total_signals": 371,
-  "total_resolved": 330,
-  "total_correct": 194,
-  "overall_hit_rate": 58.8,
+  "generated_at": "2026-07-07T05:33:56+00:00",
+  "total_signals": 372,
+  "total_resolved": 337,
+  "total_correct": 197,
+  "overall_hit_rate": 58.5,
   "by_tier": {
     "Strong": {
-      "total": 99,
-      "resolved": 94,
+      "total": 100,
+      "resolved": 97,
       "correct": 59,
-      "hit_rate": 62.8
+      "hit_rate": 60.8
     },
     "Moderate": {
       "total": 232,
-      "resolved": 200,
-      "correct": 118,
-      "hit_rate": 59.0
+      "resolved": 204,
+      "correct": 121,
+      "hit_rate": 59.3
     },
     "Weak": {
       "total": 40,
@@ -2808,10 +2808,10 @@
       "total_value_usd": 28578.18,
       "entry_price": 0.51,
       "end_date": "2026-07-20",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-20"
     },
     {
       "signal_key": "0xcaaa1338d38b5c614196c9a926dd84babc3984442f2ec9b937a16284a199ec3a:0",
@@ -5698,10 +5698,10 @@
       "total_value_usd": 218302.18,
       "entry_price": 0.53,
       "end_date": "2026-07-07",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-07-07"
     },
     {
       "signal_key": "0x2605a86f36e02c088e12678a73754894497f32b5cedb8d2943c357271d1c24bc:0",
@@ -5868,10 +5868,10 @@
       "total_value_usd": 26343.35,
       "entry_price": 0.525,
       "end_date": "2026-07-07",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-07"
     },
     {
       "signal_key": "0xb2b937174fa5cd0184c921a2af822bfc968683a55ce4c6b482bcef3c15876b2d:1",
@@ -6157,10 +6157,10 @@
       "total_value_usd": 190675.27,
       "entry_price": 0.515,
       "end_date": "2026-07-07",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-07"
     },
     {
       "signal_key": "0x4d39d238893ea8f7e0f4d53822a594129b9a98a1fc18744dab57351742e6a702:1",
@@ -6208,10 +6208,10 @@
       "total_value_usd": 4570.25,
       "entry_price": 0.515,
       "end_date": "2026-07-07",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Belgium",
+      "resolved_date": "2026-07-07"
     },
     {
       "signal_key": "0xd490eca0191314746162741fd490d5c3c66d5795e980c7e491c4f8e65e68ebba:0",
@@ -6310,10 +6310,10 @@
       "total_value_usd": 54247.41,
       "entry_price": 0.51,
       "end_date": "2026-07-13",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "New York Mets",
+      "resolved_date": "2026-07-13"
     },
     {
       "signal_key": "0x4692415c33db73c5ddcc7b0c94079fb3abf29c9b51678d451c0208719e4cab77:0",
@@ -6327,6 +6327,23 @@
       "total_value_usd": 69375.61,
       "entry_price": 0.51,
       "end_date": "2026-07-13",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Washington Nationals",
+      "resolved_date": "2026-07-13"
+    },
+    {
+      "signal_key": "0xb940a4d630a6d79b5d6a18dd3c701d94f49b19c2531370d7e077f130562bb137:1",
+      "condition_id": "0xb940a4d630a6d79b5d6a18dd3c701d94f49b19c2531370d7e077f130562bb137",
+      "title": "Colorado Rockies vs. Los Angeles Dodgers",
+      "category": "MLB",
+      "whale_direction": "Los Angeles Dodgers",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 10.6982,
+      "total_value_usd": 311183.38,
+      "entry_price": 0.51,
+      "end_date": "2026-07-14",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
