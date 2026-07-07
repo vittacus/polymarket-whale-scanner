@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-07T21:54:58+00:00",
+  "generated_at": "2026-07-07T22:58:30+00:00",
   "total_evaluated": 375,
-  "total_pending": 31,
+  "total_pending": 30,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 375,
-      "correct": 201,
+      "correct": 202,
       "wrong": 143,
-      "pending": 31,
-      "win_rate": 58.4,
+      "pending": 30,
+      "win_rate": 58.6,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -5257,11 +5257,11 @@
           "tier": "Weak",
           "entry_price": 0.515,
           "whale_direction": "Novak Djokovic",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Novak Djokovic",
+          "resolved_date": "2026-07-14",
           "end_date": "2026-07-14",
           "total_value_usd": 242769.78,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
