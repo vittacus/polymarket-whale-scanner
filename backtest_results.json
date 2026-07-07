@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-07T13:55:51+00:00",
+  "generated_at": "2026-07-07T16:27:16+00:00",
   "total_signals": 374,
-  "total_resolved": 338,
-  "total_correct": 198,
-  "overall_hit_rate": 58.6,
+  "total_resolved": 341,
+  "total_correct": 199,
+  "overall_hit_rate": 58.4,
   "by_tier": {
     "Strong": {
       "total": 100,
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 234,
-      "resolved": 204,
-      "correct": 121,
-      "hit_rate": 59.3
+      "resolved": 207,
+      "correct": 122,
+      "hit_rate": 58.9
     },
     "Weak": {
       "total": 40,
@@ -2315,10 +2315,10 @@
       "total_value_usd": 139450.51,
       "entry_price": 0.51,
       "end_date": "2026-06-30",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-06-30"
     },
     {
       "signal_key": "0xd86a816093fcd0a0e1ca440bc5ce199bd3c5a8d6139e044b076958164f8c5423:0",
@@ -6361,10 +6361,10 @@
       "total_value_usd": 518235.75,
       "entry_price": 0.51,
       "end_date": "2026-07-14",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Coco Gauff",
+      "resolved_date": "2026-07-14"
     },
     {
       "signal_key": "0x41b6b8319e2954eaa005bba3a0ac5cd7fd8c37a4079674b6b40bd431062db713:0",
@@ -6378,10 +6378,10 @@
       "total_value_usd": 46401.35,
       "entry_price": 0.51,
       "end_date": "2026-07-14",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Jannik Sinner",
+      "resolved_date": "2026-07-14"
     }
   ]
 }
