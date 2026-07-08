@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-08T02:11:05+00:00",
-  "total_signals": 387,
-  "total_resolved": 347,
-  "total_correct": 203,
-  "overall_hit_rate": 58.5,
+  "generated_at": "2026-07-08T05:33:54+00:00",
+  "total_signals": 388,
+  "total_resolved": 359,
+  "total_correct": 211,
+  "overall_hit_rate": 58.8,
   "by_tier": {
     "Strong": {
       "total": 112,
-      "resolved": 98,
-      "correct": 60,
-      "hit_rate": 61.2
+      "resolved": 110,
+      "correct": 68,
+      "hit_rate": 61.8
     },
     "Moderate": {
-      "total": 234,
+      "total": 235,
       "resolved": 212,
       "correct": 125,
       "hit_rate": 59.0
@@ -6412,10 +6412,10 @@
       "total_value_usd": 257171.1,
       "entry_price": 0.525,
       "end_date": "2026-07-14",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Kansas City Royals",
+      "resolved_date": "2026-07-14"
     },
     {
       "signal_key": "0x5261cdd049afd2af36f5324bbe29d96c5fb410033fc5abde5b9d4c1fa67bba11:1",
@@ -6429,10 +6429,10 @@
       "total_value_usd": 174678.95,
       "entry_price": 0.53,
       "end_date": "2026-07-14",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Minnesota Twins",
+      "resolved_date": "2026-07-14"
     },
     {
       "signal_key": "0x038571dd4fafbef3949f315542e25787283c3db67c87737bd50257524839bddf:0",
@@ -6446,10 +6446,10 @@
       "total_value_usd": 86012.25,
       "entry_price": 0.53,
       "end_date": "2026-07-15",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Texas Rangers",
+      "resolved_date": "2026-07-15"
     },
     {
       "signal_key": "0x2489f6ab7d08ee24a1422d65523a6202c08356fd32a10478b07dad468d2de84e:1",
@@ -6463,10 +6463,10 @@
       "total_value_usd": 191097.85,
       "entry_price": 0.525,
       "end_date": "2026-07-14",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Miami Marlins",
+      "resolved_date": "2026-07-14"
     },
     {
       "signal_key": "0x2489f6ab7d08ee24a1422d65523a6202c08356fd32a10478b07dad468d2de84e:0",
@@ -6480,10 +6480,10 @@
       "total_value_usd": 75555.11,
       "entry_price": 0.525,
       "end_date": "2026-07-14",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Miami Marlins",
+      "resolved_date": "2026-07-14"
     },
     {
       "signal_key": "0x827308ef05c19e1481d942bde2ae484e56729a34dcd36376e39c3f351faf2b45:1",
@@ -6497,10 +6497,10 @@
       "total_value_usd": 46248.19,
       "entry_price": 0.525,
       "end_date": "2026-07-15",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "San Diego Padres",
+      "resolved_date": "2026-07-15"
     },
     {
       "signal_key": "0x4fb29009dff803b3bb2416cf77d3833730e35c6f99cf580c03499250487dbb16:1",
@@ -6514,10 +6514,10 @@
       "total_value_usd": 16086.34,
       "entry_price": 0.525,
       "end_date": "2026-07-14",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Kansas City Royals",
+      "resolved_date": "2026-07-14"
     },
     {
       "signal_key": "0x5d5a74d8cf82cff649ec0ebba4b05e40e781a75b027eceab123f1c377de12081:0",
@@ -6531,10 +6531,10 @@
       "total_value_usd": 237825.45,
       "entry_price": 0.525,
       "end_date": "2026-07-14",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Houston Astros",
+      "resolved_date": "2026-07-14"
     },
     {
       "signal_key": "0xa9fcad8ae9f0600c56f1a8aa8e3579208bc6c145883f18cbb3923e4252b54e17:0",
@@ -6548,10 +6548,10 @@
       "total_value_usd": 82556.04,
       "entry_price": 0.525,
       "end_date": "2026-07-14",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Philadelphia Phillies",
+      "resolved_date": "2026-07-14"
     },
     {
       "signal_key": "0x038571dd4fafbef3949f315542e25787283c3db67c87737bd50257524839bddf:1",
@@ -6565,10 +6565,10 @@
       "total_value_usd": 31784.22,
       "entry_price": 0.53,
       "end_date": "2026-07-15",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Texas Rangers",
+      "resolved_date": "2026-07-15"
     },
     {
       "signal_key": "0x9896909fb393c7d68a16306f3b833600a174a06a256b56a00885774849486b9a:0",
@@ -6582,10 +6582,10 @@
       "total_value_usd": 89380.91,
       "entry_price": 0.53,
       "end_date": "2026-07-14",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Chicago Cubs",
+      "resolved_date": "2026-07-14"
     },
     {
       "signal_key": "0xa9fcad8ae9f0600c56f1a8aa8e3579208bc6c145883f18cbb3923e4252b54e17:1",
@@ -6599,6 +6599,23 @@
       "total_value_usd": 5025.87,
       "entry_price": 0.525,
       "end_date": "2026-07-14",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Philadelphia Phillies",
+      "resolved_date": "2026-07-14"
+    },
+    {
+      "signal_key": "0x4b84a8e08cb3376c9e5be5cc5a37f7073de05cdf0810d2ad3fe745c4760ef3e0:1",
+      "condition_id": "0x4b84a8e08cb3376c9e5be5cc5a37f7073de05cdf0810d2ad3fe745c4760ef3e0",
+      "title": "Will Norway win on 2026-07-11?",
+      "category": "Soccer",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 5.2945,
+      "total_value_usd": 52995.03,
+      "entry_price": 0.52,
+      "end_date": "2026-07-11",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
