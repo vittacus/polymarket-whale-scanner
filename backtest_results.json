@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-08T14:42:44+00:00",
-  "total_signals": 393,
+  "generated_at": "2026-07-08T16:23:47+00:00",
+  "total_signals": 394,
   "total_resolved": 359,
   "total_correct": 211,
   "overall_hit_rate": 58.8,
   "by_tier": {
     "Strong": {
-      "total": 114,
+      "total": 115,
       "resolved": 110,
       "correct": 68,
       "hit_rate": 61.8
@@ -6701,6 +6701,23 @@
       "total_value_usd": 9044.72,
       "entry_price": 0.515,
       "end_date": "2026-07-29",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x4ac818ea083a05fd123b850d67c7e5bbe29964e8819ae414c8f9a86739fe7733:1",
+      "condition_id": "0x4ac818ea083a05fd123b850d67c7e5bbe29964e8819ae414c8f9a86739fe7733",
+      "title": "Wimbledon ATP: Taylor Fritz vs Alexander Zverev",
+      "category": "Tennis",
+      "whale_direction": "Alexander Zverev",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 14.868,
+      "total_value_usd": 342500.88,
+      "entry_price": 0.515,
+      "end_date": "2026-07-15",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

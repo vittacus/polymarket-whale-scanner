@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-08T14:42:44+00:00",
-  "total_evaluated": 393,
-  "total_pending": 34,
+  "generated_at": "2026-07-08T16:23:47+00:00",
+  "total_evaluated": 394,
+  "total_pending": 35,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 393,
+      "signals_evaluated": 394,
       "correct": 211,
       "wrong": 148,
-      "pending": 34,
+      "pending": 35,
       "win_rate": 58.8,
       "signals": [
         {
@@ -5513,6 +5513,20 @@
           "resolved_date": null,
           "end_date": "2026-07-29",
           "total_value_usd": 9044.72,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x4ac818ea083a05fd123b850d67c7e5bbe29964e8819ae414c8f9a86739fe7733:1",
+          "condition_id": "0x4ac818ea083a05fd123b850d67c7e5bbe29964e8819ae414c8f9a86739fe7733",
+          "title": "Wimbledon ATP: Taylor Fritz vs Alexander Zverev",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.515,
+          "whale_direction": "Alexander Zverev",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-15",
+          "total_value_usd": 342500.88,
           "result": "pending"
         }
       ]
