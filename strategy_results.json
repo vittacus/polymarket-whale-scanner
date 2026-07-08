@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-08T08:01:13+00:00",
-  "total_evaluated": 388,
-  "total_pending": 29,
+  "generated_at": "2026-07-08T10:23:16+00:00",
+  "total_evaluated": 393,
+  "total_pending": 34,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 388,
+      "signals_evaluated": 393,
       "correct": 211,
       "wrong": 148,
-      "pending": 29,
+      "pending": 34,
       "win_rate": 58.8,
       "signals": [
         {
@@ -5444,6 +5444,76 @@
           "end_date": "2026-07-11",
           "total_value_usd": 52995.03,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xd4e77ba6f29fc093509d24f508631abd445ecf506bbdc9c4c80e60256a318527:0",
+          "condition_id": "0xd4e77ba6f29fc093509d24f508631abd445ecf506bbdc9c4c80e60256a318527",
+          "title": "Will no Fed rate cuts happen in 2026?",
+          "category": "Rewards 200, 4.5, 50 Deprec",
+          "tier": "Strong",
+          "entry_price": 0.515,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-12-31",
+          "total_value_usd": 271859.35,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xb5c0abeecb5502e6e8d83155c27819174d8317af3c425c3afc5a8c45257a3793:0",
+          "condition_id": "0xb5c0abeecb5502e6e8d83155c27819174d8317af3c425c3afc5a8c45257a3793",
+          "title": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+          "category": "Economic Policy",
+          "tier": "Strong",
+          "entry_price": 0.515,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-29",
+          "total_value_usd": 548161.66,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x8bf1c1536ecb1c08fe13c6b71e8ab1f58bf3461c4cb79f5f1679f869a06aef86:1",
+          "condition_id": "0x8bf1c1536ecb1c08fe13c6b71e8ab1f58bf3461c4cb79f5f1679f869a06aef86",
+          "title": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "category": "Economic Policy",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-29",
+          "total_value_usd": 594842.72,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x80b3af88cb991980e8da1ce86b9794a0957f96ec98c29319dd7ba65e9744d82b:0",
+          "condition_id": "0x80b3af88cb991980e8da1ce86b9794a0957f96ec98c29319dd7ba65e9744d82b",
+          "title": "Fed rate hike in 2026?",
+          "category": "Fed",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-12-09",
+          "total_value_usd": 339039.93,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x2a28cc33492516116690a20d290f9922acbe0ed367ff52a6082154474c7f2971:0",
+          "condition_id": "0x2a28cc33492516116690a20d290f9922acbe0ed367ff52a6082154474c7f2971",
+          "title": "Will the Fed increase interest rates by 50+ bps after the July 2026 meeting?",
+          "category": "Economic Policy",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-29",
+          "total_value_usd": 9044.72,
+          "result": "pending"
         }
       ]
     },
@@ -5479,10 +5549,10 @@
       "name": "Conviction Sizing",
       "description": "Total whale position >$500k",
       "hypothesis": "Signals where total position size exceeds $500k represent the highest-conviction whale bets. When top traders put serious capital behind a position, that's a qualitatively different signal from a small stake. This filters for only the highest-conviction consensus calls to test whether size predicts accuracy.",
-      "signals_evaluated": 13,
+      "signals_evaluated": 15,
       "correct": 9,
       "wrong": 2,
-      "pending": 2,
+      "pending": 4,
       "win_rate": 81.8,
       "signals": [
         {
@@ -5666,6 +5736,34 @@
           "end_date": "2026-07-14",
           "total_value_usd": 518235.75,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0xb5c0abeecb5502e6e8d83155c27819174d8317af3c425c3afc5a8c45257a3793:0",
+          "condition_id": "0xb5c0abeecb5502e6e8d83155c27819174d8317af3c425c3afc5a8c45257a3793",
+          "title": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+          "category": "Economic Policy",
+          "tier": "Strong",
+          "entry_price": 0.515,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-29",
+          "total_value_usd": 548161.66,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x8bf1c1536ecb1c08fe13c6b71e8ab1f58bf3461c4cb79f5f1679f869a06aef86:1",
+          "condition_id": "0x8bf1c1536ecb1c08fe13c6b71e8ab1f58bf3461c4cb79f5f1679f869a06aef86",
+          "title": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "category": "Economic Policy",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-29",
+          "total_value_usd": 594842.72,
+          "result": "pending"
         }
       ]
     }
