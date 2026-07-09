@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-09T20:19:33+00:00",
-  "total_evaluated": 397,
-  "total_pending": 34,
+  "generated_at": "2026-07-09T21:57:53+00:00",
+  "total_evaluated": 398,
+  "total_pending": 35,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 397,
+      "signals_evaluated": 398,
       "correct": 214,
       "wrong": 149,
-      "pending": 34,
+      "pending": 35,
       "win_rate": 59.0,
       "signals": [
         {
@@ -5570,6 +5570,20 @@
           "end_date": "2026-07-16",
           "total_value_usd": 326929.93,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0xab9d0b9ee2ad110b099139615ed6554102f0b6903e99e81893066f96579a4095:0",
+          "condition_id": "0xab9d0b9ee2ad110b099139615ed6554102f0b6903e99e81893066f96579a4095",
+          "title": "Bogota: Hernan Casanova vs Luciano Emanuel Ambrogi",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Hernan Casanova",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-15",
+          "total_value_usd": 38886.78,
+          "result": "pending"
         }
       ]
     },

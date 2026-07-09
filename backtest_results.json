@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-09T20:19:33+00:00",
-  "total_signals": 397,
+  "generated_at": "2026-07-09T21:57:53+00:00",
+  "total_signals": 398,
   "total_resolved": 363,
   "total_correct": 214,
   "overall_hit_rate": 59.0,
@@ -12,7 +12,7 @@
       "hit_rate": 62.8
     },
     "Moderate": {
-      "total": 239,
+      "total": 240,
       "resolved": 213,
       "correct": 125,
       "hit_rate": 58.7
@@ -6773,6 +6773,23 @@
       "correct": false,
       "resolved_outcome": "Karolina Muchova",
       "resolved_date": "2026-07-16"
+    },
+    {
+      "signal_key": "0xab9d0b9ee2ad110b099139615ed6554102f0b6903e99e81893066f96579a4095:0",
+      "condition_id": "0xab9d0b9ee2ad110b099139615ed6554102f0b6903e99e81893066f96579a4095",
+      "title": "Bogota: Hernan Casanova vs Luciano Emanuel Ambrogi",
+      "category": "Tennis",
+      "whale_direction": "Hernan Casanova",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 7.8089,
+      "total_value_usd": 38886.78,
+      "entry_price": 0.505,
+      "end_date": "2026-07-15",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
