@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-09T21:57:53+00:00",
+  "generated_at": "2026-07-09T23:09:55+00:00",
   "total_signals": 398,
-  "total_resolved": 363,
-  "total_correct": 214,
-  "overall_hit_rate": 59.0,
+  "total_resolved": 365,
+  "total_correct": 216,
+  "overall_hit_rate": 59.2,
   "by_tier": {
     "Strong": {
       "total": 117,
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 240,
-      "resolved": 213,
-      "correct": 125,
-      "hit_rate": 58.7
+      "resolved": 215,
+      "correct": 127,
+      "hit_rate": 59.1
     },
     "Weak": {
       "total": 41,
@@ -6242,10 +6242,10 @@
       "total_value_usd": 12839.89,
       "entry_price": 0.515,
       "end_date": "2026-07-09",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-07-09"
     },
     {
       "signal_key": "0x07cf19dc78b559bd9aef41b00839d9e5a5637a073e87eb0185ee417db4006447:1",
@@ -6786,10 +6786,10 @@
       "total_value_usd": 38886.78,
       "entry_price": 0.505,
       "end_date": "2026-07-15",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Hernan Casanova",
+      "resolved_date": "2026-07-15"
     }
   ]
 }
