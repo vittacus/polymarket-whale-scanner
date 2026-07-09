@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-09T00:19:57+00:00",
-  "total_signals": 394,
+  "generated_at": "2026-07-09T04:36:20+00:00",
+  "total_signals": 395,
   "total_resolved": 360,
   "total_correct": 212,
   "overall_hit_rate": 58.9,
   "by_tier": {
     "Strong": {
-      "total": 115,
+      "total": 116,
       "resolved": 111,
       "correct": 69,
       "hit_rate": 62.2
@@ -6722,6 +6722,23 @@
       "correct": true,
       "resolved_outcome": "Alexander Zverev",
       "resolved_date": "2026-07-15"
+    },
+    {
+      "signal_key": "0x6fa2ac0a313c1ea67987ed91b38e040fd5e925b60285fd3cbac434fcaa92d702:1",
+      "condition_id": "0x6fa2ac0a313c1ea67987ed91b38e040fd5e925b60285fd3cbac434fcaa92d702",
+      "title": "Colorado Rockies vs. Los Angeles Dodgers",
+      "category": "MLB",
+      "whale_direction": "Los Angeles Dodgers",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 26.7851,
+      "total_value_usd": 245623.65,
+      "entry_price": 0.515,
+      "end_date": "2026-07-16",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }

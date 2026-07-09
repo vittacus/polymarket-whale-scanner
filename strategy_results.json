@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-09T00:19:57+00:00",
-  "total_evaluated": 394,
-  "total_pending": 34,
+  "generated_at": "2026-07-09T04:36:20+00:00",
+  "total_evaluated": 395,
+  "total_pending": 35,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 394,
+      "signals_evaluated": 395,
       "correct": 212,
       "wrong": 148,
-      "pending": 34,
+      "pending": 35,
       "win_rate": 58.9,
       "signals": [
         {
@@ -5528,6 +5528,20 @@
           "end_date": "2026-07-15",
           "total_value_usd": 342500.88,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x6fa2ac0a313c1ea67987ed91b38e040fd5e925b60285fd3cbac434fcaa92d702:1",
+          "condition_id": "0x6fa2ac0a313c1ea67987ed91b38e040fd5e925b60285fd3cbac434fcaa92d702",
+          "title": "Colorado Rockies vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.515,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-16",
+          "total_value_usd": 245623.65,
+          "result": "pending"
         }
       ]
     },
