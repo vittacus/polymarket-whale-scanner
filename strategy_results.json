@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-09T14:02:13+00:00",
+  "generated_at": "2026-07-09T16:33:13+00:00",
   "total_evaluated": 397,
-  "total_pending": 36,
+  "total_pending": 34,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 397,
-      "correct": 213,
-      "wrong": 148,
-      "pending": 36,
+      "correct": 214,
+      "wrong": 149,
+      "pending": 34,
       "win_rate": 59.0,
       "signals": [
         {
@@ -5551,11 +5551,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Karolina Muchova",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Karolina Muchova",
+          "resolved_date": "2026-07-16",
           "end_date": "2026-07-16",
           "total_value_usd": 545433.98,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x04068db9551ef3a2ad5212a54ba6a19bfe53c2c9c5bd15b57a751bec0ecd69ed:1",
@@ -5565,11 +5565,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Coco Gauff",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Karolina Muchova",
+          "resolved_date": "2026-07-16",
           "end_date": "2026-07-16",
           "total_value_usd": 326929.93,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
@@ -5606,10 +5606,10 @@
       "description": "Total whale position >$500k",
       "hypothesis": "Signals where total position size exceeds $500k represent the highest-conviction whale bets. When top traders put serious capital behind a position, that's a qualitatively different signal from a small stake. This filters for only the highest-conviction consensus calls to test whether size predicts accuracy.",
       "signals_evaluated": 16,
-      "correct": 9,
+      "correct": 10,
       "wrong": 2,
-      "pending": 5,
-      "win_rate": 81.8,
+      "pending": 4,
+      "win_rate": 83.3,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -5829,11 +5829,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Karolina Muchova",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Karolina Muchova",
+          "resolved_date": "2026-07-16",
           "end_date": "2026-07-16",
           "total_value_usd": 545433.98,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     }
