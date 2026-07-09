@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-09T08:08:14+00:00",
-  "total_signals": 395,
+  "generated_at": "2026-07-09T14:02:13+00:00",
+  "total_signals": 397,
   "total_resolved": 361,
   "total_correct": 213,
   "overall_hit_rate": 59.0,
   "by_tier": {
     "Strong": {
-      "total": 116,
+      "total": 117,
       "resolved": 112,
       "correct": 70,
       "hit_rate": 62.5
     },
     "Moderate": {
-      "total": 238,
+      "total": 239,
       "resolved": 212,
       "correct": 125,
       "hit_rate": 59.0
@@ -6739,6 +6739,40 @@
       "correct": true,
       "resolved_outcome": "Los Angeles Dodgers",
       "resolved_date": "2026-07-16"
+    },
+    {
+      "signal_key": "0x04068db9551ef3a2ad5212a54ba6a19bfe53c2c9c5bd15b57a751bec0ecd69ed:0",
+      "condition_id": "0x04068db9551ef3a2ad5212a54ba6a19bfe53c2c9c5bd15b57a751bec0ecd69ed",
+      "title": "Wimbledon WTA: Karolina Muchova vs Coco Gauff",
+      "category": "Tennis",
+      "whale_direction": "Karolina Muchova",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 31.1358,
+      "total_value_usd": 545433.98,
+      "entry_price": 0.505,
+      "end_date": "2026-07-16",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x04068db9551ef3a2ad5212a54ba6a19bfe53c2c9c5bd15b57a751bec0ecd69ed:1",
+      "condition_id": "0x04068db9551ef3a2ad5212a54ba6a19bfe53c2c9c5bd15b57a751bec0ecd69ed",
+      "title": "Wimbledon WTA: Karolina Muchova vs Coco Gauff",
+      "category": "Tennis",
+      "whale_direction": "Coco Gauff",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 6.1216,
+      "total_value_usd": 326929.93,
+      "entry_price": 0.505,
+      "end_date": "2026-07-16",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
