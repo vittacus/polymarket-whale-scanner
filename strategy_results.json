@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-09T23:09:55+00:00",
-  "total_evaluated": 398,
-  "total_pending": 33,
+  "generated_at": "2026-07-10T00:21:24+00:00",
+  "total_evaluated": 400,
+  "total_pending": 35,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 398,
+      "signals_evaluated": 400,
       "correct": 216,
       "wrong": 149,
-      "pending": 33,
+      "pending": 35,
       "win_rate": 59.2,
       "signals": [
         {
@@ -5584,6 +5584,34 @@
           "end_date": "2026-07-15",
           "total_value_usd": 38886.78,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x7d854ea7b988fac9b66500ce1042092a031308964b48d7cf5e6aea75d6730d46:1",
+          "condition_id": "0x7d854ea7b988fac9b66500ce1042092a031308964b48d7cf5e6aea75d6730d46",
+          "title": "Milwaukee Brewers vs. St. Louis Cardinals",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "St. Louis Cardinals",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-16",
+          "total_value_usd": 303149.43,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x8586f76f1f694c182c7e794570d70c1a470b9b9c7a606b3506af53cfc2d59ee8:1",
+          "condition_id": "0x8586f76f1f694c182c7e794570d70c1a470b9b9c7a606b3506af53cfc2d59ee8",
+          "title": "Seattle Mariners vs. Miami Marlins",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Miami Marlins",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-16",
+          "total_value_usd": 64564.78,
+          "result": "pending"
         }
       ]
     },
