@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-10T19:07:56+00:00",
+  "generated_at": "2026-07-10T20:45:07+00:00",
   "total_evaluated": 405,
-  "total_pending": 34,
+  "total_pending": 32,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 405,
-      "correct": 220,
+      "correct": 222,
       "wrong": 151,
-      "pending": 34,
-      "win_rate": 59.3,
+      "pending": 32,
+      "win_rate": 59.5,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -5663,11 +5663,11 @@
           "tier": "Moderate",
           "entry_price": 0.51,
           "whale_direction": "Alex Michelsen",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alex Michelsen",
+          "resolved_date": "2026-07-17",
           "end_date": "2026-07-17",
           "total_value_usd": 53734.15,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x03a0b173524f8c0be65087a0e71c7933cd754f9f6f18b99d21d2cf2ed7868500:0",
@@ -5677,11 +5677,11 @@
           "tier": "Moderate",
           "entry_price": 0.51,
           "whale_direction": "Valentin Royer",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Valentin Royer",
+          "resolved_date": "2026-07-17",
           "end_date": "2026-07-17",
           "total_value_usd": 82859.66,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },

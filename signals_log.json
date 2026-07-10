@@ -119974,5 +119974,201 @@
         "entry_price": 0.51
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-10T20:41:33+00:00",
+    "whale_timeframes": {
+      "0x714a685b5454ea4d52979563bbafa77b8168ab2f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc2e7800b5af46e6093872b177b7a5e7f0563be51": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf5fabdcdc6eb6d9765a228824f16cca9c91f62df": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x361b16e3ddfe1d415d41008daac2631d94ab74fe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3a8aa345d5db7ec5138298c8c4f4540259be7699": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe16d3f2a5807999b358affd9445c3a09e45e5e30": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x10a6fadcbacd66330862206f6199b197e3ad4d8b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x09b428f7c2b469786286214aa5c90dd9015f7320": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7583d5f8a1031ff4afcdc6db4e2143bfd41b4df2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdd882a70680633a75516f6ed5fce443e2d96dadb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4ab9b54427ec4b7f3646b1a0ef1bed73bc708ebe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1610db79f753a80207e1d66716be9e91e627ae49": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe221be3b45dfe5ed562ee9dc16f47205728e06f6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x8bf1c1536ecb1c08fe13c6b71e8ab1f58bf3461c4cb79f5f1679f869a06aef86:1",
+        "condition_id": "0x8bf1c1536ecb1c08fe13c6b71e8ab1f58bf3461c4cb79f5f1679f869a06aef86",
+        "title": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x714a685b5454ea4d52979563bbafa77b8168ab2f",
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991"
+        ],
+        "ranks": [
+          1,
+          8,
+          15
+        ],
+        "total_value_usd": 563661.07,
+        "score": 27.6155,
+        "category": "Economic Policy",
+        "end_date": "2026-07-29",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892:0",
+        "condition_id": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892",
+        "title": "Will Spain win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0x1610db79f753a80207e1d66716be9e91e627ae49"
+        ],
+        "ranks": [
+          6,
+          8,
+          18
+        ],
+        "total_value_usd": 157319.97,
+        "score": 7.271,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.52
+      },
+      {
+        "signal_key": "0x7b52405ad0e0d31bfe970940b67d77f24ecedeab8a2361c11148c02a006e325c:0",
+        "condition_id": "0x7b52405ad0e0d31bfe970940b67d77f24ecedeab8a2361c11148c02a006e325c",
+        "title": "Will Norway win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0x1610db79f753a80207e1d66716be9e91e627ae49"
+        ],
+        "ranks": [
+          6,
+          8,
+          18
+        ],
+        "total_value_usd": 42360.0,
+        "score": 6.4738,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.51
+      }
+    ]
   }
 ]
