@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-10T04:34:25+00:00",
+  "generated_at": "2026-07-10T08:06:35+00:00",
   "total_evaluated": 401,
-  "total_pending": 33,
+  "total_pending": 32,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 401,
-      "correct": 217,
+      "correct": 218,
       "wrong": 151,
-      "pending": 33,
-      "win_rate": 59.0,
+      "pending": 32,
+      "win_rate": 59.1,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -5621,11 +5621,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "San Francisco Giants",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "San Francisco Giants",
+          "resolved_date": "2026-07-17",
           "end_date": "2026-07-17",
           "total_value_usd": 1712042.03,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -5662,10 +5662,10 @@
       "description": "Total whale position >$500k",
       "hypothesis": "Signals where total position size exceeds $500k represent the highest-conviction whale bets. When top traders put serious capital behind a position, that's a qualitatively different signal from a small stake. This filters for only the highest-conviction consensus calls to test whether size predicts accuracy.",
       "signals_evaluated": 17,
-      "correct": 10,
+      "correct": 11,
       "wrong": 2,
-      "pending": 5,
-      "win_rate": 83.3,
+      "pending": 4,
+      "win_rate": 84.6,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -5899,11 +5899,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "San Francisco Giants",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "San Francisco Giants",
+          "resolved_date": "2026-07-17",
           "end_date": "2026-07-17",
           "total_value_usd": 1712042.03,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     }
