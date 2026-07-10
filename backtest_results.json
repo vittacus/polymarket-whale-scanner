@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-10T15:47:51+00:00",
-  "total_signals": 402,
+  "generated_at": "2026-07-10T17:32:12+00:00",
+  "total_signals": 403,
   "total_resolved": 369,
   "total_correct": 218,
   "overall_hit_rate": 59.1,
@@ -12,7 +12,7 @@
       "hit_rate": 62.9
     },
     "Moderate": {
-      "total": 240,
+      "total": 241,
       "resolved": 216,
       "correct": 127,
       "hit_rate": 58.8
@@ -6854,6 +6854,23 @@
       "total_value_usd": 277046.71,
       "entry_price": 0.51,
       "end_date": "2026-07-15",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x94ed16877a0155234554a2d19c8b39bd523870b2ce8cbc36b333e66698cc6d69:1",
+      "condition_id": "0x94ed16877a0155234554a2d19c8b39bd523870b2ce8cbc36b333e66698cc6d69",
+      "title": "Bogota: Facundo Mena vs Lorenzo Claverie",
+      "category": "Tennis",
+      "whale_direction": "Lorenzo Claverie",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 7.6938,
+      "total_value_usd": 62002.1,
+      "entry_price": 0.51,
+      "end_date": "2026-07-17",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
