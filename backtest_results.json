@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-10T00:21:24+00:00",
-  "total_signals": 400,
-  "total_resolved": 365,
-  "total_correct": 216,
-  "overall_hit_rate": 59.2,
+  "generated_at": "2026-07-10T04:34:25+00:00",
+  "total_signals": 401,
+  "total_resolved": 368,
+  "total_correct": 217,
+  "overall_hit_rate": 59.0,
   "by_tier": {
     "Strong": {
-      "total": 119,
-      "resolved": 113,
-      "correct": 71,
-      "hit_rate": 62.8
+      "total": 120,
+      "resolved": 115,
+      "correct": 72,
+      "hit_rate": 62.6
     },
     "Moderate": {
       "total": 240,
-      "resolved": 215,
+      "resolved": 216,
       "correct": 127,
-      "hit_rate": 59.1
+      "hit_rate": 58.8
     },
     "Weak": {
       "total": 41,
@@ -2587,10 +2587,10 @@
       "total_value_usd": 3526.48,
       "entry_price": 0.505,
       "end_date": "2026-07-20",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-20"
     },
     {
       "signal_key": "0xbc54d73527785bdc7b443cfdf3b0d59558c5ac2bbffca23425ecfbd161b07317:0",
@@ -6803,10 +6803,10 @@
       "total_value_usd": 303149.43,
       "entry_price": 0.505,
       "end_date": "2026-07-16",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Milwaukee Brewers",
+      "resolved_date": "2026-07-16"
     },
     {
       "signal_key": "0x8586f76f1f694c182c7e794570d70c1a470b9b9c7a606b3506af53cfc2d59ee8:1",
@@ -6820,6 +6820,23 @@
       "total_value_usd": 64564.78,
       "entry_price": 0.505,
       "end_date": "2026-07-16",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Miami Marlins",
+      "resolved_date": "2026-07-16"
+    },
+    {
+      "signal_key": "0x5f84b35f40306898505957cdad421f8209f2f6e1931e3af2e71e7c720420e00c:1",
+      "condition_id": "0x5f84b35f40306898505957cdad421f8209f2f6e1931e3af2e71e7c720420e00c",
+      "title": "Colorado Rockies vs. San Francisco Giants",
+      "category": "MLB",
+      "whale_direction": "San Francisco Giants",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 45.551,
+      "total_value_usd": 1712042.03,
+      "entry_price": 0.505,
+      "end_date": "2026-07-17",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

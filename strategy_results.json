@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-10T00:21:24+00:00",
-  "total_evaluated": 400,
-  "total_pending": 35,
+  "generated_at": "2026-07-10T04:34:25+00:00",
+  "total_evaluated": 401,
+  "total_pending": 33,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 400,
-      "correct": 216,
-      "wrong": 149,
-      "pending": 35,
-      "win_rate": 59.2,
+      "signals_evaluated": 401,
+      "correct": 217,
+      "wrong": 151,
+      "pending": 33,
+      "win_rate": 59.0,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -2121,11 +2121,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-07-20",
           "end_date": "2026-07-20",
           "total_value_usd": 3526.48,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xbc54d73527785bdc7b443cfdf3b0d59558c5ac2bbffca23425ecfbd161b07317:0",
@@ -5593,11 +5593,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "St. Louis Cardinals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-07-16",
           "end_date": "2026-07-16",
           "total_value_usd": 303149.43,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x8586f76f1f694c182c7e794570d70c1a470b9b9c7a606b3506af53cfc2d59ee8:1",
@@ -5607,10 +5607,24 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Miami Marlins",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Miami Marlins",
+          "resolved_date": "2026-07-16",
           "end_date": "2026-07-16",
           "total_value_usd": 64564.78,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x5f84b35f40306898505957cdad421f8209f2f6e1931e3af2e71e7c720420e00c:1",
+          "condition_id": "0x5f84b35f40306898505957cdad421f8209f2f6e1931e3af2e71e7c720420e00c",
+          "title": "Colorado Rockies vs. San Francisco Giants",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "San Francisco Giants",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-17",
+          "total_value_usd": 1712042.03,
           "result": "pending"
         }
       ]
@@ -5647,10 +5661,10 @@
       "name": "Conviction Sizing",
       "description": "Total whale position >$500k",
       "hypothesis": "Signals where total position size exceeds $500k represent the highest-conviction whale bets. When top traders put serious capital behind a position, that's a qualitatively different signal from a small stake. This filters for only the highest-conviction consensus calls to test whether size predicts accuracy.",
-      "signals_evaluated": 16,
+      "signals_evaluated": 17,
       "correct": 10,
       "wrong": 2,
-      "pending": 4,
+      "pending": 5,
       "win_rate": 83.3,
       "signals": [
         {
@@ -5876,6 +5890,20 @@
           "end_date": "2026-07-16",
           "total_value_usd": 545433.98,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x5f84b35f40306898505957cdad421f8209f2f6e1931e3af2e71e7c720420e00c:1",
+          "condition_id": "0x5f84b35f40306898505957cdad421f8209f2f6e1931e3af2e71e7c720420e00c",
+          "title": "Colorado Rockies vs. San Francisco Giants",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "San Francisco Giants",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-17",
+          "total_value_usd": 1712042.03,
+          "result": "pending"
         }
       ]
     }
