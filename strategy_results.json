@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-10T20:45:07+00:00",
-  "total_evaluated": 405,
-  "total_pending": 32,
+  "generated_at": "2026-07-10T21:44:38+00:00",
+  "total_evaluated": 406,
+  "total_pending": 33,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 405,
+      "signals_evaluated": 406,
       "correct": 222,
       "wrong": 151,
-      "pending": 32,
+      "pending": 33,
       "win_rate": 59.5,
       "signals": [
         {
@@ -5682,6 +5682,20 @@
           "end_date": "2026-07-17",
           "total_value_usd": 82859.66,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x0891e4792a016a079765dd25029639cd731f7dc0bde3d65d6002b2b19dae2777:0",
+          "condition_id": "0x0891e4792a016a079765dd25029639cd731f7dc0bde3d65d6002b2b19dae2777",
+          "title": "Argentina vs. Switzerland: Team to Advance",
+          "category": "Soccer",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Argentina",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-12",
+          "total_value_usd": 40967.47,
+          "result": "pending"
         }
       ]
     },

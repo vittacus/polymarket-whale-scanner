@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-10T20:45:07+00:00",
-  "total_signals": 405,
+  "generated_at": "2026-07-10T21:44:38+00:00",
+  "total_signals": 406,
   "total_resolved": 373,
   "total_correct": 222,
   "overall_hit_rate": 59.5,
@@ -12,7 +12,7 @@
       "hit_rate": 63.2
     },
     "Moderate": {
-      "total": 243,
+      "total": 244,
       "resolved": 219,
       "correct": 130,
       "hit_rate": 59.4
@@ -6909,6 +6909,23 @@
       "correct": true,
       "resolved_outcome": "Valentin Royer",
       "resolved_date": "2026-07-17"
+    },
+    {
+      "signal_key": "0x0891e4792a016a079765dd25029639cd731f7dc0bde3d65d6002b2b19dae2777:0",
+      "condition_id": "0x0891e4792a016a079765dd25029639cd731f7dc0bde3d65d6002b2b19dae2777",
+      "title": "Argentina vs. Switzerland: Team to Advance",
+      "category": "Soccer",
+      "whale_direction": "Argentina",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 5.1333,
+      "total_value_usd": 40967.47,
+      "entry_price": 0.505,
+      "end_date": "2026-07-12",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
