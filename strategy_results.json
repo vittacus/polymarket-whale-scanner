@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-10T13:27:45+00:00",
-  "total_evaluated": 401,
-  "total_pending": 32,
+  "generated_at": "2026-07-10T15:47:51+00:00",
+  "total_evaluated": 402,
+  "total_pending": 33,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 401,
+      "signals_evaluated": 402,
       "correct": 218,
       "wrong": 151,
-      "pending": 32,
+      "pending": 33,
       "win_rate": 59.1,
       "signals": [
         {
@@ -5626,6 +5626,20 @@
           "end_date": "2026-07-17",
           "total_value_usd": 1712042.03,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x004d381f7d632fcf39610994958ef02295e0bb2b4341b212602bc2f7331550e8:0",
+          "condition_id": "0x004d381f7d632fcf39610994958ef02295e0bb2b4341b212602bc2f7331550e8",
+          "title": "Wimbledon ATP: Jannik Sinner vs Novak Djokovic",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.51,
+          "whale_direction": "Jannik Sinner",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-15",
+          "total_value_usd": 277046.71,
+          "result": "pending"
         }
       ]
     },

@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-10T13:27:45+00:00",
-  "total_signals": 401,
+  "generated_at": "2026-07-10T15:47:51+00:00",
+  "total_signals": 402,
   "total_resolved": 369,
   "total_correct": 218,
   "overall_hit_rate": 59.1,
   "by_tier": {
     "Strong": {
-      "total": 120,
+      "total": 121,
       "resolved": 116,
       "correct": 73,
       "hit_rate": 62.9
@@ -6841,6 +6841,23 @@
       "correct": true,
       "resolved_outcome": "San Francisco Giants",
       "resolved_date": "2026-07-17"
+    },
+    {
+      "signal_key": "0x004d381f7d632fcf39610994958ef02295e0bb2b4341b212602bc2f7331550e8:0",
+      "condition_id": "0x004d381f7d632fcf39610994958ef02295e0bb2b4341b212602bc2f7331550e8",
+      "title": "Wimbledon ATP: Jannik Sinner vs Novak Djokovic",
+      "category": "Tennis",
+      "whale_direction": "Jannik Sinner",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 14.0114,
+      "total_value_usd": 277046.71,
+      "entry_price": 0.51,
+      "end_date": "2026-07-15",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
