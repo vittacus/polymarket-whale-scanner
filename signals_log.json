@@ -119732,5 +119732,247 @@
         "entry_price": 0.51
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-10T19:04:12+00:00",
+    "whale_timeframes": {
+      "0x714a685b5454ea4d52979563bbafa77b8168ab2f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc2e7800b5af46e6093872b177b7a5e7f0563be51": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf5fabdcdc6eb6d9765a228824f16cca9c91f62df": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe16d3f2a5807999b358affd9445c3a09e45e5e30": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3a8aa345d5db7ec5138298c8c4f4540259be7699": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdd882a70680633a75516f6ed5fce443e2d96dadb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5dab5ed9691fab220535891d9c7f5c28eed322e1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1610db79f753a80207e1d66716be9e91e627ae49": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224b255eaa3279ceb77330317d3c38ee8e73f6b8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa71093cafc0c099b4ccab24c3cb8018d817923c4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x969fae0a3a93778adc42178f72c612ed8c4e4d55": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe4ebccc2ca45135ba2c1a060c9a8f49da1171a6e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x59f4a4b19fcaa99a4df2e7cdda4919aa5afbc1f1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x8bf1c1536ecb1c08fe13c6b71e8ab1f58bf3461c4cb79f5f1679f869a06aef86:1",
+        "condition_id": "0x8bf1c1536ecb1c08fe13c6b71e8ab1f58bf3461c4cb79f5f1679f869a06aef86",
+        "title": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x714a685b5454ea4d52979563bbafa77b8168ab2f",
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991"
+        ],
+        "ranks": [
+          1,
+          8,
+          12
+        ],
+        "total_value_usd": 588712.67,
+        "score": 28.0937,
+        "category": "Economic Policy",
+        "end_date": "2026-07-29",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892:0",
+        "condition_id": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892",
+        "title": "Will Spain win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0x1610db79f753a80207e1d66716be9e91e627ae49"
+        ],
+        "ranks": [
+          4,
+          8,
+          13
+        ],
+        "total_value_usd": 165924.75,
+        "score": 9.5056,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.52
+      },
+      {
+        "signal_key": "0x7b52405ad0e0d31bfe970940b67d77f24ecedeab8a2361c11148c02a006e325c:0",
+        "condition_id": "0x7b52405ad0e0d31bfe970940b67d77f24ecedeab8a2361c11148c02a006e325c",
+        "title": "Will Norway win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0x1610db79f753a80207e1d66716be9e91e627ae49"
+        ],
+        "ranks": [
+          4,
+          8,
+          13
+        ],
+        "total_value_usd": 42360.0,
+        "score": 8.4259,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0xec43058e0dcddb1fe550c5b0ff3f597294205f511733b223c2e8363223cb6d3d:1",
+        "condition_id": "0xec43058e0dcddb1fe550c5b0ff3f597294205f511733b223c2e8363223cb6d3d",
+        "title": "Newport: Liam Broady vs Alex Michelsen",
+        "outcome": "Alex Michelsen",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+        ],
+        "ranks": [
+          4,
+          15,
+          18
+        ],
+        "total_value_usd": 53734.15,
+        "score": 7.0948,
+        "category": "Tennis",
+        "end_date": "2026-07-17",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x03a0b173524f8c0be65087a0e71c7933cd754f9f6f18b99d21d2cf2ed7868500:0",
+        "condition_id": "0x03a0b173524f8c0be65087a0e71c7933cd754f9f6f18b99d21d2cf2ed7868500",
+        "title": "Iasi: Valentin Royer vs Taro Daniel",
+        "outcome": "Valentin Royer",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+        ],
+        "ranks": [
+          6,
+          15,
+          18
+        ],
+        "total_value_usd": 82859.66,
+        "score": 5.7254,
+        "category": "Tennis",
+        "end_date": "2026-07-17",
+        "entry_price": 0.51
+      }
+    ]
   }
 ]
