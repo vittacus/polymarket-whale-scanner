@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-11T21:07:01+00:00",
-  "total_evaluated": 424,
+  "generated_at": "2026-07-11T22:09:13+00:00",
+  "total_evaluated": 425,
   "total_pending": 43,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 424,
-      "correct": 227,
+      "signals_evaluated": 425,
+      "correct": 228,
       "wrong": 154,
       "pending": 43,
-      "win_rate": 59.6,
+      "win_rate": 59.7,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -5845,11 +5845,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Minnesota Twins",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Minnesota Twins",
+          "resolved_date": "2026-07-18",
           "end_date": "2026-07-18",
           "total_value_usd": 37166.09,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x9d0b73b44506a98906d93d52b012834470ca99d7bf64b49a07810b897d81be6f:0",
@@ -5947,6 +5947,20 @@
           "resolved_date": null,
           "end_date": "2026-07-18",
           "total_value_usd": 13806.56,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x40055a39a314b1ab4a1eab984edde10d6b5b1b0a0f32b6a112feb8a6386f95a0:1",
+          "condition_id": "0x40055a39a314b1ab4a1eab984edde10d6b5b1b0a0f32b6a112feb8a6386f95a0",
+          "title": "Seattle Mariners vs. Tampa Bay Rays",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Tampa Bay Rays",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-18",
+          "total_value_usd": 19173.83,
           "result": "pending"
         }
       ]
