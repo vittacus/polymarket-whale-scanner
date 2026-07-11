@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-11T22:09:13+00:00",
-  "total_evaluated": 425,
-  "total_pending": 43,
+  "generated_at": "2026-07-11T23:12:12+00:00",
+  "total_evaluated": 427,
+  "total_pending": 44,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 425,
+      "signals_evaluated": 427,
       "correct": 228,
-      "wrong": 154,
-      "pending": 43,
-      "win_rate": 59.7,
+      "wrong": 155,
+      "pending": 44,
+      "win_rate": 59.5,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -5943,11 +5943,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Colorado Rockies",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "San Francisco Giants",
+          "resolved_date": "2026-07-18",
           "end_date": "2026-07-18",
           "total_value_usd": 13806.56,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x40055a39a314b1ab4a1eab984edde10d6b5b1b0a0f32b6a112feb8a6386f95a0:1",
@@ -5961,6 +5961,34 @@
           "resolved_date": null,
           "end_date": "2026-07-18",
           "total_value_usd": 19173.83,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x224488d5b8e4e454c6f7ed545bd56d3d5768b582eee6bbddf286ad5ccd8adadf:1",
+          "condition_id": "0x224488d5b8e4e454c6f7ed545bd56d3d5768b582eee6bbddf286ad5ccd8adadf",
+          "title": "Will Norway reach the 2026 FIFA World Cup final?",
+          "category": "2026 FIFA World Cup",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-20",
+          "total_value_usd": 14882.67,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x3c7503474952b697741797aed32cc19a12d2020a96bba156717f8cdb5253f5d8:0",
+          "condition_id": "0x3c7503474952b697741797aed32cc19a12d2020a96bba156717f8cdb5253f5d8",
+          "title": "Philadelphia Phillies vs. Detroit Tigers",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Philadelphia Phillies",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-18",
+          "total_value_usd": 11960.54,
           "result": "pending"
         }
       ]

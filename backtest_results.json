@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-11T22:09:13+00:00",
-  "total_signals": 425,
-  "total_resolved": 382,
+  "generated_at": "2026-07-11T23:12:12+00:00",
+  "total_signals": 427,
+  "total_resolved": 383,
   "total_correct": 228,
-  "overall_hit_rate": 59.7,
+  "overall_hit_rate": 59.5,
   "by_tier": {
     "Strong": {
       "total": 129,
@@ -12,10 +12,10 @@
       "hit_rate": 63.4
     },
     "Moderate": {
-      "total": 255,
-      "resolved": 221,
+      "total": 257,
+      "resolved": 222,
       "correct": 132,
-      "hit_rate": 59.7
+      "hit_rate": 59.5
     },
     "Weak": {
       "total": 41,
@@ -7228,10 +7228,10 @@
       "total_value_usd": 13806.56,
       "entry_price": 0.505,
       "end_date": "2026-07-18",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "San Francisco Giants",
+      "resolved_date": "2026-07-18"
     },
     {
       "signal_key": "0x40055a39a314b1ab4a1eab984edde10d6b5b1b0a0f32b6a112feb8a6386f95a0:1",
@@ -7243,6 +7243,40 @@
       "tier": "Moderate",
       "score": 4.7458,
       "total_value_usd": 19173.83,
+      "entry_price": 0.505,
+      "end_date": "2026-07-18",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x224488d5b8e4e454c6f7ed545bd56d3d5768b582eee6bbddf286ad5ccd8adadf:1",
+      "condition_id": "0x224488d5b8e4e454c6f7ed545bd56d3d5768b582eee6bbddf286ad5ccd8adadf",
+      "title": "Will Norway reach the 2026 FIFA World Cup final?",
+      "category": "2026 FIFA World Cup",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 6.7579,
+      "total_value_usd": 14882.67,
+      "entry_price": 0.505,
+      "end_date": "2026-07-20",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x3c7503474952b697741797aed32cc19a12d2020a96bba156717f8cdb5253f5d8:0",
+      "condition_id": "0x3c7503474952b697741797aed32cc19a12d2020a96bba156717f8cdb5253f5d8",
+      "title": "Philadelphia Phillies vs. Detroit Tigers",
+      "category": "MLB",
+      "whale_direction": "Philadelphia Phillies",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 5.8856,
+      "total_value_usd": 11960.54,
       "entry_price": 0.505,
       "end_date": "2026-07-18",
       "resolved": false,
