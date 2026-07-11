@@ -124008,5 +124008,387 @@
         "entry_price": 0.505
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-11T21:03:36+00:00",
+    "whale_timeframes": {
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xee00ba338c59557141789b127927a55f5cc5cea1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdebbe89ceb32828a99648bca497684f5209ceedb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5dab5ed9691fab220535891d9c7f5c28eed322e1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7f3fdcee40e8711b9480b87dbbbc62cb8bdb8517": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1610db79f753a80207e1d66716be9e91e627ae49": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4d4f13a12d943faabc0d154fb2d546f649a9e5f3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa71093cafc0c099b4ccab24c3cb8018d817923c4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x69c5c6f6a4dda665991c203bc8d5df3e006b1e01": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x09b428f7c2b469786286214aa5c90dd9015f7320": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x408fe71e6b5401ecd6733970cb6f1a25e984b2f4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1d2efa184454366ad3e79f3395d25396c20b896d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2dc13c6bda81b202281e796953a7323de675b33c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf43842aca68209bd8bd3b4cfae00a32053769559": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe16d3f2a5807999b358affd9445c3a09e45e5e30": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2ce8505aa641791eb8460f6ac6bf5c0511e34527": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894:0",
+        "condition_id": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
+        "title": "Will France win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xdebbe89ceb32828a99648bca497684f5209ceedb",
+          "0x69c5c6f6a4dda665991c203bc8d5df3e006b1e01"
+        ],
+        "ranks": [
+          2,
+          4,
+          11
+        ],
+        "total_value_usd": 242437.96,
+        "score": 18.2455,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.52
+      },
+      {
+        "signal_key": "0x8b200a58095b03a43479bd4db8eb5b4b7c06906a265f2605ebfb209ac3ac21b1:1",
+        "condition_id": "0x8b200a58095b03a43479bd4db8eb5b4b7c06906a265f2605ebfb209ac3ac21b1",
+        "title": "Los Angeles Angels vs. Minnesota Twins",
+        "outcome": "Minnesota Twins",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+        ],
+        "ranks": [
+          2,
+          8,
+          13,
+          20
+        ],
+        "total_value_usd": 37166.09,
+        "score": 13.8471,
+        "category": "MLB",
+        "end_date": "2026-07-18",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x9d0b73b44506a98906d93d52b012834470ca99d7bf64b49a07810b897d81be6f:0",
+        "condition_id": "0x9d0b73b44506a98906d93d52b012834470ca99d7bf64b49a07810b897d81be6f",
+        "title": "Chicago Cubs vs. Cincinnati Reds",
+        "outcome": "Chicago Cubs",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          2,
+          8,
+          13
+        ],
+        "total_value_usd": 17572.95,
+        "score": 12.0063,
+        "category": "MLB",
+        "end_date": "2026-07-18",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x125c399641397f7b7cc111f3729999e32154a916deb1161527af031decde1f77:1",
+        "condition_id": "0x125c399641397f7b7cc111f3729999e32154a916deb1161527af031decde1f77",
+        "title": "Will France reach the 2026 FIFA World Cup final?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xee00ba338c59557141789b127927a55f5cc5cea1",
+          "0xdebbe89ceb32828a99648bca497684f5209ceedb",
+          "0xf43842aca68209bd8bd3b4cfae00a32053769559"
+        ],
+        "ranks": [
+          3,
+          4,
+          17
+        ],
+        "total_value_usd": 39510.74,
+        "score": 11.8944,
+        "category": "2026 FIFA World Cup",
+        "end_date": "2026-07-20",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x95be02324f34ab7063ff1a0c755f9caa8391f1eaf9421221e577f2234447a0fb:1",
+        "condition_id": "0x95be02324f34ab7063ff1a0c755f9caa8391f1eaf9421221e577f2234447a0fb",
+        "title": "Cleveland Guardians vs. Miami Marlins",
+        "outcome": "Miami Marlins",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5dab5ed9691fab220535891d9c7f5c28eed322e1",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          5,
+          8,
+          13
+        ],
+        "total_value_usd": 45435.89,
+        "score": 7.5429,
+        "category": "MLB",
+        "end_date": "2026-07-18",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x47b10cee6b566fb39018c6df4b189f8be68630e7da55ce8fe7708123cb6573bf:1",
+        "condition_id": "0x47b10cee6b566fb39018c6df4b189f8be68630e7da55ce8fe7708123cb6573bf",
+        "title": "Milwaukee Brewers vs. Pittsburgh Pirates",
+        "outcome": "Pittsburgh Pirates",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+          "0x4d4f13a12d943faabc0d154fb2d546f649a9e5f3",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          8,
+          9,
+          13
+        ],
+        "total_value_usd": 211517.31,
+        "score": 6.7173,
+        "category": "MLB",
+        "end_date": "2026-07-17",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x8390f218816e271b321de5fb23ef7e804dce7069cc686e7ef766280f3d550833:0",
+        "condition_id": "0x8390f218816e271b321de5fb23ef7e804dce7069cc686e7ef766280f3d550833",
+        "title": "Milwaukee Brewers vs. Pittsburgh Pirates",
+        "outcome": "Milwaukee Brewers",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5dab5ed9691fab220535891d9c7f5c28eed322e1",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x2dc13c6bda81b202281e796953a7323de675b33c"
+        ],
+        "ranks": [
+          5,
+          13,
+          16
+        ],
+        "total_value_usd": 77620.91,
+        "score": 6.6881,
+        "category": "MLB",
+        "end_date": "2026-07-18",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x939693c8859f2684a8be14724282117fbf438701de890f47bc85ce8b42c11076:0",
+        "condition_id": "0x939693c8859f2684a8be14724282117fbf438701de890f47bc85ce8b42c11076",
+        "title": "New York Yankees vs. Washington Nationals",
+        "outcome": "New York Yankees",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+          "0x69c5c6f6a4dda665991c203bc8d5df3e006b1e01",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          8,
+          11,
+          13
+        ],
+        "total_value_usd": 59665.84,
+        "score": 5.6352,
+        "category": "MLB",
+        "end_date": "2026-07-18",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x939693c8859f2684a8be14724282117fbf438701de890f47bc85ce8b42c11076:1",
+        "condition_id": "0x939693c8859f2684a8be14724282117fbf438701de890f47bc85ce8b42c11076",
+        "title": "New York Yankees vs. Washington Nationals",
+        "outcome": "Washington Nationals",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+        ],
+        "ranks": [
+          8,
+          13,
+          20
+        ],
+        "total_value_usd": 86629.73,
+        "score": 5.0124,
+        "category": "MLB",
+        "end_date": "2026-07-18",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x8390f218816e271b321de5fb23ef7e804dce7069cc686e7ef766280f3d550833:1",
+        "condition_id": "0x8390f218816e271b321de5fb23ef7e804dce7069cc686e7ef766280f3d550833",
+        "title": "Milwaukee Brewers vs. Pittsburgh Pirates",
+        "outcome": "Pittsburgh Pirates",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+        ],
+        "ranks": [
+          8,
+          13,
+          20
+        ],
+        "total_value_usd": 70036.95,
+        "score": 4.9186,
+        "category": "MLB",
+        "end_date": "2026-07-18",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0xb288103f4ef069fc13b9b0bc05345687261f1c0ad0477d465eafe40ef5cf6f14:0",
+        "condition_id": "0xb288103f4ef069fc13b9b0bc05345687261f1c0ad0477d465eafe40ef5cf6f14",
+        "title": "Colorado Rockies vs. San Francisco Giants",
+        "outcome": "Colorado Rockies",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+        ],
+        "ranks": [
+          8,
+          13,
+          20
+        ],
+        "total_value_usd": 13806.56,
+        "score": 4.2028,
+        "category": "MLB",
+        "end_date": "2026-07-18",
+        "entry_price": 0.505
+      }
+    ]
   }
 ]
