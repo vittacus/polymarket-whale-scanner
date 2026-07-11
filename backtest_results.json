@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-11T17:54:09+00:00",
-  "total_signals": 415,
-  "total_resolved": 379,
-  "total_correct": 225,
-  "overall_hit_rate": 59.4,
+  "generated_at": "2026-07-11T18:56:18+00:00",
+  "total_signals": 416,
+  "total_resolved": 380,
+  "total_correct": 226,
+  "overall_hit_rate": 59.5,
   "by_tier": {
     "Strong": {
-      "total": 126,
-      "resolved": 120,
-      "correct": 75,
-      "hit_rate": 62.5
+      "total": 127,
+      "resolved": 121,
+      "correct": 76,
+      "hit_rate": 62.8
     },
     "Moderate": {
       "total": 248,
@@ -7073,6 +7073,23 @@
       "tier": "Strong",
       "score": 12.8583,
       "total_value_usd": 169421.87,
+      "entry_price": 0.505,
+      "end_date": "2026-07-18",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Linda Noskova",
+      "resolved_date": "2026-07-18"
+    },
+    {
+      "signal_key": "0x45de52c6091f8d70a85f3b1ff05cc297709898f93bcba9f4a5676764e0b25a47:1",
+      "condition_id": "0x45de52c6091f8d70a85f3b1ff05cc297709898f93bcba9f4a5676764e0b25a47",
+      "title": "Athletics vs. Chicago White Sox",
+      "category": "MLB",
+      "whale_direction": "Chicago White Sox",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 26.9891,
+      "total_value_usd": 69472.55,
       "entry_price": 0.505,
       "end_date": "2026-07-18",
       "resolved": false,

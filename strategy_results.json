@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-11T17:54:09+00:00",
-  "total_evaluated": 415,
+  "generated_at": "2026-07-11T18:56:19+00:00",
+  "total_evaluated": 416,
   "total_pending": 36,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 415,
-      "correct": 225,
+      "signals_evaluated": 416,
+      "correct": 226,
       "wrong": 154,
       "pending": 36,
-      "win_rate": 59.4,
+      "win_rate": 59.5,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -5817,10 +5817,24 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Linda Noskova",
+          "resolved_outcome": "Linda Noskova",
+          "resolved_date": "2026-07-18",
+          "end_date": "2026-07-18",
+          "total_value_usd": 169421.87,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x45de52c6091f8d70a85f3b1ff05cc297709898f93bcba9f4a5676764e0b25a47:1",
+          "condition_id": "0x45de52c6091f8d70a85f3b1ff05cc297709898f93bcba9f4a5676764e0b25a47",
+          "title": "Athletics vs. Chicago White Sox",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Chicago White Sox",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-07-18",
-          "total_value_usd": 169421.87,
+          "total_value_usd": 69472.55,
           "result": "pending"
         }
       ]
