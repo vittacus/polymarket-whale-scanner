@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-11T12:07:26+00:00",
-  "total_evaluated": 413,
-  "total_pending": 34,
+  "generated_at": "2026-07-11T13:55:39+00:00",
+  "total_evaluated": 414,
+  "total_pending": 35,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 413,
+      "signals_evaluated": 414,
       "correct": 225,
       "wrong": 154,
-      "pending": 34,
+      "pending": 35,
       "win_rate": 59.4,
       "signals": [
         {
@@ -5793,6 +5793,20 @@
           "resolved_date": null,
           "end_date": "2026-07-17",
           "total_value_usd": 12441.58,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x125c399641397f7b7cc111f3729999e32154a916deb1161527af031decde1f77:1",
+          "condition_id": "0x125c399641397f7b7cc111f3729999e32154a916deb1161527af031decde1f77",
+          "title": "Will France reach the 2026 FIFA World Cup final?",
+          "category": "2026 FIFA World Cup",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-20",
+          "total_value_usd": 39510.74,
           "result": "pending"
         }
       ]

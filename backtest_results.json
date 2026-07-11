@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-11T12:07:26+00:00",
-  "total_signals": 413,
+  "generated_at": "2026-07-11T13:55:39+00:00",
+  "total_signals": 414,
   "total_resolved": 379,
   "total_correct": 225,
   "overall_hit_rate": 59.4,
   "by_tier": {
     "Strong": {
-      "total": 124,
+      "total": 125,
       "resolved": 120,
       "correct": 75,
       "hit_rate": 62.5
@@ -7041,6 +7041,23 @@
       "total_value_usd": 12441.58,
       "entry_price": 0.505,
       "end_date": "2026-07-17",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x125c399641397f7b7cc111f3729999e32154a916deb1161527af031decde1f77:1",
+      "condition_id": "0x125c399641397f7b7cc111f3729999e32154a916deb1161527af031decde1f77",
+      "title": "Will France reach the 2026 FIFA World Cup final?",
+      "category": "2026 FIFA World Cup",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 14.1235,
+      "total_value_usd": 39510.74,
+      "entry_price": 0.505,
+      "end_date": "2026-07-20",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
