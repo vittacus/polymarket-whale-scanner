@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-11T01:10:00+00:00",
-  "total_evaluated": 406,
-  "total_pending": 32,
+  "generated_at": "2026-07-11T04:30:06+00:00",
+  "total_evaluated": 411,
+  "total_pending": 37,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 406,
+      "signals_evaluated": 411,
       "correct": 222,
       "wrong": 152,
-      "pending": 32,
+      "pending": 37,
       "win_rate": 59.4,
       "signals": [
         {
@@ -5696,6 +5696,76 @@
           "end_date": "2026-07-12",
           "total_value_usd": 40967.47,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xdae2fd2aaeeb832e13fc564457a1ca2ba7da317d89337f8b55daf16a72befdcb:0",
+          "condition_id": "0xdae2fd2aaeeb832e13fc564457a1ca2ba7da317d89337f8b55daf16a72befdcb",
+          "title": "Arizona Diamondbacks vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Arizona Diamondbacks",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-18",
+          "total_value_usd": 674293.84,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x58fb28277f01ff73ccf08a758225ed51a00267d06e6369701cfbb931f527bf92:1",
+          "condition_id": "0x58fb28277f01ff73ccf08a758225ed51a00267d06e6369701cfbb931f527bf92",
+          "title": "Colorado Rockies vs. San Francisco Giants",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "San Francisco Giants",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-18",
+          "total_value_usd": 144020.95,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x702ac5be16a413ef856c67b29861be5a28a7824c6198cfe7393159f6fce1d24a:0",
+          "condition_id": "0x702ac5be16a413ef856c67b29861be5a28a7824c6198cfe7393159f6fce1d24a",
+          "title": "Atlanta Braves vs. St. Louis Cardinals",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Atlanta Braves",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-18",
+          "total_value_usd": 93286.8,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xc24e826fe4c7231eb3f6271d19222c29ee44c513b3b8cfaffa0a15e433852009:0",
+          "condition_id": "0xc24e826fe4c7231eb3f6271d19222c29ee44c513b3b8cfaffa0a15e433852009",
+          "title": "Toronto Blue Jays vs. San Diego Padres",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Toronto Blue Jays",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-18",
+          "total_value_usd": 93455.1,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x58fb28277f01ff73ccf08a758225ed51a00267d06e6369701cfbb931f527bf92:0",
+          "condition_id": "0x58fb28277f01ff73ccf08a758225ed51a00267d06e6369701cfbb931f527bf92",
+          "title": "Colorado Rockies vs. San Francisco Giants",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Colorado Rockies",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-18",
+          "total_value_usd": 64443.87,
+          "result": "pending"
         }
       ]
     },
@@ -5731,10 +5801,10 @@
       "name": "Conviction Sizing",
       "description": "Total whale position >$500k",
       "hypothesis": "Signals where total position size exceeds $500k represent the highest-conviction whale bets. When top traders put serious capital behind a position, that's a qualitatively different signal from a small stake. This filters for only the highest-conviction consensus calls to test whether size predicts accuracy.",
-      "signals_evaluated": 17,
+      "signals_evaluated": 18,
       "correct": 11,
       "wrong": 2,
-      "pending": 4,
+      "pending": 5,
       "win_rate": 84.6,
       "signals": [
         {
@@ -5974,6 +6044,20 @@
           "end_date": "2026-07-17",
           "total_value_usd": 1712042.03,
           "result": "correct"
+        },
+        {
+          "signal_key": "0xdae2fd2aaeeb832e13fc564457a1ca2ba7da317d89337f8b55daf16a72befdcb:0",
+          "condition_id": "0xdae2fd2aaeeb832e13fc564457a1ca2ba7da317d89337f8b55daf16a72befdcb",
+          "title": "Arizona Diamondbacks vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Arizona Diamondbacks",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-18",
+          "total_value_usd": 674293.84,
+          "result": "pending"
         }
       ]
     }
