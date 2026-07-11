@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-11T04:30:05+00:00",
-  "total_signals": 411,
-  "total_resolved": 374,
-  "total_correct": 222,
+  "generated_at": "2026-07-11T06:37:13+00:00",
+  "total_signals": 413,
+  "total_resolved": 379,
+  "total_correct": 225,
   "overall_hit_rate": 59.4,
   "by_tier": {
     "Strong": {
       "total": 124,
-      "resolved": 117,
-      "correct": 74,
-      "hit_rate": 63.2
+      "resolved": 120,
+      "correct": 75,
+      "hit_rate": 62.5
     },
     "Moderate": {
-      "total": 246,
-      "resolved": 219,
-      "correct": 130,
-      "hit_rate": 59.4
+      "total": 248,
+      "resolved": 221,
+      "correct": 132,
+      "hit_rate": 59.7
     },
     "Weak": {
       "total": 41,
@@ -6939,10 +6939,10 @@
       "total_value_usd": 674293.84,
       "entry_price": 0.505,
       "end_date": "2026-07-18",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Arizona Diamondbacks",
+      "resolved_date": "2026-07-18"
     },
     {
       "signal_key": "0x58fb28277f01ff73ccf08a758225ed51a00267d06e6369701cfbb931f527bf92:1",
@@ -6956,10 +6956,10 @@
       "total_value_usd": 144020.95,
       "entry_price": 0.505,
       "end_date": "2026-07-18",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Colorado Rockies",
+      "resolved_date": "2026-07-18"
     },
     {
       "signal_key": "0x702ac5be16a413ef856c67b29861be5a28a7824c6198cfe7393159f6fce1d24a:0",
@@ -6973,10 +6973,10 @@
       "total_value_usd": 93286.8,
       "entry_price": 0.505,
       "end_date": "2026-07-18",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "St. Louis Cardinals",
+      "resolved_date": "2026-07-18"
     },
     {
       "signal_key": "0xc24e826fe4c7231eb3f6271d19222c29ee44c513b3b8cfaffa0a15e433852009:0",
@@ -6990,10 +6990,10 @@
       "total_value_usd": 93455.1,
       "entry_price": 0.505,
       "end_date": "2026-07-18",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Toronto Blue Jays",
+      "resolved_date": "2026-07-18"
     },
     {
       "signal_key": "0x58fb28277f01ff73ccf08a758225ed51a00267d06e6369701cfbb931f527bf92:0",
@@ -7007,6 +7007,40 @@
       "total_value_usd": 64443.87,
       "entry_price": 0.505,
       "end_date": "2026-07-18",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Colorado Rockies",
+      "resolved_date": "2026-07-18"
+    },
+    {
+      "signal_key": "0x47b10cee6b566fb39018c6df4b189f8be68630e7da55ce8fe7708123cb6573bf:0",
+      "condition_id": "0x47b10cee6b566fb39018c6df4b189f8be68630e7da55ce8fe7708123cb6573bf",
+      "title": "Milwaukee Brewers vs. Pittsburgh Pirates",
+      "category": "MLB",
+      "whale_direction": "Milwaukee Brewers",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 6.8468,
+      "total_value_usd": 29168.9,
+      "entry_price": 0.505,
+      "end_date": "2026-07-17",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x47b10cee6b566fb39018c6df4b189f8be68630e7da55ce8fe7708123cb6573bf:1",
+      "condition_id": "0x47b10cee6b566fb39018c6df4b189f8be68630e7da55ce8fe7708123cb6573bf",
+      "title": "Milwaukee Brewers vs. Pittsburgh Pirates",
+      "category": "MLB",
+      "whale_direction": "Pittsburgh Pirates",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 6.2794,
+      "total_value_usd": 12441.58,
+      "entry_price": 0.505,
+      "end_date": "2026-07-17",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

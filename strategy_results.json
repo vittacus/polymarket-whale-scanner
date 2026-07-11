@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-11T04:30:06+00:00",
-  "total_evaluated": 411,
-  "total_pending": 37,
+  "generated_at": "2026-07-11T06:37:13+00:00",
+  "total_evaluated": 413,
+  "total_pending": 34,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 411,
-      "correct": 222,
-      "wrong": 152,
-      "pending": 37,
+      "signals_evaluated": 413,
+      "correct": 225,
+      "wrong": 154,
+      "pending": 34,
       "win_rate": 59.4,
       "signals": [
         {
@@ -5705,11 +5705,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Arizona Diamondbacks",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Arizona Diamondbacks",
+          "resolved_date": "2026-07-18",
           "end_date": "2026-07-18",
           "total_value_usd": 674293.84,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x58fb28277f01ff73ccf08a758225ed51a00267d06e6369701cfbb931f527bf92:1",
@@ -5719,11 +5719,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "San Francisco Giants",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Colorado Rockies",
+          "resolved_date": "2026-07-18",
           "end_date": "2026-07-18",
           "total_value_usd": 144020.95,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x702ac5be16a413ef856c67b29861be5a28a7824c6198cfe7393159f6fce1d24a:0",
@@ -5733,11 +5733,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Atlanta Braves",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "St. Louis Cardinals",
+          "resolved_date": "2026-07-18",
           "end_date": "2026-07-18",
           "total_value_usd": 93286.8,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xc24e826fe4c7231eb3f6271d19222c29ee44c513b3b8cfaffa0a15e433852009:0",
@@ -5747,11 +5747,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Toronto Blue Jays",
+          "resolved_date": "2026-07-18",
           "end_date": "2026-07-18",
           "total_value_usd": 93455.1,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x58fb28277f01ff73ccf08a758225ed51a00267d06e6369701cfbb931f527bf92:0",
@@ -5761,10 +5761,38 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Colorado Rockies",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Colorado Rockies",
+          "resolved_date": "2026-07-18",
           "end_date": "2026-07-18",
           "total_value_usd": 64443.87,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x47b10cee6b566fb39018c6df4b189f8be68630e7da55ce8fe7708123cb6573bf:0",
+          "condition_id": "0x47b10cee6b566fb39018c6df4b189f8be68630e7da55ce8fe7708123cb6573bf",
+          "title": "Milwaukee Brewers vs. Pittsburgh Pirates",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Milwaukee Brewers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-17",
+          "total_value_usd": 29168.9,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x47b10cee6b566fb39018c6df4b189f8be68630e7da55ce8fe7708123cb6573bf:1",
+          "condition_id": "0x47b10cee6b566fb39018c6df4b189f8be68630e7da55ce8fe7708123cb6573bf",
+          "title": "Milwaukee Brewers vs. Pittsburgh Pirates",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Pittsburgh Pirates",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-17",
+          "total_value_usd": 12441.58,
           "result": "pending"
         }
       ]
@@ -5802,10 +5830,10 @@
       "description": "Total whale position >$500k",
       "hypothesis": "Signals where total position size exceeds $500k represent the highest-conviction whale bets. When top traders put serious capital behind a position, that's a qualitatively different signal from a small stake. This filters for only the highest-conviction consensus calls to test whether size predicts accuracy.",
       "signals_evaluated": 18,
-      "correct": 11,
+      "correct": 12,
       "wrong": 2,
-      "pending": 5,
-      "win_rate": 84.6,
+      "pending": 4,
+      "win_rate": 85.7,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -6053,11 +6081,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Arizona Diamondbacks",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Arizona Diamondbacks",
+          "resolved_date": "2026-07-18",
           "end_date": "2026-07-18",
           "total_value_usd": 674293.84,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     }
