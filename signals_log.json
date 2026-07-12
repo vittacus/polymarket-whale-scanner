@@ -125363,5 +125363,201 @@
         "entry_price": 0.52
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-12T03:54:40+00:00",
+    "whale_timeframes": {
+      "0x09b428f7c2b469786286214aa5c90dd9015f7320": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd1c537b2a7cba8d365e111bffb9de7b205e2cbd0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2e25b222e2080c377fc1fb2b9f926315f0f4d49e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc6a63ad5a788a576d4acc9911c50fef9fde49458": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5b4ec9c06b284ee52c41a761974d836992880232": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x83720820a8aa6c3f20ad71850e7a1a17d16c5223": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x85f031d069de300055900c4055c1baeb6bde3f67": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x50f0a0fc7364d3c10fc4578b9b1d955368335355": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x709e8dcb133555794decc598e07f2c923b8366f5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x412fe1a101554f0b382181c3af932e4b2d8030fa": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc03ce4d8af842ca6251ac57228b3ffb166ed50af": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe221be3b45dfe5ed562ee9dc16f47205728e06f6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9ee8bbc36d378af72e5f6b8e2ea2eb67c05a89de": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc29198ad764bd6adaf7bb971a3757a689ece5d74": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6d20c35f65d9899b6d6b74f8466e824580f9a165": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894:0",
+        "condition_id": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
+        "title": "Will France win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x83720820a8aa6c3f20ad71850e7a1a17d16c5223",
+          "0x85f031d069de300055900c4055c1baeb6bde3f67",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563"
+        ],
+        "ranks": [
+          7,
+          8,
+          10
+        ],
+        "total_value_usd": 1351080.48,
+        "score": 9.0874,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.52
+      },
+      {
+        "signal_key": "0x28590a136885cb7031f236ddd16bfc84f5998d06220cc9e2890a571ec3618652:1",
+        "condition_id": "0x28590a136885cb7031f236ddd16bfc84f5998d06220cc9e2890a571ec3618652",
+        "title": "Toronto Blue Jays vs. San Diego Padres",
+        "outcome": "San Diego Padres",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+        ],
+        "ranks": [
+          6,
+          12,
+          16
+        ],
+        "total_value_usd": 266302.37,
+        "score": 6.8318,
+        "category": "MLB",
+        "end_date": "2026-07-19",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x20fac1c925b7a2fed6b3b2736f47a800b4d0d4001b9deaeb7b918868eb63d081:1",
+        "condition_id": "0x20fac1c925b7a2fed6b3b2736f47a800b4d0d4001b9deaeb7b918868eb63d081",
+        "title": "Will France win on 2026-07-14?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c"
+        ],
+        "ranks": [
+          6,
+          16,
+          17
+        ],
+        "total_value_usd": 172045.79,
+        "score": 6.0758,
+        "category": "Soccer",
+        "end_date": "2026-07-14",
+        "entry_price": 0.505
+      }
+    ]
   }
 ]

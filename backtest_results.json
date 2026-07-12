@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-07-12T00:13:09+00:00",
-  "total_signals": 427,
-  "total_resolved": 390,
-  "total_correct": 232,
+  "generated_at": "2026-07-12T03:58:37+00:00",
+  "total_signals": 429,
+  "total_resolved": 395,
+  "total_correct": 235,
   "overall_hit_rate": 59.5,
   "by_tier": {
     "Strong": {
       "total": 129,
-      "resolved": 123,
-      "correct": 78,
-      "hit_rate": 63.4
+      "resolved": 124,
+      "correct": 79,
+      "hit_rate": 63.7
     },
     "Moderate": {
-      "total": 257,
-      "resolved": 229,
-      "correct": 136,
-      "hit_rate": 59.4
+      "total": 259,
+      "resolved": 232,
+      "correct": 138,
+      "hit_rate": 59.5
     },
     "Weak": {
       "total": 41,
-      "resolved": 38,
+      "resolved": 39,
       "correct": 18,
-      "hit_rate": 47.4
+      "hit_rate": 46.2
     }
   },
   "signals": [
@@ -2026,10 +2026,10 @@
       "total_value_usd": 16928.7,
       "entry_price": 0.51,
       "end_date": "2026-07-20",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-20"
     },
     {
       "signal_key": "0xbaf7780f9059e34b84301fd411f8dc573b4d56adfe6e0cda33daf304b1438da4:0",
@@ -4474,10 +4474,10 @@
       "total_value_usd": 3100.22,
       "entry_price": 0.515,
       "end_date": "2026-07-20",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-20"
     },
     {
       "signal_key": "0x4e4f77e7dbf4cab666e9a1943674d7ae66348e862df03ea6f44b11eb95731928:0",
@@ -7126,10 +7126,10 @@
       "total_value_usd": 17572.95,
       "entry_price": 0.505,
       "end_date": "2026-07-18",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Chicago Cubs",
+      "resolved_date": "2026-07-18"
     },
     {
       "signal_key": "0x95be02324f34ab7063ff1a0c755f9caa8391f1eaf9421221e577f2234447a0fb:1",
@@ -7262,10 +7262,10 @@
       "total_value_usd": 14882.67,
       "entry_price": 0.505,
       "end_date": "2026-07-20",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-20"
     },
     {
       "signal_key": "0x3c7503474952b697741797aed32cc19a12d2020a96bba156717f8cdb5253f5d8:0",
@@ -7279,6 +7279,40 @@
       "total_value_usd": 11960.54,
       "entry_price": 0.505,
       "end_date": "2026-07-18",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Philadelphia Phillies",
+      "resolved_date": "2026-07-18"
+    },
+    {
+      "signal_key": "0x28590a136885cb7031f236ddd16bfc84f5998d06220cc9e2890a571ec3618652:1",
+      "condition_id": "0x28590a136885cb7031f236ddd16bfc84f5998d06220cc9e2890a571ec3618652",
+      "title": "Toronto Blue Jays vs. San Diego Padres",
+      "category": "MLB",
+      "whale_direction": "San Diego Padres",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 6.8318,
+      "total_value_usd": 266302.37,
+      "entry_price": 0.505,
+      "end_date": "2026-07-19",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x20fac1c925b7a2fed6b3b2736f47a800b4d0d4001b9deaeb7b918868eb63d081:1",
+      "condition_id": "0x20fac1c925b7a2fed6b3b2736f47a800b4d0d4001b9deaeb7b918868eb63d081",
+      "title": "Will France win on 2026-07-14?",
+      "category": "Soccer",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 6.0758,
+      "total_value_usd": 172045.79,
+      "entry_price": 0.505,
+      "end_date": "2026-07-14",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
