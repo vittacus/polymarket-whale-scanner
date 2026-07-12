@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-12T21:35:49+00:00",
-  "total_signals": 431,
+  "generated_at": "2026-07-12T22:34:08+00:00",
+  "total_signals": 432,
   "total_resolved": 402,
   "total_correct": 239,
   "overall_hit_rate": 59.5,
@@ -12,7 +12,7 @@
       "hit_rate": 63.7
     },
     "Moderate": {
-      "total": 261,
+      "total": 262,
       "resolved": 239,
       "correct": 142,
       "hit_rate": 59.4
@@ -7351,6 +7351,23 @@
       "correct": true,
       "resolved_outcome": "Baltimore Orioles",
       "resolved_date": "2026-07-19"
+    },
+    {
+      "signal_key": "0xafb4cbefe1c36ccce9665d21c9093e94d6122f16c39b71c0aa383670f25aa956:1",
+      "condition_id": "0xafb4cbefe1c36ccce9665d21c9093e94d6122f16c39b71c0aa383670f25aa956",
+      "title": "Toronto Blue Jays vs. San Diego Padres",
+      "category": "MLB",
+      "whale_direction": "San Diego Padres",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 5.4428,
+      "total_value_usd": 28587.99,
+      "entry_price": 0.505,
+      "end_date": "2026-07-19",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-12T21:35:49+00:00",
-  "total_evaluated": 431,
-  "total_pending": 29,
+  "generated_at": "2026-07-12T22:34:08+00:00",
+  "total_evaluated": 432,
+  "total_pending": 30,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 431,
+      "signals_evaluated": 432,
       "correct": 239,
       "wrong": 163,
-      "pending": 29,
+      "pending": 30,
       "win_rate": 59.5,
       "signals": [
         {
@@ -6046,6 +6046,20 @@
           "end_date": "2026-07-19",
           "total_value_usd": 33388.45,
           "result": "correct"
+        },
+        {
+          "signal_key": "0xafb4cbefe1c36ccce9665d21c9093e94d6122f16c39b71c0aa383670f25aa956:1",
+          "condition_id": "0xafb4cbefe1c36ccce9665d21c9093e94d6122f16c39b71c0aa383670f25aa956",
+          "title": "Toronto Blue Jays vs. San Diego Padres",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "San Diego Padres",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-19",
+          "total_value_usd": 28587.99,
+          "result": "pending"
         }
       ]
     },
