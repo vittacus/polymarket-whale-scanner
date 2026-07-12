@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-12T14:16:14+00:00",
-  "total_evaluated": 429,
-  "total_pending": 29,
+  "generated_at": "2026-07-12T15:19:54+00:00",
+  "total_evaluated": 430,
+  "total_pending": 30,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 429,
+      "signals_evaluated": 430,
       "correct": 238,
       "wrong": 162,
-      "pending": 29,
+      "pending": 30,
       "win_rate": 59.5,
       "signals": [
         {
@@ -6018,6 +6018,20 @@
           "end_date": "2026-07-14",
           "total_value_usd": 172045.79,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xb96585ac41b808bac0bcfa00f39a92990c64dc413804368c7191ad4e1cd299a5:1",
+          "condition_id": "0xb96585ac41b808bac0bcfa00f39a92990c64dc413804368c7191ad4e1cd299a5",
+          "title": "Wimbledon ATP: Jannik Sinner vs Alexander Zverev",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Alexander Zverev",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-19",
+          "total_value_usd": 794399.75,
+          "result": "pending"
         }
       ]
     },
@@ -6053,10 +6067,10 @@
       "name": "Conviction Sizing",
       "description": "Total whale position >$500k",
       "hypothesis": "Signals where total position size exceeds $500k represent the highest-conviction whale bets. When top traders put serious capital behind a position, that's a qualitatively different signal from a small stake. This filters for only the highest-conviction consensus calls to test whether size predicts accuracy.",
-      "signals_evaluated": 18,
+      "signals_evaluated": 19,
       "correct": 12,
       "wrong": 2,
-      "pending": 4,
+      "pending": 5,
       "win_rate": 85.7,
       "signals": [
         {
@@ -6310,6 +6324,20 @@
           "end_date": "2026-07-18",
           "total_value_usd": 674293.84,
           "result": "correct"
+        },
+        {
+          "signal_key": "0xb96585ac41b808bac0bcfa00f39a92990c64dc413804368c7191ad4e1cd299a5:1",
+          "condition_id": "0xb96585ac41b808bac0bcfa00f39a92990c64dc413804368c7191ad4e1cd299a5",
+          "title": "Wimbledon ATP: Jannik Sinner vs Alexander Zverev",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Alexander Zverev",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-19",
+          "total_value_usd": 794399.75,
+          "result": "pending"
         }
       ]
     }
