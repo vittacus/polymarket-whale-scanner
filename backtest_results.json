@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-11T23:12:12+00:00",
+  "generated_at": "2026-07-12T00:13:09+00:00",
   "total_signals": 427,
-  "total_resolved": 383,
-  "total_correct": 228,
+  "total_resolved": 390,
+  "total_correct": 232,
   "overall_hit_rate": 59.5,
   "by_tier": {
     "Strong": {
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 257,
-      "resolved": 222,
-      "correct": 132,
-      "hit_rate": 59.5
+      "resolved": 229,
+      "correct": 136,
+      "hit_rate": 59.4
     },
     "Weak": {
       "total": 41,
@@ -6616,10 +6616,10 @@
       "total_value_usd": 52995.03,
       "entry_price": 0.52,
       "end_date": "2026-07-11",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-11"
     },
     {
       "signal_key": "0xd4e77ba6f29fc093509d24f508631abd445ecf506bbdc9c4c80e60256a318527:0",
@@ -7143,10 +7143,10 @@
       "total_value_usd": 45435.89,
       "entry_price": 0.505,
       "end_date": "2026-07-18",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Cleveland Guardians",
+      "resolved_date": "2026-07-18"
     },
     {
       "signal_key": "0x8390f218816e271b321de5fb23ef7e804dce7069cc686e7ef766280f3d550833:0",
@@ -7160,10 +7160,10 @@
       "total_value_usd": 77620.91,
       "entry_price": 0.505,
       "end_date": "2026-07-18",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Pittsburgh Pirates",
+      "resolved_date": "2026-07-18"
     },
     {
       "signal_key": "0x939693c8859f2684a8be14724282117fbf438701de890f47bc85ce8b42c11076:0",
@@ -7177,10 +7177,10 @@
       "total_value_usd": 59665.84,
       "entry_price": 0.505,
       "end_date": "2026-07-18",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "New York Yankees",
+      "resolved_date": "2026-07-18"
     },
     {
       "signal_key": "0x939693c8859f2684a8be14724282117fbf438701de890f47bc85ce8b42c11076:1",
@@ -7194,10 +7194,10 @@
       "total_value_usd": 86629.73,
       "entry_price": 0.505,
       "end_date": "2026-07-18",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "New York Yankees",
+      "resolved_date": "2026-07-18"
     },
     {
       "signal_key": "0x8390f218816e271b321de5fb23ef7e804dce7069cc686e7ef766280f3d550833:1",
@@ -7211,10 +7211,10 @@
       "total_value_usd": 70036.95,
       "entry_price": 0.505,
       "end_date": "2026-07-18",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Pittsburgh Pirates",
+      "resolved_date": "2026-07-18"
     },
     {
       "signal_key": "0xb288103f4ef069fc13b9b0bc05345687261f1c0ad0477d465eafe40ef5cf6f14:0",
@@ -7245,10 +7245,10 @@
       "total_value_usd": 19173.83,
       "entry_price": 0.505,
       "end_date": "2026-07-18",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Tampa Bay Rays",
+      "resolved_date": "2026-07-18"
     },
     {
       "signal_key": "0x224488d5b8e4e454c6f7ed545bd56d3d5768b582eee6bbddf286ad5ccd8adadf:1",

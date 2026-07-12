@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-11T23:12:12+00:00",
+  "generated_at": "2026-07-12T00:13:09+00:00",
   "total_evaluated": 427,
-  "total_pending": 44,
+  "total_pending": 37,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 427,
-      "correct": 228,
-      "wrong": 155,
-      "pending": 44,
+      "correct": 232,
+      "wrong": 158,
+      "pending": 37,
       "win_rate": 59.5,
       "signals": [
         {
@@ -5439,11 +5439,11 @@
           "tier": "Moderate",
           "entry_price": 0.52,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-07-11",
           "end_date": "2026-07-11",
           "total_value_usd": 52995.03,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xd4e77ba6f29fc093509d24f508631abd445ecf506bbdc9c4c80e60256a318527:0",
@@ -5873,11 +5873,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Miami Marlins",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Cleveland Guardians",
+          "resolved_date": "2026-07-18",
           "end_date": "2026-07-18",
           "total_value_usd": 45435.89,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x8390f218816e271b321de5fb23ef7e804dce7069cc686e7ef766280f3d550833:0",
@@ -5887,11 +5887,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Milwaukee Brewers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Pittsburgh Pirates",
+          "resolved_date": "2026-07-18",
           "end_date": "2026-07-18",
           "total_value_usd": 77620.91,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x939693c8859f2684a8be14724282117fbf438701de890f47bc85ce8b42c11076:0",
@@ -5901,11 +5901,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "New York Yankees",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-07-18",
           "end_date": "2026-07-18",
           "total_value_usd": 59665.84,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x939693c8859f2684a8be14724282117fbf438701de890f47bc85ce8b42c11076:1",
@@ -5915,11 +5915,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Washington Nationals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-07-18",
           "end_date": "2026-07-18",
           "total_value_usd": 86629.73,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x8390f218816e271b321de5fb23ef7e804dce7069cc686e7ef766280f3d550833:1",
@@ -5929,11 +5929,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Pittsburgh Pirates",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Pittsburgh Pirates",
+          "resolved_date": "2026-07-18",
           "end_date": "2026-07-18",
           "total_value_usd": 70036.95,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xb288103f4ef069fc13b9b0bc05345687261f1c0ad0477d465eafe40ef5cf6f14:0",
@@ -5957,11 +5957,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Tampa Bay Rays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Tampa Bay Rays",
+          "resolved_date": "2026-07-18",
           "end_date": "2026-07-18",
           "total_value_usd": 19173.83,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x224488d5b8e4e454c6f7ed545bd56d3d5768b582eee6bbddf286ad5ccd8adadf:1",
