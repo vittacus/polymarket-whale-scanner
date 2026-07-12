@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-12T18:39:52+00:00",
-  "total_signals": 430,
-  "total_resolved": 400,
+  "generated_at": "2026-07-12T19:52:52+00:00",
+  "total_signals": 431,
+  "total_resolved": 401,
   "total_correct": 238,
-  "overall_hit_rate": 59.5,
+  "overall_hit_rate": 59.4,
   "by_tier": {
     "Strong": {
       "total": 129,
@@ -12,10 +12,10 @@
       "hit_rate": 63.7
     },
     "Moderate": {
-      "total": 260,
-      "resolved": 237,
+      "total": 261,
+      "resolved": 238,
       "correct": 141,
-      "hit_rate": 59.5
+      "hit_rate": 59.2
     },
     "Weak": {
       "total": 41,
@@ -7328,6 +7328,23 @@
       "tier": "Moderate",
       "score": 9.8494,
       "total_value_usd": 794399.75,
+      "entry_price": 0.505,
+      "end_date": "2026-07-19",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Jannik Sinner",
+      "resolved_date": "2026-07-19"
+    },
+    {
+      "signal_key": "0x8d62b2f6adabeb0e0d64d2680b84da5656e6008da4a559e1db5f6276e0c388cc:1",
+      "condition_id": "0x8d62b2f6adabeb0e0d64d2680b84da5656e6008da4a559e1db5f6276e0c388cc",
+      "title": "Kansas City Royals vs. Baltimore Orioles",
+      "category": "MLB",
+      "whale_direction": "Baltimore Orioles",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 4.9782,
+      "total_value_usd": 33388.45,
       "entry_price": 0.505,
       "end_date": "2026-07-19",
       "resolved": false,
