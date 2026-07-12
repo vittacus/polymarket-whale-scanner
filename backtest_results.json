@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-12T20:41:17+00:00",
+  "generated_at": "2026-07-12T21:35:49+00:00",
   "total_signals": 431,
-  "total_resolved": 401,
-  "total_correct": 238,
-  "overall_hit_rate": 59.4,
+  "total_resolved": 402,
+  "total_correct": 239,
+  "overall_hit_rate": 59.5,
   "by_tier": {
     "Strong": {
       "total": 129,
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 261,
-      "resolved": 238,
-      "correct": 141,
-      "hit_rate": 59.2
+      "resolved": 239,
+      "correct": 142,
+      "hit_rate": 59.4
     },
     "Weak": {
       "total": 41,
@@ -7347,10 +7347,10 @@
       "total_value_usd": 33388.45,
       "entry_price": 0.505,
       "end_date": "2026-07-19",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Baltimore Orioles",
+      "resolved_date": "2026-07-19"
     }
   ]
 }

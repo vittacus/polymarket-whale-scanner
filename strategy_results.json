@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-12T20:41:17+00:00",
+  "generated_at": "2026-07-12T21:35:49+00:00",
   "total_evaluated": 431,
-  "total_pending": 30,
+  "total_pending": 29,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 431,
-      "correct": 238,
+      "correct": 239,
       "wrong": 163,
-      "pending": 30,
-      "win_rate": 59.4,
+      "pending": 29,
+      "win_rate": 59.5,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -6041,11 +6041,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Baltimore Orioles",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Baltimore Orioles",
+          "resolved_date": "2026-07-19",
           "end_date": "2026-07-19",
           "total_value_usd": 33388.45,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
