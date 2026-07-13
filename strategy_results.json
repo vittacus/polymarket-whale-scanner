@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-13T19:50:11+00:00",
-  "total_evaluated": 433,
-  "total_pending": 30,
+  "generated_at": "2026-07-13T20:56:24+00:00",
+  "total_evaluated": 435,
+  "total_pending": 32,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 433,
+      "signals_evaluated": 435,
       "correct": 240,
       "wrong": 163,
-      "pending": 30,
+      "pending": 32,
       "win_rate": 59.6,
       "signals": [
         {
@@ -6073,6 +6073,34 @@
           "resolved_date": null,
           "end_date": "2026-12-09",
           "total_value_usd": 17634.42,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xa4e21afd5e530cd70be098dc2a8857718c2c91e1fac68f9406048f860e201c28:1",
+          "condition_id": "0xa4e21afd5e530cd70be098dc2a8857718c2c91e1fac68f9406048f860e201c28",
+          "title": "Athens Open: Valentini Grammatikopoulou vs Alycia Parks",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Alycia Parks",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-20",
+          "total_value_usd": 232021.45,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x4cac02573bc972647d22951a2aa2715447ff04945ede1be6876bc085ddd78634:1",
+          "condition_id": "0x4cac02573bc972647d22951a2aa2715447ff04945ede1be6876bc085ddd78634",
+          "title": "Croatia Open: Vit Kopriva vs Dino Prizmic",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Dino Prizmic",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-20",
+          "total_value_usd": 93065.17,
           "result": "pending"
         }
       ]
