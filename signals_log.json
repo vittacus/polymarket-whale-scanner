@@ -129355,5 +129355,203 @@
         "entry_price": 0.515
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-13T04:46:45+00:00",
+    "whale_timeframes": {
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4ab9b54427ec4b7f3646b1a0ef1bed73bc708ebe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3d8a89a20aa73fba0f30d080e8120de9f9555724": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb3cfe7615d64db8dfa743a1b1a2b976911460ebd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe558bb7b02ea489d772bd34f14cc845e391fdcd2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1a2f67124f12eaa88be0f6683a95abede555647a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0f35109cc3ceaf729609c3109310791bd616c84a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x782186952ef2ca75ea91c95aef25bbdcffb4bb1a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xccf128f31a3af399c40dd9854c83b60101dd25a0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb4d250f58c26840e09723a83ce9c8149aa32ce99": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3a8aa345d5db7ec5138298c8c4f4540259be7699": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x95b198f900d19a80d3d7e47b7b17708af254f9ac": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xff80bb23621f03fc6300808730316c78abe09b4d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x70dc005e4abe3a4f66d80686372535219fe11dfd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7fb23b0d330ea4ac4f3cecce1eb81fb0bfb3ed4b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd218e474776403a330142299f7796e8ba32eb5c9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f70929ba287ac85dc2431c85382ccd9e6b0d185": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x684baa57c338c2549aec0aa3f034f695d72a8409": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894:0",
+        "condition_id": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
+        "title": "Will France win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xb3cfe7615d64db8dfa743a1b1a2b976911460ebd",
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0xd218e474776403a330142299f7796e8ba32eb5c9"
+        ],
+        "ranks": [
+          1,
+          6,
+          13,
+          18
+        ],
+        "total_value_usd": 402688.13,
+        "score": 29.3417,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.52
+      },
+      {
+        "signal_key": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892:0",
+        "condition_id": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892",
+        "title": "Will Spain win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xb3cfe7615d64db8dfa743a1b1a2b976911460ebd",
+          "0xd218e474776403a330142299f7796e8ba32eb5c9"
+        ],
+        "ranks": [
+          1,
+          6,
+          18
+        ],
+        "total_value_usd": 180435.0,
+        "score": 25.8873,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.52
+      },
+      {
+        "signal_key": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f:0",
+        "condition_id": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f",
+        "title": "Will England win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xb3cfe7615d64db8dfa743a1b1a2b976911460ebd",
+          "0xd218e474776403a330142299f7796e8ba32eb5c9"
+        ],
+        "ranks": [
+          1,
+          6,
+          18
+        ],
+        "total_value_usd": 177532.38,
+        "score": 25.8526,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.51
+      }
+    ]
   }
 ]
