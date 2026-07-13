@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-13T16:16:12+00:00",
-  "total_signals": 432,
+  "generated_at": "2026-07-13T18:10:35+00:00",
+  "total_signals": 433,
   "total_resolved": 403,
   "total_correct": 240,
   "overall_hit_rate": 59.6,
   "by_tier": {
     "Strong": {
-      "total": 129,
+      "total": 130,
       "resolved": 124,
       "correct": 79,
       "hit_rate": 63.7
@@ -7368,6 +7368,23 @@
       "correct": true,
       "resolved_outcome": "San Diego Padres",
       "resolved_date": "2026-07-19"
+    },
+    {
+      "signal_key": "0x73d8a8208d23a74937d114a713d6a56cd4161a1068056c52ac74c8419c99da7c:0",
+      "condition_id": "0x73d8a8208d23a74937d114a713d6a56cd4161a1068056c52ac74c8419c99da7c",
+      "title": "Fed Rate Hike by September 2026 Meeting?",
+      "category": "Fed",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 19.2827,
+      "total_value_usd": 17634.42,
+      "entry_price": 0.505,
+      "end_date": "2026-12-09",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
