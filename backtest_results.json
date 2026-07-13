@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-13T22:54:55+00:00",
+  "generated_at": "2026-07-13T23:52:45+00:00",
   "total_signals": 437,
-  "total_resolved": 405,
-  "total_correct": 242,
-  "overall_hit_rate": 59.8,
+  "total_resolved": 407,
+  "total_correct": 243,
+  "overall_hit_rate": 59.7,
   "by_tier": {
     "Strong": {
       "total": 134,
-      "resolved": 126,
-      "correct": 81,
-      "hit_rate": 64.3
+      "resolved": 128,
+      "correct": 82,
+      "hit_rate": 64.1
     },
     "Moderate": {
       "total": 262,
@@ -7432,10 +7432,10 @@
       "total_value_usd": 92599.32,
       "entry_price": 0.505,
       "end_date": "2026-07-20",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Paul Inchauspe",
+      "resolved_date": "2026-07-20"
     },
     {
       "signal_key": "0x024b18be7d9f3d45f52db336184244085182c12c36459810b012fcfe116853bd:0",
@@ -7449,10 +7449,10 @@
       "total_value_usd": 120381.23,
       "entry_price": 0.505,
       "end_date": "2026-07-20",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Chris Rodesch",
+      "resolved_date": "2026-07-20"
     }
   ]
 }
