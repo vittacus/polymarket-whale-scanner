@@ -130766,5 +130766,338 @@
         "entry_price": 0.52
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-13T19:46:45+00:00",
+    "whale_timeframes": {
+      "0x3a8aa345d5db7ec5138298c8c4f4540259be7699": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe613b515bd46b1585a8b137a4d291d9b80bd540e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x714a685b5454ea4d52979563bbafa77b8168ab2f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa309f903dbbd559e87d8d368834b8e41355c4cf2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x55eca3687ea7d69632ffe0f297ea3d5158bb8c7d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb3cfe7615d64db8dfa743a1b1a2b976911460ebd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf4baccff188321440a1ed01a5d5fd89c3e1f5933": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa022ba0a68e11a78348382ff168601012d4d77f8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbd0477e08d82d35a855ff19644a88a9213d8fbb0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x288999fc80af0b29cd5b22fc1c2b8987db3b9226": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe558bb7b02ea489d772bd34f14cc845e391fdcd2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x93fb8127a1b21a112b11af936361225df0563e4a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x68ae0c4da7b7b811bb4a17d9070e581ff2f96358": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x83720820a8aa6c3f20ad71850e7a1a17d16c5223": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x45060425ac73951a6f57474a9321abea427843fd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xb5c0abeecb5502e6e8d83155c27819174d8317af3c425c3afc5a8c45257a3793:0",
+        "condition_id": "0xb5c0abeecb5502e6e8d83155c27819174d8317af3c425c3afc5a8c45257a3793",
+        "title": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 6,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991",
+          "0xa309f903dbbd559e87d8d368834b8e41355c4cf2",
+          "0xf4baccff188321440a1ed01a5d5fd89c3e1f5933",
+          "0xa022ba0a68e11a78348382ff168601012d4d77f8",
+          "0x45060425ac73951a6f57474a9321abea427843fd"
+        ],
+        "ranks": [
+          1,
+          2,
+          7,
+          10,
+          11,
+          19
+        ],
+        "total_value_usd": 1125582.36,
+        "score": 45.9982,
+        "category": "Economic Policy",
+        "end_date": "2026-07-29",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0x8bf1c1536ecb1c08fe13c6b71e8ab1f58bf3461c4cb79f5f1679f869a06aef86:1",
+        "condition_id": "0x8bf1c1536ecb1c08fe13c6b71e8ab1f58bf3461c4cb79f5f1679f869a06aef86",
+        "title": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 5,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991",
+          "0x714a685b5454ea4d52979563bbafa77b8168ab2f",
+          "0xf4baccff188321440a1ed01a5d5fd89c3e1f5933",
+          "0xa022ba0a68e11a78348382ff168601012d4d77f8"
+        ],
+        "ranks": [
+          1,
+          2,
+          6,
+          10,
+          11
+        ],
+        "total_value_usd": 911643.18,
+        "score": 44.6102,
+        "category": "Economic Policy",
+        "end_date": "2026-07-29",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0xd4e77ba6f29fc093509d24f508631abd445ecf506bbdc9c4c80e60256a318527:0",
+        "condition_id": "0xd4e77ba6f29fc093509d24f508631abd445ecf506bbdc9c4c80e60256a318527",
+        "title": "Will no Fed rate cuts happen in 2026?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991",
+          "0xa309f903dbbd559e87d8d368834b8e41355c4cf2"
+        ],
+        "ranks": [
+          1,
+          2,
+          7
+        ],
+        "total_value_usd": 443566.44,
+        "score": 37.3825,
+        "category": "Rewards 200, 4.5, 50 Deprec",
+        "end_date": "2026-12-31",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894:0",
+        "condition_id": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
+        "title": "Will France win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 5,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xb3cfe7615d64db8dfa743a1b1a2b976911460ebd",
+          "0x93fb8127a1b21a112b11af936361225df0563e4a",
+          "0x83720820a8aa6c3f20ad71850e7a1a17d16c5223"
+        ],
+        "ranks": [
+          1,
+          3,
+          9,
+          16,
+          18
+        ],
+        "total_value_usd": 619585.89,
+        "score": 36.4678,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.52
+      },
+      {
+        "signal_key": "0x80b3af88cb991980e8da1ce86b9794a0957f96ec98c29319dd7ba65e9744d82b:0",
+        "condition_id": "0x80b3af88cb991980e8da1ce86b9794a0957f96ec98c29319dd7ba65e9744d82b",
+        "title": "Fed rate hike in 2026?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0x714a685b5454ea4d52979563bbafa77b8168ab2f",
+          "0xa309f903dbbd559e87d8d368834b8e41355c4cf2"
+        ],
+        "ranks": [
+          1,
+          6,
+          7
+        ],
+        "total_value_usd": 424502.43,
+        "score": 29.697,
+        "category": "CPI Release",
+        "end_date": "2026-12-09",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0x2a28cc33492516116690a20d290f9922acbe0ed367ff52a6082154474c7f2971:0",
+        "condition_id": "0x2a28cc33492516116690a20d290f9922acbe0ed367ff52a6082154474c7f2971",
+        "title": "Will the Fed increase interest rates by 50+ bps after the July 2026 meeting?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991",
+          "0x714a685b5454ea4d52979563bbafa77b8168ab2f"
+        ],
+        "ranks": [
+          1,
+          2,
+          6
+        ],
+        "total_value_usd": 11546.95,
+        "score": 27.2833,
+        "category": "Economic Policy",
+        "end_date": "2026-07-29",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f:0",
+        "condition_id": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f",
+        "title": "Will England win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 5,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xb3cfe7615d64db8dfa743a1b1a2b976911460ebd",
+          "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+          "0x93fb8127a1b21a112b11af936361225df0563e4a",
+          "0x83720820a8aa6c3f20ad71850e7a1a17d16c5223"
+        ],
+        "ranks": [
+          3,
+          9,
+          13,
+          16,
+          18
+        ],
+        "total_value_usd": 1895466.15,
+        "score": 16.175,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892:0",
+        "condition_id": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892",
+        "title": "Will Spain win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 5,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xb3cfe7615d64db8dfa743a1b1a2b976911460ebd",
+          "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+          "0x93fb8127a1b21a112b11af936361225df0563e4a",
+          "0x83720820a8aa6c3f20ad71850e7a1a17d16c5223"
+        ],
+        "ranks": [
+          3,
+          9,
+          13,
+          16,
+          18
+        ],
+        "total_value_usd": 639057.5,
+        "score": 14.9584,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.52
+      }
+    ]
   }
 ]
