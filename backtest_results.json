@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-13T20:56:24+00:00",
-  "total_signals": 435,
-  "total_resolved": 403,
-  "total_correct": 240,
-  "overall_hit_rate": 59.6,
+  "generated_at": "2026-07-13T21:54:38+00:00",
+  "total_signals": 436,
+  "total_resolved": 405,
+  "total_correct": 242,
+  "overall_hit_rate": 59.8,
   "by_tier": {
     "Strong": {
-      "total": 132,
-      "resolved": 124,
-      "correct": 79,
-      "hit_rate": 63.7
+      "total": 133,
+      "resolved": 126,
+      "correct": 81,
+      "hit_rate": 64.3
     },
     "Moderate": {
       "total": 262,
@@ -7398,10 +7398,10 @@
       "total_value_usd": 232021.45,
       "entry_price": 0.505,
       "end_date": "2026-07-20",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Alycia Parks",
+      "resolved_date": "2026-07-20"
     },
     {
       "signal_key": "0x4cac02573bc972647d22951a2aa2715447ff04945ede1be6876bc085ddd78634:1",
@@ -7413,6 +7413,23 @@
       "tier": "Strong",
       "score": 15.8355,
       "total_value_usd": 93065.17,
+      "entry_price": 0.505,
+      "end_date": "2026-07-20",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Dino Prizmic",
+      "resolved_date": "2026-07-20"
+    },
+    {
+      "signal_key": "0x1f7462ff3232c104fbfe117d792d0c2ac0bb5ff6e221a0f74234401da5f6ffc5:1",
+      "condition_id": "0x1f7462ff3232c104fbfe117d792d0c2ac0bb5ff6e221a0f74234401da5f6ffc5",
+      "title": "Pozoblanco: Paul Inchauspe vs Hamish Stewart",
+      "category": "Tennis",
+      "whale_direction": "Hamish Stewart",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 17.0111,
+      "total_value_usd": 92599.32,
       "entry_price": 0.505,
       "end_date": "2026-07-20",
       "resolved": false,
