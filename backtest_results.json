@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-13T21:54:38+00:00",
-  "total_signals": 436,
+  "generated_at": "2026-07-13T22:54:55+00:00",
+  "total_signals": 437,
   "total_resolved": 405,
   "total_correct": 242,
   "overall_hit_rate": 59.8,
   "by_tier": {
     "Strong": {
-      "total": 133,
+      "total": 134,
       "resolved": 126,
       "correct": 81,
       "hit_rate": 64.3
@@ -7430,6 +7430,23 @@
       "tier": "Strong",
       "score": 17.0111,
       "total_value_usd": 92599.32,
+      "entry_price": 0.505,
+      "end_date": "2026-07-20",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x024b18be7d9f3d45f52db336184244085182c12c36459810b012fcfe116853bd:0",
+      "condition_id": "0x024b18be7d9f3d45f52db336184244085182c12c36459810b012fcfe116853bd",
+      "title": "Pozoblanco: Chris Rodesch vs Mert Alkaya",
+      "category": "Tennis",
+      "whale_direction": "Chris Rodesch",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 17.2153,
+      "total_value_usd": 120381.23,
       "entry_price": 0.505,
       "end_date": "2026-07-20",
       "resolved": false,
