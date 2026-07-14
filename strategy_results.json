@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-14T11:08:31+00:00",
-  "total_evaluated": 440,
-  "total_pending": 33,
+  "generated_at": "2026-07-14T12:42:35+00:00",
+  "total_evaluated": 441,
+  "total_pending": 34,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 440,
+      "signals_evaluated": 441,
       "correct": 243,
       "wrong": 164,
-      "pending": 33,
+      "pending": 34,
       "win_rate": 59.7,
       "signals": [
         {
@@ -6171,6 +6171,20 @@
           "resolved_date": null,
           "end_date": "2026-07-20",
           "total_value_usd": 48435.31,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xcd2640464754b9a894ffec98ac11554fdd507ea89ca01237eabb3a6de4a606e6:0",
+          "condition_id": "0xcd2640464754b9a894ffec98ac11554fdd507ea89ca01237eabb3a6de4a606e6",
+          "title": "Will Kimi Antonelli be the 2026 F1 Drivers' Champion?",
+          "category": "Formula 1",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-12-06",
+          "total_value_usd": 3340.06,
           "result": "pending"
         }
       ]

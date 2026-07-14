@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-14T11:08:31+00:00",
-  "total_signals": 440,
+  "generated_at": "2026-07-14T12:42:35+00:00",
+  "total_signals": 441,
   "total_resolved": 407,
   "total_correct": 243,
   "overall_hit_rate": 59.7,
   "by_tier": {
     "Strong": {
-      "total": 137,
+      "total": 138,
       "resolved": 128,
       "correct": 82,
       "hit_rate": 64.1
@@ -7500,6 +7500,23 @@
       "total_value_usd": 48435.31,
       "entry_price": 0.505,
       "end_date": "2026-07-20",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xcd2640464754b9a894ffec98ac11554fdd507ea89ca01237eabb3a6de4a606e6:0",
+      "condition_id": "0xcd2640464754b9a894ffec98ac11554fdd507ea89ca01237eabb3a6de4a606e6",
+      "title": "Will Kimi Antonelli be the 2026 F1 Drivers' Champion?",
+      "category": "Formula 1",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 16.3971,
+      "total_value_usd": 3340.06,
+      "entry_price": 0.505,
+      "end_date": "2026-12-06",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
