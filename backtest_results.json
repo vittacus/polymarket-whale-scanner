@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-14T07:11:07+00:00",
-  "total_signals": 439,
+  "generated_at": "2026-07-14T09:19:26+00:00",
+  "total_signals": 440,
   "total_resolved": 407,
   "total_correct": 243,
   "overall_hit_rate": 59.7,
   "by_tier": {
     "Strong": {
-      "total": 136,
+      "total": 137,
       "resolved": 128,
       "correct": 82,
       "hit_rate": 64.1
@@ -7481,6 +7481,23 @@
       "tier": "Strong",
       "score": 21.5886,
       "total_value_usd": 18496.9,
+      "entry_price": 0.505,
+      "end_date": "2026-07-20",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x00406e85288b97f3d587f259f15c557f61bdaa235124d82fe956c65974949ee8:0",
+      "condition_id": "0x00406e85288b97f3d587f259f15c557f61bdaa235124d82fe956c65974949ee8",
+      "title": "World Cup: Unbeaten Champion?",
+      "category": "2026 FIFA World Cup",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 20.8718,
+      "total_value_usd": 48435.31,
       "entry_price": 0.505,
       "end_date": "2026-07-20",
       "resolved": false,
