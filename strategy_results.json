@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-14T20:57:59+00:00",
+  "generated_at": "2026-07-14T21:56:55+00:00",
   "total_evaluated": 441,
-  "total_pending": 34,
+  "total_pending": 33,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 441,
-      "correct": 243,
+      "correct": 244,
       "wrong": 164,
-      "pending": 34,
-      "win_rate": 59.7,
+      "pending": 33,
+      "win_rate": 59.8,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -6013,11 +6013,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-07-14",
           "end_date": "2026-07-14",
           "total_value_usd": 172045.79,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xb96585ac41b808bac0bcfa00f39a92990c64dc413804368c7191ad4e1cd299a5:1",
