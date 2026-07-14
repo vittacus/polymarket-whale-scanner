@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-14T04:52:56+00:00",
-  "total_signals": 437,
+  "generated_at": "2026-07-14T07:11:07+00:00",
+  "total_signals": 439,
   "total_resolved": 407,
   "total_correct": 243,
   "overall_hit_rate": 59.7,
   "by_tier": {
     "Strong": {
-      "total": 134,
+      "total": 136,
       "resolved": 128,
       "correct": 82,
       "hit_rate": 64.1
@@ -7453,6 +7453,40 @@
       "correct": true,
       "resolved_outcome": "Chris Rodesch",
       "resolved_date": "2026-07-20"
+    },
+    {
+      "signal_key": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f:1",
+      "condition_id": "0x375409bc5eeeff961e82b479caeccc20f33d15738e5bce1186d628aa3d9dfb1f",
+      "title": "Will England win the 2026 FIFA World Cup?",
+      "category": "Soccer",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 25.3491,
+      "total_value_usd": 105220.96,
+      "entry_price": 0.505,
+      "end_date": "2026-07-20",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x328583376667b725cc6848dc9b61b205579b1314ecdb4334ea245aec270d2c66:1",
+      "condition_id": "0x328583376667b725cc6848dc9b61b205579b1314ecdb4334ea245aec270d2c66",
+      "title": "Will Argentina reach the 2026 FIFA World Cup final?",
+      "category": "2026 FIFA World Cup",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 21.5886,
+      "total_value_usd": 18496.9,
+      "entry_price": 0.505,
+      "end_date": "2026-07-20",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
