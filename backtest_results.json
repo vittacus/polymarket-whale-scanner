@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-15T07:14:23+00:00",
-  "total_signals": 441,
+  "generated_at": "2026-07-15T09:24:32+00:00",
+  "total_signals": 442,
   "total_resolved": 410,
   "total_correct": 245,
   "overall_hit_rate": 59.8,
   "by_tier": {
     "Strong": {
-      "total": 138,
+      "total": 139,
       "resolved": 129,
       "correct": 83,
       "hit_rate": 64.3
@@ -7517,6 +7517,23 @@
       "total_value_usd": 3340.06,
       "entry_price": 0.505,
       "end_date": "2026-12-06",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892:1",
+      "condition_id": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892",
+      "title": "Will Spain win the 2026 FIFA World Cup?",
+      "category": "Soccer",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 11.033,
+      "total_value_usd": 96634.19,
+      "entry_price": 0.505,
+      "end_date": "2026-07-20",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
