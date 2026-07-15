@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-15T09:24:32+00:00",
-  "total_evaluated": 442,
-  "total_pending": 32,
+  "generated_at": "2026-07-15T11:11:09+00:00",
+  "total_evaluated": 443,
+  "total_pending": 33,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 442,
+      "signals_evaluated": 443,
       "correct": 245,
       "wrong": 165,
-      "pending": 32,
+      "pending": 33,
       "win_rate": 59.8,
       "signals": [
         {
@@ -6199,6 +6199,20 @@
           "resolved_date": null,
           "end_date": "2026-07-20",
           "total_value_usd": 96634.19,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x024b68f77bfc019341ee3db8f57c103334e4b9430bba4746d8c94aafd8b36fee:1",
+          "condition_id": "0x024b68f77bfc019341ee3db8f57c103334e4b9430bba4746d8c94aafd8b36fee",
+          "title": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+          "category": "Bitcoin",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2027-01-01",
+          "total_value_usd": 242136.16,
           "result": "pending"
         }
       ]
