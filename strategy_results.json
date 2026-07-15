@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-15T18:47:34+00:00",
-  "total_evaluated": 443,
-  "total_pending": 33,
+  "generated_at": "2026-07-15T19:57:20+00:00",
+  "total_evaluated": 444,
+  "total_pending": 34,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 443,
+      "signals_evaluated": 444,
       "correct": 245,
       "wrong": 165,
-      "pending": 33,
+      "pending": 34,
       "win_rate": 59.8,
       "signals": [
         {
@@ -6213,6 +6213,20 @@
           "resolved_date": null,
           "end_date": "2027-01-01",
           "total_value_usd": 242136.16,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x328583376667b725cc6848dc9b61b205579b1314ecdb4334ea245aec270d2c66:0",
+          "condition_id": "0x328583376667b725cc6848dc9b61b205579b1314ecdb4334ea245aec270d2c66",
+          "title": "Will Argentina reach the 2026 FIFA World Cup final?",
+          "category": "2026 FIFA World Cup",
+          "tier": "Weak",
+          "entry_price": 0.505,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-20",
+          "total_value_usd": 39306.11,
           "result": "pending"
         }
       ]

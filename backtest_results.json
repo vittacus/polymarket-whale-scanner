@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-15T18:47:34+00:00",
-  "total_signals": 443,
+  "generated_at": "2026-07-15T19:57:20+00:00",
+  "total_signals": 444,
   "total_resolved": 410,
   "total_correct": 245,
   "overall_hit_rate": 59.8,
@@ -18,7 +18,7 @@
       "hit_rate": 59.5
     },
     "Weak": {
-      "total": 41,
+      "total": 42,
       "resolved": 39,
       "correct": 18,
       "hit_rate": 46.2
@@ -7551,6 +7551,23 @@
       "total_value_usd": 242136.16,
       "entry_price": 0.505,
       "end_date": "2027-01-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x328583376667b725cc6848dc9b61b205579b1314ecdb4334ea245aec270d2c66:0",
+      "condition_id": "0x328583376667b725cc6848dc9b61b205579b1314ecdb4334ea245aec270d2c66",
+      "title": "Will Argentina reach the 2026 FIFA World Cup final?",
+      "category": "2026 FIFA World Cup",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Weak",
+      "score": 3.8056,
+      "total_value_usd": 39306.11,
+      "entry_price": 0.505,
+      "end_date": "2026-07-20",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
