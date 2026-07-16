@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-16T13:05:12+00:00",
-  "total_signals": 444,
+  "generated_at": "2026-07-16T15:16:08+00:00",
+  "total_signals": 445,
   "total_resolved": 414,
   "total_correct": 247,
   "overall_hit_rate": 59.7,
   "by_tier": {
     "Strong": {
-      "total": 140,
+      "total": 141,
       "resolved": 132,
       "correct": 84,
       "hit_rate": 63.6
@@ -7572,6 +7572,23 @@
       "correct": true,
       "resolved_outcome": "Yes",
       "resolved_date": "2026-07-20"
+    },
+    {
+      "signal_key": "0x0d6ac08b925aa245b7d50313a1da4d16244b1637f9122cbf11c367e3f279a41b:0",
+      "condition_id": "0x0d6ac08b925aa245b7d50313a1da4d16244b1637f9122cbf11c367e3f279a41b",
+      "title": "Swedish Open: Andrey Rublev vs Andrea Pellegrino",
+      "category": "Tennis",
+      "whale_direction": "Andrey Rublev",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 13.0506,
+      "total_value_usd": 129962.89,
+      "entry_price": 0.505,
+      "end_date": "2026-07-22",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }

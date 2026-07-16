@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-16T13:05:12+00:00",
-  "total_evaluated": 444,
-  "total_pending": 30,
+  "generated_at": "2026-07-16T15:16:08+00:00",
+  "total_evaluated": 445,
+  "total_pending": 31,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 444,
+      "signals_evaluated": 445,
       "correct": 247,
       "wrong": 167,
-      "pending": 30,
+      "pending": 31,
       "win_rate": 59.7,
       "signals": [
         {
@@ -6228,6 +6228,20 @@
           "end_date": "2026-07-20",
           "total_value_usd": 39306.11,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x0d6ac08b925aa245b7d50313a1da4d16244b1637f9122cbf11c367e3f279a41b:0",
+          "condition_id": "0x0d6ac08b925aa245b7d50313a1da4d16244b1637f9122cbf11c367e3f279a41b",
+          "title": "Swedish Open: Andrey Rublev vs Andrea Pellegrino",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Andrey Rublev",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-22",
+          "total_value_usd": 129962.89,
+          "result": "pending"
         }
       ]
     },
