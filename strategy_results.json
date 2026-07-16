@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-16T21:18:33+00:00",
+  "generated_at": "2026-07-16T22:20:01+00:00",
   "total_evaluated": 459,
-  "total_pending": 40,
+  "total_pending": 38,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 459,
-      "correct": 251,
-      "wrong": 168,
-      "pending": 40,
+      "correct": 252,
+      "wrong": 169,
+      "pending": 38,
       "win_rate": 59.9,
       "signals": [
         {
@@ -6335,11 +6335,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Daniil Glinka",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Philip Sekulic",
+          "resolved_date": "2026-07-22",
           "end_date": "2026-07-22",
           "total_value_usd": 5256.24,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x4220a18459ff4cc9a189c305766a4fa4ca291751facacf0954c940e0f2c01918:0",
@@ -6363,11 +6363,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Philip Sekulic",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Philip Sekulic",
+          "resolved_date": "2026-07-22",
           "end_date": "2026-07-22",
           "total_value_usd": 38515.68,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf5c66fd82a354ed384f53b3258c23badf7f754abbabd18e07c9e356a6f852b73:0",
