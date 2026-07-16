@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-16T16:45:09+00:00",
-  "total_signals": 445,
+  "generated_at": "2026-07-16T17:54:28+00:00",
+  "total_signals": 446,
   "total_resolved": 415,
   "total_correct": 248,
   "overall_hit_rate": 59.8,
   "by_tier": {
     "Strong": {
-      "total": 141,
+      "total": 142,
       "resolved": 133,
       "correct": 85,
       "hit_rate": 63.9
@@ -7589,6 +7589,23 @@
       "correct": true,
       "resolved_outcome": "Andrey Rublev",
       "resolved_date": "2026-07-22"
+    },
+    {
+      "signal_key": "0x1d88092b2e151927cc5fc6a02ae3f84fb0551d2b44c6c5c961bd530d53638f9a:1",
+      "condition_id": "0x1d88092b2e151927cc5fc6a02ae3f84fb0551d2b44c6c5c961bd530d53638f9a",
+      "title": "Iasi Open: Alevtina Ibragimova vs Paula Badosa",
+      "category": "Tennis",
+      "whale_direction": "Paula Badosa",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 13.2852,
+      "total_value_usd": 396834.0,
+      "entry_price": 0.505,
+      "end_date": "2026-07-23",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }

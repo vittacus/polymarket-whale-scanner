@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-16T16:45:09+00:00",
-  "total_evaluated": 445,
-  "total_pending": 30,
+  "generated_at": "2026-07-16T17:54:28+00:00",
+  "total_evaluated": 446,
+  "total_pending": 31,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 445,
+      "signals_evaluated": 446,
       "correct": 248,
       "wrong": 167,
-      "pending": 30,
+      "pending": 31,
       "win_rate": 59.8,
       "signals": [
         {
@@ -6242,6 +6242,20 @@
           "end_date": "2026-07-22",
           "total_value_usd": 129962.89,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x1d88092b2e151927cc5fc6a02ae3f84fb0551d2b44c6c5c961bd530d53638f9a:1",
+          "condition_id": "0x1d88092b2e151927cc5fc6a02ae3f84fb0551d2b44c6c5c961bd530d53638f9a",
+          "title": "Iasi Open: Alevtina Ibragimova vs Paula Badosa",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Paula Badosa",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-23",
+          "total_value_usd": 396834.0,
+          "result": "pending"
         }
       ]
     },
