@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-16T17:54:28+00:00",
-  "total_evaluated": 446,
-  "total_pending": 31,
+  "generated_at": "2026-07-16T19:04:56+00:00",
+  "total_evaluated": 449,
+  "total_pending": 33,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 446,
-      "correct": 248,
+      "signals_evaluated": 449,
+      "correct": 249,
       "wrong": 167,
-      "pending": 31,
-      "win_rate": 59.8,
+      "pending": 33,
+      "win_rate": 59.9,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -6251,10 +6251,52 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Paula Badosa",
+          "resolved_outcome": "Paula Badosa",
+          "resolved_date": "2026-07-23",
+          "end_date": "2026-07-23",
+          "total_value_usd": 396834.0,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xc0335c9816ab0bf9b4d493f9fb9f2c31c625181a0d33a3fcd66f329b6952c731:1",
+          "condition_id": "0xc0335c9816ab0bf9b4d493f9fb9f2c31c625181a0d33a3fcd66f329b6952c731",
+          "title": "Swiss Open: Alexander Bublik vs Quentin Halys",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Quentin Halys",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-22",
+          "total_value_usd": 65552.85,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe3a8fbf2b785d9005e63041d337fab99f986340d9d04dea1615fce5dc3d71d26:0",
+          "condition_id": "0xe3a8fbf2b785d9005e63041d337fab99f986340d9d04dea1615fce5dc3d71d26",
+          "title": "Croatia Open: Damir Dzumhur vs Matteo Arnaldi",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Damir Dzumhur",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-07-23",
-          "total_value_usd": 396834.0,
+          "total_value_usd": 75777.78,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xc0335c9816ab0bf9b4d493f9fb9f2c31c625181a0d33a3fcd66f329b6952c731:0",
+          "condition_id": "0xc0335c9816ab0bf9b4d493f9fb9f2c31c625181a0d33a3fcd66f329b6952c731",
+          "title": "Swiss Open: Alexander Bublik vs Quentin Halys",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Alexander Bublik",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-22",
+          "total_value_usd": 49277.82,
           "result": "pending"
         }
       ]
