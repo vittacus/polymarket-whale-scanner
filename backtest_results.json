@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-16T20:14:52+00:00",
-  "total_signals": 457,
-  "total_resolved": 416,
-  "total_correct": 249,
+  "generated_at": "2026-07-16T21:18:33+00:00",
+  "total_signals": 459,
+  "total_resolved": 419,
+  "total_correct": 251,
   "overall_hit_rate": 59.9,
   "by_tier": {
     "Strong": {
-      "total": 148,
-      "resolved": 134,
-      "correct": 86,
-      "hit_rate": 64.2
+      "total": 149,
+      "resolved": 136,
+      "correct": 88,
+      "hit_rate": 64.7
     },
     "Moderate": {
       "total": 266,
-      "resolved": 242,
+      "resolved": 243,
       "correct": 144,
-      "hit_rate": 59.5
+      "hit_rate": 59.3
     },
     "Weak": {
-      "total": 43,
+      "total": 44,
       "resolved": 40,
       "correct": 19,
       "hit_rate": 47.5
@@ -7636,10 +7636,10 @@
       "total_value_usd": 75777.78,
       "entry_price": 0.505,
       "end_date": "2026-07-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Damir Dzumhur",
+      "resolved_date": "2026-07-23"
     },
     {
       "signal_key": "0xc0335c9816ab0bf9b4d493f9fb9f2c31c625181a0d33a3fcd66f329b6952c731:0",
@@ -7670,10 +7670,10 @@
       "total_value_usd": 118482.51,
       "entry_price": 0.505,
       "end_date": "2026-07-22",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Julia Riera",
+      "resolved_date": "2026-07-22"
     },
     {
       "signal_key": "0x1b531e1a84bccf3556c4e43471cf6f25ca2a37bba51db849d653301404dc780b:1",
@@ -7721,10 +7721,10 @@
       "total_value_usd": 80747.23,
       "entry_price": 0.505,
       "end_date": "2026-07-22",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Julia Riera",
+      "resolved_date": "2026-07-22"
     },
     {
       "signal_key": "0xf9131c19439ffe23a422af63977bdb6a4a4d0788ef7b865ce6ad672c297bd564:1",
@@ -7787,6 +7787,40 @@
       "tier": "Weak",
       "score": 3.6428,
       "total_value_usd": 6585.45,
+      "entry_price": 0.505,
+      "end_date": "2026-07-23",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xf5c66fd82a354ed384f53b3258c23badf7f754abbabd18e07c9e356a6f852b73:1",
+      "condition_id": "0xf5c66fd82a354ed384f53b3258c23badf7f754abbabd18e07c9e356a6f852b73",
+      "title": "Croatia Open: Alex Molcan vs Alejandro Davidovich Fokina",
+      "category": "Tennis",
+      "whale_direction": "Alejandro Davidovich Fokina",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 40.7483,
+      "total_value_usd": 525001.65,
+      "entry_price": 0.505,
+      "end_date": "2026-07-23",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x65670c7c4f3f691833e48aabc9937abb59c92d6c43d6e896ae8cc011870fc166:1",
+      "condition_id": "0x65670c7c4f3f691833e48aabc9937abb59c92d6c43d6e896ae8cc011870fc166",
+      "title": "New York Mets vs. Philadelphia Phillies",
+      "category": "MLB",
+      "whale_direction": "Philadelphia Phillies",
+      "outcome_index": 1,
+      "tier": "Weak",
+      "score": 3.9413,
+      "total_value_usd": 15244.18,
       "entry_price": 0.505,
       "end_date": "2026-07-23",
       "resolved": false,

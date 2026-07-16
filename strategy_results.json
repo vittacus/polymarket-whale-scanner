@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-16T20:14:52+00:00",
-  "total_evaluated": 457,
-  "total_pending": 41,
+  "generated_at": "2026-07-16T21:18:33+00:00",
+  "total_evaluated": 459,
+  "total_pending": 40,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 457,
-      "correct": 249,
-      "wrong": 167,
-      "pending": 41,
+      "signals_evaluated": 459,
+      "correct": 251,
+      "wrong": 168,
+      "pending": 40,
       "win_rate": 59.9,
       "signals": [
         {
@@ -6279,11 +6279,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Damir Dzumhur",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Damir Dzumhur",
+          "resolved_date": "2026-07-23",
           "end_date": "2026-07-23",
           "total_value_usd": 75777.78,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc0335c9816ab0bf9b4d493f9fb9f2c31c625181a0d33a3fcd66f329b6952c731:0",
@@ -6307,11 +6307,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Julia Riera",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Julia Riera",
+          "resolved_date": "2026-07-22",
           "end_date": "2026-07-22",
           "total_value_usd": 118482.51,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x1b531e1a84bccf3556c4e43471cf6f25ca2a37bba51db849d653301404dc780b:1",
@@ -6349,11 +6349,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Danka Kovinic",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Julia Riera",
+          "resolved_date": "2026-07-22",
           "end_date": "2026-07-22",
           "total_value_usd": 80747.23,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xf9131c19439ffe23a422af63977bdb6a4a4d0788ef7b865ce6ad672c297bd564:1",
@@ -6410,6 +6410,34 @@
           "end_date": "2026-07-23",
           "total_value_usd": 6585.45,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xf5c66fd82a354ed384f53b3258c23badf7f754abbabd18e07c9e356a6f852b73:1",
+          "condition_id": "0xf5c66fd82a354ed384f53b3258c23badf7f754abbabd18e07c9e356a6f852b73",
+          "title": "Croatia Open: Alex Molcan vs Alejandro Davidovich Fokina",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Alejandro Davidovich Fokina",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-23",
+          "total_value_usd": 525001.65,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x65670c7c4f3f691833e48aabc9937abb59c92d6c43d6e896ae8cc011870fc166:1",
+          "condition_id": "0x65670c7c4f3f691833e48aabc9937abb59c92d6c43d6e896ae8cc011870fc166",
+          "title": "New York Mets vs. Philadelphia Phillies",
+          "category": "MLB",
+          "tier": "Weak",
+          "entry_price": 0.505,
+          "whale_direction": "Philadelphia Phillies",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-23",
+          "total_value_usd": 15244.18,
+          "result": "pending"
         }
       ]
     },
@@ -6445,10 +6473,10 @@
       "name": "Conviction Sizing",
       "description": "Total whale position >$500k",
       "hypothesis": "Signals where total position size exceeds $500k represent the highest-conviction whale bets. When top traders put serious capital behind a position, that's a qualitatively different signal from a small stake. This filters for only the highest-conviction consensus calls to test whether size predicts accuracy.",
-      "signals_evaluated": 19,
+      "signals_evaluated": 20,
       "correct": 12,
       "wrong": 3,
-      "pending": 4,
+      "pending": 5,
       "win_rate": 80.0,
       "signals": [
         {
@@ -6716,6 +6744,20 @@
           "end_date": "2026-07-19",
           "total_value_usd": 794399.75,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0xf5c66fd82a354ed384f53b3258c23badf7f754abbabd18e07c9e356a6f852b73:1",
+          "condition_id": "0xf5c66fd82a354ed384f53b3258c23badf7f754abbabd18e07c9e356a6f852b73",
+          "title": "Croatia Open: Alex Molcan vs Alejandro Davidovich Fokina",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Alejandro Davidovich Fokina",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-23",
+          "total_value_usd": 525001.65,
+          "result": "pending"
         }
       ]
     }
