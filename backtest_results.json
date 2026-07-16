@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-16T22:20:01+00:00",
+  "generated_at": "2026-07-16T23:26:49+00:00",
   "total_signals": 459,
-  "total_resolved": 421,
-  "total_correct": 252,
-  "overall_hit_rate": 59.9,
+  "total_resolved": 423,
+  "total_correct": 253,
+  "overall_hit_rate": 59.8,
   "by_tier": {
     "Strong": {
       "total": 149,
-      "resolved": 137,
+      "resolved": 138,
       "correct": 88,
-      "hit_rate": 64.2
+      "hit_rate": 63.8
     },
     "Moderate": {
       "total": 266,
-      "resolved": 244,
-      "correct": 145,
-      "hit_rate": 59.4
+      "resolved": 245,
+      "correct": 146,
+      "hit_rate": 59.6
     },
     "Weak": {
       "total": 44,
@@ -7755,10 +7755,10 @@
       "total_value_usd": 20410.98,
       "entry_price": 0.505,
       "end_date": "2026-07-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Alex Molcan",
+      "resolved_date": "2026-07-23"
     },
     {
       "signal_key": "0x7a4ad0c3a5a443a1ea20299c9df3fbabeaa300891c2949ffb93da14cd1983f4f:0",
@@ -7806,10 +7806,10 @@
       "total_value_usd": 525001.65,
       "entry_price": 0.505,
       "end_date": "2026-07-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Alex Molcan",
+      "resolved_date": "2026-07-23"
     },
     {
       "signal_key": "0x65670c7c4f3f691833e48aabc9937abb59c92d6c43d6e896ae8cc011870fc166:1",
