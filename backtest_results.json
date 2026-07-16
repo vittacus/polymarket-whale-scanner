@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-16T15:16:08+00:00",
+  "generated_at": "2026-07-16T16:45:09+00:00",
   "total_signals": 445,
-  "total_resolved": 414,
-  "total_correct": 247,
-  "overall_hit_rate": 59.7,
+  "total_resolved": 415,
+  "total_correct": 248,
+  "overall_hit_rate": 59.8,
   "by_tier": {
     "Strong": {
       "total": 141,
-      "resolved": 132,
-      "correct": 84,
-      "hit_rate": 63.6
+      "resolved": 133,
+      "correct": 85,
+      "hit_rate": 63.9
     },
     "Moderate": {
       "total": 262,
@@ -7585,10 +7585,10 @@
       "total_value_usd": 129962.89,
       "entry_price": 0.505,
       "end_date": "2026-07-22",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Andrey Rublev",
+      "resolved_date": "2026-07-22"
     }
   ]
 }
