@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-15T23:57:26+00:00",
+  "generated_at": "2026-07-16T02:06:58+00:00",
   "total_signals": 444,
-  "total_resolved": 412,
-  "total_correct": 246,
+  "total_resolved": 414,
+  "total_correct": 247,
   "overall_hit_rate": 59.7,
   "by_tier": {
     "Strong": {
       "total": 140,
-      "resolved": 130,
-      "correct": 83,
-      "hit_rate": 63.8
+      "resolved": 132,
+      "correct": 84,
+      "hit_rate": 63.6
     },
     "Moderate": {
       "total": 262,
@@ -479,10 +479,10 @@
       "total_value_usd": 170107.43,
       "entry_price": 0.51,
       "end_date": "2026-07-20",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-20"
     },
     {
       "signal_key": "0x1c28ae00bd1c44f532709cf0f58926699aae2cb59e3c3e699b90f3e16054d6f4:0",
@@ -7466,10 +7466,10 @@
       "total_value_usd": 105220.96,
       "entry_price": 0.505,
       "end_date": "2026-07-20",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-20"
     },
     {
       "signal_key": "0x328583376667b725cc6848dc9b61b205579b1314ecdb4334ea245aec270d2c66:1",
