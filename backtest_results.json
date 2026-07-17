@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-17T01:03:52+00:00",
+  "generated_at": "2026-07-17T04:11:30+00:00",
   "total_signals": 460,
-  "total_resolved": 423,
-  "total_correct": 253,
+  "total_resolved": 425,
+  "total_correct": 254,
   "overall_hit_rate": 59.8,
   "by_tier": {
     "Strong": {
       "total": 150,
-      "resolved": 138,
-      "correct": 88,
-      "hit_rate": 63.8
+      "resolved": 139,
+      "correct": 89,
+      "hit_rate": 64.0
     },
     "Moderate": {
       "total": 266,
@@ -19,9 +19,9 @@
     },
     "Weak": {
       "total": 44,
-      "resolved": 40,
+      "resolved": 41,
       "correct": 19,
-      "hit_rate": 47.5
+      "hit_rate": 46.3
     }
   },
   "signals": [
@@ -7823,10 +7823,10 @@
       "total_value_usd": 15244.18,
       "entry_price": 0.505,
       "end_date": "2026-07-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "New York Mets",
+      "resolved_date": "2026-07-23"
     },
     {
       "signal_key": "0x65670c7c4f3f691833e48aabc9937abb59c92d6c43d6e896ae8cc011870fc166:0",
@@ -7840,10 +7840,10 @@
       "total_value_usd": 847189.32,
       "entry_price": 0.505,
       "end_date": "2026-07-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "New York Mets",
+      "resolved_date": "2026-07-23"
     }
   ]
 }
