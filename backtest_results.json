@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-17T10:28:50+00:00",
+  "generated_at": "2026-07-17T11:53:51+00:00",
   "total_signals": 461,
-  "total_resolved": 426,
-  "total_correct": 255,
-  "overall_hit_rate": 59.9,
+  "total_resolved": 428,
+  "total_correct": 256,
+  "overall_hit_rate": 59.8,
   "by_tier": {
     "Strong": {
       "total": 150,
-      "resolved": 139,
+      "resolved": 140,
       "correct": 89,
-      "hit_rate": 64.0
+      "hit_rate": 63.6
     },
     "Moderate": {
       "total": 267,
@@ -19,9 +19,9 @@
     },
     "Weak": {
       "total": 44,
-      "resolved": 41,
-      "correct": 19,
-      "hit_rate": 46.3
+      "resolved": 42,
+      "correct": 20,
+      "hit_rate": 47.6
     }
   },
   "signals": [
@@ -7687,10 +7687,10 @@
       "total_value_usd": 14040.76,
       "entry_price": 0.505,
       "end_date": "2026-07-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Alexander Shevchenko",
+      "resolved_date": "2026-07-23"
     },
     {
       "signal_key": "0xf9131c19439ffe23a422af63977bdb6a4a4d0788ef7b865ce6ad672c297bd564:0",
@@ -7789,10 +7789,10 @@
       "total_value_usd": 6585.45,
       "entry_price": 0.505,
       "end_date": "2026-07-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Alexander Shevchenko",
+      "resolved_date": "2026-07-23"
     },
     {
       "signal_key": "0xf5c66fd82a354ed384f53b3258c23badf7f754abbabd18e07c9e356a6f852b73:1",
