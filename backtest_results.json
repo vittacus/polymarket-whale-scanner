@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-17T17:33:47+00:00",
-  "total_signals": 466,
-  "total_resolved": 433,
-  "total_correct": 260,
-  "overall_hit_rate": 60.0,
+  "generated_at": "2026-07-17T18:39:57+00:00",
+  "total_signals": 467,
+  "total_resolved": 435,
+  "total_correct": 262,
+  "overall_hit_rate": 60.2,
   "by_tier": {
     "Strong": {
-      "total": 153,
-      "resolved": 143,
-      "correct": 91,
-      "hit_rate": 63.6
+      "total": 154,
+      "resolved": 145,
+      "correct": 93,
+      "hit_rate": 64.1
     },
     "Moderate": {
       "total": 269,
@@ -7925,10 +7925,10 @@
       "total_value_usd": 40248.92,
       "entry_price": 0.505,
       "end_date": "2026-07-24",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Stefanos Tsitsipas",
+      "resolved_date": "2026-07-24"
     },
     {
       "signal_key": "0xa35be555e7aef08de0f9dfc0a237877e1ff3ea1189e632a460739fd2abda7153:1",
@@ -7942,6 +7942,23 @@
       "total_value_usd": 85048.63,
       "entry_price": 0.505,
       "end_date": "2026-07-24",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Paula Badosa",
+      "resolved_date": "2026-07-24"
+    },
+    {
+      "signal_key": "0x53da62774d757d6a651c69a1aca70f7765ed6b840bd1f4b209692f8d6c0c2d4e:1",
+      "condition_id": "0x53da62774d757d6a651c69a1aca70f7765ed6b840bd1f4b209692f8d6c0c2d4e",
+      "title": "Exact Score: Spain 2 - 3 Argentina?",
+      "category": "Soccer",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 10.7865,
+      "total_value_usd": 1483246.87,
+      "entry_price": 0.505,
+      "end_date": "2026-07-19",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
