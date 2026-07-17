@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-17T22:37:52+00:00",
-  "total_evaluated": 475,
-  "total_pending": 35,
+  "generated_at": "2026-07-17T23:36:59+00:00",
+  "total_evaluated": 476,
+  "total_pending": 34,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 475,
-      "correct": 265,
-      "wrong": 175,
-      "pending": 35,
+      "signals_evaluated": 476,
+      "correct": 266,
+      "wrong": 176,
+      "pending": 34,
       "win_rate": 60.2,
       "signals": [
         {
@@ -6629,11 +6629,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Alex Molcan",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Damir Dzumhur",
+          "resolved_date": "2026-07-24",
           "end_date": "2026-07-24",
           "total_value_usd": 26459.45,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x5a3d9a107c0e19086f4b306b8c7d25417145c21b7849e255534de555bd8d29a6:1",
@@ -6657,10 +6657,24 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Akira Santillan",
+          "resolved_outcome": "Akira Santillan",
+          "resolved_date": "2026-07-24",
+          "end_date": "2026-07-24",
+          "total_value_usd": 93647.6,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x5a3d9a107c0e19086f4b306b8c7d25417145c21b7849e255534de555bd8d29a6:0",
+          "condition_id": "0x5a3d9a107c0e19086f4b306b8c7d25417145c21b7849e255534de555bd8d29a6",
+          "title": "Granby: Aleksandar Vukic vs Alexis Galarneau",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Aleksandar Vukic",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-07-24",
-          "total_value_usd": 93647.6,
+          "total_value_usd": 166368.31,
           "result": "pending"
         }
       ]

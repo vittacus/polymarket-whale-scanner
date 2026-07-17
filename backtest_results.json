@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-17T22:37:52+00:00",
-  "total_signals": 475,
-  "total_resolved": 440,
-  "total_correct": 265,
+  "generated_at": "2026-07-17T23:36:59+00:00",
+  "total_signals": 476,
+  "total_resolved": 442,
+  "total_correct": 266,
   "overall_hit_rate": 60.2,
   "by_tier": {
     "Strong": {
@@ -12,10 +12,10 @@
       "hit_rate": 64.1
     },
     "Moderate": {
-      "total": 276,
-      "resolved": 253,
-      "correct": 152,
-      "hit_rate": 60.1
+      "total": 277,
+      "resolved": 255,
+      "correct": 153,
+      "hit_rate": 60.0
     },
     "Weak": {
       "total": 44,
@@ -8061,10 +8061,10 @@
       "total_value_usd": 26459.45,
       "entry_price": 0.505,
       "end_date": "2026-07-24",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Damir Dzumhur",
+      "resolved_date": "2026-07-24"
     },
     {
       "signal_key": "0x5a3d9a107c0e19086f4b306b8c7d25417145c21b7849e255534de555bd8d29a6:1",
@@ -8093,6 +8093,23 @@
       "tier": "Moderate",
       "score": 6.5186,
       "total_value_usd": 93647.6,
+      "entry_price": 0.505,
+      "end_date": "2026-07-24",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Akira Santillan",
+      "resolved_date": "2026-07-24"
+    },
+    {
+      "signal_key": "0x5a3d9a107c0e19086f4b306b8c7d25417145c21b7849e255534de555bd8d29a6:0",
+      "condition_id": "0x5a3d9a107c0e19086f4b306b8c7d25417145c21b7849e255534de555bd8d29a6",
+      "title": "Granby: Aleksandar Vukic vs Alexis Galarneau",
+      "category": "Tennis",
+      "whale_direction": "Aleksandar Vukic",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 8.363,
+      "total_value_usd": 166368.31,
       "entry_price": 0.505,
       "end_date": "2026-07-24",
       "resolved": false,
