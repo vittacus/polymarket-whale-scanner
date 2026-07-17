@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-17T13:19:15+00:00",
-  "total_signals": 463,
-  "total_resolved": 430,
-  "total_correct": 257,
-  "overall_hit_rate": 59.8,
+  "generated_at": "2026-07-17T14:59:57+00:00",
+  "total_signals": 464,
+  "total_resolved": 432,
+  "total_correct": 259,
+  "overall_hit_rate": 60.0,
   "by_tier": {
     "Strong": {
-      "total": 150,
+      "total": 151,
       "resolved": 142,
       "correct": 90,
       "hit_rate": 63.4
     },
     "Moderate": {
       "total": 269,
-      "resolved": 246,
-      "correct": 147,
-      "hit_rate": 59.8
+      "resolved": 248,
+      "correct": 149,
+      "hit_rate": 60.1
     },
     "Weak": {
       "total": 44,
@@ -7874,10 +7874,10 @@
       "total_value_usd": 167691.2,
       "entry_price": 0.505,
       "end_date": "2026-07-24",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Luciano Darderi",
+      "resolved_date": "2026-07-24"
     },
     {
       "signal_key": "0xcacd62d4b5a5d90fa55d31686ea558c166a9579d8d98def0bd09c4815e6bf901:1",
@@ -7889,6 +7889,23 @@
       "tier": "Moderate",
       "score": 5.8593,
       "total_value_usd": 172790.98,
+      "entry_price": 0.505,
+      "end_date": "2026-07-24",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Mayar Sherif",
+      "resolved_date": "2026-07-24"
+    },
+    {
+      "signal_key": "0xd0d87798c19179d9aabeac5068f8f30c522c080a8b9f0cdf8ab2f9ca8a334ee4:1",
+      "condition_id": "0xd0d87798c19179d9aabeac5068f8f30c522c080a8b9f0cdf8ab2f9ca8a334ee4",
+      "title": "Athens Open: Tereza Valentova vs Alina Korneeva",
+      "category": "Tennis",
+      "whale_direction": "Alina Korneeva",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 10.1628,
+      "total_value_usd": 45990.29,
       "entry_price": 0.505,
       "end_date": "2026-07-24",
       "resolved": false,

@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-17T13:19:15+00:00",
-  "total_evaluated": 463,
-  "total_pending": 33,
+  "generated_at": "2026-07-17T14:59:58+00:00",
+  "total_evaluated": 464,
+  "total_pending": 32,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 463,
-      "correct": 257,
+      "signals_evaluated": 464,
+      "correct": 259,
       "wrong": 173,
-      "pending": 33,
-      "win_rate": 59.8,
+      "pending": 32,
+      "win_rate": 60.0,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -6475,11 +6475,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Luciano Darderi",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Luciano Darderi",
+          "resolved_date": "2026-07-24",
           "end_date": "2026-07-24",
           "total_value_usd": 167691.2,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xcacd62d4b5a5d90fa55d31686ea558c166a9579d8d98def0bd09c4815e6bf901:1",
@@ -6489,10 +6489,24 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Mayar Sherif",
+          "resolved_outcome": "Mayar Sherif",
+          "resolved_date": "2026-07-24",
+          "end_date": "2026-07-24",
+          "total_value_usd": 172790.98,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xd0d87798c19179d9aabeac5068f8f30c522c080a8b9f0cdf8ab2f9ca8a334ee4:1",
+          "condition_id": "0xd0d87798c19179d9aabeac5068f8f30c522c080a8b9f0cdf8ab2f9ca8a334ee4",
+          "title": "Athens Open: Tereza Valentova vs Alina Korneeva",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Alina Korneeva",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-07-24",
-          "total_value_usd": 172790.98,
+          "total_value_usd": 45990.29,
           "result": "pending"
         }
       ]
