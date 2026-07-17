@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-17T11:53:51+00:00",
-  "total_evaluated": 461,
+  "generated_at": "2026-07-17T13:19:15+00:00",
+  "total_evaluated": 463,
   "total_pending": 33,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 461,
-      "correct": 256,
-      "wrong": 172,
+      "signals_evaluated": 463,
+      "correct": 257,
+      "wrong": 173,
       "pending": 33,
       "win_rate": 59.8,
       "signals": [
@@ -6265,11 +6265,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Quentin Halys",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Quentin Halys",
+          "resolved_date": "2026-07-22",
           "end_date": "2026-07-22",
           "total_value_usd": 65552.85,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xe3a8fbf2b785d9005e63041d337fab99f986340d9d04dea1615fce5dc3d71d26:0",
@@ -6293,11 +6293,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Alexander Bublik",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Quentin Halys",
+          "resolved_date": "2026-07-22",
           "end_date": "2026-07-22",
           "total_value_usd": 49277.82,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x4220a18459ff4cc9a189c305766a4fa4ca291751facacf0954c940e0f2c01918:1",
@@ -6465,6 +6465,34 @@
           "resolved_date": null,
           "end_date": "2026-07-31",
           "total_value_usd": 48091.52,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x056cf5f0999932490946ba2e6521104984dcc0ae04b97e6d2c21fbfa90e6d1cf:1",
+          "condition_id": "0x056cf5f0999932490946ba2e6521104984dcc0ae04b97e6d2c21fbfa90e6d1cf",
+          "title": "Swedish Open: Nuno Borges vs Luciano Darderi",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Luciano Darderi",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-24",
+          "total_value_usd": 167691.2,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xcacd62d4b5a5d90fa55d31686ea558c166a9579d8d98def0bd09c4815e6bf901:1",
+          "condition_id": "0xcacd62d4b5a5d90fa55d31686ea558c166a9579d8d98def0bd09c4815e6bf901",
+          "title": "Iasi Open: Yulia Putintseva vs Mayar Sherif",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Mayar Sherif",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-24",
+          "total_value_usd": 172790.98,
           "result": "pending"
         }
       ]

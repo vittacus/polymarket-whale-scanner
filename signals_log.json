@@ -142688,5 +142688,224 @@
         "entry_price": 0.505
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-17T13:15:16+00:00",
+    "whale_timeframes": {
+      "0x75973c667cec880353450be3a6f17c5da67b4421": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x511f9c771449162349795d17becf8b37031acbe1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa01c0a5e4f8c1114e95c68ee97694bc95e51766c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9854aeab8b073c34ab7643f3e8aa316f3b616bf2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7d6d24d5d9393cc2dd566a95a1cccbe0aa882654": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0ca28d5b0141f0a8e7b251dea80fd881cb166ed": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x04d5524a0a5af2eca6e39e03defc261d42fe66d8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x69c5c6f6a4dda665991c203bc8d5df3e006b1e01": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdf601b5383f24c08eff0bc9355b4b7ff09728e92": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x714a685b5454ea4d52979563bbafa77b8168ab2f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe291a588ece487f3323736c55c6144f6a99e748e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x79ae097215202b5d01f98e4479fb219102469a4a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x38337de21ff0bb0a11a40761507d51e318d633d1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f1d5ae26fc31472966e951af3183308736d8de2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892:0",
+        "condition_id": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892",
+        "title": "Will Spain win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563"
+        ],
+        "ranks": [
+          2,
+          3,
+          6
+        ],
+        "total_value_usd": 1036391.49,
+        "score": 24.2397,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.52
+      },
+      {
+        "signal_key": "0x5f0f80c1d904c0348409832375a6d36580f9a552295ae3dba2595adfcea84a97:0",
+        "condition_id": "0x5f0f80c1d904c0348409832375a6d36580f9a552295ae3dba2595adfcea84a97",
+        "title": "Will Apple be the largest company in the world by market cap on July 31?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0xf0ca28d5b0141f0a8e7b251dea80fd881cb166ed",
+          "0x714a685b5454ea4d52979563bbafa77b8168ab2f"
+        ],
+        "ranks": [
+          3,
+          11,
+          16
+        ],
+        "total_value_usd": 51972.72,
+        "score": 9.2493,
+        "category": "Tech",
+        "end_date": "2026-07-31",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x056cf5f0999932490946ba2e6521104984dcc0ae04b97e6d2c21fbfa90e6d1cf:1",
+        "condition_id": "0x056cf5f0999932490946ba2e6521104984dcc0ae04b97e6d2c21fbfa90e6d1cf",
+        "title": "Swedish Open: Nuno Borges vs Luciano Darderi",
+        "outcome": "Luciano Darderi",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319"
+        ],
+        "ranks": [
+          6,
+          8,
+          10
+        ],
+        "total_value_usd": 167691.2,
+        "score": 8.2455,
+        "category": "Tennis",
+        "end_date": "2026-07-24",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0xcacd62d4b5a5d90fa55d31686ea558c166a9579d8d98def0bd09c4815e6bf901:1",
+        "condition_id": "0xcacd62d4b5a5d90fa55d31686ea558c166a9579d8d98def0bd09c4815e6bf901",
+        "title": "Iasi Open: Yulia Putintseva vs Mayar Sherif",
+        "outcome": "Mayar Sherif",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x38337de21ff0bb0a11a40761507d51e318d633d1"
+        ],
+        "ranks": [
+          8,
+          10,
+          19
+        ],
+        "total_value_usd": 172790.98,
+        "score": 5.8593,
+        "category": "Tennis",
+        "end_date": "2026-07-24",
+        "entry_price": 0.505
+      }
+    ]
   }
 ]
