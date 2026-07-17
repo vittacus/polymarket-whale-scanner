@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-16T23:26:49+00:00",
-  "total_signals": 459,
+  "generated_at": "2026-07-17T01:03:52+00:00",
+  "total_signals": 460,
   "total_resolved": 423,
   "total_correct": 253,
   "overall_hit_rate": 59.8,
   "by_tier": {
     "Strong": {
-      "total": 149,
+      "total": 150,
       "resolved": 138,
       "correct": 88,
       "hit_rate": 63.8
@@ -7821,6 +7821,23 @@
       "tier": "Weak",
       "score": 3.9413,
       "total_value_usd": 15244.18,
+      "entry_price": 0.505,
+      "end_date": "2026-07-23",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x65670c7c4f3f691833e48aabc9937abb59c92d6c43d6e896ae8cc011870fc166:0",
+      "condition_id": "0x65670c7c4f3f691833e48aabc9937abb59c92d6c43d6e896ae8cc011870fc166",
+      "title": "New York Mets vs. Philadelphia Phillies",
+      "category": "MLB",
+      "whale_direction": "New York Mets",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 17.8454,
+      "total_value_usd": 847189.32,
       "entry_price": 0.505,
       "end_date": "2026-07-23",
       "resolved": false,
