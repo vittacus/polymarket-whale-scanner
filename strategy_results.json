@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-17T18:39:58+00:00",
-  "total_evaluated": 467,
-  "total_pending": 32,
+  "generated_at": "2026-07-17T19:50:18+00:00",
+  "total_evaluated": 470,
+  "total_pending": 35,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 467,
+      "signals_evaluated": 470,
       "correct": 262,
       "wrong": 173,
-      "pending": 32,
+      "pending": 35,
       "win_rate": 60.2,
       "signals": [
         {
@@ -6549,6 +6549,48 @@
           "resolved_date": null,
           "end_date": "2026-07-19",
           "total_value_usd": 1483246.87,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x48c40671cd6308dac35bcb59c8e1e89023fe530b0df0be32704be1a19d121d03:1",
+          "condition_id": "0x48c40671cd6308dac35bcb59c8e1e89023fe530b0df0be32704be1a19d121d03",
+          "title": "Cordenons: Hugo Dellien vs Matyas Fule",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Matyas Fule",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-24",
+          "total_value_usd": 97852.36,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xfd9ce0f70d4fedc2642ed184a9fe08826e15858920080d27448e5c86ab59cb61:1",
+          "condition_id": "0xfd9ce0f70d4fedc2642ed184a9fe08826e15858920080d27448e5c86ab59cb61",
+          "title": "Iasi Open: Tamara Zidansek vs Petra Marcinko",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Petra Marcinko",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-24",
+          "total_value_usd": 36199.86,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xef3f25aa82199f821561eebbf28bb361aea4ef659f603fe23c54821d40c2407b:0",
+          "condition_id": "0xef3f25aa82199f821561eebbf28bb361aea4ef659f603fe23c54821d40c2407b",
+          "title": "Athens Open: Clara Tauson vs Sara Bejlek",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Clara Tauson",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-24",
+          "total_value_usd": 43648.48,
           "result": "pending"
         }
       ]

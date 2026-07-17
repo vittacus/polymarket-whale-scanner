@@ -143676,5 +143676,272 @@
         "entry_price": 0.505
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-17T19:46:04+00:00",
+    "whale_timeframes": {
+      "0x75973c667cec880353450be3a6f17c5da67b4421": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd30f4698c6f5f3829893e68e183a8e5ea18f316": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9854aeab8b073c34ab7643f3e8aa316f3b616bf2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x511f9c771449162349795d17becf8b37031acbe1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa01c0a5e4f8c1114e95c68ee97694bc95e51766c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0ca28d5b0141f0a8e7b251dea80fd881cb166ed": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5f8691f6ee3f48a29ec8f2d909dd20900cdfa769": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x38337de21ff0bb0a11a40761507d51e318d633d1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x04d5524a0a5af2eca6e39e03defc261d42fe66d8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x028602e5b0909dd7864f884f899ff287a72cf61d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcf6c5492124794394dd9eac46498a8babbe47e66": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x714a685b5454ea4d52979563bbafa77b8168ab2f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x74471a007ddcc488f6d57b5e86dfb35a8d48a16d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892:0",
+        "condition_id": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892",
+        "title": "Will Spain win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+          "0x5f8691f6ee3f48a29ec8f2d909dd20900cdfa769"
+        ],
+        "ranks": [
+          4,
+          5,
+          6,
+          14
+        ],
+        "total_value_usd": 1039621.35,
+        "score": 16.683,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.52
+      },
+      {
+        "signal_key": "0x0c4cd2055d6ea89354ffddc55d6dbcef9355748112ea952fc925f3db6a5c457f:1",
+        "condition_id": "0x0c4cd2055d6ea89354ffddc55d6dbcef9355748112ea952fc925f3db6a5c457f",
+        "title": "Will Argentina win the 2026 FIFA World Cup?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xcf6c5492124794394dd9eac46498a8babbe47e66"
+        ],
+        "ranks": [
+          4,
+          5,
+          18
+        ],
+        "total_value_usd": 463246.01,
+        "score": 11.5421,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0x53da62774d757d6a651c69a1aca70f7765ed6b840bd1f4b209692f8d6c0c2d4e:1",
+        "condition_id": "0x53da62774d757d6a651c69a1aca70f7765ed6b840bd1f4b209692f8d6c0c2d4e",
+        "title": "Exact Score: Spain 2 - 3 Argentina?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          5,
+          7,
+          9
+        ],
+        "total_value_usd": 1501232.54,
+        "score": 11.2984,
+        "category": "Soccer",
+        "end_date": "2026-07-19",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x48c40671cd6308dac35bcb59c8e1e89023fe530b0df0be32704be1a19d121d03:1",
+        "condition_id": "0x48c40671cd6308dac35bcb59c8e1e89023fe530b0df0be32704be1a19d121d03",
+        "title": "Cordenons: Hugo Dellien vs Matyas Fule",
+        "outcome": "Matyas Fule",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+        ],
+        "ranks": [
+          5,
+          9,
+          11
+        ],
+        "total_value_usd": 97852.36,
+        "score": 8.0845,
+        "category": "Tennis",
+        "end_date": "2026-07-24",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0xfd9ce0f70d4fedc2642ed184a9fe08826e15858920080d27448e5c86ab59cb61:1",
+        "condition_id": "0xfd9ce0f70d4fedc2642ed184a9fe08826e15858920080d27448e5c86ab59cb61",
+        "title": "Iasi Open: Tamara Zidansek vs Petra Marcinko",
+        "outcome": "Petra Marcinko",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+        ],
+        "ranks": [
+          5,
+          9,
+          11
+        ],
+        "total_value_usd": 36199.86,
+        "score": 7.3849,
+        "category": "Tennis",
+        "end_date": "2026-07-24",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0xef3f25aa82199f821561eebbf28bb361aea4ef659f603fe23c54821d40c2407b:0",
+        "condition_id": "0xef3f25aa82199f821561eebbf28bb361aea4ef659f603fe23c54821d40c2407b",
+        "title": "Athens Open: Clara Tauson vs Sara Bejlek",
+        "outcome": "Clara Tauson",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x38337de21ff0bb0a11a40761507d51e318d633d1"
+        ],
+        "ranks": [
+          9,
+          11,
+          15
+        ],
+        "total_value_usd": 43648.48,
+        "score": 5.0236,
+        "category": "Tennis",
+        "end_date": "2026-07-24",
+        "entry_price": 0.505
+      }
+    ]
   }
 ]
