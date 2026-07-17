@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-17T19:50:18+00:00",
-  "total_signals": 470,
-  "total_resolved": 435,
-  "total_correct": 262,
-  "overall_hit_rate": 60.2,
+  "generated_at": "2026-07-17T20:50:52+00:00",
+  "total_signals": 472,
+  "total_resolved": 438,
+  "total_correct": 264,
+  "overall_hit_rate": 60.3,
   "by_tier": {
     "Strong": {
       "total": 154,
@@ -12,10 +12,10 @@
       "hit_rate": 64.1
     },
     "Moderate": {
-      "total": 272,
-      "resolved": 248,
-      "correct": 149,
-      "hit_rate": 60.1
+      "total": 274,
+      "resolved": 251,
+      "correct": 151,
+      "hit_rate": 60.2
     },
     "Weak": {
       "total": 44,
@@ -7976,10 +7976,10 @@
       "total_value_usd": 97852.36,
       "entry_price": 0.505,
       "end_date": "2026-07-24",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Matyas Fule",
+      "resolved_date": "2026-07-24"
     },
     {
       "signal_key": "0xfd9ce0f70d4fedc2642ed184a9fe08826e15858920080d27448e5c86ab59cb61:1",
@@ -7993,10 +7993,10 @@
       "total_value_usd": 36199.86,
       "entry_price": 0.505,
       "end_date": "2026-07-24",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Tamara Zidansek",
+      "resolved_date": "2026-07-24"
     },
     {
       "signal_key": "0xef3f25aa82199f821561eebbf28bb361aea4ef659f603fe23c54821d40c2407b:0",
@@ -8010,6 +8010,40 @@
       "total_value_usd": 43648.48,
       "entry_price": 0.505,
       "end_date": "2026-07-24",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Clara Tauson",
+      "resolved_date": "2026-07-24"
+    },
+    {
+      "signal_key": "0x60f4ea3f368fca643a1a5d4a6f2b6c0f78010dd74aa4316f35143713894f7473:1",
+      "condition_id": "0x60f4ea3f368fca643a1a5d4a6f2b6c0f78010dd74aa4316f35143713894f7473",
+      "title": "Pozoblanco: Chris Rodesch vs Oliver Crawford",
+      "category": "Tennis",
+      "whale_direction": "Oliver Crawford",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 7.2975,
+      "total_value_usd": 10149.72,
+      "entry_price": 0.505,
+      "end_date": "2026-07-23",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x60f4ea3f368fca643a1a5d4a6f2b6c0f78010dd74aa4316f35143713894f7473:0",
+      "condition_id": "0x60f4ea3f368fca643a1a5d4a6f2b6c0f78010dd74aa4316f35143713894f7473",
+      "title": "Pozoblanco: Chris Rodesch vs Oliver Crawford",
+      "category": "Tennis",
+      "whale_direction": "Chris Rodesch",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 5.9178,
+      "total_value_usd": 18126.55,
+      "entry_price": 0.505,
+      "end_date": "2026-07-23",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

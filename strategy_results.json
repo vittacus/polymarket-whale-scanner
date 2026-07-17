@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-17T19:50:18+00:00",
-  "total_evaluated": 470,
-  "total_pending": 35,
+  "generated_at": "2026-07-17T20:50:53+00:00",
+  "total_evaluated": 472,
+  "total_pending": 34,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 470,
-      "correct": 262,
-      "wrong": 173,
-      "pending": 35,
-      "win_rate": 60.2,
+      "signals_evaluated": 472,
+      "correct": 264,
+      "wrong": 174,
+      "pending": 34,
+      "win_rate": 60.3,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -6559,11 +6559,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Matyas Fule",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Matyas Fule",
+          "resolved_date": "2026-07-24",
           "end_date": "2026-07-24",
           "total_value_usd": 97852.36,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xfd9ce0f70d4fedc2642ed184a9fe08826e15858920080d27448e5c86ab59cb61:1",
@@ -6573,11 +6573,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Petra Marcinko",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Tamara Zidansek",
+          "resolved_date": "2026-07-24",
           "end_date": "2026-07-24",
           "total_value_usd": 36199.86,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xef3f25aa82199f821561eebbf28bb361aea4ef659f603fe23c54821d40c2407b:0",
@@ -6587,10 +6587,38 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Clara Tauson",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Clara Tauson",
+          "resolved_date": "2026-07-24",
           "end_date": "2026-07-24",
           "total_value_usd": 43648.48,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x60f4ea3f368fca643a1a5d4a6f2b6c0f78010dd74aa4316f35143713894f7473:1",
+          "condition_id": "0x60f4ea3f368fca643a1a5d4a6f2b6c0f78010dd74aa4316f35143713894f7473",
+          "title": "Pozoblanco: Chris Rodesch vs Oliver Crawford",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Oliver Crawford",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-23",
+          "total_value_usd": 10149.72,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x60f4ea3f368fca643a1a5d4a6f2b6c0f78010dd74aa4316f35143713894f7473:0",
+          "condition_id": "0x60f4ea3f368fca643a1a5d4a6f2b6c0f78010dd74aa4316f35143713894f7473",
+          "title": "Pozoblanco: Chris Rodesch vs Oliver Crawford",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Chris Rodesch",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-23",
+          "total_value_usd": 18126.55,
           "result": "pending"
         }
       ]
