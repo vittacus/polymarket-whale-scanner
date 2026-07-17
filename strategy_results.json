@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-17T16:15:02+00:00",
-  "total_evaluated": 464,
-  "total_pending": 32,
+  "generated_at": "2026-07-17T17:33:47+00:00",
+  "total_evaluated": 466,
+  "total_pending": 33,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 464,
-      "correct": 259,
+      "signals_evaluated": 466,
+      "correct": 260,
       "wrong": 173,
-      "pending": 32,
+      "pending": 33,
       "win_rate": 60.0,
       "signals": [
         {
@@ -6503,10 +6503,38 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Alina Korneeva",
+          "resolved_outcome": "Alina Korneeva",
+          "resolved_date": "2026-07-24",
+          "end_date": "2026-07-24",
+          "total_value_usd": 45990.29,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x67f00df86ea4b9b905ee01830e9c100c5e93379db212ef397e7d1429dea7008c:1",
+          "condition_id": "0x67f00df86ea4b9b905ee01830e9c100c5e93379db212ef397e7d1429dea7008c",
+          "title": "Swiss Open: Arthur Rinderknech vs Stefanos Tsitsipas",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Stefanos Tsitsipas",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-07-24",
-          "total_value_usd": 45990.29,
+          "total_value_usd": 40248.92,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xa35be555e7aef08de0f9dfc0a237877e1ff3ea1189e632a460739fd2abda7153:1",
+          "condition_id": "0xa35be555e7aef08de0f9dfc0a237877e1ff3ea1189e632a460739fd2abda7153",
+          "title": "Iasi Open: Panna Udvardy vs Paula Badosa",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Paula Badosa",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-24",
+          "total_value_usd": 85048.63,
           "result": "pending"
         }
       ]

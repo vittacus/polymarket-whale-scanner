@@ -143299,5 +143299,207 @@
         "entry_price": 0.505
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-17T17:30:06+00:00",
+    "whale_timeframes": {
+      "0x75973c667cec880353450be3a6f17c5da67b4421": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd30f4698c6f5f3829893e68e183a8e5ea18f316": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9854aeab8b073c34ab7643f3e8aa316f3b616bf2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x511f9c771449162349795d17becf8b37031acbe1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa01c0a5e4f8c1114e95c68ee97694bc95e51766c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0ca28d5b0141f0a8e7b251dea80fd881cb166ed": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5f8691f6ee3f48a29ec8f2d909dd20900cdfa769": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x38337de21ff0bb0a11a40761507d51e318d633d1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x04d5524a0a5af2eca6e39e03defc261d42fe66d8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x028602e5b0909dd7864f884f899ff287a72cf61d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf070207d315d47fd07870e464d3ded9151f5ac55": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x69c5c6f6a4dda665991c203bc8d5df3e006b1e01": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdf601b5383f24c08eff0bc9355b4b7ff09728e92": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x03805a13a0b3e058f55f6c6af95389d4f431073d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892:0",
+        "condition_id": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892",
+        "title": "Will Spain win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 5,
+        "wallets": [
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+          "0x5f8691f6ee3f48a29ec8f2d909dd20900cdfa769",
+          "0x03805a13a0b3e058f55f6c6af95389d4f431073d"
+        ],
+        "ranks": [
+          2,
+          5,
+          6,
+          13,
+          20
+        ],
+        "total_value_usd": 1042657.32,
+        "score": 24.0948,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.52
+      },
+      {
+        "signal_key": "0x67f00df86ea4b9b905ee01830e9c100c5e93379db212ef397e7d1429dea7008c:1",
+        "condition_id": "0x67f00df86ea4b9b905ee01830e9c100c5e93379db212ef397e7d1429dea7008c",
+        "title": "Swiss Open: Arthur Rinderknech vs Stefanos Tsitsipas",
+        "outcome": "Stefanos Tsitsipas",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x38337de21ff0bb0a11a40761507d51e318d633d1"
+        ],
+        "ranks": [
+          2,
+          5,
+          9,
+          14
+        ],
+        "total_value_usd": 40248.92,
+        "score": 16.3755,
+        "category": "Tennis",
+        "end_date": "2026-07-24",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0xa35be555e7aef08de0f9dfc0a237877e1ff3ea1189e632a460739fd2abda7153:1",
+        "condition_id": "0xa35be555e7aef08de0f9dfc0a237877e1ff3ea1189e632a460739fd2abda7153",
+        "title": "Iasi Open: Panna Udvardy vs Paula Badosa",
+        "outcome": "Paula Badosa",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+        ],
+        "ranks": [
+          2,
+          5,
+          9
+        ],
+        "total_value_usd": 85048.63,
+        "score": 16.1121,
+        "category": "Tennis",
+        "end_date": "2026-07-24",
+        "entry_price": 0.505
+      }
+    ]
   }
 ]
