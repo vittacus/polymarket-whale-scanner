@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-17T20:50:52+00:00",
-  "total_signals": 472,
+  "generated_at": "2026-07-17T21:48:48+00:00",
+  "total_signals": 473,
   "total_resolved": 438,
   "total_correct": 264,
   "overall_hit_rate": 60.3,
@@ -12,7 +12,7 @@
       "hit_rate": 64.1
     },
     "Moderate": {
-      "total": 274,
+      "total": 275,
       "resolved": 251,
       "correct": 151,
       "hit_rate": 60.2
@@ -8044,6 +8044,23 @@
       "total_value_usd": 18126.55,
       "entry_price": 0.505,
       "end_date": "2026-07-23",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x13bc18a3dc17580ecccb67db238c53f34ca0414c9a10334a49801993701e6504:1",
+      "condition_id": "0x13bc18a3dc17580ecccb67db238c53f34ca0414c9a10334a49801993701e6504",
+      "title": "Croatia Open: Damir Dzumhur vs Alex Molcan",
+      "category": "Tennis",
+      "whale_direction": "Alex Molcan",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 9.9713,
+      "total_value_usd": 26459.45,
+      "entry_price": 0.505,
+      "end_date": "2026-07-24",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

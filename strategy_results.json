@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-17T20:50:53+00:00",
-  "total_evaluated": 472,
-  "total_pending": 34,
+  "generated_at": "2026-07-17T21:48:48+00:00",
+  "total_evaluated": 473,
+  "total_pending": 35,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 472,
+      "signals_evaluated": 473,
       "correct": 264,
       "wrong": 174,
-      "pending": 34,
+      "pending": 35,
       "win_rate": 60.3,
       "signals": [
         {
@@ -6619,6 +6619,20 @@
           "resolved_date": null,
           "end_date": "2026-07-23",
           "total_value_usd": 18126.55,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x13bc18a3dc17580ecccb67db238c53f34ca0414c9a10334a49801993701e6504:1",
+          "condition_id": "0x13bc18a3dc17580ecccb67db238c53f34ca0414c9a10334a49801993701e6504",
+          "title": "Croatia Open: Damir Dzumhur vs Alex Molcan",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Alex Molcan",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-24",
+          "total_value_usd": 26459.45,
           "result": "pending"
         }
       ]
