@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-17T21:48:48+00:00",
-  "total_signals": 473,
-  "total_resolved": 438,
-  "total_correct": 264,
-  "overall_hit_rate": 60.3,
+  "generated_at": "2026-07-17T22:37:52+00:00",
+  "total_signals": 475,
+  "total_resolved": 440,
+  "total_correct": 265,
+  "overall_hit_rate": 60.2,
   "by_tier": {
     "Strong": {
-      "total": 154,
+      "total": 155,
       "resolved": 145,
       "correct": 93,
       "hit_rate": 64.1
     },
     "Moderate": {
-      "total": 275,
-      "resolved": 251,
-      "correct": 151,
-      "hit_rate": 60.2
+      "total": 276,
+      "resolved": 253,
+      "correct": 152,
+      "hit_rate": 60.1
     },
     "Weak": {
       "total": 44,
@@ -8027,10 +8027,10 @@
       "total_value_usd": 10149.72,
       "entry_price": 0.505,
       "end_date": "2026-07-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Chris Rodesch",
+      "resolved_date": "2026-07-23"
     },
     {
       "signal_key": "0x60f4ea3f368fca643a1a5d4a6f2b6c0f78010dd74aa4316f35143713894f7473:0",
@@ -8044,10 +8044,10 @@
       "total_value_usd": 18126.55,
       "entry_price": 0.505,
       "end_date": "2026-07-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Chris Rodesch",
+      "resolved_date": "2026-07-23"
     },
     {
       "signal_key": "0x13bc18a3dc17580ecccb67db238c53f34ca0414c9a10334a49801993701e6504:1",
@@ -8059,6 +8059,40 @@
       "tier": "Moderate",
       "score": 9.9713,
       "total_value_usd": 26459.45,
+      "entry_price": 0.505,
+      "end_date": "2026-07-24",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x5a3d9a107c0e19086f4b306b8c7d25417145c21b7849e255534de555bd8d29a6:1",
+      "condition_id": "0x5a3d9a107c0e19086f4b306b8c7d25417145c21b7849e255534de555bd8d29a6",
+      "title": "Granby: Aleksandar Vukic vs Alexis Galarneau",
+      "category": "Tennis",
+      "whale_direction": "Alexis Galarneau",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 13.7623,
+      "total_value_usd": 153022.02,
+      "entry_price": 0.505,
+      "end_date": "2026-07-24",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xead4f20a84556c6eeffc5a6275ff8fe2a74cfc433a7381c46d2e1091649c71e5:0",
+      "condition_id": "0xead4f20a84556c6eeffc5a6275ff8fe2a74cfc433a7381c46d2e1091649c71e5",
+      "title": "Pozoblanco: Akira Santillan vs Izan Almazan Valiente",
+      "category": "Tennis",
+      "whale_direction": "Akira Santillan",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 6.5186,
+      "total_value_usd": 93647.6,
       "entry_price": 0.505,
       "end_date": "2026-07-24",
       "resolved": false,
