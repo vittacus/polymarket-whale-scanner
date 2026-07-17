@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-17T04:11:30+00:00",
-  "total_signals": 460,
-  "total_resolved": 425,
-  "total_correct": 254,
-  "overall_hit_rate": 59.8,
+  "generated_at": "2026-07-17T06:30:14+00:00",
+  "total_signals": 461,
+  "total_resolved": 426,
+  "total_correct": 255,
+  "overall_hit_rate": 59.9,
   "by_tier": {
     "Strong": {
       "total": 150,
@@ -12,10 +12,10 @@
       "hit_rate": 64.0
     },
     "Moderate": {
-      "total": 266,
-      "resolved": 245,
-      "correct": 146,
-      "hit_rate": 59.6
+      "total": 267,
+      "resolved": 246,
+      "correct": 147,
+      "hit_rate": 59.8
     },
     "Weak": {
       "total": 44,
@@ -7772,10 +7772,10 @@
       "total_value_usd": 21825.1,
       "entry_price": 0.505,
       "end_date": "2026-07-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Matyas Fule",
+      "resolved_date": "2026-07-23"
     },
     {
       "signal_key": "0x1b531e1a84bccf3556c4e43471cf6f25ca2a37bba51db849d653301404dc780b:0",
@@ -7844,6 +7844,23 @@
       "correct": true,
       "resolved_outcome": "New York Mets",
       "resolved_date": "2026-07-23"
+    },
+    {
+      "signal_key": "0x5f0f80c1d904c0348409832375a6d36580f9a552295ae3dba2595adfcea84a97:0",
+      "condition_id": "0x5f0f80c1d904c0348409832375a6d36580f9a552295ae3dba2595adfcea84a97",
+      "title": "Will Apple be the largest company in the world by market cap on July 31?",
+      "category": "Tech",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 5.6981,
+      "total_value_usd": 48091.52,
+      "entry_price": 0.505,
+      "end_date": "2026-07-31",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
