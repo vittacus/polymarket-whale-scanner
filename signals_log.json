@@ -147413,5 +147413,272 @@
         "entry_price": 0.505
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-18T20:40:02+00:00",
+    "whale_timeframes": {
+      "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9854aeab8b073c34ab7643f3e8aa316f3b616bf2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4ab9b54427ec4b7f3646b1a0ef1bed73bc708ebe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb687f00464e33934f5d591f224e71c3559ecaee5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2b3d1e9bdf941d435dc91a8b974b86f7064c8db7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9db82de5a71ae539bc82f4d9ac3a007c7d742eff": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcf6c5492124794394dd9eac46498a8babbe47e66": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9c82c60829df081d593055ee5fa288870c051f13": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf070207d315d47fd07870e464d3ded9151f5ac55": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb2347441402286d1afdc510a548db61c86da1c20": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x04d5524a0a5af2eca6e39e03defc261d42fe66d8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1f7105a18d9f36aef7c83e5df210e57cf487b2e4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb859a551fcf56e49416160911476bea7307152f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892:0",
+        "condition_id": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892",
+        "title": "Will Spain win the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf"
+        ],
+        "ranks": [
+          1,
+          2,
+          3
+        ],
+        "total_value_usd": 425414.26,
+        "score": 41.5826,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.52
+      },
+      {
+        "signal_key": "0xfa021d817ad33e0fa28e04051b4fea25b0a090e94bb1b2a38b377bce9778eb8e:0",
+        "condition_id": "0xfa021d817ad33e0fa28e04051b4fea25b0a090e94bb1b2a38b377bce9778eb8e",
+        "title": "Will Kylian Mbappe be the top goalscorer at the 2026 FIFA World Cup?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0xdb859a551fcf56e49416160911476bea7307152f"
+        ],
+        "ranks": [
+          1,
+          2,
+          20
+        ],
+        "total_value_usd": 23946.94,
+        "score": 27.3519,
+        "category": "2026 FIFA World Cup",
+        "end_date": "2026-07-20",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0x12f28bf750a67a2da5bc52328e7e77f9d36a528eea6b0cfc52cd7bd697488f56:1",
+        "condition_id": "0x12f28bf750a67a2da5bc52328e7e77f9d36a528eea6b0cfc52cd7bd697488f56",
+        "title": "Tampa Bay Rays vs. Boston Red Sox",
+        "outcome": "Boston Red Sox",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          1,
+          8,
+          9
+        ],
+        "total_value_usd": 55252.58,
+        "score": 23.6214,
+        "category": "MLB",
+        "end_date": "2026-07-25",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x0c4cd2055d6ea89354ffddc55d6dbcef9355748112ea952fc925f3db6a5c457f:1",
+        "condition_id": "0x0c4cd2055d6ea89354ffddc55d6dbcef9355748112ea952fc925f3db6a5c457f",
+        "title": "Will Argentina win the 2026 FIFA World Cup?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0xcf6c5492124794394dd9eac46498a8babbe47e66"
+        ],
+        "ranks": [
+          2,
+          3,
+          14
+        ],
+        "total_value_usd": 372188.82,
+        "score": 20.3097,
+        "category": "Soccer",
+        "end_date": "2026-07-20",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0x3fcacbc007e5c3605b165a2ef512815a04916b0a87fa71f63657039795a8dbfb:1",
+        "condition_id": "0x3fcacbc007e5c3605b165a2ef512815a04916b0a87fa71f63657039795a8dbfb",
+        "title": "New York Mets vs. Philadelphia Phillies",
+        "outcome": "Philadelphia Phillies",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          3,
+          8,
+          9,
+          11
+        ],
+        "total_value_usd": 137648.13,
+        "score": 13.6738,
+        "category": "MLB",
+        "end_date": "2026-07-25",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x4837fa04e80eca89bbdd033be4f80fe0aeb5eb92ef0187b802befaae6a1c87f6:1",
+        "condition_id": "0x4837fa04e80eca89bbdd033be4f80fe0aeb5eb92ef0187b802befaae6a1c87f6",
+        "title": "Minnesota Twins vs. Chicago Cubs",
+        "outcome": "Chicago Cubs",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          8,
+          9,
+          11
+        ],
+        "total_value_usd": 159055.36,
+        "score": 6.8543,
+        "category": "MLB",
+        "end_date": "2026-07-25",
+        "entry_price": 0.505
+      }
+    ]
   }
 ]
