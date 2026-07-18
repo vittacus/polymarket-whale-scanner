@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-18T21:36:23+00:00",
-  "total_signals": 492,
+  "generated_at": "2026-07-18T22:34:49+00:00",
+  "total_signals": 493,
   "total_resolved": 454,
   "total_correct": 273,
   "overall_hit_rate": 60.1,
   "by_tier": {
     "Strong": {
-      "total": 164,
+      "total": 165,
       "resolved": 151,
       "correct": 95,
       "hit_rate": 62.9
@@ -8382,6 +8382,23 @@
       "tier": "Moderate",
       "score": 8.8624,
       "total_value_usd": 50223.91,
+      "entry_price": 0.505,
+      "end_date": "2026-07-25",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x12f28bf750a67a2da5bc52328e7e77f9d36a528eea6b0cfc52cd7bd697488f56:0",
+      "condition_id": "0x12f28bf750a67a2da5bc52328e7e77f9d36a528eea6b0cfc52cd7bd697488f56",
+      "title": "Tampa Bay Rays vs. Boston Red Sox",
+      "category": "MLB",
+      "whale_direction": "Tampa Bay Rays",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 14.2581,
+      "total_value_usd": 170947.15,
       "entry_price": 0.505,
       "end_date": "2026-07-25",
       "resolved": false,
