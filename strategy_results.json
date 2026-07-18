@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-18T11:01:12+00:00",
-  "total_evaluated": 482,
-  "total_pending": 33,
+  "generated_at": "2026-07-18T11:56:13+00:00",
+  "total_evaluated": 483,
+  "total_pending": 34,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 482,
+      "signals_evaluated": 483,
       "correct": 270,
       "wrong": 179,
-      "pending": 33,
+      "pending": 34,
       "win_rate": 60.1,
       "signals": [
         {
@@ -6759,6 +6759,20 @@
           "resolved_date": null,
           "end_date": "2026-07-25",
           "total_value_usd": 62704.61,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd082d41946af85390844de74030abb9ac114acf093cc84fa8454767bb8f418d3:1",
+          "condition_id": "0xd082d41946af85390844de74030abb9ac114acf093cc84fa8454767bb8f418d3",
+          "title": "Swedish Open: Adolfo Vallejo vs Luciano Darderi",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Luciano Darderi",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-25",
+          "total_value_usd": 21216.95,
           "result": "pending"
         }
       ]

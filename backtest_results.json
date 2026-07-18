@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-18T11:01:12+00:00",
-  "total_signals": 482,
+  "generated_at": "2026-07-18T11:56:13+00:00",
+  "total_signals": 483,
   "total_resolved": 449,
   "total_correct": 270,
   "overall_hit_rate": 60.1,
@@ -12,7 +12,7 @@
       "hit_rate": 63.1
     },
     "Moderate": {
-      "total": 279,
+      "total": 280,
       "resolved": 258,
       "correct": 156,
       "hit_rate": 60.5
@@ -8212,6 +8212,23 @@
       "tier": "Strong",
       "score": 11.5667,
       "total_value_usd": 62704.61,
+      "entry_price": 0.505,
+      "end_date": "2026-07-25",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xd082d41946af85390844de74030abb9ac114acf093cc84fa8454767bb8f418d3:1",
+      "condition_id": "0xd082d41946af85390844de74030abb9ac114acf093cc84fa8454767bb8f418d3",
+      "title": "Swedish Open: Adolfo Vallejo vs Luciano Darderi",
+      "category": "Tennis",
+      "whale_direction": "Luciano Darderi",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 4.2832,
+      "total_value_usd": 21216.95,
       "entry_price": 0.505,
       "end_date": "2026-07-25",
       "resolved": false,
