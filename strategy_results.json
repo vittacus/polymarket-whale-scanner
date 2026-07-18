@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-18T20:43:55+00:00",
-  "total_evaluated": 489,
-  "total_pending": 37,
+  "generated_at": "2026-07-18T21:36:24+00:00",
+  "total_evaluated": 492,
+  "total_pending": 38,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 489,
-      "correct": 272,
-      "wrong": 180,
-      "pending": 37,
-      "win_rate": 60.2,
+      "signals_evaluated": 492,
+      "correct": 273,
+      "wrong": 181,
+      "pending": 38,
+      "win_rate": 60.1,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -6811,11 +6811,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Minnesota Twins",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Chicago Cubs",
+          "resolved_date": "2026-07-25",
           "end_date": "2026-07-25",
           "total_value_usd": 18961.34,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x4837fa04e80eca89bbdd033be4f80fe0aeb5eb92ef0187b802befaae6a1c87f6:1",
@@ -6825,11 +6825,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Chicago Cubs",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Chicago Cubs",
+          "resolved_date": "2026-07-25",
           "end_date": "2026-07-25",
           "total_value_usd": 153060.55,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x3fcacbc007e5c3605b165a2ef512815a04916b0a87fa71f63657039795a8dbfb:0",
@@ -6857,6 +6857,48 @@
           "resolved_date": null,
           "end_date": "2026-07-25",
           "total_value_usd": 55252.58,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x0abf84c016b57e2df790a22c564ce29dde968519cf6834eb8e97e96a260177a0:0",
+          "condition_id": "0x0abf84c016b57e2df790a22c564ce29dde968519cf6834eb8e97e96a260177a0",
+          "title": "Baltimore Orioles vs. Houston Astros",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Baltimore Orioles",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-25",
+          "total_value_usd": 207331.79,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x38b2b74f577dceb2031eaa7d2fa8050e047b35e6765cb88fddef515754f73d0a:0",
+          "condition_id": "0x38b2b74f577dceb2031eaa7d2fa8050e047b35e6765cb88fddef515754f73d0a",
+          "title": "Texas Rangers vs. Atlanta Braves",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Texas Rangers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-25",
+          "total_value_usd": 31868.46,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd562c955bb9ba07848c4f25c208546a925220dc5ad41371ac911d1d8ccaf8d8c:1",
+          "condition_id": "0xd562c955bb9ba07848c4f25c208546a925220dc5ad41371ac911d1d8ccaf8d8c",
+          "title": "Miami Marlins vs. Milwaukee Brewers",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Milwaukee Brewers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-25",
+          "total_value_usd": 50223.91,
           "result": "pending"
         }
       ]
