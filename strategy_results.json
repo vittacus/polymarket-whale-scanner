@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-18T09:57:27+00:00",
-  "total_evaluated": 481,
-  "total_pending": 32,
+  "generated_at": "2026-07-18T11:01:12+00:00",
+  "total_evaluated": 482,
+  "total_pending": 33,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 481,
+      "signals_evaluated": 482,
       "correct": 270,
       "wrong": 179,
-      "pending": 32,
+      "pending": 33,
       "win_rate": 60.1,
       "signals": [
         {
@@ -6746,6 +6746,20 @@
           "end_date": "2026-07-25",
           "total_value_usd": 32592.28,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x6c9175f064e6abf866e56adb8f4cd48108db41e33a3785e13ca44b45f88307ae:1",
+          "condition_id": "0x6c9175f064e6abf866e56adb8f4cd48108db41e33a3785e13ca44b45f88307ae",
+          "title": "Swiss Open: Raphael Collignon vs Juan Manuel Cerundolo",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Juan Manuel Cerundolo",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-25",
+          "total_value_usd": 62704.61,
+          "result": "pending"
         }
       ]
     },

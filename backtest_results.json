@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-18T09:57:27+00:00",
-  "total_signals": 481,
+  "generated_at": "2026-07-18T11:01:12+00:00",
+  "total_signals": 482,
   "total_resolved": 449,
   "total_correct": 270,
   "overall_hit_rate": 60.1,
   "by_tier": {
     "Strong": {
-      "total": 158,
+      "total": 159,
       "resolved": 149,
       "correct": 94,
       "hit_rate": 63.1
@@ -8201,6 +8201,23 @@
       "correct": true,
       "resolved_outcome": "St. Louis Cardinals",
       "resolved_date": "2026-07-25"
+    },
+    {
+      "signal_key": "0x6c9175f064e6abf866e56adb8f4cd48108db41e33a3785e13ca44b45f88307ae:1",
+      "condition_id": "0x6c9175f064e6abf866e56adb8f4cd48108db41e33a3785e13ca44b45f88307ae",
+      "title": "Swiss Open: Raphael Collignon vs Juan Manuel Cerundolo",
+      "category": "Tennis",
+      "whale_direction": "Juan Manuel Cerundolo",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 11.5667,
+      "total_value_usd": 62704.61,
+      "entry_price": 0.505,
+      "end_date": "2026-07-25",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
