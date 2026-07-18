@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-17T23:36:59+00:00",
+  "generated_at": "2026-07-18T01:07:57+00:00",
   "total_signals": 476,
-  "total_resolved": 442,
-  "total_correct": 266,
-  "overall_hit_rate": 60.2,
+  "total_resolved": 444,
+  "total_correct": 267,
+  "overall_hit_rate": 60.1,
   "by_tier": {
     "Strong": {
       "total": 155,
-      "resolved": 145,
+      "resolved": 146,
       "correct": 93,
-      "hit_rate": 64.1
+      "hit_rate": 63.7
     },
     "Moderate": {
       "total": 277,
-      "resolved": 255,
-      "correct": 153,
-      "hit_rate": 60.0
+      "resolved": 256,
+      "correct": 154,
+      "hit_rate": 60.2
     },
     "Weak": {
       "total": 44,
@@ -8078,10 +8078,10 @@
       "total_value_usd": 153022.02,
       "entry_price": 0.505,
       "end_date": "2026-07-24",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Aleksandar Vukic",
+      "resolved_date": "2026-07-24"
     },
     {
       "signal_key": "0xead4f20a84556c6eeffc5a6275ff8fe2a74cfc433a7381c46d2e1091649c71e5:0",
@@ -8112,10 +8112,10 @@
       "total_value_usd": 166368.31,
       "entry_price": 0.505,
       "end_date": "2026-07-24",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Aleksandar Vukic",
+      "resolved_date": "2026-07-24"
     }
   ]
 }

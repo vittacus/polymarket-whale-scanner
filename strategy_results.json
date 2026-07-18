@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-17T23:36:59+00:00",
+  "generated_at": "2026-07-18T01:07:58+00:00",
   "total_evaluated": 476,
-  "total_pending": 34,
+  "total_pending": 32,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 476,
-      "correct": 266,
-      "wrong": 176,
-      "pending": 34,
-      "win_rate": 60.2,
+      "correct": 267,
+      "wrong": 177,
+      "pending": 32,
+      "win_rate": 60.1,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -6643,11 +6643,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Alexis Galarneau",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Aleksandar Vukic",
+          "resolved_date": "2026-07-24",
           "end_date": "2026-07-24",
           "total_value_usd": 153022.02,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xead4f20a84556c6eeffc5a6275ff8fe2a74cfc433a7381c46d2e1091649c71e5:0",
@@ -6671,11 +6671,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Aleksandar Vukic",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Aleksandar Vukic",
+          "resolved_date": "2026-07-24",
           "end_date": "2026-07-24",
           "total_value_usd": 166368.31,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
