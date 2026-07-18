@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-18T15:40:50+00:00",
-  "total_evaluated": 483,
-  "total_pending": 32,
+  "generated_at": "2026-07-18T16:38:46+00:00",
+  "total_evaluated": 484,
+  "total_pending": 33,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 483,
+      "signals_evaluated": 484,
       "correct": 271,
       "wrong": 180,
-      "pending": 32,
+      "pending": 33,
       "win_rate": 60.1,
       "signals": [
         {
@@ -6774,6 +6774,20 @@
           "end_date": "2026-07-25",
           "total_value_usd": 21216.95,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x9beb4a4cab10c71d79f60beffd4a00a3016b4da7d82d6f18f64d5e80dd1691b2:0",
+          "condition_id": "0x9beb4a4cab10c71d79f60beffd4a00a3016b4da7d82d6f18f64d5e80dd1691b2",
+          "title": "Swedish Open: Andrey Rublev vs Alejandro Tabilo",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Andrey Rublev",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-25",
+          "total_value_usd": 15897.2,
+          "result": "pending"
         }
       ]
     },
