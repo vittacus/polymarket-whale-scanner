@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-18T18:39:29+00:00",
-  "total_evaluated": 484,
-  "total_pending": 32,
+  "generated_at": "2026-07-18T19:53:40+00:00",
+  "total_evaluated": 488,
+  "total_pending": 36,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 484,
+      "signals_evaluated": 488,
       "correct": 272,
       "wrong": 180,
-      "pending": 32,
+      "pending": 36,
       "win_rate": 60.2,
       "signals": [
         {
@@ -6788,6 +6788,62 @@
           "end_date": "2026-07-25",
           "total_value_usd": 15897.2,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x3fcacbc007e5c3605b165a2ef512815a04916b0a87fa71f63657039795a8dbfb:1",
+          "condition_id": "0x3fcacbc007e5c3605b165a2ef512815a04916b0a87fa71f63657039795a8dbfb",
+          "title": "New York Mets vs. Philadelphia Phillies",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Philadelphia Phillies",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-25",
+          "total_value_usd": 108472.8,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x4837fa04e80eca89bbdd033be4f80fe0aeb5eb92ef0187b802befaae6a1c87f6:0",
+          "condition_id": "0x4837fa04e80eca89bbdd033be4f80fe0aeb5eb92ef0187b802befaae6a1c87f6",
+          "title": "Minnesota Twins vs. Chicago Cubs",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Minnesota Twins",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-25",
+          "total_value_usd": 18961.34,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x4837fa04e80eca89bbdd033be4f80fe0aeb5eb92ef0187b802befaae6a1c87f6:1",
+          "condition_id": "0x4837fa04e80eca89bbdd033be4f80fe0aeb5eb92ef0187b802befaae6a1c87f6",
+          "title": "Minnesota Twins vs. Chicago Cubs",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Chicago Cubs",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-25",
+          "total_value_usd": 153060.55,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x3fcacbc007e5c3605b165a2ef512815a04916b0a87fa71f63657039795a8dbfb:0",
+          "condition_id": "0x3fcacbc007e5c3605b165a2ef512815a04916b0a87fa71f63657039795a8dbfb",
+          "title": "New York Mets vs. Philadelphia Phillies",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "New York Mets",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-25",
+          "total_value_usd": 43782.44,
+          "result": "pending"
         }
       ]
     },
