@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-18T04:17:06+00:00",
+  "generated_at": "2026-07-18T06:22:45+00:00",
   "total_evaluated": 481,
-  "total_pending": 37,
+  "total_pending": 32,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 481,
-      "correct": 267,
-      "wrong": 177,
-      "pending": 37,
+      "correct": 270,
+      "wrong": 179,
+      "pending": 32,
       "win_rate": 60.1,
       "signals": [
         {
@@ -6685,11 +6685,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "San Francisco Giants",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "San Francisco Giants",
+          "resolved_date": "2026-07-25",
           "end_date": "2026-07-25",
           "total_value_usd": 149286.17,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xad0785e454a8b0d96171b924ed7e1aa158ce87892ec81a44a0387cccdf92a3a7:1",
@@ -6699,11 +6699,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Arizona Diamondbacks",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "St. Louis Cardinals",
+          "resolved_date": "2026-07-25",
           "end_date": "2026-07-25",
           "total_value_usd": 35010.84,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x334f900e3ac009b2fae32a8a3404807521044b2a8aa35ae823da1c41a9b1798f:1",
@@ -6713,11 +6713,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Los Angeles Angels",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Detroit Tigers",
+          "resolved_date": "2026-07-25",
           "end_date": "2026-07-25",
           "total_value_usd": 23705.9,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x3a73cc62c9877135093819d7d2046c4c648c5f9f35913b372987433910ba17bb:0",
@@ -6727,11 +6727,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Washington Nationals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Washington Nationals",
+          "resolved_date": "2026-07-25",
           "end_date": "2026-07-25",
           "total_value_usd": 184591.58,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xad0785e454a8b0d96171b924ed7e1aa158ce87892ec81a44a0387cccdf92a3a7:0",
@@ -6741,11 +6741,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "St. Louis Cardinals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "St. Louis Cardinals",
+          "resolved_date": "2026-07-25",
           "end_date": "2026-07-25",
           "total_value_usd": 32592.28,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },

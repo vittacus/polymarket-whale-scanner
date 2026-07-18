@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-18T04:17:06+00:00",
+  "generated_at": "2026-07-18T06:22:45+00:00",
   "total_signals": 481,
-  "total_resolved": 444,
-  "total_correct": 267,
+  "total_resolved": 449,
+  "total_correct": 270,
   "overall_hit_rate": 60.1,
   "by_tier": {
     "Strong": {
       "total": 158,
-      "resolved": 146,
-      "correct": 93,
-      "hit_rate": 63.7
+      "resolved": 149,
+      "correct": 94,
+      "hit_rate": 63.1
     },
     "Moderate": {
       "total": 279,
-      "resolved": 256,
-      "correct": 154,
-      "hit_rate": 60.2
+      "resolved": 258,
+      "correct": 156,
+      "hit_rate": 60.5
     },
     "Weak": {
       "total": 44,
@@ -8129,10 +8129,10 @@
       "total_value_usd": 149286.17,
       "entry_price": 0.505,
       "end_date": "2026-07-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "San Francisco Giants",
+      "resolved_date": "2026-07-25"
     },
     {
       "signal_key": "0xad0785e454a8b0d96171b924ed7e1aa158ce87892ec81a44a0387cccdf92a3a7:1",
@@ -8146,10 +8146,10 @@
       "total_value_usd": 35010.84,
       "entry_price": 0.505,
       "end_date": "2026-07-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "St. Louis Cardinals",
+      "resolved_date": "2026-07-25"
     },
     {
       "signal_key": "0x334f900e3ac009b2fae32a8a3404807521044b2a8aa35ae823da1c41a9b1798f:1",
@@ -8163,10 +8163,10 @@
       "total_value_usd": 23705.9,
       "entry_price": 0.505,
       "end_date": "2026-07-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Detroit Tigers",
+      "resolved_date": "2026-07-25"
     },
     {
       "signal_key": "0x3a73cc62c9877135093819d7d2046c4c648c5f9f35913b372987433910ba17bb:0",
@@ -8180,10 +8180,10 @@
       "total_value_usd": 184591.58,
       "entry_price": 0.505,
       "end_date": "2026-07-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Washington Nationals",
+      "resolved_date": "2026-07-25"
     },
     {
       "signal_key": "0xad0785e454a8b0d96171b924ed7e1aa158ce87892ec81a44a0387cccdf92a3a7:0",
@@ -8197,10 +8197,10 @@
       "total_value_usd": 32592.28,
       "entry_price": 0.505,
       "end_date": "2026-07-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "St. Louis Cardinals",
+      "resolved_date": "2026-07-25"
     }
   ]
 }
