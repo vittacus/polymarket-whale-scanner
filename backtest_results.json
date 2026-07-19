@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-19T04:37:20+00:00",
+  "generated_at": "2026-07-19T07:17:40+00:00",
   "total_signals": 496,
-  "total_resolved": 462,
-  "total_correct": 278,
-  "overall_hit_rate": 60.2,
+  "total_resolved": 463,
+  "total_correct": 279,
+  "overall_hit_rate": 60.3,
   "by_tier": {
     "Strong": {
       "total": 167,
@@ -19,9 +19,9 @@
     },
     "Weak": {
       "total": 45,
-      "resolved": 42,
-      "correct": 20,
-      "hit_rate": 47.6
+      "resolved": 43,
+      "correct": 21,
+      "hit_rate": 48.8
     }
   },
   "signals": [
@@ -8452,10 +8452,10 @@
       "total_value_usd": 48046.58,
       "entry_price": 0.505,
       "end_date": "2026-07-26",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Athletics",
+      "resolved_date": "2026-07-26"
     }
   ]
 }
