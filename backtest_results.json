@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-18T23:39:02+00:00",
-  "total_signals": 493,
-  "total_resolved": 457,
-  "total_correct": 275,
-  "overall_hit_rate": 60.2,
+  "generated_at": "2026-07-19T01:13:59+00:00",
+  "total_signals": 495,
+  "total_resolved": 461,
+  "total_correct": 278,
+  "overall_hit_rate": 60.3,
   "by_tier": {
     "Strong": {
-      "total": 165,
-      "resolved": 153,
-      "correct": 97,
-      "hit_rate": 63.4
+      "total": 167,
+      "resolved": 156,
+      "correct": 99,
+      "hit_rate": 63.5
     },
     "Moderate": {
       "total": 284,
-      "resolved": 262,
-      "correct": 158,
-      "hit_rate": 60.3
+      "resolved": 263,
+      "correct": 159,
+      "hit_rate": 60.5
     },
     "Weak": {
       "total": 44,
@@ -8333,10 +8333,10 @@
       "total_value_usd": 55252.58,
       "entry_price": 0.505,
       "end_date": "2026-07-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Boston Red Sox",
+      "resolved_date": "2026-07-25"
     },
     {
       "signal_key": "0x0abf84c016b57e2df790a22c564ce29dde968519cf6834eb8e97e96a260177a0:0",
@@ -8350,10 +8350,10 @@
       "total_value_usd": 207331.79,
       "entry_price": 0.505,
       "end_date": "2026-07-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Baltimore Orioles",
+      "resolved_date": "2026-07-25"
     },
     {
       "signal_key": "0x38b2b74f577dceb2031eaa7d2fa8050e047b35e6765cb88fddef515754f73d0a:0",
@@ -8384,10 +8384,10 @@
       "total_value_usd": 50223.91,
       "entry_price": 0.505,
       "end_date": "2026-07-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Milwaukee Brewers",
+      "resolved_date": "2026-07-25"
     },
     {
       "signal_key": "0x12f28bf750a67a2da5bc52328e7e77f9d36a528eea6b0cfc52cd7bd697488f56:0",
@@ -8401,6 +8401,40 @@
       "total_value_usd": 170947.15,
       "entry_price": 0.505,
       "end_date": "2026-07-25",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Boston Red Sox",
+      "resolved_date": "2026-07-25"
+    },
+    {
+      "signal_key": "0x6e3a13b9ae1635a8758854a37ca42df42610e89a6f48f6d8c434bcf1a6b57a8e:0",
+      "condition_id": "0x6e3a13b9ae1635a8758854a37ca42df42610e89a6f48f6d8c434bcf1a6b57a8e",
+      "title": "Pittsburgh Pirates vs. Cleveland Guardians",
+      "category": "MLB",
+      "whale_direction": "Pittsburgh Pirates",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 24.7278,
+      "total_value_usd": 141136.69,
+      "entry_price": 0.505,
+      "end_date": "2026-07-25",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846:0",
+      "condition_id": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
+      "title": "Will the U.S. invade Iran before 2027?",
+      "category": "Military Strikes",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 16.5351,
+      "total_value_usd": 898402.65,
+      "entry_price": 0.505,
+      "end_date": "2026-12-31",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

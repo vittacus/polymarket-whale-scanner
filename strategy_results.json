@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-18T23:39:02+00:00",
-  "total_evaluated": 493,
-  "total_pending": 36,
+  "generated_at": "2026-07-19T01:13:59+00:00",
+  "total_evaluated": 495,
+  "total_pending": 34,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 493,
-      "correct": 275,
-      "wrong": 182,
-      "pending": 36,
-      "win_rate": 60.2,
+      "signals_evaluated": 495,
+      "correct": 278,
+      "wrong": 183,
+      "pending": 34,
+      "win_rate": 60.3,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -6853,11 +6853,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Boston Red Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Boston Red Sox",
+          "resolved_date": "2026-07-25",
           "end_date": "2026-07-25",
           "total_value_usd": 55252.58,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x0abf84c016b57e2df790a22c564ce29dde968519cf6834eb8e97e96a260177a0:0",
@@ -6867,11 +6867,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Baltimore Orioles",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Baltimore Orioles",
+          "resolved_date": "2026-07-25",
           "end_date": "2026-07-25",
           "total_value_usd": 207331.79,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x38b2b74f577dceb2031eaa7d2fa8050e047b35e6765cb88fddef515754f73d0a:0",
@@ -6895,11 +6895,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Milwaukee Brewers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-07-25",
           "end_date": "2026-07-25",
           "total_value_usd": 50223.91,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x12f28bf750a67a2da5bc52328e7e77f9d36a528eea6b0cfc52cd7bd697488f56:0",
@@ -6909,10 +6909,38 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Tampa Bay Rays",
+          "resolved_outcome": "Boston Red Sox",
+          "resolved_date": "2026-07-25",
+          "end_date": "2026-07-25",
+          "total_value_usd": 170947.15,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x6e3a13b9ae1635a8758854a37ca42df42610e89a6f48f6d8c434bcf1a6b57a8e:0",
+          "condition_id": "0x6e3a13b9ae1635a8758854a37ca42df42610e89a6f48f6d8c434bcf1a6b57a8e",
+          "title": "Pittsburgh Pirates vs. Cleveland Guardians",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Pittsburgh Pirates",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-07-25",
-          "total_value_usd": 170947.15,
+          "total_value_usd": 141136.69,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846:0",
+          "condition_id": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
+          "title": "Will the U.S. invade Iran before 2027?",
+          "category": "Military Strikes",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-12-31",
+          "total_value_usd": 898402.65,
           "result": "pending"
         }
       ]
@@ -6949,10 +6977,10 @@
       "name": "Conviction Sizing",
       "description": "Total whale position >$500k",
       "hypothesis": "Signals where total position size exceeds $500k represent the highest-conviction whale bets. When top traders put serious capital behind a position, that's a qualitatively different signal from a small stake. This filters for only the highest-conviction consensus calls to test whether size predicts accuracy.",
-      "signals_evaluated": 22,
+      "signals_evaluated": 23,
       "correct": 13,
       "wrong": 4,
-      "pending": 5,
+      "pending": 6,
       "win_rate": 76.5,
       "signals": [
         {
@@ -7261,6 +7289,20 @@
           "resolved_date": null,
           "end_date": "2026-07-19",
           "total_value_usd": 1483246.87,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846:0",
+          "condition_id": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
+          "title": "Will the U.S. invade Iran before 2027?",
+          "category": "Military Strikes",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-12-31",
+          "total_value_usd": 898402.65,
           "result": "pending"
         }
       ]
