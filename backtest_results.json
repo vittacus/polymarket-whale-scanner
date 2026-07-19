@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-19T20:43:43+00:00",
-  "total_signals": 496,
+  "generated_at": "2026-07-19T21:37:44+00:00",
+  "total_signals": 497,
   "total_resolved": 463,
   "total_correct": 279,
   "overall_hit_rate": 60.3,
   "by_tier": {
     "Strong": {
-      "total": 167,
+      "total": 168,
       "resolved": 157,
       "correct": 99,
       "hit_rate": 63.1
@@ -8456,6 +8456,23 @@
       "correct": true,
       "resolved_outcome": "Athletics",
       "resolved_date": "2026-07-26"
+    },
+    {
+      "signal_key": "0x7f1a83420fad6f4b7269bdc440546b05492a6457534a6a511d20babd02da3a7c:0",
+      "condition_id": "0x7f1a83420fad6f4b7269bdc440546b05492a6457534a6a511d20babd02da3a7c",
+      "title": "Los Angeles Dodgers vs. New York Yankees",
+      "category": "MLB",
+      "whale_direction": "Los Angeles Dodgers",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 13.819,
+      "total_value_usd": 117949.29,
+      "entry_price": 0.505,
+      "end_date": "2026-07-26",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }

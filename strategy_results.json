@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-19T20:43:43+00:00",
-  "total_evaluated": 496,
-  "total_pending": 33,
+  "generated_at": "2026-07-19T21:37:44+00:00",
+  "total_evaluated": 497,
+  "total_pending": 34,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 496,
+      "signals_evaluated": 497,
       "correct": 279,
       "wrong": 184,
-      "pending": 33,
+      "pending": 34,
       "win_rate": 60.3,
       "signals": [
         {
@@ -6956,6 +6956,20 @@
           "end_date": "2026-07-26",
           "total_value_usd": 48046.58,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x7f1a83420fad6f4b7269bdc440546b05492a6457534a6a511d20babd02da3a7c:0",
+          "condition_id": "0x7f1a83420fad6f4b7269bdc440546b05492a6457534a6a511d20babd02da3a7c",
+          "title": "Los Angeles Dodgers vs. New York Yankees",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-26",
+          "total_value_usd": 117949.29,
+          "result": "pending"
         }
       ]
     },
