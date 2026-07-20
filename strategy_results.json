@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-20T13:06:01+00:00",
-  "total_evaluated": 511,
-  "total_pending": 38,
+  "generated_at": "2026-07-20T15:23:33+00:00",
+  "total_evaluated": 512,
+  "total_pending": 39,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 511,
+      "signals_evaluated": 512,
       "correct": 286,
       "wrong": 187,
-      "pending": 38,
+      "pending": 39,
       "win_rate": 60.5,
       "signals": [
         {
@@ -7165,6 +7165,20 @@
           "resolved_date": null,
           "end_date": "2026-07-25",
           "total_value_usd": 4179.81,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xb1b7e274700ba49508121b63bda92a8a2838cea68caddcb1636750769e82523d:1",
+          "condition_id": "0xb1b7e274700ba49508121b63bda92a8a2838cea68caddcb1636750769e82523d",
+          "title": "Generali Open: Vit Kopriva vs Ignacio Buse",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Ignacio Buse",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-27",
+          "total_value_usd": 14785.25,
           "result": "pending"
         }
       ]
