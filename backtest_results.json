@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-20T22:42:03+00:00",
-  "total_signals": 512,
+  "generated_at": "2026-07-20T23:42:44+00:00",
+  "total_signals": 515,
   "total_resolved": 474,
   "total_correct": 287,
   "overall_hit_rate": 60.5,
   "by_tier": {
     "Strong": {
-      "total": 174,
+      "total": 175,
       "resolved": 162,
       "correct": 103,
       "hit_rate": 63.6
     },
     "Moderate": {
-      "total": 293,
+      "total": 295,
       "resolved": 267,
       "correct": 162,
       "hit_rate": 60.7
@@ -8728,6 +8728,57 @@
       "correct": true,
       "resolved_outcome": "Ignacio Buse",
       "resolved_date": "2026-07-27"
+    },
+    {
+      "signal_key": "0x99ae217a33b60f298daac2ff2a19c1aa2362ae001fb964bf0273241d7796bf7b:1",
+      "condition_id": "0x99ae217a33b60f298daac2ff2a19c1aa2362ae001fb964bf0273241d7796bf7b",
+      "title": "Minnesota Twins vs. Cleveland Guardians",
+      "category": "MLB",
+      "whale_direction": "Cleveland Guardians",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 13.4661,
+      "total_value_usd": 378886.64,
+      "entry_price": 0.505,
+      "end_date": "2026-07-27",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x21090f290e0bda90e0a53394b51bdc47d3d5c48b5c7c577637b451e93785085f:1",
+      "condition_id": "0x21090f290e0bda90e0a53394b51bdc47d3d5c48b5c7c577637b451e93785085f",
+      "title": "Los Angeles Dodgers vs. Philadelphia Phillies",
+      "category": "MLB",
+      "whale_direction": "Philadelphia Phillies",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 4.5932,
+      "total_value_usd": 12756.3,
+      "entry_price": 0.505,
+      "end_date": "2026-07-27",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x21090f290e0bda90e0a53394b51bdc47d3d5c48b5c7c577637b451e93785085f:0",
+      "condition_id": "0x21090f290e0bda90e0a53394b51bdc47d3d5c48b5c7c577637b451e93785085f",
+      "title": "Los Angeles Dodgers vs. Philadelphia Phillies",
+      "category": "MLB",
+      "whale_direction": "Los Angeles Dodgers",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 4.4393,
+      "total_value_usd": 12662.54,
+      "entry_price": 0.505,
+      "end_date": "2026-07-27",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }

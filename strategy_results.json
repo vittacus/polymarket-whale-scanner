@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-20T22:42:03+00:00",
-  "total_evaluated": 512,
-  "total_pending": 38,
+  "generated_at": "2026-07-20T23:42:44+00:00",
+  "total_evaluated": 515,
+  "total_pending": 41,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 512,
+      "signals_evaluated": 515,
       "correct": 287,
       "wrong": 187,
-      "pending": 38,
+      "pending": 41,
       "win_rate": 60.5,
       "signals": [
         {
@@ -7180,6 +7180,48 @@
           "end_date": "2026-07-27",
           "total_value_usd": 14785.25,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x99ae217a33b60f298daac2ff2a19c1aa2362ae001fb964bf0273241d7796bf7b:1",
+          "condition_id": "0x99ae217a33b60f298daac2ff2a19c1aa2362ae001fb964bf0273241d7796bf7b",
+          "title": "Minnesota Twins vs. Cleveland Guardians",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Cleveland Guardians",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-27",
+          "total_value_usd": 378886.64,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x21090f290e0bda90e0a53394b51bdc47d3d5c48b5c7c577637b451e93785085f:1",
+          "condition_id": "0x21090f290e0bda90e0a53394b51bdc47d3d5c48b5c7c577637b451e93785085f",
+          "title": "Los Angeles Dodgers vs. Philadelphia Phillies",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Philadelphia Phillies",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-27",
+          "total_value_usd": 12756.3,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x21090f290e0bda90e0a53394b51bdc47d3d5c48b5c7c577637b451e93785085f:0",
+          "condition_id": "0x21090f290e0bda90e0a53394b51bdc47d3d5c48b5c7c577637b451e93785085f",
+          "title": "Los Angeles Dodgers vs. Philadelphia Phillies",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-27",
+          "total_value_usd": 12662.54,
+          "result": "pending"
         }
       ]
     },
