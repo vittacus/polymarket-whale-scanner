@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-19T23:42:17+00:00",
-  "total_signals": 497,
-  "total_resolved": 464,
-  "total_correct": 280,
-  "overall_hit_rate": 60.3,
+  "generated_at": "2026-07-20T01:16:56+00:00",
+  "total_signals": 498,
+  "total_resolved": 467,
+  "total_correct": 282,
+  "overall_hit_rate": 60.4,
   "by_tier": {
     "Strong": {
-      "total": 168,
-      "resolved": 158,
-      "correct": 100,
-      "hit_rate": 63.3
+      "total": 169,
+      "resolved": 159,
+      "correct": 101,
+      "hit_rate": 63.5
     },
     "Moderate": {
       "total": 284,
@@ -19,9 +19,9 @@
     },
     "Weak": {
       "total": 45,
-      "resolved": 43,
-      "correct": 21,
-      "hit_rate": 48.8
+      "resolved": 45,
+      "correct": 22,
+      "hit_rate": 48.9
     }
   },
   "signals": [
@@ -4236,10 +4236,10 @@
       "total_value_usd": 8636.81,
       "entry_price": 0.515,
       "end_date": "2026-07-20",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-20"
     },
     {
       "signal_key": "0x81cef42df3d25aecf0bf7e96c344202e86f447f2f3ba2e4b8eb59f4680efeb22:0",
@@ -4457,10 +4457,10 @@
       "total_value_usd": 12969.97,
       "entry_price": 0.515,
       "end_date": "2026-07-20",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-07-20"
     },
     {
       "signal_key": "0xb4431b4a10c926381c72d581ba9bec629f430feea5e72fbaff3a9e2ac87a3001:0",
@@ -7500,10 +7500,10 @@
       "total_value_usd": 48435.31,
       "entry_price": 0.505,
       "end_date": "2026-07-20",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-07-20"
     },
     {
       "signal_key": "0xcd2640464754b9a894ffec98ac11554fdd507ea89ca01237eabb3a6de4a606e6:0",
@@ -8467,6 +8467,23 @@
       "tier": "Strong",
       "score": 13.819,
       "total_value_usd": 117949.29,
+      "entry_price": 0.505,
+      "end_date": "2026-07-26",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x610a5db5ba9f6767421958082686313a217b919a38aafbdc1ffb6dd1b0416222:1",
+      "condition_id": "0x610a5db5ba9f6767421958082686313a217b919a38aafbdc1ffb6dd1b0416222",
+      "title": "Los Angeles Dodgers vs. New York Yankees",
+      "category": "MLB",
+      "whale_direction": "New York Yankees",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 13.7898,
+      "total_value_usd": 422212.38,
       "entry_price": 0.505,
       "end_date": "2026-07-26",
       "resolved": false,
