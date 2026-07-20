@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-20T01:16:56+00:00",
+  "generated_at": "2026-07-20T04:57:05+00:00",
   "total_evaluated": 498,
-  "total_pending": 31,
+  "total_pending": 26,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 498,
-      "correct": 282,
-      "wrong": 185,
-      "pending": 31,
+      "correct": 285,
+      "wrong": 187,
+      "pending": 26,
       "win_rate": 60.4,
       "signals": [
         {
@@ -987,11 +987,11 @@
           "tier": "Moderate",
           "entry_price": 0.52,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Yes",
+          "resolved_date": "2026-07-20",
           "end_date": "2026-07-20",
           "total_value_usd": 5405.61,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x7e88d2cc7e7afe872aabba5f7ad58ea3626a283ef118be0aee8cf129d887c311:0",
@@ -1435,11 +1435,11 @@
           "tier": "Moderate",
           "entry_price": 0.51,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-07-20",
           "end_date": "2026-07-20",
           "total_value_usd": 24571.82,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x30d55d8124ee1e12dabe89201badc45669b81dff69e4ce44d961f32878ec178a:0",
@@ -4151,11 +4151,11 @@
           "tier": "Moderate",
           "entry_price": 0.515,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-07-20",
           "end_date": "2026-07-20",
           "total_value_usd": 4052367.83,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x81a9bf420ad3960903ebba6bc8b4cbf5275c96b83063452e233a7ee618f6e948:1",
@@ -6195,11 +6195,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Yes",
+          "resolved_date": "2026-07-20",
           "end_date": "2026-07-20",
           "total_value_usd": 96634.19,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x024b68f77bfc019341ee3db8f57c103334e4b9430bba4746d8c94aafd8b36fee:1",
@@ -6979,11 +6979,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "New York Yankees",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-07-26",
           "end_date": "2026-07-26",
           "total_value_usd": 422212.38,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -7020,10 +7020,10 @@
       "description": "Total whale position >$500k",
       "hypothesis": "Signals where total position size exceeds $500k represent the highest-conviction whale bets. When top traders put serious capital behind a position, that's a qualitatively different signal from a small stake. This filters for only the highest-conviction consensus calls to test whether size predicts accuracy.",
       "signals_evaluated": 23,
-      "correct": 14,
+      "correct": 15,
       "wrong": 4,
-      "pending": 5,
-      "win_rate": 77.8,
+      "pending": 4,
+      "win_rate": 78.9,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -7173,11 +7173,11 @@
           "tier": "Moderate",
           "entry_price": 0.515,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-07-20",
           "end_date": "2026-07-20",
           "total_value_usd": 4052367.83,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x07cf19dc78b559bd9aef41b00839d9e5a5637a073e87eb0185ee417db4006447:1",
