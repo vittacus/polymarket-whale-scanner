@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-20T16:56:04+00:00",
+  "generated_at": "2026-07-20T18:54:01+00:00",
   "total_signals": 512,
-  "total_resolved": 473,
-  "total_correct": 286,
+  "total_resolved": 474,
+  "total_correct": 287,
   "overall_hit_rate": 60.5,
   "by_tier": {
     "Strong": {
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 293,
-      "resolved": 266,
-      "correct": 161,
-      "hit_rate": 60.5
+      "resolved": 267,
+      "correct": 162,
+      "hit_rate": 60.7
     },
     "Weak": {
       "total": 45,
@@ -8724,10 +8724,10 @@
       "total_value_usd": 14785.25,
       "entry_price": 0.505,
       "end_date": "2026-07-27",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Ignacio Buse",
+      "resolved_date": "2026-07-27"
     }
   ]
 }

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-20T16:56:04+00:00",
+  "generated_at": "2026-07-20T18:54:01+00:00",
   "total_evaluated": 512,
-  "total_pending": 39,
+  "total_pending": 38,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 512,
-      "correct": 286,
+      "correct": 287,
       "wrong": 187,
-      "pending": 39,
+      "pending": 38,
       "win_rate": 60.5,
       "signals": [
         {
@@ -7175,11 +7175,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Ignacio Buse",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Ignacio Buse",
+          "resolved_date": "2026-07-27",
           "end_date": "2026-07-27",
           "total_value_usd": 14785.25,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
