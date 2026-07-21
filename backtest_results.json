@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-21T13:29:43+00:00",
-  "total_signals": 516,
+  "generated_at": "2026-07-21T15:24:53+00:00",
+  "total_signals": 517,
   "total_resolved": 478,
   "total_correct": 290,
   "overall_hit_rate": 60.7,
@@ -12,7 +12,7 @@
       "hit_rate": 64.0
     },
     "Moderate": {
-      "total": 295,
+      "total": 296,
       "resolved": 269,
       "correct": 163,
       "hit_rate": 60.6
@@ -8796,6 +8796,23 @@
       "correct": true,
       "resolved_outcome": "Seattle Mariners",
       "resolved_date": "2026-07-28"
+    },
+    {
+      "signal_key": "0xd5d9fc47718bd553592d126b1fa5e87183d27f3936975b0c04cc0f2dec1f1bb4:0",
+      "condition_id": "0xd5d9fc47718bd553592d126b1fa5e87183d27f3936975b0c04cc0f2dec1f1bb4",
+      "title": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+      "category": "Parent For Derivative",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 7.7771,
+      "total_value_usd": 80212.31,
+      "entry_price": 0.505,
+      "end_date": "2026-11-03",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
