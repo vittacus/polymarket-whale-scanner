@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-21T22:14:38+00:00",
-  "total_signals": 517,
+  "generated_at": "2026-07-21T23:15:04+00:00",
+  "total_signals": 519,
   "total_resolved": 479,
   "total_correct": 290,
   "overall_hit_rate": 60.5,
   "by_tier": {
     "Strong": {
-      "total": 176,
+      "total": 177,
       "resolved": 164,
       "correct": 105,
       "hit_rate": 64.0
     },
     "Moderate": {
-      "total": 296,
+      "total": 297,
       "resolved": 270,
       "correct": 163,
       "hit_rate": 60.4
@@ -8809,6 +8809,40 @@
       "total_value_usd": 80212.31,
       "entry_price": 0.505,
       "end_date": "2026-11-03",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xa6f18041a9e4db4936e9da82108169296ade7b2d7c9f0bcf2aec7402db9bfd3b:1",
+      "condition_id": "0xa6f18041a9e4db4936e9da82108169296ade7b2d7c9f0bcf2aec7402db9bfd3b",
+      "title": "Baltimore Orioles vs. Boston Red Sox",
+      "category": "MLB",
+      "whale_direction": "Boston Red Sox",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 18.1507,
+      "total_value_usd": 112639.97,
+      "entry_price": 0.505,
+      "end_date": "2026-07-28",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x42a55951aef16134e03a2fe5fd316a1fa2382f264a17c0a16f0a7a12cd8a69d0:1",
+      "condition_id": "0x42a55951aef16134e03a2fe5fd316a1fa2382f264a17c0a16f0a7a12cd8a69d0",
+      "title": "Cincinnati Reds vs. Seattle Mariners",
+      "category": "MLB",
+      "whale_direction": "Seattle Mariners",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 9.9121,
+      "total_value_usd": 150885.92,
+      "entry_price": 0.505,
+      "end_date": "2026-07-29",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
