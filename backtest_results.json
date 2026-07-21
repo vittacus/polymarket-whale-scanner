@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-21T01:11:54+00:00",
-  "total_signals": 515,
-  "total_resolved": 474,
-  "total_correct": 287,
-  "overall_hit_rate": 60.5,
+  "generated_at": "2026-07-21T04:34:06+00:00",
+  "total_signals": 516,
+  "total_resolved": 477,
+  "total_correct": 289,
+  "overall_hit_rate": 60.6,
   "by_tier": {
     "Strong": {
-      "total": 175,
-      "resolved": 162,
-      "correct": 103,
-      "hit_rate": 63.6
+      "total": 176,
+      "resolved": 163,
+      "correct": 104,
+      "hit_rate": 63.8
     },
     "Moderate": {
       "total": 295,
-      "resolved": 267,
-      "correct": 162,
-      "hit_rate": 60.7
+      "resolved": 269,
+      "correct": 163,
+      "hit_rate": 60.6
     },
     "Weak": {
       "total": 45,
@@ -8741,10 +8741,10 @@
       "total_value_usd": 378886.64,
       "entry_price": 0.505,
       "end_date": "2026-07-27",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Cleveland Guardians",
+      "resolved_date": "2026-07-27"
     },
     {
       "signal_key": "0x21090f290e0bda90e0a53394b51bdc47d3d5c48b5c7c577637b451e93785085f:1",
@@ -8758,10 +8758,10 @@
       "total_value_usd": 12756.3,
       "entry_price": 0.505,
       "end_date": "2026-07-27",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Philadelphia Phillies",
+      "resolved_date": "2026-07-27"
     },
     {
       "signal_key": "0x21090f290e0bda90e0a53394b51bdc47d3d5c48b5c7c577637b451e93785085f:0",
@@ -8775,6 +8775,23 @@
       "total_value_usd": 12662.54,
       "entry_price": 0.505,
       "end_date": "2026-07-27",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Philadelphia Phillies",
+      "resolved_date": "2026-07-27"
+    },
+    {
+      "signal_key": "0x767975c376caad373f4a12cd4dea1895e7c728473e1a94d74fae0da49442a76a:1",
+      "condition_id": "0x767975c376caad373f4a12cd4dea1895e7c728473e1a94d74fae0da49442a76a",
+      "title": "Cincinnati Reds vs. Seattle Mariners",
+      "category": "MLB",
+      "whale_direction": "Seattle Mariners",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 14.649,
+      "total_value_usd": 243118.65,
+      "entry_price": 0.505,
+      "end_date": "2026-07-28",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

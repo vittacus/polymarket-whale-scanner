@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-21T01:11:54+00:00",
-  "total_evaluated": 515,
-  "total_pending": 41,
+  "generated_at": "2026-07-21T04:34:06+00:00",
+  "total_evaluated": 516,
+  "total_pending": 39,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 515,
-      "correct": 287,
-      "wrong": 187,
-      "pending": 41,
-      "win_rate": 60.5,
+      "signals_evaluated": 516,
+      "correct": 289,
+      "wrong": 188,
+      "pending": 39,
+      "win_rate": 60.6,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -7189,11 +7189,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Cleveland Guardians",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Cleveland Guardians",
+          "resolved_date": "2026-07-27",
           "end_date": "2026-07-27",
           "total_value_usd": 378886.64,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x21090f290e0bda90e0a53394b51bdc47d3d5c48b5c7c577637b451e93785085f:1",
@@ -7203,11 +7203,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Philadelphia Phillies",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Philadelphia Phillies",
+          "resolved_date": "2026-07-27",
           "end_date": "2026-07-27",
           "total_value_usd": 12756.3,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x21090f290e0bda90e0a53394b51bdc47d3d5c48b5c7c577637b451e93785085f:0",
@@ -7217,10 +7217,24 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Philadelphia Phillies",
+          "resolved_date": "2026-07-27",
           "end_date": "2026-07-27",
           "total_value_usd": 12662.54,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x767975c376caad373f4a12cd4dea1895e7c728473e1a94d74fae0da49442a76a:1",
+          "condition_id": "0x767975c376caad373f4a12cd4dea1895e7c728473e1a94d74fae0da49442a76a",
+          "title": "Cincinnati Reds vs. Seattle Mariners",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Seattle Mariners",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-28",
+          "total_value_usd": 243118.65,
           "result": "pending"
         }
       ]
