@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-21T04:34:06+00:00",
+  "generated_at": "2026-07-21T07:22:39+00:00",
   "total_evaluated": 516,
-  "total_pending": 39,
+  "total_pending": 38,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 516,
-      "correct": 289,
+      "correct": 290,
       "wrong": 188,
-      "pending": 39,
-      "win_rate": 60.6,
+      "pending": 38,
+      "win_rate": 60.7,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -7231,11 +7231,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Seattle Mariners",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Seattle Mariners",
+          "resolved_date": "2026-07-28",
           "end_date": "2026-07-28",
           "total_value_usd": 243118.65,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
