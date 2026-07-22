@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-22T20:23:47+00:00",
-  "total_evaluated": 525,
-  "total_pending": 43,
+  "generated_at": "2026-07-22T21:39:50+00:00",
+  "total_evaluated": 526,
+  "total_pending": 44,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 525,
+      "signals_evaluated": 526,
       "correct": 292,
       "wrong": 190,
-      "pending": 43,
+      "pending": 44,
       "win_rate": 60.6,
       "signals": [
         {
@@ -7361,6 +7361,20 @@
           "resolved_date": null,
           "end_date": "2028-11-07",
           "total_value_usd": 17831.14,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe772a83565a918436561c25abc500af0dc11fd2903050f47f185b7899efc74a2:0",
+          "condition_id": "0xe772a83565a918436561c25abc500af0dc11fd2903050f47f185b7899efc74a2",
+          "title": "Pittsburgh Pirates vs. New York Yankees",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.63,
+          "whale_direction": "Pittsburgh Pirates",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-29",
+          "total_value_usd": 294315.98,
           "result": "pending"
         }
       ]
