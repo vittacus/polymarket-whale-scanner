@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-22T06:19:26+00:00",
-  "total_evaluated": 521,
-  "total_pending": 39,
+  "generated_at": "2026-07-22T08:50:44+00:00",
+  "total_evaluated": 522,
+  "total_pending": 40,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 521,
+      "signals_evaluated": 522,
       "correct": 292,
       "wrong": 190,
-      "pending": 39,
+      "pending": 40,
       "win_rate": 60.6,
       "signals": [
         {
@@ -7306,6 +7306,20 @@
           "end_date": "2026-07-28",
           "total_value_usd": 135051.18,
           "result": "correct"
+        },
+        {
+          "signal_key": "0xf232b565995e4b3a3e7fa6cef775eeff1cecd20ad7c013cb9fc8dadabfe279a9:0",
+          "condition_id": "0xf232b565995e4b3a3e7fa6cef775eeff1cecd20ad7c013cb9fc8dadabfe279a9",
+          "title": "Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?",
+          "category": "President",
+          "tier": "Weak",
+          "entry_price": 0.505,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2028-11-07",
+          "total_value_usd": 13022.23,
+          "result": "pending"
         }
       ]
     },

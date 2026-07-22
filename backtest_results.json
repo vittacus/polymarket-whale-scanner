@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-22T06:19:26+00:00",
-  "total_signals": 521,
+  "generated_at": "2026-07-22T08:50:44+00:00",
+  "total_signals": 522,
   "total_resolved": 482,
   "total_correct": 292,
   "overall_hit_rate": 60.6,
@@ -18,7 +18,7 @@
       "hit_rate": 60.1
     },
     "Weak": {
-      "total": 46,
+      "total": 47,
       "resolved": 46,
       "correct": 23,
       "hit_rate": 50.0
@@ -8881,6 +8881,23 @@
       "correct": true,
       "resolved_outcome": "West Indies",
       "resolved_date": "2026-07-28"
+    },
+    {
+      "signal_key": "0xf232b565995e4b3a3e7fa6cef775eeff1cecd20ad7c013cb9fc8dadabfe279a9:0",
+      "condition_id": "0xf232b565995e4b3a3e7fa6cef775eeff1cecd20ad7c013cb9fc8dadabfe279a9",
+      "title": "Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?",
+      "category": "President",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Weak",
+      "score": 3.7512,
+      "total_value_usd": 13022.23,
+      "entry_price": 0.505,
+      "end_date": "2028-11-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
