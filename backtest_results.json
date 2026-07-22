@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-22T21:39:50+00:00",
+  "generated_at": "2026-07-22T22:44:17+00:00",
   "total_signals": 526,
-  "total_resolved": 482,
-  "total_correct": 292,
-  "overall_hit_rate": 60.6,
+  "total_resolved": 483,
+  "total_correct": 293,
+  "overall_hit_rate": 60.7,
   "by_tier": {
     "Strong": {
       "total": 180,
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 299,
-      "resolved": 271,
-      "correct": 163,
-      "hit_rate": 60.1
+      "resolved": 272,
+      "correct": 164,
+      "hit_rate": 60.3
     },
     "Weak": {
       "total": 47,
@@ -8962,10 +8962,10 @@
       "total_value_usd": 294315.98,
       "entry_price": 0.63,
       "end_date": "2026-07-29",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Pittsburgh Pirates",
+      "resolved_date": "2026-07-29"
     }
   ]
 }
