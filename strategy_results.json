@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-22T00:09:15+00:00",
-  "total_evaluated": 519,
-  "total_pending": 40,
+  "generated_at": "2026-07-22T03:47:34+00:00",
+  "total_evaluated": 521,
+  "total_pending": 42,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 519,
+      "signals_evaluated": 521,
       "correct": 290,
       "wrong": 189,
-      "pending": 40,
+      "pending": 42,
       "win_rate": 60.5,
       "signals": [
         {
@@ -7277,6 +7277,34 @@
           "resolved_date": null,
           "end_date": "2026-07-29",
           "total_value_usd": 150885.92,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x42a55951aef16134e03a2fe5fd316a1fa2382f264a17c0a16f0a7a12cd8a69d0:0",
+          "condition_id": "0x42a55951aef16134e03a2fe5fd316a1fa2382f264a17c0a16f0a7a12cd8a69d0",
+          "title": "Cincinnati Reds vs. Seattle Mariners",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Cincinnati Reds",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-29",
+          "total_value_usd": 259092.09,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x82ad5e2ffcf729fb6174e1cf7b2c74ac3c1ec720cdcd0e7b315f63eaa68c978e:0",
+          "condition_id": "0x82ad5e2ffcf729fb6174e1cf7b2c74ac3c1ec720cdcd0e7b315f63eaa68c978e",
+          "title": "ODI Series West Indies vs. New Zealand: West Indies vs New Zealand",
+          "category": "Cricket",
+          "tier": "Weak",
+          "entry_price": 0.505,
+          "whale_direction": "West Indies",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-28",
+          "total_value_usd": 135051.18,
           "result": "pending"
         }
       ]

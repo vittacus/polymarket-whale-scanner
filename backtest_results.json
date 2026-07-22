@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-22T00:09:14+00:00",
-  "total_signals": 519,
+  "generated_at": "2026-07-22T03:47:34+00:00",
+  "total_signals": 521,
   "total_resolved": 479,
   "total_correct": 290,
   "overall_hit_rate": 60.5,
   "by_tier": {
     "Strong": {
-      "total": 177,
+      "total": 178,
       "resolved": 164,
       "correct": 105,
       "hit_rate": 64.0
@@ -18,7 +18,7 @@
       "hit_rate": 60.4
     },
     "Weak": {
-      "total": 45,
+      "total": 46,
       "resolved": 45,
       "correct": 22,
       "hit_rate": 48.9
@@ -8843,6 +8843,40 @@
       "total_value_usd": 150885.92,
       "entry_price": 0.505,
       "end_date": "2026-07-29",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x42a55951aef16134e03a2fe5fd316a1fa2382f264a17c0a16f0a7a12cd8a69d0:0",
+      "condition_id": "0x42a55951aef16134e03a2fe5fd316a1fa2382f264a17c0a16f0a7a12cd8a69d0",
+      "title": "Cincinnati Reds vs. Seattle Mariners",
+      "category": "MLB",
+      "whale_direction": "Cincinnati Reds",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 32.5993,
+      "total_value_usd": 259092.09,
+      "entry_price": 0.505,
+      "end_date": "2026-07-29",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x82ad5e2ffcf729fb6174e1cf7b2c74ac3c1ec720cdcd0e7b315f63eaa68c978e:0",
+      "condition_id": "0x82ad5e2ffcf729fb6174e1cf7b2c74ac3c1ec720cdcd0e7b315f63eaa68c978e",
+      "title": "ODI Series West Indies vs. New Zealand: West Indies vs New Zealand",
+      "category": "Cricket",
+      "whale_direction": "West Indies",
+      "outcome_index": 0,
+      "tier": "Weak",
+      "score": 3.8944,
+      "total_value_usd": 135051.18,
+      "entry_price": 0.505,
+      "end_date": "2026-07-28",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
