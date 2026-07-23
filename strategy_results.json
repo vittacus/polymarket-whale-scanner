@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-23T13:47:23+00:00",
-  "total_evaluated": 532,
-  "total_pending": 41,
+  "generated_at": "2026-07-23T15:49:05+00:00",
+  "total_evaluated": 533,
+  "total_pending": 42,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 532,
+      "signals_evaluated": 533,
       "correct": 298,
       "wrong": 193,
-      "pending": 41,
+      "pending": 42,
       "win_rate": 60.7,
       "signals": [
         {
@@ -7460,6 +7460,20 @@
           "end_date": "2026-07-29",
           "total_value_usd": 19946.97,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x4e4f77e7dbf4cab666e9a1943674d7ae66348e862df03ea6f44b11eb95731928:1",
+          "condition_id": "0x4e4f77e7dbf4cab666e9a1943674d7ae66348e862df03ea6f44b11eb95731928",
+          "title": "Will the Republican Party control the House after the 2026 Midterm elections?",
+          "category": "Parent For Derivative",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-03",
+          "total_value_usd": 6601.75,
+          "result": "pending"
         }
       ]
     },

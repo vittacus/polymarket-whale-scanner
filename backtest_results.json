@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-23T13:47:23+00:00",
-  "total_signals": 532,
+  "generated_at": "2026-07-23T15:49:05+00:00",
+  "total_signals": 533,
   "total_resolved": 491,
   "total_correct": 298,
   "overall_hit_rate": 60.7,
@@ -12,7 +12,7 @@
       "hit_rate": 64.7
     },
     "Moderate": {
-      "total": 304,
+      "total": 305,
       "resolved": 278,
       "correct": 167,
       "hit_rate": 60.1
@@ -9068,6 +9068,23 @@
       "correct": true,
       "resolved_outcome": "Baltimore Orioles",
       "resolved_date": "2026-07-29"
+    },
+    {
+      "signal_key": "0x4e4f77e7dbf4cab666e9a1943674d7ae66348e862df03ea6f44b11eb95731928:1",
+      "condition_id": "0x4e4f77e7dbf4cab666e9a1943674d7ae66348e862df03ea6f44b11eb95731928",
+      "title": "Will the Republican Party control the House after the 2026 Midterm elections?",
+      "category": "Parent For Derivative",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 6.4132,
+      "total_value_usd": 6601.75,
+      "entry_price": 0.515,
+      "end_date": "2026-11-03",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
