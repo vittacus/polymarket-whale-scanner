@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-23T01:15:10+00:00",
+  "generated_at": "2026-07-23T04:36:41+00:00",
   "total_evaluated": 532,
-  "total_pending": 48,
+  "total_pending": 42,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 532,
-      "correct": 294,
-      "wrong": 190,
-      "pending": 48,
-      "win_rate": 60.7,
+      "correct": 298,
+      "wrong": 192,
+      "pending": 42,
+      "win_rate": 60.8,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -7385,11 +7385,11 @@
           "tier": "Strong",
           "entry_price": 0.535,
           "whale_direction": "Tampa Bay Rays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Tampa Bay Rays",
+          "resolved_date": "2026-07-29",
           "end_date": "2026-07-29",
           "total_value_usd": 202746.61,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x1c0dfd81b9dfe61a410e934ecc35307aef19038a2f38d247e9b50ce844a64ab1:0",
@@ -7399,11 +7399,11 @@
           "tier": "Moderate",
           "entry_price": 0.535,
           "whale_direction": "Minnesota Twins",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Minnesota Twins",
+          "resolved_date": "2026-07-29",
           "end_date": "2026-07-29",
           "total_value_usd": 26690.03,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xdd1a395fd49cf6fe09acc09ba75f1cef6e5da3b568b4a4a59c3d34611d45d0bb:1",
@@ -7413,11 +7413,11 @@
           "tier": "Moderate",
           "entry_price": 0.535,
           "whale_direction": "Chicago Cubs",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Detroit Tigers",
+          "resolved_date": "2026-07-30",
           "end_date": "2026-07-30",
           "total_value_usd": 35444.23,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xf18688eccdccfd8f324f4d1e766af47a92c17de28ff579a93c94202f48ab3431:1",
@@ -7427,11 +7427,11 @@
           "tier": "Moderate",
           "entry_price": 0.535,
           "whale_direction": "Atlanta Braves",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Atlanta Braves",
+          "resolved_date": "2026-07-29",
           "end_date": "2026-07-29",
           "total_value_usd": 26579.59,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x33c07c35c757b0c163d0f9f4a4b99a28c65c36eabacd2f77ae87ed2e46f3a531:0",
@@ -7441,11 +7441,11 @@
           "tier": "Moderate",
           "entry_price": 0.535,
           "whale_direction": "Miami Marlins",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Houston Astros",
+          "resolved_date": "2026-07-30",
           "end_date": "2026-07-30",
           "total_value_usd": 21988.53,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x98935863c55fcf43e580a875d9c0df9602dd21b85317732273e5b2c2a43b1152:0",
@@ -7455,11 +7455,11 @@
           "tier": "Moderate",
           "entry_price": 0.535,
           "whale_direction": "Baltimore Orioles",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Baltimore Orioles",
+          "resolved_date": "2026-07-29",
           "end_date": "2026-07-29",
           "total_value_usd": 19946.97,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
