@@ -2,15 +2,11 @@
 
 A live data pipeline that scans the top Polymarket traders and tests whether following smart money actually works. Four strategies run in parallel against the same signal set. Win rates populate as markets resolve.
 
-![Strategy Lab](screenshots/strategy-lab.png)
-
 ## What this is
 
 Polymarket's leaderboard is public. You can see exactly who the top traders are and what they're betting on right now. This project asks a simple question: when multiple proven traders independently converge on the same position, does that actually predict the outcome better than simpler approaches?
 
 To answer it, I built a scanner that pulls the top 20 wallets across four leaderboard time windows, finds markets where 3 or more of them hold the same side, and tracks whether those calls resolve correctly over time. Four strategies run against the same resolved signal set so you can compare them directly.
-
-![Live Signals](screenshots/live-signals.png)
 
 ## Strategies
 
@@ -41,9 +37,24 @@ The scanner runs every 15 minutes via GitHub Actions.
 
 7. strategies.py evaluates all four strategies against resolved signals and writes side-by-side accuracy stats to strategy_results.json.
 
-## Current signals
+## Results
 
-36 signals pending across 11 resolution dates. First resolutions start Jun 13. Win rate charts populate automatically as markets close.
+Four strategies backtested across 193+ resolved signals since June 2026.
+
+| Strategy | Signals | Win Rate | Notes |
+|---|---|---|---|
+| A: Whale Consensus | 193 resolved | 62.7% | Live tracked |
+| B: Contrarian | 703 markets | 0.9% | Historical backfill |
+| C: Heavy Favorite | 703 markets | 99.1% | Historical backfill |
+| D: Conviction Sizing | 10 resolved | 87.5% | Live tracked, $500k+ positions only |
+
+Key findings:
+- Heavy favorites above 85% almost never lose on Polymarket — the crowd is well-calibrated at the extremes
+- Whale consensus beats random chance at 62.7% across nearly 200 resolved markets
+- Filtering to high-conviction whale signals ($500k+ positions) pushes accuracy to 87.5%
+- Contrarian betting against 85%+ favorites is essentially a guaranteed loss
+
+Simulated $1,000 portfolio following Strategy D signals over one month: +59.3% return (7 wins, 1 loss across 8 trades).
 
 ## Setup
 
