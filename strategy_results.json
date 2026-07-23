@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-23T18:40:17+00:00",
-  "total_evaluated": 533,
-  "total_pending": 42,
+  "generated_at": "2026-07-23T20:03:39+00:00",
+  "total_evaluated": 536,
+  "total_pending": 45,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 533,
+      "signals_evaluated": 536,
       "correct": 298,
       "wrong": 193,
-      "pending": 42,
+      "pending": 45,
       "win_rate": 60.7,
       "signals": [
         {
@@ -7473,6 +7473,48 @@
           "resolved_date": null,
           "end_date": "2026-11-03",
           "total_value_usd": 6601.75,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xbbe121ffa9fc47b8c012bb20bb68ace100fc8358032a423115c2b62d360a9efe:1",
+          "condition_id": "0xbbe121ffa9fc47b8c012bb20bb68ace100fc8358032a423115c2b62d360a9efe",
+          "title": "Tampa Bay Rays vs. Toronto Blue Jays",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.515,
+          "whale_direction": "Toronto Blue Jays",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-30",
+          "total_value_usd": 202323.01,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd53490ec73ecbca2118c8c2ff6c4b4acf76b81c1aba575d3c2861f59c42613f6:1",
+          "condition_id": "0xd53490ec73ecbca2118c8c2ff6c4b4acf76b81c1aba575d3c2861f59c42613f6",
+          "title": "Minnesota Twins vs. Cleveland Guardians",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.515,
+          "whale_direction": "Cleveland Guardians",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-30",
+          "total_value_usd": 8081.74,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xbbe121ffa9fc47b8c012bb20bb68ace100fc8358032a423115c2b62d360a9efe:0",
+          "condition_id": "0xbbe121ffa9fc47b8c012bb20bb68ace100fc8358032a423115c2b62d360a9efe",
+          "title": "Tampa Bay Rays vs. Toronto Blue Jays",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.515,
+          "whale_direction": "Tampa Bay Rays",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-30",
+          "total_value_usd": 74799.95,
           "result": "pending"
         }
       ]
