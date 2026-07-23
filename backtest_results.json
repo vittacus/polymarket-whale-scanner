@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-23T20:03:39+00:00",
-  "total_signals": 536,
-  "total_resolved": 491,
+  "generated_at": "2026-07-23T21:14:54+00:00",
+  "total_signals": 537,
+  "total_resolved": 492,
   "total_correct": 298,
-  "overall_hit_rate": 60.7,
+  "overall_hit_rate": 60.6,
   "by_tier": {
     "Strong": {
       "total": 184,
-      "resolved": 167,
+      "resolved": 168,
       "correct": 108,
-      "hit_rate": 64.7
+      "hit_rate": 64.3
     },
     "Moderate": {
-      "total": 305,
+      "total": 306,
       "resolved": 278,
       "correct": 167,
       "hit_rate": 60.1
@@ -9115,10 +9115,10 @@
       "total_value_usd": 8081.74,
       "entry_price": 0.515,
       "end_date": "2026-07-30",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Minnesota Twins",
+      "resolved_date": "2026-07-30"
     },
     {
       "signal_key": "0xbbe121ffa9fc47b8c012bb20bb68ace100fc8358032a423115c2b62d360a9efe:0",
@@ -9132,6 +9132,23 @@
       "total_value_usd": 74799.95,
       "entry_price": 0.515,
       "end_date": "2026-07-30",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x33f9833f7c89c77d54f19bb9c50c66dd4538215a498d519485d81cfc1fd3db38:0",
+      "condition_id": "0x33f9833f7c89c77d54f19bb9c50c66dd4538215a498d519485d81cfc1fd3db38",
+      "title": "Bloomfield Hills: J.J. Wolf vs Coleman Wong",
+      "category": "Tennis",
+      "whale_direction": "J.J. Wolf",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 8.907,
+      "total_value_usd": 112827.73,
+      "entry_price": 0.515,
+      "end_date": "2026-07-29",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
