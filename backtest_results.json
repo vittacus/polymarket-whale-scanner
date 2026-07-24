@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-24T00:14:18+00:00",
-  "total_signals": 543,
-  "total_resolved": 499,
+  "generated_at": "2026-07-24T03:45:37+00:00",
+  "total_signals": 544,
+  "total_resolved": 500,
   "total_correct": 305,
-  "overall_hit_rate": 61.1,
+  "overall_hit_rate": 61.0,
   "by_tier": {
     "Strong": {
-      "total": 186,
+      "total": 187,
       "resolved": 172,
       "correct": 113,
       "hit_rate": 65.7
     },
     "Moderate": {
       "total": 314,
-      "resolved": 285,
+      "resolved": 286,
       "correct": 171,
-      "hit_rate": 60.0
+      "hit_rate": 59.8
     },
     "Weak": {
       "total": 43,
@@ -9251,6 +9251,23 @@
       "total_value_usd": 40927.25,
       "entry_price": 0.515,
       "end_date": "2026-07-30",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Detroit Tigers",
+      "resolved_date": "2026-07-30"
+    },
+    {
+      "signal_key": "0xaf12bd1a9ec448b428e5879f180b9b05d17cdf6a6af3c20d8a4b7327ca6bfd37:0",
+      "condition_id": "0xaf12bd1a9ec448b428e5879f180b9b05d17cdf6a6af3c20d8a4b7327ca6bfd37",
+      "title": "Will LeBron James play for the Golden State Warriors in 2026-27?",
+      "category": "NBA",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 23.7894,
+      "total_value_usd": 74159.72,
+      "entry_price": 0.515,
+      "end_date": "2026-10-31",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
