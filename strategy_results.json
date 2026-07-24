@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-23T23:16:26+00:00",
-  "total_evaluated": 542,
-  "total_pending": 43,
+  "generated_at": "2026-07-24T00:14:18+00:00",
+  "total_evaluated": 543,
+  "total_pending": 44,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 542,
+      "signals_evaluated": 543,
       "correct": 305,
       "wrong": 194,
-      "pending": 43,
+      "pending": 44,
       "win_rate": 61.1,
       "signals": [
         {
@@ -7600,6 +7600,20 @@
           "end_date": "2026-07-29",
           "total_value_usd": 112827.73,
           "result": "correct"
+        },
+        {
+          "signal_key": "0xb1c3b1aa624b68d2f3e32b044fc25ee9852a0a6f14b7ae9ae17ca0d23d4763a9:0",
+          "condition_id": "0xb1c3b1aa624b68d2f3e32b044fc25ee9852a0a6f14b7ae9ae17ca0d23d4763a9",
+          "title": "Kansas City Royals vs. Detroit Tigers",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "Kansas City Royals",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-30",
+          "total_value_usd": 40927.25,
+          "result": "pending"
         }
       ]
     },
