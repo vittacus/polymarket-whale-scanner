@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-24T15:56:53+00:00",
-  "total_signals": 546,
+  "generated_at": "2026-07-24T17:29:04+00:00",
+  "total_signals": 547,
   "total_resolved": 500,
   "total_correct": 305,
   "overall_hit_rate": 61.0,
   "by_tier": {
     "Strong": {
-      "total": 187,
+      "total": 188,
       "resolved": 172,
       "correct": 113,
       "hit_rate": 65.7
@@ -9302,6 +9302,23 @@
       "total_value_usd": 3282.21,
       "entry_price": 0.53,
       "end_date": "2026-07-31",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xde72dd287ba34b31dc69066931b7c0074f8267132bf7d6752e2f736429ae98af:0",
+      "condition_id": "0xde72dd287ba34b31dc69066931b7c0074f8267132bf7d6752e2f736429ae98af",
+      "title": "Will LeBron James play for the Philadelphia 76ers in 2026-27?",
+      "category": "NBA",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 39.5943,
+      "total_value_usd": 414412.04,
+      "entry_price": 0.525,
+      "end_date": "2026-10-31",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
