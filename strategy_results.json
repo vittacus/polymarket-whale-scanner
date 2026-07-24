@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-24T08:46:51+00:00",
-  "total_evaluated": 544,
-  "total_pending": 44,
+  "generated_at": "2026-07-24T10:52:25+00:00",
+  "total_evaluated": 546,
+  "total_pending": 46,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 544,
+      "signals_evaluated": 546,
       "correct": 305,
       "wrong": 195,
-      "pending": 44,
+      "pending": 46,
       "win_rate": 61.0,
       "signals": [
         {
@@ -7627,6 +7627,34 @@
           "resolved_date": null,
           "end_date": "2026-10-31",
           "total_value_usd": 74159.72,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x05297f854d3b757d5e51a1a29c7f225a80b14b2a161d6b7f9a61677da7a80ced:1",
+          "condition_id": "0x05297f854d3b757d5e51a1a29c7f225a80b14b2a161d6b7f9a61677da7a80ced",
+          "title": "Will Renan Santos win the 2026 Brazilian presidential election?",
+          "category": "Macro Election 2",
+          "tier": "Moderate",
+          "entry_price": 0.53,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-04",
+          "total_value_usd": 6846.04,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xa6480903e54c68f2ee79cacb7861dfcc9b473e8b07d6dcaf2c9923034a5fb56f:0",
+          "condition_id": "0xa6480903e54c68f2ee79cacb7861dfcc9b473e8b07d6dcaf2c9923034a5fb56f",
+          "title": "Israel x Iran ceasefire continues through July 31?",
+          "category": "Iran",
+          "tier": "Moderate",
+          "entry_price": 0.53,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-31",
+          "total_value_usd": 3282.21,
           "result": "pending"
         }
       ]
