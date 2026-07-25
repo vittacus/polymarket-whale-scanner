@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-25T20:00:13+00:00",
-  "total_signals": 563,
+  "generated_at": "2026-07-25T20:47:01+00:00",
+  "total_signals": 564,
   "total_resolved": 516,
   "total_correct": 317,
   "overall_hit_rate": 61.4,
   "by_tier": {
     "Strong": {
-      "total": 195,
+      "total": 196,
       "resolved": 180,
       "correct": 118,
       "hit_rate": 65.6
@@ -9595,6 +9595,23 @@
       "correct": false,
       "resolved_outcome": "Lilli Tagger",
       "resolved_date": "2026-08-01"
+    },
+    {
+      "signal_key": "0x6a787fb7957d31f0a4dea08961ac59b5e2e244b203bd42a07d069d4bdb79a048:1",
+      "condition_id": "0x6a787fb7957d31f0a4dea08961ac59b5e2e244b203bd42a07d069d4bdb79a048",
+      "title": "Toronto Blue Jays vs. Boston Red Sox",
+      "category": "MLB",
+      "whale_direction": "Boston Red Sox",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 14.5444,
+      "total_value_usd": 29013.13,
+      "entry_price": 0.515,
+      "end_date": "2026-08-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }

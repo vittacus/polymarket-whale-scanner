@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-25T20:00:13+00:00",
-  "total_evaluated": 563,
-  "total_pending": 47,
+  "generated_at": "2026-07-25T20:47:01+00:00",
+  "total_evaluated": 564,
+  "total_pending": 48,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 563,
+      "signals_evaluated": 564,
       "correct": 317,
       "wrong": 199,
-      "pending": 47,
+      "pending": 48,
       "win_rate": 61.4,
       "signals": [
         {
@@ -7894,6 +7894,20 @@
           "end_date": "2026-08-01",
           "total_value_usd": 51610.95,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x6a787fb7957d31f0a4dea08961ac59b5e2e244b203bd42a07d069d4bdb79a048:1",
+          "condition_id": "0x6a787fb7957d31f0a4dea08961ac59b5e2e244b203bd42a07d069d4bdb79a048",
+          "title": "Toronto Blue Jays vs. Boston Red Sox",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.515,
+          "whale_direction": "Boston Red Sox",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-01",
+          "total_value_usd": 29013.13,
+          "result": "pending"
         }
       ]
     },
