@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-25T04:31:10+00:00",
+  "generated_at": "2026-07-25T06:42:17+00:00",
   "total_signals": 558,
-  "total_resolved": 509,
-  "total_correct": 313,
+  "total_resolved": 512,
+  "total_correct": 315,
   "overall_hit_rate": 61.5,
   "by_tier": {
     "Strong": {
       "total": 193,
-      "resolved": 176,
-      "correct": 116,
-      "hit_rate": 65.9
+      "resolved": 178,
+      "correct": 117,
+      "hit_rate": 65.7
     },
     "Moderate": {
       "total": 322,
-      "resolved": 291,
-      "correct": 176,
-      "hit_rate": 60.5
+      "resolved": 292,
+      "correct": 177,
+      "hit_rate": 60.6
     },
     "Weak": {
       "total": 43,
@@ -8724,10 +8724,10 @@
       "total_value_usd": 24087.21,
       "entry_price": 0.505,
       "end_date": "2026-07-31",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-31"
     },
     {
       "signal_key": "0x35737d4e921a4cb088704e21751c78e282a6a2ae3559fbc2455275b0340d1e7f:0",
@@ -9489,10 +9489,10 @@
       "total_value_usd": 14091.45,
       "entry_price": 0.525,
       "end_date": "2026-08-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "San Francisco Giants",
+      "resolved_date": "2026-08-01"
     },
     {
       "signal_key": "0xd1040f9aaaf249129e654c1c56a6b8cd9acf06e69cfe668e5eda6a1afa957fa2:1",
@@ -9506,10 +9506,10 @@
       "total_value_usd": 130505.21,
       "entry_price": 0.525,
       "end_date": "2026-08-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "San Francisco Giants",
+      "resolved_date": "2026-08-01"
     }
   ]
 }
