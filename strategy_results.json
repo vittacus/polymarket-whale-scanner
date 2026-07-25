@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-25T10:27:00+00:00",
-  "total_evaluated": 558,
-  "total_pending": 46,
+  "generated_at": "2026-07-25T11:46:13+00:00",
+  "total_evaluated": 560,
+  "total_pending": 48,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 558,
+      "signals_evaluated": 560,
       "correct": 315,
       "wrong": 197,
-      "pending": 46,
+      "pending": 48,
       "win_rate": 61.5,
       "signals": [
         {
@@ -7824,6 +7824,34 @@
           "end_date": "2026-08-01",
           "total_value_usd": 130505.21,
           "result": "correct"
+        },
+        {
+          "signal_key": "0xe11736a83d73301c026542c9d57b6e62e20d4b368581f76d92c722b8166aaa00:0",
+          "condition_id": "0xe11736a83d73301c026542c9d57b6e62e20d4b368581f76d92c722b8166aaa00",
+          "title": "Generali Open: Alexander Bublik vs Quentin Halys",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "Alexander Bublik",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-01",
+          "total_value_usd": 12116.21,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe11736a83d73301c026542c9d57b6e62e20d4b368581f76d92c722b8166aaa00:1",
+          "condition_id": "0xe11736a83d73301c026542c9d57b6e62e20d4b368581f76d92c722b8166aaa00",
+          "title": "Generali Open: Alexander Bublik vs Quentin Halys",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.515,
+          "whale_direction": "Quentin Halys",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-01",
+          "total_value_usd": 2560.29,
+          "result": "pending"
         }
       ]
     },
