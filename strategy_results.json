@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-25T01:16:31+00:00",
-  "total_evaluated": 556,
-  "total_pending": 56,
+  "generated_at": "2026-07-25T04:31:10+00:00",
+  "total_evaluated": 558,
+  "total_pending": 49,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 556,
-      "correct": 305,
-      "wrong": 195,
-      "pending": 56,
-      "win_rate": 61.0,
+      "signals_evaluated": 558,
+      "correct": 313,
+      "wrong": 196,
+      "pending": 49,
+      "win_rate": 61.5,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -7679,11 +7679,11 @@
           "tier": "Strong",
           "entry_price": 0.525,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Dodgers",
+          "resolved_date": "2026-07-31",
           "end_date": "2026-07-31",
           "total_value_usd": 243312.71,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xab3e0308e7ebe7d59027c06aa80ced24e852c0c31c56a4ee83a0b57b9f78cf37:0",
@@ -7693,11 +7693,11 @@
           "tier": "Strong",
           "entry_price": 0.525,
           "whale_direction": "Arizona Diamondbacks",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Arizona Diamondbacks",
+          "resolved_date": "2026-07-31",
           "end_date": "2026-07-31",
           "total_value_usd": 152083.05,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x9421c643b5dcb987467d14aea86182ffc8cad06386b82ac311409e64f363a6a0:1",
@@ -7707,11 +7707,11 @@
           "tier": "Strong",
           "entry_price": 0.525,
           "whale_direction": "Baltimore Orioles",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Atlanta Braves",
+          "resolved_date": "2026-07-31",
           "end_date": "2026-07-31",
           "total_value_usd": 93027.09,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x9421c643b5dcb987467d14aea86182ffc8cad06386b82ac311409e64f363a6a0:0",
@@ -7721,11 +7721,11 @@
           "tier": "Strong",
           "entry_price": 0.525,
           "whale_direction": "Atlanta Braves",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Atlanta Braves",
+          "resolved_date": "2026-07-31",
           "end_date": "2026-07-31",
           "total_value_usd": 11051.69,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x55ca8a65ed99d4a478c0f414702b456e8deef18b6084fa2ecbbe6314733e4b22:0",
@@ -7735,11 +7735,11 @@
           "tier": "Moderate",
           "entry_price": 0.525,
           "whale_direction": "Liam Draxl",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Liam Draxl",
+          "resolved_date": "2026-07-31",
           "end_date": "2026-07-31",
           "total_value_usd": 8042.45,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x24afbaf5bbbcbece7e5125f0da84b36d945147e5042fcedce7689c1d7d8e8e45:1",
@@ -7749,11 +7749,11 @@
           "tier": "Moderate",
           "entry_price": 0.525,
           "whale_direction": "Tampa Bay Rays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Tampa Bay Rays",
+          "resolved_date": "2026-07-31",
           "end_date": "2026-07-31",
           "total_value_usd": 125014.81,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x502b06a037eac51ddcf30e45097cf0c98aefc8069e9672e704c161190d053c6c:0",
@@ -7763,11 +7763,11 @@
           "tier": "Moderate",
           "entry_price": 0.525,
           "whale_direction": "Chicago Cubs",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Chicago Cubs",
+          "resolved_date": "2026-07-31",
           "end_date": "2026-07-31",
           "total_value_usd": 77443.34,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xd6b11ac29c027255c793e07f8fcf6ed171420131749d6a631ceae7d923c63fdf:1",
@@ -7777,11 +7777,11 @@
           "tier": "Moderate",
           "entry_price": 0.525,
           "whale_direction": "Boston Red Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Boston Red Sox",
+          "resolved_date": "2026-07-31",
           "end_date": "2026-07-31",
           "total_value_usd": 40039.97,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x3608f3900a92a9f94611e9c3881009b4f87a7cff2ed53f2082a8f7dac7c3a051:0",
@@ -7791,10 +7791,38 @@
           "tier": "Moderate",
           "entry_price": 0.525,
           "whale_direction": "New York Yankees",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-07-31",
           "end_date": "2026-07-31",
           "total_value_usd": 27766.84,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xd1040f9aaaf249129e654c1c56a6b8cd9acf06e69cfe668e5eda6a1afa957fa2:0",
+          "condition_id": "0xd1040f9aaaf249129e654c1c56a6b8cd9acf06e69cfe668e5eda6a1afa957fa2",
+          "title": "Los Angeles Angels vs. San Francisco Giants",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.525,
+          "whale_direction": "Los Angeles Angels",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-01",
+          "total_value_usd": 14091.45,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd1040f9aaaf249129e654c1c56a6b8cd9acf06e69cfe668e5eda6a1afa957fa2:1",
+          "condition_id": "0xd1040f9aaaf249129e654c1c56a6b8cd9acf06e69cfe668e5eda6a1afa957fa2",
+          "title": "Los Angeles Angels vs. San Francisco Giants",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.525,
+          "whale_direction": "San Francisco Giants",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-01",
+          "total_value_usd": 130505.21,
           "result": "pending"
         }
       ]

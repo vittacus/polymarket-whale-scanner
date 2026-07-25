@@ -189031,5 +189031,182 @@
         "entry_price": 0.525
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-25T04:26:53+00:00",
+    "whale_timeframes": {
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4ab9b54427ec4b7f3646b1a0ef1bed73bc708ebe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x04d5524a0a5af2eca6e39e03defc261d42fe66d8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3d8a89a20aa73fba0f30d080e8120de9f9555724": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe5428c1b7fae9f29cc5ce3b393d9a77251541d6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd81e5bc01e4a98d0af93d82dc2c542a4c0f9e3d0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0f35109cc3ceaf729609c3109310791bd616c84a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd1ed12197b7dc22dede923727e9b714024dbd7cb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7542fa229f63a7bd8a9ca4584638004a39317a20": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x782186952ef2ca75ea91c95aef25bbdcffb4bb1a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb83e85ffd22faa4009273034770f96ffc5b1e50": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0f1cb0af3f632029ec26ba44c22239f47d5f82c6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0a47c276f4e7e531fbdf277196a8c43c86420c54": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x547f2917d51f2e63ab382dcf641d4e0240162937": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xd1040f9aaaf249129e654c1c56a6b8cd9acf06e69cfe668e5eda6a1afa957fa2:0",
+        "condition_id": "0xd1040f9aaaf249129e654c1c56a6b8cd9acf06e69cfe668e5eda6a1afa957fa2",
+        "title": "Los Angeles Angels vs. San Francisco Giants",
+        "outcome": "Los Angeles Angels",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x84dbb7103982e3617704a2ed7d5b39691952aeeb",
+          "0xd1ed12197b7dc22dede923727e9b714024dbd7cb"
+        ],
+        "ranks": [
+          1,
+          6,
+          7,
+          14
+        ],
+        "total_value_usd": 14091.45,
+        "score": 23.0874,
+        "category": "MLB",
+        "end_date": "2026-08-01",
+        "entry_price": 0.525
+      },
+      {
+        "signal_key": "0xd1040f9aaaf249129e654c1c56a6b8cd9acf06e69cfe668e5eda6a1afa957fa2:1",
+        "condition_id": "0xd1040f9aaaf249129e654c1c56a6b8cd9acf06e69cfe668e5eda6a1afa957fa2",
+        "title": "Los Angeles Angels vs. San Francisco Giants",
+        "outcome": "San Francisco Giants",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x84dbb7103982e3617704a2ed7d5b39691952aeeb",
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0xdb83e85ffd22faa4009273034770f96ffc5b1e50"
+        ],
+        "ranks": [
+          6,
+          7,
+          9,
+          17
+        ],
+        "total_value_usd": 130505.21,
+        "score": 9.8833,
+        "category": "MLB",
+        "end_date": "2026-08-01",
+        "entry_price": 0.525
+      }
+    ]
   }
 ]
