@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-25T21:41:06+00:00",
-  "total_evaluated": 564,
-  "total_pending": 48,
+  "generated_at": "2026-07-25T22:40:44+00:00",
+  "total_evaluated": 566,
+  "total_pending": 50,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 564,
+      "signals_evaluated": 566,
       "correct": 317,
       "wrong": 199,
-      "pending": 48,
+      "pending": 50,
       "win_rate": 61.4,
       "signals": [
         {
@@ -7907,6 +7907,34 @@
           "resolved_date": null,
           "end_date": "2026-08-01",
           "total_value_usd": 29013.13,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x92b04ff4f3b9c8bc9a3e8f67b0fc30d78f46ae357a39d1edd0638b66729e038d:0",
+          "condition_id": "0x92b04ff4f3b9c8bc9a3e8f67b0fc30d78f46ae357a39d1edd0638b66729e038d",
+          "title": "San Diego Padres vs. Miami Marlins",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.515,
+          "whale_direction": "San Diego Padres",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-01",
+          "total_value_usd": 150698.89,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x5c5b33ef213f53597584da0c194b9e333437c89afda8e6395039e29a85b44d2e:0",
+          "condition_id": "0x5c5b33ef213f53597584da0c194b9e333437c89afda8e6395039e29a85b44d2e",
+          "title": "New York Yankees vs. Philadelphia Phillies",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.515,
+          "whale_direction": "New York Yankees",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-01",
+          "total_value_usd": 75989.06,
           "result": "pending"
         }
       ]
