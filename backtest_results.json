@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-25T16:37:06+00:00",
+  "generated_at": "2026-07-25T17:45:29+00:00",
   "total_signals": 563,
-  "total_resolved": 515,
+  "total_resolved": 516,
   "total_correct": 317,
-  "overall_hit_rate": 61.6,
+  "overall_hit_rate": 61.4,
   "by_tier": {
     "Strong": {
       "total": 195,
-      "resolved": 179,
+      "resolved": 180,
       "correct": 118,
-      "hit_rate": 65.9
+      "hit_rate": 65.6
     },
     "Moderate": {
       "total": 325,
@@ -9591,10 +9591,10 @@
       "total_value_usd": 51610.95,
       "entry_price": 0.52,
       "end_date": "2026-08-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Lilli Tagger",
+      "resolved_date": "2026-08-01"
     }
   ]
 }
