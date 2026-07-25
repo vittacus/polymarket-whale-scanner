@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-25T22:40:44+00:00",
+  "generated_at": "2026-07-25T23:46:06+00:00",
   "total_evaluated": 566,
-  "total_pending": 50,
+  "total_pending": 48,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 566,
-      "correct": 317,
-      "wrong": 199,
-      "pending": 50,
+      "correct": 318,
+      "wrong": 200,
+      "pending": 48,
       "win_rate": 61.4,
       "signals": [
         {
@@ -7189,11 +7189,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Yes",
+          "resolved_date": "2026-07-22",
           "end_date": "2026-07-22",
           "total_value_usd": 8834.33,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x6114306f724135bd1db2f5f3169386decf18f618653c196ef0a6c1afd27f4c73:0",
@@ -7903,11 +7903,11 @@
           "tier": "Strong",
           "entry_price": 0.515,
           "whale_direction": "Boston Red Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Toronto Blue Jays",
+          "resolved_date": "2026-08-01",
           "end_date": "2026-08-01",
           "total_value_usd": 29013.13,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x92b04ff4f3b9c8bc9a3e8f67b0fc30d78f46ae357a39d1edd0638b66729e038d:0",

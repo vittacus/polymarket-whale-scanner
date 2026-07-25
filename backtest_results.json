@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-25T22:40:44+00:00",
+  "generated_at": "2026-07-25T23:46:06+00:00",
   "total_signals": 566,
-  "total_resolved": 516,
-  "total_correct": 317,
+  "total_resolved": 518,
+  "total_correct": 318,
   "overall_hit_rate": 61.4,
   "by_tier": {
     "Strong": {
       "total": 198,
-      "resolved": 180,
-      "correct": 118,
-      "hit_rate": 65.6
+      "resolved": 182,
+      "correct": 119,
+      "hit_rate": 65.4
     },
     "Moderate": {
       "total": 325,
@@ -8741,10 +8741,10 @@
       "total_value_usd": 8834.33,
       "entry_price": 0.505,
       "end_date": "2026-07-22",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-07-22"
     },
     {
       "signal_key": "0x6114306f724135bd1db2f5f3169386decf18f618653c196ef0a6c1afd27f4c73:0",
@@ -9608,10 +9608,10 @@
       "total_value_usd": 29013.13,
       "entry_price": 0.515,
       "end_date": "2026-08-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Toronto Blue Jays",
+      "resolved_date": "2026-08-01"
     },
     {
       "signal_key": "0x92b04ff4f3b9c8bc9a3e8f67b0fc30d78f46ae357a39d1edd0638b66729e038d:0",
