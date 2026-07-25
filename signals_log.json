@@ -191352,5 +191352,178 @@
         "entry_price": 0.52
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-25T21:36:42+00:00",
+    "whale_timeframes": {
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9f2fe025f84839ca81dd8e0338892605702d2ca8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb0c85813a7a4428f1139ff91d3118a92c391fe7f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa71093cafc0c099b4ccab24c3cb8018d817923c4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x511f9c771449162349795d17becf8b37031acbe1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc430e5b17128df7ce78d69fa28bc7de038641ebf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xaacc589c628ea6614a2fc958716c8e6c1bcf78c8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0a39b3b29ab3b7dd753aa96fde4ecab3f2dbb0b9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xba389f76b0119aed07c53c9029852664bd97e406": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd218e474776403a330142299f7796e8ba32eb5c9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbb5fbe810633ab08d106b82db84418a0e2ca2e21": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc65ca4755436f82d8eb461e65781584b8cadea39": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x547f2917d51f2e63ab382dcf641d4e0240162937": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd23f8c8aab13cfb2a35da40b67f8471faf9894a1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x88c4919de76e526d55a32c1f8afb439dd1f1129a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7f9e2d1df78614564a70becc7fa14aa9a6623a0e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x477fcd39c75956843c18083caa4c8c61f9ca6c45": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8075693f48668a264b9fa313b47f52712fcc12b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x0ff22cf1f7f86a8f6a1f46ebff9afc02d2f2f8be82ed1655a079fd2f8b8d450e:1",
+        "condition_id": "0x0ff22cf1f7f86a8f6a1f46ebff9afc02d2f2f8be82ed1655a079fd2f8b8d450e",
+        "title": "Will LeBron James play for the Miami Heat in 2026-27?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+          "0xd218e474776403a330142299f7796e8ba32eb5c9"
+        ],
+        "ranks": [
+          1,
+          3,
+          12
+        ],
+        "total_value_usd": 62354.62,
+        "score": 27.3715,
+        "category": "NBA",
+        "end_date": "2026-10-31",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x12dc2b61723b2a54fc1947a307389b5f32038e7a29a0e936ad1fe410b969d06a:0",
+        "condition_id": "0x12dc2b61723b2a54fc1947a307389b5f32038e7a29a0e936ad1fe410b969d06a",
+        "title": "Will Harry Kane win the 2026 Ballon d'Or?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0xd218e474776403a330142299f7796e8ba32eb5c9"
+        ],
+        "ranks": [
+          3,
+          4,
+          12
+        ],
+        "total_value_usd": 57309.58,
+        "score": 12.7823,
+        "category": "Soccer",
+        "end_date": "2026-10-31",
+        "entry_price": 0.52
+      }
+    ]
   }
 ]
