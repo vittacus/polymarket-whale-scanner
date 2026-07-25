@@ -188693,5 +188693,343 @@
         "entry_price": 0.515
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-25T01:11:19+00:00",
+    "whale_timeframes": {
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe5428c1b7fae9f29cc5ce3b393d9a77251541d6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7542fa229f63a7bd8a9ca4584638004a39317a20": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x16bb9951a36fce71e2ef57890b786145e0ba8492": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb0c85813a7a4428f1139ff91d3118a92c391fe7f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa08455c829a493054315e40e7817321e8c77bb99": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x20d6436849f930584892730c7f96ebb2ac763856": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8201c74931d47ca0151715d43406a5eebe208a41": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf68a281980f8c13828e84e147e3822381d6e5b1b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdd5ef115f801999575b03d78d0115ad8b2d59040": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd912131221d75b624963c928fa5bfd284c4775c3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0ca28d5b0141f0a8e7b251dea80fd881cb166ed": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224f7ef690d952cf551a471846d5afb4892e514a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf6683d202f76fc9b79e5be716ce8519dab5b5c69": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x04ba2011a9bd82d9773f34928d5d0e9bd0f36e0bab504689e11e467fcdf7ec23:0",
+        "condition_id": "0x04ba2011a9bd82d9773f34928d5d0e9bd0f36e0bab504689e11e467fcdf7ec23",
+        "title": "Los Angeles Dodgers vs. New York Mets",
+        "outcome": "Los Angeles Dodgers",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0xfe5428c1b7fae9f29cc5ce3b393d9a77251541d6",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
+        ],
+        "ranks": [
+          1,
+          5,
+          10
+        ],
+        "total_value_usd": 243312.71,
+        "score": 28.2148,
+        "category": "MLB",
+        "end_date": "2026-07-31",
+        "entry_price": 0.525
+      },
+      {
+        "signal_key": "0xab3e0308e7ebe7d59027c06aa80ced24e852c0c31c56a4ee83a0b57b9f78cf37:0",
+        "condition_id": "0xab3e0308e7ebe7d59027c06aa80ced24e852c0c31c56a4ee83a0b57b9f78cf37",
+        "title": "Arizona Diamondbacks vs. Washington Nationals",
+        "outcome": "Arizona Diamondbacks",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0x84dbb7103982e3617704a2ed7d5b39691952aeeb",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
+        ],
+        "ranks": [
+          1,
+          9,
+          10
+        ],
+        "total_value_usd": 152083.05,
+        "score": 25.2896,
+        "category": "MLB",
+        "end_date": "2026-07-31",
+        "entry_price": 0.525
+      },
+      {
+        "signal_key": "0x9421c643b5dcb987467d14aea86182ffc8cad06386b82ac311409e64f363a6a0:1",
+        "condition_id": "0x9421c643b5dcb987467d14aea86182ffc8cad06386b82ac311409e64f363a6a0",
+        "title": "Atlanta Braves vs. Baltimore Orioles",
+        "outcome": "Baltimore Orioles",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xf68a281980f8c13828e84e147e3822381d6e5b1b"
+        ],
+        "ranks": [
+          1,
+          10,
+          14
+        ],
+        "total_value_usd": 93027.09,
+        "score": 23.4533,
+        "category": "MLB",
+        "end_date": "2026-07-31",
+        "entry_price": 0.525
+      },
+      {
+        "signal_key": "0x9421c643b5dcb987467d14aea86182ffc8cad06386b82ac311409e64f363a6a0:0",
+        "condition_id": "0x9421c643b5dcb987467d14aea86182ffc8cad06386b82ac311409e64f363a6a0",
+        "title": "Atlanta Braves vs. Baltimore Orioles",
+        "outcome": "Atlanta Braves",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x4bff30af91642dc7d2b19a8664378fe55c45fc26",
+          "0x84dbb7103982e3617704a2ed7d5b39691952aeeb",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
+        ],
+        "ranks": [
+          2,
+          4,
+          9,
+          10
+        ],
+        "total_value_usd": 11051.69,
+        "score": 15.6596,
+        "category": "MLB",
+        "end_date": "2026-07-31",
+        "entry_price": 0.525
+      },
+      {
+        "signal_key": "0x55ca8a65ed99d4a478c0f414702b456e8deef18b6084fa2ecbbe6314733e4b22:0",
+        "condition_id": "0x55ca8a65ed99d4a478c0f414702b456e8deef18b6084fa2ecbbe6314733e4b22",
+        "title": "Winnipeg: Liam Draxl vs Clement Chidekh",
+        "outcome": "Liam Draxl",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xdd5ef115f801999575b03d78d0115ad8b2d59040",
+          "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c"
+        ],
+        "ranks": [
+          2,
+          15,
+          19
+        ],
+        "total_value_usd": 8042.45,
+        "score": 9.7459,
+        "category": "Tennis",
+        "end_date": "2026-07-31",
+        "entry_price": 0.525
+      },
+      {
+        "signal_key": "0x24afbaf5bbbcbece7e5125f0da84b36d945147e5042fcedce7689c1d7d8e8e45:1",
+        "condition_id": "0x24afbaf5bbbcbece7e5125f0da84b36d945147e5042fcedce7689c1d7d8e8e45",
+        "title": "Cleveland Guardians vs. Tampa Bay Rays",
+        "outcome": "Tampa Bay Rays",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x7542fa229f63a7bd8a9ca4584638004a39317a20",
+          "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
+          "0x84dbb7103982e3617704a2ed7d5b39691952aeeb",
+          "0xf6683d202f76fc9b79e5be716ce8519dab5b5c69"
+        ],
+        "ranks": [
+          6,
+          7,
+          9,
+          20
+        ],
+        "total_value_usd": 125014.81,
+        "score": 9.6661,
+        "category": "MLB",
+        "end_date": "2026-07-31",
+        "entry_price": 0.525
+      },
+      {
+        "signal_key": "0x502b06a037eac51ddcf30e45097cf0c98aefc8069e9672e704c161190d053c6c:0",
+        "condition_id": "0x502b06a037eac51ddcf30e45097cf0c98aefc8069e9672e704c161190d053c6c",
+        "title": "Chicago Cubs vs. Pittsburgh Pirates",
+        "outcome": "Chicago Cubs",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84dbb7103982e3617704a2ed7d5b39691952aeeb",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xa08455c829a493054315e40e7817321e8c77bb99"
+        ],
+        "ranks": [
+          9,
+          10,
+          11
+        ],
+        "total_value_usd": 77443.34,
+        "score": 5.9499,
+        "category": "MLB",
+        "end_date": "2026-07-31",
+        "entry_price": 0.525
+      },
+      {
+        "signal_key": "0xd6b11ac29c027255c793e07f8fcf6ed171420131749d6a631ceae7d923c63fdf:1",
+        "condition_id": "0xd6b11ac29c027255c793e07f8fcf6ed171420131749d6a631ceae7d923c63fdf",
+        "title": "Toronto Blue Jays vs. Boston Red Sox",
+        "outcome": "Boston Red Sox",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x84dbb7103982e3617704a2ed7d5b39691952aeeb",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xa08455c829a493054315e40e7817321e8c77bb99"
+        ],
+        "ranks": [
+          9,
+          10,
+          11
+        ],
+        "total_value_usd": 40039.97,
+        "score": 5.6012,
+        "category": "MLB",
+        "end_date": "2026-07-31",
+        "entry_price": 0.525
+      },
+      {
+        "signal_key": "0x3608f3900a92a9f94611e9c3881009b4f87a7cff2ed53f2082a8f7dac7c3a051:0",
+        "condition_id": "0x3608f3900a92a9f94611e9c3881009b4f87a7cff2ed53f2082a8f7dac7c3a051",
+        "title": "New York Yankees vs. Philadelphia Phillies",
+        "outcome": "New York Yankees",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84dbb7103982e3617704a2ed7d5b39691952aeeb",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x8201c74931d47ca0151715d43406a5eebe208a41"
+        ],
+        "ranks": [
+          9,
+          10,
+          13
+        ],
+        "total_value_usd": 27766.84,
+        "score": 5.1574,
+        "category": "MLB",
+        "end_date": "2026-07-31",
+        "entry_price": 0.525
+      }
+    ]
   }
 ]
