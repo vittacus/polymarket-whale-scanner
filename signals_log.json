@@ -190245,5 +190245,201 @@
         "entry_price": 0.52
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-25T15:36:51+00:00",
+    "whale_timeframes": {
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb0c85813a7a4428f1139ff91d3118a92c391fe7f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9f2fe025f84839ca81dd8e0338892605702d2ca8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4ab9b54427ec4b7f3646b1a0ef1bed73bc708ebe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x511f9c771449162349795d17becf8b37031acbe1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xaacc589c628ea6614a2fc958716c8e6c1bcf78c8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0a39b3b29ab3b7dd753aa96fde4ecab3f2dbb0b9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xba389f76b0119aed07c53c9029852664bd97e406": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc65ca4755436f82d8eb461e65781584b8cadea39": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbb5fbe810633ab08d106b82db84418a0e2ca2e21": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd218e474776403a330142299f7796e8ba32eb5c9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x88c4919de76e526d55a32c1f8afb439dd1f1129a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7f9e2d1df78614564a70becc7fa14aa9a6623a0e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd23f8c8aab13cfb2a35da40b67f8471faf9894a1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x0ff22cf1f7f86a8f6a1f46ebff9afc02d2f2f8be82ed1655a079fd2f8b8d450e:1",
+        "condition_id": "0x0ff22cf1f7f86a8f6a1f46ebff9afc02d2f2f8be82ed1655a079fd2f8b8d450e",
+        "title": "Will LeBron James play for the Miami Heat in 2026-27?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+          "0xd218e474776403a330142299f7796e8ba32eb5c9"
+        ],
+        "ranks": [
+          1,
+          5,
+          17
+        ],
+        "total_value_usd": 62354.62,
+        "score": 24.3218,
+        "category": "NBA",
+        "end_date": "2026-10-31",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x0c0b8197480383d858075dff8df2795f57d6d7b143769992cdbdd66d0e306199:1",
+        "condition_id": "0x0c0b8197480383d858075dff8df2795f57d6d7b143769992cdbdd66d0e306199",
+        "title": "Livesport Prague Open: Lilli Tagger vs Barbora Krejcikova",
+        "outcome": "Barbora Krejcikova",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319"
+        ],
+        "ranks": [
+          2,
+          3,
+          6
+        ],
+        "total_value_usd": 51610.95,
+        "score": 18.9901,
+        "category": "Tennis",
+        "end_date": "2026-08-01",
+        "entry_price": 0.52
+      },
+      {
+        "signal_key": "0x12dc2b61723b2a54fc1947a307389b5f32038e7a29a0e936ad1fe410b969d06a:0",
+        "condition_id": "0x12dc2b61723b2a54fc1947a307389b5f32038e7a29a0e936ad1fe410b969d06a",
+        "title": "Will Harry Kane win the 2026 Ballon d'Or?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+          "0xd218e474776403a330142299f7796e8ba32eb5c9"
+        ],
+        "ranks": [
+          3,
+          5,
+          17
+        ],
+        "total_value_usd": 57021.44,
+        "score": 11.3484,
+        "category": "Soccer",
+        "end_date": "2026-10-31",
+        "entry_price": 0.52
+      }
+    ]
   }
 ]
