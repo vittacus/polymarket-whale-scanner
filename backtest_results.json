@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-25T11:46:13+00:00",
-  "total_signals": 560,
+  "generated_at": "2026-07-25T12:49:13+00:00",
+  "total_signals": 561,
   "total_resolved": 512,
   "total_correct": 315,
   "overall_hit_rate": 61.5,
   "by_tier": {
     "Strong": {
-      "total": 193,
+      "total": 194,
       "resolved": 178,
       "correct": 117,
       "hit_rate": 65.7
@@ -9538,6 +9538,23 @@
       "tier": "Moderate",
       "score": 6.6383,
       "total_value_usd": 2560.29,
+      "entry_price": 0.515,
+      "end_date": "2026-08-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xbf40b1c56a5a91af4893693a04204c5a485efbbd166a7367f1f1b43cb9389d01:0",
+      "condition_id": "0xbf40b1c56a5a91af4893693a04204c5a485efbbd166a7367f1f1b43cb9389d01",
+      "title": "Tampere: Diego Dedura-Palomero vs Gauthier Onclin",
+      "category": "Tennis",
+      "whale_direction": "Diego Dedura-Palomero",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 11.2403,
+      "total_value_usd": 20854.52,
       "entry_price": 0.515,
       "end_date": "2026-08-01",
       "resolved": false,

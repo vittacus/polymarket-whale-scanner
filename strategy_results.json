@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-25T11:46:13+00:00",
-  "total_evaluated": 560,
-  "total_pending": 48,
+  "generated_at": "2026-07-25T12:49:13+00:00",
+  "total_evaluated": 561,
+  "total_pending": 49,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 560,
+      "signals_evaluated": 561,
       "correct": 315,
       "wrong": 197,
-      "pending": 48,
+      "pending": 49,
       "win_rate": 61.5,
       "signals": [
         {
@@ -7851,6 +7851,20 @@
           "resolved_date": null,
           "end_date": "2026-08-01",
           "total_value_usd": 2560.29,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xbf40b1c56a5a91af4893693a04204c5a485efbbd166a7367f1f1b43cb9389d01:0",
+          "condition_id": "0xbf40b1c56a5a91af4893693a04204c5a485efbbd166a7367f1f1b43cb9389d01",
+          "title": "Tampere: Diego Dedura-Palomero vs Gauthier Onclin",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.515,
+          "whale_direction": "Diego Dedura-Palomero",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-01",
+          "total_value_usd": 20854.52,
           "result": "pending"
         }
       ]

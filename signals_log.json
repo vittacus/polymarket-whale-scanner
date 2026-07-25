@@ -189853,5 +189853,201 @@
         "entry_price": 0.515
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-25T12:43:56+00:00",
+    "whale_timeframes": {
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb0c85813a7a4428f1139ff91d3118a92c391fe7f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xaacc589c628ea6614a2fc958716c8e6c1bcf78c8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x511f9c771449162349795d17becf8b37031acbe1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x477fcd39c75956843c18083caa4c8c61f9ca6c45": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd23f8c8aab13cfb2a35da40b67f8471faf9894a1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe5428c1b7fae9f29cc5ce3b393d9a77251541d6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd81e5bc01e4a98d0af93d82dc2c542a4c0f9e3d0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x88c4919de76e526d55a32c1f8afb439dd1f1129a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbb5fbe810633ab08d106b82db84418a0e2ca2e21": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb83e85ffd22faa4009273034770f96ffc5b1e50": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd1ed12197b7dc22dede923727e9b714024dbd7cb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7f9e2d1df78614564a70becc7fa14aa9a6623a0e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb687f00464e33934f5d591f224e71c3559ecaee5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb3cfe7615d64db8dfa743a1b1a2b976911460ebd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xbf40b1c56a5a91af4893693a04204c5a485efbbd166a7367f1f1b43cb9389d01:0",
+        "condition_id": "0xbf40b1c56a5a91af4893693a04204c5a485efbbd166a7367f1f1b43cb9389d01",
+        "title": "Tampere: Diego Dedura-Palomero vs Gauthier Onclin",
+        "outcome": "Diego Dedura-Palomero",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0xdb83e85ffd22faa4009273034770f96ffc5b1e50"
+        ],
+        "ranks": [
+          2,
+          12,
+          16
+        ],
+        "total_value_usd": 20854.52,
+        "score": 11.2403,
+        "category": "Tennis",
+        "end_date": "2026-08-01",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0xe11736a83d73301c026542c9d57b6e62e20d4b368581f76d92c722b8166aaa00:1",
+        "condition_id": "0xe11736a83d73301c026542c9d57b6e62e20d4b368581f76d92c722b8166aaa00",
+        "title": "Generali Open: Alexander Bublik vs Quentin Halys",
+        "outcome": "Quentin Halys",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0xbb5fbe810633ab08d106b82db84418a0e2ca2e21",
+          "0xdb83e85ffd22faa4009273034770f96ffc5b1e50"
+        ],
+        "ranks": [
+          3,
+          15,
+          16
+        ],
+        "total_value_usd": 63691.3,
+        "score": 8.9532,
+        "category": "Tennis",
+        "end_date": "2026-08-01",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0xde72dd287ba34b31dc69066931b7c0074f8267132bf7d6752e2f736429ae98af:0",
+        "condition_id": "0xde72dd287ba34b31dc69066931b7c0074f8267132bf7d6752e2f736429ae98af",
+        "title": "Will LeBron James play for the Philadelphia 76ers in 2026-27?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0xd81e5bc01e4a98d0af93d82dc2c542a4c0f9e3d0",
+          "0xb3cfe7615d64db8dfa743a1b1a2b976911460ebd"
+        ],
+        "ranks": [
+          3,
+          13,
+          20
+        ],
+        "total_value_usd": 61186.59,
+        "score": 8.8774,
+        "category": "NBA",
+        "end_date": "2026-10-31",
+        "entry_price": 0.525
+      }
+    ]
   }
 ]
