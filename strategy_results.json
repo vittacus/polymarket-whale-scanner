@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-25T12:49:13+00:00",
-  "total_evaluated": 561,
-  "total_pending": 49,
+  "generated_at": "2026-07-25T14:23:24+00:00",
+  "total_evaluated": 562,
+  "total_pending": 47,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 561,
-      "correct": 315,
-      "wrong": 197,
-      "pending": 49,
-      "win_rate": 61.5,
+      "signals_evaluated": 562,
+      "correct": 317,
+      "wrong": 198,
+      "pending": 47,
+      "win_rate": 61.6,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -7833,11 +7833,11 @@
           "tier": "Moderate",
           "entry_price": 0.515,
           "whale_direction": "Alexander Bublik",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Quentin Halys",
+          "resolved_date": "2026-08-01",
           "end_date": "2026-08-01",
           "total_value_usd": 12116.21,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xe11736a83d73301c026542c9d57b6e62e20d4b368581f76d92c722b8166aaa00:1",
@@ -7847,11 +7847,11 @@
           "tier": "Moderate",
           "entry_price": 0.515,
           "whale_direction": "Quentin Halys",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Quentin Halys",
+          "resolved_date": "2026-08-01",
           "end_date": "2026-08-01",
           "total_value_usd": 2560.29,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xbf40b1c56a5a91af4893693a04204c5a485efbbd166a7367f1f1b43cb9389d01:0",
@@ -7861,10 +7861,24 @@
           "tier": "Strong",
           "entry_price": 0.515,
           "whale_direction": "Diego Dedura-Palomero",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Diego Dedura-Palomero",
+          "resolved_date": "2026-08-01",
           "end_date": "2026-08-01",
           "total_value_usd": 20854.52,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x12dc2b61723b2a54fc1947a307389b5f32038e7a29a0e936ad1fe410b969d06a:0",
+          "condition_id": "0x12dc2b61723b2a54fc1947a307389b5f32038e7a29a0e936ad1fe410b969d06a",
+          "title": "Will Harry Kane win the 2026 Ballon d'Or?",
+          "category": "Soccer",
+          "tier": "Moderate",
+          "entry_price": 0.52,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-31",
+          "total_value_usd": 56992.43,
           "result": "pending"
         }
       ]
