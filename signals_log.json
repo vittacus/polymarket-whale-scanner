@@ -193522,5 +193522,228 @@
         "entry_price": 0.505
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-26T18:40:43+00:00",
+    "whale_timeframes": {
+      "0xc2e7800b5af46e6093872b177b7a5e7f0563be51": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x04d5524a0a5af2eca6e39e03defc261d42fe66d8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x511f9c771449162349795d17becf8b37031acbe1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4ab9b54427ec4b7f3646b1a0ef1bed73bc708ebe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7ad71d79a3bb90d0a87a06500fa0fe11663842aa": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2dc13c6bda81b202281e796953a7323de675b33c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf070207d315d47fd07870e464d3ded9151f5ac55": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd7c00d7c82f8d760d5f12b79dd114ab7fd16a002": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x73e3fec494611d73c170cb2f23850fd998b21be9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3d8a89a20aa73fba0f30d080e8120de9f9555724": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4956f69ada024c5cb23ed4f38f0dc4c04d2ee2c7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5f8691f6ee3f48a29ec8f2d909dd20900cdfa769": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb809a4b78b5eadc71d84be43eda0491eedf72004": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x6d4885d1cd0e2deaf7c77746806ffe22b49731efebe6cee621f7615ba73da0d6:1",
+        "condition_id": "0x6d4885d1cd0e2deaf7c77746806ffe22b49731efebe6cee621f7615ba73da0d6",
+        "title": "Cleveland Guardians vs. Tampa Bay Rays",
+        "outcome": "Tampa Bay Rays",
+        "outcome_index": 1,
+        "whale_count": 5,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x2dc13c6bda81b202281e796953a7323de675b33c",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e"
+        ],
+        "ranks": [
+          3,
+          10,
+          11,
+          15,
+          16
+        ],
+        "total_value_usd": 132041.4,
+        "score": 13.4825,
+        "category": "MLB",
+        "end_date": "2026-08-02",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x078193b8596070773bbdda02cc5e7d8b0fe3adb8019a2270ddfe0d3b93990e8a:1",
+        "condition_id": "0x078193b8596070773bbdda02cc5e7d8b0fe3adb8019a2270ddfe0d3b93990e8a",
+        "title": "Chicago Cubs vs. Pittsburgh Pirates",
+        "outcome": "Pittsburgh Pirates",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          3,
+          5,
+          11
+        ],
+        "total_value_usd": 205243.08,
+        "score": 13.3625,
+        "category": "MLB",
+        "end_date": "2026-08-02",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x35aac9c57822c13bcef8c3b3d346b329725d34595603c5a44cae80f077383cb3:0",
+        "condition_id": "0x35aac9c57822c13bcef8c3b3d346b329725d34595603c5a44cae80f077383cb3",
+        "title": "Atlanta Braves vs. Baltimore Orioles",
+        "outcome": "Atlanta Braves",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+        ],
+        "ranks": [
+          3,
+          11,
+          15
+        ],
+        "total_value_usd": 16317.25,
+        "score": 8.3332,
+        "category": "MLB",
+        "end_date": "2026-08-02",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0xc2c26a370125880fa3feb43d2b6e33f227458378319b3df0ee2c6727e4553fbb:1",
+        "condition_id": "0xc2c26a370125880fa3feb43d2b6e33f227458378319b3df0ee2c6727e4553fbb",
+        "title": "Mubadala Citi DC Open, Qualification: Zachary Svajda vs Cruz Hewitt",
+        "outcome": "Cruz Hewitt",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e"
+        ],
+        "ranks": [
+          11,
+          15,
+          16
+        ],
+        "total_value_usd": 37593.8,
+        "score": 4.0572,
+        "category": "Tennis",
+        "end_date": "2026-08-02",
+        "entry_price": 0.505
+      }
+    ]
   }
 ]

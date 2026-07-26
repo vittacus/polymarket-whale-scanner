@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-26T17:38:11+00:00",
-  "total_evaluated": 577,
-  "total_pending": 47,
+  "generated_at": "2026-07-26T18:45:25+00:00",
+  "total_evaluated": 580,
+  "total_pending": 50,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 577,
+      "signals_evaluated": 580,
       "correct": 329,
       "wrong": 201,
-      "pending": 47,
+      "pending": 50,
       "win_rate": 62.1,
       "signals": [
         {
@@ -8090,6 +8090,48 @@
           "end_date": "2026-08-02",
           "total_value_usd": 93529.52,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x078193b8596070773bbdda02cc5e7d8b0fe3adb8019a2270ddfe0d3b93990e8a:1",
+          "condition_id": "0x078193b8596070773bbdda02cc5e7d8b0fe3adb8019a2270ddfe0d3b93990e8a",
+          "title": "Chicago Cubs vs. Pittsburgh Pirates",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Pittsburgh Pirates",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-02",
+          "total_value_usd": 205243.08,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x35aac9c57822c13bcef8c3b3d346b329725d34595603c5a44cae80f077383cb3:0",
+          "condition_id": "0x35aac9c57822c13bcef8c3b3d346b329725d34595603c5a44cae80f077383cb3",
+          "title": "Atlanta Braves vs. Baltimore Orioles",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Atlanta Braves",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-02",
+          "total_value_usd": 16317.25,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xc2c26a370125880fa3feb43d2b6e33f227458378319b3df0ee2c6727e4553fbb:1",
+          "condition_id": "0xc2c26a370125880fa3feb43d2b6e33f227458378319b3df0ee2c6727e4553fbb",
+          "title": "Mubadala Citi DC Open, Qualification: Zachary Svajda vs Cruz Hewitt",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Cruz Hewitt",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-02",
+          "total_value_usd": 37593.8,
+          "result": "pending"
         }
       ]
     },
