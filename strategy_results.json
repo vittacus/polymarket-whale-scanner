@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-26T19:56:46+00:00",
-  "total_evaluated": 584,
-  "total_pending": 53,
+  "generated_at": "2026-07-26T20:56:26+00:00",
+  "total_evaluated": 588,
+  "total_pending": 56,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 584,
-      "correct": 330,
+      "signals_evaluated": 588,
+      "correct": 331,
       "wrong": 201,
-      "pending": 53,
-      "win_rate": 62.1,
+      "pending": 56,
+      "win_rate": 62.2,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -8127,11 +8127,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Cruz Hewitt",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Cruz Hewitt",
+          "resolved_date": "2026-08-02",
           "end_date": "2026-08-02",
           "total_value_usd": 37593.8,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf41cd6adb7621774418cb7b1bd4f4af742db92bd090a39c3fc4153fb48ca0d87:0",
@@ -8187,6 +8187,62 @@
           "resolved_date": null,
           "end_date": "2026-08-02",
           "total_value_usd": 13201.59,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xbc2cab6671496f760cf7784d22f8f9c70a5231eaffad0108ec8f0b5a616785c8:0",
+          "condition_id": "0xbc2cab6671496f760cf7784d22f8f9c70a5231eaffad0108ec8f0b5a616785c8",
+          "title": "Los Angeles Angels vs. San Francisco Giants",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Los Angeles Angels",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-02",
+          "total_value_usd": 184768.8,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x4bf87eedd605efd44455804dae31df4f0417cc12f97ffc50b1765db7b768f959:0",
+          "condition_id": "0x4bf87eedd605efd44455804dae31df4f0417cc12f97ffc50b1765db7b768f959",
+          "title": "San Diego Padres vs. Miami Marlins",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "San Diego Padres",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-02",
+          "total_value_usd": 182931.08,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x6120e5f1457724ad6f8f47855170c2e48c759bd6cf90164583933e8a8a19a0e0:1",
+          "condition_id": "0x6120e5f1457724ad6f8f47855170c2e48c759bd6cf90164583933e8a8a19a0e0",
+          "title": "Seattle Mariners vs. Texas Rangers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Texas Rangers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-02",
+          "total_value_usd": 264547.18,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf41cd6adb7621774418cb7b1bd4f4af742db92bd090a39c3fc4153fb48ca0d87:1",
+          "condition_id": "0xf41cd6adb7621774418cb7b1bd4f4af742db92bd090a39c3fc4153fb48ca0d87",
+          "title": "Los Angeles Dodgers vs. New York Mets",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "New York Mets",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-02",
+          "total_value_usd": 24123.29,
           "result": "pending"
         }
       ]
