@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-26T01:19:38+00:00",
+  "generated_at": "2026-07-26T04:47:36+00:00",
   "total_evaluated": 573,
-  "total_pending": 53,
+  "total_pending": 46,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 573,
-      "correct": 320,
+      "correct": 327,
       "wrong": 200,
-      "pending": 53,
-      "win_rate": 61.5,
+      "pending": 46,
+      "win_rate": 62.0,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -7945,11 +7945,11 @@
           "tier": "Strong",
           "entry_price": 0.515,
           "whale_direction": "St. Louis Cardinals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "St. Louis Cardinals",
+          "resolved_date": "2026-08-01",
           "end_date": "2026-08-01",
           "total_value_usd": 136059.96,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x56ec87046a910843de2b83ab0e1f2a0b3cdee947b7c450cf36cddeb219a7cef2:0",
@@ -7959,11 +7959,11 @@
           "tier": "Moderate",
           "entry_price": 0.515,
           "whale_direction": "Houston Astros",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Houston Astros",
+          "resolved_date": "2026-08-01",
           "end_date": "2026-08-01",
           "total_value_usd": 96499.85,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xebdf118de7a90e7128f74f4d8a7fd55db6b75d039a81b644dcf1f3a83fb9b2da:1",
@@ -7973,11 +7973,11 @@
           "tier": "Moderate",
           "entry_price": 0.515,
           "whale_direction": "Baltimore Orioles",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Baltimore Orioles",
+          "resolved_date": "2026-08-01",
           "end_date": "2026-08-01",
           "total_value_usd": 39408.0,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x8116e8b4f6b7df4ba6bd8ce338a7c09c9951790b6a06a65c4eb9ec20b1c1caee:1",
@@ -7987,11 +7987,11 @@
           "tier": "Moderate",
           "entry_price": 0.515,
           "whale_direction": "Minnesota Twins",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Minnesota Twins",
+          "resolved_date": "2026-08-01",
           "end_date": "2026-08-01",
           "total_value_usd": 40834.36,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc23bfa997a5394e774310733a80a163daf2779965c58eadcd7690639b3f7c434:1",
@@ -8001,11 +8001,11 @@
           "tier": "Moderate",
           "entry_price": 0.515,
           "whale_direction": "Milwaukee Brewers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-08-01",
           "end_date": "2026-08-01",
           "total_value_usd": 57024.9,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xdac46d46ec46afe0b141bfd9f09838dbe103b3dadd18d5d79d4535d50531e5b5:0",
@@ -8015,11 +8015,11 @@
           "tier": "Moderate",
           "entry_price": 0.515,
           "whale_direction": "Chicago Cubs",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Chicago Cubs",
+          "resolved_date": "2026-08-01",
           "end_date": "2026-08-01",
           "total_value_usd": 20360.11,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x5ef4875248dd59d36c6216337b2d3fdc18629c9dec6e1a4066fa2779c6947b65:1",
@@ -8029,11 +8029,11 @@
           "tier": "Moderate",
           "entry_price": 0.515,
           "whale_direction": "Texas Rangers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Texas Rangers",
+          "resolved_date": "2026-08-01",
           "end_date": "2026-08-01",
           "total_value_usd": 39232.31,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
