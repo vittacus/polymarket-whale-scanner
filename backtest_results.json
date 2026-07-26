@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-26T12:20:42+00:00",
-  "total_signals": 573,
+  "generated_at": "2026-07-26T14:11:16+00:00",
+  "total_signals": 574,
   "total_resolved": 527,
   "total_correct": 327,
   "overall_hit_rate": 62.0,
@@ -12,7 +12,7 @@
       "hit_rate": 65.9
     },
     "Moderate": {
-      "total": 331,
+      "total": 332,
       "resolved": 300,
       "correct": 184,
       "hit_rate": 61.3
@@ -9765,6 +9765,23 @@
       "correct": true,
       "resolved_outcome": "Texas Rangers",
       "resolved_date": "2026-08-01"
+    },
+    {
+      "signal_key": "0x8cfb2ee36e536b24ee18075ebaa8f1f5aff8692a103b7d4f8b2d9a5f8aba2113:1",
+      "condition_id": "0x8cfb2ee36e536b24ee18075ebaa8f1f5aff8692a103b7d4f8b2d9a5f8aba2113",
+      "title": "Hamburg European Open: Anna Bondar vs Tamara Korpatsch",
+      "category": "Tennis",
+      "whale_direction": "Tamara Korpatsch",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 4.5586,
+      "total_value_usd": 139248.32,
+      "entry_price": 0.51,
+      "end_date": "2026-08-02",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }

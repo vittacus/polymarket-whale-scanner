@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-26T12:20:42+00:00",
-  "total_evaluated": 573,
-  "total_pending": 46,
+  "generated_at": "2026-07-26T14:11:17+00:00",
+  "total_evaluated": 574,
+  "total_pending": 47,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 573,
+      "signals_evaluated": 574,
       "correct": 327,
       "wrong": 200,
-      "pending": 46,
+      "pending": 47,
       "win_rate": 62.0,
       "signals": [
         {
@@ -8034,6 +8034,20 @@
           "end_date": "2026-08-01",
           "total_value_usd": 39232.31,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x8cfb2ee36e536b24ee18075ebaa8f1f5aff8692a103b7d4f8b2d9a5f8aba2113:1",
+          "condition_id": "0x8cfb2ee36e536b24ee18075ebaa8f1f5aff8692a103b7d4f8b2d9a5f8aba2113",
+          "title": "Hamburg European Open: Anna Bondar vs Tamara Korpatsch",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.51,
+          "whale_direction": "Tamara Korpatsch",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-02",
+          "total_value_usd": 139248.32,
+          "result": "pending"
         }
       ]
     },
