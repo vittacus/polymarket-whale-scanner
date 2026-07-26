@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-26T14:11:16+00:00",
-  "total_signals": 574,
-  "total_resolved": 527,
-  "total_correct": 327,
-  "overall_hit_rate": 62.0,
+  "generated_at": "2026-07-26T15:24:13+00:00",
+  "total_signals": 575,
+  "total_resolved": 528,
+  "total_correct": 328,
+  "overall_hit_rate": 62.1,
   "by_tier": {
     "Strong": {
       "total": 199,
@@ -12,10 +12,10 @@
       "hit_rate": 65.9
     },
     "Moderate": {
-      "total": 332,
-      "resolved": 300,
-      "correct": 184,
-      "hit_rate": 61.3
+      "total": 333,
+      "resolved": 301,
+      "correct": 185,
+      "hit_rate": 61.5
     },
     "Weak": {
       "total": 43,
@@ -9776,6 +9776,23 @@
       "tier": "Moderate",
       "score": 4.5586,
       "total_value_usd": 139248.32,
+      "entry_price": 0.51,
+      "end_date": "2026-08-02",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Tamara Korpatsch",
+      "resolved_date": "2026-08-02"
+    },
+    {
+      "signal_key": "0xada774e7a91bc3d2631121d9700418f06763e2b5a9c45a50d834b3f4facf2a2d:1",
+      "condition_id": "0xada774e7a91bc3d2631121d9700418f06763e2b5a9c45a50d834b3f4facf2a2d",
+      "title": "Mubadala Citi DC Open, Qualification: Polina Kudermetova vs Varvara Lepchenko",
+      "category": "Tennis",
+      "whale_direction": "Varvara Lepchenko",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 4.5464,
+      "total_value_usd": 45631.53,
       "entry_price": 0.51,
       "end_date": "2026-08-02",
       "resolved": false,
