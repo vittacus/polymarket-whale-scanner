@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-26T21:58:43+00:00",
+  "generated_at": "2026-07-26T22:59:00+00:00",
   "total_evaluated": 592,
-  "total_pending": 60,
+  "total_pending": 48,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 592,
-      "correct": 331,
-      "wrong": 201,
-      "pending": 60,
-      "win_rate": 62.2,
+      "correct": 340,
+      "wrong": 204,
+      "pending": 48,
+      "win_rate": 62.5,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -8099,11 +8099,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Pittsburgh Pirates",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Pittsburgh Pirates",
+          "resolved_date": "2026-08-02",
           "end_date": "2026-08-02",
           "total_value_usd": 205243.08,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x35aac9c57822c13bcef8c3b3d346b329725d34595603c5a44cae80f077383cb3:0",
@@ -8113,11 +8113,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Atlanta Braves",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Atlanta Braves",
+          "resolved_date": "2026-08-02",
           "end_date": "2026-08-02",
           "total_value_usd": 16317.25,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc2c26a370125880fa3feb43d2b6e33f227458378319b3df0ee2c6727e4553fbb:1",
@@ -8141,11 +8141,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Mets",
+          "resolved_date": "2026-08-02",
           "end_date": "2026-08-02",
           "total_value_usd": 36154.38,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xd3bc434d5e0cdbbae789c494bba5a718014eab813fe7db2a00543125e185a888:1",
@@ -8155,11 +8155,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Washington Nationals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Washington Nationals",
+          "resolved_date": "2026-08-02",
           "end_date": "2026-08-02",
           "total_value_usd": 32925.83,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xeb7380c859e4eb8025aa04d8988d7655cd95b4fe002c4fedbb2970334e6ab549:1",
@@ -8169,11 +8169,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "St. Louis Cardinals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Cincinnati Reds",
+          "resolved_date": "2026-08-02",
           "end_date": "2026-08-02",
           "total_value_usd": 22267.38,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xbc2cab6671496f760cf7784d22f8f9c70a5231eaffad0108ec8f0b5a616785c8:1",
@@ -8211,11 +8211,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "San Diego Padres",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "San Diego Padres",
+          "resolved_date": "2026-08-02",
           "end_date": "2026-08-02",
           "total_value_usd": 182931.08,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x6120e5f1457724ad6f8f47855170c2e48c759bd6cf90164583933e8a8a19a0e0:1",
@@ -8225,11 +8225,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Texas Rangers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Seattle Mariners",
+          "resolved_date": "2026-08-02",
           "end_date": "2026-08-02",
           "total_value_usd": 264547.18,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xf41cd6adb7621774418cb7b1bd4f4af742db92bd090a39c3fc4153fb48ca0d87:1",
@@ -8239,11 +8239,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "New York Mets",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Mets",
+          "resolved_date": "2026-08-02",
           "end_date": "2026-08-02",
           "total_value_usd": 24123.29,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xeddbe0ce05ecbdef1afc8859e5759464b323ed18d1db36cded1b6bcd7dbbca40:0",
@@ -8253,11 +8253,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Kansas City Royals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Kansas City Royals",
+          "resolved_date": "2026-08-02",
           "end_date": "2026-08-02",
           "total_value_usd": 68164.85,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x6120e5f1457724ad6f8f47855170c2e48c759bd6cf90164583933e8a8a19a0e0:0",
@@ -8267,11 +8267,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Seattle Mariners",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Seattle Mariners",
+          "resolved_date": "2026-08-02",
           "end_date": "2026-08-02",
           "total_value_usd": 277159.23,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x01b7fc1d16bab99df66c1a697eb4327e0d00527ac5d55bcdf32095becc8a3300:1",
@@ -8281,11 +8281,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Trevor Svajda",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Trevor Svajda",
+          "resolved_date": "2026-08-02",
           "end_date": "2026-08-02",
           "total_value_usd": 103445.21,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xeb7380c859e4eb8025aa04d8988d7655cd95b4fe002c4fedbb2970334e6ab549:0",
@@ -8295,11 +8295,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Cincinnati Reds",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Cincinnati Reds",
+          "resolved_date": "2026-08-02",
           "end_date": "2026-08-02",
           "total_value_usd": 43871.5,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
