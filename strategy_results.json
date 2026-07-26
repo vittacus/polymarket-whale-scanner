@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-26T20:56:26+00:00",
-  "total_evaluated": 588,
-  "total_pending": 56,
+  "generated_at": "2026-07-26T21:58:43+00:00",
+  "total_evaluated": 592,
+  "total_pending": 60,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 588,
+      "signals_evaluated": 592,
       "correct": 331,
       "wrong": 201,
-      "pending": 56,
+      "pending": 60,
       "win_rate": 62.2,
       "signals": [
         {
@@ -8243,6 +8243,62 @@
           "resolved_date": null,
           "end_date": "2026-08-02",
           "total_value_usd": 24123.29,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xeddbe0ce05ecbdef1afc8859e5759464b323ed18d1db36cded1b6bcd7dbbca40:0",
+          "condition_id": "0xeddbe0ce05ecbdef1afc8859e5759464b323ed18d1db36cded1b6bcd7dbbca40",
+          "title": "Kansas City Royals vs. Detroit Tigers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Kansas City Royals",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-02",
+          "total_value_usd": 68164.85,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x6120e5f1457724ad6f8f47855170c2e48c759bd6cf90164583933e8a8a19a0e0:0",
+          "condition_id": "0x6120e5f1457724ad6f8f47855170c2e48c759bd6cf90164583933e8a8a19a0e0",
+          "title": "Seattle Mariners vs. Texas Rangers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Seattle Mariners",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-02",
+          "total_value_usd": 277159.23,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x01b7fc1d16bab99df66c1a697eb4327e0d00527ac5d55bcdf32095becc8a3300:1",
+          "condition_id": "0x01b7fc1d16bab99df66c1a697eb4327e0d00527ac5d55bcdf32095becc8a3300",
+          "title": "Mubadala Citi DC Open, Qualification: Mackenzie McDonald vs Trevor Svajda",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Trevor Svajda",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-02",
+          "total_value_usd": 103445.21,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xeb7380c859e4eb8025aa04d8988d7655cd95b4fe002c4fedbb2970334e6ab549:0",
+          "condition_id": "0xeb7380c859e4eb8025aa04d8988d7655cd95b4fe002c4fedbb2970334e6ab549",
+          "title": "Cincinnati Reds vs. St. Louis Cardinals",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Cincinnati Reds",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-02",
+          "total_value_usd": 43871.5,
           "result": "pending"
         }
       ]
