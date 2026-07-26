@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-26T16:33:23+00:00",
+  "generated_at": "2026-07-26T17:38:11+00:00",
   "total_signals": 577,
-  "total_resolved": 528,
-  "total_correct": 328,
+  "total_resolved": 530,
+  "total_correct": 329,
   "overall_hit_rate": 62.1,
   "by_tier": {
     "Strong": {
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 335,
-      "resolved": 301,
-      "correct": 185,
-      "hit_rate": 61.5
+      "resolved": 303,
+      "correct": 186,
+      "hit_rate": 61.4
     },
     "Weak": {
       "total": 43,
@@ -9795,10 +9795,10 @@
       "total_value_usd": 45631.53,
       "entry_price": 0.51,
       "end_date": "2026-08-02",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Polina Kudermetova",
+      "resolved_date": "2026-08-02"
     },
     {
       "signal_key": "0x6d4885d1cd0e2deaf7c77746806ffe22b49731efebe6cee621f7615ba73da0d6:1",
@@ -9829,10 +9829,10 @@
       "total_value_usd": 93529.52,
       "entry_price": 0.505,
       "end_date": "2026-08-02",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Polina Kudermetova",
+      "resolved_date": "2026-08-02"
     }
   ]
 }
