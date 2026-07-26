@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-26T15:24:13+00:00",
-  "total_evaluated": 575,
-  "total_pending": 47,
+  "generated_at": "2026-07-26T16:33:23+00:00",
+  "total_evaluated": 577,
+  "total_pending": 49,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 575,
+      "signals_evaluated": 577,
       "correct": 328,
       "wrong": 200,
-      "pending": 47,
+      "pending": 49,
       "win_rate": 62.1,
       "signals": [
         {
@@ -8061,6 +8061,34 @@
           "resolved_date": null,
           "end_date": "2026-08-02",
           "total_value_usd": 45631.53,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x6d4885d1cd0e2deaf7c77746806ffe22b49731efebe6cee621f7615ba73da0d6:1",
+          "condition_id": "0x6d4885d1cd0e2deaf7c77746806ffe22b49731efebe6cee621f7615ba73da0d6",
+          "title": "Cleveland Guardians vs. Tampa Bay Rays",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Tampa Bay Rays",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-02",
+          "total_value_usd": 14381.66,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xada774e7a91bc3d2631121d9700418f06763e2b5a9c45a50d834b3f4facf2a2d:0",
+          "condition_id": "0xada774e7a91bc3d2631121d9700418f06763e2b5a9c45a50d834b3f4facf2a2d",
+          "title": "Mubadala Citi DC Open, Qualification: Polina Kudermetova vs Varvara Lepchenko",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Polina Kudermetova",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-02",
+          "total_value_usd": 93529.52,
           "result": "pending"
         }
       ]
