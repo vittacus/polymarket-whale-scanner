@@ -197044,5 +197044,349 @@
         "entry_price": 0.515
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-27T22:55:28+00:00",
+    "whale_timeframes": {
+      "0x714a685b5454ea4d52979563bbafa77b8168ab2f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3a8aa345d5db7ec5138298c8c4f4540259be7699": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0ca28d5b0141f0a8e7b251dea80fd881cb166ed": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xde7be6d489bce070a959e0cb813128ae659b5f4b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf7429705e25b619338412967f0a70260b6e1e039": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa71093cafc0c099b4ccab24c3cb8018d817923c4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa309f903dbbd559e87d8d368834b8e41355c4cf2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x03805a13a0b3e058f55f6c6af95389d4f431073d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2f7709800bdd3cf81b1c89c4f8b94b36caf59da4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe548376f231af12b4d56aff55a7503a88892a9fe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x16bb9951a36fce71e2ef57890b786145e0ba8492": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd218e474776403a330142299f7796e8ba32eb5c9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x8bf1c1536ecb1c08fe13c6b71e8ab1f58bf3461c4cb79f5f1679f869a06aef86:1",
+        "condition_id": "0x8bf1c1536ecb1c08fe13c6b71e8ab1f58bf3461c4cb79f5f1679f869a06aef86",
+        "title": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x714a685b5454ea4d52979563bbafa77b8168ab2f",
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991",
+          "0xde7be6d489bce070a959e0cb813128ae659b5f4b"
+        ],
+        "ranks": [
+          1,
+          2,
+          5,
+          7
+        ],
+        "total_value_usd": 1054920.64,
+        "score": 44.7275,
+        "category": "Economic Policy",
+        "end_date": "2026-07-29",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0x80b3af88cb991980e8da1ce86b9794a0957f96ec98c29319dd7ba65e9744d82b:0",
+        "condition_id": "0x80b3af88cb991980e8da1ce86b9794a0957f96ec98c29319dd7ba65e9744d82b",
+        "title": "Fed rate hike in 2026?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x714a685b5454ea4d52979563bbafa77b8168ab2f",
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0xa309f903dbbd559e87d8d368834b8e41355c4cf2"
+        ],
+        "ranks": [
+          1,
+          2,
+          15
+        ],
+        "total_value_usd": 462726.49,
+        "score": 35.7647,
+        "category": "CPI Release",
+        "end_date": "2026-12-09",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0xa38f0aba5b78cfc9894826c431dc6c8b16e1dff8bb1f4ff3b9ab51d35e12cd55:1",
+        "condition_id": "0xa38f0aba5b78cfc9894826c431dc6c8b16e1dff8bb1f4ff3b9ab51d35e12cd55",
+        "title": "Will NVIDIA be the largest company in the world by market cap on July 31?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 5,
+        "wallets": [
+          "0x714a685b5454ea4d52979563bbafa77b8168ab2f",
+          "0xf0ca28d5b0141f0a8e7b251dea80fd881cb166ed",
+          "0x03805a13a0b3e058f55f6c6af95389d4f431073d",
+          "0x2f7709800bdd3cf81b1c89c4f8b94b36caf59da4",
+          "0xd218e474776403a330142299f7796e8ba32eb5c9"
+        ],
+        "ranks": [
+          1,
+          4,
+          16,
+          17,
+          20
+        ],
+        "total_value_usd": 332976.17,
+        "score": 31.6283,
+        "category": "Tech",
+        "end_date": "2026-07-31",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x5f0f80c1d904c0348409832375a6d36580f9a552295ae3dba2595adfcea84a97:0",
+        "condition_id": "0x5f0f80c1d904c0348409832375a6d36580f9a552295ae3dba2595adfcea84a97",
+        "title": "Will Apple be the largest company in the world by market cap on July 31?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x714a685b5454ea4d52979563bbafa77b8168ab2f",
+          "0xf0ca28d5b0141f0a8e7b251dea80fd881cb166ed",
+          "0x03805a13a0b3e058f55f6c6af95389d4f431073d"
+        ],
+        "ranks": [
+          1,
+          4,
+          16
+        ],
+        "total_value_usd": 105307.65,
+        "score": 26.5626,
+        "category": "Tech",
+        "end_date": "2026-07-31",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0xb5c0abeecb5502e6e8d83155c27819174d8317af3c425c3afc5a8c45257a3793:0",
+        "condition_id": "0xb5c0abeecb5502e6e8d83155c27819174d8317af3c425c3afc5a8c45257a3793",
+        "title": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 5,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991",
+          "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
+          "0xa309f903dbbd559e87d8d368834b8e41355c4cf2",
+          "0x03805a13a0b3e058f55f6c6af95389d4f431073d"
+        ],
+        "ranks": [
+          2,
+          5,
+          7,
+          15,
+          16
+        ],
+        "total_value_usd": 1220093.42,
+        "score": 23.8391,
+        "category": "Economic Policy",
+        "end_date": "2026-07-29",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0x2a28cc33492516116690a20d290f9922acbe0ed367ff52a6082154474c7f2971:0",
+        "condition_id": "0x2a28cc33492516116690a20d290f9922acbe0ed367ff52a6082154474c7f2971",
+        "title": "Will the Fed increase interest rates by 50+ bps after the July 2026 meeting?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x714a685b5454ea4d52979563bbafa77b8168ab2f",
+          "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991",
+          "0xde7be6d489bce070a959e0cb813128ae659b5f4b"
+        ],
+        "ranks": [
+          1,
+          5,
+          7
+        ],
+        "total_value_usd": 8454.14,
+        "score": 21.2499,
+        "category": "Economic Policy",
+        "end_date": "2026-07-29",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0xd4e77ba6f29fc093509d24f508631abd445ecf506bbdc9c4c80e60256a318527:0",
+        "condition_id": "0xd4e77ba6f29fc093509d24f508631abd445ecf506bbdc9c4c80e60256a318527",
+        "title": "Will no Fed rate cuts happen in 2026?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991",
+          "0xa309f903dbbd559e87d8d368834b8e41355c4cf2"
+        ],
+        "ranks": [
+          2,
+          5,
+          15
+        ],
+        "total_value_usd": 469685.97,
+        "score": 17.5219,
+        "category": "Rewards 200, 4.5, 50 Deprec",
+        "end_date": "2026-12-31",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0x2a28cc33492516116690a20d290f9922acbe0ed367ff52a6082154474c7f2971:1",
+        "condition_id": "0x2a28cc33492516116690a20d290f9922acbe0ed367ff52a6082154474c7f2971",
+        "title": "Will the Fed increase interest rates by 50+ bps after the July 2026 meeting?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0x03805a13a0b3e058f55f6c6af95389d4f431073d",
+          "0xd218e474776403a330142299f7796e8ba32eb5c9"
+        ],
+        "ranks": [
+          2,
+          16,
+          20
+        ],
+        "total_value_usd": 82106.06,
+        "score": 12.1291,
+        "category": "Economic Policy",
+        "end_date": "2026-07-29",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x4e4f77e7dbf4cab666e9a1943674d7ae66348e862df03ea6f44b11eb95731928:1",
+        "condition_id": "0x4e4f77e7dbf4cab666e9a1943674d7ae66348e862df03ea6f44b11eb95731928",
+        "title": "Will the Republican Party control the House after the 2026 Midterm elections?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991",
+          "0x03805a13a0b3e058f55f6c6af95389d4f431073d",
+          "0xd218e474776403a330142299f7796e8ba32eb5c9"
+        ],
+        "ranks": [
+          5,
+          16,
+          20
+        ],
+        "total_value_usd": 6678.96,
+        "score": 4.8163,
+        "category": "Parent For Derivative",
+        "end_date": "2026-11-03",
+        "entry_price": 0.515
+      }
+    ]
   }
 ]
