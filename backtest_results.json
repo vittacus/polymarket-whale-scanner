@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-27T20:47:05+00:00",
-  "total_signals": 596,
+  "generated_at": "2026-07-27T21:52:15+00:00",
+  "total_signals": 597,
   "total_resolved": 552,
   "total_correct": 346,
   "overall_hit_rate": 62.7,
   "by_tier": {
     "Strong": {
-      "total": 210,
+      "total": 211,
       "resolved": 198,
       "correct": 132,
       "hit_rate": 66.7
@@ -10152,6 +10152,23 @@
       "total_value_usd": 177457.42,
       "entry_price": 0.505,
       "end_date": "2026-08-03",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x2a28cc33492516116690a20d290f9922acbe0ed367ff52a6082154474c7f2971:1",
+      "condition_id": "0x2a28cc33492516116690a20d290f9922acbe0ed367ff52a6082154474c7f2971",
+      "title": "Will the Fed increase interest rates by 50+ bps after the July 2026 meeting?",
+      "category": "Economic Policy",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 22.3172,
+      "total_value_usd": 82106.06,
+      "entry_price": 0.505,
+      "end_date": "2026-07-29",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
