@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-27T00:01:05+00:00",
-  "total_evaluated": 592,
+  "generated_at": "2026-07-27T02:36:59+00:00",
+  "total_evaluated": 593,
   "total_pending": 46,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 592,
-      "correct": 341,
+      "signals_evaluated": 593,
+      "correct": 342,
       "wrong": 205,
       "pending": 46,
       "win_rate": 62.5,
@@ -7399,11 +7399,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-10-31",
           "end_date": "2026-10-31",
           "total_value_usd": 55620.38,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x0ff22cf1f7f86a8f6a1f46ebff9afc02d2f2f8be82ed1655a079fd2f8b8d450e:1",
@@ -8300,6 +8300,20 @@
           "end_date": "2026-08-02",
           "total_value_usd": 43871.5,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x30fc482e9a834a122fa4aeb0e9d90b72621e9e9fff1ade8f3dd35399439d7f8c:1",
+          "condition_id": "0x30fc482e9a834a122fa4aeb0e9d90b72621e9e9fff1ade8f3dd35399439d7f8c",
+          "title": "New York Yankees vs. Philadelphia Phillies",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Philadelphia Phillies",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-02",
+          "total_value_usd": 485185.06,
+          "result": "pending"
         }
       ]
     },

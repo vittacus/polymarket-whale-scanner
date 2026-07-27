@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-27T00:01:05+00:00",
-  "total_signals": 592,
-  "total_resolved": 546,
-  "total_correct": 341,
+  "generated_at": "2026-07-27T02:36:59+00:00",
+  "total_signals": 593,
+  "total_resolved": 547,
+  "total_correct": 342,
   "overall_hit_rate": 62.5,
   "by_tier": {
     "Strong": {
-      "total": 207,
-      "resolved": 193,
-      "correct": 128,
-      "hit_rate": 66.3
+      "total": 208,
+      "resolved": 194,
+      "correct": 129,
+      "hit_rate": 66.5
     },
     "Moderate": {
       "total": 342,
@@ -8996,10 +8996,10 @@
       "total_value_usd": 55620.38,
       "entry_price": 0.505,
       "end_date": "2026-10-31",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-10-31"
     },
     {
       "signal_key": "0x0ff22cf1f7f86a8f6a1f46ebff9afc02d2f2f8be82ed1655a079fd2f8b8d450e:1",
@@ -10088,6 +10088,23 @@
       "correct": true,
       "resolved_outcome": "Cincinnati Reds",
       "resolved_date": "2026-08-02"
+    },
+    {
+      "signal_key": "0x30fc482e9a834a122fa4aeb0e9d90b72621e9e9fff1ade8f3dd35399439d7f8c:1",
+      "condition_id": "0x30fc482e9a834a122fa4aeb0e9d90b72621e9e9fff1ade8f3dd35399439d7f8c",
+      "title": "New York Yankees vs. Philadelphia Phillies",
+      "category": "MLB",
+      "whale_direction": "Philadelphia Phillies",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 33.1657,
+      "total_value_usd": 485185.06,
+      "entry_price": 0.505,
+      "end_date": "2026-08-02",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
