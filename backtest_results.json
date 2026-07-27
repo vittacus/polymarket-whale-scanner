@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-27T17:46:33+00:00",
-  "total_signals": 594,
+  "generated_at": "2026-07-27T19:06:17+00:00",
+  "total_signals": 595,
   "total_resolved": 551,
   "total_correct": 345,
   "overall_hit_rate": 62.6,
@@ -12,7 +12,7 @@
       "hit_rate": 66.7
     },
     "Moderate": {
-      "total": 342,
+      "total": 343,
       "resolved": 311,
       "correct": 192,
       "hit_rate": 61.7
@@ -10118,6 +10118,23 @@
       "total_value_usd": 336448.06,
       "entry_price": 0.505,
       "end_date": "2026-07-31",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xc1075db1b8dce58b0b9a505fc202a0ac288308e5f2b8e5a11510229d170cb4af:0",
+      "condition_id": "0xc1075db1b8dce58b0b9a505fc202a0ac288308e5f2b8e5a11510229d170cb4af",
+      "title": "Mubadala Citi DC Open: Emma Navarro vs Sofia Kenin",
+      "category": "Tennis",
+      "whale_direction": "Emma Navarro",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 6.1102,
+      "total_value_usd": 150579.73,
+      "entry_price": 0.505,
+      "end_date": "2026-08-03",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
