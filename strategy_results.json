@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-27T02:36:59+00:00",
+  "generated_at": "2026-07-27T06:11:20+00:00",
   "total_evaluated": 593,
-  "total_pending": 46,
+  "total_pending": 42,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 593,
-      "correct": 342,
-      "wrong": 205,
-      "pending": 46,
-      "win_rate": 62.5,
+      "correct": 345,
+      "wrong": 206,
+      "pending": 42,
+      "win_rate": 62.6,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -7413,11 +7413,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-10-31",
           "end_date": "2026-10-31",
           "total_value_usd": 39040.5,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x2053d8515f1b8cbeea4ccdb56e60e89c2617e43a8660d95166b8e71d27865277:0",
@@ -7623,11 +7623,11 @@
           "tier": "Strong",
           "entry_price": 0.515,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-10-31",
           "end_date": "2026-10-31",
           "total_value_usd": 74159.72,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x05297f854d3b757d5e51a1a29c7f225a80b14b2a161d6b7f9a61677da7a80ced:1",
@@ -7665,11 +7665,11 @@
           "tier": "Strong",
           "entry_price": 0.525,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Yes",
+          "resolved_date": "2026-10-31",
           "end_date": "2026-10-31",
           "total_value_usd": 414412.04,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x04ba2011a9bd82d9773f34928d5d0e9bd0f36e0bab504689e11e467fcdf7ec23:0",
@@ -8309,11 +8309,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Philadelphia Phillies",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Philadelphia Phillies",
+          "resolved_date": "2026-08-02",
           "end_date": "2026-08-02",
           "total_value_usd": 485185.06,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
