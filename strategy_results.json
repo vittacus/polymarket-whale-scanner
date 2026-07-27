@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-26T22:59:00+00:00",
+  "generated_at": "2026-07-27T00:01:05+00:00",
   "total_evaluated": 592,
-  "total_pending": 48,
+  "total_pending": 46,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 592,
-      "correct": 340,
-      "wrong": 204,
-      "pending": 48,
+      "correct": 341,
+      "wrong": 205,
+      "pending": 46,
       "win_rate": 62.5,
       "signals": [
         {
@@ -8183,11 +8183,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "San Francisco Giants",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Angels",
+          "resolved_date": "2026-08-02",
           "end_date": "2026-08-02",
           "total_value_usd": 13201.59,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xbc2cab6671496f760cf7784d22f8f9c70a5231eaffad0108ec8f0b5a616785c8:0",
@@ -8197,11 +8197,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Los Angeles Angels",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Angels",
+          "resolved_date": "2026-08-02",
           "end_date": "2026-08-02",
           "total_value_usd": 184768.8,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x4bf87eedd605efd44455804dae31df4f0417cc12f97ffc50b1765db7b768f959:0",
