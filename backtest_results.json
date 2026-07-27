@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-27T13:25:49+00:00",
-  "total_signals": 593,
+  "generated_at": "2026-07-27T16:02:17+00:00",
+  "total_signals": 594,
   "total_resolved": 551,
   "total_correct": 345,
   "overall_hit_rate": 62.6,
   "by_tier": {
     "Strong": {
-      "total": 208,
+      "total": 209,
       "resolved": 198,
       "correct": 132,
       "hit_rate": 66.7
@@ -10105,6 +10105,23 @@
       "correct": true,
       "resolved_outcome": "Philadelphia Phillies",
       "resolved_date": "2026-08-02"
+    },
+    {
+      "signal_key": "0xa38f0aba5b78cfc9894826c431dc6c8b16e1dff8bb1f4ff3b9ab51d35e12cd55:1",
+      "condition_id": "0xa38f0aba5b78cfc9894826c431dc6c8b16e1dff8bb1f4ff3b9ab51d35e12cd55",
+      "title": "Will NVIDIA be the largest company in the world by market cap on July 31?",
+      "category": "Tech",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 12.0899,
+      "total_value_usd": 336448.06,
+      "entry_price": 0.505,
+      "end_date": "2026-07-31",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }

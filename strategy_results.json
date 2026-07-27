@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-27T13:25:50+00:00",
-  "total_evaluated": 593,
-  "total_pending": 42,
+  "generated_at": "2026-07-27T16:02:17+00:00",
+  "total_evaluated": 594,
+  "total_pending": 43,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 593,
+      "signals_evaluated": 594,
       "correct": 345,
       "wrong": 206,
-      "pending": 42,
+      "pending": 43,
       "win_rate": 62.6,
       "signals": [
         {
@@ -8314,6 +8314,20 @@
           "end_date": "2026-08-02",
           "total_value_usd": 485185.06,
           "result": "correct"
+        },
+        {
+          "signal_key": "0xa38f0aba5b78cfc9894826c431dc6c8b16e1dff8bb1f4ff3b9ab51d35e12cd55:1",
+          "condition_id": "0xa38f0aba5b78cfc9894826c431dc6c8b16e1dff8bb1f4ff3b9ab51d35e12cd55",
+          "title": "Will NVIDIA be the largest company in the world by market cap on July 31?",
+          "category": "Tech",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-07-31",
+          "total_value_usd": 336448.06,
+          "result": "pending"
         }
       ]
     },
