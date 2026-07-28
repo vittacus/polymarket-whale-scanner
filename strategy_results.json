@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-27T23:00:34+00:00",
-  "total_evaluated": 597,
-  "total_pending": 44,
+  "generated_at": "2026-07-28T00:02:55+00:00",
+  "total_evaluated": 598,
+  "total_pending": 45,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 597,
+      "signals_evaluated": 598,
       "correct": 347,
       "wrong": 206,
-      "pending": 44,
+      "pending": 45,
       "win_rate": 62.7,
       "signals": [
         {
@@ -8369,6 +8369,20 @@
           "resolved_date": null,
           "end_date": "2026-07-29",
           "total_value_usd": 82106.06,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x303d1171c8df2ac6f158924fb781a6beae5ada70823e5c68a5a1ff94d098f6f0:0",
+          "condition_id": "0x303d1171c8df2ac6f158924fb781a6beae5ada70823e5c68a5a1ff94d098f6f0",
+          "title": "Toronto Blue Jays vs. Washington Nationals",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Toronto Blue Jays",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-03",
+          "total_value_usd": 110514.65,
           "result": "pending"
         }
       ]
