@@ -198663,5 +198663,155 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-07-28T18:03:00+00:00",
+    "whale_timeframes": {
+      "0x27c5c1eee404a07f39fe70078aff815e5a656d61": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa71093cafc0c099b4ccab24c3cb8018d817923c4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x684baa57c338c2549aec0aa3f034f695d72a8409": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1b20a00709dfe648afd26b326394b5e031f83ab0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4ab9b54427ec4b7f3646b1a0ef1bed73bc708ebe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf40d629171e59c70b47fd7714f43638eb065343d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0feb1bf966bc7f954c2da0293ae2fdc572c5db5d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd218e474776403a330142299f7796e8ba32eb5c9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3d8a89a20aa73fba0f30d080e8120de9f9555724": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84dbb7103982e3617704a2ed7d5b39691952aeeb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x69c5c6f6a4dda665991c203bc8d5df3e006b1e01": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbb5fbe810633ab08d106b82db84418a0e2ca2e21": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5a218c7ad04135830a45c41aaed7294df7809318": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe9514aa0b925353ea0d5e32978d636ec25ebde18": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x5428aa81f6377d5fe8c8df2ef7b861c9f1ef67b23b77e725acf499b44217f3e6:0",
+        "condition_id": "0x5428aa81f6377d5fe8c8df2ef7b861c9f1ef67b23b77e725acf499b44217f3e6",
+        "title": "Cleveland Guardians vs. Cincinnati Reds",
+        "outcome": "Cleveland Guardians",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x684baa57c338c2549aec0aa3f034f695d72a8409",
+          "0x1b20a00709dfe648afd26b326394b5e031f83ab0",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+        ],
+        "ranks": [
+          3,
+          4,
+          13
+        ],
+        "total_value_usd": 52592.21,
+        "score": 12.5601,
+        "category": "MLB",
+        "end_date": "2026-08-03",
+        "entry_price": 0.505
+      }
+    ]
   }
 ]
