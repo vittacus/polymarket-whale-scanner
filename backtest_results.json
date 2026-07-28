@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-28T18:08:46+00:00",
-  "total_signals": 600,
+  "generated_at": "2026-07-28T19:56:39+00:00",
+  "total_signals": 602,
   "total_resolved": 555,
   "total_correct": 349,
   "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
-      "total": 212,
+      "total": 213,
       "resolved": 199,
       "correct": 133,
       "hit_rate": 66.8
     },
     "Moderate": {
-      "total": 345,
+      "total": 346,
       "resolved": 314,
       "correct": 195,
       "hit_rate": 62.1
@@ -10218,6 +10218,40 @@
       "tier": "Strong",
       "score": 12.5601,
       "total_value_usd": 52592.21,
+      "entry_price": 0.505,
+      "end_date": "2026-08-03",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x59d2fc404ff56828ed2b6f2ae4cd765de2f608248d6038f4e588b8a2ecaae443:1",
+      "condition_id": "0x59d2fc404ff56828ed2b6f2ae4cd765de2f608248d6038f4e588b8a2ecaae443",
+      "title": "Philadelphia Phillies vs. Miami Marlins",
+      "category": "MLB",
+      "whale_direction": "Miami Marlins",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 22.4344,
+      "total_value_usd": 171656.97,
+      "entry_price": 0.505,
+      "end_date": "2026-08-04",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x5428aa81f6377d5fe8c8df2ef7b861c9f1ef67b23b77e725acf499b44217f3e6:1",
+      "condition_id": "0x5428aa81f6377d5fe8c8df2ef7b861c9f1ef67b23b77e725acf499b44217f3e6",
+      "title": "Cleveland Guardians vs. Cincinnati Reds",
+      "category": "MLB",
+      "whale_direction": "Cincinnati Reds",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 9.111,
+      "total_value_usd": 267036.97,
       "entry_price": 0.505,
       "end_date": "2026-08-03",
       "resolved": false,
