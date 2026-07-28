@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-28T22:20:48+00:00",
-  "total_signals": 602,
-  "total_resolved": 555,
-  "total_correct": 349,
+  "generated_at": "2026-07-28T23:33:25+00:00",
+  "total_signals": 603,
+  "total_resolved": 556,
+  "total_correct": 350,
   "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
@@ -12,10 +12,10 @@
       "hit_rate": 66.8
     },
     "Moderate": {
-      "total": 346,
-      "resolved": 314,
-      "correct": 195,
-      "hit_rate": 62.1
+      "total": 347,
+      "resolved": 315,
+      "correct": 196,
+      "hit_rate": 62.2
     },
     "Weak": {
       "total": 43,
@@ -8792,10 +8792,10 @@
       "total_value_usd": 4179.81,
       "entry_price": 0.505,
       "end_date": "2026-07-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-07-25"
     },
     {
       "signal_key": "0xb1b7e274700ba49508121b63bda92a8a2838cea68caddcb1636750769e82523d:1",
@@ -10254,6 +10254,23 @@
       "total_value_usd": 267036.97,
       "entry_price": 0.505,
       "end_date": "2026-08-03",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xf262c56784f6a893d1f609f89ff725c6ab1a66ced0b09fc2970e258d2dc98cc7:0",
+      "condition_id": "0xf262c56784f6a893d1f609f89ff725c6ab1a66ced0b09fc2970e258d2dc98cc7",
+      "title": "Cleveland Guardians vs. Cincinnati Reds",
+      "category": "MLB",
+      "whale_direction": "Cleveland Guardians",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 7.5528,
+      "total_value_usd": 45958.83,
+      "entry_price": 0.505,
+      "end_date": "2026-08-04",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
