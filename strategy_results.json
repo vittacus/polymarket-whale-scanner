@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-29T21:39:35+00:00",
+  "generated_at": "2026-07-29T22:43:22+00:00",
   "total_evaluated": 617,
-  "total_pending": 47,
+  "total_pending": 43,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 617,
-      "correct": 357,
-      "wrong": 213,
-      "pending": 47,
-      "win_rate": 62.6,
+      "correct": 359,
+      "wrong": 215,
+      "pending": 43,
+      "win_rate": 62.5,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -8505,11 +8505,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Alex de Minaur",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alex de Minaur",
+          "resolved_date": "2026-08-03",
           "end_date": "2026-08-03",
           "total_value_usd": 147922.42,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc47def8dcf6d67008bcc17893a428b9c34ea2cf8e9df6dc391d9e40a7ca6a13f:1",
@@ -8519,11 +8519,11 @@
           "tier": "Weak",
           "entry_price": 0.505,
           "whale_direction": "Stefanos Tsitsipas",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alex de Minaur",
+          "resolved_date": "2026-08-03",
           "end_date": "2026-08-03",
           "total_value_usd": 22713.64,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xeb24a4ebd21a1351b50151b8213cea02ea0e822f5aee2c4d5d72c452235db1b0:0",
@@ -8575,11 +8575,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Toronto Blue Jays",
+          "resolved_date": "2026-08-05",
           "end_date": "2026-08-05",
           "total_value_usd": 91633.05,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xeb24a4ebd21a1351b50151b8213cea02ea0e822f5aee2c4d5d72c452235db1b0:1",
@@ -8603,11 +8603,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Detroit Tigers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Baltimore Orioles",
+          "resolved_date": "2026-08-05",
           "end_date": "2026-08-05",
           "total_value_usd": 13325.86,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xdc9291fb5367d9eb43dd5f359ff74ae87b9c1874b8597e1500898a063ea925ab:0",

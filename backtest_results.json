@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-07-29T21:39:35+00:00",
+  "generated_at": "2026-07-29T22:43:21+00:00",
   "total_signals": 617,
-  "total_resolved": 570,
-  "total_correct": 357,
-  "overall_hit_rate": 62.6,
+  "total_resolved": 574,
+  "total_correct": 359,
+  "overall_hit_rate": 62.5,
   "by_tier": {
     "Strong": {
       "total": 219,
-      "resolved": 206,
-      "correct": 137,
-      "hit_rate": 66.5
+      "resolved": 207,
+      "correct": 138,
+      "hit_rate": 66.7
     },
     "Moderate": {
       "total": 354,
-      "resolved": 322,
-      "correct": 199,
-      "hit_rate": 61.8
+      "resolved": 324,
+      "correct": 200,
+      "hit_rate": 61.7
     },
     "Weak": {
       "total": 44,
-      "resolved": 42,
+      "resolved": 43,
       "correct": 21,
-      "hit_rate": 50.0
+      "hit_rate": 48.8
     }
   },
   "signals": [
@@ -10339,10 +10339,10 @@
       "total_value_usd": 147922.42,
       "entry_price": 0.505,
       "end_date": "2026-08-03",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Alex de Minaur",
+      "resolved_date": "2026-08-03"
     },
     {
       "signal_key": "0xc47def8dcf6d67008bcc17893a428b9c34ea2cf8e9df6dc391d9e40a7ca6a13f:1",
@@ -10356,10 +10356,10 @@
       "total_value_usd": 22713.64,
       "entry_price": 0.505,
       "end_date": "2026-08-03",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Alex de Minaur",
+      "resolved_date": "2026-08-03"
     },
     {
       "signal_key": "0xeb24a4ebd21a1351b50151b8213cea02ea0e822f5aee2c4d5d72c452235db1b0:0",
@@ -10424,10 +10424,10 @@
       "total_value_usd": 91633.05,
       "entry_price": 0.505,
       "end_date": "2026-08-05",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Toronto Blue Jays",
+      "resolved_date": "2026-08-05"
     },
     {
       "signal_key": "0xeb24a4ebd21a1351b50151b8213cea02ea0e822f5aee2c4d5d72c452235db1b0:1",
@@ -10458,10 +10458,10 @@
       "total_value_usd": 13325.86,
       "entry_price": 0.505,
       "end_date": "2026-08-05",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Baltimore Orioles",
+      "resolved_date": "2026-08-05"
     },
     {
       "signal_key": "0xdc9291fb5367d9eb43dd5f359ff74ae87b9c1874b8597e1500898a063ea925ab:0",
