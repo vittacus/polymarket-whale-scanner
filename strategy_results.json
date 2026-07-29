@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-29T18:07:36+00:00",
-  "total_evaluated": 608,
-  "total_pending": 46,
+  "generated_at": "2026-07-29T19:46:33+00:00",
+  "total_evaluated": 612,
+  "total_pending": 49,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 608,
+      "signals_evaluated": 612,
       "correct": 353,
-      "wrong": 209,
-      "pending": 46,
-      "win_rate": 62.8,
+      "wrong": 210,
+      "pending": 49,
+      "win_rate": 62.7,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -8491,11 +8491,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Philadelphia Phillies",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Miami Marlins",
+          "resolved_date": "2026-08-05",
           "end_date": "2026-08-05",
           "total_value_usd": 328246.47,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xc47def8dcf6d67008bcc17893a428b9c34ea2cf8e9df6dc391d9e40a7ca6a13f:0",
@@ -8523,6 +8523,62 @@
           "resolved_date": null,
           "end_date": "2026-08-03",
           "total_value_usd": 22713.64,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xeb24a4ebd21a1351b50151b8213cea02ea0e822f5aee2c4d5d72c452235db1b0:0",
+          "condition_id": "0xeb24a4ebd21a1351b50151b8213cea02ea0e822f5aee2c4d5d72c452235db1b0",
+          "title": "Milwaukee Brewers vs. San Francisco Giants",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Milwaukee Brewers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-05",
+          "total_value_usd": 23291.53,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf24500fd57c2970061966f480fcbac5bb2eeca894a57d185c600842f9f052af1:1",
+          "condition_id": "0xf24500fd57c2970061966f480fcbac5bb2eeca894a57d185c600842f9f052af1",
+          "title": "The Memphis Classic: Camila Osorio vs Anastasia Zakharova",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Anastasia Zakharova",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-05",
+          "total_value_usd": 86537.39,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf4f93a67fafe09c5b6fa9de1da552e3b21c0890955a324147b9c02236d2be840:1",
+          "condition_id": "0xf4f93a67fafe09c5b6fa9de1da552e3b21c0890955a324147b9c02236d2be840",
+          "title": "Atlanta Braves vs. New York Mets",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "New York Mets",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-05",
+          "total_value_usd": 96357.37,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf08cd93b8ccaa13bd6ee51558bf7c6525925bef3073478e480538f6359f12962:0",
+          "condition_id": "0xf08cd93b8ccaa13bd6ee51558bf7c6525925bef3073478e480538f6359f12962",
+          "title": "Toronto Blue Jays vs. Washington Nationals",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Toronto Blue Jays",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-05",
+          "total_value_usd": 91633.05,
           "result": "pending"
         }
       ]
