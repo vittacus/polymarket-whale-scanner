@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-29T04:16:45+00:00",
+  "generated_at": "2026-07-29T06:52:00+00:00",
   "total_evaluated": 605,
-  "total_pending": 45,
+  "total_pending": 43,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 605,
-      "correct": 352,
-      "wrong": 208,
-      "pending": 45,
-      "win_rate": 62.9,
+      "correct": 353,
+      "wrong": 209,
+      "pending": 43,
+      "win_rate": 62.8,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -8463,11 +8463,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Seattle Mariners",
+          "resolved_date": "2026-08-05",
           "end_date": "2026-08-05",
           "total_value_usd": 41503.02,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xbf1148bb5341a7d8a077acccfc5e2de6b98d386e26621b0ec233634ea9fea93b:0",
@@ -8477,11 +8477,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Houston Astros",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Houston Astros",
+          "resolved_date": "2026-08-05",
           "end_date": "2026-08-05",
           "total_value_usd": 25948.02,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },

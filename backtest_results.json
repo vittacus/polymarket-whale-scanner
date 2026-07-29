@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-29T04:16:45+00:00",
+  "generated_at": "2026-07-29T06:52:00+00:00",
   "total_signals": 605,
-  "total_resolved": 560,
-  "total_correct": 352,
-  "overall_hit_rate": 62.9,
+  "total_resolved": 562,
+  "total_correct": 353,
+  "overall_hit_rate": 62.8,
   "by_tier": {
     "Strong": {
       "total": 214,
-      "resolved": 201,
+      "resolved": 202,
       "correct": 135,
-      "hit_rate": 67.2
+      "hit_rate": 66.8
     },
     "Moderate": {
       "total": 348,
-      "resolved": 317,
-      "correct": 196,
-      "hit_rate": 61.8
+      "resolved": 318,
+      "correct": 197,
+      "hit_rate": 61.9
     },
     "Weak": {
       "total": 43,
@@ -10288,10 +10288,10 @@
       "total_value_usd": 41503.02,
       "entry_price": 0.505,
       "end_date": "2026-08-05",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Seattle Mariners",
+      "resolved_date": "2026-08-05"
     },
     {
       "signal_key": "0xbf1148bb5341a7d8a077acccfc5e2de6b98d386e26621b0ec233634ea9fea93b:0",
@@ -10305,10 +10305,10 @@
       "total_value_usd": 25948.02,
       "entry_price": 0.505,
       "end_date": "2026-08-05",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Houston Astros",
+      "resolved_date": "2026-08-05"
     }
   ]
 }
