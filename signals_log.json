@@ -201166,5 +201166,295 @@
         "entry_price": 0.505
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-29T20:35:22+00:00",
+    "whale_timeframes": {
+      "0x0feb1bf966bc7f954c2da0293ae2fdc572c5db5d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4be1fa92e6ceaf886aac0bbec3be6c527133aa70": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe9514aa0b925353ea0d5e32978d636ec25ebde18": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x07046535ff9a910d7343a2c319a3e62234621858": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfbe66593e49c4e7a7180a2582f041158bfb800f8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9cb990f1862568a63d8601efeebe0304225c32f2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9ee49c02ae1ade698bf9e06d4ca271f236b8697b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x52911b9d1d9da4d4783fb3280c0ccd6e73f0d4b6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0ca28d5b0141f0a8e7b251dea80fd881cb166ed": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0c689c8e78588fd3d02e56a6e787e7f9e9b09e76": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x216509be5332c6037105b4f871966eb97240f598": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf7429705e25b619338412967f0a70260b6e1e039": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1b47e9b128e6b671edebfb2cac23dd3efc40d814": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbc97fda9fe1d4b4f5703df47872d9eaf3287ff6c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xc47def8dcf6d67008bcc17893a428b9c34ea2cf8e9df6dc391d9e40a7ca6a13f:0",
+        "condition_id": "0xc47def8dcf6d67008bcc17893a428b9c34ea2cf8e9df6dc391d9e40a7ca6a13f",
+        "title": "Mubadala Citi DC Open: Alex de Minaur vs Stefanos Tsitsipas",
+        "outcome": "Alex de Minaur",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x4be1fa92e6ceaf886aac0bbec3be6c527133aa70",
+          "0x9cb990f1862568a63d8601efeebe0304225c32f2",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          2,
+          9,
+          12
+        ],
+        "total_value_usd": 260099.12,
+        "score": 15.1531,
+        "category": "Tennis",
+        "end_date": "2026-08-03",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0xeb24a4ebd21a1351b50151b8213cea02ea0e822f5aee2c4d5d72c452235db1b0:1",
+        "condition_id": "0xeb24a4ebd21a1351b50151b8213cea02ea0e822f5aee2c4d5d72c452235db1b0",
+        "title": "Milwaukee Brewers vs. San Francisco Giants",
+        "outcome": "San Francisco Giants",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x4be1fa92e6ceaf886aac0bbec3be6c527133aa70",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          2,
+          12,
+          13
+        ],
+        "total_value_usd": 142459.39,
+        "score": 13.7115,
+        "category": "MLB",
+        "end_date": "2026-08-05",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0xeb24a4ebd21a1351b50151b8213cea02ea0e822f5aee2c4d5d72c452235db1b0:0",
+        "condition_id": "0xeb24a4ebd21a1351b50151b8213cea02ea0e822f5aee2c4d5d72c452235db1b0",
+        "title": "Milwaukee Brewers vs. San Francisco Giants",
+        "outcome": "Milwaukee Brewers",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          3,
+          4,
+          12
+        ],
+        "total_value_usd": 29383.13,
+        "score": 12.0029,
+        "category": "MLB",
+        "end_date": "2026-08-05",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0xf08cd93b8ccaa13bd6ee51558bf7c6525925bef3073478e480538f6359f12962:0",
+        "condition_id": "0xf08cd93b8ccaa13bd6ee51558bf7c6525925bef3073478e480538f6359f12962",
+        "title": "Toronto Blue Jays vs. Washington Nationals",
+        "outcome": "Toronto Blue Jays",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x52911b9d1d9da4d4783fb3280c0ccd6e73f0d4b6",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          4,
+          11,
+          12,
+          13
+        ],
+        "total_value_usd": 169209.84,
+        "score": 10.5586,
+        "category": "MLB",
+        "end_date": "2026-08-05",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x55def4d77b4f051b6a526f3fc12880ab075ff6766a80d0b88c609686fcaf23e0:1",
+        "condition_id": "0x55def4d77b4f051b6a526f3fc12880ab075ff6766a80d0b88c609686fcaf23e0",
+        "title": "Baltimore Orioles vs. Detroit Tigers",
+        "outcome": "Detroit Tigers",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          4,
+          12,
+          13
+        ],
+        "total_value_usd": 13325.86,
+        "score": 6.8187,
+        "category": "MLB",
+        "end_date": "2026-08-05",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0xdc9291fb5367d9eb43dd5f359ff74ae87b9c1874b8597e1500898a063ea925ab:0",
+        "condition_id": "0xdc9291fb5367d9eb43dd5f359ff74ae87b9c1874b8597e1500898a063ea925ab",
+        "title": "Mubadala Citi DC Open: Emma Navarro vs Elisabetta Cocciaretto",
+        "outcome": "Emma Navarro",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x52911b9d1d9da4d4783fb3280c0ccd6e73f0d4b6",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          11,
+          12,
+          13
+        ],
+        "total_value_usd": 74864.14,
+        "score": 4.9331,
+        "category": "Tennis",
+        "end_date": "2026-08-05",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0xdc9291fb5367d9eb43dd5f359ff74ae87b9c1874b8597e1500898a063ea925ab:1",
+        "condition_id": "0xdc9291fb5367d9eb43dd5f359ff74ae87b9c1874b8597e1500898a063ea925ab",
+        "title": "Mubadala Citi DC Open: Emma Navarro vs Elisabetta Cocciaretto",
+        "outcome": "Elisabetta Cocciaretto",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x9cb990f1862568a63d8601efeebe0304225c32f2",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          9,
+          12,
+          13
+        ],
+        "total_value_usd": 19405.58,
+        "score": 4.6888,
+        "category": "Tennis",
+        "end_date": "2026-08-05",
+        "entry_price": 0.505
+      }
+    ]
   }
 ]

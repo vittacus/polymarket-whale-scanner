@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-29T19:46:33+00:00",
-  "total_signals": 612,
-  "total_resolved": 563,
-  "total_correct": 353,
-  "overall_hit_rate": 62.7,
+  "generated_at": "2026-07-29T20:40:54+00:00",
+  "total_signals": 616,
+  "total_resolved": 570,
+  "total_correct": 357,
+  "overall_hit_rate": 62.6,
   "by_tier": {
     "Strong": {
-      "total": 217,
-      "resolved": 203,
-      "correct": 135,
+      "total": 218,
+      "resolved": 206,
+      "correct": 137,
       "hit_rate": 66.5
     },
     "Moderate": {
-      "total": 351,
-      "resolved": 318,
-      "correct": 197,
-      "hit_rate": 61.9
+      "total": 354,
+      "resolved": 322,
+      "correct": 199,
+      "hit_rate": 61.8
     },
     "Weak": {
       "total": 44,
@@ -5103,10 +5103,10 @@
       "total_value_usd": 116054.76,
       "entry_price": 0.515,
       "end_date": "2026-07-29",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-07-29"
     },
     {
       "signal_key": "0x0c4cd2055d6ea89354ffddc55d6dbcef9355748112ea952fc925f3db6a5c457f:1",
@@ -6735,10 +6735,10 @@
       "total_value_usd": 548161.66,
       "entry_price": 0.515,
       "end_date": "2026-07-29",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-29"
     },
     {
       "signal_key": "0x8bf1c1536ecb1c08fe13c6b71e8ab1f58bf3461c4cb79f5f1679f869a06aef86:1",
@@ -6752,10 +6752,10 @@
       "total_value_usd": 594842.72,
       "entry_price": 0.515,
       "end_date": "2026-07-29",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-07-29"
     },
     {
       "signal_key": "0x80b3af88cb991980e8da1ce86b9794a0957f96ec98c29319dd7ba65e9744d82b:0",
@@ -6786,10 +6786,10 @@
       "total_value_usd": 9044.72,
       "entry_price": 0.515,
       "end_date": "2026-07-29",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-29"
     },
     {
       "signal_key": "0x4ac818ea083a05fd123b850d67c7e5bbe29964e8819ae414c8f9a86739fe7733:1",
@@ -10169,10 +10169,10 @@
       "total_value_usd": 82106.06,
       "entry_price": 0.505,
       "end_date": "2026-07-29",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-29"
     },
     {
       "signal_key": "0x303d1171c8df2ac6f158924fb781a6beae5ada70823e5c68a5a1ff94d098f6f0:0",
@@ -10390,10 +10390,10 @@
       "total_value_usd": 86537.39,
       "entry_price": 0.505,
       "end_date": "2026-08-05",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Anastasia Zakharova",
+      "resolved_date": "2026-08-05"
     },
     {
       "signal_key": "0xf4f93a67fafe09c5b6fa9de1da552e3b21c0890955a324147b9c02236d2be840:1",
@@ -10407,10 +10407,10 @@
       "total_value_usd": 96357.37,
       "entry_price": 0.505,
       "end_date": "2026-08-05",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "New York Mets",
+      "resolved_date": "2026-08-05"
     },
     {
       "signal_key": "0xf08cd93b8ccaa13bd6ee51558bf7c6525925bef3073478e480538f6359f12962:0",
@@ -10422,6 +10422,74 @@
       "tier": "Moderate",
       "score": 6.2121,
       "total_value_usd": 91633.05,
+      "entry_price": 0.505,
+      "end_date": "2026-08-05",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xeb24a4ebd21a1351b50151b8213cea02ea0e822f5aee2c4d5d72c452235db1b0:1",
+      "condition_id": "0xeb24a4ebd21a1351b50151b8213cea02ea0e822f5aee2c4d5d72c452235db1b0",
+      "title": "Milwaukee Brewers vs. San Francisco Giants",
+      "category": "MLB",
+      "whale_direction": "San Francisco Giants",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 13.7115,
+      "total_value_usd": 142459.39,
+      "entry_price": 0.505,
+      "end_date": "2026-08-05",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x55def4d77b4f051b6a526f3fc12880ab075ff6766a80d0b88c609686fcaf23e0:1",
+      "condition_id": "0x55def4d77b4f051b6a526f3fc12880ab075ff6766a80d0b88c609686fcaf23e0",
+      "title": "Baltimore Orioles vs. Detroit Tigers",
+      "category": "MLB",
+      "whale_direction": "Detroit Tigers",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 6.8187,
+      "total_value_usd": 13325.86,
+      "entry_price": 0.505,
+      "end_date": "2026-08-05",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xdc9291fb5367d9eb43dd5f359ff74ae87b9c1874b8597e1500898a063ea925ab:0",
+      "condition_id": "0xdc9291fb5367d9eb43dd5f359ff74ae87b9c1874b8597e1500898a063ea925ab",
+      "title": "Mubadala Citi DC Open: Emma Navarro vs Elisabetta Cocciaretto",
+      "category": "Tennis",
+      "whale_direction": "Emma Navarro",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 4.9331,
+      "total_value_usd": 74864.14,
+      "entry_price": 0.505,
+      "end_date": "2026-08-05",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xdc9291fb5367d9eb43dd5f359ff74ae87b9c1874b8597e1500898a063ea925ab:1",
+      "condition_id": "0xdc9291fb5367d9eb43dd5f359ff74ae87b9c1874b8597e1500898a063ea925ab",
+      "title": "Mubadala Citi DC Open: Emma Navarro vs Elisabetta Cocciaretto",
+      "category": "Tennis",
+      "whale_direction": "Elisabetta Cocciaretto",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 4.6888,
+      "total_value_usd": 19405.58,
       "entry_price": 0.505,
       "end_date": "2026-08-05",
       "resolved": false,
