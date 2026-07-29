@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-29T20:40:54+00:00",
-  "total_evaluated": 616,
-  "total_pending": 46,
+  "generated_at": "2026-07-29T21:39:35+00:00",
+  "total_evaluated": 617,
+  "total_pending": 47,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 616,
+      "signals_evaluated": 617,
       "correct": 357,
       "wrong": 213,
-      "pending": 46,
+      "pending": 47,
       "win_rate": 62.6,
       "signals": [
         {
@@ -8635,6 +8635,20 @@
           "resolved_date": null,
           "end_date": "2026-08-05",
           "total_value_usd": 19405.58,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x435620fa180dbedb59d34f164d82a447304436b57e87850ca3d1ab2070667006:1",
+          "condition_id": "0x435620fa180dbedb59d34f164d82a447304436b57e87850ca3d1ab2070667006",
+          "title": "Colorado Rockies vs. San Diego Padres",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "San Diego Padres",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-05",
+          "total_value_usd": 24519.37,
           "result": "pending"
         }
       ]
