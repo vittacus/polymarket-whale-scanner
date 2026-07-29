@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-29T16:54:12+00:00",
-  "total_evaluated": 606,
-  "total_pending": 44,
+  "generated_at": "2026-07-29T18:07:36+00:00",
+  "total_evaluated": 608,
+  "total_pending": 46,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 606,
+      "signals_evaluated": 608,
       "correct": 353,
       "wrong": 209,
-      "pending": 44,
+      "pending": 46,
       "win_rate": 62.8,
       "signals": [
         {
@@ -8495,6 +8495,34 @@
           "resolved_date": null,
           "end_date": "2026-08-05",
           "total_value_usd": 328246.47,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xc47def8dcf6d67008bcc17893a428b9c34ea2cf8e9df6dc391d9e40a7ca6a13f:0",
+          "condition_id": "0xc47def8dcf6d67008bcc17893a428b9c34ea2cf8e9df6dc391d9e40a7ca6a13f",
+          "title": "Mubadala Citi DC Open: Alex de Minaur vs Stefanos Tsitsipas",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Alex de Minaur",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-03",
+          "total_value_usd": 147922.42,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xc47def8dcf6d67008bcc17893a428b9c34ea2cf8e9df6dc391d9e40a7ca6a13f:1",
+          "condition_id": "0xc47def8dcf6d67008bcc17893a428b9c34ea2cf8e9df6dc391d9e40a7ca6a13f",
+          "title": "Mubadala Citi DC Open: Alex de Minaur vs Stefanos Tsitsipas",
+          "category": "Tennis",
+          "tier": "Weak",
+          "entry_price": 0.505,
+          "whale_direction": "Stefanos Tsitsipas",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-03",
+          "total_value_usd": 22713.64,
           "result": "pending"
         }
       ]

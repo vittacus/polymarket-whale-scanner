@@ -200722,5 +200722,205 @@
         "entry_price": 0.505
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-29T18:02:52+00:00",
+    "whale_timeframes": {
+      "0xe30e74595517de48f1fb19f4553dd3d9f1e96b87": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4be1fa92e6ceaf886aac0bbec3be6c527133aa70": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4ab9b54427ec4b7f3646b1a0ef1bed73bc708ebe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9cb990f1862568a63d8601efeebe0304225c32f2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3a8aa345d5db7ec5138298c8c4f4540259be7699": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0ca28d5b0141f0a8e7b251dea80fd881cb166ed": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd218e474776403a330142299f7796e8ba32eb5c9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf7429705e25b619338412967f0a70260b6e1e039": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1b47e9b128e6b671edebfb2cac23dd3efc40d814": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3d8a89a20aa73fba0f30d080e8120de9f9555724": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1d2efa184454366ad3e79f3395d25396c20b896d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x491b270b1537fe6971fb09d497808f467fff32d79fc9868e4a9058a9137d1471:0",
+        "condition_id": "0x491b270b1537fe6971fb09d497808f467fff32d79fc9868e4a9058a9137d1471",
+        "title": "Philadelphia Phillies vs. Miami Marlins",
+        "outcome": "Philadelphia Phillies",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xe30e74595517de48f1fb19f4553dd3d9f1e96b87",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+        ],
+        "ranks": [
+          1,
+          2,
+          4,
+          16
+        ],
+        "total_value_usd": 365640.73,
+        "score": 40.6298,
+        "category": "MLB",
+        "end_date": "2026-08-05",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0xc47def8dcf6d67008bcc17893a428b9c34ea2cf8e9df6dc391d9e40a7ca6a13f:0",
+        "condition_id": "0xc47def8dcf6d67008bcc17893a428b9c34ea2cf8e9df6dc391d9e40a7ca6a13f",
+        "title": "Mubadala Citi DC Open: Alex de Minaur vs Stefanos Tsitsipas",
+        "outcome": "Alex de Minaur",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x4be1fa92e6ceaf886aac0bbec3be6c527133aa70",
+          "0x9cb990f1862568a63d8601efeebe0304225c32f2",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          3,
+          8,
+          16,
+          19
+        ],
+        "total_value_usd": 147922.42,
+        "score": 11.9469,
+        "category": "Tennis",
+        "end_date": "2026-08-03",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0xc47def8dcf6d67008bcc17893a428b9c34ea2cf8e9df6dc391d9e40a7ca6a13f:1",
+        "condition_id": "0xc47def8dcf6d67008bcc17893a428b9c34ea2cf8e9df6dc391d9e40a7ca6a13f",
+        "title": "Mubadala Citi DC Open: Alex de Minaur vs Stefanos Tsitsipas",
+        "outcome": "Stefanos Tsitsipas",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          16,
+          17,
+          19
+        ],
+        "total_value_usd": 22713.64,
+        "score": 3.0536,
+        "category": "Tennis",
+        "end_date": "2026-08-03",
+        "entry_price": 0.505
+      }
+    ]
   }
 ]

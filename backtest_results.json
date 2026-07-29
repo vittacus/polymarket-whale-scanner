@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-29T16:54:12+00:00",
-  "total_signals": 606,
+  "generated_at": "2026-07-29T18:07:36+00:00",
+  "total_signals": 608,
   "total_resolved": 562,
   "total_correct": 353,
   "overall_hit_rate": 62.8,
   "by_tier": {
     "Strong": {
-      "total": 215,
+      "total": 216,
       "resolved": 202,
       "correct": 135,
       "hit_rate": 66.8
@@ -18,7 +18,7 @@
       "hit_rate": 61.9
     },
     "Weak": {
-      "total": 43,
+      "total": 44,
       "resolved": 42,
       "correct": 21,
       "hit_rate": 50.0
@@ -10322,6 +10322,40 @@
       "total_value_usd": 328246.47,
       "entry_price": 0.505,
       "end_date": "2026-08-05",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xc47def8dcf6d67008bcc17893a428b9c34ea2cf8e9df6dc391d9e40a7ca6a13f:0",
+      "condition_id": "0xc47def8dcf6d67008bcc17893a428b9c34ea2cf8e9df6dc391d9e40a7ca6a13f",
+      "title": "Mubadala Citi DC Open: Alex de Minaur vs Stefanos Tsitsipas",
+      "category": "Tennis",
+      "whale_direction": "Alex de Minaur",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 11.9469,
+      "total_value_usd": 147922.42,
+      "entry_price": 0.505,
+      "end_date": "2026-08-03",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xc47def8dcf6d67008bcc17893a428b9c34ea2cf8e9df6dc391d9e40a7ca6a13f:1",
+      "condition_id": "0xc47def8dcf6d67008bcc17893a428b9c34ea2cf8e9df6dc391d9e40a7ca6a13f",
+      "title": "Mubadala Citi DC Open: Alex de Minaur vs Stefanos Tsitsipas",
+      "category": "Tennis",
+      "whale_direction": "Stefanos Tsitsipas",
+      "outcome_index": 1,
+      "tier": "Weak",
+      "score": 3.0536,
+      "total_value_usd": 22713.64,
+      "entry_price": 0.505,
+      "end_date": "2026-08-03",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
