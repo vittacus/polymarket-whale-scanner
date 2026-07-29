@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-29T01:02:01+00:00",
-  "total_evaluated": 603,
-  "total_pending": 47,
+  "generated_at": "2026-07-29T04:16:45+00:00",
+  "total_evaluated": 605,
+  "total_pending": 45,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 603,
-      "correct": 350,
-      "wrong": 206,
-      "pending": 47,
+      "signals_evaluated": 605,
+      "correct": 352,
+      "wrong": 208,
+      "pending": 45,
       "win_rate": 62.9,
       "signals": [
         {
@@ -8407,11 +8407,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Cleveland Guardians",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Cleveland Guardians",
+          "resolved_date": "2026-08-03",
           "end_date": "2026-08-03",
           "total_value_usd": 52592.21,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x59d2fc404ff56828ed2b6f2ae4cd765de2f608248d6038f4e588b8a2ecaae443:1",
@@ -8421,11 +8421,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Miami Marlins",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Miami Marlins",
+          "resolved_date": "2026-08-04",
           "end_date": "2026-08-04",
           "total_value_usd": 171656.97,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x5428aa81f6377d5fe8c8df2ef7b861c9f1ef67b23b77e725acf499b44217f3e6:1",
@@ -8435,11 +8435,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Cincinnati Reds",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Cleveland Guardians",
+          "resolved_date": "2026-08-03",
           "end_date": "2026-08-03",
           "total_value_usd": 267036.97,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xf262c56784f6a893d1f609f89ff725c6ab1a66ced0b09fc2970e258d2dc98cc7:0",
@@ -8449,10 +8449,38 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Cleveland Guardians",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Cincinnati Reds",
+          "resolved_date": "2026-08-04",
           "end_date": "2026-08-04",
           "total_value_usd": 45958.83,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xb94639b167e24b6ab0caac746d383ca4500dc656c083b249097f0fa71f6ab5c7:1",
+          "condition_id": "0xb94639b167e24b6ab0caac746d383ca4500dc656c083b249097f0fa71f6ab5c7",
+          "title": "Seattle Mariners vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-05",
+          "total_value_usd": 41503.02,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xbf1148bb5341a7d8a077acccfc5e2de6b98d386e26621b0ec233634ea9fea93b:0",
+          "condition_id": "0xbf1148bb5341a7d8a077acccfc5e2de6b98d386e26621b0ec233634ea9fea93b",
+          "title": "Houston Astros vs. Los Angeles Angels",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Houston Astros",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-05",
+          "total_value_usd": 25948.02,
           "result": "pending"
         }
       ]

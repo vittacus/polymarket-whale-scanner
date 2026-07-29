@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-29T01:02:01+00:00",
-  "total_signals": 603,
-  "total_resolved": 556,
-  "total_correct": 350,
+  "generated_at": "2026-07-29T04:16:45+00:00",
+  "total_signals": 605,
+  "total_resolved": 560,
+  "total_correct": 352,
   "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
-      "total": 213,
-      "resolved": 199,
-      "correct": 133,
-      "hit_rate": 66.8
+      "total": 214,
+      "resolved": 201,
+      "correct": 135,
+      "hit_rate": 67.2
     },
     "Moderate": {
-      "total": 347,
-      "resolved": 315,
+      "total": 348,
+      "resolved": 317,
       "correct": 196,
-      "hit_rate": 62.2
+      "hit_rate": 61.8
     },
     "Weak": {
       "total": 43,
@@ -10220,10 +10220,10 @@
       "total_value_usd": 52592.21,
       "entry_price": 0.505,
       "end_date": "2026-08-03",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Cleveland Guardians",
+      "resolved_date": "2026-08-03"
     },
     {
       "signal_key": "0x59d2fc404ff56828ed2b6f2ae4cd765de2f608248d6038f4e588b8a2ecaae443:1",
@@ -10237,10 +10237,10 @@
       "total_value_usd": 171656.97,
       "entry_price": 0.505,
       "end_date": "2026-08-04",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Miami Marlins",
+      "resolved_date": "2026-08-04"
     },
     {
       "signal_key": "0x5428aa81f6377d5fe8c8df2ef7b861c9f1ef67b23b77e725acf499b44217f3e6:1",
@@ -10254,10 +10254,10 @@
       "total_value_usd": 267036.97,
       "entry_price": 0.505,
       "end_date": "2026-08-03",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Cleveland Guardians",
+      "resolved_date": "2026-08-03"
     },
     {
       "signal_key": "0xf262c56784f6a893d1f609f89ff725c6ab1a66ced0b09fc2970e258d2dc98cc7:0",
@@ -10271,6 +10271,40 @@
       "total_value_usd": 45958.83,
       "entry_price": 0.505,
       "end_date": "2026-08-04",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Cincinnati Reds",
+      "resolved_date": "2026-08-04"
+    },
+    {
+      "signal_key": "0xb94639b167e24b6ab0caac746d383ca4500dc656c083b249097f0fa71f6ab5c7:1",
+      "condition_id": "0xb94639b167e24b6ab0caac746d383ca4500dc656c083b249097f0fa71f6ab5c7",
+      "title": "Seattle Mariners vs. Los Angeles Dodgers",
+      "category": "MLB",
+      "whale_direction": "Los Angeles Dodgers",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 17.4198,
+      "total_value_usd": 41503.02,
+      "entry_price": 0.505,
+      "end_date": "2026-08-05",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xbf1148bb5341a7d8a077acccfc5e2de6b98d386e26621b0ec233634ea9fea93b:0",
+      "condition_id": "0xbf1148bb5341a7d8a077acccfc5e2de6b98d386e26621b0ec233634ea9fea93b",
+      "title": "Houston Astros vs. Los Angeles Angels",
+      "category": "MLB",
+      "whale_direction": "Houston Astros",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 5.1358,
+      "total_value_usd": 25948.02,
+      "entry_price": 0.505,
+      "end_date": "2026-08-05",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
