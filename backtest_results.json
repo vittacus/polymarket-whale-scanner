@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-07-29T22:43:21+00:00",
-  "total_signals": 617,
-  "total_resolved": 574,
-  "total_correct": 359,
+  "generated_at": "2026-07-29T23:45:11+00:00",
+  "total_signals": 620,
+  "total_resolved": 579,
+  "total_correct": 362,
   "overall_hit_rate": 62.5,
   "by_tier": {
     "Strong": {
       "total": 219,
-      "resolved": 207,
-      "correct": 138,
+      "resolved": 210,
+      "correct": 140,
       "hit_rate": 66.7
     },
     "Moderate": {
-      "total": 354,
-      "resolved": 324,
-      "correct": 200,
+      "total": 357,
+      "resolved": 326,
+      "correct": 201,
       "hit_rate": 61.7
     },
     "Weak": {
@@ -10373,10 +10373,10 @@
       "total_value_usd": 23291.53,
       "entry_price": 0.505,
       "end_date": "2026-08-05",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "San Francisco Giants",
+      "resolved_date": "2026-08-05"
     },
     {
       "signal_key": "0xf24500fd57c2970061966f480fcbac5bb2eeca894a57d185c600842f9f052af1:1",
@@ -10441,10 +10441,10 @@
       "total_value_usd": 142459.39,
       "entry_price": 0.505,
       "end_date": "2026-08-05",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "San Francisco Giants",
+      "resolved_date": "2026-08-05"
     },
     {
       "signal_key": "0x55def4d77b4f051b6a526f3fc12880ab075ff6766a80d0b88c609686fcaf23e0:1",
@@ -10475,10 +10475,10 @@
       "total_value_usd": 74864.14,
       "entry_price": 0.505,
       "end_date": "2026-08-05",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Elisabetta Cocciaretto",
+      "resolved_date": "2026-08-05"
     },
     {
       "signal_key": "0xdc9291fb5367d9eb43dd5f359ff74ae87b9c1874b8597e1500898a063ea925ab:1",
@@ -10492,10 +10492,10 @@
       "total_value_usd": 19405.58,
       "entry_price": 0.505,
       "end_date": "2026-08-05",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Elisabetta Cocciaretto",
+      "resolved_date": "2026-08-05"
     },
     {
       "signal_key": "0x435620fa180dbedb59d34f164d82a447304436b57e87850ca3d1ab2070667006:1",
@@ -10507,6 +10507,57 @@
       "tier": "Strong",
       "score": 11.1362,
       "total_value_usd": 24519.37,
+      "entry_price": 0.505,
+      "end_date": "2026-08-05",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "San Diego Padres",
+      "resolved_date": "2026-08-05"
+    },
+    {
+      "signal_key": "0xa3b36b2d6104d34af4e6c6215fc818e43352e78a748fbfb0b85e3a35f71dec9a:0",
+      "condition_id": "0xa3b36b2d6104d34af4e6c6215fc818e43352e78a748fbfb0b85e3a35f71dec9a",
+      "title": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+      "category": "fomc",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 9.746,
+      "total_value_usd": 44034.84,
+      "entry_price": 0.505,
+      "end_date": "2026-09-16",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xfa820b4d62ad99e6ca4af7221e5d39f13c772f4f48fe8b7359aa741de906078a:0",
+      "condition_id": "0xfa820b4d62ad99e6ca4af7221e5d39f13c772f4f48fe8b7359aa741de906078a",
+      "title": "Chicago Cubs vs. St. Louis Cardinals",
+      "category": "MLB",
+      "whale_direction": "Chicago Cubs",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 7.5492,
+      "total_value_usd": 19828.48,
+      "entry_price": 0.505,
+      "end_date": "2026-08-05",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x2829fabcda2d6ac528f89c9c27da42ae945bab30b4723118400c5b24234cd145:1",
+      "condition_id": "0x2829fabcda2d6ac528f89c9c27da42ae945bab30b4723118400c5b24234cd145",
+      "title": "The Memphis Classic: Zeynep Sonmez vs Elvina Kalieva",
+      "category": "Tennis",
+      "whale_direction": "Elvina Kalieva",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 7.2267,
+      "total_value_usd": 57293.84,
       "entry_price": 0.505,
       "end_date": "2026-08-05",
       "resolved": false,

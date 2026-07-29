@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-29T22:43:22+00:00",
-  "total_evaluated": 617,
-  "total_pending": 43,
+  "generated_at": "2026-07-29T23:45:11+00:00",
+  "total_evaluated": 620,
+  "total_pending": 41,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 617,
-      "correct": 359,
-      "wrong": 215,
-      "pending": 43,
+      "signals_evaluated": 620,
+      "correct": 362,
+      "wrong": 217,
+      "pending": 41,
       "win_rate": 62.5,
       "signals": [
         {
@@ -8533,11 +8533,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Milwaukee Brewers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "San Francisco Giants",
+          "resolved_date": "2026-08-05",
           "end_date": "2026-08-05",
           "total_value_usd": 23291.53,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xf24500fd57c2970061966f480fcbac5bb2eeca894a57d185c600842f9f052af1:1",
@@ -8589,11 +8589,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "San Francisco Giants",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "San Francisco Giants",
+          "resolved_date": "2026-08-05",
           "end_date": "2026-08-05",
           "total_value_usd": 142459.39,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x55def4d77b4f051b6a526f3fc12880ab075ff6766a80d0b88c609686fcaf23e0:1",
@@ -8617,11 +8617,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Emma Navarro",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elisabetta Cocciaretto",
+          "resolved_date": "2026-08-05",
           "end_date": "2026-08-05",
           "total_value_usd": 74864.14,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xdc9291fb5367d9eb43dd5f359ff74ae87b9c1874b8597e1500898a063ea925ab:1",
@@ -8631,11 +8631,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Elisabetta Cocciaretto",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elisabetta Cocciaretto",
+          "resolved_date": "2026-08-05",
           "end_date": "2026-08-05",
           "total_value_usd": 19405.58,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x435620fa180dbedb59d34f164d82a447304436b57e87850ca3d1ab2070667006:1",
@@ -8645,10 +8645,52 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "San Diego Padres",
+          "resolved_outcome": "San Diego Padres",
+          "resolved_date": "2026-08-05",
+          "end_date": "2026-08-05",
+          "total_value_usd": 24519.37,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xa3b36b2d6104d34af4e6c6215fc818e43352e78a748fbfb0b85e3a35f71dec9a:0",
+          "condition_id": "0xa3b36b2d6104d34af4e6c6215fc818e43352e78a748fbfb0b85e3a35f71dec9a",
+          "title": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+          "category": "fomc",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-16",
+          "total_value_usd": 44034.84,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xfa820b4d62ad99e6ca4af7221e5d39f13c772f4f48fe8b7359aa741de906078a:0",
+          "condition_id": "0xfa820b4d62ad99e6ca4af7221e5d39f13c772f4f48fe8b7359aa741de906078a",
+          "title": "Chicago Cubs vs. St. Louis Cardinals",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Chicago Cubs",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-08-05",
-          "total_value_usd": 24519.37,
+          "total_value_usd": 19828.48,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x2829fabcda2d6ac528f89c9c27da42ae945bab30b4723118400c5b24234cd145:1",
+          "condition_id": "0x2829fabcda2d6ac528f89c9c27da42ae945bab30b4723118400c5b24234cd145",
+          "title": "The Memphis Classic: Zeynep Sonmez vs Elvina Kalieva",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Elvina Kalieva",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-05",
+          "total_value_usd": 57293.84,
           "result": "pending"
         }
       ]
