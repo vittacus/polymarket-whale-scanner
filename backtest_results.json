@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-30T01:06:04+00:00",
-  "total_signals": 620,
-  "total_resolved": 580,
+  "generated_at": "2026-07-30T04:23:01+00:00",
+  "total_signals": 624,
+  "total_resolved": 581,
   "total_correct": 363,
-  "overall_hit_rate": 62.6,
+  "overall_hit_rate": 62.5,
   "by_tier": {
     "Strong": {
-      "total": 219,
+      "total": 220,
       "resolved": 210,
       "correct": 140,
       "hit_rate": 66.7
     },
     "Moderate": {
-      "total": 357,
-      "resolved": 327,
+      "total": 360,
+      "resolved": 328,
       "correct": 202,
-      "hit_rate": 61.8
+      "hit_rate": 61.6
     },
     "Weak": {
       "total": 44,
@@ -10543,10 +10543,10 @@
       "total_value_usd": 19828.48,
       "entry_price": 0.505,
       "end_date": "2026-08-05",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "St. Louis Cardinals",
+      "resolved_date": "2026-08-05"
     },
     {
       "signal_key": "0x2829fabcda2d6ac528f89c9c27da42ae945bab30b4723118400c5b24234cd145:1",
@@ -10564,6 +10564,74 @@
       "correct": true,
       "resolved_outcome": "Elvina Kalieva",
       "resolved_date": "2026-08-05"
+    },
+    {
+      "signal_key": "0x4ce50471918585278e00ccfd154fb675dfd6b759ebec4d1c7784a8827362f3db:1",
+      "condition_id": "0x4ce50471918585278e00ccfd154fb675dfd6b759ebec4d1c7784a8827362f3db",
+      "title": "Seattle Mariners vs. Los Angeles Dodgers",
+      "category": "MLB",
+      "whale_direction": "Los Angeles Dodgers",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 10.9736,
+      "total_value_usd": 430934.73,
+      "entry_price": 0.505,
+      "end_date": "2026-08-06",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xad47c57403c3f2d2c7edd24f7f4a0f6d50177d28edf43330623ded6c27f0d412:0",
+      "condition_id": "0xad47c57403c3f2d2c7edd24f7f4a0f6d50177d28edf43330623ded6c27f0d412",
+      "title": "Boston Red Sox vs. Athletics",
+      "category": "MLB",
+      "whale_direction": "Boston Red Sox",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 7.2369,
+      "total_value_usd": 38500.08,
+      "entry_price": 0.505,
+      "end_date": "2026-08-06",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x46e854d117e7b1c7909c162e365c5cb4342849b078c9d4a08ab26d112712d825:0",
+      "condition_id": "0x46e854d117e7b1c7909c162e365c5cb4342849b078c9d4a08ab26d112712d825",
+      "title": "Houston Astros vs. Los Angeles Angels",
+      "category": "MLB",
+      "whale_direction": "Houston Astros",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 6.7039,
+      "total_value_usd": 32856.32,
+      "entry_price": 0.505,
+      "end_date": "2026-08-06",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xad47c57403c3f2d2c7edd24f7f4a0f6d50177d28edf43330623ded6c27f0d412:1",
+      "condition_id": "0xad47c57403c3f2d2c7edd24f7f4a0f6d50177d28edf43330623ded6c27f0d412",
+      "title": "Boston Red Sox vs. Athletics",
+      "category": "MLB",
+      "whale_direction": "Athletics",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 6.2378,
+      "total_value_usd": 17386.68,
+      "entry_price": 0.505,
+      "end_date": "2026-08-06",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }

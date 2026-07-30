@@ -202331,5 +202331,224 @@
         "entry_price": 0.505
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-30T04:18:15+00:00",
+    "whale_timeframes": {
+      "0xdb859a551fcf56e49416160911476bea7307152f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6d20c35f65d9899b6d6b74f8466e824580f9a165": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x52911b9d1d9da4d4783fb3280c0ccd6e73f0d4b6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4be1fa92e6ceaf886aac0bbec3be6c527133aa70": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x27c5c1eee404a07f39fe70078aff815e5a656d61": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x16bb9951a36fce71e2ef57890b786145e0ba8492": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8075693f48668a264b9fa313b47f52712fcc12b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0a854897a06d4999e5b2dde5693609f1428ffe9d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x27f738fe203827445690339104aae35b20bc44b0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8c80d213c0cbad777d06ee3f58f6ca4bc03102c3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb687f00464e33934f5d591f224e71c3559ecaee5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x56acab44cfca2e88bb9b3406890aea7bfa0cd77e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x684baa57c338c2549aec0aa3f034f695d72a8409": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0cbbe6ecea39d5d3f5574ab7362f9d4c2ac7f8a3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1465b79bff7992bc703e1aafb3683b1089647072": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1b20a00709dfe648afd26b326394b5e031f83ab0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x4ce50471918585278e00ccfd154fb675dfd6b759ebec4d1c7784a8827362f3db:1",
+        "condition_id": "0x4ce50471918585278e00ccfd154fb675dfd6b759ebec4d1c7784a8827362f3db",
+        "title": "Seattle Mariners vs. Los Angeles Dodgers",
+        "outcome": "Los Angeles Dodgers",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x6d20c35f65d9899b6d6b74f8466e824580f9a165",
+          "0x27f738fe203827445690339104aae35b20bc44b0",
+          "0x56acab44cfca2e88bb9b3406890aea7bfa0cd77e"
+        ],
+        "ranks": [
+          3,
+          12,
+          15
+        ],
+        "total_value_usd": 430934.73,
+        "score": 10.9736,
+        "category": "MLB",
+        "end_date": "2026-08-06",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0xad47c57403c3f2d2c7edd24f7f4a0f6d50177d28edf43330623ded6c27f0d412:0",
+        "condition_id": "0xad47c57403c3f2d2c7edd24f7f4a0f6d50177d28edf43330623ded6c27f0d412",
+        "title": "Boston Red Sox vs. Athletics",
+        "outcome": "Boston Red Sox",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x4be1fa92e6ceaf886aac0bbec3be6c527133aa70",
+          "0x27c5c1eee404a07f39fe70078aff815e5a656d61",
+          "0x56acab44cfca2e88bb9b3406890aea7bfa0cd77e"
+        ],
+        "ranks": [
+          5,
+          8,
+          15
+        ],
+        "total_value_usd": 38500.08,
+        "score": 7.2369,
+        "category": "MLB",
+        "end_date": "2026-08-06",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x46e854d117e7b1c7909c162e365c5cb4342849b078c9d4a08ab26d112712d825:0",
+        "condition_id": "0x46e854d117e7b1c7909c162e365c5cb4342849b078c9d4a08ab26d112712d825",
+        "title": "Houston Astros vs. Los Angeles Angels",
+        "outcome": "Houston Astros",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x0cbbe6ecea39d5d3f5574ab7362f9d4c2ac7f8a3"
+        ],
+        "ranks": [
+          6,
+          7,
+          17
+        ],
+        "total_value_usd": 32856.32,
+        "score": 6.7039,
+        "category": "MLB",
+        "end_date": "2026-08-06",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0xad47c57403c3f2d2c7edd24f7f4a0f6d50177d28edf43330623ded6c27f0d412:1",
+        "condition_id": "0xad47c57403c3f2d2c7edd24f7f4a0f6d50177d28edf43330623ded6c27f0d412",
+        "title": "Boston Red Sox vs. Athletics",
+        "outcome": "Athletics",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294"
+        ],
+        "ranks": [
+          6,
+          7,
+          18
+        ],
+        "total_value_usd": 17386.68,
+        "score": 6.2378,
+        "category": "MLB",
+        "end_date": "2026-08-06",
+        "entry_price": 0.505
+      }
+    ]
   }
 ]
