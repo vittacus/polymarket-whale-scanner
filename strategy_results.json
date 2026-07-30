@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-30T21:22:24+00:00",
-  "total_evaluated": 628,
+  "generated_at": "2026-07-30T22:40:17+00:00",
+  "total_evaluated": 631,
   "total_pending": 42,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 628,
-      "correct": 366,
-      "wrong": 220,
+      "signals_evaluated": 631,
+      "correct": 368,
+      "wrong": 221,
       "pending": 42,
       "win_rate": 62.5,
       "signals": [
@@ -8771,11 +8771,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Chicago White Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Chicago White Sox",
+          "resolved_date": "2026-08-06",
           "end_date": "2026-08-06",
           "total_value_usd": 206446.69,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x57b870ef0a2d042fd9cd5d8a50cbaf692d858cbf95fa50b2ab09a8dffc2dab10:1",
@@ -8785,11 +8785,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "St. Louis Cardinals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Chicago Cubs",
+          "resolved_date": "2026-08-06",
           "end_date": "2026-08-06",
           "total_value_usd": 63883.02,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x57b870ef0a2d042fd9cd5d8a50cbaf692d858cbf95fa50b2ab09a8dffc2dab10:0",
@@ -8799,10 +8799,52 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Chicago Cubs",
+          "resolved_outcome": "Chicago Cubs",
+          "resolved_date": "2026-08-06",
+          "end_date": "2026-08-06",
+          "total_value_usd": 124406.71,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x37e6080cbb3e1dca64fd28d96ca6676a131d776d03367c5fd5b28c60ab14a12c:0",
+          "condition_id": "0x37e6080cbb3e1dca64fd28d96ca6676a131d776d03367c5fd5b28c60ab14a12c",
+          "title": "Mubadala Citi DC Open: Terence Atmane vs Alejandro Tabilo",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Terence Atmane",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-05",
+          "total_value_usd": 126317.82,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x37e6080cbb3e1dca64fd28d96ca6676a131d776d03367c5fd5b28c60ab14a12c:1",
+          "condition_id": "0x37e6080cbb3e1dca64fd28d96ca6676a131d776d03367c5fd5b28c60ab14a12c",
+          "title": "Mubadala Citi DC Open: Terence Atmane vs Alejandro Tabilo",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Alejandro Tabilo",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-05",
+          "total_value_usd": 265716.27,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xb3c10bf9fcfbba2fb10ebf3120108d913ad0cbb25e3925246d0dc02efaae4ba3:0",
+          "condition_id": "0xb3c10bf9fcfbba2fb10ebf3120108d913ad0cbb25e3925246d0dc02efaae4ba3",
+          "title": "Vancouver: Mark Lajal vs Braden Shick",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Mark Lajal",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-08-06",
-          "total_value_usd": 124406.71,
+          "total_value_usd": 318049.78,
           "result": "pending"
         }
       ]
