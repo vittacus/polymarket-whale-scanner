@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-07-30T04:23:01+00:00",
+  "generated_at": "2026-07-30T07:14:25+00:00",
   "total_signals": 624,
-  "total_resolved": 581,
-  "total_correct": 363,
-  "overall_hit_rate": 62.5,
+  "total_resolved": 585,
+  "total_correct": 366,
+  "overall_hit_rate": 62.6,
   "by_tier": {
     "Strong": {
       "total": 220,
-      "resolved": 210,
-      "correct": 140,
-      "hit_rate": 66.7
+      "resolved": 211,
+      "correct": 141,
+      "hit_rate": 66.8
     },
     "Moderate": {
       "total": 360,
-      "resolved": 328,
-      "correct": 202,
+      "resolved": 331,
+      "correct": 204,
       "hit_rate": 61.6
     },
     "Weak": {
@@ -10577,10 +10577,10 @@
       "total_value_usd": 430934.73,
       "entry_price": 0.505,
       "end_date": "2026-08-06",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Los Angeles Dodgers",
+      "resolved_date": "2026-08-06"
     },
     {
       "signal_key": "0xad47c57403c3f2d2c7edd24f7f4a0f6d50177d28edf43330623ded6c27f0d412:0",
@@ -10594,10 +10594,10 @@
       "total_value_usd": 38500.08,
       "entry_price": 0.505,
       "end_date": "2026-08-06",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Boston Red Sox",
+      "resolved_date": "2026-08-06"
     },
     {
       "signal_key": "0x46e854d117e7b1c7909c162e365c5cb4342849b078c9d4a08ab26d112712d825:0",
@@ -10611,10 +10611,10 @@
       "total_value_usd": 32856.32,
       "entry_price": 0.505,
       "end_date": "2026-08-06",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Houston Astros",
+      "resolved_date": "2026-08-06"
     },
     {
       "signal_key": "0xad47c57403c3f2d2c7edd24f7f4a0f6d50177d28edf43330623ded6c27f0d412:1",
@@ -10628,10 +10628,10 @@
       "total_value_usd": 17386.68,
       "entry_price": 0.505,
       "end_date": "2026-08-06",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Boston Red Sox",
+      "resolved_date": "2026-08-06"
     }
   ]
 }

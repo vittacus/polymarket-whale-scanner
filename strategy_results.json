@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-30T04:23:01+00:00",
+  "generated_at": "2026-07-30T07:14:25+00:00",
   "total_evaluated": 624,
-  "total_pending": 43,
+  "total_pending": 39,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 624,
-      "correct": 363,
-      "wrong": 218,
-      "pending": 43,
-      "win_rate": 62.5,
+      "correct": 366,
+      "wrong": 219,
+      "pending": 39,
+      "win_rate": 62.6,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -8701,11 +8701,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Dodgers",
+          "resolved_date": "2026-08-06",
           "end_date": "2026-08-06",
           "total_value_usd": 430934.73,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xad47c57403c3f2d2c7edd24f7f4a0f6d50177d28edf43330623ded6c27f0d412:0",
@@ -8715,11 +8715,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Boston Red Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Boston Red Sox",
+          "resolved_date": "2026-08-06",
           "end_date": "2026-08-06",
           "total_value_usd": 38500.08,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x46e854d117e7b1c7909c162e365c5cb4342849b078c9d4a08ab26d112712d825:0",
@@ -8729,11 +8729,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Houston Astros",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Houston Astros",
+          "resolved_date": "2026-08-06",
           "end_date": "2026-08-06",
           "total_value_usd": 32856.32,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xad47c57403c3f2d2c7edd24f7f4a0f6d50177d28edf43330623ded6c27f0d412:1",
@@ -8743,11 +8743,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Athletics",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Boston Red Sox",
+          "resolved_date": "2026-08-06",
           "end_date": "2026-08-06",
           "total_value_usd": 17386.68,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
