@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-29T23:45:11+00:00",
+  "generated_at": "2026-07-30T01:06:04+00:00",
   "total_signals": 620,
-  "total_resolved": 579,
-  "total_correct": 362,
-  "overall_hit_rate": 62.5,
+  "total_resolved": 580,
+  "total_correct": 363,
+  "overall_hit_rate": 62.6,
   "by_tier": {
     "Strong": {
       "total": 219,
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 357,
-      "resolved": 326,
-      "correct": 201,
-      "hit_rate": 61.7
+      "resolved": 327,
+      "correct": 202,
+      "hit_rate": 61.8
     },
     "Weak": {
       "total": 44,
@@ -10560,10 +10560,10 @@
       "total_value_usd": 57293.84,
       "entry_price": 0.505,
       "end_date": "2026-08-05",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Elvina Kalieva",
+      "resolved_date": "2026-08-05"
     }
   ]
 }
