@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-30T22:40:17+00:00",
-  "total_evaluated": 631,
-  "total_pending": 42,
+  "generated_at": "2026-07-30T23:46:12+00:00",
+  "total_evaluated": 633,
+  "total_pending": 43,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 631,
-      "correct": 368,
+      "signals_evaluated": 633,
+      "correct": 369,
       "wrong": 221,
-      "pending": 42,
+      "pending": 43,
       "win_rate": 62.5,
       "signals": [
         {
@@ -8841,10 +8841,38 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Mark Lajal",
+          "resolved_outcome": "Mark Lajal",
+          "resolved_date": "2026-08-06",
+          "end_date": "2026-08-06",
+          "total_value_usd": 318049.78,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xfff827cec867df575adcbd27f03295418e42e5407a08e7770bfda66144be25de:1",
+          "condition_id": "0xfff827cec867df575adcbd27f03295418e42e5407a08e7770bfda66144be25de",
+          "title": "Washington Nationals vs. Atlanta Braves",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Atlanta Braves",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-08-06",
-          "total_value_usd": 318049.78,
+          "total_value_usd": 223056.14,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x2d965a9bef980997acbf281cc1794eb459e2c7696a8a128ca8bd92537d9fb406:1",
+          "condition_id": "0x2d965a9bef980997acbf281cc1794eb459e2c7696a8a128ca8bd92537d9fb406",
+          "title": "Mubadala Citi DC Open: Ugo Humbert vs Ben Shelton",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Ben Shelton",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-06",
+          "total_value_usd": 105870.89,
           "result": "pending"
         }
       ]

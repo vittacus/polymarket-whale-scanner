@@ -204000,5 +204000,180 @@
         "entry_price": 0.505
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-30T23:40:47+00:00",
+    "whale_timeframes": {
+      "0xd218e474776403a330142299f7796e8ba32eb5c9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb687f00464e33934f5d591f224e71c3559ecaee5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6d20c35f65d9899b6d6b74f8466e824580f9a165": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7d6d24d5d9393cc2dd566a95a1cccbe0aa882654": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc3acf5878a03523d09a3ac859943445d7baeb964": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x16bb9951a36fce71e2ef57890b786145e0ba8492": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x52911b9d1d9da4d4783fb3280c0ccd6e73f0d4b6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9c56304c8840621ef4c1e707b4c7d708d09878d1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xae5b31e2ca93121383a914df2385af05e9150a8c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4be1fa92e6ceaf886aac0bbec3be6c527133aa70": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x511f9c771449162349795d17becf8b37031acbe1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd30f4698c6f5f3829893e68e183a8e5ea18f316": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe16d3f2a5807999b358affd9445c3a09e45e5e30": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5a218c7ad04135830a45c41aaed7294df7809318": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1d8c256b15d3cd1f5db221e70c77f552eb8d757a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd23f8c8aab13cfb2a35da40b67f8471faf9894a1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcfff4295288ee29f75a38a7028611b7c1e93673d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xfff827cec867df575adcbd27f03295418e42e5407a08e7770bfda66144be25de:1",
+        "condition_id": "0xfff827cec867df575adcbd27f03295418e42e5407a08e7770bfda66144be25de",
+        "title": "Washington Nationals vs. Atlanta Braves",
+        "outcome": "Atlanta Braves",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0xc3acf5878a03523d09a3ac859943445d7baeb964",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+        ],
+        "ranks": [
+          3,
+          4,
+          7,
+          8
+        ],
+        "total_value_usd": 223056.14,
+        "score": 18.3445,
+        "category": "MLB",
+        "end_date": "2026-08-06",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x2d965a9bef980997acbf281cc1794eb459e2c7696a8a128ca8bd92537d9fb406:1",
+        "condition_id": "0x2d965a9bef980997acbf281cc1794eb459e2c7696a8a128ca8bd92537d9fb406",
+        "title": "Mubadala Citi DC Open: Ugo Humbert vs Ben Shelton",
+        "outcome": "Ben Shelton",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x7d6d24d5d9393cc2dd566a95a1cccbe0aa882654",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+        ],
+        "ranks": [
+          3,
+          6,
+          8
+        ],
+        "total_value_usd": 105870.89,
+        "score": 12.6547,
+        "category": "Tennis",
+        "end_date": "2026-08-06",
+        "entry_price": 0.505
+      }
+    ]
   }
 ]
