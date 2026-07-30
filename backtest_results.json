@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-30T20:05:23+00:00",
-  "total_signals": 625,
+  "generated_at": "2026-07-30T21:22:24+00:00",
+  "total_signals": 628,
   "total_resolved": 586,
   "total_correct": 366,
   "overall_hit_rate": 62.5,
   "by_tier": {
     "Strong": {
-      "total": 221,
+      "total": 224,
       "resolved": 212,
       "correct": 141,
       "hit_rate": 66.5
@@ -10649,6 +10649,57 @@
       "correct": false,
       "resolved_outcome": "Brandon Nakashima",
       "resolved_date": "2026-08-06"
+    },
+    {
+      "signal_key": "0xee8c38169f30a6f17ad1ad0176e61e37ad79c53443ea3398517e4ccdc68bd027:1",
+      "condition_id": "0xee8c38169f30a6f17ad1ad0176e61e37ad79c53443ea3398517e4ccdc68bd027",
+      "title": "New York Yankees vs. Chicago White Sox",
+      "category": "MLB",
+      "whale_direction": "Chicago White Sox",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 19.6315,
+      "total_value_usd": 206446.69,
+      "entry_price": 0.505,
+      "end_date": "2026-08-06",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x57b870ef0a2d042fd9cd5d8a50cbaf692d858cbf95fa50b2ab09a8dffc2dab10:1",
+      "condition_id": "0x57b870ef0a2d042fd9cd5d8a50cbaf692d858cbf95fa50b2ab09a8dffc2dab10",
+      "title": "Chicago Cubs vs. St. Louis Cardinals",
+      "category": "MLB",
+      "whale_direction": "St. Louis Cardinals",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 17.7498,
+      "total_value_usd": 63883.02,
+      "entry_price": 0.505,
+      "end_date": "2026-08-06",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x57b870ef0a2d042fd9cd5d8a50cbaf692d858cbf95fa50b2ab09a8dffc2dab10:0",
+      "condition_id": "0x57b870ef0a2d042fd9cd5d8a50cbaf692d858cbf95fa50b2ab09a8dffc2dab10",
+      "title": "Chicago Cubs vs. St. Louis Cardinals",
+      "category": "MLB",
+      "whale_direction": "Chicago Cubs",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 17.3187,
+      "total_value_usd": 124406.71,
+      "entry_price": 0.505,
+      "end_date": "2026-08-06",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }

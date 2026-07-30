@@ -203606,5 +203606,203 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-07-30T21:17:37+00:00",
+    "whale_timeframes": {
+      "0xd218e474776403a330142299f7796e8ba32eb5c9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb687f00464e33934f5d591f224e71c3559ecaee5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7d6d24d5d9393cc2dd566a95a1cccbe0aa882654": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4ab9b54427ec4b7f3646b1a0ef1bed73bc708ebe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9c56304c8840621ef4c1e707b4c7d708d09878d1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x52911b9d1d9da4d4783fb3280c0ccd6e73f0d4b6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xae5b31e2ca93121383a914df2385af05e9150a8c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x16bb9951a36fce71e2ef57890b786145e0ba8492": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe16d3f2a5807999b358affd9445c3a09e45e5e30": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd30f4698c6f5f3829893e68e183a8e5ea18f316": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5a218c7ad04135830a45c41aaed7294df7809318": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1d8c256b15d3cd1f5db221e70c77f552eb8d757a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x27c5c1eee404a07f39fe70078aff815e5a656d61": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x03805a13a0b3e058f55f6c6af95389d4f431073d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x565ca59275f81991bd9877d7fa8404c5ecf6519e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xee8c38169f30a6f17ad1ad0176e61e37ad79c53443ea3398517e4ccdc68bd027:1",
+        "condition_id": "0xee8c38169f30a6f17ad1ad0176e61e37ad79c53443ea3398517e4ccdc68bd027",
+        "title": "New York Yankees vs. Chicago White Sox",
+        "outcome": "Chicago White Sox",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+        ],
+        "ranks": [
+          2,
+          4,
+          6
+        ],
+        "total_value_usd": 206446.69,
+        "score": 19.6315,
+        "category": "MLB",
+        "end_date": "2026-08-06",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x57b870ef0a2d042fd9cd5d8a50cbaf692d858cbf95fa50b2ab09a8dffc2dab10:1",
+        "condition_id": "0x57b870ef0a2d042fd9cd5d8a50cbaf692d858cbf95fa50b2ab09a8dffc2dab10",
+        "title": "Chicago Cubs vs. St. Louis Cardinals",
+        "outcome": "St. Louis Cardinals",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+        ],
+        "ranks": [
+          2,
+          4,
+          6
+        ],
+        "total_value_usd": 63883.02,
+        "score": 17.7498,
+        "category": "MLB",
+        "end_date": "2026-08-06",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x57b870ef0a2d042fd9cd5d8a50cbaf692d858cbf95fa50b2ab09a8dffc2dab10:0",
+        "condition_id": "0x57b870ef0a2d042fd9cd5d8a50cbaf692d858cbf95fa50b2ab09a8dffc2dab10",
+        "title": "Chicago Cubs vs. St. Louis Cardinals",
+        "outcome": "Chicago Cubs",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x52911b9d1d9da4d4783fb3280c0ccd6e73f0d4b6",
+          "0x16bb9951a36fce71e2ef57890b786145e0ba8492"
+        ],
+        "ranks": [
+          2,
+          6,
+          10,
+          13
+        ],
+        "total_value_usd": 124406.71,
+        "score": 17.3187,
+        "category": "MLB",
+        "end_date": "2026-08-06",
+        "entry_price": 0.505
+      }
+    ]
   }
 ]
