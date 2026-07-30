@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-30T13:23:13+00:00",
-  "total_signals": 624,
-  "total_resolved": 584,
+  "generated_at": "2026-07-30T15:29:09+00:00",
+  "total_signals": 625,
+  "total_resolved": 585,
   "total_correct": 366,
-  "overall_hit_rate": 62.7,
+  "overall_hit_rate": 62.6,
   "by_tier": {
     "Strong": {
-      "total": 220,
+      "total": 221,
       "resolved": 211,
       "correct": 141,
       "hit_rate": 66.8
     },
     "Moderate": {
       "total": 360,
-      "resolved": 330,
+      "resolved": 331,
       "correct": 204,
-      "hit_rate": 61.8
+      "hit_rate": 61.6
     },
     "Weak": {
       "total": 44,
@@ -9098,10 +9098,10 @@
       "total_value_usd": 35444.23,
       "entry_price": 0.535,
       "end_date": "2026-07-30",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Detroit Tigers",
+      "resolved_date": "2026-07-30"
     },
     {
       "signal_key": "0xf18688eccdccfd8f324f4d1e766af47a92c17de28ff579a93c94202f48ab3431:1",
@@ -10632,6 +10632,23 @@
       "correct": false,
       "resolved_outcome": "Boston Red Sox",
       "resolved_date": "2026-08-06"
+    },
+    {
+      "signal_key": "0x48ff4ccbcfcf953e7ed526eed8bd70a8720a5127dcce5116f65644e5179c723c:1",
+      "condition_id": "0x48ff4ccbcfcf953e7ed526eed8bd70a8720a5127dcce5116f65644e5179c723c",
+      "title": "Mubadala Citi DC Open: Brandon Nakashima vs Jakub Mensik",
+      "category": "Tennis",
+      "whale_direction": "Jakub Mensik",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 23.3236,
+      "total_value_usd": 70132.51,
+      "entry_price": 0.5,
+      "end_date": "2026-08-06",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
