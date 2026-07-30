@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-30T11:41:57+00:00",
+  "generated_at": "2026-07-30T13:23:13+00:00",
   "total_evaluated": 624,
-  "total_pending": 39,
+  "total_pending": 40,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
@@ -9,9 +9,9 @@
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 624,
       "correct": 366,
-      "wrong": 219,
-      "pending": 39,
-      "win_rate": 62.6,
+      "wrong": 218,
+      "pending": 40,
+      "win_rate": 62.7,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -7483,11 +7483,11 @@
           "tier": "Moderate",
           "entry_price": 0.535,
           "whale_direction": "Chicago Cubs",
-          "resolved_outcome": "Detroit Tigers",
-          "resolved_date": "2026-07-30",
+          "resolved_outcome": null,
+          "resolved_date": null,
           "end_date": "2026-07-30",
           "total_value_usd": 35444.23,
-          "result": "wrong"
+          "result": "pending"
         },
         {
           "signal_key": "0xf18688eccdccfd8f324f4d1e766af47a92c17de28ff579a93c94202f48ab3431:1",
