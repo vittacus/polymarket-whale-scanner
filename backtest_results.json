@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-31T22:12:38+00:00",
-  "total_signals": 659,
-  "total_resolved": 615,
-  "total_correct": 384,
-  "overall_hit_rate": 62.4,
+  "generated_at": "2026-07-31T23:20:33+00:00",
+  "total_signals": 663,
+  "total_resolved": 623,
+  "total_correct": 390,
+  "overall_hit_rate": 62.6,
   "by_tier": {
     "Strong": {
-      "total": 233,
-      "resolved": 225,
-      "correct": 150,
-      "hit_rate": 66.7
+      "total": 236,
+      "resolved": 226,
+      "correct": 151,
+      "hit_rate": 66.8
     },
     "Moderate": {
-      "total": 382,
-      "resolved": 347,
-      "correct": 213,
-      "hit_rate": 61.4
+      "total": 383,
+      "resolved": 354,
+      "correct": 218,
+      "hit_rate": 61.6
     },
     "Weak": {
       "total": 44,
@@ -8622,10 +8622,10 @@
       "total_value_usd": 95398.18,
       "entry_price": 0.505,
       "end_date": "2026-08-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-08-01"
     },
     {
       "signal_key": "0x656235664464bcadcc586acb871051dadb7c7343b7e805a5eccc02815e20d7df:1",
@@ -8775,10 +8775,10 @@
       "total_value_usd": 7183.48,
       "entry_price": 0.505,
       "end_date": "2026-08-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-08-01"
     },
     {
       "signal_key": "0xf473c2e521258a81d44f16fd65e811de7bcb6646912561583969004b81c10ec1:0",
@@ -11138,10 +11138,10 @@
       "total_value_usd": 90325.93,
       "entry_price": 0.505,
       "end_date": "2026-08-07",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Taylor Fritz",
+      "resolved_date": "2026-08-07"
     },
     {
       "signal_key": "0x766bd9969946db798f6866fb793ed8c7f6550f6c764dbb0d6bec3335c059dfc4:0",
@@ -11155,10 +11155,10 @@
       "total_value_usd": 42597.02,
       "entry_price": 0.505,
       "end_date": "2026-08-07",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Diana Shnaider",
+      "resolved_date": "2026-08-07"
     },
     {
       "signal_key": "0x849fc316259db893ed099df2110690f703e95ce998d020bff96d705be465ee83:0",
@@ -11172,10 +11172,10 @@
       "total_value_usd": 44526.35,
       "entry_price": 0.505,
       "end_date": "2026-08-07",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Vilius Gaubas",
+      "resolved_date": "2026-08-07"
     },
     {
       "signal_key": "0xfc119a60ba76e6c4443bed1cfead88f346948b7b91c3b1535cf939693eb3310c:1",
@@ -11189,10 +11189,10 @@
       "total_value_usd": 12347.94,
       "entry_price": 0.505,
       "end_date": "2026-08-07",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Taylah Preston",
+      "resolved_date": "2026-08-07"
     },
     {
       "signal_key": "0xfc119a60ba76e6c4443bed1cfead88f346948b7b91c3b1535cf939693eb3310c:0",
@@ -11206,10 +11206,10 @@
       "total_value_usd": 29846.61,
       "entry_price": 0.505,
       "end_date": "2026-08-07",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Taylah Preston",
+      "resolved_date": "2026-08-07"
     },
     {
       "signal_key": "0x766bd9969946db798f6866fb793ed8c7f6550f6c764dbb0d6bec3335c059dfc4:1",
@@ -11221,6 +11221,74 @@
       "tier": "Moderate",
       "score": 8.6706,
       "total_value_usd": 13780.33,
+      "entry_price": 0.505,
+      "end_date": "2026-08-07",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Diana Shnaider",
+      "resolved_date": "2026-08-07"
+    },
+    {
+      "signal_key": "0xaeb3725dc916cfc0c0b2017e01628b69bbe826779790e4ac96efd9ac6b050794:1",
+      "condition_id": "0xaeb3725dc916cfc0c0b2017e01628b69bbe826779790e4ac96efd9ac6b050794",
+      "title": "Mubadala Citi DC Open: Rafael Jodar vs Lorenzo Musetti",
+      "category": "Tennis",
+      "whale_direction": "Lorenzo Musetti",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 18.9792,
+      "total_value_usd": 81713.21,
+      "entry_price": 0.505,
+      "end_date": "2026-08-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xd1304f3e39c4eecad0a372e5539eed569f299ae1993d8142d00045c73158f197:1",
+      "condition_id": "0xd1304f3e39c4eecad0a372e5539eed569f299ae1993d8142d00045c73158f197",
+      "title": "Vancouver: Keegan Rice vs Mark Lajal",
+      "category": "Tennis",
+      "whale_direction": "Mark Lajal",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 16.7968,
+      "total_value_usd": 38603.58,
+      "entry_price": 0.505,
+      "end_date": "2026-08-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xaeb3725dc916cfc0c0b2017e01628b69bbe826779790e4ac96efd9ac6b050794:0",
+      "condition_id": "0xaeb3725dc916cfc0c0b2017e01628b69bbe826779790e4ac96efd9ac6b050794",
+      "title": "Mubadala Citi DC Open: Rafael Jodar vs Lorenzo Musetti",
+      "category": "Tennis",
+      "whale_direction": "Rafael Jodar",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 10.9154,
+      "total_value_usd": 12930.43,
+      "entry_price": 0.505,
+      "end_date": "2026-08-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x35e9861eca75a955bd5ecc9a59389c3c524abe309182ad4b71a515a47041271f:1",
+      "condition_id": "0x35e9861eca75a955bd5ecc9a59389c3c524abe309182ad4b71a515a47041271f",
+      "title": "The Memphis Classic: Elvina Kalieva vs Peyton Stearns",
+      "category": "Tennis",
+      "whale_direction": "Peyton Stearns",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 9.2826,
+      "total_value_usd": 3136.64,
       "entry_price": 0.505,
       "end_date": "2026-08-07",
       "resolved": false,

@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-31T22:12:38+00:00",
-  "total_evaluated": 659,
-  "total_pending": 44,
+  "generated_at": "2026-07-31T23:20:34+00:00",
+  "total_evaluated": 663,
+  "total_pending": 40,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 659,
-      "correct": 384,
-      "wrong": 231,
-      "pending": 44,
-      "win_rate": 62.4,
+      "signals_evaluated": 663,
+      "correct": 390,
+      "wrong": 233,
+      "pending": 40,
+      "win_rate": 62.6,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -7091,11 +7091,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-08-01",
           "end_date": "2026-08-01",
           "total_value_usd": 95398.18,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x656235664464bcadcc586acb871051dadb7c7343b7e805a5eccc02815e20d7df:1",
@@ -7217,11 +7217,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-08-01",
           "end_date": "2026-08-01",
           "total_value_usd": 7183.48,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf473c2e521258a81d44f16fd65e811de7bcb6646912561583969004b81c10ec1:0",
@@ -9163,11 +9163,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Taylor Fritz",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Taylor Fritz",
+          "resolved_date": "2026-08-07",
           "end_date": "2026-08-07",
           "total_value_usd": 90325.93,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x766bd9969946db798f6866fb793ed8c7f6550f6c764dbb0d6bec3335c059dfc4:0",
@@ -9177,11 +9177,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Diana Shnaider",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Diana Shnaider",
+          "resolved_date": "2026-08-07",
           "end_date": "2026-08-07",
           "total_value_usd": 42597.02,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x849fc316259db893ed099df2110690f703e95ce998d020bff96d705be465ee83:0",
@@ -9191,11 +9191,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Vilius Gaubas",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Vilius Gaubas",
+          "resolved_date": "2026-08-07",
           "end_date": "2026-08-07",
           "total_value_usd": 44526.35,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xfc119a60ba76e6c4443bed1cfead88f346948b7b91c3b1535cf939693eb3310c:1",
@@ -9205,11 +9205,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Mananchaya Sawangkaew",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Taylah Preston",
+          "resolved_date": "2026-08-07",
           "end_date": "2026-08-07",
           "total_value_usd": 12347.94,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xfc119a60ba76e6c4443bed1cfead88f346948b7b91c3b1535cf939693eb3310c:0",
@@ -9219,11 +9219,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Taylah Preston",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Taylah Preston",
+          "resolved_date": "2026-08-07",
           "end_date": "2026-08-07",
           "total_value_usd": 29846.61,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x766bd9969946db798f6866fb793ed8c7f6550f6c764dbb0d6bec3335c059dfc4:1",
@@ -9233,10 +9233,66 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Liudmila Samsonova",
+          "resolved_outcome": "Diana Shnaider",
+          "resolved_date": "2026-08-07",
+          "end_date": "2026-08-07",
+          "total_value_usd": 13780.33,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xaeb3725dc916cfc0c0b2017e01628b69bbe826779790e4ac96efd9ac6b050794:1",
+          "condition_id": "0xaeb3725dc916cfc0c0b2017e01628b69bbe826779790e4ac96efd9ac6b050794",
+          "title": "Mubadala Citi DC Open: Rafael Jodar vs Lorenzo Musetti",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Lorenzo Musetti",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-08-07",
-          "total_value_usd": 13780.33,
+          "total_value_usd": 81713.21,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd1304f3e39c4eecad0a372e5539eed569f299ae1993d8142d00045c73158f197:1",
+          "condition_id": "0xd1304f3e39c4eecad0a372e5539eed569f299ae1993d8142d00045c73158f197",
+          "title": "Vancouver: Keegan Rice vs Mark Lajal",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Mark Lajal",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-07",
+          "total_value_usd": 38603.58,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xaeb3725dc916cfc0c0b2017e01628b69bbe826779790e4ac96efd9ac6b050794:0",
+          "condition_id": "0xaeb3725dc916cfc0c0b2017e01628b69bbe826779790e4ac96efd9ac6b050794",
+          "title": "Mubadala Citi DC Open: Rafael Jodar vs Lorenzo Musetti",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Rafael Jodar",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-07",
+          "total_value_usd": 12930.43,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x35e9861eca75a955bd5ecc9a59389c3c524abe309182ad4b71a515a47041271f:1",
+          "condition_id": "0x35e9861eca75a955bd5ecc9a59389c3c524abe309182ad4b71a515a47041271f",
+          "title": "The Memphis Classic: Elvina Kalieva vs Peyton Stearns",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Peyton Stearns",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-07",
+          "total_value_usd": 3136.64,
           "result": "pending"
         }
       ]
