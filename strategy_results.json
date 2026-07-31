@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-31T16:48:38+00:00",
-  "total_evaluated": 646,
-  "total_pending": 42,
+  "generated_at": "2026-07-31T18:15:38+00:00",
+  "total_evaluated": 647,
+  "total_pending": 41,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 646,
-      "correct": 378,
+      "signals_evaluated": 647,
+      "correct": 380,
       "wrong": 226,
-      "pending": 42,
-      "win_rate": 62.6,
+      "pending": 41,
+      "win_rate": 62.7,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -9023,11 +9023,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Jessica Pegula",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jessica Pegula",
+          "resolved_date": "2026-08-07",
           "end_date": "2026-08-07",
           "total_value_usd": 51466.8,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc00ac54e1916a1d6c9f06040b9a3fb522aeeac82241dbe8f25543a5d008f0aea:0",
@@ -9051,10 +9051,24 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Lucia Bronzetti",
+          "resolved_outcome": "Lucia Bronzetti",
+          "resolved_date": "2026-08-07",
+          "end_date": "2026-08-07",
+          "total_value_usd": 18662.89,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xc00ac54e1916a1d6c9f06040b9a3fb522aeeac82241dbe8f25543a5d008f0aea:1",
+          "condition_id": "0xc00ac54e1916a1d6c9f06040b9a3fb522aeeac82241dbe8f25543a5d008f0aea",
+          "title": "San Marino: Alexandre Muller vs Mili Poljicak",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Mili Poljicak",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-08-07",
-          "total_value_usd": 18662.89,
+          "total_value_usd": 80019.25,
           "result": "pending"
         }
       ]
