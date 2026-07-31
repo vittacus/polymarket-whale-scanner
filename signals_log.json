@@ -205256,5 +205256,201 @@
         "entry_price": 0.505
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-31T16:42:54+00:00",
+    "whale_timeframes": {
+      "0x1b20a00709dfe648afd26b326394b5e031f83ab0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb687f00464e33934f5d591f224e71c3559ecaee5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd23f8c8aab13cfb2a35da40b67f8471faf9894a1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc3acf5878a03523d09a3ac859943445d7baeb964": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfbd8c9c22ca76b3662d0e53a4f79719fdc684027": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb0c85813a7a4428f1139ff91d3118a92c391fe7f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdd882a70680633a75516f6ed5fce443e2d96dadb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb859a551fcf56e49416160911476bea7307152f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3af1ed6ea380092db15c20ffa1b35652b0cad739": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x16c7337106a0b3a06ff863a1c06d8e2cbf7322cd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x695d8d90deae05ea1e07d3804130ff9564fd0d7c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x06dc51826bc524d9a83770e7de9dd7e005b04524": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x547f2917d51f2e63ab382dcf641d4e0240162937": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc5187cb669690150643ba2f9aac6b7d98d212594": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xa6236833a985fd46188248a6fabbde9c29478d9fbec68b3918989a07c79f4da9:0",
+        "condition_id": "0xa6236833a985fd46188248a6fabbde9c29478d9fbec68b3918989a07c79f4da9",
+        "title": "Mubadala Citi DC Open: Jessica Pegula vs Anna Kalinskaya",
+        "outcome": "Jessica Pegula",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563"
+        ],
+        "ranks": [
+          7,
+          8,
+          10
+        ],
+        "total_value_usd": 51466.8,
+        "score": 6.9839,
+        "category": "Tennis",
+        "end_date": "2026-08-07",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0xc00ac54e1916a1d6c9f06040b9a3fb522aeeac82241dbe8f25543a5d008f0aea:0",
+        "condition_id": "0xc00ac54e1916a1d6c9f06040b9a3fb522aeeac82241dbe8f25543a5d008f0aea",
+        "title": "San Marino: Alexandre Muller vs Mili Poljicak",
+        "outcome": "Alexandre Muller",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563"
+        ],
+        "ranks": [
+          7,
+          8,
+          10
+        ],
+        "total_value_usd": 7401.85,
+        "score": 5.7356,
+        "category": "Tennis",
+        "end_date": "2026-08-07",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x24477cda64f90d364aba3f74fb23e1699e3f8fe39488f5082b85447a82bc4414:1",
+        "condition_id": "0x24477cda64f90d364aba3f74fb23e1699e3f8fe39488f5082b85447a82bc4414",
+        "title": "Targu Mures: Sara Sorribes Tormo vs Lucia Bronzetti",
+        "outcome": "Lucia Bronzetti",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7"
+        ],
+        "ranks": [
+          7,
+          8,
+          18
+        ],
+        "total_value_usd": 18662.89,
+        "score": 5.566,
+        "category": "Tennis",
+        "end_date": "2026-08-07",
+        "entry_price": 0.505
+      }
+    ]
   }
 ]

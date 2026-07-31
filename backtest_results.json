@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-31T15:01:07+00:00",
-  "total_signals": 643,
-  "total_resolved": 602,
-  "total_correct": 377,
+  "generated_at": "2026-07-31T16:48:38+00:00",
+  "total_signals": 646,
+  "total_resolved": 604,
+  "total_correct": 378,
   "overall_hit_rate": 62.6,
   "by_tier": {
     "Strong": {
@@ -12,10 +12,10 @@
       "hit_rate": 67.0
     },
     "Moderate": {
-      "total": 366,
-      "resolved": 335,
-      "correct": 206,
-      "hit_rate": 61.5
+      "total": 369,
+      "resolved": 337,
+      "correct": 207,
+      "hit_rate": 61.4
     },
     "Weak": {
       "total": 44,
@@ -10934,10 +10934,10 @@
       "total_value_usd": 69547.23,
       "entry_price": 0.505,
       "end_date": "2026-08-07",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Gabriel Debru",
+      "resolved_date": "2026-08-07"
     },
     {
       "signal_key": "0x61314978725a4c141bfd510c0d1389da8b641cd489900623c9a64af60e18abbe:1",
@@ -10949,6 +10949,57 @@
       "tier": "Moderate",
       "score": 5.3102,
       "total_value_usd": 13097.47,
+      "entry_price": 0.505,
+      "end_date": "2026-08-07",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Max Dahlin",
+      "resolved_date": "2026-08-07"
+    },
+    {
+      "signal_key": "0xa6236833a985fd46188248a6fabbde9c29478d9fbec68b3918989a07c79f4da9:0",
+      "condition_id": "0xa6236833a985fd46188248a6fabbde9c29478d9fbec68b3918989a07c79f4da9",
+      "title": "Mubadala Citi DC Open: Jessica Pegula vs Anna Kalinskaya",
+      "category": "Tennis",
+      "whale_direction": "Jessica Pegula",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 6.9839,
+      "total_value_usd": 51466.8,
+      "entry_price": 0.505,
+      "end_date": "2026-08-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xc00ac54e1916a1d6c9f06040b9a3fb522aeeac82241dbe8f25543a5d008f0aea:0",
+      "condition_id": "0xc00ac54e1916a1d6c9f06040b9a3fb522aeeac82241dbe8f25543a5d008f0aea",
+      "title": "San Marino: Alexandre Muller vs Mili Poljicak",
+      "category": "Tennis",
+      "whale_direction": "Alexandre Muller",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 5.7356,
+      "total_value_usd": 7401.85,
+      "entry_price": 0.505,
+      "end_date": "2026-08-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x24477cda64f90d364aba3f74fb23e1699e3f8fe39488f5082b85447a82bc4414:1",
+      "condition_id": "0x24477cda64f90d364aba3f74fb23e1699e3f8fe39488f5082b85447a82bc4414",
+      "title": "Targu Mures: Sara Sorribes Tormo vs Lucia Bronzetti",
+      "category": "Tennis",
+      "whale_direction": "Lucia Bronzetti",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 5.566,
+      "total_value_usd": 18662.89,
       "entry_price": 0.505,
       "end_date": "2026-08-07",
       "resolved": false,
