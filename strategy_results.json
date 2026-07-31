@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-31T12:23:45+00:00",
-  "total_evaluated": 641,
+  "generated_at": "2026-07-31T15:01:07+00:00",
+  "total_evaluated": 643,
   "total_pending": 41,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 641,
-      "correct": 376,
-      "wrong": 224,
+      "signals_evaluated": 643,
+      "correct": 377,
+      "wrong": 225,
       "pending": 41,
-      "win_rate": 62.7,
+      "win_rate": 62.6,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -8967,11 +8967,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Federico Agustin Gomez",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Federico Agustin Gomez",
+          "resolved_date": "2026-08-07",
           "end_date": "2026-08-07",
           "total_value_usd": 108366.53,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x95cb5527209cbbabe99812f75b296c5cb86dab75d0b96b6d7802b1e7c5b19ecb:0",
@@ -8981,10 +8981,38 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Matheus Pucinelli de Almeida",
+          "resolved_outcome": "Federico Agustin Gomez",
+          "resolved_date": "2026-08-07",
+          "end_date": "2026-08-07",
+          "total_value_usd": 66691.04,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xb7bbf57973d467e1e63b3263a9428625199b40578b7e669d89cf0b617a63ce4a:1",
+          "condition_id": "0xb7bbf57973d467e1e63b3263a9428625199b40578b7e669d89cf0b617a63ce4a",
+          "title": "Samsun: Koki Matsuda vs Gabriel Debru",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Gabriel Debru",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-08-07",
-          "total_value_usd": 66691.04,
+          "total_value_usd": 69547.23,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x61314978725a4c141bfd510c0d1389da8b641cd489900623c9a64af60e18abbe:1",
+          "condition_id": "0x61314978725a4c141bfd510c0d1389da8b641cd489900623c9a64af60e18abbe",
+          "title": "Bonn: Max Dahlin vs Daniel Galan",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Daniel Galan",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-07",
+          "total_value_usd": 13097.47,
           "result": "pending"
         }
       ]

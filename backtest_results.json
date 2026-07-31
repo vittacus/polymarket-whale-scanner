@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-31T12:23:45+00:00",
-  "total_signals": 641,
-  "total_resolved": 600,
-  "total_correct": 376,
-  "overall_hit_rate": 62.7,
+  "generated_at": "2026-07-31T15:01:07+00:00",
+  "total_signals": 643,
+  "total_resolved": 602,
+  "total_correct": 377,
+  "overall_hit_rate": 62.6,
   "by_tier": {
     "Strong": {
       "total": 233,
@@ -12,10 +12,10 @@
       "hit_rate": 67.0
     },
     "Moderate": {
-      "total": 364,
-      "resolved": 333,
-      "correct": 205,
-      "hit_rate": 61.6
+      "total": 366,
+      "resolved": 335,
+      "correct": 206,
+      "hit_rate": 61.5
     },
     "Weak": {
       "total": 44,
@@ -10900,10 +10900,10 @@
       "total_value_usd": 108366.53,
       "entry_price": 0.505,
       "end_date": "2026-08-07",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Federico Agustin Gomez",
+      "resolved_date": "2026-08-07"
     },
     {
       "signal_key": "0x95cb5527209cbbabe99812f75b296c5cb86dab75d0b96b6d7802b1e7c5b19ecb:0",
@@ -10915,6 +10915,40 @@
       "tier": "Moderate",
       "score": 7.7271,
       "total_value_usd": 66691.04,
+      "entry_price": 0.505,
+      "end_date": "2026-08-07",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Federico Agustin Gomez",
+      "resolved_date": "2026-08-07"
+    },
+    {
+      "signal_key": "0xb7bbf57973d467e1e63b3263a9428625199b40578b7e669d89cf0b617a63ce4a:1",
+      "condition_id": "0xb7bbf57973d467e1e63b3263a9428625199b40578b7e669d89cf0b617a63ce4a",
+      "title": "Samsun: Koki Matsuda vs Gabriel Debru",
+      "category": "Tennis",
+      "whale_direction": "Gabriel Debru",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 6.2454,
+      "total_value_usd": 69547.23,
+      "entry_price": 0.505,
+      "end_date": "2026-08-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x61314978725a4c141bfd510c0d1389da8b641cd489900623c9a64af60e18abbe:1",
+      "condition_id": "0x61314978725a4c141bfd510c0d1389da8b641cd489900623c9a64af60e18abbe",
+      "title": "Bonn: Max Dahlin vs Daniel Galan",
+      "category": "Tennis",
+      "whale_direction": "Daniel Galan",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 5.3102,
+      "total_value_usd": 13097.47,
       "entry_price": 0.505,
       "end_date": "2026-08-07",
       "resolved": false,
