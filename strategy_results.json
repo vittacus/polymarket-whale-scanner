@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-31T21:03:20+00:00",
-  "total_evaluated": 657,
-  "total_pending": 46,
+  "generated_at": "2026-07-31T22:12:38+00:00",
+  "total_evaluated": 659,
+  "total_pending": 44,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 657,
-      "correct": 383,
-      "wrong": 228,
-      "pending": 46,
-      "win_rate": 62.7,
+      "signals_evaluated": 659,
+      "correct": 384,
+      "wrong": 231,
+      "pending": 44,
+      "win_rate": 62.4,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -6531,11 +6531,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-07-31",
           "end_date": "2026-07-31",
           "total_value_usd": 48091.52,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x056cf5f0999932490946ba2e6521104984dcc0ae04b97e6d2c21fbfa90e6d1cf:1",
@@ -8323,11 +8323,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Yes",
+          "resolved_date": "2026-07-31",
           "end_date": "2026-07-31",
           "total_value_usd": 336448.06,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xc1075db1b8dce58b0b9a505fc202a0ac288308e5f2b8e5a11510229d170cb4af:0",
@@ -9121,11 +9121,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "New York Yankees",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-08-07",
           "end_date": "2026-08-07",
           "total_value_usd": 148668.28,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x35e9861eca75a955bd5ecc9a59389c3c524abe309182ad4b71a515a47041271f:0",
@@ -9149,11 +9149,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Chicago Cubs",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-08-07",
           "end_date": "2026-08-07",
           "total_value_usd": 54687.55,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x2029e0396192d70b8a264810144a03a350b75a6a8f6e45379c7ee8503a12e476:0",
@@ -9209,6 +9209,34 @@
           "resolved_date": null,
           "end_date": "2026-08-07",
           "total_value_usd": 12347.94,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xfc119a60ba76e6c4443bed1cfead88f346948b7b91c3b1535cf939693eb3310c:0",
+          "condition_id": "0xfc119a60ba76e6c4443bed1cfead88f346948b7b91c3b1535cf939693eb3310c",
+          "title": "Vancouver: Taylah Preston vs Mananchaya Sawangkaew",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Taylah Preston",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-07",
+          "total_value_usd": 29846.61,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x766bd9969946db798f6866fb793ed8c7f6550f6c764dbb0d6bec3335c059dfc4:1",
+          "condition_id": "0x766bd9969946db798f6866fb793ed8c7f6550f6c764dbb0d6bec3335c059dfc4",
+          "title": "Mubadala Citi DC Open: Diana Shnaider vs Liudmila Samsonova",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Liudmila Samsonova",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-07",
+          "total_value_usd": 13780.33,
           "result": "pending"
         }
       ]

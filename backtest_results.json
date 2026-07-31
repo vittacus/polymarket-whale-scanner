@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-31T21:03:20+00:00",
-  "total_signals": 657,
-  "total_resolved": 611,
-  "total_correct": 383,
-  "overall_hit_rate": 62.7,
+  "generated_at": "2026-07-31T22:12:38+00:00",
+  "total_signals": 659,
+  "total_resolved": 615,
+  "total_correct": 384,
+  "overall_hit_rate": 62.4,
   "by_tier": {
     "Strong": {
       "total": 233,
-      "resolved": 224,
+      "resolved": 225,
       "correct": 150,
-      "hit_rate": 67.0
+      "hit_rate": 66.7
     },
     "Moderate": {
-      "total": 380,
-      "resolved": 344,
-      "correct": 212,
-      "hit_rate": 61.6
+      "total": 382,
+      "resolved": 347,
+      "correct": 213,
+      "hit_rate": 61.4
     },
     "Weak": {
       "total": 44,
@@ -7942,10 +7942,10 @@
       "total_value_usd": 48091.52,
       "entry_price": 0.505,
       "end_date": "2026-07-31",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-31"
     },
     {
       "signal_key": "0x056cf5f0999932490946ba2e6521104984dcc0ae04b97e6d2c21fbfa90e6d1cf:1",
@@ -10118,10 +10118,10 @@
       "total_value_usd": 336448.06,
       "entry_price": 0.505,
       "end_date": "2026-07-31",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-07-31"
     },
     {
       "signal_key": "0xc1075db1b8dce58b0b9a505fc202a0ac288308e5f2b8e5a11510229d170cb4af:0",
@@ -11087,10 +11087,10 @@
       "total_value_usd": 148668.28,
       "entry_price": 0.505,
       "end_date": "2026-08-07",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "New York Yankees",
+      "resolved_date": "2026-08-07"
     },
     {
       "signal_key": "0x35e9861eca75a955bd5ecc9a59389c3c524abe309182ad4b71a515a47041271f:0",
@@ -11121,10 +11121,10 @@
       "total_value_usd": 54687.55,
       "entry_price": 0.505,
       "end_date": "2026-08-07",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "New York Yankees",
+      "resolved_date": "2026-08-07"
     },
     {
       "signal_key": "0x2029e0396192d70b8a264810144a03a350b75a6a8f6e45379c7ee8503a12e476:0",
@@ -11187,6 +11187,40 @@
       "tier": "Moderate",
       "score": 4.4299,
       "total_value_usd": 12347.94,
+      "entry_price": 0.505,
+      "end_date": "2026-08-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xfc119a60ba76e6c4443bed1cfead88f346948b7b91c3b1535cf939693eb3310c:0",
+      "condition_id": "0xfc119a60ba76e6c4443bed1cfead88f346948b7b91c3b1535cf939693eb3310c",
+      "title": "Vancouver: Taylah Preston vs Mananchaya Sawangkaew",
+      "category": "Tennis",
+      "whale_direction": "Taylah Preston",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 9.3737,
+      "total_value_usd": 29846.61,
+      "entry_price": 0.505,
+      "end_date": "2026-08-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x766bd9969946db798f6866fb793ed8c7f6550f6c764dbb0d6bec3335c059dfc4:1",
+      "condition_id": "0x766bd9969946db798f6866fb793ed8c7f6550f6c764dbb0d6bec3335c059dfc4",
+      "title": "Mubadala Citi DC Open: Diana Shnaider vs Liudmila Samsonova",
+      "category": "Tennis",
+      "whale_direction": "Liudmila Samsonova",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 8.6706,
+      "total_value_usd": 13780.33,
       "entry_price": 0.505,
       "end_date": "2026-08-07",
       "resolved": false,
