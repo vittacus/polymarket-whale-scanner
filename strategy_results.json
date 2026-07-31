@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-31T04:46:21+00:00",
+  "generated_at": "2026-07-31T07:38:58+00:00",
   "total_evaluated": 636,
-  "total_pending": 41,
+  "total_pending": 39,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 636,
-      "correct": 372,
+      "correct": 374,
       "wrong": 223,
-      "pending": 41,
-      "win_rate": 62.5,
+      "pending": 39,
+      "win_rate": 62.6,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -8897,11 +8897,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "San Francisco Giants",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "San Francisco Giants",
+          "resolved_date": "2026-08-07",
           "end_date": "2026-08-07",
           "total_value_usd": 635193.18,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x5ee7f9810c26a8d6800dde1fe536cb082110ab9b7e40e0bac87fdc1246d12d4a:1",
@@ -8911,11 +8911,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Dodgers",
+          "resolved_date": "2026-08-07",
           "end_date": "2026-08-07",
           "total_value_usd": 191870.57,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -8952,10 +8952,10 @@
       "description": "Total whale position >$500k",
       "hypothesis": "Signals where total position size exceeds $500k represent the highest-conviction whale bets. When top traders put serious capital behind a position, that's a qualitatively different signal from a small stake. This filters for only the highest-conviction consensus calls to test whether size predicts accuracy.",
       "signals_evaluated": 24,
-      "correct": 15,
+      "correct": 16,
       "wrong": 6,
-      "pending": 3,
-      "win_rate": 71.4,
+      "pending": 2,
+      "win_rate": 72.7,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -9287,11 +9287,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "San Francisco Giants",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "San Francisco Giants",
+          "resolved_date": "2026-08-07",
           "end_date": "2026-08-07",
           "total_value_usd": 635193.18,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     }
