@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-31T01:18:14+00:00",
-  "total_evaluated": 634,
-  "total_pending": 42,
+  "generated_at": "2026-07-31T04:46:21+00:00",
+  "total_evaluated": 636,
+  "total_pending": 41,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 634,
-      "correct": 370,
-      "wrong": 222,
-      "pending": 42,
+      "signals_evaluated": 636,
+      "correct": 372,
+      "wrong": 223,
+      "pending": 41,
       "win_rate": 62.5,
       "signals": [
         {
@@ -8855,11 +8855,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Atlanta Braves",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Atlanta Braves",
+          "resolved_date": "2026-08-06",
           "end_date": "2026-08-06",
           "total_value_usd": 223056.14,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x2d965a9bef980997acbf281cc1794eb459e2c7696a8a128ca8bd92537d9fb406:1",
@@ -8869,11 +8869,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Ben Shelton",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Ben Shelton",
+          "resolved_date": "2026-08-06",
           "end_date": "2026-08-06",
           "total_value_usd": 105870.89,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf3b07246d6bc7dcd36981aebf123150560f7815079f5398068f29f9c64e37529:0",
@@ -8883,10 +8883,38 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Pittsburgh Pirates",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Cincinnati Reds",
+          "resolved_date": "2026-08-06",
           "end_date": "2026-08-06",
           "total_value_usd": 69287.47,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xa465e5118544b6d4c309728b8666ad2e35c1423d1f1411de5bcc4c3ae04be7ca:0",
+          "condition_id": "0xa465e5118544b6d4c309728b8666ad2e35c1423d1f1411de5bcc4c3ae04be7ca",
+          "title": "San Francisco Giants vs. San Diego Padres",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "San Francisco Giants",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-07",
+          "total_value_usd": 635193.18,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x5ee7f9810c26a8d6800dde1fe536cb082110ab9b7e40e0bac87fdc1246d12d4a:1",
+          "condition_id": "0x5ee7f9810c26a8d6800dde1fe536cb082110ab9b7e40e0bac87fdc1246d12d4a",
+          "title": "Seattle Mariners vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-07",
+          "total_value_usd": 191870.57,
           "result": "pending"
         }
       ]
@@ -8923,10 +8951,10 @@
       "name": "Conviction Sizing",
       "description": "Total whale position >$500k",
       "hypothesis": "Signals where total position size exceeds $500k represent the highest-conviction whale bets. When top traders put serious capital behind a position, that's a qualitatively different signal from a small stake. This filters for only the highest-conviction consensus calls to test whether size predicts accuracy.",
-      "signals_evaluated": 23,
+      "signals_evaluated": 24,
       "correct": 15,
       "wrong": 6,
-      "pending": 2,
+      "pending": 3,
       "win_rate": 71.4,
       "signals": [
         {
@@ -9249,6 +9277,20 @@
           "resolved_date": null,
           "end_date": "2026-12-31",
           "total_value_usd": 898402.65,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xa465e5118544b6d4c309728b8666ad2e35c1423d1f1411de5bcc4c3ae04be7ca:0",
+          "condition_id": "0xa465e5118544b6d4c309728b8666ad2e35c1423d1f1411de5bcc4c3ae04be7ca",
+          "title": "San Francisco Giants vs. San Diego Padres",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "San Francisco Giants",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-07",
+          "total_value_usd": 635193.18,
           "result": "pending"
         }
       ]

@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-31T01:18:14+00:00",
-  "total_signals": 634,
-  "total_resolved": 592,
-  "total_correct": 370,
+  "generated_at": "2026-07-31T04:46:21+00:00",
+  "total_signals": 636,
+  "total_resolved": 595,
+  "total_correct": 372,
   "overall_hit_rate": 62.5,
   "by_tier": {
     "Strong": {
-      "total": 229,
-      "resolved": 218,
-      "correct": 145,
-      "hit_rate": 66.5
+      "total": 230,
+      "resolved": 220,
+      "correct": 147,
+      "hit_rate": 66.8
     },
     "Moderate": {
-      "total": 361,
-      "resolved": 331,
+      "total": 362,
+      "resolved": 332,
       "correct": 204,
-      "hit_rate": 61.6
+      "hit_rate": 61.4
     },
     "Weak": {
       "total": 44,
@@ -10764,10 +10764,10 @@
       "total_value_usd": 223056.14,
       "entry_price": 0.505,
       "end_date": "2026-08-06",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Atlanta Braves",
+      "resolved_date": "2026-08-06"
     },
     {
       "signal_key": "0x2d965a9bef980997acbf281cc1794eb459e2c7696a8a128ca8bd92537d9fb406:1",
@@ -10781,10 +10781,10 @@
       "total_value_usd": 105870.89,
       "entry_price": 0.505,
       "end_date": "2026-08-06",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Ben Shelton",
+      "resolved_date": "2026-08-06"
     },
     {
       "signal_key": "0xf3b07246d6bc7dcd36981aebf123150560f7815079f5398068f29f9c64e37529:0",
@@ -10798,6 +10798,40 @@
       "total_value_usd": 69287.47,
       "entry_price": 0.505,
       "end_date": "2026-08-06",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Cincinnati Reds",
+      "resolved_date": "2026-08-06"
+    },
+    {
+      "signal_key": "0xa465e5118544b6d4c309728b8666ad2e35c1423d1f1411de5bcc4c3ae04be7ca:0",
+      "condition_id": "0xa465e5118544b6d4c309728b8666ad2e35c1423d1f1411de5bcc4c3ae04be7ca",
+      "title": "San Francisco Giants vs. San Diego Padres",
+      "category": "MLB",
+      "whale_direction": "San Francisco Giants",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 34.7575,
+      "total_value_usd": 635193.18,
+      "entry_price": 0.505,
+      "end_date": "2026-08-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x5ee7f9810c26a8d6800dde1fe536cb082110ab9b7e40e0bac87fdc1246d12d4a:1",
+      "condition_id": "0x5ee7f9810c26a8d6800dde1fe536cb082110ab9b7e40e0bac87fdc1246d12d4a",
+      "title": "Seattle Mariners vs. Los Angeles Dodgers",
+      "category": "MLB",
+      "whale_direction": "Los Angeles Dodgers",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 8.5152,
+      "total_value_usd": 191870.57,
+      "entry_price": 0.505,
+      "end_date": "2026-08-07",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
