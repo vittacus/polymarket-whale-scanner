@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-31T10:19:58+00:00",
-  "total_signals": 639,
-  "total_resolved": 597,
-  "total_correct": 374,
-  "overall_hit_rate": 62.6,
+  "generated_at": "2026-07-31T12:23:45+00:00",
+  "total_signals": 641,
+  "total_resolved": 600,
+  "total_correct": 376,
+  "overall_hit_rate": 62.7,
   "by_tier": {
     "Strong": {
       "total": 233,
-      "resolved": 221,
-      "correct": 148,
+      "resolved": 224,
+      "correct": 150,
       "hit_rate": 67.0
     },
     "Moderate": {
-      "total": 362,
+      "total": 364,
       "resolved": 333,
       "correct": 205,
       "hit_rate": 61.6
@@ -10849,10 +10849,10 @@
       "total_value_usd": 149082.19,
       "entry_price": 0.505,
       "end_date": "2026-08-07",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Jan Kumstat",
+      "resolved_date": "2026-08-07"
     },
     {
       "signal_key": "0xad19956eea014254eff38153646decd5f35dd4acb688ce3760b348909710e18f:0",
@@ -10866,10 +10866,10 @@
       "total_value_usd": 199998.01,
       "entry_price": 0.505,
       "end_date": "2026-08-07",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Laura Samson",
+      "resolved_date": "2026-08-07"
     },
     {
       "signal_key": "0xad19956eea014254eff38153646decd5f35dd4acb688ce3760b348909710e18f:1",
@@ -10881,6 +10881,40 @@
       "tier": "Strong",
       "score": 10.5095,
       "total_value_usd": 19378.62,
+      "entry_price": 0.505,
+      "end_date": "2026-08-07",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Laura Samson",
+      "resolved_date": "2026-08-07"
+    },
+    {
+      "signal_key": "0x95cb5527209cbbabe99812f75b296c5cb86dab75d0b96b6d7802b1e7c5b19ecb:1",
+      "condition_id": "0x95cb5527209cbbabe99812f75b296c5cb86dab75d0b96b6d7802b1e7c5b19ecb",
+      "title": "Bonn: Matheus Pucinelli de Almeida vs Federico Agustin Gomez",
+      "category": "Tennis",
+      "whale_direction": "Federico Agustin Gomez",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 9.1919,
+      "total_value_usd": 108366.53,
+      "entry_price": 0.505,
+      "end_date": "2026-08-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x95cb5527209cbbabe99812f75b296c5cb86dab75d0b96b6d7802b1e7c5b19ecb:0",
+      "condition_id": "0x95cb5527209cbbabe99812f75b296c5cb86dab75d0b96b6d7802b1e7c5b19ecb",
+      "title": "Bonn: Matheus Pucinelli de Almeida vs Federico Agustin Gomez",
+      "category": "Tennis",
+      "whale_direction": "Matheus Pucinelli de Almeida",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 7.7271,
+      "total_value_usd": 66691.04,
       "entry_price": 0.505,
       "end_date": "2026-08-07",
       "resolved": false,

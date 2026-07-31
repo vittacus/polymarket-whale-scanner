@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-31T10:19:58+00:00",
-  "total_evaluated": 639,
-  "total_pending": 42,
+  "generated_at": "2026-07-31T12:23:45+00:00",
+  "total_evaluated": 641,
+  "total_pending": 41,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 639,
-      "correct": 374,
-      "wrong": 223,
-      "pending": 42,
-      "win_rate": 62.6,
+      "signals_evaluated": 641,
+      "correct": 376,
+      "wrong": 224,
+      "pending": 41,
+      "win_rate": 62.7,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -8925,11 +8925,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Jan Kumstat",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jan Kumstat",
+          "resolved_date": "2026-08-07",
           "end_date": "2026-08-07",
           "total_value_usd": 149082.19,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xad19956eea014254eff38153646decd5f35dd4acb688ce3760b348909710e18f:0",
@@ -8939,11 +8939,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Laura Samson",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Laura Samson",
+          "resolved_date": "2026-08-07",
           "end_date": "2026-08-07",
           "total_value_usd": 199998.01,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xad19956eea014254eff38153646decd5f35dd4acb688ce3760b348909710e18f:1",
@@ -8953,10 +8953,38 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Mia Ristic",
+          "resolved_outcome": "Laura Samson",
+          "resolved_date": "2026-08-07",
+          "end_date": "2026-08-07",
+          "total_value_usd": 19378.62,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x95cb5527209cbbabe99812f75b296c5cb86dab75d0b96b6d7802b1e7c5b19ecb:1",
+          "condition_id": "0x95cb5527209cbbabe99812f75b296c5cb86dab75d0b96b6d7802b1e7c5b19ecb",
+          "title": "Bonn: Matheus Pucinelli de Almeida vs Federico Agustin Gomez",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Federico Agustin Gomez",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-08-07",
-          "total_value_usd": 19378.62,
+          "total_value_usd": 108366.53,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x95cb5527209cbbabe99812f75b296c5cb86dab75d0b96b6d7802b1e7c5b19ecb:0",
+          "condition_id": "0x95cb5527209cbbabe99812f75b296c5cb86dab75d0b96b6d7802b1e7c5b19ecb",
+          "title": "Bonn: Matheus Pucinelli de Almeida vs Federico Agustin Gomez",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Matheus Pucinelli de Almeida",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-07",
+          "total_value_usd": 66691.04,
           "result": "pending"
         }
       ]
