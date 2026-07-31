@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-31T07:38:58+00:00",
-  "total_signals": 636,
+  "generated_at": "2026-07-31T10:19:58+00:00",
+  "total_signals": 639,
   "total_resolved": 597,
   "total_correct": 374,
   "overall_hit_rate": 62.6,
   "by_tier": {
     "Strong": {
-      "total": 230,
+      "total": 233,
       "resolved": 221,
       "correct": 148,
       "hit_rate": 67.0
@@ -10836,6 +10836,57 @@
       "correct": true,
       "resolved_outcome": "Los Angeles Dodgers",
       "resolved_date": "2026-08-07"
+    },
+    {
+      "signal_key": "0x93c696ede2d15485ba247c9c809229a12051d01a21cf0533ecce13a1f27b758a:0",
+      "condition_id": "0x93c696ede2d15485ba247c9c809229a12051d01a21cf0533ecce13a1f27b758a",
+      "title": "Liberec: Jan Kumstat vs Frederico Ferreira Silva",
+      "category": "Tennis",
+      "whale_direction": "Jan Kumstat",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 12.6816,
+      "total_value_usd": 149082.19,
+      "entry_price": 0.505,
+      "end_date": "2026-08-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xad19956eea014254eff38153646decd5f35dd4acb688ce3760b348909710e18f:0",
+      "condition_id": "0xad19956eea014254eff38153646decd5f35dd4acb688ce3760b348909710e18f",
+      "title": "Targu Mures: Laura Samson vs Mia Ristic",
+      "category": "Tennis",
+      "whale_direction": "Laura Samson",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 10.5585,
+      "total_value_usd": 199998.01,
+      "entry_price": 0.505,
+      "end_date": "2026-08-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xad19956eea014254eff38153646decd5f35dd4acb688ce3760b348909710e18f:1",
+      "condition_id": "0xad19956eea014254eff38153646decd5f35dd4acb688ce3760b348909710e18f",
+      "title": "Targu Mures: Laura Samson vs Mia Ristic",
+      "category": "Tennis",
+      "whale_direction": "Mia Ristic",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 10.5095,
+      "total_value_usd": 19378.62,
+      "entry_price": 0.505,
+      "end_date": "2026-08-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
