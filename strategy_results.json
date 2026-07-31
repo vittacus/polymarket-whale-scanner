@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-31T19:56:16+00:00",
-  "total_evaluated": 653,
-  "total_pending": 45,
+  "generated_at": "2026-07-31T21:03:20+00:00",
+  "total_evaluated": 657,
+  "total_pending": 46,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 653,
-      "correct": 381,
-      "wrong": 227,
-      "pending": 45,
+      "signals_evaluated": 657,
+      "correct": 383,
+      "wrong": 228,
+      "pending": 46,
       "win_rate": 62.7,
       "signals": [
         {
@@ -9079,11 +9079,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Brandon Nakashima",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Brandon Nakashima",
+          "resolved_date": "2026-08-07",
           "end_date": "2026-08-07",
           "total_value_usd": 89330.95,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xb6316f8194ece491c69fabfd124109c9310a6d446de0806b646503b3d5e5af7d:1",
@@ -9093,11 +9093,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Naomi Osaka",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Naomi Osaka",
+          "resolved_date": "2026-08-07",
           "end_date": "2026-08-07",
           "total_value_usd": 74437.52,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x8e6cfddfadbe05667e986a40ce40b9e853dcb9507804298bd2654ebaf8f0abb9:0",
@@ -9107,11 +9107,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Alex de Minaur",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Brandon Nakashima",
+          "resolved_date": "2026-08-07",
           "end_date": "2026-08-07",
           "total_value_usd": 50762.96,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x07d64e803045e2d8244048597e166c6a46cf01d2fa1413303cc3a1e49b95f032:0",
@@ -9153,6 +9153,62 @@
           "resolved_date": null,
           "end_date": "2026-08-07",
           "total_value_usd": 54687.55,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x2029e0396192d70b8a264810144a03a350b75a6a8f6e45379c7ee8503a12e476:0",
+          "condition_id": "0x2029e0396192d70b8a264810144a03a350b75a6a8f6e45379c7ee8503a12e476",
+          "title": "Mubadala Citi DC Open: Taylor Fritz vs Alex Michelsen",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Taylor Fritz",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-07",
+          "total_value_usd": 90325.93,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x766bd9969946db798f6866fb793ed8c7f6550f6c764dbb0d6bec3335c059dfc4:0",
+          "condition_id": "0x766bd9969946db798f6866fb793ed8c7f6550f6c764dbb0d6bec3335c059dfc4",
+          "title": "Mubadala Citi DC Open: Diana Shnaider vs Liudmila Samsonova",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Diana Shnaider",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-07",
+          "total_value_usd": 42597.02,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x849fc316259db893ed099df2110690f703e95ce998d020bff96d705be465ee83:0",
+          "condition_id": "0x849fc316259db893ed099df2110690f703e95ce998d020bff96d705be465ee83",
+          "title": "San Marino: Vilius Gaubas vs Thiago Monteiro",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Vilius Gaubas",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-07",
+          "total_value_usd": 44526.35,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xfc119a60ba76e6c4443bed1cfead88f346948b7b91c3b1535cf939693eb3310c:1",
+          "condition_id": "0xfc119a60ba76e6c4443bed1cfead88f346948b7b91c3b1535cf939693eb3310c",
+          "title": "Vancouver: Taylah Preston vs Mananchaya Sawangkaew",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Mananchaya Sawangkaew",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-07",
+          "total_value_usd": 12347.94,
           "result": "pending"
         }
       ]
