@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-30T23:46:12+00:00",
-  "total_evaluated": 633,
-  "total_pending": 43,
+  "generated_at": "2026-07-31T01:18:14+00:00",
+  "total_evaluated": 634,
+  "total_pending": 42,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 633,
-      "correct": 369,
-      "wrong": 221,
-      "pending": 43,
+      "signals_evaluated": 634,
+      "correct": 370,
+      "wrong": 222,
+      "pending": 42,
       "win_rate": 62.5,
       "signals": [
         {
@@ -8813,11 +8813,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Terence Atmane",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alejandro Tabilo",
+          "resolved_date": "2026-08-05",
           "end_date": "2026-08-05",
           "total_value_usd": 126317.82,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x37e6080cbb3e1dca64fd28d96ca6676a131d776d03367c5fd5b28c60ab14a12c:1",
@@ -8827,11 +8827,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Alejandro Tabilo",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alejandro Tabilo",
+          "resolved_date": "2026-08-05",
           "end_date": "2026-08-05",
           "total_value_usd": 265716.27,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xb3c10bf9fcfbba2fb10ebf3120108d913ad0cbb25e3925246d0dc02efaae4ba3:0",
@@ -8873,6 +8873,20 @@
           "resolved_date": null,
           "end_date": "2026-08-06",
           "total_value_usd": 105870.89,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf3b07246d6bc7dcd36981aebf123150560f7815079f5398068f29f9c64e37529:0",
+          "condition_id": "0xf3b07246d6bc7dcd36981aebf123150560f7815079f5398068f29f9c64e37529",
+          "title": "Pittsburgh Pirates vs. Cincinnati Reds",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Pittsburgh Pirates",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-06",
+          "total_value_usd": 69287.47,
           "result": "pending"
         }
       ]

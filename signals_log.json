@@ -204175,5 +204175,182 @@
         "entry_price": 0.505
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-31T01:12:38+00:00",
+    "whale_timeframes": {
+      "0xc3acf5878a03523d09a3ac859943445d7baeb964": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd30f4698c6f5f3829893e68e183a8e5ea18f316": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7d6d24d5d9393cc2dd566a95a1cccbe0aa882654": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0d18e30e252008d83f51dae00d36873ddd9e24a6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0f35109cc3ceaf729609c3109310791bd616c84a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x782186952ef2ca75ea91c95aef25bbdcffb4bb1a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb687f00464e33934f5d591f224e71c3559ecaee5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x95b198f900d19a80d3d7e47b7b17708af254f9ac": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x880b1fc5d3beb01c237f0848b249fd72b48fc98b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x866056133a70de9282a080758858d1a0c8b393ed": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7fb23b0d330ea4ac4f3cecce1eb81fb0bfb3ed4b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x547f2917d51f2e63ab382dcf641d4e0240162937": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x38337de21ff0bb0a11a40761507d51e318d633d1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x322f041810cee536293dcb4c99fc23b3a766940a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xfff827cec867df575adcbd27f03295418e42e5407a08e7770bfda66144be25de:1",
+        "condition_id": "0xfff827cec867df575adcbd27f03295418e42e5407a08e7770bfda66144be25de",
+        "title": "Washington Nationals vs. Atlanta Braves",
+        "outcome": "Atlanta Braves",
+        "outcome_index": 1,
+        "whale_count": 5,
+        "wallets": [
+          "0xc3acf5878a03523d09a3ac859943445d7baeb964",
+          "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1",
+          "0x7d6d24d5d9393cc2dd566a95a1cccbe0aa882654",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          1,
+          2,
+          6,
+          7,
+          8
+        ],
+        "total_value_usd": 485826.29,
+        "score": 44.3273,
+        "category": "MLB",
+        "end_date": "2026-08-06",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0xf3b07246d6bc7dcd36981aebf123150560f7815079f5398068f29f9c64e37529:0",
+        "condition_id": "0xf3b07246d6bc7dcd36981aebf123150560f7815079f5398068f29f9c64e37529",
+        "title": "Pittsburgh Pirates vs. Cincinnati Reds",
+        "outcome": "Pittsburgh Pirates",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x7d6d24d5d9393cc2dd566a95a1cccbe0aa882654",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319"
+        ],
+        "ranks": [
+          6,
+          7,
+          12
+        ],
+        "total_value_usd": 69287.47,
+        "score": 7.6629,
+        "category": "MLB",
+        "end_date": "2026-08-06",
+        "entry_price": 0.505
+      }
+    ]
   }
 ]
