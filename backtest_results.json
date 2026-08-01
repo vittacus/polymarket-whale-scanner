@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-01T19:58:02+00:00",
-  "total_signals": 674,
-  "total_resolved": 638,
-  "total_correct": 400,
+  "generated_at": "2026-08-01T20:48:55+00:00",
+  "total_signals": 676,
+  "total_resolved": 640,
+  "total_correct": 401,
   "overall_hit_rate": 62.7,
   "by_tier": {
     "Strong": {
       "total": 244,
-      "resolved": 237,
-      "correct": 158,
-      "hit_rate": 66.7
+      "resolved": 238,
+      "correct": 159,
+      "hit_rate": 66.8
     },
     "Moderate": {
-      "total": 386,
-      "resolved": 358,
+      "total": 388,
+      "resolved": 359,
       "correct": 221,
-      "hit_rate": 61.7
+      "hit_rate": 61.6
     },
     "Weak": {
       "total": 44,
@@ -11461,10 +11461,10 @@
       "total_value_usd": 17463.94,
       "entry_price": 0.0455,
       "end_date": "2026-08-08",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Jessica Pegula",
+      "resolved_date": "2026-08-08"
     },
     {
       "signal_key": "0xbc8a8998a7cca061ed2e7c870ce603d65fa2d841771f252e1ff55e773336e153:0",
@@ -11476,6 +11476,40 @@
       "tier": "Strong",
       "score": 11.1078,
       "total_value_usd": 163204.73,
+      "entry_price": 0.0455,
+      "end_date": "2026-08-08",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Jessica Pegula",
+      "resolved_date": "2026-08-08"
+    },
+    {
+      "signal_key": "0x51eb5c0499991ea63c6b905ebee25d9fc0f529dd9ae292df353f67598348a5fb:0",
+      "condition_id": "0x51eb5c0499991ea63c6b905ebee25d9fc0f529dd9ae292df353f67598348a5fb",
+      "title": "Mubadala Citi DC Open: Naomi Osaka vs Alexandra Eala",
+      "category": "Tennis",
+      "whale_direction": "Naomi Osaka",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 7.0215,
+      "total_value_usd": 10499.02,
+      "entry_price": 0.0455,
+      "end_date": "2026-08-08",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x78bdd0292451fd2041616eb96114f931c661f262a51c3c1306913b7d33ca6e1f:0",
+      "condition_id": "0x78bdd0292451fd2041616eb96114f931c661f262a51c3c1306913b7d33ca6e1f",
+      "title": "St. Louis Cardinals vs. Toronto Blue Jays",
+      "category": "MLB",
+      "whale_direction": "St. Louis Cardinals",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 6.2878,
+      "total_value_usd": 29411.68,
       "entry_price": 0.0455,
       "end_date": "2026-08-08",
       "resolved": false,

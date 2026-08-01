@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-01T19:58:03+00:00",
-  "total_evaluated": 674,
+  "generated_at": "2026-08-01T20:48:55+00:00",
+  "total_evaluated": 676,
   "total_pending": 36,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 674,
-      "correct": 400,
-      "wrong": 238,
+      "signals_evaluated": 676,
+      "correct": 401,
+      "wrong": 239,
       "pending": 36,
       "win_rate": 62.7,
       "signals": [
@@ -9429,11 +9429,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Diana Shnaider",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jessica Pegula",
+          "resolved_date": "2026-08-08",
           "end_date": "2026-08-08",
           "total_value_usd": 17463.94,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xbc8a8998a7cca061ed2e7c870ce603d65fa2d841771f252e1ff55e773336e153:0",
@@ -9443,10 +9443,38 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Jessica Pegula",
+          "resolved_outcome": "Jessica Pegula",
+          "resolved_date": "2026-08-08",
+          "end_date": "2026-08-08",
+          "total_value_usd": 163204.73,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x51eb5c0499991ea63c6b905ebee25d9fc0f529dd9ae292df353f67598348a5fb:0",
+          "condition_id": "0x51eb5c0499991ea63c6b905ebee25d9fc0f529dd9ae292df353f67598348a5fb",
+          "title": "Mubadala Citi DC Open: Naomi Osaka vs Alexandra Eala",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Naomi Osaka",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-08-08",
-          "total_value_usd": 163204.73,
+          "total_value_usd": 10499.02,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x78bdd0292451fd2041616eb96114f931c661f262a51c3c1306913b7d33ca6e1f:0",
+          "condition_id": "0x78bdd0292451fd2041616eb96114f931c661f262a51c3c1306913b7d33ca6e1f",
+          "title": "St. Louis Cardinals vs. Toronto Blue Jays",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "St. Louis Cardinals",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-08",
+          "total_value_usd": 29411.68,
           "result": "pending"
         }
       ]
@@ -9455,9 +9483,9 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 4,
-      "correct": 1,
-      "wrong": 1,
+      "signals_evaluated": 6,
+      "correct": 2,
+      "wrong": 2,
       "pending": 2,
       "win_rate": 50.0,
       "signals": [
@@ -9497,11 +9525,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Diana Shnaider",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jessica Pegula",
+          "resolved_date": "2026-08-08",
           "end_date": "2026-08-08",
           "total_value_usd": 17463.94,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xbc8a8998a7cca061ed2e7c870ce603d65fa2d841771f252e1ff55e773336e153:0",
@@ -9511,10 +9539,38 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Jessica Pegula",
+          "resolved_outcome": "Jessica Pegula",
+          "resolved_date": "2026-08-08",
+          "end_date": "2026-08-08",
+          "total_value_usd": 163204.73,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x51eb5c0499991ea63c6b905ebee25d9fc0f529dd9ae292df353f67598348a5fb:0",
+          "condition_id": "0x51eb5c0499991ea63c6b905ebee25d9fc0f529dd9ae292df353f67598348a5fb",
+          "title": "Mubadala Citi DC Open: Naomi Osaka vs Alexandra Eala",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Naomi Osaka",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-08-08",
-          "total_value_usd": 163204.73,
+          "total_value_usd": 10499.02,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x78bdd0292451fd2041616eb96114f931c661f262a51c3c1306913b7d33ca6e1f:0",
+          "condition_id": "0x78bdd0292451fd2041616eb96114f931c661f262a51c3c1306913b7d33ca6e1f",
+          "title": "St. Louis Cardinals vs. Toronto Blue Jays",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "St. Louis Cardinals",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-08",
+          "total_value_usd": 29411.68,
           "result": "pending"
         }
       ]
@@ -9523,9 +9579,9 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 4,
-      "correct": 1,
-      "wrong": 1,
+      "signals_evaluated": 6,
+      "correct": 2,
+      "wrong": 2,
       "pending": 2,
       "win_rate": 50.0,
       "signals": [
@@ -9565,11 +9621,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Diana Shnaider",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jessica Pegula",
+          "resolved_date": "2026-08-08",
           "end_date": "2026-08-08",
           "total_value_usd": 17463.94,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xbc8a8998a7cca061ed2e7c870ce603d65fa2d841771f252e1ff55e773336e153:0",
@@ -9579,10 +9635,38 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Jessica Pegula",
+          "resolved_outcome": "Jessica Pegula",
+          "resolved_date": "2026-08-08",
+          "end_date": "2026-08-08",
+          "total_value_usd": 163204.73,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x51eb5c0499991ea63c6b905ebee25d9fc0f529dd9ae292df353f67598348a5fb:0",
+          "condition_id": "0x51eb5c0499991ea63c6b905ebee25d9fc0f529dd9ae292df353f67598348a5fb",
+          "title": "Mubadala Citi DC Open: Naomi Osaka vs Alexandra Eala",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Naomi Osaka",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-08-08",
-          "total_value_usd": 163204.73,
+          "total_value_usd": 10499.02,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x78bdd0292451fd2041616eb96114f931c661f262a51c3c1306913b7d33ca6e1f:0",
+          "condition_id": "0x78bdd0292451fd2041616eb96114f931c661f262a51c3c1306913b7d33ca6e1f",
+          "title": "St. Louis Cardinals vs. Toronto Blue Jays",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "St. Louis Cardinals",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-08",
+          "total_value_usd": 29411.68,
           "result": "pending"
         }
       ]
