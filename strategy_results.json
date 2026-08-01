@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-01T00:17:55+00:00",
-  "total_evaluated": 667,
-  "total_pending": 41,
+  "generated_at": "2026-08-01T03:55:16+00:00",
+  "total_evaluated": 670,
+  "total_pending": 38,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 667,
-      "correct": 392,
-      "wrong": 234,
-      "pending": 41,
-      "win_rate": 62.6,
+      "signals_evaluated": 670,
+      "correct": 395,
+      "wrong": 237,
+      "pending": 38,
+      "win_rate": 62.5,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -9247,11 +9247,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Lorenzo Musetti",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Rafael Jodar",
+          "resolved_date": "2026-08-07",
           "end_date": "2026-08-07",
           "total_value_usd": 81713.21,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xd1304f3e39c4eecad0a372e5539eed569f299ae1993d8142d00045c73158f197:1",
@@ -9275,11 +9275,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Rafael Jodar",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Rafael Jodar",
+          "resolved_date": "2026-08-07",
           "end_date": "2026-08-07",
           "total_value_usd": 12930.43,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x35e9861eca75a955bd5ecc9a59389c3c524abe309182ad4b71a515a47041271f:1",
@@ -9303,11 +9303,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Elina Svitolina",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alexandra Eala",
+          "resolved_date": "2026-08-07",
           "end_date": "2026-08-07",
           "total_value_usd": 32315.1,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xd22957f0cc836227e85e99db33efd0d227b6317897e3a14184bda432533bf174:0",
@@ -9317,11 +9317,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Alexandra Eala",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alexandra Eala",
+          "resolved_date": "2026-08-07",
           "end_date": "2026-08-07",
           "total_value_usd": 41667.7,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf26b46b3b66c819b5108e1078a1a5e81300c0aa5eb8dc7595d576ea123ebb767:1",
@@ -9331,11 +9331,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Cincinnati Reds",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Cincinnati Reds",
+          "resolved_date": "2026-08-07",
           "end_date": "2026-08-07",
           "total_value_usd": 13949.92,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf26b46b3b66c819b5108e1078a1a5e81300c0aa5eb8dc7595d576ea123ebb767:0",
@@ -9345,10 +9345,52 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Pittsburgh Pirates",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Cincinnati Reds",
+          "resolved_date": "2026-08-07",
           "end_date": "2026-08-07",
           "total_value_usd": 10534.83,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xc57258c174f8a1b57222d983f57f2c4c0145fc171f3602b7aa4cb4b3948e7119:0",
+          "condition_id": "0xc57258c174f8a1b57222d983f57f2c4c0145fc171f3602b7aa4cb4b3948e7119",
+          "title": "Detroit Tigers vs. Athletics",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Detroit Tigers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-08",
+          "total_value_usd": 88014.65,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xc1e5b5bbe0b54464e1158336dc64fc50a273e2f405ed95fc605ddfbd3d030bc4:0",
+          "condition_id": "0xc1e5b5bbe0b54464e1158336dc64fc50a273e2f405ed95fc605ddfbd3d030bc4",
+          "title": "Minnesota Twins vs. Seattle Mariners",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Minnesota Twins",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-08",
+          "total_value_usd": 12548.57,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x685f6c3d333c11e65a9cca09fbd673d4de3532f9f47a04036bffe09299456a04:0",
+          "condition_id": "0x685f6c3d333c11e65a9cca09fbd673d4de3532f9f47a04036bffe09299456a04",
+          "title": "Mubadala Citi DC Open: Alejandro Tabilo vs Ben Shelton",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.505,
+          "whale_direction": "Alejandro Tabilo",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-08",
+          "total_value_usd": 36932.39,
           "result": "pending"
         }
       ]
