@@ -209236,5 +209236,203 @@
         "entry_price": 0.0455
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-01T23:39:48+00:00",
+    "whale_timeframes": {
+      "0x0954184654a6a3720f5dde4103a42af4dd0e1e1b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9f2fe025f84839ca81dd8e0338892605702d2ca8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa71093cafc0c099b4ccab24c3cb8018d817923c4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3954e1c6b7bc5645d9d3425a6f4490889ef122d9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8075693f48668a264b9fa313b47f52712fcc12b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6d20c35f65d9899b6d6b74f8466e824580f9a165": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x917182c1eb3257b2e2e4959d48228af78bfe9e5f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7e5e420a5cde8a322f3b5b93a12a164827f47315": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe1000ddb5f5025849765e29d051dfff78f5d4d41": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x01e6e3c5cfe50943e7721398054cb1e22032e7e0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1d1ade627d0bb0205758580b20d808573e720df6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1d3567ad67b1f054160f9d560ca3817038cc94ee": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe40ecff63ec661d218a86c048186ac83389a9770": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb687f00464e33934f5d591f224e71c3559ecaee5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf070207d315d47fd07870e464d3ded9151f5ac55": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9703676286b93c2eca71ca96e8757104519a69c2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x448861155279dbf833d041b963e3ac854599e319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x41a72062c2008a62da644c433c5c01ed090d463eef4be17e7e7e860914566afb:1",
+        "condition_id": "0x41a72062c2008a62da644c433c5c01ed090d463eef4be17e7e7e860914566afb",
+        "title": "New York Yankees vs. Chicago Cubs",
+        "outcome": "Chicago Cubs",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0xa71093cafc0c099b4ccab24c3cb8018d817923c4",
+          "0xc8075693f48668a264b9fa313b47f52712fcc12b",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x448861155279dbf833d041b963e3ac854599e319"
+        ],
+        "ranks": [
+          3,
+          7,
+          13,
+          20
+        ],
+        "total_value_usd": 82519.49,
+        "score": 11.9485,
+        "category": "MLB",
+        "end_date": "2026-08-08",
+        "entry_price": 0.0455
+      },
+      {
+        "signal_key": "0x3a69abcfdba96ab94af7cc7c7ec0b6c6cbc55b43719f787e9682921042e98aa7:0",
+        "condition_id": "0x3a69abcfdba96ab94af7cc7c7ec0b6c6cbc55b43719f787e9682921042e98aa7",
+        "title": "Detroit Tigers vs. Athletics",
+        "outcome": "Detroit Tigers",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xc8075693f48668a264b9fa313b47f52712fcc12b",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x1d1ade627d0bb0205758580b20d808573e720df6"
+        ],
+        "ranks": [
+          7,
+          13,
+          14
+        ],
+        "total_value_usd": 87753.37,
+        "score": 5.8006,
+        "category": "MLB",
+        "end_date": "2026-08-09",
+        "entry_price": 0.0455
+      },
+      {
+        "signal_key": "0xc0660f55ce84d5b45fa446439905e5394dbeaecd20e224ae4198fb55b8a5471b:1",
+        "condition_id": "0xc0660f55ce84d5b45fa446439905e5394dbeaecd20e224ae4198fb55b8a5471b",
+        "title": "Kansas City Royals vs. Colorado Rockies",
+        "outcome": "Colorado Rockies",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xc8075693f48668a264b9fa313b47f52712fcc12b",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x448861155279dbf833d041b963e3ac854599e319"
+        ],
+        "ranks": [
+          7,
+          13,
+          20
+        ],
+        "total_value_usd": 9768.15,
+        "score": 4.3373,
+        "category": "MLB",
+        "end_date": "2026-08-09",
+        "entry_price": 0.0455
+      }
+    ]
   }
 ]

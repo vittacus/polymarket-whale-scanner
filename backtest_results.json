@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-01T22:43:31+00:00",
-  "total_signals": 684,
-  "total_resolved": 644,
-  "total_correct": 403,
-  "overall_hit_rate": 62.6,
+  "generated_at": "2026-08-01T23:45:31+00:00",
+  "total_signals": 686,
+  "total_resolved": 648,
+  "total_correct": 406,
+  "overall_hit_rate": 62.7,
   "by_tier": {
     "Strong": {
       "total": 245,
@@ -12,10 +12,10 @@
       "hit_rate": 66.8
     },
     "Moderate": {
-      "total": 395,
-      "resolved": 363,
-      "correct": 223,
-      "hit_rate": 61.4
+      "total": 397,
+      "resolved": 367,
+      "correct": 226,
+      "hit_rate": 61.6
     },
     "Weak": {
       "total": 44,
@@ -11563,10 +11563,10 @@
       "total_value_usd": 36134.33,
       "entry_price": 0.0455,
       "end_date": "2026-08-08",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Tampa Bay Rays",
+      "resolved_date": "2026-08-08"
     },
     {
       "signal_key": "0x19aca54b1d364c65f548a7d31dd5866bb9b8ed9b207657ea985f2133c875570f:1",
@@ -11614,10 +11614,10 @@
       "total_value_usd": 33181.36,
       "entry_price": 0.0455,
       "end_date": "2026-08-08",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Taylah Preston",
+      "resolved_date": "2026-08-08"
     },
     {
       "signal_key": "0xac064f6da1a6b6b3973b1c62cd46585f27538c952f29d341eb56475fc55b77ba:1",
@@ -11631,10 +11631,10 @@
       "total_value_usd": 28034.25,
       "entry_price": 0.0455,
       "end_date": "2026-08-08",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Seattle Mariners",
+      "resolved_date": "2026-08-08"
     },
     {
       "signal_key": "0xac064f6da1a6b6b3973b1c62cd46585f27538c952f29d341eb56475fc55b77ba:0",
@@ -11648,6 +11648,40 @@
       "total_value_usd": 15519.9,
       "entry_price": 0.0455,
       "end_date": "2026-08-08",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Seattle Mariners",
+      "resolved_date": "2026-08-08"
+    },
+    {
+      "signal_key": "0x3a69abcfdba96ab94af7cc7c7ec0b6c6cbc55b43719f787e9682921042e98aa7:0",
+      "condition_id": "0x3a69abcfdba96ab94af7cc7c7ec0b6c6cbc55b43719f787e9682921042e98aa7",
+      "title": "Detroit Tigers vs. Athletics",
+      "category": "MLB",
+      "whale_direction": "Detroit Tigers",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 5.8006,
+      "total_value_usd": 87753.37,
+      "entry_price": 0.0455,
+      "end_date": "2026-08-09",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xc0660f55ce84d5b45fa446439905e5394dbeaecd20e224ae4198fb55b8a5471b:1",
+      "condition_id": "0xc0660f55ce84d5b45fa446439905e5394dbeaecd20e224ae4198fb55b8a5471b",
+      "title": "Kansas City Royals vs. Colorado Rockies",
+      "category": "MLB",
+      "whale_direction": "Colorado Rockies",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 4.3373,
+      "total_value_usd": 9768.15,
+      "entry_price": 0.0455,
+      "end_date": "2026-08-09",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
