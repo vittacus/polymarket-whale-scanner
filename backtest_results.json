@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-01T21:42:21+00:00",
-  "total_signals": 680,
-  "total_resolved": 640,
-  "total_correct": 401,
-  "overall_hit_rate": 62.7,
+  "generated_at": "2026-08-01T22:43:31+00:00",
+  "total_signals": 684,
+  "total_resolved": 644,
+  "total_correct": 403,
+  "overall_hit_rate": 62.6,
   "by_tier": {
     "Strong": {
-      "total": 244,
+      "total": 245,
       "resolved": 238,
       "correct": 159,
       "hit_rate": 66.8
     },
     "Moderate": {
-      "total": 392,
-      "resolved": 359,
-      "correct": 221,
-      "hit_rate": 61.6
+      "total": 395,
+      "resolved": 363,
+      "correct": 223,
+      "hit_rate": 61.4
     },
     "Weak": {
       "total": 44,
@@ -11495,10 +11495,10 @@
       "total_value_usd": 10499.02,
       "entry_price": 0.0455,
       "end_date": "2026-08-08",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Alexandra Eala",
+      "resolved_date": "2026-08-08"
     },
     {
       "signal_key": "0x78bdd0292451fd2041616eb96114f931c661f262a51c3c1306913b7d33ca6e1f:0",
@@ -11512,10 +11512,10 @@
       "total_value_usd": 29411.68,
       "entry_price": 0.0455,
       "end_date": "2026-08-08",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Toronto Blue Jays",
+      "resolved_date": "2026-08-08"
     },
     {
       "signal_key": "0x51eb5c0499991ea63c6b905ebee25d9fc0f529dd9ae292df353f67598348a5fb:1",
@@ -11529,10 +11529,10 @@
       "total_value_usd": 138824.49,
       "entry_price": 0.0455,
       "end_date": "2026-08-08",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Alexandra Eala",
+      "resolved_date": "2026-08-08"
     },
     {
       "signal_key": "0x78bdd0292451fd2041616eb96114f931c661f262a51c3c1306913b7d33ca6e1f:1",
@@ -11546,10 +11546,10 @@
       "total_value_usd": 117855.28,
       "entry_price": 0.0455,
       "end_date": "2026-08-08",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Toronto Blue Jays",
+      "resolved_date": "2026-08-08"
     },
     {
       "signal_key": "0xe2d87eb5e64cbfeb3c918bb8330a19f4e9a8f8ba118372e674ee2dc67389b0a9:1",
@@ -11580,6 +11580,74 @@
       "total_value_usd": 14922.93,
       "entry_price": 0.0455,
       "end_date": "2026-08-09",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x41a72062c2008a62da644c433c5c01ed090d463eef4be17e7e7e860914566afb:1",
+      "condition_id": "0x41a72062c2008a62da644c433c5c01ed090d463eef4be17e7e7e860914566afb",
+      "title": "New York Yankees vs. Chicago Cubs",
+      "category": "MLB",
+      "whale_direction": "Chicago Cubs",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 11.0467,
+      "total_value_usd": 64578.02,
+      "entry_price": 0.0455,
+      "end_date": "2026-08-08",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x072d48c31ab64de2fcae4c3700b609373ebc88ae2665a71b43ab76763015db99:1",
+      "condition_id": "0x072d48c31ab64de2fcae4c3700b609373ebc88ae2665a71b43ab76763015db99",
+      "title": "Vancouver: Maddison Inglis vs Taylah Preston",
+      "category": "Tennis",
+      "whale_direction": "Taylah Preston",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 8.3712,
+      "total_value_usd": 33181.36,
+      "entry_price": 0.0455,
+      "end_date": "2026-08-08",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xac064f6da1a6b6b3973b1c62cd46585f27538c952f29d341eb56475fc55b77ba:1",
+      "condition_id": "0xac064f6da1a6b6b3973b1c62cd46585f27538c952f29d341eb56475fc55b77ba",
+      "title": "Minnesota Twins vs. Seattle Mariners",
+      "category": "MLB",
+      "whale_direction": "Seattle Mariners",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 8.2356,
+      "total_value_usd": 28034.25,
+      "entry_price": 0.0455,
+      "end_date": "2026-08-08",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xac064f6da1a6b6b3973b1c62cd46585f27538c952f29d341eb56475fc55b77ba:0",
+      "condition_id": "0xac064f6da1a6b6b3973b1c62cd46585f27538c952f29d341eb56475fc55b77ba",
+      "title": "Minnesota Twins vs. Seattle Mariners",
+      "category": "MLB",
+      "whale_direction": "Minnesota Twins",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 7.7602,
+      "total_value_usd": 15519.9,
+      "entry_price": 0.0455,
+      "end_date": "2026-08-08",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

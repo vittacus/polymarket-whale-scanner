@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-01T21:42:21+00:00",
-  "total_evaluated": 680,
+  "generated_at": "2026-08-01T22:43:31+00:00",
+  "total_evaluated": 684,
   "total_pending": 40,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 680,
-      "correct": 401,
-      "wrong": 239,
+      "signals_evaluated": 684,
+      "correct": 403,
+      "wrong": 241,
       "pending": 40,
-      "win_rate": 62.7,
+      "win_rate": 62.6,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -9457,11 +9457,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Naomi Osaka",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alexandra Eala",
+          "resolved_date": "2026-08-08",
           "end_date": "2026-08-08",
           "total_value_usd": 10499.02,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x78bdd0292451fd2041616eb96114f931c661f262a51c3c1306913b7d33ca6e1f:0",
@@ -9471,11 +9471,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "St. Louis Cardinals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Toronto Blue Jays",
+          "resolved_date": "2026-08-08",
           "end_date": "2026-08-08",
           "total_value_usd": 29411.68,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x51eb5c0499991ea63c6b905ebee25d9fc0f529dd9ae292df353f67598348a5fb:1",
@@ -9485,11 +9485,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Alexandra Eala",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alexandra Eala",
+          "resolved_date": "2026-08-08",
           "end_date": "2026-08-08",
           "total_value_usd": 138824.49,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x78bdd0292451fd2041616eb96114f931c661f262a51c3c1306913b7d33ca6e1f:1",
@@ -9499,11 +9499,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Toronto Blue Jays",
+          "resolved_date": "2026-08-08",
           "end_date": "2026-08-08",
           "total_value_usd": 117855.28,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xe2d87eb5e64cbfeb3c918bb8330a19f4e9a8f8ba118372e674ee2dc67389b0a9:1",
@@ -9531,6 +9531,62 @@
           "resolved_date": null,
           "end_date": "2026-08-09",
           "total_value_usd": 14922.93,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x41a72062c2008a62da644c433c5c01ed090d463eef4be17e7e7e860914566afb:1",
+          "condition_id": "0x41a72062c2008a62da644c433c5c01ed090d463eef4be17e7e7e860914566afb",
+          "title": "New York Yankees vs. Chicago Cubs",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Chicago Cubs",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-08",
+          "total_value_usd": 64578.02,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x072d48c31ab64de2fcae4c3700b609373ebc88ae2665a71b43ab76763015db99:1",
+          "condition_id": "0x072d48c31ab64de2fcae4c3700b609373ebc88ae2665a71b43ab76763015db99",
+          "title": "Vancouver: Maddison Inglis vs Taylah Preston",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Taylah Preston",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-08",
+          "total_value_usd": 33181.36,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xac064f6da1a6b6b3973b1c62cd46585f27538c952f29d341eb56475fc55b77ba:1",
+          "condition_id": "0xac064f6da1a6b6b3973b1c62cd46585f27538c952f29d341eb56475fc55b77ba",
+          "title": "Minnesota Twins vs. Seattle Mariners",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Seattle Mariners",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-08",
+          "total_value_usd": 28034.25,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xac064f6da1a6b6b3973b1c62cd46585f27538c952f29d341eb56475fc55b77ba:0",
+          "condition_id": "0xac064f6da1a6b6b3973b1c62cd46585f27538c952f29d341eb56475fc55b77ba",
+          "title": "Minnesota Twins vs. Seattle Mariners",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Minnesota Twins",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-08",
+          "total_value_usd": 15519.9,
           "result": "pending"
         }
       ]
@@ -9539,9 +9595,9 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 10,
-      "correct": 2,
-      "wrong": 2,
+      "signals_evaluated": 14,
+      "correct": 4,
+      "wrong": 4,
       "pending": 6,
       "win_rate": 50.0,
       "signals": [
@@ -9609,11 +9665,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Naomi Osaka",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alexandra Eala",
+          "resolved_date": "2026-08-08",
           "end_date": "2026-08-08",
           "total_value_usd": 10499.02,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x78bdd0292451fd2041616eb96114f931c661f262a51c3c1306913b7d33ca6e1f:0",
@@ -9623,11 +9679,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "St. Louis Cardinals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Toronto Blue Jays",
+          "resolved_date": "2026-08-08",
           "end_date": "2026-08-08",
           "total_value_usd": 29411.68,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x51eb5c0499991ea63c6b905ebee25d9fc0f529dd9ae292df353f67598348a5fb:1",
@@ -9637,11 +9693,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Alexandra Eala",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alexandra Eala",
+          "resolved_date": "2026-08-08",
           "end_date": "2026-08-08",
           "total_value_usd": 138824.49,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x78bdd0292451fd2041616eb96114f931c661f262a51c3c1306913b7d33ca6e1f:1",
@@ -9651,11 +9707,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Toronto Blue Jays",
+          "resolved_date": "2026-08-08",
           "end_date": "2026-08-08",
           "total_value_usd": 117855.28,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xe2d87eb5e64cbfeb3c918bb8330a19f4e9a8f8ba118372e674ee2dc67389b0a9:1",
@@ -9683,6 +9739,62 @@
           "resolved_date": null,
           "end_date": "2026-08-09",
           "total_value_usd": 14922.93,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x41a72062c2008a62da644c433c5c01ed090d463eef4be17e7e7e860914566afb:1",
+          "condition_id": "0x41a72062c2008a62da644c433c5c01ed090d463eef4be17e7e7e860914566afb",
+          "title": "New York Yankees vs. Chicago Cubs",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Chicago Cubs",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-08",
+          "total_value_usd": 64578.02,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x072d48c31ab64de2fcae4c3700b609373ebc88ae2665a71b43ab76763015db99:1",
+          "condition_id": "0x072d48c31ab64de2fcae4c3700b609373ebc88ae2665a71b43ab76763015db99",
+          "title": "Vancouver: Maddison Inglis vs Taylah Preston",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Taylah Preston",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-08",
+          "total_value_usd": 33181.36,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xac064f6da1a6b6b3973b1c62cd46585f27538c952f29d341eb56475fc55b77ba:1",
+          "condition_id": "0xac064f6da1a6b6b3973b1c62cd46585f27538c952f29d341eb56475fc55b77ba",
+          "title": "Minnesota Twins vs. Seattle Mariners",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Seattle Mariners",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-08",
+          "total_value_usd": 28034.25,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xac064f6da1a6b6b3973b1c62cd46585f27538c952f29d341eb56475fc55b77ba:0",
+          "condition_id": "0xac064f6da1a6b6b3973b1c62cd46585f27538c952f29d341eb56475fc55b77ba",
+          "title": "Minnesota Twins vs. Seattle Mariners",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Minnesota Twins",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-08",
+          "total_value_usd": 15519.9,
           "result": "pending"
         }
       ]
@@ -9691,9 +9803,9 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 10,
-      "correct": 2,
-      "wrong": 2,
+      "signals_evaluated": 14,
+      "correct": 4,
+      "wrong": 4,
       "pending": 6,
       "win_rate": 50.0,
       "signals": [
@@ -9761,11 +9873,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Naomi Osaka",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alexandra Eala",
+          "resolved_date": "2026-08-08",
           "end_date": "2026-08-08",
           "total_value_usd": 10499.02,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x78bdd0292451fd2041616eb96114f931c661f262a51c3c1306913b7d33ca6e1f:0",
@@ -9775,11 +9887,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "St. Louis Cardinals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Toronto Blue Jays",
+          "resolved_date": "2026-08-08",
           "end_date": "2026-08-08",
           "total_value_usd": 29411.68,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x51eb5c0499991ea63c6b905ebee25d9fc0f529dd9ae292df353f67598348a5fb:1",
@@ -9789,11 +9901,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Alexandra Eala",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alexandra Eala",
+          "resolved_date": "2026-08-08",
           "end_date": "2026-08-08",
           "total_value_usd": 138824.49,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x78bdd0292451fd2041616eb96114f931c661f262a51c3c1306913b7d33ca6e1f:1",
@@ -9803,11 +9915,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Toronto Blue Jays",
+          "resolved_date": "2026-08-08",
           "end_date": "2026-08-08",
           "total_value_usd": 117855.28,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xe2d87eb5e64cbfeb3c918bb8330a19f4e9a8f8ba118372e674ee2dc67389b0a9:1",
@@ -9835,6 +9947,62 @@
           "resolved_date": null,
           "end_date": "2026-08-09",
           "total_value_usd": 14922.93,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x41a72062c2008a62da644c433c5c01ed090d463eef4be17e7e7e860914566afb:1",
+          "condition_id": "0x41a72062c2008a62da644c433c5c01ed090d463eef4be17e7e7e860914566afb",
+          "title": "New York Yankees vs. Chicago Cubs",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Chicago Cubs",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-08",
+          "total_value_usd": 64578.02,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x072d48c31ab64de2fcae4c3700b609373ebc88ae2665a71b43ab76763015db99:1",
+          "condition_id": "0x072d48c31ab64de2fcae4c3700b609373ebc88ae2665a71b43ab76763015db99",
+          "title": "Vancouver: Maddison Inglis vs Taylah Preston",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Taylah Preston",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-08",
+          "total_value_usd": 33181.36,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xac064f6da1a6b6b3973b1c62cd46585f27538c952f29d341eb56475fc55b77ba:1",
+          "condition_id": "0xac064f6da1a6b6b3973b1c62cd46585f27538c952f29d341eb56475fc55b77ba",
+          "title": "Minnesota Twins vs. Seattle Mariners",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Seattle Mariners",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-08",
+          "total_value_usd": 28034.25,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xac064f6da1a6b6b3973b1c62cd46585f27538c952f29d341eb56475fc55b77ba:0",
+          "condition_id": "0xac064f6da1a6b6b3973b1c62cd46585f27538c952f29d341eb56475fc55b77ba",
+          "title": "Minnesota Twins vs. Seattle Mariners",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Minnesota Twins",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-08",
+          "total_value_usd": 15519.9,
           "result": "pending"
         }
       ]

@@ -208992,5 +208992,249 @@
         "entry_price": 0.0455
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-01T22:37:03+00:00",
+    "whale_timeframes": {
+      "0x0954184654a6a3720f5dde4103a42af4dd0e1e1b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9f2fe025f84839ca81dd8e0338892605702d2ca8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa71093cafc0c099b4ccab24c3cb8018d817923c4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4ab9b54427ec4b7f3646b1a0ef1bed73bc708ebe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3954e1c6b7bc5645d9d3425a6f4490889ef122d9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8075693f48668a264b9fa313b47f52712fcc12b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7e5e420a5cde8a322f3b5b93a12a164827f47315": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x917182c1eb3257b2e2e4959d48228af78bfe9e5f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf070207d315d47fd07870e464d3ded9151f5ac55": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe1000ddb5f5025849765e29d051dfff78f5d4d41": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x01e6e3c5cfe50943e7721398054cb1e22032e7e0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x448861155279dbf833d041b963e3ac854599e319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1d3567ad67b1f054160f9d560ca3817038cc94ee": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb687f00464e33934f5d591f224e71c3559ecaee5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xba3802d41ad55704b518564e8a13a8346da1fb57": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x41a72062c2008a62da644c433c5c01ed090d463eef4be17e7e7e860914566afb:1",
+        "condition_id": "0x41a72062c2008a62da644c433c5c01ed090d463eef4be17e7e7e860914566afb",
+        "title": "New York Yankees vs. Chicago Cubs",
+        "outcome": "Chicago Cubs",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0xa71093cafc0c099b4ccab24c3cb8018d817923c4",
+          "0xc8075693f48668a264b9fa313b47f52712fcc12b",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x448861155279dbf833d041b963e3ac854599e319"
+        ],
+        "ranks": [
+          3,
+          9,
+          15,
+          17
+        ],
+        "total_value_usd": 64578.02,
+        "score": 11.0467,
+        "category": "MLB",
+        "end_date": "2026-08-08",
+        "entry_price": 0.0455
+      },
+      {
+        "signal_key": "0xe2d87eb5e64cbfeb3c918bb8330a19f4e9a8f8ba118372e674ee2dc67389b0a9:1",
+        "condition_id": "0xe2d87eb5e64cbfeb3c918bb8330a19f4e9a8f8ba118372e674ee2dc67389b0a9",
+        "title": "Chicago White Sox vs. Tampa Bay Rays",
+        "outcome": "Tampa Bay Rays",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          4,
+          7,
+          15
+        ],
+        "total_value_usd": 47181.58,
+        "score": 8.6543,
+        "category": "MLB",
+        "end_date": "2026-08-08",
+        "entry_price": 0.0455
+      },
+      {
+        "signal_key": "0x072d48c31ab64de2fcae4c3700b609373ebc88ae2665a71b43ab76763015db99:1",
+        "condition_id": "0x072d48c31ab64de2fcae4c3700b609373ebc88ae2665a71b43ab76763015db99",
+        "title": "Vancouver: Maddison Inglis vs Taylah Preston",
+        "outcome": "Taylah Preston",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          4,
+          7,
+          15
+        ],
+        "total_value_usd": 33181.36,
+        "score": 8.3712,
+        "category": "Tennis",
+        "end_date": "2026-08-08",
+        "entry_price": 0.0455
+      },
+      {
+        "signal_key": "0xac064f6da1a6b6b3973b1c62cd46585f27538c952f29d341eb56475fc55b77ba:1",
+        "condition_id": "0xac064f6da1a6b6b3973b1c62cd46585f27538c952f29d341eb56475fc55b77ba",
+        "title": "Minnesota Twins vs. Seattle Mariners",
+        "outcome": "Seattle Mariners",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          4,
+          7,
+          15
+        ],
+        "total_value_usd": 28034.25,
+        "score": 8.2356,
+        "category": "MLB",
+        "end_date": "2026-08-08",
+        "entry_price": 0.0455
+      },
+      {
+        "signal_key": "0xac064f6da1a6b6b3973b1c62cd46585f27538c952f29d341eb56475fc55b77ba:0",
+        "condition_id": "0xac064f6da1a6b6b3973b1c62cd46585f27538c952f29d341eb56475fc55b77ba",
+        "title": "Minnesota Twins vs. Seattle Mariners",
+        "outcome": "Minnesota Twins",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          4,
+          7,
+          15
+        ],
+        "total_value_usd": 15519.9,
+        "score": 7.7602,
+        "category": "MLB",
+        "end_date": "2026-08-08",
+        "entry_price": 0.0455
+      }
+    ]
   }
 ]
