@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-31T23:20:34+00:00",
-  "total_evaluated": 663,
-  "total_pending": 40,
+  "generated_at": "2026-08-01T00:17:55+00:00",
+  "total_evaluated": 667,
+  "total_pending": 41,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 663,
-      "correct": 390,
-      "wrong": 233,
-      "pending": 40,
+      "signals_evaluated": 667,
+      "correct": 392,
+      "wrong": 234,
+      "pending": 41,
       "win_rate": 62.6,
       "signals": [
         {
@@ -9135,11 +9135,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Elvina Kalieva",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elvina Kalieva",
+          "resolved_date": "2026-08-07",
           "end_date": "2026-08-07",
           "total_value_usd": 9753.31,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x07d64e803045e2d8244048597e166c6a46cf01d2fa1413303cc3a1e49b95f032:1",
@@ -9261,11 +9261,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Mark Lajal",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Mark Lajal",
+          "resolved_date": "2026-08-07",
           "end_date": "2026-08-07",
           "total_value_usd": 38603.58,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xaeb3725dc916cfc0c0b2017e01628b69bbe826779790e4ac96efd9ac6b050794:0",
@@ -9289,10 +9289,66 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Peyton Stearns",
+          "resolved_outcome": "Elvina Kalieva",
+          "resolved_date": "2026-08-07",
+          "end_date": "2026-08-07",
+          "total_value_usd": 3136.64,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xd22957f0cc836227e85e99db33efd0d227b6317897e3a14184bda432533bf174:1",
+          "condition_id": "0xd22957f0cc836227e85e99db33efd0d227b6317897e3a14184bda432533bf174",
+          "title": "Mubadala Citi DC Open: Alexandra Eala vs Elina Svitolina",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Elina Svitolina",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-08-07",
-          "total_value_usd": 3136.64,
+          "total_value_usd": 32315.1,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd22957f0cc836227e85e99db33efd0d227b6317897e3a14184bda432533bf174:0",
+          "condition_id": "0xd22957f0cc836227e85e99db33efd0d227b6317897e3a14184bda432533bf174",
+          "title": "Mubadala Citi DC Open: Alexandra Eala vs Elina Svitolina",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Alexandra Eala",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-07",
+          "total_value_usd": 41667.7,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf26b46b3b66c819b5108e1078a1a5e81300c0aa5eb8dc7595d576ea123ebb767:1",
+          "condition_id": "0xf26b46b3b66c819b5108e1078a1a5e81300c0aa5eb8dc7595d576ea123ebb767",
+          "title": "Pittsburgh Pirates vs. Cincinnati Reds",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Cincinnati Reds",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-07",
+          "total_value_usd": 13949.92,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf26b46b3b66c819b5108e1078a1a5e81300c0aa5eb8dc7595d576ea123ebb767:0",
+          "condition_id": "0xf26b46b3b66c819b5108e1078a1a5e81300c0aa5eb8dc7595d576ea123ebb767",
+          "title": "Pittsburgh Pirates vs. Cincinnati Reds",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.505,
+          "whale_direction": "Pittsburgh Pirates",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-07",
+          "total_value_usd": 10534.83,
           "result": "pending"
         }
       ]

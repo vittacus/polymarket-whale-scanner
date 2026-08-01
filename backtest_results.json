@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-31T23:20:33+00:00",
-  "total_signals": 663,
-  "total_resolved": 623,
-  "total_correct": 390,
+  "generated_at": "2026-08-01T00:17:55+00:00",
+  "total_signals": 667,
+  "total_resolved": 626,
+  "total_correct": 392,
   "overall_hit_rate": 62.6,
   "by_tier": {
     "Strong": {
-      "total": 236,
-      "resolved": 226,
-      "correct": 151,
-      "hit_rate": 66.8
+      "total": 240,
+      "resolved": 227,
+      "correct": 152,
+      "hit_rate": 67.0
     },
     "Moderate": {
       "total": 383,
-      "resolved": 354,
-      "correct": 218,
-      "hit_rate": 61.6
+      "resolved": 356,
+      "correct": 219,
+      "hit_rate": 61.5
     },
     "Weak": {
       "total": 44,
@@ -11104,10 +11104,10 @@
       "total_value_usd": 9753.31,
       "entry_price": 0.505,
       "end_date": "2026-08-07",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Elvina Kalieva",
+      "resolved_date": "2026-08-07"
     },
     {
       "signal_key": "0x07d64e803045e2d8244048597e166c6a46cf01d2fa1413303cc3a1e49b95f032:1",
@@ -11257,10 +11257,10 @@
       "total_value_usd": 38603.58,
       "entry_price": 0.505,
       "end_date": "2026-08-07",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Mark Lajal",
+      "resolved_date": "2026-08-07"
     },
     {
       "signal_key": "0xaeb3725dc916cfc0c0b2017e01628b69bbe826779790e4ac96efd9ac6b050794:0",
@@ -11289,6 +11289,74 @@
       "tier": "Moderate",
       "score": 9.2826,
       "total_value_usd": 3136.64,
+      "entry_price": 0.505,
+      "end_date": "2026-08-07",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Elvina Kalieva",
+      "resolved_date": "2026-08-07"
+    },
+    {
+      "signal_key": "0xd22957f0cc836227e85e99db33efd0d227b6317897e3a14184bda432533bf174:1",
+      "condition_id": "0xd22957f0cc836227e85e99db33efd0d227b6317897e3a14184bda432533bf174",
+      "title": "Mubadala Citi DC Open: Alexandra Eala vs Elina Svitolina",
+      "category": "Tennis",
+      "whale_direction": "Elina Svitolina",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 17.5219,
+      "total_value_usd": 32315.1,
+      "entry_price": 0.505,
+      "end_date": "2026-08-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xd22957f0cc836227e85e99db33efd0d227b6317897e3a14184bda432533bf174:0",
+      "condition_id": "0xd22957f0cc836227e85e99db33efd0d227b6317897e3a14184bda432533bf174",
+      "title": "Mubadala Citi DC Open: Alexandra Eala vs Elina Svitolina",
+      "category": "Tennis",
+      "whale_direction": "Alexandra Eala",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 17.3598,
+      "total_value_usd": 41667.7,
+      "entry_price": 0.505,
+      "end_date": "2026-08-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xf26b46b3b66c819b5108e1078a1a5e81300c0aa5eb8dc7595d576ea123ebb767:1",
+      "condition_id": "0xf26b46b3b66c819b5108e1078a1a5e81300c0aa5eb8dc7595d576ea123ebb767",
+      "title": "Pittsburgh Pirates vs. Cincinnati Reds",
+      "category": "MLB",
+      "whale_direction": "Cincinnati Reds",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 16.767,
+      "total_value_usd": 13949.92,
+      "entry_price": 0.505,
+      "end_date": "2026-08-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xf26b46b3b66c819b5108e1078a1a5e81300c0aa5eb8dc7595d576ea123ebb767:0",
+      "condition_id": "0xf26b46b3b66c819b5108e1078a1a5e81300c0aa5eb8dc7595d576ea123ebb767",
+      "title": "Pittsburgh Pirates vs. Cincinnati Reds",
+      "category": "MLB",
+      "whale_direction": "Pittsburgh Pirates",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 11.0636,
+      "total_value_usd": 10534.83,
       "entry_price": 0.505,
       "end_date": "2026-08-07",
       "resolved": false,
