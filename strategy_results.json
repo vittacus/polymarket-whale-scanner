@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-01T03:55:16+00:00",
-  "total_evaluated": 670,
-  "total_pending": 38,
+  "generated_at": "2026-08-01T06:28:50+00:00",
+  "total_evaluated": 672,
+  "total_pending": 36,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 670,
-      "correct": 395,
+      "signals_evaluated": 672,
+      "correct": 399,
       "wrong": 237,
-      "pending": 38,
-      "win_rate": 62.5,
+      "pending": 36,
+      "win_rate": 62.7,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -7063,11 +7063,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-07-31",
           "end_date": "2026-07-31",
           "total_value_usd": 89005.29,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x3a869359895989c1dee6f920c203f12791f03c206e86ce48353c46626ee743b1:1",
@@ -9359,11 +9359,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Detroit Tigers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Detroit Tigers",
+          "resolved_date": "2026-08-08",
           "end_date": "2026-08-08",
           "total_value_usd": 88014.65,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc1e5b5bbe0b54464e1158336dc64fc50a273e2f405ed95fc605ddfbd3d030bc4:0",
@@ -9373,11 +9373,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Minnesota Twins",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Minnesota Twins",
+          "resolved_date": "2026-08-08",
           "end_date": "2026-08-08",
           "total_value_usd": 12548.57,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x685f6c3d333c11e65a9cca09fbd673d4de3532f9f47a04036bffe09299456a04:0",
@@ -9387,10 +9387,38 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Alejandro Tabilo",
+          "resolved_outcome": "Alejandro Tabilo",
+          "resolved_date": "2026-08-08",
+          "end_date": "2026-08-08",
+          "total_value_usd": 36932.39,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
+          "condition_id": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d",
+          "title": "Los Cabos Open: Cameron Norrie vs Denis Shapovalov",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.9995,
+          "whale_direction": "Denis Shapovalov",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-08-08",
-          "total_value_usd": 36932.39,
+          "total_value_usd": 85625.28,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:0",
+          "condition_id": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d",
+          "title": "Los Cabos Open: Cameron Norrie vs Denis Shapovalov",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.9995,
+          "whale_direction": "Cameron Norrie",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-08",
+          "total_value_usd": 40136.86,
           "result": "pending"
         }
       ]
@@ -9399,29 +9427,81 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 703,
-      "correct": 6,
-      "wrong": 697,
-      "pending": 0,
-      "win_rate": 0.9,
-      "signals": [],
-      "source": "historical_backfill",
-      "backfill_sample_size": 703,
-      "backfill_generated_at": "2026-06-24T17:48:32.035096+00:00"
+      "signals_evaluated": 2,
+      "correct": 0,
+      "wrong": 0,
+      "pending": 2,
+      "win_rate": null,
+      "signals": [
+        {
+          "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
+          "condition_id": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d",
+          "title": "Los Cabos Open: Cameron Norrie vs Denis Shapovalov",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.9995,
+          "whale_direction": "Denis Shapovalov",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-08",
+          "total_value_usd": 85625.28,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:0",
+          "condition_id": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d",
+          "title": "Los Cabos Open: Cameron Norrie vs Denis Shapovalov",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.9995,
+          "whale_direction": "Cameron Norrie",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-08",
+          "total_value_usd": 40136.86,
+          "result": "pending"
+        }
+      ]
     },
     "C": {
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 703,
-      "correct": 697,
-      "wrong": 6,
-      "pending": 0,
-      "win_rate": 99.1,
-      "signals": [],
-      "source": "historical_backfill",
-      "backfill_sample_size": 703,
-      "backfill_generated_at": "2026-06-24T17:48:32.035096+00:00"
+      "signals_evaluated": 2,
+      "correct": 0,
+      "wrong": 0,
+      "pending": 2,
+      "win_rate": null,
+      "signals": [
+        {
+          "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
+          "condition_id": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d",
+          "title": "Los Cabos Open: Cameron Norrie vs Denis Shapovalov",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.9995,
+          "whale_direction": "Denis Shapovalov",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-08",
+          "total_value_usd": 85625.28,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:0",
+          "condition_id": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d",
+          "title": "Los Cabos Open: Cameron Norrie vs Denis Shapovalov",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.9995,
+          "whale_direction": "Cameron Norrie",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-08",
+          "total_value_usd": 40136.86,
+          "result": "pending"
+        }
+      ]
     },
     "D": {
       "name": "Conviction Sizing",
