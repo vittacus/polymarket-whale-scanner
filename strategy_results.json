@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-01T18:44:18+00:00",
-  "total_evaluated": 673,
-  "total_pending": 35,
+  "generated_at": "2026-08-01T19:58:03+00:00",
+  "total_evaluated": 674,
+  "total_pending": 36,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 673,
+      "signals_evaluated": 674,
       "correct": 400,
       "wrong": 238,
-      "pending": 35,
+      "pending": 36,
       "win_rate": 62.7,
       "signals": [
         {
@@ -9434,6 +9434,20 @@
           "end_date": "2026-08-08",
           "total_value_usd": 17463.94,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xbc8a8998a7cca061ed2e7c870ce603d65fa2d841771f252e1ff55e773336e153:0",
+          "condition_id": "0xbc8a8998a7cca061ed2e7c870ce603d65fa2d841771f252e1ff55e773336e153",
+          "title": "Mubadala Citi DC Open: Jessica Pegula vs Diana Shnaider",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Jessica Pegula",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-08",
+          "total_value_usd": 163204.73,
+          "result": "pending"
         }
       ]
     },
@@ -9441,10 +9455,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 3,
+      "signals_evaluated": 4,
       "correct": 1,
       "wrong": 1,
-      "pending": 1,
+      "pending": 2,
       "win_rate": 50.0,
       "signals": [
         {
@@ -9488,6 +9502,20 @@
           "end_date": "2026-08-08",
           "total_value_usd": 17463.94,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xbc8a8998a7cca061ed2e7c870ce603d65fa2d841771f252e1ff55e773336e153:0",
+          "condition_id": "0xbc8a8998a7cca061ed2e7c870ce603d65fa2d841771f252e1ff55e773336e153",
+          "title": "Mubadala Citi DC Open: Jessica Pegula vs Diana Shnaider",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Jessica Pegula",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-08",
+          "total_value_usd": 163204.73,
+          "result": "pending"
         }
       ]
     },
@@ -9495,10 +9523,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 3,
+      "signals_evaluated": 4,
       "correct": 1,
       "wrong": 1,
-      "pending": 1,
+      "pending": 2,
       "win_rate": 50.0,
       "signals": [
         {
@@ -9541,6 +9569,20 @@
           "resolved_date": null,
           "end_date": "2026-08-08",
           "total_value_usd": 17463.94,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xbc8a8998a7cca061ed2e7c870ce603d65fa2d841771f252e1ff55e773336e153:0",
+          "condition_id": "0xbc8a8998a7cca061ed2e7c870ce603d65fa2d841771f252e1ff55e773336e153",
+          "title": "Mubadala Citi DC Open: Jessica Pegula vs Diana Shnaider",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Jessica Pegula",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-08",
+          "total_value_usd": 163204.73,
           "result": "pending"
         }
       ]

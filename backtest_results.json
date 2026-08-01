@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-01T18:44:17+00:00",
-  "total_signals": 673,
+  "generated_at": "2026-08-01T19:58:02+00:00",
+  "total_signals": 674,
   "total_resolved": 638,
   "total_correct": 400,
   "overall_hit_rate": 62.7,
   "by_tier": {
     "Strong": {
-      "total": 243,
+      "total": 244,
       "resolved": 237,
       "correct": 158,
       "hit_rate": 66.7
@@ -11459,6 +11459,23 @@
       "tier": "Moderate",
       "score": 4.2106,
       "total_value_usd": 17463.94,
+      "entry_price": 0.0455,
+      "end_date": "2026-08-08",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xbc8a8998a7cca061ed2e7c870ce603d65fa2d841771f252e1ff55e773336e153:0",
+      "condition_id": "0xbc8a8998a7cca061ed2e7c870ce603d65fa2d841771f252e1ff55e773336e153",
+      "title": "Mubadala Citi DC Open: Jessica Pegula vs Diana Shnaider",
+      "category": "Tennis",
+      "whale_direction": "Jessica Pegula",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 11.1078,
+      "total_value_usd": 163204.73,
       "entry_price": 0.0455,
       "end_date": "2026-08-08",
       "resolved": false,
