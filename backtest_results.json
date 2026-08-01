@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-01T06:28:50+00:00",
+  "generated_at": "2026-08-01T08:43:38+00:00",
   "total_signals": 672,
-  "total_resolved": 636,
-  "total_correct": 399,
+  "total_resolved": 638,
+  "total_correct": 400,
   "overall_hit_rate": 62.7,
   "by_tier": {
     "Strong": {
       "total": 243,
-      "resolved": 235,
-      "correct": 157,
-      "hit_rate": 66.8
+      "resolved": 237,
+      "correct": 158,
+      "hit_rate": 66.7
     },
     "Moderate": {
       "total": 385,
@@ -11427,10 +11427,10 @@
       "total_value_usd": 85625.28,
       "entry_price": 0.9995,
       "end_date": "2026-08-08",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Denis Shapovalov",
+      "resolved_date": "2026-08-08"
     },
     {
       "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:0",
@@ -11444,10 +11444,10 @@
       "total_value_usd": 40136.86,
       "entry_price": 0.9995,
       "end_date": "2026-08-08",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Denis Shapovalov",
+      "resolved_date": "2026-08-08"
     }
   ]
 }

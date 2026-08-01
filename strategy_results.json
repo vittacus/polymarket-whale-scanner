@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-01T06:28:50+00:00",
+  "generated_at": "2026-08-01T08:43:38+00:00",
   "total_evaluated": 672,
-  "total_pending": 36,
+  "total_pending": 34,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 672,
-      "correct": 399,
-      "wrong": 237,
-      "pending": 36,
+      "correct": 400,
+      "wrong": 238,
+      "pending": 34,
       "win_rate": 62.7,
       "signals": [
         {
@@ -9401,11 +9401,11 @@
           "tier": "Strong",
           "entry_price": 0.9995,
           "whale_direction": "Denis Shapovalov",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Denis Shapovalov",
+          "resolved_date": "2026-08-08",
           "end_date": "2026-08-08",
           "total_value_usd": 85625.28,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:0",
@@ -9415,11 +9415,11 @@
           "tier": "Strong",
           "entry_price": 0.9995,
           "whale_direction": "Cameron Norrie",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Denis Shapovalov",
+          "resolved_date": "2026-08-08",
           "end_date": "2026-08-08",
           "total_value_usd": 40136.86,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
@@ -9428,10 +9428,10 @@
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 2,
-      "correct": 0,
-      "wrong": 0,
-      "pending": 2,
-      "win_rate": null,
+      "correct": 1,
+      "wrong": 1,
+      "pending": 0,
+      "win_rate": 50.0,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -9441,11 +9441,11 @@
           "tier": "Strong",
           "entry_price": 0.9995,
           "whale_direction": "Denis Shapovalov",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Denis Shapovalov",
+          "resolved_date": "2026-08-08",
           "end_date": "2026-08-08",
           "total_value_usd": 85625.28,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:0",
@@ -9455,11 +9455,11 @@
           "tier": "Strong",
           "entry_price": 0.9995,
           "whale_direction": "Cameron Norrie",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Denis Shapovalov",
+          "resolved_date": "2026-08-08",
           "end_date": "2026-08-08",
           "total_value_usd": 40136.86,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -9468,10 +9468,10 @@
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 2,
-      "correct": 0,
-      "wrong": 0,
-      "pending": 2,
-      "win_rate": null,
+      "correct": 1,
+      "wrong": 1,
+      "pending": 0,
+      "win_rate": 50.0,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -9481,11 +9481,11 @@
           "tier": "Strong",
           "entry_price": 0.9995,
           "whale_direction": "Denis Shapovalov",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Denis Shapovalov",
+          "resolved_date": "2026-08-08",
           "end_date": "2026-08-08",
           "total_value_usd": 85625.28,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:0",
@@ -9495,11 +9495,11 @@
           "tier": "Strong",
           "entry_price": 0.9995,
           "whale_direction": "Cameron Norrie",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Denis Shapovalov",
+          "resolved_date": "2026-08-08",
           "end_date": "2026-08-08",
           "total_value_usd": 40136.86,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
