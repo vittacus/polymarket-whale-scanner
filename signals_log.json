@@ -210370,5 +210370,226 @@
         "entry_price": 0.53
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-02T09:30:35+00:00",
+    "whale_timeframes": {
+      "0x6d20c35f65d9899b6d6b74f8466e824580f9a165": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc2e7800b5af46e6093872b177b7a5e7f0563be51": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc84f7e76ec28ef20e7773b7b4926bfb7378be0c5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4ab9b54427ec4b7f3646b1a0ef1bed73bc708ebe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1d1ade627d0bb0205758580b20d808573e720df6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbaa2bcb5439e985ce4ccf815b4700027d1b92c73": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0f1cb0af3f632029ec26ba44c22239f47d5f82c6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x88c4919de76e526d55a32c1f8afb439dd1f1129a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe1000ddb5f5025849765e29d051dfff78f5d4d41": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7542fa229f63a7bd8a9ca4584638004a39317a20": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x96489abcb9f583d6835c8ef95ffc923d05a86825": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf4e144462829dead1a93c6fd23a33560736e34a5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb1ca909e848cc24ec4e220ce1c453bc290c51705": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x408fe71e6b5401ecd6733970cb6f1a25e984b2f4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2dc13c6bda81b202281e796953a7323de675b33c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846:1",
+        "condition_id": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
+        "title": "Will the U.S. invade Iran before 2027?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0xbaa2bcb5439e985ce4ccf815b4700027d1b92c73",
+          "0x88c4919de76e526d55a32c1f8afb439dd1f1129a",
+          "0x96489abcb9f583d6835c8ef95ffc923d05a86825",
+          "0xb1ca909e848cc24ec4e220ce1c453bc290c51705"
+        ],
+        "ranks": [
+          10,
+          12,
+          15,
+          17
+        ],
+        "total_value_usd": 1346517.96,
+        "score": 7.6273,
+        "category": "Military Strikes",
+        "end_date": "2026-12-31",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0xa08a5ce99e14ce0b22767af6f16c08a2ab012249444c20887193a9a3e98e11fc:0",
+        "condition_id": "0xa08a5ce99e14ce0b22767af6f16c08a2ab012249444c20887193a9a3e98e11fc",
+        "title": "Strait of Hormuz traffic returns to normal by September 30?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xc84f7e76ec28ef20e7773b7b4926bfb7378be0c5",
+          "0xbaa2bcb5439e985ce4ccf815b4700027d1b92c73",
+          "0x96489abcb9f583d6835c8ef95ffc923d05a86825"
+        ],
+        "ranks": [
+          5,
+          10,
+          15
+        ],
+        "total_value_usd": 26867.08,
+        "score": 6.5442,
+        "category": "Oil",
+        "end_date": "2026-09-30",
+        "entry_price": 0.0455
+      },
+      {
+        "signal_key": "0xbb4d51e6364066d92eb6f9b8413dd7193de70966736044463b205834805a1f3b:1",
+        "condition_id": "0xbb4d51e6364066d92eb6f9b8413dd7193de70966736044463b205834805a1f3b",
+        "title": "Will the Iranian regime fall before 2027?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xbaa2bcb5439e985ce4ccf815b4700027d1b92c73",
+          "0x96489abcb9f583d6835c8ef95ffc923d05a86825",
+          "0xb1ca909e848cc24ec4e220ce1c453bc290c51705"
+        ],
+        "ranks": [
+          10,
+          15,
+          17
+        ],
+        "total_value_usd": 688197.39,
+        "score": 5.3043,
+        "category": "Reza Pahlavi",
+        "end_date": "2026-12-31",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x60c2c085ee8c16bc8f2419739a94971d4c9d00f637ead10fc0f540afa1be64e8:1",
+        "condition_id": "0x60c2c085ee8c16bc8f2419739a94971d4c9d00f637ead10fc0f540afa1be64e8",
+        "title": "Strait of Hormuz traffic returns to normal by August 31?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xbaa2bcb5439e985ce4ccf815b4700027d1b92c73",
+          "0x96489abcb9f583d6835c8ef95ffc923d05a86825",
+          "0xb1ca909e848cc24ec4e220ce1c453bc290c51705"
+        ],
+        "ranks": [
+          10,
+          15,
+          17
+        ],
+        "total_value_usd": 185706.34,
+        "score": 4.7874,
+        "category": "Oil",
+        "end_date": "2026-08-31",
+        "entry_price": 0.0455
+      }
+    ]
   }
 ]
