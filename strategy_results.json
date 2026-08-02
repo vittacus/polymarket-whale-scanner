@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-02T19:39:12+00:00",
-  "total_evaluated": 693,
-  "total_pending": 39,
+  "generated_at": "2026-08-02T20:39:03+00:00",
+  "total_evaluated": 696,
+  "total_pending": 42,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 693,
+      "signals_evaluated": 696,
       "correct": 409,
       "wrong": 245,
-      "pending": 39,
+      "pending": 42,
       "win_rate": 62.5,
       "signals": [
         {
@@ -9714,6 +9714,48 @@
           "end_date": "2026-08-31",
           "total_value_usd": 181280.93,
           "result": "pending"
+        },
+        {
+          "signal_key": "0x583760d35b02f8c19aefd2ed36b6a880a97f51b0941c8248c812b237680f5a9a:1",
+          "condition_id": "0x583760d35b02f8c19aefd2ed36b6a880a97f51b0941c8248c812b237680f5a9a",
+          "title": "New York Yankees vs. Chicago Cubs",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Chicago Cubs",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-09",
+          "total_value_usd": 126472.09,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x583760d35b02f8c19aefd2ed36b6a880a97f51b0941c8248c812b237680f5a9a:0",
+          "condition_id": "0x583760d35b02f8c19aefd2ed36b6a880a97f51b0941c8248c812b237680f5a9a",
+          "title": "New York Yankees vs. Chicago Cubs",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "New York Yankees",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-09",
+          "total_value_usd": 305005.46,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd719e3dd083066c3a8032786e7e90dad29b8bba7ea5625faa3edd7c70754a656:0",
+          "condition_id": "0xd719e3dd083066c3a8032786e7e90dad29b8bba7ea5625faa3edd7c70754a656",
+          "title": "Miami Marlins vs. New York Mets",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Miami Marlins",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-09",
+          "total_value_usd": 153007.63,
+          "result": "pending"
         }
       ]
     },
@@ -9721,10 +9763,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 23,
+      "signals_evaluated": 26,
       "correct": 10,
       "wrong": 8,
-      "pending": 5,
+      "pending": 8,
       "win_rate": 55.6,
       "signals": [
         {
@@ -10048,6 +10090,48 @@
           "end_date": "2026-08-31",
           "total_value_usd": 181280.93,
           "result": "pending"
+        },
+        {
+          "signal_key": "0x583760d35b02f8c19aefd2ed36b6a880a97f51b0941c8248c812b237680f5a9a:1",
+          "condition_id": "0x583760d35b02f8c19aefd2ed36b6a880a97f51b0941c8248c812b237680f5a9a",
+          "title": "New York Yankees vs. Chicago Cubs",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Chicago Cubs",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-09",
+          "total_value_usd": 126472.09,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x583760d35b02f8c19aefd2ed36b6a880a97f51b0941c8248c812b237680f5a9a:0",
+          "condition_id": "0x583760d35b02f8c19aefd2ed36b6a880a97f51b0941c8248c812b237680f5a9a",
+          "title": "New York Yankees vs. Chicago Cubs",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "New York Yankees",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-09",
+          "total_value_usd": 305005.46,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd719e3dd083066c3a8032786e7e90dad29b8bba7ea5625faa3edd7c70754a656:0",
+          "condition_id": "0xd719e3dd083066c3a8032786e7e90dad29b8bba7ea5625faa3edd7c70754a656",
+          "title": "Miami Marlins vs. New York Mets",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Miami Marlins",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-09",
+          "total_value_usd": 153007.63,
+          "result": "pending"
         }
       ]
     },
@@ -10055,10 +10139,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 23,
+      "signals_evaluated": 26,
       "correct": 8,
       "wrong": 10,
-      "pending": 5,
+      "pending": 8,
       "win_rate": 44.4,
       "signals": [
         {
@@ -10381,6 +10465,48 @@
           "resolved_date": null,
           "end_date": "2026-08-31",
           "total_value_usd": 181280.93,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x583760d35b02f8c19aefd2ed36b6a880a97f51b0941c8248c812b237680f5a9a:1",
+          "condition_id": "0x583760d35b02f8c19aefd2ed36b6a880a97f51b0941c8248c812b237680f5a9a",
+          "title": "New York Yankees vs. Chicago Cubs",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Chicago Cubs",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-09",
+          "total_value_usd": 126472.09,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x583760d35b02f8c19aefd2ed36b6a880a97f51b0941c8248c812b237680f5a9a:0",
+          "condition_id": "0x583760d35b02f8c19aefd2ed36b6a880a97f51b0941c8248c812b237680f5a9a",
+          "title": "New York Yankees vs. Chicago Cubs",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "New York Yankees",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-09",
+          "total_value_usd": 305005.46,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd719e3dd083066c3a8032786e7e90dad29b8bba7ea5625faa3edd7c70754a656:0",
+          "condition_id": "0xd719e3dd083066c3a8032786e7e90dad29b8bba7ea5625faa3edd7c70754a656",
+          "title": "Miami Marlins vs. New York Mets",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Miami Marlins",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-09",
+          "total_value_usd": 153007.63,
           "result": "pending"
         }
       ]
