@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-02T21:41:32+00:00",
-  "total_evaluated": 697,
-  "total_pending": 40,
+  "generated_at": "2026-08-02T22:43:46+00:00",
+  "total_evaluated": 701,
+  "total_pending": 43,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 697,
-      "correct": 411,
+      "signals_evaluated": 701,
+      "correct": 412,
       "wrong": 246,
-      "pending": 40,
+      "pending": 43,
       "win_rate": 62.6,
       "signals": [
         {
@@ -9765,10 +9765,66 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Cleveland Guardians",
+          "resolved_outcome": "Cleveland Guardians",
+          "resolved_date": "2026-08-09",
+          "end_date": "2026-08-09",
+          "total_value_usd": 146930.72,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x7a50d6ca06cd4b6c1d49d86d5852f6d3c9ae68ea7b2fb3407ce5f9dbd0d6e7d2:0",
+          "condition_id": "0x7a50d6ca06cd4b6c1d49d86d5852f6d3c9ae68ea7b2fb3407ce5f9dbd0d6e7d2",
+          "title": "Mubadala Citi DC Open: Jessica Pegula vs Alexandra Eala",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Jessica Pegula",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-08-09",
-          "total_value_usd": 146930.72,
+          "total_value_usd": 532477.85,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x3c6d94d69450d7a4c235efde3d2f4aa13f157cba253a4292971659999b92fd4c:1",
+          "condition_id": "0x3c6d94d69450d7a4c235efde3d2f4aa13f157cba253a4292971659999b92fd4c",
+          "title": "Boston Red Sox vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-09",
+          "total_value_usd": 241068.58,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x7a50d6ca06cd4b6c1d49d86d5852f6d3c9ae68ea7b2fb3407ce5f9dbd0d6e7d2:1",
+          "condition_id": "0x7a50d6ca06cd4b6c1d49d86d5852f6d3c9ae68ea7b2fb3407ce5f9dbd0d6e7d2",
+          "title": "Mubadala Citi DC Open: Jessica Pegula vs Alexandra Eala",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Alexandra Eala",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-09",
+          "total_value_usd": 16695.54,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x4fab745177646716551ca56a754da77617773b67422e52f05ab1047ccf5c4b42:0",
+          "condition_id": "0x4fab745177646716551ca56a754da77617773b67422e52f05ab1047ccf5c4b42",
+          "title": "Philadelphia Phillies vs. Baltimore Orioles",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Philadelphia Phillies",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-09",
+          "total_value_usd": 135493.74,
           "result": "pending"
         }
       ]
@@ -9777,11 +9833,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 27,
-      "correct": 12,
+      "signals_evaluated": 31,
+      "correct": 13,
       "wrong": 9,
-      "pending": 6,
-      "win_rate": 57.1,
+      "pending": 9,
+      "win_rate": 59.1,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -10155,10 +10211,66 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Cleveland Guardians",
+          "resolved_outcome": "Cleveland Guardians",
+          "resolved_date": "2026-08-09",
+          "end_date": "2026-08-09",
+          "total_value_usd": 146930.72,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x7a50d6ca06cd4b6c1d49d86d5852f6d3c9ae68ea7b2fb3407ce5f9dbd0d6e7d2:0",
+          "condition_id": "0x7a50d6ca06cd4b6c1d49d86d5852f6d3c9ae68ea7b2fb3407ce5f9dbd0d6e7d2",
+          "title": "Mubadala Citi DC Open: Jessica Pegula vs Alexandra Eala",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Jessica Pegula",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-08-09",
-          "total_value_usd": 146930.72,
+          "total_value_usd": 532477.85,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x3c6d94d69450d7a4c235efde3d2f4aa13f157cba253a4292971659999b92fd4c:1",
+          "condition_id": "0x3c6d94d69450d7a4c235efde3d2f4aa13f157cba253a4292971659999b92fd4c",
+          "title": "Boston Red Sox vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-09",
+          "total_value_usd": 241068.58,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x7a50d6ca06cd4b6c1d49d86d5852f6d3c9ae68ea7b2fb3407ce5f9dbd0d6e7d2:1",
+          "condition_id": "0x7a50d6ca06cd4b6c1d49d86d5852f6d3c9ae68ea7b2fb3407ce5f9dbd0d6e7d2",
+          "title": "Mubadala Citi DC Open: Jessica Pegula vs Alexandra Eala",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Alexandra Eala",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-09",
+          "total_value_usd": 16695.54,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x4fab745177646716551ca56a754da77617773b67422e52f05ab1047ccf5c4b42:0",
+          "condition_id": "0x4fab745177646716551ca56a754da77617773b67422e52f05ab1047ccf5c4b42",
+          "title": "Philadelphia Phillies vs. Baltimore Orioles",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Philadelphia Phillies",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-09",
+          "total_value_usd": 135493.74,
           "result": "pending"
         }
       ]
@@ -10167,11 +10279,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 27,
+      "signals_evaluated": 31,
       "correct": 9,
-      "wrong": 12,
-      "pending": 6,
-      "win_rate": 42.9,
+      "wrong": 13,
+      "pending": 9,
+      "win_rate": 40.9,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -10545,10 +10657,66 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Cleveland Guardians",
+          "resolved_outcome": "Cleveland Guardians",
+          "resolved_date": "2026-08-09",
+          "end_date": "2026-08-09",
+          "total_value_usd": 146930.72,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x7a50d6ca06cd4b6c1d49d86d5852f6d3c9ae68ea7b2fb3407ce5f9dbd0d6e7d2:0",
+          "condition_id": "0x7a50d6ca06cd4b6c1d49d86d5852f6d3c9ae68ea7b2fb3407ce5f9dbd0d6e7d2",
+          "title": "Mubadala Citi DC Open: Jessica Pegula vs Alexandra Eala",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Jessica Pegula",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-08-09",
-          "total_value_usd": 146930.72,
+          "total_value_usd": 532477.85,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x3c6d94d69450d7a4c235efde3d2f4aa13f157cba253a4292971659999b92fd4c:1",
+          "condition_id": "0x3c6d94d69450d7a4c235efde3d2f4aa13f157cba253a4292971659999b92fd4c",
+          "title": "Boston Red Sox vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-09",
+          "total_value_usd": 241068.58,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x7a50d6ca06cd4b6c1d49d86d5852f6d3c9ae68ea7b2fb3407ce5f9dbd0d6e7d2:1",
+          "condition_id": "0x7a50d6ca06cd4b6c1d49d86d5852f6d3c9ae68ea7b2fb3407ce5f9dbd0d6e7d2",
+          "title": "Mubadala Citi DC Open: Jessica Pegula vs Alexandra Eala",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Alexandra Eala",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-09",
+          "total_value_usd": 16695.54,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x4fab745177646716551ca56a754da77617773b67422e52f05ab1047ccf5c4b42:0",
+          "condition_id": "0x4fab745177646716551ca56a754da77617773b67422e52f05ab1047ccf5c4b42",
+          "title": "Philadelphia Phillies vs. Baltimore Orioles",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Philadelphia Phillies",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-09",
+          "total_value_usd": 135493.74,
           "result": "pending"
         }
       ]
@@ -10557,10 +10725,10 @@
       "name": "Conviction Sizing",
       "description": "Total whale position >$500k",
       "hypothesis": "Signals where total position size exceeds $500k represent the highest-conviction whale bets. When top traders put serious capital behind a position, that's a qualitatively different signal from a small stake. This filters for only the highest-conviction consensus calls to test whether size predicts accuracy.",
-      "signals_evaluated": 24,
+      "signals_evaluated": 25,
       "correct": 16,
       "wrong": 6,
-      "pending": 2,
+      "pending": 3,
       "win_rate": 72.7,
       "signals": [
         {
@@ -10898,6 +11066,20 @@
           "end_date": "2026-08-07",
           "total_value_usd": 635193.18,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x7a50d6ca06cd4b6c1d49d86d5852f6d3c9ae68ea7b2fb3407ce5f9dbd0d6e7d2:0",
+          "condition_id": "0x7a50d6ca06cd4b6c1d49d86d5852f6d3c9ae68ea7b2fb3407ce5f9dbd0d6e7d2",
+          "title": "Mubadala Citi DC Open: Jessica Pegula vs Alexandra Eala",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Jessica Pegula",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-09",
+          "total_value_usd": 532477.85,
+          "result": "pending"
         }
       ]
     }
