@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-02T01:19:42+00:00",
-  "total_signals": 688,
-  "total_resolved": 648,
-  "total_correct": 406,
-  "overall_hit_rate": 62.7,
+  "generated_at": "2026-08-02T04:46:11+00:00",
+  "total_signals": 692,
+  "total_resolved": 653,
+  "total_correct": 408,
+  "overall_hit_rate": 62.5,
   "by_tier": {
     "Strong": {
       "total": 245,
-      "resolved": 238,
-      "correct": 159,
-      "hit_rate": 66.8
+      "resolved": 239,
+      "correct": 160,
+      "hit_rate": 66.9
     },
     "Moderate": {
-      "total": 399,
-      "resolved": 367,
-      "correct": 226,
-      "hit_rate": 61.6
+      "total": 403,
+      "resolved": 371,
+      "correct": 227,
+      "hit_rate": 61.2
     },
     "Weak": {
       "total": 44,
@@ -11580,10 +11580,10 @@
       "total_value_usd": 14922.93,
       "entry_price": 0.0455,
       "end_date": "2026-08-09",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Milwaukee Brewers",
+      "resolved_date": "2026-08-09"
     },
     {
       "signal_key": "0x41a72062c2008a62da644c433c5c01ed090d463eef4be17e7e7e860914566afb:1",
@@ -11597,10 +11597,10 @@
       "total_value_usd": 64578.02,
       "entry_price": 0.0455,
       "end_date": "2026-08-08",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Chicago Cubs",
+      "resolved_date": "2026-08-08"
     },
     {
       "signal_key": "0x072d48c31ab64de2fcae4c3700b609373ebc88ae2665a71b43ab76763015db99:1",
@@ -11682,10 +11682,10 @@
       "total_value_usd": 9768.15,
       "entry_price": 0.0455,
       "end_date": "2026-08-09",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Colorado Rockies",
+      "resolved_date": "2026-08-09"
     },
     {
       "signal_key": "0xc0660f55ce84d5b45fa446439905e5394dbeaecd20e224ae4198fb55b8a5471b:0",
@@ -11699,10 +11699,10 @@
       "total_value_usd": 49137.04,
       "entry_price": 0.0455,
       "end_date": "2026-08-09",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Colorado Rockies",
+      "resolved_date": "2026-08-09"
     },
     {
       "signal_key": "0x41a72062c2008a62da644c433c5c01ed090d463eef4be17e7e7e860914566afb:0",
@@ -11716,6 +11716,74 @@
       "total_value_usd": 243600.47,
       "entry_price": 0.0455,
       "end_date": "2026-08-08",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Chicago Cubs",
+      "resolved_date": "2026-08-08"
+    },
+    {
+      "signal_key": "0xdbaa19c72378f7eb2fc01c0b40404857a1b1e68e3561ce5bbe792a24ce79377e:1",
+      "condition_id": "0xdbaa19c72378f7eb2fc01c0b40404857a1b1e68e3561ce5bbe792a24ce79377e",
+      "title": "Israel closes its airspace by August 15?",
+      "category": "Geopolitics",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 7.0394,
+      "total_value_usd": 32549.34,
+      "entry_price": 0.0455,
+      "end_date": "2026-08-15",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xd8659b58a90d0d69fb1170f25b2b896871a1328115fd11c6f4cfe2b01a2a8ba0:1",
+      "condition_id": "0xd8659b58a90d0d69fb1170f25b2b896871a1328115fd11c6f4cfe2b01a2a8ba0",
+      "title": "Bab el-Mandeb Strait effectively closed by December 31?",
+      "category": "houthi",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 5.8969,
+      "total_value_usd": 42190.54,
+      "entry_price": 0.0455,
+      "end_date": "2026-12-31",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xa08a5ce99e14ce0b22767af6f16c08a2ab012249444c20887193a9a3e98e11fc:0",
+      "condition_id": "0xa08a5ce99e14ce0b22767af6f16c08a2ab012249444c20887193a9a3e98e11fc",
+      "title": "Strait of Hormuz traffic returns to normal by September 30?",
+      "category": "Oil",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 5.5874,
+      "total_value_usd": 24505.15,
+      "entry_price": 0.0455,
+      "end_date": "2026-09-30",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x58998da8fa20593cf07618032acd580344a79279a8bcc3ed128b668d793c3d6f:1",
+      "condition_id": "0x58998da8fa20593cf07618032acd580344a79279a8bcc3ed128b668d793c3d6f",
+      "title": "US obtains Iranian enriched uranium by December 31?",
+      "category": "U.S. x Iran",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 4.1093,
+      "total_value_usd": 76480.41,
+      "entry_price": 0.0455,
+      "end_date": "2026-12-31",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
