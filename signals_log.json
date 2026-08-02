@@ -212158,5 +212158,155 @@
         "entry_price": 0.0455
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-02T21:35:38+00:00",
+    "whale_timeframes": {
+      "0xc2e7800b5af46e6093872b177b7a5e7f0563be51": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe1000ddb5f5025849765e29d051dfff78f5d4d41": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd30f4698c6f5f3829893e68e183a8e5ea18f316": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1d1ade627d0bb0205758580b20d808573e720df6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc84f7e76ec28ef20e7773b7b4926bfb7378be0c5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf201a19b43471261a3c1ba9247335d55270e527e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4b1db2741699fee93d2fd63eec0a6778a39f76a0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3413c803c3a6efc8d963afbce2dcee48d3738ff2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2117ae94a97d69b78cbc81b6680a62deb1955c26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf1528f12e645462c344799b62b1b421a6a4c64aa": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0f1cb0af3f632029ec26ba44c22239f47d5f82c6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbaa2bcb5439e985ce4ccf815b4700027d1b92c73": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf4e144462829dead1a93c6fd23a33560736e34a5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x21468ad63a833f5f9ea5c2835fb4e9dec57ad41b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x866056133a70de9282a080758858d1a0c8b393ed": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2dc13c6bda81b202281e796953a7323de675b33c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x8b1bb5ca14aa932987f2125561bf2cd6b999d4a5dca09e60c79b01d2229d4530:1",
+        "condition_id": "0x8b1bb5ca14aa932987f2125561bf2cd6b999d4a5dca09e60c79b01d2229d4530",
+        "title": "Arizona Diamondbacks vs. Cleveland Guardians",
+        "outcome": "Cleveland Guardians",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0xf1528f12e645462c344799b62b1b421a6a4c64aa",
+          "0x2dc13c6bda81b202281e796953a7323de675b33c"
+        ],
+        "ranks": [
+          2,
+          14,
+          20
+        ],
+        "total_value_usd": 146930.72,
+        "score": 12.9388,
+        "category": "MLB",
+        "end_date": "2026-08-09",
+        "entry_price": 0.0455
+      }
+    ]
   }
 ]

@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-02T20:39:03+00:00",
-  "total_signals": 696,
-  "total_resolved": 654,
-  "total_correct": 409,
-  "overall_hit_rate": 62.5,
+  "generated_at": "2026-08-02T21:41:32+00:00",
+  "total_signals": 697,
+  "total_resolved": 657,
+  "total_correct": 411,
+  "overall_hit_rate": 62.6,
   "by_tier": {
     "Strong": {
-      "total": 246,
-      "resolved": 239,
+      "total": 247,
+      "resolved": 240,
       "correct": 160,
-      "hit_rate": 66.9
+      "hit_rate": 66.7
     },
     "Moderate": {
       "total": 406,
-      "resolved": 372,
-      "correct": 228,
-      "hit_rate": 61.3
+      "resolved": 374,
+      "correct": 230,
+      "hit_rate": 61.5
     },
     "Weak": {
       "total": 44,
@@ -11818,10 +11818,10 @@
       "total_value_usd": 126472.09,
       "entry_price": 0.0455,
       "end_date": "2026-08-09",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "New York Yankees",
+      "resolved_date": "2026-08-09"
     },
     {
       "signal_key": "0x583760d35b02f8c19aefd2ed36b6a880a97f51b0941c8248c812b237680f5a9a:0",
@@ -11835,10 +11835,10 @@
       "total_value_usd": 305005.46,
       "entry_price": 0.0455,
       "end_date": "2026-08-09",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "New York Yankees",
+      "resolved_date": "2026-08-09"
     },
     {
       "signal_key": "0xd719e3dd083066c3a8032786e7e90dad29b8bba7ea5625faa3edd7c70754a656:0",
@@ -11850,6 +11850,23 @@
       "tier": "Moderate",
       "score": 5.5214,
       "total_value_usd": 153007.63,
+      "entry_price": 0.0455,
+      "end_date": "2026-08-09",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Miami Marlins",
+      "resolved_date": "2026-08-09"
+    },
+    {
+      "signal_key": "0x8b1bb5ca14aa932987f2125561bf2cd6b999d4a5dca09e60c79b01d2229d4530:1",
+      "condition_id": "0x8b1bb5ca14aa932987f2125561bf2cd6b999d4a5dca09e60c79b01d2229d4530",
+      "title": "Arizona Diamondbacks vs. Cleveland Guardians",
+      "category": "MLB",
+      "whale_direction": "Cleveland Guardians",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 12.9388,
+      "total_value_usd": 146930.72,
       "entry_price": 0.0455,
       "end_date": "2026-08-09",
       "resolved": false,
