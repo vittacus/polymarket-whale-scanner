@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-02T23:45:51+00:00",
-  "total_signals": 701,
+  "generated_at": "2026-08-03T01:19:48+00:00",
+  "total_signals": 702,
   "total_resolved": 658,
   "total_correct": 412,
   "overall_hit_rate": 62.6,
   "by_tier": {
     "Strong": {
-      "total": 250,
+      "total": 251,
       "resolved": 241,
       "correct": 161,
       "hit_rate": 66.8
@@ -11935,6 +11935,23 @@
       "tier": "Moderate",
       "score": 7.7957,
       "total_value_usd": 135493.74,
+      "entry_price": 0.0455,
+      "end_date": "2026-08-09",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x3c6d94d69450d7a4c235efde3d2f4aa13f157cba253a4292971659999b92fd4c:0",
+      "condition_id": "0x3c6d94d69450d7a4c235efde3d2f4aa13f157cba253a4292971659999b92fd4c",
+      "title": "Boston Red Sox vs. Los Angeles Dodgers",
+      "category": "MLB",
+      "whale_direction": "Boston Red Sox",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 33.9791,
+      "total_value_usd": 1172447.46,
       "entry_price": 0.0455,
       "end_date": "2026-08-09",
       "resolved": false,

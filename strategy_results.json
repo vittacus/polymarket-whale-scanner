@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-02T23:45:51+00:00",
-  "total_evaluated": 701,
-  "total_pending": 43,
+  "generated_at": "2026-08-03T01:19:49+00:00",
+  "total_evaluated": 702,
+  "total_pending": 44,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 701,
+      "signals_evaluated": 702,
       "correct": 412,
       "wrong": 246,
-      "pending": 43,
+      "pending": 44,
       "win_rate": 62.6,
       "signals": [
         {
@@ -9826,6 +9826,20 @@
           "end_date": "2026-08-09",
           "total_value_usd": 135493.74,
           "result": "pending"
+        },
+        {
+          "signal_key": "0x3c6d94d69450d7a4c235efde3d2f4aa13f157cba253a4292971659999b92fd4c:0",
+          "condition_id": "0x3c6d94d69450d7a4c235efde3d2f4aa13f157cba253a4292971659999b92fd4c",
+          "title": "Boston Red Sox vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Boston Red Sox",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-09",
+          "total_value_usd": 1172447.46,
+          "result": "pending"
         }
       ]
     },
@@ -9833,10 +9847,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 31,
+      "signals_evaluated": 32,
       "correct": 13,
       "wrong": 9,
-      "pending": 9,
+      "pending": 10,
       "win_rate": 59.1,
       "signals": [
         {
@@ -10272,6 +10286,20 @@
           "end_date": "2026-08-09",
           "total_value_usd": 135493.74,
           "result": "pending"
+        },
+        {
+          "signal_key": "0x3c6d94d69450d7a4c235efde3d2f4aa13f157cba253a4292971659999b92fd4c:0",
+          "condition_id": "0x3c6d94d69450d7a4c235efde3d2f4aa13f157cba253a4292971659999b92fd4c",
+          "title": "Boston Red Sox vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Boston Red Sox",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-09",
+          "total_value_usd": 1172447.46,
+          "result": "pending"
         }
       ]
     },
@@ -10279,10 +10307,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 31,
+      "signals_evaluated": 32,
       "correct": 9,
       "wrong": 13,
-      "pending": 9,
+      "pending": 10,
       "win_rate": 40.9,
       "signals": [
         {
@@ -10718,6 +10746,20 @@
           "end_date": "2026-08-09",
           "total_value_usd": 135493.74,
           "result": "pending"
+        },
+        {
+          "signal_key": "0x3c6d94d69450d7a4c235efde3d2f4aa13f157cba253a4292971659999b92fd4c:0",
+          "condition_id": "0x3c6d94d69450d7a4c235efde3d2f4aa13f157cba253a4292971659999b92fd4c",
+          "title": "Boston Red Sox vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Boston Red Sox",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-09",
+          "total_value_usd": 1172447.46,
+          "result": "pending"
         }
       ]
     },
@@ -10725,10 +10767,10 @@
       "name": "Conviction Sizing",
       "description": "Total whale position >$500k",
       "hypothesis": "Signals where total position size exceeds $500k represent the highest-conviction whale bets. When top traders put serious capital behind a position, that's a qualitatively different signal from a small stake. This filters for only the highest-conviction consensus calls to test whether size predicts accuracy.",
-      "signals_evaluated": 25,
+      "signals_evaluated": 26,
       "correct": 16,
       "wrong": 6,
-      "pending": 3,
+      "pending": 4,
       "win_rate": 72.7,
       "signals": [
         {
@@ -11079,6 +11121,20 @@
           "resolved_date": null,
           "end_date": "2026-08-09",
           "total_value_usd": 532477.85,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x3c6d94d69450d7a4c235efde3d2f4aa13f157cba253a4292971659999b92fd4c:0",
+          "condition_id": "0x3c6d94d69450d7a4c235efde3d2f4aa13f157cba253a4292971659999b92fd4c",
+          "title": "Boston Red Sox vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Boston Red Sox",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-09",
+          "total_value_usd": 1172447.46,
           "result": "pending"
         }
       ]
