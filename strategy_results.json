@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-03T01:19:49+00:00",
+  "generated_at": "2026-08-03T04:54:01+00:00",
   "total_evaluated": 702,
-  "total_pending": 44,
+  "total_pending": 42,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 702,
-      "correct": 412,
-      "wrong": 246,
-      "pending": 44,
+      "correct": 413,
+      "wrong": 247,
+      "pending": 42,
       "win_rate": 62.6,
       "signals": [
         {
@@ -9793,11 +9793,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Boston Red Sox",
+          "resolved_date": "2026-08-09",
           "end_date": "2026-08-09",
           "total_value_usd": 241068.58,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x7a50d6ca06cd4b6c1d49d86d5852f6d3c9ae68ea7b2fb3407ce5f9dbd0d6e7d2:1",
@@ -9835,11 +9835,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Boston Red Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Boston Red Sox",
+          "resolved_date": "2026-08-09",
           "end_date": "2026-08-09",
           "total_value_usd": 1172447.46,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -9848,10 +9848,10 @@
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 32,
-      "correct": 13,
-      "wrong": 9,
-      "pending": 10,
-      "win_rate": 59.1,
+      "correct": 14,
+      "wrong": 10,
+      "pending": 8,
+      "win_rate": 58.3,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -10253,11 +10253,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Boston Red Sox",
+          "resolved_date": "2026-08-09",
           "end_date": "2026-08-09",
           "total_value_usd": 241068.58,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x7a50d6ca06cd4b6c1d49d86d5852f6d3c9ae68ea7b2fb3407ce5f9dbd0d6e7d2:1",
@@ -10295,11 +10295,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Boston Red Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Boston Red Sox",
+          "resolved_date": "2026-08-09",
           "end_date": "2026-08-09",
           "total_value_usd": 1172447.46,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -10308,10 +10308,10 @@
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 32,
-      "correct": 9,
-      "wrong": 13,
-      "pending": 10,
-      "win_rate": 40.9,
+      "correct": 10,
+      "wrong": 14,
+      "pending": 8,
+      "win_rate": 41.7,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -10713,11 +10713,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Boston Red Sox",
+          "resolved_date": "2026-08-09",
           "end_date": "2026-08-09",
           "total_value_usd": 241068.58,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x7a50d6ca06cd4b6c1d49d86d5852f6d3c9ae68ea7b2fb3407ce5f9dbd0d6e7d2:1",
@@ -10755,11 +10755,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Boston Red Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Boston Red Sox",
+          "resolved_date": "2026-08-09",
           "end_date": "2026-08-09",
           "total_value_usd": 1172447.46,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
@@ -10768,10 +10768,10 @@
       "description": "Total whale position >$500k",
       "hypothesis": "Signals where total position size exceeds $500k represent the highest-conviction whale bets. When top traders put serious capital behind a position, that's a qualitatively different signal from a small stake. This filters for only the highest-conviction consensus calls to test whether size predicts accuracy.",
       "signals_evaluated": 26,
-      "correct": 16,
+      "correct": 17,
       "wrong": 6,
-      "pending": 4,
-      "win_rate": 72.7,
+      "pending": 3,
+      "win_rate": 73.9,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -11131,11 +11131,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Boston Red Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Boston Red Sox",
+          "resolved_date": "2026-08-09",
           "end_date": "2026-08-09",
           "total_value_usd": 1172447.46,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     }
