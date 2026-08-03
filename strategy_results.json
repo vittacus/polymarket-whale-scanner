@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-03T17:01:45+00:00",
-  "total_evaluated": 702,
+  "generated_at": "2026-08-03T18:52:24+00:00",
+  "total_evaluated": 704,
   "total_pending": 42,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 702,
-      "correct": 413,
-      "wrong": 247,
+      "signals_evaluated": 704,
+      "correct": 414,
+      "wrong": 248,
       "pending": 42,
-      "win_rate": 62.6,
+      "win_rate": 62.5,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -9779,11 +9779,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Jessica Pegula",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alexandra Eala",
+          "resolved_date": "2026-08-09",
           "end_date": "2026-08-09",
           "total_value_usd": 532477.85,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x3c6d94d69450d7a4c235efde3d2f4aa13f157cba253a4292971659999b92fd4c:1",
@@ -9807,11 +9807,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Alexandra Eala",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alexandra Eala",
+          "resolved_date": "2026-08-09",
           "end_date": "2026-08-09",
           "total_value_usd": 16695.54,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x4fab745177646716551ca56a754da77617773b67422e52f05ab1047ccf5c4b42:0",
@@ -9840,6 +9840,34 @@
           "end_date": "2026-08-09",
           "total_value_usd": 1172447.46,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x7cc8729c2bea651d00f502c2f9707f44991b1605afbe9cf793fcc77393c547b7:0",
+          "condition_id": "0x7cc8729c2bea651d00f502c2f9707f44991b1605afbe9cf793fcc77393c547b7",
+          "title": "Mubadala Citi DC Open: Taylor Fritz vs Rafael Jodar",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Taylor Fritz",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-09",
+          "total_value_usd": 84469.93,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x1a01bf78f56a507fcb666d564d8c8b91b0750679163ed6e96746102c9b7d285d:0",
+          "condition_id": "0x1a01bf78f56a507fcb666d564d8c8b91b0750679163ed6e96746102c9b7d285d",
+          "title": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+          "category": "Macro Election 2",
+          "tier": "Weak",
+          "entry_price": 0.0445,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-04",
+          "total_value_usd": 13265.35,
+          "result": "pending"
         }
       ]
     },
@@ -9847,11 +9875,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 32,
-      "correct": 14,
-      "wrong": 10,
+      "signals_evaluated": 34,
+      "correct": 15,
+      "wrong": 11,
       "pending": 8,
-      "win_rate": 58.3,
+      "win_rate": 57.7,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -10239,11 +10267,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Jessica Pegula",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alexandra Eala",
+          "resolved_date": "2026-08-09",
           "end_date": "2026-08-09",
           "total_value_usd": 532477.85,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x3c6d94d69450d7a4c235efde3d2f4aa13f157cba253a4292971659999b92fd4c:1",
@@ -10267,11 +10295,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Alexandra Eala",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alexandra Eala",
+          "resolved_date": "2026-08-09",
           "end_date": "2026-08-09",
           "total_value_usd": 16695.54,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x4fab745177646716551ca56a754da77617773b67422e52f05ab1047ccf5c4b42:0",
@@ -10300,6 +10328,34 @@
           "end_date": "2026-08-09",
           "total_value_usd": 1172447.46,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x7cc8729c2bea651d00f502c2f9707f44991b1605afbe9cf793fcc77393c547b7:0",
+          "condition_id": "0x7cc8729c2bea651d00f502c2f9707f44991b1605afbe9cf793fcc77393c547b7",
+          "title": "Mubadala Citi DC Open: Taylor Fritz vs Rafael Jodar",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Taylor Fritz",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-09",
+          "total_value_usd": 84469.93,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x1a01bf78f56a507fcb666d564d8c8b91b0750679163ed6e96746102c9b7d285d:0",
+          "condition_id": "0x1a01bf78f56a507fcb666d564d8c8b91b0750679163ed6e96746102c9b7d285d",
+          "title": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+          "category": "Macro Election 2",
+          "tier": "Weak",
+          "entry_price": 0.0445,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-04",
+          "total_value_usd": 13265.35,
+          "result": "pending"
         }
       ]
     },
@@ -10307,11 +10363,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 32,
-      "correct": 10,
-      "wrong": 14,
+      "signals_evaluated": 34,
+      "correct": 11,
+      "wrong": 15,
       "pending": 8,
-      "win_rate": 41.7,
+      "win_rate": 42.3,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -10699,11 +10755,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Jessica Pegula",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alexandra Eala",
+          "resolved_date": "2026-08-09",
           "end_date": "2026-08-09",
           "total_value_usd": 532477.85,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x3c6d94d69450d7a4c235efde3d2f4aa13f157cba253a4292971659999b92fd4c:1",
@@ -10727,11 +10783,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Alexandra Eala",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alexandra Eala",
+          "resolved_date": "2026-08-09",
           "end_date": "2026-08-09",
           "total_value_usd": 16695.54,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x4fab745177646716551ca56a754da77617773b67422e52f05ab1047ccf5c4b42:0",
@@ -10760,6 +10816,34 @@
           "end_date": "2026-08-09",
           "total_value_usd": 1172447.46,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x7cc8729c2bea651d00f502c2f9707f44991b1605afbe9cf793fcc77393c547b7:0",
+          "condition_id": "0x7cc8729c2bea651d00f502c2f9707f44991b1605afbe9cf793fcc77393c547b7",
+          "title": "Mubadala Citi DC Open: Taylor Fritz vs Rafael Jodar",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Taylor Fritz",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-09",
+          "total_value_usd": 84469.93,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x1a01bf78f56a507fcb666d564d8c8b91b0750679163ed6e96746102c9b7d285d:0",
+          "condition_id": "0x1a01bf78f56a507fcb666d564d8c8b91b0750679163ed6e96746102c9b7d285d",
+          "title": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+          "category": "Macro Election 2",
+          "tier": "Weak",
+          "entry_price": 0.0445,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-04",
+          "total_value_usd": 13265.35,
+          "result": "pending"
         }
       ]
     },
@@ -10769,9 +10853,9 @@
       "hypothesis": "Signals where total position size exceeds $500k represent the highest-conviction whale bets. When top traders put serious capital behind a position, that's a qualitatively different signal from a small stake. This filters for only the highest-conviction consensus calls to test whether size predicts accuracy.",
       "signals_evaluated": 26,
       "correct": 17,
-      "wrong": 6,
-      "pending": 3,
-      "win_rate": 73.9,
+      "wrong": 7,
+      "pending": 2,
+      "win_rate": 70.8,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -11117,11 +11201,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Jessica Pegula",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alexandra Eala",
+          "resolved_date": "2026-08-09",
           "end_date": "2026-08-09",
           "total_value_usd": 532477.85,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x3c6d94d69450d7a4c235efde3d2f4aa13f157cba253a4292971659999b92fd4c:0",
