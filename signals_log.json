@@ -214428,5 +214428,336 @@
         "entry_price": 0.0445
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-04T01:57:54+00:00",
+    "whale_timeframes": {
+      "0x4ab9b54427ec4b7f3646b1a0ef1bed73bc708ebe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1b20a00709dfe648afd26b326394b5e031f83ab0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0d18e30e252008d83f51dae00d36873ddd9e24a6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0f35109cc3ceaf729609c3109310791bd616c84a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x32b484581fc5606de9c1e43af4636b6be9bc8b21": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x782186952ef2ca75ea91c95aef25bbdcffb4bb1a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf070207d315d47fd07870e464d3ded9151f5ac55": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9703676286b93c2eca71ca96e8757104519a69c2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x43cab54b56aba79c29c1ba14b889e7de5532c219": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x95b198f900d19a80d3d7e47b7b17708af254f9ac": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb83e85ffd22faa4009273034770f96ffc5b1e50": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7fb23b0d330ea4ac4f3cecce1eb81fb0bfb3ed4b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x89f9c8590912a8a1a89ee8d1077e3f4854b165508d28a190ca40e18e317c1a89:1",
+        "condition_id": "0x89f9c8590912a8a1a89ee8d1077e3f4854b165508d28a190ca40e18e317c1a89",
+        "title": "St. Louis Cardinals vs. New York Yankees",
+        "outcome": "New York Yankees",
+        "outcome_index": 1,
+        "whale_count": 5,
+        "wallets": [
+          "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563"
+        ],
+        "ranks": [
+          4,
+          5,
+          7,
+          10,
+          17
+        ],
+        "total_value_usd": 150794.74,
+        "score": 15.6849,
+        "category": "MLB",
+        "end_date": "2026-08-10",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x19dc5dcea97c9d6db76be745c0612194f761a9fbd9629fceee73a551b3b623d1:1",
+        "condition_id": "0x19dc5dcea97c9d6db76be745c0612194f761a9fbd9629fceee73a551b3b623d1",
+        "title": "Los Angeles Dodgers vs. Chicago Cubs",
+        "outcome": "Chicago Cubs",
+        "outcome_index": 1,
+        "whale_count": 6,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21",
+          "0x9703676286b93c2eca71ca96e8757104519a69c2",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xdb83e85ffd22faa4009273034770f96ffc5b1e50"
+        ],
+        "ranks": [
+          5,
+          7,
+          10,
+          14,
+          17,
+          19
+        ],
+        "total_value_usd": 145158.87,
+        "score": 13.0153,
+        "category": "MLB",
+        "end_date": "2026-08-11",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x89f9c8590912a8a1a89ee8d1077e3f4854b165508d28a190ca40e18e317c1a89:0",
+        "condition_id": "0x89f9c8590912a8a1a89ee8d1077e3f4854b165508d28a190ca40e18e317c1a89",
+        "title": "St. Louis Cardinals vs. New York Yankees",
+        "outcome": "St. Louis Cardinals",
+        "outcome_index": 0,
+        "whale_count": 5,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x1b20a00709dfe648afd26b326394b5e031f83ab0",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x9703676286b93c2eca71ca96e8757104519a69c2",
+          "0xdb83e85ffd22faa4009273034770f96ffc5b1e50"
+        ],
+        "ranks": [
+          5,
+          6,
+          7,
+          14,
+          19
+        ],
+        "total_value_usd": 51180.39,
+        "score": 12.0226,
+        "category": "MLB",
+        "end_date": "2026-08-10",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0xd8734eebf786ba90492e0f8ab1be18bdba8ed2ee1ea8601a591adf17e7ee7575:0",
+        "condition_id": "0xd8734eebf786ba90492e0f8ab1be18bdba8ed2ee1ea8601a591adf17e7ee7575",
+        "title": "Pittsburgh Pirates vs. Milwaukee Brewers",
+        "outcome": "Pittsburgh Pirates",
+        "outcome_index": 0,
+        "whale_count": 5,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21",
+          "0x43cab54b56aba79c29c1ba14b889e7de5532c219",
+          "0xdb83e85ffd22faa4009273034770f96ffc5b1e50"
+        ],
+        "ranks": [
+          5,
+          7,
+          10,
+          16,
+          19
+        ],
+        "total_value_usd": 67620.73,
+        "score": 10.8601,
+        "category": "MLB",
+        "end_date": "2026-08-10",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x01a85ca8e7cbbaeec3012b79fc16c785a7fb148da94316848b0c77b840670cc5:0",
+        "condition_id": "0x01a85ca8e7cbbaeec3012b79fc16c785a7fb148da94316848b0c77b840670cc5",
+        "title": "San Diego Padres vs. Arizona Diamondbacks",
+        "outcome": "San Diego Padres",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1",
+          "0x9703676286b93c2eca71ca96e8757104519a69c2",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xdb83e85ffd22faa4009273034770f96ffc5b1e50"
+        ],
+        "ranks": [
+          4,
+          14,
+          17,
+          19
+        ],
+        "total_value_usd": 166616.42,
+        "score": 9.1083,
+        "category": "MLB",
+        "end_date": "2026-08-11",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0xf9f2cf3fe21c5544b12b98fead60cf1d28f104094418b050e93ab94bcbe632c4:0",
+        "condition_id": "0xf9f2cf3fe21c5544b12b98fead60cf1d28f104094418b050e93ab94bcbe632c4",
+        "title": "National Bank Open: Aleksandar Vukic vs Daniel Altmaier",
+        "outcome": "Aleksandar Vukic",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563"
+        ],
+        "ranks": [
+          7,
+          10,
+          17
+        ],
+        "total_value_usd": 113410.88,
+        "score": 6.1446,
+        "category": "Tennis",
+        "end_date": "2026-08-09",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x01a85ca8e7cbbaeec3012b79fc16c785a7fb148da94316848b0c77b840670cc5:1",
+        "condition_id": "0x01a85ca8e7cbbaeec3012b79fc16c785a7fb148da94316848b0c77b840670cc5",
+        "title": "San Diego Padres vs. Arizona Diamondbacks",
+        "outcome": "Arizona Diamondbacks",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x9703676286b93c2eca71ca96e8757104519a69c2",
+          "0xdb83e85ffd22faa4009273034770f96ffc5b1e50"
+        ],
+        "ranks": [
+          5,
+          14,
+          19
+        ],
+        "total_value_usd": 40112.38,
+        "score": 6.011,
+        "category": "MLB",
+        "end_date": "2026-08-11",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x380bfc9fda1c7c63344cfee0c8965f30f6d0e6bdba3f8d15dc0928842624b9f1:1",
+        "condition_id": "0x380bfc9fda1c7c63344cfee0c8965f30f6d0e6bdba3f8d15dc0928842624b9f1",
+        "title": "National Bank Open: Tatjana Maria vs Caty McNally",
+        "outcome": "Caty McNally",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563"
+        ],
+        "ranks": [
+          7,
+          10,
+          17
+        ],
+        "total_value_usd": 16537.49,
+        "score": 5.1281,
+        "category": "Tennis",
+        "end_date": "2026-08-10",
+        "entry_price": 0.0445
+      }
+    ]
   }
 ]
