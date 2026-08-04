@@ -215539,5 +215539,226 @@
         "entry_price": 0.51
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-04T18:50:05+00:00",
+    "whale_timeframes": {
+      "0x1b20a00709dfe648afd26b326394b5e031f83ab0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb859a551fcf56e49416160911476bea7307152f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6d20c35f65d9899b6d6b74f8466e824580f9a165": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc84f7e76ec28ef20e7773b7b4926bfb7378be0c5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbaa2bcb5439e985ce4ccf815b4700027d1b92c73": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3413c803c3a6efc8d963afbce2dcee48d3738ff2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x13fa4ce1b8a27dd0b7a72db6205a50ee6ff0954c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf070207d315d47fd07870e464d3ded9151f5ac55": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x03805a13a0b3e058f55f6c6af95389d4f431073d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe291a588ece487f3323736c55c6144f6a99e748e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9d84ce0306f8551e02efef1680475fc0f1dc1344": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x32b484581fc5606de9c1e43af4636b6be9bc8b21": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x547f2917d51f2e63ab382dcf641d4e0240162937": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6f3e7f25baa7d2d49e15e2d2957ff3dec62cbcf8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdaef2be2a19ad331737d06545f85615b094554e9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x88c4919de76e526d55a32c1f8afb439dd1f1129a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x04c98da98e911555ae84b84ee8391166710b856ebd757706fa86d22a8dbd5d8d:1",
+        "condition_id": "0x04c98da98e911555ae84b84ee8391166710b856ebd757706fa86d22a8dbd5d8d",
+        "title": "Chicago White Sox vs. Boston Red Sox",
+        "outcome": "Boston Red Sox",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xdb859a551fcf56e49416160911476bea7307152f",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x547f2917d51f2e63ab382dcf641d4e0240162937"
+        ],
+        "ranks": [
+          2,
+          3,
+          17
+        ],
+        "total_value_usd": 7255.16,
+        "score": 13.8791,
+        "category": "MLB",
+        "end_date": "2026-08-11",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0xfaa86e67b1cb844db3f4b2fe417d418dfa615f58d4866af0e63c8b728f9b8c1a:0",
+        "condition_id": "0xfaa86e67b1cb844db3f4b2fe417d418dfa615f58d4866af0e63c8b728f9b8c1a",
+        "title": "Canadian Open: Zachary Svajda vs Denis Shapovalov",
+        "outcome": "Zachary Svajda",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xdb859a551fcf56e49416160911476bea7307152f",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21"
+        ],
+        "ranks": [
+          2,
+          8,
+          16
+        ],
+        "total_value_usd": 47348.54,
+        "score": 12.952,
+        "category": "Tennis",
+        "end_date": "2026-08-10",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846:1",
+        "condition_id": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
+        "title": "Will the U.S. invade Iran before 2027?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0xbaa2bcb5439e985ce4ccf815b4700027d1b92c73",
+          "0x9d84ce0306f8551e02efef1680475fc0f1dc1344",
+          "0xdaef2be2a19ad331737d06545f85615b094554e9",
+          "0x88c4919de76e526d55a32c1f8afb439dd1f1129a"
+        ],
+        "ranks": [
+          7,
+          15,
+          19,
+          20
+        ],
+        "total_value_usd": 1180179.65,
+        "score": 7.6375,
+        "category": "Military Strikes",
+        "end_date": "2026-12-31",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x833f0bac240ad7d5c947d58a8acac0f77a74cf03dccd8f9b72a28811836a920f:0",
+        "condition_id": "0x833f0bac240ad7d5c947d58a8acac0f77a74cf03dccd8f9b72a28811836a920f",
+        "title": "US x Iran Effective Ceasefire by August 14?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xbaa2bcb5439e985ce4ccf815b4700027d1b92c73",
+          "0x9d84ce0306f8551e02efef1680475fc0f1dc1344",
+          "0x88c4919de76e526d55a32c1f8afb439dd1f1129a"
+        ],
+        "ranks": [
+          7,
+          15,
+          20
+        ],
+        "total_value_usd": 9296.3,
+        "score": 4.1499,
+        "category": "Iran",
+        "end_date": "2026-08-14",
+        "entry_price": 0.0425
+      }
+    ]
   }
 ]

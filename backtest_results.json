@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-04T17:07:38+00:00",
-  "total_signals": 712,
-  "total_resolved": 672,
-  "total_correct": 421,
+  "generated_at": "2026-08-04T18:55:48+00:00",
+  "total_signals": 715,
+  "total_resolved": 674,
+  "total_correct": 422,
   "overall_hit_rate": 62.6,
   "by_tier": {
     "Strong": {
-      "total": 256,
+      "total": 258,
       "resolved": 250,
       "correct": 167,
       "hit_rate": 66.8
     },
     "Moderate": {
-      "total": 411,
-      "resolved": 379,
-      "correct": 233,
-      "hit_rate": 61.5
+      "total": 412,
+      "resolved": 381,
+      "correct": 234,
+      "hit_rate": 61.4
     },
     "Weak": {
       "total": 45,
@@ -2349,10 +2349,10 @@
       "total_value_usd": 77552.52,
       "entry_price": 0.51,
       "end_date": "2026-07-31",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-31"
     },
     {
       "signal_key": "0xf846c22b3cca1ccf6756f014dd7245f8015e605070e9b3226bbb72e8c0383f94:1",
@@ -4797,10 +4797,10 @@
       "total_value_usd": 370162.23,
       "entry_price": 0.51,
       "end_date": "2026-07-31",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-07-31"
     },
     {
       "signal_key": "0xcacd424332319971356c757c025b45a4eb5643b919fb3bd2f84051afea599b13:1",
@@ -12128,6 +12128,57 @@
       "correct": true,
       "resolved_outcome": "Caty McNally",
       "resolved_date": "2026-08-10"
+    },
+    {
+      "signal_key": "0x04c98da98e911555ae84b84ee8391166710b856ebd757706fa86d22a8dbd5d8d:1",
+      "condition_id": "0x04c98da98e911555ae84b84ee8391166710b856ebd757706fa86d22a8dbd5d8d",
+      "title": "Chicago White Sox vs. Boston Red Sox",
+      "category": "MLB",
+      "whale_direction": "Boston Red Sox",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 13.8791,
+      "total_value_usd": 7255.16,
+      "entry_price": 0.0425,
+      "end_date": "2026-08-11",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xfaa86e67b1cb844db3f4b2fe417d418dfa615f58d4866af0e63c8b728f9b8c1a:0",
+      "condition_id": "0xfaa86e67b1cb844db3f4b2fe417d418dfa615f58d4866af0e63c8b728f9b8c1a",
+      "title": "Canadian Open: Zachary Svajda vs Denis Shapovalov",
+      "category": "Tennis",
+      "whale_direction": "Zachary Svajda",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 12.952,
+      "total_value_usd": 47348.54,
+      "entry_price": 0.0425,
+      "end_date": "2026-08-10",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x833f0bac240ad7d5c947d58a8acac0f77a74cf03dccd8f9b72a28811836a920f:0",
+      "condition_id": "0x833f0bac240ad7d5c947d58a8acac0f77a74cf03dccd8f9b72a28811836a920f",
+      "title": "US x Iran Effective Ceasefire by August 14?",
+      "category": "Iran",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 4.1499,
+      "total_value_usd": 9296.3,
+      "entry_price": 0.0425,
+      "end_date": "2026-08-14",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
