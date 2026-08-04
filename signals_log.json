@@ -215933,5 +215933,182 @@
         "entry_price": 0.0425
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-04T21:46:46+00:00",
+    "whale_timeframes": {
+      "0x1b20a00709dfe648afd26b326394b5e031f83ab0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb859a551fcf56e49416160911476bea7307152f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6d20c35f65d9899b6d6b74f8466e824580f9a165": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbaa2bcb5439e985ce4ccf815b4700027d1b92c73": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc84f7e76ec28ef20e7773b7b4926bfb7378be0c5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x32b484581fc5606de9c1e43af4636b6be9bc8b21": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3413c803c3a6efc8d963afbce2dcee48d3738ff2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x03805a13a0b3e058f55f6c6af95389d4f431073d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x13fa4ce1b8a27dd0b7a72db6205a50ee6ff0954c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf070207d315d47fd07870e464d3ded9151f5ac55": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x633e96a4b7ae543522358282eafa023fe61bd305": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7e5e420a5cde8a322f3b5b93a12a164827f47315": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x88c4919de76e526d55a32c1f8afb439dd1f1129a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6f3e7f25baa7d2d49e15e2d2957ff3dec62cbcf8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe291a588ece487f3323736c55c6144f6a99e748e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xdf4aaa4d15ba71baed89b18edc53f8b05d2611320f674ea0ed5a1e34753592b3:1",
+        "condition_id": "0xdf4aaa4d15ba71baed89b18edc53f8b05d2611320f674ea0ed5a1e34753592b3",
+        "title": "National Bank Open: Juncheng Shang vs Andrey Rublev",
+        "outcome": "Andrey Rublev",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0xdb859a551fcf56e49416160911476bea7307152f",
+          "0x6d20c35f65d9899b6d6b74f8466e824580f9a165",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21"
+        ],
+        "ranks": [
+          2,
+          3,
+          7,
+          10
+        ],
+        "total_value_usd": 38603.22,
+        "score": 19.8901,
+        "category": "Tennis",
+        "end_date": "2026-08-11",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0xdf4aaa4d15ba71baed89b18edc53f8b05d2611320f674ea0ed5a1e34753592b3:0",
+        "condition_id": "0xdf4aaa4d15ba71baed89b18edc53f8b05d2611320f674ea0ed5a1e34753592b3",
+        "title": "National Bank Open: Juncheng Shang vs Andrey Rublev",
+        "outcome": "Juncheng Shang",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21",
+          "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3"
+        ],
+        "ranks": [
+          5,
+          7,
+          10,
+          20
+        ],
+        "total_value_usd": 86993.43,
+        "score": 9.8097,
+        "category": "Tennis",
+        "end_date": "2026-08-11",
+        "entry_price": 0.0425
+      }
+    ]
   }
 ]

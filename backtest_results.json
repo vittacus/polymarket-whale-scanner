@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-04T20:26:32+00:00",
-  "total_signals": 717,
-  "total_resolved": 675,
-  "total_correct": 423,
+  "generated_at": "2026-08-04T21:52:40+00:00",
+  "total_signals": 718,
+  "total_resolved": 676,
+  "total_correct": 424,
   "overall_hit_rate": 62.7,
   "by_tier": {
     "Strong": {
-      "total": 258,
+      "total": 259,
       "resolved": 251,
       "correct": 168,
       "hit_rate": 66.9
     },
     "Moderate": {
       "total": 414,
-      "resolved": 381,
-      "correct": 234,
-      "hit_rate": 61.4
+      "resolved": 382,
+      "correct": 235,
+      "hit_rate": 61.5
     },
     "Weak": {
       "total": 45,
@@ -12209,6 +12209,23 @@
       "total_value_usd": 31366.83,
       "entry_price": 0.0425,
       "end_date": "2026-08-10",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Daniel Merida Aguilar",
+      "resolved_date": "2026-08-10"
+    },
+    {
+      "signal_key": "0xdf4aaa4d15ba71baed89b18edc53f8b05d2611320f674ea0ed5a1e34753592b3:1",
+      "condition_id": "0xdf4aaa4d15ba71baed89b18edc53f8b05d2611320f674ea0ed5a1e34753592b3",
+      "title": "National Bank Open: Juncheng Shang vs Andrey Rublev",
+      "category": "Tennis",
+      "whale_direction": "Andrey Rublev",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 19.8901,
+      "total_value_usd": 38603.22,
+      "entry_price": 0.0425,
+      "end_date": "2026-08-11",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
