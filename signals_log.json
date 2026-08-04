@@ -215389,5 +215389,155 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-08-04T17:02:12+00:00",
+    "whale_timeframes": {
+      "0x1b20a00709dfe648afd26b326394b5e031f83ab0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb859a551fcf56e49416160911476bea7307152f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc84f7e76ec28ef20e7773b7b4926bfb7378be0c5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6d20c35f65d9899b6d6b74f8466e824580f9a165": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbaa2bcb5439e985ce4ccf815b4700027d1b92c73": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3413c803c3a6efc8d963afbce2dcee48d3738ff2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x13fa4ce1b8a27dd0b7a72db6205a50ee6ff0954c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe291a588ece487f3323736c55c6144f6a99e748e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x03805a13a0b3e058f55f6c6af95389d4f431073d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9d84ce0306f8551e02efef1680475fc0f1dc1344": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x547f2917d51f2e63ab382dcf641d4e0240162937": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x57b4520916577bfb64f93cdee2eba6709301b46b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x20b80ebb96e2051540e1d475e4ce122fc282aa04": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdaef2be2a19ad331737d06545f85615b094554e9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf3a6ac44c5c90ff2b4afa4459f71acc2e57971bd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846:1",
+        "condition_id": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
+        "title": "Will the U.S. invade Iran before 2027?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xbaa2bcb5439e985ce4ccf815b4700027d1b92c73",
+          "0x9d84ce0306f8551e02efef1680475fc0f1dc1344",
+          "0xdaef2be2a19ad331737d06545f85615b094554e9"
+        ],
+        "ranks": [
+          7,
+          14,
+          18
+        ],
+        "total_value_usd": 455857.04,
+        "score": 6.153,
+        "category": "Military Strikes",
+        "end_date": "2026-12-31",
+        "entry_price": 0.51
+      }
+    ]
   }
 ]
