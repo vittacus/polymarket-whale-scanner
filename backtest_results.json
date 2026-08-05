@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-05T08:56:32+00:00",
-  "total_signals": 722,
+  "generated_at": "2026-08-05T11:21:18+00:00",
+  "total_signals": 724,
   "total_resolved": 683,
   "total_correct": 429,
   "overall_hit_rate": 62.8,
@@ -18,7 +18,7 @@
       "hit_rate": 61.7
     },
     "Weak": {
-      "total": 45,
+      "total": 47,
       "resolved": 43,
       "correct": 21,
       "hit_rate": 48.8
@@ -12294,6 +12294,40 @@
       "total_value_usd": 93425.59,
       "entry_price": 0.0425,
       "end_date": "2026-08-20",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xf673cbbc7ceb463680a98155237027368f87bde81cab618b785a5730a2a8eaca:0",
+      "condition_id": "0xf673cbbc7ceb463680a98155237027368f87bde81cab618b785a5730a2a8eaca",
+      "title": "Warsaw: Gabriela Knutson vs Ella Seidel",
+      "category": "Tennis",
+      "whale_direction": "Gabriela Knutson",
+      "outcome_index": 0,
+      "tier": "Weak",
+      "score": 3.8719,
+      "total_value_usd": 20014.56,
+      "entry_price": 0.0465,
+      "end_date": "2026-08-12",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x2f222c94362b1cc324a5ddc1a96576f53cc44aeafe4cfa3a13f2662bb33f384f:1",
+      "condition_id": "0x2f222c94362b1cc324a5ddc1a96576f53cc44aeafe4cfa3a13f2662bb33f384f",
+      "title": "Warsaw: Carol Young Suh Lee vs Aliona Falei",
+      "category": "Tennis",
+      "whale_direction": "Aliona Falei",
+      "outcome_index": 1,
+      "tier": "Weak",
+      "score": 3.5263,
+      "total_value_usd": 8269.32,
+      "entry_price": 0.0465,
+      "end_date": "2026-08-12",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
