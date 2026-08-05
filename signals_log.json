@@ -219175,5 +219175,320 @@
         "entry_price": 0.0425
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-05T22:41:48+00:00",
+    "whale_timeframes": {
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6d20c35f65d9899b6d6b74f8466e824580f9a165": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x79ae097215202b5d01f98e4479fb219102469a4a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x13fa4ce1b8a27dd0b7a72db6205a50ee6ff0954c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8075693f48668a264b9fa313b47f52712fcc12b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x16bb9951a36fce71e2ef57890b786145e0ba8492": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6304679c4bee05e560ebb637758a617086d4e570": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x64c8ec47e1f5a367f234a74f8176d805e87173ce": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x65c18d740c8246af3353741c0b32e4b6da552988": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe1000ddb5f5025849765e29d051dfff78f5d4d41": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x86279a7e9e5c178aae89b7cc13b287f741ed5382": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa71093cafc0c099b4ccab24c3cb8018d817923c4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x29295021c598f1ec3efb894e69820f9691521dd0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfbf3d501e88815464642d0e913f15379c3eeb218": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x23d81ba9371e576015c1e562db09c689f56b0288": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfbd8c9c22ca76b3662d0e53a4f79719fdc684027": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x0bbc63372aaf0867db23fc361b4e37f7d3125c7acef6cc8e2d5ce40f65b7e523:1",
+        "condition_id": "0x0bbc63372aaf0867db23fc361b4e37f7d3125c7acef6cc8e2d5ce40f65b7e523",
+        "title": "Boston Red Sox vs. New York Yankees",
+        "outcome": "New York Yankees",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563"
+        ],
+        "ranks": [
+          1,
+          4,
+          7
+        ],
+        "total_value_usd": 21899.94,
+        "score": 24.3611,
+        "category": "MLB",
+        "end_date": "2026-09-05",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0xfd2052594f25def40a18550640ee55714e2b45e1302e1ed59a8b96427742992d:1",
+        "condition_id": "0xfd2052594f25def40a18550640ee55714e2b45e1302e1ed59a8b96427742992d",
+        "title": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
+        "outcome": "Under",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x16bb9951a36fce71e2ef57890b786145e0ba8492"
+        ],
+        "ranks": [
+          1,
+          4,
+          10
+        ],
+        "total_value_usd": 10339.13,
+        "score": 21.8384,
+        "category": "MLB",
+        "end_date": "2026-08-20",
+        "entry_price": 0.0475
+      },
+      {
+        "signal_key": "0x4d5ec9612d530b640f5d6ee9a68b49d58bebefbf2c80b2975241966b96ede538:0",
+        "condition_id": "0x4d5ec9612d530b640f5d6ee9a68b49d58bebefbf2c80b2975241966b96ede538",
+        "title": "National Bank Open: Elise Mertens vs Anna Bondar",
+        "outcome": "Elise Mertens",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          2,
+          4,
+          7,
+          8
+        ],
+        "total_value_usd": 28654.69,
+        "score": 18.2812,
+        "category": "Tennis",
+        "end_date": "2026-08-13",
+        "entry_price": 0.048
+      },
+      {
+        "signal_key": "0xa7ac1c8effa5ee3fb9f327505f40b408065a7ce9970d2dd25dadd14880fa2c22:1",
+        "condition_id": "0xa7ac1c8effa5ee3fb9f327505f40b408065a7ce9970d2dd25dadd14880fa2c22",
+        "title": "National Bank Open: Fabian Marozsan vs Matteo Arnaldi",
+        "outcome": "Matteo Arnaldi",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          2,
+          4,
+          7,
+          8
+        ],
+        "total_value_usd": 21393.99,
+        "score": 17.7607,
+        "category": "Tennis",
+        "end_date": "2026-08-12",
+        "entry_price": 0.048
+      },
+      {
+        "signal_key": "0xcd889a0463f374ff80b78b21cc3b7df5deb765adb1da4d408230fdb77a527ffa:1",
+        "condition_id": "0xcd889a0463f374ff80b78b21cc3b7df5deb765adb1da4d408230fdb77a527ffa",
+        "title": "National Bank Open: Panna Udvardy vs Naomi Osaka",
+        "outcome": "Naomi Osaka",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          2,
+          4,
+          8
+        ],
+        "total_value_usd": 60437.6,
+        "score": 16.8581,
+        "category": "Tennis",
+        "end_date": "2026-08-13",
+        "entry_price": 0.048
+      },
+      {
+        "signal_key": "0x4d5ec9612d530b640f5d6ee9a68b49d58bebefbf2c80b2975241966b96ede538:1",
+        "condition_id": "0x4d5ec9612d530b640f5d6ee9a68b49d58bebefbf2c80b2975241966b96ede538",
+        "title": "National Bank Open: Elise Mertens vs Anna Bondar",
+        "outcome": "Anna Bondar",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          2,
+          4,
+          8
+        ],
+        "total_value_usd": 22770.08,
+        "score": 15.3634,
+        "category": "Tennis",
+        "end_date": "2026-08-13",
+        "entry_price": 0.048
+      },
+      {
+        "signal_key": "0xd6fab46b14f7befc694a48fd07066e41bc348f60365a80c1c30773ccca4721d7:1",
+        "condition_id": "0xd6fab46b14f7befc694a48fd07066e41bc348f60365a80c1c30773ccca4721d7",
+        "title": "National Bank Open: Jacob Fearnley vs Jakub Mensik",
+        "outcome": "Jakub Mensik",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          4,
+          7,
+          8
+        ],
+        "total_value_usd": 32902.33,
+        "score": 9.4262,
+        "category": "Tennis",
+        "end_date": "2026-08-13",
+        "entry_price": 0.048
+      },
+      {
+        "signal_key": "0xfd2052594f25def40a18550640ee55714e2b45e1302e1ed59a8b96427742992d:0",
+        "condition_id": "0xfd2052594f25def40a18550640ee55714e2b45e1302e1ed59a8b96427742992d",
+        "title": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
+        "outcome": "Over",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
+          "0xa71093cafc0c099b4ccab24c3cb8018d817923c4"
+        ],
+        "ranks": [
+          4,
+          10,
+          16
+        ],
+        "total_value_usd": 86347.9,
+        "score": 8.2049,
+        "category": "MLB",
+        "end_date": "2026-08-20",
+        "entry_price": 0.0425
+      }
+    ]
   }
 ]

@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-05T21:38:55+00:00",
-  "total_signals": 753,
-  "total_resolved": 706,
-  "total_correct": 446,
-  "overall_hit_rate": 63.2,
+  "generated_at": "2026-08-05T22:47:43+00:00",
+  "total_signals": 758,
+  "total_resolved": 713,
+  "total_correct": 450,
+  "overall_hit_rate": 63.1,
   "by_tier": {
     "Strong": {
-      "total": 282,
-      "resolved": 270,
-      "correct": 181,
-      "hit_rate": 67.0
+      "total": 286,
+      "resolved": 275,
+      "correct": 185,
+      "hit_rate": 67.3
     },
     "Moderate": {
-      "total": 424,
-      "resolved": 391,
+      "total": 425,
+      "resolved": 393,
       "correct": 243,
-      "hit_rate": 62.1
+      "hit_rate": 61.8
     },
     "Weak": {
       "total": 47,
@@ -12396,10 +12396,10 @@
       "total_value_usd": 141008.97,
       "entry_price": 0.0435,
       "end_date": "2026-08-12",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Chicago Cubs",
+      "resolved_date": "2026-08-12"
     },
     {
       "signal_key": "0xc6a02ae7c024bc8c7fe2c4a4e8c1cfbce91b769f60627aaa868dd5821a4ce0de:0",
@@ -12617,10 +12617,10 @@
       "total_value_usd": 49814.87,
       "entry_price": 0.0475,
       "end_date": "2026-08-12",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Tampa Bay Rays",
+      "resolved_date": "2026-08-12"
     },
     {
       "signal_key": "0x83175ebfdbce08270cc11b4f741f364f158ba707af2d1d46ed44657f0e60befd:0",
@@ -12736,10 +12736,10 @@
       "total_value_usd": 8893.12,
       "entry_price": 0.0475,
       "end_date": "2026-08-13",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Rafael Jodar",
+      "resolved_date": "2026-08-13"
     },
     {
       "signal_key": "0x99599019ce3bd193926cd5f0c786f614283b6c358719c7c4e5581c6421d259d6:1",
@@ -12753,10 +12753,10 @@
       "total_value_usd": 17084.11,
       "entry_price": 0.0475,
       "end_date": "2026-08-13",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Rafael Jodar",
+      "resolved_date": "2026-08-13"
     },
     {
       "signal_key": "0x98dffe8998f82fe5775ed316ab5729f06d681dd9155eb8159c42da155ad61ea4:0",
@@ -12787,10 +12787,10 @@
       "total_value_usd": 57464.95,
       "entry_price": 0.0475,
       "end_date": "2026-08-13",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Tallon Griekspoor",
+      "resolved_date": "2026-08-13"
     },
     {
       "signal_key": "0xbbec760e17b0b88a2a381763d369df1d9d4a02fe02cfcc4b8e4ccb5378a66c0c:0",
@@ -12804,10 +12804,10 @@
       "total_value_usd": 41512.87,
       "entry_price": 0.0475,
       "end_date": "2026-08-13",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Tallon Griekspoor",
+      "resolved_date": "2026-08-13"
     },
     {
       "signal_key": "0x66e113c45e55b58ccd8b27d8f47f00b5fb656aa090ed3e6390726c5eb4cabfd1:0",
@@ -12820,6 +12820,91 @@
       "score": 9.4865,
       "total_value_usd": 3766.69,
       "entry_price": 0.0475,
+      "end_date": "2026-08-13",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Alexei Popyrin",
+      "resolved_date": "2026-08-13"
+    },
+    {
+      "signal_key": "0x4d5ec9612d530b640f5d6ee9a68b49d58bebefbf2c80b2975241966b96ede538:0",
+      "condition_id": "0x4d5ec9612d530b640f5d6ee9a68b49d58bebefbf2c80b2975241966b96ede538",
+      "title": "National Bank Open: Elise Mertens vs Anna Bondar",
+      "category": "Tennis",
+      "whale_direction": "Elise Mertens",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 18.2812,
+      "total_value_usd": 28654.69,
+      "entry_price": 0.048,
+      "end_date": "2026-08-13",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xa7ac1c8effa5ee3fb9f327505f40b408065a7ce9970d2dd25dadd14880fa2c22:1",
+      "condition_id": "0xa7ac1c8effa5ee3fb9f327505f40b408065a7ce9970d2dd25dadd14880fa2c22",
+      "title": "National Bank Open: Fabian Marozsan vs Matteo Arnaldi",
+      "category": "Tennis",
+      "whale_direction": "Matteo Arnaldi",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 17.7607,
+      "total_value_usd": 21393.99,
+      "entry_price": 0.048,
+      "end_date": "2026-08-12",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xcd889a0463f374ff80b78b21cc3b7df5deb765adb1da4d408230fdb77a527ffa:1",
+      "condition_id": "0xcd889a0463f374ff80b78b21cc3b7df5deb765adb1da4d408230fdb77a527ffa",
+      "title": "National Bank Open: Panna Udvardy vs Naomi Osaka",
+      "category": "Tennis",
+      "whale_direction": "Naomi Osaka",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 16.8581,
+      "total_value_usd": 60437.6,
+      "entry_price": 0.048,
+      "end_date": "2026-08-13",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x4d5ec9612d530b640f5d6ee9a68b49d58bebefbf2c80b2975241966b96ede538:1",
+      "condition_id": "0x4d5ec9612d530b640f5d6ee9a68b49d58bebefbf2c80b2975241966b96ede538",
+      "title": "National Bank Open: Elise Mertens vs Anna Bondar",
+      "category": "Tennis",
+      "whale_direction": "Anna Bondar",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 15.3634,
+      "total_value_usd": 22770.08,
+      "entry_price": 0.048,
+      "end_date": "2026-08-13",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xd6fab46b14f7befc694a48fd07066e41bc348f60365a80c1c30773ccca4721d7:1",
+      "condition_id": "0xd6fab46b14f7befc694a48fd07066e41bc348f60365a80c1c30773ccca4721d7",
+      "title": "National Bank Open: Jacob Fearnley vs Jakub Mensik",
+      "category": "Tennis",
+      "whale_direction": "Jakub Mensik",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 9.4262,
+      "total_value_usd": 32902.33,
+      "entry_price": 0.048,
       "end_date": "2026-08-13",
       "resolved": false,
       "correct": null,
