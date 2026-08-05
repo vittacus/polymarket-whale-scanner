@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-05T11:21:18+00:00",
-  "total_signals": 724,
-  "total_resolved": 683,
-  "total_correct": 429,
+  "generated_at": "2026-08-05T13:14:52+00:00",
+  "total_signals": 725,
+  "total_resolved": 685,
+  "total_correct": 430,
   "overall_hit_rate": 62.8,
   "by_tier": {
     "Strong": {
@@ -12,16 +12,16 @@
       "hit_rate": 66.8
     },
     "Moderate": {
-      "total": 415,
+      "total": 416,
       "resolved": 384,
       "correct": 237,
       "hit_rate": 61.7
     },
     "Weak": {
       "total": 47,
-      "resolved": 43,
-      "correct": 21,
-      "hit_rate": 48.8
+      "resolved": 45,
+      "correct": 22,
+      "hit_rate": 48.9
     }
   },
   "signals": [
@@ -12311,10 +12311,10 @@
       "total_value_usd": 20014.56,
       "entry_price": 0.0465,
       "end_date": "2026-08-12",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Gabriela Knutson",
+      "resolved_date": "2026-08-12"
     },
     {
       "signal_key": "0x2f222c94362b1cc324a5ddc1a96576f53cc44aeafe4cfa3a13f2662bb33f384f:1",
@@ -12327,6 +12327,23 @@
       "score": 3.5263,
       "total_value_usd": 8269.32,
       "entry_price": 0.0465,
+      "end_date": "2026-08-12",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Carol Young Suh Lee",
+      "resolved_date": "2026-08-12"
+    },
+    {
+      "signal_key": "0x88d1958e963f40a9b2a55404d1e67c47461163898cf41f2df01011fda726fb77:1",
+      "condition_id": "0x88d1958e963f40a9b2a55404d1e67c47461163898cf41f2df01011fda726fb77",
+      "title": "Grodzisk Mazowiecki: Viktor Durasovic vs Andrea Guerrieri",
+      "category": "Tennis",
+      "whale_direction": "Andrea Guerrieri",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 4.6362,
+      "total_value_usd": 17312.09,
+      "entry_price": 0.0455,
       "end_date": "2026-08-12",
       "resolved": false,
       "correct": null,

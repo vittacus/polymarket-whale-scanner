@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-05T11:21:18+00:00",
-  "total_evaluated": 724,
-  "total_pending": 41,
+  "generated_at": "2026-08-05T13:14:52+00:00",
+  "total_evaluated": 725,
+  "total_pending": 40,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 724,
-      "correct": 429,
-      "wrong": 254,
-      "pending": 41,
+      "signals_evaluated": 725,
+      "correct": 430,
+      "wrong": 255,
+      "pending": 40,
       "win_rate": 62.8,
       "signals": [
         {
@@ -10129,11 +10129,11 @@
           "tier": "Weak",
           "entry_price": 0.0465,
           "whale_direction": "Gabriela Knutson",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Gabriela Knutson",
+          "resolved_date": "2026-08-12",
           "end_date": "2026-08-12",
           "total_value_usd": 20014.56,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x2f222c94362b1cc324a5ddc1a96576f53cc44aeafe4cfa3a13f2662bb33f384f:1",
@@ -10143,10 +10143,24 @@
           "tier": "Weak",
           "entry_price": 0.0465,
           "whale_direction": "Aliona Falei",
+          "resolved_outcome": "Carol Young Suh Lee",
+          "resolved_date": "2026-08-12",
+          "end_date": "2026-08-12",
+          "total_value_usd": 8269.32,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x88d1958e963f40a9b2a55404d1e67c47461163898cf41f2df01011fda726fb77:1",
+          "condition_id": "0x88d1958e963f40a9b2a55404d1e67c47461163898cf41f2df01011fda726fb77",
+          "title": "Grodzisk Mazowiecki: Viktor Durasovic vs Andrea Guerrieri",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Andrea Guerrieri",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-08-12",
-          "total_value_usd": 8269.32,
+          "total_value_usd": 17312.09,
           "result": "pending"
         }
       ]
@@ -10155,11 +10169,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 54,
-      "correct": 28,
-      "wrong": 16,
-      "pending": 10,
-      "win_rate": 63.6,
+      "signals_evaluated": 55,
+      "correct": 29,
+      "wrong": 17,
+      "pending": 9,
+      "win_rate": 63.0,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -10897,11 +10911,11 @@
           "tier": "Weak",
           "entry_price": 0.0465,
           "whale_direction": "Gabriela Knutson",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Gabriela Knutson",
+          "resolved_date": "2026-08-12",
           "end_date": "2026-08-12",
           "total_value_usd": 20014.56,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x2f222c94362b1cc324a5ddc1a96576f53cc44aeafe4cfa3a13f2662bb33f384f:1",
@@ -10911,10 +10925,24 @@
           "tier": "Weak",
           "entry_price": 0.0465,
           "whale_direction": "Aliona Falei",
+          "resolved_outcome": "Carol Young Suh Lee",
+          "resolved_date": "2026-08-12",
+          "end_date": "2026-08-12",
+          "total_value_usd": 8269.32,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x88d1958e963f40a9b2a55404d1e67c47461163898cf41f2df01011fda726fb77:1",
+          "condition_id": "0x88d1958e963f40a9b2a55404d1e67c47461163898cf41f2df01011fda726fb77",
+          "title": "Grodzisk Mazowiecki: Viktor Durasovic vs Andrea Guerrieri",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Andrea Guerrieri",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-08-12",
-          "total_value_usd": 8269.32,
+          "total_value_usd": 17312.09,
           "result": "pending"
         }
       ]
@@ -10923,11 +10951,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 54,
-      "correct": 16,
-      "wrong": 28,
-      "pending": 10,
-      "win_rate": 36.4,
+      "signals_evaluated": 55,
+      "correct": 17,
+      "wrong": 29,
+      "pending": 9,
+      "win_rate": 37.0,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -11665,11 +11693,11 @@
           "tier": "Weak",
           "entry_price": 0.0465,
           "whale_direction": "Gabriela Knutson",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Gabriela Knutson",
+          "resolved_date": "2026-08-12",
           "end_date": "2026-08-12",
           "total_value_usd": 20014.56,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x2f222c94362b1cc324a5ddc1a96576f53cc44aeafe4cfa3a13f2662bb33f384f:1",
@@ -11679,10 +11707,24 @@
           "tier": "Weak",
           "entry_price": 0.0465,
           "whale_direction": "Aliona Falei",
+          "resolved_outcome": "Carol Young Suh Lee",
+          "resolved_date": "2026-08-12",
+          "end_date": "2026-08-12",
+          "total_value_usd": 8269.32,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x88d1958e963f40a9b2a55404d1e67c47461163898cf41f2df01011fda726fb77:1",
+          "condition_id": "0x88d1958e963f40a9b2a55404d1e67c47461163898cf41f2df01011fda726fb77",
+          "title": "Grodzisk Mazowiecki: Viktor Durasovic vs Andrea Guerrieri",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Andrea Guerrieri",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-08-12",
-          "total_value_usd": 8269.32,
+          "total_value_usd": 17312.09,
           "result": "pending"
         }
       ]
