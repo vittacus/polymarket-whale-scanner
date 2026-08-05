@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-04T23:02:29+00:00",
-  "total_signals": 718,
-  "total_resolved": 677,
-  "total_correct": 425,
-  "overall_hit_rate": 62.8,
+  "generated_at": "2026-08-05T00:06:47+00:00",
+  "total_signals": 720,
+  "total_resolved": 679,
+  "total_correct": 426,
+  "overall_hit_rate": 62.7,
   "by_tier": {
     "Strong": {
-      "total": 259,
-      "resolved": 251,
+      "total": 261,
+      "resolved": 252,
       "correct": 168,
-      "hit_rate": 66.9
+      "hit_rate": 66.7
     },
     "Moderate": {
       "total": 414,
-      "resolved": 383,
-      "correct": 236,
-      "hit_rate": 61.6
+      "resolved": 384,
+      "correct": 237,
+      "hit_rate": 61.7
     },
     "Weak": {
       "total": 45,
@@ -12192,10 +12192,10 @@
       "total_value_usd": 7497.43,
       "entry_price": 0.0425,
       "end_date": "2026-08-11",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Juncheng Shang",
+      "resolved_date": "2026-08-11"
     },
     {
       "signal_key": "0x60ba01bd7b151e2f18e64c1ea90b83181daab19789142b50bcc031105347f0f6:0",
@@ -12224,6 +12224,40 @@
       "tier": "Strong",
       "score": 19.8901,
       "total_value_usd": 38603.22,
+      "entry_price": 0.0425,
+      "end_date": "2026-08-11",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Juncheng Shang",
+      "resolved_date": "2026-08-11"
+    },
+    {
+      "signal_key": "0xf447965f2669b7aa3e5f5d320b2cdd8c19943f8bfb90abbde31202d88aa9c56d:1",
+      "condition_id": "0xf447965f2669b7aa3e5f5d320b2cdd8c19943f8bfb90abbde31202d88aa9c56d",
+      "title": "Los Angeles Angels vs. Baltimore Orioles",
+      "category": "MLB",
+      "whale_direction": "Baltimore Orioles",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 15.7936,
+      "total_value_usd": 44688.45,
+      "entry_price": 0.0425,
+      "end_date": "2026-08-11",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xd58033380ea1ab708e42f01d636ca60a8da6272f660bbfdc2e4c1acf27d1872d:0",
+      "condition_id": "0xd58033380ea1ab708e42f01d636ca60a8da6272f660bbfdc2e4c1acf27d1872d",
+      "title": "Athletics vs. Cincinnati Reds",
+      "category": "MLB",
+      "whale_direction": "Athletics",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 15.3503,
+      "total_value_usd": 33090.0,
       "entry_price": 0.0425,
       "end_date": "2026-08-11",
       "resolved": false,

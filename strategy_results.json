@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-04T23:02:29+00:00",
-  "total_evaluated": 718,
+  "generated_at": "2026-08-05T00:06:47+00:00",
+  "total_evaluated": 720,
   "total_pending": 41,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 718,
-      "correct": 425,
-      "wrong": 252,
+      "signals_evaluated": 720,
+      "correct": 426,
+      "wrong": 253,
       "pending": 41,
-      "win_rate": 62.8,
+      "win_rate": 62.7,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -10031,11 +10031,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Juncheng Shang",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Juncheng Shang",
+          "resolved_date": "2026-08-11",
           "end_date": "2026-08-11",
           "total_value_usd": 7497.43,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x60ba01bd7b151e2f18e64c1ea90b83181daab19789142b50bcc031105347f0f6:0",
@@ -10059,10 +10059,38 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Andrey Rublev",
+          "resolved_outcome": "Juncheng Shang",
+          "resolved_date": "2026-08-11",
+          "end_date": "2026-08-11",
+          "total_value_usd": 38603.22,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xf447965f2669b7aa3e5f5d320b2cdd8c19943f8bfb90abbde31202d88aa9c56d:1",
+          "condition_id": "0xf447965f2669b7aa3e5f5d320b2cdd8c19943f8bfb90abbde31202d88aa9c56d",
+          "title": "Los Angeles Angels vs. Baltimore Orioles",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Baltimore Orioles",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-08-11",
-          "total_value_usd": 38603.22,
+          "total_value_usd": 44688.45,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd58033380ea1ab708e42f01d636ca60a8da6272f660bbfdc2e4c1acf27d1872d:0",
+          "condition_id": "0xd58033380ea1ab708e42f01d636ca60a8da6272f660bbfdc2e4c1acf27d1872d",
+          "title": "Athletics vs. Cincinnati Reds",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Athletics",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-11",
+          "total_value_usd": 33090.0,
           "result": "pending"
         }
       ]
@@ -10071,11 +10099,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 48,
-      "correct": 24,
-      "wrong": 14,
+      "signals_evaluated": 50,
+      "correct": 25,
+      "wrong": 15,
       "pending": 10,
-      "win_rate": 63.2,
+      "win_rate": 62.5,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -10715,11 +10743,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Juncheng Shang",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Juncheng Shang",
+          "resolved_date": "2026-08-11",
           "end_date": "2026-08-11",
           "total_value_usd": 7497.43,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x60ba01bd7b151e2f18e64c1ea90b83181daab19789142b50bcc031105347f0f6:0",
@@ -10743,10 +10771,38 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Andrey Rublev",
+          "resolved_outcome": "Juncheng Shang",
+          "resolved_date": "2026-08-11",
+          "end_date": "2026-08-11",
+          "total_value_usd": 38603.22,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xf447965f2669b7aa3e5f5d320b2cdd8c19943f8bfb90abbde31202d88aa9c56d:1",
+          "condition_id": "0xf447965f2669b7aa3e5f5d320b2cdd8c19943f8bfb90abbde31202d88aa9c56d",
+          "title": "Los Angeles Angels vs. Baltimore Orioles",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Baltimore Orioles",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-08-11",
-          "total_value_usd": 38603.22,
+          "total_value_usd": 44688.45,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd58033380ea1ab708e42f01d636ca60a8da6272f660bbfdc2e4c1acf27d1872d:0",
+          "condition_id": "0xd58033380ea1ab708e42f01d636ca60a8da6272f660bbfdc2e4c1acf27d1872d",
+          "title": "Athletics vs. Cincinnati Reds",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Athletics",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-11",
+          "total_value_usd": 33090.0,
           "result": "pending"
         }
       ]
@@ -10755,11 +10811,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 48,
-      "correct": 14,
-      "wrong": 24,
+      "signals_evaluated": 50,
+      "correct": 15,
+      "wrong": 25,
       "pending": 10,
-      "win_rate": 36.8,
+      "win_rate": 37.5,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -11399,11 +11455,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Juncheng Shang",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Juncheng Shang",
+          "resolved_date": "2026-08-11",
           "end_date": "2026-08-11",
           "total_value_usd": 7497.43,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x60ba01bd7b151e2f18e64c1ea90b83181daab19789142b50bcc031105347f0f6:0",
@@ -11427,10 +11483,38 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Andrey Rublev",
+          "resolved_outcome": "Juncheng Shang",
+          "resolved_date": "2026-08-11",
+          "end_date": "2026-08-11",
+          "total_value_usd": 38603.22,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xf447965f2669b7aa3e5f5d320b2cdd8c19943f8bfb90abbde31202d88aa9c56d:1",
+          "condition_id": "0xf447965f2669b7aa3e5f5d320b2cdd8c19943f8bfb90abbde31202d88aa9c56d",
+          "title": "Los Angeles Angels vs. Baltimore Orioles",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Baltimore Orioles",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-08-11",
-          "total_value_usd": 38603.22,
+          "total_value_usd": 44688.45,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd58033380ea1ab708e42f01d636ca60a8da6272f660bbfdc2e4c1acf27d1872d:0",
+          "condition_id": "0xd58033380ea1ab708e42f01d636ca60a8da6272f660bbfdc2e4c1acf27d1872d",
+          "title": "Athletics vs. Cincinnati Reds",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Athletics",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-11",
+          "total_value_usd": 33090.0,
           "result": "pending"
         }
       ]
