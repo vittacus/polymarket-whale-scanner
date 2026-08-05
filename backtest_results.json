@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-05T03:36:26+00:00",
-  "total_signals": 721,
-  "total_resolved": 682,
-  "total_correct": 428,
+  "generated_at": "2026-08-05T06:13:55+00:00",
+  "total_signals": 722,
+  "total_resolved": 683,
+  "total_correct": 429,
   "overall_hit_rate": 62.8,
   "by_tier": {
     "Strong": {
       "total": 262,
-      "resolved": 255,
-      "correct": 170,
-      "hit_rate": 66.7
+      "resolved": 256,
+      "correct": 171,
+      "hit_rate": 66.8
     },
     "Moderate": {
-      "total": 414,
+      "total": 415,
       "resolved": 384,
       "correct": 237,
       "hit_rate": 61.7
@@ -12277,6 +12277,23 @@
       "total_value_usd": 58249.94,
       "entry_price": 0.0425,
       "end_date": "2026-08-12",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Tampa Bay Rays",
+      "resolved_date": "2026-08-12"
+    },
+    {
+      "signal_key": "0xfd2052594f25def40a18550640ee55714e2b45e1302e1ed59a8b96427742992d:0",
+      "condition_id": "0xfd2052594f25def40a18550640ee55714e2b45e1302e1ed59a8b96427742992d",
+      "title": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
+      "category": "MLB",
+      "whale_direction": "Over",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 6.5331,
+      "total_value_usd": 93425.59,
+      "entry_price": 0.0425,
+      "end_date": "2026-08-20",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
