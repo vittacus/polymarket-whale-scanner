@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-05T13:14:52+00:00",
-  "total_signals": 725,
-  "total_resolved": 685,
-  "total_correct": 430,
+  "generated_at": "2026-08-05T15:32:20+00:00",
+  "total_signals": 727,
+  "total_resolved": 686,
+  "total_correct": 431,
   "overall_hit_rate": 62.8,
   "by_tier": {
     "Strong": {
-      "total": 262,
+      "total": 263,
       "resolved": 256,
       "correct": 171,
       "hit_rate": 66.8
     },
     "Moderate": {
-      "total": 416,
-      "resolved": 384,
-      "correct": 237,
-      "hit_rate": 61.7
+      "total": 417,
+      "resolved": 385,
+      "correct": 238,
+      "hit_rate": 61.8
     },
     "Weak": {
       "total": 47,
@@ -12345,6 +12345,40 @@
       "total_value_usd": 17312.09,
       "entry_price": 0.0455,
       "end_date": "2026-08-12",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Andrea Guerrieri",
+      "resolved_date": "2026-08-12"
+    },
+    {
+      "signal_key": "0x8829c327e1a8115ae11f32d17a2041a4fa9983264e389a4c1cd0c6b92149888a:1",
+      "condition_id": "0x8829c327e1a8115ae11f32d17a2041a4fa9983264e389a4c1cd0c6b92149888a",
+      "title": "National Bank Open: Valentin Vacherot vs Mariano Navone",
+      "category": "Tennis",
+      "whale_direction": "Mariano Navone",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 21.5333,
+      "total_value_usd": 295390.48,
+      "entry_price": 0.0455,
+      "end_date": "2026-08-13",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x8829c327e1a8115ae11f32d17a2041a4fa9983264e389a4c1cd0c6b92149888a:0",
+      "condition_id": "0x8829c327e1a8115ae11f32d17a2041a4fa9983264e389a4c1cd0c6b92149888a",
+      "title": "National Bank Open: Valentin Vacherot vs Mariano Navone",
+      "category": "Tennis",
+      "whale_direction": "Valentin Vacherot",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 9.9337,
+      "total_value_usd": 7020.74,
+      "entry_price": 0.0455,
+      "end_date": "2026-08-13",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
