@@ -218339,5 +218339,472 @@
         "entry_price": 0.0425
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-05T20:13:24+00:00",
+    "whale_timeframes": {
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x13fa4ce1b8a27dd0b7a72db6205a50ee6ff0954c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4ab9b54427ec4b7f3646b1a0ef1bed73bc708ebe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8075693f48668a264b9fa313b47f52712fcc12b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x79ae097215202b5d01f98e4479fb219102469a4a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x16bb9951a36fce71e2ef57890b786145e0ba8492": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x64c8ec47e1f5a367f234a74f8176d805e87173ce": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6304679c4bee05e560ebb637758a617086d4e570": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa71093cafc0c099b4ccab24c3cb8018d817923c4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe1000ddb5f5025849765e29d051dfff78f5d4d41": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x65c18d740c8246af3353741c0b32e4b6da552988": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x86279a7e9e5c178aae89b7cc13b287f741ed5382": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x29295021c598f1ec3efb894e69820f9691521dd0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfbf3d501e88815464642d0e913f15379c3eeb218": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xb3ffa74d46d4f6329a448d7bd7cfe55cc6e1c1f55b828c8bed6b02f13195d114:1",
+        "condition_id": "0xb3ffa74d46d4f6329a448d7bd7cfe55cc6e1c1f55b828c8bed6b02f13195d114",
+        "title": "Los Angeles Dodgers vs. Chicago Cubs",
+        "outcome": "Chicago Cubs",
+        "outcome_index": 1,
+        "whale_count": 5,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xa71093cafc0c099b4ccab24c3cb8018d817923c4",
+          "0x65c18d740c8246af3353741c0b32e4b6da552988"
+        ],
+        "ranks": [
+          1,
+          2,
+          9,
+          15,
+          17
+        ],
+        "total_value_usd": 575047.68,
+        "score": 40.3045,
+        "category": "MLB",
+        "end_date": "2026-08-12",
+        "entry_price": 0.0435
+      },
+      {
+        "signal_key": "0x83175ebfdbce08270cc11b4f741f364f158ba707af2d1d46ed44657f0e60befd:1",
+        "condition_id": "0x83175ebfdbce08270cc11b4f741f364f158ba707af2d1d46ed44657f0e60befd",
+        "title": "Toronto Blue Jays vs. Houston Astros",
+        "outcome": "Houston Astros",
+        "outcome_index": 1,
+        "whale_count": 5,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          1,
+          2,
+          3,
+          9,
+          11
+        ],
+        "total_value_usd": 33618.2,
+        "score": 37.1248,
+        "category": "MLB",
+        "end_date": "2026-08-12",
+        "entry_price": 0.0475
+      },
+      {
+        "signal_key": "0x34aae0d3ca8f99d1ecee2e60f748f6e39a9447040bcd7db0ef2dbdfa5f9309f6:0",
+        "condition_id": "0x34aae0d3ca8f99d1ecee2e60f748f6e39a9447040bcd7db0ef2dbdfa5f9309f6",
+        "title": "Tampa Bay Rays vs. Colorado Rockies",
+        "outcome": "Tampa Bay Rays",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          1,
+          3,
+          9,
+          11
+        ],
+        "total_value_usd": 49814.87,
+        "score": 29.0614,
+        "category": "MLB",
+        "end_date": "2026-08-12",
+        "entry_price": 0.0475
+      },
+      {
+        "signal_key": "0x0bbc63372aaf0867db23fc361b4e37f7d3125c7acef6cc8e2d5ce40f65b7e523:1",
+        "condition_id": "0x0bbc63372aaf0867db23fc361b4e37f7d3125c7acef6cc8e2d5ce40f65b7e523",
+        "title": "Boston Red Sox vs. New York Yankees",
+        "outcome": "New York Yankees",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          1,
+          2,
+          9
+        ],
+        "total_value_usd": 22381.26,
+        "score": 28.2396,
+        "category": "MLB",
+        "end_date": "2026-09-05",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0x83175ebfdbce08270cc11b4f741f364f158ba707af2d1d46ed44657f0e60befd:0",
+        "condition_id": "0x83175ebfdbce08270cc11b4f741f364f158ba707af2d1d46ed44657f0e60befd",
+        "title": "Toronto Blue Jays vs. Houston Astros",
+        "outcome": "Toronto Blue Jays",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          1,
+          3,
+          9,
+          11
+        ],
+        "total_value_usd": 35950.21,
+        "score": 28.185,
+        "category": "MLB",
+        "end_date": "2026-08-12",
+        "entry_price": 0.0475
+      },
+      {
+        "signal_key": "0xc03d373e095022259a99ab532b35a4423271281d582165d61916394f62a937b7:0",
+        "condition_id": "0xc03d373e095022259a99ab532b35a4423271281d582165d61916394f62a937b7",
+        "title": "National Bank Open: Thiago Agustin Tirante vs Taylor Fritz",
+        "outcome": "Thiago Agustin Tirante",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          2,
+          3,
+          9,
+          11
+        ],
+        "total_value_usd": 98554.03,
+        "score": 20.8335,
+        "category": "Tennis",
+        "end_date": "2026-08-13",
+        "entry_price": 0.0475
+      },
+      {
+        "signal_key": "0x7a11cdb12522f123a77f0806e4628d9d2a8e748f09aef1da493360510c0cc1cd:1",
+        "condition_id": "0x7a11cdb12522f123a77f0806e4628d9d2a8e748f09aef1da493360510c0cc1cd",
+        "title": "National Bank Open: Miomir Kecmanovic vs Arthur Rinderknech",
+        "outcome": "Arthur Rinderknech",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          2,
+          3,
+          9,
+          11
+        ],
+        "total_value_usd": 64487.71,
+        "score": 20.0651,
+        "category": "Tennis",
+        "end_date": "2026-08-13",
+        "entry_price": 0.0475
+      },
+      {
+        "signal_key": "0xfd2052594f25def40a18550640ee55714e2b45e1302e1ed59a8b96427742992d:1",
+        "condition_id": "0xfd2052594f25def40a18550640ee55714e2b45e1302e1ed59a8b96427742992d",
+        "title": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
+        "outcome": "Under",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x16bb9951a36fce71e2ef57890b786145e0ba8492"
+        ],
+        "ranks": [
+          1,
+          9,
+          10
+        ],
+        "total_value_usd": 10206.57,
+        "score": 19.5643,
+        "category": "MLB",
+        "end_date": "2026-08-20",
+        "entry_price": 0.0475
+      },
+      {
+        "signal_key": "0xc03d373e095022259a99ab532b35a4423271281d582165d61916394f62a937b7:1",
+        "condition_id": "0xc03d373e095022259a99ab532b35a4423271281d582165d61916394f62a937b7",
+        "title": "National Bank Open: Thiago Agustin Tirante vs Taylor Fritz",
+        "outcome": "Taylor Fritz",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          2,
+          3,
+          9,
+          11
+        ],
+        "total_value_usd": 14585.4,
+        "score": 17.3719,
+        "category": "Tennis",
+        "end_date": "2026-08-13",
+        "entry_price": 0.0475
+      },
+      {
+        "signal_key": "0xf7cbf62decfacb83071a4b509793acfe82d30463cfa7b3c4153d0da856f89925:0",
+        "condition_id": "0xf7cbf62decfacb83071a4b509793acfe82d30463cfa7b3c4153d0da856f89925",
+        "title": "National Bank Open: Hubert Hurkacz vs Alejandro Tabilo",
+        "outcome": "Hubert Hurkacz",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          2,
+          9,
+          11
+        ],
+        "total_value_usd": 19943.98,
+        "score": 12.1634,
+        "category": "Tennis",
+        "end_date": "2026-08-13",
+        "entry_price": 0.0475
+      },
+      {
+        "signal_key": "0x99599019ce3bd193926cd5f0c786f614283b6c358719c7c4e5581c6421d259d6:0",
+        "condition_id": "0x99599019ce3bd193926cd5f0c786f614283b6c358719c7c4e5581c6421d259d6",
+        "title": "National Bank Open: Rafael Jodar vs Corentin Moutet",
+        "outcome": "Rafael Jodar",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          2,
+          9,
+          11
+        ],
+        "total_value_usd": 8893.12,
+        "score": 11.1713,
+        "category": "Tennis",
+        "end_date": "2026-08-13",
+        "entry_price": 0.0475
+      },
+      {
+        "signal_key": "0x99599019ce3bd193926cd5f0c786f614283b6c358719c7c4e5581c6421d259d6:1",
+        "condition_id": "0x99599019ce3bd193926cd5f0c786f614283b6c358719c7c4e5581c6421d259d6",
+        "title": "National Bank Open: Rafael Jodar vs Corentin Moutet",
+        "outcome": "Corentin Moutet",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          3,
+          9,
+          11
+        ],
+        "total_value_usd": 17084.11,
+        "score": 9.1307,
+        "category": "Tennis",
+        "end_date": "2026-08-13",
+        "entry_price": 0.0475
+      },
+      {
+        "signal_key": "0x98dffe8998f82fe5775ed316ab5729f06d681dd9155eb8159c42da155ad61ea4:0",
+        "condition_id": "0x98dffe8998f82fe5775ed316ab5729f06d681dd9155eb8159c42da155ad61ea4",
+        "title": "National Bank Open: Alina Korneeva vs Emma Navarro",
+        "outcome": "Alina Korneeva",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x79ae097215202b5d01f98e4479fb219102469a4a",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          8,
+          9,
+          11
+        ],
+        "total_value_usd": 21848.73,
+        "score": 5.7182,
+        "category": "Tennis",
+        "end_date": "2026-08-11",
+        "entry_price": 0.0475
+      },
+      {
+        "signal_key": "0xfd2052594f25def40a18550640ee55714e2b45e1302e1ed59a8b96427742992d:0",
+        "condition_id": "0xfd2052594f25def40a18550640ee55714e2b45e1302e1ed59a8b96427742992d",
+        "title": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
+        "outcome": "Over",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
+          "0xa71093cafc0c099b4ccab24c3cb8018d817923c4"
+        ],
+        "ranks": [
+          9,
+          10,
+          15
+        ],
+        "total_value_usd": 87055.67,
+        "score": 5.5292,
+        "category": "MLB",
+        "end_date": "2026-08-20",
+        "entry_price": 0.0425
+      }
+    ]
   }
 ]
