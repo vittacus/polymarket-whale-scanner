@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-05T20:20:38+00:00",
-  "total_evaluated": 750,
-  "total_pending": 51,
+  "generated_at": "2026-08-05T21:38:55+00:00",
+  "total_evaluated": 753,
+  "total_pending": 47,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 750,
-      "correct": 441,
-      "wrong": 258,
-      "pending": 51,
-      "win_rate": 63.1,
+      "signals_evaluated": 753,
+      "correct": 446,
+      "wrong": 260,
+      "pending": 47,
+      "win_rate": 63.2,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -10297,11 +10297,11 @@
           "tier": "Strong",
           "entry_price": 0.0475,
           "whale_direction": "Houston Astros",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Toronto Blue Jays",
+          "resolved_date": "2026-08-12",
           "end_date": "2026-08-12",
           "total_value_usd": 25544.65,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x46c6074427cdf46f34a2c40f26cb6fa5aa085cc7d8b1fa2a179514504172cc8f:1",
@@ -10395,11 +10395,11 @@
           "tier": "Strong",
           "entry_price": 0.0475,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Toronto Blue Jays",
+          "resolved_date": "2026-08-12",
           "end_date": "2026-08-12",
           "total_value_usd": 35950.21,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc03d373e095022259a99ab532b35a4423271281d582165d61916394f62a937b7:0",
@@ -10409,11 +10409,11 @@
           "tier": "Strong",
           "entry_price": 0.0475,
           "whale_direction": "Thiago Agustin Tirante",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Thiago Agustin Tirante",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 98554.03,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x7a11cdb12522f123a77f0806e4628d9d2a8e748f09aef1da493360510c0cc1cd:1",
@@ -10423,11 +10423,11 @@
           "tier": "Strong",
           "entry_price": 0.0475,
           "whale_direction": "Arthur Rinderknech",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Arthur Rinderknech",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 64487.71,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xfd2052594f25def40a18550640ee55714e2b45e1302e1ed59a8b96427742992d:1",
@@ -10451,11 +10451,11 @@
           "tier": "Strong",
           "entry_price": 0.0475,
           "whale_direction": "Taylor Fritz",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Thiago Agustin Tirante",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 14585.4,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xf7cbf62decfacb83071a4b509793acfe82d30463cfa7b3c4153d0da856f89925:0",
@@ -10465,11 +10465,11 @@
           "tier": "Strong",
           "entry_price": 0.0475,
           "whale_direction": "Hubert Hurkacz",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Hubert Hurkacz",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 19943.98,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x99599019ce3bd193926cd5f0c786f614283b6c358719c7c4e5581c6421d259d6:0",
@@ -10507,10 +10507,52 @@
           "tier": "Moderate",
           "entry_price": 0.0475,
           "whale_direction": "Alina Korneeva",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alina Korneeva",
+          "resolved_date": "2026-08-11",
           "end_date": "2026-08-11",
           "total_value_usd": 21848.73,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xbbec760e17b0b88a2a381763d369df1d9d4a02fe02cfcc4b8e4ccb5378a66c0c:1",
+          "condition_id": "0xbbec760e17b0b88a2a381763d369df1d9d4a02fe02cfcc4b8e4ccb5378a66c0c",
+          "title": "National Bank Open: Alexander Zverev vs Tallon Griekspoor",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0475,
+          "whale_direction": "Tallon Griekspoor",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-13",
+          "total_value_usd": 57464.95,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xbbec760e17b0b88a2a381763d369df1d9d4a02fe02cfcc4b8e4ccb5378a66c0c:0",
+          "condition_id": "0xbbec760e17b0b88a2a381763d369df1d9d4a02fe02cfcc4b8e4ccb5378a66c0c",
+          "title": "National Bank Open: Alexander Zverev vs Tallon Griekspoor",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0475,
+          "whale_direction": "Alexander Zverev",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-13",
+          "total_value_usd": 41512.87,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x66e113c45e55b58ccd8b27d8f47f00b5fb656aa090ed3e6390726c5eb4cabfd1:0",
+          "condition_id": "0x66e113c45e55b58ccd8b27d8f47f00b5fb656aa090ed3e6390726c5eb4cabfd1",
+          "title": "National Bank Open: Raphael Collignon vs Alexei Popyrin",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0475,
+          "whale_direction": "Raphael Collignon",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-13",
+          "total_value_usd": 3766.69,
           "result": "pending"
         }
       ]
@@ -10519,11 +10561,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 80,
-      "correct": 40,
-      "wrong": 20,
-      "pending": 20,
-      "win_rate": 66.7,
+      "signals_evaluated": 83,
+      "correct": 45,
+      "wrong": 22,
+      "pending": 16,
+      "win_rate": 67.2,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -11429,11 +11471,11 @@
           "tier": "Strong",
           "entry_price": 0.0475,
           "whale_direction": "Houston Astros",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Toronto Blue Jays",
+          "resolved_date": "2026-08-12",
           "end_date": "2026-08-12",
           "total_value_usd": 25544.65,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x46c6074427cdf46f34a2c40f26cb6fa5aa085cc7d8b1fa2a179514504172cc8f:1",
@@ -11527,11 +11569,11 @@
           "tier": "Strong",
           "entry_price": 0.0475,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Toronto Blue Jays",
+          "resolved_date": "2026-08-12",
           "end_date": "2026-08-12",
           "total_value_usd": 35950.21,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc03d373e095022259a99ab532b35a4423271281d582165d61916394f62a937b7:0",
@@ -11541,11 +11583,11 @@
           "tier": "Strong",
           "entry_price": 0.0475,
           "whale_direction": "Thiago Agustin Tirante",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Thiago Agustin Tirante",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 98554.03,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x7a11cdb12522f123a77f0806e4628d9d2a8e748f09aef1da493360510c0cc1cd:1",
@@ -11555,11 +11597,11 @@
           "tier": "Strong",
           "entry_price": 0.0475,
           "whale_direction": "Arthur Rinderknech",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Arthur Rinderknech",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 64487.71,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xfd2052594f25def40a18550640ee55714e2b45e1302e1ed59a8b96427742992d:1",
@@ -11583,11 +11625,11 @@
           "tier": "Strong",
           "entry_price": 0.0475,
           "whale_direction": "Taylor Fritz",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Thiago Agustin Tirante",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 14585.4,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xf7cbf62decfacb83071a4b509793acfe82d30463cfa7b3c4153d0da856f89925:0",
@@ -11597,11 +11639,11 @@
           "tier": "Strong",
           "entry_price": 0.0475,
           "whale_direction": "Hubert Hurkacz",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Hubert Hurkacz",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 19943.98,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x99599019ce3bd193926cd5f0c786f614283b6c358719c7c4e5581c6421d259d6:0",
@@ -11639,10 +11681,52 @@
           "tier": "Moderate",
           "entry_price": 0.0475,
           "whale_direction": "Alina Korneeva",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alina Korneeva",
+          "resolved_date": "2026-08-11",
           "end_date": "2026-08-11",
           "total_value_usd": 21848.73,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xbbec760e17b0b88a2a381763d369df1d9d4a02fe02cfcc4b8e4ccb5378a66c0c:1",
+          "condition_id": "0xbbec760e17b0b88a2a381763d369df1d9d4a02fe02cfcc4b8e4ccb5378a66c0c",
+          "title": "National Bank Open: Alexander Zverev vs Tallon Griekspoor",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0475,
+          "whale_direction": "Tallon Griekspoor",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-13",
+          "total_value_usd": 57464.95,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xbbec760e17b0b88a2a381763d369df1d9d4a02fe02cfcc4b8e4ccb5378a66c0c:0",
+          "condition_id": "0xbbec760e17b0b88a2a381763d369df1d9d4a02fe02cfcc4b8e4ccb5378a66c0c",
+          "title": "National Bank Open: Alexander Zverev vs Tallon Griekspoor",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0475,
+          "whale_direction": "Alexander Zverev",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-13",
+          "total_value_usd": 41512.87,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x66e113c45e55b58ccd8b27d8f47f00b5fb656aa090ed3e6390726c5eb4cabfd1:0",
+          "condition_id": "0x66e113c45e55b58ccd8b27d8f47f00b5fb656aa090ed3e6390726c5eb4cabfd1",
+          "title": "National Bank Open: Raphael Collignon vs Alexei Popyrin",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0475,
+          "whale_direction": "Raphael Collignon",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-13",
+          "total_value_usd": 3766.69,
           "result": "pending"
         }
       ]
@@ -11651,11 +11735,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 80,
-      "correct": 20,
-      "wrong": 40,
-      "pending": 20,
-      "win_rate": 33.3,
+      "signals_evaluated": 83,
+      "correct": 22,
+      "wrong": 45,
+      "pending": 16,
+      "win_rate": 32.8,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -12561,11 +12645,11 @@
           "tier": "Strong",
           "entry_price": 0.0475,
           "whale_direction": "Houston Astros",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Toronto Blue Jays",
+          "resolved_date": "2026-08-12",
           "end_date": "2026-08-12",
           "total_value_usd": 25544.65,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x46c6074427cdf46f34a2c40f26cb6fa5aa085cc7d8b1fa2a179514504172cc8f:1",
@@ -12659,11 +12743,11 @@
           "tier": "Strong",
           "entry_price": 0.0475,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Toronto Blue Jays",
+          "resolved_date": "2026-08-12",
           "end_date": "2026-08-12",
           "total_value_usd": 35950.21,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xc03d373e095022259a99ab532b35a4423271281d582165d61916394f62a937b7:0",
@@ -12673,11 +12757,11 @@
           "tier": "Strong",
           "entry_price": 0.0475,
           "whale_direction": "Thiago Agustin Tirante",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Thiago Agustin Tirante",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 98554.03,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x7a11cdb12522f123a77f0806e4628d9d2a8e748f09aef1da493360510c0cc1cd:1",
@@ -12687,11 +12771,11 @@
           "tier": "Strong",
           "entry_price": 0.0475,
           "whale_direction": "Arthur Rinderknech",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Arthur Rinderknech",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 64487.71,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xfd2052594f25def40a18550640ee55714e2b45e1302e1ed59a8b96427742992d:1",
@@ -12715,11 +12799,11 @@
           "tier": "Strong",
           "entry_price": 0.0475,
           "whale_direction": "Taylor Fritz",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Thiago Agustin Tirante",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 14585.4,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf7cbf62decfacb83071a4b509793acfe82d30463cfa7b3c4153d0da856f89925:0",
@@ -12729,11 +12813,11 @@
           "tier": "Strong",
           "entry_price": 0.0475,
           "whale_direction": "Hubert Hurkacz",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Hubert Hurkacz",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 19943.98,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x99599019ce3bd193926cd5f0c786f614283b6c358719c7c4e5581c6421d259d6:0",
@@ -12771,10 +12855,52 @@
           "tier": "Moderate",
           "entry_price": 0.0475,
           "whale_direction": "Alina Korneeva",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alina Korneeva",
+          "resolved_date": "2026-08-11",
           "end_date": "2026-08-11",
           "total_value_usd": 21848.73,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xbbec760e17b0b88a2a381763d369df1d9d4a02fe02cfcc4b8e4ccb5378a66c0c:1",
+          "condition_id": "0xbbec760e17b0b88a2a381763d369df1d9d4a02fe02cfcc4b8e4ccb5378a66c0c",
+          "title": "National Bank Open: Alexander Zverev vs Tallon Griekspoor",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0475,
+          "whale_direction": "Tallon Griekspoor",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-13",
+          "total_value_usd": 57464.95,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xbbec760e17b0b88a2a381763d369df1d9d4a02fe02cfcc4b8e4ccb5378a66c0c:0",
+          "condition_id": "0xbbec760e17b0b88a2a381763d369df1d9d4a02fe02cfcc4b8e4ccb5378a66c0c",
+          "title": "National Bank Open: Alexander Zverev vs Tallon Griekspoor",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0475,
+          "whale_direction": "Alexander Zverev",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-13",
+          "total_value_usd": 41512.87,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x66e113c45e55b58ccd8b27d8f47f00b5fb656aa090ed3e6390726c5eb4cabfd1:0",
+          "condition_id": "0x66e113c45e55b58ccd8b27d8f47f00b5fb656aa090ed3e6390726c5eb4cabfd1",
+          "title": "National Bank Open: Raphael Collignon vs Alexei Popyrin",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0475,
+          "whale_direction": "Raphael Collignon",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-13",
+          "total_value_usd": 3766.69,
           "result": "pending"
         }
       ]
