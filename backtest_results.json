@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-05T00:06:47+00:00",
-  "total_signals": 720,
-  "total_resolved": 679,
-  "total_correct": 426,
-  "overall_hit_rate": 62.7,
+  "generated_at": "2026-08-05T03:36:26+00:00",
+  "total_signals": 721,
+  "total_resolved": 682,
+  "total_correct": 428,
+  "overall_hit_rate": 62.8,
   "by_tier": {
     "Strong": {
-      "total": 261,
-      "resolved": 252,
-      "correct": 168,
+      "total": 262,
+      "resolved": 255,
+      "correct": 170,
       "hit_rate": 66.7
     },
     "Moderate": {
@@ -12141,10 +12141,10 @@
       "total_value_usd": 7255.16,
       "entry_price": 0.0425,
       "end_date": "2026-08-11",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Boston Red Sox",
+      "resolved_date": "2026-08-11"
     },
     {
       "signal_key": "0xfaa86e67b1cb844db3f4b2fe417d418dfa615f58d4866af0e63c8b728f9b8c1a:0",
@@ -12243,10 +12243,10 @@
       "total_value_usd": 44688.45,
       "entry_price": 0.0425,
       "end_date": "2026-08-11",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Baltimore Orioles",
+      "resolved_date": "2026-08-11"
     },
     {
       "signal_key": "0xd58033380ea1ab708e42f01d636ca60a8da6272f660bbfdc2e4c1acf27d1872d:0",
@@ -12260,6 +12260,23 @@
       "total_value_usd": 33090.0,
       "entry_price": 0.0425,
       "end_date": "2026-08-11",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Cincinnati Reds",
+      "resolved_date": "2026-08-11"
+    },
+    {
+      "signal_key": "0xb919777c92212f3a7ff07a6e77568162657229d9a9cff0595d0b3379671ecbc4:0",
+      "condition_id": "0xb919777c92212f3a7ff07a6e77568162657229d9a9cff0595d0b3379671ecbc4",
+      "title": "Tampa Bay Rays vs. Colorado Rockies",
+      "category": "MLB",
+      "whale_direction": "Tampa Bay Rays",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 14.0897,
+      "total_value_usd": 58249.94,
+      "entry_price": 0.0425,
+      "end_date": "2026-08-12",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-05T00:06:47+00:00",
-  "total_evaluated": 720,
-  "total_pending": 41,
+  "generated_at": "2026-08-05T03:36:26+00:00",
+  "total_evaluated": 721,
+  "total_pending": 39,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 720,
-      "correct": 426,
-      "wrong": 253,
-      "pending": 41,
-      "win_rate": 62.7,
+      "signals_evaluated": 721,
+      "correct": 428,
+      "wrong": 254,
+      "pending": 39,
+      "win_rate": 62.8,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -9989,11 +9989,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Boston Red Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Boston Red Sox",
+          "resolved_date": "2026-08-11",
           "end_date": "2026-08-11",
           "total_value_usd": 7255.16,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xfaa86e67b1cb844db3f4b2fe417d418dfa615f58d4866af0e63c8b728f9b8c1a:0",
@@ -10073,11 +10073,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Baltimore Orioles",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Baltimore Orioles",
+          "resolved_date": "2026-08-11",
           "end_date": "2026-08-11",
           "total_value_usd": 44688.45,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xd58033380ea1ab708e42f01d636ca60a8da6272f660bbfdc2e4c1acf27d1872d:0",
@@ -10087,10 +10087,24 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Athletics",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Cincinnati Reds",
+          "resolved_date": "2026-08-11",
           "end_date": "2026-08-11",
           "total_value_usd": 33090.0,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xb919777c92212f3a7ff07a6e77568162657229d9a9cff0595d0b3379671ecbc4:0",
+          "condition_id": "0xb919777c92212f3a7ff07a6e77568162657229d9a9cff0595d0b3379671ecbc4",
+          "title": "Tampa Bay Rays vs. Colorado Rockies",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Tampa Bay Rays",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-12",
+          "total_value_usd": 58249.94,
           "result": "pending"
         }
       ]
@@ -10099,11 +10113,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 50,
-      "correct": 25,
-      "wrong": 15,
-      "pending": 10,
-      "win_rate": 62.5,
+      "signals_evaluated": 51,
+      "correct": 27,
+      "wrong": 16,
+      "pending": 8,
+      "win_rate": 62.8,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -10701,11 +10715,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Boston Red Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Boston Red Sox",
+          "resolved_date": "2026-08-11",
           "end_date": "2026-08-11",
           "total_value_usd": 7255.16,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xfaa86e67b1cb844db3f4b2fe417d418dfa615f58d4866af0e63c8b728f9b8c1a:0",
@@ -10785,11 +10799,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Baltimore Orioles",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Baltimore Orioles",
+          "resolved_date": "2026-08-11",
           "end_date": "2026-08-11",
           "total_value_usd": 44688.45,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xd58033380ea1ab708e42f01d636ca60a8da6272f660bbfdc2e4c1acf27d1872d:0",
@@ -10799,10 +10813,24 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Athletics",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Cincinnati Reds",
+          "resolved_date": "2026-08-11",
           "end_date": "2026-08-11",
           "total_value_usd": 33090.0,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xb919777c92212f3a7ff07a6e77568162657229d9a9cff0595d0b3379671ecbc4:0",
+          "condition_id": "0xb919777c92212f3a7ff07a6e77568162657229d9a9cff0595d0b3379671ecbc4",
+          "title": "Tampa Bay Rays vs. Colorado Rockies",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Tampa Bay Rays",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-12",
+          "total_value_usd": 58249.94,
           "result": "pending"
         }
       ]
@@ -10811,11 +10839,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 50,
-      "correct": 15,
-      "wrong": 25,
-      "pending": 10,
-      "win_rate": 37.5,
+      "signals_evaluated": 51,
+      "correct": 16,
+      "wrong": 27,
+      "pending": 8,
+      "win_rate": 37.2,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -11413,11 +11441,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Boston Red Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Boston Red Sox",
+          "resolved_date": "2026-08-11",
           "end_date": "2026-08-11",
           "total_value_usd": 7255.16,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xfaa86e67b1cb844db3f4b2fe417d418dfa615f58d4866af0e63c8b728f9b8c1a:0",
@@ -11497,11 +11525,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Baltimore Orioles",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Baltimore Orioles",
+          "resolved_date": "2026-08-11",
           "end_date": "2026-08-11",
           "total_value_usd": 44688.45,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xd58033380ea1ab708e42f01d636ca60a8da6272f660bbfdc2e4c1acf27d1872d:0",
@@ -11511,10 +11539,24 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Athletics",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Cincinnati Reds",
+          "resolved_date": "2026-08-11",
           "end_date": "2026-08-11",
           "total_value_usd": 33090.0,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xb919777c92212f3a7ff07a6e77568162657229d9a9cff0595d0b3379671ecbc4:0",
+          "condition_id": "0xb919777c92212f3a7ff07a6e77568162657229d9a9cff0595d0b3379671ecbc4",
+          "title": "Tampa Bay Rays vs. Colorado Rockies",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Tampa Bay Rays",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-12",
+          "total_value_usd": 58249.94,
           "result": "pending"
         }
       ]
