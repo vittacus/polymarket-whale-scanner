@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-06T04:35:06+00:00",
+  "generated_at": "2026-08-06T07:23:00+00:00",
   "total_signals": 776,
-  "total_resolved": 735,
-  "total_correct": 463,
+  "total_resolved": 736,
+  "total_correct": 464,
   "overall_hit_rate": 63.0,
   "by_tier": {
     "Strong": {
       "total": 304,
-      "resolved": 296,
-      "correct": 197,
-      "hit_rate": 66.6
+      "resolved": 297,
+      "correct": 198,
+      "hit_rate": 66.7
     },
     "Moderate": {
       "total": 425,
@@ -13212,10 +13212,10 @@
       "total_value_usd": 459147.59,
       "entry_price": 0.0465,
       "end_date": "2026-08-13",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Arizona Diamondbacks",
+      "resolved_date": "2026-08-13"
     }
   ]
 }
