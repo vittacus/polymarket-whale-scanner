@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-05T23:43:56+00:00",
-  "total_evaluated": 765,
-  "total_pending": 51,
+  "generated_at": "2026-08-06T01:09:32+00:00",
+  "total_evaluated": 775,
+  "total_pending": 52,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 765,
-      "correct": 451,
-      "wrong": 263,
-      "pending": 51,
-      "win_rate": 63.2,
+      "signals_evaluated": 775,
+      "correct": 456,
+      "wrong": 267,
+      "pending": 52,
+      "win_rate": 63.1,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -10563,11 +10563,11 @@
           "tier": "Strong",
           "entry_price": 0.048,
           "whale_direction": "Elise Mertens",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elise Mertens",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 28654.69,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xa7ac1c8effa5ee3fb9f327505f40b408065a7ce9970d2dd25dadd14880fa2c22:1",
@@ -10577,11 +10577,11 @@
           "tier": "Strong",
           "entry_price": 0.048,
           "whale_direction": "Matteo Arnaldi",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Matteo Arnaldi",
+          "resolved_date": "2026-08-12",
           "end_date": "2026-08-12",
           "total_value_usd": 21393.99,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xcd889a0463f374ff80b78b21cc3b7df5deb765adb1da4d408230fdb77a527ffa:1",
@@ -10605,11 +10605,11 @@
           "tier": "Strong",
           "entry_price": 0.048,
           "whale_direction": "Anna Bondar",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elise Mertens",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 22770.08,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xd6fab46b14f7befc694a48fd07066e41bc348f60365a80c1c30773ccca4721d7:1",
@@ -10619,11 +10619,11 @@
           "tier": "Moderate",
           "entry_price": 0.048,
           "whale_direction": "Jakub Mensik",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jakub Mensik",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 32902.33,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x31adeb60257394cd5b4656841e37063fa5f0dba7796097490351b834cc0407a8:0",
@@ -10661,11 +10661,11 @@
           "tier": "Strong",
           "entry_price": 0.0485,
           "whale_direction": "Terence Atmane",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Terence Atmane",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 81308.32,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xd6fab46b14f7befc694a48fd07066e41bc348f60365a80c1c30773ccca4721d7:0",
@@ -10675,11 +10675,11 @@
           "tier": "Strong",
           "entry_price": 0.0485,
           "whale_direction": "Jacob Fearnley",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jakub Mensik",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 30986.15,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x371c0a08002f3062f31ab87f0b8412d735ef9d9a49e3fd000b9f41c8b694224b:0",
@@ -10689,11 +10689,11 @@
           "tier": "Strong",
           "entry_price": 0.0485,
           "whale_direction": "Liudmila Samsonova",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Liudmila Samsonova",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 24623.42,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xa7ac1c8effa5ee3fb9f327505f40b408065a7ce9970d2dd25dadd14880fa2c22:0",
@@ -10703,11 +10703,11 @@
           "tier": "Strong",
           "entry_price": 0.0485,
           "whale_direction": "Fabian Marozsan",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Matteo Arnaldi",
+          "resolved_date": "2026-08-12",
           "end_date": "2026-08-12",
           "total_value_usd": 16284.91,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x6dd26ff4cf53e7799bc5474b800403fee98b1776967ec69e9dea535d3b8dec5a:0",
@@ -10717,10 +10717,150 @@
           "tier": "Strong",
           "entry_price": 0.0485,
           "whale_direction": "Karen Khachanov",
+          "resolved_outcome": "Terence Atmane",
+          "resolved_date": "2026-08-13",
+          "end_date": "2026-08-13",
+          "total_value_usd": 8314.21,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xea15cab9ea12ef28d076215969375a7be059f78c948a34bb5ea38d4ff2d2cb7c:1",
+          "condition_id": "0xea15cab9ea12ef28d076215969375a7be059f78c948a34bb5ea38d4ff2d2cb7c",
+          "title": "New York Mets vs. Cleveland Guardians",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Cleveland Guardians",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-12",
+          "total_value_usd": 126979.38,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xea15cab9ea12ef28d076215969375a7be059f78c948a34bb5ea38d4ff2d2cb7c:0",
+          "condition_id": "0xea15cab9ea12ef28d076215969375a7be059f78c948a34bb5ea38d4ff2d2cb7c",
+          "title": "New York Mets vs. Cleveland Guardians",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "New York Mets",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-12",
+          "total_value_usd": 18336.78,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xfa7715db801d85d5f0909d56c4cf912b3412d5b4f043880f042293a3f29e3b3c:0",
+          "condition_id": "0xfa7715db801d85d5f0909d56c4cf912b3412d5b4f043880f042293a3f29e3b3c",
+          "title": "St. Louis Cardinals vs. New York Yankees",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "St. Louis Cardinals",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-12",
+          "total_value_usd": 57459.21,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x71cc5dd0766e0306f331cb61a56419ca1aa24e65c9a5b3abdd79172aa1123a9e:0",
+          "condition_id": "0x71cc5dd0766e0306f331cb61a56419ca1aa24e65c9a5b3abdd79172aa1123a9e",
+          "title": "Chicago White Sox vs. Boston Red Sox",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Chicago White Sox",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-12",
+          "total_value_usd": 58895.29,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x71cc5dd0766e0306f331cb61a56419ca1aa24e65c9a5b3abdd79172aa1123a9e:1",
+          "condition_id": "0x71cc5dd0766e0306f331cb61a56419ca1aa24e65c9a5b3abdd79172aa1123a9e",
+          "title": "Chicago White Sox vs. Boston Red Sox",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Boston Red Sox",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-12",
+          "total_value_usd": 224608.32,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xca8788f29aef5bf45042ae2567a20e4fef6494bac01ffdad9934a727b5784edc:0",
+          "condition_id": "0xca8788f29aef5bf45042ae2567a20e4fef6494bac01ffdad9934a727b5784edc",
+          "title": "Minnesota Twins vs. Kansas City Royals",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Minnesota Twins",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-12",
+          "total_value_usd": 32323.65,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x86755ef4c8f24b883184b975ceb1864990017617b8dff17df02784c3f9a3bbaa:1",
+          "condition_id": "0x86755ef4c8f24b883184b975ceb1864990017617b8dff17df02784c3f9a3bbaa",
+          "title": "National Bank Open: Daniil Medvedev vs Botic van de Zandschulp",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Botic van de Zandschulp",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-08-13",
-          "total_value_usd": 8314.21,
+          "total_value_usd": 121545.14,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x31adeb60257394cd5b4656841e37063fa5f0dba7796097490351b834cc0407a8:1",
+          "condition_id": "0x31adeb60257394cd5b4656841e37063fa5f0dba7796097490351b834cc0407a8",
+          "title": "Athletics vs. Cincinnati Reds",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Cincinnati Reds",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-12",
+          "total_value_usd": 62434.17,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xbfcc706d9df7300bd35978d097946616d6656eabd14c2280220f2f6d664d0dfb:1",
+          "condition_id": "0xbfcc706d9df7300bd35978d097946616d6656eabd14c2280220f2f6d664d0dfb",
+          "title": "National Bank Open: Sorana Cirstea vs Maya Joint",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Maya Joint",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-13",
+          "total_value_usd": 37343.72,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xbfcc706d9df7300bd35978d097946616d6656eabd14c2280220f2f6d664d0dfb:0",
+          "condition_id": "0xbfcc706d9df7300bd35978d097946616d6656eabd14c2280220f2f6d664d0dfb",
+          "title": "National Bank Open: Sorana Cirstea vs Maya Joint",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Sorana Cirstea",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-13",
+          "total_value_usd": 16735.42,
           "result": "pending"
         }
       ]
@@ -10729,11 +10869,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 95,
-      "correct": 50,
-      "wrong": 25,
-      "pending": 20,
-      "win_rate": 66.7,
+      "signals_evaluated": 105,
+      "correct": 55,
+      "wrong": 29,
+      "pending": 21,
+      "win_rate": 65.5,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -11905,11 +12045,11 @@
           "tier": "Strong",
           "entry_price": 0.048,
           "whale_direction": "Elise Mertens",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elise Mertens",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 28654.69,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xa7ac1c8effa5ee3fb9f327505f40b408065a7ce9970d2dd25dadd14880fa2c22:1",
@@ -11919,11 +12059,11 @@
           "tier": "Strong",
           "entry_price": 0.048,
           "whale_direction": "Matteo Arnaldi",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Matteo Arnaldi",
+          "resolved_date": "2026-08-12",
           "end_date": "2026-08-12",
           "total_value_usd": 21393.99,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xcd889a0463f374ff80b78b21cc3b7df5deb765adb1da4d408230fdb77a527ffa:1",
@@ -11947,11 +12087,11 @@
           "tier": "Strong",
           "entry_price": 0.048,
           "whale_direction": "Anna Bondar",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elise Mertens",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 22770.08,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xd6fab46b14f7befc694a48fd07066e41bc348f60365a80c1c30773ccca4721d7:1",
@@ -11961,11 +12101,11 @@
           "tier": "Moderate",
           "entry_price": 0.048,
           "whale_direction": "Jakub Mensik",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jakub Mensik",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 32902.33,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x31adeb60257394cd5b4656841e37063fa5f0dba7796097490351b834cc0407a8:0",
@@ -12003,11 +12143,11 @@
           "tier": "Strong",
           "entry_price": 0.0485,
           "whale_direction": "Terence Atmane",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Terence Atmane",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 81308.32,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xd6fab46b14f7befc694a48fd07066e41bc348f60365a80c1c30773ccca4721d7:0",
@@ -12017,11 +12157,11 @@
           "tier": "Strong",
           "entry_price": 0.0485,
           "whale_direction": "Jacob Fearnley",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jakub Mensik",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 30986.15,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x371c0a08002f3062f31ab87f0b8412d735ef9d9a49e3fd000b9f41c8b694224b:0",
@@ -12031,11 +12171,11 @@
           "tier": "Strong",
           "entry_price": 0.0485,
           "whale_direction": "Liudmila Samsonova",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Liudmila Samsonova",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 24623.42,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xa7ac1c8effa5ee3fb9f327505f40b408065a7ce9970d2dd25dadd14880fa2c22:0",
@@ -12045,11 +12185,11 @@
           "tier": "Strong",
           "entry_price": 0.0485,
           "whale_direction": "Fabian Marozsan",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Matteo Arnaldi",
+          "resolved_date": "2026-08-12",
           "end_date": "2026-08-12",
           "total_value_usd": 16284.91,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x6dd26ff4cf53e7799bc5474b800403fee98b1776967ec69e9dea535d3b8dec5a:0",
@@ -12059,10 +12199,150 @@
           "tier": "Strong",
           "entry_price": 0.0485,
           "whale_direction": "Karen Khachanov",
+          "resolved_outcome": "Terence Atmane",
+          "resolved_date": "2026-08-13",
+          "end_date": "2026-08-13",
+          "total_value_usd": 8314.21,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xea15cab9ea12ef28d076215969375a7be059f78c948a34bb5ea38d4ff2d2cb7c:1",
+          "condition_id": "0xea15cab9ea12ef28d076215969375a7be059f78c948a34bb5ea38d4ff2d2cb7c",
+          "title": "New York Mets vs. Cleveland Guardians",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Cleveland Guardians",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-12",
+          "total_value_usd": 126979.38,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xea15cab9ea12ef28d076215969375a7be059f78c948a34bb5ea38d4ff2d2cb7c:0",
+          "condition_id": "0xea15cab9ea12ef28d076215969375a7be059f78c948a34bb5ea38d4ff2d2cb7c",
+          "title": "New York Mets vs. Cleveland Guardians",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "New York Mets",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-12",
+          "total_value_usd": 18336.78,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xfa7715db801d85d5f0909d56c4cf912b3412d5b4f043880f042293a3f29e3b3c:0",
+          "condition_id": "0xfa7715db801d85d5f0909d56c4cf912b3412d5b4f043880f042293a3f29e3b3c",
+          "title": "St. Louis Cardinals vs. New York Yankees",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "St. Louis Cardinals",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-12",
+          "total_value_usd": 57459.21,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x71cc5dd0766e0306f331cb61a56419ca1aa24e65c9a5b3abdd79172aa1123a9e:0",
+          "condition_id": "0x71cc5dd0766e0306f331cb61a56419ca1aa24e65c9a5b3abdd79172aa1123a9e",
+          "title": "Chicago White Sox vs. Boston Red Sox",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Chicago White Sox",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-12",
+          "total_value_usd": 58895.29,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x71cc5dd0766e0306f331cb61a56419ca1aa24e65c9a5b3abdd79172aa1123a9e:1",
+          "condition_id": "0x71cc5dd0766e0306f331cb61a56419ca1aa24e65c9a5b3abdd79172aa1123a9e",
+          "title": "Chicago White Sox vs. Boston Red Sox",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Boston Red Sox",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-12",
+          "total_value_usd": 224608.32,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xca8788f29aef5bf45042ae2567a20e4fef6494bac01ffdad9934a727b5784edc:0",
+          "condition_id": "0xca8788f29aef5bf45042ae2567a20e4fef6494bac01ffdad9934a727b5784edc",
+          "title": "Minnesota Twins vs. Kansas City Royals",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Minnesota Twins",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-12",
+          "total_value_usd": 32323.65,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x86755ef4c8f24b883184b975ceb1864990017617b8dff17df02784c3f9a3bbaa:1",
+          "condition_id": "0x86755ef4c8f24b883184b975ceb1864990017617b8dff17df02784c3f9a3bbaa",
+          "title": "National Bank Open: Daniil Medvedev vs Botic van de Zandschulp",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Botic van de Zandschulp",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-08-13",
-          "total_value_usd": 8314.21,
+          "total_value_usd": 121545.14,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x31adeb60257394cd5b4656841e37063fa5f0dba7796097490351b834cc0407a8:1",
+          "condition_id": "0x31adeb60257394cd5b4656841e37063fa5f0dba7796097490351b834cc0407a8",
+          "title": "Athletics vs. Cincinnati Reds",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Cincinnati Reds",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-12",
+          "total_value_usd": 62434.17,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xbfcc706d9df7300bd35978d097946616d6656eabd14c2280220f2f6d664d0dfb:1",
+          "condition_id": "0xbfcc706d9df7300bd35978d097946616d6656eabd14c2280220f2f6d664d0dfb",
+          "title": "National Bank Open: Sorana Cirstea vs Maya Joint",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Maya Joint",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-13",
+          "total_value_usd": 37343.72,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xbfcc706d9df7300bd35978d097946616d6656eabd14c2280220f2f6d664d0dfb:0",
+          "condition_id": "0xbfcc706d9df7300bd35978d097946616d6656eabd14c2280220f2f6d664d0dfb",
+          "title": "National Bank Open: Sorana Cirstea vs Maya Joint",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Sorana Cirstea",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-13",
+          "total_value_usd": 16735.42,
           "result": "pending"
         }
       ]
@@ -12071,11 +12351,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 95,
-      "correct": 25,
-      "wrong": 50,
-      "pending": 20,
-      "win_rate": 33.3,
+      "signals_evaluated": 105,
+      "correct": 29,
+      "wrong": 55,
+      "pending": 21,
+      "win_rate": 34.5,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -13247,11 +13527,11 @@
           "tier": "Strong",
           "entry_price": 0.048,
           "whale_direction": "Elise Mertens",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elise Mertens",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 28654.69,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xa7ac1c8effa5ee3fb9f327505f40b408065a7ce9970d2dd25dadd14880fa2c22:1",
@@ -13261,11 +13541,11 @@
           "tier": "Strong",
           "entry_price": 0.048,
           "whale_direction": "Matteo Arnaldi",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Matteo Arnaldi",
+          "resolved_date": "2026-08-12",
           "end_date": "2026-08-12",
           "total_value_usd": 21393.99,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xcd889a0463f374ff80b78b21cc3b7df5deb765adb1da4d408230fdb77a527ffa:1",
@@ -13289,11 +13569,11 @@
           "tier": "Strong",
           "entry_price": 0.048,
           "whale_direction": "Anna Bondar",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elise Mertens",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 22770.08,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xd6fab46b14f7befc694a48fd07066e41bc348f60365a80c1c30773ccca4721d7:1",
@@ -13303,11 +13583,11 @@
           "tier": "Moderate",
           "entry_price": 0.048,
           "whale_direction": "Jakub Mensik",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jakub Mensik",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 32902.33,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x31adeb60257394cd5b4656841e37063fa5f0dba7796097490351b834cc0407a8:0",
@@ -13345,11 +13625,11 @@
           "tier": "Strong",
           "entry_price": 0.0485,
           "whale_direction": "Terence Atmane",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Terence Atmane",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 81308.32,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xd6fab46b14f7befc694a48fd07066e41bc348f60365a80c1c30773ccca4721d7:0",
@@ -13359,11 +13639,11 @@
           "tier": "Strong",
           "entry_price": 0.0485,
           "whale_direction": "Jacob Fearnley",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jakub Mensik",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 30986.15,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x371c0a08002f3062f31ab87f0b8412d735ef9d9a49e3fd000b9f41c8b694224b:0",
@@ -13373,11 +13653,11 @@
           "tier": "Strong",
           "entry_price": 0.0485,
           "whale_direction": "Liudmila Samsonova",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Liudmila Samsonova",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 24623.42,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xa7ac1c8effa5ee3fb9f327505f40b408065a7ce9970d2dd25dadd14880fa2c22:0",
@@ -13387,11 +13667,11 @@
           "tier": "Strong",
           "entry_price": 0.0485,
           "whale_direction": "Fabian Marozsan",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Matteo Arnaldi",
+          "resolved_date": "2026-08-12",
           "end_date": "2026-08-12",
           "total_value_usd": 16284.91,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x6dd26ff4cf53e7799bc5474b800403fee98b1776967ec69e9dea535d3b8dec5a:0",
@@ -13401,10 +13681,150 @@
           "tier": "Strong",
           "entry_price": 0.0485,
           "whale_direction": "Karen Khachanov",
+          "resolved_outcome": "Terence Atmane",
+          "resolved_date": "2026-08-13",
+          "end_date": "2026-08-13",
+          "total_value_usd": 8314.21,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xea15cab9ea12ef28d076215969375a7be059f78c948a34bb5ea38d4ff2d2cb7c:1",
+          "condition_id": "0xea15cab9ea12ef28d076215969375a7be059f78c948a34bb5ea38d4ff2d2cb7c",
+          "title": "New York Mets vs. Cleveland Guardians",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Cleveland Guardians",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-12",
+          "total_value_usd": 126979.38,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xea15cab9ea12ef28d076215969375a7be059f78c948a34bb5ea38d4ff2d2cb7c:0",
+          "condition_id": "0xea15cab9ea12ef28d076215969375a7be059f78c948a34bb5ea38d4ff2d2cb7c",
+          "title": "New York Mets vs. Cleveland Guardians",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "New York Mets",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-12",
+          "total_value_usd": 18336.78,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xfa7715db801d85d5f0909d56c4cf912b3412d5b4f043880f042293a3f29e3b3c:0",
+          "condition_id": "0xfa7715db801d85d5f0909d56c4cf912b3412d5b4f043880f042293a3f29e3b3c",
+          "title": "St. Louis Cardinals vs. New York Yankees",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "St. Louis Cardinals",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-12",
+          "total_value_usd": 57459.21,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x71cc5dd0766e0306f331cb61a56419ca1aa24e65c9a5b3abdd79172aa1123a9e:0",
+          "condition_id": "0x71cc5dd0766e0306f331cb61a56419ca1aa24e65c9a5b3abdd79172aa1123a9e",
+          "title": "Chicago White Sox vs. Boston Red Sox",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Chicago White Sox",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-12",
+          "total_value_usd": 58895.29,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x71cc5dd0766e0306f331cb61a56419ca1aa24e65c9a5b3abdd79172aa1123a9e:1",
+          "condition_id": "0x71cc5dd0766e0306f331cb61a56419ca1aa24e65c9a5b3abdd79172aa1123a9e",
+          "title": "Chicago White Sox vs. Boston Red Sox",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Boston Red Sox",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-12",
+          "total_value_usd": 224608.32,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xca8788f29aef5bf45042ae2567a20e4fef6494bac01ffdad9934a727b5784edc:0",
+          "condition_id": "0xca8788f29aef5bf45042ae2567a20e4fef6494bac01ffdad9934a727b5784edc",
+          "title": "Minnesota Twins vs. Kansas City Royals",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Minnesota Twins",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-12",
+          "total_value_usd": 32323.65,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x86755ef4c8f24b883184b975ceb1864990017617b8dff17df02784c3f9a3bbaa:1",
+          "condition_id": "0x86755ef4c8f24b883184b975ceb1864990017617b8dff17df02784c3f9a3bbaa",
+          "title": "National Bank Open: Daniil Medvedev vs Botic van de Zandschulp",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Botic van de Zandschulp",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-08-13",
-          "total_value_usd": 8314.21,
+          "total_value_usd": 121545.14,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x31adeb60257394cd5b4656841e37063fa5f0dba7796097490351b834cc0407a8:1",
+          "condition_id": "0x31adeb60257394cd5b4656841e37063fa5f0dba7796097490351b834cc0407a8",
+          "title": "Athletics vs. Cincinnati Reds",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Cincinnati Reds",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-12",
+          "total_value_usd": 62434.17,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xbfcc706d9df7300bd35978d097946616d6656eabd14c2280220f2f6d664d0dfb:1",
+          "condition_id": "0xbfcc706d9df7300bd35978d097946616d6656eabd14c2280220f2f6d664d0dfb",
+          "title": "National Bank Open: Sorana Cirstea vs Maya Joint",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Maya Joint",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-13",
+          "total_value_usd": 37343.72,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xbfcc706d9df7300bd35978d097946616d6656eabd14c2280220f2f6d664d0dfb:0",
+          "condition_id": "0xbfcc706d9df7300bd35978d097946616d6656eabd14c2280220f2f6d664d0dfb",
+          "title": "National Bank Open: Sorana Cirstea vs Maya Joint",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Sorana Cirstea",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-13",
+          "total_value_usd": 16735.42,
           "result": "pending"
         }
       ]
