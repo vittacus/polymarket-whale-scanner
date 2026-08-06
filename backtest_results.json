@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-06T01:09:32+00:00",
-  "total_signals": 775,
-  "total_resolved": 723,
-  "total_correct": 456,
-  "overall_hit_rate": 63.1,
+  "generated_at": "2026-08-06T04:35:06+00:00",
+  "total_signals": 776,
+  "total_resolved": 735,
+  "total_correct": 463,
+  "overall_hit_rate": 63.0,
   "by_tier": {
     "Strong": {
-      "total": 303,
-      "resolved": 284,
-      "correct": 190,
-      "hit_rate": 66.9
+      "total": 304,
+      "resolved": 296,
+      "correct": 197,
+      "hit_rate": 66.6
     },
     "Moderate": {
       "total": 425,
@@ -12923,10 +12923,10 @@
       "total_value_usd": 22412.79,
       "entry_price": 0.0485,
       "end_date": "2026-08-12",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Cincinnati Reds",
+      "resolved_date": "2026-08-12"
     },
     {
       "signal_key": "0x48cd516b8e121227e822eef65706ac231431ccb2695a61bf5528ec653af43f0b:1",
@@ -12940,10 +12940,10 @@
       "total_value_usd": 44115.47,
       "entry_price": 0.0485,
       "end_date": "2026-08-12",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Baltimore Orioles",
+      "resolved_date": "2026-08-12"
     },
     {
       "signal_key": "0x6dd26ff4cf53e7799bc5474b800403fee98b1776967ec69e9dea535d3b8dec5a:1",
@@ -13042,10 +13042,10 @@
       "total_value_usd": 126979.38,
       "entry_price": 0.0465,
       "end_date": "2026-08-12",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "New York Mets",
+      "resolved_date": "2026-08-12"
     },
     {
       "signal_key": "0xea15cab9ea12ef28d076215969375a7be059f78c948a34bb5ea38d4ff2d2cb7c:0",
@@ -13059,10 +13059,10 @@
       "total_value_usd": 18336.78,
       "entry_price": 0.0465,
       "end_date": "2026-08-12",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "New York Mets",
+      "resolved_date": "2026-08-12"
     },
     {
       "signal_key": "0xfa7715db801d85d5f0909d56c4cf912b3412d5b4f043880f042293a3f29e3b3c:0",
@@ -13076,10 +13076,10 @@
       "total_value_usd": 57459.21,
       "entry_price": 0.0465,
       "end_date": "2026-08-12",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "St. Louis Cardinals",
+      "resolved_date": "2026-08-12"
     },
     {
       "signal_key": "0x71cc5dd0766e0306f331cb61a56419ca1aa24e65c9a5b3abdd79172aa1123a9e:0",
@@ -13093,10 +13093,10 @@
       "total_value_usd": 58895.29,
       "entry_price": 0.0465,
       "end_date": "2026-08-12",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Boston Red Sox",
+      "resolved_date": "2026-08-12"
     },
     {
       "signal_key": "0x71cc5dd0766e0306f331cb61a56419ca1aa24e65c9a5b3abdd79172aa1123a9e:1",
@@ -13110,10 +13110,10 @@
       "total_value_usd": 224608.32,
       "entry_price": 0.0465,
       "end_date": "2026-08-12",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Boston Red Sox",
+      "resolved_date": "2026-08-12"
     },
     {
       "signal_key": "0xca8788f29aef5bf45042ae2567a20e4fef6494bac01ffdad9934a727b5784edc:0",
@@ -13127,10 +13127,10 @@
       "total_value_usd": 32323.65,
       "entry_price": 0.0465,
       "end_date": "2026-08-12",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Kansas City Royals",
+      "resolved_date": "2026-08-12"
     },
     {
       "signal_key": "0x86755ef4c8f24b883184b975ceb1864990017617b8dff17df02784c3f9a3bbaa:1",
@@ -13144,10 +13144,10 @@
       "total_value_usd": 121545.14,
       "entry_price": 0.0465,
       "end_date": "2026-08-13",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Botic van de Zandschulp",
+      "resolved_date": "2026-08-13"
     },
     {
       "signal_key": "0x31adeb60257394cd5b4656841e37063fa5f0dba7796097490351b834cc0407a8:1",
@@ -13161,10 +13161,10 @@
       "total_value_usd": 62434.17,
       "entry_price": 0.0465,
       "end_date": "2026-08-12",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Cincinnati Reds",
+      "resolved_date": "2026-08-12"
     },
     {
       "signal_key": "0xbfcc706d9df7300bd35978d097946616d6656eabd14c2280220f2f6d664d0dfb:1",
@@ -13178,10 +13178,10 @@
       "total_value_usd": 37343.72,
       "entry_price": 0.0465,
       "end_date": "2026-08-13",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Maya Joint",
+      "resolved_date": "2026-08-13"
     },
     {
       "signal_key": "0xbfcc706d9df7300bd35978d097946616d6656eabd14c2280220f2f6d664d0dfb:0",
@@ -13193,6 +13193,23 @@
       "tier": "Strong",
       "score": 14.8919,
       "total_value_usd": 16735.42,
+      "entry_price": 0.0465,
+      "end_date": "2026-08-13",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Maya Joint",
+      "resolved_date": "2026-08-13"
+    },
+    {
+      "signal_key": "0x76daa37c1941c4bd4c5906e3471f879f662bf5da5f40a29ee0bb33322b9a2dcc:1",
+      "condition_id": "0x76daa37c1941c4bd4c5906e3471f879f662bf5da5f40a29ee0bb33322b9a2dcc",
+      "title": "San Diego Padres vs. Arizona Diamondbacks",
+      "category": "MLB",
+      "whale_direction": "Arizona Diamondbacks",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 33.7233,
+      "total_value_usd": 459147.59,
       "entry_price": 0.0465,
       "end_date": "2026-08-13",
       "resolved": false,
