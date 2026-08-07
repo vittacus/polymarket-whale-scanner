@@ -223996,5 +223996,180 @@
         "entry_price": 0.0445
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-07T22:28:31+00:00",
+    "whale_timeframes": {
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6d20c35f65d9899b6d6b74f8466e824580f9a165": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc44f432b014f36679e13615f95996eac32bbd49f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x511f9c771449162349795d17becf8b37031acbe1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd202bf6d89dc6bab1b9f00ead175f75466348973": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x38337de21ff0bb0a11a40761507d51e318d633d1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfbe66593e49c4e7a7180a2582f041158bfb800f8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8bfee7aeca33003fe9d7398d5143dc7866542d74": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb859a551fcf56e49416160911476bea7307152f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x084425dedaa0a4d92164adb33b294005518df46a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x1715e86843c1ffa52ca6cd7b6ece478f72e4be53c1a57ca8007410dcaa78001b:0",
+        "condition_id": "0x1715e86843c1ffa52ca6cd7b6ece478f72e4be53c1a57ca8007410dcaa78001b",
+        "title": "National Bank Open: Botic van de Zandschulp vs Hubert Hurkacz",
+        "outcome": "Botic van de Zandschulp",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0xdb859a551fcf56e49416160911476bea7307152f"
+        ],
+        "ranks": [
+          2,
+          4,
+          12,
+          19
+        ],
+        "total_value_usd": 253465.73,
+        "score": 19.2921,
+        "category": "Tennis",
+        "end_date": "2026-08-14",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0xb7f95aa48c9821781872b1e2a7b8b321ae33927001b04923afd53b090df195e2:1",
+        "condition_id": "0xb7f95aa48c9821781872b1e2a7b8b321ae33927001b04923afd53b090df195e2",
+        "title": "National Bank Open: Maya Joint vs Liudmila Samsonova",
+        "outcome": "Liudmila Samsonova",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0xdb859a551fcf56e49416160911476bea7307152f"
+        ],
+        "ranks": [
+          4,
+          12,
+          19
+        ],
+        "total_value_usd": 171785.01,
+        "score": 8.1417,
+        "category": "Tennis",
+        "end_date": "2026-08-15",
+        "entry_price": 0.0435
+      }
+    ]
   }
 ]
