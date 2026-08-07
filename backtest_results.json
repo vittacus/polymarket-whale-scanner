@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-07T17:48:59+00:00",
-  "total_signals": 786,
+  "generated_at": "2026-08-07T18:36:50+00:00",
+  "total_signals": 787,
   "total_resolved": 739,
   "total_correct": 466,
   "overall_hit_rate": 63.1,
@@ -12,7 +12,7 @@
       "hit_rate": 66.6
     },
     "Moderate": {
-      "total": 429,
+      "total": 430,
       "resolved": 395,
       "correct": 245,
       "hit_rate": 62.0
@@ -13380,6 +13380,23 @@
       "tier": "Moderate",
       "score": 6.9575,
       "total_value_usd": 29928.77,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-14",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x19837aa660d59b55570415087706d88e381cccac29ad18dba3477441ed19b6a3:0",
+      "condition_id": "0x19837aa660d59b55570415087706d88e381cccac29ad18dba3477441ed19b6a3",
+      "title": "National Bank Open: Daniel Merida Aguilar vs Alex Michelsen",
+      "category": "Tennis",
+      "whale_direction": "Daniel Merida Aguilar",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 7.2617,
+      "total_value_usd": 44005.66,
       "entry_price": 0.0445,
       "end_date": "2026-08-14",
       "resolved": false,

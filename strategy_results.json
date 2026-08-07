@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-07T17:48:59+00:00",
-  "total_evaluated": 786,
-  "total_pending": 47,
+  "generated_at": "2026-08-07T18:36:50+00:00",
+  "total_evaluated": 787,
+  "total_pending": 48,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 786,
+      "signals_evaluated": 787,
       "correct": 466,
       "wrong": 273,
-      "pending": 47,
+      "pending": 48,
       "win_rate": 63.1,
       "signals": [
         {
@@ -11016,6 +11016,20 @@
           "end_date": "2026-08-14",
           "total_value_usd": 29928.77,
           "result": "pending"
+        },
+        {
+          "signal_key": "0x19837aa660d59b55570415087706d88e381cccac29ad18dba3477441ed19b6a3:0",
+          "condition_id": "0x19837aa660d59b55570415087706d88e381cccac29ad18dba3477441ed19b6a3",
+          "title": "National Bank Open: Daniel Merida Aguilar vs Alex Michelsen",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Daniel Merida Aguilar",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-14",
+          "total_value_usd": 44005.66,
+          "result": "pending"
         }
       ]
     },
@@ -11023,10 +11037,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 116,
+      "signals_evaluated": 117,
       "correct": 65,
       "wrong": 35,
-      "pending": 16,
+      "pending": 17,
       "win_rate": 65.0,
       "signals": [
         {
@@ -12652,6 +12666,20 @@
           "end_date": "2026-08-14",
           "total_value_usd": 29928.77,
           "result": "pending"
+        },
+        {
+          "signal_key": "0x19837aa660d59b55570415087706d88e381cccac29ad18dba3477441ed19b6a3:0",
+          "condition_id": "0x19837aa660d59b55570415087706d88e381cccac29ad18dba3477441ed19b6a3",
+          "title": "National Bank Open: Daniel Merida Aguilar vs Alex Michelsen",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Daniel Merida Aguilar",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-14",
+          "total_value_usd": 44005.66,
+          "result": "pending"
         }
       ]
     },
@@ -12659,10 +12687,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 116,
+      "signals_evaluated": 117,
       "correct": 35,
       "wrong": 65,
-      "pending": 16,
+      "pending": 17,
       "win_rate": 35.0,
       "signals": [
         {
@@ -14287,6 +14315,20 @@
           "resolved_date": null,
           "end_date": "2026-08-14",
           "total_value_usd": 29928.77,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x19837aa660d59b55570415087706d88e381cccac29ad18dba3477441ed19b6a3:0",
+          "condition_id": "0x19837aa660d59b55570415087706d88e381cccac29ad18dba3477441ed19b6a3",
+          "title": "National Bank Open: Daniel Merida Aguilar vs Alex Michelsen",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Daniel Merida Aguilar",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-14",
+          "total_value_usd": 44005.66,
           "result": "pending"
         }
       ]
