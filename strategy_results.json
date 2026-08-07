@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-07T03:22:31+00:00",
+  "generated_at": "2026-08-07T05:17:00+00:00",
   "total_evaluated": 782,
-  "total_pending": 46,
+  "total_pending": 44,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 782,
-      "correct": 464,
-      "wrong": 272,
-      "pending": 46,
+      "correct": 465,
+      "wrong": 273,
+      "pending": 44,
       "win_rate": 63.0,
       "signals": [
         {
@@ -10941,11 +10941,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Boston Red Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Boston Red Sox",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 111184.08,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xa5144d487f22937f5bc46c655ab3cf1063edebefef327fa08ffeed421e60688f:0",
@@ -10955,11 +10955,11 @@
           "tier": "Strong",
           "entry_price": 0.0435,
           "whale_direction": "Chicago White Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Boston Red Sox",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 111295.38,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
@@ -10968,10 +10968,10 @@
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 112,
-      "correct": 63,
-      "wrong": 34,
-      "pending": 15,
-      "win_rate": 64.9,
+      "correct": 64,
+      "wrong": 35,
+      "pending": 13,
+      "win_rate": 64.6,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -12521,11 +12521,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Boston Red Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Boston Red Sox",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 111184.08,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xa5144d487f22937f5bc46c655ab3cf1063edebefef327fa08ffeed421e60688f:0",
@@ -12535,11 +12535,11 @@
           "tier": "Strong",
           "entry_price": 0.0435,
           "whale_direction": "Chicago White Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Boston Red Sox",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 111295.38,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
@@ -12548,10 +12548,10 @@
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 112,
-      "correct": 34,
-      "wrong": 63,
-      "pending": 15,
-      "win_rate": 35.1,
+      "correct": 35,
+      "wrong": 64,
+      "pending": 13,
+      "win_rate": 35.4,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -14101,11 +14101,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Boston Red Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Boston Red Sox",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 111184.08,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xa5144d487f22937f5bc46c655ab3cf1063edebefef327fa08ffeed421e60688f:0",
@@ -14115,11 +14115,11 @@
           "tier": "Strong",
           "entry_price": 0.0435,
           "whale_direction": "Chicago White Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Boston Red Sox",
+          "resolved_date": "2026-08-13",
           "end_date": "2026-08-13",
           "total_value_usd": 111295.38,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },

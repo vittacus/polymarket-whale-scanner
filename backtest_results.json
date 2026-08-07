@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-07T03:22:31+00:00",
+  "generated_at": "2026-08-07T05:17:00+00:00",
   "total_signals": 782,
-  "total_resolved": 736,
-  "total_correct": 464,
+  "total_resolved": 738,
+  "total_correct": 465,
   "overall_hit_rate": 63.0,
   "by_tier": {
     "Strong": {
       "total": 310,
-      "resolved": 297,
-      "correct": 198,
-      "hit_rate": 66.7
+      "resolved": 299,
+      "correct": 199,
+      "hit_rate": 66.6
     },
     "Moderate": {
       "total": 425,
@@ -13297,10 +13297,10 @@
       "total_value_usd": 111184.08,
       "entry_price": 0.0445,
       "end_date": "2026-08-13",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Boston Red Sox",
+      "resolved_date": "2026-08-13"
     },
     {
       "signal_key": "0xa5144d487f22937f5bc46c655ab3cf1063edebefef327fa08ffeed421e60688f:0",
@@ -13314,10 +13314,10 @@
       "total_value_usd": 111295.38,
       "entry_price": 0.0435,
       "end_date": "2026-08-13",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Boston Red Sox",
+      "resolved_date": "2026-08-13"
     }
   ]
 }
