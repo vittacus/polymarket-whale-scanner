@@ -224321,5 +224321,253 @@
         "entry_price": 0.0435
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-07T23:46:43+00:00",
+    "whale_timeframes": {
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6d20c35f65d9899b6d6b74f8466e824580f9a165": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc44f432b014f36679e13615f95996eac32bbd49f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb859a551fcf56e49416160911476bea7307152f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x511f9c771449162349795d17becf8b37031acbe1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5dd9da6e5e2dda83a10864628c2dc714d642420f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd202bf6d89dc6bab1b9f00ead175f75466348973": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x38337de21ff0bb0a11a40761507d51e318d633d1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfbe66593e49c4e7a7180a2582f041158bfb800f8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8bfee7aeca33003fe9d7398d5143dc7866542d74": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x084425dedaa0a4d92164adb33b294005518df46a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc3acf5878a03523d09a3ac859943445d7baeb964": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x977c0519cc902a6bf7a8a6015ab745581615790f3f19b6f98b88c38054790d68:0",
+        "condition_id": "0x977c0519cc902a6bf7a8a6015ab745581615790f3f19b6f98b88c38054790d68",
+        "title": "Athletics vs. Boston Red Sox",
+        "outcome": "Athletics",
+        "outcome_index": 0,
+        "whale_count": 5,
+        "wallets": [
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xdb859a551fcf56e49416160911476bea7307152f",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
+        ],
+        "ranks": [
+          1,
+          2,
+          4,
+          9,
+          11
+        ],
+        "total_value_usd": 13182.94,
+        "score": 32.4071,
+        "category": "MLB",
+        "end_date": "2026-08-14",
+        "entry_price": 0.0435
+      },
+      {
+        "signal_key": "0x71fa2b9df79ae3aed7721dfde68b16673f191b93cfcc24909ccd237fbe1a334c:0",
+        "condition_id": "0x71fa2b9df79ae3aed7721dfde68b16673f191b93cfcc24909ccd237fbe1a334c",
+        "title": "New York Mets vs. Pittsburgh Pirates",
+        "outcome": "New York Mets",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
+        ],
+        "ranks": [
+          2,
+          4,
+          11
+        ],
+        "total_value_usd": 40811.12,
+        "score": 15.6235,
+        "category": "MLB",
+        "end_date": "2026-08-14",
+        "entry_price": 0.0435
+      },
+      {
+        "signal_key": "0x977c0519cc902a6bf7a8a6015ab745581615790f3f19b6f98b88c38054790d68:1",
+        "condition_id": "0x977c0519cc902a6bf7a8a6015ab745581615790f3f19b6f98b88c38054790d68",
+        "title": "Athletics vs. Boston Red Sox",
+        "outcome": "Boston Red Sox",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+        ],
+        "ranks": [
+          3,
+          4,
+          11,
+          13
+        ],
+        "total_value_usd": 40012.68,
+        "score": 13.9301,
+        "category": "MLB",
+        "end_date": "2026-08-14",
+        "entry_price": 0.0435
+      },
+      {
+        "signal_key": "0x3d97a6235af5d7d81d3c39c13bdbb2add007270d666178dcc7b0c5375ac140ee:1",
+        "condition_id": "0x3d97a6235af5d7d81d3c39c13bdbb2add007270d666178dcc7b0c5375ac140ee",
+        "title": "National Bank Open: Casper Ruud vs Joao Fonseca",
+        "outcome": "Joao Fonseca",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x6d20c35f65d9899b6d6b74f8466e824580f9a165",
+          "0xdb859a551fcf56e49416160911476bea7307152f"
+        ],
+        "ranks": [
+          4,
+          5,
+          9
+        ],
+        "total_value_usd": 39618.41,
+        "score": 10.3959,
+        "category": "Tennis",
+        "end_date": "2026-08-14",
+        "entry_price": 0.0435
+      },
+      {
+        "signal_key": "0xf2c66502ca6f000b78a70e3ae8aa90c60adb0a55460ee9e460a1d0d48cdf88aa:1",
+        "condition_id": "0xf2c66502ca6f000b78a70e3ae8aa90c60adb0a55460ee9e460a1d0d48cdf88aa",
+        "title": "National Bank Open: Terence Atmane vs Jakub Mensik",
+        "outcome": "Jakub Mensik",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xdb859a551fcf56e49416160911476bea7307152f",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+        ],
+        "ranks": [
+          4,
+          9,
+          13
+        ],
+        "total_value_usd": 35692.82,
+        "score": 8.0356,
+        "category": "Tennis",
+        "end_date": "2026-08-14",
+        "entry_price": 0.0435
+      }
+    ]
   }
 ]
