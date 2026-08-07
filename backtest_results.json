@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-07T22:35:16+00:00",
-  "total_signals": 791,
-  "total_resolved": 746,
-  "total_correct": 470,
-  "overall_hit_rate": 63.0,
+  "generated_at": "2026-08-07T23:13:05+00:00",
+  "total_signals": 792,
+  "total_resolved": 747,
+  "total_correct": 471,
+  "overall_hit_rate": 63.1,
   "by_tier": {
     "Strong": {
-      "total": 312,
+      "total": 313,
       "resolved": 301,
       "correct": 201,
       "hit_rate": 66.8
     },
     "Moderate": {
       "total": 432,
-      "resolved": 400,
-      "correct": 247,
+      "resolved": 401,
+      "correct": 248,
       "hit_rate": 61.8
     },
     "Weak": {
@@ -13467,6 +13467,23 @@
       "total_value_usd": 171785.01,
       "entry_price": 0.0435,
       "end_date": "2026-08-15",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Liudmila Samsonova",
+      "resolved_date": "2026-08-15"
+    },
+    {
+      "signal_key": "0x71fa2b9df79ae3aed7721dfde68b16673f191b93cfcc24909ccd237fbe1a334c:0",
+      "condition_id": "0x71fa2b9df79ae3aed7721dfde68b16673f191b93cfcc24909ccd237fbe1a334c",
+      "title": "New York Mets vs. Pittsburgh Pirates",
+      "category": "MLB",
+      "whale_direction": "New York Mets",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 15.4934,
+      "total_value_usd": 37357.24,
+      "entry_price": 0.0435,
+      "end_date": "2026-08-14",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
