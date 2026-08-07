@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-07T16:59:44+00:00",
-  "total_signals": 783,
-  "total_resolved": 738,
-  "total_correct": 465,
-  "overall_hit_rate": 63.0,
+  "generated_at": "2026-08-07T17:48:59+00:00",
+  "total_signals": 786,
+  "total_resolved": 739,
+  "total_correct": 466,
+  "overall_hit_rate": 63.1,
   "by_tier": {
     "Strong": {
       "total": 310,
@@ -12,10 +12,10 @@
       "hit_rate": 66.6
     },
     "Moderate": {
-      "total": 426,
-      "resolved": 394,
-      "correct": 244,
-      "hit_rate": 61.9
+      "total": 429,
+      "resolved": 395,
+      "correct": 245,
+      "hit_rate": 62.0
     },
     "Weak": {
       "total": 47,
@@ -13331,6 +13331,57 @@
       "total_value_usd": 158101.47,
       "entry_price": 0.0445,
       "end_date": "2026-08-15",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Alina Korneeva",
+      "resolved_date": "2026-08-15"
+    },
+    {
+      "signal_key": "0xc8c2d49665ab4bac36e685d801e733341b7e28cd2a17463864f218f0405c2b29:1",
+      "condition_id": "0xc8c2d49665ab4bac36e685d801e733341b7e28cd2a17463864f218f0405c2b29",
+      "title": "National Bank Open: Tallon Griekspoor vs Matteo Arnaldi",
+      "category": "Tennis",
+      "whale_direction": "Matteo Arnaldi",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 9.4376,
+      "total_value_usd": 98397.16,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-14",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xc8c2d49665ab4bac36e685d801e733341b7e28cd2a17463864f218f0405c2b29:0",
+      "condition_id": "0xc8c2d49665ab4bac36e685d801e733341b7e28cd2a17463864f218f0405c2b29",
+      "title": "National Bank Open: Tallon Griekspoor vs Matteo Arnaldi",
+      "category": "Tennis",
+      "whale_direction": "Tallon Griekspoor",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 6.9827,
+      "total_value_usd": 31063.55,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-14",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x19837aa660d59b55570415087706d88e381cccac29ad18dba3477441ed19b6a3:1",
+      "condition_id": "0x19837aa660d59b55570415087706d88e381cccac29ad18dba3477441ed19b6a3",
+      "title": "National Bank Open: Daniel Merida Aguilar vs Alex Michelsen",
+      "category": "Tennis",
+      "whale_direction": "Alex Michelsen",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 6.9575,
+      "total_value_usd": 29928.77,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-14",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
