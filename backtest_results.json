@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-08T22:00:47+00:00",
+  "generated_at": "2026-08-08T22:28:59+00:00",
   "total_signals": 811,
-  "total_resolved": 763,
+  "total_resolved": 764,
   "total_correct": 483,
-  "overall_hit_rate": 63.3,
+  "overall_hit_rate": 63.2,
   "by_tier": {
     "Strong": {
       "total": 321,
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 442,
-      "resolved": 407,
+      "resolved": 408,
       "correct": 253,
-      "hit_rate": 62.2
+      "hit_rate": 62.0
     },
     "Weak": {
       "total": 48,
@@ -13756,10 +13756,10 @@
       "total_value_usd": 10472.2,
       "entry_price": 0.0455,
       "end_date": "2026-08-15",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "New York Yankees",
+      "resolved_date": "2026-08-15"
     },
     {
       "signal_key": "0x1c061ccb2863b66b5c83dea496aa062690903813ae604b9a94a89fbd5b4df2fb:1",

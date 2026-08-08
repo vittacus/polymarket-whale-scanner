@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-08T22:00:47+00:00",
+  "generated_at": "2026-08-08T22:28:59+00:00",
   "total_evaluated": 811,
-  "total_pending": 48,
+  "total_pending": 47,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
@@ -9,9 +9,9 @@
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 811,
       "correct": 483,
-      "wrong": 280,
-      "pending": 48,
-      "win_rate": 63.3,
+      "wrong": 281,
+      "pending": 47,
+      "win_rate": 63.2,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -11319,11 +11319,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Atlanta Braves",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-08-15",
           "end_date": "2026-08-15",
           "total_value_usd": 10472.2,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x1c061ccb2863b66b5c83dea496aa062690903813ae604b9a94a89fbd5b4df2fb:1",
@@ -11375,9 +11375,9 @@
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 141,
       "correct": 82,
-      "wrong": 42,
-      "pending": 17,
-      "win_rate": 66.1,
+      "wrong": 43,
+      "pending": 16,
+      "win_rate": 65.6,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -13305,11 +13305,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Atlanta Braves",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-08-15",
           "end_date": "2026-08-15",
           "total_value_usd": 10472.2,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x1c061ccb2863b66b5c83dea496aa062690903813ae604b9a94a89fbd5b4df2fb:1",
@@ -13360,10 +13360,10 @@
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 141,
-      "correct": 42,
+      "correct": 43,
       "wrong": 82,
-      "pending": 17,
-      "win_rate": 33.9,
+      "pending": 16,
+      "win_rate": 34.4,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -15291,11 +15291,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Atlanta Braves",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-08-15",
           "end_date": "2026-08-15",
           "total_value_usd": 10472.2,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x1c061ccb2863b66b5c83dea496aa062690903813ae604b9a94a89fbd5b4df2fb:1",
