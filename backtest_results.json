@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-08T01:15:55+00:00",
+  "generated_at": "2026-08-08T03:05:57+00:00",
   "total_signals": 797,
-  "total_resolved": 748,
-  "total_correct": 472,
-  "overall_hit_rate": 63.1,
+  "total_resolved": 752,
+  "total_correct": 475,
+  "overall_hit_rate": 63.2,
   "by_tier": {
     "Strong": {
       "total": 316,
-      "resolved": 301,
-      "correct": 201,
-      "hit_rate": 66.8
+      "resolved": 305,
+      "correct": 204,
+      "hit_rate": 66.9
     },
     "Moderate": {
       "total": 434,
@@ -13484,10 +13484,10 @@
       "total_value_usd": 37357.24,
       "entry_price": 0.0435,
       "end_date": "2026-08-14",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "New York Mets",
+      "resolved_date": "2026-08-14"
     },
     {
       "signal_key": "0x977c0519cc902a6bf7a8a6015ab745581615790f3f19b6f98b88c38054790d68:0",
@@ -13501,10 +13501,10 @@
       "total_value_usd": 13182.94,
       "entry_price": 0.0435,
       "end_date": "2026-08-14",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Boston Red Sox",
+      "resolved_date": "2026-08-14"
     },
     {
       "signal_key": "0x977c0519cc902a6bf7a8a6015ab745581615790f3f19b6f98b88c38054790d68:1",
@@ -13518,10 +13518,10 @@
       "total_value_usd": 40012.68,
       "entry_price": 0.0435,
       "end_date": "2026-08-14",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Boston Red Sox",
+      "resolved_date": "2026-08-14"
     },
     {
       "signal_key": "0x3d97a6235af5d7d81d3c39c13bdbb2add007270d666178dcc7b0c5375ac140ee:1",
@@ -13535,10 +13535,10 @@
       "total_value_usd": 39618.41,
       "entry_price": 0.0435,
       "end_date": "2026-08-14",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Joao Fonseca",
+      "resolved_date": "2026-08-14"
     },
     {
       "signal_key": "0xf2c66502ca6f000b78a70e3ae8aa90c60adb0a55460ee9e460a1d0d48cdf88aa:1",
