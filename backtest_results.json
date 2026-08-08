@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-08T19:03:58+00:00",
-  "total_signals": 805,
-  "total_resolved": 759,
-  "total_correct": 480,
-  "overall_hit_rate": 63.2,
+  "generated_at": "2026-08-08T19:36:55+00:00",
+  "total_signals": 807,
+  "total_resolved": 760,
+  "total_correct": 481,
+  "overall_hit_rate": 63.3,
   "by_tier": {
     "Strong": {
       "total": 321,
@@ -12,10 +12,10 @@
       "hit_rate": 67.1
     },
     "Moderate": {
-      "total": 437,
-      "resolved": 404,
-      "correct": 250,
-      "hit_rate": 61.9
+      "total": 439,
+      "resolved": 405,
+      "correct": 251,
+      "hit_rate": 62.0
     },
     "Weak": {
       "total": 47,
@@ -13705,6 +13705,40 @@
       "total_value_usd": 30735.8,
       "entry_price": 0.0455,
       "end_date": "2026-08-16",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Iga Swiatek",
+      "resolved_date": "2026-08-16"
+    },
+    {
+      "signal_key": "0x8c183a99be9a090203538f44f9d09076963ac0c21d611df3ebd3df2e5860ec41:1",
+      "condition_id": "0x8c183a99be9a090203538f44f9d09076963ac0c21d611df3ebd3df2e5860ec41",
+      "title": "National Bank Open: Nuno Borges vs Luciano Darderi",
+      "category": "Tennis",
+      "whale_direction": "Luciano Darderi",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 5.8374,
+      "total_value_usd": 71532.95,
+      "entry_price": 0.0455,
+      "end_date": "2026-08-15",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x311f32416a52f8ceab4b8766abc1500f68abf30d4ae3b409ecbd60588220a0c3:1",
+      "condition_id": "0x311f32416a52f8ceab4b8766abc1500f68abf30d4ae3b409ecbd60588220a0c3",
+      "title": "National Bank Open: Arthur Rinderknech vs Brandon Nakashima",
+      "category": "Tennis",
+      "whale_direction": "Brandon Nakashima",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 5.0377,
+      "total_value_usd": 26846.16,
+      "entry_price": 0.0455,
+      "end_date": "2026-08-15",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

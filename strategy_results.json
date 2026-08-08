@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-08T19:03:58+00:00",
-  "total_evaluated": 805,
-  "total_pending": 46,
+  "generated_at": "2026-08-08T19:36:55+00:00",
+  "total_evaluated": 807,
+  "total_pending": 47,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 805,
-      "correct": 480,
+      "signals_evaluated": 807,
+      "correct": 481,
       "wrong": 279,
-      "pending": 46,
-      "win_rate": 63.2,
+      "pending": 47,
+      "win_rate": 63.3,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -11277,10 +11277,38 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Iga Swiatek",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Iga Swiatek",
+          "resolved_date": "2026-08-16",
           "end_date": "2026-08-16",
           "total_value_usd": 30735.8,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x8c183a99be9a090203538f44f9d09076963ac0c21d611df3ebd3df2e5860ec41:1",
+          "condition_id": "0x8c183a99be9a090203538f44f9d09076963ac0c21d611df3ebd3df2e5860ec41",
+          "title": "National Bank Open: Nuno Borges vs Luciano Darderi",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Luciano Darderi",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-15",
+          "total_value_usd": 71532.95,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x311f32416a52f8ceab4b8766abc1500f68abf30d4ae3b409ecbd60588220a0c3:1",
+          "condition_id": "0x311f32416a52f8ceab4b8766abc1500f68abf30d4ae3b409ecbd60588220a0c3",
+          "title": "National Bank Open: Arthur Rinderknech vs Brandon Nakashima",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Brandon Nakashima",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-15",
+          "total_value_usd": 26846.16,
           "result": "pending"
         }
       ]
@@ -11289,11 +11317,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 135,
-      "correct": 79,
+      "signals_evaluated": 137,
+      "correct": 80,
       "wrong": 41,
-      "pending": 15,
-      "win_rate": 65.8,
+      "pending": 16,
+      "win_rate": 66.1,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -13179,10 +13207,38 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Iga Swiatek",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Iga Swiatek",
+          "resolved_date": "2026-08-16",
           "end_date": "2026-08-16",
           "total_value_usd": 30735.8,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x8c183a99be9a090203538f44f9d09076963ac0c21d611df3ebd3df2e5860ec41:1",
+          "condition_id": "0x8c183a99be9a090203538f44f9d09076963ac0c21d611df3ebd3df2e5860ec41",
+          "title": "National Bank Open: Nuno Borges vs Luciano Darderi",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Luciano Darderi",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-15",
+          "total_value_usd": 71532.95,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x311f32416a52f8ceab4b8766abc1500f68abf30d4ae3b409ecbd60588220a0c3:1",
+          "condition_id": "0x311f32416a52f8ceab4b8766abc1500f68abf30d4ae3b409ecbd60588220a0c3",
+          "title": "National Bank Open: Arthur Rinderknech vs Brandon Nakashima",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Brandon Nakashima",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-15",
+          "total_value_usd": 26846.16,
           "result": "pending"
         }
       ]
@@ -13191,11 +13247,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 135,
+      "signals_evaluated": 137,
       "correct": 41,
-      "wrong": 79,
-      "pending": 15,
-      "win_rate": 34.2,
+      "wrong": 80,
+      "pending": 16,
+      "win_rate": 33.9,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -15081,10 +15137,38 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Iga Swiatek",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Iga Swiatek",
+          "resolved_date": "2026-08-16",
           "end_date": "2026-08-16",
           "total_value_usd": 30735.8,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x8c183a99be9a090203538f44f9d09076963ac0c21d611df3ebd3df2e5860ec41:1",
+          "condition_id": "0x8c183a99be9a090203538f44f9d09076963ac0c21d611df3ebd3df2e5860ec41",
+          "title": "National Bank Open: Nuno Borges vs Luciano Darderi",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Luciano Darderi",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-15",
+          "total_value_usd": 71532.95,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x311f32416a52f8ceab4b8766abc1500f68abf30d4ae3b409ecbd60588220a0c3:1",
+          "condition_id": "0x311f32416a52f8ceab4b8766abc1500f68abf30d4ae3b409ecbd60588220a0c3",
+          "title": "National Bank Open: Arthur Rinderknech vs Brandon Nakashima",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Brandon Nakashima",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-15",
+          "total_value_usd": 26846.16,
           "result": "pending"
         }
       ]
