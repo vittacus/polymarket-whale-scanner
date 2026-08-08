@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-08T19:36:55+00:00",
-  "total_signals": 807,
-  "total_resolved": 760,
-  "total_correct": 481,
+  "generated_at": "2026-08-08T20:07:51+00:00",
+  "total_signals": 810,
+  "total_resolved": 761,
+  "total_correct": 482,
   "overall_hit_rate": 63.3,
   "by_tier": {
     "Strong": {
@@ -12,13 +12,13 @@
       "hit_rate": 67.1
     },
     "Moderate": {
-      "total": 439,
-      "resolved": 405,
-      "correct": 251,
-      "hit_rate": 62.0
+      "total": 441,
+      "resolved": 406,
+      "correct": 252,
+      "hit_rate": 62.1
     },
     "Weak": {
-      "total": 47,
+      "total": 48,
       "resolved": 45,
       "correct": 22,
       "hit_rate": 48.9
@@ -13722,10 +13722,10 @@
       "total_value_usd": 71532.95,
       "entry_price": 0.0455,
       "end_date": "2026-08-15",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Luciano Darderi",
+      "resolved_date": "2026-08-15"
     },
     {
       "signal_key": "0x311f32416a52f8ceab4b8766abc1500f68abf30d4ae3b409ecbd60588220a0c3:1",
@@ -13739,6 +13739,57 @@
       "total_value_usd": 26846.16,
       "entry_price": 0.0455,
       "end_date": "2026-08-15",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x8e57a594395dc78aedcd0b48c3cea5df795c8def514a31edc8cfb844c30c008d:0",
+      "condition_id": "0x8e57a594395dc78aedcd0b48c3cea5df795c8def514a31edc8cfb844c30c008d",
+      "title": "Atlanta Braves vs. New York Yankees",
+      "category": "MLB",
+      "whale_direction": "Atlanta Braves",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 7.3121,
+      "total_value_usd": 10472.2,
+      "entry_price": 0.0455,
+      "end_date": "2026-08-15",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x1c061ccb2863b66b5c83dea496aa062690903813ae604b9a94a89fbd5b4df2fb:1",
+      "condition_id": "0x1c061ccb2863b66b5c83dea496aa062690903813ae604b9a94a89fbd5b4df2fb",
+      "title": "National Bank Open: Jessica Pegula vs Diana Shnaider",
+      "category": "Tennis",
+      "whale_direction": "Diana Shnaider",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 5.2109,
+      "total_value_usd": 49744.99,
+      "entry_price": 0.0455,
+      "end_date": "2026-08-16",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x1c061ccb2863b66b5c83dea496aa062690903813ae604b9a94a89fbd5b4df2fb:0",
+      "condition_id": "0x1c061ccb2863b66b5c83dea496aa062690903813ae604b9a94a89fbd5b4df2fb",
+      "title": "National Bank Open: Jessica Pegula vs Diana Shnaider",
+      "category": "Tennis",
+      "whale_direction": "Jessica Pegula",
+      "outcome_index": 0,
+      "tier": "Weak",
+      "score": 3.6134,
+      "total_value_usd": 28359.2,
+      "entry_price": 0.0455,
+      "end_date": "2026-08-16",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
