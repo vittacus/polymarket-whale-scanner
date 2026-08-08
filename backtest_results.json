@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-08T21:30:16+00:00",
-  "total_signals": 810,
+  "generated_at": "2026-08-08T22:00:47+00:00",
+  "total_signals": 811,
   "total_resolved": 763,
   "total_correct": 483,
   "overall_hit_rate": 63.3,
@@ -12,7 +12,7 @@
       "hit_rate": 67.1
     },
     "Moderate": {
-      "total": 441,
+      "total": 442,
       "resolved": 407,
       "correct": 253,
       "hit_rate": 62.2
@@ -13794,6 +13794,23 @@
       "correct": false,
       "resolved_outcome": "Diana Shnaider",
       "resolved_date": "2026-08-16"
+    },
+    {
+      "signal_key": "0x67c06a12a9dfab9a39c38cc521dbc10e1d0b2d6591bcfec6cc6fc0d10f60763d:0",
+      "condition_id": "0x67c06a12a9dfab9a39c38cc521dbc10e1d0b2d6591bcfec6cc6fc0d10f60763d",
+      "title": "Athletics vs. Boston Red Sox",
+      "category": "MLB",
+      "whale_direction": "Athletics",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 8.2625,
+      "total_value_usd": 28476.36,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-15",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
