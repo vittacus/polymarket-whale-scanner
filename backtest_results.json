@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-08T22:28:59+00:00",
-  "total_signals": 811,
+  "generated_at": "2026-08-08T23:02:48+00:00",
+  "total_signals": 812,
   "total_resolved": 764,
   "total_correct": 483,
   "overall_hit_rate": 63.2,
   "by_tier": {
     "Strong": {
-      "total": 321,
+      "total": 322,
       "resolved": 310,
       "correct": 208,
       "hit_rate": 67.1
@@ -13805,6 +13805,23 @@
       "tier": "Moderate",
       "score": 8.2625,
       "total_value_usd": 28476.36,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-15",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xadea8e9130cea3878f4cb12841788d5353ccc94399d89e6fba4b71ca6df6bb2a:1",
+      "condition_id": "0xadea8e9130cea3878f4cb12841788d5353ccc94399d89e6fba4b71ca6df6bb2a",
+      "title": "Chicago Cubs vs. Kansas City Royals",
+      "category": "MLB",
+      "whale_direction": "Kansas City Royals",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 15.9747,
+      "total_value_usd": 37524.15,
       "entry_price": 0.0445,
       "end_date": "2026-08-15",
       "resolved": false,
