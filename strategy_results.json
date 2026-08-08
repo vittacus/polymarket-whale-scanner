@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-08T16:37:06+00:00",
-  "total_evaluated": 804,
-  "total_pending": 45,
+  "generated_at": "2026-08-08T17:09:55+00:00",
+  "total_evaluated": 805,
+  "total_pending": 46,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 804,
+      "signals_evaluated": 805,
       "correct": 480,
       "wrong": 279,
-      "pending": 45,
+      "pending": 46,
       "win_rate": 63.2,
       "signals": [
         {
@@ -11268,6 +11268,20 @@
           "end_date": "2026-08-15",
           "total_value_usd": 75371.49,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0xc0d4b45343bc78ae8da917972e18cfbe455e3db50fb3019f85477949bfd1b8e0:1",
+          "condition_id": "0xc0d4b45343bc78ae8da917972e18cfbe455e3db50fb3019f85477949bfd1b8e0",
+          "title": "National Bank Open: Marta Kostyuk vs Iga Swiatek",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Iga Swiatek",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-16",
+          "total_value_usd": 30735.8,
+          "result": "pending"
         }
       ]
     },
@@ -11275,10 +11289,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 134,
+      "signals_evaluated": 135,
       "correct": 79,
       "wrong": 41,
-      "pending": 14,
+      "pending": 15,
       "win_rate": 65.8,
       "signals": [
         {
@@ -13156,6 +13170,20 @@
           "end_date": "2026-08-15",
           "total_value_usd": 75371.49,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0xc0d4b45343bc78ae8da917972e18cfbe455e3db50fb3019f85477949bfd1b8e0:1",
+          "condition_id": "0xc0d4b45343bc78ae8da917972e18cfbe455e3db50fb3019f85477949bfd1b8e0",
+          "title": "National Bank Open: Marta Kostyuk vs Iga Swiatek",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Iga Swiatek",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-16",
+          "total_value_usd": 30735.8,
+          "result": "pending"
         }
       ]
     },
@@ -13163,10 +13191,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 134,
+      "signals_evaluated": 135,
       "correct": 41,
       "wrong": 79,
-      "pending": 14,
+      "pending": 15,
       "win_rate": 34.2,
       "signals": [
         {
@@ -15044,6 +15072,20 @@
           "end_date": "2026-08-15",
           "total_value_usd": 75371.49,
           "result": "correct"
+        },
+        {
+          "signal_key": "0xc0d4b45343bc78ae8da917972e18cfbe455e3db50fb3019f85477949bfd1b8e0:1",
+          "condition_id": "0xc0d4b45343bc78ae8da917972e18cfbe455e3db50fb3019f85477949bfd1b8e0",
+          "title": "National Bank Open: Marta Kostyuk vs Iga Swiatek",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Iga Swiatek",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-16",
+          "total_value_usd": 30735.8,
+          "result": "pending"
         }
       ]
     },
