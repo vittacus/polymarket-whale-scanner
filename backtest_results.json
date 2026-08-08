@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-08T20:53:15+00:00",
+  "generated_at": "2026-08-08T21:30:16+00:00",
   "total_signals": 810,
-  "total_resolved": 761,
-  "total_correct": 482,
+  "total_resolved": 763,
+  "total_correct": 483,
   "overall_hit_rate": 63.3,
   "by_tier": {
     "Strong": {
@@ -13,15 +13,15 @@
     },
     "Moderate": {
       "total": 441,
-      "resolved": 406,
-      "correct": 252,
-      "hit_rate": 62.1
+      "resolved": 407,
+      "correct": 253,
+      "hit_rate": 62.2
     },
     "Weak": {
       "total": 48,
-      "resolved": 45,
+      "resolved": 46,
       "correct": 22,
-      "hit_rate": 48.9
+      "hit_rate": 47.8
     }
   },
   "signals": [
@@ -13773,10 +13773,10 @@
       "total_value_usd": 49744.99,
       "entry_price": 0.0455,
       "end_date": "2026-08-16",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Diana Shnaider",
+      "resolved_date": "2026-08-16"
     },
     {
       "signal_key": "0x1c061ccb2863b66b5c83dea496aa062690903813ae604b9a94a89fbd5b4df2fb:0",
@@ -13790,10 +13790,10 @@
       "total_value_usd": 28359.2,
       "entry_price": 0.0455,
       "end_date": "2026-08-16",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Diana Shnaider",
+      "resolved_date": "2026-08-16"
     }
   ]
 }
