@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-07T23:53:26+00:00",
-  "total_evaluated": 796,
+  "generated_at": "2026-08-08T01:15:55+00:00",
+  "total_evaluated": 797,
   "total_pending": 49,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 796,
-      "correct": 471,
+      "signals_evaluated": 797,
+      "correct": 472,
       "wrong": 276,
       "pending": 49,
       "win_rate": 63.1,
@@ -11151,10 +11151,24 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "Jakub Mensik",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jakub Mensik",
+          "resolved_date": "2026-08-14",
           "end_date": "2026-08-14",
           "total_value_usd": 35692.82,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x2308d78dccdf19bf2a66acc8af60dfc3a435e7f55482a651e602658e354aac6f:0",
+          "condition_id": "0x2308d78dccdf19bf2a66acc8af60dfc3a435e7f55482a651e602658e354aac6f",
+          "title": "San Francisco Giants vs. Atlanta Braves",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "San Francisco Giants",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-07",
+          "total_value_usd": 20605.78,
           "result": "pending"
         }
       ]
@@ -11163,11 +11177,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 126,
-      "correct": 70,
+      "signals_evaluated": 127,
+      "correct": 71,
       "wrong": 38,
       "pending": 18,
-      "win_rate": 64.8,
+      "win_rate": 65.1,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -12927,10 +12941,24 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "Jakub Mensik",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jakub Mensik",
+          "resolved_date": "2026-08-14",
           "end_date": "2026-08-14",
           "total_value_usd": 35692.82,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x2308d78dccdf19bf2a66acc8af60dfc3a435e7f55482a651e602658e354aac6f:0",
+          "condition_id": "0x2308d78dccdf19bf2a66acc8af60dfc3a435e7f55482a651e602658e354aac6f",
+          "title": "San Francisco Giants vs. Atlanta Braves",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "San Francisco Giants",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-07",
+          "total_value_usd": 20605.78,
           "result": "pending"
         }
       ]
@@ -12939,11 +12967,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 126,
+      "signals_evaluated": 127,
       "correct": 38,
-      "wrong": 70,
+      "wrong": 71,
       "pending": 18,
-      "win_rate": 35.2,
+      "win_rate": 34.9,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -14703,10 +14731,24 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "Jakub Mensik",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jakub Mensik",
+          "resolved_date": "2026-08-14",
           "end_date": "2026-08-14",
           "total_value_usd": 35692.82,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x2308d78dccdf19bf2a66acc8af60dfc3a435e7f55482a651e602658e354aac6f:0",
+          "condition_id": "0x2308d78dccdf19bf2a66acc8af60dfc3a435e7f55482a651e602658e354aac6f",
+          "title": "San Francisco Giants vs. Atlanta Braves",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "San Francisco Giants",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-07",
+          "total_value_usd": 20605.78,
           "result": "pending"
         }
       ]

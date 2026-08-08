@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-07T23:53:26+00:00",
-  "total_signals": 796,
-  "total_resolved": 747,
-  "total_correct": 471,
+  "generated_at": "2026-08-08T01:15:55+00:00",
+  "total_signals": 797,
+  "total_resolved": 748,
+  "total_correct": 472,
   "overall_hit_rate": 63.1,
   "by_tier": {
     "Strong": {
@@ -12,10 +12,10 @@
       "hit_rate": 66.8
     },
     "Moderate": {
-      "total": 433,
-      "resolved": 401,
-      "correct": 248,
-      "hit_rate": 61.8
+      "total": 434,
+      "resolved": 402,
+      "correct": 249,
+      "hit_rate": 61.9
     },
     "Weak": {
       "total": 47,
@@ -13552,6 +13552,23 @@
       "total_value_usd": 35692.82,
       "entry_price": 0.0435,
       "end_date": "2026-08-14",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Jakub Mensik",
+      "resolved_date": "2026-08-14"
+    },
+    {
+      "signal_key": "0x2308d78dccdf19bf2a66acc8af60dfc3a435e7f55482a651e602658e354aac6f:0",
+      "condition_id": "0x2308d78dccdf19bf2a66acc8af60dfc3a435e7f55482a651e602658e354aac6f",
+      "title": "San Francisco Giants vs. Atlanta Braves",
+      "category": "MLB",
+      "whale_direction": "San Francisco Giants",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 6.8749,
+      "total_value_usd": 20605.78,
+      "entry_price": 0.0435,
+      "end_date": "2026-09-07",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
