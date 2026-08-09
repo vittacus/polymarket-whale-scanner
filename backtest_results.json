@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-09T16:32:34+00:00",
-  "total_signals": 816,
+  "generated_at": "2026-08-09T17:11:07+00:00",
+  "total_signals": 817,
   "total_resolved": 770,
   "total_correct": 488,
   "overall_hit_rate": 63.4,
   "by_tier": {
     "Strong": {
-      "total": 323,
+      "total": 324,
       "resolved": 312,
       "correct": 210,
       "hit_rate": 67.3
@@ -13892,6 +13892,23 @@
       "total_value_usd": 28816.66,
       "entry_price": 0.0445,
       "end_date": "2026-08-17",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xa78d62445e48fb0051680d49d6da650179497cc3419cb428f2782e720b5587ba:1",
+      "condition_id": "0xa78d62445e48fb0051680d49d6da650179497cc3419cb428f2782e720b5587ba",
+      "title": "Cleveland Guardians vs. Chicago White Sox",
+      "category": "MLB",
+      "whale_direction": "Chicago White Sox",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 26.4974,
+      "total_value_usd": 60591.17,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-16",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
