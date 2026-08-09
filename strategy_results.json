@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-09T17:11:07+00:00",
-  "total_evaluated": 817,
-  "total_pending": 47,
+  "generated_at": "2026-08-09T17:52:59+00:00",
+  "total_evaluated": 819,
+  "total_pending": 49,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 817,
+      "signals_evaluated": 819,
       "correct": 488,
       "wrong": 282,
-      "pending": 47,
+      "pending": 49,
       "win_rate": 63.4,
       "signals": [
         {
@@ -11450,6 +11450,34 @@
           "end_date": "2026-08-16",
           "total_value_usd": 60591.17,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xcd23539d88af8c71116603283d15ed45e3ea108d80cb99066fbbe4d36bf28061:1",
+          "condition_id": "0xcd23539d88af8c71116603283d15ed45e3ea108d80cb99066fbbe4d36bf28061",
+          "title": "Cincinnati Reds vs. Washington Nationals",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Washington Nationals",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-16",
+          "total_value_usd": 157192.81,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe9bb180cc6f12fba3547cff6e959f0ca9e3b12fbfce651edb33d0d17f7da5271:0",
+          "condition_id": "0xe9bb180cc6f12fba3547cff6e959f0ca9e3b12fbfce651edb33d0d17f7da5271",
+          "title": "National Bank Open: Liudmila Samsonova vs Elena Rybakina",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Liudmila Samsonova",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-16",
+          "total_value_usd": 16808.67,
+          "result": "pending"
         }
       ]
     },
@@ -11457,10 +11485,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 147,
+      "signals_evaluated": 149,
       "correct": 87,
       "wrong": 44,
-      "pending": 16,
+      "pending": 18,
       "win_rate": 66.4,
       "signals": [
         {
@@ -13520,6 +13548,34 @@
           "end_date": "2026-08-16",
           "total_value_usd": 60591.17,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xcd23539d88af8c71116603283d15ed45e3ea108d80cb99066fbbe4d36bf28061:1",
+          "condition_id": "0xcd23539d88af8c71116603283d15ed45e3ea108d80cb99066fbbe4d36bf28061",
+          "title": "Cincinnati Reds vs. Washington Nationals",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Washington Nationals",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-16",
+          "total_value_usd": 157192.81,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe9bb180cc6f12fba3547cff6e959f0ca9e3b12fbfce651edb33d0d17f7da5271:0",
+          "condition_id": "0xe9bb180cc6f12fba3547cff6e959f0ca9e3b12fbfce651edb33d0d17f7da5271",
+          "title": "National Bank Open: Liudmila Samsonova vs Elena Rybakina",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Liudmila Samsonova",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-16",
+          "total_value_usd": 16808.67,
+          "result": "pending"
         }
       ]
     },
@@ -13527,10 +13583,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 147,
+      "signals_evaluated": 149,
       "correct": 44,
       "wrong": 87,
-      "pending": 16,
+      "pending": 18,
       "win_rate": 33.6,
       "signals": [
         {
@@ -15589,6 +15645,34 @@
           "resolved_date": null,
           "end_date": "2026-08-16",
           "total_value_usd": 60591.17,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xcd23539d88af8c71116603283d15ed45e3ea108d80cb99066fbbe4d36bf28061:1",
+          "condition_id": "0xcd23539d88af8c71116603283d15ed45e3ea108d80cb99066fbbe4d36bf28061",
+          "title": "Cincinnati Reds vs. Washington Nationals",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Washington Nationals",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-16",
+          "total_value_usd": 157192.81,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe9bb180cc6f12fba3547cff6e959f0ca9e3b12fbfce651edb33d0d17f7da5271:0",
+          "condition_id": "0xe9bb180cc6f12fba3547cff6e959f0ca9e3b12fbfce651edb33d0d17f7da5271",
+          "title": "National Bank Open: Liudmila Samsonova vs Elena Rybakina",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Liudmila Samsonova",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-16",
+          "total_value_usd": 16808.67,
           "result": "pending"
         }
       ]

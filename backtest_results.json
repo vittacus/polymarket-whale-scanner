@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-09T17:11:07+00:00",
-  "total_signals": 817,
+  "generated_at": "2026-08-09T17:52:59+00:00",
+  "total_signals": 819,
   "total_resolved": 770,
   "total_correct": 488,
   "overall_hit_rate": 63.4,
@@ -12,7 +12,7 @@
       "hit_rate": 67.3
     },
     "Moderate": {
-      "total": 445,
+      "total": 447,
       "resolved": 412,
       "correct": 256,
       "hit_rate": 62.1
@@ -13907,6 +13907,40 @@
       "tier": "Strong",
       "score": 26.4974,
       "total_value_usd": 60591.17,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-16",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xcd23539d88af8c71116603283d15ed45e3ea108d80cb99066fbbe4d36bf28061:1",
+      "condition_id": "0xcd23539d88af8c71116603283d15ed45e3ea108d80cb99066fbbe4d36bf28061",
+      "title": "Cincinnati Reds vs. Washington Nationals",
+      "category": "MLB",
+      "whale_direction": "Washington Nationals",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 7.8231,
+      "total_value_usd": 157192.81,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-16",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xe9bb180cc6f12fba3547cff6e959f0ca9e3b12fbfce651edb33d0d17f7da5271:0",
+      "condition_id": "0xe9bb180cc6f12fba3547cff6e959f0ca9e3b12fbfce651edb33d0d17f7da5271",
+      "title": "National Bank Open: Liudmila Samsonova vs Elena Rybakina",
+      "category": "Tennis",
+      "whale_direction": "Liudmila Samsonova",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 5.3993,
+      "total_value_usd": 16808.67,
       "entry_price": 0.0445,
       "end_date": "2026-08-16",
       "resolved": false,
