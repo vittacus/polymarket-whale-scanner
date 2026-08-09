@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-09T23:05:04+00:00",
-  "total_evaluated": 822,
+  "generated_at": "2026-08-09T23:39:28+00:00",
+  "total_evaluated": 824,
   "total_pending": 49,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 822,
-      "correct": 490,
-      "wrong": 283,
+      "signals_evaluated": 824,
+      "correct": 491,
+      "wrong": 284,
       "pending": 49,
       "win_rate": 63.4,
       "signals": [
@@ -11487,11 +11487,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Philadelphia Phillies",
+          "resolved_date": "2026-08-16",
           "end_date": "2026-08-16",
           "total_value_usd": 41362.74,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x2da23b54de5588b1974d0121cccaf5e9f56626cf92ea79733b5e65930d61d101:1",
@@ -11501,11 +11501,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Coco Gauff",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Coco Gauff",
+          "resolved_date": "2026-08-16",
           "end_date": "2026-08-16",
           "total_value_usd": 198958.3,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x299323b7c950c5ede518e89c6e6ad1161e77f40478163119a4470da77c9c1e93:1",
@@ -11519,6 +11519,34 @@
           "resolved_date": null,
           "end_date": "2026-08-16",
           "total_value_usd": 65292.9,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf50a85a6b63e7b336a6856f2b3fa916745ed53045a23720fe2bb77568c9e71e7:1",
+          "condition_id": "0xf50a85a6b63e7b336a6856f2b3fa916745ed53045a23720fe2bb77568c9e71e7",
+          "title": "Los Angeles Dodgers vs. Arizona Diamondbacks",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Arizona Diamondbacks",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-16",
+          "total_value_usd": 128846.71,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xfc1cb9a7badff7e3774d4fba0bdcce064caabf966eb57290359bb63a14917c2c:0",
+          "condition_id": "0xfc1cb9a7badff7e3774d4fba0bdcce064caabf966eb57290359bb63a14917c2c",
+          "title": "National Bank Open: Joao Fonseca vs Ben Shelton",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Joao Fonseca",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-17",
+          "total_value_usd": 19577.0,
           "result": "pending"
         }
       ]
@@ -11527,11 +11555,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 152,
-      "correct": 89,
-      "wrong": 45,
+      "signals_evaluated": 154,
+      "correct": 90,
+      "wrong": 46,
       "pending": 18,
-      "win_rate": 66.4,
+      "win_rate": 66.2,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -13627,11 +13655,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Philadelphia Phillies",
+          "resolved_date": "2026-08-16",
           "end_date": "2026-08-16",
           "total_value_usd": 41362.74,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x2da23b54de5588b1974d0121cccaf5e9f56626cf92ea79733b5e65930d61d101:1",
@@ -13641,11 +13669,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Coco Gauff",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Coco Gauff",
+          "resolved_date": "2026-08-16",
           "end_date": "2026-08-16",
           "total_value_usd": 198958.3,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x299323b7c950c5ede518e89c6e6ad1161e77f40478163119a4470da77c9c1e93:1",
@@ -13659,6 +13687,34 @@
           "resolved_date": null,
           "end_date": "2026-08-16",
           "total_value_usd": 65292.9,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf50a85a6b63e7b336a6856f2b3fa916745ed53045a23720fe2bb77568c9e71e7:1",
+          "condition_id": "0xf50a85a6b63e7b336a6856f2b3fa916745ed53045a23720fe2bb77568c9e71e7",
+          "title": "Los Angeles Dodgers vs. Arizona Diamondbacks",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Arizona Diamondbacks",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-16",
+          "total_value_usd": 128846.71,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xfc1cb9a7badff7e3774d4fba0bdcce064caabf966eb57290359bb63a14917c2c:0",
+          "condition_id": "0xfc1cb9a7badff7e3774d4fba0bdcce064caabf966eb57290359bb63a14917c2c",
+          "title": "National Bank Open: Joao Fonseca vs Ben Shelton",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Joao Fonseca",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-17",
+          "total_value_usd": 19577.0,
           "result": "pending"
         }
       ]
@@ -13667,11 +13723,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 152,
-      "correct": 45,
-      "wrong": 89,
+      "signals_evaluated": 154,
+      "correct": 46,
+      "wrong": 90,
       "pending": 18,
-      "win_rate": 33.6,
+      "win_rate": 33.8,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -15767,11 +15823,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Philadelphia Phillies",
+          "resolved_date": "2026-08-16",
           "end_date": "2026-08-16",
           "total_value_usd": 41362.74,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x2da23b54de5588b1974d0121cccaf5e9f56626cf92ea79733b5e65930d61d101:1",
@@ -15781,11 +15837,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Coco Gauff",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Coco Gauff",
+          "resolved_date": "2026-08-16",
           "end_date": "2026-08-16",
           "total_value_usd": 198958.3,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x299323b7c950c5ede518e89c6e6ad1161e77f40478163119a4470da77c9c1e93:1",
@@ -15799,6 +15855,34 @@
           "resolved_date": null,
           "end_date": "2026-08-16",
           "total_value_usd": 65292.9,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf50a85a6b63e7b336a6856f2b3fa916745ed53045a23720fe2bb77568c9e71e7:1",
+          "condition_id": "0xf50a85a6b63e7b336a6856f2b3fa916745ed53045a23720fe2bb77568c9e71e7",
+          "title": "Los Angeles Dodgers vs. Arizona Diamondbacks",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Arizona Diamondbacks",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-16",
+          "total_value_usd": 128846.71,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xfc1cb9a7badff7e3774d4fba0bdcce064caabf966eb57290359bb63a14917c2c:0",
+          "condition_id": "0xfc1cb9a7badff7e3774d4fba0bdcce064caabf966eb57290359bb63a14917c2c",
+          "title": "National Bank Open: Joao Fonseca vs Ben Shelton",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Joao Fonseca",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-17",
+          "total_value_usd": 19577.0,
           "result": "pending"
         }
       ]

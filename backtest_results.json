@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-09T23:05:04+00:00",
-  "total_signals": 822,
-  "total_resolved": 773,
-  "total_correct": 490,
+  "generated_at": "2026-08-09T23:39:27+00:00",
+  "total_signals": 824,
+  "total_resolved": 775,
+  "total_correct": 491,
   "overall_hit_rate": 63.4,
   "by_tier": {
     "Strong": {
       "total": 326,
-      "resolved": 312,
+      "resolved": 313,
       "correct": 210,
-      "hit_rate": 67.3
+      "hit_rate": 67.1
     },
     "Moderate": {
-      "total": 448,
-      "resolved": 415,
-      "correct": 258,
-      "hit_rate": 62.2
+      "total": 450,
+      "resolved": 416,
+      "correct": 259,
+      "hit_rate": 62.3
     },
     "Weak": {
       "total": 48,
@@ -13960,10 +13960,10 @@
       "total_value_usd": 41362.74,
       "entry_price": 0.0445,
       "end_date": "2026-08-16",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Philadelphia Phillies",
+      "resolved_date": "2026-08-16"
     },
     {
       "signal_key": "0x2da23b54de5588b1974d0121cccaf5e9f56626cf92ea79733b5e65930d61d101:1",
@@ -13977,10 +13977,10 @@
       "total_value_usd": 198958.3,
       "entry_price": 0.0445,
       "end_date": "2026-08-16",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Coco Gauff",
+      "resolved_date": "2026-08-16"
     },
     {
       "signal_key": "0x299323b7c950c5ede518e89c6e6ad1161e77f40478163119a4470da77c9c1e93:1",
@@ -13994,6 +13994,40 @@
       "total_value_usd": 65292.9,
       "entry_price": 0.0445,
       "end_date": "2026-08-16",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xf50a85a6b63e7b336a6856f2b3fa916745ed53045a23720fe2bb77568c9e71e7:1",
+      "condition_id": "0xf50a85a6b63e7b336a6856f2b3fa916745ed53045a23720fe2bb77568c9e71e7",
+      "title": "Los Angeles Dodgers vs. Arizona Diamondbacks",
+      "category": "MLB",
+      "whale_direction": "Arizona Diamondbacks",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 7.8034,
+      "total_value_usd": 128846.71,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-16",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xfc1cb9a7badff7e3774d4fba0bdcce064caabf966eb57290359bb63a14917c2c:0",
+      "condition_id": "0xfc1cb9a7badff7e3774d4fba0bdcce064caabf966eb57290359bb63a14917c2c",
+      "title": "National Bank Open: Joao Fonseca vs Ben Shelton",
+      "category": "Tennis",
+      "whale_direction": "Joao Fonseca",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 4.0215,
+      "total_value_usd": 19577.0,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-17",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
