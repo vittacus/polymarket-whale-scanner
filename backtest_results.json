@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-09T01:20:52+00:00",
-  "total_signals": 812,
-  "total_resolved": 766,
-  "total_correct": 485,
-  "overall_hit_rate": 63.3,
+  "generated_at": "2026-08-09T03:14:56+00:00",
+  "total_signals": 814,
+  "total_resolved": 767,
+  "total_correct": 486,
+  "overall_hit_rate": 63.4,
   "by_tier": {
     "Strong": {
       "total": 322,
-      "resolved": 310,
-      "correct": 208,
-      "hit_rate": 67.1
+      "resolved": 311,
+      "correct": 209,
+      "hit_rate": 67.2
     },
     "Moderate": {
-      "total": 442,
+      "total": 444,
       "resolved": 410,
       "correct": 255,
       "hit_rate": 62.2
@@ -13824,6 +13824,40 @@
       "total_value_usd": 37524.15,
       "entry_price": 0.0445,
       "end_date": "2026-08-15",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Kansas City Royals",
+      "resolved_date": "2026-08-15"
+    },
+    {
+      "signal_key": "0x1e3a086b318fcd5c476b1eeb74662e155b827d2e3156c1405526448be50f61e0:0",
+      "condition_id": "0x1e3a086b318fcd5c476b1eeb74662e155b827d2e3156c1405526448be50f61e0",
+      "title": "Los Angeles Dodgers vs. Arizona Diamondbacks",
+      "category": "MLB",
+      "whale_direction": "Los Angeles Dodgers",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 8.5125,
+      "total_value_usd": 143904.28,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-16",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x339e2690442ccef7bf962bfdd75dd176a1462a54fbdd2191050315459c888d1c:1",
+      "condition_id": "0x339e2690442ccef7bf962bfdd75dd176a1462a54fbdd2191050315459c888d1c",
+      "title": "Tampa Bay Rays vs. Seattle Mariners",
+      "category": "MLB",
+      "whale_direction": "Seattle Mariners",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 4.5485,
+      "total_value_usd": 120119.97,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-16",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
