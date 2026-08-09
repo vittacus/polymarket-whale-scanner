@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-09T20:32:00+00:00",
+  "generated_at": "2026-08-09T21:08:18+00:00",
   "total_signals": 821,
-  "total_resolved": 772,
-  "total_correct": 489,
-  "overall_hit_rate": 63.3,
+  "total_resolved": 773,
+  "total_correct": 490,
+  "overall_hit_rate": 63.4,
   "by_tier": {
     "Strong": {
       "total": 325,
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 448,
-      "resolved": 414,
-      "correct": 257,
-      "hit_rate": 62.1
+      "resolved": 415,
+      "correct": 258,
+      "hit_rate": 62.2
     },
     "Weak": {
       "total": 48,
@@ -13892,10 +13892,10 @@
       "total_value_usd": 28816.66,
       "entry_price": 0.0445,
       "end_date": "2026-08-17",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Learner Tien",
+      "resolved_date": "2026-08-17"
     },
     {
       "signal_key": "0xa78d62445e48fb0051680d49d6da650179497cc3419cb428f2782e720b5587ba:1",
