@@ -233416,5 +233416,178 @@
         "entry_price": 0.0445
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-09T16:26:29+00:00",
+    "whale_timeframes": {
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x04d5524a0a5af2eca6e39e03defc261d42fe66d8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x16bb9951a36fce71e2ef57890b786145e0ba8492": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x684baa57c338c2549aec0aa3f034f695d72a8409": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xde3131239a358be036397ee2c152e256e6b3df79": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb859a551fcf56e49416160911476bea7307152f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e6e2c3f06686f2607b86c90e35f536e81a1be00": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd48a81db62f742c4e42d86dfc23a7ee345366e90": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x56acab44cfca2e88bb9b3406890aea7bfa0cd77e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xde0a3c61ef2c9d98794e388274857d45f904f102": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x85d53efdd055aa88fb00a914f5615bfd585545ee": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9f2fe025f84839ca81dd8e0338892605702d2ca8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5dab5ed9691fab220535891d9c7f5c28eed322e1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x86dab59a8a6e7f9947282d2117aab3429b706428": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1465b79bff7992bc703e1aafb3683b1089647072": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9703676286b93c2eca71ca96e8757104519a69c2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xfd2052594f25def40a18550640ee55714e2b45e1302e1ed59a8b96427742992d:1",
+        "condition_id": "0xfd2052594f25def40a18550640ee55714e2b45e1302e1ed59a8b96427742992d",
+        "title": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
+        "outcome": "Under",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
+          "0xdb859a551fcf56e49416160911476bea7307152f",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+        ],
+        "ranks": [
+          3,
+          8,
+          15
+        ],
+        "total_value_usd": 16051.95,
+        "score": 8.8969,
+        "category": "MLB",
+        "end_date": "2026-08-20",
+        "entry_price": 0.0475
+      },
+      {
+        "signal_key": "0x8195a99c93660e18bc49209359cf9cb539af42cfa00cb5000f6f5aeecef8dc57:0",
+        "condition_id": "0x8195a99c93660e18bc49209359cf9cb539af42cfa00cb5000f6f5aeecef8dc57",
+        "title": "National Bank Open: Learner Tien vs Thiago Agustin Tirante",
+        "outcome": "Learner Tien",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0xdb859a551fcf56e49416160911476bea7307152f",
+          "0x56acab44cfca2e88bb9b3406890aea7bfa0cd77e"
+        ],
+        "ranks": [
+          7,
+          8,
+          11
+        ],
+        "total_value_usd": 32231.21,
+        "score": 6.5174,
+        "category": "Tennis",
+        "end_date": "2026-08-17",
+        "entry_price": 0.0445
+      }
+    ]
   }
 ]
