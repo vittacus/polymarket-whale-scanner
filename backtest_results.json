@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-09T14:05:41+00:00",
-  "total_signals": 815,
+  "generated_at": "2026-08-09T14:46:04+00:00",
+  "total_signals": 816,
   "total_resolved": 770,
   "total_correct": 488,
   "overall_hit_rate": 63.4,
@@ -12,7 +12,7 @@
       "hit_rate": 67.3
     },
     "Moderate": {
-      "total": 444,
+      "total": 445,
       "resolved": 412,
       "correct": 256,
       "hit_rate": 62.1
@@ -13879,6 +13879,23 @@
       "correct": true,
       "resolved_outcome": "Tampa Bay Rays",
       "resolved_date": "2026-08-16"
+    },
+    {
+      "signal_key": "0x8195a99c93660e18bc49209359cf9cb539af42cfa00cb5000f6f5aeecef8dc57:0",
+      "condition_id": "0x8195a99c93660e18bc49209359cf9cb539af42cfa00cb5000f6f5aeecef8dc57",
+      "title": "National Bank Open: Learner Tien vs Thiago Agustin Tirante",
+      "category": "Tennis",
+      "whale_direction": "Learner Tien",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 6.508,
+      "total_value_usd": 28816.66,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-17",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
