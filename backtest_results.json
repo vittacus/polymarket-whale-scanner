@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-08T23:59:29+00:00",
+  "generated_at": "2026-08-09T01:20:52+00:00",
   "total_signals": 812,
-  "total_resolved": 765,
-  "total_correct": 484,
+  "total_resolved": 766,
+  "total_correct": 485,
   "overall_hit_rate": 63.3,
   "by_tier": {
     "Strong": {
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 442,
-      "resolved": 409,
-      "correct": 254,
-      "hit_rate": 62.1
+      "resolved": 410,
+      "correct": 255,
+      "hit_rate": 62.2
     },
     "Weak": {
       "total": 48,
@@ -13739,10 +13739,10 @@
       "total_value_usd": 26846.16,
       "entry_price": 0.0455,
       "end_date": "2026-08-15",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Brandon Nakashima",
+      "resolved_date": "2026-08-15"
     },
     {
       "signal_key": "0x8e57a594395dc78aedcd0b48c3cea5df795c8def514a31edc8cfb844c30c008d:0",

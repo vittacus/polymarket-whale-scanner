@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-08T23:59:29+00:00",
+  "generated_at": "2026-08-09T01:20:52+00:00",
   "total_evaluated": 812,
-  "total_pending": 47,
+  "total_pending": 46,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 812,
-      "correct": 484,
+      "correct": 485,
       "wrong": 281,
-      "pending": 47,
+      "pending": 46,
       "win_rate": 63.3,
       "signals": [
         {
@@ -11305,11 +11305,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Brandon Nakashima",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Brandon Nakashima",
+          "resolved_date": "2026-08-15",
           "end_date": "2026-08-15",
           "total_value_usd": 26846.16,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x8e57a594395dc78aedcd0b48c3cea5df795c8def514a31edc8cfb844c30c008d:0",
@@ -11388,10 +11388,10 @@
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 142,
-      "correct": 83,
+      "correct": 84,
       "wrong": 43,
-      "pending": 16,
-      "win_rate": 65.9,
+      "pending": 15,
+      "win_rate": 66.1,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -13305,11 +13305,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Brandon Nakashima",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Brandon Nakashima",
+          "resolved_date": "2026-08-15",
           "end_date": "2026-08-15",
           "total_value_usd": 26846.16,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x8e57a594395dc78aedcd0b48c3cea5df795c8def514a31edc8cfb844c30c008d:0",
@@ -13389,9 +13389,9 @@
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 142,
       "correct": 43,
-      "wrong": 83,
-      "pending": 16,
-      "win_rate": 34.1,
+      "wrong": 84,
+      "pending": 15,
+      "win_rate": 33.9,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -15305,11 +15305,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Brandon Nakashima",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Brandon Nakashima",
+          "resolved_date": "2026-08-15",
           "end_date": "2026-08-15",
           "total_value_usd": 26846.16,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x8e57a594395dc78aedcd0b48c3cea5df795c8def514a31edc8cfb844c30c008d:0",
