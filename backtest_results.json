@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-09T03:14:56+00:00",
-  "total_signals": 814,
-  "total_resolved": 767,
-  "total_correct": 486,
+  "generated_at": "2026-08-09T04:41:18+00:00",
+  "total_signals": 815,
+  "total_resolved": 768,
+  "total_correct": 487,
   "overall_hit_rate": 63.4,
   "by_tier": {
     "Strong": {
-      "total": 322,
+      "total": 323,
       "resolved": 311,
       "correct": 209,
       "hit_rate": 67.2
     },
     "Moderate": {
       "total": 444,
-      "resolved": 410,
-      "correct": 255,
-      "hit_rate": 62.2
+      "resolved": 411,
+      "correct": 256,
+      "hit_rate": 62.3
     },
     "Weak": {
       "total": 48,
@@ -13841,10 +13841,10 @@
       "total_value_usd": 143904.28,
       "entry_price": 0.0445,
       "end_date": "2026-08-16",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Los Angeles Dodgers",
+      "resolved_date": "2026-08-16"
     },
     {
       "signal_key": "0x339e2690442ccef7bf962bfdd75dd176a1462a54fbdd2191050315459c888d1c:1",
@@ -13856,6 +13856,23 @@
       "tier": "Moderate",
       "score": 4.5485,
       "total_value_usd": 120119.97,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-16",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x339e2690442ccef7bf962bfdd75dd176a1462a54fbdd2191050315459c888d1c:0",
+      "condition_id": "0x339e2690442ccef7bf962bfdd75dd176a1462a54fbdd2191050315459c888d1c",
+      "title": "Tampa Bay Rays vs. Seattle Mariners",
+      "category": "MLB",
+      "whale_direction": "Tampa Bay Rays",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 15.8506,
+      "total_value_usd": 163117.67,
       "entry_price": 0.0445,
       "end_date": "2026-08-16",
       "resolved": false,
