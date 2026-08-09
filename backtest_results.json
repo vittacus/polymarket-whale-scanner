@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-09T18:37:43+00:00",
+  "generated_at": "2026-08-09T19:25:54+00:00",
   "total_signals": 819,
-  "total_resolved": 770,
-  "total_correct": 488,
+  "total_resolved": 771,
+  "total_correct": 489,
   "overall_hit_rate": 63.4,
   "by_tier": {
     "Strong": {
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 447,
-      "resolved": 412,
-      "correct": 256,
-      "hit_rate": 62.1
+      "resolved": 413,
+      "correct": 257,
+      "hit_rate": 62.2
     },
     "Weak": {
       "total": 48,
@@ -13926,10 +13926,10 @@
       "total_value_usd": 157192.81,
       "entry_price": 0.0445,
       "end_date": "2026-08-16",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Washington Nationals",
+      "resolved_date": "2026-08-16"
     },
     {
       "signal_key": "0xe9bb180cc6f12fba3547cff6e959f0ca9e3b12fbfce651edb33d0d17f7da5271:0",
