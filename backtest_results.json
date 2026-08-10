@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-10T11:27:31+00:00",
-  "total_signals": 827,
+  "generated_at": "2026-08-10T12:14:04+00:00",
+  "total_signals": 828,
   "total_resolved": 781,
   "total_correct": 495,
   "overall_hit_rate": 63.4,
@@ -12,7 +12,7 @@
       "hit_rate": 67.2
     },
     "Moderate": {
-      "total": 451,
+      "total": 452,
       "resolved": 418,
       "correct": 260,
       "hit_rate": 62.2
@@ -14079,6 +14079,23 @@
       "total_value_usd": 9757.35,
       "entry_price": 0.047,
       "end_date": "2026-10-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xb2566cbeaa5af1086cf7849b8930404d77c123ac6745e566e268cc7a18b3347a:0",
+      "condition_id": "0xb2566cbeaa5af1086cf7849b8930404d77c123ac6745e566e268cc7a18b3347a",
+      "title": "Astana: Lucio Ratti vs Tai Sach",
+      "category": "Tennis",
+      "whale_direction": "Lucio Ratti",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 6.1385,
+      "total_value_usd": 923954.6,
+      "entry_price": 0.0475,
+      "end_date": "2026-08-17",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
