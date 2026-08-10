@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-10T12:14:04+00:00",
+  "generated_at": "2026-08-10T13:47:48+00:00",
   "total_signals": 828,
-  "total_resolved": 781,
-  "total_correct": 495,
+  "total_resolved": 782,
+  "total_correct": 496,
   "overall_hit_rate": 63.4,
   "by_tier": {
     "Strong": {
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 452,
-      "resolved": 418,
-      "correct": 260,
-      "hit_rate": 62.2
+      "resolved": 419,
+      "correct": 261,
+      "hit_rate": 62.3
     },
     "Weak": {
       "total": 48,
@@ -14096,10 +14096,10 @@
       "total_value_usd": 923954.6,
       "entry_price": 0.0475,
       "end_date": "2026-08-17",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Lucio Ratti",
+      "resolved_date": "2026-08-17"
     }
   ]
 }
