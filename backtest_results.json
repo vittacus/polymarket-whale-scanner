@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-09T23:39:27+00:00",
+  "generated_at": "2026-08-10T00:11:05+00:00",
   "total_signals": 824,
-  "total_resolved": 775,
-  "total_correct": 491,
-  "overall_hit_rate": 63.4,
+  "total_resolved": 777,
+  "total_correct": 492,
+  "overall_hit_rate": 63.3,
   "by_tier": {
     "Strong": {
       "total": 326,
-      "resolved": 313,
+      "resolved": 314,
       "correct": 210,
-      "hit_rate": 67.1
+      "hit_rate": 66.9
     },
     "Moderate": {
       "total": 450,
-      "resolved": 416,
-      "correct": 259,
-      "hit_rate": 62.3
+      "resolved": 417,
+      "correct": 260,
+      "hit_rate": 62.4
     },
     "Weak": {
       "total": 48,
@@ -13994,10 +13994,10 @@
       "total_value_usd": 65292.9,
       "entry_price": 0.0445,
       "end_date": "2026-08-16",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Detroit Tigers",
+      "resolved_date": "2026-08-16"
     },
     {
       "signal_key": "0xf50a85a6b63e7b336a6856f2b3fa916745ed53045a23720fe2bb77568c9e71e7:1",
@@ -14011,10 +14011,10 @@
       "total_value_usd": 128846.71,
       "entry_price": 0.0445,
       "end_date": "2026-08-16",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Arizona Diamondbacks",
+      "resolved_date": "2026-08-16"
     },
     {
       "signal_key": "0xfc1cb9a7badff7e3774d4fba0bdcce064caabf966eb57290359bb63a14917c2c:0",
