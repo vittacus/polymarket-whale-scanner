@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-10T00:11:05+00:00",
-  "total_signals": 824,
-  "total_resolved": 777,
-  "total_correct": 492,
+  "generated_at": "2026-08-10T02:39:09+00:00",
+  "total_signals": 826,
+  "total_resolved": 779,
+  "total_correct": 493,
   "overall_hit_rate": 63.3,
   "by_tier": {
     "Strong": {
-      "total": 326,
-      "resolved": 314,
-      "correct": 210,
-      "hit_rate": 66.9
+      "total": 328,
+      "resolved": 315,
+      "correct": 211,
+      "hit_rate": 67.0
     },
     "Moderate": {
       "total": 450,
-      "resolved": 417,
+      "resolved": 418,
       "correct": 260,
-      "hit_rate": 62.4
+      "hit_rate": 62.2
     },
     "Weak": {
       "total": 48,
@@ -13909,10 +13909,10 @@
       "total_value_usd": 60591.17,
       "entry_price": 0.0445,
       "end_date": "2026-08-16",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Chicago White Sox",
+      "resolved_date": "2026-08-16"
     },
     {
       "signal_key": "0xcd23539d88af8c71116603283d15ed45e3ea108d80cb99066fbbe4d36bf28061:1",
@@ -14027,6 +14027,40 @@
       "score": 4.0215,
       "total_value_usd": 19577.0,
       "entry_price": 0.0445,
+      "end_date": "2026-08-17",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Ben Shelton",
+      "resolved_date": "2026-08-17"
+    },
+    {
+      "signal_key": "0x41e06a878d9fc4f05a79b517475613e0dba81cc9f7128c6b3f252b0c8b6b4369:1",
+      "condition_id": "0x41e06a878d9fc4f05a79b517475613e0dba81cc9f7128c6b3f252b0c8b6b4369",
+      "title": "National Bank Open: Alexandra Eala vs Belinda Bencic",
+      "category": "Tennis",
+      "whale_direction": "Belinda Bencic",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 23.6123,
+      "total_value_usd": 423704.03,
+      "entry_price": 0.0465,
+      "end_date": "2026-08-16",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x2d0bca271f2c9c89900924f88de4a7d8df7a9481d95e1cd3636a204f1dbb384b:1",
+      "condition_id": "0x2d0bca271f2c9c89900924f88de4a7d8df7a9481d95e1cd3636a204f1dbb384b",
+      "title": "Houston Astros vs. San Diego Padres",
+      "category": "MLB",
+      "whale_direction": "San Diego Padres",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 20.908,
+      "total_value_usd": 393377.27,
+      "entry_price": 0.0465,
       "end_date": "2026-08-17",
       "resolved": false,
       "correct": null,
