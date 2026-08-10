@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-10T02:39:09+00:00",
+  "generated_at": "2026-08-10T04:24:01+00:00",
   "total_signals": 826,
-  "total_resolved": 779,
-  "total_correct": 493,
-  "overall_hit_rate": 63.3,
+  "total_resolved": 781,
+  "total_correct": 495,
+  "overall_hit_rate": 63.4,
   "by_tier": {
     "Strong": {
       "total": 328,
-      "resolved": 315,
-      "correct": 211,
-      "hit_rate": 67.0
+      "resolved": 317,
+      "correct": 213,
+      "hit_rate": 67.2
     },
     "Moderate": {
       "total": 450,
@@ -14045,10 +14045,10 @@
       "total_value_usd": 423704.03,
       "entry_price": 0.0465,
       "end_date": "2026-08-16",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Belinda Bencic",
+      "resolved_date": "2026-08-16"
     },
     {
       "signal_key": "0x2d0bca271f2c9c89900924f88de4a7d8df7a9481d95e1cd3636a204f1dbb384b:1",
@@ -14062,10 +14062,10 @@
       "total_value_usd": 393377.27,
       "entry_price": 0.0465,
       "end_date": "2026-08-17",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "San Diego Padres",
+      "resolved_date": "2026-08-17"
     }
   ]
 }

@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-10T02:39:09+00:00",
+  "generated_at": "2026-08-10T04:24:01+00:00",
   "total_evaluated": 826,
-  "total_pending": 47,
+  "total_pending": 45,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 826,
-      "correct": 493,
+      "correct": 495,
       "wrong": 286,
-      "pending": 47,
-      "win_rate": 63.3,
+      "pending": 45,
+      "win_rate": 63.4,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -11557,11 +11557,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Belinda Bencic",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Belinda Bencic",
+          "resolved_date": "2026-08-16",
           "end_date": "2026-08-16",
           "total_value_usd": 423704.03,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x2d0bca271f2c9c89900924f88de4a7d8df7a9481d95e1cd3636a204f1dbb384b:1",
@@ -11571,11 +11571,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "San Diego Padres",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "San Diego Padres",
+          "resolved_date": "2026-08-17",
           "end_date": "2026-08-17",
           "total_value_usd": 393377.27,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -11584,10 +11584,10 @@
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 156,
-      "correct": 92,
+      "correct": 94,
       "wrong": 48,
-      "pending": 16,
-      "win_rate": 65.7,
+      "pending": 14,
+      "win_rate": 66.2,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -13753,11 +13753,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Belinda Bencic",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Belinda Bencic",
+          "resolved_date": "2026-08-16",
           "end_date": "2026-08-16",
           "total_value_usd": 423704.03,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x2d0bca271f2c9c89900924f88de4a7d8df7a9481d95e1cd3636a204f1dbb384b:1",
@@ -13767,11 +13767,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "San Diego Padres",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "San Diego Padres",
+          "resolved_date": "2026-08-17",
           "end_date": "2026-08-17",
           "total_value_usd": 393377.27,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -13781,9 +13781,9 @@
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 156,
       "correct": 48,
-      "wrong": 92,
-      "pending": 16,
-      "win_rate": 34.3,
+      "wrong": 94,
+      "pending": 14,
+      "win_rate": 33.8,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -15949,11 +15949,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Belinda Bencic",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Belinda Bencic",
+          "resolved_date": "2026-08-16",
           "end_date": "2026-08-16",
           "total_value_usd": 423704.03,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x2d0bca271f2c9c89900924f88de4a7d8df7a9481d95e1cd3636a204f1dbb384b:1",
@@ -15963,11 +15963,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "San Diego Padres",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "San Diego Padres",
+          "resolved_date": "2026-08-17",
           "end_date": "2026-08-17",
           "total_value_usd": 393377.27,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
