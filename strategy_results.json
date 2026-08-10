@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-10T05:58:48+00:00",
-  "total_evaluated": 826,
-  "total_pending": 45,
+  "generated_at": "2026-08-10T07:25:48+00:00",
+  "total_evaluated": 827,
+  "total_pending": 46,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 826,
+      "signals_evaluated": 827,
       "correct": 495,
       "wrong": 286,
-      "pending": 45,
+      "pending": 46,
       "win_rate": 63.4,
       "signals": [
         {
@@ -11576,6 +11576,20 @@
           "end_date": "2026-08-17",
           "total_value_usd": 393377.27,
           "result": "correct"
+        },
+        {
+          "signal_key": "0xd73b81755d573d5abb591ab049ef6a5c535833296e8b1d3573558b6d12d686fe:0",
+          "condition_id": "0xd73b81755d573d5abb591ab049ef6a5c535833296e8b1d3573558b6d12d686fe",
+          "title": "Will Vancouver Whitecaps FC win on 2026-07-16?",
+          "category": "Soccer",
+          "tier": "Moderate",
+          "entry_price": 0.047,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-07",
+          "total_value_usd": 9757.35,
+          "result": "pending"
         }
       ]
     },
@@ -11583,10 +11597,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 156,
+      "signals_evaluated": 157,
       "correct": 94,
       "wrong": 48,
-      "pending": 14,
+      "pending": 15,
       "win_rate": 66.2,
       "signals": [
         {
@@ -13772,6 +13786,20 @@
           "end_date": "2026-08-17",
           "total_value_usd": 393377.27,
           "result": "correct"
+        },
+        {
+          "signal_key": "0xd73b81755d573d5abb591ab049ef6a5c535833296e8b1d3573558b6d12d686fe:0",
+          "condition_id": "0xd73b81755d573d5abb591ab049ef6a5c535833296e8b1d3573558b6d12d686fe",
+          "title": "Will Vancouver Whitecaps FC win on 2026-07-16?",
+          "category": "Soccer",
+          "tier": "Moderate",
+          "entry_price": 0.047,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-07",
+          "total_value_usd": 9757.35,
+          "result": "pending"
         }
       ]
     },
@@ -13779,10 +13807,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 156,
+      "signals_evaluated": 157,
       "correct": 48,
       "wrong": 94,
-      "pending": 14,
+      "pending": 15,
       "win_rate": 33.8,
       "signals": [
         {
@@ -15968,6 +15996,20 @@
           "end_date": "2026-08-17",
           "total_value_usd": 393377.27,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0xd73b81755d573d5abb591ab049ef6a5c535833296e8b1d3573558b6d12d686fe:0",
+          "condition_id": "0xd73b81755d573d5abb591ab049ef6a5c535833296e8b1d3573558b6d12d686fe",
+          "title": "Will Vancouver Whitecaps FC win on 2026-07-16?",
+          "category": "Soccer",
+          "tier": "Moderate",
+          "entry_price": 0.047,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-07",
+          "total_value_usd": 9757.35,
+          "result": "pending"
         }
       ]
     },

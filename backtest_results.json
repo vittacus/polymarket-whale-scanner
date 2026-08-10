@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-10T05:58:48+00:00",
-  "total_signals": 826,
+  "generated_at": "2026-08-10T07:25:47+00:00",
+  "total_signals": 827,
   "total_resolved": 781,
   "total_correct": 495,
   "overall_hit_rate": 63.4,
@@ -12,7 +12,7 @@
       "hit_rate": 67.2
     },
     "Moderate": {
-      "total": 450,
+      "total": 451,
       "resolved": 418,
       "correct": 260,
       "hit_rate": 62.2
@@ -14066,6 +14066,23 @@
       "correct": true,
       "resolved_outcome": "San Diego Padres",
       "resolved_date": "2026-08-17"
+    },
+    {
+      "signal_key": "0xd73b81755d573d5abb591ab049ef6a5c535833296e8b1d3573558b6d12d686fe:0",
+      "condition_id": "0xd73b81755d573d5abb591ab049ef6a5c535833296e8b1d3573558b6d12d686fe",
+      "title": "Will Vancouver Whitecaps FC win on 2026-07-16?",
+      "category": "Soccer",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 4.0513,
+      "total_value_usd": 9757.35,
+      "entry_price": 0.047,
+      "end_date": "2026-10-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
