@@ -238424,5 +238424,207 @@
         "entry_price": 0.0455
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-11T02:03:31+00:00",
+    "whale_timeframes": {
+      "0x4ab9b54427ec4b7f3646b1a0ef1bed73bc708ebe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfbd8c9c22ca76b3662d0e53a4f79719fdc684027": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x16bb9951a36fce71e2ef57890b786145e0ba8492": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2dc13c6bda81b202281e796953a7323de675b33c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0d18e30e252008d83f51dae00d36873ddd9e24a6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8075693f48668a264b9fa313b47f52712fcc12b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0f35109cc3ceaf729609c3109310791bd616c84a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe40aaa5ce1dac0b7dc24c9d0284f27e17c3fe4a2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x782186952ef2ca75ea91c95aef25bbdcffb4bb1a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6d20c35f65d9899b6d6b74f8466e824580f9a165": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1ab3580b6d258e31ca0a3efdb93173d081dd64af": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x95b198f900d19a80d3d7e47b7b17708af254f9ac": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7fb23b0d330ea4ac4f3cecce1eb81fb0bfb3ed4b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f70929ba287ac85dc2431c85382ccd9e6b0d185": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x58f8f1138be2192696378629fc9aa23c7910dc70": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xcaa6028bb913027855dd0f9e70aed19da225e0f998273c7b86210d72f99de15f:1",
+        "condition_id": "0xcaa6028bb913027855dd0f9e70aed19da225e0f998273c7b86210d72f99de15f",
+        "title": "Boston Red Sox vs. Toronto Blue Jays",
+        "outcome": "Toronto Blue Jays",
+        "outcome_index": 1,
+        "whale_count": 6,
+        "wallets": [
+          "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
+          "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+          "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1",
+          "0x2dc13c6bda81b202281e796953a7323de675b33c",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+          "0x1ab3580b6d258e31ca0a3efdb93173d081dd64af"
+        ],
+        "ranks": [
+          5,
+          6,
+          7,
+          8,
+          15,
+          16
+        ],
+        "total_value_usd": 385906.28,
+        "score": 17.1913,
+        "category": "MLB",
+        "end_date": "2026-08-17",
+        "entry_price": 0.0455
+      },
+      {
+        "signal_key": "0x90434cd7a7a329acbdc904829ef9828f700d2e190d6a1e03f06a834adee4d5b9:1",
+        "condition_id": "0x90434cd7a7a329acbdc904829ef9828f700d2e190d6a1e03f06a834adee4d5b9",
+        "title": "Baltimore Orioles vs. Minnesota Twins",
+        "outcome": "Minnesota Twins",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
+          "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+          "0xc8075693f48668a264b9fa313b47f52712fcc12b"
+        ],
+        "ranks": [
+          5,
+          6,
+          10
+        ],
+        "total_value_usd": 191540.04,
+        "score": 9.933,
+        "category": "MLB",
+        "end_date": "2026-08-17",
+        "entry_price": 0.0455
+      },
+      {
+        "signal_key": "0x8502d42b05ae4df3f4d1b7cddff5579bbeea7e76997db52be8af729ef1aea8f9:1",
+        "condition_id": "0x8502d42b05ae4df3f4d1b7cddff5579bbeea7e76997db52be8af729ef1aea8f9",
+        "title": "Milwaukee Brewers vs. San Diego Padres",
+        "outcome": "San Diego Padres",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1",
+          "0x6d20c35f65d9899b6d6b74f8466e824580f9a165",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
+        ],
+        "ranks": [
+          7,
+          14,
+          15
+        ],
+        "total_value_usd": 4843.48,
+        "score": 4.1721,
+        "category": "MLB",
+        "end_date": "2026-08-18",
+        "entry_price": 0.0455
+      }
+    ]
   }
 ]
