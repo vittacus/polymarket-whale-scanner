@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-11T05:08:10+00:00",
-  "total_signals": 836,
-  "total_resolved": 787,
+  "generated_at": "2026-08-11T06:08:48+00:00",
+  "total_signals": 837,
+  "total_resolved": 789,
   "total_correct": 500,
-  "overall_hit_rate": 63.5,
+  "overall_hit_rate": 63.4,
   "by_tier": {
     "Strong": {
-      "total": 332,
-      "resolved": 319,
+      "total": 333,
+      "resolved": 320,
       "correct": 214,
-      "hit_rate": 67.1
+      "hit_rate": 66.9
     },
     "Moderate": {
       "total": 455,
-      "resolved": 421,
+      "resolved": 422,
       "correct": 263,
-      "hit_rate": 62.5
+      "hit_rate": 62.3
     },
     "Weak": {
       "total": 49,
@@ -14198,10 +14198,10 @@
       "total_value_usd": 107677.28,
       "entry_price": 0.0475,
       "end_date": "2026-08-18",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Los Angeles Dodgers",
+      "resolved_date": "2026-08-18"
     },
     {
       "signal_key": "0xcb3dc8ab6eb182f5e36dcacf90f600708452c795fe520f92f55dce10ebe0e589:1",
@@ -14231,6 +14231,23 @@
       "score": 5.589,
       "total_value_usd": 43308.46,
       "entry_price": 0.0475,
+      "end_date": "2026-08-18",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Texas Rangers",
+      "resolved_date": "2026-08-18"
+    },
+    {
+      "signal_key": "0x8fb8c5b5e504f8b1bbf18ac9aa85aefc65bba1ffc5075c91910d0dd9767c7486:1",
+      "condition_id": "0x8fb8c5b5e504f8b1bbf18ac9aa85aefc65bba1ffc5075c91910d0dd9767c7486",
+      "title": "National Bank Open: Rafael Jodar vs Arthur Fils",
+      "category": "Tennis",
+      "whale_direction": "Arthur Fils",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 23.2757,
+      "total_value_usd": 121595.07,
+      "entry_price": 0.0445,
       "end_date": "2026-08-18",
       "resolved": false,
       "correct": null,
