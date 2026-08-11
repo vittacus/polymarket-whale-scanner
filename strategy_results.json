@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-11T11:35:59+00:00",
-  "total_evaluated": 838,
-  "total_pending": 49,
+  "generated_at": "2026-08-11T12:16:30+00:00",
+  "total_evaluated": 839,
+  "total_pending": 50,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 838,
+      "signals_evaluated": 839,
       "correct": 500,
       "wrong": 289,
-      "pending": 49,
+      "pending": 50,
       "win_rate": 63.4,
       "signals": [
         {
@@ -11744,6 +11744,20 @@
           "end_date": "2027-01-01",
           "total_value_usd": 915816.16,
           "result": "pending"
+        },
+        {
+          "signal_key": "0x3d2a07d5824841b8bca746b19ff747093d34308209d402fe1d82387e98fe9cde:0",
+          "condition_id": "0x3d2a07d5824841b8bca746b19ff747093d34308209d402fe1d82387e98fe9cde",
+          "title": "Astana: Sergey Fomin vs Maxim Zhukov",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Sergey Fomin",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-17",
+          "total_value_usd": 303434.58,
+          "result": "pending"
         }
       ]
     },
@@ -11751,10 +11765,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 168,
+      "signals_evaluated": 169,
       "correct": 99,
       "wrong": 51,
-      "pending": 18,
+      "pending": 19,
       "win_rate": 66.0,
       "signals": [
         {
@@ -14108,6 +14122,20 @@
           "end_date": "2027-01-01",
           "total_value_usd": 915816.16,
           "result": "pending"
+        },
+        {
+          "signal_key": "0x3d2a07d5824841b8bca746b19ff747093d34308209d402fe1d82387e98fe9cde:0",
+          "condition_id": "0x3d2a07d5824841b8bca746b19ff747093d34308209d402fe1d82387e98fe9cde",
+          "title": "Astana: Sergey Fomin vs Maxim Zhukov",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Sergey Fomin",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-17",
+          "total_value_usd": 303434.58,
+          "result": "pending"
         }
       ]
     },
@@ -14115,10 +14143,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 168,
+      "signals_evaluated": 169,
       "correct": 51,
       "wrong": 99,
-      "pending": 18,
+      "pending": 19,
       "win_rate": 34.0,
       "signals": [
         {
@@ -16471,6 +16499,20 @@
           "resolved_date": null,
           "end_date": "2027-01-01",
           "total_value_usd": 915816.16,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x3d2a07d5824841b8bca746b19ff747093d34308209d402fe1d82387e98fe9cde:0",
+          "condition_id": "0x3d2a07d5824841b8bca746b19ff747093d34308209d402fe1d82387e98fe9cde",
+          "title": "Astana: Sergey Fomin vs Maxim Zhukov",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Sergey Fomin",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-17",
+          "total_value_usd": 303434.58,
           "result": "pending"
         }
       ]
