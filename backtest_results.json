@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-11T21:18:53+00:00",
+  "generated_at": "2026-08-11T22:11:48+00:00",
   "total_signals": 839,
-  "total_resolved": 790,
+  "total_resolved": 791,
   "total_correct": 501,
-  "overall_hit_rate": 63.4,
+  "overall_hit_rate": 63.3,
   "by_tier": {
     "Strong": {
       "total": 334,
-      "resolved": 321,
+      "resolved": 322,
       "correct": 215,
-      "hit_rate": 67.0
+      "hit_rate": 66.8
     },
     "Moderate": {
       "total": 456,
@@ -14249,10 +14249,10 @@
       "total_value_usd": 121595.07,
       "entry_price": 0.0445,
       "end_date": "2026-08-18",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Rafael Jodar",
+      "resolved_date": "2026-08-18"
     },
     {
       "signal_key": "0x9cb23d04b2ded06147482076688b69b487a8d982c63ebdda2ab3678cf27cf390:1",
