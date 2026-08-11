@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-11T02:09:56+00:00",
-  "total_evaluated": 833,
-  "total_pending": 50,
+  "generated_at": "2026-08-11T03:59:56+00:00",
+  "total_evaluated": 836,
+  "total_pending": 51,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 833,
-      "correct": 497,
+      "signals_evaluated": 836,
+      "correct": 499,
       "wrong": 286,
-      "pending": 50,
-      "win_rate": 63.5,
+      "pending": 51,
+      "win_rate": 63.6,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -11641,11 +11641,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Toronto Blue Jays",
+          "resolved_date": "2026-08-17",
           "end_date": "2026-08-17",
           "total_value_usd": 385906.28,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x90434cd7a7a329acbdc904829ef9828f700d2e190d6a1e03f06a834adee4d5b9:1",
@@ -11655,11 +11655,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Minnesota Twins",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Minnesota Twins",
+          "resolved_date": "2026-08-17",
           "end_date": "2026-08-17",
           "total_value_usd": 191540.04,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x8502d42b05ae4df3f4d1b7cddff5579bbeea7e76997db52be8af729ef1aea8f9:1",
@@ -11673,6 +11673,48 @@
           "resolved_date": null,
           "end_date": "2026-08-18",
           "total_value_usd": 4843.48,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe7ee3b4085b8dfba1fbe9cdd6bb28d1d2dad1eaafaeff28c6135309f853b8b50:0",
+          "condition_id": "0xe7ee3b4085b8dfba1fbe9cdd6bb28d1d2dad1eaafaeff28c6135309f853b8b50",
+          "title": "Kansas City Royals vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0475,
+          "whale_direction": "Kansas City Royals",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-18",
+          "total_value_usd": 107677.28,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xcb3dc8ab6eb182f5e36dcacf90f600708452c795fe520f92f55dce10ebe0e589:1",
+          "condition_id": "0xcb3dc8ab6eb182f5e36dcacf90f600708452c795fe520f92f55dce10ebe0e589",
+          "title": "Tampa Bay Rays vs. Athletics",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0475,
+          "whale_direction": "Athletics",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-18",
+          "total_value_usd": 69950.71,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x42ea9a1be998877b51d92890d6b1838ebe092de1c8389edb232529b78ba367fc:1",
+          "condition_id": "0x42ea9a1be998877b51d92890d6b1838ebe092de1c8389edb232529b78ba367fc",
+          "title": "Texas Rangers vs. Los Angeles Angels",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0475,
+          "whale_direction": "Los Angeles Angels",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-18",
+          "total_value_usd": 43308.46,
           "result": "pending"
         }
       ]
@@ -11681,11 +11723,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 163,
-      "correct": 96,
+      "signals_evaluated": 166,
+      "correct": 98,
       "wrong": 48,
-      "pending": 19,
-      "win_rate": 66.7,
+      "pending": 20,
+      "win_rate": 67.1,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -13935,11 +13977,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Toronto Blue Jays",
+          "resolved_date": "2026-08-17",
           "end_date": "2026-08-17",
           "total_value_usd": 385906.28,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x90434cd7a7a329acbdc904829ef9828f700d2e190d6a1e03f06a834adee4d5b9:1",
@@ -13949,11 +13991,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Minnesota Twins",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Minnesota Twins",
+          "resolved_date": "2026-08-17",
           "end_date": "2026-08-17",
           "total_value_usd": 191540.04,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x8502d42b05ae4df3f4d1b7cddff5579bbeea7e76997db52be8af729ef1aea8f9:1",
@@ -13967,6 +14009,48 @@
           "resolved_date": null,
           "end_date": "2026-08-18",
           "total_value_usd": 4843.48,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe7ee3b4085b8dfba1fbe9cdd6bb28d1d2dad1eaafaeff28c6135309f853b8b50:0",
+          "condition_id": "0xe7ee3b4085b8dfba1fbe9cdd6bb28d1d2dad1eaafaeff28c6135309f853b8b50",
+          "title": "Kansas City Royals vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0475,
+          "whale_direction": "Kansas City Royals",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-18",
+          "total_value_usd": 107677.28,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xcb3dc8ab6eb182f5e36dcacf90f600708452c795fe520f92f55dce10ebe0e589:1",
+          "condition_id": "0xcb3dc8ab6eb182f5e36dcacf90f600708452c795fe520f92f55dce10ebe0e589",
+          "title": "Tampa Bay Rays vs. Athletics",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0475,
+          "whale_direction": "Athletics",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-18",
+          "total_value_usd": 69950.71,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x42ea9a1be998877b51d92890d6b1838ebe092de1c8389edb232529b78ba367fc:1",
+          "condition_id": "0x42ea9a1be998877b51d92890d6b1838ebe092de1c8389edb232529b78ba367fc",
+          "title": "Texas Rangers vs. Los Angeles Angels",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0475,
+          "whale_direction": "Los Angeles Angels",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-18",
+          "total_value_usd": 43308.46,
           "result": "pending"
         }
       ]
@@ -13975,11 +14059,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 163,
+      "signals_evaluated": 166,
       "correct": 48,
-      "wrong": 96,
-      "pending": 19,
-      "win_rate": 33.3,
+      "wrong": 98,
+      "pending": 20,
+      "win_rate": 32.9,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -16229,11 +16313,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Toronto Blue Jays",
+          "resolved_date": "2026-08-17",
           "end_date": "2026-08-17",
           "total_value_usd": 385906.28,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x90434cd7a7a329acbdc904829ef9828f700d2e190d6a1e03f06a834adee4d5b9:1",
@@ -16243,11 +16327,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Minnesota Twins",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Minnesota Twins",
+          "resolved_date": "2026-08-17",
           "end_date": "2026-08-17",
           "total_value_usd": 191540.04,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x8502d42b05ae4df3f4d1b7cddff5579bbeea7e76997db52be8af729ef1aea8f9:1",
@@ -16261,6 +16345,48 @@
           "resolved_date": null,
           "end_date": "2026-08-18",
           "total_value_usd": 4843.48,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe7ee3b4085b8dfba1fbe9cdd6bb28d1d2dad1eaafaeff28c6135309f853b8b50:0",
+          "condition_id": "0xe7ee3b4085b8dfba1fbe9cdd6bb28d1d2dad1eaafaeff28c6135309f853b8b50",
+          "title": "Kansas City Royals vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0475,
+          "whale_direction": "Kansas City Royals",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-18",
+          "total_value_usd": 107677.28,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xcb3dc8ab6eb182f5e36dcacf90f600708452c795fe520f92f55dce10ebe0e589:1",
+          "condition_id": "0xcb3dc8ab6eb182f5e36dcacf90f600708452c795fe520f92f55dce10ebe0e589",
+          "title": "Tampa Bay Rays vs. Athletics",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0475,
+          "whale_direction": "Athletics",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-18",
+          "total_value_usd": 69950.71,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x42ea9a1be998877b51d92890d6b1838ebe092de1c8389edb232529b78ba367fc:1",
+          "condition_id": "0x42ea9a1be998877b51d92890d6b1838ebe092de1c8389edb232529b78ba367fc",
+          "title": "Texas Rangers vs. Los Angeles Angels",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0475,
+          "whale_direction": "Los Angeles Angels",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-18",
+          "total_value_usd": 43308.46,
           "result": "pending"
         }
       ]
