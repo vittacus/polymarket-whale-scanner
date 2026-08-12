@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-12T04:22:53+00:00",
+  "generated_at": "2026-08-12T05:58:49+00:00",
   "total_signals": 855,
-  "total_resolved": 800,
-  "total_correct": 507,
+  "total_resolved": 806,
+  "total_correct": 511,
   "overall_hit_rate": 63.4,
   "by_tier": {
     "Strong": {
       "total": 338,
-      "resolved": 324,
-      "correct": 217,
-      "hit_rate": 67.0
+      "resolved": 326,
+      "correct": 219,
+      "hit_rate": 67.2
     },
     "Moderate": {
       "total": 467,
-      "resolved": 429,
-      "correct": 267,
-      "hit_rate": 62.2
+      "resolved": 433,
+      "correct": 269,
+      "hit_rate": 62.1
     },
     "Weak": {
       "total": 50,
@@ -14419,10 +14419,10 @@
       "total_value_usd": 9201.9,
       "entry_price": 0.0455,
       "end_date": "2026-08-19",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "San Diego Padres",
+      "resolved_date": "2026-08-19"
     },
     {
       "signal_key": "0xd07edae16b88a60c16ec1386d1673cc89b771a3af02af782f78f114bed140d4c:0",
@@ -14487,10 +14487,10 @@
       "total_value_usd": 327472.44,
       "entry_price": 0.0445,
       "end_date": "2026-08-19",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Los Angeles Dodgers",
+      "resolved_date": "2026-08-19"
     },
     {
       "signal_key": "0x89686353299b5d95c4b0720840dfa7516850a102764d65e3f077302aa2586dea:0",
@@ -14504,10 +14504,10 @@
       "total_value_usd": 156921.35,
       "entry_price": 0.0445,
       "end_date": "2026-08-19",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Tampa Bay Rays",
+      "resolved_date": "2026-08-19"
     },
     {
       "signal_key": "0x7755dfdd422bd11df90d3ab0950b0fcacf0bb1b82662986726e742a25bef3aca:1",
@@ -14521,10 +14521,10 @@
       "total_value_usd": 80583.89,
       "entry_price": 0.0445,
       "end_date": "2026-08-19",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "San Diego Padres",
+      "resolved_date": "2026-08-19"
     },
     {
       "signal_key": "0xc37b9b2827f9e8c9bbe3800e05e47f5643e64bc40e5ea08bbb7708f244b4031a:0",
@@ -14538,10 +14538,10 @@
       "total_value_usd": 84392.9,
       "entry_price": 0.0445,
       "end_date": "2026-08-19",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Colorado Rockies",
+      "resolved_date": "2026-08-19"
     },
     {
       "signal_key": "0x37fa573f44b8faa34723af9d754381577958f7d96c00a3f3f00bdf27b353d6c9:0",
@@ -14555,10 +14555,10 @@
       "total_value_usd": 20270.24,
       "entry_price": 0.0445,
       "end_date": "2026-08-19",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Los Angeles Dodgers",
+      "resolved_date": "2026-08-19"
     }
   ]
 }
