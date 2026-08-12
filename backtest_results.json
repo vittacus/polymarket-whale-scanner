@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-12T22:07:08+00:00",
-  "total_signals": 857,
-  "total_resolved": 808,
+  "generated_at": "2026-08-12T23:06:07+00:00",
+  "total_signals": 859,
+  "total_resolved": 809,
   "total_correct": 513,
-  "overall_hit_rate": 63.5,
+  "overall_hit_rate": 63.4,
   "by_tier": {
     "Strong": {
-      "total": 340,
-      "resolved": 327,
+      "total": 342,
+      "resolved": 328,
       "correct": 220,
-      "hit_rate": 67.3
+      "hit_rate": 67.1
     },
     "Moderate": {
       "total": 467,
@@ -14587,6 +14587,40 @@
       "tier": "Strong",
       "score": 22.0384,
       "total_value_usd": 29031.61,
+      "entry_price": 0.0465,
+      "end_date": "2026-08-19",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Houston Astros",
+      "resolved_date": "2026-08-19"
+    },
+    {
+      "signal_key": "0x987f24d77f17d9086dabc50d1d6680121be6279f55522f3c58298fc9e1c14fa5:1",
+      "condition_id": "0x987f24d77f17d9086dabc50d1d6680121be6279f55522f3c58298fc9e1c14fa5",
+      "title": "National Bank Open: Rafael Jodar vs Brandon Nakashima",
+      "category": "Tennis",
+      "whale_direction": "Brandon Nakashima",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 25.8943,
+      "total_value_usd": 78724.37,
+      "entry_price": 0.0465,
+      "end_date": "2026-08-19",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x3123fec7392b672800fe8029a76d6b86d8de98146ccd796b11d8fe34837a4cdb:0",
+      "condition_id": "0x3123fec7392b672800fe8029a76d6b86d8de98146ccd796b11d8fe34837a4cdb",
+      "title": "Milwaukee Brewers vs. San Diego Padres",
+      "category": "MLB",
+      "whale_direction": "Milwaukee Brewers",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 20.2968,
+      "total_value_usd": 10704.69,
       "entry_price": 0.0465,
       "end_date": "2026-08-19",
       "resolved": false,
