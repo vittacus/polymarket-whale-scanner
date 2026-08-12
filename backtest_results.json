@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-12T19:25:36+00:00",
-  "total_signals": 855,
+  "generated_at": "2026-08-12T20:15:24+00:00",
+  "total_signals": 856,
   "total_resolved": 807,
   "total_correct": 512,
   "overall_hit_rate": 63.4,
   "by_tier": {
     "Strong": {
-      "total": 338,
+      "total": 339,
       "resolved": 326,
       "correct": 219,
       "hit_rate": 67.2
@@ -14559,6 +14559,23 @@
       "correct": false,
       "resolved_outcome": "Los Angeles Dodgers",
       "resolved_date": "2026-08-19"
+    },
+    {
+      "signal_key": "0xc1d8f847cc2f36de98903edbe8b59796c41d8cb79578234027375624c8094c45:1",
+      "condition_id": "0xc1d8f847cc2f36de98903edbe8b59796c41d8cb79578234027375624c8094c45",
+      "title": "Philadelphia Phillies vs. St. Louis Cardinals",
+      "category": "MLB",
+      "whale_direction": "St. Louis Cardinals",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 21.9222,
+      "total_value_usd": 27501.26,
+      "entry_price": 0.0465,
+      "end_date": "2026-08-19",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
