@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-12T02:08:47+00:00",
-  "total_signals": 850,
-  "total_resolved": 792,
-  "total_correct": 502,
+  "generated_at": "2026-08-12T04:22:53+00:00",
+  "total_signals": 855,
+  "total_resolved": 800,
+  "total_correct": 507,
   "overall_hit_rate": 63.4,
   "by_tier": {
     "Strong": {
-      "total": 336,
-      "resolved": 322,
-      "correct": 215,
-      "hit_rate": 66.8
+      "total": 338,
+      "resolved": 324,
+      "correct": 217,
+      "hit_rate": 67.0
     },
     "Moderate": {
-      "total": 464,
-      "resolved": 423,
-      "correct": 264,
-      "hit_rate": 62.4
+      "total": 467,
+      "resolved": 429,
+      "correct": 267,
+      "hit_rate": 62.2
     },
     "Weak": {
       "total": 50,
@@ -14317,10 +14317,10 @@
       "total_value_usd": 216494.32,
       "entry_price": 0.0455,
       "end_date": "2026-08-18",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Chicago Cubs",
+      "resolved_date": "2026-08-18"
     },
     {
       "signal_key": "0x779345b88c308f9038369434d006bec6893d6f363084ba568bcc071121669e0d:1",
@@ -14334,10 +14334,10 @@
       "total_value_usd": 110352.4,
       "entry_price": 0.0455,
       "end_date": "2026-08-18",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Toronto Blue Jays",
+      "resolved_date": "2026-08-18"
     },
     {
       "signal_key": "0xf9a566d0366e09912a8a36acf39ed96550bb182d3c024e2837238000105eb38a:0",
@@ -14351,10 +14351,10 @@
       "total_value_usd": 162258.55,
       "entry_price": 0.0455,
       "end_date": "2026-08-18",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Elena Rybakina",
+      "resolved_date": "2026-08-18"
     },
     {
       "signal_key": "0xd07edae16b88a60c16ec1386d1673cc89b771a3af02af782f78f114bed140d4c:1",
@@ -14368,10 +14368,10 @@
       "total_value_usd": 53024.56,
       "entry_price": 0.0455,
       "end_date": "2026-08-18",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "St. Louis Cardinals",
+      "resolved_date": "2026-08-18"
     },
     {
       "signal_key": "0x6c0add0e3e5158fefa03e9b54e354c27aba34cf2c073bda4506d7d9dd429be24:0",
@@ -14385,10 +14385,10 @@
       "total_value_usd": 66255.46,
       "entry_price": 0.0455,
       "end_date": "2026-08-18",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Stefanos Sakellaridis",
+      "resolved_date": "2026-08-18"
     },
     {
       "signal_key": "0xf9a566d0366e09912a8a36acf39ed96550bb182d3c024e2837238000105eb38a:1",
@@ -14402,10 +14402,10 @@
       "total_value_usd": 65061.26,
       "entry_price": 0.0455,
       "end_date": "2026-08-18",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Elena Rybakina",
+      "resolved_date": "2026-08-18"
     },
     {
       "signal_key": "0x7755dfdd422bd11df90d3ab0950b0fcacf0bb1b82662986726e742a25bef3aca:0",
@@ -14436,10 +14436,10 @@
       "total_value_usd": 6051.64,
       "entry_price": 0.0455,
       "end_date": "2026-08-18",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "St. Louis Cardinals",
+      "resolved_date": "2026-08-18"
     },
     {
       "signal_key": "0x6280f7eb7101891a5d70e9448c8ad818c7e56e88cc46aa80defb3e9e691f98aa:1",
@@ -14453,10 +14453,10 @@
       "total_value_usd": 16440.33,
       "entry_price": 0.0455,
       "end_date": "2026-08-18",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Yibing Wu",
+      "resolved_date": "2026-08-18"
     },
     {
       "signal_key": "0x9b6139d1d48960e33052fdcdbcf3c5dbe7129fe95bdac9133e9094835960d627:0",
@@ -14470,6 +14470,91 @@
       "total_value_usd": 9613.61,
       "entry_price": 0.0455,
       "end_date": "2026-08-17",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x37fa573f44b8faa34723af9d754381577958f7d96c00a3f3f00bdf27b353d6c9:1",
+      "condition_id": "0x37fa573f44b8faa34723af9d754381577958f7d96c00a3f3f00bdf27b353d6c9",
+      "title": "Kansas City Royals vs. Los Angeles Dodgers",
+      "category": "MLB",
+      "whale_direction": "Los Angeles Dodgers",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 15.3544,
+      "total_value_usd": 327472.44,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-19",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x89686353299b5d95c4b0720840dfa7516850a102764d65e3f077302aa2586dea:0",
+      "condition_id": "0x89686353299b5d95c4b0720840dfa7516850a102764d65e3f077302aa2586dea",
+      "title": "Tampa Bay Rays vs. Athletics",
+      "category": "MLB",
+      "whale_direction": "Tampa Bay Rays",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 11.465,
+      "total_value_usd": 156921.35,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-19",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x7755dfdd422bd11df90d3ab0950b0fcacf0bb1b82662986726e742a25bef3aca:1",
+      "condition_id": "0x7755dfdd422bd11df90d3ab0950b0fcacf0bb1b82662986726e742a25bef3aca",
+      "title": "Milwaukee Brewers vs. San Diego Padres",
+      "category": "MLB",
+      "whale_direction": "San Diego Padres",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 8.5669,
+      "total_value_usd": 80583.89,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-19",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xc37b9b2827f9e8c9bbe3800e05e47f5643e64bc40e5ea08bbb7708f244b4031a:0",
+      "condition_id": "0xc37b9b2827f9e8c9bbe3800e05e47f5643e64bc40e5ea08bbb7708f244b4031a",
+      "title": "Colorado Rockies vs. Arizona Diamondbacks",
+      "category": "MLB",
+      "whale_direction": "Colorado Rockies",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 6.9477,
+      "total_value_usd": 84392.9,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-19",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x37fa573f44b8faa34723af9d754381577958f7d96c00a3f3f00bdf27b353d6c9:0",
+      "condition_id": "0x37fa573f44b8faa34723af9d754381577958f7d96c00a3f3f00bdf27b353d6c9",
+      "title": "Kansas City Royals vs. Los Angeles Dodgers",
+      "category": "MLB",
+      "whale_direction": "Kansas City Royals",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 6.6526,
+      "total_value_usd": 20270.24,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-19",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-12T02:08:47+00:00",
-  "total_evaluated": 850,
-  "total_pending": 58,
+  "generated_at": "2026-08-12T04:22:53+00:00",
+  "total_evaluated": 855,
+  "total_pending": 55,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 850,
-      "correct": 502,
-      "wrong": 290,
-      "pending": 58,
+      "signals_evaluated": 855,
+      "correct": 507,
+      "wrong": 293,
+      "pending": 55,
       "win_rate": 63.4,
       "signals": [
         {
@@ -11781,11 +11781,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Chicago Cubs",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Chicago Cubs",
+          "resolved_date": "2026-08-18",
           "end_date": "2026-08-18",
           "total_value_usd": 216494.32,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x779345b88c308f9038369434d006bec6893d6f363084ba568bcc071121669e0d:1",
@@ -11795,11 +11795,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Toronto Blue Jays",
+          "resolved_date": "2026-08-18",
           "end_date": "2026-08-18",
           "total_value_usd": 110352.4,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf9a566d0366e09912a8a36acf39ed96550bb182d3c024e2837238000105eb38a:0",
@@ -11809,11 +11809,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Naomi Osaka",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elena Rybakina",
+          "resolved_date": "2026-08-18",
           "end_date": "2026-08-18",
           "total_value_usd": 162258.55,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xd07edae16b88a60c16ec1386d1673cc89b771a3af02af782f78f114bed140d4c:1",
@@ -11823,11 +11823,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "St. Louis Cardinals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "St. Louis Cardinals",
+          "resolved_date": "2026-08-18",
           "end_date": "2026-08-18",
           "total_value_usd": 53024.56,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x6c0add0e3e5158fefa03e9b54e354c27aba34cf2c073bda4506d7d9dd429be24:0",
@@ -11837,11 +11837,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Martin Damm",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Stefanos Sakellaridis",
+          "resolved_date": "2026-08-18",
           "end_date": "2026-08-18",
           "total_value_usd": 66255.46,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xf9a566d0366e09912a8a36acf39ed96550bb182d3c024e2837238000105eb38a:1",
@@ -11851,11 +11851,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Elena Rybakina",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elena Rybakina",
+          "resolved_date": "2026-08-18",
           "end_date": "2026-08-18",
           "total_value_usd": 65061.26,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x7755dfdd422bd11df90d3ab0950b0fcacf0bb1b82662986726e742a25bef3aca:0",
@@ -11879,11 +11879,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Philadelphia Phillies",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "St. Louis Cardinals",
+          "resolved_date": "2026-08-18",
           "end_date": "2026-08-18",
           "total_value_usd": 6051.64,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x6280f7eb7101891a5d70e9448c8ad818c7e56e88cc46aa80defb3e9e691f98aa:1",
@@ -11893,11 +11893,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Yibing Wu",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Yibing Wu",
+          "resolved_date": "2026-08-18",
           "end_date": "2026-08-18",
           "total_value_usd": 16440.33,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x9b6139d1d48960e33052fdcdbcf3c5dbe7129fe95bdac9133e9094835960d627:0",
@@ -11911,6 +11911,76 @@
           "resolved_date": null,
           "end_date": "2026-08-17",
           "total_value_usd": 9613.61,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x37fa573f44b8faa34723af9d754381577958f7d96c00a3f3f00bdf27b353d6c9:1",
+          "condition_id": "0x37fa573f44b8faa34723af9d754381577958f7d96c00a3f3f00bdf27b353d6c9",
+          "title": "Kansas City Royals vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-19",
+          "total_value_usd": 327472.44,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x89686353299b5d95c4b0720840dfa7516850a102764d65e3f077302aa2586dea:0",
+          "condition_id": "0x89686353299b5d95c4b0720840dfa7516850a102764d65e3f077302aa2586dea",
+          "title": "Tampa Bay Rays vs. Athletics",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Tampa Bay Rays",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-19",
+          "total_value_usd": 156921.35,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x7755dfdd422bd11df90d3ab0950b0fcacf0bb1b82662986726e742a25bef3aca:1",
+          "condition_id": "0x7755dfdd422bd11df90d3ab0950b0fcacf0bb1b82662986726e742a25bef3aca",
+          "title": "Milwaukee Brewers vs. San Diego Padres",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "San Diego Padres",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-19",
+          "total_value_usd": 80583.89,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xc37b9b2827f9e8c9bbe3800e05e47f5643e64bc40e5ea08bbb7708f244b4031a:0",
+          "condition_id": "0xc37b9b2827f9e8c9bbe3800e05e47f5643e64bc40e5ea08bbb7708f244b4031a",
+          "title": "Colorado Rockies vs. Arizona Diamondbacks",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Colorado Rockies",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-19",
+          "total_value_usd": 84392.9,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x37fa573f44b8faa34723af9d754381577958f7d96c00a3f3f00bdf27b353d6c9:0",
+          "condition_id": "0x37fa573f44b8faa34723af9d754381577958f7d96c00a3f3f00bdf27b353d6c9",
+          "title": "Kansas City Royals vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Kansas City Royals",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-19",
+          "total_value_usd": 20270.24,
           "result": "pending"
         }
       ]
@@ -11919,11 +11989,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 180,
-      "correct": 101,
-      "wrong": 52,
-      "pending": 27,
-      "win_rate": 66.0,
+      "signals_evaluated": 185,
+      "correct": 106,
+      "wrong": 55,
+      "pending": 24,
+      "win_rate": 65.8,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -14313,11 +14383,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Chicago Cubs",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Chicago Cubs",
+          "resolved_date": "2026-08-18",
           "end_date": "2026-08-18",
           "total_value_usd": 216494.32,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x779345b88c308f9038369434d006bec6893d6f363084ba568bcc071121669e0d:1",
@@ -14327,11 +14397,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Toronto Blue Jays",
+          "resolved_date": "2026-08-18",
           "end_date": "2026-08-18",
           "total_value_usd": 110352.4,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf9a566d0366e09912a8a36acf39ed96550bb182d3c024e2837238000105eb38a:0",
@@ -14341,11 +14411,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Naomi Osaka",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elena Rybakina",
+          "resolved_date": "2026-08-18",
           "end_date": "2026-08-18",
           "total_value_usd": 162258.55,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xd07edae16b88a60c16ec1386d1673cc89b771a3af02af782f78f114bed140d4c:1",
@@ -14355,11 +14425,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "St. Louis Cardinals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "St. Louis Cardinals",
+          "resolved_date": "2026-08-18",
           "end_date": "2026-08-18",
           "total_value_usd": 53024.56,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x6c0add0e3e5158fefa03e9b54e354c27aba34cf2c073bda4506d7d9dd429be24:0",
@@ -14369,11 +14439,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Martin Damm",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Stefanos Sakellaridis",
+          "resolved_date": "2026-08-18",
           "end_date": "2026-08-18",
           "total_value_usd": 66255.46,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xf9a566d0366e09912a8a36acf39ed96550bb182d3c024e2837238000105eb38a:1",
@@ -14383,11 +14453,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Elena Rybakina",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elena Rybakina",
+          "resolved_date": "2026-08-18",
           "end_date": "2026-08-18",
           "total_value_usd": 65061.26,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x7755dfdd422bd11df90d3ab0950b0fcacf0bb1b82662986726e742a25bef3aca:0",
@@ -14411,11 +14481,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Philadelphia Phillies",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "St. Louis Cardinals",
+          "resolved_date": "2026-08-18",
           "end_date": "2026-08-18",
           "total_value_usd": 6051.64,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x6280f7eb7101891a5d70e9448c8ad818c7e56e88cc46aa80defb3e9e691f98aa:1",
@@ -14425,11 +14495,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Yibing Wu",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Yibing Wu",
+          "resolved_date": "2026-08-18",
           "end_date": "2026-08-18",
           "total_value_usd": 16440.33,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x9b6139d1d48960e33052fdcdbcf3c5dbe7129fe95bdac9133e9094835960d627:0",
@@ -14443,6 +14513,76 @@
           "resolved_date": null,
           "end_date": "2026-08-17",
           "total_value_usd": 9613.61,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x37fa573f44b8faa34723af9d754381577958f7d96c00a3f3f00bdf27b353d6c9:1",
+          "condition_id": "0x37fa573f44b8faa34723af9d754381577958f7d96c00a3f3f00bdf27b353d6c9",
+          "title": "Kansas City Royals vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-19",
+          "total_value_usd": 327472.44,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x89686353299b5d95c4b0720840dfa7516850a102764d65e3f077302aa2586dea:0",
+          "condition_id": "0x89686353299b5d95c4b0720840dfa7516850a102764d65e3f077302aa2586dea",
+          "title": "Tampa Bay Rays vs. Athletics",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Tampa Bay Rays",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-19",
+          "total_value_usd": 156921.35,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x7755dfdd422bd11df90d3ab0950b0fcacf0bb1b82662986726e742a25bef3aca:1",
+          "condition_id": "0x7755dfdd422bd11df90d3ab0950b0fcacf0bb1b82662986726e742a25bef3aca",
+          "title": "Milwaukee Brewers vs. San Diego Padres",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "San Diego Padres",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-19",
+          "total_value_usd": 80583.89,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xc37b9b2827f9e8c9bbe3800e05e47f5643e64bc40e5ea08bbb7708f244b4031a:0",
+          "condition_id": "0xc37b9b2827f9e8c9bbe3800e05e47f5643e64bc40e5ea08bbb7708f244b4031a",
+          "title": "Colorado Rockies vs. Arizona Diamondbacks",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Colorado Rockies",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-19",
+          "total_value_usd": 84392.9,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x37fa573f44b8faa34723af9d754381577958f7d96c00a3f3f00bdf27b353d6c9:0",
+          "condition_id": "0x37fa573f44b8faa34723af9d754381577958f7d96c00a3f3f00bdf27b353d6c9",
+          "title": "Kansas City Royals vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Kansas City Royals",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-19",
+          "total_value_usd": 20270.24,
           "result": "pending"
         }
       ]
@@ -14451,11 +14591,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 180,
-      "correct": 52,
-      "wrong": 101,
-      "pending": 27,
-      "win_rate": 34.0,
+      "signals_evaluated": 185,
+      "correct": 55,
+      "wrong": 106,
+      "pending": 24,
+      "win_rate": 34.2,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -16845,11 +16985,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Chicago Cubs",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Chicago Cubs",
+          "resolved_date": "2026-08-18",
           "end_date": "2026-08-18",
           "total_value_usd": 216494.32,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x779345b88c308f9038369434d006bec6893d6f363084ba568bcc071121669e0d:1",
@@ -16859,11 +16999,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Toronto Blue Jays",
+          "resolved_date": "2026-08-18",
           "end_date": "2026-08-18",
           "total_value_usd": 110352.4,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xf9a566d0366e09912a8a36acf39ed96550bb182d3c024e2837238000105eb38a:0",
@@ -16873,11 +17013,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Naomi Osaka",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elena Rybakina",
+          "resolved_date": "2026-08-18",
           "end_date": "2026-08-18",
           "total_value_usd": 162258.55,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xd07edae16b88a60c16ec1386d1673cc89b771a3af02af782f78f114bed140d4c:1",
@@ -16887,11 +17027,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "St. Louis Cardinals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "St. Louis Cardinals",
+          "resolved_date": "2026-08-18",
           "end_date": "2026-08-18",
           "total_value_usd": 53024.56,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x6c0add0e3e5158fefa03e9b54e354c27aba34cf2c073bda4506d7d9dd429be24:0",
@@ -16901,11 +17041,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Martin Damm",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Stefanos Sakellaridis",
+          "resolved_date": "2026-08-18",
           "end_date": "2026-08-18",
           "total_value_usd": 66255.46,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf9a566d0366e09912a8a36acf39ed96550bb182d3c024e2837238000105eb38a:1",
@@ -16915,11 +17055,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Elena Rybakina",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elena Rybakina",
+          "resolved_date": "2026-08-18",
           "end_date": "2026-08-18",
           "total_value_usd": 65061.26,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x7755dfdd422bd11df90d3ab0950b0fcacf0bb1b82662986726e742a25bef3aca:0",
@@ -16943,11 +17083,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Philadelphia Phillies",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "St. Louis Cardinals",
+          "resolved_date": "2026-08-18",
           "end_date": "2026-08-18",
           "total_value_usd": 6051.64,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x6280f7eb7101891a5d70e9448c8ad818c7e56e88cc46aa80defb3e9e691f98aa:1",
@@ -16957,11 +17097,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Yibing Wu",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Yibing Wu",
+          "resolved_date": "2026-08-18",
           "end_date": "2026-08-18",
           "total_value_usd": 16440.33,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x9b6139d1d48960e33052fdcdbcf3c5dbe7129fe95bdac9133e9094835960d627:0",
@@ -16975,6 +17115,76 @@
           "resolved_date": null,
           "end_date": "2026-08-17",
           "total_value_usd": 9613.61,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x37fa573f44b8faa34723af9d754381577958f7d96c00a3f3f00bdf27b353d6c9:1",
+          "condition_id": "0x37fa573f44b8faa34723af9d754381577958f7d96c00a3f3f00bdf27b353d6c9",
+          "title": "Kansas City Royals vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-19",
+          "total_value_usd": 327472.44,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x89686353299b5d95c4b0720840dfa7516850a102764d65e3f077302aa2586dea:0",
+          "condition_id": "0x89686353299b5d95c4b0720840dfa7516850a102764d65e3f077302aa2586dea",
+          "title": "Tampa Bay Rays vs. Athletics",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Tampa Bay Rays",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-19",
+          "total_value_usd": 156921.35,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x7755dfdd422bd11df90d3ab0950b0fcacf0bb1b82662986726e742a25bef3aca:1",
+          "condition_id": "0x7755dfdd422bd11df90d3ab0950b0fcacf0bb1b82662986726e742a25bef3aca",
+          "title": "Milwaukee Brewers vs. San Diego Padres",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "San Diego Padres",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-19",
+          "total_value_usd": 80583.89,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xc37b9b2827f9e8c9bbe3800e05e47f5643e64bc40e5ea08bbb7708f244b4031a:0",
+          "condition_id": "0xc37b9b2827f9e8c9bbe3800e05e47f5643e64bc40e5ea08bbb7708f244b4031a",
+          "title": "Colorado Rockies vs. Arizona Diamondbacks",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Colorado Rockies",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-19",
+          "total_value_usd": 84392.9,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x37fa573f44b8faa34723af9d754381577958f7d96c00a3f3f00bdf27b353d6c9:0",
+          "condition_id": "0x37fa573f44b8faa34723af9d754381577958f7d96c00a3f3f00bdf27b353d6c9",
+          "title": "Kansas City Royals vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Kansas City Royals",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-19",
+          "total_value_usd": 20270.24,
           "result": "pending"
         }
       ]
