@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-12T20:15:24+00:00",
-  "total_signals": 856,
-  "total_resolved": 807,
-  "total_correct": 512,
-  "overall_hit_rate": 63.4,
+  "generated_at": "2026-08-12T21:08:25+00:00",
+  "total_signals": 857,
+  "total_resolved": 808,
+  "total_correct": 513,
+  "overall_hit_rate": 63.5,
   "by_tier": {
     "Strong": {
-      "total": 339,
-      "resolved": 326,
-      "correct": 219,
-      "hit_rate": 67.2
+      "total": 340,
+      "resolved": 327,
+      "correct": 220,
+      "hit_rate": 67.3
     },
     "Moderate": {
       "total": 467,
@@ -14570,6 +14570,23 @@
       "tier": "Strong",
       "score": 21.9222,
       "total_value_usd": 27501.26,
+      "entry_price": 0.0465,
+      "end_date": "2026-08-19",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "St. Louis Cardinals",
+      "resolved_date": "2026-08-19"
+    },
+    {
+      "signal_key": "0xef6cddf0164b51b3f3676bc6e7970610cc51cc17b72309432d616938e7c7892b:1",
+      "condition_id": "0xef6cddf0164b51b3f3676bc6e7970610cc51cc17b72309432d616938e7c7892b",
+      "title": "Houston Astros vs. San Francisco Giants",
+      "category": "MLB",
+      "whale_direction": "San Francisco Giants",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 22.0384,
+      "total_value_usd": 29031.61,
       "entry_price": 0.0465,
       "end_date": "2026-08-19",
       "resolved": false,
