@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-13T01:30:12+00:00",
-  "total_evaluated": 869,
-  "total_pending": 57,
+  "generated_at": "2026-08-13T03:46:11+00:00",
+  "total_evaluated": 875,
+  "total_pending": 53,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 869,
-      "correct": 514,
-      "wrong": 298,
-      "pending": 57,
-      "win_rate": 63.3,
+      "signals_evaluated": 875,
+      "correct": 519,
+      "wrong": 303,
+      "pending": 53,
+      "win_rate": 63.1,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -12047,11 +12047,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Toronto Blue Jays",
+          "resolved_date": "2026-08-19",
           "end_date": "2026-08-19",
           "total_value_usd": 454320.33,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x6e3f356278a605fba0f3097e30b3698d6cbe315fba0ec9b053e901e419e4a207:0",
@@ -12061,11 +12061,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Cleveland Guardians",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Cleveland Guardians",
+          "resolved_date": "2026-08-19",
           "end_date": "2026-08-19",
           "total_value_usd": 291968.15,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x4b43d9360a5e0d08b483bdf27cf0e1fefb6242a749a6fe698c7a62e14699bafc:1",
@@ -12075,11 +12075,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Ben Shelton",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Ben Shelton",
+          "resolved_date": "2026-08-19",
           "end_date": "2026-08-19",
           "total_value_usd": 246769.06,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc13d9babe7d5af00ea09824c7e075b13a71db6d9171d18447b03536f6a73517d:0",
@@ -12089,11 +12089,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Nicolas Mejia",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Nicolas Mejia",
+          "resolved_date": "2026-08-18",
           "end_date": "2026-08-18",
           "total_value_usd": 61856.77,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x3747cf8b39cdc5da353720234275e617992f8da827caaaf38ece03b8b3c56bbd:0",
@@ -12103,11 +12103,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Seattle Mariners",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-08-19",
           "end_date": "2026-08-19",
           "total_value_usd": 42372.68,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x4b43d9360a5e0d08b483bdf27cf0e1fefb6242a749a6fe698c7a62e14699bafc:0",
@@ -12117,11 +12117,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Learner Tien",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Ben Shelton",
+          "resolved_date": "2026-08-19",
           "end_date": "2026-08-19",
           "total_value_usd": 28015.21,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x486030835aa825fcdfddf1e98240a98fa3e130978a6618670d407f9ba8ed5ff6:1",
@@ -12131,11 +12131,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Leolia Jeanjean",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lucrezia Stefanini",
+          "resolved_date": "2026-08-19",
           "end_date": "2026-08-19",
           "total_value_usd": 5682.81,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xeea7cbc408080f9d73823bd328dc805c1dc7e6bb2d5366a9af7d1b7a11085bc7:0",
@@ -12145,11 +12145,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Yue Yuan",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Kayla Day",
+          "resolved_date": "2026-08-19",
           "end_date": "2026-08-19",
           "total_value_usd": 5469.42,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xdabf47b9d693ffd91e9fd053638fe5bd56c0896dd66f43cad66d947f71af08f7:0",
@@ -12159,11 +12159,11 @@
           "tier": "Moderate",
           "entry_price": 0.0465,
           "whale_direction": "Boston Red Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Toronto Blue Jays",
+          "resolved_date": "2026-08-19",
           "end_date": "2026-08-19",
           "total_value_usd": 81677.07,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x73e1ee98289a1f2c5eb9a2d08ddc1a4663b5ecfe4ec7917b79219378151fcd73:0",
@@ -12173,10 +12173,94 @@
           "tier": "Weak",
           "entry_price": 0.0465,
           "whale_direction": "Mark Lajal",
+          "resolved_outcome": "Mark Lajal",
+          "resolved_date": "2026-08-18",
+          "end_date": "2026-08-18",
+          "total_value_usd": 36828.12,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xa5edceb68a5d36b4724455efcd16d57d640400782fc977ea3471f4ff5feed9e9:0",
+          "condition_id": "0xa5edceb68a5d36b4724455efcd16d57d640400782fc977ea3471f4ff5feed9e9",
+          "title": "Texas Rangers vs. Los Angeles Angels",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Texas Rangers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-20",
+          "total_value_usd": 225264.14,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf8c1aa1f4c9fbdea7ece6130078c1fc7d856e929c1d9dda7f5fdee804b625289:1",
+          "condition_id": "0xf8c1aa1f4c9fbdea7ece6130078c1fc7d856e929c1d9dda7f5fdee804b625289",
+          "title": "Kansas City Royals vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-20",
+          "total_value_usd": 73851.43,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xb070077bf16827445a91856027beb8010c6242a24a47aae0af36e83894e81883:0",
+          "condition_id": "0xb070077bf16827445a91856027beb8010c6242a24a47aae0af36e83894e81883",
+          "title": "National Bank Open: Coco Gauff vs Elena Rybakina",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Coco Gauff",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-20",
+          "total_value_usd": 50201.72,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x2232c89d3cdf75aa01c28febbd5ce64c24bdf1a334c15621232e184f16c9f47a:0",
+          "condition_id": "0x2232c89d3cdf75aa01c28febbd5ce64c24bdf1a334c15621232e184f16c9f47a",
+          "title": "Brownsburg: Bernard Tomic vs Edward Winter",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Bernard Tomic",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-08-18",
-          "total_value_usd": 36828.12,
+          "total_value_usd": 19198.74,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x8320bef0f8a1ca820ee51a52e643cd28d31861997e3d54cba2cc7114a8906466:1",
+          "condition_id": "0x8320bef0f8a1ca820ee51a52e643cd28d31861997e3d54cba2cc7114a8906466",
+          "title": "Cincinnati Open, Qualification: Nicolai Budkov Kjaer vs Kyrian Jacquet",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Kyrian Jacquet",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-19",
+          "total_value_usd": 12930.27,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xb070077bf16827445a91856027beb8010c6242a24a47aae0af36e83894e81883:1",
+          "condition_id": "0xb070077bf16827445a91856027beb8010c6242a24a47aae0af36e83894e81883",
+          "title": "National Bank Open: Coco Gauff vs Elena Rybakina",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Elena Rybakina",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-20",
+          "total_value_usd": 11128.85,
           "result": "pending"
         }
       ]
@@ -12185,11 +12269,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 199,
-      "correct": 113,
-      "wrong": 60,
-      "pending": 26,
-      "win_rate": 65.3,
+      "signals_evaluated": 205,
+      "correct": 118,
+      "wrong": 65,
+      "pending": 22,
+      "win_rate": 64.5,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -14845,11 +14929,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Toronto Blue Jays",
+          "resolved_date": "2026-08-19",
           "end_date": "2026-08-19",
           "total_value_usd": 454320.33,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x6e3f356278a605fba0f3097e30b3698d6cbe315fba0ec9b053e901e419e4a207:0",
@@ -14859,11 +14943,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Cleveland Guardians",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Cleveland Guardians",
+          "resolved_date": "2026-08-19",
           "end_date": "2026-08-19",
           "total_value_usd": 291968.15,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x4b43d9360a5e0d08b483bdf27cf0e1fefb6242a749a6fe698c7a62e14699bafc:1",
@@ -14873,11 +14957,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Ben Shelton",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Ben Shelton",
+          "resolved_date": "2026-08-19",
           "end_date": "2026-08-19",
           "total_value_usd": 246769.06,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc13d9babe7d5af00ea09824c7e075b13a71db6d9171d18447b03536f6a73517d:0",
@@ -14887,11 +14971,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Nicolas Mejia",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Nicolas Mejia",
+          "resolved_date": "2026-08-18",
           "end_date": "2026-08-18",
           "total_value_usd": 61856.77,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x3747cf8b39cdc5da353720234275e617992f8da827caaaf38ece03b8b3c56bbd:0",
@@ -14901,11 +14985,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Seattle Mariners",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-08-19",
           "end_date": "2026-08-19",
           "total_value_usd": 42372.68,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x4b43d9360a5e0d08b483bdf27cf0e1fefb6242a749a6fe698c7a62e14699bafc:0",
@@ -14915,11 +14999,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Learner Tien",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Ben Shelton",
+          "resolved_date": "2026-08-19",
           "end_date": "2026-08-19",
           "total_value_usd": 28015.21,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x486030835aa825fcdfddf1e98240a98fa3e130978a6618670d407f9ba8ed5ff6:1",
@@ -14929,11 +15013,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Leolia Jeanjean",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lucrezia Stefanini",
+          "resolved_date": "2026-08-19",
           "end_date": "2026-08-19",
           "total_value_usd": 5682.81,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xeea7cbc408080f9d73823bd328dc805c1dc7e6bb2d5366a9af7d1b7a11085bc7:0",
@@ -14943,11 +15027,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Yue Yuan",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Kayla Day",
+          "resolved_date": "2026-08-19",
           "end_date": "2026-08-19",
           "total_value_usd": 5469.42,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xdabf47b9d693ffd91e9fd053638fe5bd56c0896dd66f43cad66d947f71af08f7:0",
@@ -14957,11 +15041,11 @@
           "tier": "Moderate",
           "entry_price": 0.0465,
           "whale_direction": "Boston Red Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Toronto Blue Jays",
+          "resolved_date": "2026-08-19",
           "end_date": "2026-08-19",
           "total_value_usd": 81677.07,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x73e1ee98289a1f2c5eb9a2d08ddc1a4663b5ecfe4ec7917b79219378151fcd73:0",
@@ -14971,10 +15055,94 @@
           "tier": "Weak",
           "entry_price": 0.0465,
           "whale_direction": "Mark Lajal",
+          "resolved_outcome": "Mark Lajal",
+          "resolved_date": "2026-08-18",
+          "end_date": "2026-08-18",
+          "total_value_usd": 36828.12,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xa5edceb68a5d36b4724455efcd16d57d640400782fc977ea3471f4ff5feed9e9:0",
+          "condition_id": "0xa5edceb68a5d36b4724455efcd16d57d640400782fc977ea3471f4ff5feed9e9",
+          "title": "Texas Rangers vs. Los Angeles Angels",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Texas Rangers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-20",
+          "total_value_usd": 225264.14,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf8c1aa1f4c9fbdea7ece6130078c1fc7d856e929c1d9dda7f5fdee804b625289:1",
+          "condition_id": "0xf8c1aa1f4c9fbdea7ece6130078c1fc7d856e929c1d9dda7f5fdee804b625289",
+          "title": "Kansas City Royals vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-20",
+          "total_value_usd": 73851.43,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xb070077bf16827445a91856027beb8010c6242a24a47aae0af36e83894e81883:0",
+          "condition_id": "0xb070077bf16827445a91856027beb8010c6242a24a47aae0af36e83894e81883",
+          "title": "National Bank Open: Coco Gauff vs Elena Rybakina",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Coco Gauff",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-20",
+          "total_value_usd": 50201.72,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x2232c89d3cdf75aa01c28febbd5ce64c24bdf1a334c15621232e184f16c9f47a:0",
+          "condition_id": "0x2232c89d3cdf75aa01c28febbd5ce64c24bdf1a334c15621232e184f16c9f47a",
+          "title": "Brownsburg: Bernard Tomic vs Edward Winter",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Bernard Tomic",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-08-18",
-          "total_value_usd": 36828.12,
+          "total_value_usd": 19198.74,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x8320bef0f8a1ca820ee51a52e643cd28d31861997e3d54cba2cc7114a8906466:1",
+          "condition_id": "0x8320bef0f8a1ca820ee51a52e643cd28d31861997e3d54cba2cc7114a8906466",
+          "title": "Cincinnati Open, Qualification: Nicolai Budkov Kjaer vs Kyrian Jacquet",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Kyrian Jacquet",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-19",
+          "total_value_usd": 12930.27,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xb070077bf16827445a91856027beb8010c6242a24a47aae0af36e83894e81883:1",
+          "condition_id": "0xb070077bf16827445a91856027beb8010c6242a24a47aae0af36e83894e81883",
+          "title": "National Bank Open: Coco Gauff vs Elena Rybakina",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Elena Rybakina",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-20",
+          "total_value_usd": 11128.85,
           "result": "pending"
         }
       ]
@@ -14983,11 +15151,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 199,
-      "correct": 60,
-      "wrong": 113,
-      "pending": 26,
-      "win_rate": 34.7,
+      "signals_evaluated": 205,
+      "correct": 65,
+      "wrong": 118,
+      "pending": 22,
+      "win_rate": 35.5,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -17643,11 +17811,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Toronto Blue Jays",
+          "resolved_date": "2026-08-19",
           "end_date": "2026-08-19",
           "total_value_usd": 454320.33,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x6e3f356278a605fba0f3097e30b3698d6cbe315fba0ec9b053e901e419e4a207:0",
@@ -17657,11 +17825,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Cleveland Guardians",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Cleveland Guardians",
+          "resolved_date": "2026-08-19",
           "end_date": "2026-08-19",
           "total_value_usd": 291968.15,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x4b43d9360a5e0d08b483bdf27cf0e1fefb6242a749a6fe698c7a62e14699bafc:1",
@@ -17671,11 +17839,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Ben Shelton",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Ben Shelton",
+          "resolved_date": "2026-08-19",
           "end_date": "2026-08-19",
           "total_value_usd": 246769.06,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xc13d9babe7d5af00ea09824c7e075b13a71db6d9171d18447b03536f6a73517d:0",
@@ -17685,11 +17853,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Nicolas Mejia",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Nicolas Mejia",
+          "resolved_date": "2026-08-18",
           "end_date": "2026-08-18",
           "total_value_usd": 61856.77,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x3747cf8b39cdc5da353720234275e617992f8da827caaaf38ece03b8b3c56bbd:0",
@@ -17699,11 +17867,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Seattle Mariners",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-08-19",
           "end_date": "2026-08-19",
           "total_value_usd": 42372.68,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x4b43d9360a5e0d08b483bdf27cf0e1fefb6242a749a6fe698c7a62e14699bafc:0",
@@ -17713,11 +17881,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Learner Tien",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Ben Shelton",
+          "resolved_date": "2026-08-19",
           "end_date": "2026-08-19",
           "total_value_usd": 28015.21,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x486030835aa825fcdfddf1e98240a98fa3e130978a6618670d407f9ba8ed5ff6:1",
@@ -17727,11 +17895,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Leolia Jeanjean",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lucrezia Stefanini",
+          "resolved_date": "2026-08-19",
           "end_date": "2026-08-19",
           "total_value_usd": 5682.81,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xeea7cbc408080f9d73823bd328dc805c1dc7e6bb2d5366a9af7d1b7a11085bc7:0",
@@ -17741,11 +17909,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Yue Yuan",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Kayla Day",
+          "resolved_date": "2026-08-19",
           "end_date": "2026-08-19",
           "total_value_usd": 5469.42,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xdabf47b9d693ffd91e9fd053638fe5bd56c0896dd66f43cad66d947f71af08f7:0",
@@ -17755,11 +17923,11 @@
           "tier": "Moderate",
           "entry_price": 0.0465,
           "whale_direction": "Boston Red Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Toronto Blue Jays",
+          "resolved_date": "2026-08-19",
           "end_date": "2026-08-19",
           "total_value_usd": 81677.07,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x73e1ee98289a1f2c5eb9a2d08ddc1a4663b5ecfe4ec7917b79219378151fcd73:0",
@@ -17769,10 +17937,94 @@
           "tier": "Weak",
           "entry_price": 0.0465,
           "whale_direction": "Mark Lajal",
+          "resolved_outcome": "Mark Lajal",
+          "resolved_date": "2026-08-18",
+          "end_date": "2026-08-18",
+          "total_value_usd": 36828.12,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xa5edceb68a5d36b4724455efcd16d57d640400782fc977ea3471f4ff5feed9e9:0",
+          "condition_id": "0xa5edceb68a5d36b4724455efcd16d57d640400782fc977ea3471f4ff5feed9e9",
+          "title": "Texas Rangers vs. Los Angeles Angels",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Texas Rangers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-20",
+          "total_value_usd": 225264.14,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf8c1aa1f4c9fbdea7ece6130078c1fc7d856e929c1d9dda7f5fdee804b625289:1",
+          "condition_id": "0xf8c1aa1f4c9fbdea7ece6130078c1fc7d856e929c1d9dda7f5fdee804b625289",
+          "title": "Kansas City Royals vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-20",
+          "total_value_usd": 73851.43,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xb070077bf16827445a91856027beb8010c6242a24a47aae0af36e83894e81883:0",
+          "condition_id": "0xb070077bf16827445a91856027beb8010c6242a24a47aae0af36e83894e81883",
+          "title": "National Bank Open: Coco Gauff vs Elena Rybakina",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Coco Gauff",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-20",
+          "total_value_usd": 50201.72,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x2232c89d3cdf75aa01c28febbd5ce64c24bdf1a334c15621232e184f16c9f47a:0",
+          "condition_id": "0x2232c89d3cdf75aa01c28febbd5ce64c24bdf1a334c15621232e184f16c9f47a",
+          "title": "Brownsburg: Bernard Tomic vs Edward Winter",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Bernard Tomic",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-08-18",
-          "total_value_usd": 36828.12,
+          "total_value_usd": 19198.74,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x8320bef0f8a1ca820ee51a52e643cd28d31861997e3d54cba2cc7114a8906466:1",
+          "condition_id": "0x8320bef0f8a1ca820ee51a52e643cd28d31861997e3d54cba2cc7114a8906466",
+          "title": "Cincinnati Open, Qualification: Nicolai Budkov Kjaer vs Kyrian Jacquet",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Kyrian Jacquet",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-19",
+          "total_value_usd": 12930.27,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xb070077bf16827445a91856027beb8010c6242a24a47aae0af36e83894e81883:1",
+          "condition_id": "0xb070077bf16827445a91856027beb8010c6242a24a47aae0af36e83894e81883",
+          "title": "National Bank Open: Coco Gauff vs Elena Rybakina",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Elena Rybakina",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-20",
+          "total_value_usd": 11128.85,
           "result": "pending"
         }
       ]
