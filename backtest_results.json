@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-13T03:46:11+00:00",
+  "generated_at": "2026-08-13T05:28:40+00:00",
   "total_signals": 875,
-  "total_resolved": 822,
-  "total_correct": 519,
-  "overall_hit_rate": 63.1,
+  "total_resolved": 824,
+  "total_correct": 521,
+  "overall_hit_rate": 63.2,
   "by_tier": {
     "Strong": {
       "total": 356,
-      "resolved": 338,
-      "correct": 225,
-      "hit_rate": 66.6
+      "resolved": 340,
+      "correct": 227,
+      "hit_rate": 66.8
     },
     "Moderate": {
       "total": 468,
@@ -14827,10 +14827,10 @@
       "total_value_usd": 73851.43,
       "entry_price": 0.0465,
       "end_date": "2026-08-20",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Los Angeles Dodgers",
+      "resolved_date": "2026-08-20"
     },
     {
       "signal_key": "0xb070077bf16827445a91856027beb8010c6242a24a47aae0af36e83894e81883:0",
@@ -14861,10 +14861,10 @@
       "total_value_usd": 19198.74,
       "entry_price": 0.0465,
       "end_date": "2026-08-18",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Bernard Tomic",
+      "resolved_date": "2026-08-18"
     },
     {
       "signal_key": "0x8320bef0f8a1ca820ee51a52e643cd28d31861997e3d54cba2cc7114a8906466:1",
