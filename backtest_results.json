@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-13T05:28:40+00:00",
+  "generated_at": "2026-08-13T07:01:04+00:00",
   "total_signals": 875,
-  "total_resolved": 824,
-  "total_correct": 521,
+  "total_resolved": 828,
+  "total_correct": 523,
   "overall_hit_rate": 63.2,
   "by_tier": {
     "Strong": {
       "total": 356,
-      "resolved": 340,
-      "correct": 227,
-      "hit_rate": 66.8
+      "resolved": 344,
+      "correct": 229,
+      "hit_rate": 66.6
     },
     "Moderate": {
       "total": 468,
@@ -14810,10 +14810,10 @@
       "total_value_usd": 225264.14,
       "entry_price": 0.0465,
       "end_date": "2026-08-20",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Los Angeles Angels",
+      "resolved_date": "2026-08-20"
     },
     {
       "signal_key": "0xf8c1aa1f4c9fbdea7ece6130078c1fc7d856e929c1d9dda7f5fdee804b625289:1",
@@ -14844,10 +14844,10 @@
       "total_value_usd": 50201.72,
       "entry_price": 0.0465,
       "end_date": "2026-08-20",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Elena Rybakina",
+      "resolved_date": "2026-08-20"
     },
     {
       "signal_key": "0x2232c89d3cdf75aa01c28febbd5ce64c24bdf1a334c15621232e184f16c9f47a:0",
@@ -14878,10 +14878,10 @@
       "total_value_usd": 12930.27,
       "entry_price": 0.0465,
       "end_date": "2026-08-19",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Kyrian Jacquet",
+      "resolved_date": "2026-08-19"
     },
     {
       "signal_key": "0xb070077bf16827445a91856027beb8010c6242a24a47aae0af36e83894e81883:1",
@@ -14895,10 +14895,10 @@
       "total_value_usd": 11128.85,
       "entry_price": 0.0465,
       "end_date": "2026-08-20",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Elena Rybakina",
+      "resolved_date": "2026-08-20"
     }
   ]
 }

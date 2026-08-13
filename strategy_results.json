@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-13T05:28:40+00:00",
+  "generated_at": "2026-08-13T07:01:04+00:00",
   "total_evaluated": 875,
-  "total_pending": 51,
+  "total_pending": 47,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 875,
-      "correct": 521,
-      "wrong": 303,
-      "pending": 51,
+      "correct": 523,
+      "wrong": 305,
+      "pending": 47,
       "win_rate": 63.2,
       "signals": [
         {
@@ -12187,11 +12187,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Texas Rangers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Angels",
+          "resolved_date": "2026-08-20",
           "end_date": "2026-08-20",
           "total_value_usd": 225264.14,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xf8c1aa1f4c9fbdea7ece6130078c1fc7d856e929c1d9dda7f5fdee804b625289:1",
@@ -12215,11 +12215,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Coco Gauff",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elena Rybakina",
+          "resolved_date": "2026-08-20",
           "end_date": "2026-08-20",
           "total_value_usd": 50201.72,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x2232c89d3cdf75aa01c28febbd5ce64c24bdf1a334c15621232e184f16c9f47a:0",
@@ -12243,11 +12243,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Kyrian Jacquet",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Kyrian Jacquet",
+          "resolved_date": "2026-08-19",
           "end_date": "2026-08-19",
           "total_value_usd": 12930.27,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xb070077bf16827445a91856027beb8010c6242a24a47aae0af36e83894e81883:1",
@@ -12257,11 +12257,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Elena Rybakina",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elena Rybakina",
+          "resolved_date": "2026-08-20",
           "end_date": "2026-08-20",
           "total_value_usd": 11128.85,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -12270,10 +12270,10 @@
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 205,
-      "correct": 120,
-      "wrong": 65,
-      "pending": 20,
-      "win_rate": 64.9,
+      "correct": 122,
+      "wrong": 67,
+      "pending": 16,
+      "win_rate": 64.6,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -15069,11 +15069,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Texas Rangers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Angels",
+          "resolved_date": "2026-08-20",
           "end_date": "2026-08-20",
           "total_value_usd": 225264.14,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xf8c1aa1f4c9fbdea7ece6130078c1fc7d856e929c1d9dda7f5fdee804b625289:1",
@@ -15097,11 +15097,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Coco Gauff",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elena Rybakina",
+          "resolved_date": "2026-08-20",
           "end_date": "2026-08-20",
           "total_value_usd": 50201.72,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x2232c89d3cdf75aa01c28febbd5ce64c24bdf1a334c15621232e184f16c9f47a:0",
@@ -15125,11 +15125,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Kyrian Jacquet",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Kyrian Jacquet",
+          "resolved_date": "2026-08-19",
           "end_date": "2026-08-19",
           "total_value_usd": 12930.27,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xb070077bf16827445a91856027beb8010c6242a24a47aae0af36e83894e81883:1",
@@ -15139,11 +15139,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Elena Rybakina",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elena Rybakina",
+          "resolved_date": "2026-08-20",
           "end_date": "2026-08-20",
           "total_value_usd": 11128.85,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -15152,10 +15152,10 @@
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 205,
-      "correct": 65,
-      "wrong": 120,
-      "pending": 20,
-      "win_rate": 35.1,
+      "correct": 67,
+      "wrong": 122,
+      "pending": 16,
+      "win_rate": 35.4,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -17951,11 +17951,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Texas Rangers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Angels",
+          "resolved_date": "2026-08-20",
           "end_date": "2026-08-20",
           "total_value_usd": 225264.14,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf8c1aa1f4c9fbdea7ece6130078c1fc7d856e929c1d9dda7f5fdee804b625289:1",
@@ -17979,11 +17979,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Coco Gauff",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elena Rybakina",
+          "resolved_date": "2026-08-20",
           "end_date": "2026-08-20",
           "total_value_usd": 50201.72,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x2232c89d3cdf75aa01c28febbd5ce64c24bdf1a334c15621232e184f16c9f47a:0",
@@ -18007,11 +18007,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Kyrian Jacquet",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Kyrian Jacquet",
+          "resolved_date": "2026-08-19",
           "end_date": "2026-08-19",
           "total_value_usd": 12930.27,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xb070077bf16827445a91856027beb8010c6242a24a47aae0af36e83894e81883:1",
@@ -18021,11 +18021,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Elena Rybakina",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elena Rybakina",
+          "resolved_date": "2026-08-20",
           "end_date": "2026-08-20",
           "total_value_usd": 11128.85,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
