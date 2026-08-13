@@ -245130,5 +245130,389 @@
         "entry_price": 0.0465
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-13T01:23:27+00:00",
+    "whale_timeframes": {
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4ab9b54427ec4b7f3646b1a0ef1bed73bc708ebe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3d8a89a20aa73fba0f30d080e8120de9f9555724": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5dab5ed9691fab220535891d9c7f5c28eed322e1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0f35109cc3ceaf729609c3109310791bd616c84a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc3acf5878a03523d09a3ac859943445d7baeb964": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x782186952ef2ca75ea91c95aef25bbdcffb4bb1a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc6e956068048c1cf98d8f0b3a495edc9da130741": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x95b198f900d19a80d3d7e47b7b17708af254f9ac": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7fb23b0d330ea4ac4f3cecce1eb81fb0bfb3ed4b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f70929ba287ac85dc2431c85382ccd9e6b0d185": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x15ae79d7cd60b2a7f06ae46eb4c7a0eb16096ffd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd8b4d1e58dc7d60ddc886bcb9d456eb5da887773": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xdabf47b9d693ffd91e9fd053638fe5bd56c0896dd66f43cad66d947f71af08f7:1",
+        "condition_id": "0xdabf47b9d693ffd91e9fd053638fe5bd56c0896dd66f43cad66d947f71af08f7",
+        "title": "Boston Red Sox vs. Toronto Blue Jays",
+        "outcome": "Toronto Blue Jays",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0xc3acf5878a03523d09a3ac859943445d7baeb964",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          1,
+          8,
+          10,
+          20
+        ],
+        "total_value_usd": 454320.33,
+        "score": 29.0655,
+        "category": "MLB",
+        "end_date": "2026-08-19",
+        "entry_price": 0.0465
+      },
+      {
+        "signal_key": "0x6e3f356278a605fba0f3097e30b3698d6cbe315fba0ec9b053e901e419e4a207:0",
+        "condition_id": "0x6e3f356278a605fba0f3097e30b3698d6cbe315fba0ec9b053e901e419e4a207",
+        "title": "Cleveland Guardians vs. Detroit Tigers",
+        "outcome": "Cleveland Guardians",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          1,
+          8,
+          20
+        ],
+        "total_value_usd": 291968.15,
+        "score": 25.8767,
+        "category": "MLB",
+        "end_date": "2026-08-19",
+        "entry_price": 0.0465
+      },
+      {
+        "signal_key": "0x4b43d9360a5e0d08b483bdf27cf0e1fefb6242a749a6fe698c7a62e14699bafc:1",
+        "condition_id": "0x4b43d9360a5e0d08b483bdf27cf0e1fefb6242a749a6fe698c7a62e14699bafc",
+        "title": "National Bank Open: Learner Tien vs Ben Shelton",
+        "outcome": "Ben Shelton",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          1,
+          12,
+          20
+        ],
+        "total_value_usd": 246769.06,
+        "score": 24.6255,
+        "category": "Tennis",
+        "end_date": "2026-08-19",
+        "entry_price": 0.0465
+      },
+      {
+        "signal_key": "0xc13d9babe7d5af00ea09824c7e075b13a71db6d9171d18447b03536f6a73517d:0",
+        "condition_id": "0xc13d9babe7d5af00ea09824c7e075b13a71db6d9171d18447b03536f6a73517d",
+        "title": "Cincinnati Open, Qualification: Nicolas Mejia vs Jacob Fearnley",
+        "outcome": "Nicolas Mejia",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+          "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          1,
+          12,
+          14,
+          20
+        ],
+        "total_value_usd": 61856.77,
+        "score": 23.2604,
+        "category": "Tennis",
+        "end_date": "2026-08-18",
+        "entry_price": 0.0465
+      },
+      {
+        "signal_key": "0x3747cf8b39cdc5da353720234275e617992f8da827caaaf38ece03b8b3c56bbd:0",
+        "condition_id": "0x3747cf8b39cdc5da353720234275e617992f8da827caaaf38ece03b8b3c56bbd",
+        "title": "Seattle Mariners vs. New York Yankees",
+        "outcome": "Seattle Mariners",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          1,
+          8,
+          20
+        ],
+        "total_value_usd": 42372.68,
+        "score": 21.9079,
+        "category": "MLB",
+        "end_date": "2026-08-19",
+        "entry_price": 0.0465
+      },
+      {
+        "signal_key": "0x4b43d9360a5e0d08b483bdf27cf0e1fefb6242a749a6fe698c7a62e14699bafc:0",
+        "condition_id": "0x4b43d9360a5e0d08b483bdf27cf0e1fefb6242a749a6fe698c7a62e14699bafc",
+        "title": "National Bank Open: Learner Tien vs Ben Shelton",
+        "outcome": "Learner Tien",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x5dab5ed9691fab220535891d9c7f5c28eed322e1",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          1,
+          7,
+          20
+        ],
+        "total_value_usd": 28015.21,
+        "score": 21.3771,
+        "category": "Tennis",
+        "end_date": "2026-08-19",
+        "entry_price": 0.0465
+      },
+      {
+        "signal_key": "0x0bbc63372aaf0867db23fc361b4e37f7d3125c7acef6cc8e2d5ce40f65b7e523:1",
+        "condition_id": "0x0bbc63372aaf0867db23fc361b4e37f7d3125c7acef6cc8e2d5ce40f65b7e523",
+        "title": "Boston Red Sox vs. New York Yankees",
+        "outcome": "New York Yankees",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          1,
+          8,
+          20
+        ],
+        "total_value_usd": 21899.94,
+        "score": 20.5507,
+        "category": "MLB",
+        "end_date": "2026-09-05",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0x486030835aa825fcdfddf1e98240a98fa3e130978a6618670d407f9ba8ed5ff6:1",
+        "condition_id": "0x486030835aa825fcdfddf1e98240a98fa3e130978a6618670d407f9ba8ed5ff6",
+        "title": "Cincinnati Open, Qualification: Lucrezia Stefanini vs Leolia Jeanjean",
+        "outcome": "Leolia Jeanjean",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          1,
+          12,
+          20
+        ],
+        "total_value_usd": 5682.81,
+        "score": 17.1467,
+        "category": "Tennis",
+        "end_date": "2026-08-19",
+        "entry_price": 0.0465
+      },
+      {
+        "signal_key": "0xeea7cbc408080f9d73823bd328dc805c1dc7e6bb2d5366a9af7d1b7a11085bc7:0",
+        "condition_id": "0xeea7cbc408080f9d73823bd328dc805c1dc7e6bb2d5366a9af7d1b7a11085bc7",
+        "title": "Cincinnati Open, Qualification: Yue Yuan vs Kayla Day",
+        "outcome": "Yue Yuan",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          1,
+          14,
+          20
+        ],
+        "total_value_usd": 5469.42,
+        "score": 16.8915,
+        "category": "Tennis",
+        "end_date": "2026-08-19",
+        "entry_price": 0.0465
+      },
+      {
+        "signal_key": "0xdabf47b9d693ffd91e9fd053638fe5bd56c0896dd66f43cad66d947f71af08f7:0",
+        "condition_id": "0xdabf47b9d693ffd91e9fd053638fe5bd56c0896dd66f43cad66d947f71af08f7",
+        "title": "Boston Red Sox vs. Toronto Blue Jays",
+        "outcome": "Boston Red Sox",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          5,
+          8,
+          20
+        ],
+        "total_value_usd": 81677.07,
+        "score": 7.4225,
+        "category": "MLB",
+        "end_date": "2026-08-19",
+        "entry_price": 0.0465
+      },
+      {
+        "signal_key": "0x73e1ee98289a1f2c5eb9a2d08ddc1a4663b5ecfe4ec7917b79219378151fcd73:0",
+        "condition_id": "0x73e1ee98289a1f2c5eb9a2d08ddc1a4663b5ecfe4ec7917b79219378151fcd73",
+        "title": "Cincinnati Open, Qualification: Mark Lajal vs Dalibor Svrcina",
+        "outcome": "Mark Lajal",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x42c99f38d2b951b0dc8e8bd5371fa80c9dd19623",
+          "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          12,
+          14,
+          20
+        ],
+        "total_value_usd": 36828.12,
+        "score": 3.7675,
+        "category": "Tennis",
+        "end_date": "2026-08-18",
+        "entry_price": 0.0465
+      }
+    ]
   }
 ]
