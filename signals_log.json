@@ -247116,5 +247116,155 @@
         "entry_price": 0.0465
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-13T16:50:31+00:00",
+    "whale_timeframes": {
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd218e474776403a330142299f7796e8ba32eb5c9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5dab5ed9691fab220535891d9c7f5c28eed322e1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe16d3f2a5807999b358affd9445c3a09e45e5e30": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc3acf5878a03523d09a3ac859943445d7baeb964": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7ad71d79a3bb90d0a87a06500fa0fe11663842aa": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4ab9b54427ec4b7f3646b1a0ef1bed73bc708ebe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf68a281980f8c13828e84e147e3822381d6e5b1b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x21468ad63a833f5f9ea5c2835fb4e9dec57ad41b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x55eca3687ea7d69632ffe0f297ea3d5158bb8c7d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9ba8d25a054044bb66d0ca4e250a16dbfb64cdb3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfbd8c9c22ca76b3662d0e53a4f79719fdc684027": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6b60a3f8b855d2957641a2ebe7affff05ff9edbe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf23c5bc7b547867eb6532920144562718aa49f81": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd06c49e1c86f970bc5c48f91169a607e9b03cdaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x823b02713ae3ebece7b6570713ef1e4960b7acb442a497f0c39f8b5b48e40913:0",
+        "condition_id": "0x823b02713ae3ebece7b6570713ef1e4960b7acb442a497f0c39f8b5b48e40913",
+        "title": "Seattle Mariners vs. New York Yankees",
+        "outcome": "Seattle Mariners",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0xf68a281980f8c13828e84e147e3822381d6e5b1b"
+        ],
+        "ranks": [
+          1,
+          8,
+          12
+        ],
+        "total_value_usd": 106417.91,
+        "score": 24.4766,
+        "category": "MLB",
+        "end_date": "2026-08-20",
+        "entry_price": 0.0465
+      }
+    ]
   }
 ]
