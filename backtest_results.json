@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-14T00:03:10+00:00",
-  "total_signals": 878,
+  "generated_at": "2026-08-14T01:52:43+00:00",
+  "total_signals": 879,
   "total_resolved": 831,
   "total_correct": 526,
   "overall_hit_rate": 63.3,
@@ -12,7 +12,7 @@
       "hit_rate": 66.9
     },
     "Moderate": {
-      "total": 468,
+      "total": 469,
       "resolved": 435,
       "correct": 270,
       "hit_rate": 62.1
@@ -14950,6 +14950,23 @@
       "correct": true,
       "resolved_outcome": "Boston Red Sox",
       "resolved_date": "2026-08-20"
+    },
+    {
+      "signal_key": "0x3a2ef65b2988a853b16ca1b00cabaef5d425e6962b657bba49140f9bc94c7c88:0",
+      "condition_id": "0x3a2ef65b2988a853b16ca1b00cabaef5d425e6962b657bba49140f9bc94c7c88",
+      "title": "National Bank Open: Ben Shelton vs Brandon Nakashima",
+      "category": "Tennis",
+      "whale_direction": "Ben Shelton",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 5.2147,
+      "total_value_usd": 272451.31,
+      "entry_price": 0.0455,
+      "end_date": "2026-08-21",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
