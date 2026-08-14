@@ -249041,5 +249041,180 @@
         "entry_price": 0.0455
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-14T08:18:51+00:00",
+    "whale_timeframes": {
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe16d3f2a5807999b358affd9445c3a09e45e5e30": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x04d5524a0a5af2eca6e39e03defc261d42fe66d8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x684baa57c338c2549aec0aa3f034f695d72a8409": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x448861155279dbf833d041b963e3ac854599e319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7bc14171ccb0d3e6bac219ec6a76211826e28db4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x55eca3687ea7d69632ffe0f297ea3d5158bb8c7d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2f44fa076c8d2976ac6bea0ddfd9502bad2b93c2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbcac39ed1f84f7711303e92d53abedc4bc406621": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1ab3580b6d258e31ca0a3efdb93173d081dd64af": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0d18e30e252008d83f51dae00d36873ddd9e24a6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1fee90f352fd362ea4bf13c6ed7cdd83a4d2ed5e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7d92fd69504bfd391162e1442cb784c0af408676": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x56acab44cfca2e88bb9b3406890aea7bfa0cd77e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xa5ce4e0cf17801d89f245025eeb2e4dda5f39a94bca8d5a4c36436f779a0ea16:0",
+        "condition_id": "0xa5ce4e0cf17801d89f245025eeb2e4dda5f39a94bca8d5a4c36436f779a0ea16",
+        "title": "Will Nigel Farage win 60\u201370% of votes in the Clacton parliamentary by-election?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x448861155279dbf833d041b963e3ac854599e319",
+          "0x7bc14171ccb0d3e6bac219ec6a76211826e28db4",
+          "0xbcac39ed1f84f7711303e92d53abedc4bc406621",
+          "0x1fee90f352fd362ea4bf13c6ed7cdd83a4d2ed5e"
+        ],
+        "ranks": [
+          8,
+          9,
+          14,
+          18
+        ],
+        "total_value_usd": 280264.45,
+        "score": 7.9703,
+        "category": "UK",
+        "end_date": "2027-06-30",
+        "entry_price": 0.0455
+      },
+      {
+        "signal_key": "0xae341ea8a55bc9391a0deaca1897ac1db0bdeb074ea022f988d53dcb5d09bad9:1",
+        "condition_id": "0xae341ea8a55bc9391a0deaca1897ac1db0bdeb074ea022f988d53dcb5d09bad9",
+        "title": "Will Nigel Farage win at least 80% of votes in the Clacton parliamentary by-election?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x448861155279dbf833d041b963e3ac854599e319",
+          "0x7bc14171ccb0d3e6bac219ec6a76211826e28db4",
+          "0x1fee90f352fd362ea4bf13c6ed7cdd83a4d2ed5e"
+        ],
+        "ranks": [
+          8,
+          9,
+          18
+        ],
+        "total_value_usd": 143885.55,
+        "score": 6.0621,
+        "category": "UK",
+        "end_date": "2027-06-30",
+        "entry_price": 0.0455
+      }
+    ]
   }
 ]
