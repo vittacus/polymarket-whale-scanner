@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-14T22:33:22+00:00",
+  "generated_at": "2026-08-14T22:55:05+00:00",
   "total_signals": 883,
-  "total_resolved": 835,
+  "total_resolved": 836,
   "total_correct": 529,
-  "overall_hit_rate": 63.4,
+  "overall_hit_rate": 63.3,
   "by_tier": {
     "Strong": {
       "total": 361,
-      "resolved": 348,
+      "resolved": 349,
       "correct": 233,
-      "hit_rate": 67.0
+      "hit_rate": 66.8
     },
     "Moderate": {
       "total": 471,
@@ -15031,10 +15031,10 @@
       "total_value_usd": 15663.19,
       "entry_price": 0.0445,
       "end_date": "2026-08-20",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Nuno Borges",
+      "resolved_date": "2026-08-20"
     }
   ]
 }
