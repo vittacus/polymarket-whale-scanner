@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-14T21:09:36+00:00",
-  "total_signals": 882,
+  "generated_at": "2026-08-14T21:45:00+00:00",
+  "total_signals": 883,
   "total_resolved": 835,
   "total_correct": 529,
   "overall_hit_rate": 63.4,
   "by_tier": {
     "Strong": {
-      "total": 360,
+      "total": 361,
       "resolved": 348,
       "correct": 233,
       "hit_rate": 67.0
@@ -15018,6 +15018,23 @@
       "correct": true,
       "resolved_outcome": "No",
       "resolved_date": "2027-06-30"
+    },
+    {
+      "signal_key": "0xa5ca29e8a6668f42d4085eee8d2779a70aac8469807bc0ef8d3fc98487ad50b9:1",
+      "condition_id": "0xa5ca29e8a6668f42d4085eee8d2779a70aac8469807bc0ef8d3fc98487ad50b9",
+      "title": "Cincinnati Open: Nuno Borges vs Thanasi Kokkinakis",
+      "category": "Tennis",
+      "whale_direction": "Thanasi Kokkinakis",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 10.3357,
+      "total_value_usd": 15663.19,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-20",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
