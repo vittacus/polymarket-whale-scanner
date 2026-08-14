@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-14T10:45:33+00:00",
+  "generated_at": "2026-08-14T11:34:25+00:00",
   "total_signals": 882,
-  "total_resolved": 832,
-  "total_correct": 527,
+  "total_resolved": 834,
+  "total_correct": 528,
   "overall_hit_rate": 63.3,
   "by_tier": {
     "Strong": {
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 471,
-      "resolved": 436,
-      "correct": 271,
-      "hit_rate": 62.2
+      "resolved": 438,
+      "correct": 272,
+      "hit_rate": 62.1
     },
     "Weak": {
       "total": 51,
@@ -14997,10 +14997,10 @@
       "total_value_usd": 25142.97,
       "entry_price": 0.0455,
       "end_date": "2027-06-30",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2027-06-30"
     },
     {
       "signal_key": "0xae341ea8a55bc9391a0deaca1897ac1db0bdeb074ea022f988d53dcb5d09bad9:1",
@@ -15014,10 +15014,10 @@
       "total_value_usd": 143885.55,
       "entry_price": 0.0455,
       "end_date": "2027-06-30",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "No",
+      "resolved_date": "2027-06-30"
     }
   ]
 }
