@@ -248567,5 +248567,178 @@
         "entry_price": 0.0455
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-14T04:01:37+00:00",
+    "whale_timeframes": {
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x04d5524a0a5af2eca6e39e03defc261d42fe66d8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7bc14171ccb0d3e6bac219ec6a76211826e28db4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2f44fa076c8d2976ac6bea0ddfd9502bad2b93c2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x684baa57c338c2549aec0aa3f034f695d72a8409": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x448861155279dbf833d041b963e3ac854599e319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7d92fd69504bfd391162e1442cb784c0af408676": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1ab3580b6d258e31ca0a3efdb93173d081dd64af": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9703676286b93c2eca71ca96e8757104519a69c2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcf6c5492124794394dd9eac46498a8babbe47e66": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x56acab44cfca2e88bb9b3406890aea7bfa0cd77e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5f659bccbc353dbf7bcdffdee73bee60bb482036": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdbbbde184ab04018ce0373c0dbe4e5fd6be805a8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa18c5cf2bc6eec389d2d512582ae14654b99d792": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5dab5ed9691fab220535891d9c7f5c28eed322e1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbcac39ed1f84f7711303e92d53abedc4bc406621": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc6e956068048c1cf98d8f0b3a495edc9da130741": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xa5ce4e0cf17801d89f245025eeb2e4dda5f39a94bca8d5a4c36436f779a0ea16:0",
+        "condition_id": "0xa5ce4e0cf17801d89f245025eeb2e4dda5f39a94bca8d5a4c36436f779a0ea16",
+        "title": "Will Nigel Farage win 60\u201370% of votes in the Clacton parliamentary by-election?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x7bc14171ccb0d3e6bac219ec6a76211826e28db4",
+          "0x448861155279dbf833d041b963e3ac854599e319",
+          "0xbcac39ed1f84f7711303e92d53abedc4bc406621"
+        ],
+        "ranks": [
+          3,
+          6,
+          18
+        ],
+        "total_value_usd": 137201.8,
+        "score": 11.5006,
+        "category": "UK",
+        "end_date": "2027-06-30",
+        "entry_price": 0.0455
+      },
+      {
+        "signal_key": "0x1d54121fe274ad6c4809b032f464009fd98ccee5a47bf810d6d54e63387d0c33:0",
+        "condition_id": "0x1d54121fe274ad6c4809b032f464009fd98ccee5a47bf810d6d54e63387d0c33",
+        "title": "Will Nigel Farage win 70\u201380% of votes in the Clacton parliamentary by-election?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x7bc14171ccb0d3e6bac219ec6a76211826e28db4",
+          "0x448861155279dbf833d041b963e3ac854599e319",
+          "0xbcac39ed1f84f7711303e92d53abedc4bc406621"
+        ],
+        "ranks": [
+          3,
+          6,
+          18
+        ],
+        "total_value_usd": 25142.97,
+        "score": 9.8509,
+        "category": "UK",
+        "end_date": "2027-06-30",
+        "entry_price": 0.0455
+      }
+    ]
   }
 ]
