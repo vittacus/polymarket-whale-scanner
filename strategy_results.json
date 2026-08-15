@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-15T05:02:44+00:00",
+  "generated_at": "2026-08-15T05:26:19+00:00",
   "total_evaluated": 895,
-  "total_pending": 50,
+  "total_pending": 47,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 895,
-      "correct": 535,
-      "wrong": 310,
-      "pending": 50,
+      "correct": 537,
+      "wrong": 311,
+      "pending": 47,
       "win_rate": 63.3,
       "signals": [
         {
@@ -12453,11 +12453,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "San Francisco Giants",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Colorado Rockies",
+          "resolved_date": "2026-08-22",
           "end_date": "2026-08-22",
           "total_value_usd": 54945.77,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x64b20e986ef477690afe7b934c7a7eac3c7e827f7c5a10119fdf41d2fc1c4da7:1",
@@ -12523,11 +12523,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Athletics",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Athletics",
+          "resolved_date": "2026-08-22",
           "end_date": "2026-08-22",
           "total_value_usd": 237984.25,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc86108feec188547ff26fe9fae656323fdb2a954b0f9753bd5cb9c453428501b:1",
@@ -12537,11 +12537,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Dodgers",
+          "resolved_date": "2026-08-22",
           "end_date": "2026-08-22",
           "total_value_usd": 93491.57,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -12550,10 +12550,10 @@
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 225,
-      "correct": 134,
-      "wrong": 72,
-      "pending": 19,
-      "win_rate": 65.0,
+      "correct": 136,
+      "wrong": 73,
+      "pending": 16,
+      "win_rate": 65.1,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -15615,11 +15615,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "San Francisco Giants",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Colorado Rockies",
+          "resolved_date": "2026-08-22",
           "end_date": "2026-08-22",
           "total_value_usd": 54945.77,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x64b20e986ef477690afe7b934c7a7eac3c7e827f7c5a10119fdf41d2fc1c4da7:1",
@@ -15685,11 +15685,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Athletics",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Athletics",
+          "resolved_date": "2026-08-22",
           "end_date": "2026-08-22",
           "total_value_usd": 237984.25,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc86108feec188547ff26fe9fae656323fdb2a954b0f9753bd5cb9c453428501b:1",
@@ -15699,11 +15699,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Dodgers",
+          "resolved_date": "2026-08-22",
           "end_date": "2026-08-22",
           "total_value_usd": 93491.57,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -15712,10 +15712,10 @@
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 225,
-      "correct": 72,
-      "wrong": 134,
-      "pending": 19,
-      "win_rate": 35.0,
+      "correct": 73,
+      "wrong": 136,
+      "pending": 16,
+      "win_rate": 34.9,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -18777,11 +18777,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "San Francisco Giants",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Colorado Rockies",
+          "resolved_date": "2026-08-22",
           "end_date": "2026-08-22",
           "total_value_usd": 54945.77,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x64b20e986ef477690afe7b934c7a7eac3c7e827f7c5a10119fdf41d2fc1c4da7:1",
@@ -18847,11 +18847,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Athletics",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Athletics",
+          "resolved_date": "2026-08-22",
           "end_date": "2026-08-22",
           "total_value_usd": 237984.25,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xc86108feec188547ff26fe9fae656323fdb2a954b0f9753bd5cb9c453428501b:1",
@@ -18861,11 +18861,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Dodgers",
+          "resolved_date": "2026-08-22",
           "end_date": "2026-08-22",
           "total_value_usd": 93491.57,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
