@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-15T03:11:02+00:00",
-  "total_signals": 893,
-  "total_resolved": 840,
-  "total_correct": 532,
-  "overall_hit_rate": 63.3,
+  "generated_at": "2026-08-15T03:59:24+00:00",
+  "total_signals": 895,
+  "total_resolved": 841,
+  "total_correct": 533,
+  "overall_hit_rate": 63.4,
   "by_tier": {
     "Strong": {
-      "total": 366,
+      "total": 367,
       "resolved": 351,
       "correct": 235,
       "hit_rate": 67.0
     },
     "Moderate": {
-      "total": 476,
-      "resolved": 440,
-      "correct": 273,
-      "hit_rate": 62.0
+      "total": 477,
+      "resolved": 441,
+      "correct": 274,
+      "hit_rate": 62.1
     },
     "Weak": {
       "total": 51,
@@ -15184,10 +15184,10 @@
       "total_value_usd": 22632.09,
       "entry_price": 0.0445,
       "end_date": "2026-08-21",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Jack Pinnington Jones",
+      "resolved_date": "2026-08-21"
     },
     {
       "signal_key": "0x93b5810c358c063a94f963f63cd74bb410494d72fd4c20ced3ea2feb6c32215f:1",
@@ -15201,6 +15201,40 @@
       "total_value_usd": 17392.56,
       "entry_price": 0.0445,
       "end_date": "2026-08-20",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xf2bf720c68d59fafb47886b1acdba85da232c6b52c4423cc12a6c02d3cf6c189:1",
+      "condition_id": "0xf2bf720c68d59fafb47886b1acdba85da232c6b52c4423cc12a6c02d3cf6c189",
+      "title": "Texas Rangers vs. Athletics",
+      "category": "MLB",
+      "whale_direction": "Athletics",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 18.1111,
+      "total_value_usd": 237984.25,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-22",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xc86108feec188547ff26fe9fae656323fdb2a954b0f9753bd5cb9c453428501b:1",
+      "condition_id": "0xc86108feec188547ff26fe9fae656323fdb2a954b0f9753bd5cb9c453428501b",
+      "title": "Milwaukee Brewers vs. Los Angeles Dodgers",
+      "category": "MLB",
+      "whale_direction": "Los Angeles Dodgers",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 7.0632,
+      "total_value_usd": 93491.57,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-22",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

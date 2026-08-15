@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-15T03:11:02+00:00",
-  "total_evaluated": 893,
-  "total_pending": 53,
+  "generated_at": "2026-08-15T03:59:24+00:00",
+  "total_evaluated": 895,
+  "total_pending": 54,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 893,
-      "correct": 532,
+      "signals_evaluated": 895,
+      "correct": 533,
       "wrong": 308,
-      "pending": 53,
-      "win_rate": 63.3,
+      "pending": 54,
+      "win_rate": 63.4,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -12495,11 +12495,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Jack Pinnington Jones",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jack Pinnington Jones",
+          "resolved_date": "2026-08-21",
           "end_date": "2026-08-21",
           "total_value_usd": 22632.09,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x93b5810c358c063a94f963f63cd74bb410494d72fd4c20ced3ea2feb6c32215f:1",
@@ -12513,6 +12513,34 @@
           "resolved_date": null,
           "end_date": "2026-08-20",
           "total_value_usd": 17392.56,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf2bf720c68d59fafb47886b1acdba85da232c6b52c4423cc12a6c02d3cf6c189:1",
+          "condition_id": "0xf2bf720c68d59fafb47886b1acdba85da232c6b52c4423cc12a6c02d3cf6c189",
+          "title": "Texas Rangers vs. Athletics",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Athletics",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-22",
+          "total_value_usd": 237984.25,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xc86108feec188547ff26fe9fae656323fdb2a954b0f9753bd5cb9c453428501b:1",
+          "condition_id": "0xc86108feec188547ff26fe9fae656323fdb2a954b0f9753bd5cb9c453428501b",
+          "title": "Milwaukee Brewers vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-22",
+          "total_value_usd": 93491.57,
           "result": "pending"
         }
       ]
@@ -12521,11 +12549,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 223,
-      "correct": 131,
+      "signals_evaluated": 225,
+      "correct": 132,
       "wrong": 70,
-      "pending": 22,
-      "win_rate": 65.2,
+      "pending": 23,
+      "win_rate": 65.3,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -15629,11 +15657,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Jack Pinnington Jones",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jack Pinnington Jones",
+          "resolved_date": "2026-08-21",
           "end_date": "2026-08-21",
           "total_value_usd": 22632.09,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x93b5810c358c063a94f963f63cd74bb410494d72fd4c20ced3ea2feb6c32215f:1",
@@ -15647,6 +15675,34 @@
           "resolved_date": null,
           "end_date": "2026-08-20",
           "total_value_usd": 17392.56,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf2bf720c68d59fafb47886b1acdba85da232c6b52c4423cc12a6c02d3cf6c189:1",
+          "condition_id": "0xf2bf720c68d59fafb47886b1acdba85da232c6b52c4423cc12a6c02d3cf6c189",
+          "title": "Texas Rangers vs. Athletics",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Athletics",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-22",
+          "total_value_usd": 237984.25,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xc86108feec188547ff26fe9fae656323fdb2a954b0f9753bd5cb9c453428501b:1",
+          "condition_id": "0xc86108feec188547ff26fe9fae656323fdb2a954b0f9753bd5cb9c453428501b",
+          "title": "Milwaukee Brewers vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-22",
+          "total_value_usd": 93491.57,
           "result": "pending"
         }
       ]
@@ -15655,11 +15711,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 223,
+      "signals_evaluated": 225,
       "correct": 70,
-      "wrong": 131,
-      "pending": 22,
-      "win_rate": 34.8,
+      "wrong": 132,
+      "pending": 23,
+      "win_rate": 34.7,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -18763,11 +18819,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Jack Pinnington Jones",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jack Pinnington Jones",
+          "resolved_date": "2026-08-21",
           "end_date": "2026-08-21",
           "total_value_usd": 22632.09,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x93b5810c358c063a94f963f63cd74bb410494d72fd4c20ced3ea2feb6c32215f:1",
@@ -18781,6 +18837,34 @@
           "resolved_date": null,
           "end_date": "2026-08-20",
           "total_value_usd": 17392.56,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf2bf720c68d59fafb47886b1acdba85da232c6b52c4423cc12a6c02d3cf6c189:1",
+          "condition_id": "0xf2bf720c68d59fafb47886b1acdba85da232c6b52c4423cc12a6c02d3cf6c189",
+          "title": "Texas Rangers vs. Athletics",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Athletics",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-22",
+          "total_value_usd": 237984.25,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xc86108feec188547ff26fe9fae656323fdb2a954b0f9753bd5cb9c453428501b:1",
+          "condition_id": "0xc86108feec188547ff26fe9fae656323fdb2a954b0f9753bd5cb9c453428501b",
+          "title": "Milwaukee Brewers vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-22",
+          "total_value_usd": 93491.57,
           "result": "pending"
         }
       ]
