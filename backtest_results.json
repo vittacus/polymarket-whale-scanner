@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-15T20:52:59+00:00",
-  "total_signals": 897,
+  "generated_at": "2026-08-15T21:23:05+00:00",
+  "total_signals": 898,
   "total_resolved": 849,
   "total_correct": 538,
   "overall_hit_rate": 63.4,
   "by_tier": {
     "Strong": {
-      "total": 368,
+      "total": 369,
       "resolved": 355,
       "correct": 238,
       "hit_rate": 67.0
@@ -15267,6 +15267,23 @@
       "tier": "Strong",
       "score": 10.5347,
       "total_value_usd": 281149.89,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-22",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xa73e46d245826d7d83cb597671e5cd205f111d49f29b747f9ac347ac2997e705:1",
+      "condition_id": "0xa73e46d245826d7d83cb597671e5cd205f111d49f29b747f9ac347ac2997e705",
+      "title": "Cincinnati Open: Novak Djokovic vs Thiago Agustin Tirante",
+      "category": "Tennis",
+      "whale_direction": "Thiago Agustin Tirante",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 11.1718,
+      "total_value_usd": 956173.93,
       "entry_price": 0.0445,
       "end_date": "2026-08-22",
       "resolved": false,
