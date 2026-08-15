@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-15T04:30:18+00:00",
+  "generated_at": "2026-08-15T05:02:44+00:00",
   "total_signals": 895,
-  "total_resolved": 844,
-  "total_correct": 534,
+  "total_resolved": 845,
+  "total_correct": 535,
   "overall_hit_rate": 63.3,
   "by_tier": {
     "Strong": {
       "total": 367,
-      "resolved": 352,
-      "correct": 236,
-      "hit_rate": 67.0
+      "resolved": 353,
+      "correct": 237,
+      "hit_rate": 67.1
     },
     "Moderate": {
       "total": 477,
@@ -15116,10 +15116,10 @@
       "total_value_usd": 62627.83,
       "entry_price": 0.0445,
       "end_date": "2026-08-22",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Kansas City Royals",
+      "resolved_date": "2026-08-22"
     },
     {
       "signal_key": "0x9a9d3bfbb23acafb8c574adba6bcacc7faffc1b9666b341b26112a94604930e3:1",
