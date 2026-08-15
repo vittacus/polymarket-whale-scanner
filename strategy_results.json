@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-15T01:01:36+00:00",
-  "total_evaluated": 886,
-  "total_pending": 50,
+  "generated_at": "2026-08-15T02:17:05+00:00",
+  "total_evaluated": 887,
+  "total_pending": 49,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 886,
-      "correct": 529,
-      "wrong": 307,
-      "pending": 50,
-      "win_rate": 63.3,
+      "signals_evaluated": 887,
+      "correct": 530,
+      "wrong": 308,
+      "pending": 49,
+      "win_rate": 63.2,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -12383,11 +12383,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Pittsburgh Pirates",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Pittsburgh Pirates",
+          "resolved_date": "2026-08-21",
           "end_date": "2026-08-21",
           "total_value_usd": 111447.05,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x396649f68a9000541248996c69612da0f7fa17239625de443037ae4ca501cd3c:1",
@@ -12397,11 +12397,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Detroit Tigers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Chicago White Sox",
+          "resolved_date": "2026-08-21",
           "end_date": "2026-08-21",
           "total_value_usd": 4608.53,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x024894cf2eea678a8fcf231ce51d26777160230112d5fe93420573b741b2b603:0",
@@ -12415,6 +12415,20 @@
           "resolved_date": null,
           "end_date": "2026-08-21",
           "total_value_usd": 33398.45,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x9952ac8902f12c98f87d7868689becb6fad664b74f254121ba6326afb0ccc1ea:0",
+          "condition_id": "0x9952ac8902f12c98f87d7868689becb6fad664b74f254121ba6326afb0ccc1ea",
+          "title": "Baltimore Orioles vs. Tampa Bay Rays",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Baltimore Orioles",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-21",
+          "total_value_usd": 88269.09,
           "result": "pending"
         }
       ]
@@ -12423,11 +12437,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 216,
-      "correct": 128,
-      "wrong": 69,
-      "pending": 19,
-      "win_rate": 65.0,
+      "signals_evaluated": 217,
+      "correct": 129,
+      "wrong": 70,
+      "pending": 18,
+      "win_rate": 64.8,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -15419,11 +15433,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Pittsburgh Pirates",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Pittsburgh Pirates",
+          "resolved_date": "2026-08-21",
           "end_date": "2026-08-21",
           "total_value_usd": 111447.05,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x396649f68a9000541248996c69612da0f7fa17239625de443037ae4ca501cd3c:1",
@@ -15433,11 +15447,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Detroit Tigers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Chicago White Sox",
+          "resolved_date": "2026-08-21",
           "end_date": "2026-08-21",
           "total_value_usd": 4608.53,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x024894cf2eea678a8fcf231ce51d26777160230112d5fe93420573b741b2b603:0",
@@ -15451,6 +15465,20 @@
           "resolved_date": null,
           "end_date": "2026-08-21",
           "total_value_usd": 33398.45,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x9952ac8902f12c98f87d7868689becb6fad664b74f254121ba6326afb0ccc1ea:0",
+          "condition_id": "0x9952ac8902f12c98f87d7868689becb6fad664b74f254121ba6326afb0ccc1ea",
+          "title": "Baltimore Orioles vs. Tampa Bay Rays",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Baltimore Orioles",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-21",
+          "total_value_usd": 88269.09,
           "result": "pending"
         }
       ]
@@ -15459,11 +15487,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 216,
-      "correct": 69,
-      "wrong": 128,
-      "pending": 19,
-      "win_rate": 35.0,
+      "signals_evaluated": 217,
+      "correct": 70,
+      "wrong": 129,
+      "pending": 18,
+      "win_rate": 35.2,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -18455,11 +18483,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Pittsburgh Pirates",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Pittsburgh Pirates",
+          "resolved_date": "2026-08-21",
           "end_date": "2026-08-21",
           "total_value_usd": 111447.05,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x396649f68a9000541248996c69612da0f7fa17239625de443037ae4ca501cd3c:1",
@@ -18469,11 +18497,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Detroit Tigers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Chicago White Sox",
+          "resolved_date": "2026-08-21",
           "end_date": "2026-08-21",
           "total_value_usd": 4608.53,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x024894cf2eea678a8fcf231ce51d26777160230112d5fe93420573b741b2b603:0",
@@ -18487,6 +18515,20 @@
           "resolved_date": null,
           "end_date": "2026-08-21",
           "total_value_usd": 33398.45,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x9952ac8902f12c98f87d7868689becb6fad664b74f254121ba6326afb0ccc1ea:0",
+          "condition_id": "0x9952ac8902f12c98f87d7868689becb6fad664b74f254121ba6326afb0ccc1ea",
+          "title": "Baltimore Orioles vs. Tampa Bay Rays",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Baltimore Orioles",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-21",
+          "total_value_usd": 88269.09,
           "result": "pending"
         }
       ]

@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-15T01:01:36+00:00",
-  "total_signals": 886,
-  "total_resolved": 836,
-  "total_correct": 529,
-  "overall_hit_rate": 63.3,
+  "generated_at": "2026-08-15T02:17:05+00:00",
+  "total_signals": 887,
+  "total_resolved": 838,
+  "total_correct": 530,
+  "overall_hit_rate": 63.2,
   "by_tier": {
     "Strong": {
-      "total": 362,
-      "resolved": 349,
-      "correct": 233,
-      "hit_rate": 66.8
+      "total": 363,
+      "resolved": 350,
+      "correct": 234,
+      "hit_rate": 66.9
     },
     "Moderate": {
       "total": 473,
-      "resolved": 438,
+      "resolved": 439,
       "correct": 272,
-      "hit_rate": 62.1
+      "hit_rate": 62.0
     },
     "Weak": {
       "total": 51,
@@ -15048,10 +15048,10 @@
       "total_value_usd": 111447.05,
       "entry_price": 0.0445,
       "end_date": "2026-08-21",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Pittsburgh Pirates",
+      "resolved_date": "2026-08-21"
     },
     {
       "signal_key": "0x396649f68a9000541248996c69612da0f7fa17239625de443037ae4ca501cd3c:1",
@@ -15065,10 +15065,10 @@
       "total_value_usd": 4608.53,
       "entry_price": 0.0445,
       "end_date": "2026-08-21",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Chicago White Sox",
+      "resolved_date": "2026-08-21"
     },
     {
       "signal_key": "0x024894cf2eea678a8fcf231ce51d26777160230112d5fe93420573b741b2b603:0",
@@ -15080,6 +15080,23 @@
       "tier": "Moderate",
       "score": 4.8156,
       "total_value_usd": 33398.45,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-21",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x9952ac8902f12c98f87d7868689becb6fad664b74f254121ba6326afb0ccc1ea:0",
+      "condition_id": "0x9952ac8902f12c98f87d7868689becb6fad664b74f254121ba6326afb0ccc1ea",
+      "title": "Baltimore Orioles vs. Tampa Bay Rays",
+      "category": "MLB",
+      "whale_direction": "Baltimore Orioles",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 24.275,
+      "total_value_usd": 88269.09,
       "entry_price": 0.0445,
       "end_date": "2026-08-21",
       "resolved": false,

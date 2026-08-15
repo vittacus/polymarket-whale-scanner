@@ -252079,5 +252079,186 @@
         "entry_price": 0.0445
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-15T02:10:27+00:00",
+    "whale_timeframes": {
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2dc13c6bda81b202281e796953a7323de675b33c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1b47e9b128e6b671edebfb2cac23dd3efc40d814": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x16bb9951a36fce71e2ef57890b786145e0ba8492": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc7d02944a76b9f83b199e9090ecc92c82d241f8a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa974826f82380f9bb3d5b9c722c50f82fb1aef79": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x56acab44cfca2e88bb9b3406890aea7bfa0cd77e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa49becb692927d455924583b5e3e5788246f4c40": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xffbbf885454e6930e54b720ad5224175b8ae36e9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9703676286b93c2eca71ca96e8757104519a69c2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8fb64f037d020643f5c70584138183d7de7dc91a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x9952ac8902f12c98f87d7868689becb6fad664b74f254121ba6326afb0ccc1ea:0",
+        "condition_id": "0x9952ac8902f12c98f87d7868689becb6fad664b74f254121ba6326afb0ccc1ea",
+        "title": "Baltimore Orioles vs. Tampa Bay Rays",
+        "outcome": "Baltimore Orioles",
+        "outcome_index": 0,
+        "whale_count": 6,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x1b47e9b128e6b671edebfb2cac23dd3efc40d814",
+          "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705",
+          "0x9703676286b93c2eca71ca96e8757104519a69c2",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+        ],
+        "ranks": [
+          2,
+          3,
+          6,
+          10,
+          16,
+          18
+        ],
+        "total_value_usd": 88269.09,
+        "score": 24.275,
+        "category": "MLB",
+        "end_date": "2026-08-21",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x024894cf2eea678a8fcf231ce51d26777160230112d5fe93420573b741b2b603:0",
+        "condition_id": "0x024894cf2eea678a8fcf231ce51d26777160230112d5fe93420573b741b2b603",
+        "title": "San Diego Padres vs. Cleveland Guardians",
+        "outcome": "San Diego Padres",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
+          "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705"
+        ],
+        "ranks": [
+          2,
+          3,
+          7,
+          10
+        ],
+        "total_value_usd": 35859.21,
+        "score": 19.7512,
+        "category": "MLB",
+        "end_date": "2026-08-21",
+        "entry_price": 0.0445
+      }
+    ]
   }
 ]
