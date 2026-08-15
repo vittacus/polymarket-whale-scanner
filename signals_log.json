@@ -251883,5 +251883,201 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-08-15T00:53:30+00:00",
+    "whale_timeframes": {
+      "0xcd30f4698c6f5f3829893e68e183a8e5ea18f316": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe16d3f2a5807999b358affd9445c3a09e45e5e30": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe30e74595517de48f1fb19f4553dd3d9f1e96b87": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x04d5524a0a5af2eca6e39e03defc261d42fe66d8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x79ae097215202b5d01f98e4479fb219102469a4a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x73e3fec494611d73c170cb2f23850fd998b21be9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x29b52d98ac9ef9414b04164246c95bc63d74cc6c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7bc14171ccb0d3e6bac219ec6a76211826e28db4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5f659bccbc353dbf7bcdffdee73bee60bb482036": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x10ff6cd4b1b5669d4ca87faebae0c869ad315088": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa4b7b1814b0da33f2b61be4939976898aa476008": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x448861155279dbf833d041b963e3ac854599e319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x684baa57c338c2549aec0aa3f034f695d72a8409": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1610db79f753a80207e1d66716be9e91e627ae49": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc44f432b014f36679e13615f95996eac32bbd49f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2f44fa076c8d2976ac6bea0ddfd9502bad2b93c2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x85064e686ff884307b6225af50cc301a738526b993e6acb6713899667556741a:1",
+        "condition_id": "0x85064e686ff884307b6225af50cc301a738526b993e6acb6713899667556741a",
+        "title": "Boston Red Sox vs. Pittsburgh Pirates",
+        "outcome": "Pittsburgh Pirates",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x684baa57c338c2549aec0aa3f034f695d72a8409"
+        ],
+        "ranks": [
+          2,
+          7,
+          17
+        ],
+        "total_value_usd": 111447.05,
+        "score": 14.2703,
+        "category": "MLB",
+        "end_date": "2026-08-21",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x396649f68a9000541248996c69612da0f7fa17239625de443037ae4ca501cd3c:1",
+        "condition_id": "0x396649f68a9000541248996c69612da0f7fa17239625de443037ae4ca501cd3c",
+        "title": "Chicago White Sox vs. Detroit Tigers",
+        "outcome": "Detroit Tigers",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x448861155279dbf833d041b963e3ac854599e319"
+        ],
+        "ranks": [
+          5,
+          7,
+          16
+        ],
+        "total_value_usd": 4608.53,
+        "score": 5.9842,
+        "category": "MLB",
+        "end_date": "2026-08-21",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x024894cf2eea678a8fcf231ce51d26777160230112d5fe93420573b741b2b603:0",
+        "condition_id": "0x024894cf2eea678a8fcf231ce51d26777160230112d5fe93420573b741b2b603",
+        "title": "San Diego Padres vs. Cleveland Guardians",
+        "outcome": "San Diego Padres",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x448861155279dbf833d041b963e3ac854599e319",
+          "0x684baa57c338c2549aec0aa3f034f695d72a8409"
+        ],
+        "ranks": [
+          7,
+          16,
+          17
+        ],
+        "total_value_usd": 33398.45,
+        "score": 4.8156,
+        "category": "MLB",
+        "end_date": "2026-08-21",
+        "entry_price": 0.0445
+      }
+    ]
   }
 ]
