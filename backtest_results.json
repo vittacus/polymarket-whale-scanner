@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-15T21:23:05+00:00",
+  "generated_at": "2026-08-15T21:45:37+00:00",
   "total_signals": 898,
-  "total_resolved": 849,
-  "total_correct": 538,
-  "overall_hit_rate": 63.4,
+  "total_resolved": 851,
+  "total_correct": 539,
+  "overall_hit_rate": 63.3,
   "by_tier": {
     "Strong": {
       "total": 369,
-      "resolved": 355,
-      "correct": 238,
-      "hit_rate": 67.0
+      "resolved": 357,
+      "correct": 239,
+      "hit_rate": 66.9
     },
     "Moderate": {
       "total": 478,
@@ -15269,10 +15269,10 @@
       "total_value_usd": 281149.89,
       "entry_price": 0.0445,
       "end_date": "2026-08-22",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Thiago Agustin Tirante",
+      "resolved_date": "2026-08-22"
     },
     {
       "signal_key": "0xa73e46d245826d7d83cb597671e5cd205f111d49f29b747f9ac347ac2997e705:1",
@@ -15286,10 +15286,10 @@
       "total_value_usd": 956173.93,
       "entry_price": 0.0445,
       "end_date": "2026-08-22",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Thiago Agustin Tirante",
+      "resolved_date": "2026-08-22"
     }
   ]
 }
