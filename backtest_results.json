@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-15T03:59:24+00:00",
+  "generated_at": "2026-08-15T04:30:18+00:00",
   "total_signals": 895,
-  "total_resolved": 841,
-  "total_correct": 533,
-  "overall_hit_rate": 63.4,
+  "total_resolved": 844,
+  "total_correct": 534,
+  "overall_hit_rate": 63.3,
   "by_tier": {
     "Strong": {
       "total": 367,
-      "resolved": 351,
-      "correct": 235,
+      "resolved": 352,
+      "correct": 236,
       "hit_rate": 67.0
     },
     "Moderate": {
       "total": 477,
-      "resolved": 441,
+      "resolved": 443,
       "correct": 274,
-      "hit_rate": 62.1
+      "hit_rate": 61.9
     },
     "Weak": {
       "total": 51,
@@ -15150,10 +15150,10 @@
       "total_value_usd": 66817.16,
       "entry_price": 0.0445,
       "end_date": "2026-08-22",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Houston Astros",
+      "resolved_date": "2026-08-22"
     },
     {
       "signal_key": "0x64b20e986ef477690afe7b934c7a7eac3c7e827f7c5a10119fdf41d2fc1c4da7:0",
@@ -15167,10 +15167,10 @@
       "total_value_usd": 13190.22,
       "entry_price": 0.0445,
       "end_date": "2026-08-22",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Houston Astros",
+      "resolved_date": "2026-08-22"
     },
     {
       "signal_key": "0x82f73c941a2955728a6ec9b968bd60fa7c58006ebc63bfa80e16ea28451200c8:1",
@@ -15201,10 +15201,10 @@
       "total_value_usd": 17392.56,
       "entry_price": 0.0445,
       "end_date": "2026-08-20",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Aleksandar Kovacevic",
+      "resolved_date": "2026-08-20"
     },
     {
       "signal_key": "0xf2bf720c68d59fafb47886b1acdba85da232c6b52c4423cc12a6c02d3cf6c189:1",
