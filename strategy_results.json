@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-16T19:24:00+00:00",
-  "total_evaluated": 918,
-  "total_pending": 50,
+  "generated_at": "2026-08-16T19:49:11+00:00",
+  "total_evaluated": 919,
+  "total_pending": 48,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 918,
-      "correct": 548,
-      "wrong": 320,
-      "pending": 50,
+      "signals_evaluated": 919,
+      "correct": 550,
+      "wrong": 321,
+      "pending": 48,
       "win_rate": 63.1,
       "signals": [
         {
@@ -12747,11 +12747,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Stefanos Tsitsipas",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Felix Auger-Aliassime",
+          "resolved_date": "2026-08-23",
           "end_date": "2026-08-23",
           "total_value_usd": 49142.17,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x1373e25b6a3a139a5a4fb35bd5329e40e862f2979a73cca51ba03173e6f6ca34:1",
@@ -12789,11 +12789,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Felix Auger-Aliassime",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Felix Auger-Aliassime",
+          "resolved_date": "2026-08-23",
           "end_date": "2026-08-23",
           "total_value_usd": 46191.25,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x2234b40bab46bbdf4ef6c3c7187bc8ddd3c6a1a36355f6ef2e8310e0ceaa782e:1",
@@ -12845,11 +12845,11 @@
           "tier": "Weak",
           "entry_price": 0.0445,
           "whale_direction": "Lorenzo Musetti",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lorenzo Musetti",
+          "resolved_date": "2026-08-23",
           "end_date": "2026-08-23",
           "total_value_usd": 8128.37,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf0bf950271fa7d3ff102f76abfd873c9ad6b6ed8c1e879cbb891b1009f11ed73:0",
@@ -12863,6 +12863,20 @@
           "resolved_date": null,
           "end_date": "2026-08-23",
           "total_value_usd": 19004.95,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x3927a0e1baded6f80c36b1c9fe0388e0489af3165262f4b9e28db1ad293e83ef:1",
+          "condition_id": "0x3927a0e1baded6f80c36b1c9fe0388e0489af3165262f4b9e28db1ad293e83ef",
+          "title": "New York Yankees vs. Toronto Blue Jays",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Toronto Blue Jays",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 11623.14,
           "result": "pending"
         }
       ]
@@ -12871,11 +12885,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 248,
-      "correct": 146,
-      "wrong": 82,
-      "pending": 20,
-      "win_rate": 64.0,
+      "signals_evaluated": 249,
+      "correct": 148,
+      "wrong": 83,
+      "pending": 18,
+      "win_rate": 64.1,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -16231,11 +16245,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Stefanos Tsitsipas",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Felix Auger-Aliassime",
+          "resolved_date": "2026-08-23",
           "end_date": "2026-08-23",
           "total_value_usd": 49142.17,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x1373e25b6a3a139a5a4fb35bd5329e40e862f2979a73cca51ba03173e6f6ca34:1",
@@ -16273,11 +16287,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Felix Auger-Aliassime",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Felix Auger-Aliassime",
+          "resolved_date": "2026-08-23",
           "end_date": "2026-08-23",
           "total_value_usd": 46191.25,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x2234b40bab46bbdf4ef6c3c7187bc8ddd3c6a1a36355f6ef2e8310e0ceaa782e:1",
@@ -16329,11 +16343,11 @@
           "tier": "Weak",
           "entry_price": 0.0445,
           "whale_direction": "Lorenzo Musetti",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lorenzo Musetti",
+          "resolved_date": "2026-08-23",
           "end_date": "2026-08-23",
           "total_value_usd": 8128.37,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf0bf950271fa7d3ff102f76abfd873c9ad6b6ed8c1e879cbb891b1009f11ed73:0",
@@ -16347,6 +16361,20 @@
           "resolved_date": null,
           "end_date": "2026-08-23",
           "total_value_usd": 19004.95,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x3927a0e1baded6f80c36b1c9fe0388e0489af3165262f4b9e28db1ad293e83ef:1",
+          "condition_id": "0x3927a0e1baded6f80c36b1c9fe0388e0489af3165262f4b9e28db1ad293e83ef",
+          "title": "New York Yankees vs. Toronto Blue Jays",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Toronto Blue Jays",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 11623.14,
           "result": "pending"
         }
       ]
@@ -16355,11 +16383,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 248,
-      "correct": 82,
-      "wrong": 146,
-      "pending": 20,
-      "win_rate": 36.0,
+      "signals_evaluated": 249,
+      "correct": 83,
+      "wrong": 148,
+      "pending": 18,
+      "win_rate": 35.9,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -19715,11 +19743,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Stefanos Tsitsipas",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Felix Auger-Aliassime",
+          "resolved_date": "2026-08-23",
           "end_date": "2026-08-23",
           "total_value_usd": 49142.17,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x1373e25b6a3a139a5a4fb35bd5329e40e862f2979a73cca51ba03173e6f6ca34:1",
@@ -19757,11 +19785,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Felix Auger-Aliassime",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Felix Auger-Aliassime",
+          "resolved_date": "2026-08-23",
           "end_date": "2026-08-23",
           "total_value_usd": 46191.25,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x2234b40bab46bbdf4ef6c3c7187bc8ddd3c6a1a36355f6ef2e8310e0ceaa782e:1",
@@ -19813,11 +19841,11 @@
           "tier": "Weak",
           "entry_price": 0.0445,
           "whale_direction": "Lorenzo Musetti",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lorenzo Musetti",
+          "resolved_date": "2026-08-23",
           "end_date": "2026-08-23",
           "total_value_usd": 8128.37,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xf0bf950271fa7d3ff102f76abfd873c9ad6b6ed8c1e879cbb891b1009f11ed73:0",
@@ -19831,6 +19859,20 @@
           "resolved_date": null,
           "end_date": "2026-08-23",
           "total_value_usd": 19004.95,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x3927a0e1baded6f80c36b1c9fe0388e0489af3165262f4b9e28db1ad293e83ef:1",
+          "condition_id": "0x3927a0e1baded6f80c36b1c9fe0388e0489af3165262f4b9e28db1ad293e83ef",
+          "title": "New York Yankees vs. Toronto Blue Jays",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Toronto Blue Jays",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 11623.14,
           "result": "pending"
         }
       ]

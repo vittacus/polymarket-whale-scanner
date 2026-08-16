@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-16T19:24:00+00:00",
-  "total_signals": 918,
-  "total_resolved": 868,
-  "total_correct": 548,
+  "generated_at": "2026-08-16T19:49:11+00:00",
+  "total_signals": 919,
+  "total_resolved": 871,
+  "total_correct": 550,
   "overall_hit_rate": 63.1,
   "by_tier": {
     "Strong": {
@@ -12,16 +12,16 @@
       "hit_rate": 66.9
     },
     "Moderate": {
-      "total": 492,
-      "resolved": 457,
-      "correct": 282,
+      "total": 493,
+      "resolved": 459,
+      "correct": 283,
       "hit_rate": 61.7
     },
     "Weak": {
       "total": 55,
-      "resolved": 52,
-      "correct": 26,
-      "hit_rate": 50.0
+      "resolved": 53,
+      "correct": 27,
+      "hit_rate": 50.9
     }
   },
   "signals": [
@@ -15490,10 +15490,10 @@
       "total_value_usd": 49142.17,
       "entry_price": 0.0445,
       "end_date": "2026-08-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Felix Auger-Aliassime",
+      "resolved_date": "2026-08-23"
     },
     {
       "signal_key": "0x1373e25b6a3a139a5a4fb35bd5329e40e862f2979a73cca51ba03173e6f6ca34:1",
@@ -15541,10 +15541,10 @@
       "total_value_usd": 46191.25,
       "entry_price": 0.0445,
       "end_date": "2026-08-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Felix Auger-Aliassime",
+      "resolved_date": "2026-08-23"
     },
     {
       "signal_key": "0x2234b40bab46bbdf4ef6c3c7187bc8ddd3c6a1a36355f6ef2e8310e0ceaa782e:1",
@@ -15609,10 +15609,10 @@
       "total_value_usd": 8128.37,
       "entry_price": 0.0445,
       "end_date": "2026-08-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Lorenzo Musetti",
+      "resolved_date": "2026-08-23"
     },
     {
       "signal_key": "0xf0bf950271fa7d3ff102f76abfd873c9ad6b6ed8c1e879cbb891b1009f11ed73:0",
@@ -15624,6 +15624,23 @@
       "tier": "Moderate",
       "score": 4.3394,
       "total_value_usd": 19004.95,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-23",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x3927a0e1baded6f80c36b1c9fe0388e0489af3165262f4b9e28db1ad293e83ef:1",
+      "condition_id": "0x3927a0e1baded6f80c36b1c9fe0388e0489af3165262f4b9e28db1ad293e83ef",
+      "title": "New York Yankees vs. Toronto Blue Jays",
+      "category": "MLB",
+      "whale_direction": "Toronto Blue Jays",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 8.8245,
+      "total_value_usd": 11623.14,
       "entry_price": 0.0445,
       "end_date": "2026-08-23",
       "resolved": false,
