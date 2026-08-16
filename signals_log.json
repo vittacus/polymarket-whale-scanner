@@ -258866,5 +258866,270 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-08-16T01:13:33+00:00",
+    "whale_timeframes": {
+      "0xc2e7800b5af46e6093872b177b7a5e7f0563be51": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x866056133a70de9282a080758858d1a0c8b393ed": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe30e74595517de48f1fb19f4553dd3d9f1e96b87": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xecaa8806a9a05049d7d5260a33dc924220e377a9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8b3234f9027f4e994e949df4b48b90ab79015950": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x21f333307ac6d2e65ac82f014b3dd2b64cbc35e3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9703676286b93c2eca71ca96e8757104519a69c2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9c3ce009c9b039956665cecc4cd14de862b5e8c9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x682005011dd19c1e986cb060ed6ab83845f21c19": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd6966eb1ae7b52320ba7ab1016680198c9e08a49": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7dbc916b0c3360c955870a49304d75916a64d4ad": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x684baa57c338c2549aec0aa3f034f695d72a8409": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x41904eafc71001c09b9607c71fc3aaf7cba67d6f11f92afa94519b377f4c7147:0",
+        "condition_id": "0x41904eafc71001c09b9607c71fc3aaf7cba67d6f11f92afa94519b377f4c7147",
+        "title": "Cincinnati Open: Rafael Jodar vs Denis Shapovalov",
+        "outcome": "Rafael Jodar",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          4,
+          5,
+          11
+        ],
+        "total_value_usd": 141262.14,
+        "score": 11.225,
+        "category": "Tennis",
+        "end_date": "2026-08-22",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x39a4b304b681d530183fb6cac9c80e713c40b927f3da8314ec39f24ece0f2ff7:1",
+        "condition_id": "0x39a4b304b681d530183fb6cac9c80e713c40b927f3da8314ec39f24ece0f2ff7",
+        "title": "Cincinnati Open: Lois Boisson vs Belinda Bencic",
+        "outcome": "Belinda Bencic",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x9c3ce009c9b039956665cecc4cd14de862b5e8c9",
+          "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294"
+        ],
+        "ranks": [
+          5,
+          14,
+          15
+        ],
+        "total_value_usd": 38444.48,
+        "score": 6.2462,
+        "category": "Tennis",
+        "end_date": "2026-08-22",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0xff0f5a853488bccfdb4d8582966fa17cd1c1d2de6749abfc3bd0f79fcedf93eb:0",
+        "condition_id": "0xff0f5a853488bccfdb4d8582966fa17cd1c1d2de6749abfc3bd0f79fcedf93eb",
+        "title": "Cincinnati Open: Peyton Stearns vs Clara Tauson",
+        "outcome": "Peyton Stearns",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x9c3ce009c9b039956665cecc4cd14de862b5e8c9"
+        ],
+        "ranks": [
+          5,
+          11,
+          14
+        ],
+        "total_value_usd": 11766.27,
+        "score": 5.9434,
+        "category": "Tennis",
+        "end_date": "2026-08-22",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x41904eafc71001c09b9607c71fc3aaf7cba67d6f11f92afa94519b377f4c7147:1",
+        "condition_id": "0x41904eafc71001c09b9607c71fc3aaf7cba67d6f11f92afa94519b377f4c7147",
+        "title": "Cincinnati Open: Rafael Jodar vs Denis Shapovalov",
+        "outcome": "Denis Shapovalov",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294"
+        ],
+        "ranks": [
+          5,
+          11,
+          15
+        ],
+        "total_value_usd": 12520.83,
+        "score": 5.9042,
+        "category": "Tennis",
+        "end_date": "2026-08-22",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x33bd6490319d0926955bb451d81e3f345bf6e6d41a0a85d69c02f658277a4de4:1",
+        "condition_id": "0x33bd6490319d0926955bb451d81e3f345bf6e6d41a0a85d69c02f658277a4de4",
+        "title": "San Diego Padres vs. Cleveland Guardians",
+        "outcome": "Cleveland Guardians",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x9c3ce009c9b039956665cecc4cd14de862b5e8c9",
+          "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294"
+        ],
+        "ranks": [
+          11,
+          14,
+          15
+        ],
+        "total_value_usd": 13310.75,
+        "score": 3.8058,
+        "category": "MLB",
+        "end_date": "2026-08-22",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x47aac0d91293182cf11508a8ac911b0384c5b00de91a3b6de90d994df095a6ff:1",
+        "condition_id": "0x47aac0d91293182cf11508a8ac911b0384c5b00de91a3b6de90d994df095a6ff",
+        "title": "Texas Rangers vs. Athletics",
+        "outcome": "Athletics",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x9c3ce009c9b039956665cecc4cd14de862b5e8c9",
+          "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294"
+        ],
+        "ranks": [
+          11,
+          14,
+          15
+        ],
+        "total_value_usd": 8281.52,
+        "score": 3.6156,
+        "category": "MLB",
+        "end_date": "2026-08-23",
+        "entry_price": 0.0445
+      }
+    ]
   }
 ]
