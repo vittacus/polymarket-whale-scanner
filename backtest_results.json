@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-16T23:07:20+00:00",
+  "generated_at": "2026-08-16T23:30:01+00:00",
   "total_signals": 927,
-  "total_resolved": 876,
-  "total_correct": 552,
-  "overall_hit_rate": 63.0,
+  "total_resolved": 882,
+  "total_correct": 555,
+  "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
       "total": 374,
-      "resolved": 359,
-      "correct": 240,
+      "resolved": 362,
+      "correct": 242,
       "hit_rate": 66.9
     },
     "Moderate": {
       "total": 498,
-      "resolved": 464,
-      "correct": 285,
-      "hit_rate": 61.4
+      "resolved": 467,
+      "correct": 286,
+      "hit_rate": 61.2
     },
     "Weak": {
       "total": 55,
@@ -15660,10 +15660,10 @@
       "total_value_usd": 59720.2,
       "entry_price": 0.0445,
       "end_date": "2026-08-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Milwaukee Brewers",
+      "resolved_date": "2026-08-23"
     },
     {
       "signal_key": "0xa0e8a96c72fa413a6fc50054292042c8355f51103f1ea3b2b3851d165e855c72:0",
@@ -15711,10 +15711,10 @@
       "total_value_usd": 4081.8,
       "entry_price": 0.0445,
       "end_date": "2026-08-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Pittsburgh Pirates",
+      "resolved_date": "2026-08-23"
     },
     {
       "signal_key": "0x2d144e6f334f048a7e155981dd131f47a96b639d6dd7c72a4e71e1df68f004ba:0",
@@ -15728,10 +15728,10 @@
       "total_value_usd": 35782.35,
       "entry_price": 0.0445,
       "end_date": "2026-08-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Athletics",
+      "resolved_date": "2026-08-23"
     },
     {
       "signal_key": "0xd0931285bc113225a34787e34f7355d63b0313b30cc7640ab9a9b72e52a38340:0",
@@ -15745,10 +15745,10 @@
       "total_value_usd": 21471.56,
       "entry_price": 0.0445,
       "end_date": "2026-08-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Milwaukee Brewers",
+      "resolved_date": "2026-08-23"
     },
     {
       "signal_key": "0x2d144e6f334f048a7e155981dd131f47a96b639d6dd7c72a4e71e1df68f004ba:1",
@@ -15762,10 +15762,10 @@
       "total_value_usd": 87229.26,
       "entry_price": 0.0445,
       "end_date": "2026-08-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Athletics",
+      "resolved_date": "2026-08-23"
     },
     {
       "signal_key": "0x61ec63587cfad7b9cbf7089665e2e1d955ebb2d048a85131d9ed1f4b645fc87f:1",
@@ -15779,10 +15779,10 @@
       "total_value_usd": 59428.62,
       "entry_price": 0.0445,
       "end_date": "2026-08-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Pittsburgh Pirates",
+      "resolved_date": "2026-08-23"
     }
   ]
 }
