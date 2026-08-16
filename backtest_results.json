@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-16T06:07:05+00:00",
+  "generated_at": "2026-08-16T06:58:14+00:00",
   "total_signals": 909,
-  "total_resolved": 860,
-  "total_correct": 543,
-  "overall_hit_rate": 63.1,
+  "total_resolved": 864,
+  "total_correct": 546,
+  "overall_hit_rate": 63.2,
   "by_tier": {
     "Strong": {
       "total": 371,
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 484,
-      "resolved": 449,
-      "correct": 277,
-      "hit_rate": 61.7
+      "resolved": 453,
+      "correct": 280,
+      "hit_rate": 61.8
     },
     "Weak": {
       "total": 54,
@@ -8673,10 +8673,10 @@
       "total_value_usd": 22324.79,
       "entry_price": 0.505,
       "end_date": "2026-08-15",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-08-15"
     },
     {
       "signal_key": "0x4c63863c9f4449243981ae1748c5ee9d4d8c8f22e25f708a9afd4c86e124f360:1",
@@ -11733,10 +11733,10 @@
       "total_value_usd": 32549.34,
       "entry_price": 0.0455,
       "end_date": "2026-08-15",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-08-15"
     },
     {
       "signal_key": "0xd8659b58a90d0d69fb1170f25b2b896871a1328115fd11c6f4cfe2b01a2a8ba0:1",
@@ -15456,10 +15456,10 @@
       "total_value_usd": 42769.08,
       "entry_price": 0.0445,
       "end_date": "2026-08-22",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Alexander Zverev",
+      "resolved_date": "2026-08-22"
     },
     {
       "signal_key": "0xa0ebf629ede719e165eb8f1383a979640f70b0fbbc0996ae2fac178e207787c0:1",
@@ -15473,10 +15473,10 @@
       "total_value_usd": 18597.4,
       "entry_price": 0.0445,
       "end_date": "2026-08-22",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Alexander Zverev",
+      "resolved_date": "2026-08-22"
     }
   ]
 }
