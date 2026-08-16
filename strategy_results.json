@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-16T21:25:31+00:00",
-  "total_evaluated": 922,
-  "total_pending": 48,
+  "generated_at": "2026-08-16T21:49:59+00:00",
+  "total_evaluated": 925,
+  "total_pending": 51,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 922,
+      "signals_evaluated": 925,
       "correct": 550,
       "wrong": 324,
-      "pending": 48,
+      "pending": 51,
       "win_rate": 62.9,
       "signals": [
         {
@@ -12920,6 +12920,48 @@
           "end_date": "2026-08-23",
           "total_value_usd": 40446.92,
           "result": "pending"
+        },
+        {
+          "signal_key": "0x61ec63587cfad7b9cbf7089665e2e1d955ebb2d048a85131d9ed1f4b645fc87f:0",
+          "condition_id": "0x61ec63587cfad7b9cbf7089665e2e1d955ebb2d048a85131d9ed1f4b645fc87f",
+          "title": "Boston Red Sox vs. Pittsburgh Pirates",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Boston Red Sox",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 4081.8,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x2d144e6f334f048a7e155981dd131f47a96b639d6dd7c72a4e71e1df68f004ba:0",
+          "condition_id": "0x2d144e6f334f048a7e155981dd131f47a96b639d6dd7c72a4e71e1df68f004ba",
+          "title": "Texas Rangers vs. Athletics",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Texas Rangers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 35782.35,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd0931285bc113225a34787e34f7355d63b0313b30cc7640ab9a9b72e52a38340:0",
+          "condition_id": "0xd0931285bc113225a34787e34f7355d63b0313b30cc7640ab9a9b72e52a38340",
+          "title": "Milwaukee Brewers vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Milwaukee Brewers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 21471.56,
+          "result": "pending"
         }
       ]
     },
@@ -12927,10 +12969,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 252,
+      "signals_evaluated": 255,
       "correct": 148,
       "wrong": 86,
-      "pending": 18,
+      "pending": 21,
       "win_rate": 63.2,
       "signals": [
         {
@@ -16460,6 +16502,48 @@
           "end_date": "2026-08-23",
           "total_value_usd": 40446.92,
           "result": "pending"
+        },
+        {
+          "signal_key": "0x61ec63587cfad7b9cbf7089665e2e1d955ebb2d048a85131d9ed1f4b645fc87f:0",
+          "condition_id": "0x61ec63587cfad7b9cbf7089665e2e1d955ebb2d048a85131d9ed1f4b645fc87f",
+          "title": "Boston Red Sox vs. Pittsburgh Pirates",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Boston Red Sox",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 4081.8,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x2d144e6f334f048a7e155981dd131f47a96b639d6dd7c72a4e71e1df68f004ba:0",
+          "condition_id": "0x2d144e6f334f048a7e155981dd131f47a96b639d6dd7c72a4e71e1df68f004ba",
+          "title": "Texas Rangers vs. Athletics",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Texas Rangers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 35782.35,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd0931285bc113225a34787e34f7355d63b0313b30cc7640ab9a9b72e52a38340:0",
+          "condition_id": "0xd0931285bc113225a34787e34f7355d63b0313b30cc7640ab9a9b72e52a38340",
+          "title": "Milwaukee Brewers vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Milwaukee Brewers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 21471.56,
+          "result": "pending"
         }
       ]
     },
@@ -16467,10 +16551,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 252,
+      "signals_evaluated": 255,
       "correct": 86,
       "wrong": 148,
-      "pending": 18,
+      "pending": 21,
       "win_rate": 36.8,
       "signals": [
         {
@@ -19999,6 +20083,48 @@
           "resolved_date": null,
           "end_date": "2026-08-23",
           "total_value_usd": 40446.92,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x61ec63587cfad7b9cbf7089665e2e1d955ebb2d048a85131d9ed1f4b645fc87f:0",
+          "condition_id": "0x61ec63587cfad7b9cbf7089665e2e1d955ebb2d048a85131d9ed1f4b645fc87f",
+          "title": "Boston Red Sox vs. Pittsburgh Pirates",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Boston Red Sox",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 4081.8,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x2d144e6f334f048a7e155981dd131f47a96b639d6dd7c72a4e71e1df68f004ba:0",
+          "condition_id": "0x2d144e6f334f048a7e155981dd131f47a96b639d6dd7c72a4e71e1df68f004ba",
+          "title": "Texas Rangers vs. Athletics",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Texas Rangers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 35782.35,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd0931285bc113225a34787e34f7355d63b0313b30cc7640ab9a9b72e52a38340:0",
+          "condition_id": "0xd0931285bc113225a34787e34f7355d63b0313b30cc7640ab9a9b72e52a38340",
+          "title": "Milwaukee Brewers vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Milwaukee Brewers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 21471.56,
           "result": "pending"
         }
       ]
