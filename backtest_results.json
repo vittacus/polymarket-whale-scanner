@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-16T02:41:37+00:00",
-  "total_signals": 905,
-  "total_resolved": 852,
-  "total_correct": 540,
-  "overall_hit_rate": 63.4,
+  "generated_at": "2026-08-16T03:39:20+00:00",
+  "total_signals": 907,
+  "total_resolved": 854,
+  "total_correct": 541,
+  "overall_hit_rate": 63.3,
   "by_tier": {
     "Strong": {
-      "total": 370,
-      "resolved": 357,
-      "correct": 239,
-      "hit_rate": 66.9
+      "total": 371,
+      "resolved": 358,
+      "correct": 240,
+      "hit_rate": 67.0
     },
     "Moderate": {
-      "total": 481,
-      "resolved": 445,
+      "total": 482,
+      "resolved": 446,
       "correct": 276,
-      "hit_rate": 62.0
+      "hit_rate": 61.9
     },
     "Weak": {
       "total": 54,
@@ -15303,10 +15303,10 @@
       "total_value_usd": 141262.14,
       "entry_price": 0.0445,
       "end_date": "2026-08-22",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Rafael Jodar",
+      "resolved_date": "2026-08-22"
     },
     {
       "signal_key": "0x39a4b304b681d530183fb6cac9c80e713c40b927f3da8314ec39f24ece0f2ff7:1",
@@ -15354,10 +15354,10 @@
       "total_value_usd": 12520.83,
       "entry_price": 0.0445,
       "end_date": "2026-08-22",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Rafael Jodar",
+      "resolved_date": "2026-08-22"
     },
     {
       "signal_key": "0x33bd6490319d0926955bb451d81e3f345bf6e6d41a0a85d69c02f658277a4de4:1",
@@ -15403,6 +15403,40 @@
       "tier": "Weak",
       "score": 3.9753,
       "total_value_usd": 10858.55,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-22",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xd3538321a5a654bd1c331955ae8f4bc9bf6c37a317a66668d7c2c1ffff6a03bb:0",
+      "condition_id": "0xd3538321a5a654bd1c331955ae8f4bc9bf6c37a317a66668d7c2c1ffff6a03bb",
+      "title": "Kansas City Royals vs. Los Angeles Angels",
+      "category": "MLB",
+      "whale_direction": "Kansas City Royals",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 21.0083,
+      "total_value_usd": 50712.08,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-23",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xff0f5a853488bccfdb4d8582966fa17cd1c1d2de6749abfc3bd0f79fcedf93eb:1",
+      "condition_id": "0xff0f5a853488bccfdb4d8582966fa17cd1c1d2de6749abfc3bd0f79fcedf93eb",
+      "title": "Cincinnati Open: Peyton Stearns vs Clara Tauson",
+      "category": "Tennis",
+      "whale_direction": "Clara Tauson",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 7.4184,
+      "total_value_usd": 138538.59,
       "entry_price": 0.0445,
       "end_date": "2026-08-22",
       "resolved": false,

@@ -259304,5 +259304,234 @@
         "entry_price": 0.0445
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-16T03:31:19+00:00",
+    "whale_timeframes": {
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa080dadd87036ad01dbf5e9c254b0c3dbdba234f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x709e8dcb133555794decc598e07f2c923b8366f5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4ab9b54427ec4b7f3646b1a0ef1bed73bc708ebe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3d8a89a20aa73fba0f30d080e8120de9f9555724": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6f0ebea3c2e777699519ee128faaa07a9d0b2ee5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x684baa57c338c2549aec0aa3f034f695d72a8409": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x10a6fadcbacd66330862206f6199b197e3ad4d8b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x866056133a70de9282a080758858d1a0c8b393ed": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0f35109cc3ceaf729609c3109310791bd616c84a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2dc13c6bda81b202281e796953a7323de675b33c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe30e74595517de48f1fb19f4553dd3d9f1e96b87": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x47aac0d91293182cf11508a8ac911b0384c5b00de91a3b6de90d994df095a6ff:1",
+        "condition_id": "0x47aac0d91293182cf11508a8ac911b0384c5b00de91a3b6de90d994df095a6ff",
+        "title": "Texas Rangers vs. Athletics",
+        "outcome": "Athletics",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x4bff30af91642dc7d2b19a8664378fe55c45fc26",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          1,
+          2,
+          3,
+          8
+        ],
+        "total_value_usd": 26355.27,
+        "score": 34.8859,
+        "category": "MLB",
+        "end_date": "2026-08-23",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0xd3538321a5a654bd1c331955ae8f4bc9bf6c37a317a66668d7c2c1ffff6a03bb:0",
+        "condition_id": "0xd3538321a5a654bd1c331955ae8f4bc9bf6c37a317a66668d7c2c1ffff6a03bb",
+        "title": "Kansas City Royals vs. Los Angeles Angels",
+        "outcome": "Kansas City Royals",
+        "outcome_index": 0,
+        "whale_count": 5,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          2,
+          3,
+          8,
+          11,
+          17
+        ],
+        "total_value_usd": 50712.08,
+        "score": 21.0083,
+        "category": "MLB",
+        "end_date": "2026-08-23",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0xff0f5a853488bccfdb4d8582966fa17cd1c1d2de6749abfc3bd0f79fcedf93eb:1",
+        "condition_id": "0xff0f5a853488bccfdb4d8582966fa17cd1c1d2de6749abfc3bd0f79fcedf93eb",
+        "title": "Cincinnati Open: Peyton Stearns vs Clara Tauson",
+        "outcome": "Clara Tauson",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          8,
+          11,
+          12,
+          17
+        ],
+        "total_value_usd": 138538.59,
+        "score": 7.4184,
+        "category": "Tennis",
+        "end_date": "2026-08-22",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x39a4b304b681d530183fb6cac9c80e713c40b927f3da8314ec39f24ece0f2ff7:0",
+        "condition_id": "0x39a4b304b681d530183fb6cac9c80e713c40b927f3da8314ec39f24ece0f2ff7",
+        "title": "Cincinnati Open: Lois Boisson vs Belinda Bencic",
+        "outcome": "Lois Boisson",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x684baa57c338c2549aec0aa3f034f695d72a8409",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          8,
+          11,
+          14,
+          17
+        ],
+        "total_value_usd": 97390.11,
+        "score": 6.9583,
+        "category": "Tennis",
+        "end_date": "2026-08-22",
+        "entry_price": 0.0445
+      }
+    ]
   }
 ]
