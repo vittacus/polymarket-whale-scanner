@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-16T20:02:03+00:00",
-  "total_signals": 919,
+  "generated_at": "2026-08-16T20:23:08+00:00",
+  "total_signals": 920,
   "total_resolved": 871,
   "total_correct": 550,
   "overall_hit_rate": 63.1,
   "by_tier": {
     "Strong": {
-      "total": 371,
+      "total": 372,
       "resolved": 359,
       "correct": 240,
       "hit_rate": 66.9
@@ -15641,6 +15641,23 @@
       "tier": "Moderate",
       "score": 8.8245,
       "total_value_usd": 11623.14,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-23",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xd0931285bc113225a34787e34f7355d63b0313b30cc7640ab9a9b72e52a38340:1",
+      "condition_id": "0xd0931285bc113225a34787e34f7355d63b0313b30cc7640ab9a9b72e52a38340",
+      "title": "Milwaukee Brewers vs. Los Angeles Dodgers",
+      "category": "MLB",
+      "whale_direction": "Los Angeles Dodgers",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 11.7612,
+      "total_value_usd": 59720.2,
       "entry_price": 0.0445,
       "end_date": "2026-08-23",
       "resolved": false,
