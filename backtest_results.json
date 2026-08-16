@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-16T18:02:32+00:00",
-  "total_signals": 914,
+  "generated_at": "2026-08-16T18:27:31+00:00",
+  "total_signals": 916,
   "total_resolved": 865,
   "total_correct": 546,
   "overall_hit_rate": 63.1,
@@ -12,7 +12,7 @@
       "hit_rate": 66.9
     },
     "Moderate": {
-      "total": 489,
+      "total": 491,
       "resolved": 454,
       "correct": 280,
       "hit_rate": 61.7
@@ -15556,6 +15556,40 @@
       "tier": "Moderate",
       "score": 6.4746,
       "total_value_usd": 30480.56,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-23",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x9877da04be5d3aecdd51eb30537ff5b5070fd14acfb69feaa0be1d22fb8c0046:1",
+      "condition_id": "0x9877da04be5d3aecdd51eb30537ff5b5070fd14acfb69feaa0be1d22fb8c0046",
+      "title": "Miami Marlins vs. Cincinnati Reds",
+      "category": "MLB",
+      "whale_direction": "Cincinnati Reds",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 6.7253,
+      "total_value_usd": 43879.5,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-23",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x1373e25b6a3a139a5a4fb35bd5329e40e862f2979a73cca51ba03173e6f6ca34:0",
+      "condition_id": "0x1373e25b6a3a139a5a4fb35bd5329e40e862f2979a73cca51ba03173e6f6ca34",
+      "title": "Cincinnati Open: Janice Tjen vs Viktorija Golubic",
+      "category": "Tennis",
+      "whale_direction": "Janice Tjen",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 4.9921,
+      "total_value_usd": 83647.28,
       "entry_price": 0.0445,
       "end_date": "2026-08-23",
       "resolved": false,

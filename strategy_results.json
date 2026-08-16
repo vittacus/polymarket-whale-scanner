@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-16T18:02:32+00:00",
-  "total_evaluated": 914,
-  "total_pending": 49,
+  "generated_at": "2026-08-16T18:27:31+00:00",
+  "total_evaluated": 916,
+  "total_pending": 51,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 914,
+      "signals_evaluated": 916,
       "correct": 546,
       "wrong": 319,
-      "pending": 49,
+      "pending": 51,
       "win_rate": 63.1,
       "signals": [
         {
@@ -12808,6 +12808,34 @@
           "end_date": "2026-08-23",
           "total_value_usd": 30480.56,
           "result": "pending"
+        },
+        {
+          "signal_key": "0x9877da04be5d3aecdd51eb30537ff5b5070fd14acfb69feaa0be1d22fb8c0046:1",
+          "condition_id": "0x9877da04be5d3aecdd51eb30537ff5b5070fd14acfb69feaa0be1d22fb8c0046",
+          "title": "Miami Marlins vs. Cincinnati Reds",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Cincinnati Reds",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 43879.5,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x1373e25b6a3a139a5a4fb35bd5329e40e862f2979a73cca51ba03173e6f6ca34:0",
+          "condition_id": "0x1373e25b6a3a139a5a4fb35bd5329e40e862f2979a73cca51ba03173e6f6ca34",
+          "title": "Cincinnati Open: Janice Tjen vs Viktorija Golubic",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Janice Tjen",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 83647.28,
+          "result": "pending"
         }
       ]
     },
@@ -12815,10 +12843,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 244,
+      "signals_evaluated": 246,
       "correct": 144,
       "wrong": 81,
-      "pending": 19,
+      "pending": 21,
       "win_rate": 64.0,
       "signals": [
         {
@@ -16236,6 +16264,34 @@
           "end_date": "2026-08-23",
           "total_value_usd": 30480.56,
           "result": "pending"
+        },
+        {
+          "signal_key": "0x9877da04be5d3aecdd51eb30537ff5b5070fd14acfb69feaa0be1d22fb8c0046:1",
+          "condition_id": "0x9877da04be5d3aecdd51eb30537ff5b5070fd14acfb69feaa0be1d22fb8c0046",
+          "title": "Miami Marlins vs. Cincinnati Reds",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Cincinnati Reds",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 43879.5,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x1373e25b6a3a139a5a4fb35bd5329e40e862f2979a73cca51ba03173e6f6ca34:0",
+          "condition_id": "0x1373e25b6a3a139a5a4fb35bd5329e40e862f2979a73cca51ba03173e6f6ca34",
+          "title": "Cincinnati Open: Janice Tjen vs Viktorija Golubic",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Janice Tjen",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 83647.28,
+          "result": "pending"
         }
       ]
     },
@@ -16243,10 +16299,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 244,
+      "signals_evaluated": 246,
       "correct": 81,
       "wrong": 144,
-      "pending": 19,
+      "pending": 21,
       "win_rate": 36.0,
       "signals": [
         {
@@ -19663,6 +19719,34 @@
           "resolved_date": null,
           "end_date": "2026-08-23",
           "total_value_usd": 30480.56,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x9877da04be5d3aecdd51eb30537ff5b5070fd14acfb69feaa0be1d22fb8c0046:1",
+          "condition_id": "0x9877da04be5d3aecdd51eb30537ff5b5070fd14acfb69feaa0be1d22fb8c0046",
+          "title": "Miami Marlins vs. Cincinnati Reds",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Cincinnati Reds",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 43879.5,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x1373e25b6a3a139a5a4fb35bd5329e40e862f2979a73cca51ba03173e6f6ca34:0",
+          "condition_id": "0x1373e25b6a3a139a5a4fb35bd5329e40e862f2979a73cca51ba03173e6f6ca34",
+          "title": "Cincinnati Open: Janice Tjen vs Viktorija Golubic",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Janice Tjen",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 83647.28,
           "result": "pending"
         }
       ]

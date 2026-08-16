@@ -264050,5 +264050,247 @@
         "entry_price": 0.0445
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-16T18:19:23+00:00",
+    "whale_timeframes": {
+      "0x9319a045cdd0c2180e5eb7ad44374383db9a6410": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x983eedfbd75803602e4a6e6ea9aab6dc6b9c6748": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa080dadd87036ad01dbf5e9c254b0c3dbdba234f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3413c803c3a6efc8d963afbce2dcee48d3738ff2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2f3c7c452775fda36ea69e4506a2300eebc56c2c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x72f039e9bbf2ccf22ef7683729d9867fa09d6be8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x65c18d740c8246af3353741c0b32e4b6da552988": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xecffcb3c9ad67e710c2c397e42fb129bc44438a9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf201a19b43471261a3c1ba9247335d55270e527e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1f7105a18d9f36aef7c83e5df210e57cf487b2e4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x9877da04be5d3aecdd51eb30537ff5b5070fd14acfb69feaa0be1d22fb8c0046:1",
+        "condition_id": "0x9877da04be5d3aecdd51eb30537ff5b5070fd14acfb69feaa0be1d22fb8c0046",
+        "title": "Miami Marlins vs. Cincinnati Reds",
+        "outcome": "Cincinnati Reds",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563"
+        ],
+        "ranks": [
+          6,
+          7,
+          20
+        ],
+        "total_value_usd": 43879.5,
+        "score": 6.7253,
+        "category": "MLB",
+        "end_date": "2026-08-23",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x1373e25b6a3a139a5a4fb35bd5329e40e862f2979a73cca51ba03173e6f6ca34:0",
+        "condition_id": "0x1373e25b6a3a139a5a4fb35bd5329e40e862f2979a73cca51ba03173e6f6ca34",
+        "title": "Cincinnati Open: Janice Tjen vs Viktorija Golubic",
+        "outcome": "Janice Tjen",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563"
+        ],
+        "ranks": [
+          7,
+          17,
+          20
+        ],
+        "total_value_usd": 83647.28,
+        "score": 4.9921,
+        "category": "Tennis",
+        "end_date": "2026-08-23",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x2234b40bab46bbdf4ef6c3c7187bc8ddd3c6a1a36355f6ef2e8310e0ceaa782e:1",
+        "condition_id": "0x2234b40bab46bbdf4ef6c3c7187bc8ddd3c6a1a36355f6ef2e8310e0ceaa782e",
+        "title": "Cincinnati Open: Daria Snigur vs Madison Keys",
+        "outcome": "Madison Keys",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563"
+        ],
+        "ranks": [
+          7,
+          17,
+          20
+        ],
+        "total_value_usd": 39968.12,
+        "score": 4.6669,
+        "category": "Tennis",
+        "end_date": "2026-08-23",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x1373e25b6a3a139a5a4fb35bd5329e40e862f2979a73cca51ba03173e6f6ca34:1",
+        "condition_id": "0x1373e25b6a3a139a5a4fb35bd5329e40e862f2979a73cca51ba03173e6f6ca34",
+        "title": "Cincinnati Open: Janice Tjen vs Viktorija Golubic",
+        "outcome": "Viktorija Golubic",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563"
+        ],
+        "ranks": [
+          7,
+          17,
+          20
+        ],
+        "total_value_usd": 32872.26,
+        "score": 4.5808,
+        "category": "Tennis",
+        "end_date": "2026-08-23",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0xf1363a46080deef67dfba65366902003684717085b42ef21e70ba780ce4b0b56:0",
+        "condition_id": "0xf1363a46080deef67dfba65366902003684717085b42ef21e70ba780ce4b0b56",
+        "title": "Cincinnati Open: Stefanos Tsitsipas vs Felix Auger-Aliassime",
+        "outcome": "Stefanos Tsitsipas",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563"
+        ],
+        "ranks": [
+          7,
+          17,
+          20
+        ],
+        "total_value_usd": 24664.74,
+        "score": 4.4543,
+        "category": "Tennis",
+        "end_date": "2026-08-23",
+        "entry_price": 0.0445
+      }
+    ]
   }
 ]
