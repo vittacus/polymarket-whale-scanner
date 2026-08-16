@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-16T23:30:01+00:00",
-  "total_signals": 927,
+  "generated_at": "2026-08-16T23:49:56+00:00",
+  "total_signals": 928,
   "total_resolved": 882,
   "total_correct": 555,
   "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
-      "total": 374,
+      "total": 375,
       "resolved": 362,
       "correct": 242,
       "hit_rate": 66.9
@@ -15783,6 +15783,23 @@
       "correct": true,
       "resolved_outcome": "Pittsburgh Pirates",
       "resolved_date": "2026-08-23"
+    },
+    {
+      "signal_key": "0x87f90729531cace86fb53e405c3757dda72a63d18c4699ca5604d14a58c8c3d1:0",
+      "condition_id": "0x87f90729531cace86fb53e405c3757dda72a63d18c4699ca5604d14a58c8c3d1",
+      "title": "Seattle Mariners vs. Houston Astros",
+      "category": "MLB",
+      "whale_direction": "Seattle Mariners",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 16.4032,
+      "total_value_usd": 106803.08,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-23",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
