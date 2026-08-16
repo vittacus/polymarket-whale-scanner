@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-16T03:39:20+00:00",
+  "generated_at": "2026-08-16T04:27:46+00:00",
   "total_evaluated": 907,
-  "total_pending": 53,
+  "total_pending": 48,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 907,
-      "correct": 541,
-      "wrong": 313,
-      "pending": 53,
-      "win_rate": 63.3,
+      "correct": 543,
+      "wrong": 316,
+      "pending": 48,
+      "win_rate": 63.2,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -12607,11 +12607,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Belinda Bencic",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lois Boisson",
+          "resolved_date": "2026-08-22",
           "end_date": "2026-08-22",
           "total_value_usd": 38444.48,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xff0f5a853488bccfdb4d8582966fa17cd1c1d2de6749abfc3bd0f79fcedf93eb:0",
@@ -12621,11 +12621,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Peyton Stearns",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Clara Tauson",
+          "resolved_date": "2026-08-22",
           "end_date": "2026-08-22",
           "total_value_usd": 11766.27,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x41904eafc71001c09b9607c71fc3aaf7cba67d6f11f92afa94519b377f4c7147:1",
@@ -12677,11 +12677,11 @@
           "tier": "Weak",
           "entry_price": 0.0445,
           "whale_direction": "Lois Boisson",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lois Boisson",
+          "resolved_date": "2026-08-22",
           "end_date": "2026-08-22",
           "total_value_usd": 10858.55,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xd3538321a5a654bd1c331955ae8f4bc9bf6c37a317a66668d7c2c1ffff6a03bb:0",
@@ -12691,11 +12691,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Kansas City Royals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Angels",
+          "resolved_date": "2026-08-23",
           "end_date": "2026-08-23",
           "total_value_usd": 50712.08,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xff0f5a853488bccfdb4d8582966fa17cd1c1d2de6749abfc3bd0f79fcedf93eb:1",
@@ -12705,11 +12705,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Clara Tauson",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Clara Tauson",
+          "resolved_date": "2026-08-22",
           "end_date": "2026-08-22",
           "total_value_usd": 138538.59,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -12718,10 +12718,10 @@
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 237,
-      "correct": 140,
-      "wrong": 75,
-      "pending": 22,
-      "win_rate": 65.1,
+      "correct": 142,
+      "wrong": 78,
+      "pending": 17,
+      "win_rate": 64.5,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -15937,11 +15937,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Belinda Bencic",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lois Boisson",
+          "resolved_date": "2026-08-22",
           "end_date": "2026-08-22",
           "total_value_usd": 38444.48,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xff0f5a853488bccfdb4d8582966fa17cd1c1d2de6749abfc3bd0f79fcedf93eb:0",
@@ -15951,11 +15951,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Peyton Stearns",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Clara Tauson",
+          "resolved_date": "2026-08-22",
           "end_date": "2026-08-22",
           "total_value_usd": 11766.27,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x41904eafc71001c09b9607c71fc3aaf7cba67d6f11f92afa94519b377f4c7147:1",
@@ -16007,11 +16007,11 @@
           "tier": "Weak",
           "entry_price": 0.0445,
           "whale_direction": "Lois Boisson",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lois Boisson",
+          "resolved_date": "2026-08-22",
           "end_date": "2026-08-22",
           "total_value_usd": 10858.55,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xd3538321a5a654bd1c331955ae8f4bc9bf6c37a317a66668d7c2c1ffff6a03bb:0",
@@ -16021,11 +16021,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Kansas City Royals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Angels",
+          "resolved_date": "2026-08-23",
           "end_date": "2026-08-23",
           "total_value_usd": 50712.08,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xff0f5a853488bccfdb4d8582966fa17cd1c1d2de6749abfc3bd0f79fcedf93eb:1",
@@ -16035,11 +16035,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Clara Tauson",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Clara Tauson",
+          "resolved_date": "2026-08-22",
           "end_date": "2026-08-22",
           "total_value_usd": 138538.59,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -16048,10 +16048,10 @@
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 237,
-      "correct": 75,
-      "wrong": 140,
-      "pending": 22,
-      "win_rate": 34.9,
+      "correct": 78,
+      "wrong": 142,
+      "pending": 17,
+      "win_rate": 35.5,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -19267,11 +19267,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Belinda Bencic",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lois Boisson",
+          "resolved_date": "2026-08-22",
           "end_date": "2026-08-22",
           "total_value_usd": 38444.48,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xff0f5a853488bccfdb4d8582966fa17cd1c1d2de6749abfc3bd0f79fcedf93eb:0",
@@ -19281,11 +19281,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Peyton Stearns",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Clara Tauson",
+          "resolved_date": "2026-08-22",
           "end_date": "2026-08-22",
           "total_value_usd": 11766.27,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x41904eafc71001c09b9607c71fc3aaf7cba67d6f11f92afa94519b377f4c7147:1",
@@ -19337,11 +19337,11 @@
           "tier": "Weak",
           "entry_price": 0.0445,
           "whale_direction": "Lois Boisson",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lois Boisson",
+          "resolved_date": "2026-08-22",
           "end_date": "2026-08-22",
           "total_value_usd": 10858.55,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xd3538321a5a654bd1c331955ae8f4bc9bf6c37a317a66668d7c2c1ffff6a03bb:0",
@@ -19351,11 +19351,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Kansas City Royals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Angels",
+          "resolved_date": "2026-08-23",
           "end_date": "2026-08-23",
           "total_value_usd": 50712.08,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xff0f5a853488bccfdb4d8582966fa17cd1c1d2de6749abfc3bd0f79fcedf93eb:1",
@@ -19365,11 +19365,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Clara Tauson",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Clara Tauson",
+          "resolved_date": "2026-08-22",
           "end_date": "2026-08-22",
           "total_value_usd": 138538.59,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },

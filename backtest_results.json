@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-08-16T03:39:20+00:00",
+  "generated_at": "2026-08-16T04:27:46+00:00",
   "total_signals": 907,
-  "total_resolved": 854,
-  "total_correct": 541,
-  "overall_hit_rate": 63.3,
+  "total_resolved": 859,
+  "total_correct": 543,
+  "overall_hit_rate": 63.2,
   "by_tier": {
     "Strong": {
       "total": 371,
-      "resolved": 358,
+      "resolved": 359,
       "correct": 240,
-      "hit_rate": 67.0
+      "hit_rate": 66.9
     },
     "Moderate": {
       "total": 482,
-      "resolved": 446,
-      "correct": 276,
-      "hit_rate": 61.9
+      "resolved": 449,
+      "correct": 277,
+      "hit_rate": 61.7
     },
     "Weak": {
       "total": 54,
-      "resolved": 50,
-      "correct": 25,
-      "hit_rate": 50.0
+      "resolved": 51,
+      "correct": 26,
+      "hit_rate": 51.0
     }
   },
   "signals": [
@@ -15320,10 +15320,10 @@
       "total_value_usd": 38444.48,
       "entry_price": 0.0445,
       "end_date": "2026-08-22",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Lois Boisson",
+      "resolved_date": "2026-08-22"
     },
     {
       "signal_key": "0xff0f5a853488bccfdb4d8582966fa17cd1c1d2de6749abfc3bd0f79fcedf93eb:0",
@@ -15337,10 +15337,10 @@
       "total_value_usd": 11766.27,
       "entry_price": 0.0445,
       "end_date": "2026-08-22",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Clara Tauson",
+      "resolved_date": "2026-08-22"
     },
     {
       "signal_key": "0x41904eafc71001c09b9607c71fc3aaf7cba67d6f11f92afa94519b377f4c7147:1",
@@ -15405,10 +15405,10 @@
       "total_value_usd": 10858.55,
       "entry_price": 0.0445,
       "end_date": "2026-08-22",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Lois Boisson",
+      "resolved_date": "2026-08-22"
     },
     {
       "signal_key": "0xd3538321a5a654bd1c331955ae8f4bc9bf6c37a317a66668d7c2c1ffff6a03bb:0",
@@ -15422,10 +15422,10 @@
       "total_value_usd": 50712.08,
       "entry_price": 0.0445,
       "end_date": "2026-08-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Los Angeles Angels",
+      "resolved_date": "2026-08-23"
     },
     {
       "signal_key": "0xff0f5a853488bccfdb4d8582966fa17cd1c1d2de6749abfc3bd0f79fcedf93eb:1",
@@ -15439,10 +15439,10 @@
       "total_value_usd": 138538.59,
       "entry_price": 0.0445,
       "end_date": "2026-08-22",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Clara Tauson",
+      "resolved_date": "2026-08-22"
     }
   ]
 }
