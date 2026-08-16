@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-16T19:01:41+00:00",
-  "total_signals": 917,
-  "total_resolved": 867,
-  "total_correct": 547,
+  "generated_at": "2026-08-16T19:24:00+00:00",
+  "total_signals": 918,
+  "total_resolved": 868,
+  "total_correct": 548,
   "overall_hit_rate": 63.1,
   "by_tier": {
     "Strong": {
@@ -12,10 +12,10 @@
       "hit_rate": 66.9
     },
     "Moderate": {
-      "total": 491,
-      "resolved": 456,
-      "correct": 281,
-      "hit_rate": 61.6
+      "total": 492,
+      "resolved": 457,
+      "correct": 282,
+      "hit_rate": 61.7
     },
     "Weak": {
       "total": 55,
@@ -15558,10 +15558,10 @@
       "total_value_usd": 30480.56,
       "entry_price": 0.0445,
       "end_date": "2026-08-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Madison Keys",
+      "resolved_date": "2026-08-23"
     },
     {
       "signal_key": "0x9877da04be5d3aecdd51eb30537ff5b5070fd14acfb69feaa0be1d22fb8c0046:1",
@@ -15607,6 +15607,23 @@
       "tier": "Weak",
       "score": 3.9654,
       "total_value_usd": 8128.37,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-23",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xf0bf950271fa7d3ff102f76abfd873c9ad6b6ed8c1e879cbb891b1009f11ed73:0",
+      "condition_id": "0xf0bf950271fa7d3ff102f76abfd873c9ad6b6ed8c1e879cbb891b1009f11ed73",
+      "title": "Cincinnati Open: Arthur Rinderknech vs Juan Manuel Cerundolo",
+      "category": "Tennis",
+      "whale_direction": "Arthur Rinderknech",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 4.3394,
+      "total_value_usd": 19004.95,
       "entry_price": 0.0445,
       "end_date": "2026-08-23",
       "resolved": false,

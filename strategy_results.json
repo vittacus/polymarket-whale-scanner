@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-16T19:01:41+00:00",
-  "total_evaluated": 917,
+  "generated_at": "2026-08-16T19:24:00+00:00",
+  "total_evaluated": 918,
   "total_pending": 50,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 917,
-      "correct": 547,
+      "signals_evaluated": 918,
+      "correct": 548,
       "wrong": 320,
       "pending": 50,
       "win_rate": 63.1,
@@ -12803,11 +12803,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Madison Keys",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Madison Keys",
+          "resolved_date": "2026-08-23",
           "end_date": "2026-08-23",
           "total_value_usd": 30480.56,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x9877da04be5d3aecdd51eb30537ff5b5070fd14acfb69feaa0be1d22fb8c0046:1",
@@ -12849,6 +12849,20 @@
           "resolved_date": null,
           "end_date": "2026-08-23",
           "total_value_usd": 8128.37,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf0bf950271fa7d3ff102f76abfd873c9ad6b6ed8c1e879cbb891b1009f11ed73:0",
+          "condition_id": "0xf0bf950271fa7d3ff102f76abfd873c9ad6b6ed8c1e879cbb891b1009f11ed73",
+          "title": "Cincinnati Open: Arthur Rinderknech vs Juan Manuel Cerundolo",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Arthur Rinderknech",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 19004.95,
           "result": "pending"
         }
       ]
@@ -12857,11 +12871,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 247,
-      "correct": 145,
+      "signals_evaluated": 248,
+      "correct": 146,
       "wrong": 82,
       "pending": 20,
-      "win_rate": 63.9,
+      "win_rate": 64.0,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -16273,11 +16287,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Madison Keys",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Madison Keys",
+          "resolved_date": "2026-08-23",
           "end_date": "2026-08-23",
           "total_value_usd": 30480.56,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x9877da04be5d3aecdd51eb30537ff5b5070fd14acfb69feaa0be1d22fb8c0046:1",
@@ -16319,6 +16333,20 @@
           "resolved_date": null,
           "end_date": "2026-08-23",
           "total_value_usd": 8128.37,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf0bf950271fa7d3ff102f76abfd873c9ad6b6ed8c1e879cbb891b1009f11ed73:0",
+          "condition_id": "0xf0bf950271fa7d3ff102f76abfd873c9ad6b6ed8c1e879cbb891b1009f11ed73",
+          "title": "Cincinnati Open: Arthur Rinderknech vs Juan Manuel Cerundolo",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Arthur Rinderknech",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 19004.95,
           "result": "pending"
         }
       ]
@@ -16327,11 +16355,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 247,
+      "signals_evaluated": 248,
       "correct": 82,
-      "wrong": 145,
+      "wrong": 146,
       "pending": 20,
-      "win_rate": 36.1,
+      "win_rate": 36.0,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -19743,11 +19771,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Madison Keys",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Madison Keys",
+          "resolved_date": "2026-08-23",
           "end_date": "2026-08-23",
           "total_value_usd": 30480.56,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x9877da04be5d3aecdd51eb30537ff5b5070fd14acfb69feaa0be1d22fb8c0046:1",
@@ -19789,6 +19817,20 @@
           "resolved_date": null,
           "end_date": "2026-08-23",
           "total_value_usd": 8128.37,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf0bf950271fa7d3ff102f76abfd873c9ad6b6ed8c1e879cbb891b1009f11ed73:0",
+          "condition_id": "0xf0bf950271fa7d3ff102f76abfd873c9ad6b6ed8c1e879cbb891b1009f11ed73",
+          "title": "Cincinnati Open: Arthur Rinderknech vs Juan Manuel Cerundolo",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Arthur Rinderknech",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 19004.95,
           "result": "pending"
         }
       ]
