@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-16T04:27:46+00:00",
-  "total_signals": 907,
-  "total_resolved": 859,
+  "generated_at": "2026-08-16T05:06:01+00:00",
+  "total_signals": 909,
+  "total_resolved": 860,
   "total_correct": 543,
-  "overall_hit_rate": 63.2,
+  "overall_hit_rate": 63.1,
   "by_tier": {
     "Strong": {
       "total": 371,
@@ -12,16 +12,16 @@
       "hit_rate": 66.9
     },
     "Moderate": {
-      "total": 482,
+      "total": 484,
       "resolved": 449,
       "correct": 277,
       "hit_rate": 61.7
     },
     "Weak": {
       "total": 54,
-      "resolved": 51,
+      "resolved": 52,
       "correct": 26,
-      "hit_rate": 51.0
+      "hit_rate": 50.0
     }
   },
   "signals": [
@@ -15388,10 +15388,10 @@
       "total_value_usd": 8281.52,
       "entry_price": 0.0445,
       "end_date": "2026-08-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Texas Rangers",
+      "resolved_date": "2026-08-23"
     },
     {
       "signal_key": "0x39a4b304b681d530183fb6cac9c80e713c40b927f3da8314ec39f24ece0f2ff7:0",
@@ -15443,6 +15443,40 @@
       "correct": true,
       "resolved_outcome": "Clara Tauson",
       "resolved_date": "2026-08-22"
+    },
+    {
+      "signal_key": "0xa0ebf629ede719e165eb8f1383a979640f70b0fbbc0996ae2fac178e207787c0:0",
+      "condition_id": "0xa0ebf629ede719e165eb8f1383a979640f70b0fbbc0996ae2fac178e207787c0",
+      "title": "Cincinnati Open: Alexander Zverev vs Cameron Norrie",
+      "category": "Tennis",
+      "whale_direction": "Alexander Zverev",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 7.8336,
+      "total_value_usd": 42769.08,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-22",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xa0ebf629ede719e165eb8f1383a979640f70b0fbbc0996ae2fac178e207787c0:1",
+      "condition_id": "0xa0ebf629ede719e165eb8f1383a979640f70b0fbbc0996ae2fac178e207787c0",
+      "title": "Cincinnati Open: Alexander Zverev vs Cameron Norrie",
+      "category": "Tennis",
+      "whale_direction": "Cameron Norrie",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 6.4846,
+      "total_value_usd": 18597.4,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-22",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
