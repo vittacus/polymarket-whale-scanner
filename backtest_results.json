@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-16T22:03:38+00:00",
-  "total_signals": 925,
-  "total_resolved": 874,
-  "total_correct": 550,
-  "overall_hit_rate": 62.9,
+  "generated_at": "2026-08-16T22:24:27+00:00",
+  "total_signals": 927,
+  "total_resolved": 875,
+  "total_correct": 551,
+  "overall_hit_rate": 63.0,
   "by_tier": {
     "Strong": {
-      "total": 372,
+      "total": 374,
       "resolved": 359,
       "correct": 240,
       "hit_rate": 66.9
     },
     "Moderate": {
       "total": 498,
-      "resolved": 462,
-      "correct": 283,
+      "resolved": 463,
+      "correct": 284,
       "hit_rate": 61.3
     },
     "Weak": {
@@ -15677,10 +15677,10 @@
       "total_value_usd": 63557.94,
       "entry_price": 0.0445,
       "end_date": "2026-08-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Marta Kostyuk",
+      "resolved_date": "2026-08-23"
     },
     {
       "signal_key": "0x9c2a089f02caccf6dedaaba459f939e34f94ede6ecdaaf76b240013f12adc74d:0",
@@ -15743,6 +15743,40 @@
       "tier": "Moderate",
       "score": 7.0115,
       "total_value_usd": 21471.56,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-23",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x2d144e6f334f048a7e155981dd131f47a96b639d6dd7c72a4e71e1df68f004ba:1",
+      "condition_id": "0x2d144e6f334f048a7e155981dd131f47a96b639d6dd7c72a4e71e1df68f004ba",
+      "title": "Texas Rangers vs. Athletics",
+      "category": "MLB",
+      "whale_direction": "Athletics",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 15.7609,
+      "total_value_usd": 87229.26,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-23",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x61ec63587cfad7b9cbf7089665e2e1d955ebb2d048a85131d9ed1f4b645fc87f:1",
+      "condition_id": "0x61ec63587cfad7b9cbf7089665e2e1d955ebb2d048a85131d9ed1f4b645fc87f",
+      "title": "Boston Red Sox vs. Pittsburgh Pirates",
+      "category": "MLB",
+      "whale_direction": "Pittsburgh Pirates",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 11.2216,
+      "total_value_usd": 59428.62,
       "entry_price": 0.0445,
       "end_date": "2026-08-23",
       "resolved": false,
