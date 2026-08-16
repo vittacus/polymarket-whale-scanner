@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-16T20:23:08+00:00",
-  "total_signals": 920,
+  "generated_at": "2026-08-16T20:46:43+00:00",
+  "total_signals": 922,
   "total_resolved": 871,
   "total_correct": 550,
   "overall_hit_rate": 63.1,
@@ -12,7 +12,7 @@
       "hit_rate": 66.9
     },
     "Moderate": {
-      "total": 493,
+      "total": 495,
       "resolved": 459,
       "correct": 283,
       "hit_rate": 61.7
@@ -15658,6 +15658,40 @@
       "tier": "Strong",
       "score": 11.7612,
       "total_value_usd": 59720.2,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-23",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xa0e8a96c72fa413a6fc50054292042c8355f51103f1ea3b2b3851d165e855c72:0",
+      "condition_id": "0xa0e8a96c72fa413a6fc50054292042c8355f51103f1ea3b2b3851d165e855c72",
+      "title": "Cincinnati Open: Marta Kostyuk vs Sofia Kenin",
+      "category": "Tennis",
+      "whale_direction": "Marta Kostyuk",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 6.6666,
+      "total_value_usd": 63557.94,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-23",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x9c2a089f02caccf6dedaaba459f939e34f94ede6ecdaaf76b240013f12adc74d:0",
+      "condition_id": "0x9c2a089f02caccf6dedaaba459f939e34f94ede6ecdaaf76b240013f12adc74d",
+      "title": "Cincinnati Open: Katerina Siniakova vs Jessica Bouzas Maneiro",
+      "category": "Tennis",
+      "whale_direction": "Katerina Siniakova",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 6.3941,
+      "total_value_usd": 40446.92,
       "entry_price": 0.0445,
       "end_date": "2026-08-23",
       "resolved": false,
