@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-16T17:21:09+00:00",
-  "total_evaluated": 909,
-  "total_pending": 45,
+  "generated_at": "2026-08-16T17:41:43+00:00",
+  "total_evaluated": 912,
+  "total_pending": 48,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 909,
+      "signals_evaluated": 912,
       "correct": 546,
       "wrong": 318,
-      "pending": 45,
+      "pending": 48,
       "win_rate": 63.2,
       "signals": [
         {
@@ -12738,6 +12738,48 @@
           "end_date": "2026-08-22",
           "total_value_usd": 18597.4,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0xf1363a46080deef67dfba65366902003684717085b42ef21e70ba780ce4b0b56:0",
+          "condition_id": "0xf1363a46080deef67dfba65366902003684717085b42ef21e70ba780ce4b0b56",
+          "title": "Cincinnati Open: Stefanos Tsitsipas vs Felix Auger-Aliassime",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Stefanos Tsitsipas",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 49142.17,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x1373e25b6a3a139a5a4fb35bd5329e40e862f2979a73cca51ba03173e6f6ca34:1",
+          "condition_id": "0x1373e25b6a3a139a5a4fb35bd5329e40e862f2979a73cca51ba03173e6f6ca34",
+          "title": "Cincinnati Open: Janice Tjen vs Viktorija Golubic",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Viktorija Golubic",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 19882.08,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xfce78e37b67b31d0f1fec5f589bb1146968eab9b3744697d0d527fb534d96fa3:1",
+          "condition_id": "0xfce78e37b67b31d0f1fec5f589bb1146968eab9b3744697d0d527fb534d96fa3",
+          "title": "Cincinnati Open: Xinyu Wang vs Donna Vekic",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Donna Vekic",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 7189.84,
+          "result": "pending"
         }
       ]
     },
@@ -12745,10 +12787,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 239,
+      "signals_evaluated": 242,
       "correct": 144,
       "wrong": 80,
-      "pending": 15,
+      "pending": 18,
       "win_rate": 64.3,
       "signals": [
         {
@@ -16096,6 +16138,48 @@
           "end_date": "2026-08-22",
           "total_value_usd": 18597.4,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0xf1363a46080deef67dfba65366902003684717085b42ef21e70ba780ce4b0b56:0",
+          "condition_id": "0xf1363a46080deef67dfba65366902003684717085b42ef21e70ba780ce4b0b56",
+          "title": "Cincinnati Open: Stefanos Tsitsipas vs Felix Auger-Aliassime",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Stefanos Tsitsipas",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 49142.17,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x1373e25b6a3a139a5a4fb35bd5329e40e862f2979a73cca51ba03173e6f6ca34:1",
+          "condition_id": "0x1373e25b6a3a139a5a4fb35bd5329e40e862f2979a73cca51ba03173e6f6ca34",
+          "title": "Cincinnati Open: Janice Tjen vs Viktorija Golubic",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Viktorija Golubic",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 19882.08,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xfce78e37b67b31d0f1fec5f589bb1146968eab9b3744697d0d527fb534d96fa3:1",
+          "condition_id": "0xfce78e37b67b31d0f1fec5f589bb1146968eab9b3744697d0d527fb534d96fa3",
+          "title": "Cincinnati Open: Xinyu Wang vs Donna Vekic",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Donna Vekic",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 7189.84,
+          "result": "pending"
         }
       ]
     },
@@ -16103,10 +16187,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 239,
+      "signals_evaluated": 242,
       "correct": 80,
       "wrong": 144,
-      "pending": 15,
+      "pending": 18,
       "win_rate": 35.7,
       "signals": [
         {
@@ -19454,6 +19538,48 @@
           "end_date": "2026-08-22",
           "total_value_usd": 18597.4,
           "result": "correct"
+        },
+        {
+          "signal_key": "0xf1363a46080deef67dfba65366902003684717085b42ef21e70ba780ce4b0b56:0",
+          "condition_id": "0xf1363a46080deef67dfba65366902003684717085b42ef21e70ba780ce4b0b56",
+          "title": "Cincinnati Open: Stefanos Tsitsipas vs Felix Auger-Aliassime",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Stefanos Tsitsipas",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 49142.17,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x1373e25b6a3a139a5a4fb35bd5329e40e862f2979a73cca51ba03173e6f6ca34:1",
+          "condition_id": "0x1373e25b6a3a139a5a4fb35bd5329e40e862f2979a73cca51ba03173e6f6ca34",
+          "title": "Cincinnati Open: Janice Tjen vs Viktorija Golubic",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Viktorija Golubic",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 19882.08,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xfce78e37b67b31d0f1fec5f589bb1146968eab9b3744697d0d527fb534d96fa3:1",
+          "condition_id": "0xfce78e37b67b31d0f1fec5f589bb1146968eab9b3744697d0d527fb534d96fa3",
+          "title": "Cincinnati Open: Xinyu Wang vs Donna Vekic",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Donna Vekic",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 7189.84,
+          "result": "pending"
         }
       ]
     },
