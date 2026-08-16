@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-16T20:46:43+00:00",
+  "generated_at": "2026-08-16T21:04:08+00:00",
   "total_signals": 922,
-  "total_resolved": 871,
+  "total_resolved": 873,
   "total_correct": 550,
-  "overall_hit_rate": 63.1,
+  "overall_hit_rate": 63.0,
   "by_tier": {
     "Strong": {
       "total": 372,
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 495,
-      "resolved": 459,
+      "resolved": 461,
       "correct": 283,
-      "hit_rate": 61.7
+      "hit_rate": 61.4
     },
     "Weak": {
       "total": 55,
@@ -15575,10 +15575,10 @@
       "total_value_usd": 43879.5,
       "entry_price": 0.0445,
       "end_date": "2026-08-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Miami Marlins",
+      "resolved_date": "2026-08-23"
     },
     {
       "signal_key": "0x1373e25b6a3a139a5a4fb35bd5329e40e862f2979a73cca51ba03173e6f6ca34:0",
@@ -15643,10 +15643,10 @@
       "total_value_usd": 11623.14,
       "entry_price": 0.0445,
       "end_date": "2026-08-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "New York Yankees",
+      "resolved_date": "2026-08-23"
     },
     {
       "signal_key": "0xd0931285bc113225a34787e34f7355d63b0313b30cc7640ab9a9b72e52a38340:1",
