@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-16T17:41:43+00:00",
-  "total_signals": 912,
-  "total_resolved": 864,
+  "generated_at": "2026-08-16T18:02:32+00:00",
+  "total_signals": 914,
+  "total_resolved": 865,
   "total_correct": 546,
-  "overall_hit_rate": 63.2,
+  "overall_hit_rate": 63.1,
   "by_tier": {
     "Strong": {
       "total": 371,
@@ -12,10 +12,10 @@
       "hit_rate": 66.9
     },
     "Moderate": {
-      "total": 487,
-      "resolved": 453,
+      "total": 489,
+      "resolved": 454,
       "correct": 280,
-      "hit_rate": 61.8
+      "hit_rate": 61.7
     },
     "Weak": {
       "total": 54,
@@ -15522,6 +15522,40 @@
       "tier": "Moderate",
       "score": 5.5689,
       "total_value_usd": 7189.84,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-23",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Xinyu Wang",
+      "resolved_date": "2026-08-23"
+    },
+    {
+      "signal_key": "0xf1363a46080deef67dfba65366902003684717085b42ef21e70ba780ce4b0b56:1",
+      "condition_id": "0xf1363a46080deef67dfba65366902003684717085b42ef21e70ba780ce4b0b56",
+      "title": "Cincinnati Open: Stefanos Tsitsipas vs Felix Auger-Aliassime",
+      "category": "Tennis",
+      "whale_direction": "Felix Auger-Aliassime",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 6.7352,
+      "total_value_usd": 46191.25,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-23",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x2234b40bab46bbdf4ef6c3c7187bc8ddd3c6a1a36355f6ef2e8310e0ceaa782e:1",
+      "condition_id": "0x2234b40bab46bbdf4ef6c3c7187bc8ddd3c6a1a36355f6ef2e8310e0ceaa782e",
+      "title": "Cincinnati Open: Daria Snigur vs Madison Keys",
+      "category": "Tennis",
+      "whale_direction": "Madison Keys",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 6.4746,
+      "total_value_usd": 30480.56,
       "entry_price": 0.0445,
       "end_date": "2026-08-23",
       "resolved": false,
