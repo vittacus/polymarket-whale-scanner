@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-16T18:27:31+00:00",
-  "total_signals": 916,
-  "total_resolved": 865,
-  "total_correct": 546,
+  "generated_at": "2026-08-16T19:01:41+00:00",
+  "total_signals": 917,
+  "total_resolved": 867,
+  "total_correct": 547,
   "overall_hit_rate": 63.1,
   "by_tier": {
     "Strong": {
@@ -13,12 +13,12 @@
     },
     "Moderate": {
       "total": 491,
-      "resolved": 454,
-      "correct": 280,
-      "hit_rate": 61.7
+      "resolved": 456,
+      "correct": 281,
+      "hit_rate": 61.6
     },
     "Weak": {
-      "total": 54,
+      "total": 55,
       "resolved": 52,
       "correct": 26,
       "hit_rate": 50.0
@@ -15507,10 +15507,10 @@
       "total_value_usd": 19882.08,
       "entry_price": 0.0445,
       "end_date": "2026-08-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Janice Tjen",
+      "resolved_date": "2026-08-23"
     },
     {
       "signal_key": "0xfce78e37b67b31d0f1fec5f589bb1146968eab9b3744697d0d527fb534d96fa3:1",
@@ -15590,6 +15590,23 @@
       "tier": "Moderate",
       "score": 4.9921,
       "total_value_usd": 83647.28,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-23",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Janice Tjen",
+      "resolved_date": "2026-08-23"
+    },
+    {
+      "signal_key": "0xb78049781b8c68cf022b25665761ea32b30911251efdef42d0f321888cd61c0a:1",
+      "condition_id": "0xb78049781b8c68cf022b25665761ea32b30911251efdef42d0f321888cd61c0a",
+      "title": "Cincinnati Open: Daniel Altmaier vs Lorenzo Musetti",
+      "category": "Tennis",
+      "whale_direction": "Lorenzo Musetti",
+      "outcome_index": 1,
+      "tier": "Weak",
+      "score": 3.9654,
+      "total_value_usd": 8128.37,
       "entry_price": 0.0445,
       "end_date": "2026-08-23",
       "resolved": false,
