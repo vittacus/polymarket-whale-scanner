@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-16T22:52:30+00:00",
+  "generated_at": "2026-08-16T23:07:20+00:00",
   "total_evaluated": 927,
-  "total_pending": 52,
+  "total_pending": 51,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 927,
-      "correct": 551,
+      "correct": 552,
       "wrong": 324,
-      "pending": 52,
+      "pending": 51,
       "win_rate": 63.0,
       "signals": [
         {
@@ -12915,11 +12915,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Katerina Siniakova",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Katerina Siniakova",
+          "resolved_date": "2026-08-23",
           "end_date": "2026-08-23",
           "total_value_usd": 40446.92,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x61ec63587cfad7b9cbf7089665e2e1d955ebb2d048a85131d9ed1f4b645fc87f:0",
@@ -12998,10 +12998,10 @@
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 257,
-      "correct": 149,
+      "correct": 150,
       "wrong": 86,
-      "pending": 22,
-      "win_rate": 63.4,
+      "pending": 21,
+      "win_rate": 63.6,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -16525,11 +16525,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Katerina Siniakova",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Katerina Siniakova",
+          "resolved_date": "2026-08-23",
           "end_date": "2026-08-23",
           "total_value_usd": 40446.92,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x61ec63587cfad7b9cbf7089665e2e1d955ebb2d048a85131d9ed1f4b645fc87f:0",
@@ -16609,9 +16609,9 @@
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 257,
       "correct": 86,
-      "wrong": 149,
-      "pending": 22,
-      "win_rate": 36.6,
+      "wrong": 150,
+      "pending": 21,
+      "win_rate": 36.4,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -20135,11 +20135,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Katerina Siniakova",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Katerina Siniakova",
+          "resolved_date": "2026-08-23",
           "end_date": "2026-08-23",
           "total_value_usd": 40446.92,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x61ec63587cfad7b9cbf7089665e2e1d955ebb2d048a85131d9ed1f4b645fc87f:0",

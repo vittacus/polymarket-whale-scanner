@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-16T22:52:30+00:00",
+  "generated_at": "2026-08-16T23:07:20+00:00",
   "total_signals": 927,
-  "total_resolved": 875,
-  "total_correct": 551,
+  "total_resolved": 876,
+  "total_correct": 552,
   "overall_hit_rate": 63.0,
   "by_tier": {
     "Strong": {
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 498,
-      "resolved": 463,
-      "correct": 284,
-      "hit_rate": 61.3
+      "resolved": 464,
+      "correct": 285,
+      "hit_rate": 61.4
     },
     "Weak": {
       "total": 55,
@@ -15694,10 +15694,10 @@
       "total_value_usd": 40446.92,
       "entry_price": 0.0445,
       "end_date": "2026-08-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Katerina Siniakova",
+      "resolved_date": "2026-08-23"
     },
     {
       "signal_key": "0x61ec63587cfad7b9cbf7089665e2e1d955ebb2d048a85131d9ed1f4b645fc87f:0",
