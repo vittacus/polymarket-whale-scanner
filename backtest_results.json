@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-16T23:49:56+00:00",
-  "total_signals": 928,
+  "generated_at": "2026-08-17T00:02:55+00:00",
+  "total_signals": 929,
   "total_resolved": 882,
   "total_correct": 555,
   "overall_hit_rate": 62.9,
@@ -12,7 +12,7 @@
       "hit_rate": 66.9
     },
     "Moderate": {
-      "total": 498,
+      "total": 499,
       "resolved": 467,
       "correct": 286,
       "hit_rate": 61.2
@@ -15794,6 +15794,23 @@
       "tier": "Strong",
       "score": 16.4032,
       "total_value_usd": 106803.08,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-23",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x87f90729531cace86fb53e405c3757dda72a63d18c4699ca5604d14a58c8c3d1:1",
+      "condition_id": "0x87f90729531cace86fb53e405c3757dda72a63d18c4699ca5604d14a58c8c3d1",
+      "title": "Seattle Mariners vs. Houston Astros",
+      "category": "MLB",
+      "whale_direction": "Houston Astros",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 6.0794,
+      "total_value_usd": 48106.5,
       "entry_price": 0.0445,
       "end_date": "2026-08-23",
       "resolved": false,
