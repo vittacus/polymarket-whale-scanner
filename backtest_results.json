@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-17T01:09:39+00:00",
+  "generated_at": "2026-08-17T02:41:37+00:00",
   "total_signals": 929,
-  "total_resolved": 882,
-  "total_correct": 555,
+  "total_resolved": 884,
+  "total_correct": 556,
   "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
       "total": 375,
-      "resolved": 362,
-      "correct": 242,
+      "resolved": 363,
+      "correct": 243,
       "hit_rate": 66.9
     },
     "Moderate": {
       "total": 499,
-      "resolved": 467,
+      "resolved": 468,
       "correct": 286,
-      "hit_rate": 61.2
+      "hit_rate": 61.1
     },
     "Weak": {
       "total": 55,
@@ -15796,10 +15796,10 @@
       "total_value_usd": 106803.08,
       "entry_price": 0.0445,
       "end_date": "2026-08-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Seattle Mariners",
+      "resolved_date": "2026-08-23"
     },
     {
       "signal_key": "0x87f90729531cace86fb53e405c3757dda72a63d18c4699ca5604d14a58c8c3d1:1",
@@ -15813,10 +15813,10 @@
       "total_value_usd": 48106.5,
       "entry_price": 0.0445,
       "end_date": "2026-08-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Seattle Mariners",
+      "resolved_date": "2026-08-23"
     }
   ]
 }
