@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-17T03:38:43+00:00",
-  "total_evaluated": 929,
-  "total_pending": 45,
+  "generated_at": "2026-08-17T04:32:43+00:00",
+  "total_evaluated": 930,
+  "total_pending": 46,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 929,
+      "signals_evaluated": 930,
       "correct": 556,
       "wrong": 328,
-      "pending": 45,
+      "pending": 46,
       "win_rate": 62.9,
       "signals": [
         {
@@ -13018,6 +13018,20 @@
           "end_date": "2026-08-23",
           "total_value_usd": 48106.5,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x8db706b23a24ae07be441d240e3168e55c2ad8b6dd32a1341198122b58be3df0:1",
+          "condition_id": "0x8db706b23a24ae07be441d240e3168e55c2ad8b6dd32a1341198122b58be3df0",
+          "title": "Cincinnati Open: Tereza Valentova vs Elina Svitolina",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Elina Svitolina",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 52281.24,
+          "result": "pending"
         }
       ]
     },
@@ -13025,10 +13039,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 259,
+      "signals_evaluated": 260,
       "correct": 154,
       "wrong": 90,
-      "pending": 15,
+      "pending": 16,
       "win_rate": 63.1,
       "signals": [
         {
@@ -16656,6 +16670,20 @@
           "end_date": "2026-08-23",
           "total_value_usd": 48106.5,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x8db706b23a24ae07be441d240e3168e55c2ad8b6dd32a1341198122b58be3df0:1",
+          "condition_id": "0x8db706b23a24ae07be441d240e3168e55c2ad8b6dd32a1341198122b58be3df0",
+          "title": "Cincinnati Open: Tereza Valentova vs Elina Svitolina",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Elina Svitolina",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 52281.24,
+          "result": "pending"
         }
       ]
     },
@@ -16663,10 +16691,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 259,
+      "signals_evaluated": 260,
       "correct": 90,
       "wrong": 154,
-      "pending": 15,
+      "pending": 16,
       "win_rate": 36.9,
       "signals": [
         {
@@ -20294,6 +20322,20 @@
           "end_date": "2026-08-23",
           "total_value_usd": 48106.5,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x8db706b23a24ae07be441d240e3168e55c2ad8b6dd32a1341198122b58be3df0:1",
+          "condition_id": "0x8db706b23a24ae07be441d240e3168e55c2ad8b6dd32a1341198122b58be3df0",
+          "title": "Cincinnati Open: Tereza Valentova vs Elina Svitolina",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Elina Svitolina",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-23",
+          "total_value_usd": 52281.24,
+          "result": "pending"
         }
       ]
     },

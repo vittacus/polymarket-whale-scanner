@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-17T03:38:43+00:00",
-  "total_signals": 929,
+  "generated_at": "2026-08-17T04:32:43+00:00",
+  "total_signals": 930,
   "total_resolved": 884,
   "total_correct": 556,
   "overall_hit_rate": 62.9,
@@ -12,7 +12,7 @@
       "hit_rate": 66.9
     },
     "Moderate": {
-      "total": 499,
+      "total": 500,
       "resolved": 468,
       "correct": 286,
       "hit_rate": 61.1
@@ -15817,6 +15817,23 @@
       "correct": false,
       "resolved_outcome": "Seattle Mariners",
       "resolved_date": "2026-08-23"
+    },
+    {
+      "signal_key": "0x8db706b23a24ae07be441d240e3168e55c2ad8b6dd32a1341198122b58be3df0:1",
+      "condition_id": "0x8db706b23a24ae07be441d240e3168e55c2ad8b6dd32a1341198122b58be3df0",
+      "title": "Cincinnati Open: Tereza Valentova vs Elina Svitolina",
+      "category": "Tennis",
+      "whale_direction": "Elina Svitolina",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 6.745,
+      "total_value_usd": 52281.24,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-23",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
