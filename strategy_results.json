@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-18T15:32:21+00:00",
-  "total_evaluated": 949,
-  "total_pending": 47,
+  "generated_at": "2026-08-18T16:04:14+00:00",
+  "total_evaluated": 950,
+  "total_pending": 48,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 949,
+      "signals_evaluated": 950,
       "correct": 567,
       "wrong": 335,
-      "pending": 47,
+      "pending": 48,
       "win_rate": 62.9,
       "signals": [
         {
@@ -13298,6 +13298,20 @@
           "end_date": "2026-08-25",
           "total_value_usd": 77412.36,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xdb179416eb8c1ef9b0becb127775427b133efb7a5a0c568c2d5bfdbbf98773bc:0",
+          "condition_id": "0xdb179416eb8c1ef9b0becb127775427b133efb7a5a0c568c2d5bfdbbf98773bc",
+          "title": "Cincinnati Open: Andrey Rublev vs Nuno Borges",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Andrey Rublev",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-25",
+          "total_value_usd": 58912.72,
+          "result": "pending"
         }
       ]
     },
@@ -13305,10 +13319,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 279,
+      "signals_evaluated": 280,
       "correct": 165,
       "wrong": 97,
-      "pending": 17,
+      "pending": 18,
       "win_rate": 63.0,
       "signals": [
         {
@@ -17216,6 +17230,20 @@
           "end_date": "2026-08-25",
           "total_value_usd": 77412.36,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xdb179416eb8c1ef9b0becb127775427b133efb7a5a0c568c2d5bfdbbf98773bc:0",
+          "condition_id": "0xdb179416eb8c1ef9b0becb127775427b133efb7a5a0c568c2d5bfdbbf98773bc",
+          "title": "Cincinnati Open: Andrey Rublev vs Nuno Borges",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Andrey Rublev",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-25",
+          "total_value_usd": 58912.72,
+          "result": "pending"
         }
       ]
     },
@@ -17223,10 +17251,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 279,
+      "signals_evaluated": 280,
       "correct": 97,
       "wrong": 165,
-      "pending": 17,
+      "pending": 18,
       "win_rate": 37.0,
       "signals": [
         {
@@ -21133,6 +21161,20 @@
           "resolved_date": null,
           "end_date": "2026-08-25",
           "total_value_usd": 77412.36,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xdb179416eb8c1ef9b0becb127775427b133efb7a5a0c568c2d5bfdbbf98773bc:0",
+          "condition_id": "0xdb179416eb8c1ef9b0becb127775427b133efb7a5a0c568c2d5bfdbbf98773bc",
+          "title": "Cincinnati Open: Andrey Rublev vs Nuno Borges",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Andrey Rublev",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-25",
+          "total_value_usd": 58912.72,
           "result": "pending"
         }
       ]
