@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-18T18:35:56+00:00",
+  "generated_at": "2026-08-18T19:14:55+00:00",
   "total_signals": 952,
-  "total_resolved": 904,
-  "total_correct": 568,
+  "total_resolved": 906,
+  "total_correct": 569,
   "overall_hit_rate": 62.8,
   "by_tier": {
     "Strong": {
       "total": 390,
-      "resolved": 376,
-      "correct": 251,
-      "hit_rate": 66.8
+      "resolved": 378,
+      "correct": 252,
+      "hit_rate": 66.7
     },
     "Moderate": {
       "total": 506,
@@ -16187,10 +16187,10 @@
       "total_value_usd": 5138.67,
       "entry_price": 0.0445,
       "end_date": "2026-08-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Mirra Andreeva",
+      "resolved_date": "2026-08-25"
     },
     {
       "signal_key": "0x1ba3356e7bf4b1aa8f8a003a78cff97d99e457d88b5fc617c0b240c4c2e8e52f:0",
@@ -16204,10 +16204,10 @@
       "total_value_usd": 72702.81,
       "entry_price": 0.0455,
       "end_date": "2026-08-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Taylor Fritz",
+      "resolved_date": "2026-08-25"
     }
   ]
 }
