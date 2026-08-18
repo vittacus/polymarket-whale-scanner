@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-18T06:01:10+00:00",
+  "generated_at": "2026-08-18T06:40:49+00:00",
   "total_signals": 948,
-  "total_resolved": 901,
+  "total_resolved": 902,
   "total_correct": 567,
   "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
       "total": 386,
-      "resolved": 373,
+      "resolved": 374,
       "correct": 250,
-      "hit_rate": 67.0
+      "hit_rate": 66.8
     },
     "Moderate": {
       "total": 506,
@@ -16119,10 +16119,10 @@
       "total_value_usd": 60101.73,
       "entry_price": 0.0445,
       "end_date": "2026-08-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Hanlei Lu",
+      "resolved_date": "2026-08-25"
     },
     {
       "signal_key": "0x70af02bdb4070dfdf4ff7d7a93856146a745b0c95a96956cd3b13890c1cb2e93:0",
