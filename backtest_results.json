@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-18T04:15:33+00:00",
-  "total_signals": 946,
+  "generated_at": "2026-08-18T04:56:57+00:00",
+  "total_signals": 947,
   "total_resolved": 897,
   "total_correct": 565,
   "overall_hit_rate": 63.0,
   "by_tier": {
     "Strong": {
-      "total": 384,
+      "total": 385,
       "resolved": 370,
       "correct": 249,
       "hit_rate": 67.3
@@ -16102,6 +16102,23 @@
       "total_value_usd": 40532.73,
       "entry_price": 0.045,
       "end_date": "2026-08-24",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xb8e41ef6e462cf664a460c8abd96248fad5324cbfdc664e6d73fd102ff3646dd:1",
+      "condition_id": "0xb8e41ef6e462cf664a460c8abd96248fad5324cbfdc664e6d73fd102ff3646dd",
+      "title": "ITF M15 Maanshan 7 Men: Hanlei Lu vs Vladimir Osminkin",
+      "category": "Tennis",
+      "whale_direction": "Vladimir Osminkin",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 22.7871,
+      "total_value_usd": 60101.73,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-25",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
