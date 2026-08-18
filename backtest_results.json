@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-18T22:24:30+00:00",
-  "total_signals": 958,
-  "total_resolved": 906,
-  "total_correct": 569,
+  "generated_at": "2026-08-18T22:56:26+00:00",
+  "total_signals": 959,
+  "total_resolved": 908,
+  "total_correct": 570,
   "overall_hit_rate": 62.8,
   "by_tier": {
     "Strong": {
-      "total": 394,
-      "resolved": 378,
+      "total": 395,
+      "resolved": 379,
       "correct": 252,
-      "hit_rate": 66.7
+      "hit_rate": 66.5
     },
     "Moderate": {
       "total": 508,
-      "resolved": 474,
-      "correct": 289,
-      "hit_rate": 61.0
+      "resolved": 475,
+      "correct": 290,
+      "hit_rate": 61.1
     },
     "Weak": {
       "total": 56,
@@ -16034,10 +16034,10 @@
       "total_value_usd": 12373.09,
       "entry_price": 0.045,
       "end_date": "2026-08-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Brandon Nakashima",
+      "resolved_date": "2026-08-25"
     },
     {
       "signal_key": "0xd720d155365c4b147dd4df8c55a3561e520965459a69b36707a053a2021f5253:1",
@@ -16221,10 +16221,10 @@
       "total_value_usd": 11060.53,
       "entry_price": 0.0455,
       "end_date": "2026-08-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Brandon Nakashima",
+      "resolved_date": "2026-08-25"
     },
     {
       "signal_key": "0xebd7653a13838fa5838537370b9b09fe91169e02171b8c62f7ff4018ebee59c7:0",
@@ -16305,6 +16305,23 @@
       "score": 6.2761,
       "total_value_usd": 12815.38,
       "entry_price": 0.045,
+      "end_date": "2026-08-25",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xde5eeb0860270c58e265904d31e772698a9764ca0dec088bdef92e7259bf275a:0",
+      "condition_id": "0xde5eeb0860270c58e265904d31e772698a9764ca0dec088bdef92e7259bf275a",
+      "title": "Detroit Tigers vs. Pittsburgh Pirates",
+      "category": "MLB",
+      "whale_direction": "Detroit Tigers",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 13.2809,
+      "total_value_usd": 34561.56,
+      "entry_price": 0.0455,
       "end_date": "2026-08-25",
       "resolved": false,
       "correct": null,

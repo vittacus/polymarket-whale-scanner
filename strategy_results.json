@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-18T22:24:30+00:00",
-  "total_evaluated": 958,
-  "total_pending": 52,
+  "generated_at": "2026-08-18T22:56:26+00:00",
+  "total_evaluated": 959,
+  "total_pending": 51,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 958,
-      "correct": 569,
-      "wrong": 337,
-      "pending": 52,
+      "signals_evaluated": 959,
+      "correct": 570,
+      "wrong": 338,
+      "pending": 51,
       "win_rate": 62.8,
       "signals": [
         {
@@ -13195,11 +13195,11 @@
           "tier": "Moderate",
           "entry_price": 0.045,
           "whale_direction": "Brandon Nakashima",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Brandon Nakashima",
+          "resolved_date": "2026-08-25",
           "end_date": "2026-08-25",
           "total_value_usd": 12373.09,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xd720d155365c4b147dd4df8c55a3561e520965459a69b36707a053a2021f5253:1",
@@ -13349,11 +13349,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Daniil Medvedev",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Brandon Nakashima",
+          "resolved_date": "2026-08-25",
           "end_date": "2026-08-25",
           "total_value_usd": 11060.53,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xebd7653a13838fa5838537370b9b09fe91169e02171b8c62f7ff4018ebee59c7:0",
@@ -13423,6 +13423,20 @@
           "resolved_date": null,
           "end_date": "2026-08-25",
           "total_value_usd": 12815.38,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xde5eeb0860270c58e265904d31e772698a9764ca0dec088bdef92e7259bf275a:0",
+          "condition_id": "0xde5eeb0860270c58e265904d31e772698a9764ca0dec088bdef92e7259bf275a",
+          "title": "Detroit Tigers vs. Pittsburgh Pirates",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Detroit Tigers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-25",
+          "total_value_usd": 34561.56,
           "result": "pending"
         }
       ]
@@ -13431,11 +13445,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 288,
-      "correct": 167,
-      "wrong": 99,
-      "pending": 22,
-      "win_rate": 62.8,
+      "signals_evaluated": 289,
+      "correct": 168,
+      "wrong": 100,
+      "pending": 21,
+      "win_rate": 62.7,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -17239,11 +17253,11 @@
           "tier": "Moderate",
           "entry_price": 0.045,
           "whale_direction": "Brandon Nakashima",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Brandon Nakashima",
+          "resolved_date": "2026-08-25",
           "end_date": "2026-08-25",
           "total_value_usd": 12373.09,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xd720d155365c4b147dd4df8c55a3561e520965459a69b36707a053a2021f5253:1",
@@ -17393,11 +17407,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Daniil Medvedev",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Brandon Nakashima",
+          "resolved_date": "2026-08-25",
           "end_date": "2026-08-25",
           "total_value_usd": 11060.53,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xebd7653a13838fa5838537370b9b09fe91169e02171b8c62f7ff4018ebee59c7:0",
@@ -17467,6 +17481,20 @@
           "resolved_date": null,
           "end_date": "2026-08-25",
           "total_value_usd": 12815.38,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xde5eeb0860270c58e265904d31e772698a9764ca0dec088bdef92e7259bf275a:0",
+          "condition_id": "0xde5eeb0860270c58e265904d31e772698a9764ca0dec088bdef92e7259bf275a",
+          "title": "Detroit Tigers vs. Pittsburgh Pirates",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Detroit Tigers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-25",
+          "total_value_usd": 34561.56,
           "result": "pending"
         }
       ]
@@ -17475,11 +17503,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 288,
-      "correct": 99,
-      "wrong": 167,
-      "pending": 22,
-      "win_rate": 37.2,
+      "signals_evaluated": 289,
+      "correct": 100,
+      "wrong": 168,
+      "pending": 21,
+      "win_rate": 37.3,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -21283,11 +21311,11 @@
           "tier": "Moderate",
           "entry_price": 0.045,
           "whale_direction": "Brandon Nakashima",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Brandon Nakashima",
+          "resolved_date": "2026-08-25",
           "end_date": "2026-08-25",
           "total_value_usd": 12373.09,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xd720d155365c4b147dd4df8c55a3561e520965459a69b36707a053a2021f5253:1",
@@ -21437,11 +21465,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Daniil Medvedev",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Brandon Nakashima",
+          "resolved_date": "2026-08-25",
           "end_date": "2026-08-25",
           "total_value_usd": 11060.53,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xebd7653a13838fa5838537370b9b09fe91169e02171b8c62f7ff4018ebee59c7:0",
@@ -21511,6 +21539,20 @@
           "resolved_date": null,
           "end_date": "2026-08-25",
           "total_value_usd": 12815.38,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xde5eeb0860270c58e265904d31e772698a9764ca0dec088bdef92e7259bf275a:0",
+          "condition_id": "0xde5eeb0860270c58e265904d31e772698a9764ca0dec088bdef92e7259bf275a",
+          "title": "Detroit Tigers vs. Pittsburgh Pirates",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Detroit Tigers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-25",
+          "total_value_usd": 34561.56,
           "result": "pending"
         }
       ]
