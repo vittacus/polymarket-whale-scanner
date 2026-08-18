@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-18T19:14:55+00:00",
-  "total_signals": 952,
+  "generated_at": "2026-08-18T19:47:02+00:00",
+  "total_signals": 954,
   "total_resolved": 906,
   "total_correct": 569,
   "overall_hit_rate": 62.8,
   "by_tier": {
     "Strong": {
-      "total": 390,
+      "total": 391,
       "resolved": 378,
       "correct": 252,
       "hit_rate": 66.7
     },
     "Moderate": {
-      "total": 506,
+      "total": 507,
       "resolved": 474,
       "correct": 289,
       "hit_rate": 61.0
@@ -16208,6 +16208,40 @@
       "correct": true,
       "resolved_outcome": "Taylor Fritz",
       "resolved_date": "2026-08-25"
+    },
+    {
+      "signal_key": "0x2182f29dc74fa806d339b812e387147dc49422fee17cd67252de6c193f86db18:1",
+      "condition_id": "0x2182f29dc74fa806d339b812e387147dc49422fee17cd67252de6c193f86db18",
+      "title": "Cincinnati Open: Brandon Nakashima vs Daniil Medvedev",
+      "category": "Tennis",
+      "whale_direction": "Daniil Medvedev",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 25.4604,
+      "total_value_usd": 11060.53,
+      "entry_price": 0.0455,
+      "end_date": "2026-08-25",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xebd7653a13838fa5838537370b9b09fe91169e02171b8c62f7ff4018ebee59c7:0",
+      "condition_id": "0xebd7653a13838fa5838537370b9b09fe91169e02171b8c62f7ff4018ebee59c7",
+      "title": "Atlanta Braves vs. Minnesota Twins",
+      "category": "MLB",
+      "whale_direction": "Atlanta Braves",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 9.9829,
+      "total_value_usd": 7488.92,
+      "entry_price": 0.0455,
+      "end_date": "2026-08-25",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
