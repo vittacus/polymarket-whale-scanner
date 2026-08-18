@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-18T22:56:26+00:00",
-  "total_evaluated": 959,
-  "total_pending": 51,
+  "generated_at": "2026-08-18T23:24:46+00:00",
+  "total_evaluated": 960,
+  "total_pending": 52,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 959,
+      "signals_evaluated": 960,
       "correct": 570,
       "wrong": 338,
-      "pending": 51,
+      "pending": 52,
       "win_rate": 62.8,
       "signals": [
         {
@@ -13438,6 +13438,20 @@
           "end_date": "2026-08-25",
           "total_value_usd": 34561.56,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xde5eeb0860270c58e265904d31e772698a9764ca0dec088bdef92e7259bf275a:1",
+          "condition_id": "0xde5eeb0860270c58e265904d31e772698a9764ca0dec088bdef92e7259bf275a",
+          "title": "Detroit Tigers vs. Pittsburgh Pirates",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Pittsburgh Pirates",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-25",
+          "total_value_usd": 7899.75,
+          "result": "pending"
         }
       ]
     },
@@ -13445,10 +13459,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 289,
+      "signals_evaluated": 290,
       "correct": 168,
       "wrong": 100,
-      "pending": 21,
+      "pending": 22,
       "win_rate": 62.7,
       "signals": [
         {
@@ -17496,6 +17510,20 @@
           "end_date": "2026-08-25",
           "total_value_usd": 34561.56,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xde5eeb0860270c58e265904d31e772698a9764ca0dec088bdef92e7259bf275a:1",
+          "condition_id": "0xde5eeb0860270c58e265904d31e772698a9764ca0dec088bdef92e7259bf275a",
+          "title": "Detroit Tigers vs. Pittsburgh Pirates",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Pittsburgh Pirates",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-25",
+          "total_value_usd": 7899.75,
+          "result": "pending"
         }
       ]
     },
@@ -17503,10 +17531,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 289,
+      "signals_evaluated": 290,
       "correct": 100,
       "wrong": 168,
-      "pending": 21,
+      "pending": 22,
       "win_rate": 37.3,
       "signals": [
         {
@@ -21553,6 +21581,20 @@
           "resolved_date": null,
           "end_date": "2026-08-25",
           "total_value_usd": 34561.56,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xde5eeb0860270c58e265904d31e772698a9764ca0dec088bdef92e7259bf275a:1",
+          "condition_id": "0xde5eeb0860270c58e265904d31e772698a9764ca0dec088bdef92e7259bf275a",
+          "title": "Detroit Tigers vs. Pittsburgh Pirates",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Pittsburgh Pirates",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-25",
+          "total_value_usd": 7899.75,
           "result": "pending"
         }
       ]

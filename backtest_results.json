@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-18T22:56:26+00:00",
-  "total_signals": 959,
+  "generated_at": "2026-08-18T23:24:46+00:00",
+  "total_signals": 960,
   "total_resolved": 908,
   "total_correct": 570,
   "overall_hit_rate": 62.8,
   "by_tier": {
     "Strong": {
-      "total": 395,
+      "total": 396,
       "resolved": 379,
       "correct": 252,
       "hit_rate": 66.5
@@ -16321,6 +16321,23 @@
       "tier": "Strong",
       "score": 13.2809,
       "total_value_usd": 34561.56,
+      "entry_price": 0.0455,
+      "end_date": "2026-08-25",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xde5eeb0860270c58e265904d31e772698a9764ca0dec088bdef92e7259bf275a:1",
+      "condition_id": "0xde5eeb0860270c58e265904d31e772698a9764ca0dec088bdef92e7259bf275a",
+      "title": "Detroit Tigers vs. Pittsburgh Pirates",
+      "category": "MLB",
+      "whale_direction": "Pittsburgh Pirates",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 10.1532,
+      "total_value_usd": 7899.75,
       "entry_price": 0.0455,
       "end_date": "2026-08-25",
       "resolved": false,
