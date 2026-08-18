@@ -273083,5 +273083,341 @@
         "entry_price": 0.045
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-18T03:27:04+00:00",
+    "whale_timeframes": {
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4ab9b54427ec4b7f3646b1a0ef1bed73bc708ebe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x16bb9951a36fce71e2ef57890b786145e0ba8492": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe76f0a36d05d215a69f1f84466c8922702a1d40c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0346afae2603313d2bbee96b628536c8cbe352a5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0d18e30e252008d83f51dae00d36873ddd9e24a6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0f35109cc3ceaf729609c3109310791bd616c84a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x684baa57c338c2549aec0aa3f034f695d72a8409": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8075693f48668a264b9fa313b47f52712fcc12b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe954ddb021c19495f1c556f59dadbd1494821ef1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x782186952ef2ca75ea91c95aef25bbdcffb4bb1a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xabb89972b21b304c1bed2bf26f35c8741ac9bba3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa71093cafc0c099b4ccab24c3cb8018d817923c4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x4e3c54e97996f2a6bc2ce1657ee432f384a820c0765766f9b68fdc62dff5918a:1",
+        "condition_id": "0x4e3c54e97996f2a6bc2ce1657ee432f384a820c0765766f9b68fdc62dff5918a",
+        "title": "Chicago White Sox vs. Chicago Cubs",
+        "outcome": "Chicago Cubs",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xe954ddb021c19495f1c556f59dadbd1494821ef1"
+        ],
+        "ranks": [
+          1,
+          4,
+          6,
+          17
+        ],
+        "total_value_usd": 121186.7,
+        "score": 30.2238,
+        "category": "MLB",
+        "end_date": "2026-08-25",
+        "entry_price": 0.045
+      },
+      {
+        "signal_key": "0x0bbc63372aaf0867db23fc361b4e37f7d3125c7acef6cc8e2d5ce40f65b7e523:1",
+        "condition_id": "0x0bbc63372aaf0867db23fc361b4e37f7d3125c7acef6cc8e2d5ce40f65b7e523",
+        "title": "Boston Red Sox vs. New York Yankees",
+        "outcome": "New York Yankees",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          1,
+          4,
+          6
+        ],
+        "total_value_usd": 23343.89,
+        "score": 24.9358,
+        "category": "MLB",
+        "end_date": "2026-09-05",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0xd720d155365c4b147dd4df8c55a3561e520965459a69b36707a053a2021f5253:1",
+        "condition_id": "0xd720d155365c4b147dd4df8c55a3561e520965459a69b36707a053a2021f5253",
+        "title": "Cincinnati Open: Alexandra Eala vs Amanda Anisimova",
+        "outcome": "Amanda Anisimova",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xe954ddb021c19495f1c556f59dadbd1494821ef1"
+        ],
+        "ranks": [
+          1,
+          6,
+          17
+        ],
+        "total_value_usd": 20230.76,
+        "score": 21.2638,
+        "category": "Tennis",
+        "end_date": "2026-08-24",
+        "entry_price": 0.045
+      },
+      {
+        "signal_key": "0xb3b27ec453ad23429c195e8ad0d97f80429eb9356ac50557ba6ebb0bb11f6170:1",
+        "condition_id": "0xb3b27ec453ad23429c195e8ad0d97f80429eb9356ac50557ba6ebb0bb11f6170",
+        "title": "Atlanta Braves vs. Minnesota Twins",
+        "outcome": "Minnesota Twins",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319"
+        ],
+        "ranks": [
+          4,
+          6,
+          7
+        ],
+        "total_value_usd": 167154.8,
+        "score": 11.7761,
+        "category": "MLB",
+        "end_date": "2026-08-24",
+        "entry_price": 0.045
+      },
+      {
+        "signal_key": "0xfd2052594f25def40a18550640ee55714e2b45e1302e1ed59a8b96427742992d:1",
+        "condition_id": "0xfd2052594f25def40a18550640ee55714e2b45e1302e1ed59a8b96427742992d",
+        "title": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
+        "outcome": "Under",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x16bb9951a36fce71e2ef57890b786145e0ba8492"
+        ],
+        "ranks": [
+          4,
+          6,
+          8
+        ],
+        "total_value_usd": 11882.86,
+        "score": 8.8942,
+        "category": "MLB",
+        "end_date": "2026-08-20",
+        "entry_price": 0.0475
+      },
+      {
+        "signal_key": "0xfd2052594f25def40a18550640ee55714e2b45e1302e1ed59a8b96427742992d:0",
+        "condition_id": "0xfd2052594f25def40a18550640ee55714e2b45e1302e1ed59a8b96427742992d",
+        "title": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
+        "outcome": "Over",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
+          "0xa71093cafc0c099b4ccab24c3cb8018d817923c4"
+        ],
+        "ranks": [
+          6,
+          8,
+          20
+        ],
+        "total_value_usd": 78562.43,
+        "score": 6.7395,
+        "category": "MLB",
+        "end_date": "2026-08-20",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0xf6a5d5755cadea076f4728161a278862c164f147ecfaf316765f71a685cd9a7e:0",
+        "condition_id": "0xf6a5d5755cadea076f4728161a278862c164f147ecfaf316765f71a685cd9a7e",
+        "title": "Los Angeles Dodgers vs. Colorado Rockies",
+        "outcome": "Los Angeles Dodgers",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x684baa57c338c2549aec0aa3f034f695d72a8409"
+        ],
+        "ranks": [
+          6,
+          9,
+          15
+        ],
+        "total_value_usd": 69219.25,
+        "score": 6.718,
+        "category": "MLB",
+        "end_date": "2026-08-25",
+        "entry_price": 0.045
+      },
+      {
+        "signal_key": "0xb3b27ec453ad23429c195e8ad0d97f80429eb9356ac50557ba6ebb0bb11f6170:0",
+        "condition_id": "0xb3b27ec453ad23429c195e8ad0d97f80429eb9356ac50557ba6ebb0bb11f6170",
+        "title": "Atlanta Braves vs. Minnesota Twins",
+        "outcome": "Atlanta Braves",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x684baa57c338c2549aec0aa3f034f695d72a8409"
+        ],
+        "ranks": [
+          4,
+          6,
+          15
+        ],
+        "total_value_usd": 2462.08,
+        "score": 6.6053,
+        "category": "MLB",
+        "end_date": "2026-08-24",
+        "entry_price": 0.045
+      },
+      {
+        "signal_key": "0x4e3c54e97996f2a6bc2ce1657ee432f384a820c0765766f9b68fdc62dff5918a:0",
+        "condition_id": "0x4e3c54e97996f2a6bc2ce1657ee432f384a820c0765766f9b68fdc62dff5918a",
+        "title": "Chicago White Sox vs. Chicago Cubs",
+        "outcome": "Chicago White Sox",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1",
+          "0xabb89972b21b304c1bed2bf26f35c8741ac9bba3"
+        ],
+        "ranks": [
+          6,
+          10,
+          19
+        ],
+        "total_value_usd": 58369.05,
+        "score": 6.1323,
+        "category": "MLB",
+        "end_date": "2026-08-25",
+        "entry_price": 0.045
+      }
+    ]
   }
 ]
