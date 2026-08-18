@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-18T03:34:45+00:00",
-  "total_evaluated": 945,
-  "total_pending": 55,
+  "generated_at": "2026-08-18T04:15:33+00:00",
+  "total_evaluated": 946,
+  "total_pending": 49,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 945,
-      "correct": 561,
-      "wrong": 329,
-      "pending": 55,
+      "signals_evaluated": 946,
+      "correct": 565,
+      "wrong": 332,
+      "pending": 49,
       "win_rate": 63.0,
       "signals": [
         {
@@ -13083,11 +13083,11 @@
           "tier": "Strong",
           "entry_price": 0.045,
           "whale_direction": "Jiri Lehecka",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Arthur Fils",
+          "resolved_date": "2026-08-24",
           "end_date": "2026-08-24",
           "total_value_usd": 34767.19,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xd6e0429f56be9935e665b0837b4e26651747f0b8915bab90a597eb91c5fa5829:1",
@@ -13111,11 +13111,11 @@
           "tier": "Strong",
           "entry_price": 0.045,
           "whale_direction": "Minnesota Twins",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Minnesota Twins",
+          "resolved_date": "2026-08-24",
           "end_date": "2026-08-24",
           "total_value_usd": 81698.03,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x4e3c54e97996f2a6bc2ce1657ee432f384a820c0765766f9b68fdc62dff5918a:1",
@@ -13125,11 +13125,11 @@
           "tier": "Strong",
           "entry_price": 0.045,
           "whale_direction": "Chicago Cubs",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Chicago Cubs",
+          "resolved_date": "2026-08-25",
           "end_date": "2026-08-25",
           "total_value_usd": 58218.66,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf6a5d5755cadea076f4728161a278862c164f147ecfaf316765f71a685cd9a7e:0",
@@ -13139,11 +13139,11 @@
           "tier": "Strong",
           "entry_price": 0.045,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Dodgers",
+          "resolved_date": "2026-08-25",
           "end_date": "2026-08-25",
           "total_value_usd": 93298.97,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x1f336cf49f17b08d7dee4775c8c0c97f3ff1c467cba0016e396281c20f46fa23:1",
@@ -13153,11 +13153,11 @@
           "tier": "Strong",
           "entry_price": 0.045,
           "whale_direction": "Arthur Fils",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Arthur Fils",
+          "resolved_date": "2026-08-24",
           "end_date": "2026-08-24",
           "total_value_usd": 75146.15,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x130ca3a3ae4cc872933cfd95f661afcdca17426191df4b3ad6d3ffa8e5f6ddbf:1",
@@ -13223,11 +13223,11 @@
           "tier": "Moderate",
           "entry_price": 0.045,
           "whale_direction": "Atlanta Braves",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Minnesota Twins",
+          "resolved_date": "2026-08-24",
           "end_date": "2026-08-24",
           "total_value_usd": 2462.08,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x4e3c54e97996f2a6bc2ce1657ee432f384a820c0765766f9b68fdc62dff5918a:0",
@@ -13237,10 +13237,24 @@
           "tier": "Moderate",
           "entry_price": 0.045,
           "whale_direction": "Chicago White Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Chicago Cubs",
+          "resolved_date": "2026-08-25",
           "end_date": "2026-08-25",
           "total_value_usd": 58369.05,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x70af02bdb4070dfdf4ff7d7a93856146a745b0c95a96956cd3b13890c1cb2e93:1",
+          "condition_id": "0x70af02bdb4070dfdf4ff7d7a93856146a745b0c95a96956cd3b13890c1cb2e93",
+          "title": "Cincinnati Open: Tommy Paul vs Adolfo Vallejo",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.045,
+          "whale_direction": "Adolfo Vallejo",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-24",
+          "total_value_usd": 40532.73,
           "result": "pending"
         }
       ]
@@ -13249,11 +13263,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 275,
-      "correct": 159,
-      "wrong": 91,
-      "pending": 25,
-      "win_rate": 63.6,
+      "signals_evaluated": 276,
+      "correct": 163,
+      "wrong": 94,
+      "pending": 19,
+      "win_rate": 63.4,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -16945,11 +16959,11 @@
           "tier": "Strong",
           "entry_price": 0.045,
           "whale_direction": "Jiri Lehecka",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Arthur Fils",
+          "resolved_date": "2026-08-24",
           "end_date": "2026-08-24",
           "total_value_usd": 34767.19,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xd6e0429f56be9935e665b0837b4e26651747f0b8915bab90a597eb91c5fa5829:1",
@@ -16973,11 +16987,11 @@
           "tier": "Strong",
           "entry_price": 0.045,
           "whale_direction": "Minnesota Twins",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Minnesota Twins",
+          "resolved_date": "2026-08-24",
           "end_date": "2026-08-24",
           "total_value_usd": 81698.03,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x4e3c54e97996f2a6bc2ce1657ee432f384a820c0765766f9b68fdc62dff5918a:1",
@@ -16987,11 +17001,11 @@
           "tier": "Strong",
           "entry_price": 0.045,
           "whale_direction": "Chicago Cubs",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Chicago Cubs",
+          "resolved_date": "2026-08-25",
           "end_date": "2026-08-25",
           "total_value_usd": 58218.66,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf6a5d5755cadea076f4728161a278862c164f147ecfaf316765f71a685cd9a7e:0",
@@ -17001,11 +17015,11 @@
           "tier": "Strong",
           "entry_price": 0.045,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Dodgers",
+          "resolved_date": "2026-08-25",
           "end_date": "2026-08-25",
           "total_value_usd": 93298.97,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x1f336cf49f17b08d7dee4775c8c0c97f3ff1c467cba0016e396281c20f46fa23:1",
@@ -17015,11 +17029,11 @@
           "tier": "Strong",
           "entry_price": 0.045,
           "whale_direction": "Arthur Fils",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Arthur Fils",
+          "resolved_date": "2026-08-24",
           "end_date": "2026-08-24",
           "total_value_usd": 75146.15,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x130ca3a3ae4cc872933cfd95f661afcdca17426191df4b3ad6d3ffa8e5f6ddbf:1",
@@ -17085,11 +17099,11 @@
           "tier": "Moderate",
           "entry_price": 0.045,
           "whale_direction": "Atlanta Braves",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Minnesota Twins",
+          "resolved_date": "2026-08-24",
           "end_date": "2026-08-24",
           "total_value_usd": 2462.08,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x4e3c54e97996f2a6bc2ce1657ee432f384a820c0765766f9b68fdc62dff5918a:0",
@@ -17099,10 +17113,24 @@
           "tier": "Moderate",
           "entry_price": 0.045,
           "whale_direction": "Chicago White Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Chicago Cubs",
+          "resolved_date": "2026-08-25",
           "end_date": "2026-08-25",
           "total_value_usd": 58369.05,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x70af02bdb4070dfdf4ff7d7a93856146a745b0c95a96956cd3b13890c1cb2e93:1",
+          "condition_id": "0x70af02bdb4070dfdf4ff7d7a93856146a745b0c95a96956cd3b13890c1cb2e93",
+          "title": "Cincinnati Open: Tommy Paul vs Adolfo Vallejo",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.045,
+          "whale_direction": "Adolfo Vallejo",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-24",
+          "total_value_usd": 40532.73,
           "result": "pending"
         }
       ]
@@ -17111,11 +17139,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 275,
-      "correct": 91,
-      "wrong": 159,
-      "pending": 25,
-      "win_rate": 36.4,
+      "signals_evaluated": 276,
+      "correct": 94,
+      "wrong": 163,
+      "pending": 19,
+      "win_rate": 36.6,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -20807,11 +20835,11 @@
           "tier": "Strong",
           "entry_price": 0.045,
           "whale_direction": "Jiri Lehecka",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Arthur Fils",
+          "resolved_date": "2026-08-24",
           "end_date": "2026-08-24",
           "total_value_usd": 34767.19,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xd6e0429f56be9935e665b0837b4e26651747f0b8915bab90a597eb91c5fa5829:1",
@@ -20835,11 +20863,11 @@
           "tier": "Strong",
           "entry_price": 0.045,
           "whale_direction": "Minnesota Twins",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Minnesota Twins",
+          "resolved_date": "2026-08-24",
           "end_date": "2026-08-24",
           "total_value_usd": 81698.03,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x4e3c54e97996f2a6bc2ce1657ee432f384a820c0765766f9b68fdc62dff5918a:1",
@@ -20849,11 +20877,11 @@
           "tier": "Strong",
           "entry_price": 0.045,
           "whale_direction": "Chicago Cubs",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Chicago Cubs",
+          "resolved_date": "2026-08-25",
           "end_date": "2026-08-25",
           "total_value_usd": 58218.66,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xf6a5d5755cadea076f4728161a278862c164f147ecfaf316765f71a685cd9a7e:0",
@@ -20863,11 +20891,11 @@
           "tier": "Strong",
           "entry_price": 0.045,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Dodgers",
+          "resolved_date": "2026-08-25",
           "end_date": "2026-08-25",
           "total_value_usd": 93298.97,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x1f336cf49f17b08d7dee4775c8c0c97f3ff1c467cba0016e396281c20f46fa23:1",
@@ -20877,11 +20905,11 @@
           "tier": "Strong",
           "entry_price": 0.045,
           "whale_direction": "Arthur Fils",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Arthur Fils",
+          "resolved_date": "2026-08-24",
           "end_date": "2026-08-24",
           "total_value_usd": 75146.15,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x130ca3a3ae4cc872933cfd95f661afcdca17426191df4b3ad6d3ffa8e5f6ddbf:1",
@@ -20947,11 +20975,11 @@
           "tier": "Moderate",
           "entry_price": 0.045,
           "whale_direction": "Atlanta Braves",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Minnesota Twins",
+          "resolved_date": "2026-08-24",
           "end_date": "2026-08-24",
           "total_value_usd": 2462.08,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x4e3c54e97996f2a6bc2ce1657ee432f384a820c0765766f9b68fdc62dff5918a:0",
@@ -20961,10 +20989,24 @@
           "tier": "Moderate",
           "entry_price": 0.045,
           "whale_direction": "Chicago White Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Chicago Cubs",
+          "resolved_date": "2026-08-25",
           "end_date": "2026-08-25",
           "total_value_usd": 58369.05,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x70af02bdb4070dfdf4ff7d7a93856146a745b0c95a96956cd3b13890c1cb2e93:1",
+          "condition_id": "0x70af02bdb4070dfdf4ff7d7a93856146a745b0c95a96956cd3b13890c1cb2e93",
+          "title": "Cincinnati Open: Tommy Paul vs Adolfo Vallejo",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.045,
+          "whale_direction": "Adolfo Vallejo",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-24",
+          "total_value_usd": 40532.73,
           "result": "pending"
         }
       ]

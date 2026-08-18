@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-18T03:34:45+00:00",
-  "total_signals": 945,
-  "total_resolved": 890,
-  "total_correct": 561,
+  "generated_at": "2026-08-18T04:15:33+00:00",
+  "total_signals": 946,
+  "total_resolved": 897,
+  "total_correct": 565,
   "overall_hit_rate": 63.0,
   "by_tier": {
     "Strong": {
-      "total": 383,
-      "resolved": 365,
-      "correct": 245,
-      "hit_rate": 67.1
+      "total": 384,
+      "resolved": 370,
+      "correct": 249,
+      "hit_rate": 67.3
     },
     "Moderate": {
       "total": 506,
-      "resolved": 471,
+      "resolved": 473,
       "correct": 288,
-      "hit_rate": 61.1
+      "hit_rate": 60.9
     },
     "Weak": {
       "total": 56,
@@ -15898,10 +15898,10 @@
       "total_value_usd": 34767.19,
       "entry_price": 0.045,
       "end_date": "2026-08-24",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Arthur Fils",
+      "resolved_date": "2026-08-24"
     },
     {
       "signal_key": "0xd6e0429f56be9935e665b0837b4e26651747f0b8915bab90a597eb91c5fa5829:1",
@@ -15932,10 +15932,10 @@
       "total_value_usd": 81698.03,
       "entry_price": 0.045,
       "end_date": "2026-08-24",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Minnesota Twins",
+      "resolved_date": "2026-08-24"
     },
     {
       "signal_key": "0x4e3c54e97996f2a6bc2ce1657ee432f384a820c0765766f9b68fdc62dff5918a:1",
@@ -15949,10 +15949,10 @@
       "total_value_usd": 58218.66,
       "entry_price": 0.045,
       "end_date": "2026-08-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Chicago Cubs",
+      "resolved_date": "2026-08-25"
     },
     {
       "signal_key": "0xf6a5d5755cadea076f4728161a278862c164f147ecfaf316765f71a685cd9a7e:0",
@@ -15966,10 +15966,10 @@
       "total_value_usd": 93298.97,
       "entry_price": 0.045,
       "end_date": "2026-08-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Los Angeles Dodgers",
+      "resolved_date": "2026-08-25"
     },
     {
       "signal_key": "0x1f336cf49f17b08d7dee4775c8c0c97f3ff1c467cba0016e396281c20f46fa23:1",
@@ -15983,10 +15983,10 @@
       "total_value_usd": 75146.15,
       "entry_price": 0.045,
       "end_date": "2026-08-24",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Arthur Fils",
+      "resolved_date": "2026-08-24"
     },
     {
       "signal_key": "0x130ca3a3ae4cc872933cfd95f661afcdca17426191df4b3ad6d3ffa8e5f6ddbf:1",
@@ -16068,10 +16068,10 @@
       "total_value_usd": 2462.08,
       "entry_price": 0.045,
       "end_date": "2026-08-24",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Minnesota Twins",
+      "resolved_date": "2026-08-24"
     },
     {
       "signal_key": "0x4e3c54e97996f2a6bc2ce1657ee432f384a820c0765766f9b68fdc62dff5918a:0",
@@ -16085,6 +16085,23 @@
       "total_value_usd": 58369.05,
       "entry_price": 0.045,
       "end_date": "2026-08-25",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Chicago Cubs",
+      "resolved_date": "2026-08-25"
+    },
+    {
+      "signal_key": "0x70af02bdb4070dfdf4ff7d7a93856146a745b0c95a96956cd3b13890c1cb2e93:1",
+      "condition_id": "0x70af02bdb4070dfdf4ff7d7a93856146a745b0c95a96956cd3b13890c1cb2e93",
+      "title": "Cincinnati Open: Tommy Paul vs Adolfo Vallejo",
+      "category": "Tennis",
+      "whale_direction": "Adolfo Vallejo",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 29.7077,
+      "total_value_usd": 40532.73,
+      "entry_price": 0.045,
+      "end_date": "2026-08-24",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
