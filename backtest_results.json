@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-18T04:56:57+00:00",
-  "total_signals": 947,
-  "total_resolved": 897,
-  "total_correct": 565,
+  "generated_at": "2026-08-18T05:30:09+00:00",
+  "total_signals": 948,
+  "total_resolved": 899,
+  "total_correct": 566,
   "overall_hit_rate": 63.0,
   "by_tier": {
     "Strong": {
-      "total": 385,
-      "resolved": 370,
+      "total": 386,
+      "resolved": 371,
       "correct": 249,
-      "hit_rate": 67.3
+      "hit_rate": 67.1
     },
     "Moderate": {
       "total": 506,
-      "resolved": 473,
-      "correct": 288,
-      "hit_rate": 60.9
+      "resolved": 474,
+      "correct": 289,
+      "hit_rate": 61.0
     },
     "Weak": {
       "total": 56,
@@ -16017,10 +16017,10 @@
       "total_value_usd": 16879.19,
       "entry_price": 0.045,
       "end_date": "2026-08-24",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Amanda Anisimova",
+      "resolved_date": "2026-08-24"
     },
     {
       "signal_key": "0x2182f29dc74fa806d339b812e387147dc49422fee17cd67252de6c193f86db18:0",
@@ -16051,10 +16051,10 @@
       "total_value_usd": 13401.94,
       "entry_price": 0.045,
       "end_date": "2026-08-24",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Amanda Anisimova",
+      "resolved_date": "2026-08-24"
     },
     {
       "signal_key": "0xb3b27ec453ad23429c195e8ad0d97f80429eb9356ac50557ba6ebb0bb11f6170:0",
@@ -16119,6 +16119,23 @@
       "total_value_usd": 60101.73,
       "entry_price": 0.0445,
       "end_date": "2026-08-25",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x70af02bdb4070dfdf4ff7d7a93856146a745b0c95a96956cd3b13890c1cb2e93:0",
+      "condition_id": "0x70af02bdb4070dfdf4ff7d7a93856146a745b0c95a96956cd3b13890c1cb2e93",
+      "title": "Cincinnati Open: Tommy Paul vs Adolfo Vallejo",
+      "category": "Tennis",
+      "whale_direction": "Tommy Paul",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 10.8766,
+      "total_value_usd": 102502.33,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-24",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
