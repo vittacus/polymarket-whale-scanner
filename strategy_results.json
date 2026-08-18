@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-18T23:24:46+00:00",
-  "total_evaluated": 960,
-  "total_pending": 52,
+  "generated_at": "2026-08-18T23:52:09+00:00",
+  "total_evaluated": 963,
+  "total_pending": 54,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 960,
+      "signals_evaluated": 963,
       "correct": 570,
-      "wrong": 338,
-      "pending": 52,
-      "win_rate": 62.8,
+      "wrong": 339,
+      "pending": 54,
+      "win_rate": 62.7,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -13377,11 +13377,11 @@
           "tier": "Strong",
           "entry_price": 0.045,
           "whale_direction": "Ekaterina Alexandrova",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Sara Bejlek",
+          "resolved_date": "2026-08-25",
           "end_date": "2026-08-25",
           "total_value_usd": 29854.07,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x6a571e1b83c8238df6cf49e89ff815d98b522d01db7af1568a514f3d37ec8ce0:1",
@@ -13451,6 +13451,48 @@
           "resolved_date": null,
           "end_date": "2026-08-25",
           "total_value_usd": 7899.75,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x8fa7310a657aedfbbc22d3a3be7d639f4d2330bd44fa4bf5995fe783eb51d261:0",
+          "condition_id": "0x8fa7310a657aedfbbc22d3a3be7d639f4d2330bd44fa4bf5995fe783eb51d261",
+          "title": "New York Yankees vs. Baltimore Orioles",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "New York Yankees",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-25",
+          "total_value_usd": 38149.71,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xb64f0ee76137ad6424a2f2efc73d09d4fc0f2b3bb749a59e614d15d6f2627be9:1",
+          "condition_id": "0xb64f0ee76137ad6424a2f2efc73d09d4fc0f2b3bb749a59e614d15d6f2627be9",
+          "title": "Athletics vs. Kansas City Royals",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Kansas City Royals",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-25",
+          "total_value_usd": 27616.59,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x74a8c4daafb40392c2eae20e2fa42a2c0b58e43b3ac475d69011b57db78a37ad:0",
+          "condition_id": "0x74a8c4daafb40392c2eae20e2fa42a2c0b58e43b3ac475d69011b57db78a37ad",
+          "title": "Seattle Mariners vs. Milwaukee Brewers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Seattle Mariners",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-25",
+          "total_value_usd": 11620.36,
           "result": "pending"
         }
       ]
@@ -13459,11 +13501,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 290,
+      "signals_evaluated": 293,
       "correct": 168,
-      "wrong": 100,
-      "pending": 22,
-      "win_rate": 62.7,
+      "wrong": 101,
+      "pending": 24,
+      "win_rate": 62.5,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -17449,11 +17491,11 @@
           "tier": "Strong",
           "entry_price": 0.045,
           "whale_direction": "Ekaterina Alexandrova",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Sara Bejlek",
+          "resolved_date": "2026-08-25",
           "end_date": "2026-08-25",
           "total_value_usd": 29854.07,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x6a571e1b83c8238df6cf49e89ff815d98b522d01db7af1568a514f3d37ec8ce0:1",
@@ -17523,6 +17565,48 @@
           "resolved_date": null,
           "end_date": "2026-08-25",
           "total_value_usd": 7899.75,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x8fa7310a657aedfbbc22d3a3be7d639f4d2330bd44fa4bf5995fe783eb51d261:0",
+          "condition_id": "0x8fa7310a657aedfbbc22d3a3be7d639f4d2330bd44fa4bf5995fe783eb51d261",
+          "title": "New York Yankees vs. Baltimore Orioles",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "New York Yankees",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-25",
+          "total_value_usd": 38149.71,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xb64f0ee76137ad6424a2f2efc73d09d4fc0f2b3bb749a59e614d15d6f2627be9:1",
+          "condition_id": "0xb64f0ee76137ad6424a2f2efc73d09d4fc0f2b3bb749a59e614d15d6f2627be9",
+          "title": "Athletics vs. Kansas City Royals",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Kansas City Royals",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-25",
+          "total_value_usd": 27616.59,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x74a8c4daafb40392c2eae20e2fa42a2c0b58e43b3ac475d69011b57db78a37ad:0",
+          "condition_id": "0x74a8c4daafb40392c2eae20e2fa42a2c0b58e43b3ac475d69011b57db78a37ad",
+          "title": "Seattle Mariners vs. Milwaukee Brewers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Seattle Mariners",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-25",
+          "total_value_usd": 11620.36,
           "result": "pending"
         }
       ]
@@ -17531,11 +17615,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 290,
-      "correct": 100,
+      "signals_evaluated": 293,
+      "correct": 101,
       "wrong": 168,
-      "pending": 22,
-      "win_rate": 37.3,
+      "pending": 24,
+      "win_rate": 37.5,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -21521,11 +21605,11 @@
           "tier": "Strong",
           "entry_price": 0.045,
           "whale_direction": "Ekaterina Alexandrova",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Sara Bejlek",
+          "resolved_date": "2026-08-25",
           "end_date": "2026-08-25",
           "total_value_usd": 29854.07,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x6a571e1b83c8238df6cf49e89ff815d98b522d01db7af1568a514f3d37ec8ce0:1",
@@ -21595,6 +21679,48 @@
           "resolved_date": null,
           "end_date": "2026-08-25",
           "total_value_usd": 7899.75,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x8fa7310a657aedfbbc22d3a3be7d639f4d2330bd44fa4bf5995fe783eb51d261:0",
+          "condition_id": "0x8fa7310a657aedfbbc22d3a3be7d639f4d2330bd44fa4bf5995fe783eb51d261",
+          "title": "New York Yankees vs. Baltimore Orioles",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "New York Yankees",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-25",
+          "total_value_usd": 38149.71,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xb64f0ee76137ad6424a2f2efc73d09d4fc0f2b3bb749a59e614d15d6f2627be9:1",
+          "condition_id": "0xb64f0ee76137ad6424a2f2efc73d09d4fc0f2b3bb749a59e614d15d6f2627be9",
+          "title": "Athletics vs. Kansas City Royals",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Kansas City Royals",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-25",
+          "total_value_usd": 27616.59,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x74a8c4daafb40392c2eae20e2fa42a2c0b58e43b3ac475d69011b57db78a37ad:0",
+          "condition_id": "0x74a8c4daafb40392c2eae20e2fa42a2c0b58e43b3ac475d69011b57db78a37ad",
+          "title": "Seattle Mariners vs. Milwaukee Brewers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Seattle Mariners",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-25",
+          "total_value_usd": 11620.36,
           "result": "pending"
         }
       ]
