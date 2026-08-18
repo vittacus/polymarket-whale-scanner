@@ -272397,5 +272397,226 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-08-18T01:41:41+00:00",
+    "whale_timeframes": {
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x16bb9951a36fce71e2ef57890b786145e0ba8492": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe76f0a36d05d215a69f1f84466c8922702a1d40c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0d18e30e252008d83f51dae00d36873ddd9e24a6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0f35109cc3ceaf729609c3109310791bd616c84a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x684baa57c338c2549aec0aa3f034f695d72a8409": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x782186952ef2ca75ea91c95aef25bbdcffb4bb1a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x95b198f900d19a80d3d7e47b7b17708af254f9ac": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7fb23b0d330ea4ac4f3cecce1eb81fb0bfb3ed4b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf5592765133941c40c77e52bc56bbe7ec167f462": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7542fa229f63a7bd8a9ca4584638004a39317a20": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3a8aa345d5db7ec5138298c8c4f4540259be7699": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0346afae2603313d2bbee96b628536c8cbe352a5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x927cf2bb94d15707993f954552e56c74eb6d6633": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x2308d78dccdf19bf2a66acc8af60dfc3a435e7f55482a651e602658e354aac6f:1",
+        "condition_id": "0x2308d78dccdf19bf2a66acc8af60dfc3a435e7f55482a651e602658e354aac6f",
+        "title": "San Francisco Giants vs. Atlanta Braves",
+        "outcome": "Atlanta Braves",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
+        ],
+        "ranks": [
+          5,
+          11,
+          19
+        ],
+        "total_value_usd": 23366.74,
+        "score": 6.0475,
+        "category": "MLB",
+        "end_date": "2026-09-07",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x1af38f6df567bdbb6e47c65da982f3d08320f38a4ea880236d432d17cb170b69:0",
+        "condition_id": "0x1af38f6df567bdbb6e47c65da982f3d08320f38a4ea880236d432d17cb170b69",
+        "title": "Detroit Tigers vs. Pittsburgh Pirates",
+        "outcome": "Detroit Tigers",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x684baa57c338c2549aec0aa3f034f695d72a8409",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294"
+        ],
+        "ranks": [
+          9,
+          11,
+          13
+        ],
+        "total_value_usd": 24612.84,
+        "score": 4.9357,
+        "category": "MLB",
+        "end_date": "2026-08-24",
+        "entry_price": 0.045
+      },
+      {
+        "signal_key": "0xd6e0429f56be9935e665b0837b4e26651747f0b8915bab90a597eb91c5fa5829:0",
+        "condition_id": "0xd6e0429f56be9935e665b0837b4e26651747f0b8915bab90a597eb91c5fa5829",
+        "title": "St. Louis Cardinals vs. Cincinnati Reds",
+        "outcome": "St. Louis Cardinals",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x7542fa229f63a7bd8a9ca4584638004a39317a20",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+          "0x927cf2bb94d15707993f954552e56c74eb6d6633"
+        ],
+        "ranks": [
+          11,
+          16,
+          19,
+          20
+        ],
+        "total_value_usd": 53201.99,
+        "score": 4.8759,
+        "category": "MLB",
+        "end_date": "2026-08-24",
+        "entry_price": 0.045
+      },
+      {
+        "signal_key": "0x77c18dfd1b1115198a60a08fba21a5c225e1279eed4343857d16eb2e172d8dde:1",
+        "condition_id": "0x77c18dfd1b1115198a60a08fba21a5c225e1279eed4343857d16eb2e172d8dde",
+        "title": "San Diego Padres vs. New York Mets",
+        "outcome": "New York Mets",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+          "0x927cf2bb94d15707993f954552e56c74eb6d6633"
+        ],
+        "ranks": [
+          11,
+          19,
+          20
+        ],
+        "total_value_usd": 43172.7,
+        "score": 3.6149,
+        "category": "MLB",
+        "end_date": "2026-08-24",
+        "entry_price": 0.045
+      }
+    ]
   }
 ]
