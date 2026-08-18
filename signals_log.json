@@ -280130,5 +280130,332 @@
         "entry_price": 0.0455
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-18T22:15:54+00:00",
+    "whale_timeframes": {
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe30e74595517de48f1fb19f4553dd3d9f1e96b87": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4ab9b54427ec4b7f3646b1a0ef1bed73bc708ebe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x16bb9951a36fce71e2ef57890b786145e0ba8492": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3d8a89a20aa73fba0f30d080e8120de9f9555724": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x085fd7e4886bd3c491d979ea5c8052b0d3d34d1c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb83e85ffd22faa4009273034770f96ffc5b1e50": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe954ddb021c19495f1c556f59dadbd1494821ef1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x684baa57c338c2549aec0aa3f034f695d72a8409": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x56acab44cfca2e88bb9b3406890aea7bfa0cd77e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf377b9fb12a4b7507a4f997461a73eb30b564159": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x2182f29dc74fa806d339b812e387147dc49422fee17cd67252de6c193f86db18:0",
+        "condition_id": "0x2182f29dc74fa806d339b812e387147dc49422fee17cd67252de6c193f86db18",
+        "title": "Cincinnati Open: Brandon Nakashima vs Daniil Medvedev",
+        "outcome": "Brandon Nakashima",
+        "outcome_index": 0,
+        "whale_count": 8,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+          "0xdb83e85ffd22faa4009273034770f96ffc5b1e50",
+          "0xe954ddb021c19495f1c556f59dadbd1494821ef1",
+          "0x56acab44cfca2e88bb9b3406890aea7bfa0cd77e",
+          "0xf377b9fb12a4b7507a4f997461a73eb30b564159"
+        ],
+        "ranks": [
+          1,
+          2,
+          4,
+          5,
+          15,
+          16,
+          19,
+          20
+        ],
+        "total_value_usd": 353294.29,
+        "score": 48.7771,
+        "category": "Tennis",
+        "end_date": "2026-08-25",
+        "entry_price": 0.045
+      },
+      {
+        "signal_key": "0x2b4f11acd73dbc13bf39a26e9485b497229dac4a39e2426ca06c05e8926bf930:1",
+        "condition_id": "0x2b4f11acd73dbc13bf39a26e9485b497229dac4a39e2426ca06c05e8926bf930",
+        "title": "Cincinnati Open: Sara Bejlek vs Ekaterina Alexandrova",
+        "outcome": "Ekaterina Alexandrova",
+        "outcome_index": 1,
+        "whale_count": 5,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0xe954ddb021c19495f1c556f59dadbd1494821ef1",
+          "0x56acab44cfca2e88bb9b3406890aea7bfa0cd77e"
+        ],
+        "ranks": [
+          1,
+          2,
+          4,
+          16,
+          19
+        ],
+        "total_value_usd": 29854.07,
+        "score": 33.6324,
+        "category": "Tennis",
+        "end_date": "2026-08-25",
+        "entry_price": 0.045
+      },
+      {
+        "signal_key": "0x0bbc63372aaf0867db23fc361b4e37f7d3125c7acef6cc8e2d5ce40f65b7e523:1",
+        "condition_id": "0x0bbc63372aaf0867db23fc361b4e37f7d3125c7acef6cc8e2d5ce40f65b7e523",
+        "title": "Boston Red Sox vs. New York Yankees",
+        "outcome": "New York Yankees",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+        ],
+        "ranks": [
+          1,
+          2,
+          7
+        ],
+        "total_value_usd": 22862.57,
+        "score": 28.8572,
+        "category": "MLB",
+        "end_date": "2026-09-05",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0x6a571e1b83c8238df6cf49e89ff815d98b522d01db7af1568a514f3d37ec8ce0:1",
+        "condition_id": "0x6a571e1b83c8238df6cf49e89ff815d98b522d01db7af1568a514f3d37ec8ce0",
+        "title": "Cincinnati Open: Jaime Faria vs Adam Walton",
+        "outcome": "Adam Walton",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0xf377b9fb12a4b7507a4f997461a73eb30b564159"
+        ],
+        "ranks": [
+          2,
+          4,
+          20
+        ],
+        "total_value_usd": 33050.28,
+        "score": 14.5681,
+        "category": "Tennis",
+        "end_date": "2026-08-25",
+        "entry_price": 0.045
+      },
+      {
+        "signal_key": "0x6a571e1b83c8238df6cf49e89ff815d98b522d01db7af1568a514f3d37ec8ce0:0",
+        "condition_id": "0x6a571e1b83c8238df6cf49e89ff815d98b522d01db7af1568a514f3d37ec8ce0",
+        "title": "Cincinnati Open: Jaime Faria vs Adam Walton",
+        "outcome": "Jaime Faria",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x56acab44cfca2e88bb9b3406890aea7bfa0cd77e"
+        ],
+        "ranks": [
+          2,
+          4,
+          19
+        ],
+        "total_value_usd": 8401.46,
+        "score": 12.6924,
+        "category": "Tennis",
+        "end_date": "2026-08-25",
+        "entry_price": 0.045
+      },
+      {
+        "signal_key": "0xebd7653a13838fa5838537370b9b09fe91169e02171b8c62f7ff4018ebee59c7:0",
+        "condition_id": "0xebd7653a13838fa5838537370b9b09fe91169e02171b8c62f7ff4018ebee59c7",
+        "title": "Atlanta Braves vs. Minnesota Twins",
+        "outcome": "Atlanta Braves",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
+          "0xdb83e85ffd22faa4009273034770f96ffc5b1e50",
+          "0x684baa57c338c2549aec0aa3f034f695d72a8409"
+        ],
+        "ranks": [
+          2,
+          12,
+          15,
+          18
+        ],
+        "total_value_usd": 19989.9,
+        "score": 12.2275,
+        "category": "MLB",
+        "end_date": "2026-08-25",
+        "entry_price": 0.0455
+      },
+      {
+        "signal_key": "0xfd2052594f25def40a18550640ee55714e2b45e1302e1ed59a8b96427742992d:1",
+        "condition_id": "0xfd2052594f25def40a18550640ee55714e2b45e1302e1ed59a8b96427742992d",
+        "title": "Atlanta Braves vs. Chicago White Sox: O/U 8.5",
+        "outcome": "Under",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x16bb9951a36fce71e2ef57890b786145e0ba8492"
+        ],
+        "ranks": [
+          2,
+          7,
+          12
+        ],
+        "total_value_usd": 11081.77,
+        "score": 11.8355,
+        "category": "MLB",
+        "end_date": "2026-08-20",
+        "entry_price": 0.0475
+      },
+      {
+        "signal_key": "0xd95b83e4544998f324a078d4f2a30a72374ebcf86d6c3a7534833717887dab03:0",
+        "condition_id": "0xd95b83e4544998f324a078d4f2a30a72374ebcf86d6c3a7534833717887dab03",
+        "title": "Cincinnati Open: Aryna Sabalenka vs Xinyu Wang",
+        "outcome": "Aryna Sabalenka",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0xdb83e85ffd22faa4009273034770f96ffc5b1e50",
+          "0xe954ddb021c19495f1c556f59dadbd1494821ef1"
+        ],
+        "ranks": [
+          4,
+          15,
+          16
+        ],
+        "total_value_usd": 12815.38,
+        "score": 6.2761,
+        "category": "Tennis",
+        "end_date": "2026-08-25",
+        "entry_price": 0.045
+      }
+    ]
   }
 ]

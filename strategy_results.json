@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-18T21:53:09+00:00",
-  "total_evaluated": 954,
-  "total_pending": 48,
+  "generated_at": "2026-08-18T22:24:30+00:00",
+  "total_evaluated": 958,
+  "total_pending": 52,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 954,
+      "signals_evaluated": 958,
       "correct": 569,
       "wrong": 337,
-      "pending": 48,
+      "pending": 52,
       "win_rate": 62.8,
       "signals": [
         {
@@ -13368,6 +13368,62 @@
           "end_date": "2026-08-25",
           "total_value_usd": 7488.92,
           "result": "pending"
+        },
+        {
+          "signal_key": "0x2b4f11acd73dbc13bf39a26e9485b497229dac4a39e2426ca06c05e8926bf930:1",
+          "condition_id": "0x2b4f11acd73dbc13bf39a26e9485b497229dac4a39e2426ca06c05e8926bf930",
+          "title": "Cincinnati Open: Sara Bejlek vs Ekaterina Alexandrova",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.045,
+          "whale_direction": "Ekaterina Alexandrova",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-25",
+          "total_value_usd": 29854.07,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x6a571e1b83c8238df6cf49e89ff815d98b522d01db7af1568a514f3d37ec8ce0:1",
+          "condition_id": "0x6a571e1b83c8238df6cf49e89ff815d98b522d01db7af1568a514f3d37ec8ce0",
+          "title": "Cincinnati Open: Jaime Faria vs Adam Walton",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.045,
+          "whale_direction": "Adam Walton",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-25",
+          "total_value_usd": 33050.28,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x6a571e1b83c8238df6cf49e89ff815d98b522d01db7af1568a514f3d37ec8ce0:0",
+          "condition_id": "0x6a571e1b83c8238df6cf49e89ff815d98b522d01db7af1568a514f3d37ec8ce0",
+          "title": "Cincinnati Open: Jaime Faria vs Adam Walton",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.045,
+          "whale_direction": "Jaime Faria",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-25",
+          "total_value_usd": 8401.46,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd95b83e4544998f324a078d4f2a30a72374ebcf86d6c3a7534833717887dab03:0",
+          "condition_id": "0xd95b83e4544998f324a078d4f2a30a72374ebcf86d6c3a7534833717887dab03",
+          "title": "Cincinnati Open: Aryna Sabalenka vs Xinyu Wang",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.045,
+          "whale_direction": "Aryna Sabalenka",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-25",
+          "total_value_usd": 12815.38,
+          "result": "pending"
         }
       ]
     },
@@ -13375,10 +13431,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 284,
+      "signals_evaluated": 288,
       "correct": 167,
       "wrong": 99,
-      "pending": 18,
+      "pending": 22,
       "win_rate": 62.8,
       "signals": [
         {
@@ -17356,6 +17412,62 @@
           "end_date": "2026-08-25",
           "total_value_usd": 7488.92,
           "result": "pending"
+        },
+        {
+          "signal_key": "0x2b4f11acd73dbc13bf39a26e9485b497229dac4a39e2426ca06c05e8926bf930:1",
+          "condition_id": "0x2b4f11acd73dbc13bf39a26e9485b497229dac4a39e2426ca06c05e8926bf930",
+          "title": "Cincinnati Open: Sara Bejlek vs Ekaterina Alexandrova",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.045,
+          "whale_direction": "Ekaterina Alexandrova",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-25",
+          "total_value_usd": 29854.07,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x6a571e1b83c8238df6cf49e89ff815d98b522d01db7af1568a514f3d37ec8ce0:1",
+          "condition_id": "0x6a571e1b83c8238df6cf49e89ff815d98b522d01db7af1568a514f3d37ec8ce0",
+          "title": "Cincinnati Open: Jaime Faria vs Adam Walton",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.045,
+          "whale_direction": "Adam Walton",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-25",
+          "total_value_usd": 33050.28,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x6a571e1b83c8238df6cf49e89ff815d98b522d01db7af1568a514f3d37ec8ce0:0",
+          "condition_id": "0x6a571e1b83c8238df6cf49e89ff815d98b522d01db7af1568a514f3d37ec8ce0",
+          "title": "Cincinnati Open: Jaime Faria vs Adam Walton",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.045,
+          "whale_direction": "Jaime Faria",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-25",
+          "total_value_usd": 8401.46,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd95b83e4544998f324a078d4f2a30a72374ebcf86d6c3a7534833717887dab03:0",
+          "condition_id": "0xd95b83e4544998f324a078d4f2a30a72374ebcf86d6c3a7534833717887dab03",
+          "title": "Cincinnati Open: Aryna Sabalenka vs Xinyu Wang",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.045,
+          "whale_direction": "Aryna Sabalenka",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-25",
+          "total_value_usd": 12815.38,
+          "result": "pending"
         }
       ]
     },
@@ -17363,10 +17475,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 284,
+      "signals_evaluated": 288,
       "correct": 99,
       "wrong": 167,
-      "pending": 18,
+      "pending": 22,
       "win_rate": 37.2,
       "signals": [
         {
@@ -21343,6 +21455,62 @@
           "resolved_date": null,
           "end_date": "2026-08-25",
           "total_value_usd": 7488.92,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x2b4f11acd73dbc13bf39a26e9485b497229dac4a39e2426ca06c05e8926bf930:1",
+          "condition_id": "0x2b4f11acd73dbc13bf39a26e9485b497229dac4a39e2426ca06c05e8926bf930",
+          "title": "Cincinnati Open: Sara Bejlek vs Ekaterina Alexandrova",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.045,
+          "whale_direction": "Ekaterina Alexandrova",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-25",
+          "total_value_usd": 29854.07,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x6a571e1b83c8238df6cf49e89ff815d98b522d01db7af1568a514f3d37ec8ce0:1",
+          "condition_id": "0x6a571e1b83c8238df6cf49e89ff815d98b522d01db7af1568a514f3d37ec8ce0",
+          "title": "Cincinnati Open: Jaime Faria vs Adam Walton",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.045,
+          "whale_direction": "Adam Walton",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-25",
+          "total_value_usd": 33050.28,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x6a571e1b83c8238df6cf49e89ff815d98b522d01db7af1568a514f3d37ec8ce0:0",
+          "condition_id": "0x6a571e1b83c8238df6cf49e89ff815d98b522d01db7af1568a514f3d37ec8ce0",
+          "title": "Cincinnati Open: Jaime Faria vs Adam Walton",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.045,
+          "whale_direction": "Jaime Faria",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-25",
+          "total_value_usd": 8401.46,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd95b83e4544998f324a078d4f2a30a72374ebcf86d6c3a7534833717887dab03:0",
+          "condition_id": "0xd95b83e4544998f324a078d4f2a30a72374ebcf86d6c3a7534833717887dab03",
+          "title": "Cincinnati Open: Aryna Sabalenka vs Xinyu Wang",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.045,
+          "whale_direction": "Aryna Sabalenka",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-25",
+          "total_value_usd": 12815.38,
           "result": "pending"
         }
       ]
