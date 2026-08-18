@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-18T13:35:47+00:00",
+  "generated_at": "2026-08-18T14:15:39+00:00",
   "total_evaluated": 948,
-  "total_pending": 46,
+  "total_pending": 47,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 948,
-      "correct": 567,
+      "correct": 566,
       "wrong": 335,
-      "pending": 46,
-      "win_rate": 62.9,
+      "pending": 47,
+      "win_rate": 62.8,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -6335,11 +6335,11 @@
           "tier": "Strong",
           "entry_price": 0.505,
           "whale_direction": "Quentin Halys",
-          "resolved_outcome": "Quentin Halys",
-          "resolved_date": "2026-07-22",
+          "resolved_outcome": null,
+          "resolved_date": null,
           "end_date": "2026-07-22",
           "total_value_usd": 65552.85,
-          "result": "correct"
+          "result": "pending"
         },
         {
           "signal_key": "0xe3a8fbf2b785d9005e63041d337fab99f986340d9d04dea1615fce5dc3d71d26:0",

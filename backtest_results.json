@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-18T13:35:47+00:00",
+  "generated_at": "2026-08-18T14:15:39+00:00",
   "total_signals": 948,
-  "total_resolved": 902,
-  "total_correct": 567,
-  "overall_hit_rate": 62.9,
+  "total_resolved": 901,
+  "total_correct": 566,
+  "overall_hit_rate": 62.8,
   "by_tier": {
     "Strong": {
       "total": 386,
-      "resolved": 374,
-      "correct": 250,
+      "resolved": 373,
+      "correct": 249,
       "hit_rate": 66.8
     },
     "Moderate": {
@@ -7704,10 +7704,10 @@
       "total_value_usd": 65552.85,
       "entry_price": 0.505,
       "end_date": "2026-07-22",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Quentin Halys",
-      "resolved_date": "2026-07-22"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xe3a8fbf2b785d9005e63041d337fab99f986340d9d04dea1615fce5dc3d71d26:0",
