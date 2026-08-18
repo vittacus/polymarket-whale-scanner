@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-18T14:59:19+00:00",
-  "total_signals": 948,
+  "generated_at": "2026-08-18T15:32:21+00:00",
+  "total_signals": 949,
   "total_resolved": 902,
   "total_correct": 567,
   "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
-      "total": 386,
+      "total": 387,
       "resolved": 374,
       "correct": 250,
       "hit_rate": 66.8
@@ -16140,6 +16140,23 @@
       "correct": true,
       "resolved_outcome": "Tommy Paul",
       "resolved_date": "2026-08-24"
+    },
+    {
+      "signal_key": "0xdb179416eb8c1ef9b0becb127775427b133efb7a5a0c568c2d5bfdbbf98773bc:1",
+      "condition_id": "0xdb179416eb8c1ef9b0becb127775427b133efb7a5a0c568c2d5bfdbbf98773bc",
+      "title": "Cincinnati Open: Andrey Rublev vs Nuno Borges",
+      "category": "Tennis",
+      "whale_direction": "Nuno Borges",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 26.7683,
+      "total_value_usd": 77412.36,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-25",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
