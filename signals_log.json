@@ -286585,5 +286585,205 @@
         "entry_price": 0.0425
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-19T19:36:45+00:00",
+    "whale_timeframes": {
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1465b79bff7992bc703e1aafb3683b1089647072": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4ab9b54427ec4b7f3646b1a0ef1bed73bc708ebe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf705fa045201391d9632b7f3cde06a5e24453ca7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x011f2d377e56119fb09196dffb0948ae55711122": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9db82de5a71ae539bc82f4d9ac3a007c7d742eff": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8075693f48668a264b9fa313b47f52712fcc12b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xab51c55eb5cefec49c52a174acc10b3cd69e2473": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8a16eb406b6ecd9334e6202a159c9dd51288c0d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf1771327cccb5cda15e0eaa3c56755bbf3655f6a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x06dc51826bc524d9a83770e7de9dd7e005b04524": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3d8a89a20aa73fba0f30d080e8120de9f9555724": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3af1ed6ea380092db15c20ffa1b35652b0cad739": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x16bb9951a36fce71e2ef57890b786145e0ba8492": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdd225a03cd7ed89e3931906c67c75ab31cf89ef1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x5bd7f96d38645c7dabffa94c6f48e741f86655ba0dbd48cd4e7f9bbdde2774cc:0",
+        "condition_id": "0x5bd7f96d38645c7dabffa94c6f48e741f86655ba0dbd48cd4e7f9bbdde2774cc",
+        "title": "Will Bitcoin reach $70,000 in August?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x1465b79bff7992bc703e1aafb3683b1089647072",
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x06dc51826bc524d9a83770e7de9dd7e005b04524"
+        ],
+        "ranks": [
+          2,
+          6,
+          15,
+          16
+        ],
+        "total_value_usd": 57061.62,
+        "score": 15.2528,
+        "category": "Bitcoin",
+        "end_date": "2026-09-01",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0xfd13c67069e83a4a8ba1ba425f259185bcbae282c4f91074646e3c5cf97b7ae3:0",
+        "condition_id": "0xfd13c67069e83a4a8ba1ba425f259185bcbae282c4f91074646e3c5cf97b7ae3",
+        "title": "Will Bitcoin reach $72,500 in August?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+          "0xab51c55eb5cefec49c52a174acc10b3cd69e2473",
+          "0x8a16eb406b6ecd9334e6202a159c9dd51288c0d5",
+          "0x06dc51826bc524d9a83770e7de9dd7e005b04524"
+        ],
+        "ranks": [
+          6,
+          12,
+          13,
+          16
+        ],
+        "total_value_usd": 17045.48,
+        "score": 6.6402,
+        "category": "Bitcoin",
+        "end_date": "2026-09-01",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0xc4bde1d397625e1990fec7f787b9eb2e5727c666d0480c4e9c96b0dbd12602c6:0",
+        "condition_id": "0xc4bde1d397625e1990fec7f787b9eb2e5727c666d0480c4e9c96b0dbd12602c6",
+        "title": "Will Bitcoin reach $75,000 in August?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+          "0x8a16eb406b6ecd9334e6202a159c9dd51288c0d5",
+          "0x06dc51826bc524d9a83770e7de9dd7e005b04524"
+        ],
+        "ranks": [
+          6,
+          13,
+          16
+        ],
+        "total_value_usd": 6648.77,
+        "score": 4.715,
+        "category": "Bitcoin",
+        "end_date": "2026-09-01",
+        "entry_price": 0.0425
+      }
+    ]
   }
 ]
