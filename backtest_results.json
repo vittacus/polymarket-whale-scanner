@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-19T02:51:43+00:00",
-  "total_signals": 971,
-  "total_resolved": 921,
-  "total_correct": 577,
-  "overall_hit_rate": 62.6,
+  "generated_at": "2026-08-19T03:38:08+00:00",
+  "total_signals": 972,
+  "total_resolved": 924,
+  "total_correct": 579,
+  "overall_hit_rate": 62.7,
   "by_tier": {
     "Strong": {
       "total": 403,
-      "resolved": 389,
-      "correct": 257,
-      "hit_rate": 66.1
+      "resolved": 391,
+      "correct": 258,
+      "hit_rate": 66.0
     },
     "Moderate": {
-      "total": 512,
-      "resolved": 478,
-      "correct": 292,
-      "hit_rate": 61.1
+      "total": 513,
+      "resolved": 479,
+      "correct": 293,
+      "hit_rate": 61.2
     },
     "Weak": {
       "total": 56,
@@ -16391,10 +16391,10 @@
       "total_value_usd": 11620.36,
       "entry_price": 0.0455,
       "end_date": "2026-08-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Milwaukee Brewers",
+      "resolved_date": "2026-08-25"
     },
     {
       "signal_key": "0x8fa7310a657aedfbbc22d3a3be7d639f4d2330bd44fa4bf5995fe783eb51d261:1",
@@ -16459,10 +16459,10 @@
       "total_value_usd": 189751.25,
       "entry_price": 0.0445,
       "end_date": "2026-08-26",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Los Angeles Angels",
+      "resolved_date": "2026-08-26"
     },
     {
       "signal_key": "0x6fd6cd1e9fa323c78aacf905fd598f1ce817a06c69ad0f70761710c959d49686:1",
@@ -16527,6 +16527,23 @@
       "total_value_usd": 39421.38,
       "entry_price": 0.0445,
       "end_date": "2026-08-25",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Milwaukee Brewers",
+      "resolved_date": "2026-08-25"
+    },
+    {
+      "signal_key": "0x70de0744c8c2d7d31fab0f2d75b44e7d7577807cbff2e39b02ab547c68d81b45:1",
+      "condition_id": "0x70de0744c8c2d7d31fab0f2d75b44e7d7577807cbff2e39b02ab547c68d81b45",
+      "title": "Chicago White Sox vs. Chicago Cubs",
+      "category": "MLB",
+      "whale_direction": "Chicago Cubs",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 8.1294,
+      "total_value_usd": 21042.89,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-26",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
