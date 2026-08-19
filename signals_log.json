@@ -286074,5 +286074,272 @@
         "entry_price": 0.0455
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-19T18:24:39+00:00",
+    "whale_timeframes": {
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1465b79bff7992bc703e1aafb3683b1089647072": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf705fa045201391d9632b7f3cde06a5e24453ca7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x011f2d377e56119fb09196dffb0948ae55711122": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9db82de5a71ae539bc82f4d9ac3a007c7d742eff": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8075693f48668a264b9fa313b47f52712fcc12b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8a16eb406b6ecd9334e6202a159c9dd51288c0d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf1771327cccb5cda15e0eaa3c56755bbf3655f6a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xab51c55eb5cefec49c52a174acc10b3cd69e2473": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x06dc51826bc524d9a83770e7de9dd7e005b04524": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3af1ed6ea380092db15c20ffa1b35652b0cad739": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdd225a03cd7ed89e3931906c67c75ab31cf89ef1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb87532a1a04c654700aa8153b3a95675ac4f4b16": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6f3e7f25baa7d2d49e15e2d2957ff3dec62cbcf8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x492266a37fa8676292ecf7bb932ae99e36877b7e40e376e5cd574d3185ca09fd:0",
+        "condition_id": "0x492266a37fa8676292ecf7bb932ae99e36877b7e40e376e5cd574d3185ca09fd",
+        "title": "Detroit Tigers vs. Pittsburgh Pirates",
+        "outcome": "Detroit Tigers",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+        ],
+        "ranks": [
+          1,
+          2,
+          15
+        ],
+        "total_value_usd": 116074.59,
+        "score": 31.9733,
+        "category": "MLB",
+        "end_date": "2026-08-26",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0xae12963cf344013decffa9bb13ce1741018de836bab2b685152a271bc54cc817:0",
+        "condition_id": "0xae12963cf344013decffa9bb13ce1741018de836bab2b685152a271bc54cc817",
+        "title": "Cincinnati Open: Sorana Cirstea vs Jessica Pegula",
+        "outcome": "Sorana Cirstea",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+        ],
+        "ranks": [
+          1,
+          2,
+          15
+        ],
+        "total_value_usd": 42882.17,
+        "score": 29.2433,
+        "category": "Tennis",
+        "end_date": "2026-08-26",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0xdbb98d866363c79ffcdf8f5a97331d99a3ea77ba1fd0ee0efdb223cc4d2588be:1",
+        "condition_id": "0xdbb98d866363c79ffcdf8f5a97331d99a3ea77ba1fd0ee0efdb223cc4d2588be",
+        "title": "Cincinnati Open: Marta Kostyuk vs Mirra Andreeva",
+        "outcome": "Mirra Andreeva",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x6f3e7f25baa7d2d49e15e2d2957ff3dec62cbcf8"
+        ],
+        "ranks": [
+          2,
+          15,
+          20
+        ],
+        "total_value_usd": 14020.04,
+        "score": 10.3042,
+        "category": "Tennis",
+        "end_date": "2026-08-26",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0xfd13c67069e83a4a8ba1ba425f259185bcbae282c4f91074646e3c5cf97b7ae3:0",
+        "condition_id": "0xfd13c67069e83a4a8ba1ba425f259185bcbae282c4f91074646e3c5cf97b7ae3",
+        "title": "Will Bitcoin reach $72,500 in August?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+          "0x8a16eb406b6ecd9334e6202a159c9dd51288c0d5",
+          "0xab51c55eb5cefec49c52a174acc10b3cd69e2473",
+          "0x06dc51826bc524d9a83770e7de9dd7e005b04524"
+        ],
+        "ranks": [
+          5,
+          10,
+          12,
+          14
+        ],
+        "total_value_usd": 18438.52,
+        "score": 7.8169,
+        "category": "Bitcoin",
+        "end_date": "2026-09-01",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0x5bd7f96d38645c7dabffa94c6f48e741f86655ba0dbd48cd4e7f9bbdde2774cc:0",
+        "condition_id": "0x5bd7f96d38645c7dabffa94c6f48e741f86655ba0dbd48cd4e7f9bbdde2774cc",
+        "title": "Will Bitcoin reach $70,000 in August?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x06dc51826bc524d9a83770e7de9dd7e005b04524"
+        ],
+        "ranks": [
+          5,
+          13,
+          14
+        ],
+        "total_value_usd": 52948.48,
+        "score": 6.6308,
+        "category": "Bitcoin",
+        "end_date": "2026-09-01",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0xc4bde1d397625e1990fec7f787b9eb2e5727c666d0480c4e9c96b0dbd12602c6:0",
+        "condition_id": "0xc4bde1d397625e1990fec7f787b9eb2e5727c666d0480c4e9c96b0dbd12602c6",
+        "title": "Will Bitcoin reach $75,000 in August?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+          "0x8a16eb406b6ecd9334e6202a159c9dd51288c0d5",
+          "0x06dc51826bc524d9a83770e7de9dd7e005b04524"
+        ],
+        "ranks": [
+          5,
+          10,
+          14
+        ],
+        "total_value_usd": 6380.43,
+        "score": 5.6947,
+        "category": "Bitcoin",
+        "end_date": "2026-09-01",
+        "entry_price": 0.0425
+      }
+    ]
   }
 ]

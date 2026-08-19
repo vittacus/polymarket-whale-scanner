@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-19T17:57:28+00:00",
-  "total_evaluated": 977,
-  "total_pending": 50,
+  "generated_at": "2026-08-19T18:32:19+00:00",
+  "total_evaluated": 980,
+  "total_pending": 52,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 977,
+      "signals_evaluated": 980,
       "correct": 580,
-      "wrong": 347,
-      "pending": 50,
-      "win_rate": 62.6,
+      "wrong": 348,
+      "pending": 52,
+      "win_rate": 62.5,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -13643,11 +13643,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Rafael Jodar",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Flavio Cobolli",
+          "resolved_date": "2026-08-26",
           "end_date": "2026-08-26",
           "total_value_usd": 33989.02,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xfd13c67069e83a4a8ba1ba425f259185bcbae282c4f91074646e3c5cf97b7ae3:0",
@@ -13689,6 +13689,48 @@
           "resolved_date": null,
           "end_date": "2026-09-01",
           "total_value_usd": 8765.64,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x492266a37fa8676292ecf7bb932ae99e36877b7e40e376e5cd574d3185ca09fd:0",
+          "condition_id": "0x492266a37fa8676292ecf7bb932ae99e36877b7e40e376e5cd574d3185ca09fd",
+          "title": "Detroit Tigers vs. Pittsburgh Pirates",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Detroit Tigers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-26",
+          "total_value_usd": 116074.59,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xae12963cf344013decffa9bb13ce1741018de836bab2b685152a271bc54cc817:0",
+          "condition_id": "0xae12963cf344013decffa9bb13ce1741018de836bab2b685152a271bc54cc817",
+          "title": "Cincinnati Open: Sorana Cirstea vs Jessica Pegula",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Sorana Cirstea",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-26",
+          "total_value_usd": 42882.17,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xdbb98d866363c79ffcdf8f5a97331d99a3ea77ba1fd0ee0efdb223cc4d2588be:1",
+          "condition_id": "0xdbb98d866363c79ffcdf8f5a97331d99a3ea77ba1fd0ee0efdb223cc4d2588be",
+          "title": "Cincinnati Open: Marta Kostyuk vs Mirra Andreeva",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Mirra Andreeva",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-26",
+          "total_value_usd": 14020.04,
           "result": "pending"
         }
       ]
@@ -13697,11 +13739,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 307,
+      "signals_evaluated": 310,
       "correct": 178,
-      "wrong": 109,
-      "pending": 20,
-      "win_rate": 62.0,
+      "wrong": 110,
+      "pending": 22,
+      "win_rate": 61.8,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -17953,11 +17995,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Rafael Jodar",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Flavio Cobolli",
+          "resolved_date": "2026-08-26",
           "end_date": "2026-08-26",
           "total_value_usd": 33989.02,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xfd13c67069e83a4a8ba1ba425f259185bcbae282c4f91074646e3c5cf97b7ae3:0",
@@ -17999,6 +18041,48 @@
           "resolved_date": null,
           "end_date": "2026-09-01",
           "total_value_usd": 8765.64,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x492266a37fa8676292ecf7bb932ae99e36877b7e40e376e5cd574d3185ca09fd:0",
+          "condition_id": "0x492266a37fa8676292ecf7bb932ae99e36877b7e40e376e5cd574d3185ca09fd",
+          "title": "Detroit Tigers vs. Pittsburgh Pirates",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Detroit Tigers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-26",
+          "total_value_usd": 116074.59,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xae12963cf344013decffa9bb13ce1741018de836bab2b685152a271bc54cc817:0",
+          "condition_id": "0xae12963cf344013decffa9bb13ce1741018de836bab2b685152a271bc54cc817",
+          "title": "Cincinnati Open: Sorana Cirstea vs Jessica Pegula",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Sorana Cirstea",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-26",
+          "total_value_usd": 42882.17,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xdbb98d866363c79ffcdf8f5a97331d99a3ea77ba1fd0ee0efdb223cc4d2588be:1",
+          "condition_id": "0xdbb98d866363c79ffcdf8f5a97331d99a3ea77ba1fd0ee0efdb223cc4d2588be",
+          "title": "Cincinnati Open: Marta Kostyuk vs Mirra Andreeva",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Mirra Andreeva",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-26",
+          "total_value_usd": 14020.04,
           "result": "pending"
         }
       ]
@@ -18007,11 +18091,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 307,
-      "correct": 109,
+      "signals_evaluated": 310,
+      "correct": 110,
       "wrong": 178,
-      "pending": 20,
-      "win_rate": 38.0,
+      "pending": 22,
+      "win_rate": 38.2,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -22263,11 +22347,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Rafael Jodar",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Flavio Cobolli",
+          "resolved_date": "2026-08-26",
           "end_date": "2026-08-26",
           "total_value_usd": 33989.02,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xfd13c67069e83a4a8ba1ba425f259185bcbae282c4f91074646e3c5cf97b7ae3:0",
@@ -22309,6 +22393,48 @@
           "resolved_date": null,
           "end_date": "2026-09-01",
           "total_value_usd": 8765.64,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x492266a37fa8676292ecf7bb932ae99e36877b7e40e376e5cd574d3185ca09fd:0",
+          "condition_id": "0x492266a37fa8676292ecf7bb932ae99e36877b7e40e376e5cd574d3185ca09fd",
+          "title": "Detroit Tigers vs. Pittsburgh Pirates",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Detroit Tigers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-26",
+          "total_value_usd": 116074.59,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xae12963cf344013decffa9bb13ce1741018de836bab2b685152a271bc54cc817:0",
+          "condition_id": "0xae12963cf344013decffa9bb13ce1741018de836bab2b685152a271bc54cc817",
+          "title": "Cincinnati Open: Sorana Cirstea vs Jessica Pegula",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Sorana Cirstea",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-26",
+          "total_value_usd": 42882.17,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xdbb98d866363c79ffcdf8f5a97331d99a3ea77ba1fd0ee0efdb223cc4d2588be:1",
+          "condition_id": "0xdbb98d866363c79ffcdf8f5a97331d99a3ea77ba1fd0ee0efdb223cc4d2588be",
+          "title": "Cincinnati Open: Marta Kostyuk vs Mirra Andreeva",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Mirra Andreeva",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-26",
+          "total_value_usd": 14020.04,
           "result": "pending"
         }
       ]
