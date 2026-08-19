@@ -286985,5 +286985,205 @@
         "entry_price": 0.0425
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-19T20:28:22+00:00",
+    "whale_timeframes": {
+      "0x1465b79bff7992bc703e1aafb3683b1089647072": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf705fa045201391d9632b7f3cde06a5e24453ca7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xab51c55eb5cefec49c52a174acc10b3cd69e2473": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x011f2d377e56119fb09196dffb0948ae55711122": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9db82de5a71ae539bc82f4d9ac3a007c7d742eff": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8075693f48668a264b9fa313b47f52712fcc12b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8a16eb406b6ecd9334e6202a159c9dd51288c0d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf1771327cccb5cda15e0eaa3c56755bbf3655f6a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc41d736bded9ed1accd6a44235039266219774fd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x06dc51826bc524d9a83770e7de9dd7e005b04524": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1b47e9b128e6b671edebfb2cac23dd3efc40d814": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x5bd7f96d38645c7dabffa94c6f48e741f86655ba0dbd48cd4e7f9bbdde2774cc:0",
+        "condition_id": "0x5bd7f96d38645c7dabffa94c6f48e741f86655ba0dbd48cd4e7f9bbdde2774cc",
+        "title": "Will Bitcoin reach $70,000 in August?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x1465b79bff7992bc703e1aafb3683b1089647072",
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x06dc51826bc524d9a83770e7de9dd7e005b04524"
+        ],
+        "ranks": [
+          1,
+          4,
+          9,
+          18
+        ],
+        "total_value_usd": 41367.94,
+        "score": 26.3542,
+        "category": "Bitcoin",
+        "end_date": "2026-09-01",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0xfd13c67069e83a4a8ba1ba425f259185bcbae282c4f91074646e3c5cf97b7ae3:0",
+        "condition_id": "0xfd13c67069e83a4a8ba1ba425f259185bcbae282c4f91074646e3c5cf97b7ae3",
+        "title": "Will Bitcoin reach $72,500 in August?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+          "0xab51c55eb5cefec49c52a174acc10b3cd69e2473",
+          "0x8a16eb406b6ecd9334e6202a159c9dd51288c0d5"
+        ],
+        "ranks": [
+          4,
+          5,
+          11
+        ],
+        "total_value_usd": 16282.26,
+        "score": 9.1799,
+        "category": "Bitcoin",
+        "end_date": "2026-09-01",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0x1aee90e86ef2a9419ee211337377925721a4adf287eb962de52a2a9f59b870d6:1",
+        "condition_id": "0x1aee90e86ef2a9419ee211337377925721a4adf287eb962de52a2a9f59b870d6",
+        "title": "Atlanta Braves vs. Minnesota Twins",
+        "outcome": "Minnesota Twins",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x1b47e9b128e6b671edebfb2cac23dd3efc40d814"
+        ],
+        "ranks": [
+          9,
+          15,
+          17,
+          19
+        ],
+        "total_value_usd": 33524.63,
+        "score": 5.2742,
+        "category": "MLB",
+        "end_date": "2026-08-26",
+        "entry_price": 0.0425
+      }
+    ]
   }
 ]

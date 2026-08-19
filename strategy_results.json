@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-19T20:05:24+00:00",
-  "total_evaluated": 981,
-  "total_pending": 49,
+  "generated_at": "2026-08-19T20:35:44+00:00",
+  "total_evaluated": 982,
+  "total_pending": 50,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 981,
+      "signals_evaluated": 982,
       "correct": 581,
       "wrong": 351,
-      "pending": 49,
+      "pending": 50,
       "win_rate": 62.3,
       "signals": [
         {
@@ -13746,6 +13746,20 @@
           "end_date": "2026-08-26",
           "total_value_usd": 55452.07,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x1aee90e86ef2a9419ee211337377925721a4adf287eb962de52a2a9f59b870d6:1",
+          "condition_id": "0x1aee90e86ef2a9419ee211337377925721a4adf287eb962de52a2a9f59b870d6",
+          "title": "Atlanta Braves vs. Minnesota Twins",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Minnesota Twins",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-26",
+          "total_value_usd": 33524.63,
+          "result": "pending"
         }
       ]
     },
@@ -13753,10 +13767,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 311,
+      "signals_evaluated": 312,
       "correct": 179,
       "wrong": 113,
-      "pending": 19,
+      "pending": 20,
       "win_rate": 61.3,
       "signals": [
         {
@@ -18112,6 +18126,20 @@
           "end_date": "2026-08-26",
           "total_value_usd": 55452.07,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x1aee90e86ef2a9419ee211337377925721a4adf287eb962de52a2a9f59b870d6:1",
+          "condition_id": "0x1aee90e86ef2a9419ee211337377925721a4adf287eb962de52a2a9f59b870d6",
+          "title": "Atlanta Braves vs. Minnesota Twins",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Minnesota Twins",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-26",
+          "total_value_usd": 33524.63,
+          "result": "pending"
         }
       ]
     },
@@ -18119,10 +18147,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 311,
+      "signals_evaluated": 312,
       "correct": 113,
       "wrong": 179,
-      "pending": 19,
+      "pending": 20,
       "win_rate": 38.7,
       "signals": [
         {
@@ -22478,6 +22506,20 @@
           "end_date": "2026-08-26",
           "total_value_usd": 55452.07,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x1aee90e86ef2a9419ee211337377925721a4adf287eb962de52a2a9f59b870d6:1",
+          "condition_id": "0x1aee90e86ef2a9419ee211337377925721a4adf287eb962de52a2a9f59b870d6",
+          "title": "Atlanta Braves vs. Minnesota Twins",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Minnesota Twins",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-26",
+          "total_value_usd": 33524.63,
+          "result": "pending"
         }
       ]
     },
