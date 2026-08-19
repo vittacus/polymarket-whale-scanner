@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-19T21:56:21+00:00",
-  "total_signals": 991,
-  "total_resolved": 933,
-  "total_correct": 582,
+  "generated_at": "2026-08-19T22:25:43+00:00",
+  "total_signals": 992,
+  "total_resolved": 934,
+  "total_correct": 583,
   "overall_hit_rate": 62.4,
   "by_tier": {
     "Strong": {
@@ -12,10 +12,10 @@
       "hit_rate": 65.4
     },
     "Moderate": {
-      "total": 522,
-      "resolved": 483,
-      "correct": 295,
-      "hit_rate": 61.1
+      "total": 523,
+      "resolved": 484,
+      "correct": 296,
+      "hit_rate": 61.2
     },
     "Weak": {
       "total": 56,
@@ -16612,10 +16612,10 @@
       "total_value_usd": 48387.88,
       "entry_price": 0.0425,
       "end_date": "2026-09-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-09-01"
     },
     {
       "signal_key": "0xc4bde1d397625e1990fec7f787b9eb2e5727c666d0480c4e9c96b0dbd12602c6:0",
@@ -16867,6 +16867,23 @@
       "total_value_usd": 12289.87,
       "entry_price": 0.0425,
       "end_date": "2027-01-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xd43b4c147fa9240aaa638f0bccb8c56f3f20a3621e1494cd464aa0c8dca142cd:1",
+      "condition_id": "0xd43b4c147fa9240aaa638f0bccb8c56f3f20a3621e1494cd464aa0c8dca142cd",
+      "title": "Cancun: Otto Virtanen vs Moez Echargui",
+      "category": "Tennis",
+      "whale_direction": "Moez Echargui",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 8.8496,
+      "total_value_usd": 50828.17,
+      "entry_price": 0.0425,
+      "end_date": "2026-08-25",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
