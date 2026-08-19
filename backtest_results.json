@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-19T20:35:44+00:00",
-  "total_signals": 982,
-  "total_resolved": 932,
-  "total_correct": 581,
-  "overall_hit_rate": 62.3,
+  "generated_at": "2026-08-19T21:03:05+00:00",
+  "total_signals": 983,
+  "total_resolved": 933,
+  "total_correct": 582,
+  "overall_hit_rate": 62.4,
   "by_tier": {
     "Strong": {
-      "total": 410,
+      "total": 411,
       "resolved": 396,
       "correct": 259,
       "hit_rate": 65.4
     },
     "Moderate": {
       "total": 516,
-      "resolved": 482,
-      "correct": 294,
-      "hit_rate": 61.0
+      "resolved": 483,
+      "correct": 295,
+      "hit_rate": 61.1
     },
     "Weak": {
       "total": 56,
@@ -16714,6 +16714,23 @@
       "total_value_usd": 33524.63,
       "entry_price": 0.0425,
       "end_date": "2026-08-26",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Minnesota Twins",
+      "resolved_date": "2026-08-26"
+    },
+    {
+      "signal_key": "0x02231535ed31b03bc75f4d25a1ce33d44441763e32cfbd97a10a58d9cbc6809a:1",
+      "condition_id": "0x02231535ed31b03bc75f4d25a1ce33d44441763e32cfbd97a10a58d9cbc6809a",
+      "title": "Will Ethereum dip to $1,600 in August?",
+      "category": "Ethereum",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 24.3485,
+      "total_value_usd": 42492.88,
+      "entry_price": 0.0425,
+      "end_date": "2026-09-01",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
