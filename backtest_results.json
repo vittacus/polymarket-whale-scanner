@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-19T16:04:30+00:00",
-  "total_signals": 973,
+  "generated_at": "2026-08-19T16:31:56+00:00",
+  "total_signals": 974,
   "total_resolved": 927,
   "total_correct": 580,
   "overall_hit_rate": 62.6,
   "by_tier": {
     "Strong": {
-      "total": 404,
+      "total": 405,
       "resolved": 391,
       "correct": 258,
       "hit_rate": 66.0
@@ -16561,6 +16561,23 @@
       "total_value_usd": 25308.49,
       "entry_price": 0.0445,
       "end_date": "2026-08-27",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x60ec7dc1f9223fc56c8465583a5da658e029ab854fa0b587a8c5fec0ac4d5c70:0",
+      "condition_id": "0x60ec7dc1f9223fc56c8465583a5da658e029ab854fa0b587a8c5fec0ac4d5c70",
+      "title": "Cincinnati Open: Rafael Jodar vs Flavio Cobolli",
+      "category": "Tennis",
+      "whale_direction": "Rafael Jodar",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 12.5629,
+      "total_value_usd": 33989.02,
+      "entry_price": 0.0425,
+      "end_date": "2026-08-26",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
