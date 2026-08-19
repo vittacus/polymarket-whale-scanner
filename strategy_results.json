@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-19T16:31:56+00:00",
-  "total_evaluated": 974,
-  "total_pending": 47,
+  "generated_at": "2026-08-19T17:03:35+00:00",
+  "total_evaluated": 977,
+  "total_pending": 50,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 974,
+      "signals_evaluated": 977,
       "correct": 580,
       "wrong": 347,
-      "pending": 47,
+      "pending": 50,
       "win_rate": 62.6,
       "signals": [
         {
@@ -13648,6 +13648,48 @@
           "end_date": "2026-08-26",
           "total_value_usd": 33989.02,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xfd13c67069e83a4a8ba1ba425f259185bcbae282c4f91074646e3c5cf97b7ae3:0",
+          "condition_id": "0xfd13c67069e83a4a8ba1ba425f259185bcbae282c4f91074646e3c5cf97b7ae3",
+          "title": "Will Bitcoin reach $72,500 in August?",
+          "category": "Bitcoin",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-01",
+          "total_value_usd": 17737.73,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x5bd7f96d38645c7dabffa94c6f48e741f86655ba0dbd48cd4e7f9bbdde2774cc:0",
+          "condition_id": "0x5bd7f96d38645c7dabffa94c6f48e741f86655ba0dbd48cd4e7f9bbdde2774cc",
+          "title": "Will Bitcoin reach $70,000 in August?",
+          "category": "Bitcoin",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-01",
+          "total_value_usd": 48387.88,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xc4bde1d397625e1990fec7f787b9eb2e5727c666d0480c4e9c96b0dbd12602c6:0",
+          "condition_id": "0xc4bde1d397625e1990fec7f787b9eb2e5727c666d0480c4e9c96b0dbd12602c6",
+          "title": "Will Bitcoin reach $75,000 in August?",
+          "category": "Bitcoin",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-01",
+          "total_value_usd": 8765.64,
+          "result": "pending"
         }
       ]
     },
@@ -13655,10 +13697,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 304,
+      "signals_evaluated": 307,
       "correct": 178,
       "wrong": 109,
-      "pending": 17,
+      "pending": 20,
       "win_rate": 62.0,
       "signals": [
         {
@@ -17916,6 +17958,48 @@
           "end_date": "2026-08-26",
           "total_value_usd": 33989.02,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xfd13c67069e83a4a8ba1ba425f259185bcbae282c4f91074646e3c5cf97b7ae3:0",
+          "condition_id": "0xfd13c67069e83a4a8ba1ba425f259185bcbae282c4f91074646e3c5cf97b7ae3",
+          "title": "Will Bitcoin reach $72,500 in August?",
+          "category": "Bitcoin",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-01",
+          "total_value_usd": 17737.73,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x5bd7f96d38645c7dabffa94c6f48e741f86655ba0dbd48cd4e7f9bbdde2774cc:0",
+          "condition_id": "0x5bd7f96d38645c7dabffa94c6f48e741f86655ba0dbd48cd4e7f9bbdde2774cc",
+          "title": "Will Bitcoin reach $70,000 in August?",
+          "category": "Bitcoin",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-01",
+          "total_value_usd": 48387.88,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xc4bde1d397625e1990fec7f787b9eb2e5727c666d0480c4e9c96b0dbd12602c6:0",
+          "condition_id": "0xc4bde1d397625e1990fec7f787b9eb2e5727c666d0480c4e9c96b0dbd12602c6",
+          "title": "Will Bitcoin reach $75,000 in August?",
+          "category": "Bitcoin",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-01",
+          "total_value_usd": 8765.64,
+          "result": "pending"
         }
       ]
     },
@@ -17923,10 +18007,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 304,
+      "signals_evaluated": 307,
       "correct": 109,
       "wrong": 178,
-      "pending": 17,
+      "pending": 20,
       "win_rate": 38.0,
       "signals": [
         {
@@ -22183,6 +22267,48 @@
           "resolved_date": null,
           "end_date": "2026-08-26",
           "total_value_usd": 33989.02,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xfd13c67069e83a4a8ba1ba425f259185bcbae282c4f91074646e3c5cf97b7ae3:0",
+          "condition_id": "0xfd13c67069e83a4a8ba1ba425f259185bcbae282c4f91074646e3c5cf97b7ae3",
+          "title": "Will Bitcoin reach $72,500 in August?",
+          "category": "Bitcoin",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-01",
+          "total_value_usd": 17737.73,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x5bd7f96d38645c7dabffa94c6f48e741f86655ba0dbd48cd4e7f9bbdde2774cc:0",
+          "condition_id": "0x5bd7f96d38645c7dabffa94c6f48e741f86655ba0dbd48cd4e7f9bbdde2774cc",
+          "title": "Will Bitcoin reach $70,000 in August?",
+          "category": "Bitcoin",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-01",
+          "total_value_usd": 48387.88,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xc4bde1d397625e1990fec7f787b9eb2e5727c666d0480c4e9c96b0dbd12602c6:0",
+          "condition_id": "0xc4bde1d397625e1990fec7f787b9eb2e5727c666d0480c4e9c96b0dbd12602c6",
+          "title": "Will Bitcoin reach $75,000 in August?",
+          "category": "Bitcoin",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-01",
+          "total_value_usd": 8765.64,
           "result": "pending"
         }
       ]
