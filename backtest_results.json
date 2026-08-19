@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-19T00:07:52+00:00",
-  "total_signals": 965,
-  "total_resolved": 911,
-  "total_correct": 571,
+  "generated_at": "2026-08-19T01:43:15+00:00",
+  "total_signals": 969,
+  "total_resolved": 916,
+  "total_correct": 574,
   "overall_hit_rate": 62.7,
   "by_tier": {
     "Strong": {
-      "total": 401,
-      "resolved": 382,
-      "correct": 253,
-      "hit_rate": 66.2
+      "total": 403,
+      "resolved": 386,
+      "correct": 255,
+      "hit_rate": 66.1
     },
     "Moderate": {
-      "total": 508,
-      "resolved": 475,
-      "correct": 290,
+      "total": 510,
+      "resolved": 476,
+      "correct": 291,
       "hit_rate": 61.1
     },
     "Weak": {
@@ -16306,10 +16306,10 @@
       "total_value_usd": 12815.38,
       "entry_price": 0.045,
       "end_date": "2026-08-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Aryna Sabalenka",
+      "resolved_date": "2026-08-25"
     },
     {
       "signal_key": "0xde5eeb0860270c58e265904d31e772698a9764ca0dec088bdef92e7259bf275a:0",
@@ -16323,10 +16323,10 @@
       "total_value_usd": 34561.56,
       "entry_price": 0.0455,
       "end_date": "2026-08-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Pittsburgh Pirates",
+      "resolved_date": "2026-08-25"
     },
     {
       "signal_key": "0xde5eeb0860270c58e265904d31e772698a9764ca0dec088bdef92e7259bf275a:1",
@@ -16340,10 +16340,10 @@
       "total_value_usd": 7899.75,
       "entry_price": 0.0455,
       "end_date": "2026-08-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Pittsburgh Pirates",
+      "resolved_date": "2026-08-25"
     },
     {
       "signal_key": "0x8fa7310a657aedfbbc22d3a3be7d639f4d2330bd44fa4bf5995fe783eb51d261:0",
@@ -16357,10 +16357,10 @@
       "total_value_usd": 38149.71,
       "entry_price": 0.0455,
       "end_date": "2026-08-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "New York Yankees",
+      "resolved_date": "2026-08-25"
     },
     {
       "signal_key": "0xb64f0ee76137ad6424a2f2efc73d09d4fc0f2b3bb749a59e614d15d6f2627be9:1",
@@ -16408,10 +16408,10 @@
       "total_value_usd": 13720.34,
       "entry_price": 0.0455,
       "end_date": "2026-08-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "New York Yankees",
+      "resolved_date": "2026-08-25"
     },
     {
       "signal_key": "0xebd7653a13838fa5838537370b9b09fe91169e02171b8c62f7ff4018ebee59c7:1",
@@ -16424,6 +16424,74 @@
       "score": 11.2643,
       "total_value_usd": 10325.94,
       "entry_price": 0.0455,
+      "end_date": "2026-08-25",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xb64f0ee76137ad6424a2f2efc73d09d4fc0f2b3bb749a59e614d15d6f2627be9:0",
+      "condition_id": "0xb64f0ee76137ad6424a2f2efc73d09d4fc0f2b3bb749a59e614d15d6f2627be9",
+      "title": "Athletics vs. Kansas City Royals",
+      "category": "MLB",
+      "whale_direction": "Athletics",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 27.9698,
+      "total_value_usd": 330761.5,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-25",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xb02fe0513e9d9cc7f8e790b030f700521e72ff45a37251350d0570585fcb6f57:0",
+      "condition_id": "0xb02fe0513e9d9cc7f8e790b030f700521e72ff45a37251350d0570585fcb6f57",
+      "title": "Los Angeles Angels vs. Houston Astros",
+      "category": "MLB",
+      "whale_direction": "Los Angeles Angels",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 10.7954,
+      "total_value_usd": 189751.25,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-26",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x6fd6cd1e9fa323c78aacf905fd598f1ce817a06c69ad0f70761710c959d49686:1",
+      "condition_id": "0x6fd6cd1e9fa323c78aacf905fd598f1ce817a06c69ad0f70761710c959d49686",
+      "title": "Los Angeles Dodgers vs. Colorado Rockies",
+      "category": "MLB",
+      "whale_direction": "Colorado Rockies",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 8.8855,
+      "total_value_usd": 22098.56,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-26",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x4556c5743eddd10c19e64f4d50bfe5abb1877165da419465bc8a56d7d3694ac7:1",
+      "condition_id": "0x4556c5743eddd10c19e64f4d50bfe5abb1877165da419465bc8a56d7d3694ac7",
+      "title": "Arizona Diamondbacks vs. Boston Red Sox",
+      "category": "MLB",
+      "whale_direction": "Boston Red Sox",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 5.7279,
+      "total_value_usd": 24210.9,
+      "entry_price": 0.0445,
       "end_date": "2026-08-25",
       "resolved": false,
       "correct": null,
