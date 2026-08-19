@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-18T23:52:09+00:00",
-  "total_signals": 963,
-  "total_resolved": 909,
-  "total_correct": 570,
+  "generated_at": "2026-08-19T00:07:52+00:00",
+  "total_signals": 965,
+  "total_resolved": 911,
+  "total_correct": 571,
   "overall_hit_rate": 62.7,
   "by_tier": {
     "Strong": {
-      "total": 399,
-      "resolved": 380,
-      "correct": 252,
-      "hit_rate": 66.3
+      "total": 401,
+      "resolved": 382,
+      "correct": 253,
+      "hit_rate": 66.2
     },
     "Moderate": {
       "total": 508,
@@ -16272,10 +16272,10 @@
       "total_value_usd": 33050.28,
       "entry_price": 0.045,
       "end_date": "2026-08-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Jaime Faria",
+      "resolved_date": "2026-08-25"
     },
     {
       "signal_key": "0x6a571e1b83c8238df6cf49e89ff815d98b522d01db7af1568a514f3d37ec8ce0:0",
@@ -16289,10 +16289,10 @@
       "total_value_usd": 8401.46,
       "entry_price": 0.045,
       "end_date": "2026-08-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Jaime Faria",
+      "resolved_date": "2026-08-25"
     },
     {
       "signal_key": "0xd95b83e4544998f324a078d4f2a30a72374ebcf86d6c3a7534833717887dab03:0",
@@ -16389,6 +16389,40 @@
       "tier": "Strong",
       "score": 11.4082,
       "total_value_usd": 11620.36,
+      "entry_price": 0.0455,
+      "end_date": "2026-08-25",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x8fa7310a657aedfbbc22d3a3be7d639f4d2330bd44fa4bf5995fe783eb51d261:1",
+      "condition_id": "0x8fa7310a657aedfbbc22d3a3be7d639f4d2330bd44fa4bf5995fe783eb51d261",
+      "title": "New York Yankees vs. Baltimore Orioles",
+      "category": "MLB",
+      "whale_direction": "Baltimore Orioles",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 11.6107,
+      "total_value_usd": 13720.34,
+      "entry_price": 0.0455,
+      "end_date": "2026-08-25",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xebd7653a13838fa5838537370b9b09fe91169e02171b8c62f7ff4018ebee59c7:1",
+      "condition_id": "0xebd7653a13838fa5838537370b9b09fe91169e02171b8c62f7ff4018ebee59c7",
+      "title": "Atlanta Braves vs. Minnesota Twins",
+      "category": "MLB",
+      "whale_direction": "Minnesota Twins",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 11.2643,
+      "total_value_usd": 10325.94,
       "entry_price": 0.0455,
       "end_date": "2026-08-25",
       "resolved": false,
