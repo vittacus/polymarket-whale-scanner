@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-19T18:32:19+00:00",
-  "total_evaluated": 980,
-  "total_pending": 52,
+  "generated_at": "2026-08-19T19:10:42+00:00",
+  "total_evaluated": 981,
+  "total_pending": 53,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 980,
+      "signals_evaluated": 981,
       "correct": 580,
       "wrong": 348,
-      "pending": 52,
+      "pending": 53,
       "win_rate": 62.5,
       "signals": [
         {
@@ -13732,6 +13732,20 @@
           "end_date": "2026-08-26",
           "total_value_usd": 14020.04,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xae12963cf344013decffa9bb13ce1741018de836bab2b685152a271bc54cc817:1",
+          "condition_id": "0xae12963cf344013decffa9bb13ce1741018de836bab2b685152a271bc54cc817",
+          "title": "Cincinnati Open: Sorana Cirstea vs Jessica Pegula",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Jessica Pegula",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-26",
+          "total_value_usd": 55452.07,
+          "result": "pending"
         }
       ]
     },
@@ -13739,10 +13753,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 310,
+      "signals_evaluated": 311,
       "correct": 178,
       "wrong": 110,
-      "pending": 22,
+      "pending": 23,
       "win_rate": 61.8,
       "signals": [
         {
@@ -18084,6 +18098,20 @@
           "end_date": "2026-08-26",
           "total_value_usd": 14020.04,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xae12963cf344013decffa9bb13ce1741018de836bab2b685152a271bc54cc817:1",
+          "condition_id": "0xae12963cf344013decffa9bb13ce1741018de836bab2b685152a271bc54cc817",
+          "title": "Cincinnati Open: Sorana Cirstea vs Jessica Pegula",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Jessica Pegula",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-26",
+          "total_value_usd": 55452.07,
+          "result": "pending"
         }
       ]
     },
@@ -18091,10 +18119,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 310,
+      "signals_evaluated": 311,
       "correct": 110,
       "wrong": 178,
-      "pending": 22,
+      "pending": 23,
       "win_rate": 38.2,
       "signals": [
         {
@@ -22435,6 +22463,20 @@
           "resolved_date": null,
           "end_date": "2026-08-26",
           "total_value_usd": 14020.04,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xae12963cf344013decffa9bb13ce1741018de836bab2b685152a271bc54cc817:1",
+          "condition_id": "0xae12963cf344013decffa9bb13ce1741018de836bab2b685152a271bc54cc817",
+          "title": "Cincinnati Open: Sorana Cirstea vs Jessica Pegula",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Jessica Pegula",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-26",
+          "total_value_usd": 55452.07,
           "result": "pending"
         }
       ]
