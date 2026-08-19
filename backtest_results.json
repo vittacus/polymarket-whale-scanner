@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-19T01:43:15+00:00",
-  "total_signals": 969,
-  "total_resolved": 916,
-  "total_correct": 574,
-  "overall_hit_rate": 62.7,
+  "generated_at": "2026-08-19T02:51:43+00:00",
+  "total_signals": 971,
+  "total_resolved": 921,
+  "total_correct": 577,
+  "overall_hit_rate": 62.6,
   "by_tier": {
     "Strong": {
       "total": 403,
-      "resolved": 386,
-      "correct": 255,
+      "resolved": 389,
+      "correct": 257,
       "hit_rate": 66.1
     },
     "Moderate": {
-      "total": 510,
-      "resolved": 476,
-      "correct": 291,
+      "total": 512,
+      "resolved": 478,
+      "correct": 292,
       "hit_rate": 61.1
     },
     "Weak": {
@@ -16238,10 +16238,10 @@
       "total_value_usd": 7488.92,
       "entry_price": 0.0455,
       "end_date": "2026-08-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Minnesota Twins",
+      "resolved_date": "2026-08-25"
     },
     {
       "signal_key": "0x2b4f11acd73dbc13bf39a26e9485b497229dac4a39e2426ca06c05e8926bf930:1",
@@ -16374,10 +16374,10 @@
       "total_value_usd": 27616.59,
       "entry_price": 0.0455,
       "end_date": "2026-08-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Kansas City Royals",
+      "resolved_date": "2026-08-25"
     },
     {
       "signal_key": "0x74a8c4daafb40392c2eae20e2fa42a2c0b58e43b3ac475d69011b57db78a37ad:0",
@@ -16425,10 +16425,10 @@
       "total_value_usd": 10325.94,
       "entry_price": 0.0455,
       "end_date": "2026-08-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Minnesota Twins",
+      "resolved_date": "2026-08-25"
     },
     {
       "signal_key": "0xb64f0ee76137ad6424a2f2efc73d09d4fc0f2b3bb749a59e614d15d6f2627be9:0",
@@ -16442,10 +16442,10 @@
       "total_value_usd": 330761.5,
       "entry_price": 0.0445,
       "end_date": "2026-08-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Kansas City Royals",
+      "resolved_date": "2026-08-25"
     },
     {
       "signal_key": "0xb02fe0513e9d9cc7f8e790b030f700521e72ff45a37251350d0570585fcb6f57:0",
@@ -16491,6 +16491,40 @@
       "tier": "Moderate",
       "score": 5.7279,
       "total_value_usd": 24210.9,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-25",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Boston Red Sox",
+      "resolved_date": "2026-08-25"
+    },
+    {
+      "signal_key": "0x70de0744c8c2d7d31fab0f2d75b44e7d7577807cbff2e39b02ab547c68d81b45:0",
+      "condition_id": "0x70de0744c8c2d7d31fab0f2d75b44e7d7577807cbff2e39b02ab547c68d81b45",
+      "title": "Chicago White Sox vs. Chicago Cubs",
+      "category": "MLB",
+      "whale_direction": "Chicago White Sox",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 9.12,
+      "total_value_usd": 40112.25,
+      "entry_price": 0.0445,
+      "end_date": "2026-08-26",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x74a8c4daafb40392c2eae20e2fa42a2c0b58e43b3ac475d69011b57db78a37ad:1",
+      "condition_id": "0x74a8c4daafb40392c2eae20e2fa42a2c0b58e43b3ac475d69011b57db78a37ad",
+      "title": "Seattle Mariners vs. Milwaukee Brewers",
+      "category": "MLB",
+      "whale_direction": "Milwaukee Brewers",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 7.8795,
+      "total_value_usd": 39421.38,
       "entry_price": 0.0445,
       "end_date": "2026-08-25",
       "resolved": false,
