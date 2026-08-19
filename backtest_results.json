@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-19T22:25:43+00:00",
-  "total_signals": 992,
+  "generated_at": "2026-08-19T22:57:38+00:00",
+  "total_signals": 993,
   "total_resolved": 934,
   "total_correct": 583,
   "overall_hit_rate": 62.4,
@@ -12,7 +12,7 @@
       "hit_rate": 65.4
     },
     "Moderate": {
-      "total": 523,
+      "total": 524,
       "resolved": 484,
       "correct": 296,
       "hit_rate": 61.2
@@ -16884,6 +16884,23 @@
       "total_value_usd": 50828.17,
       "entry_price": 0.0425,
       "end_date": "2026-08-25",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x91c367cf2a618d06d3685e664aacde63e2c097fba0c1d15973b3555a5cfdeab6:0",
+      "condition_id": "0x91c367cf2a618d06d3685e664aacde63e2c097fba0c1d15973b3555a5cfdeab6",
+      "title": "Arizona Diamondbacks vs. Boston Red Sox",
+      "category": "MLB",
+      "whale_direction": "Arizona Diamondbacks",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 8.727,
+      "total_value_usd": 43742.22,
+      "entry_price": 0.0425,
+      "end_date": "2026-08-26",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
