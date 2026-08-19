@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-08-19T23:24:23+00:00",
-  "total_signals": 993,
-  "total_resolved": 934,
-  "total_correct": 583,
-  "overall_hit_rate": 62.4,
+  "generated_at": "2026-08-19T23:52:47+00:00",
+  "total_signals": 994,
+  "total_resolved": 935,
+  "total_correct": 584,
+  "overall_hit_rate": 62.5,
   "by_tier": {
     "Strong": {
-      "total": 413,
+      "total": 414,
       "resolved": 396,
       "correct": 259,
       "hit_rate": 65.4
     },
     "Moderate": {
       "total": 524,
-      "resolved": 484,
-      "correct": 296,
+      "resolved": 485,
+      "correct": 297,
       "hit_rate": 61.2
     },
     "Weak": {
@@ -16884,10 +16884,10 @@
       "total_value_usd": 50828.17,
       "entry_price": 0.0425,
       "end_date": "2026-08-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Moez Echargui",
+      "resolved_date": "2026-08-25"
     },
     {
       "signal_key": "0x91c367cf2a618d06d3685e664aacde63e2c097fba0c1d15973b3555a5cfdeab6:0",
@@ -16900,6 +16900,23 @@
       "score": 8.727,
       "total_value_usd": 43742.22,
       "entry_price": 0.0425,
+      "end_date": "2026-08-26",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x586c7461bb805fa3d5772e382527a278312dd46a6eafe190bb35426e159970b4:0",
+      "condition_id": "0x586c7461bb805fa3d5772e382527a278312dd46a6eafe190bb35426e159970b4",
+      "title": "Seattle Mariners vs. Milwaukee Brewers",
+      "category": "MLB",
+      "whale_direction": "Seattle Mariners",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 16.4308,
+      "total_value_usd": 106459.07,
+      "entry_price": 0.042,
       "end_date": "2026-08-26",
       "resolved": false,
       "correct": null,
