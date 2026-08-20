@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-19T23:52:47+00:00",
+  "generated_at": "2026-08-20T00:08:37+00:00",
   "total_signals": 994,
-  "total_resolved": 935,
-  "total_correct": 584,
+  "total_resolved": 937,
+  "total_correct": 586,
   "overall_hit_rate": 62.5,
   "by_tier": {
     "Strong": {
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 524,
-      "resolved": 485,
-      "correct": 297,
-      "hit_rate": 61.2
+      "resolved": 487,
+      "correct": 299,
+      "hit_rate": 61.4
     },
     "Weak": {
       "total": 56,
@@ -16833,10 +16833,10 @@
       "total_value_usd": 18298.15,
       "entry_price": 0.0425,
       "end_date": "2027-01-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2027-01-01"
     },
     {
       "signal_key": "0x6c8bc8cd9b2d64358ad995ccee8e998cf0f81a89c4be0b8e51eadf09c6be60ba:1",
@@ -16901,10 +16901,10 @@
       "total_value_usd": 43742.22,
       "entry_price": 0.0425,
       "end_date": "2026-08-26",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Arizona Diamondbacks",
+      "resolved_date": "2026-08-26"
     },
     {
       "signal_key": "0x586c7461bb805fa3d5772e382527a278312dd46a6eafe190bb35426e159970b4:0",
