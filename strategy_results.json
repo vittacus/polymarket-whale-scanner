@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-20T20:52:21+00:00",
+  "generated_at": "2026-08-20T21:17:42+00:00",
   "total_evaluated": 1000,
-  "total_pending": 55,
+  "total_pending": 51,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 1000,
-      "correct": 591,
-      "wrong": 354,
-      "pending": 55,
+      "correct": 593,
+      "wrong": 356,
+      "pending": 51,
       "win_rate": 62.5,
       "signals": [
         {
@@ -2065,11 +2065,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "Chicago White Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Atlanta Braves",
+          "resolved_date": "2026-08-27",
           "end_date": "2026-06-18",
           "total_value_usd": 83538.62,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x04b6d6630d49e6513355ff045c96439c929335cb0d18da7792dea6c2fc717ead:0",
@@ -10115,11 +10115,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Over",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Under",
+          "resolved_date": "2026-08-20",
           "end_date": "2026-08-20",
           "total_value_usd": 93425.59,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xf673cbbc7ceb463680a98155237027368f87bde81cab618b785a5730a2a8eaca:0",
@@ -10437,11 +10437,11 @@
           "tier": "Strong",
           "entry_price": 0.0475,
           "whale_direction": "Under",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Under",
+          "resolved_date": "2026-08-20",
           "end_date": "2026-08-20",
           "total_value_usd": 10206.57,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc03d373e095022259a99ab532b35a4423271281d582165d61916394f62a937b7:1",
@@ -13629,11 +13629,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Atlanta Braves",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Atlanta Braves",
+          "resolved_date": "2026-08-27",
           "end_date": "2026-08-27",
           "total_value_usd": 25308.49,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x60ec7dc1f9223fc56c8465583a5da658e029ab854fa0b587a8c5fec0ac4d5c70:0",
@@ -14020,9 +14020,9 @@
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 330,
-      "correct": 189,
-      "wrong": 116,
-      "pending": 25,
+      "correct": 191,
+      "wrong": 117,
+      "pending": 22,
       "win_rate": 62.0,
       "signals": [
         {
@@ -14747,11 +14747,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Over",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Under",
+          "resolved_date": "2026-08-20",
           "end_date": "2026-08-20",
           "total_value_usd": 93425.59,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xf673cbbc7ceb463680a98155237027368f87bde81cab618b785a5730a2a8eaca:0",
@@ -15069,11 +15069,11 @@
           "tier": "Strong",
           "entry_price": 0.0475,
           "whale_direction": "Under",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Under",
+          "resolved_date": "2026-08-20",
           "end_date": "2026-08-20",
           "total_value_usd": 10206.57,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc03d373e095022259a99ab532b35a4423271281d582165d61916394f62a937b7:1",
@@ -18261,11 +18261,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Atlanta Braves",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Atlanta Braves",
+          "resolved_date": "2026-08-27",
           "end_date": "2026-08-27",
           "total_value_usd": 25308.49,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x60ec7dc1f9223fc56c8465583a5da658e029ab854fa0b587a8c5fec0ac4d5c70:0",
@@ -18652,9 +18652,9 @@
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 330,
-      "correct": 116,
-      "wrong": 189,
-      "pending": 25,
+      "correct": 117,
+      "wrong": 191,
+      "pending": 22,
       "win_rate": 38.0,
       "signals": [
         {
@@ -19379,11 +19379,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Over",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Under",
+          "resolved_date": "2026-08-20",
           "end_date": "2026-08-20",
           "total_value_usd": 93425.59,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf673cbbc7ceb463680a98155237027368f87bde81cab618b785a5730a2a8eaca:0",
@@ -19701,11 +19701,11 @@
           "tier": "Strong",
           "entry_price": 0.0475,
           "whale_direction": "Under",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Under",
+          "resolved_date": "2026-08-20",
           "end_date": "2026-08-20",
           "total_value_usd": 10206.57,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xc03d373e095022259a99ab532b35a4423271281d582165d61916394f62a937b7:1",
@@ -22893,11 +22893,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Atlanta Braves",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Atlanta Braves",
+          "resolved_date": "2026-08-27",
           "end_date": "2026-08-27",
           "total_value_usd": 25308.49,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x60ec7dc1f9223fc56c8465583a5da658e029ab854fa0b587a8c5fec0ac4d5c70:0",

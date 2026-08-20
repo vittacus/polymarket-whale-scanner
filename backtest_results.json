@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-20T20:52:21+00:00",
+  "generated_at": "2026-08-20T21:17:42+00:00",
   "total_signals": 1000,
-  "total_resolved": 945,
-  "total_correct": 591,
+  "total_resolved": 949,
+  "total_correct": 593,
   "overall_hit_rate": 62.5,
   "by_tier": {
     "Strong": {
       "total": 416,
-      "resolved": 400,
-      "correct": 262,
-      "hit_rate": 65.5
+      "resolved": 402,
+      "correct": 264,
+      "hit_rate": 65.7
     },
     "Moderate": {
       "total": 527,
-      "resolved": 490,
+      "resolved": 492,
       "correct": 301,
-      "hit_rate": 61.4
+      "hit_rate": 61.2
     },
     "Weak": {
       "total": 57,
@@ -2519,10 +2519,10 @@
       "total_value_usd": 83538.62,
       "entry_price": 0.505,
       "end_date": "2026-06-18",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Atlanta Braves",
+      "resolved_date": "2026-08-27"
     },
     {
       "signal_key": "0x04b6d6630d49e6513355ff045c96439c929335cb0d18da7792dea6c2fc717ead:0",
@@ -12294,10 +12294,10 @@
       "total_value_usd": 93425.59,
       "entry_price": 0.0425,
       "end_date": "2026-08-20",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Under",
+      "resolved_date": "2026-08-20"
     },
     {
       "signal_key": "0xf673cbbc7ceb463680a98155237027368f87bde81cab618b785a5730a2a8eaca:0",
@@ -12685,10 +12685,10 @@
       "total_value_usd": 10206.57,
       "entry_price": 0.0475,
       "end_date": "2026-08-20",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Under",
+      "resolved_date": "2026-08-20"
     },
     {
       "signal_key": "0xc03d373e095022259a99ab532b35a4423271281d582165d61916394f62a937b7:1",
@@ -16561,10 +16561,10 @@
       "total_value_usd": 25308.49,
       "entry_price": 0.0445,
       "end_date": "2026-08-27",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Atlanta Braves",
+      "resolved_date": "2026-08-27"
     },
     {
       "signal_key": "0x60ec7dc1f9223fc56c8465583a5da658e029ab854fa0b587a8c5fec0ac4d5c70:0",
