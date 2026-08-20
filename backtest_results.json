@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-20T01:59:17+00:00",
+  "generated_at": "2026-08-20T03:00:21+00:00",
   "total_signals": 1000,
-  "total_resolved": 937,
-  "total_correct": 586,
-  "overall_hit_rate": 62.5,
+  "total_resolved": 940,
+  "total_correct": 588,
+  "overall_hit_rate": 62.6,
   "by_tier": {
     "Strong": {
       "total": 416,
-      "resolved": 396,
-      "correct": 259,
-      "hit_rate": 65.4
+      "resolved": 398,
+      "correct": 260,
+      "hit_rate": 65.3
     },
     "Moderate": {
       "total": 527,
-      "resolved": 487,
-      "correct": 299,
-      "hit_rate": 61.4
+      "resolved": 488,
+      "correct": 300,
+      "hit_rate": 61.5
     },
     "Weak": {
       "total": 57,
@@ -16935,10 +16935,10 @@
       "total_value_usd": 138412.22,
       "entry_price": 0.0415,
       "end_date": "2026-08-26",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Cincinnati Reds",
+      "resolved_date": "2026-08-26"
     },
     {
       "signal_key": "0x6dc6c61ba62639ae85b8893301b545731f75b8368821b5b38a465d330ba6e1c5:0",
@@ -16952,10 +16952,10 @@
       "total_value_usd": 79255.48,
       "entry_price": 0.0415,
       "end_date": "2026-08-26",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Kansas City Royals",
+      "resolved_date": "2026-08-26"
     },
     {
       "signal_key": "0x6dc6c61ba62639ae85b8893301b545731f75b8368821b5b38a465d330ba6e1c5:1",
@@ -16969,10 +16969,10 @@
       "total_value_usd": 18553.38,
       "entry_price": 0.0415,
       "end_date": "2026-08-26",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Kansas City Royals",
+      "resolved_date": "2026-08-26"
     },
     {
       "signal_key": "0x586c7461bb805fa3d5772e382527a278312dd46a6eafe190bb35426e159970b4:1",
