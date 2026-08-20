@@ -289548,5 +289548,303 @@
         "entry_price": 0.0455
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-20T01:49:57+00:00",
+    "whale_timeframes": {
+      "0x7ad71d79a3bb90d0a87a06500fa0fe11663842aa": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1ab3580b6d258e31ca0a3efdb93173d081dd64af": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x684baa57c338c2549aec0aa3f034f695d72a8409": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa71093cafc0c099b4ccab24c3cb8018d817923c4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1465b79bff7992bc703e1aafb3683b1089647072": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x032eb1bc893940263ad0b01889f262fc232f2a9e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb859a551fcf56e49416160911476bea7307152f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x20b80ebb96e2051540e1d475e4ce122fc282aa04": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf1528f12e645462c344799b62b1b421a6a4c64aa": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8fba2c29715c41dd87e781c23373aa1e0549d08a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc2e7800b5af46e6093872b177b7a5e7f0563be51": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf5f92940519a72da460b1c2a606bc1230f0e87b0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x91667e40b80c447050904b042f3b85d22fc6b479": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x448861155279dbf833d041b963e3ac854599e319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe5428c1b7fae9f29cc5ce3b393d9a77251541d6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2dc13c6bda81b202281e796953a7323de675b33c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x6de759202dd9967b38283e400aad51f1aa32936035584dc9516ba2d22e9e2409:1",
+        "condition_id": "0x6de759202dd9967b38283e400aad51f1aa32936035584dc9516ba2d22e9e2409",
+        "title": "St. Louis Cardinals vs. Cincinnati Reds",
+        "outcome": "Cincinnati Reds",
+        "outcome_index": 1,
+        "whale_count": 7,
+        "wallets": [
+          "0x684baa57c338c2549aec0aa3f034f695d72a8409",
+          "0xf1528f12e645462c344799b62b1b421a6a4c64aa",
+          "0x8fba2c29715c41dd87e781c23373aa1e0549d08a",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x448861155279dbf833d041b963e3ac854599e319",
+          "0xfe5428c1b7fae9f29cc5ce3b393d9a77251541d6"
+        ],
+        "ranks": [
+          3,
+          9,
+          11,
+          14,
+          15,
+          17,
+          19
+        ],
+        "total_value_usd": 138412.22,
+        "score": 16.2605,
+        "category": "MLB",
+        "end_date": "2026-08-26",
+        "entry_price": 0.0415
+      },
+      {
+        "signal_key": "0x6dc6c61ba62639ae85b8893301b545731f75b8368821b5b38a465d330ba6e1c5:0",
+        "condition_id": "0x6dc6c61ba62639ae85b8893301b545731f75b8368821b5b38a465d330ba6e1c5",
+        "title": "Athletics vs. Kansas City Royals",
+        "outcome": "Athletics",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x1ab3580b6d258e31ca0a3efdb93173d081dd64af",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+        ],
+        "ranks": [
+          2,
+          14,
+          15
+        ],
+        "total_value_usd": 79255.48,
+        "score": 12.5965,
+        "category": "MLB",
+        "end_date": "2026-08-26",
+        "entry_price": 0.0415
+      },
+      {
+        "signal_key": "0x6dc6c61ba62639ae85b8893301b545731f75b8368821b5b38a465d330ba6e1c5:1",
+        "condition_id": "0x6dc6c61ba62639ae85b8893301b545731f75b8368821b5b38a465d330ba6e1c5",
+        "title": "Athletics vs. Kansas City Royals",
+        "outcome": "Kansas City Royals",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x684baa57c338c2549aec0aa3f034f695d72a8409",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e"
+        ],
+        "ranks": [
+          3,
+          14,
+          15,
+          18
+        ],
+        "total_value_usd": 18553.38,
+        "score": 9.064,
+        "category": "MLB",
+        "end_date": "2026-08-26",
+        "entry_price": 0.0415
+      },
+      {
+        "signal_key": "0x586c7461bb805fa3d5772e382527a278312dd46a6eafe190bb35426e159970b4:1",
+        "condition_id": "0x586c7461bb805fa3d5772e382527a278312dd46a6eafe190bb35426e159970b4",
+        "title": "Seattle Mariners vs. Milwaukee Brewers",
+        "outcome": "Milwaukee Brewers",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x684baa57c338c2549aec0aa3f034f695d72a8409",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+        ],
+        "ranks": [
+          3,
+          14,
+          15
+        ],
+        "total_value_usd": 8214.75,
+        "score": 7.4364,
+        "category": "MLB",
+        "end_date": "2026-08-26",
+        "entry_price": 0.0415
+      },
+      {
+        "signal_key": "0x83d73fcfdf2d2fd055377368b41147a540e4b21686c784d2f0992fd05a8cfd2d:0",
+        "condition_id": "0x83d73fcfdf2d2fd055377368b41147a540e4b21686c784d2f0992fd05a8cfd2d",
+        "title": "Los Angeles Dodgers vs. Colorado Rockies",
+        "outcome": "Los Angeles Dodgers",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xdb859a551fcf56e49416160911476bea7307152f",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e"
+        ],
+        "ranks": [
+          7,
+          14,
+          18
+        ],
+        "total_value_usd": 44547.38,
+        "score": 5.0548,
+        "category": "MLB",
+        "end_date": "2026-08-27",
+        "entry_price": 0.0415
+      },
+      {
+        "signal_key": "0x0bbc63372aaf0867db23fc361b4e37f7d3125c7acef6cc8e2d5ce40f65b7e523:1",
+        "condition_id": "0x0bbc63372aaf0867db23fc361b4e37f7d3125c7acef6cc8e2d5ce40f65b7e523",
+        "title": "Boston Red Sox vs. New York Yankees",
+        "outcome": "New York Yankees",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xf1528f12e645462c344799b62b1b421a6a4c64aa",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+        ],
+        "ranks": [
+          9,
+          14,
+          15
+        ],
+        "total_value_usd": 39384.29,
+        "score": 4.6146,
+        "category": "MLB",
+        "end_date": "2026-09-05",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0x83d73fcfdf2d2fd055377368b41147a540e4b21686c784d2f0992fd05a8cfd2d:1",
+        "condition_id": "0x83d73fcfdf2d2fd055377368b41147a540e4b21686c784d2f0992fd05a8cfd2d",
+        "title": "Los Angeles Dodgers vs. Colorado Rockies",
+        "outcome": "Colorado Rockies",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x8fba2c29715c41dd87e781c23373aa1e0549d08a",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+        ],
+        "ranks": [
+          11,
+          14,
+          15
+        ],
+        "total_value_usd": 7666.89,
+        "score": 3.5847,
+        "category": "MLB",
+        "end_date": "2026-08-27",
+        "entry_price": 0.0415
+      }
+    ]
   }
 ]
