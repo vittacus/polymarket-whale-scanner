@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-20T03:48:32+00:00",
+  "generated_at": "2026-08-20T04:29:56+00:00",
   "total_signals": 1000,
-  "total_resolved": 942,
-  "total_correct": 589,
+  "total_resolved": 944,
+  "total_correct": 590,
   "overall_hit_rate": 62.5,
   "by_tier": {
     "Strong": {
@@ -13,15 +13,15 @@
     },
     "Moderate": {
       "total": 527,
-      "resolved": 489,
-      "correct": 300,
-      "hit_rate": 61.3
+      "resolved": 490,
+      "correct": 301,
+      "hit_rate": 61.4
     },
     "Weak": {
       "total": 57,
-      "resolved": 54,
+      "resolved": 55,
       "correct": 28,
-      "hit_rate": 51.9
+      "hit_rate": 50.9
     }
   },
   "signals": [
@@ -17003,10 +17003,10 @@
       "total_value_usd": 44547.38,
       "entry_price": 0.0415,
       "end_date": "2026-08-27",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Los Angeles Dodgers",
+      "resolved_date": "2026-08-27"
     },
     {
       "signal_key": "0x83d73fcfdf2d2fd055377368b41147a540e4b21686c784d2f0992fd05a8cfd2d:1",
@@ -17020,10 +17020,10 @@
       "total_value_usd": 7666.89,
       "entry_price": 0.0415,
       "end_date": "2026-08-27",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Los Angeles Dodgers",
+      "resolved_date": "2026-08-27"
     }
   ]
 }
