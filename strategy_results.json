@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-21T22:56:14+00:00",
+  "generated_at": "2026-08-21T23:25:55+00:00",
   "total_evaluated": 1016,
-  "total_pending": 61,
+  "total_pending": 59,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
@@ -9,9 +9,9 @@
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 1016,
       "correct": 599,
-      "wrong": 356,
-      "pending": 61,
-      "win_rate": 62.7,
+      "wrong": 358,
+      "pending": 59,
+      "win_rate": 62.6,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -14217,11 +14217,11 @@
           "tier": "Strong",
           "entry_price": 0.0405,
           "whale_direction": "Taylor Fritz",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Brandon Nakashima",
+          "resolved_date": "2026-08-28",
           "end_date": "2026-08-28",
           "total_value_usd": 604361.1,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x8147c63c6c838f7f4f41353fb0078ac08dae99b90685f895c88db6214b197854:0",
@@ -14231,11 +14231,11 @@
           "tier": "Strong",
           "entry_price": 0.0415,
           "whale_direction": "Atlanta Braves",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-08-28",
           "end_date": "2026-08-28",
           "total_value_usd": 14468.65,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
@@ -14245,9 +14245,9 @@
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 346,
       "correct": 197,
-      "wrong": 117,
-      "pending": 32,
-      "win_rate": 62.7,
+      "wrong": 119,
+      "pending": 30,
+      "win_rate": 62.3,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -19073,11 +19073,11 @@
           "tier": "Strong",
           "entry_price": 0.0405,
           "whale_direction": "Taylor Fritz",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Brandon Nakashima",
+          "resolved_date": "2026-08-28",
           "end_date": "2026-08-28",
           "total_value_usd": 604361.1,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x8147c63c6c838f7f4f41353fb0078ac08dae99b90685f895c88db6214b197854:0",
@@ -19087,11 +19087,11 @@
           "tier": "Strong",
           "entry_price": 0.0415,
           "whale_direction": "Atlanta Braves",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-08-28",
           "end_date": "2026-08-28",
           "total_value_usd": 14468.65,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
@@ -19100,10 +19100,10 @@
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 346,
-      "correct": 117,
+      "correct": 119,
       "wrong": 197,
-      "pending": 32,
-      "win_rate": 37.3,
+      "pending": 30,
+      "win_rate": 37.7,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -23929,11 +23929,11 @@
           "tier": "Strong",
           "entry_price": 0.0405,
           "whale_direction": "Taylor Fritz",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Brandon Nakashima",
+          "resolved_date": "2026-08-28",
           "end_date": "2026-08-28",
           "total_value_usd": 604361.1,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x8147c63c6c838f7f4f41353fb0078ac08dae99b90685f895c88db6214b197854:0",
@@ -23943,11 +23943,11 @@
           "tier": "Strong",
           "entry_price": 0.0415,
           "whale_direction": "Atlanta Braves",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-08-28",
           "end_date": "2026-08-28",
           "total_value_usd": 14468.65,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -23957,9 +23957,9 @@
       "hypothesis": "Signals where total position size exceeds $500k represent the highest-conviction whale bets. When top traders put serious capital behind a position, that's a qualitatively different signal from a small stake. This filters for only the highest-conviction consensus calls to test whether size predicts accuracy.",
       "signals_evaluated": 31,
       "correct": 19,
-      "wrong": 7,
-      "pending": 5,
-      "win_rate": 73.1,
+      "wrong": 8,
+      "pending": 4,
+      "win_rate": 70.4,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -24389,11 +24389,11 @@
           "tier": "Strong",
           "entry_price": 0.0405,
           "whale_direction": "Taylor Fritz",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Brandon Nakashima",
+          "resolved_date": "2026-08-28",
           "end_date": "2026-08-28",
           "total_value_usd": 604361.1,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     }

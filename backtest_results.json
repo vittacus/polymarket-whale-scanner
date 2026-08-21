@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-21T22:56:14+00:00",
+  "generated_at": "2026-08-21T23:25:55+00:00",
   "total_signals": 1016,
-  "total_resolved": 955,
+  "total_resolved": 957,
   "total_correct": 599,
-  "overall_hit_rate": 62.7,
+  "overall_hit_rate": 62.6,
   "by_tier": {
     "Strong": {
       "total": 424,
-      "resolved": 405,
+      "resolved": 407,
       "correct": 267,
-      "hit_rate": 65.9
+      "hit_rate": 65.6
     },
     "Moderate": {
       "total": 535,
@@ -17275,10 +17275,10 @@
       "total_value_usd": 604361.1,
       "entry_price": 0.0405,
       "end_date": "2026-08-28",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Brandon Nakashima",
+      "resolved_date": "2026-08-28"
     },
     {
       "signal_key": "0x8147c63c6c838f7f4f41353fb0078ac08dae99b90685f895c88db6214b197854:0",
@@ -17292,10 +17292,10 @@
       "total_value_usd": 14468.65,
       "entry_price": 0.0415,
       "end_date": "2026-08-28",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Milwaukee Brewers",
+      "resolved_date": "2026-08-28"
     }
   ]
 }
