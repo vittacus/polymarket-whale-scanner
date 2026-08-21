@@ -301531,5 +301531,155 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-08-21T20:18:29+00:00",
+    "whale_timeframes": {
+      "0xcd30f4698c6f5f3829893e68e183a8e5ea18f316": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8546a601f7c7cc3dae7141f20b0e09e42bbf35b8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf705fa045201391d9632b7f3cde06a5e24453ca7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xee00ba338c59557141789b127927a55f5cc5cea1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x30c7ac0158499ddc6761047f7f69bcf7d036ac3b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x143732d8a06bd1596c694f7873cd493be80aacfe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1e52bbdf389526f57abc62641d518868f4c5eb43": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1465b79bff7992bc703e1aafb3683b1089647072": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0346afae2603313d2bbee96b628536c8cbe352a5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x65c18d740c8246af3353741c0b32e4b6da552988": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x29b52d98ac9ef9414b04164246c95bc63d74cc6c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe1000ddb5f5025849765e29d051dfff78f5d4d41": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x83720820a8aa6c3f20ad71850e7a1a17d16c5223": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x61667bf31ebd267b84655d20b438a9d9bec099fd26894613bf5fc3798406350f:0",
+        "condition_id": "0x61667bf31ebd267b84655d20b438a9d9bec099fd26894613bf5fc3798406350f",
+        "title": "Cincinnati Open: Taylor Fritz vs Brandon Nakashima",
+        "outcome": "Taylor Fritz",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xee00ba338c59557141789b127927a55f5cc5cea1",
+          "0x1e52bbdf389526f57abc62641d518868f4c5eb43"
+        ],
+        "ranks": [
+          2,
+          10,
+          14
+        ],
+        "total_value_usd": 604361.1,
+        "score": 15.6415,
+        "category": "Tennis",
+        "end_date": "2026-08-28",
+        "entry_price": 0.0405
+      }
+    ]
   }
 ]
