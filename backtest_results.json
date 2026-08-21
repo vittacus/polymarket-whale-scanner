@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-21T00:05:39+00:00",
-  "total_signals": 1000,
+  "generated_at": "2026-08-21T01:30:57+00:00",
+  "total_signals": 1002,
   "total_resolved": 949,
   "total_correct": 593,
   "overall_hit_rate": 62.5,
   "by_tier": {
     "Strong": {
-      "total": 416,
+      "total": 418,
       "resolved": 402,
       "correct": 264,
       "hit_rate": 65.7
@@ -17024,6 +17024,40 @@
       "correct": false,
       "resolved_outcome": "Los Angeles Dodgers",
       "resolved_date": "2026-08-27"
+    },
+    {
+      "signal_key": "0xfd105823dbf627e8a57aa1924703ef23138050d9d8da4a98a5136ea2ad98acd4:0",
+      "condition_id": "0xfd105823dbf627e8a57aa1924703ef23138050d9d8da4a98a5136ea2ad98acd4",
+      "title": "Will Bitcoin reach $80,000 in August?",
+      "category": "Bitcoin",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 14.4314,
+      "total_value_usd": 21932.7,
+      "entry_price": 0.0415,
+      "end_date": "2026-09-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x4aef2ed87e7009c16dd67ddc8dfbe6fe60da07b5dd946c8fb2cce029dede1e27:1",
+      "condition_id": "0x4aef2ed87e7009c16dd67ddc8dfbe6fe60da07b5dd946c8fb2cce029dede1e27",
+      "title": "Washington Nationals vs. Texas Rangers",
+      "category": "MLB",
+      "whale_direction": "Texas Rangers",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 10.738,
+      "total_value_usd": 203340.48,
+      "entry_price": 0.0415,
+      "end_date": "2026-08-28",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }

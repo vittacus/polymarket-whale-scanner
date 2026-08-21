@@ -294517,5 +294517,228 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-08-21T01:22:24+00:00",
+    "whale_timeframes": {
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf705fa045201391d9632b7f3cde06a5e24453ca7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x15a681d447124c90dbd85be526af18ca1611bf5d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x143732d8a06bd1596c694f7873cd493be80aacfe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb915070c8007b1bdf4b1ef04e56b066a022e8da5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5dab5ed9691fab220535891d9c7f5c28eed322e1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1465b79bff7992bc703e1aafb3683b1089647072": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x684baa57c338c2549aec0aa3f034f695d72a8409": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc6e956068048c1cf98d8f0b3a495edc9da130741": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf43842aca68209bd8bd3b4cfae00a32053769559": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x74f1b8944c7b10f7239e3dda0de6b8ee42e816a8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x29673aa650e09fa8aeb920dde3c333b32d4fbd09": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9c3ce009c9b039956665cecc4cd14de862b5e8c9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x91667e40b80c447050904b042f3b85d22fc6b479": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xabb89972b21b304c1bed2bf26f35c8741ac9bba3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8a3ab8120807bd64a3de48695110e390fa2ceb9a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2dc13c6bda81b202281e796953a7323de675b33c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xc4bde1d397625e1990fec7f787b9eb2e5727c666d0480c4e9c96b0dbd12602c6:0",
+        "condition_id": "0xc4bde1d397625e1990fec7f787b9eb2e5727c666d0480c4e9c96b0dbd12602c6",
+        "title": "Will Bitcoin reach $75,000 in August?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+          "0x143732d8a06bd1596c694f7873cd493be80aacfe",
+          "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
+          "0x29673aa650e09fa8aeb920dde3c333b32d4fbd09"
+        ],
+        "ranks": [
+          2,
+          5,
+          8,
+          15
+        ],
+        "total_value_usd": 153512.47,
+        "score": 18.6338,
+        "category": "Bitcoin",
+        "end_date": "2026-09-01",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0x024b68f77bfc019341ee3db8f57c103334e4b9430bba4746d8c94aafd8b36fee:1",
+        "condition_id": "0x024b68f77bfc019341ee3db8f57c103334e4b9430bba4746d8c94aafd8b36fee",
+        "title": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+          "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
+          "0x1465b79bff7992bc703e1aafb3683b1089647072"
+        ],
+        "ranks": [
+          2,
+          8,
+          10
+        ],
+        "total_value_usd": 329279.1,
+        "score": 16.119,
+        "category": "Bitcoin",
+        "end_date": "2027-01-01",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0xfd105823dbf627e8a57aa1924703ef23138050d9d8da4a98a5136ea2ad98acd4:0",
+        "condition_id": "0xfd105823dbf627e8a57aa1924703ef23138050d9d8da4a98a5136ea2ad98acd4",
+        "title": "Will Bitcoin reach $80,000 in August?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+          "0x143732d8a06bd1596c694f7873cd493be80aacfe",
+          "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82"
+        ],
+        "ranks": [
+          2,
+          5,
+          8
+        ],
+        "total_value_usd": 21932.7,
+        "score": 14.4314,
+        "category": "Bitcoin",
+        "end_date": "2026-09-01",
+        "entry_price": 0.0415
+      },
+      {
+        "signal_key": "0x4aef2ed87e7009c16dd67ddc8dfbe6fe60da07b5dd946c8fb2cce029dede1e27:1",
+        "condition_id": "0x4aef2ed87e7009c16dd67ddc8dfbe6fe60da07b5dd946c8fb2cce029dede1e27",
+        "title": "Washington Nationals vs. Texas Rangers",
+        "outcome": "Texas Rangers",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x684baa57c338c2549aec0aa3f034f695d72a8409",
+          "0x2dc13c6bda81b202281e796953a7323de675b33c"
+        ],
+        "ranks": [
+          4,
+          9,
+          11,
+          20
+        ],
+        "total_value_usd": 203340.48,
+        "score": 10.738,
+        "category": "MLB",
+        "end_date": "2026-08-28",
+        "entry_price": 0.0415
+      }
+    ]
   }
 ]
