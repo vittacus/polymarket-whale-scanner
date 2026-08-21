@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-21T05:10:10+00:00",
-  "total_signals": 1009,
+  "generated_at": "2026-08-21T05:54:08+00:00",
+  "total_signals": 1010,
   "total_resolved": 952,
   "total_correct": 596,
   "overall_hit_rate": 62.6,
@@ -12,7 +12,7 @@
       "hit_rate": 65.8
     },
     "Moderate": {
-      "total": 530,
+      "total": 531,
       "resolved": 494,
       "correct": 303,
       "hit_rate": 61.3
@@ -17171,6 +17171,23 @@
       "tier": "Moderate",
       "score": 8.0872,
       "total_value_usd": 9724.17,
+      "entry_price": 0.0415,
+      "end_date": "2027-01-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x903a1387e6414be5529efc8f7757e30371e6698de9d68fa4ce33252009db69ef:1",
+      "condition_id": "0x903a1387e6414be5529efc8f7757e30371e6698de9d68fa4ce33252009db69ef",
+      "title": "Will Bitcoin dip to $30,000 by December 31, 2026?",
+      "category": "Bitcoin",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 5.224,
+      "total_value_usd": 21953.96,
       "entry_price": 0.0415,
       "end_date": "2027-01-01",
       "resolved": false,
