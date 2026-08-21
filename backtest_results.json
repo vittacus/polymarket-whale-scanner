@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-21T20:55:06+00:00",
-  "total_signals": 1015,
+  "generated_at": "2026-08-21T21:26:22+00:00",
+  "total_signals": 1016,
   "total_resolved": 954,
   "total_correct": 598,
   "overall_hit_rate": 62.7,
   "by_tier": {
     "Strong": {
-      "total": 423,
+      "total": 424,
       "resolved": 404,
       "correct": 266,
       "hit_rate": 65.8
@@ -17274,6 +17274,23 @@
       "score": 15.6415,
       "total_value_usd": 604361.1,
       "entry_price": 0.0405,
+      "end_date": "2026-08-28",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x8147c63c6c838f7f4f41353fb0078ac08dae99b90685f895c88db6214b197854:0",
+      "condition_id": "0x8147c63c6c838f7f4f41353fb0078ac08dae99b90685f895c88db6214b197854",
+      "title": "Atlanta Braves vs. Milwaukee Brewers",
+      "category": "MLB",
+      "whale_direction": "Atlanta Braves",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 12.64,
+      "total_value_usd": 14468.65,
+      "entry_price": 0.0415,
       "end_date": "2026-08-28",
       "resolved": false,
       "correct": null,

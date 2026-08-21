@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-21T20:55:06+00:00",
-  "total_evaluated": 1015,
-  "total_pending": 61,
+  "generated_at": "2026-08-21T21:26:22+00:00",
+  "total_evaluated": 1016,
+  "total_pending": 62,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1015,
+      "signals_evaluated": 1016,
       "correct": 598,
       "wrong": 356,
-      "pending": 61,
+      "pending": 62,
       "win_rate": 62.7,
       "signals": [
         {
@@ -14222,6 +14222,20 @@
           "end_date": "2026-08-28",
           "total_value_usd": 604361.1,
           "result": "pending"
+        },
+        {
+          "signal_key": "0x8147c63c6c838f7f4f41353fb0078ac08dae99b90685f895c88db6214b197854:0",
+          "condition_id": "0x8147c63c6c838f7f4f41353fb0078ac08dae99b90685f895c88db6214b197854",
+          "title": "Atlanta Braves vs. Milwaukee Brewers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0415,
+          "whale_direction": "Atlanta Braves",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-28",
+          "total_value_usd": 14468.65,
+          "result": "pending"
         }
       ]
     },
@@ -14229,10 +14243,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 345,
+      "signals_evaluated": 346,
       "correct": 196,
       "wrong": 117,
-      "pending": 32,
+      "pending": 33,
       "win_rate": 62.6,
       "signals": [
         {
@@ -19064,6 +19078,20 @@
           "end_date": "2026-08-28",
           "total_value_usd": 604361.1,
           "result": "pending"
+        },
+        {
+          "signal_key": "0x8147c63c6c838f7f4f41353fb0078ac08dae99b90685f895c88db6214b197854:0",
+          "condition_id": "0x8147c63c6c838f7f4f41353fb0078ac08dae99b90685f895c88db6214b197854",
+          "title": "Atlanta Braves vs. Milwaukee Brewers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0415,
+          "whale_direction": "Atlanta Braves",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-28",
+          "total_value_usd": 14468.65,
+          "result": "pending"
         }
       ]
     },
@@ -19071,10 +19099,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 345,
+      "signals_evaluated": 346,
       "correct": 117,
       "wrong": 196,
-      "pending": 32,
+      "pending": 33,
       "win_rate": 37.4,
       "signals": [
         {
@@ -23905,6 +23933,20 @@
           "resolved_date": null,
           "end_date": "2026-08-28",
           "total_value_usd": 604361.1,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x8147c63c6c838f7f4f41353fb0078ac08dae99b90685f895c88db6214b197854:0",
+          "condition_id": "0x8147c63c6c838f7f4f41353fb0078ac08dae99b90685f895c88db6214b197854",
+          "title": "Atlanta Braves vs. Milwaukee Brewers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0415,
+          "whale_direction": "Atlanta Braves",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-28",
+          "total_value_usd": 14468.65,
           "result": "pending"
         }
       ]
