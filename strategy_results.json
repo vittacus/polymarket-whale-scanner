@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-21T09:03:59+00:00",
-  "total_evaluated": 1011,
-  "total_pending": 58,
+  "generated_at": "2026-08-21T09:42:18+00:00",
+  "total_evaluated": 1014,
+  "total_pending": 61,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1011,
+      "signals_evaluated": 1014,
       "correct": 597,
       "wrong": 356,
-      "pending": 58,
+      "pending": 61,
       "win_rate": 62.6,
       "signals": [
         {
@@ -14166,6 +14166,48 @@
           "end_date": "2027-01-01",
           "total_value_usd": 16655.93,
           "result": "pending"
+        },
+        {
+          "signal_key": "0x5cbbb6467ffed01866c81364f870b002be410478b3d53614c95ac6ff077a06be:0",
+          "condition_id": "0x5cbbb6467ffed01866c81364f870b002be410478b3d53614c95ac6ff077a06be",
+          "title": "Will XRP reach $1.40 in August?",
+          "category": "XRP",
+          "tier": "Moderate",
+          "entry_price": 0.0415,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-01",
+          "total_value_usd": 37971.89,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf9b6b5c3c6e07afe4aad6ed9ce4fa7545f9c2baa9f1dc632cd81a085c99acfe4:1",
+          "condition_id": "0xf9b6b5c3c6e07afe4aad6ed9ce4fa7545f9c2baa9f1dc632cd81a085c99acfe4",
+          "title": "Will Bitcoin reach $120,000 by December 31, 2026?",
+          "category": "Bitcoin",
+          "tier": "Moderate",
+          "entry_price": 0.0415,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2027-01-01",
+          "total_value_usd": 13357.75,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x2745c38ff0617cb345c1d2df19b4f74ea777508e07411e88eeb6ab3affcda2a2:1",
+          "condition_id": "0x2745c38ff0617cb345c1d2df19b4f74ea777508e07411e88eeb6ab3affcda2a2",
+          "title": "Will Bitcoin dip to $35,000 by December 31, 2026?",
+          "category": "Bitcoin",
+          "tier": "Moderate",
+          "entry_price": 0.0415,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2027-01-01",
+          "total_value_usd": 214341.77,
+          "result": "pending"
         }
       ]
     },
@@ -14173,10 +14215,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 341,
+      "signals_evaluated": 344,
       "correct": 195,
       "wrong": 117,
-      "pending": 29,
+      "pending": 32,
       "win_rate": 62.5,
       "signals": [
         {
@@ -18952,6 +18994,48 @@
           "end_date": "2027-01-01",
           "total_value_usd": 16655.93,
           "result": "pending"
+        },
+        {
+          "signal_key": "0x5cbbb6467ffed01866c81364f870b002be410478b3d53614c95ac6ff077a06be:0",
+          "condition_id": "0x5cbbb6467ffed01866c81364f870b002be410478b3d53614c95ac6ff077a06be",
+          "title": "Will XRP reach $1.40 in August?",
+          "category": "XRP",
+          "tier": "Moderate",
+          "entry_price": 0.0415,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-01",
+          "total_value_usd": 37971.89,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf9b6b5c3c6e07afe4aad6ed9ce4fa7545f9c2baa9f1dc632cd81a085c99acfe4:1",
+          "condition_id": "0xf9b6b5c3c6e07afe4aad6ed9ce4fa7545f9c2baa9f1dc632cd81a085c99acfe4",
+          "title": "Will Bitcoin reach $120,000 by December 31, 2026?",
+          "category": "Bitcoin",
+          "tier": "Moderate",
+          "entry_price": 0.0415,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2027-01-01",
+          "total_value_usd": 13357.75,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x2745c38ff0617cb345c1d2df19b4f74ea777508e07411e88eeb6ab3affcda2a2:1",
+          "condition_id": "0x2745c38ff0617cb345c1d2df19b4f74ea777508e07411e88eeb6ab3affcda2a2",
+          "title": "Will Bitcoin dip to $35,000 by December 31, 2026?",
+          "category": "Bitcoin",
+          "tier": "Moderate",
+          "entry_price": 0.0415,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2027-01-01",
+          "total_value_usd": 214341.77,
+          "result": "pending"
         }
       ]
     },
@@ -18959,10 +19043,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 341,
+      "signals_evaluated": 344,
       "correct": 117,
       "wrong": 195,
-      "pending": 29,
+      "pending": 32,
       "win_rate": 37.5,
       "signals": [
         {
@@ -23737,6 +23821,48 @@
           "resolved_date": null,
           "end_date": "2027-01-01",
           "total_value_usd": 16655.93,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x5cbbb6467ffed01866c81364f870b002be410478b3d53614c95ac6ff077a06be:0",
+          "condition_id": "0x5cbbb6467ffed01866c81364f870b002be410478b3d53614c95ac6ff077a06be",
+          "title": "Will XRP reach $1.40 in August?",
+          "category": "XRP",
+          "tier": "Moderate",
+          "entry_price": 0.0415,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-01",
+          "total_value_usd": 37971.89,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf9b6b5c3c6e07afe4aad6ed9ce4fa7545f9c2baa9f1dc632cd81a085c99acfe4:1",
+          "condition_id": "0xf9b6b5c3c6e07afe4aad6ed9ce4fa7545f9c2baa9f1dc632cd81a085c99acfe4",
+          "title": "Will Bitcoin reach $120,000 by December 31, 2026?",
+          "category": "Bitcoin",
+          "tier": "Moderate",
+          "entry_price": 0.0415,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2027-01-01",
+          "total_value_usd": 13357.75,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x2745c38ff0617cb345c1d2df19b4f74ea777508e07411e88eeb6ab3affcda2a2:1",
+          "condition_id": "0x2745c38ff0617cb345c1d2df19b4f74ea777508e07411e88eeb6ab3affcda2a2",
+          "title": "Will Bitcoin dip to $35,000 by December 31, 2026?",
+          "category": "Bitcoin",
+          "tier": "Moderate",
+          "entry_price": 0.0415,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2027-01-01",
+          "total_value_usd": 214341.77,
           "result": "pending"
         }
       ]
