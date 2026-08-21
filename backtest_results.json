@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-21T08:13:58+00:00",
-  "total_signals": 1010,
-  "total_resolved": 952,
-  "total_correct": 596,
+  "generated_at": "2026-08-21T09:03:59+00:00",
+  "total_signals": 1011,
+  "total_resolved": 953,
+  "total_correct": 597,
   "overall_hit_rate": 62.6,
   "by_tier": {
     "Strong": {
       "total": 422,
-      "resolved": 403,
-      "correct": 265,
+      "resolved": 404,
+      "correct": 266,
       "hit_rate": 65.8
     },
     "Moderate": {
-      "total": 531,
+      "total": 532,
       "resolved": 494,
       "correct": 303,
       "hit_rate": 61.3
@@ -17105,10 +17105,10 @@
       "total_value_usd": 85630.07,
       "entry_price": 0.0415,
       "end_date": "2026-09-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-09-01"
     },
     {
       "signal_key": "0x55ae2f91bba959ea0ab4ecbbfa2eb3501a12fd5f7107f0d71415e76cbf9a7d11:0",
@@ -17188,6 +17188,23 @@
       "tier": "Moderate",
       "score": 5.224,
       "total_value_usd": 21953.96,
+      "entry_price": 0.0415,
+      "end_date": "2027-01-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xdaa4866bae18be58c5a79d2aeeffd035ec78f1bb49dbd88f72993997778a990f:0",
+      "condition_id": "0xdaa4866bae18be58c5a79d2aeeffd035ec78f1bb49dbd88f72993997778a990f",
+      "title": "Will Bitcoin reach $100,000 by December 31, 2026?",
+      "category": "Bitcoin",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 5.7992,
+      "total_value_usd": 16655.93,
       "entry_price": 0.0415,
       "end_date": "2027-01-01",
       "resolved": false,
