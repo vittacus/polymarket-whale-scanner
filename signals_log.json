@@ -294740,5 +294740,551 @@
         "entry_price": 0.0415
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-21T02:40:58+00:00",
+    "whale_timeframes": {
+      "0x6d20c35f65d9899b6d6b74f8466e824580f9a165": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1465b79bff7992bc703e1aafb3683b1089647072": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf705fa045201391d9632b7f3cde06a5e24453ca7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x143732d8a06bd1596c694f7873cd493be80aacfe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0c154c190e293b7e5f8d453b5f690c4dc9599a45": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb1ca909e848cc24ec4e220ce1c453bc290c51705": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x15a681d447124c90dbd85be526af18ca1611bf5d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x684baa57c338c2549aec0aa3f034f695d72a8409": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5dab5ed9691fab220535891d9c7f5c28eed322e1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x29673aa650e09fa8aeb920dde3c333b32d4fbd09": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xab51c55eb5cefec49c52a174acc10b3cd69e2473": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb915070c8007b1bdf4b1ef04e56b066a022e8da5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf43842aca68209bd8bd3b4cfae00a32053769559": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6db983ff1cbc85249e64e6ccd101aaa613ba4ab5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa19cbababc312f9df185e49d7004c249ed1ade6b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x027e587a1086809d1a00f22216bef6a808f1c97f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x024b68f77bfc019341ee3db8f57c103334e4b9430bba4746d8c94aafd8b36fee:1",
+        "condition_id": "0x024b68f77bfc019341ee3db8f57c103334e4b9430bba4746d8c94aafd8b36fee",
+        "title": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 5,
+        "wallets": [
+          "0x1465b79bff7992bc703e1aafb3683b1089647072",
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+          "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
+          "0x6db983ff1cbc85249e64e6ccd101aaa613ba4ab5",
+          "0xa19cbababc312f9df185e49d7004c249ed1ade6b"
+        ],
+        "ranks": [
+          2,
+          3,
+          9,
+          17,
+          18
+        ],
+        "total_value_usd": 384989.63,
+        "score": 23.8306,
+        "category": "Bitcoin",
+        "end_date": "2027-01-01",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0xc89a8dfa86de9aff65549055a5b9a3aadb77549a4f6dcb8b71b420f10219a45f:0",
+        "condition_id": "0xc89a8dfa86de9aff65549055a5b9a3aadb77549a4f6dcb8b71b420f10219a45f",
+        "title": "Will Ethereum reach $2,500 in August?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x1465b79bff7992bc703e1aafb3683b1089647072",
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+          "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
+          "0x027e587a1086809d1a00f22216bef6a808f1c97f"
+        ],
+        "ranks": [
+          2,
+          3,
+          18,
+          20
+        ],
+        "total_value_usd": 41052.95,
+        "score": 17.4536,
+        "category": "Ethereum",
+        "end_date": "2026-09-01",
+        "entry_price": 0.0415
+      },
+      {
+        "signal_key": "0x752fa61c93f16c4b15e85b0bd438d9c684176b0ea7b319a84c8aca34616e8a8c:1",
+        "condition_id": "0x752fa61c93f16c4b15e85b0bd438d9c684176b0ea7b319a84c8aca34616e8a8c",
+        "title": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x1465b79bff7992bc703e1aafb3683b1089647072",
+          "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
+          "0x6db983ff1cbc85249e64e6ccd101aaa613ba4ab5",
+          "0xa19cbababc312f9df185e49d7004c249ed1ade6b"
+        ],
+        "ranks": [
+          2,
+          9,
+          17,
+          18
+        ],
+        "total_value_usd": 546204.19,
+        "score": 16.7725,
+        "category": "Bitcoin",
+        "end_date": "2027-01-01",
+        "entry_price": 0.0415
+      },
+      {
+        "signal_key": "0xce3c54c3e773e8b3bf73e4c12af93205b21195d03b9c386e22f274b9acfc2c56:1",
+        "condition_id": "0xce3c54c3e773e8b3bf73e4c12af93205b21195d03b9c386e22f274b9acfc2c56",
+        "title": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x1465b79bff7992bc703e1aafb3683b1089647072",
+          "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
+          "0x6db983ff1cbc85249e64e6ccd101aaa613ba4ab5",
+          "0xa19cbababc312f9df185e49d7004c249ed1ade6b"
+        ],
+        "ranks": [
+          2,
+          9,
+          17,
+          18
+        ],
+        "total_value_usd": 482699.47,
+        "score": 16.6156,
+        "category": "Bitcoin",
+        "end_date": "2027-01-01",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0xfd105823dbf627e8a57aa1924703ef23138050d9d8da4a98a5136ea2ad98acd4:0",
+        "condition_id": "0xfd105823dbf627e8a57aa1924703ef23138050d9d8da4a98a5136ea2ad98acd4",
+        "title": "Will Bitcoin reach $80,000 in August?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 6,
+        "wallets": [
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+          "0x143732d8a06bd1596c694f7873cd493be80aacfe",
+          "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
+          "0x6db983ff1cbc85249e64e6ccd101aaa613ba4ab5",
+          "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
+          "0x027e587a1086809d1a00f22216bef6a808f1c97f"
+        ],
+        "ranks": [
+          3,
+          5,
+          9,
+          17,
+          18,
+          20
+        ],
+        "total_value_usd": 35612.48,
+        "score": 14.8345,
+        "category": "Bitcoin",
+        "end_date": "2026-09-01",
+        "entry_price": 0.0415
+      },
+      {
+        "signal_key": "0x1e5564c1a2a6839cc2780a889437c63786a2c2ec5e95569b710ee659a3e8baa2:1",
+        "condition_id": "0x1e5564c1a2a6839cc2780a889437c63786a2c2ec5e95569b710ee659a3e8baa2",
+        "title": "Will Bitcoin dip to $40,000 by December 31, 2026?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x1465b79bff7992bc703e1aafb3683b1089647072",
+          "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
+          "0x6db983ff1cbc85249e64e6ccd101aaa613ba4ab5"
+        ],
+        "ranks": [
+          2,
+          9,
+          17
+        ],
+        "total_value_usd": 232737.76,
+        "score": 14.488,
+        "category": "Bitcoin",
+        "end_date": "2027-01-01",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0x7e2122d54359f590e9ffdf59092f8e052f5f718181188fef5534e62402f0bab3:0",
+        "condition_id": "0x7e2122d54359f590e9ffdf59092f8e052f5f718181188fef5534e62402f0bab3",
+        "title": "Will Bitcoin reach $77,500 in August?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+          "0x143732d8a06bd1596c694f7873cd493be80aacfe",
+          "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
+          "0x027e587a1086809d1a00f22216bef6a808f1c97f"
+        ],
+        "ranks": [
+          3,
+          5,
+          18,
+          20
+        ],
+        "total_value_usd": 85630.07,
+        "score": 12.6987,
+        "category": "Bitcoin",
+        "end_date": "2026-09-01",
+        "entry_price": 0.0415
+      },
+      {
+        "signal_key": "0x6c8bc8cd9b2d64358ad995ccee8e998cf0f81a89c4be0b8e51eadf09c6be60ba:1",
+        "condition_id": "0x6c8bc8cd9b2d64358ad995ccee8e998cf0f81a89c4be0b8e51eadf09c6be60ba",
+        "title": "Will Bitcoin dip to $60,000 by December 31, 2026?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x1465b79bff7992bc703e1aafb3683b1089647072",
+          "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
+          "0x6db983ff1cbc85249e64e6ccd101aaa613ba4ab5"
+        ],
+        "ranks": [
+          2,
+          9,
+          17
+        ],
+        "total_value_usd": 32962.18,
+        "score": 12.1965,
+        "category": "Bitcoin",
+        "end_date": "2027-01-01",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0xc564e47b7a853f3e52ea7b8e28d69ed99fcb284929364fd0f8024c2bca03ea96:0",
+        "condition_id": "0xc564e47b7a853f3e52ea7b8e28d69ed99fcb284929364fd0f8024c2bca03ea96",
+        "title": "Will Bitcoin reach $80,000 by December 31, 2026?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+          "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
+          "0x6db983ff1cbc85249e64e6ccd101aaa613ba4ab5",
+          "0xa19cbababc312f9df185e49d7004c249ed1ade6b"
+        ],
+        "ranks": [
+          3,
+          9,
+          17,
+          18
+        ],
+        "total_value_usd": 138093.28,
+        "score": 11.5746,
+        "category": "Bitcoin",
+        "end_date": "2027-01-01",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0x55ae2f91bba959ea0ab4ecbbfa2eb3501a12fd5f7107f0d71415e76cbf9a7d11:0",
+        "condition_id": "0x55ae2f91bba959ea0ab4ecbbfa2eb3501a12fd5f7107f0d71415e76cbf9a7d11",
+        "title": "Will Bitcoin reach $82,500 in August?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+          "0x143732d8a06bd1596c694f7873cd493be80aacfe",
+          "0x6db983ff1cbc85249e64e6ccd101aaa613ba4ab5",
+          "0x027e587a1086809d1a00f22216bef6a808f1c97f"
+        ],
+        "ranks": [
+          3,
+          5,
+          17,
+          20
+        ],
+        "total_value_usd": 16011.12,
+        "score": 10.8794,
+        "category": "Bitcoin",
+        "end_date": "2026-09-01",
+        "entry_price": 0.0415
+      },
+      {
+        "signal_key": "0x1239389645c8a73b170b78ef3a83d69b6cf1d2711d412829ea8836660b08fc93:0",
+        "condition_id": "0x1239389645c8a73b170b78ef3a83d69b6cf1d2711d412829ea8836660b08fc93",
+        "title": "Will Bitcoin reach $85,000 by December 31, 2026?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+          "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
+          "0x6db983ff1cbc85249e64e6ccd101aaa613ba4ab5",
+          "0xa19cbababc312f9df185e49d7004c249ed1ade6b"
+        ],
+        "ranks": [
+          3,
+          9,
+          17,
+          18
+        ],
+        "total_value_usd": 48083.25,
+        "score": 10.5429,
+        "category": "Bitcoin",
+        "end_date": "2027-01-01",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0xbb379a14cd03f68c35c279ddbd928a6326f4fd2e21827f8cdaaf59715d6df50e:0",
+        "condition_id": "0xbb379a14cd03f68c35c279ddbd928a6326f4fd2e21827f8cdaaf59715d6df50e",
+        "title": "Will Bitcoin reach $90,000 by December 31, 2026?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+          "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
+          "0x6db983ff1cbc85249e64e6ccd101aaa613ba4ab5",
+          "0xa19cbababc312f9df185e49d7004c249ed1ade6b"
+        ],
+        "ranks": [
+          3,
+          9,
+          17,
+          18
+        ],
+        "total_value_usd": 23754.3,
+        "score": 9.8533,
+        "category": "Bitcoin",
+        "end_date": "2027-01-01",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0x10c4cebc5321a6aed969e702847cb2585eaddebbcf8e5f50cc7fffa450901252:1",
+        "condition_id": "0x10c4cebc5321a6aed969e702847cb2585eaddebbcf8e5f50cc7fffa450901252",
+        "title": "Will Bitcoin dip to $67,500 in August?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+          "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
+          "0x6db983ff1cbc85249e64e6ccd101aaa613ba4ab5",
+          "0xa19cbababc312f9df185e49d7004c249ed1ade6b"
+        ],
+        "ranks": [
+          3,
+          9,
+          17,
+          18
+        ],
+        "total_value_usd": 21350.23,
+        "score": 9.749,
+        "category": "Bitcoin",
+        "end_date": "2026-09-01",
+        "entry_price": 0.0415
+      },
+      {
+        "signal_key": "0x84fdc3f917e34acca874f93d978e84ed0c08969903ddf40a5d65274b3a5b4fdf:0",
+        "condition_id": "0x84fdc3f917e34acca874f93d978e84ed0c08969903ddf40a5d65274b3a5b4fdf",
+        "title": "Will Bitcoin reach $75,000 by December 31, 2026?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+          "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
+          "0xa19cbababc312f9df185e49d7004c249ed1ade6b"
+        ],
+        "ranks": [
+          3,
+          9,
+          18
+        ],
+        "total_value_usd": 38881.82,
+        "score": 9.2473,
+        "category": "Bitcoin",
+        "end_date": "2027-01-01",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0x7f668805bfee7909997562f60489ddef01e40a3dca43781efeb59ce380779295:0",
+        "condition_id": "0x7f668805bfee7909997562f60489ddef01e40a3dca43781efeb59ce380779295",
+        "title": "Will Bitcoin reach $85,000 in August?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+          "0x143732d8a06bd1596c694f7873cd493be80aacfe",
+          "0x6db983ff1cbc85249e64e6ccd101aaa613ba4ab5"
+        ],
+        "ranks": [
+          3,
+          5,
+          17
+        ],
+        "total_value_usd": 4868.35,
+        "score": 8.7987,
+        "category": "Bitcoin",
+        "end_date": "2026-09-01",
+        "entry_price": 0.0415
+      },
+      {
+        "signal_key": "0xacec7e5b90ccb1ac4c950e3aff18156d6ce1bb7b0c87c001a281279412dca784:0",
+        "condition_id": "0xacec7e5b90ccb1ac4c950e3aff18156d6ce1bb7b0c87c001a281279412dca784",
+        "title": "Will Bitcoin reach $95,000 by December 31, 2026?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7",
+          "0xcc500cbcc8b7cf5bd21975ebbea34f21b5644c82",
+          "0x6db983ff1cbc85249e64e6ccd101aaa613ba4ab5"
+        ],
+        "ranks": [
+          3,
+          9,
+          17
+        ],
+        "total_value_usd": 9724.17,
+        "score": 8.0872,
+        "category": "Bitcoin",
+        "end_date": "2027-01-01",
+        "entry_price": 0.0415
+      },
+      {
+        "signal_key": "0x4aef2ed87e7009c16dd67ddc8dfbe6fe60da07b5dd946c8fb2cce029dede1e27:1",
+        "condition_id": "0x4aef2ed87e7009c16dd67ddc8dfbe6fe60da07b5dd946c8fb2cce029dede1e27",
+        "title": "Washington Nationals vs. Texas Rangers",
+        "outcome": "Texas Rangers",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1",
+          "0x684baa57c338c2549aec0aa3f034f695d72a8409",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+        ],
+        "ranks": [
+          8,
+          11,
+          19
+        ],
+        "total_value_usd": 220421.17,
+        "score": 5.7819,
+        "category": "MLB",
+        "end_date": "2026-08-28",
+        "entry_price": 0.0415
+      }
+    ]
   }
 ]
