@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-22T20:31:52+00:00",
-  "total_signals": 1029,
+  "generated_at": "2026-08-22T20:54:30+00:00",
+  "total_signals": 1030,
   "total_resolved": 969,
   "total_correct": 608,
   "overall_hit_rate": 62.7,
   "by_tier": {
     "Strong": {
-      "total": 428,
+      "total": 429,
       "resolved": 411,
       "correct": 270,
       "hit_rate": 65.7
@@ -17513,6 +17513,23 @@
       "total_value_usd": 4518.43,
       "entry_price": 0.0415,
       "end_date": "2026-09-30",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x95959560144520f539cadad1509aaa3fc47e95aaeb1ade1849987ad5f1f6b58f:1",
+      "condition_id": "0x95959560144520f539cadad1509aaa3fc47e95aaeb1ade1849987ad5f1f6b58f",
+      "title": "Cincinnati Open: Jessica Pegula vs Iga Swiatek",
+      "category": "Tennis",
+      "whale_direction": "Iga Swiatek",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 25.297,
+      "total_value_usd": 343902.11,
+      "entry_price": 0.0415,
+      "end_date": "2026-08-29",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
