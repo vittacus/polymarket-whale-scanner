@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-22T23:23:15+00:00",
+  "generated_at": "2026-08-22T23:44:37+00:00",
   "total_signals": 1030,
-  "total_resolved": 969,
+  "total_resolved": 970,
   "total_correct": 608,
   "overall_hit_rate": 62.7,
   "by_tier": {
     "Strong": {
       "total": 429,
-      "resolved": 411,
+      "resolved": 412,
       "correct": 270,
-      "hit_rate": 65.7
+      "hit_rate": 65.5
     },
     "Moderate": {
       "total": 543,
@@ -17530,10 +17530,10 @@
       "total_value_usd": 343902.11,
       "entry_price": 0.0415,
       "end_date": "2026-08-29",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Jessica Pegula",
+      "resolved_date": "2026-08-29"
     }
   ]
 }
