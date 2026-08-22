@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-22T10:24:12+00:00",
-  "total_signals": 1028,
+  "generated_at": "2026-08-22T10:54:47+00:00",
+  "total_signals": 1029,
   "total_resolved": 969,
   "total_correct": 608,
   "overall_hit_rate": 62.7,
@@ -18,7 +18,7 @@
       "hit_rate": 61.6
     },
     "Weak": {
-      "total": 57,
+      "total": 58,
       "resolved": 55,
       "correct": 28,
       "hit_rate": 50.9
@@ -17500,6 +17500,23 @@
       "correct": false,
       "resolved_outcome": "Seattle Mariners",
       "resolved_date": "2026-08-29"
+    },
+    {
+      "signal_key": "0x502a94e5c525766d5ee7f16c6568131ba1b2cbadb69c703af05a6ef00336ed64:0",
+      "condition_id": "0x502a94e5c525766d5ee7f16c6568131ba1b2cbadb69c703af05a6ef00336ed64",
+      "title": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
+      "category": "International Election Props",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Weak",
+      "score": 2.89,
+      "total_value_usd": 4518.43,
+      "entry_price": 0.0415,
+      "end_date": "2026-09-30",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }

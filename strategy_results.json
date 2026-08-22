@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-22T10:24:12+00:00",
-  "total_evaluated": 1028,
-  "total_pending": 59,
+  "generated_at": "2026-08-22T10:54:47+00:00",
+  "total_evaluated": 1029,
+  "total_pending": 60,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1028,
+      "signals_evaluated": 1029,
       "correct": 608,
       "wrong": 361,
-      "pending": 59,
+      "pending": 60,
       "win_rate": 62.7,
       "signals": [
         {
@@ -14404,6 +14404,20 @@
           "end_date": "2026-08-29",
           "total_value_usd": 12363.5,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x502a94e5c525766d5ee7f16c6568131ba1b2cbadb69c703af05a6ef00336ed64:0",
+          "condition_id": "0x502a94e5c525766d5ee7f16c6568131ba1b2cbadb69c703af05a6ef00336ed64",
+          "title": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
+          "category": "International Election Props",
+          "tier": "Weak",
+          "entry_price": 0.0415,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-30",
+          "total_value_usd": 4518.43,
+          "result": "pending"
         }
       ]
     },
@@ -14411,10 +14425,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 358,
+      "signals_evaluated": 359,
       "correct": 206,
       "wrong": 122,
-      "pending": 30,
+      "pending": 31,
       "win_rate": 62.8,
       "signals": [
         {
@@ -19428,6 +19442,20 @@
           "end_date": "2026-08-29",
           "total_value_usd": 12363.5,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x502a94e5c525766d5ee7f16c6568131ba1b2cbadb69c703af05a6ef00336ed64:0",
+          "condition_id": "0x502a94e5c525766d5ee7f16c6568131ba1b2cbadb69c703af05a6ef00336ed64",
+          "title": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
+          "category": "International Election Props",
+          "tier": "Weak",
+          "entry_price": 0.0415,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-30",
+          "total_value_usd": 4518.43,
+          "result": "pending"
         }
       ]
     },
@@ -19435,10 +19463,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 358,
+      "signals_evaluated": 359,
       "correct": 122,
       "wrong": 206,
-      "pending": 30,
+      "pending": 31,
       "win_rate": 37.2,
       "signals": [
         {
@@ -24452,6 +24480,20 @@
           "end_date": "2026-08-29",
           "total_value_usd": 12363.5,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x502a94e5c525766d5ee7f16c6568131ba1b2cbadb69c703af05a6ef00336ed64:0",
+          "condition_id": "0x502a94e5c525766d5ee7f16c6568131ba1b2cbadb69c703af05a6ef00336ed64",
+          "title": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
+          "category": "International Election Props",
+          "tier": "Weak",
+          "entry_price": 0.0415,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-30",
+          "total_value_usd": 4518.43,
+          "result": "pending"
         }
       ]
     },
