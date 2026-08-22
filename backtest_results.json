@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-22T03:16:13+00:00",
+  "generated_at": "2026-08-22T04:03:21+00:00",
   "total_signals": 1026,
-  "total_resolved": 959,
-  "total_correct": 601,
+  "total_resolved": 965,
+  "total_correct": 605,
   "overall_hit_rate": 62.7,
   "by_tier": {
     "Strong": {
       "total": 428,
-      "resolved": 409,
+      "resolved": 410,
       "correct": 269,
-      "hit_rate": 65.8
+      "hit_rate": 65.6
     },
     "Moderate": {
       "total": 541,
-      "resolved": 495,
-      "correct": 304,
-      "hit_rate": 61.4
+      "resolved": 500,
+      "correct": 308,
+      "hit_rate": 61.6
     },
     "Weak": {
       "total": 57,
@@ -17343,10 +17343,10 @@
       "total_value_usd": 13631.41,
       "entry_price": 0.0415,
       "end_date": "2026-08-28",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Coco Gauff",
+      "resolved_date": "2026-08-28"
     },
     {
       "signal_key": "0x057ed43aaf1c19d0b6f01ae480df4892bb1fcb815454e1948ab645f3ee8aedc7:1",
@@ -17377,10 +17377,10 @@
       "total_value_usd": 42817.88,
       "entry_price": 0.0415,
       "end_date": "2026-08-28",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Coco Gauff",
+      "resolved_date": "2026-08-28"
     },
     {
       "signal_key": "0xf3b12d5fa4f48bcbcd7542a3e2e7a4490d1f77b314cd4aacd9f1ed3497f4b25e:0",
@@ -17394,10 +17394,10 @@
       "total_value_usd": 106170.77,
       "entry_price": 0.0415,
       "end_date": "2026-08-29",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Cleveland Guardians",
+      "resolved_date": "2026-08-29"
     },
     {
       "signal_key": "0x6bd9c069beb54dfc159c27c2727c85cce7122d5c063af5c8dc0642909992d70a:1",
@@ -17428,10 +17428,10 @@
       "total_value_usd": 73809.71,
       "entry_price": 0.0415,
       "end_date": "2026-08-29",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Texas Rangers",
+      "resolved_date": "2026-08-29"
     },
     {
       "signal_key": "0x4191c77486aa930049c2597614202118e41124face958dcc9f90a6db957ef187:1",
@@ -17445,10 +17445,10 @@
       "total_value_usd": 46917.56,
       "entry_price": 0.0415,
       "end_date": "2026-08-29",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Houston Astros",
+      "resolved_date": "2026-08-29"
     },
     {
       "signal_key": "0xc4dcbf5c358b7578464a95ee3b03da13680d88476ab0453134619dc8bb8d1451:1",
@@ -17462,10 +17462,10 @@
       "total_value_usd": 46670.04,
       "entry_price": 0.0415,
       "end_date": "2026-08-29",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Texas Rangers",
+      "resolved_date": "2026-08-29"
     }
   ]
 }

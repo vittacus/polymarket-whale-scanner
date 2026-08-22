@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-22T03:16:13+00:00",
+  "generated_at": "2026-08-22T04:03:21+00:00",
   "total_evaluated": 1026,
-  "total_pending": 67,
+  "total_pending": 61,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 1026,
-      "correct": 601,
-      "wrong": 358,
-      "pending": 67,
+      "correct": 605,
+      "wrong": 360,
+      "pending": 61,
       "win_rate": 62.7,
       "signals": [
         {
@@ -14273,11 +14273,11 @@
           "tier": "Strong",
           "entry_price": 0.0415,
           "whale_direction": "Marta Kostyuk",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Coco Gauff",
+          "resolved_date": "2026-08-28",
           "end_date": "2026-08-28",
           "total_value_usd": 13631.41,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x057ed43aaf1c19d0b6f01ae480df4892bb1fcb815454e1948ab645f3ee8aedc7:1",
@@ -14301,11 +14301,11 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "Coco Gauff",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Coco Gauff",
+          "resolved_date": "2026-08-28",
           "end_date": "2026-08-28",
           "total_value_usd": 42817.88,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf3b12d5fa4f48bcbcd7542a3e2e7a4490d1f77b314cd4aacd9f1ed3497f4b25e:0",
@@ -14315,11 +14315,11 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "Cleveland Guardians",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Cleveland Guardians",
+          "resolved_date": "2026-08-29",
           "end_date": "2026-08-29",
           "total_value_usd": 106170.77,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x6bd9c069beb54dfc159c27c2727c85cce7122d5c063af5c8dc0642909992d70a:1",
@@ -14343,11 +14343,11 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "Los Angeles Angels",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Texas Rangers",
+          "resolved_date": "2026-08-29",
           "end_date": "2026-08-29",
           "total_value_usd": 73809.71,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x4191c77486aa930049c2597614202118e41124face958dcc9f90a6db957ef187:1",
@@ -14357,11 +14357,11 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "Houston Astros",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Houston Astros",
+          "resolved_date": "2026-08-29",
           "end_date": "2026-08-29",
           "total_value_usd": 46917.56,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc4dcbf5c358b7578464a95ee3b03da13680d88476ab0453134619dc8bb8d1451:1",
@@ -14371,11 +14371,11 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "Texas Rangers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Texas Rangers",
+          "resolved_date": "2026-08-29",
           "end_date": "2026-08-29",
           "total_value_usd": 46670.04,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -14384,10 +14384,10 @@
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 356,
-      "correct": 199,
-      "wrong": 119,
-      "pending": 38,
-      "win_rate": 62.6,
+      "correct": 203,
+      "wrong": 121,
+      "pending": 32,
+      "win_rate": 62.7,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -19269,11 +19269,11 @@
           "tier": "Strong",
           "entry_price": 0.0415,
           "whale_direction": "Marta Kostyuk",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Coco Gauff",
+          "resolved_date": "2026-08-28",
           "end_date": "2026-08-28",
           "total_value_usd": 13631.41,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x057ed43aaf1c19d0b6f01ae480df4892bb1fcb815454e1948ab645f3ee8aedc7:1",
@@ -19297,11 +19297,11 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "Coco Gauff",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Coco Gauff",
+          "resolved_date": "2026-08-28",
           "end_date": "2026-08-28",
           "total_value_usd": 42817.88,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf3b12d5fa4f48bcbcd7542a3e2e7a4490d1f77b314cd4aacd9f1ed3497f4b25e:0",
@@ -19311,11 +19311,11 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "Cleveland Guardians",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Cleveland Guardians",
+          "resolved_date": "2026-08-29",
           "end_date": "2026-08-29",
           "total_value_usd": 106170.77,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x6bd9c069beb54dfc159c27c2727c85cce7122d5c063af5c8dc0642909992d70a:1",
@@ -19339,11 +19339,11 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "Los Angeles Angels",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Texas Rangers",
+          "resolved_date": "2026-08-29",
           "end_date": "2026-08-29",
           "total_value_usd": 73809.71,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x4191c77486aa930049c2597614202118e41124face958dcc9f90a6db957ef187:1",
@@ -19353,11 +19353,11 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "Houston Astros",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Houston Astros",
+          "resolved_date": "2026-08-29",
           "end_date": "2026-08-29",
           "total_value_usd": 46917.56,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc4dcbf5c358b7578464a95ee3b03da13680d88476ab0453134619dc8bb8d1451:1",
@@ -19367,11 +19367,11 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "Texas Rangers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Texas Rangers",
+          "resolved_date": "2026-08-29",
           "end_date": "2026-08-29",
           "total_value_usd": 46670.04,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -19380,10 +19380,10 @@
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 356,
-      "correct": 119,
-      "wrong": 199,
-      "pending": 38,
-      "win_rate": 37.4,
+      "correct": 121,
+      "wrong": 203,
+      "pending": 32,
+      "win_rate": 37.3,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -24265,11 +24265,11 @@
           "tier": "Strong",
           "entry_price": 0.0415,
           "whale_direction": "Marta Kostyuk",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Coco Gauff",
+          "resolved_date": "2026-08-28",
           "end_date": "2026-08-28",
           "total_value_usd": 13631.41,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x057ed43aaf1c19d0b6f01ae480df4892bb1fcb815454e1948ab645f3ee8aedc7:1",
@@ -24293,11 +24293,11 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "Coco Gauff",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Coco Gauff",
+          "resolved_date": "2026-08-28",
           "end_date": "2026-08-28",
           "total_value_usd": 42817.88,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xf3b12d5fa4f48bcbcd7542a3e2e7a4490d1f77b314cd4aacd9f1ed3497f4b25e:0",
@@ -24307,11 +24307,11 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "Cleveland Guardians",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Cleveland Guardians",
+          "resolved_date": "2026-08-29",
           "end_date": "2026-08-29",
           "total_value_usd": 106170.77,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x6bd9c069beb54dfc159c27c2727c85cce7122d5c063af5c8dc0642909992d70a:1",
@@ -24335,11 +24335,11 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "Los Angeles Angels",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Texas Rangers",
+          "resolved_date": "2026-08-29",
           "end_date": "2026-08-29",
           "total_value_usd": 73809.71,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x4191c77486aa930049c2597614202118e41124face958dcc9f90a6db957ef187:1",
@@ -24349,11 +24349,11 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "Houston Astros",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Houston Astros",
+          "resolved_date": "2026-08-29",
           "end_date": "2026-08-29",
           "total_value_usd": 46917.56,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xc4dcbf5c358b7578464a95ee3b03da13680d88476ab0453134619dc8bb8d1451:1",
@@ -24363,11 +24363,11 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "Texas Rangers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Texas Rangers",
+          "resolved_date": "2026-08-29",
           "end_date": "2026-08-29",
           "total_value_usd": 46670.04,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
