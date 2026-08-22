@@ -303006,5 +303006,295 @@
         "entry_price": 0.0415
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-22T03:07:36+00:00",
+    "whale_timeframes": {
+      "0x6d20c35f65d9899b6d6b74f8466e824580f9a165": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x682005011dd19c1e986cb060ed6ab83845f21c19": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbdea99acf04cb6863252d43b13db89d5c7681db5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2dc13c6bda81b202281e796953a7323de675b33c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x21ffd2b7a212a6f277ed3eca1a9f8efcbca90d71": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xaabec5bfb0c7e2516900c4066ae58073d59e9158": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x684baa57c338c2549aec0aa3f034f695d72a8409": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb859a551fcf56e49416160911476bea7307152f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x03805a13a0b3e058f55f6c6af95389d4f431073d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe4a785280932b1de883176e17284a4ad19194a1d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xaa7789219c17e180dcb5933099c90d885f1d15a5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8075693f48668a264b9fa313b47f52712fcc12b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa38a455bbdd4b68486548b7e19da99903f4f821d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x27f738fe203827445690339104aae35b20bc44b0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x057ed43aaf1c19d0b6f01ae480df4892bb1fcb815454e1948ab645f3ee8aedc7:1",
+        "condition_id": "0x057ed43aaf1c19d0b6f01ae480df4892bb1fcb815454e1948ab645f3ee8aedc7",
+        "title": "Minnesota Twins vs. San Diego Padres",
+        "outcome": "San Diego Padres",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705"
+        ],
+        "ranks": [
+          2,
+          8,
+          16
+        ],
+        "total_value_usd": 157091.27,
+        "score": 14.3949,
+        "category": "MLB",
+        "end_date": "2026-08-29",
+        "entry_price": 0.0415
+      },
+      {
+        "signal_key": "0x87ccad41c3c371e55d26316ce5bf47de07661564151d09a574a2370a965353da:0",
+        "condition_id": "0x87ccad41c3c371e55d26316ce5bf47de07661564151d09a574a2370a965353da",
+        "title": "Cincinnati Open: Coco Gauff vs Marta Kostyuk",
+        "outcome": "Coco Gauff",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xaa7789219c17e180dcb5933099c90d885f1d15a5"
+        ],
+        "ranks": [
+          3,
+          8,
+          17
+        ],
+        "total_value_usd": 42817.88,
+        "score": 9.6518,
+        "category": "Tennis",
+        "end_date": "2026-08-28",
+        "entry_price": 0.0415
+      },
+      {
+        "signal_key": "0xf3b12d5fa4f48bcbcd7542a3e2e7a4490d1f77b314cd4aacd9f1ed3497f4b25e:0",
+        "condition_id": "0xf3b12d5fa4f48bcbcd7542a3e2e7a4490d1f77b314cd4aacd9f1ed3497f4b25e",
+        "title": "Cleveland Guardians vs. Colorado Rockies",
+        "outcome": "Cleveland Guardians",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x2dc13c6bda81b202281e796953a7323de675b33c",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705",
+          "0xaa7789219c17e180dcb5933099c90d885f1d15a5"
+        ],
+        "ranks": [
+          6,
+          8,
+          16,
+          17
+        ],
+        "total_value_usd": 106170.77,
+        "score": 8.3641,
+        "category": "MLB",
+        "end_date": "2026-08-29",
+        "entry_price": 0.0415
+      },
+      {
+        "signal_key": "0x6bd9c069beb54dfc159c27c2727c85cce7122d5c063af5c8dc0642909992d70a:1",
+        "condition_id": "0x6bd9c069beb54dfc159c27c2727c85cce7122d5c063af5c8dc0642909992d70a",
+        "title": "Cincinnati Reds vs. Arizona Diamondbacks",
+        "outcome": "Arizona Diamondbacks",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705"
+        ],
+        "ranks": [
+          8,
+          9,
+          16
+        ],
+        "total_value_usd": 91960.0,
+        "score": 5.9725,
+        "category": "MLB",
+        "end_date": "2026-08-29",
+        "entry_price": 0.0415
+      },
+      {
+        "signal_key": "0xc4dcbf5c358b7578464a95ee3b03da13680d88476ab0453134619dc8bb8d1451:0",
+        "condition_id": "0xc4dcbf5c358b7578464a95ee3b03da13680d88476ab0453134619dc8bb8d1451",
+        "title": "Los Angeles Angels vs. Texas Rangers",
+        "outcome": "Los Angeles Angels",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705"
+        ],
+        "ranks": [
+          8,
+          9,
+          16
+        ],
+        "total_value_usd": 73809.71,
+        "score": 5.8576,
+        "category": "MLB",
+        "end_date": "2026-08-29",
+        "entry_price": 0.0415
+      },
+      {
+        "signal_key": "0x4191c77486aa930049c2597614202118e41124face958dcc9f90a6db957ef187:1",
+        "condition_id": "0x4191c77486aa930049c2597614202118e41124face958dcc9f90a6db957ef187",
+        "title": "Athletics vs. Houston Astros",
+        "outcome": "Houston Astros",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705"
+        ],
+        "ranks": [
+          8,
+          9,
+          16
+        ],
+        "total_value_usd": 46917.56,
+        "score": 5.6208,
+        "category": "MLB",
+        "end_date": "2026-08-29",
+        "entry_price": 0.0415
+      },
+      {
+        "signal_key": "0xc4dcbf5c358b7578464a95ee3b03da13680d88476ab0453134619dc8bb8d1451:1",
+        "condition_id": "0xc4dcbf5c358b7578464a95ee3b03da13680d88476ab0453134619dc8bb8d1451",
+        "title": "Los Angeles Angels vs. Texas Rangers",
+        "outcome": "Texas Rangers",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x684baa57c338c2549aec0aa3f034f695d72a8409",
+          "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705"
+        ],
+        "ranks": [
+          8,
+          12,
+          16
+        ],
+        "total_value_usd": 46670.04,
+        "score": 5.0955,
+        "category": "MLB",
+        "end_date": "2026-08-29",
+        "entry_price": 0.0415
+      }
+    ]
   }
 ]
