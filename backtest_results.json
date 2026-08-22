@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-22T01:02:13+00:00",
-  "total_signals": 1016,
+  "generated_at": "2026-08-22T02:21:10+00:00",
+  "total_signals": 1019,
   "total_resolved": 957,
   "total_correct": 599,
   "overall_hit_rate": 62.6,
   "by_tier": {
     "Strong": {
-      "total": 424,
+      "total": 427,
       "resolved": 407,
       "correct": 267,
       "hit_rate": 65.6
@@ -17296,6 +17296,57 @@
       "correct": false,
       "resolved_outcome": "Milwaukee Brewers",
       "resolved_date": "2026-08-28"
+    },
+    {
+      "signal_key": "0x5af5a85da78e14e828e69b1caae695ccef18808a457ae4080efa98a49ac9877f:1",
+      "condition_id": "0x5af5a85da78e14e828e69b1caae695ccef18808a457ae4080efa98a49ac9877f",
+      "title": "Washington Nationals vs. Miami Marlins",
+      "category": "MLB",
+      "whale_direction": "Miami Marlins",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 38.9909,
+      "total_value_usd": 233281.17,
+      "entry_price": 0.0415,
+      "end_date": "2026-08-28",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x2fe63f62deef7ad73f813116ce3b753b8db6934cf294748d6ee5b6ff746d2171:1",
+      "condition_id": "0x2fe63f62deef7ad73f813116ce3b753b8db6934cf294748d6ee5b6ff746d2171",
+      "title": "Detroit Tigers vs. Kansas City Royals",
+      "category": "MLB",
+      "whale_direction": "Kansas City Royals",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 23.2005,
+      "total_value_usd": 151445.22,
+      "entry_price": 0.0415,
+      "end_date": "2026-08-29",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x87ccad41c3c371e55d26316ce5bf47de07661564151d09a574a2370a965353da:1",
+      "condition_id": "0x87ccad41c3c371e55d26316ce5bf47de07661564151d09a574a2370a965353da",
+      "title": "Cincinnati Open: Coco Gauff vs Marta Kostyuk",
+      "category": "Tennis",
+      "whale_direction": "Marta Kostyuk",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 12.3763,
+      "total_value_usd": 13631.41,
+      "entry_price": 0.0415,
+      "end_date": "2026-08-28",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }

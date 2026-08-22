@@ -302808,5 +302808,203 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-08-22T02:12:52+00:00",
+    "whale_timeframes": {
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x682005011dd19c1e986cb060ed6ab83845f21c19": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbdea99acf04cb6863252d43b13db89d5c7681db5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2dc13c6bda81b202281e796953a7323de675b33c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb859a551fcf56e49416160911476bea7307152f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0d18e30e252008d83f51dae00d36873ddd9e24a6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0f35109cc3ceaf729609c3109310791bd616c84a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x03805a13a0b3e058f55f6c6af95389d4f431073d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe4a785280932b1de883176e17284a4ad19194a1d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x782186952ef2ca75ea91c95aef25bbdcffb4bb1a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x21ffd2b7a212a6f277ed3eca1a9f8efcbca90d71": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8075693f48668a264b9fa313b47f52712fcc12b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x27f738fe203827445690339104aae35b20bc44b0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x95b198f900d19a80d3d7e47b7b17708af254f9ac": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x5af5a85da78e14e828e69b1caae695ccef18808a457ae4080efa98a49ac9877f:1",
+        "condition_id": "0x5af5a85da78e14e828e69b1caae695ccef18808a457ae4080efa98a49ac9877f",
+        "title": "Washington Nationals vs. Miami Marlins",
+        "outcome": "Miami Marlins",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          1,
+          2,
+          4,
+          19
+        ],
+        "total_value_usd": 233281.17,
+        "score": 38.9909,
+        "category": "MLB",
+        "end_date": "2026-08-28",
+        "entry_price": 0.0415
+      },
+      {
+        "signal_key": "0x2fe63f62deef7ad73f813116ce3b753b8db6934cf294748d6ee5b6ff746d2171:1",
+        "condition_id": "0x2fe63f62deef7ad73f813116ce3b753b8db6934cf294748d6ee5b6ff746d2171",
+        "title": "Detroit Tigers vs. Kansas City Royals",
+        "outcome": "Kansas City Royals",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1",
+          "0xc8075693f48668a264b9fa313b47f52712fcc12b",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          1,
+          17,
+          19
+        ],
+        "total_value_usd": 151445.22,
+        "score": 23.2005,
+        "category": "MLB",
+        "end_date": "2026-08-29",
+        "entry_price": 0.0415
+      },
+      {
+        "signal_key": "0x87ccad41c3c371e55d26316ce5bf47de07661564151d09a574a2370a965353da:1",
+        "condition_id": "0x87ccad41c3c371e55d26316ce5bf47de07661564151d09a574a2370a965353da",
+        "title": "Cincinnati Open: Coco Gauff vs Marta Kostyuk",
+        "outcome": "Marta Kostyuk",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0xdb859a551fcf56e49416160911476bea7307152f"
+        ],
+        "ranks": [
+          2,
+          7,
+          10
+        ],
+        "total_value_usd": 13631.41,
+        "score": 12.3763,
+        "category": "Tennis",
+        "end_date": "2026-08-28",
+        "entry_price": 0.0415
+      }
+    ]
   }
 ]

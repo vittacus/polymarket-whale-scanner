@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-22T01:02:13+00:00",
-  "total_evaluated": 1016,
-  "total_pending": 59,
+  "generated_at": "2026-08-22T02:21:10+00:00",
+  "total_evaluated": 1019,
+  "total_pending": 62,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1016,
+      "signals_evaluated": 1019,
       "correct": 599,
       "wrong": 358,
-      "pending": 59,
+      "pending": 62,
       "win_rate": 62.6,
       "signals": [
         {
@@ -14236,6 +14236,48 @@
           "end_date": "2026-08-28",
           "total_value_usd": 14468.65,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x5af5a85da78e14e828e69b1caae695ccef18808a457ae4080efa98a49ac9877f:1",
+          "condition_id": "0x5af5a85da78e14e828e69b1caae695ccef18808a457ae4080efa98a49ac9877f",
+          "title": "Washington Nationals vs. Miami Marlins",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0415,
+          "whale_direction": "Miami Marlins",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-28",
+          "total_value_usd": 233281.17,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x2fe63f62deef7ad73f813116ce3b753b8db6934cf294748d6ee5b6ff746d2171:1",
+          "condition_id": "0x2fe63f62deef7ad73f813116ce3b753b8db6934cf294748d6ee5b6ff746d2171",
+          "title": "Detroit Tigers vs. Kansas City Royals",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0415,
+          "whale_direction": "Kansas City Royals",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-29",
+          "total_value_usd": 151445.22,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x87ccad41c3c371e55d26316ce5bf47de07661564151d09a574a2370a965353da:1",
+          "condition_id": "0x87ccad41c3c371e55d26316ce5bf47de07661564151d09a574a2370a965353da",
+          "title": "Cincinnati Open: Coco Gauff vs Marta Kostyuk",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0415,
+          "whale_direction": "Marta Kostyuk",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-28",
+          "total_value_usd": 13631.41,
+          "result": "pending"
         }
       ]
     },
@@ -14243,10 +14285,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 346,
+      "signals_evaluated": 349,
       "correct": 197,
       "wrong": 119,
-      "pending": 30,
+      "pending": 33,
       "win_rate": 62.3,
       "signals": [
         {
@@ -19092,6 +19134,48 @@
           "end_date": "2026-08-28",
           "total_value_usd": 14468.65,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x5af5a85da78e14e828e69b1caae695ccef18808a457ae4080efa98a49ac9877f:1",
+          "condition_id": "0x5af5a85da78e14e828e69b1caae695ccef18808a457ae4080efa98a49ac9877f",
+          "title": "Washington Nationals vs. Miami Marlins",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0415,
+          "whale_direction": "Miami Marlins",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-28",
+          "total_value_usd": 233281.17,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x2fe63f62deef7ad73f813116ce3b753b8db6934cf294748d6ee5b6ff746d2171:1",
+          "condition_id": "0x2fe63f62deef7ad73f813116ce3b753b8db6934cf294748d6ee5b6ff746d2171",
+          "title": "Detroit Tigers vs. Kansas City Royals",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0415,
+          "whale_direction": "Kansas City Royals",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-29",
+          "total_value_usd": 151445.22,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x87ccad41c3c371e55d26316ce5bf47de07661564151d09a574a2370a965353da:1",
+          "condition_id": "0x87ccad41c3c371e55d26316ce5bf47de07661564151d09a574a2370a965353da",
+          "title": "Cincinnati Open: Coco Gauff vs Marta Kostyuk",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0415,
+          "whale_direction": "Marta Kostyuk",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-28",
+          "total_value_usd": 13631.41,
+          "result": "pending"
         }
       ]
     },
@@ -19099,10 +19183,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 346,
+      "signals_evaluated": 349,
       "correct": 119,
       "wrong": 197,
-      "pending": 30,
+      "pending": 33,
       "win_rate": 37.7,
       "signals": [
         {
@@ -23948,6 +24032,48 @@
           "end_date": "2026-08-28",
           "total_value_usd": 14468.65,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x5af5a85da78e14e828e69b1caae695ccef18808a457ae4080efa98a49ac9877f:1",
+          "condition_id": "0x5af5a85da78e14e828e69b1caae695ccef18808a457ae4080efa98a49ac9877f",
+          "title": "Washington Nationals vs. Miami Marlins",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0415,
+          "whale_direction": "Miami Marlins",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-28",
+          "total_value_usd": 233281.17,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x2fe63f62deef7ad73f813116ce3b753b8db6934cf294748d6ee5b6ff746d2171:1",
+          "condition_id": "0x2fe63f62deef7ad73f813116ce3b753b8db6934cf294748d6ee5b6ff746d2171",
+          "title": "Detroit Tigers vs. Kansas City Royals",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0415,
+          "whale_direction": "Kansas City Royals",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-29",
+          "total_value_usd": 151445.22,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x87ccad41c3c371e55d26316ce5bf47de07661564151d09a574a2370a965353da:1",
+          "condition_id": "0x87ccad41c3c371e55d26316ce5bf47de07661564151d09a574a2370a965353da",
+          "title": "Cincinnati Open: Coco Gauff vs Marta Kostyuk",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0415,
+          "whale_direction": "Marta Kostyuk",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-28",
+          "total_value_usd": 13631.41,
+          "result": "pending"
         }
       ]
     },
