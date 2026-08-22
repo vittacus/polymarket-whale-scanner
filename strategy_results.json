@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-22T04:35:51+00:00",
-  "total_evaluated": 1027,
+  "generated_at": "2026-08-22T05:06:47+00:00",
+  "total_evaluated": 1028,
   "total_pending": 61,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1027,
-      "correct": 606,
+      "signals_evaluated": 1028,
+      "correct": 607,
       "wrong": 360,
       "pending": 61,
-      "win_rate": 62.7,
+      "win_rate": 62.8,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -14329,11 +14329,11 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "Arizona Diamondbacks",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Arizona Diamondbacks",
+          "resolved_date": "2026-08-29",
           "end_date": "2026-08-29",
           "total_value_usd": 91960.0,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc4dcbf5c358b7578464a95ee3b03da13680d88476ab0453134619dc8bb8d1451:0",
@@ -14389,6 +14389,20 @@
           "resolved_date": null,
           "end_date": "2026-08-29",
           "total_value_usd": 76643.73,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x3b22237a10dc074ddb43b6b0f408465f3765f05d97c856a70df4ff1da7722c01:0",
+          "condition_id": "0x3b22237a10dc074ddb43b6b0f408465f3765f05d97c856a70df4ff1da7722c01",
+          "title": "Chicago Cubs vs. Seattle Mariners",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0415,
+          "whale_direction": "Chicago Cubs",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-29",
+          "total_value_usd": 12363.5,
           "result": "pending"
         }
       ]
@@ -14397,11 +14411,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 357,
-      "correct": 204,
+      "signals_evaluated": 358,
+      "correct": 205,
       "wrong": 121,
       "pending": 32,
-      "win_rate": 62.8,
+      "win_rate": 62.9,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -19339,11 +19353,11 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "Arizona Diamondbacks",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Arizona Diamondbacks",
+          "resolved_date": "2026-08-29",
           "end_date": "2026-08-29",
           "total_value_usd": 91960.0,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc4dcbf5c358b7578464a95ee3b03da13680d88476ab0453134619dc8bb8d1451:0",
@@ -19399,6 +19413,20 @@
           "resolved_date": null,
           "end_date": "2026-08-29",
           "total_value_usd": 76643.73,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x3b22237a10dc074ddb43b6b0f408465f3765f05d97c856a70df4ff1da7722c01:0",
+          "condition_id": "0x3b22237a10dc074ddb43b6b0f408465f3765f05d97c856a70df4ff1da7722c01",
+          "title": "Chicago Cubs vs. Seattle Mariners",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0415,
+          "whale_direction": "Chicago Cubs",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-29",
+          "total_value_usd": 12363.5,
           "result": "pending"
         }
       ]
@@ -19407,11 +19435,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 357,
+      "signals_evaluated": 358,
       "correct": 121,
-      "wrong": 204,
+      "wrong": 205,
       "pending": 32,
-      "win_rate": 37.2,
+      "win_rate": 37.1,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -24349,11 +24377,11 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "Arizona Diamondbacks",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Arizona Diamondbacks",
+          "resolved_date": "2026-08-29",
           "end_date": "2026-08-29",
           "total_value_usd": 91960.0,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xc4dcbf5c358b7578464a95ee3b03da13680d88476ab0453134619dc8bb8d1451:0",
@@ -24409,6 +24437,20 @@
           "resolved_date": null,
           "end_date": "2026-08-29",
           "total_value_usd": 76643.73,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x3b22237a10dc074ddb43b6b0f408465f3765f05d97c856a70df4ff1da7722c01:0",
+          "condition_id": "0x3b22237a10dc074ddb43b6b0f408465f3765f05d97c856a70df4ff1da7722c01",
+          "title": "Chicago Cubs vs. Seattle Mariners",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0415,
+          "whale_direction": "Chicago Cubs",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-08-29",
+          "total_value_usd": 12363.5,
           "result": "pending"
         }
       ]
