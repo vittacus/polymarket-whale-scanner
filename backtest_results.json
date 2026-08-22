@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-22T04:03:21+00:00",
-  "total_signals": 1026,
-  "total_resolved": 965,
-  "total_correct": 605,
+  "generated_at": "2026-08-22T04:35:51+00:00",
+  "total_signals": 1027,
+  "total_resolved": 966,
+  "total_correct": 606,
   "overall_hit_rate": 62.7,
   "by_tier": {
     "Strong": {
       "total": 428,
-      "resolved": 410,
-      "correct": 269,
-      "hit_rate": 65.6
+      "resolved": 411,
+      "correct": 270,
+      "hit_rate": 65.7
     },
     "Moderate": {
-      "total": 541,
+      "total": 542,
       "resolved": 500,
       "correct": 308,
       "hit_rate": 61.6
@@ -17360,10 +17360,10 @@
       "total_value_usd": 157091.27,
       "entry_price": 0.0415,
       "end_date": "2026-08-29",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "San Diego Padres",
+      "resolved_date": "2026-08-29"
     },
     {
       "signal_key": "0x87ccad41c3c371e55d26316ce5bf47de07661564151d09a574a2370a965353da:0",
@@ -17466,6 +17466,23 @@
       "correct": true,
       "resolved_outcome": "Texas Rangers",
       "resolved_date": "2026-08-29"
+    },
+    {
+      "signal_key": "0x6721ec036f23579c2222fa6af2c2e807e8b28796ff73fea0c8fe0542cf6da9fa:1",
+      "condition_id": "0x6721ec036f23579c2222fa6af2c2e807e8b28796ff73fea0c8fe0542cf6da9fa",
+      "title": "Pittsburgh Pirates vs. Los Angeles Dodgers",
+      "category": "MLB",
+      "whale_direction": "Los Angeles Dodgers",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 5.0572,
+      "total_value_usd": 76643.73,
+      "entry_price": 0.0415,
+      "end_date": "2026-08-29",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
