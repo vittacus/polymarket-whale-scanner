@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-23T03:42:17+00:00",
+  "generated_at": "2026-08-23T04:29:38+00:00",
   "total_signals": 1038,
-  "total_resolved": 977,
+  "total_resolved": 978,
   "total_correct": 613,
   "overall_hit_rate": 62.7,
   "by_tier": {
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 549,
-      "resolved": 508,
+      "resolved": 509,
       "correct": 314,
-      "hit_rate": 61.8
+      "hit_rate": 61.7
     },
     "Weak": {
       "total": 58,
@@ -17598,10 +17598,10 @@
       "total_value_usd": 88005.23,
       "entry_price": 0.0425,
       "end_date": "2026-08-30",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "San Diego Padres",
+      "resolved_date": "2026-08-30"
     },
     {
       "signal_key": "0x7c624dd1e39436bd2d4505cb6a0f59ab60ac06ab614b6232990c42f928dd46a6:1",
