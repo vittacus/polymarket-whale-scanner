@@ -310023,5 +310023,169 @@
         "entry_price": 0.0425
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-23T02:36:27+00:00",
+    "whale_timeframes": {
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf5f92940519a72da460b1c2a606bc1230f0e87b0": [
+        "All",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4ab9b54427ec4b7f3646b1a0ef1bed73bc708ebe": [
+        "All",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc3acf5878a03523d09a3ac859943445d7baeb964": [
+        "All",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3d8a89a20aa73fba0f30d080e8120de9f9555724": [
+        "All",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb859a551fcf56e49416160911476bea7307152f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x684baa57c338c2549aec0aa3f034f695d72a8409": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc2e7800b5af46e6093872b177b7a5e7f0563be51": [
+        "All",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0f35109cc3ceaf729609c3109310791bd616c84a": [
+        "All",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7523cafcee7bcf2db9a79d80e0d79b88a9a54c4c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xce363bb68fb796127322843b4e1848c98b442b99": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Weekly",
+        "Daily"
+      ],
+      "0x782186952ef2ca75ea91c95aef25bbdcffb4bb1a": [
+        "All",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x12d370c2fe98c01985766e990a1a84319fc01dc8c8fb1d62af4d34a0c309421f:0",
+        "condition_id": "0x12d370c2fe98c01985766e990a1a84319fc01dc8c8fb1d62af4d34a0c309421f",
+        "title": "New York Mets vs. Chicago White Sox",
+        "outcome": "New York Mets",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0xc3acf5878a03523d09a3ac859943445d7baeb964",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf"
+        ],
+        "ranks": [
+          4,
+          8,
+          13,
+          19
+        ],
+        "total_value_usd": 137391.39,
+        "score": 9.9207,
+        "category": "MLB",
+        "end_date": "2026-08-29",
+        "entry_price": 0.0415
+      },
+      {
+        "signal_key": "0x3be37f3f6d2e5b25636d3bd3bd122e89c50e09b3e17a35718dcad41b8f4dc1f4:0",
+        "condition_id": "0x3be37f3f6d2e5b25636d3bd3bd122e89c50e09b3e17a35718dcad41b8f4dc1f4",
+        "title": "Minnesota Twins vs. San Diego Padres",
+        "outcome": "Minnesota Twins",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x684baa57c338c2549aec0aa3f034f695d72a8409",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf"
+        ],
+        "ranks": [
+          4,
+          12,
+          19
+        ],
+        "total_value_usd": 120597.82,
+        "score": 7.7488,
+        "category": "MLB",
+        "end_date": "2026-08-30",
+        "entry_price": 0.0425
+      }
+    ]
   }
 ]

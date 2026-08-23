@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-23T01:14:46+00:00",
-  "total_evaluated": 1037,
-  "total_pending": 67,
+  "generated_at": "2026-08-23T02:45:26+00:00",
+  "total_evaluated": 1038,
+  "total_pending": 62,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1037,
-      "correct": 608,
-      "wrong": 362,
-      "pending": 67,
+      "signals_evaluated": 1038,
+      "correct": 612,
+      "wrong": 364,
+      "pending": 62,
       "win_rate": 62.7,
       "signals": [
         {
@@ -14441,11 +14441,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Tampa Bay Rays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Baltimore Orioles",
+          "resolved_date": "2026-08-29",
           "end_date": "2026-08-29",
           "total_value_usd": 674851.15,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x8c8959d62407bb686db709801c421fabbfb895a3b527762a956f9405e74f32ba:1",
@@ -14455,11 +14455,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Frances Tiafoe",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Frances Tiafoe",
+          "resolved_date": "2026-08-29",
           "end_date": "2026-08-29",
           "total_value_usd": 347847.12,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x0235a1bf063ee72029bfca7e13c38e640d1b13f7961f36d85ed2f0859a55ee10:1",
@@ -14469,11 +14469,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Baltimore Orioles",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Baltimore Orioles",
+          "resolved_date": "2026-08-29",
           "end_date": "2026-08-29",
           "total_value_usd": 23109.82,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x3be37f3f6d2e5b25636d3bd3bd122e89c50e09b3e17a35718dcad41b8f4dc1f4:0",
@@ -14497,11 +14497,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Kansas City Royals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Kansas City Royals",
+          "resolved_date": "2026-08-29",
           "end_date": "2026-08-29",
           "total_value_usd": 57618.68,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x11d0c2ade173f63c6b2c71a86196bf07027cd1b76339e7e0e3f2ab302564bfec:1",
@@ -14511,11 +14511,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Dodgers",
+          "resolved_date": "2026-08-29",
           "end_date": "2026-08-29",
           "total_value_usd": 18048.26,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc6d59b7dbd2f3a053e2304886660b8bf76b8ee2b59adf7bc597d45831bf6cbc5:0",
@@ -14525,10 +14525,24 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Chicago Cubs",
+          "resolved_outcome": "Seattle Mariners",
+          "resolved_date": "2026-08-29",
+          "end_date": "2026-08-29",
+          "total_value_usd": 24483.79,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x12d370c2fe98c01985766e990a1a84319fc01dc8c8fb1d62af4d34a0c309421f:0",
+          "condition_id": "0x12d370c2fe98c01985766e990a1a84319fc01dc8c8fb1d62af4d34a0c309421f",
+          "title": "New York Mets vs. Chicago White Sox",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0415,
+          "whale_direction": "New York Mets",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-08-29",
-          "total_value_usd": 24483.79,
+          "total_value_usd": 137391.39,
           "result": "pending"
         }
       ]
@@ -14537,11 +14551,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 367,
-      "correct": 206,
-      "wrong": 123,
-      "pending": 38,
-      "win_rate": 62.6,
+      "signals_evaluated": 368,
+      "correct": 210,
+      "wrong": 125,
+      "pending": 33,
+      "win_rate": 62.7,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -19591,11 +19605,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Tampa Bay Rays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Baltimore Orioles",
+          "resolved_date": "2026-08-29",
           "end_date": "2026-08-29",
           "total_value_usd": 674851.15,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x8c8959d62407bb686db709801c421fabbfb895a3b527762a956f9405e74f32ba:1",
@@ -19605,11 +19619,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Frances Tiafoe",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Frances Tiafoe",
+          "resolved_date": "2026-08-29",
           "end_date": "2026-08-29",
           "total_value_usd": 347847.12,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x0235a1bf063ee72029bfca7e13c38e640d1b13f7961f36d85ed2f0859a55ee10:1",
@@ -19619,11 +19633,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Baltimore Orioles",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Baltimore Orioles",
+          "resolved_date": "2026-08-29",
           "end_date": "2026-08-29",
           "total_value_usd": 23109.82,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x3be37f3f6d2e5b25636d3bd3bd122e89c50e09b3e17a35718dcad41b8f4dc1f4:0",
@@ -19647,11 +19661,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Kansas City Royals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Kansas City Royals",
+          "resolved_date": "2026-08-29",
           "end_date": "2026-08-29",
           "total_value_usd": 57618.68,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x11d0c2ade173f63c6b2c71a86196bf07027cd1b76339e7e0e3f2ab302564bfec:1",
@@ -19661,11 +19675,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Dodgers",
+          "resolved_date": "2026-08-29",
           "end_date": "2026-08-29",
           "total_value_usd": 18048.26,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc6d59b7dbd2f3a053e2304886660b8bf76b8ee2b59adf7bc597d45831bf6cbc5:0",
@@ -19675,10 +19689,24 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Chicago Cubs",
+          "resolved_outcome": "Seattle Mariners",
+          "resolved_date": "2026-08-29",
+          "end_date": "2026-08-29",
+          "total_value_usd": 24483.79,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x12d370c2fe98c01985766e990a1a84319fc01dc8c8fb1d62af4d34a0c309421f:0",
+          "condition_id": "0x12d370c2fe98c01985766e990a1a84319fc01dc8c8fb1d62af4d34a0c309421f",
+          "title": "New York Mets vs. Chicago White Sox",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0415,
+          "whale_direction": "New York Mets",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-08-29",
-          "total_value_usd": 24483.79,
+          "total_value_usd": 137391.39,
           "result": "pending"
         }
       ]
@@ -19687,11 +19715,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 367,
-      "correct": 123,
-      "wrong": 206,
-      "pending": 38,
-      "win_rate": 37.4,
+      "signals_evaluated": 368,
+      "correct": 125,
+      "wrong": 210,
+      "pending": 33,
+      "win_rate": 37.3,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -24741,11 +24769,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Tampa Bay Rays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Baltimore Orioles",
+          "resolved_date": "2026-08-29",
           "end_date": "2026-08-29",
           "total_value_usd": 674851.15,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x8c8959d62407bb686db709801c421fabbfb895a3b527762a956f9405e74f32ba:1",
@@ -24755,11 +24783,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Frances Tiafoe",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Frances Tiafoe",
+          "resolved_date": "2026-08-29",
           "end_date": "2026-08-29",
           "total_value_usd": 347847.12,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x0235a1bf063ee72029bfca7e13c38e640d1b13f7961f36d85ed2f0859a55ee10:1",
@@ -24769,11 +24797,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Baltimore Orioles",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Baltimore Orioles",
+          "resolved_date": "2026-08-29",
           "end_date": "2026-08-29",
           "total_value_usd": 23109.82,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x3be37f3f6d2e5b25636d3bd3bd122e89c50e09b3e17a35718dcad41b8f4dc1f4:0",
@@ -24797,11 +24825,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Kansas City Royals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Kansas City Royals",
+          "resolved_date": "2026-08-29",
           "end_date": "2026-08-29",
           "total_value_usd": 57618.68,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x11d0c2ade173f63c6b2c71a86196bf07027cd1b76339e7e0e3f2ab302564bfec:1",
@@ -24811,11 +24839,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Dodgers",
+          "resolved_date": "2026-08-29",
           "end_date": "2026-08-29",
           "total_value_usd": 18048.26,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xc6d59b7dbd2f3a053e2304886660b8bf76b8ee2b59adf7bc597d45831bf6cbc5:0",
@@ -24825,10 +24853,24 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Chicago Cubs",
+          "resolved_outcome": "Seattle Mariners",
+          "resolved_date": "2026-08-29",
+          "end_date": "2026-08-29",
+          "total_value_usd": 24483.79,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x12d370c2fe98c01985766e990a1a84319fc01dc8c8fb1d62af4d34a0c309421f:0",
+          "condition_id": "0x12d370c2fe98c01985766e990a1a84319fc01dc8c8fb1d62af4d34a0c309421f",
+          "title": "New York Mets vs. Chicago White Sox",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0415,
+          "whale_direction": "New York Mets",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-08-29",
-          "total_value_usd": 24483.79,
+          "total_value_usd": 137391.39,
           "result": "pending"
         }
       ]
@@ -24839,9 +24881,9 @@
       "hypothesis": "Signals where total position size exceeds $500k represent the highest-conviction whale bets. When top traders put serious capital behind a position, that's a qualitatively different signal from a small stake. This filters for only the highest-conviction consensus calls to test whether size predicts accuracy.",
       "signals_evaluated": 32,
       "correct": 19,
-      "wrong": 8,
-      "pending": 5,
-      "win_rate": 70.4,
+      "wrong": 9,
+      "pending": 4,
+      "win_rate": 67.9,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -25285,11 +25327,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Tampa Bay Rays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Baltimore Orioles",
+          "resolved_date": "2026-08-29",
           "end_date": "2026-08-29",
           "total_value_usd": 674851.15,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     }

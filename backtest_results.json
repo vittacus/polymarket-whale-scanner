@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-23T01:14:46+00:00",
-  "total_signals": 1037,
-  "total_resolved": 970,
-  "total_correct": 608,
+  "generated_at": "2026-08-23T02:45:26+00:00",
+  "total_signals": 1038,
+  "total_resolved": 976,
+  "total_correct": 612,
   "overall_hit_rate": 62.7,
   "by_tier": {
     "Strong": {
       "total": 431,
-      "resolved": 412,
-      "correct": 270,
+      "resolved": 414,
+      "correct": 271,
       "hit_rate": 65.5
     },
     "Moderate": {
-      "total": 548,
-      "resolved": 503,
-      "correct": 310,
-      "hit_rate": 61.6
+      "total": 549,
+      "resolved": 507,
+      "correct": 313,
+      "hit_rate": 61.7
     },
     "Weak": {
       "total": 58,
@@ -17547,10 +17547,10 @@
       "total_value_usd": 674851.15,
       "entry_price": 0.0425,
       "end_date": "2026-08-29",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Baltimore Orioles",
+      "resolved_date": "2026-08-29"
     },
     {
       "signal_key": "0x8c8959d62407bb686db709801c421fabbfb895a3b527762a956f9405e74f32ba:1",
@@ -17564,10 +17564,10 @@
       "total_value_usd": 347847.12,
       "entry_price": 0.0425,
       "end_date": "2026-08-29",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Frances Tiafoe",
+      "resolved_date": "2026-08-29"
     },
     {
       "signal_key": "0x0235a1bf063ee72029bfca7e13c38e640d1b13f7961f36d85ed2f0859a55ee10:1",
@@ -17581,10 +17581,10 @@
       "total_value_usd": 23109.82,
       "entry_price": 0.0425,
       "end_date": "2026-08-29",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Baltimore Orioles",
+      "resolved_date": "2026-08-29"
     },
     {
       "signal_key": "0x3be37f3f6d2e5b25636d3bd3bd122e89c50e09b3e17a35718dcad41b8f4dc1f4:0",
@@ -17615,10 +17615,10 @@
       "total_value_usd": 57618.68,
       "entry_price": 0.0425,
       "end_date": "2026-08-29",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Kansas City Royals",
+      "resolved_date": "2026-08-29"
     },
     {
       "signal_key": "0x11d0c2ade173f63c6b2c71a86196bf07027cd1b76339e7e0e3f2ab302564bfec:1",
@@ -17632,10 +17632,10 @@
       "total_value_usd": 18048.26,
       "entry_price": 0.0425,
       "end_date": "2026-08-29",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Los Angeles Dodgers",
+      "resolved_date": "2026-08-29"
     },
     {
       "signal_key": "0xc6d59b7dbd2f3a053e2304886660b8bf76b8ee2b59adf7bc597d45831bf6cbc5:0",
@@ -17648,6 +17648,23 @@
       "score": 4.8294,
       "total_value_usd": 24483.79,
       "entry_price": 0.0425,
+      "end_date": "2026-08-29",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Seattle Mariners",
+      "resolved_date": "2026-08-29"
+    },
+    {
+      "signal_key": "0x12d370c2fe98c01985766e990a1a84319fc01dc8c8fb1d62af4d34a0c309421f:0",
+      "condition_id": "0x12d370c2fe98c01985766e990a1a84319fc01dc8c8fb1d62af4d34a0c309421f",
+      "title": "New York Mets vs. Chicago White Sox",
+      "category": "MLB",
+      "whale_direction": "New York Mets",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 9.9207,
+      "total_value_usd": 137391.39,
+      "entry_price": 0.0415,
       "end_date": "2026-08-29",
       "resolved": false,
       "correct": null,
