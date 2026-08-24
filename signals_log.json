@@ -320430,5 +320430,180 @@
         "entry_price": 0.0485
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-24T23:17:18+00:00",
+    "whale_timeframes": {
+      "0x2ba6c2c20075a5c5f6996dd32f080e5d005e644c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6d20c35f65d9899b6d6b74f8466e824580f9a165": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x34dd4a4b70eaf79a17878f7938263c801d4dfd83": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2e25b222e2080c377fc1fb2b9f926315f0f4d49e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd30f4698c6f5f3829893e68e183a8e5ea18f316": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x85f031d069de300055900c4055c1baeb6bde3f67": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x58776759ee5c70a915138706a1308add8bc5d894": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f1d5ae26fc31472966e951af3183308736d8de2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7dddf1968c14900b2d2ef9dada8465e82ac4c933": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3a8aa345d5db7ec5138298c8c4f4540259be7699": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb859a551fcf56e49416160911476bea7307152f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9db82de5a71ae539bc82f4d9ac3a007c7d742eff": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe30e74595517de48f1fb19f4553dd3d9f1e96b87": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7d92fd69504bfd391162e1442cb784c0af408676": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf53e7cc2894cba22dcdc40de936513a502ef16e3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x99f0d31fdced5b3a0e5ee2867730a6644a6c9495": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xd2e0ce466fc591a9f3ebea77b2d9f9c9c572cb5d67cec7c10445eff70e97726a:1",
+        "condition_id": "0xd2e0ce466fc591a9f3ebea77b2d9f9c9c572cb5d67cec7c10445eff70e97726a",
+        "title": "Winston-Salem Open: Jan Choinski vs Mees Rottgering",
+        "outcome": "Mees Rottgering",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x58776759ee5c70a915138706a1308add8bc5d894",
+          "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c"
+        ],
+        "ranks": [
+          6,
+          8,
+          10,
+          12
+        ],
+        "total_value_usd": 55003.3,
+        "score": 9.0732,
+        "category": "Tennis",
+        "end_date": "2026-08-31",
+        "entry_price": 0.0485
+      },
+      {
+        "signal_key": "0x8f3657204939101bfe86a2a83f42cd4528124e4b19712bf8baba95b1d692c84c:0",
+        "condition_id": "0x8f3657204939101bfe86a2a83f42cd4528124e4b19712bf8baba95b1d692c84c",
+        "title": "Winston-Salem Open: Jenson Brooksby vs Stefanos Tsitsipas",
+        "outcome": "Jenson Brooksby",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c"
+        ],
+        "ranks": [
+          6,
+          8,
+          12
+        ],
+        "total_value_usd": 6181.51,
+        "score": 5.7287,
+        "category": "Tennis",
+        "end_date": "2026-08-31",
+        "entry_price": 0.0485
+      }
+    ]
   }
 ]
