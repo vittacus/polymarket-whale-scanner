@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-24T22:27:35+00:00",
-  "total_signals": 1046,
+  "generated_at": "2026-08-24T22:59:40+00:00",
+  "total_signals": 1047,
   "total_resolved": 985,
   "total_correct": 617,
   "overall_hit_rate": 62.6,
@@ -12,7 +12,7 @@
       "hit_rate": 65.5
     },
     "Moderate": {
-      "total": 557,
+      "total": 558,
       "resolved": 515,
       "correct": 317,
       "hit_rate": 61.6
@@ -17800,6 +17800,23 @@
       "tier": "Moderate",
       "score": 4.0125,
       "total_value_usd": 16075.89,
+      "entry_price": 0.0485,
+      "end_date": "2026-08-31",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x8f3657204939101bfe86a2a83f42cd4528124e4b19712bf8baba95b1d692c84c:0",
+      "condition_id": "0x8f3657204939101bfe86a2a83f42cd4528124e4b19712bf8baba95b1d692c84c",
+      "title": "Winston-Salem Open: Jenson Brooksby vs Stefanos Tsitsipas",
+      "category": "Tennis",
+      "whale_direction": "Jenson Brooksby",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 6.435,
+      "total_value_usd": 18134.99,
       "entry_price": 0.0485,
       "end_date": "2026-08-31",
       "resolved": false,
