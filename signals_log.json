@@ -316479,5 +316479,178 @@
         "entry_price": 0.0495
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-24T05:52:17+00:00",
+    "whale_timeframes": {
+      "0x4ab9b54427ec4b7f3646b1a0ef1bed73bc708ebe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3d8a89a20aa73fba0f30d080e8120de9f9555724": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa080dadd87036ad01dbf5e9c254b0c3dbdba234f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x06dc51826bc524d9a83770e7de9dd7e005b04524": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7d92fd69504bfd391162e1442cb784c0af408676": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0f35109cc3ceaf729609c3109310791bd616c84a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x782186952ef2ca75ea91c95aef25bbdcffb4bb1a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x86e99faea12fccd8925de5d9f052471baf7a4cdf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xabb89972b21b304c1bed2bf26f35c8741ac9bba3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6d20c35f65d9899b6d6b74f8466e824580f9a165": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x95b198f900d19a80d3d7e47b7b17708af254f9ac": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x664a25f165a0150ce687410470f3352f5783fc5f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x866056133a70de9282a080758858d1a0c8b393ed": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8b4bca1d794779e66e023d44391b2a86c5ab541b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8b7f8b34185e9cc62c471e1d353595148a3ee3c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7fb23b0d330ea4ac4f3cecce1eb81fb0bfb3ed4b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x7f668805bfee7909997562f60489ddef01e40a3dca43781efeb59ce380779295:1",
+        "condition_id": "0x7f668805bfee7909997562f60489ddef01e40a3dca43781efeb59ce380779295",
+        "title": "Will Bitcoin reach $85,000 in August?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+          "0x86e99faea12fccd8925de5d9f052471baf7a4cdf",
+          "0x8b4bca1d794779e66e023d44391b2a86c5ab541b"
+        ],
+        "ranks": [
+          8,
+          12,
+          18
+        ],
+        "total_value_usd": 62741.38,
+        "score": 5.1015,
+        "category": "Bitcoin",
+        "end_date": "2026-09-01",
+        "entry_price": 0.0495
+      },
+      {
+        "signal_key": "0xfd105823dbf627e8a57aa1924703ef23138050d9d8da4a98a5136ea2ad98acd4:1",
+        "condition_id": "0xfd105823dbf627e8a57aa1924703ef23138050d9d8da4a98a5136ea2ad98acd4",
+        "title": "Will Bitcoin reach $80,000 in August?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+          "0x86e99faea12fccd8925de5d9f052471baf7a4cdf",
+          "0x8b4bca1d794779e66e023d44391b2a86c5ab541b"
+        ],
+        "ranks": [
+          8,
+          12,
+          18
+        ],
+        "total_value_usd": 26569.6,
+        "score": 4.7047,
+        "category": "Bitcoin",
+        "end_date": "2026-09-01",
+        "entry_price": 0.0495
+      }
+    ]
   }
 ]
