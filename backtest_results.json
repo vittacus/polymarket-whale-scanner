@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-24T23:26:22+00:00",
+  "generated_at": "2026-08-24T23:52:43+00:00",
   "total_signals": 1047,
-  "total_resolved": 986,
-  "total_correct": 617,
+  "total_resolved": 987,
+  "total_correct": 618,
   "overall_hit_rate": 62.6,
   "by_tier": {
     "Strong": {
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 558,
-      "resolved": 516,
-      "correct": 317,
-      "hit_rate": 61.4
+      "resolved": 517,
+      "correct": 318,
+      "hit_rate": 61.5
     },
     "Weak": {
       "total": 58,
@@ -17785,10 +17785,10 @@
       "total_value_usd": 25556.82,
       "entry_price": 0.0485,
       "end_date": "2026-08-31",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Mees Rottgering",
+      "resolved_date": "2026-08-31"
     },
     {
       "signal_key": "0xc7e4304674916cd4931bfd192dc574ceb5b49cd7583b06fd6c3ee02d19795944:1",
