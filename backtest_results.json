@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-24T01:09:42+00:00",
+  "generated_at": "2026-08-24T02:46:21+00:00",
   "total_signals": 1039,
-  "total_resolved": 978,
+  "total_resolved": 979,
   "total_correct": 613,
-  "overall_hit_rate": 62.7,
+  "overall_hit_rate": 62.6,
   "by_tier": {
     "Strong": {
       "total": 431,
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 550,
-      "resolved": 509,
+      "resolved": 510,
       "correct": 314,
-      "hit_rate": 61.7
+      "hit_rate": 61.6
     },
     "Weak": {
       "total": 58,
@@ -17683,10 +17683,10 @@
       "total_value_usd": 7630.38,
       "entry_price": 0.0485,
       "end_date": "2026-08-30",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Atlanta Braves",
+      "resolved_date": "2026-08-30"
     }
   ]
 }
