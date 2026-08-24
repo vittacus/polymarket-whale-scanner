@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-24T22:01:48+00:00",
-  "total_signals": 1044,
+  "generated_at": "2026-08-24T22:27:35+00:00",
+  "total_signals": 1046,
   "total_resolved": 985,
   "total_correct": 617,
   "overall_hit_rate": 62.6,
@@ -12,7 +12,7 @@
       "hit_rate": 65.5
     },
     "Moderate": {
-      "total": 555,
+      "total": 557,
       "resolved": 515,
       "correct": 317,
       "hit_rate": 61.6
@@ -17772,6 +17772,40 @@
       "correct": false,
       "resolved_outcome": "Thiago Seyboth Wild",
       "resolved_date": "2026-08-31"
+    },
+    {
+      "signal_key": "0xd2e0ce466fc591a9f3ebea77b2d9f9c9c572cb5d67cec7c10445eff70e97726a:1",
+      "condition_id": "0xd2e0ce466fc591a9f3ebea77b2d9f9c9c572cb5d67cec7c10445eff70e97726a",
+      "title": "Winston-Salem Open: Jan Choinski vs Mees Rottgering",
+      "category": "Tennis",
+      "whale_direction": "Mees Rottgering",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 5.9906,
+      "total_value_usd": 25556.82,
+      "entry_price": 0.0485,
+      "end_date": "2026-08-31",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xc7e4304674916cd4931bfd192dc574ceb5b49cd7583b06fd6c3ee02d19795944:1",
+      "condition_id": "0xc7e4304674916cd4931bfd192dc574ceb5b49cd7583b06fd6c3ee02d19795944",
+      "title": "US Open, Qualification ATP: Harry Wendelken vs Stefano Travaglia",
+      "category": "Tennis",
+      "whale_direction": "Stefano Travaglia",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 4.0125,
+      "total_value_usd": 16075.89,
+      "entry_price": 0.0485,
+      "end_date": "2026-08-31",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
