@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-24T00:04:13+00:00",
-  "total_signals": 1038,
+  "generated_at": "2026-08-24T01:09:42+00:00",
+  "total_signals": 1039,
   "total_resolved": 978,
   "total_correct": 613,
   "overall_hit_rate": 62.7,
@@ -12,7 +12,7 @@
       "hit_rate": 65.5
     },
     "Moderate": {
-      "total": 549,
+      "total": 550,
       "resolved": 509,
       "correct": 314,
       "hit_rate": 61.7
@@ -17670,6 +17670,23 @@
       "correct": true,
       "resolved_outcome": "New York Mets",
       "resolved_date": "2026-08-29"
+    },
+    {
+      "signal_key": "0xa1aaa21d195df199164c3a61cc1a938cd342effe5a58490bea35c05397c38b61:1",
+      "condition_id": "0xa1aaa21d195df199164c3a61cc1a938cd342effe5a58490bea35c05397c38b61",
+      "title": "Atlanta Braves vs. Milwaukee Brewers",
+      "category": "MLB",
+      "whale_direction": "Milwaukee Brewers",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 4.6801,
+      "total_value_usd": 7630.38,
+      "entry_price": 0.0485,
+      "end_date": "2026-08-30",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
