@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-24T19:24:15+00:00",
-  "total_signals": 1041,
+  "generated_at": "2026-08-24T20:01:08+00:00",
+  "total_signals": 1043,
   "total_resolved": 982,
   "total_correct": 615,
   "overall_hit_rate": 62.6,
@@ -12,7 +12,7 @@
       "hit_rate": 65.5
     },
     "Moderate": {
-      "total": 552,
+      "total": 554,
       "resolved": 512,
       "correct": 315,
       "hit_rate": 61.5
@@ -17721,6 +17721,40 @@
       "correct": false,
       "resolved_outcome": "Yes",
       "resolved_date": "2026-09-01"
+    },
+    {
+      "signal_key": "0x24df8b0cba372e683ec049b6ac00331eb2ece325d1f0ecb88b8860cc4e21eec6:1",
+      "condition_id": "0x24df8b0cba372e683ec049b6ac00331eb2ece325d1f0ecb88b8860cc4e21eec6",
+      "title": "US Open, Qualification ATP: Guy Den Ouden vs Genaro Alberto Olivieri",
+      "category": "Tennis",
+      "whale_direction": "Genaro Alberto Olivieri",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 5.1858,
+      "total_value_usd": 99176.93,
+      "entry_price": 0.0485,
+      "end_date": "2026-08-31",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x9be65e230fec2177886ca3b19dde6afa584f5ef3ecb79b39471234f785d61d63:1",
+      "condition_id": "0x9be65e230fec2177886ca3b19dde6afa584f5ef3ecb79b39471234f785d61d63",
+      "title": "US Open, Qualification ATP: Spencer Johnson vs Cristian Garin",
+      "category": "Tennis",
+      "whale_direction": "Cristian Garin",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 4.4093,
+      "total_value_usd": 17709.07,
+      "entry_price": 0.0485,
+      "end_date": "2026-08-31",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
