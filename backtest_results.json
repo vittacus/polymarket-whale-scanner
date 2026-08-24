@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-24T20:31:54+00:00",
-  "total_signals": 1043,
-  "total_resolved": 983,
-  "total_correct": 616,
+  "generated_at": "2026-08-24T21:04:49+00:00",
+  "total_signals": 1044,
+  "total_resolved": 984,
+  "total_correct": 617,
   "overall_hit_rate": 62.7,
   "by_tier": {
     "Strong": {
@@ -12,10 +12,10 @@
       "hit_rate": 65.5
     },
     "Moderate": {
-      "total": 554,
-      "resolved": 513,
-      "correct": 316,
-      "hit_rate": 61.6
+      "total": 555,
+      "resolved": 514,
+      "correct": 317,
+      "hit_rate": 61.7
     },
     "Weak": {
       "total": 58,
@@ -17749,6 +17749,23 @@
       "tier": "Moderate",
       "score": 4.4093,
       "total_value_usd": 17709.07,
+      "entry_price": 0.0485,
+      "end_date": "2026-08-31",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Cristian Garin",
+      "resolved_date": "2026-08-31"
+    },
+    {
+      "signal_key": "0xcdc49824ddff541a8b6de3496c860ac1174b64d25314e365e2732ea07012b6fd:0",
+      "condition_id": "0xcdc49824ddff541a8b6de3496c860ac1174b64d25314e365e2732ea07012b6fd",
+      "title": "US Open, Qualification ATP: Raul Brancaccio vs Thiago Seyboth Wild",
+      "category": "Tennis",
+      "whale_direction": "Raul Brancaccio",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 5.2114,
+      "total_value_usd": 16044.19,
       "entry_price": 0.0485,
       "end_date": "2026-08-31",
       "resolved": false,
