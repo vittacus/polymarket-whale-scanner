@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-25T01:52:04+00:00",
+  "generated_at": "2026-08-25T02:52:29+00:00",
   "total_signals": 1050,
-  "total_resolved": 988,
-  "total_correct": 618,
+  "total_resolved": 991,
+  "total_correct": 620,
   "overall_hit_rate": 62.6,
   "by_tier": {
     "Strong": {
       "total": 433,
-      "resolved": 415,
-      "correct": 272,
-      "hit_rate": 65.5
+      "resolved": 417,
+      "correct": 274,
+      "hit_rate": 65.7
     },
     "Moderate": {
       "total": 559,
-      "resolved": 518,
+      "resolved": 519,
       "correct": 318,
-      "hit_rate": 61.4
+      "hit_rate": 61.3
     },
     "Weak": {
       "total": 58,
@@ -17836,10 +17836,10 @@
       "total_value_usd": 195974.93,
       "entry_price": 0.0515,
       "end_date": "2026-08-31",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Washington Nationals",
+      "resolved_date": "2026-08-31"
     },
     {
       "signal_key": "0x7e30518fe626e4cef2e0555fa78bdce118cbbb06a6573176d008fbefa60d78e6:0",
@@ -17853,10 +17853,10 @@
       "total_value_usd": 512231.05,
       "entry_price": 0.0515,
       "end_date": "2026-08-31",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Boston Red Sox",
+      "resolved_date": "2026-08-31"
     },
     {
       "signal_key": "0x7e30518fe626e4cef2e0555fa78bdce118cbbb06a6573176d008fbefa60d78e6:1",
@@ -17870,10 +17870,10 @@
       "total_value_usd": 4471.2,
       "entry_price": 0.0515,
       "end_date": "2026-08-31",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Boston Red Sox",
+      "resolved_date": "2026-08-31"
     }
   ]
 }
