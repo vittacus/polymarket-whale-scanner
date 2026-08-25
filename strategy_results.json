@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-25T21:30:27+00:00",
+  "generated_at": "2026-08-25T22:00:30+00:00",
   "total_evaluated": 1063,
-  "total_pending": 64,
+  "total_pending": 62,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 1063,
-      "correct": 624,
+      "correct": 626,
       "wrong": 375,
-      "pending": 64,
+      "pending": 62,
       "win_rate": 62.5,
       "signals": [
         {
@@ -14847,11 +14847,11 @@
           "tier": "Moderate",
           "entry_price": 0.0495,
           "whale_direction": "Aleksandar Kovacevic",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Aleksandar Kovacevic",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 20987.77,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x6c1ffd2050fd2d5ca9a684ce358538fc436a675e37e24aedf429de3e6a586f41:1",
@@ -14861,11 +14861,11 @@
           "tier": "Moderate",
           "entry_price": 0.0495,
           "whale_direction": "Dusan Lajovic",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Dusan Lajovic",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 227131.03,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xe7c89b536c60ee3085733e83c0c0e389638c43d83bad21f7d3855e258ef7403d:1",
@@ -14902,10 +14902,10 @@
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 393,
-      "correct": 222,
+      "correct": 224,
       "wrong": 136,
-      "pending": 35,
-      "win_rate": 62.0,
+      "pending": 33,
+      "win_rate": 62.2,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -20361,11 +20361,11 @@
           "tier": "Moderate",
           "entry_price": 0.0495,
           "whale_direction": "Aleksandar Kovacevic",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Aleksandar Kovacevic",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 20987.77,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x6c1ffd2050fd2d5ca9a684ce358538fc436a675e37e24aedf429de3e6a586f41:1",
@@ -20375,11 +20375,11 @@
           "tier": "Moderate",
           "entry_price": 0.0495,
           "whale_direction": "Dusan Lajovic",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Dusan Lajovic",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 227131.03,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xe7c89b536c60ee3085733e83c0c0e389638c43d83bad21f7d3855e258ef7403d:1",
@@ -20417,9 +20417,9 @@
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 393,
       "correct": 136,
-      "wrong": 222,
-      "pending": 35,
-      "win_rate": 38.0,
+      "wrong": 224,
+      "pending": 33,
+      "win_rate": 37.8,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -25875,11 +25875,11 @@
           "tier": "Moderate",
           "entry_price": 0.0495,
           "whale_direction": "Aleksandar Kovacevic",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Aleksandar Kovacevic",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 20987.77,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x6c1ffd2050fd2d5ca9a684ce358538fc436a675e37e24aedf429de3e6a586f41:1",
@@ -25889,11 +25889,11 @@
           "tier": "Moderate",
           "entry_price": 0.0495,
           "whale_direction": "Dusan Lajovic",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Dusan Lajovic",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 227131.03,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xe7c89b536c60ee3085733e83c0c0e389638c43d83bad21f7d3855e258ef7403d:1",
