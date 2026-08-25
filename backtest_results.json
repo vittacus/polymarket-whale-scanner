@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-25T05:10:56+00:00",
-  "total_signals": 1051,
+  "generated_at": "2026-08-25T05:53:59+00:00",
+  "total_signals": 1052,
   "total_resolved": 992,
   "total_correct": 621,
   "overall_hit_rate": 62.6,
   "by_tier": {
     "Strong": {
-      "total": 433,
+      "total": 434,
       "resolved": 417,
       "correct": 274,
       "hit_rate": 65.7
@@ -17891,6 +17891,23 @@
       "correct": true,
       "resolved_outcome": "San Francisco Giants",
       "resolved_date": "2026-09-01"
+    },
+    {
+      "signal_key": "0x738829004a8989c2a5bcddf14b705ebec99d4209b2256d0cb5870f2dc042caab:1",
+      "condition_id": "0x738829004a8989c2a5bcddf14b705ebec99d4209b2256d0cb5870f2dc042caab",
+      "title": "Pittsburgh Pirates vs. San Diego Padres",
+      "category": "MLB",
+      "whale_direction": "San Diego Padres",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 27.7648,
+      "total_value_usd": 89000.89,
+      "entry_price": 0.0515,
+      "end_date": "2026-09-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }

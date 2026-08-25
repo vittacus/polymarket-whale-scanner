@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-25T05:10:57+00:00",
-  "total_evaluated": 1051,
-  "total_pending": 59,
+  "generated_at": "2026-08-25T05:53:59+00:00",
+  "total_evaluated": 1052,
+  "total_pending": 60,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1051,
+      "signals_evaluated": 1052,
       "correct": 621,
       "wrong": 371,
-      "pending": 59,
+      "pending": 60,
       "win_rate": 62.6,
       "signals": [
         {
@@ -14726,6 +14726,20 @@
           "end_date": "2026-09-01",
           "total_value_usd": 61609.3,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x738829004a8989c2a5bcddf14b705ebec99d4209b2256d0cb5870f2dc042caab:1",
+          "condition_id": "0x738829004a8989c2a5bcddf14b705ebec99d4209b2256d0cb5870f2dc042caab",
+          "title": "Pittsburgh Pirates vs. San Diego Padres",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0515,
+          "whale_direction": "San Diego Padres",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-01",
+          "total_value_usd": 89000.89,
+          "result": "pending"
         }
       ]
     },
@@ -14733,10 +14747,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 381,
+      "signals_evaluated": 382,
       "correct": 219,
       "wrong": 132,
-      "pending": 30,
+      "pending": 31,
       "win_rate": 62.4,
       "signals": [
         {
@@ -20072,6 +20086,20 @@
           "end_date": "2026-09-01",
           "total_value_usd": 61609.3,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x738829004a8989c2a5bcddf14b705ebec99d4209b2256d0cb5870f2dc042caab:1",
+          "condition_id": "0x738829004a8989c2a5bcddf14b705ebec99d4209b2256d0cb5870f2dc042caab",
+          "title": "Pittsburgh Pirates vs. San Diego Padres",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0515,
+          "whale_direction": "San Diego Padres",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-01",
+          "total_value_usd": 89000.89,
+          "result": "pending"
         }
       ]
     },
@@ -20079,10 +20107,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 381,
+      "signals_evaluated": 382,
       "correct": 132,
       "wrong": 219,
-      "pending": 30,
+      "pending": 31,
       "win_rate": 37.6,
       "signals": [
         {
@@ -25418,6 +25446,20 @@
           "end_date": "2026-09-01",
           "total_value_usd": 61609.3,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x738829004a8989c2a5bcddf14b705ebec99d4209b2256d0cb5870f2dc042caab:1",
+          "condition_id": "0x738829004a8989c2a5bcddf14b705ebec99d4209b2256d0cb5870f2dc042caab",
+          "title": "Pittsburgh Pirates vs. San Diego Padres",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0515,
+          "whale_direction": "San Diego Padres",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-01",
+          "total_value_usd": 89000.89,
+          "result": "pending"
         }
       ]
     },
