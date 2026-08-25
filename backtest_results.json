@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-25T18:02:38+00:00",
-  "total_signals": 1052,
+  "generated_at": "2026-08-25T18:39:50+00:00",
+  "total_signals": 1054,
   "total_resolved": 993,
   "total_correct": 621,
   "overall_hit_rate": 62.5,
@@ -12,7 +12,7 @@
       "hit_rate": 65.6
     },
     "Moderate": {
-      "total": 560,
+      "total": 562,
       "resolved": 520,
       "correct": 319,
       "hit_rate": 61.3
@@ -17908,6 +17908,40 @@
       "correct": false,
       "resolved_outcome": "Pittsburgh Pirates",
       "resolved_date": "2026-09-01"
+    },
+    {
+      "signal_key": "0xa249796b0ba28ac1ab12bc9c9c0465037d33980fafc259222f15b6e998b347c8:1",
+      "condition_id": "0xa249796b0ba28ac1ab12bc9c9c0465037d33980fafc259222f15b6e998b347c8",
+      "title": "US Open, Qualification ATP: Moise Kouame vs Nishesh Basavareddy",
+      "category": "Tennis",
+      "whale_direction": "Nishesh Basavareddy",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 7.4027,
+      "total_value_usd": 81516.87,
+      "entry_price": 0.0505,
+      "end_date": "2026-09-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x1973131ab5b1351c681bab556e6936cd2238c1365075daeeb35437136c2ea636:1",
+      "condition_id": "0x1973131ab5b1351c681bab556e6936cd2238c1365075daeeb35437136c2ea636",
+      "title": "US Open, Qualification ATP: Gauthier Onclin vs Vitaliy Sachko",
+      "category": "Tennis",
+      "whale_direction": "Vitaliy Sachko",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 7.0724,
+      "total_value_usd": 49218.96,
+      "entry_price": 0.0505,
+      "end_date": "2026-09-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }

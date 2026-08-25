@@ -323925,5 +323925,178 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-08-25T18:30:58+00:00",
+    "whale_timeframes": {
+      "0xdb859a551fcf56e49416160911476bea7307152f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f1d5ae26fc31472966e951af3183308736d8de2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2200b75c27835935a40308779b5656c09ab40f2d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x682005011dd19c1e986cb060ed6ab83845f21c19": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe40aaa5ce1dac0b7dc24c9d0284f27e17c3fe4a2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8075693f48668a264b9fa313b47f52712fcc12b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6d20c35f65d9899b6d6b74f8466e824580f9a165": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5a218c7ad04135830a45c41aaed7294df7809318": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf53e7cc2894cba22dcdc40de936513a502ef16e3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x03805a13a0b3e058f55f6c6af95389d4f431073d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x32b484581fc5606de9c1e43af4636b6be9bc8b21": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x14c7111afa871fb215339f365043d7b2837b9ccf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0d8cff78be3968f8ef6753c843fab7017b289555": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x31706006a0ef88b2b8f6d093efbc83b359fbc6a0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa486f1e84d08b356967943a47b70bb8504dd25d4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xa249796b0ba28ac1ab12bc9c9c0465037d33980fafc259222f15b6e998b347c8:1",
+        "condition_id": "0xa249796b0ba28ac1ab12bc9c9c0465037d33980fafc259222f15b6e998b347c8",
+        "title": "US Open, Qualification ATP: Moise Kouame vs Nishesh Basavareddy",
+        "outcome": "Nishesh Basavareddy",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21",
+          "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c"
+        ],
+        "ranks": [
+          4,
+          14,
+          19
+        ],
+        "total_value_usd": 81516.87,
+        "score": 7.4027,
+        "category": "Tennis",
+        "end_date": "2026-09-01",
+        "entry_price": 0.0505
+      },
+      {
+        "signal_key": "0x1973131ab5b1351c681bab556e6936cd2238c1365075daeeb35437136c2ea636:1",
+        "condition_id": "0x1973131ab5b1351c681bab556e6936cd2238c1365075daeeb35437136c2ea636",
+        "title": "US Open, Qualification ATP: Gauthier Onclin vs Vitaliy Sachko",
+        "outcome": "Vitaliy Sachko",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21",
+          "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c"
+        ],
+        "ranks": [
+          4,
+          14,
+          19
+        ],
+        "total_value_usd": 49218.96,
+        "score": 7.0724,
+        "category": "Tennis",
+        "end_date": "2026-09-01",
+        "entry_price": 0.0505
+      }
+    ]
   }
 ]
