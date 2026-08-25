@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-25T02:52:29+00:00",
-  "total_signals": 1050,
+  "generated_at": "2026-08-25T03:42:28+00:00",
+  "total_signals": 1051,
   "total_resolved": 991,
   "total_correct": 620,
   "overall_hit_rate": 62.6,
@@ -12,7 +12,7 @@
       "hit_rate": 65.7
     },
     "Moderate": {
-      "total": 559,
+      "total": 560,
       "resolved": 519,
       "correct": 318,
       "hit_rate": 61.3
@@ -17874,6 +17874,23 @@
       "correct": false,
       "resolved_outcome": "Boston Red Sox",
       "resolved_date": "2026-08-31"
+    },
+    {
+      "signal_key": "0xa3218a1f803a057240943b3ec0c813540d90898e1cdced417073943b0b7d8469:1",
+      "condition_id": "0xa3218a1f803a057240943b3ec0c813540d90898e1cdced417073943b0b7d8469",
+      "title": "Cincinnati Reds vs. San Francisco Giants",
+      "category": "MLB",
+      "whale_direction": "San Francisco Giants",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 6.9963,
+      "total_value_usd": 61609.3,
+      "entry_price": 0.0525,
+      "end_date": "2026-09-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
