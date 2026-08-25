@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-25T22:00:30+00:00",
+  "generated_at": "2026-08-25T22:28:52+00:00",
   "total_signals": 1063,
-  "total_resolved": 1001,
-  "total_correct": 626,
-  "overall_hit_rate": 62.5,
+  "total_resolved": 1002,
+  "total_correct": 627,
+  "overall_hit_rate": 62.6,
   "by_tier": {
     "Strong": {
       "total": 438,
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 567,
-      "resolved": 526,
-      "correct": 323,
-      "hit_rate": 61.4
+      "resolved": 527,
+      "correct": 324,
+      "hit_rate": 61.5
     },
     "Weak": {
       "total": 58,
@@ -18091,10 +18091,10 @@
       "total_value_usd": 34520.41,
       "entry_price": 0.0495,
       "end_date": "2026-09-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Priscilla Hon",
+      "resolved_date": "2026-09-01"
     }
   ]
 }
