@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-25T21:02:08+00:00",
-  "total_signals": 1061,
-  "total_resolved": 996,
-  "total_correct": 623,
-  "overall_hit_rate": 62.6,
+  "generated_at": "2026-08-25T21:30:27+00:00",
+  "total_signals": 1063,
+  "total_resolved": 999,
+  "total_correct": 624,
+  "overall_hit_rate": 62.5,
   "by_tier": {
     "Strong": {
-      "total": 437,
-      "resolved": 419,
-      "correct": 274,
-      "hit_rate": 65.4
+      "total": 438,
+      "resolved": 420,
+      "correct": 275,
+      "hit_rate": 65.5
     },
     "Moderate": {
-      "total": 566,
-      "resolved": 522,
+      "total": 567,
+      "resolved": 524,
       "correct": 321,
-      "hit_rate": 61.5
+      "hit_rate": 61.3
     },
     "Weak": {
       "total": 58,
@@ -17955,10 +17955,10 @@
       "total_value_usd": 106387.93,
       "entry_price": 0.0505,
       "end_date": "2026-09-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Luciano Darderi",
+      "resolved_date": "2026-09-01"
     },
     {
       "signal_key": "0x3f4159f9579d3a79bdd4bd0839772350091d5f320f8dbd300c2df02fe8f5220d:0",
@@ -17972,10 +17972,10 @@
       "total_value_usd": 58539.77,
       "entry_price": 0.0505,
       "end_date": "2026-09-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Luciano Darderi",
+      "resolved_date": "2026-09-01"
     },
     {
       "signal_key": "0x6c9e41a94dfa04d934740c70d07aff22a1110a5b9767e12234101e45e38b8e09:1",
@@ -18006,10 +18006,10 @@
       "total_value_usd": 76741.79,
       "entry_price": 0.0505,
       "end_date": "2026-09-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Daniil Glinka",
+      "resolved_date": "2026-09-01"
     },
     {
       "signal_key": "0x5c1a49cba3bdf71200f8e113a7d50014de797df25760b08e430eb25d66747c1d:1",
@@ -18055,6 +18055,40 @@
       "tier": "Moderate",
       "score": 5.7661,
       "total_value_usd": 227131.03,
+      "entry_price": 0.0495,
+      "end_date": "2026-09-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xe7c89b536c60ee3085733e83c0c0e389638c43d83bad21f7d3855e258ef7403d:1",
+      "condition_id": "0xe7c89b536c60ee3085733e83c0c0e389638c43d83bad21f7d3855e258ef7403d",
+      "title": "Winston-Salem Open: Juan Manuel Cerundolo vs Dhakshineswar Suresh",
+      "category": "Tennis",
+      "whale_direction": "Dhakshineswar Suresh",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 12.5575,
+      "total_value_usd": 36079.04,
+      "entry_price": 0.0495,
+      "end_date": "2026-09-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xfd95df807508d1bc8eff75d921ff66b1b914e4eb96899e54c444135045405873:1",
+      "condition_id": "0xfd95df807508d1bc8eff75d921ff66b1b914e4eb96899e54c444135045405873",
+      "title": "US Open, Qualification WTA: Alice Tubello vs Priscilla Hon",
+      "category": "Tennis",
+      "whale_direction": "Priscilla Hon",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 4.8853,
+      "total_value_usd": 34520.41,
       "entry_price": 0.0495,
       "end_date": "2026-09-01",
       "resolved": false,

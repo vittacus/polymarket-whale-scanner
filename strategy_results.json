@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-25T21:02:08+00:00",
-  "total_evaluated": 1061,
-  "total_pending": 65,
+  "generated_at": "2026-08-25T21:30:27+00:00",
+  "total_evaluated": 1063,
+  "total_pending": 64,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1061,
-      "correct": 623,
-      "wrong": 373,
-      "pending": 65,
-      "win_rate": 62.6,
+      "signals_evaluated": 1063,
+      "correct": 624,
+      "wrong": 375,
+      "pending": 64,
+      "win_rate": 62.5,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -14777,11 +14777,11 @@
           "tier": "Strong",
           "entry_price": 0.0505,
           "whale_direction": "Luciano Darderi",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Luciano Darderi",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 106387.93,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x3f4159f9579d3a79bdd4bd0839772350091d5f320f8dbd300c2df02fe8f5220d:0",
@@ -14791,11 +14791,11 @@
           "tier": "Moderate",
           "entry_price": 0.0505,
           "whale_direction": "Mattia Bellucci",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Luciano Darderi",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 58539.77,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x6c9e41a94dfa04d934740c70d07aff22a1110a5b9767e12234101e45e38b8e09:1",
@@ -14819,11 +14819,11 @@
           "tier": "Moderate",
           "entry_price": 0.0505,
           "whale_direction": "Pedro Martinez",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Daniil Glinka",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 76741.79,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x5c1a49cba3bdf71200f8e113a7d50014de797df25760b08e430eb25d66747c1d:1",
@@ -14865,6 +14865,34 @@
           "resolved_date": null,
           "end_date": "2026-09-01",
           "total_value_usd": 227131.03,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe7c89b536c60ee3085733e83c0c0e389638c43d83bad21f7d3855e258ef7403d:1",
+          "condition_id": "0xe7c89b536c60ee3085733e83c0c0e389638c43d83bad21f7d3855e258ef7403d",
+          "title": "Winston-Salem Open: Juan Manuel Cerundolo vs Dhakshineswar Suresh",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0495,
+          "whale_direction": "Dhakshineswar Suresh",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-01",
+          "total_value_usd": 36079.04,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xfd95df807508d1bc8eff75d921ff66b1b914e4eb96899e54c444135045405873:1",
+          "condition_id": "0xfd95df807508d1bc8eff75d921ff66b1b914e4eb96899e54c444135045405873",
+          "title": "US Open, Qualification WTA: Alice Tubello vs Priscilla Hon",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0495,
+          "whale_direction": "Priscilla Hon",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-01",
+          "total_value_usd": 34520.41,
           "result": "pending"
         }
       ]
@@ -14873,11 +14901,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 391,
-      "correct": 221,
-      "wrong": 134,
-      "pending": 36,
-      "win_rate": 62.3,
+      "signals_evaluated": 393,
+      "correct": 222,
+      "wrong": 136,
+      "pending": 35,
+      "win_rate": 62.0,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -20263,11 +20291,11 @@
           "tier": "Strong",
           "entry_price": 0.0505,
           "whale_direction": "Luciano Darderi",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Luciano Darderi",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 106387.93,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x3f4159f9579d3a79bdd4bd0839772350091d5f320f8dbd300c2df02fe8f5220d:0",
@@ -20277,11 +20305,11 @@
           "tier": "Moderate",
           "entry_price": 0.0505,
           "whale_direction": "Mattia Bellucci",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Luciano Darderi",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 58539.77,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x6c9e41a94dfa04d934740c70d07aff22a1110a5b9767e12234101e45e38b8e09:1",
@@ -20305,11 +20333,11 @@
           "tier": "Moderate",
           "entry_price": 0.0505,
           "whale_direction": "Pedro Martinez",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Daniil Glinka",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 76741.79,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x5c1a49cba3bdf71200f8e113a7d50014de797df25760b08e430eb25d66747c1d:1",
@@ -20351,6 +20379,34 @@
           "resolved_date": null,
           "end_date": "2026-09-01",
           "total_value_usd": 227131.03,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe7c89b536c60ee3085733e83c0c0e389638c43d83bad21f7d3855e258ef7403d:1",
+          "condition_id": "0xe7c89b536c60ee3085733e83c0c0e389638c43d83bad21f7d3855e258ef7403d",
+          "title": "Winston-Salem Open: Juan Manuel Cerundolo vs Dhakshineswar Suresh",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0495,
+          "whale_direction": "Dhakshineswar Suresh",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-01",
+          "total_value_usd": 36079.04,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xfd95df807508d1bc8eff75d921ff66b1b914e4eb96899e54c444135045405873:1",
+          "condition_id": "0xfd95df807508d1bc8eff75d921ff66b1b914e4eb96899e54c444135045405873",
+          "title": "US Open, Qualification WTA: Alice Tubello vs Priscilla Hon",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0495,
+          "whale_direction": "Priscilla Hon",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-01",
+          "total_value_usd": 34520.41,
           "result": "pending"
         }
       ]
@@ -20359,11 +20415,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 391,
-      "correct": 134,
-      "wrong": 221,
-      "pending": 36,
-      "win_rate": 37.7,
+      "signals_evaluated": 393,
+      "correct": 136,
+      "wrong": 222,
+      "pending": 35,
+      "win_rate": 38.0,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -25749,11 +25805,11 @@
           "tier": "Strong",
           "entry_price": 0.0505,
           "whale_direction": "Luciano Darderi",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Luciano Darderi",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 106387.93,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x3f4159f9579d3a79bdd4bd0839772350091d5f320f8dbd300c2df02fe8f5220d:0",
@@ -25763,11 +25819,11 @@
           "tier": "Moderate",
           "entry_price": 0.0505,
           "whale_direction": "Mattia Bellucci",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Luciano Darderi",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 58539.77,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x6c9e41a94dfa04d934740c70d07aff22a1110a5b9767e12234101e45e38b8e09:1",
@@ -25791,11 +25847,11 @@
           "tier": "Moderate",
           "entry_price": 0.0505,
           "whale_direction": "Pedro Martinez",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Daniil Glinka",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 76741.79,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x5c1a49cba3bdf71200f8e113a7d50014de797df25760b08e430eb25d66747c1d:1",
@@ -25837,6 +25893,34 @@
           "resolved_date": null,
           "end_date": "2026-09-01",
           "total_value_usd": 227131.03,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe7c89b536c60ee3085733e83c0c0e389638c43d83bad21f7d3855e258ef7403d:1",
+          "condition_id": "0xe7c89b536c60ee3085733e83c0c0e389638c43d83bad21f7d3855e258ef7403d",
+          "title": "Winston-Salem Open: Juan Manuel Cerundolo vs Dhakshineswar Suresh",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0495,
+          "whale_direction": "Dhakshineswar Suresh",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-01",
+          "total_value_usd": 36079.04,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xfd95df807508d1bc8eff75d921ff66b1b914e4eb96899e54c444135045405873:1",
+          "condition_id": "0xfd95df807508d1bc8eff75d921ff66b1b914e4eb96899e54c444135045405873",
+          "title": "US Open, Qualification WTA: Alice Tubello vs Priscilla Hon",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0495,
+          "whale_direction": "Priscilla Hon",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-01",
+          "total_value_usd": 34520.41,
           "result": "pending"
         }
       ]
