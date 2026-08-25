@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-25T22:28:52+00:00",
+  "generated_at": "2026-08-25T23:02:30+00:00",
   "total_signals": 1063,
-  "total_resolved": 1002,
+  "total_resolved": 1003,
   "total_correct": 627,
-  "overall_hit_rate": 62.6,
+  "overall_hit_rate": 62.5,
   "by_tier": {
     "Strong": {
       "total": 438,
-      "resolved": 420,
+      "resolved": 421,
       "correct": 275,
-      "hit_rate": 65.5
+      "hit_rate": 65.3
     },
     "Moderate": {
       "total": 567,
@@ -18074,10 +18074,10 @@
       "total_value_usd": 36079.04,
       "entry_price": 0.0495,
       "end_date": "2026-09-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Juan Manuel Cerundolo",
+      "resolved_date": "2026-09-01"
     },
     {
       "signal_key": "0xfd95df807508d1bc8eff75d921ff66b1b914e4eb96899e54c444135045405873:1",
