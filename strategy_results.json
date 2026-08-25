@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-25T19:24:57+00:00",
-  "total_evaluated": 1056,
+  "generated_at": "2026-08-25T20:03:24+00:00",
+  "total_evaluated": 1058,
   "total_pending": 63,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1056,
-      "correct": 621,
+      "signals_evaluated": 1058,
+      "correct": 623,
       "wrong": 372,
       "pending": 63,
-      "win_rate": 62.5,
+      "win_rate": 62.6,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -14749,11 +14749,11 @@
           "tier": "Moderate",
           "entry_price": 0.0505,
           "whale_direction": "Nishesh Basavareddy",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Nishesh Basavareddy",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 81516.87,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x1973131ab5b1351c681bab556e6936cd2238c1365075daeeb35437136c2ea636:1",
@@ -14763,11 +14763,11 @@
           "tier": "Moderate",
           "entry_price": 0.0505,
           "whale_direction": "Vitaliy Sachko",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Vitaliy Sachko",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 49218.96,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x3f4159f9579d3a79bdd4bd0839772350091d5f320f8dbd300c2df02fe8f5220d:1",
@@ -14795,6 +14795,34 @@
           "resolved_date": null,
           "end_date": "2026-09-01",
           "total_value_usd": 58539.77,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x6c9e41a94dfa04d934740c70d07aff22a1110a5b9767e12234101e45e38b8e09:1",
+          "condition_id": "0x6c9e41a94dfa04d934740c70d07aff22a1110a5b9767e12234101e45e38b8e09",
+          "title": "Winston-Salem Open: Benjamin Bonzi vs Quentin Halys",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0505,
+          "whale_direction": "Quentin Halys",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-01",
+          "total_value_usd": 56325.49,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x7d130bc0a6386f3ef22564165af87c128dce53a2c85101be02df67a5b97a5759:0",
+          "condition_id": "0x7d130bc0a6386f3ef22564165af87c128dce53a2c85101be02df67a5b97a5759",
+          "title": "US Open, Qualification ATP: Pedro Martinez vs Daniil Glinka",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0505,
+          "whale_direction": "Pedro Martinez",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-01",
+          "total_value_usd": 76741.79,
           "result": "pending"
         }
       ]
@@ -14803,11 +14831,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 386,
-      "correct": 219,
+      "signals_evaluated": 388,
+      "correct": 221,
       "wrong": 133,
       "pending": 34,
-      "win_rate": 62.2,
+      "win_rate": 62.4,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -20165,11 +20193,11 @@
           "tier": "Moderate",
           "entry_price": 0.0505,
           "whale_direction": "Nishesh Basavareddy",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Nishesh Basavareddy",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 81516.87,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x1973131ab5b1351c681bab556e6936cd2238c1365075daeeb35437136c2ea636:1",
@@ -20179,11 +20207,11 @@
           "tier": "Moderate",
           "entry_price": 0.0505,
           "whale_direction": "Vitaliy Sachko",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Vitaliy Sachko",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 49218.96,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x3f4159f9579d3a79bdd4bd0839772350091d5f320f8dbd300c2df02fe8f5220d:1",
@@ -20211,6 +20239,34 @@
           "resolved_date": null,
           "end_date": "2026-09-01",
           "total_value_usd": 58539.77,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x6c9e41a94dfa04d934740c70d07aff22a1110a5b9767e12234101e45e38b8e09:1",
+          "condition_id": "0x6c9e41a94dfa04d934740c70d07aff22a1110a5b9767e12234101e45e38b8e09",
+          "title": "Winston-Salem Open: Benjamin Bonzi vs Quentin Halys",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0505,
+          "whale_direction": "Quentin Halys",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-01",
+          "total_value_usd": 56325.49,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x7d130bc0a6386f3ef22564165af87c128dce53a2c85101be02df67a5b97a5759:0",
+          "condition_id": "0x7d130bc0a6386f3ef22564165af87c128dce53a2c85101be02df67a5b97a5759",
+          "title": "US Open, Qualification ATP: Pedro Martinez vs Daniil Glinka",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0505,
+          "whale_direction": "Pedro Martinez",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-01",
+          "total_value_usd": 76741.79,
           "result": "pending"
         }
       ]
@@ -20219,11 +20275,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 386,
+      "signals_evaluated": 388,
       "correct": 133,
-      "wrong": 219,
+      "wrong": 221,
       "pending": 34,
-      "win_rate": 37.8,
+      "win_rate": 37.6,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -25581,11 +25637,11 @@
           "tier": "Moderate",
           "entry_price": 0.0505,
           "whale_direction": "Nishesh Basavareddy",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Nishesh Basavareddy",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 81516.87,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x1973131ab5b1351c681bab556e6936cd2238c1365075daeeb35437136c2ea636:1",
@@ -25595,11 +25651,11 @@
           "tier": "Moderate",
           "entry_price": 0.0505,
           "whale_direction": "Vitaliy Sachko",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Vitaliy Sachko",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 49218.96,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x3f4159f9579d3a79bdd4bd0839772350091d5f320f8dbd300c2df02fe8f5220d:1",
@@ -25627,6 +25683,34 @@
           "resolved_date": null,
           "end_date": "2026-09-01",
           "total_value_usd": 58539.77,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x6c9e41a94dfa04d934740c70d07aff22a1110a5b9767e12234101e45e38b8e09:1",
+          "condition_id": "0x6c9e41a94dfa04d934740c70d07aff22a1110a5b9767e12234101e45e38b8e09",
+          "title": "Winston-Salem Open: Benjamin Bonzi vs Quentin Halys",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0505,
+          "whale_direction": "Quentin Halys",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-01",
+          "total_value_usd": 56325.49,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x7d130bc0a6386f3ef22564165af87c128dce53a2c85101be02df67a5b97a5759:0",
+          "condition_id": "0x7d130bc0a6386f3ef22564165af87c128dce53a2c85101be02df67a5b97a5759",
+          "title": "US Open, Qualification ATP: Pedro Martinez vs Daniil Glinka",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0505,
+          "whale_direction": "Pedro Martinez",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-01",
+          "total_value_usd": 76741.79,
           "result": "pending"
         }
       ]

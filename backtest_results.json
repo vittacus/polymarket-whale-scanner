@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-25T19:24:57+00:00",
-  "total_signals": 1056,
-  "total_resolved": 993,
-  "total_correct": 621,
-  "overall_hit_rate": 62.5,
+  "generated_at": "2026-08-25T20:03:24+00:00",
+  "total_signals": 1058,
+  "total_resolved": 995,
+  "total_correct": 623,
+  "overall_hit_rate": 62.6,
   "by_tier": {
     "Strong": {
-      "total": 435,
+      "total": 436,
       "resolved": 418,
       "correct": 274,
       "hit_rate": 65.6
     },
     "Moderate": {
-      "total": 563,
-      "resolved": 520,
-      "correct": 319,
-      "hit_rate": 61.3
+      "total": 564,
+      "resolved": 522,
+      "correct": 321,
+      "hit_rate": 61.5
     },
     "Weak": {
       "total": 58,
@@ -17921,10 +17921,10 @@
       "total_value_usd": 81516.87,
       "entry_price": 0.0505,
       "end_date": "2026-09-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Nishesh Basavareddy",
+      "resolved_date": "2026-09-01"
     },
     {
       "signal_key": "0x1973131ab5b1351c681bab556e6936cd2238c1365075daeeb35437136c2ea636:1",
@@ -17938,10 +17938,10 @@
       "total_value_usd": 49218.96,
       "entry_price": 0.0505,
       "end_date": "2026-09-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Vitaliy Sachko",
+      "resolved_date": "2026-09-01"
     },
     {
       "signal_key": "0x3f4159f9579d3a79bdd4bd0839772350091d5f320f8dbd300c2df02fe8f5220d:1",
@@ -17970,6 +17970,40 @@
       "tier": "Moderate",
       "score": 9.162,
       "total_value_usd": 58539.77,
+      "entry_price": 0.0505,
+      "end_date": "2026-09-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x6c9e41a94dfa04d934740c70d07aff22a1110a5b9767e12234101e45e38b8e09:1",
+      "condition_id": "0x6c9e41a94dfa04d934740c70d07aff22a1110a5b9767e12234101e45e38b8e09",
+      "title": "Winston-Salem Open: Benjamin Bonzi vs Quentin Halys",
+      "category": "Tennis",
+      "whale_direction": "Quentin Halys",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 22.5463,
+      "total_value_usd": 56325.49,
+      "entry_price": 0.0505,
+      "end_date": "2026-09-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x7d130bc0a6386f3ef22564165af87c128dce53a2c85101be02df67a5b97a5759:0",
+      "condition_id": "0x7d130bc0a6386f3ef22564165af87c128dce53a2c85101be02df67a5b97a5759",
+      "title": "US Open, Qualification ATP: Pedro Martinez vs Daniil Glinka",
+      "category": "Tennis",
+      "whale_direction": "Pedro Martinez",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 7.7476,
+      "total_value_usd": 76741.79,
       "entry_price": 0.0505,
       "end_date": "2026-09-01",
       "resolved": false,
