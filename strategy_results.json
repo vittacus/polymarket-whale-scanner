@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-26T02:31:32+00:00",
-  "total_evaluated": 1076,
-  "total_pending": 70,
+  "generated_at": "2026-08-26T03:41:42+00:00",
+  "total_evaluated": 1079,
+  "total_pending": 69,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1076,
-      "correct": 630,
+      "signals_evaluated": 1079,
+      "correct": 634,
       "wrong": 376,
-      "pending": 70,
-      "win_rate": 62.6,
+      "pending": 69,
+      "win_rate": 62.8,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -14903,11 +14903,11 @@
           "tier": "Strong",
           "entry_price": 0.0495,
           "whale_direction": "Houston Astros",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Houston Astros",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 342365.46,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x825db995fc4b22745189d5a323e11aa0f1a7ff381a4e71d23bf2d1b5e4792477:1",
@@ -14987,11 +14987,11 @@
           "tier": "Strong",
           "entry_price": 0.0495,
           "whale_direction": "New York Mets",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Mets",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 89249.47,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x35c1637628b1b10a91957c9104af680b3a3b2ad1650e788b986dbaac99ac5ea4:1",
@@ -15043,11 +15043,11 @@
           "tier": "Moderate",
           "entry_price": 0.0495,
           "whale_direction": "Sebastian Baez",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Sebastian Baez",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 75690.34,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x05ff1067b2364ce08405755318bf741631756ee48a174c47262005618529c0f6:0",
@@ -15071,10 +15071,52 @@
           "tier": "Moderate",
           "entry_price": 0.0495,
           "whale_direction": "Liam Draxl",
+          "resolved_outcome": "Liam Draxl",
+          "resolved_date": "2026-09-01",
+          "end_date": "2026-09-01",
+          "total_value_usd": 13089.81,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x802764873b0f1a02f3d018d91269a0e6355db8920a8ab42a307aa06b8b3d289f:1",
+          "condition_id": "0x802764873b0f1a02f3d018d91269a0e6355db8920a8ab42a307aa06b8b3d289f",
+          "title": "Pittsburgh Pirates vs. San Diego Padres",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0495,
+          "whale_direction": "San Diego Padres",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-02",
+          "total_value_usd": 80590.64,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xbc401a8bd55fbc0868c54ed25fa03591a3c192f5018c6bc3707e49c820d7d7b3:1",
+          "condition_id": "0xbc401a8bd55fbc0868c54ed25fa03591a3c192f5018c6bc3707e49c820d7d7b3",
+          "title": "Monterrey Open: Janice Tjen vs Yulia Starodubtseva",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0495,
+          "whale_direction": "Yulia Starodubtseva",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-09-01",
-          "total_value_usd": 13089.81,
+          "total_value_usd": 13628.16,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x364cce57f51d6691e708a5811e1255ec128a809138a76df89fd141f98c4dc5fb:0",
+          "condition_id": "0x364cce57f51d6691e708a5811e1255ec128a809138a76df89fd141f98c4dc5fb",
+          "title": "Monterrey Open: Nikola Bartunkova vs Anastasia Potapova",
+          "category": "Tennis",
+          "tier": "Weak",
+          "entry_price": 0.0495,
+          "whale_direction": "Nikola Bartunkova",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-02",
+          "total_value_usd": 7373.73,
           "result": "pending"
         }
       ]
@@ -15083,11 +15125,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 406,
-      "correct": 228,
+      "signals_evaluated": 409,
+      "correct": 232,
       "wrong": 137,
-      "pending": 41,
-      "win_rate": 62.5,
+      "pending": 40,
+      "win_rate": 62.9,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -20599,11 +20641,11 @@
           "tier": "Strong",
           "entry_price": 0.0495,
           "whale_direction": "Houston Astros",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Houston Astros",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 342365.46,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x825db995fc4b22745189d5a323e11aa0f1a7ff381a4e71d23bf2d1b5e4792477:1",
@@ -20683,11 +20725,11 @@
           "tier": "Strong",
           "entry_price": 0.0495,
           "whale_direction": "New York Mets",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Mets",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 89249.47,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x35c1637628b1b10a91957c9104af680b3a3b2ad1650e788b986dbaac99ac5ea4:1",
@@ -20739,11 +20781,11 @@
           "tier": "Moderate",
           "entry_price": 0.0495,
           "whale_direction": "Sebastian Baez",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Sebastian Baez",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 75690.34,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x05ff1067b2364ce08405755318bf741631756ee48a174c47262005618529c0f6:0",
@@ -20767,10 +20809,52 @@
           "tier": "Moderate",
           "entry_price": 0.0495,
           "whale_direction": "Liam Draxl",
+          "resolved_outcome": "Liam Draxl",
+          "resolved_date": "2026-09-01",
+          "end_date": "2026-09-01",
+          "total_value_usd": 13089.81,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x802764873b0f1a02f3d018d91269a0e6355db8920a8ab42a307aa06b8b3d289f:1",
+          "condition_id": "0x802764873b0f1a02f3d018d91269a0e6355db8920a8ab42a307aa06b8b3d289f",
+          "title": "Pittsburgh Pirates vs. San Diego Padres",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0495,
+          "whale_direction": "San Diego Padres",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-02",
+          "total_value_usd": 80590.64,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xbc401a8bd55fbc0868c54ed25fa03591a3c192f5018c6bc3707e49c820d7d7b3:1",
+          "condition_id": "0xbc401a8bd55fbc0868c54ed25fa03591a3c192f5018c6bc3707e49c820d7d7b3",
+          "title": "Monterrey Open: Janice Tjen vs Yulia Starodubtseva",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0495,
+          "whale_direction": "Yulia Starodubtseva",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-09-01",
-          "total_value_usd": 13089.81,
+          "total_value_usd": 13628.16,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x364cce57f51d6691e708a5811e1255ec128a809138a76df89fd141f98c4dc5fb:0",
+          "condition_id": "0x364cce57f51d6691e708a5811e1255ec128a809138a76df89fd141f98c4dc5fb",
+          "title": "Monterrey Open: Nikola Bartunkova vs Anastasia Potapova",
+          "category": "Tennis",
+          "tier": "Weak",
+          "entry_price": 0.0495,
+          "whale_direction": "Nikola Bartunkova",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-02",
+          "total_value_usd": 7373.73,
           "result": "pending"
         }
       ]
@@ -20779,11 +20863,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 406,
+      "signals_evaluated": 409,
       "correct": 137,
-      "wrong": 228,
-      "pending": 41,
-      "win_rate": 37.5,
+      "wrong": 232,
+      "pending": 40,
+      "win_rate": 37.1,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -26295,11 +26379,11 @@
           "tier": "Strong",
           "entry_price": 0.0495,
           "whale_direction": "Houston Astros",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Houston Astros",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 342365.46,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x825db995fc4b22745189d5a323e11aa0f1a7ff381a4e71d23bf2d1b5e4792477:1",
@@ -26379,11 +26463,11 @@
           "tier": "Strong",
           "entry_price": 0.0495,
           "whale_direction": "New York Mets",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Mets",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 89249.47,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x35c1637628b1b10a91957c9104af680b3a3b2ad1650e788b986dbaac99ac5ea4:1",
@@ -26435,11 +26519,11 @@
           "tier": "Moderate",
           "entry_price": 0.0495,
           "whale_direction": "Sebastian Baez",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Sebastian Baez",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 75690.34,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x05ff1067b2364ce08405755318bf741631756ee48a174c47262005618529c0f6:0",
@@ -26463,10 +26547,52 @@
           "tier": "Moderate",
           "entry_price": 0.0495,
           "whale_direction": "Liam Draxl",
+          "resolved_outcome": "Liam Draxl",
+          "resolved_date": "2026-09-01",
+          "end_date": "2026-09-01",
+          "total_value_usd": 13089.81,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x802764873b0f1a02f3d018d91269a0e6355db8920a8ab42a307aa06b8b3d289f:1",
+          "condition_id": "0x802764873b0f1a02f3d018d91269a0e6355db8920a8ab42a307aa06b8b3d289f",
+          "title": "Pittsburgh Pirates vs. San Diego Padres",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0495,
+          "whale_direction": "San Diego Padres",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-02",
+          "total_value_usd": 80590.64,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xbc401a8bd55fbc0868c54ed25fa03591a3c192f5018c6bc3707e49c820d7d7b3:1",
+          "condition_id": "0xbc401a8bd55fbc0868c54ed25fa03591a3c192f5018c6bc3707e49c820d7d7b3",
+          "title": "Monterrey Open: Janice Tjen vs Yulia Starodubtseva",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0495,
+          "whale_direction": "Yulia Starodubtseva",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-09-01",
-          "total_value_usd": 13089.81,
+          "total_value_usd": 13628.16,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x364cce57f51d6691e708a5811e1255ec128a809138a76df89fd141f98c4dc5fb:0",
+          "condition_id": "0x364cce57f51d6691e708a5811e1255ec128a809138a76df89fd141f98c4dc5fb",
+          "title": "Monterrey Open: Nikola Bartunkova vs Anastasia Potapova",
+          "category": "Tennis",
+          "tier": "Weak",
+          "entry_price": 0.0495,
+          "whale_direction": "Nikola Bartunkova",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-02",
+          "total_value_usd": 7373.73,
           "result": "pending"
         }
       ]
