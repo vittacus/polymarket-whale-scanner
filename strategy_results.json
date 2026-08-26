@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-26T14:15:00+00:00",
-  "total_evaluated": 1081,
-  "total_pending": 60,
+  "generated_at": "2026-08-26T16:00:42+00:00",
+  "total_evaluated": 1085,
+  "total_pending": 64,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1081,
+      "signals_evaluated": 1085,
       "correct": 641,
       "wrong": 380,
-      "pending": 60,
+      "pending": 64,
       "win_rate": 62.8,
       "signals": [
         {
@@ -15146,6 +15146,62 @@
           "end_date": "2026-09-02",
           "total_value_usd": 21538.41,
           "result": "correct"
+        },
+        {
+          "signal_key": "0xa8b94893208c86c3dc74a6ad4f8d8dccc3c17ebbc53182fb50d46bb02769f07d:0",
+          "condition_id": "0xa8b94893208c86c3dc74a6ad4f8d8dccc3c17ebbc53182fb50d46bb02769f07d",
+          "title": "US Open, Qualification ATP: Daniel Rincon vs Jordan Lee",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Daniel Rincon",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-02",
+          "total_value_usd": 42456.3,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x1f4599b7a40fc150ee35bc3a5464aec8ffdb7b95904d28f7c1ced44f2052128c:1",
+          "condition_id": "0x1f4599b7a40fc150ee35bc3a5464aec8ffdb7b95904d28f7c1ced44f2052128c",
+          "title": "US Open, Qualification WTA: Alevtina Ibragimova vs Mariam Bolkvadze",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Mariam Bolkvadze",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-02",
+          "total_value_usd": 41980.31,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x1f4599b7a40fc150ee35bc3a5464aec8ffdb7b95904d28f7c1ced44f2052128c:0",
+          "condition_id": "0x1f4599b7a40fc150ee35bc3a5464aec8ffdb7b95904d28f7c1ced44f2052128c",
+          "title": "US Open, Qualification WTA: Alevtina Ibragimova vs Mariam Bolkvadze",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Alevtina Ibragimova",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-02",
+          "total_value_usd": 21987.63,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xa8b94893208c86c3dc74a6ad4f8d8dccc3c17ebbc53182fb50d46bb02769f07d:1",
+          "condition_id": "0xa8b94893208c86c3dc74a6ad4f8d8dccc3c17ebbc53182fb50d46bb02769f07d",
+          "title": "US Open, Qualification ATP: Daniel Rincon vs Jordan Lee",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Jordan Lee",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-02",
+          "total_value_usd": 6826.86,
+          "result": "pending"
         }
       ]
     },
@@ -15153,10 +15209,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 411,
+      "signals_evaluated": 415,
       "correct": 239,
       "wrong": 141,
-      "pending": 31,
+      "pending": 35,
       "win_rate": 62.9,
       "signals": [
         {
@@ -20912,6 +20968,62 @@
           "end_date": "2026-09-02",
           "total_value_usd": 21538.41,
           "result": "correct"
+        },
+        {
+          "signal_key": "0xa8b94893208c86c3dc74a6ad4f8d8dccc3c17ebbc53182fb50d46bb02769f07d:0",
+          "condition_id": "0xa8b94893208c86c3dc74a6ad4f8d8dccc3c17ebbc53182fb50d46bb02769f07d",
+          "title": "US Open, Qualification ATP: Daniel Rincon vs Jordan Lee",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Daniel Rincon",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-02",
+          "total_value_usd": 42456.3,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x1f4599b7a40fc150ee35bc3a5464aec8ffdb7b95904d28f7c1ced44f2052128c:1",
+          "condition_id": "0x1f4599b7a40fc150ee35bc3a5464aec8ffdb7b95904d28f7c1ced44f2052128c",
+          "title": "US Open, Qualification WTA: Alevtina Ibragimova vs Mariam Bolkvadze",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Mariam Bolkvadze",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-02",
+          "total_value_usd": 41980.31,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x1f4599b7a40fc150ee35bc3a5464aec8ffdb7b95904d28f7c1ced44f2052128c:0",
+          "condition_id": "0x1f4599b7a40fc150ee35bc3a5464aec8ffdb7b95904d28f7c1ced44f2052128c",
+          "title": "US Open, Qualification WTA: Alevtina Ibragimova vs Mariam Bolkvadze",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Alevtina Ibragimova",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-02",
+          "total_value_usd": 21987.63,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xa8b94893208c86c3dc74a6ad4f8d8dccc3c17ebbc53182fb50d46bb02769f07d:1",
+          "condition_id": "0xa8b94893208c86c3dc74a6ad4f8d8dccc3c17ebbc53182fb50d46bb02769f07d",
+          "title": "US Open, Qualification ATP: Daniel Rincon vs Jordan Lee",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Jordan Lee",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-02",
+          "total_value_usd": 6826.86,
+          "result": "pending"
         }
       ]
     },
@@ -20919,10 +21031,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 411,
+      "signals_evaluated": 415,
       "correct": 141,
       "wrong": 239,
-      "pending": 31,
+      "pending": 35,
       "win_rate": 37.1,
       "signals": [
         {
@@ -26678,6 +26790,62 @@
           "end_date": "2026-09-02",
           "total_value_usd": 21538.41,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0xa8b94893208c86c3dc74a6ad4f8d8dccc3c17ebbc53182fb50d46bb02769f07d:0",
+          "condition_id": "0xa8b94893208c86c3dc74a6ad4f8d8dccc3c17ebbc53182fb50d46bb02769f07d",
+          "title": "US Open, Qualification ATP: Daniel Rincon vs Jordan Lee",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Daniel Rincon",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-02",
+          "total_value_usd": 42456.3,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x1f4599b7a40fc150ee35bc3a5464aec8ffdb7b95904d28f7c1ced44f2052128c:1",
+          "condition_id": "0x1f4599b7a40fc150ee35bc3a5464aec8ffdb7b95904d28f7c1ced44f2052128c",
+          "title": "US Open, Qualification WTA: Alevtina Ibragimova vs Mariam Bolkvadze",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Mariam Bolkvadze",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-02",
+          "total_value_usd": 41980.31,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x1f4599b7a40fc150ee35bc3a5464aec8ffdb7b95904d28f7c1ced44f2052128c:0",
+          "condition_id": "0x1f4599b7a40fc150ee35bc3a5464aec8ffdb7b95904d28f7c1ced44f2052128c",
+          "title": "US Open, Qualification WTA: Alevtina Ibragimova vs Mariam Bolkvadze",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Alevtina Ibragimova",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-02",
+          "total_value_usd": 21987.63,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xa8b94893208c86c3dc74a6ad4f8d8dccc3c17ebbc53182fb50d46bb02769f07d:1",
+          "condition_id": "0xa8b94893208c86c3dc74a6ad4f8d8dccc3c17ebbc53182fb50d46bb02769f07d",
+          "title": "US Open, Qualification ATP: Daniel Rincon vs Jordan Lee",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Jordan Lee",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-02",
+          "total_value_usd": 6826.86,
+          "result": "pending"
         }
       ]
     },

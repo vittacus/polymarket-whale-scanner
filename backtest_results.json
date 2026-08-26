@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-26T14:15:00+00:00",
-  "total_signals": 1081,
+  "generated_at": "2026-08-26T16:00:41+00:00",
+  "total_signals": 1085,
   "total_resolved": 1021,
   "total_correct": 641,
   "overall_hit_rate": 62.8,
   "by_tier": {
     "Strong": {
-      "total": 447,
+      "total": 451,
       "resolved": 431,
       "correct": 283,
       "hit_rate": 65.7
@@ -18401,6 +18401,74 @@
       "correct": true,
       "resolved_outcome": "Cleveland Guardians",
       "resolved_date": "2026-09-02"
+    },
+    {
+      "signal_key": "0xa8b94893208c86c3dc74a6ad4f8d8dccc3c17ebbc53182fb50d46bb02769f07d:0",
+      "condition_id": "0xa8b94893208c86c3dc74a6ad4f8d8dccc3c17ebbc53182fb50d46bb02769f07d",
+      "title": "US Open, Qualification ATP: Daniel Rincon vs Jordan Lee",
+      "category": "Tennis",
+      "whale_direction": "Daniel Rincon",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 22.6889,
+      "total_value_usd": 42456.3,
+      "entry_price": 0.0425,
+      "end_date": "2026-09-02",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x1f4599b7a40fc150ee35bc3a5464aec8ffdb7b95904d28f7c1ced44f2052128c:1",
+      "condition_id": "0x1f4599b7a40fc150ee35bc3a5464aec8ffdb7b95904d28f7c1ced44f2052128c",
+      "title": "US Open, Qualification WTA: Alevtina Ibragimova vs Mariam Bolkvadze",
+      "category": "Tennis",
+      "whale_direction": "Mariam Bolkvadze",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 22.6649,
+      "total_value_usd": 41980.31,
+      "entry_price": 0.0425,
+      "end_date": "2026-09-02",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x1f4599b7a40fc150ee35bc3a5464aec8ffdb7b95904d28f7c1ced44f2052128c:0",
+      "condition_id": "0x1f4599b7a40fc150ee35bc3a5464aec8ffdb7b95904d28f7c1ced44f2052128c",
+      "title": "US Open, Qualification WTA: Alevtina Ibragimova vs Mariam Bolkvadze",
+      "category": "Tennis",
+      "whale_direction": "Alevtina Ibragimova",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 21.288,
+      "total_value_usd": 21987.63,
+      "entry_price": 0.0425,
+      "end_date": "2026-09-02",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xa8b94893208c86c3dc74a6ad4f8d8dccc3c17ebbc53182fb50d46bb02769f07d:1",
+      "condition_id": "0xa8b94893208c86c3dc74a6ad4f8d8dccc3c17ebbc53182fb50d46bb02769f07d",
+      "title": "US Open, Qualification ATP: Daniel Rincon vs Jordan Lee",
+      "category": "Tennis",
+      "whale_direction": "Jordan Lee",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 18.7979,
+      "total_value_usd": 6826.86,
+      "entry_price": 0.0425,
+      "end_date": "2026-09-02",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
