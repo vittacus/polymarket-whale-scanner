@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-26T07:39:02+00:00",
+  "generated_at": "2026-08-26T08:31:49+00:00",
   "total_signals": 1081,
-  "total_resolved": 1016,
-  "total_correct": 638,
+  "total_resolved": 1019,
+  "total_correct": 640,
   "overall_hit_rate": 62.8,
   "by_tier": {
     "Strong": {
       "total": 447,
-      "resolved": 427,
-      "correct": 281,
+      "resolved": 430,
+      "correct": 283,
       "hit_rate": 65.8
     },
     "Moderate": {
@@ -18125,10 +18125,10 @@
       "total_value_usd": 93875.11,
       "entry_price": 0.0495,
       "end_date": "2026-09-02",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Arizona Diamondbacks",
+      "resolved_date": "2026-09-02"
     },
     {
       "signal_key": "0xff14e839f47b1b292ee9424f5429d8fa299f6d411bc2479be53c27405095d9a7:1",
@@ -18176,10 +18176,10 @@
       "total_value_usd": 24067.18,
       "entry_price": 0.0495,
       "end_date": "2026-09-02",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Arizona Diamondbacks",
+      "resolved_date": "2026-09-02"
     },
     {
       "signal_key": "0x3f7a4f6b8cf81878aae8614a47f1c52431faa20bd300dcb897a12fc9c258ae2c:0",
@@ -18397,10 +18397,10 @@
       "total_value_usd": 21538.41,
       "entry_price": 0.0495,
       "end_date": "2026-09-02",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Cleveland Guardians",
+      "resolved_date": "2026-09-02"
     }
   ]
 }
