@@ -325987,5 +325987,457 @@
         "entry_price": 0.0445
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-26T02:23:19+00:00",
+    "whale_timeframes": {
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2dc13c6bda81b202281e796953a7323de675b33c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa71093cafc0c099b4ccab24c3cb8018d817923c4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb8ef617fd5d960e61e56c50d2971697300b32864": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x58776759ee5c70a915138706a1308add8bc5d894": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe30e74595517de48f1fb19f4553dd3d9f1e96b87": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x204f72f35326db932158cba6adff0b9a1da95e14": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x682005011dd19c1e986cb060ed6ab83845f21c19": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8fba2c29715c41dd87e781c23373aa1e0549d08a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2ab1be7d94a3509c371e56b49e7b124e2f201975": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x56acab44cfca2e88bb9b3406890aea7bfa0cd77e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8b9a30184244d427169cf62485dde6041b2b836": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x455017aeeb812643f1ff38fede7650be6258297043384222b28ec9c59f1cf10c:0",
+        "condition_id": "0x455017aeeb812643f1ff38fede7650be6258297043384222b28ec9c59f1cf10c",
+        "title": "Houston Astros vs. New York Yankees",
+        "outcome": "Houston Astros",
+        "outcome_index": 0,
+        "whale_count": 8,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x8fba2c29715c41dd87e781c23373aa1e0549d08a",
+          "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+          "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705"
+        ],
+        "ranks": [
+          1,
+          5,
+          6,
+          7,
+          12,
+          14,
+          16,
+          17
+        ],
+        "total_value_usd": 342365.46,
+        "score": 39.8215,
+        "category": "MLB",
+        "end_date": "2026-09-01",
+        "entry_price": 0.0495
+      },
+      {
+        "signal_key": "0x825db995fc4b22745189d5a323e11aa0f1a7ff381a4e71d23bf2d1b5e4792477:1",
+        "condition_id": "0x825db995fc4b22745189d5a323e11aa0f1a7ff381a4e71d23bf2d1b5e4792477",
+        "title": "Chicago Cubs vs. Arizona Diamondbacks",
+        "outcome": "Arizona Diamondbacks",
+        "outcome_index": 1,
+        "whale_count": 5,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x58776759ee5c70a915138706a1308add8bc5d894",
+          "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705"
+        ],
+        "ranks": [
+          1,
+          5,
+          7,
+          10,
+          17
+        ],
+        "total_value_usd": 93875.11,
+        "score": 30.0892,
+        "category": "MLB",
+        "end_date": "2026-09-02",
+        "entry_price": 0.0495
+      },
+      {
+        "signal_key": "0xff14e839f47b1b292ee9424f5429d8fa299f6d411bc2479be53c27405095d9a7:1",
+        "condition_id": "0xff14e839f47b1b292ee9424f5429d8fa299f6d411bc2479be53c27405095d9a7",
+        "title": "Cleveland Guardians vs. Los Angeles Angels",
+        "outcome": "Los Angeles Angels",
+        "outcome_index": 1,
+        "whale_count": 6,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x629c2844d5c0e36774a67fe10dcd43ca31a76c01",
+          "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705",
+          "0x56acab44cfca2e88bb9b3406890aea7bfa0cd77e"
+        ],
+        "ranks": [
+          1,
+          5,
+          12,
+          16,
+          17,
+          19
+        ],
+        "total_value_usd": 45050.45,
+        "score": 27.3274,
+        "category": "MLB",
+        "end_date": "2026-09-02",
+        "entry_price": 0.0495
+      },
+      {
+        "signal_key": "0x802764873b0f1a02f3d018d91269a0e6355db8920a8ab42a307aa06b8b3d289f:0",
+        "condition_id": "0x802764873b0f1a02f3d018d91269a0e6355db8920a8ab42a307aa06b8b3d289f",
+        "title": "Pittsburgh Pirates vs. San Diego Padres",
+        "outcome": "Pittsburgh Pirates",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x8fba2c29715c41dd87e781c23373aa1e0549d08a"
+        ],
+        "ranks": [
+          1,
+          7,
+          14
+        ],
+        "total_value_usd": 72051.47,
+        "score": 23.7684,
+        "category": "MLB",
+        "end_date": "2026-09-02",
+        "entry_price": 0.0495
+      },
+      {
+        "signal_key": "0x825db995fc4b22745189d5a323e11aa0f1a7ff381a4e71d23bf2d1b5e4792477:0",
+        "condition_id": "0x825db995fc4b22745189d5a323e11aa0f1a7ff381a4e71d23bf2d1b5e4792477",
+        "title": "Chicago Cubs vs. Arizona Diamondbacks",
+        "outcome": "Chicago Cubs",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          1,
+          7,
+          12
+        ],
+        "total_value_usd": 24067.18,
+        "score": 21.6486,
+        "category": "MLB",
+        "end_date": "2026-09-02",
+        "entry_price": 0.0495
+      },
+      {
+        "signal_key": "0x3f7a4f6b8cf81878aae8614a47f1c52431faa20bd300dcb897a12fc9c258ae2c:0",
+        "condition_id": "0x3f7a4f6b8cf81878aae8614a47f1c52431faa20bd300dcb897a12fc9c258ae2c",
+        "title": "Kansas City Royals vs. Toronto Blue Jays",
+        "outcome": "Kansas City Royals",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x8fba2c29715c41dd87e781c23373aa1e0549d08a",
+          "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705"
+        ],
+        "ranks": [
+          1,
+          14,
+          17
+        ],
+        "total_value_usd": 52430.76,
+        "score": 21.4948,
+        "category": "MLB",
+        "end_date": "2026-09-01",
+        "entry_price": 0.0495
+      },
+      {
+        "signal_key": "0x9e12343e61b66ee66778d0afd33c7209f0d7fc7fe882ece7514bbf525a968973:1",
+        "condition_id": "0x9e12343e61b66ee66778d0afd33c7209f0d7fc7fe882ece7514bbf525a968973",
+        "title": "Milwaukee Brewers vs. New York Mets",
+        "outcome": "New York Mets",
+        "outcome_index": 1,
+        "whale_count": 5,
+        "wallets": [
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x58776759ee5c70a915138706a1308add8bc5d894",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x8fba2c29715c41dd87e781c23373aa1e0549d08a",
+          "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705"
+        ],
+        "ranks": [
+          5,
+          10,
+          12,
+          14,
+          17
+        ],
+        "total_value_usd": 89249.47,
+        "score": 10.2453,
+        "category": "MLB",
+        "end_date": "2026-09-01",
+        "entry_price": 0.0495
+      },
+      {
+        "signal_key": "0x35c1637628b1b10a91957c9104af680b3a3b2ad1650e788b986dbaac99ac5ea4:1",
+        "condition_id": "0x35c1637628b1b10a91957c9104af680b3a3b2ad1650e788b986dbaac99ac5ea4",
+        "title": "Monterrey Open: Oleksandra Oliynykova vs Diane Parry",
+        "outcome": "Diane Parry",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          5,
+          7,
+          12
+        ],
+        "total_value_usd": 38125.75,
+        "score": 7.8676,
+        "category": "Tennis",
+        "end_date": "2026-09-02",
+        "entry_price": 0.0495
+      },
+      {
+        "signal_key": "0x818204aae21cf5a394f23f6f2627f08475ba15698b94cf20ec399bebe7c04573:1",
+        "condition_id": "0x818204aae21cf5a394f23f6f2627f08475ba15698b94cf20ec399bebe7c04573",
+        "title": "Minnesota Twins vs. Athletics",
+        "outcome": "Athletics",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xb8ef617fd5d960e61e56c50d2971697300b32864",
+          "0x8fba2c29715c41dd87e781c23373aa1e0549d08a",
+          "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705"
+        ],
+        "ranks": [
+          7,
+          9,
+          14,
+          17
+        ],
+        "total_value_usd": 24937.52,
+        "score": 6.8073,
+        "category": "MLB",
+        "end_date": "2026-09-02",
+        "entry_price": 0.0495
+      },
+      {
+        "signal_key": "0x35c1637628b1b10a91957c9104af680b3a3b2ad1650e788b986dbaac99ac5ea4:0",
+        "condition_id": "0x35c1637628b1b10a91957c9104af680b3a3b2ad1650e788b986dbaac99ac5ea4",
+        "title": "Monterrey Open: Oleksandra Oliynykova vs Diane Parry",
+        "outcome": "Oleksandra Oliynykova",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x58776759ee5c70a915138706a1308add8bc5d894",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14"
+        ],
+        "ranks": [
+          5,
+          10,
+          12
+        ],
+        "total_value_usd": 19632.1,
+        "score": 6.6312,
+        "category": "Tennis",
+        "end_date": "2026-09-02",
+        "entry_price": 0.0495
+      },
+      {
+        "signal_key": "0x2acb08018115dec5b8b15ca3871fe9fbcd988df50584c49624b9e71b79372e22:1",
+        "condition_id": "0x2acb08018115dec5b8b15ca3871fe9fbcd988df50584c49624b9e71b79372e22",
+        "title": "Winston-Salem Open: Hugo Grenier vs Sebastian Baez",
+        "outcome": "Sebastian Baez",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x56acab44cfca2e88bb9b3406890aea7bfa0cd77e"
+        ],
+        "ranks": [
+          5,
+          12,
+          19
+        ],
+        "total_value_usd": 75690.34,
+        "score": 6.6051,
+        "category": "Tennis",
+        "end_date": "2026-09-01",
+        "entry_price": 0.0495
+      },
+      {
+        "signal_key": "0x05ff1067b2364ce08405755318bf741631756ee48a174c47262005618529c0f6:0",
+        "condition_id": "0x05ff1067b2364ce08405755318bf741631756ee48a174c47262005618529c0f6",
+        "title": "Boston Red Sox vs. Miami Marlins",
+        "outcome": "Boston Red Sox",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705"
+        ],
+        "ranks": [
+          5,
+          12,
+          17
+        ],
+        "total_value_usd": 24090.84,
+        "score": 6.0414,
+        "category": "MLB",
+        "end_date": "2026-09-01",
+        "entry_price": 0.0495
+      },
+      {
+        "signal_key": "0x6dd41d230185eef74e9e34407f3440084533464806ffa49904c1df82e23cd1c4:1",
+        "condition_id": "0x6dd41d230185eef74e9e34407f3440084533464806ffa49904c1df82e23cd1c4",
+        "title": "US Open, Qualification ATP: Nicolas Mejia vs Liam Draxl",
+        "outcome": "Liam Draxl",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x204f72f35326db932158cba6adff0b9a1da95e14",
+          "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c"
+        ],
+        "ranks": [
+          5,
+          12,
+          15
+        ],
+        "total_value_usd": 13089.81,
+        "score": 5.8063,
+        "category": "Tennis",
+        "end_date": "2026-09-01",
+        "entry_price": 0.0495
+      }
+    ]
   }
 ]
