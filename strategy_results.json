@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T08:31:49+00:00",
+  "generated_at": "2026-08-26T09:17:24+00:00",
   "total_evaluated": 1081,
-  "total_pending": 62,
+  "total_pending": 61,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
@@ -9,9 +9,9 @@
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 1081,
       "correct": 640,
-      "wrong": 379,
-      "pending": 62,
-      "win_rate": 62.8,
+      "wrong": 380,
+      "pending": 61,
+      "win_rate": 62.7,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -14931,11 +14931,11 @@
           "tier": "Strong",
           "entry_price": 0.0495,
           "whale_direction": "Los Angeles Angels",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Cleveland Guardians",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 45050.45,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x802764873b0f1a02f3d018d91269a0e6355db8920a8ab42a307aa06b8b3d289f:0",
@@ -15155,9 +15155,9 @@
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 411,
       "correct": 238,
-      "wrong": 140,
-      "pending": 33,
-      "win_rate": 63.0,
+      "wrong": 141,
+      "pending": 32,
+      "win_rate": 62.8,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -20697,11 +20697,11 @@
           "tier": "Strong",
           "entry_price": 0.0495,
           "whale_direction": "Los Angeles Angels",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Cleveland Guardians",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 45050.45,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x802764873b0f1a02f3d018d91269a0e6355db8920a8ab42a307aa06b8b3d289f:0",
@@ -20920,10 +20920,10 @@
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 411,
-      "correct": 140,
+      "correct": 141,
       "wrong": 238,
-      "pending": 33,
-      "win_rate": 37.0,
+      "pending": 32,
+      "win_rate": 37.2,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -26463,11 +26463,11 @@
           "tier": "Strong",
           "entry_price": 0.0495,
           "whale_direction": "Los Angeles Angels",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Cleveland Guardians",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 45050.45,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x802764873b0f1a02f3d018d91269a0e6355db8920a8ab42a307aa06b8b3d289f:0",

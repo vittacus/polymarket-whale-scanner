@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-26T08:31:49+00:00",
+  "generated_at": "2026-08-26T09:17:24+00:00",
   "total_signals": 1081,
-  "total_resolved": 1019,
+  "total_resolved": 1020,
   "total_correct": 640,
-  "overall_hit_rate": 62.8,
+  "overall_hit_rate": 62.7,
   "by_tier": {
     "Strong": {
       "total": 447,
-      "resolved": 430,
+      "resolved": 431,
       "correct": 283,
-      "hit_rate": 65.8
+      "hit_rate": 65.7
     },
     "Moderate": {
       "total": 575,
@@ -18142,10 +18142,10 @@
       "total_value_usd": 45050.45,
       "entry_price": 0.0495,
       "end_date": "2026-09-02",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Cleveland Guardians",
+      "resolved_date": "2026-09-02"
     },
     {
       "signal_key": "0x802764873b0f1a02f3d018d91269a0e6355db8920a8ab42a307aa06b8b3d289f:0",
