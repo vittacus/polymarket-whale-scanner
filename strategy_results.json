@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-26T16:53:03+00:00",
-  "total_evaluated": 1085,
-  "total_pending": 64,
+  "generated_at": "2026-08-26T18:33:47+00:00",
+  "total_evaluated": 1087,
+  "total_pending": 61,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1085,
-      "correct": 641,
-      "wrong": 380,
-      "pending": 64,
+      "signals_evaluated": 1087,
+      "correct": 644,
+      "wrong": 382,
+      "pending": 61,
       "win_rate": 62.8,
       "signals": [
         {
@@ -15113,11 +15113,11 @@
           "tier": "Weak",
           "entry_price": 0.0495,
           "whale_direction": "Nikola Bartunkova",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Nikola Bartunkova",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 7373.73,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x167280c1aeecda15a5689ebd71146efc9659a3eaf6e62b645d29d55d42c1796b:1",
@@ -15155,11 +15155,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Daniel Rincon",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Daniel Rincon",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 42456.3,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x1f4599b7a40fc150ee35bc3a5464aec8ffdb7b95904d28f7c1ced44f2052128c:1",
@@ -15169,11 +15169,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Mariam Bolkvadze",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Mariam Bolkvadze",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 41980.31,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x1f4599b7a40fc150ee35bc3a5464aec8ffdb7b95904d28f7c1ced44f2052128c:0",
@@ -15183,11 +15183,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Alevtina Ibragimova",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Mariam Bolkvadze",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 21987.63,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xa8b94893208c86c3dc74a6ad4f8d8dccc3c17ebbc53182fb50d46bb02769f07d:1",
@@ -15197,10 +15197,38 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Jordan Lee",
+          "resolved_outcome": "Daniel Rincon",
+          "resolved_date": "2026-09-02",
+          "end_date": "2026-09-02",
+          "total_value_usd": 6826.86,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x874db6197dac81369a20096a5918bfb79a088872bcef916f5faaabdf865ae69c:1",
+          "condition_id": "0x874db6197dac81369a20096a5918bfb79a088872bcef916f5faaabdf865ae69c",
+          "title": "Winston-Salem Open: Rinky Hijikata vs Benjamin Bonzi",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Benjamin Bonzi",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-09-02",
-          "total_value_usd": 6826.86,
+          "total_value_usd": 49733.97,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x6ab4c38c6c3d184bb35a53576a62732734a761f5baf8750ddd26d9da3140dc71:1",
+          "condition_id": "0x6ab4c38c6c3d184bb35a53576a62732734a761f5baf8750ddd26d9da3140dc71",
+          "title": "US Open, Qualification ATP: Timofey Skatov vs Grigor Dimitrov",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Grigor Dimitrov",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-02",
+          "total_value_usd": 16513.86,
           "result": "pending"
         }
       ]
@@ -15209,10 +15237,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 415,
-      "correct": 239,
-      "wrong": 141,
-      "pending": 35,
+      "signals_evaluated": 417,
+      "correct": 242,
+      "wrong": 143,
+      "pending": 32,
       "win_rate": 62.9,
       "signals": [
         {
@@ -20935,11 +20963,11 @@
           "tier": "Weak",
           "entry_price": 0.0495,
           "whale_direction": "Nikola Bartunkova",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Nikola Bartunkova",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 7373.73,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x167280c1aeecda15a5689ebd71146efc9659a3eaf6e62b645d29d55d42c1796b:1",
@@ -20977,11 +21005,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Daniel Rincon",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Daniel Rincon",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 42456.3,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x1f4599b7a40fc150ee35bc3a5464aec8ffdb7b95904d28f7c1ced44f2052128c:1",
@@ -20991,11 +21019,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Mariam Bolkvadze",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Mariam Bolkvadze",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 41980.31,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x1f4599b7a40fc150ee35bc3a5464aec8ffdb7b95904d28f7c1ced44f2052128c:0",
@@ -21005,11 +21033,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Alevtina Ibragimova",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Mariam Bolkvadze",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 21987.63,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xa8b94893208c86c3dc74a6ad4f8d8dccc3c17ebbc53182fb50d46bb02769f07d:1",
@@ -21019,10 +21047,38 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Jordan Lee",
+          "resolved_outcome": "Daniel Rincon",
+          "resolved_date": "2026-09-02",
+          "end_date": "2026-09-02",
+          "total_value_usd": 6826.86,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x874db6197dac81369a20096a5918bfb79a088872bcef916f5faaabdf865ae69c:1",
+          "condition_id": "0x874db6197dac81369a20096a5918bfb79a088872bcef916f5faaabdf865ae69c",
+          "title": "Winston-Salem Open: Rinky Hijikata vs Benjamin Bonzi",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Benjamin Bonzi",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-09-02",
-          "total_value_usd": 6826.86,
+          "total_value_usd": 49733.97,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x6ab4c38c6c3d184bb35a53576a62732734a761f5baf8750ddd26d9da3140dc71:1",
+          "condition_id": "0x6ab4c38c6c3d184bb35a53576a62732734a761f5baf8750ddd26d9da3140dc71",
+          "title": "US Open, Qualification ATP: Timofey Skatov vs Grigor Dimitrov",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Grigor Dimitrov",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-02",
+          "total_value_usd": 16513.86,
           "result": "pending"
         }
       ]
@@ -21031,10 +21087,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 415,
-      "correct": 141,
-      "wrong": 239,
-      "pending": 35,
+      "signals_evaluated": 417,
+      "correct": 143,
+      "wrong": 242,
+      "pending": 32,
       "win_rate": 37.1,
       "signals": [
         {
@@ -26757,11 +26813,11 @@
           "tier": "Weak",
           "entry_price": 0.0495,
           "whale_direction": "Nikola Bartunkova",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Nikola Bartunkova",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 7373.73,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x167280c1aeecda15a5689ebd71146efc9659a3eaf6e62b645d29d55d42c1796b:1",
@@ -26799,11 +26855,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Daniel Rincon",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Daniel Rincon",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 42456.3,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x1f4599b7a40fc150ee35bc3a5464aec8ffdb7b95904d28f7c1ced44f2052128c:1",
@@ -26813,11 +26869,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Mariam Bolkvadze",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Mariam Bolkvadze",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 41980.31,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x1f4599b7a40fc150ee35bc3a5464aec8ffdb7b95904d28f7c1ced44f2052128c:0",
@@ -26827,11 +26883,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Alevtina Ibragimova",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Mariam Bolkvadze",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 21987.63,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xa8b94893208c86c3dc74a6ad4f8d8dccc3c17ebbc53182fb50d46bb02769f07d:1",
@@ -26841,10 +26897,38 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Jordan Lee",
+          "resolved_outcome": "Daniel Rincon",
+          "resolved_date": "2026-09-02",
+          "end_date": "2026-09-02",
+          "total_value_usd": 6826.86,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x874db6197dac81369a20096a5918bfb79a088872bcef916f5faaabdf865ae69c:1",
+          "condition_id": "0x874db6197dac81369a20096a5918bfb79a088872bcef916f5faaabdf865ae69c",
+          "title": "Winston-Salem Open: Rinky Hijikata vs Benjamin Bonzi",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Benjamin Bonzi",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-09-02",
-          "total_value_usd": 6826.86,
+          "total_value_usd": 49733.97,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x6ab4c38c6c3d184bb35a53576a62732734a761f5baf8750ddd26d9da3140dc71:1",
+          "condition_id": "0x6ab4c38c6c3d184bb35a53576a62732734a761f5baf8750ddd26d9da3140dc71",
+          "title": "US Open, Qualification ATP: Timofey Skatov vs Grigor Dimitrov",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Grigor Dimitrov",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-02",
+          "total_value_usd": 16513.86,
           "result": "pending"
         }
       ]
