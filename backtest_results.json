@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-26T03:41:42+00:00",
-  "total_signals": 1079,
-  "total_resolved": 1010,
-  "total_correct": 634,
-  "overall_hit_rate": 62.8,
+  "generated_at": "2026-08-26T04:30:55+00:00",
+  "total_signals": 1081,
+  "total_resolved": 1014,
+  "total_correct": 636,
+  "overall_hit_rate": 62.7,
   "by_tier": {
     "Strong": {
-      "total": 445,
-      "resolved": 425,
-      "correct": 279,
-      "hit_rate": 65.6
+      "total": 447,
+      "resolved": 426,
+      "correct": 280,
+      "hit_rate": 65.7
     },
     "Moderate": {
       "total": 575,
-      "resolved": 530,
-      "correct": 327,
-      "hit_rate": 61.7
+      "resolved": 533,
+      "correct": 328,
+      "hit_rate": 61.5
     },
     "Weak": {
       "total": 59,
@@ -18159,10 +18159,10 @@
       "total_value_usd": 72051.47,
       "entry_price": 0.0495,
       "end_date": "2026-09-02",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Pittsburgh Pirates",
+      "resolved_date": "2026-09-02"
     },
     {
       "signal_key": "0x825db995fc4b22745189d5a323e11aa0f1a7ff381a4e71d23bf2d1b5e4792477:0",
@@ -18227,10 +18227,10 @@
       "total_value_usd": 38125.75,
       "entry_price": 0.0495,
       "end_date": "2026-09-02",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Diane Parry",
+      "resolved_date": "2026-09-02"
     },
     {
       "signal_key": "0x818204aae21cf5a394f23f6f2627f08475ba15698b94cf20ec399bebe7c04573:1",
@@ -18261,10 +18261,10 @@
       "total_value_usd": 19632.1,
       "entry_price": 0.0495,
       "end_date": "2026-09-02",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Diane Parry",
+      "resolved_date": "2026-09-02"
     },
     {
       "signal_key": "0x2acb08018115dec5b8b15ca3871fe9fbcd988df50584c49624b9e71b79372e22:1",
@@ -18329,10 +18329,10 @@
       "total_value_usd": 80590.64,
       "entry_price": 0.0495,
       "end_date": "2026-09-02",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Pittsburgh Pirates",
+      "resolved_date": "2026-09-02"
     },
     {
       "signal_key": "0xbc401a8bd55fbc0868c54ed25fa03591a3c192f5018c6bc3707e49c820d7d7b3:1",
@@ -18361,6 +18361,40 @@
       "tier": "Weak",
       "score": 3.158,
       "total_value_usd": 7373.73,
+      "entry_price": 0.0495,
+      "end_date": "2026-09-02",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x167280c1aeecda15a5689ebd71146efc9659a3eaf6e62b645d29d55d42c1796b:1",
+      "condition_id": "0x167280c1aeecda15a5689ebd71146efc9659a3eaf6e62b645d29d55d42c1796b",
+      "title": "Philadelphia Phillies vs. Seattle Mariners",
+      "category": "MLB",
+      "whale_direction": "Seattle Mariners",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 11.9264,
+      "total_value_usd": 118542.01,
+      "entry_price": 0.0495,
+      "end_date": "2026-09-02",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xff14e839f47b1b292ee9424f5429d8fa299f6d411bc2479be53c27405095d9a7:0",
+      "condition_id": "0xff14e839f47b1b292ee9424f5429d8fa299f6d411bc2479be53c27405095d9a7",
+      "title": "Cleveland Guardians vs. Los Angeles Angels",
+      "category": "MLB",
+      "whale_direction": "Cleveland Guardians",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 10.04,
+      "total_value_usd": 21538.41,
       "entry_price": 0.0495,
       "end_date": "2026-09-02",
       "resolved": false,

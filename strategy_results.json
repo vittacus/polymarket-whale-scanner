@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-26T03:41:42+00:00",
-  "total_evaluated": 1079,
-  "total_pending": 69,
+  "generated_at": "2026-08-26T04:30:55+00:00",
+  "total_evaluated": 1081,
+  "total_pending": 67,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1079,
-      "correct": 634,
-      "wrong": 376,
-      "pending": 69,
-      "win_rate": 62.8,
+      "signals_evaluated": 1081,
+      "correct": 636,
+      "wrong": 378,
+      "pending": 67,
+      "win_rate": 62.7,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -14945,11 +14945,11 @@
           "tier": "Strong",
           "entry_price": 0.0495,
           "whale_direction": "Pittsburgh Pirates",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Pittsburgh Pirates",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 72051.47,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x825db995fc4b22745189d5a323e11aa0f1a7ff381a4e71d23bf2d1b5e4792477:0",
@@ -15001,11 +15001,11 @@
           "tier": "Moderate",
           "entry_price": 0.0495,
           "whale_direction": "Diane Parry",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Diane Parry",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 38125.75,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x818204aae21cf5a394f23f6f2627f08475ba15698b94cf20ec399bebe7c04573:1",
@@ -15029,11 +15029,11 @@
           "tier": "Moderate",
           "entry_price": 0.0495,
           "whale_direction": "Oleksandra Oliynykova",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Diane Parry",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 19632.1,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x2acb08018115dec5b8b15ca3871fe9fbcd988df50584c49624b9e71b79372e22:1",
@@ -15085,11 +15085,11 @@
           "tier": "Moderate",
           "entry_price": 0.0495,
           "whale_direction": "San Diego Padres",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Pittsburgh Pirates",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 80590.64,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xbc401a8bd55fbc0868c54ed25fa03591a3c192f5018c6bc3707e49c820d7d7b3:1",
@@ -15117,6 +15117,34 @@
           "resolved_date": null,
           "end_date": "2026-09-02",
           "total_value_usd": 7373.73,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x167280c1aeecda15a5689ebd71146efc9659a3eaf6e62b645d29d55d42c1796b:1",
+          "condition_id": "0x167280c1aeecda15a5689ebd71146efc9659a3eaf6e62b645d29d55d42c1796b",
+          "title": "Philadelphia Phillies vs. Seattle Mariners",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0495,
+          "whale_direction": "Seattle Mariners",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-02",
+          "total_value_usd": 118542.01,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xff14e839f47b1b292ee9424f5429d8fa299f6d411bc2479be53c27405095d9a7:0",
+          "condition_id": "0xff14e839f47b1b292ee9424f5429d8fa299f6d411bc2479be53c27405095d9a7",
+          "title": "Cleveland Guardians vs. Los Angeles Angels",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0495,
+          "whale_direction": "Cleveland Guardians",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-02",
+          "total_value_usd": 21538.41,
           "result": "pending"
         }
       ]
@@ -15125,11 +15153,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 409,
-      "correct": 232,
-      "wrong": 137,
-      "pending": 40,
-      "win_rate": 62.9,
+      "signals_evaluated": 411,
+      "correct": 234,
+      "wrong": 139,
+      "pending": 38,
+      "win_rate": 62.7,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -20683,11 +20711,11 @@
           "tier": "Strong",
           "entry_price": 0.0495,
           "whale_direction": "Pittsburgh Pirates",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Pittsburgh Pirates",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 72051.47,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x825db995fc4b22745189d5a323e11aa0f1a7ff381a4e71d23bf2d1b5e4792477:0",
@@ -20739,11 +20767,11 @@
           "tier": "Moderate",
           "entry_price": 0.0495,
           "whale_direction": "Diane Parry",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Diane Parry",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 38125.75,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x818204aae21cf5a394f23f6f2627f08475ba15698b94cf20ec399bebe7c04573:1",
@@ -20767,11 +20795,11 @@
           "tier": "Moderate",
           "entry_price": 0.0495,
           "whale_direction": "Oleksandra Oliynykova",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Diane Parry",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 19632.1,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x2acb08018115dec5b8b15ca3871fe9fbcd988df50584c49624b9e71b79372e22:1",
@@ -20823,11 +20851,11 @@
           "tier": "Moderate",
           "entry_price": 0.0495,
           "whale_direction": "San Diego Padres",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Pittsburgh Pirates",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 80590.64,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xbc401a8bd55fbc0868c54ed25fa03591a3c192f5018c6bc3707e49c820d7d7b3:1",
@@ -20855,6 +20883,34 @@
           "resolved_date": null,
           "end_date": "2026-09-02",
           "total_value_usd": 7373.73,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x167280c1aeecda15a5689ebd71146efc9659a3eaf6e62b645d29d55d42c1796b:1",
+          "condition_id": "0x167280c1aeecda15a5689ebd71146efc9659a3eaf6e62b645d29d55d42c1796b",
+          "title": "Philadelphia Phillies vs. Seattle Mariners",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0495,
+          "whale_direction": "Seattle Mariners",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-02",
+          "total_value_usd": 118542.01,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xff14e839f47b1b292ee9424f5429d8fa299f6d411bc2479be53c27405095d9a7:0",
+          "condition_id": "0xff14e839f47b1b292ee9424f5429d8fa299f6d411bc2479be53c27405095d9a7",
+          "title": "Cleveland Guardians vs. Los Angeles Angels",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0495,
+          "whale_direction": "Cleveland Guardians",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-02",
+          "total_value_usd": 21538.41,
           "result": "pending"
         }
       ]
@@ -20863,11 +20919,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 409,
-      "correct": 137,
-      "wrong": 232,
-      "pending": 40,
-      "win_rate": 37.1,
+      "signals_evaluated": 411,
+      "correct": 139,
+      "wrong": 234,
+      "pending": 38,
+      "win_rate": 37.3,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -26421,11 +26477,11 @@
           "tier": "Strong",
           "entry_price": 0.0495,
           "whale_direction": "Pittsburgh Pirates",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Pittsburgh Pirates",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 72051.47,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x825db995fc4b22745189d5a323e11aa0f1a7ff381a4e71d23bf2d1b5e4792477:0",
@@ -26477,11 +26533,11 @@
           "tier": "Moderate",
           "entry_price": 0.0495,
           "whale_direction": "Diane Parry",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Diane Parry",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 38125.75,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x818204aae21cf5a394f23f6f2627f08475ba15698b94cf20ec399bebe7c04573:1",
@@ -26505,11 +26561,11 @@
           "tier": "Moderate",
           "entry_price": 0.0495,
           "whale_direction": "Oleksandra Oliynykova",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Diane Parry",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 19632.1,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x2acb08018115dec5b8b15ca3871fe9fbcd988df50584c49624b9e71b79372e22:1",
@@ -26561,11 +26617,11 @@
           "tier": "Moderate",
           "entry_price": 0.0495,
           "whale_direction": "San Diego Padres",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Pittsburgh Pirates",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 80590.64,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xbc401a8bd55fbc0868c54ed25fa03591a3c192f5018c6bc3707e49c820d7d7b3:1",
@@ -26593,6 +26649,34 @@
           "resolved_date": null,
           "end_date": "2026-09-02",
           "total_value_usd": 7373.73,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x167280c1aeecda15a5689ebd71146efc9659a3eaf6e62b645d29d55d42c1796b:1",
+          "condition_id": "0x167280c1aeecda15a5689ebd71146efc9659a3eaf6e62b645d29d55d42c1796b",
+          "title": "Philadelphia Phillies vs. Seattle Mariners",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0495,
+          "whale_direction": "Seattle Mariners",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-02",
+          "total_value_usd": 118542.01,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xff14e839f47b1b292ee9424f5429d8fa299f6d411bc2479be53c27405095d9a7:0",
+          "condition_id": "0xff14e839f47b1b292ee9424f5429d8fa299f6d411bc2479be53c27405095d9a7",
+          "title": "Cleveland Guardians vs. Los Angeles Angels",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0495,
+          "whale_direction": "Cleveland Guardians",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-02",
+          "total_value_usd": 21538.41,
           "result": "pending"
         }
       ]
