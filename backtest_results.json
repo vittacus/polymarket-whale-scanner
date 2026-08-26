@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-25T23:56:14+00:00",
+  "generated_at": "2026-08-26T01:05:05+00:00",
   "total_signals": 1063,
-  "total_resolved": 1003,
-  "total_correct": 627,
+  "total_resolved": 1004,
+  "total_correct": 628,
   "overall_hit_rate": 62.5,
   "by_tier": {
     "Strong": {
       "total": 438,
-      "resolved": 421,
-      "correct": 275,
-      "hit_rate": 65.3
+      "resolved": 422,
+      "correct": 276,
+      "hit_rate": 65.4
     },
     "Moderate": {
       "total": 567,
@@ -18023,10 +18023,10 @@
       "total_value_usd": 17823.99,
       "entry_price": 0.0495,
       "end_date": "2026-09-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Rinky Hijikata",
+      "resolved_date": "2026-09-01"
     },
     {
       "signal_key": "0x99c5e69a6728e6c5e4cee0b8f61495f4897a5e4e5b0c41ae437c2fee82c375b5:1",
