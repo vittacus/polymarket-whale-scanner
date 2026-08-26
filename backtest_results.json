@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-26T12:13:24+00:00",
+  "generated_at": "2026-08-26T13:24:33+00:00",
   "total_signals": 1081,
-  "total_resolved": 1020,
-  "total_correct": 640,
-  "overall_hit_rate": 62.7,
+  "total_resolved": 1021,
+  "total_correct": 641,
+  "overall_hit_rate": 62.8,
   "by_tier": {
     "Strong": {
       "total": 447,
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 575,
-      "resolved": 534,
-      "correct": 329,
-      "hit_rate": 61.6
+      "resolved": 535,
+      "correct": 330,
+      "hit_rate": 61.7
     },
     "Weak": {
       "total": 59,
@@ -18346,10 +18346,10 @@
       "total_value_usd": 13628.16,
       "entry_price": 0.0495,
       "end_date": "2026-09-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Yulia Starodubtseva",
+      "resolved_date": "2026-09-01"
     },
     {
       "signal_key": "0x364cce57f51d6691e708a5811e1255ec128a809138a76df89fd141f98c4dc5fb:0",
