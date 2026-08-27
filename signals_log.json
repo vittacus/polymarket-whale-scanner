@@ -330286,5 +330286,368 @@
         "entry_price": 0.0425
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-26T23:57:58+00:00",
+    "whale_timeframes": {
+      "0x168a51f1cac0ad3b166797069382495a8aa10d24": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x34dd4a4b70eaf79a17878f7938263c801d4dfd83": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd30f4698c6f5f3829893e68e183a8e5ea18f316": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6d20c35f65d9899b6d6b74f8466e824580f9a165": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8075693f48668a264b9fa313b47f52712fcc12b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x20b80ebb96e2051540e1d475e4ce122fc282aa04": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x821dab0565ebf5b327f51db06223fdcfe01acf16": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2dc13c6bda81b202281e796953a7323de675b33c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0a39b3b29ab3b7dd753aa96fde4ecab3f2dbb0b9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x73e3fec494611d73c170cb2f23850fd998b21be9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x14c7111afa871fb215339f365043d7b2837b9ccf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x73bcd24d510ff4e4d5feac6aec763c5511e246ce": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x30c7ac0158499ddc6761047f7f69bcf7d036ac3b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9db82de5a71ae539bc82f4d9ac3a007c7d742eff": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x15d23f19a29782bd79a767a3b9a84c0b42262202d66e9f92b4143924522acd1a:0",
+        "condition_id": "0x15d23f19a29782bd79a767a3b9a84c0b42262202d66e9f92b4143924522acd1a",
+        "title": "Los Angeles Dodgers vs. Atlanta Braves",
+        "outcome": "Los Angeles Dodgers",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0x6d20c35f65d9899b6d6b74f8466e824580f9a165",
+          "0x2dc13c6bda81b202281e796953a7323de675b33c"
+        ],
+        "ranks": [
+          2,
+          3,
+          7,
+          14
+        ],
+        "total_value_usd": 281454.22,
+        "score": 23.0042,
+        "category": "MLB",
+        "end_date": "2026-09-02",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0xa4653cf05a750f34cb269f4f16c508f204a97e77ac11dd39b2535930ee7f7f7c:0",
+        "condition_id": "0xa4653cf05a750f34cb269f4f16c508f204a97e77ac11dd39b2535930ee7f7f7c",
+        "title": "Houston Astros vs. New York Yankees",
+        "outcome": "Houston Astros",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16"
+        ],
+        "ranks": [
+          2,
+          3,
+          9,
+          13
+        ],
+        "total_value_usd": 50208.19,
+        "score": 19.3467,
+        "category": "MLB",
+        "end_date": "2026-09-02",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0x15d23f19a29782bd79a767a3b9a84c0b42262202d66e9f92b4143924522acd1a:1",
+        "condition_id": "0x15d23f19a29782bd79a767a3b9a84c0b42262202d66e9f92b4143924522acd1a",
+        "title": "Los Angeles Dodgers vs. Atlanta Braves",
+        "outcome": "Atlanta Braves",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0xc8075693f48668a264b9fa313b47f52712fcc12b"
+        ],
+        "ranks": [
+          2,
+          9,
+          10,
+          11
+        ],
+        "total_value_usd": 76535.73,
+        "score": 15.7835,
+        "category": "MLB",
+        "end_date": "2026-09-02",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0xfcfd3fa3fbc197f71f441ff1864d84a60c9e0e8bbf8ba22d083967cdfa7f224d:1",
+        "condition_id": "0xfcfd3fa3fbc197f71f441ff1864d84a60c9e0e8bbf8ba22d083967cdfa7f224d",
+        "title": "Kansas City Royals vs. Toronto Blue Jays",
+        "outcome": "Toronto Blue Jays",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xc8075693f48668a264b9fa313b47f52712fcc12b"
+        ],
+        "ranks": [
+          2,
+          9,
+          11
+        ],
+        "total_value_usd": 17868.2,
+        "score": 12.0284,
+        "category": "MLB",
+        "end_date": "2026-09-02",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0x397d306788138d7c32e10e9b51326e831a703e15c8233295f01ae55dbc91d68a:1",
+        "condition_id": "0x397d306788138d7c32e10e9b51326e831a703e15c8233295f01ae55dbc91d68a",
+        "title": "Boston Red Sox vs. Miami Marlins",
+        "outcome": "Miami Marlins",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e"
+        ],
+        "ranks": [
+          3,
+          9,
+          10
+        ],
+        "total_value_usd": 36188.13,
+        "score": 10.0008,
+        "category": "MLB",
+        "end_date": "2026-09-02",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0xe095a2f2d4433c717476e45718061fa894ab697e9186c8493107f1d1bb18f492:0",
+        "condition_id": "0xe095a2f2d4433c717476e45718061fa894ab697e9186c8493107f1d1bb18f492",
+        "title": "Winston-Salem Open: Aleksandar Kovacevic vs Stefanos Tsitsipas",
+        "outcome": "Aleksandar Kovacevic",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16"
+        ],
+        "ranks": [
+          8,
+          9,
+          13
+        ],
+        "total_value_usd": 26738.1,
+        "score": 5.5843,
+        "category": "Tennis",
+        "end_date": "2026-09-03",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0x56dfbe998360b411fa55ca1e15e2e76d8156f23067ae744c85f6a0adbcf925be:0",
+        "condition_id": "0x56dfbe998360b411fa55ca1e15e2e76d8156f23067ae744c85f6a0adbcf925be",
+        "title": "US Open, Qualification ATP: Henrique Rocha vs Lloyd Harris",
+        "outcome": "Henrique Rocha",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16"
+        ],
+        "ranks": [
+          8,
+          9,
+          13
+        ],
+        "total_value_usd": 18701.02,
+        "score": 5.3885,
+        "category": "Tennis",
+        "end_date": "2026-09-02",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0x56dfbe998360b411fa55ca1e15e2e76d8156f23067ae744c85f6a0adbcf925be:1",
+        "condition_id": "0x56dfbe998360b411fa55ca1e15e2e76d8156f23067ae744c85f6a0adbcf925be",
+        "title": "US Open, Qualification ATP: Henrique Rocha vs Lloyd Harris",
+        "outcome": "Lloyd Harris",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16"
+        ],
+        "ranks": [
+          8,
+          9,
+          13
+        ],
+        "total_value_usd": 16668.41,
+        "score": 5.3254,
+        "category": "Tennis",
+        "end_date": "2026-09-02",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0xa4653cf05a750f34cb269f4f16c508f204a97e77ac11dd39b2535930ee7f7f7c:1",
+        "condition_id": "0xa4653cf05a750f34cb269f4f16c508f204a97e77ac11dd39b2535930ee7f7f7c",
+        "title": "Houston Astros vs. New York Yankees",
+        "outcome": "New York Yankees",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16"
+        ],
+        "ranks": [
+          9,
+          10,
+          13
+        ],
+        "total_value_usd": 25710.16,
+        "score": 5.1186,
+        "category": "MLB",
+        "end_date": "2026-09-02",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0x89ae57f4f6f14077422579137e329c78f80a4de3b5a2a582a1a0036f3a46edb8:0",
+        "condition_id": "0x89ae57f4f6f14077422579137e329c78f80a4de3b5a2a582a1a0036f3a46edb8",
+        "title": "Monterrey Open: Panna Udvardy vs Elise Mertens",
+        "outcome": "Panna Udvardy",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16"
+        ],
+        "ranks": [
+          9,
+          10,
+          13
+        ],
+        "total_value_usd": 3250.39,
+        "score": 4.0763,
+        "category": "Tennis",
+        "end_date": "2026-09-02",
+        "entry_price": 0.0425
+      }
+    ]
   }
 ]
