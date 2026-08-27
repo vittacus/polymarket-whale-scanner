@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-27T08:14:04+00:00",
-  "total_evaluated": 1100,
-  "total_pending": 59,
+  "generated_at": "2026-08-27T19:12:11+00:00",
+  "total_evaluated": 1103,
+  "total_pending": 62,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1100,
+      "signals_evaluated": 1103,
       "correct": 655,
       "wrong": 386,
-      "pending": 59,
+      "pending": 62,
       "win_rate": 62.9,
       "signals": [
         {
@@ -15412,6 +15412,48 @@
           "end_date": "2026-09-02",
           "total_value_usd": 3250.39,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x22a21921a9dad2575c6e27979f44decb5acdc270027113da17f74a49d9a6c87e:1",
+          "condition_id": "0x22a21921a9dad2575c6e27979f44decb5acdc270027113da17f74a49d9a6c87e",
+          "title": "Colorado Rockies vs. Washington Nationals",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0475,
+          "whale_direction": "Washington Nationals",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-03",
+          "total_value_usd": 863759.03,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d:0",
+          "condition_id": "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d",
+          "title": "2026 Balance of Power: D Senate, D House",
+          "category": "United States",
+          "tier": "Strong",
+          "entry_price": 0.0475,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-03",
+          "total_value_usd": 2998363.32,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x7586a96520578acaaaa4ea84a2582f197f84255da1f3392a7aa300386c187b37:1",
+          "condition_id": "0x7586a96520578acaaaa4ea84a2582f197f84255da1f3392a7aa300386c187b37",
+          "title": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+          "category": "Main Election",
+          "tier": "Moderate",
+          "entry_price": 0.0475,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-12-31",
+          "total_value_usd": 45119.07,
+          "result": "pending"
         }
       ]
     },
@@ -15419,10 +15461,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 430,
+      "signals_evaluated": 433,
       "correct": 253,
       "wrong": 147,
-      "pending": 30,
+      "pending": 33,
       "win_rate": 63.2,
       "signals": [
         {
@@ -21444,6 +21486,48 @@
           "end_date": "2026-09-02",
           "total_value_usd": 3250.39,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x22a21921a9dad2575c6e27979f44decb5acdc270027113da17f74a49d9a6c87e:1",
+          "condition_id": "0x22a21921a9dad2575c6e27979f44decb5acdc270027113da17f74a49d9a6c87e",
+          "title": "Colorado Rockies vs. Washington Nationals",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0475,
+          "whale_direction": "Washington Nationals",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-03",
+          "total_value_usd": 863759.03,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d:0",
+          "condition_id": "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d",
+          "title": "2026 Balance of Power: D Senate, D House",
+          "category": "United States",
+          "tier": "Strong",
+          "entry_price": 0.0475,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-03",
+          "total_value_usd": 2998363.32,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x7586a96520578acaaaa4ea84a2582f197f84255da1f3392a7aa300386c187b37:1",
+          "condition_id": "0x7586a96520578acaaaa4ea84a2582f197f84255da1f3392a7aa300386c187b37",
+          "title": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+          "category": "Main Election",
+          "tier": "Moderate",
+          "entry_price": 0.0475,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-12-31",
+          "total_value_usd": 45119.07,
+          "result": "pending"
         }
       ]
     },
@@ -21451,10 +21535,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 430,
+      "signals_evaluated": 433,
       "correct": 147,
       "wrong": 253,
-      "pending": 30,
+      "pending": 33,
       "win_rate": 36.8,
       "signals": [
         {
@@ -27476,6 +27560,48 @@
           "end_date": "2026-09-02",
           "total_value_usd": 3250.39,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x22a21921a9dad2575c6e27979f44decb5acdc270027113da17f74a49d9a6c87e:1",
+          "condition_id": "0x22a21921a9dad2575c6e27979f44decb5acdc270027113da17f74a49d9a6c87e",
+          "title": "Colorado Rockies vs. Washington Nationals",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0475,
+          "whale_direction": "Washington Nationals",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-03",
+          "total_value_usd": 863759.03,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d:0",
+          "condition_id": "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d",
+          "title": "2026 Balance of Power: D Senate, D House",
+          "category": "United States",
+          "tier": "Strong",
+          "entry_price": 0.0475,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-03",
+          "total_value_usd": 2998363.32,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x7586a96520578acaaaa4ea84a2582f197f84255da1f3392a7aa300386c187b37:1",
+          "condition_id": "0x7586a96520578acaaaa4ea84a2582f197f84255da1f3392a7aa300386c187b37",
+          "title": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+          "category": "Main Election",
+          "tier": "Moderate",
+          "entry_price": 0.0475,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-12-31",
+          "total_value_usd": 45119.07,
+          "result": "pending"
         }
       ]
     },
@@ -27483,10 +27609,10 @@
       "name": "Conviction Sizing",
       "description": "Total whale position >$500k",
       "hypothesis": "Signals where total position size exceeds $500k represent the highest-conviction whale bets. When top traders put serious capital behind a position, that's a qualitatively different signal from a small stake. This filters for only the highest-conviction consensus calls to test whether size predicts accuracy.",
-      "signals_evaluated": 33,
+      "signals_evaluated": 35,
       "correct": 20,
       "wrong": 9,
-      "pending": 4,
+      "pending": 6,
       "win_rate": 69.0,
       "signals": [
         {
@@ -27950,6 +28076,34 @@
           "end_date": "2026-08-31",
           "total_value_usd": 512231.05,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x22a21921a9dad2575c6e27979f44decb5acdc270027113da17f74a49d9a6c87e:1",
+          "condition_id": "0x22a21921a9dad2575c6e27979f44decb5acdc270027113da17f74a49d9a6c87e",
+          "title": "Colorado Rockies vs. Washington Nationals",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0475,
+          "whale_direction": "Washington Nationals",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-03",
+          "total_value_usd": 863759.03,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d:0",
+          "condition_id": "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d",
+          "title": "2026 Balance of Power: D Senate, D House",
+          "category": "United States",
+          "tier": "Strong",
+          "entry_price": 0.0475,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-03",
+          "total_value_usd": 2998363.32,
+          "result": "pending"
         }
       ]
     }

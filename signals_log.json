@@ -330775,5 +330775,205 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-08-27T19:03:30+00:00",
+    "whale_timeframes": {
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x14c7111afa871fb215339f365043d7b2837b9ccf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb859a551fcf56e49416160911476bea7307152f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7bc14171ccb0d3e6bac219ec6a76211826e28db4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa08455c829a493054315e40e7817321e8c77bb99": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x408fe71e6b5401ecd6733970cb6f1a25e984b2f4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x73e3fec494611d73c170cb2f23850fd998b21be9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xaa4d38848acdc90c973c307837f682749cf30bd2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f1d5ae26fc31472966e951af3183308736d8de2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x23d81ba9371e576015c1e562db09c689f56b0288": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe25b9180f5687aa85bd94ee309bb72a464320f1b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x26165df18c4dae74bfc20b8f266f0887fedbc6aa": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x05f6cb63d4ffdfaecd7ad8acd0765b6f6a5a25a1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6e9f61710b1703bb7e0ef7ebe1323c443a1d0eae": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x22a21921a9dad2575c6e27979f44decb5acdc270027113da17f74a49d9a6c87e:1",
+        "condition_id": "0x22a21921a9dad2575c6e27979f44decb5acdc270027113da17f74a49d9a6c87e",
+        "title": "Colorado Rockies vs. Washington Nationals",
+        "outcome": "Washington Nationals",
+        "outcome_index": 1,
+        "whale_count": 5,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x7bc14171ccb0d3e6bac219ec6a76211826e28db4",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x05f6cb63d4ffdfaecd7ad8acd0765b6f6a5a25a1",
+          "0x6e9f61710b1703bb7e0ef7ebe1323c443a1d0eae"
+        ],
+        "ranks": [
+          3,
+          6,
+          12,
+          18,
+          20
+        ],
+        "total_value_usd": 863759.03,
+        "score": 16.4788,
+        "category": "MLB",
+        "end_date": "2026-09-03",
+        "entry_price": 0.0475
+      },
+      {
+        "signal_key": "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d:0",
+        "condition_id": "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d",
+        "title": "2026 Balance of Power: D Senate, D House",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+          "0x23d81ba9371e576015c1e562db09c689f56b0288"
+        ],
+        "ranks": [
+          3,
+          14,
+          15
+        ],
+        "total_value_usd": 2998363.32,
+        "score": 12.3037,
+        "category": "United States",
+        "end_date": "2026-11-03",
+        "entry_price": 0.0475
+      },
+      {
+        "signal_key": "0x7586a96520578acaaaa4ea84a2582f197f84255da1f3392a7aa300386c187b37:1",
+        "condition_id": "0x7586a96520578acaaaa4ea84a2582f197f84255da1f3392a7aa300386c187b37",
+        "title": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x7bc14171ccb0d3e6bac219ec6a76211826e28db4",
+          "0x23d81ba9371e576015c1e562db09c689f56b0288",
+          "0xe25b9180f5687aa85bd94ee309bb72a464320f1b"
+        ],
+        "ranks": [
+          6,
+          15,
+          16
+        ],
+        "total_value_usd": 45119.07,
+        "score": 5.5483,
+        "category": "Main Election",
+        "end_date": "2026-12-31",
+        "entry_price": 0.0475
+      }
+    ]
   }
 ]

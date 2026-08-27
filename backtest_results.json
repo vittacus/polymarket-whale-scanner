@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-08-27T08:14:04+00:00",
-  "total_signals": 1100,
+  "generated_at": "2026-08-27T19:12:11+00:00",
+  "total_signals": 1103,
   "total_resolved": 1041,
   "total_correct": 655,
   "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
-      "total": 457,
+      "total": 459,
       "resolved": 441,
       "correct": 289,
       "hit_rate": 65.5
     },
     "Moderate": {
-      "total": 584,
+      "total": 585,
       "resolved": 544,
       "correct": 337,
       "hit_rate": 61.9
@@ -18724,6 +18724,57 @@
       "correct": false,
       "resolved_outcome": "Elise Mertens",
       "resolved_date": "2026-09-02"
+    },
+    {
+      "signal_key": "0x22a21921a9dad2575c6e27979f44decb5acdc270027113da17f74a49d9a6c87e:1",
+      "condition_id": "0x22a21921a9dad2575c6e27979f44decb5acdc270027113da17f74a49d9a6c87e",
+      "title": "Colorado Rockies vs. Washington Nationals",
+      "category": "MLB",
+      "whale_direction": "Washington Nationals",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 16.4788,
+      "total_value_usd": 863759.03,
+      "entry_price": 0.0475,
+      "end_date": "2026-09-03",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d:0",
+      "condition_id": "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d",
+      "title": "2026 Balance of Power: D Senate, D House",
+      "category": "United States",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 12.3037,
+      "total_value_usd": 2998363.32,
+      "entry_price": 0.0475,
+      "end_date": "2026-11-03",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x7586a96520578acaaaa4ea84a2582f197f84255da1f3392a7aa300386c187b37:1",
+      "condition_id": "0x7586a96520578acaaaa4ea84a2582f197f84255da1f3392a7aa300386c187b37",
+      "title": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+      "category": "Main Election",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 5.5483,
+      "total_value_usd": 45119.07,
+      "entry_price": 0.0475,
+      "end_date": "2026-12-31",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
