@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-27T00:08:14+00:00",
+  "generated_at": "2026-08-27T08:14:04+00:00",
   "total_evaluated": 1100,
-  "total_pending": 69,
+  "total_pending": 59,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 1100,
-      "correct": 649,
-      "wrong": 382,
-      "pending": 69,
+      "correct": 655,
+      "wrong": 386,
+      "pending": 59,
       "win_rate": 62.9,
       "signals": [
         {
@@ -15281,11 +15281,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Atlanta Braves",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 281454.22,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xa4653cf05a750f34cb269f4f16c508f204a97e77ac11dd39b2535930ee7f7f7c:0",
@@ -15295,11 +15295,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Houston Astros",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 50208.19,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x15d23f19a29782bd79a767a3b9a84c0b42262202d66e9f92b4143924522acd1a:1",
@@ -15309,11 +15309,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Atlanta Braves",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Atlanta Braves",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 76535.73,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xfcfd3fa3fbc197f71f441ff1864d84a60c9e0e8bbf8ba22d083967cdfa7f224d:1",
@@ -15323,11 +15323,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Toronto Blue Jays",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 17868.2,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x397d306788138d7c32e10e9b51326e831a703e15c8233295f01ae55dbc91d68a:1",
@@ -15337,11 +15337,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Miami Marlins",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Miami Marlins",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 36188.13,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xe095a2f2d4433c717476e45718061fa894ab697e9186c8493107f1d1bb18f492:0",
@@ -15351,11 +15351,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Aleksandar Kovacevic",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Aleksandar Kovacevic",
+          "resolved_date": "2026-09-03",
           "end_date": "2026-09-03",
           "total_value_usd": 26738.1,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x56dfbe998360b411fa55ca1e15e2e76d8156f23067ae744c85f6a0adbcf925be:0",
@@ -15365,11 +15365,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Henrique Rocha",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lloyd Harris",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 18701.02,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x56dfbe998360b411fa55ca1e15e2e76d8156f23067ae744c85f6a0adbcf925be:1",
@@ -15379,11 +15379,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Lloyd Harris",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lloyd Harris",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 16668.41,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xa4653cf05a750f34cb269f4f16c508f204a97e77ac11dd39b2535930ee7f7f7c:1",
@@ -15393,11 +15393,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "New York Yankees",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 25710.16,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x89ae57f4f6f14077422579137e329c78f80a4de3b5a2a582a1a0036f3a46edb8:0",
@@ -15407,11 +15407,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Panna Udvardy",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elise Mertens",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 3250.39,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
@@ -15420,10 +15420,10 @@
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 430,
-      "correct": 247,
-      "wrong": 143,
-      "pending": 40,
-      "win_rate": 63.3,
+      "correct": 253,
+      "wrong": 147,
+      "pending": 30,
+      "win_rate": 63.2,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -21313,11 +21313,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Atlanta Braves",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 281454.22,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xa4653cf05a750f34cb269f4f16c508f204a97e77ac11dd39b2535930ee7f7f7c:0",
@@ -21327,11 +21327,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Houston Astros",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 50208.19,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x15d23f19a29782bd79a767a3b9a84c0b42262202d66e9f92b4143924522acd1a:1",
@@ -21341,11 +21341,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Atlanta Braves",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Atlanta Braves",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 76535.73,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xfcfd3fa3fbc197f71f441ff1864d84a60c9e0e8bbf8ba22d083967cdfa7f224d:1",
@@ -21355,11 +21355,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Toronto Blue Jays",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 17868.2,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x397d306788138d7c32e10e9b51326e831a703e15c8233295f01ae55dbc91d68a:1",
@@ -21369,11 +21369,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Miami Marlins",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Miami Marlins",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 36188.13,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xe095a2f2d4433c717476e45718061fa894ab697e9186c8493107f1d1bb18f492:0",
@@ -21383,11 +21383,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Aleksandar Kovacevic",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Aleksandar Kovacevic",
+          "resolved_date": "2026-09-03",
           "end_date": "2026-09-03",
           "total_value_usd": 26738.1,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x56dfbe998360b411fa55ca1e15e2e76d8156f23067ae744c85f6a0adbcf925be:0",
@@ -21397,11 +21397,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Henrique Rocha",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lloyd Harris",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 18701.02,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x56dfbe998360b411fa55ca1e15e2e76d8156f23067ae744c85f6a0adbcf925be:1",
@@ -21411,11 +21411,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Lloyd Harris",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lloyd Harris",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 16668.41,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xa4653cf05a750f34cb269f4f16c508f204a97e77ac11dd39b2535930ee7f7f7c:1",
@@ -21425,11 +21425,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "New York Yankees",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 25710.16,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x89ae57f4f6f14077422579137e329c78f80a4de3b5a2a582a1a0036f3a46edb8:0",
@@ -21439,11 +21439,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Panna Udvardy",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elise Mertens",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 3250.39,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
@@ -21452,10 +21452,10 @@
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 430,
-      "correct": 143,
-      "wrong": 247,
-      "pending": 40,
-      "win_rate": 36.7,
+      "correct": 147,
+      "wrong": 253,
+      "pending": 30,
+      "win_rate": 36.8,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -27345,11 +27345,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Atlanta Braves",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 281454.22,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xa4653cf05a750f34cb269f4f16c508f204a97e77ac11dd39b2535930ee7f7f7c:0",
@@ -27359,11 +27359,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Houston Astros",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 50208.19,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x15d23f19a29782bd79a767a3b9a84c0b42262202d66e9f92b4143924522acd1a:1",
@@ -27373,11 +27373,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Atlanta Braves",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Atlanta Braves",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 76535.73,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xfcfd3fa3fbc197f71f441ff1864d84a60c9e0e8bbf8ba22d083967cdfa7f224d:1",
@@ -27387,11 +27387,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Toronto Blue Jays",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 17868.2,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x397d306788138d7c32e10e9b51326e831a703e15c8233295f01ae55dbc91d68a:1",
@@ -27401,11 +27401,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Miami Marlins",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Miami Marlins",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 36188.13,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xe095a2f2d4433c717476e45718061fa894ab697e9186c8493107f1d1bb18f492:0",
@@ -27415,11 +27415,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Aleksandar Kovacevic",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Aleksandar Kovacevic",
+          "resolved_date": "2026-09-03",
           "end_date": "2026-09-03",
           "total_value_usd": 26738.1,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x56dfbe998360b411fa55ca1e15e2e76d8156f23067ae744c85f6a0adbcf925be:0",
@@ -27429,11 +27429,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Henrique Rocha",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lloyd Harris",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 18701.02,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x56dfbe998360b411fa55ca1e15e2e76d8156f23067ae744c85f6a0adbcf925be:1",
@@ -27443,11 +27443,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Lloyd Harris",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lloyd Harris",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 16668.41,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xa4653cf05a750f34cb269f4f16c508f204a97e77ac11dd39b2535930ee7f7f7c:1",
@@ -27457,11 +27457,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "New York Yankees",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 25710.16,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x89ae57f4f6f14077422579137e329c78f80a4de3b5a2a582a1a0036f3a46edb8:0",
@@ -27471,11 +27471,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Panna Udvardy",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elise Mertens",
+          "resolved_date": "2026-09-02",
           "end_date": "2026-09-02",
           "total_value_usd": 3250.39,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
