@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-27T19:12:11+00:00",
-  "total_evaluated": 1103,
-  "total_pending": 62,
+  "generated_at": "2026-08-28T03:42:55+00:00",
+  "total_evaluated": 1105,
+  "total_pending": 63,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1103,
-      "correct": 655,
+      "signals_evaluated": 1105,
+      "correct": 656,
       "wrong": 386,
-      "pending": 62,
-      "win_rate": 62.9,
+      "pending": 63,
+      "win_rate": 63.0,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -15421,11 +15421,11 @@
           "tier": "Strong",
           "entry_price": 0.0475,
           "whale_direction": "Washington Nationals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Washington Nationals",
+          "resolved_date": "2026-09-03",
           "end_date": "2026-09-03",
           "total_value_usd": 863759.03,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d:0",
@@ -15453,6 +15453,34 @@
           "resolved_date": null,
           "end_date": "2026-12-31",
           "total_value_usd": 45119.07,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xfbed47c98ad86f5ddb59c5b2c297559ce1c3601a31aa8820eeab91e34c154524:1",
+          "condition_id": "0xfbed47c98ad86f5ddb59c5b2c297559ce1c3601a31aa8820eeab91e34c154524",
+          "title": "Arizona Diamondbacks vs. San Francisco Giants",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "San Francisco Giants",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-04",
+          "total_value_usd": 567019.16,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xfbed47c98ad86f5ddb59c5b2c297559ce1c3601a31aa8820eeab91e34c154524:0",
+          "condition_id": "0xfbed47c98ad86f5ddb59c5b2c297559ce1c3601a31aa8820eeab91e34c154524",
+          "title": "Arizona Diamondbacks vs. San Francisco Giants",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Arizona Diamondbacks",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-04",
+          "total_value_usd": 29217.4,
           "result": "pending"
         }
       ]
@@ -15461,11 +15489,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 433,
-      "correct": 253,
+      "signals_evaluated": 435,
+      "correct": 254,
       "wrong": 147,
-      "pending": 33,
-      "win_rate": 63.2,
+      "pending": 34,
+      "win_rate": 63.3,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -21495,11 +21523,11 @@
           "tier": "Strong",
           "entry_price": 0.0475,
           "whale_direction": "Washington Nationals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Washington Nationals",
+          "resolved_date": "2026-09-03",
           "end_date": "2026-09-03",
           "total_value_usd": 863759.03,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d:0",
@@ -21527,6 +21555,34 @@
           "resolved_date": null,
           "end_date": "2026-12-31",
           "total_value_usd": 45119.07,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xfbed47c98ad86f5ddb59c5b2c297559ce1c3601a31aa8820eeab91e34c154524:1",
+          "condition_id": "0xfbed47c98ad86f5ddb59c5b2c297559ce1c3601a31aa8820eeab91e34c154524",
+          "title": "Arizona Diamondbacks vs. San Francisco Giants",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "San Francisco Giants",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-04",
+          "total_value_usd": 567019.16,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xfbed47c98ad86f5ddb59c5b2c297559ce1c3601a31aa8820eeab91e34c154524:0",
+          "condition_id": "0xfbed47c98ad86f5ddb59c5b2c297559ce1c3601a31aa8820eeab91e34c154524",
+          "title": "Arizona Diamondbacks vs. San Francisco Giants",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Arizona Diamondbacks",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-04",
+          "total_value_usd": 29217.4,
           "result": "pending"
         }
       ]
@@ -21535,11 +21591,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 433,
+      "signals_evaluated": 435,
       "correct": 147,
-      "wrong": 253,
-      "pending": 33,
-      "win_rate": 36.8,
+      "wrong": 254,
+      "pending": 34,
+      "win_rate": 36.7,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -27569,11 +27625,11 @@
           "tier": "Strong",
           "entry_price": 0.0475,
           "whale_direction": "Washington Nationals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Washington Nationals",
+          "resolved_date": "2026-09-03",
           "end_date": "2026-09-03",
           "total_value_usd": 863759.03,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d:0",
@@ -27602,6 +27658,34 @@
           "end_date": "2026-12-31",
           "total_value_usd": 45119.07,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xfbed47c98ad86f5ddb59c5b2c297559ce1c3601a31aa8820eeab91e34c154524:1",
+          "condition_id": "0xfbed47c98ad86f5ddb59c5b2c297559ce1c3601a31aa8820eeab91e34c154524",
+          "title": "Arizona Diamondbacks vs. San Francisco Giants",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "San Francisco Giants",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-04",
+          "total_value_usd": 567019.16,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xfbed47c98ad86f5ddb59c5b2c297559ce1c3601a31aa8820eeab91e34c154524:0",
+          "condition_id": "0xfbed47c98ad86f5ddb59c5b2c297559ce1c3601a31aa8820eeab91e34c154524",
+          "title": "Arizona Diamondbacks vs. San Francisco Giants",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Arizona Diamondbacks",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-04",
+          "total_value_usd": 29217.4,
+          "result": "pending"
         }
       ]
     },
@@ -27609,11 +27693,11 @@
       "name": "Conviction Sizing",
       "description": "Total whale position >$500k",
       "hypothesis": "Signals where total position size exceeds $500k represent the highest-conviction whale bets. When top traders put serious capital behind a position, that's a qualitatively different signal from a small stake. This filters for only the highest-conviction consensus calls to test whether size predicts accuracy.",
-      "signals_evaluated": 35,
-      "correct": 20,
+      "signals_evaluated": 36,
+      "correct": 21,
       "wrong": 9,
       "pending": 6,
-      "win_rate": 69.0,
+      "win_rate": 70.0,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -28085,11 +28169,11 @@
           "tier": "Strong",
           "entry_price": 0.0475,
           "whale_direction": "Washington Nationals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Washington Nationals",
+          "resolved_date": "2026-09-03",
           "end_date": "2026-09-03",
           "total_value_usd": 863759.03,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d:0",
@@ -28103,6 +28187,20 @@
           "resolved_date": null,
           "end_date": "2026-11-03",
           "total_value_usd": 2998363.32,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xfbed47c98ad86f5ddb59c5b2c297559ce1c3601a31aa8820eeab91e34c154524:1",
+          "condition_id": "0xfbed47c98ad86f5ddb59c5b2c297559ce1c3601a31aa8820eeab91e34c154524",
+          "title": "Arizona Diamondbacks vs. San Francisco Giants",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "San Francisco Giants",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-04",
+          "total_value_usd": 567019.16,
           "result": "pending"
         }
       ]

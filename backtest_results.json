@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-27T19:12:11+00:00",
-  "total_signals": 1103,
-  "total_resolved": 1041,
-  "total_correct": 655,
-  "overall_hit_rate": 62.9,
+  "generated_at": "2026-08-28T03:42:55+00:00",
+  "total_signals": 1105,
+  "total_resolved": 1042,
+  "total_correct": 656,
+  "overall_hit_rate": 63.0,
   "by_tier": {
     "Strong": {
-      "total": 459,
-      "resolved": 441,
-      "correct": 289,
-      "hit_rate": 65.5
+      "total": 461,
+      "resolved": 442,
+      "correct": 290,
+      "hit_rate": 65.6
     },
     "Moderate": {
       "total": 585,
@@ -18737,10 +18737,10 @@
       "total_value_usd": 863759.03,
       "entry_price": 0.0475,
       "end_date": "2026-09-03",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Washington Nationals",
+      "resolved_date": "2026-09-03"
     },
     {
       "signal_key": "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d:0",
@@ -18771,6 +18771,40 @@
       "total_value_usd": 45119.07,
       "entry_price": 0.0475,
       "end_date": "2026-12-31",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xfbed47c98ad86f5ddb59c5b2c297559ce1c3601a31aa8820eeab91e34c154524:1",
+      "condition_id": "0xfbed47c98ad86f5ddb59c5b2c297559ce1c3601a31aa8820eeab91e34c154524",
+      "title": "Arizona Diamondbacks vs. San Francisco Giants",
+      "category": "MLB",
+      "whale_direction": "San Francisco Giants",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 41.8421,
+      "total_value_usd": 567019.16,
+      "entry_price": 0.0455,
+      "end_date": "2026-09-04",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xfbed47c98ad86f5ddb59c5b2c297559ce1c3601a31aa8820eeab91e34c154524:0",
+      "condition_id": "0xfbed47c98ad86f5ddb59c5b2c297559ce1c3601a31aa8820eeab91e34c154524",
+      "title": "Arizona Diamondbacks vs. San Francisco Giants",
+      "category": "MLB",
+      "whale_direction": "Arizona Diamondbacks",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 14.9175,
+      "total_value_usd": 29217.4,
+      "entry_price": 0.0455,
+      "end_date": "2026-09-04",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
