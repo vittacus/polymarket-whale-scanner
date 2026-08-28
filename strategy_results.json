@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-28T03:42:55+00:00",
-  "total_evaluated": 1105,
-  "total_pending": 63,
+  "generated_at": "2026-08-28T15:50:16+00:00",
+  "total_evaluated": 1108,
+  "total_pending": 64,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1105,
-      "correct": 656,
-      "wrong": 386,
-      "pending": 63,
-      "win_rate": 63.0,
+      "signals_evaluated": 1108,
+      "correct": 657,
+      "wrong": 387,
+      "pending": 64,
+      "win_rate": 62.9,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -15463,11 +15463,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "San Francisco Giants",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "San Francisco Giants",
+          "resolved_date": "2026-09-04",
           "end_date": "2026-09-04",
           "total_value_usd": 567019.16,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xfbed47c98ad86f5ddb59c5b2c297559ce1c3601a31aa8820eeab91e34c154524:0",
@@ -15477,10 +15477,52 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Arizona Diamondbacks",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "San Francisco Giants",
+          "resolved_date": "2026-09-04",
           "end_date": "2026-09-04",
           "total_value_usd": 29217.4,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xac02cbb049e46d6a3627c0fdf52fa554982a9025d45968207b362acb6ca4b830:1",
+          "condition_id": "0xac02cbb049e46d6a3627c0fdf52fa554982a9025d45968207b362acb6ca4b830",
+          "title": "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
+          "category": "fomc",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-16",
+          "total_value_usd": 4390351.9,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x1b56e46dba9e7b2bf93db18e7a79de3f97037314a46f8ebc93b541ae5f396200:0",
+          "condition_id": "0x1b56e46dba9e7b2bf93db18e7a79de3f97037314a46f8ebc93b541ae5f396200",
+          "title": "Will the Fed decide differently in the next three decisions (Jun\u2013Jul\u2013Sep)?",
+          "category": "Fed",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-16",
+          "total_value_usd": 14269.51,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x8463ab319563c22d93dba86fd66d19693f1f0907b3c30af48cc4c6bf2671640d:1",
+          "condition_id": "0x8463ab319563c22d93dba86fd66d19693f1f0907b3c30af48cc4c6bf2671640d",
+          "title": "US Open, Qualification ATP: Vilius Gaubas vs Harry Wendelken",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Harry Wendelken",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-03",
+          "total_value_usd": 24110.05,
           "result": "pending"
         }
       ]
@@ -15489,10 +15531,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 435,
-      "correct": 254,
-      "wrong": 147,
-      "pending": 34,
+      "signals_evaluated": 438,
+      "correct": 255,
+      "wrong": 148,
+      "pending": 35,
       "win_rate": 63.3,
       "signals": [
         {
@@ -21565,11 +21607,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "San Francisco Giants",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "San Francisco Giants",
+          "resolved_date": "2026-09-04",
           "end_date": "2026-09-04",
           "total_value_usd": 567019.16,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xfbed47c98ad86f5ddb59c5b2c297559ce1c3601a31aa8820eeab91e34c154524:0",
@@ -21579,10 +21621,52 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Arizona Diamondbacks",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "San Francisco Giants",
+          "resolved_date": "2026-09-04",
           "end_date": "2026-09-04",
           "total_value_usd": 29217.4,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xac02cbb049e46d6a3627c0fdf52fa554982a9025d45968207b362acb6ca4b830:1",
+          "condition_id": "0xac02cbb049e46d6a3627c0fdf52fa554982a9025d45968207b362acb6ca4b830",
+          "title": "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
+          "category": "fomc",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-16",
+          "total_value_usd": 4390351.9,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x1b56e46dba9e7b2bf93db18e7a79de3f97037314a46f8ebc93b541ae5f396200:0",
+          "condition_id": "0x1b56e46dba9e7b2bf93db18e7a79de3f97037314a46f8ebc93b541ae5f396200",
+          "title": "Will the Fed decide differently in the next three decisions (Jun\u2013Jul\u2013Sep)?",
+          "category": "Fed",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-16",
+          "total_value_usd": 14269.51,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x8463ab319563c22d93dba86fd66d19693f1f0907b3c30af48cc4c6bf2671640d:1",
+          "condition_id": "0x8463ab319563c22d93dba86fd66d19693f1f0907b3c30af48cc4c6bf2671640d",
+          "title": "US Open, Qualification ATP: Vilius Gaubas vs Harry Wendelken",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Harry Wendelken",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-03",
+          "total_value_usd": 24110.05,
           "result": "pending"
         }
       ]
@@ -21591,10 +21675,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 435,
-      "correct": 147,
-      "wrong": 254,
-      "pending": 34,
+      "signals_evaluated": 438,
+      "correct": 148,
+      "wrong": 255,
+      "pending": 35,
       "win_rate": 36.7,
       "signals": [
         {
@@ -27667,11 +27751,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "San Francisco Giants",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "San Francisco Giants",
+          "resolved_date": "2026-09-04",
           "end_date": "2026-09-04",
           "total_value_usd": 567019.16,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xfbed47c98ad86f5ddb59c5b2c297559ce1c3601a31aa8820eeab91e34c154524:0",
@@ -27681,10 +27765,52 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Arizona Diamondbacks",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "San Francisco Giants",
+          "resolved_date": "2026-09-04",
           "end_date": "2026-09-04",
           "total_value_usd": 29217.4,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xac02cbb049e46d6a3627c0fdf52fa554982a9025d45968207b362acb6ca4b830:1",
+          "condition_id": "0xac02cbb049e46d6a3627c0fdf52fa554982a9025d45968207b362acb6ca4b830",
+          "title": "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
+          "category": "fomc",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-16",
+          "total_value_usd": 4390351.9,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x1b56e46dba9e7b2bf93db18e7a79de3f97037314a46f8ebc93b541ae5f396200:0",
+          "condition_id": "0x1b56e46dba9e7b2bf93db18e7a79de3f97037314a46f8ebc93b541ae5f396200",
+          "title": "Will the Fed decide differently in the next three decisions (Jun\u2013Jul\u2013Sep)?",
+          "category": "Fed",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-16",
+          "total_value_usd": 14269.51,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x8463ab319563c22d93dba86fd66d19693f1f0907b3c30af48cc4c6bf2671640d:1",
+          "condition_id": "0x8463ab319563c22d93dba86fd66d19693f1f0907b3c30af48cc4c6bf2671640d",
+          "title": "US Open, Qualification ATP: Vilius Gaubas vs Harry Wendelken",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Harry Wendelken",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-03",
+          "total_value_usd": 24110.05,
           "result": "pending"
         }
       ]
@@ -27693,11 +27819,11 @@
       "name": "Conviction Sizing",
       "description": "Total whale position >$500k",
       "hypothesis": "Signals where total position size exceeds $500k represent the highest-conviction whale bets. When top traders put serious capital behind a position, that's a qualitatively different signal from a small stake. This filters for only the highest-conviction consensus calls to test whether size predicts accuracy.",
-      "signals_evaluated": 36,
-      "correct": 21,
+      "signals_evaluated": 37,
+      "correct": 22,
       "wrong": 9,
       "pending": 6,
-      "win_rate": 70.0,
+      "win_rate": 71.0,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -28197,10 +28323,24 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "San Francisco Giants",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "San Francisco Giants",
+          "resolved_date": "2026-09-04",
           "end_date": "2026-09-04",
           "total_value_usd": 567019.16,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xac02cbb049e46d6a3627c0fdf52fa554982a9025d45968207b362acb6ca4b830:1",
+          "condition_id": "0xac02cbb049e46d6a3627c0fdf52fa554982a9025d45968207b362acb6ca4b830",
+          "title": "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
+          "category": "fomc",
+          "tier": "Strong",
+          "entry_price": 0.0455,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-16",
+          "total_value_usd": 4390351.9,
           "result": "pending"
         }
       ]
