@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-29T00:16:26+00:00",
+  "generated_at": "2026-08-29T07:10:20+00:00",
   "total_signals": 1109,
-  "total_resolved": 1045,
-  "total_correct": 658,
+  "total_resolved": 1046,
+  "total_correct": 659,
   "overall_hit_rate": 63.0,
   "by_tier": {
     "Strong": {
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 587,
-      "resolved": 545,
-      "correct": 338,
-      "hit_rate": 62.0
+      "resolved": 546,
+      "correct": 339,
+      "hit_rate": 62.1
     },
     "Weak": {
       "total": 59,
@@ -18873,10 +18873,10 @@
       "total_value_usd": 46248.18,
       "entry_price": 0.0455,
       "end_date": "2026-09-04",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Diane Parry",
+      "resolved_date": "2026-09-04"
     }
   ]
 }
