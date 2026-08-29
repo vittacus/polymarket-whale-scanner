@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-28T15:50:16+00:00",
-  "total_signals": 1108,
-  "total_resolved": 1044,
-  "total_correct": 657,
-  "overall_hit_rate": 62.9,
+  "generated_at": "2026-08-29T00:16:26+00:00",
+  "total_signals": 1109,
+  "total_resolved": 1045,
+  "total_correct": 658,
+  "overall_hit_rate": 63.0,
   "by_tier": {
     "Strong": {
       "total": 463,
@@ -12,10 +12,10 @@
       "hit_rate": 65.5
     },
     "Moderate": {
-      "total": 586,
-      "resolved": 544,
-      "correct": 337,
-      "hit_rate": 61.9
+      "total": 587,
+      "resolved": 545,
+      "correct": 338,
+      "hit_rate": 62.0
     },
     "Weak": {
       "total": 59,
@@ -18856,6 +18856,23 @@
       "total_value_usd": 24110.05,
       "entry_price": 0.0455,
       "end_date": "2026-09-03",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Harry Wendelken",
+      "resolved_date": "2026-09-03"
+    },
+    {
+      "signal_key": "0x617173074f457db14a09e9b50bbe393ea2b810bebaad4a11ef11270209cd5433:0",
+      "condition_id": "0x617173074f457db14a09e9b50bbe393ea2b810bebaad4a11ef11270209cd5433",
+      "title": "Monterrey Open: Diane Parry vs Ann Li",
+      "category": "Tennis",
+      "whale_direction": "Diane Parry",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 5.8154,
+      "total_value_usd": 46248.18,
+      "entry_price": 0.0455,
+      "end_date": "2026-09-04",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

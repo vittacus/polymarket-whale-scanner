@@ -331473,5 +331473,253 @@
         "entry_price": 0.0455
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-29T00:06:26+00:00",
+    "whale_timeframes": {
+      "0x34dd4a4b70eaf79a17878f7938263c801d4dfd83": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x14c7111afa871fb215339f365043d7b2837b9ccf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc3acf5878a03523d09a3ac859943445d7baeb964": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3a8aa345d5db7ec5138298c8c4f4540259be7699": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc9a24fa249cf907c598544a4d46c077c1edf77d3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb859a551fcf56e49416160911476bea7307152f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd30f4698c6f5f3829893e68e183a8e5ea18f316": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x29b52d98ac9ef9414b04164246c95bc63d74cc6c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd65c3279408a33866a9129bed6943064cb6ee96": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc3ca1a42fd9217b2d02fb05980c1803af462688e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa4fd70a8d79c3433ca2eb967ee605a356986748b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1058f156b207cafe61d102e97bf6796931d301c1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5dab5ed9691fab220535891d9c7f5c28eed322e1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x876506d8b2bd7a0d3fa4fe18c024eee6e1dd81ee24c26795dadd6cfe4a7b5d0d:0",
+        "condition_id": "0x876506d8b2bd7a0d3fa4fe18c024eee6e1dd81ee24c26795dadd6cfe4a7b5d0d",
+        "title": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 5,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418",
+          "0xc3ca1a42fd9217b2d02fb05980c1803af462688e",
+          "0x1058f156b207cafe61d102e97bf6796931d301c1",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e"
+        ],
+        "ranks": [
+          5,
+          12,
+          15,
+          18,
+          20
+        ],
+        "total_value_usd": 2025749.73,
+        "score": 11.5768,
+        "category": "fomc",
+        "end_date": "2026-09-16",
+        "entry_price": 0.0455
+      },
+      {
+        "signal_key": "0xac02cbb049e46d6a3627c0fdf52fa554982a9025d45968207b362acb6ca4b830:1",
+        "condition_id": "0xac02cbb049e46d6a3627c0fdf52fa554982a9025d45968207b362acb6ca4b830",
+        "title": "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0xc3ca1a42fd9217b2d02fb05980c1803af462688e",
+          "0x1058f156b207cafe61d102e97bf6796931d301c1"
+        ],
+        "ranks": [
+          5,
+          15,
+          18
+        ],
+        "total_value_usd": 4394775.43,
+        "score": 8.6252,
+        "category": "fomc",
+        "end_date": "2026-09-16",
+        "entry_price": 0.0455
+      },
+      {
+        "signal_key": "0x73d8a8208d23a74937d114a713d6a56cd4161a1068056c52ac74c8419c99da7c:0",
+        "condition_id": "0x73d8a8208d23a74937d114a713d6a56cd4161a1068056c52ac74c8419c99da7c",
+        "title": "Fed Rate Hike by September 2026 Meeting?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0xc3ca1a42fd9217b2d02fb05980c1803af462688e",
+          "0x1058f156b207cafe61d102e97bf6796931d301c1"
+        ],
+        "ranks": [
+          5,
+          15,
+          18
+        ],
+        "total_value_usd": 60699.99,
+        "score": 6.2105,
+        "category": "Fed",
+        "end_date": "2026-12-09",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x617173074f457db14a09e9b50bbe393ea2b810bebaad4a11ef11270209cd5433:0",
+        "condition_id": "0x617173074f457db14a09e9b50bbe393ea2b810bebaad4a11ef11270209cd5433",
+        "title": "Monterrey Open: Diane Parry vs Ann Li",
+        "outcome": "Diane Parry",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xdb859a551fcf56e49416160911476bea7307152f",
+          "0xcd65c3279408a33866a9129bed6943064cb6ee96",
+          "0xa4fd70a8d79c3433ca2eb967ee605a356986748b",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          9,
+          13,
+          16,
+          17
+        ],
+        "total_value_usd": 46248.18,
+        "score": 5.8154,
+        "category": "Tennis",
+        "end_date": "2026-09-04",
+        "entry_price": 0.0455
+      },
+      {
+        "signal_key": "0x1b56e46dba9e7b2bf93db18e7a79de3f97037314a46f8ebc93b541ae5f396200:0",
+        "condition_id": "0x1b56e46dba9e7b2bf93db18e7a79de3f97037314a46f8ebc93b541ae5f396200",
+        "title": "Will the Fed decide differently in the next three decisions (Jun\u2013Jul\u2013Sep)?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0xc3ca1a42fd9217b2d02fb05980c1803af462688e",
+          "0x1058f156b207cafe61d102e97bf6796931d301c1"
+        ],
+        "ranks": [
+          5,
+          15,
+          18
+        ],
+        "total_value_usd": 14309.91,
+        "score": 5.3957,
+        "category": "Fed",
+        "end_date": "2026-09-16",
+        "entry_price": 0.0455
+      }
+    ]
   }
 ]
