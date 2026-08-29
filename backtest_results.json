@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-29T19:51:56+00:00",
-  "total_signals": 1110,
-  "total_resolved": 1046,
-  "total_correct": 659,
+  "generated_at": "2026-08-29T22:07:01+00:00",
+  "total_signals": 1111,
+  "total_resolved": 1048,
+  "total_correct": 660,
   "overall_hit_rate": 63.0,
   "by_tier": {
     "Strong": {
-      "total": 464,
-      "resolved": 444,
-      "correct": 291,
-      "hit_rate": 65.5
+      "total": 465,
+      "resolved": 445,
+      "correct": 292,
+      "hit_rate": 65.6
     },
     "Moderate": {
       "total": 587,
-      "resolved": 546,
+      "resolved": 547,
       "correct": 339,
-      "hit_rate": 62.1
+      "hit_rate": 62.0
     },
     "Weak": {
       "total": 59,
@@ -955,10 +955,10 @@
       "total_value_usd": 43444.72,
       "entry_price": 0.515,
       "end_date": "2026-06-13",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Boston Red Sox",
+      "resolved_date": "2026-09-05"
     },
     {
       "signal_key": "0x1dd37515ec985eb6cbb13412c2a8309e03d1a59b91c771180c2cc7dd1674b144:1",
@@ -18888,6 +18888,23 @@
       "tier": "Strong",
       "score": 10.8999,
       "total_value_usd": 26690.84,
+      "entry_price": 0.0445,
+      "end_date": "2026-09-05",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Chicago White Sox",
+      "resolved_date": "2026-09-05"
+    },
+    {
+      "signal_key": "0xeb833fbba177dc3351f63b742e3ce75084e2d5e8bfd8b1539b0236f46142c99d:0",
+      "condition_id": "0xeb833fbba177dc3351f63b742e3ce75084e2d5e8bfd8b1539b0236f46142c99d",
+      "title": "Colorado Rockies vs. Atlanta Braves",
+      "category": "MLB",
+      "whale_direction": "Colorado Rockies",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 10.7085,
+      "total_value_usd": 108464.81,
       "entry_price": 0.0445,
       "end_date": "2026-09-05",
       "resolved": false,
