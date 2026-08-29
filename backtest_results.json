@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-29T17:14:34+00:00",
-  "total_signals": 1109,
+  "generated_at": "2026-08-29T19:51:56+00:00",
+  "total_signals": 1110,
   "total_resolved": 1046,
   "total_correct": 659,
   "overall_hit_rate": 63.0,
   "by_tier": {
     "Strong": {
-      "total": 463,
+      "total": 464,
       "resolved": 444,
       "correct": 291,
       "hit_rate": 65.5
@@ -18877,6 +18877,23 @@
       "correct": true,
       "resolved_outcome": "Diane Parry",
       "resolved_date": "2026-09-04"
+    },
+    {
+      "signal_key": "0xfab39a69a9d700847e847fb281427c235fc7e34e8107c393b0c40bde9aebfa41:0",
+      "condition_id": "0xfab39a69a9d700847e847fb281427c235fc7e34e8107c393b0c40bde9aebfa41",
+      "title": "Chicago White Sox vs. Minnesota Twins",
+      "category": "MLB",
+      "whale_direction": "Chicago White Sox",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 10.8999,
+      "total_value_usd": 26690.84,
+      "entry_price": 0.0445,
+      "end_date": "2026-09-05",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
