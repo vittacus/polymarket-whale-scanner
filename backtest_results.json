@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-30T00:06:31+00:00",
+  "generated_at": "2026-08-30T03:46:41+00:00",
   "total_signals": 1114,
-  "total_resolved": 1049,
-  "total_correct": 660,
+  "total_resolved": 1052,
+  "total_correct": 662,
   "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
       "total": 466,
-      "resolved": 446,
+      "resolved": 447,
       "correct": 292,
-      "hit_rate": 65.5
+      "hit_rate": 65.3
     },
     "Moderate": {
       "total": 589,
-      "resolved": 547,
-      "correct": 339,
-      "hit_rate": 62.0
+      "resolved": 549,
+      "correct": 341,
+      "hit_rate": 62.1
     },
     "Weak": {
       "total": 59,
@@ -18924,10 +18924,10 @@
       "total_value_usd": 6784.89,
       "entry_price": 0.0445,
       "end_date": "2026-09-05",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "New York Yankees",
+      "resolved_date": "2026-09-05"
     },
     {
       "signal_key": "0xeef04a24987593cf21397c2ee92b8e82a58d43e2e5f7dde9bd3ebddda8377dbf:0",
@@ -18941,10 +18941,10 @@
       "total_value_usd": 55283.92,
       "entry_price": 0.0445,
       "end_date": "2026-09-05",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Diane Parry",
+      "resolved_date": "2026-09-05"
     },
     {
       "signal_key": "0x80b270f01faa95955d9254d455f4be3ac2b6264824adf6d405f86974bc55223b:0",
@@ -18958,10 +18958,10 @@
       "total_value_usd": 78892.42,
       "entry_price": 0.0445,
       "end_date": "2026-09-05",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Aidan Mayo",
+      "resolved_date": "2026-09-05"
     }
   ]
 }

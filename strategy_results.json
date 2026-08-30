@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-30T00:06:31+00:00",
+  "generated_at": "2026-08-30T03:46:41+00:00",
   "total_evaluated": 1114,
-  "total_pending": 65,
+  "total_pending": 62,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 1114,
-      "correct": 660,
-      "wrong": 389,
-      "pending": 65,
+      "correct": 662,
+      "wrong": 390,
+      "pending": 62,
       "win_rate": 62.9,
       "signals": [
         {
@@ -15575,11 +15575,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Boston Red Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-09-05",
           "end_date": "2026-09-05",
           "total_value_usd": 6784.89,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xeef04a24987593cf21397c2ee92b8e82a58d43e2e5f7dde9bd3ebddda8377dbf:0",
@@ -15589,11 +15589,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Diane Parry",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Diane Parry",
+          "resolved_date": "2026-09-05",
           "end_date": "2026-09-05",
           "total_value_usd": 55283.92,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x80b270f01faa95955d9254d455f4be3ac2b6264824adf6d405f86974bc55223b:0",
@@ -15603,11 +15603,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Aidan Mayo",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Aidan Mayo",
+          "resolved_date": "2026-09-05",
           "end_date": "2026-09-05",
           "total_value_usd": 78892.42,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -15616,9 +15616,9 @@
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 444,
-      "correct": 258,
-      "wrong": 149,
-      "pending": 37,
+      "correct": 260,
+      "wrong": 150,
+      "pending": 34,
       "win_rate": 63.4,
       "signals": [
         {
@@ -21803,11 +21803,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Boston Red Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-09-05",
           "end_date": "2026-09-05",
           "total_value_usd": 6784.89,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xeef04a24987593cf21397c2ee92b8e82a58d43e2e5f7dde9bd3ebddda8377dbf:0",
@@ -21817,11 +21817,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Diane Parry",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Diane Parry",
+          "resolved_date": "2026-09-05",
           "end_date": "2026-09-05",
           "total_value_usd": 55283.92,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x80b270f01faa95955d9254d455f4be3ac2b6264824adf6d405f86974bc55223b:0",
@@ -21831,11 +21831,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Aidan Mayo",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Aidan Mayo",
+          "resolved_date": "2026-09-05",
           "end_date": "2026-09-05",
           "total_value_usd": 78892.42,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -21844,9 +21844,9 @@
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 444,
-      "correct": 149,
-      "wrong": 258,
-      "pending": 37,
+      "correct": 150,
+      "wrong": 260,
+      "pending": 34,
       "win_rate": 36.6,
       "signals": [
         {
@@ -28031,11 +28031,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Boston Red Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-09-05",
           "end_date": "2026-09-05",
           "total_value_usd": 6784.89,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xeef04a24987593cf21397c2ee92b8e82a58d43e2e5f7dde9bd3ebddda8377dbf:0",
@@ -28045,11 +28045,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Diane Parry",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Diane Parry",
+          "resolved_date": "2026-09-05",
           "end_date": "2026-09-05",
           "total_value_usd": 55283.92,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x80b270f01faa95955d9254d455f4be3ac2b6264824adf6d405f86974bc55223b:0",
@@ -28059,11 +28059,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Aidan Mayo",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Aidan Mayo",
+          "resolved_date": "2026-09-05",
           "end_date": "2026-09-05",
           "total_value_usd": 78892.42,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
