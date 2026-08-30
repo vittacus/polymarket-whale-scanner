@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-30T21:12:58+00:00",
-  "total_signals": 1114,
+  "generated_at": "2026-08-30T23:37:14+00:00",
+  "total_signals": 1115,
   "total_resolved": 1052,
   "total_correct": 662,
   "overall_hit_rate": 62.9,
@@ -12,7 +12,7 @@
       "hit_rate": 65.3
     },
     "Moderate": {
-      "total": 589,
+      "total": 590,
       "resolved": 549,
       "correct": 341,
       "hit_rate": 62.1
@@ -18962,6 +18962,23 @@
       "correct": true,
       "resolved_outcome": "Aidan Mayo",
       "resolved_date": "2026-09-05"
+    },
+    {
+      "signal_key": "0xa113314075ef81a9d3a6577083b8e9a5c834b4b55b1ef0ad5b51ed5e032afc32:1",
+      "condition_id": "0xa113314075ef81a9d3a6577083b8e9a5c834b4b55b1ef0ad5b51ed5e032afc32",
+      "title": "US Open ATP: Martin Landaluce vs Jacob Fearnley",
+      "category": "Tennis",
+      "whale_direction": "Jacob Fearnley",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 7.5063,
+      "total_value_usd": 70838.59,
+      "entry_price": 0.0445,
+      "end_date": "2026-09-06",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
