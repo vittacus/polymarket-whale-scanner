@@ -333916,5 +333916,182 @@
         "entry_price": 0.0445
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-31T20:56:00+00:00",
+    "whale_timeframes": {
+      "0xcd30f4698c6f5f3829893e68e183a8e5ea18f316": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x34dd4a4b70eaf79a17878f7938263c801d4dfd83": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd570e634aeb745d6501566dba5f81a555cc7e4f8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf5f92940519a72da460b1c2a606bc1230f0e87b0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x821dab0565ebf5b327f51db06223fdcfe01acf16": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3a8aa345d5db7ec5138298c8c4f4540259be7699": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x208927449ac85131e4f34d0c499bfae71a24712e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x684baa57c338c2549aec0aa3f034f695d72a8409": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc72d7dcdb23597d143a83536fb97b1d7db7efc21": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd65c3279408a33866a9129bed6943064cb6ee96": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb859a551fcf56e49416160911476bea7307152f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x601b5a1707882d8601838d8bc5d10de5197e6436": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0e604be17c231a33dc01e38a722c7fe3984e3bad": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x088ba59031e4bac4cc7b344581e3d908258221cc": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9c3ce009c9b039956665cecc4cd14de862b5e8c9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0a39b3b29ab3b7dd753aa96fde4ecab3f2dbb0b9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x18966802010ac5cf1d337711c87023fdeefda7d6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xa113314075ef81a9d3a6577083b8e9a5c834b4b55b1ef0ad5b51ed5e032afc32:1",
+        "condition_id": "0xa113314075ef81a9d3a6577083b8e9a5c834b4b55b1ef0ad5b51ed5e032afc32",
+        "title": "US Open ATP: Martin Landaluce vs Jacob Fearnley",
+        "outcome": "Jacob Fearnley",
+        "outcome_index": 1,
+        "whale_count": 5,
+        "wallets": [
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+          "0xcd65c3279408a33866a9129bed6943064cb6ee96",
+          "0x088ba59031e4bac4cc7b344581e3d908258221cc",
+          "0x9c3ce009c9b039956665cecc4cd14de862b5e8c9"
+        ],
+        "ranks": [
+          6,
+          9,
+          13,
+          17,
+          18
+        ],
+        "total_value_usd": 90522.07,
+        "score": 9.3691,
+        "category": "Tennis",
+        "end_date": "2026-09-06",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x352e7fc56c7acda300ed9e037062b29c24b2b4519c7072bc9e6319e2fc3f36e0:1",
+        "condition_id": "0x352e7fc56c7acda300ed9e037062b29c24b2b4519c7072bc9e6319e2fc3f36e0",
+        "title": "US Open ATP: Dalibor Svrcina vs Valentin Royer",
+        "outcome": "Valentin Royer",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0x088ba59031e4bac4cc7b344581e3d908258221cc",
+          "0x9c3ce009c9b039956665cecc4cd14de862b5e8c9"
+        ],
+        "ranks": [
+          6,
+          17,
+          18
+        ],
+        "total_value_usd": 6320.05,
+        "score": 4.3043,
+        "category": "Tennis",
+        "end_date": "2026-09-06",
+        "entry_price": 0.0435
+      }
+    ]
   }
 ]

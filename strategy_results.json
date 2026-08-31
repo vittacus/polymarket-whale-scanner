@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-31T15:26:57+00:00",
-  "total_evaluated": 1118,
+  "generated_at": "2026-08-31T21:05:45+00:00",
+  "total_evaluated": 1119,
   "total_pending": 65,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1118,
+      "signals_evaluated": 1119,
       "correct": 662,
-      "wrong": 391,
+      "wrong": 392,
       "pending": 65,
-      "win_rate": 62.9,
+      "win_rate": 62.8,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -15645,11 +15645,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Aleksandar Kovacevic",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Valentin Vacherot",
+          "resolved_date": "2026-09-06",
           "end_date": "2026-09-06",
           "total_value_usd": 69902.01,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x39b718f6e0a66a3ae5e459e76c74a694b521eaff5f6015857d1d191f1fc03c61:0",
@@ -15663,6 +15663,20 @@
           "resolved_date": null,
           "end_date": "2026-09-13",
           "total_value_usd": 9758.88,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x352e7fc56c7acda300ed9e037062b29c24b2b4519c7072bc9e6319e2fc3f36e0:1",
+          "condition_id": "0x352e7fc56c7acda300ed9e037062b29c24b2b4519c7072bc9e6319e2fc3f36e0",
+          "title": "US Open ATP: Dalibor Svrcina vs Valentin Royer",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Valentin Royer",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-06",
+          "total_value_usd": 6320.05,
           "result": "pending"
         }
       ]
@@ -15671,11 +15685,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 448,
+      "signals_evaluated": 449,
       "correct": 260,
-      "wrong": 151,
+      "wrong": 152,
       "pending": 37,
-      "win_rate": 63.3,
+      "win_rate": 63.1,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -21929,11 +21943,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Aleksandar Kovacevic",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Valentin Vacherot",
+          "resolved_date": "2026-09-06",
           "end_date": "2026-09-06",
           "total_value_usd": 69902.01,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x39b718f6e0a66a3ae5e459e76c74a694b521eaff5f6015857d1d191f1fc03c61:0",
@@ -21947,6 +21961,20 @@
           "resolved_date": null,
           "end_date": "2026-09-13",
           "total_value_usd": 9758.88,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x352e7fc56c7acda300ed9e037062b29c24b2b4519c7072bc9e6319e2fc3f36e0:1",
+          "condition_id": "0x352e7fc56c7acda300ed9e037062b29c24b2b4519c7072bc9e6319e2fc3f36e0",
+          "title": "US Open ATP: Dalibor Svrcina vs Valentin Royer",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Valentin Royer",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-06",
+          "total_value_usd": 6320.05,
           "result": "pending"
         }
       ]
@@ -21955,11 +21983,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 448,
-      "correct": 151,
+      "signals_evaluated": 449,
+      "correct": 152,
       "wrong": 260,
       "pending": 37,
-      "win_rate": 36.7,
+      "win_rate": 36.9,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -28213,11 +28241,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Aleksandar Kovacevic",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Valentin Vacherot",
+          "resolved_date": "2026-09-06",
           "end_date": "2026-09-06",
           "total_value_usd": 69902.01,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x39b718f6e0a66a3ae5e459e76c74a694b521eaff5f6015857d1d191f1fc03c61:0",
@@ -28231,6 +28259,20 @@
           "resolved_date": null,
           "end_date": "2026-09-13",
           "total_value_usd": 9758.88,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x352e7fc56c7acda300ed9e037062b29c24b2b4519c7072bc9e6319e2fc3f36e0:1",
+          "condition_id": "0x352e7fc56c7acda300ed9e037062b29c24b2b4519c7072bc9e6319e2fc3f36e0",
+          "title": "US Open ATP: Dalibor Svrcina vs Valentin Royer",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Valentin Royer",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-06",
+          "total_value_usd": 6320.05,
           "result": "pending"
         }
       ]
