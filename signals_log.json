@@ -333670,5 +333670,251 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-08-31T15:17:47+00:00",
+    "whale_timeframes": {
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf5f92940519a72da460b1c2a606bc1230f0e87b0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd65c3279408a33866a9129bed6943064cb6ee96": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3a8aa345d5db7ec5138298c8c4f4540259be7699": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x684baa57c338c2549aec0aa3f034f695d72a8409": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0e604be17c231a33dc01e38a722c7fe3984e3bad": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb859a551fcf56e49416160911476bea7307152f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6f3e7f25baa7d2d49e15e2d2957ff3dec62cbcf8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf5592765133941c40c77e52bc56bbe7ec167f462": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x43e935d5f6484816639b1783040648a7b85da4fb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa080dadd87036ad01dbf5e9c254b0c3dbdba234f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x16602a38e8fb4498ffee0ea81e08d2b421825598": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x208927449ac85131e4f34d0c499bfae71a24712e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd202bf6d89dc6bab1b9f00ead175f75466348973": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe4a7b5c3b60bbbaf33e4cf6d0fb5ddc3e3a2dc87": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x88d17ad6bf91ca0935f6e70b37ebe3db92b618da": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0353aaf82abbd3e69c00059df0a825bc198fc2ff": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa309f903dbbd559e87d8d368834b8e41355c4cf2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x876506d8b2bd7a0d3fa4fe18c024eee6e1dd81ee24c26795dadd6cfe4a7b5d0d:0",
+        "condition_id": "0x876506d8b2bd7a0d3fa4fe18c024eee6e1dd81ee24c26795dadd6cfe4a7b5d0d",
+        "title": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991",
+          "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418",
+          "0xa309f903dbbd559e87d8d368834b8e41355c4cf2"
+        ],
+        "ranks": [
+          4,
+          10,
+          12,
+          20
+        ],
+        "total_value_usd": 2156124.72,
+        "score": 12.3355,
+        "category": "fomc",
+        "end_date": "2026-09-16",
+        "entry_price": 0.0455
+      },
+      {
+        "signal_key": "0xd4e77ba6f29fc093509d24f508631abd445ecf506bbdc9c4c80e60256a318527:0",
+        "condition_id": "0xd4e77ba6f29fc093509d24f508631abd445ecf506bbdc9c4c80e60256a318527",
+        "title": "Will no Fed rate cuts happen in 2026?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991",
+          "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418",
+          "0xa309f903dbbd559e87d8d368834b8e41355c4cf2"
+        ],
+        "ranks": [
+          4,
+          10,
+          12,
+          20
+        ],
+        "total_value_usd": 580117.4,
+        "score": 11.225,
+        "category": "Rewards 200, 4.5, 50 Deprec",
+        "end_date": "2026-12-31",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0x0d728b0782ebf5ae5423491c1adc692f8bc44c8a93ec8d92272909a0da323b1c:1",
+        "condition_id": "0x0d728b0782ebf5ae5423491c1adc692f8bc44c8a93ec8d92272909a0da323b1c",
+        "title": "US Open ATP: Valentin Vacherot vs Aleksandar Kovacevic",
+        "outcome": "Aleksandar Kovacevic",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xcd65c3279408a33866a9129bed6943064cb6ee96",
+          "0xdb859a551fcf56e49416160911476bea7307152f",
+          "0x0353aaf82abbd3e69c00059df0a825bc198fc2ff"
+        ],
+        "ranks": [
+          3,
+          7,
+          19
+        ],
+        "total_value_usd": 69902.01,
+        "score": 10.3231,
+        "category": "Tennis",
+        "end_date": "2026-09-06",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x80b3af88cb991980e8da1ce86b9794a0957f96ec98c29319dd7ba65e9744d82b:0",
+        "condition_id": "0x80b3af88cb991980e8da1ce86b9794a0957f96ec98c29319dd7ba65e9744d82b",
+        "title": "Fed rate hike in 2026?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991",
+          "0xa309f903dbbd559e87d8d368834b8e41355c4cf2"
+        ],
+        "ranks": [
+          4,
+          10,
+          20
+        ],
+        "total_value_usd": 511300.59,
+        "score": 9.2013,
+        "category": "CPI Release",
+        "end_date": "2026-12-09",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0x39b718f6e0a66a3ae5e459e76c74a694b521eaff5f6015857d1d191f1fc03c61:0",
+        "condition_id": "0x39b718f6e0a66a3ae5e459e76c74a694b521eaff5f6015857d1d191f1fc03c61",
+        "title": "Will Alexander Zverev win the 2026 Men's US Open?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x6f3e7f25baa7d2d49e15e2d2957ff3dec62cbcf8",
+          "0xa080dadd87036ad01dbf5e9c254b0c3dbdba234f",
+          "0x208927449ac85131e4f34d0c499bfae71a24712e"
+        ],
+        "ranks": [
+          8,
+          13,
+          15
+        ],
+        "total_value_usd": 9758.88,
+        "score": 4.3177,
+        "category": "US Open",
+        "end_date": "2026-09-13",
+        "entry_price": 0.0445
+      }
+    ]
   }
 ]
