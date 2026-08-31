@@ -333413,5 +333413,137 @@
         "entry_price": 0.0445
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-31T01:29:31+00:00",
+    "whale_timeframes": {
+      "0x4ab9b54427ec4b7f3646b1a0ef1bed73bc708ebe": [
+        "All",
+        "Monthly",
+        "Weekly"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly"
+      ],
+      "0xcd65c3279408a33866a9129bed6943064cb6ee96": [
+        "All",
+        "Monthly",
+        "Weekly"
+      ],
+      "0xdb859a551fcf56e49416160911476bea7307152f": [
+        "All",
+        "Monthly",
+        "Weekly"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly"
+      ],
+      "0x0d18e30e252008d83f51dae00d36873ddd9e24a6": [
+        "All",
+        "Monthly",
+        "Weekly"
+      ],
+      "0x0f35109cc3ceaf729609c3109310791bd616c84a": [
+        "All",
+        "Monthly",
+        "Weekly"
+      ],
+      "0x782186952ef2ca75ea91c95aef25bbdcffb4bb1a": [
+        "All",
+        "Monthly",
+        "Weekly"
+      ],
+      "0xb8ef617fd5d960e61e56c50d2971697300b32864": [
+        "All",
+        "Monthly",
+        "Weekly"
+      ],
+      "0x95b198f900d19a80d3d7e47b7b17708af254f9ac": [
+        "All",
+        "Monthly",
+        "Weekly"
+      ],
+      "0x16bb9951a36fce71e2ef57890b786145e0ba8492": [
+        "All",
+        "Monthly",
+        "Weekly"
+      ],
+      "0xc8075693f48668a264b9fa313b47f52712fcc12b": [
+        "All",
+        "Monthly",
+        "Weekly"
+      ],
+      "0x7fb23b0d330ea4ac4f3cecce1eb81fb0bfb3ed4b": [
+        "All",
+        "Monthly",
+        "Weekly"
+      ],
+      "0x4f70929ba287ac85dc2431c85382ccd9e6b0d185": [
+        "All",
+        "Monthly",
+        "Weekly"
+      ],
+      "0x15ae79d7cd60b2a7f06ae46eb4c7a0eb16096ffd": [
+        "All",
+        "Monthly",
+        "Weekly"
+      ],
+      "0x903221b1098263779ae19486028c844e8c338717": [
+        "All",
+        "Monthly",
+        "Weekly"
+      ],
+      "0x9703676286b93c2eca71ca96e8757104519a69c2": [
+        "All",
+        "Monthly",
+        "Weekly"
+      ],
+      "0x6ad9ff01ba3f5ecc1797c4f68a1236aca0818d2e": [
+        "All",
+        "Monthly",
+        "Weekly"
+      ],
+      "0x322f041810cee536293dcb4c99fc23b3a766940a": [
+        "All",
+        "Monthly",
+        "Weekly"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x9c62c626cfe36f5273fa016e27803a00c75a19a62a044a1941f83c55706bf97b:1",
+        "condition_id": "0x9c62c626cfe36f5273fa016e27803a00c75a19a62a044a1941f83c55706bf97b",
+        "title": "Cincinnati Reds vs. Chicago Cubs",
+        "outcome": "Chicago Cubs",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0xcd65c3279408a33866a9129bed6943064cb6ee96",
+          "0xdb859a551fcf56e49416160911476bea7307152f",
+          "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
+          "0xc8075693f48668a264b9fa313b47f52712fcc12b"
+        ],
+        "ranks": [
+          4,
+          5,
+          12,
+          13
+        ],
+        "total_value_usd": 78405.09,
+        "score": 10.3161,
+        "category": "MLB",
+        "end_date": "2026-09-06",
+        "entry_price": 0.0445
+      }
+    ]
   }
 ]
