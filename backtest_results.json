@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-01T10:26:11+00:00",
-  "total_signals": 1120,
+  "generated_at": "2026-09-01T15:09:45+00:00",
+  "total_signals": 1121,
   "total_resolved": 1064,
   "total_correct": 667,
   "overall_hit_rate": 62.7,
   "by_tier": {
     "Strong": {
-      "total": 468,
+      "total": 469,
       "resolved": 451,
       "correct": 293,
       "hit_rate": 65.0
@@ -19064,6 +19064,23 @@
       "correct": false,
       "resolved_outcome": "Los Angeles Angels",
       "resolved_date": "2026-09-08"
+    },
+    {
+      "signal_key": "0x7ad403c3508f8e3912940fd1a913f227591145ca0614074208e0b962d5fcc422:1",
+      "condition_id": "0x7ad403c3508f8e3912940fd1a913f227591145ca0614074208e0b962d5fcc422",
+      "title": "Will JD Vance win the 2028 US Presidential Election?",
+      "category": "President",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 14.1459,
+      "total_value_usd": 300236.13,
+      "entry_price": 0.0465,
+      "end_date": "2028-11-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }

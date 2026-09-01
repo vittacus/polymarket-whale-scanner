@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-01T10:26:11+00:00",
-  "total_evaluated": 1120,
-  "total_pending": 56,
+  "generated_at": "2026-09-01T15:09:45+00:00",
+  "total_evaluated": 1121,
+  "total_pending": 57,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1120,
+      "signals_evaluated": 1121,
       "correct": 667,
       "wrong": 397,
-      "pending": 56,
+      "pending": 57,
       "win_rate": 62.7,
       "signals": [
         {
@@ -15692,6 +15692,20 @@
           "end_date": "2026-09-08",
           "total_value_usd": 79376.48,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x7ad403c3508f8e3912940fd1a913f227591145ca0614074208e0b962d5fcc422:1",
+          "condition_id": "0x7ad403c3508f8e3912940fd1a913f227591145ca0614074208e0b962d5fcc422",
+          "title": "Will JD Vance win the 2028 US Presidential Election?",
+          "category": "President",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2028-11-07",
+          "total_value_usd": 300236.13,
+          "result": "pending"
         }
       ]
     },
@@ -15699,10 +15713,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 450,
+      "signals_evaluated": 451,
       "correct": 265,
       "wrong": 156,
-      "pending": 29,
+      "pending": 30,
       "win_rate": 62.9,
       "signals": [
         {
@@ -22004,6 +22018,20 @@
           "end_date": "2026-09-08",
           "total_value_usd": 79376.48,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x7ad403c3508f8e3912940fd1a913f227591145ca0614074208e0b962d5fcc422:1",
+          "condition_id": "0x7ad403c3508f8e3912940fd1a913f227591145ca0614074208e0b962d5fcc422",
+          "title": "Will JD Vance win the 2028 US Presidential Election?",
+          "category": "President",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2028-11-07",
+          "total_value_usd": 300236.13,
+          "result": "pending"
         }
       ]
     },
@@ -22011,10 +22039,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 450,
+      "signals_evaluated": 451,
       "correct": 156,
       "wrong": 265,
-      "pending": 29,
+      "pending": 30,
       "win_rate": 37.1,
       "signals": [
         {
@@ -28316,6 +28344,20 @@
           "end_date": "2026-09-08",
           "total_value_usd": 79376.48,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x7ad403c3508f8e3912940fd1a913f227591145ca0614074208e0b962d5fcc422:1",
+          "condition_id": "0x7ad403c3508f8e3912940fd1a913f227591145ca0614074208e0b962d5fcc422",
+          "title": "Will JD Vance win the 2028 US Presidential Election?",
+          "category": "President",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2028-11-07",
+          "total_value_usd": 300236.13,
+          "result": "pending"
         }
       ]
     },
