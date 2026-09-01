@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-01T21:22:24+00:00",
-  "total_signals": 1122,
+  "generated_at": "2026-09-01T23:27:49+00:00",
+  "total_signals": 1123,
   "total_resolved": 1064,
   "total_correct": 667,
   "overall_hit_rate": 62.7,
   "by_tier": {
     "Strong": {
-      "total": 469,
+      "total": 470,
       "resolved": 451,
       "correct": 293,
       "hit_rate": 65.0
@@ -19094,6 +19094,23 @@
       "total_value_usd": 292516.69,
       "entry_price": 0.0465,
       "end_date": "2026-10-04",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x2ee43c144834af44ab0e677d89807de5608bce1b473d77f7d77cdfe51e4ef9b6:0",
+      "condition_id": "0x2ee43c144834af44ab0e677d89807de5608bce1b473d77f7d77cdfe51e4ef9b6",
+      "title": "US Open ATP: Dane Sweeny vs Corentin Moutet",
+      "category": "Tennis",
+      "whale_direction": "Dane Sweeny",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 10.2092,
+      "total_value_usd": 403912.57,
+      "entry_price": 0.0455,
+      "end_date": "2026-09-06",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
