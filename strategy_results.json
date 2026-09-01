@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-31T21:05:45+00:00",
-  "total_evaluated": 1119,
-  "total_pending": 65,
+  "generated_at": "2026-09-01T00:29:23+00:00",
+  "total_evaluated": 1120,
+  "total_pending": 64,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1119,
-      "correct": 662,
-      "wrong": 392,
-      "pending": 65,
+      "signals_evaluated": 1120,
+      "correct": 663,
+      "wrong": 393,
+      "pending": 64,
       "win_rate": 62.8,
       "signals": [
         {
@@ -15617,11 +15617,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Jacob Fearnley",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jacob Fearnley",
+          "resolved_date": "2026-09-06",
           "end_date": "2026-09-06",
           "total_value_usd": 70838.59,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x9c62c626cfe36f5273fa016e27803a00c75a19a62a044a1941f83c55706bf97b:1",
@@ -15673,10 +15673,24 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "Valentin Royer",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Dalibor Svrcina",
+          "resolved_date": "2026-09-06",
           "end_date": "2026-09-06",
           "total_value_usd": 6320.05,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xf0386b0b69ffcfe214b7ad36c1340b4f7457ef5ecb036a1d55a91f7676aa41ff:0",
+          "condition_id": "0xf0386b0b69ffcfe214b7ad36c1340b4f7457ef5ecb036a1d55a91f7676aa41ff",
+          "title": "New York Yankees vs. Los Angeles Angels",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "New York Yankees",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-08",
+          "total_value_usd": 79376.48,
           "result": "pending"
         }
       ]
@@ -15685,11 +15699,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 449,
-      "correct": 260,
-      "wrong": 152,
-      "pending": 37,
-      "win_rate": 63.1,
+      "signals_evaluated": 450,
+      "correct": 261,
+      "wrong": 153,
+      "pending": 36,
+      "win_rate": 63.0,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -21915,11 +21929,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Jacob Fearnley",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jacob Fearnley",
+          "resolved_date": "2026-09-06",
           "end_date": "2026-09-06",
           "total_value_usd": 70838.59,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x9c62c626cfe36f5273fa016e27803a00c75a19a62a044a1941f83c55706bf97b:1",
@@ -21971,10 +21985,24 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "Valentin Royer",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Dalibor Svrcina",
+          "resolved_date": "2026-09-06",
           "end_date": "2026-09-06",
           "total_value_usd": 6320.05,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xf0386b0b69ffcfe214b7ad36c1340b4f7457ef5ecb036a1d55a91f7676aa41ff:0",
+          "condition_id": "0xf0386b0b69ffcfe214b7ad36c1340b4f7457ef5ecb036a1d55a91f7676aa41ff",
+          "title": "New York Yankees vs. Los Angeles Angels",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "New York Yankees",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-08",
+          "total_value_usd": 79376.48,
           "result": "pending"
         }
       ]
@@ -21983,11 +22011,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 449,
-      "correct": 152,
-      "wrong": 260,
-      "pending": 37,
-      "win_rate": 36.9,
+      "signals_evaluated": 450,
+      "correct": 153,
+      "wrong": 261,
+      "pending": 36,
+      "win_rate": 37.0,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -28213,11 +28241,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Jacob Fearnley",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jacob Fearnley",
+          "resolved_date": "2026-09-06",
           "end_date": "2026-09-06",
           "total_value_usd": 70838.59,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x9c62c626cfe36f5273fa016e27803a00c75a19a62a044a1941f83c55706bf97b:1",
@@ -28269,10 +28297,24 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "Valentin Royer",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Dalibor Svrcina",
+          "resolved_date": "2026-09-06",
           "end_date": "2026-09-06",
           "total_value_usd": 6320.05,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xf0386b0b69ffcfe214b7ad36c1340b4f7457ef5ecb036a1d55a91f7676aa41ff:0",
+          "condition_id": "0xf0386b0b69ffcfe214b7ad36c1340b4f7457ef5ecb036a1d55a91f7676aa41ff",
+          "title": "New York Yankees vs. Los Angeles Angels",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "New York Yankees",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-08",
+          "total_value_usd": 79376.48,
           "result": "pending"
         }
       ]

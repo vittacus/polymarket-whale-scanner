@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-31T21:05:45+00:00",
-  "total_signals": 1119,
-  "total_resolved": 1054,
-  "total_correct": 662,
+  "generated_at": "2026-09-01T00:29:23+00:00",
+  "total_signals": 1120,
+  "total_resolved": 1056,
+  "total_correct": 663,
   "overall_hit_rate": 62.8,
   "by_tier": {
     "Strong": {
@@ -12,9 +12,9 @@
       "hit_rate": 65.0
     },
     "Moderate": {
-      "total": 592,
-      "resolved": 549,
-      "correct": 341,
+      "total": 593,
+      "resolved": 551,
+      "correct": 342,
       "hit_rate": 62.1
     },
     "Weak": {
@@ -18975,10 +18975,10 @@
       "total_value_usd": 70838.59,
       "entry_price": 0.0445,
       "end_date": "2026-09-06",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Jacob Fearnley",
+      "resolved_date": "2026-09-06"
     },
     {
       "signal_key": "0x9c62c626cfe36f5273fa016e27803a00c75a19a62a044a1941f83c55706bf97b:1",
@@ -19043,6 +19043,23 @@
       "total_value_usd": 6320.05,
       "entry_price": 0.0435,
       "end_date": "2026-09-06",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Dalibor Svrcina",
+      "resolved_date": "2026-09-06"
+    },
+    {
+      "signal_key": "0xf0386b0b69ffcfe214b7ad36c1340b4f7457ef5ecb036a1d55a91f7676aa41ff:0",
+      "condition_id": "0xf0386b0b69ffcfe214b7ad36c1340b4f7457ef5ecb036a1d55a91f7676aa41ff",
+      "title": "New York Yankees vs. Los Angeles Angels",
+      "category": "MLB",
+      "whale_direction": "New York Yankees",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 7.2772,
+      "total_value_usd": 79376.48,
+      "entry_price": 0.0435,
+      "end_date": "2026-09-08",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
