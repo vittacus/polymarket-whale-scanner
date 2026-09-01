@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-01T15:09:45+00:00",
-  "total_evaluated": 1121,
-  "total_pending": 57,
+  "generated_at": "2026-09-01T18:37:36+00:00",
+  "total_evaluated": 1122,
+  "total_pending": 58,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1121,
+      "signals_evaluated": 1122,
       "correct": 667,
       "wrong": 397,
-      "pending": 57,
+      "pending": 58,
       "win_rate": 62.7,
       "signals": [
         {
@@ -15706,6 +15706,20 @@
           "end_date": "2028-11-07",
           "total_value_usd": 300236.13,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xdf8e2dc5860027decbe6164555c3c1c9645c3bd33e16b9dc57ca87125047d4a8:0",
+          "condition_id": "0xdf8e2dc5860027decbe6164555c3c1c9645c3bd33e16b9dc57ca87125047d4a8",
+          "title": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+          "category": "Macro Election 2",
+          "tier": "Moderate",
+          "entry_price": 0.0465,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-04",
+          "total_value_usd": 292516.69,
+          "result": "pending"
         }
       ]
     },
@@ -15713,10 +15727,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 451,
+      "signals_evaluated": 452,
       "correct": 265,
       "wrong": 156,
-      "pending": 30,
+      "pending": 31,
       "win_rate": 62.9,
       "signals": [
         {
@@ -22032,6 +22046,20 @@
           "end_date": "2028-11-07",
           "total_value_usd": 300236.13,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xdf8e2dc5860027decbe6164555c3c1c9645c3bd33e16b9dc57ca87125047d4a8:0",
+          "condition_id": "0xdf8e2dc5860027decbe6164555c3c1c9645c3bd33e16b9dc57ca87125047d4a8",
+          "title": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+          "category": "Macro Election 2",
+          "tier": "Moderate",
+          "entry_price": 0.0465,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-04",
+          "total_value_usd": 292516.69,
+          "result": "pending"
         }
       ]
     },
@@ -22039,10 +22067,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 451,
+      "signals_evaluated": 452,
       "correct": 156,
       "wrong": 265,
-      "pending": 30,
+      "pending": 31,
       "win_rate": 37.1,
       "signals": [
         {
@@ -28357,6 +28385,20 @@
           "resolved_date": null,
           "end_date": "2028-11-07",
           "total_value_usd": 300236.13,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xdf8e2dc5860027decbe6164555c3c1c9645c3bd33e16b9dc57ca87125047d4a8:0",
+          "condition_id": "0xdf8e2dc5860027decbe6164555c3c1c9645c3bd33e16b9dc57ca87125047d4a8",
+          "title": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+          "category": "Macro Election 2",
+          "tier": "Moderate",
+          "entry_price": 0.0465,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-04",
+          "total_value_usd": 292516.69,
           "result": "pending"
         }
       ]

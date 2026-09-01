@@ -334668,5 +334668,249 @@
         "entry_price": 0.51
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-01T18:28:22+00:00",
+    "whale_timeframes": {
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd570e634aeb745d6501566dba5f81a555cc7e4f8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb859a551fcf56e49416160911476bea7307152f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3a8aa345d5db7ec5138298c8c4f4540259be7699": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x397062018dfb77e855608fe23223592bc82c44ce": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f1d5ae26fc31472966e951af3183308736d8de2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5dab5ed9691fab220535891d9c7f5c28eed322e1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5f659bccbc353dbf7bcdffdee73bee60bb482036": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb0c85813a7a4428f1139ff91d3118a92c391fe7f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x004c832cb3af8ee0771fdf5fc3d494fe8ca2bb89": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x13fa4ce1b8a27dd0b7a72db6205a50ee6ff0954c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc3ca1a42fd9217b2d02fb05980c1803af462688e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xafd492974cd531aae7786210438ae46b42047e61": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe40aaa5ce1dac0b7dc24c9d0284f27e17c3fe4a2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x03805a13a0b3e058f55f6c6af95389d4f431073d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf23c5bc7b547867eb6532920144562718aa49f81": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x7ad403c3508f8e3912940fd1a913f227591145ca0614074208e0b962d5fcc422:1",
+        "condition_id": "0x7ad403c3508f8e3912940fd1a913f227591145ca0614074208e0b962d5fcc422",
+        "title": "Will JD Vance win the 2028 US Presidential Election?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xd570e634aeb745d6501566dba5f81a555cc7e4f8",
+          "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418",
+          "0x004c832cb3af8ee0771fdf5fc3d494fe8ca2bb89"
+        ],
+        "ranks": [
+          2,
+          10,
+          14
+        ],
+        "total_value_usd": 401192.29,
+        "score": 15.1601,
+        "category": "President",
+        "end_date": "2028-11-07",
+        "entry_price": 0.0465
+      },
+      {
+        "signal_key": "0x7ad403c3508f8e3912940fd1a913f227591145ca0614074208e0b962d5fcc422:0",
+        "condition_id": "0x7ad403c3508f8e3912940fd1a913f227591145ca0614074208e0b962d5fcc422",
+        "title": "Will JD Vance win the 2028 US Presidential Election?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xd570e634aeb745d6501566dba5f81a555cc7e4f8",
+          "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418",
+          "0x004c832cb3af8ee0771fdf5fc3d494fe8ca2bb89"
+        ],
+        "ranks": [
+          2,
+          10,
+          14
+        ],
+        "total_value_usd": 134087.62,
+        "score": 13.8724,
+        "category": "President",
+        "end_date": "2028-11-07",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x876506d8b2bd7a0d3fa4fe18c024eee6e1dd81ee24c26795dadd6cfe4a7b5d0d:0",
+        "condition_id": "0x876506d8b2bd7a0d3fa4fe18c024eee6e1dd81ee24c26795dadd6cfe4a7b5d0d",
+        "title": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418",
+          "0xc3ca1a42fd9217b2d02fb05980c1803af462688e",
+          "0x03805a13a0b3e058f55f6c6af95389d4f431073d"
+        ],
+        "ranks": [
+          4,
+          10,
+          16,
+          19
+        ],
+        "total_value_usd": 2519035.89,
+        "score": 11.9976,
+        "category": "fomc",
+        "end_date": "2026-09-16",
+        "entry_price": 0.0455
+      },
+      {
+        "signal_key": "0xdf8e2dc5860027decbe6164555c3c1c9645c3bd33e16b9dc57ca87125047d4a8:0",
+        "condition_id": "0xdf8e2dc5860027decbe6164555c3c1c9645c3bd33e16b9dc57ca87125047d4a8",
+        "title": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418",
+          "0x13fa4ce1b8a27dd0b7a72db6205a50ee6ff0954c"
+        ],
+        "ranks": [
+          4,
+          10,
+          15
+        ],
+        "total_value_usd": 292516.69,
+        "score": 9.1775,
+        "category": "Macro Election 2",
+        "end_date": "2026-10-04",
+        "entry_price": 0.0465
+      },
+      {
+        "signal_key": "0x73d8a8208d23a74937d114a713d6a56cd4161a1068056c52ac74c8419c99da7c:0",
+        "condition_id": "0x73d8a8208d23a74937d114a713d6a56cd4161a1068056c52ac74c8419c99da7c",
+        "title": "Fed Rate Hike by September 2026 Meeting?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418",
+          "0xc3ca1a42fd9217b2d02fb05980c1803af462688e"
+        ],
+        "ranks": [
+          4,
+          10,
+          16
+        ],
+        "total_value_usd": 75360.87,
+        "score": 8.1067,
+        "category": "Fed",
+        "end_date": "2026-12-09",
+        "entry_price": 0.505
+      }
+    ]
   }
 ]
