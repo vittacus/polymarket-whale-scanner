@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-01T00:29:23+00:00",
+  "generated_at": "2026-09-01T05:32:41+00:00",
   "total_signals": 1120,
-  "total_resolved": 1056,
-  "total_correct": 663,
-  "overall_hit_rate": 62.8,
+  "total_resolved": 1064,
+  "total_correct": 667,
+  "overall_hit_rate": 62.7,
   "by_tier": {
     "Strong": {
       "total": 468,
-      "resolved": 449,
-      "correct": 292,
+      "resolved": 451,
+      "correct": 293,
       "hit_rate": 65.0
     },
     "Moderate": {
       "total": 593,
-      "resolved": 551,
-      "correct": 342,
-      "hit_rate": 62.1
+      "resolved": 557,
+      "correct": 345,
+      "hit_rate": 61.9
     },
     "Weak": {
       "total": 59,
@@ -3913,10 +3913,10 @@
       "total_value_usd": 25367.16,
       "entry_price": 0.51,
       "end_date": "2026-06-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "San Francisco Giants",
+      "resolved_date": "2026-09-07"
     },
     {
       "signal_key": "0x9814196ae917e1c962ce23612be50554586828a996b06c800d502a137001bc25:0",
@@ -13569,10 +13569,10 @@
       "total_value_usd": 20605.78,
       "entry_price": 0.0435,
       "end_date": "2026-09-07",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "San Francisco Giants",
+      "resolved_date": "2026-09-07"
     },
     {
       "signal_key": "0x282e701965ef88eef5e9b68ea319a149be244ec605ae4f1968c7994476d54f31:1",
@@ -16731,10 +16731,10 @@
       "total_value_usd": 42492.88,
       "entry_price": 0.0425,
       "end_date": "2026-09-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-09-01"
     },
     {
       "signal_key": "0xce3c54c3e773e8b3bf73e4c12af93205b21195d03b9c386e22f274b9acfc2c56:1",
@@ -17122,10 +17122,10 @@
       "total_value_usd": 16011.12,
       "entry_price": 0.0415,
       "end_date": "2026-09-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-09-01"
     },
     {
       "signal_key": "0x10c4cebc5321a6aed969e702847cb2585eaddebbcf8e5f50cc7fffa450901252:1",
@@ -17139,10 +17139,10 @@
       "total_value_usd": 21350.23,
       "entry_price": 0.0415,
       "end_date": "2026-09-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-09-01"
     },
     {
       "signal_key": "0x7f668805bfee7909997562f60489ddef01e40a3dca43781efeb59ce380779295:0",
@@ -17156,10 +17156,10 @@
       "total_value_usd": 4868.35,
       "entry_price": 0.0415,
       "end_date": "2026-09-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-09-01"
     },
     {
       "signal_key": "0xacec7e5b90ccb1ac4c950e3aff18156d6ce1bb7b0c87c001a281279412dca784:0",
@@ -17700,10 +17700,10 @@
       "total_value_usd": 66725.39,
       "entry_price": 0.0495,
       "end_date": "2026-09-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-09-01"
     },
     {
       "signal_key": "0xfd105823dbf627e8a57aa1924703ef23138050d9d8da4a98a5136ea2ad98acd4:1",
@@ -19060,10 +19060,10 @@
       "total_value_usd": 79376.48,
       "entry_price": 0.0435,
       "end_date": "2026-09-08",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Los Angeles Angels",
+      "resolved_date": "2026-09-08"
     }
   ]
 }

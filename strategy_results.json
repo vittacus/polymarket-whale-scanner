@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-01T00:29:23+00:00",
+  "generated_at": "2026-09-01T05:32:41+00:00",
   "total_evaluated": 1120,
-  "total_pending": 64,
+  "total_pending": 56,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 1120,
-      "correct": 663,
-      "wrong": 393,
-      "pending": 64,
-      "win_rate": 62.8,
+      "correct": 667,
+      "wrong": 397,
+      "pending": 56,
+      "win_rate": 62.7,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -3213,11 +3213,11 @@
           "tier": "Moderate",
           "entry_price": 0.51,
           "whale_direction": "Atlanta Braves",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "San Francisco Giants",
+          "resolved_date": "2026-09-07",
           "end_date": "2026-06-25",
           "total_value_usd": 25367.16,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x9814196ae917e1c962ce23612be50554586828a996b06c800d502a137001bc25:0",
@@ -11165,11 +11165,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "San Francisco Giants",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "San Francisco Giants",
+          "resolved_date": "2026-09-07",
           "end_date": "2026-09-07",
           "total_value_usd": 20605.78,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x282e701965ef88eef5e9b68ea319a149be244ec605ae4f1968c7994476d54f31:1",
@@ -13769,11 +13769,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 42492.88,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xce3c54c3e773e8b3bf73e4c12af93205b21195d03b9c386e22f274b9acfc2c56:1",
@@ -14091,11 +14091,11 @@
           "tier": "Strong",
           "entry_price": 0.0415,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 16011.12,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x10c4cebc5321a6aed969e702847cb2585eaddebbcf8e5f50cc7fffa450901252:1",
@@ -14105,11 +14105,11 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 21350.23,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x7f668805bfee7909997562f60489ddef01e40a3dca43781efeb59ce380779295:0",
@@ -14119,11 +14119,11 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 4868.35,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xacec7e5b90ccb1ac4c950e3aff18156d6ce1bb7b0c87c001a281279412dca784:0",
@@ -14567,11 +14567,11 @@
           "tier": "Moderate",
           "entry_price": 0.0495,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 66725.39,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xfd105823dbf627e8a57aa1924703ef23138050d9d8da4a98a5136ea2ad98acd4:1",
@@ -15687,11 +15687,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "New York Yankees",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Angels",
+          "resolved_date": "2026-09-08",
           "end_date": "2026-09-08",
           "total_value_usd": 79376.48,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
@@ -15700,10 +15700,10 @@
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 450,
-      "correct": 261,
-      "wrong": 153,
-      "pending": 36,
-      "win_rate": 63.0,
+      "correct": 265,
+      "wrong": 156,
+      "pending": 29,
+      "win_rate": 62.9,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -17477,11 +17477,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "San Francisco Giants",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "San Francisco Giants",
+          "resolved_date": "2026-09-07",
           "end_date": "2026-09-07",
           "total_value_usd": 20605.78,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x282e701965ef88eef5e9b68ea319a149be244ec605ae4f1968c7994476d54f31:1",
@@ -20081,11 +20081,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 42492.88,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xce3c54c3e773e8b3bf73e4c12af93205b21195d03b9c386e22f274b9acfc2c56:1",
@@ -20403,11 +20403,11 @@
           "tier": "Strong",
           "entry_price": 0.0415,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 16011.12,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x10c4cebc5321a6aed969e702847cb2585eaddebbcf8e5f50cc7fffa450901252:1",
@@ -20417,11 +20417,11 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 21350.23,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x7f668805bfee7909997562f60489ddef01e40a3dca43781efeb59ce380779295:0",
@@ -20431,11 +20431,11 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 4868.35,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xacec7e5b90ccb1ac4c950e3aff18156d6ce1bb7b0c87c001a281279412dca784:0",
@@ -20879,11 +20879,11 @@
           "tier": "Moderate",
           "entry_price": 0.0495,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 66725.39,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xfd105823dbf627e8a57aa1924703ef23138050d9d8da4a98a5136ea2ad98acd4:1",
@@ -21999,11 +21999,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "New York Yankees",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Angels",
+          "resolved_date": "2026-09-08",
           "end_date": "2026-09-08",
           "total_value_usd": 79376.48,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
@@ -22012,10 +22012,10 @@
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 450,
-      "correct": 153,
-      "wrong": 261,
-      "pending": 36,
-      "win_rate": 37.0,
+      "correct": 156,
+      "wrong": 265,
+      "pending": 29,
+      "win_rate": 37.1,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -23789,11 +23789,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "San Francisco Giants",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "San Francisco Giants",
+          "resolved_date": "2026-09-07",
           "end_date": "2026-09-07",
           "total_value_usd": 20605.78,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x282e701965ef88eef5e9b68ea319a149be244ec605ae4f1968c7994476d54f31:1",
@@ -26393,11 +26393,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 42492.88,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xce3c54c3e773e8b3bf73e4c12af93205b21195d03b9c386e22f274b9acfc2c56:1",
@@ -26715,11 +26715,11 @@
           "tier": "Strong",
           "entry_price": 0.0415,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 16011.12,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x10c4cebc5321a6aed969e702847cb2585eaddebbcf8e5f50cc7fffa450901252:1",
@@ -26729,11 +26729,11 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 21350.23,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x7f668805bfee7909997562f60489ddef01e40a3dca43781efeb59ce380779295:0",
@@ -26743,11 +26743,11 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 4868.35,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xacec7e5b90ccb1ac4c950e3aff18156d6ce1bb7b0c87c001a281279412dca784:0",
@@ -27191,11 +27191,11 @@
           "tier": "Moderate",
           "entry_price": 0.0495,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-09-01",
           "end_date": "2026-09-01",
           "total_value_usd": 66725.39,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xfd105823dbf627e8a57aa1924703ef23138050d9d8da4a98a5136ea2ad98acd4:1",
@@ -28311,11 +28311,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "New York Yankees",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Angels",
+          "resolved_date": "2026-09-08",
           "end_date": "2026-09-08",
           "total_value_usd": 79376.48,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
