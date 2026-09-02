@@ -336417,5 +336417,178 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-09-02T21:00:56+00:00",
+    "whale_timeframes": {
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd570e634aeb745d6501566dba5f81a555cc7e4f8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd3a0b4e941b557d33a8efd5a51c581e7c79cf136": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa71093cafc0c099b4ccab24c3cb8018d817923c4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5a218c7ad04135830a45c41aaed7294df7809318": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9cb990f1862568a63d8601efeebe0304225c32f2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x29b52d98ac9ef9414b04164246c95bc63d74cc6c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x983eedfbd75803602e4a6e6ea9aab6dc6b9c6748": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x821dab0565ebf5b327f51db06223fdcfe01acf16": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xabb89972b21b304c1bed2bf26f35c8741ac9bba3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6f0ebea3c2e777699519ee128faaa07a9d0b2ee5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc32359bbc920b365a05cd310b9a998508c980077": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x709e8dcb133555794decc598e07f2c923b8366f5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf48597e74fa832880a954461860b939d2fad03ae": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdecffda0ca685646001e7f2f525f39de905f4daf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x4c96c929f6dc846e84f0b75eb075fa16b50355ddc6aab4cf794b07424a63f2cb:1",
+        "condition_id": "0x4c96c929f6dc846e84f0b75eb075fa16b50355ddc6aab4cf794b07424a63f2cb",
+        "title": "US Open ATP: Marcos Giron vs Ignacio Buse",
+        "outcome": "Ignacio Buse",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x9cb990f1862568a63d8601efeebe0304225c32f2",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6"
+        ],
+        "ranks": [
+          8,
+          12,
+          13
+        ],
+        "total_value_usd": 35508.32,
+        "score": 5.2304,
+        "category": "Tennis",
+        "end_date": "2026-09-06",
+        "entry_price": 0.0455
+      },
+      {
+        "signal_key": "0x1caac48b62c0d62cf4b91ccfcf66f2061df667df95438165fc586a7159c12705:1",
+        "condition_id": "0x1caac48b62c0d62cf4b91ccfcf66f2061df667df95438165fc586a7159c12705",
+        "title": "US Open ATP: Rafael Jodar vs Yunchaokete Bu",
+        "outcome": "Yunchaokete Bu",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0x709e8dcb133555794decc598e07f2c923b8366f5"
+        ],
+        "ranks": [
+          11,
+          12,
+          17
+        ],
+        "total_value_usd": 123233.76,
+        "score": 4.7809,
+        "category": "Tennis",
+        "end_date": "2026-09-08",
+        "entry_price": 0.0455
+      }
+    ]
   }
 ]

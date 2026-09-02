@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-02T18:13:33+00:00",
-  "total_evaluated": 1140,
-  "total_pending": 58,
+  "generated_at": "2026-09-02T21:10:59+00:00",
+  "total_evaluated": 1142,
+  "total_pending": 60,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1140,
+      "signals_evaluated": 1142,
       "correct": 680,
       "wrong": 402,
-      "pending": 58,
+      "pending": 60,
       "win_rate": 62.8,
       "signals": [
         {
@@ -15972,6 +15972,34 @@
           "end_date": "2026-09-06",
           "total_value_usd": 21746.36,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x4c96c929f6dc846e84f0b75eb075fa16b50355ddc6aab4cf794b07424a63f2cb:1",
+          "condition_id": "0x4c96c929f6dc846e84f0b75eb075fa16b50355ddc6aab4cf794b07424a63f2cb",
+          "title": "US Open ATP: Marcos Giron vs Ignacio Buse",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Ignacio Buse",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-06",
+          "total_value_usd": 35508.32,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x1caac48b62c0d62cf4b91ccfcf66f2061df667df95438165fc586a7159c12705:1",
+          "condition_id": "0x1caac48b62c0d62cf4b91ccfcf66f2061df667df95438165fc586a7159c12705",
+          "title": "US Open ATP: Rafael Jodar vs Yunchaokete Bu",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Yunchaokete Bu",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-08",
+          "total_value_usd": 123233.76,
+          "result": "pending"
         }
       ]
     },
@@ -15979,10 +16007,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 470,
+      "signals_evaluated": 472,
       "correct": 278,
       "wrong": 161,
-      "pending": 31,
+      "pending": 33,
       "win_rate": 63.3,
       "signals": [
         {
@@ -22564,6 +22592,34 @@
           "end_date": "2026-09-06",
           "total_value_usd": 21746.36,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x4c96c929f6dc846e84f0b75eb075fa16b50355ddc6aab4cf794b07424a63f2cb:1",
+          "condition_id": "0x4c96c929f6dc846e84f0b75eb075fa16b50355ddc6aab4cf794b07424a63f2cb",
+          "title": "US Open ATP: Marcos Giron vs Ignacio Buse",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Ignacio Buse",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-06",
+          "total_value_usd": 35508.32,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x1caac48b62c0d62cf4b91ccfcf66f2061df667df95438165fc586a7159c12705:1",
+          "condition_id": "0x1caac48b62c0d62cf4b91ccfcf66f2061df667df95438165fc586a7159c12705",
+          "title": "US Open ATP: Rafael Jodar vs Yunchaokete Bu",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Yunchaokete Bu",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-08",
+          "total_value_usd": 123233.76,
+          "result": "pending"
         }
       ]
     },
@@ -22571,10 +22627,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 470,
+      "signals_evaluated": 472,
       "correct": 161,
       "wrong": 278,
-      "pending": 31,
+      "pending": 33,
       "win_rate": 36.7,
       "signals": [
         {
@@ -29156,6 +29212,34 @@
           "end_date": "2026-09-06",
           "total_value_usd": 21746.36,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x4c96c929f6dc846e84f0b75eb075fa16b50355ddc6aab4cf794b07424a63f2cb:1",
+          "condition_id": "0x4c96c929f6dc846e84f0b75eb075fa16b50355ddc6aab4cf794b07424a63f2cb",
+          "title": "US Open ATP: Marcos Giron vs Ignacio Buse",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Ignacio Buse",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-06",
+          "total_value_usd": 35508.32,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x1caac48b62c0d62cf4b91ccfcf66f2061df667df95438165fc586a7159c12705:1",
+          "condition_id": "0x1caac48b62c0d62cf4b91ccfcf66f2061df667df95438165fc586a7159c12705",
+          "title": "US Open ATP: Rafael Jodar vs Yunchaokete Bu",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0455,
+          "whale_direction": "Yunchaokete Bu",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-08",
+          "total_value_usd": 123233.76,
+          "result": "pending"
         }
       ]
     },
