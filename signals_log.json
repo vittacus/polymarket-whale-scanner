@@ -335814,5 +335814,230 @@
         "entry_price": 0.0455
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-02T05:48:41+00:00",
+    "whale_timeframes": {
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa71093cafc0c099b4ccab24c3cb8018d817923c4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x684baa57c338c2549aec0aa3f034f695d72a8409": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb859a551fcf56e49416160911476bea7307152f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xabb89972b21b304c1bed2bf26f35c8741ac9bba3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x208927449ac85131e4f34d0c499bfae71a24712e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb9392e612a5b05063ca012b5dede548e16e5da70": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x760f1063f9f07d5125de802b16775a967b7f326a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd3faf1906cc31e75d1dfa0d7b57e8f97d33da26c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x58776759ee5c70a915138706a1308add8bc5d894": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x82398835fe16616214d928ba87127e28fc1cd9a3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xac022b8a30f346046326f40ca81914fdd0448570": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x55b9e6a1dcca2defb01636ba41e9f76a0883a814": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2117ae94a97d69b78cbc81b6680a62deb1955c26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb0e3fcbe0d7f17168fdce93f89c0168d3fa329eb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf3a6ac44c5c90ff2b4afa4459f71acc2e57971bd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x9d2236a84844a4809b75558df7f276426c2faceaee373b1a6836605c081db446:0",
+        "condition_id": "0x9d2236a84844a4809b75558df7f276426c2faceaee373b1a6836605c081db446",
+        "title": "Chicago White Sox vs. Houston Astros",
+        "outcome": "Chicago White Sox",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xa71093cafc0c099b4ccab24c3cb8018d817923c4",
+          "0xb9392e612a5b05063ca012b5dede548e16e5da70",
+          "0x55b9e6a1dcca2defb01636ba41e9f76a0883a814",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          2,
+          9,
+          16,
+          17
+        ],
+        "total_value_usd": 68617.26,
+        "score": 14.2741,
+        "category": "MLB",
+        "end_date": "2026-09-09",
+        "entry_price": 0.0455
+      },
+      {
+        "signal_key": "0xe027d19e7cb56a7bd645a443746154f8b00552d305988dfc19d1b55277a77796:1",
+        "condition_id": "0xe027d19e7cb56a7bd645a443746154f8b00552d305988dfc19d1b55277a77796",
+        "title": "US Open ATP: Juan Manuel Cerundolo vs Arthur Gea",
+        "outcome": "Arthur Gea",
+        "outcome_index": 1,
+        "whale_count": 5,
+        "wallets": [
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0xd3faf1906cc31e75d1dfa0d7b57e8f97d33da26c",
+          "0x58776759ee5c70a915138706a1308add8bc5d894",
+          "0x55b9e6a1dcca2defb01636ba41e9f76a0883a814",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          11,
+          12,
+          13,
+          16,
+          17
+        ],
+        "total_value_usd": 136791.52,
+        "score": 7.709,
+        "category": "Tennis",
+        "end_date": "2026-09-08",
+        "entry_price": 0.0455
+      },
+      {
+        "signal_key": "0x385e9770547fd20d7563f39386d39bf2d37b640a352932585dc41238b83bb29e:0",
+        "condition_id": "0x385e9770547fd20d7563f39386d39bf2d37b640a352932585dc41238b83bb29e",
+        "title": "Milwaukee Brewers vs. Chicago Cubs",
+        "outcome": "Milwaukee Brewers",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x82398835fe16616214d928ba87127e28fc1cd9a3",
+          "0x55b9e6a1dcca2defb01636ba41e9f76a0883a814",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          14,
+          16,
+          17
+        ],
+        "total_value_usd": 17544.23,
+        "score": 3.2964,
+        "category": "MLB",
+        "end_date": "2026-09-08",
+        "entry_price": 0.0455
+      },
+      {
+        "signal_key": "0xa1b8d7e25eeff11b712a1ce891489b9d4e746a76feebe37e2c0d806eb18b18c3:0",
+        "condition_id": "0xa1b8d7e25eeff11b712a1ce891489b9d4e746a76feebe37e2c0d806eb18b18c3",
+        "title": "US Open ATP: Alexander Zverev vs Lorenzo Sonego",
+        "outcome": "Alexander Zverev",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x55b9e6a1dcca2defb01636ba41e9f76a0883a814",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xb0e3fcbe0d7f17168fdce93f89c0168d3fa329eb"
+        ],
+        "ranks": [
+          16,
+          17,
+          19
+        ],
+        "total_value_usd": 21746.36,
+        "score": 3.0403,
+        "category": "Tennis",
+        "end_date": "2026-09-06",
+        "entry_price": 0.0455
+      }
+    ]
   }
 ]

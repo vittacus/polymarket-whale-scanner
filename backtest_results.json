@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-02T01:19:44+00:00",
-  "total_signals": 1136,
-  "total_resolved": 1064,
-  "total_correct": 667,
-  "overall_hit_rate": 62.7,
+  "generated_at": "2026-09-02T05:59:06+00:00",
+  "total_signals": 1140,
+  "total_resolved": 1075,
+  "total_correct": 676,
+  "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
-      "total": 482,
-      "resolved": 451,
-      "correct": 293,
-      "hit_rate": 65.0
+      "total": 483,
+      "resolved": 461,
+      "correct": 302,
+      "hit_rate": 65.5
     },
     "Moderate": {
-      "total": 595,
-      "resolved": 557,
+      "total": 596,
+      "resolved": 558,
       "correct": 345,
-      "hit_rate": 61.9
+      "hit_rate": 61.8
     },
     "Weak": {
-      "total": 59,
+      "total": 61,
       "resolved": 56,
       "correct": 29,
       "hit_rate": 51.8
@@ -19111,10 +19111,10 @@
       "total_value_usd": 403912.57,
       "entry_price": 0.0455,
       "end_date": "2026-09-06",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Dane Sweeny",
+      "resolved_date": "2026-09-06"
     },
     {
       "signal_key": "0x385e9770547fd20d7563f39386d39bf2d37b640a352932585dc41238b83bb29e:1",
@@ -19145,10 +19145,10 @@
       "total_value_usd": 137776.84,
       "entry_price": 0.0455,
       "end_date": "2026-09-08",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Cincinnati Reds",
+      "resolved_date": "2026-09-08"
     },
     {
       "signal_key": "0xb14c55c3f47e59f7a765e8ab8af59e06e938afc85118d56a1788bf1d58d77f94:0",
@@ -19162,10 +19162,10 @@
       "total_value_usd": 207938.12,
       "entry_price": 0.0455,
       "end_date": "2026-09-08",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Miami Marlins",
+      "resolved_date": "2026-09-08"
     },
     {
       "signal_key": "0x29143fb20ea35241cabf1d6646019352c23aa9f8b2155ba1c2ad2afea6aba593:0",
@@ -19196,10 +19196,10 @@
       "total_value_usd": 30898.29,
       "entry_price": 0.0455,
       "end_date": "2026-09-08",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Washington Nationals",
+      "resolved_date": "2026-09-08"
     },
     {
       "signal_key": "0xb14c55c3f47e59f7a765e8ab8af59e06e938afc85118d56a1788bf1d58d77f94:1",
@@ -19213,10 +19213,10 @@
       "total_value_usd": 9589.58,
       "entry_price": 0.0455,
       "end_date": "2026-09-08",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Miami Marlins",
+      "resolved_date": "2026-09-08"
     },
     {
       "signal_key": "0x444d20119006158d57ec6196284534f961e8cccce1e5600aa6c11290a4548452:1",
@@ -19230,10 +19230,10 @@
       "total_value_usd": 194990.09,
       "entry_price": 0.0455,
       "end_date": "2026-09-08",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Tampa Bay Rays",
+      "resolved_date": "2026-09-08"
     },
     {
       "signal_key": "0x682d3e2c682d9f01f0e75fff4200fbbb80e65f33ebdaed590a52f0267703b5dc:1",
@@ -19247,10 +19247,10 @@
       "total_value_usd": 115911.56,
       "entry_price": 0.0455,
       "end_date": "2026-09-08",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Cleveland Guardians",
+      "resolved_date": "2026-09-08"
     },
     {
       "signal_key": "0x7bcf2c2351d96cd04e77c8a350189d4fb7d1609469f5c1c581033a2261a85ea5:0",
@@ -19264,10 +19264,10 @@
       "total_value_usd": 14254.63,
       "entry_price": 0.0455,
       "end_date": "2026-09-08",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Seattle Mariners",
+      "resolved_date": "2026-09-08"
     },
     {
       "signal_key": "0xe00e843c6b93b790cbe88bbeff9fa90ec13bb1b7dcf7a369d28b2695889bcdf9:1",
@@ -19281,10 +19281,10 @@
       "total_value_usd": 135739.89,
       "entry_price": 0.0455,
       "end_date": "2026-09-06",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Gael Monfils",
+      "resolved_date": "2026-09-06"
     },
     {
       "signal_key": "0xf01cb0496b167cdf775f4e1f94c709c97428359b72783aa89e42453a7f06fe71:1",
@@ -19298,10 +19298,10 @@
       "total_value_usd": 206536.39,
       "entry_price": 0.0455,
       "end_date": "2026-09-08",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Minnesota Twins",
+      "resolved_date": "2026-09-08"
     },
     {
       "signal_key": "0xe027d19e7cb56a7bd645a443746154f8b00552d305988dfc19d1b55277a77796:0",
@@ -19330,6 +19330,74 @@
       "tier": "Moderate",
       "score": 4.7341,
       "total_value_usd": 10271.79,
+      "entry_price": 0.0455,
+      "end_date": "2026-09-06",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Gael Monfils",
+      "resolved_date": "2026-09-06"
+    },
+    {
+      "signal_key": "0x9d2236a84844a4809b75558df7f276426c2faceaee373b1a6836605c081db446:0",
+      "condition_id": "0x9d2236a84844a4809b75558df7f276426c2faceaee373b1a6836605c081db446",
+      "title": "Chicago White Sox vs. Houston Astros",
+      "category": "MLB",
+      "whale_direction": "Chicago White Sox",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 14.2741,
+      "total_value_usd": 68617.26,
+      "entry_price": 0.0455,
+      "end_date": "2026-09-09",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xe027d19e7cb56a7bd645a443746154f8b00552d305988dfc19d1b55277a77796:1",
+      "condition_id": "0xe027d19e7cb56a7bd645a443746154f8b00552d305988dfc19d1b55277a77796",
+      "title": "US Open ATP: Juan Manuel Cerundolo vs Arthur Gea",
+      "category": "Tennis",
+      "whale_direction": "Arthur Gea",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 7.709,
+      "total_value_usd": 136791.52,
+      "entry_price": 0.0455,
+      "end_date": "2026-09-08",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x385e9770547fd20d7563f39386d39bf2d37b640a352932585dc41238b83bb29e:0",
+      "condition_id": "0x385e9770547fd20d7563f39386d39bf2d37b640a352932585dc41238b83bb29e",
+      "title": "Milwaukee Brewers vs. Chicago Cubs",
+      "category": "MLB",
+      "whale_direction": "Milwaukee Brewers",
+      "outcome_index": 0,
+      "tier": "Weak",
+      "score": 3.2964,
+      "total_value_usd": 17544.23,
+      "entry_price": 0.0455,
+      "end_date": "2026-09-08",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xa1b8d7e25eeff11b712a1ce891489b9d4e746a76feebe37e2c0d806eb18b18c3:0",
+      "condition_id": "0xa1b8d7e25eeff11b712a1ce891489b9d4e746a76feebe37e2c0d806eb18b18c3",
+      "title": "US Open ATP: Alexander Zverev vs Lorenzo Sonego",
+      "category": "Tennis",
+      "whale_direction": "Alexander Zverev",
+      "outcome_index": 0,
+      "tier": "Weak",
+      "score": 3.0403,
+      "total_value_usd": 21746.36,
       "entry_price": 0.0455,
       "end_date": "2026-09-06",
       "resolved": false,
