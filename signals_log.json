@@ -336590,5 +336590,249 @@
         "entry_price": 0.0455
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-02T23:17:58+00:00",
+    "whale_timeframes": {
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd570e634aeb745d6501566dba5f81a555cc7e4f8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd3a0b4e941b557d33a8efd5a51c581e7c79cf136": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb859a551fcf56e49416160911476bea7307152f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa71093cafc0c099b4ccab24c3cb8018d817923c4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5a218c7ad04135830a45c41aaed7294df7809318": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x821dab0565ebf5b327f51db06223fdcfe01acf16": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9cb990f1862568a63d8601efeebe0304225c32f2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x983eedfbd75803602e4a6e6ea9aab6dc6b9c6748": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x29b52d98ac9ef9414b04164246c95bc63d74cc6c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6f0ebea3c2e777699519ee128faaa07a9d0b2ee5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xabb89972b21b304c1bed2bf26f35c8741ac9bba3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc32359bbc920b365a05cd310b9a998508c980077": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x709e8dcb133555794decc598e07f2c923b8366f5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x99106842b4a3afb9a8f15345bbdc5396e30a3d289824c60aa9a5ca78b23f4fb3:0",
+        "condition_id": "0x99106842b4a3afb9a8f15345bbdc5396e30a3d289824c60aa9a5ca78b23f4fb3",
+        "title": "New York Mets vs. Tampa Bay Rays",
+        "outcome": "New York Mets",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x4bff30af91642dc7d2b19a8664378fe55c45fc26",
+          "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1",
+          "0xbca08c1bc204a34f2fddbe47b438b9bd42ac9705"
+        ],
+        "ranks": [
+          1,
+          2,
+          15
+        ],
+        "total_value_usd": 198850.93,
+        "score": 33.4492,
+        "category": "MLB",
+        "end_date": "2026-09-09",
+        "entry_price": 0.0455
+      },
+      {
+        "signal_key": "0xcc16f2f552ad901bb3642ba0467452c0b5a8e3a7b7911af36c849b8d78a0e083:0",
+        "condition_id": "0xcc16f2f552ad901bb3642ba0467452c0b5a8e3a7b7911af36c849b8d78a0e083",
+        "title": "US Open ATP: Denis Shapovalov vs Luca Van Assche",
+        "outcome": "Denis Shapovalov",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xdb859a551fcf56e49416160911476bea7307152f",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
+        ],
+        "ranks": [
+          6,
+          8,
+          10,
+          16
+        ],
+        "total_value_usd": 82524.93,
+        "score": 8.9977,
+        "category": "Tennis",
+        "end_date": "2026-09-09",
+        "entry_price": 0.0455
+      },
+      {
+        "signal_key": "0xcff7633b55d26a5813773137ada67496722c9918caea80fbafe7b7a8e1a94a7b:0",
+        "condition_id": "0xcff7633b55d26a5813773137ada67496722c9918caea80fbafe7b7a8e1a94a7b",
+        "title": "US Open ATP: Valentin Vacherot vs Kamil Majchrzak",
+        "outcome": "Valentin Vacherot",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xdb859a551fcf56e49416160911476bea7307152f",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16"
+        ],
+        "ranks": [
+          6,
+          8,
+          10
+        ],
+        "total_value_usd": 123993.66,
+        "score": 8.0386,
+        "category": "Tennis",
+        "end_date": "2026-09-08",
+        "entry_price": 0.0455
+      },
+      {
+        "signal_key": "0x2b29e2370883b6e6d4926e9f2cda68539758c9f3e263a22a7a4cf25d9aad1b12:1",
+        "condition_id": "0x2b29e2370883b6e6d4926e9f2cda68539758c9f3e263a22a7a4cf25d9aad1b12",
+        "title": "US Open ATP: Lloyd Harris vs Stefanos Tsitsipas",
+        "outcome": "Stefanos Tsitsipas",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xdb859a551fcf56e49416160911476bea7307152f",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
+        ],
+        "ranks": [
+          6,
+          10,
+          16
+        ],
+        "total_value_usd": 82511.03,
+        "score": 6.5212,
+        "category": "Tennis",
+        "end_date": "2026-09-09",
+        "entry_price": 0.0455
+      },
+      {
+        "signal_key": "0x5561e87a8dc2f05123c8945044cad23dfd2972191755d58e74aade2e45702f8c:1",
+        "condition_id": "0x5561e87a8dc2f05123c8945044cad23dfd2972191755d58e74aade2e45702f8c",
+        "title": "US Open WTA: Xinyu Wang vs Anna Kalinskaya",
+        "outcome": "Anna Kalinskaya",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0x9cb990f1862568a63d8601efeebe0304225c32f2",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6"
+        ],
+        "ranks": [
+          10,
+          11,
+          14
+        ],
+        "total_value_usd": 4101.76,
+        "score": 3.8194,
+        "category": "Tennis",
+        "end_date": "2026-09-09",
+        "entry_price": 0.0455
+      }
+    ]
   }
 ]
