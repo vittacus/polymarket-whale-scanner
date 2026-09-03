@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-03T18:35:18+00:00",
-  "total_signals": 1153,
+  "generated_at": "2026-09-03T21:21:43+00:00",
+  "total_signals": 1154,
   "total_resolved": 1093,
   "total_correct": 689,
   "overall_hit_rate": 63.0,
   "by_tier": {
     "Strong": {
-      "total": 486,
+      "total": 487,
       "resolved": 468,
       "correct": 304,
       "hit_rate": 65.0
@@ -19621,6 +19621,23 @@
       "total_value_usd": 100731.3,
       "entry_price": 0.0485,
       "end_date": "2027-01-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xc7189e6fa0f1d494bff5539d7d57a3e57d4bb4fff9f9c9693c361de09072be7f:1",
+      "condition_id": "0xc7189e6fa0f1d494bff5539d7d57a3e57d4bb4fff9f9c9693c361de09072be7f",
+      "title": "US Open ATP: Jan-Lennard Struff vs Francisco Cerundolo",
+      "category": "Tennis",
+      "whale_direction": "Francisco Cerundolo",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 16.0838,
+      "total_value_usd": 157841.04,
+      "entry_price": 0.0485,
+      "end_date": "2026-09-09",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
