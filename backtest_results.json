@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-09-02T23:26:52+00:00",
-  "total_signals": 1147,
-  "total_resolved": 1084,
-  "total_correct": 682,
-  "overall_hit_rate": 62.9,
+  "generated_at": "2026-09-03T01:24:55+00:00",
+  "total_signals": 1151,
+  "total_resolved": 1086,
+  "total_correct": 684,
+  "overall_hit_rate": 63.0,
   "by_tier": {
     "Strong": {
-      "total": 484,
+      "total": 486,
       "resolved": 465,
       "correct": 303,
       "hit_rate": 65.2
     },
     "Moderate": {
-      "total": 601,
-      "resolved": 561,
-      "correct": 348,
-      "hit_rate": 62.0
+      "total": 603,
+      "resolved": 562,
+      "correct": 349,
+      "hit_rate": 62.1
     },
     "Weak": {
       "total": 62,
-      "resolved": 58,
-      "correct": 31,
-      "hit_rate": 53.4
+      "resolved": 59,
+      "correct": 32,
+      "hit_rate": 54.2
     }
   },
   "signals": [
@@ -19468,10 +19468,10 @@
       "total_value_usd": 82524.93,
       "entry_price": 0.0455,
       "end_date": "2026-09-09",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Denis Shapovalov",
+      "resolved_date": "2026-09-09"
     },
     {
       "signal_key": "0xcff7633b55d26a5813773137ada67496722c9918caea80fbafe7b7a8e1a94a7b:0",
@@ -19517,6 +19517,74 @@
       "tier": "Weak",
       "score": 3.8194,
       "total_value_usd": 4101.76,
+      "entry_price": 0.0455,
+      "end_date": "2026-09-09",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Anna Kalinskaya",
+      "resolved_date": "2026-09-09"
+    },
+    {
+      "signal_key": "0x0f589076dd946f3c73af64a6ee6b8b3f776505b23fefbe220dde7f92f007aad1:1",
+      "condition_id": "0x0f589076dd946f3c73af64a6ee6b8b3f776505b23fefbe220dde7f92f007aad1",
+      "title": "Milwaukee Brewers vs. Chicago Cubs",
+      "category": "MLB",
+      "whale_direction": "Chicago Cubs",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 33.4832,
+      "total_value_usd": 80157.82,
+      "entry_price": 0.0455,
+      "end_date": "2026-09-09",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xcff7633b55d26a5813773137ada67496722c9918caea80fbafe7b7a8e1a94a7b:1",
+      "condition_id": "0xcff7633b55d26a5813773137ada67496722c9918caea80fbafe7b7a8e1a94a7b",
+      "title": "US Open ATP: Valentin Vacherot vs Kamil Majchrzak",
+      "category": "Tennis",
+      "whale_direction": "Kamil Majchrzak",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 14.8666,
+      "total_value_usd": 94293.76,
+      "entry_price": 0.0455,
+      "end_date": "2026-09-08",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xb8f583c9961a2e5dd3e21f01606492870b3acf4a853be33b5ff649540c586829:1",
+      "condition_id": "0xb8f583c9961a2e5dd3e21f01606492870b3acf4a853be33b5ff649540c586829",
+      "title": "US Open ATP: Matteo Berrettini vs Mariano Navone",
+      "category": "Tennis",
+      "whale_direction": "Mariano Navone",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 8.6615,
+      "total_value_usd": 64510.25,
+      "entry_price": 0.0455,
+      "end_date": "2026-09-09",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xd4844b65861f603eaa5ff82aa3777f52d5c8af54ee25645a1d044e895409cbc6:1",
+      "condition_id": "0xd4844b65861f603eaa5ff82aa3777f52d5c8af54ee25645a1d044e895409cbc6",
+      "title": "US Open ATP: Rei Sakamoto vs Frances Tiafoe",
+      "category": "Tennis",
+      "whale_direction": "Frances Tiafoe",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 7.5705,
+      "total_value_usd": 103183.32,
       "entry_price": 0.0455,
       "end_date": "2026-09-09",
       "resolved": false,
