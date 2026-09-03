@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-03T21:21:43+00:00",
-  "total_signals": 1154,
-  "total_resolved": 1093,
-  "total_correct": 689,
-  "overall_hit_rate": 63.0,
+  "generated_at": "2026-09-03T23:24:56+00:00",
+  "total_signals": 1155,
+  "total_resolved": 1094,
+  "total_correct": 690,
+  "overall_hit_rate": 63.1,
   "by_tier": {
     "Strong": {
-      "total": 487,
-      "resolved": 468,
-      "correct": 304,
+      "total": 488,
+      "resolved": 469,
+      "correct": 305,
       "hit_rate": 65.0
     },
     "Moderate": {
@@ -19638,6 +19638,23 @@
       "total_value_usd": 157841.04,
       "entry_price": 0.0485,
       "end_date": "2026-09-09",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Francisco Cerundolo",
+      "resolved_date": "2026-09-09"
+    },
+    {
+      "signal_key": "0xd2af2aefed85fd7ad039bdf26ddd35562edeec2507f09ee36b74429b3da041ae:1",
+      "condition_id": "0xd2af2aefed85fd7ad039bdf26ddd35562edeec2507f09ee36b74429b3da041ae",
+      "title": "Tampa Bay Rays vs. Texas Rangers",
+      "category": "MLB",
+      "whale_direction": "Texas Rangers",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 14.4193,
+      "total_value_usd": 107681.92,
+      "entry_price": 0.0485,
+      "end_date": "2026-09-11",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
