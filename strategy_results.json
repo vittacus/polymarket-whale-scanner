@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-03T01:24:55+00:00",
+  "generated_at": "2026-09-03T06:12:53+00:00",
   "total_evaluated": 1151,
-  "total_pending": 65,
+  "total_pending": 58,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 1151,
-      "correct": 684,
-      "wrong": 402,
-      "pending": 65,
+      "correct": 689,
+      "wrong": 404,
+      "pending": 58,
       "win_rate": 63.0,
       "signals": [
         {
@@ -16009,11 +16009,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "New York Mets",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Mets",
+          "resolved_date": "2026-09-09",
           "end_date": "2026-09-09",
           "total_value_usd": 198850.93,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xcc16f2f552ad901bb3642ba0467452c0b5a8e3a7b7911af36c849b8d78a0e083:0",
@@ -16037,11 +16037,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Valentin Vacherot",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Valentin Vacherot",
+          "resolved_date": "2026-09-08",
           "end_date": "2026-09-08",
           "total_value_usd": 123993.66,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x2b29e2370883b6e6d4926e9f2cda68539758c9f3e263a22a7a4cf25d9aad1b12:1",
@@ -16051,11 +16051,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Stefanos Tsitsipas",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Stefanos Tsitsipas",
+          "resolved_date": "2026-09-09",
           "end_date": "2026-09-09",
           "total_value_usd": 82511.03,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x5561e87a8dc2f05123c8945044cad23dfd2972191755d58e74aade2e45702f8c:1",
@@ -16079,11 +16079,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Chicago Cubs",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-09-09",
           "end_date": "2026-09-09",
           "total_value_usd": 80157.82,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xcff7633b55d26a5813773137ada67496722c9918caea80fbafe7b7a8e1a94a7b:1",
@@ -16093,11 +16093,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Kamil Majchrzak",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Valentin Vacherot",
+          "resolved_date": "2026-09-08",
           "end_date": "2026-09-08",
           "total_value_usd": 94293.76,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xb8f583c9961a2e5dd3e21f01606492870b3acf4a853be33b5ff649540c586829:1",
@@ -16107,11 +16107,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Mariano Navone",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Mariano Navone",
+          "resolved_date": "2026-09-09",
           "end_date": "2026-09-09",
           "total_value_usd": 64510.25,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xd4844b65861f603eaa5ff82aa3777f52d5c8af54ee25645a1d044e895409cbc6:1",
@@ -16121,11 +16121,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Frances Tiafoe",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Frances Tiafoe",
+          "resolved_date": "2026-09-09",
           "end_date": "2026-09-09",
           "total_value_usd": 103183.32,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -16134,10 +16134,10 @@
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 481,
-      "correct": 282,
-      "wrong": 161,
-      "pending": 38,
-      "win_rate": 63.7,
+      "correct": 287,
+      "wrong": 163,
+      "pending": 31,
+      "win_rate": 63.8,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -22755,11 +22755,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "New York Mets",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Mets",
+          "resolved_date": "2026-09-09",
           "end_date": "2026-09-09",
           "total_value_usd": 198850.93,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xcc16f2f552ad901bb3642ba0467452c0b5a8e3a7b7911af36c849b8d78a0e083:0",
@@ -22783,11 +22783,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Valentin Vacherot",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Valentin Vacherot",
+          "resolved_date": "2026-09-08",
           "end_date": "2026-09-08",
           "total_value_usd": 123993.66,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x2b29e2370883b6e6d4926e9f2cda68539758c9f3e263a22a7a4cf25d9aad1b12:1",
@@ -22797,11 +22797,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Stefanos Tsitsipas",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Stefanos Tsitsipas",
+          "resolved_date": "2026-09-09",
           "end_date": "2026-09-09",
           "total_value_usd": 82511.03,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x5561e87a8dc2f05123c8945044cad23dfd2972191755d58e74aade2e45702f8c:1",
@@ -22825,11 +22825,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Chicago Cubs",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-09-09",
           "end_date": "2026-09-09",
           "total_value_usd": 80157.82,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xcff7633b55d26a5813773137ada67496722c9918caea80fbafe7b7a8e1a94a7b:1",
@@ -22839,11 +22839,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Kamil Majchrzak",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Valentin Vacherot",
+          "resolved_date": "2026-09-08",
           "end_date": "2026-09-08",
           "total_value_usd": 94293.76,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xb8f583c9961a2e5dd3e21f01606492870b3acf4a853be33b5ff649540c586829:1",
@@ -22853,11 +22853,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Mariano Navone",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Mariano Navone",
+          "resolved_date": "2026-09-09",
           "end_date": "2026-09-09",
           "total_value_usd": 64510.25,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xd4844b65861f603eaa5ff82aa3777f52d5c8af54ee25645a1d044e895409cbc6:1",
@@ -22867,11 +22867,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Frances Tiafoe",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Frances Tiafoe",
+          "resolved_date": "2026-09-09",
           "end_date": "2026-09-09",
           "total_value_usd": 103183.32,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -22880,10 +22880,10 @@
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 481,
-      "correct": 161,
-      "wrong": 282,
-      "pending": 38,
-      "win_rate": 36.3,
+      "correct": 163,
+      "wrong": 287,
+      "pending": 31,
+      "win_rate": 36.2,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -29501,11 +29501,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "New York Mets",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Mets",
+          "resolved_date": "2026-09-09",
           "end_date": "2026-09-09",
           "total_value_usd": 198850.93,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xcc16f2f552ad901bb3642ba0467452c0b5a8e3a7b7911af36c849b8d78a0e083:0",
@@ -29529,11 +29529,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Valentin Vacherot",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Valentin Vacherot",
+          "resolved_date": "2026-09-08",
           "end_date": "2026-09-08",
           "total_value_usd": 123993.66,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x2b29e2370883b6e6d4926e9f2cda68539758c9f3e263a22a7a4cf25d9aad1b12:1",
@@ -29543,11 +29543,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Stefanos Tsitsipas",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Stefanos Tsitsipas",
+          "resolved_date": "2026-09-09",
           "end_date": "2026-09-09",
           "total_value_usd": 82511.03,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x5561e87a8dc2f05123c8945044cad23dfd2972191755d58e74aade2e45702f8c:1",
@@ -29571,11 +29571,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Chicago Cubs",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-09-09",
           "end_date": "2026-09-09",
           "total_value_usd": 80157.82,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xcff7633b55d26a5813773137ada67496722c9918caea80fbafe7b7a8e1a94a7b:1",
@@ -29585,11 +29585,11 @@
           "tier": "Strong",
           "entry_price": 0.0455,
           "whale_direction": "Kamil Majchrzak",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Valentin Vacherot",
+          "resolved_date": "2026-09-08",
           "end_date": "2026-09-08",
           "total_value_usd": 94293.76,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xb8f583c9961a2e5dd3e21f01606492870b3acf4a853be33b5ff649540c586829:1",
@@ -29599,11 +29599,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Mariano Navone",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Mariano Navone",
+          "resolved_date": "2026-09-09",
           "end_date": "2026-09-09",
           "total_value_usd": 64510.25,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xd4844b65861f603eaa5ff82aa3777f52d5c8af54ee25645a1d044e895409cbc6:1",
@@ -29613,11 +29613,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Frances Tiafoe",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Frances Tiafoe",
+          "resolved_date": "2026-09-09",
           "end_date": "2026-09-09",
           "total_value_usd": 103183.32,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },

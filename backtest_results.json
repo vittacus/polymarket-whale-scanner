@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-03T01:24:55+00:00",
+  "generated_at": "2026-09-03T06:12:53+00:00",
   "total_signals": 1151,
-  "total_resolved": 1086,
-  "total_correct": 684,
+  "total_resolved": 1093,
+  "total_correct": 689,
   "overall_hit_rate": 63.0,
   "by_tier": {
     "Strong": {
       "total": 486,
-      "resolved": 465,
-      "correct": 303,
-      "hit_rate": 65.2
+      "resolved": 468,
+      "correct": 304,
+      "hit_rate": 65.0
     },
     "Moderate": {
       "total": 603,
-      "resolved": 562,
-      "correct": 349,
-      "hit_rate": 62.1
+      "resolved": 566,
+      "correct": 353,
+      "hit_rate": 62.4
     },
     "Weak": {
       "total": 62,
@@ -19451,10 +19451,10 @@
       "total_value_usd": 198850.93,
       "entry_price": 0.0455,
       "end_date": "2026-09-09",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "New York Mets",
+      "resolved_date": "2026-09-09"
     },
     {
       "signal_key": "0xcc16f2f552ad901bb3642ba0467452c0b5a8e3a7b7911af36c849b8d78a0e083:0",
@@ -19485,10 +19485,10 @@
       "total_value_usd": 123993.66,
       "entry_price": 0.0455,
       "end_date": "2026-09-08",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Valentin Vacherot",
+      "resolved_date": "2026-09-08"
     },
     {
       "signal_key": "0x2b29e2370883b6e6d4926e9f2cda68539758c9f3e263a22a7a4cf25d9aad1b12:1",
@@ -19502,10 +19502,10 @@
       "total_value_usd": 82511.03,
       "entry_price": 0.0455,
       "end_date": "2026-09-09",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Stefanos Tsitsipas",
+      "resolved_date": "2026-09-09"
     },
     {
       "signal_key": "0x5561e87a8dc2f05123c8945044cad23dfd2972191755d58e74aade2e45702f8c:1",
@@ -19536,10 +19536,10 @@
       "total_value_usd": 80157.82,
       "entry_price": 0.0455,
       "end_date": "2026-09-09",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Milwaukee Brewers",
+      "resolved_date": "2026-09-09"
     },
     {
       "signal_key": "0xcff7633b55d26a5813773137ada67496722c9918caea80fbafe7b7a8e1a94a7b:1",
@@ -19553,10 +19553,10 @@
       "total_value_usd": 94293.76,
       "entry_price": 0.0455,
       "end_date": "2026-09-08",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Valentin Vacherot",
+      "resolved_date": "2026-09-08"
     },
     {
       "signal_key": "0xb8f583c9961a2e5dd3e21f01606492870b3acf4a853be33b5ff649540c586829:1",
@@ -19570,10 +19570,10 @@
       "total_value_usd": 64510.25,
       "entry_price": 0.0455,
       "end_date": "2026-09-09",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Mariano Navone",
+      "resolved_date": "2026-09-09"
     },
     {
       "signal_key": "0xd4844b65861f603eaa5ff82aa3777f52d5c8af54ee25645a1d044e895409cbc6:1",
@@ -19587,10 +19587,10 @@
       "total_value_usd": 103183.32,
       "entry_price": 0.0455,
       "end_date": "2026-09-09",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Frances Tiafoe",
+      "resolved_date": "2026-09-09"
     }
   ]
 }
