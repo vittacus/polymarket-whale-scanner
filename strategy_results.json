@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-04T17:52:22+00:00",
-  "total_evaluated": 1155,
-  "total_pending": 60,
+  "generated_at": "2026-09-04T20:00:59+00:00",
+  "total_evaluated": 1157,
+  "total_pending": 62,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1155,
+      "signals_evaluated": 1157,
       "correct": 691,
       "wrong": 404,
-      "pending": 60,
+      "pending": 62,
       "win_rate": 63.1,
       "signals": [
         {
@@ -16182,6 +16182,34 @@
           "end_date": "2026-09-11",
           "total_value_usd": 107681.92,
           "result": "correct"
+        },
+        {
+          "signal_key": "0xd1978d7fcee0893d8585c8f940f636f60b45d8d11f3c1469c3b88e2683050779:1",
+          "condition_id": "0xd1978d7fcee0893d8585c8f940f636f60b45d8d11f3c1469c3b88e2683050779",
+          "title": "US Open ATP: Alexander Bublik vs Tommy Paul",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Tommy Paul",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-11",
+          "total_value_usd": 71175.54,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x96d122b77a2da320561dc6ed56a8525692d2a54ebb38db127f88c14caba39b5e:1",
+          "condition_id": "0x96d122b77a2da320561dc6ed56a8525692d2a54ebb38db127f88c14caba39b5e",
+          "title": "US Open ATP: Alex Michelsen vs Daniel Merida Aguilar",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Daniel Merida Aguilar",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-11",
+          "total_value_usd": 21291.95,
+          "result": "pending"
         }
       ]
     },
@@ -16189,10 +16217,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 485,
+      "signals_evaluated": 487,
       "correct": 289,
       "wrong": 163,
-      "pending": 33,
+      "pending": 35,
       "win_rate": 63.9,
       "signals": [
         {
@@ -22984,6 +23012,34 @@
           "end_date": "2026-09-11",
           "total_value_usd": 107681.92,
           "result": "correct"
+        },
+        {
+          "signal_key": "0xd1978d7fcee0893d8585c8f940f636f60b45d8d11f3c1469c3b88e2683050779:1",
+          "condition_id": "0xd1978d7fcee0893d8585c8f940f636f60b45d8d11f3c1469c3b88e2683050779",
+          "title": "US Open ATP: Alexander Bublik vs Tommy Paul",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Tommy Paul",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-11",
+          "total_value_usd": 71175.54,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x96d122b77a2da320561dc6ed56a8525692d2a54ebb38db127f88c14caba39b5e:1",
+          "condition_id": "0x96d122b77a2da320561dc6ed56a8525692d2a54ebb38db127f88c14caba39b5e",
+          "title": "US Open ATP: Alex Michelsen vs Daniel Merida Aguilar",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Daniel Merida Aguilar",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-11",
+          "total_value_usd": 21291.95,
+          "result": "pending"
         }
       ]
     },
@@ -22991,10 +23047,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 485,
+      "signals_evaluated": 487,
       "correct": 163,
       "wrong": 289,
-      "pending": 33,
+      "pending": 35,
       "win_rate": 36.1,
       "signals": [
         {
@@ -29786,6 +29842,34 @@
           "end_date": "2026-09-11",
           "total_value_usd": 107681.92,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0xd1978d7fcee0893d8585c8f940f636f60b45d8d11f3c1469c3b88e2683050779:1",
+          "condition_id": "0xd1978d7fcee0893d8585c8f940f636f60b45d8d11f3c1469c3b88e2683050779",
+          "title": "US Open ATP: Alexander Bublik vs Tommy Paul",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Tommy Paul",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-11",
+          "total_value_usd": 71175.54,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x96d122b77a2da320561dc6ed56a8525692d2a54ebb38db127f88c14caba39b5e:1",
+          "condition_id": "0x96d122b77a2da320561dc6ed56a8525692d2a54ebb38db127f88c14caba39b5e",
+          "title": "US Open ATP: Alex Michelsen vs Daniel Merida Aguilar",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0465,
+          "whale_direction": "Daniel Merida Aguilar",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-11",
+          "total_value_usd": 21291.95,
+          "result": "pending"
         }
       ]
     },
