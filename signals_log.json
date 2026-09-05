@@ -340115,5 +340115,219 @@
         "entry_price": 0.0475
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-05T08:27:43+00:00",
+    "whale_timeframes": {
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9bb1bc70c9e098f2f297416d06a0aa3992534dbe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb9392e612a5b05063ca012b5dede548e16e5da70": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3a8aa345d5db7ec5138298c8c4f4540259be7699": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2dfa4e79eca44b7c774f40a45535adbc368a6f60": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0e604be17c231a33dc01e38a722c7fe3984e3bad": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc660ae71765d0d9eaf5fa8328c1c959841d2bd28": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x78becf0a4e4f2640380af0c19ad32e2557e6bde0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x16602a38e8fb4498ffee0ea81e08d2b421825598": [
+        "All",
+        "Monthly",
+        "Weekly"
+      ],
+      "0x86e99faea12fccd8925de5d9f052471baf7a4cdf": [
+        "All",
+        "Monthly",
+        "Weekly"
+      ],
+      "0x6ac96d439f44a8dd84de19a781fcbbab5bdee85a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882": [
+        "All",
+        "Monthly",
+        "Weekly"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x52ecea7b3159f09db589e4f4ee64872fd0bba6f3": [
+        "All",
+        "Monthly",
+        "Weekly"
+      ],
+      "0xef803b16bcd5b3a271d84cb90b01ef3d685ce64a": [
+        "All",
+        "Monthly",
+        "Weekly"
+      ],
+      "0xb1ca909e848cc24ec4e220ce1c453bc290c51705": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846:1",
+        "condition_id": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
+        "title": "Will the U.S. invade Iran before 2027?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418",
+          "0xb1ca909e848cc24ec4e220ce1c453bc290c51705"
+        ],
+        "ranks": [
+          6,
+          17,
+          20
+        ],
+        "total_value_usd": 44459.97,
+        "score": 5.1597,
+        "category": "Military Strikes",
+        "end_date": "2027-01-01",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0xa3b36b2d6104d34af4e6c6215fc818e43352e78a748fbfb0b85e3a35f71dec9a:0",
+        "condition_id": "0xa3b36b2d6104d34af4e6c6215fc818e43352e78a748fbfb0b85e3a35f71dec9a",
+        "title": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x86e99faea12fccd8925de5d9f052471baf7a4cdf",
+          "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+          "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418"
+        ],
+        "ranks": [
+          13,
+          15,
+          17
+        ],
+        "total_value_usd": 62648.59,
+        "score": 3.516,
+        "category": "fomc",
+        "end_date": "2026-09-16",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x502a94e5c525766d5ee7f16c6568131ba1b2cbadb69c703af05a6ef00336ed64:0",
+        "condition_id": "0x502a94e5c525766d5ee7f16c6568131ba1b2cbadb69c703af05a6ef00336ed64",
+        "title": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+          "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418",
+          "0xb1ca909e848cc24ec4e220ce1c453bc290c51705"
+        ],
+        "ranks": [
+          15,
+          17,
+          20
+        ],
+        "total_value_usd": 31419.09,
+        "score": 3.0076,
+        "category": "International Election Props",
+        "end_date": "2026-09-30",
+        "entry_price": 0.0415
+      },
+      {
+        "signal_key": "0x30174f3f46398e37c96a07b45916e01eab9a8a854ecb624ac73a91a8490fd074:1",
+        "condition_id": "0x30174f3f46398e37c96a07b45916e01eab9a8a854ecb624ac73a91a8490fd074",
+        "title": "US announces end of Iranian blockade by September 30, 2026?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+          "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418",
+          "0xb1ca909e848cc24ec4e220ce1c453bc290c51705"
+        ],
+        "ranks": [
+          15,
+          17,
+          20
+        ],
+        "total_value_usd": 10373.59,
+        "score": 2.6857,
+        "category": "Iran",
+        "end_date": "2026-10-01",
+        "entry_price": 0.0465
+      }
+    ]
   }
 ]

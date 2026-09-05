@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-09-05T04:32:25+00:00",
-  "total_signals": 1160,
-  "total_resolved": 1099,
-  "total_correct": 693,
-  "overall_hit_rate": 63.1,
+  "generated_at": "2026-09-05T08:37:31+00:00",
+  "total_signals": 1161,
+  "total_resolved": 1016,
+  "total_correct": 643,
+  "overall_hit_rate": 63.3,
   "by_tier": {
     "Strong": {
       "total": 491,
-      "resolved": 473,
-      "correct": 308,
-      "hit_rate": 65.1
+      "resolved": 446,
+      "correct": 291,
+      "hit_rate": 65.2
     },
     "Moderate": {
       "total": 607,
-      "resolved": 567,
-      "correct": 353,
-      "hit_rate": 62.3
+      "resolved": 522,
+      "correct": 326,
+      "hit_rate": 62.5
     },
     "Weak": {
-      "total": 62,
-      "resolved": 59,
-      "correct": 32,
+      "total": 63,
+      "resolved": 48,
+      "correct": 26,
       "hit_rate": 54.2
     }
   },
@@ -190,10 +190,10 @@
       "total_value_usd": 88023.11,
       "entry_price": null,
       "end_date": "2026-06-30",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "No",
-      "resolved_date": "2026-06-30"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x61e65a3ca7b9486c544db814d07e049a6fd384e39dbba5f50dc783ddc0905931:1",
@@ -377,10 +377,10 @@
       "total_value_usd": 62231.06,
       "entry_price": null,
       "end_date": "2026-06-12",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "Chicago Cubs",
-      "resolved_date": "2026-06-12"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xd7452ed15f208a7fdd9df2fd4489d7351a919cc90d1f3387c6f7222ebacc12be:0",
@@ -666,10 +666,10 @@
       "total_value_usd": 5951.58,
       "entry_price": null,
       "end_date": "2026-06-12",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "Tampa Bay Rays",
-      "resolved_date": "2026-06-12"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x3aa11abcc00014f70f661b44fbf6e0a6f83521ae6c31f6ad9920249834ae20c3:1",
@@ -700,10 +700,10 @@
       "total_value_usd": 126621.95,
       "entry_price": null,
       "end_date": "2026-06-13",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "Texas Rangers",
-      "resolved_date": "2026-06-13"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x4f8fff3379573c7a4b8bbcfe11aea61b20b03044c2e59000a9ef2b3de1fb5374:0",
@@ -836,10 +836,10 @@
       "total_value_usd": 386912.28,
       "entry_price": null,
       "end_date": "2026-06-13",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "Chicago Cubs",
-      "resolved_date": "2026-06-13"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xa7c5e44991eec5a3c365faf7c0f5b6972239bed86e42ebb70e355f29537481c3:1",
@@ -1057,10 +1057,10 @@
       "total_value_usd": 5340.02,
       "entry_price": 0.515,
       "end_date": "2026-06-15",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "Philadelphia Phillies",
-      "resolved_date": "2026-06-15"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x20648354392bfbc60f7bb662d395947658d4aee1b7b920b4a7a324132f900c25:1",
@@ -1108,10 +1108,10 @@
       "total_value_usd": 28457.21,
       "entry_price": 0.52,
       "end_date": "2026-06-16",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "Houston Astros",
-      "resolved_date": "2026-06-16"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x0837b939fdfe8a75ee9795d59961ef46e8d5380c9f0bbd9f81252d543ec14777:0",
@@ -1397,10 +1397,10 @@
       "total_value_usd": 22122.5,
       "entry_price": 0.51,
       "end_date": "2026-06-16",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Miami Marlins",
-      "resolved_date": "2026-06-16"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x39176a48d8d4004debff0f41647c8e84c83638261e3ad8edd2e6683b6c04aafd:1",
@@ -1669,10 +1669,10 @@
       "total_value_usd": 9129.38,
       "entry_price": 0.505,
       "end_date": "2026-06-15",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "Thomas Faurel",
-      "resolved_date": "2026-06-15"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x8a11f0733fa80ab8040482c4e0f5acd43df6003bdb5e130786039656277a6c38:1",
@@ -1771,10 +1771,10 @@
       "total_value_usd": 19518.12,
       "entry_price": 0.51,
       "end_date": "2026-07-20",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "No",
-      "resolved_date": "2026-07-20"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x1595b4818eeb1ea1e0bec5de6f057218e557feee9b405a0e930d290384fa1d16:0",
@@ -1924,10 +1924,10 @@
       "total_value_usd": 125305.15,
       "entry_price": 0.51,
       "end_date": "2026-06-17",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "San Diego Padres",
-      "resolved_date": "2026-06-17"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xb3d8611a37297d53401111fce7b5d7bcb306e68ea3127ac2aa7abdb86389c5ca:1",
@@ -1958,10 +1958,10 @@
       "total_value_usd": 6817.07,
       "entry_price": 0.51,
       "end_date": "2026-06-17",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "San Francisco Giants",
-      "resolved_date": "2026-06-17"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x262d9c799b2bfe7565d387e521b407062c14f646a00f6dadbf00199b6de2bc58:1",
@@ -2213,10 +2213,10 @@
       "total_value_usd": 10461.93,
       "entry_price": 0.51,
       "end_date": "2026-06-17",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Texas Rangers",
-      "resolved_date": "2026-06-17"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xe6990e0d300c4e67ab87532c08fd4adcbce2440f1d4b2d724e3f19484948a144:1",
@@ -2706,10 +2706,10 @@
       "total_value_usd": 14202.28,
       "entry_price": 0.51,
       "end_date": "2026-06-19",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Arizona Diamondbacks",
-      "resolved_date": "2026-06-19"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xc6f7e4a015ec643eb49c749da19553a2257add76278a252805a12dfa85103269:0",
@@ -2978,10 +2978,10 @@
       "total_value_usd": 20469.12,
       "entry_price": 0.51,
       "end_date": "2026-12-31",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Yes",
-      "resolved_date": "2026-12-31"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xda519921a7090298cbdc56ee838a403a5193c2b3f637aef3e154e52de7b5e79c:0",
@@ -3556,10 +3556,10 @@
       "total_value_usd": 22366.92,
       "entry_price": 0.51,
       "end_date": "2026-06-21",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Yes",
-      "resolved_date": "2026-06-21"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xe2c2cba80ca7e745aef3ff3c3a359db4d862f2b0ea40a9821bb137bb9e31b40f:0",
@@ -3573,10 +3573,10 @@
       "total_value_usd": 20867.61,
       "entry_price": 0.51,
       "end_date": "2026-06-22",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Yes",
-      "resolved_date": "2026-06-22"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x61b31949ecaad18217d0f4f709e07b2e94a04e41e6934d5351f783010d67b6ab:0",
@@ -4202,10 +4202,10 @@
       "total_value_usd": 5319.26,
       "entry_price": 0.515,
       "end_date": "2026-06-26",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "Under",
-      "resolved_date": "2026-06-26"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x67339ac82b996dacb1f2ee7caf1599cd542e09598c6ca3f688b3926927588245:1",
@@ -4304,10 +4304,10 @@
       "total_value_usd": 17628.4,
       "entry_price": 0.515,
       "end_date": "2026-06-27",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Yes",
-      "resolved_date": "2026-06-27"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xe4d7c15b723f83a1d16663a990d64faab84a684c650e06c035d6b533d23b0040:0",
@@ -4678,10 +4678,10 @@
       "total_value_usd": 47931.36,
       "entry_price": 0.51,
       "end_date": "2026-06-27",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "No",
-      "resolved_date": "2026-06-27"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x1e876a58baa4f74f05fae2c8ec5fd388df4ae0af7d7df3c7e675e9a5cb079421:0",
@@ -5001,10 +5001,10 @@
       "total_value_usd": 6105.33,
       "entry_price": 0.515,
       "end_date": "2026-07-06",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "Arthur Rinderknech",
-      "resolved_date": "2026-07-06"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x516a9352c117d1f3622ee2bd64865992d19e740649bd22bf6cd57ac595e87771:0",
@@ -5273,10 +5273,10 @@
       "total_value_usd": 98100.73,
       "entry_price": 0.51,
       "end_date": "2026-07-03",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "No",
-      "resolved_date": "2026-07-03"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xfa021d817ad33e0fa28e04051b4fea25b0a090e94bb1b2a38b377bce9778eb8e:0",
@@ -5307,10 +5307,10 @@
       "total_value_usd": 2966.16,
       "entry_price": 0.51,
       "end_date": "2026-07-20",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "No",
-      "resolved_date": "2026-07-20"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xf3a4ebc0e59aadc6c37a49f7e50c34233925d15868fbdef7a83c4da274e1dfb3:0",
@@ -5579,10 +5579,10 @@
       "total_value_usd": 35877.26,
       "entry_price": 0.52,
       "end_date": "2026-07-09",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Pittsburgh Pirates",
-      "resolved_date": "2026-07-09"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x24e14f76cfd2c3cbb06898a53933d966dc443b25aa7396f36b2183e16d26d965:1",
@@ -5800,10 +5800,10 @@
       "total_value_usd": 61545.28,
       "entry_price": 0.52,
       "end_date": "2026-07-10",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "Marie Bouzkova",
-      "resolved_date": "2026-07-10"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x0263bcf6a71f2dada63c49172a7bb9bbbe8f3aaa23c40fb692932ca536dc25f4:1",
@@ -5885,10 +5885,10 @@
       "total_value_usd": 24316.94,
       "entry_price": 0.515,
       "end_date": "2026-07-10",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "Arthur Fery",
-      "resolved_date": "2026-07-10"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x3777e133fec459b42aac3fdeeed231fc7544442388fe1a266ae0a61bd50cae12:1",
@@ -6429,10 +6429,10 @@
       "total_value_usd": 311183.38,
       "entry_price": 0.51,
       "end_date": "2026-07-14",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Los Angeles Dodgers",
-      "resolved_date": "2026-07-14"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x07c5e3740c6800a18f93b05181547de97b7da237171efb1d8017f7c3ec44e317:0",
@@ -6480,10 +6480,10 @@
       "total_value_usd": 242769.78,
       "entry_price": 0.515,
       "end_date": "2026-07-14",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Novak Djokovic",
-      "resolved_date": "2026-07-14"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x4fb29009dff803b3bb2416cf77d3833730e35c6f99cf580c03499250487dbb16:0",
@@ -7075,10 +7075,10 @@
       "total_value_usd": 93455.1,
       "entry_price": 0.505,
       "end_date": "2026-07-18",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Toronto Blue Jays",
-      "resolved_date": "2026-07-18"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x58fb28277f01ff73ccf08a758225ed51a00267d06e6369701cfbb931f527bf92:0",
@@ -7738,10 +7738,10 @@
       "total_value_usd": 49277.82,
       "entry_price": 0.505,
       "end_date": "2026-07-22",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "Quentin Halys",
-      "resolved_date": "2026-07-22"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x4220a18459ff4cc9a189c305766a4fa4ca291751facacf0954c940e0f2c01918:1",
@@ -7857,10 +7857,10 @@
       "total_value_usd": 21825.1,
       "entry_price": 0.505,
       "end_date": "2026-07-23",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Matyas Fule",
-      "resolved_date": "2026-07-23"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x1b531e1a84bccf3556c4e43471cf6f25ca2a37bba51db849d653301404dc780b:0",
@@ -7874,10 +7874,10 @@
       "total_value_usd": 6585.45,
       "entry_price": 0.505,
       "end_date": "2026-07-23",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Alexander Shevchenko",
-      "resolved_date": "2026-07-23"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xf5c66fd82a354ed384f53b3258c23badf7f754abbabd18e07c9e356a6f852b73:1",
@@ -8299,10 +8299,10 @@
       "total_value_usd": 62704.61,
       "entry_price": 0.505,
       "end_date": "2026-07-25",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "Raphael Collignon",
-      "resolved_date": "2026-07-25"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xd082d41946af85390844de74030abb9ac114acf093cc84fa8454767bb8f418d3:1",
@@ -8350,10 +8350,10 @@
       "total_value_usd": 108472.8,
       "entry_price": 0.505,
       "end_date": "2026-07-25",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Philadelphia Phillies",
-      "resolved_date": "2026-07-25"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x4837fa04e80eca89bbdd033be4f80fe0aeb5eb92ef0187b802befaae6a1c87f6:0",
@@ -8469,10 +8469,10 @@
       "total_value_usd": 50223.91,
       "entry_price": 0.505,
       "end_date": "2026-07-25",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Milwaukee Brewers",
-      "resolved_date": "2026-07-25"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x12f28bf750a67a2da5bc52328e7e77f9d36a528eea6b0cfc52cd7bd697488f56:0",
@@ -8588,10 +8588,10 @@
       "total_value_usd": 89005.29,
       "entry_price": 0.505,
       "end_date": "2026-07-31",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "No",
-      "resolved_date": "2026-08-01"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x3a869359895989c1dee6f920c203f12791f03c206e86ce48353c46626ee743b1:1",
@@ -8996,10 +8996,10 @@
       "total_value_usd": 55620.38,
       "entry_price": 0.505,
       "end_date": "2026-10-31",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "No",
-      "resolved_date": "2026-10-31"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x0ff22cf1f7f86a8f6a1f46ebff9afc02d2f2f8be82ed1655a079fd2f8b8d450e:1",
@@ -9523,10 +9523,10 @@
       "total_value_usd": 12116.21,
       "entry_price": 0.515,
       "end_date": "2026-08-01",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "Quentin Halys",
-      "resolved_date": "2026-08-01"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xe11736a83d73301c026542c9d57b6e62e20d4b368581f76d92c722b8166aaa00:1",
@@ -9642,10 +9642,10 @@
       "total_value_usd": 75989.06,
       "entry_price": 0.515,
       "end_date": "2026-08-01",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "New York Yankees",
-      "resolved_date": "2026-08-01"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x3baa050de8a5b85f14988107716b3d67d59faa46656b9bfba8546cfd55f6d85b:1",
@@ -9727,10 +9727,10 @@
       "total_value_usd": 57024.9,
       "entry_price": 0.515,
       "end_date": "2026-08-01",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Milwaukee Brewers",
-      "resolved_date": "2026-08-01"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xdac46d46ec46afe0b141bfd9f09838dbe103b3dadd18d5d79d4535d50531e5b5:0",
@@ -9846,10 +9846,10 @@
       "total_value_usd": 205243.08,
       "entry_price": 0.505,
       "end_date": "2026-08-02",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Pittsburgh Pirates",
-      "resolved_date": "2026-08-02"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x35aac9c57822c13bcef8c3b3d346b329725d34595603c5a44cae80f077383cb3:0",
@@ -9914,10 +9914,10 @@
       "total_value_usd": 32925.83,
       "entry_price": 0.505,
       "end_date": "2026-08-02",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Washington Nationals",
-      "resolved_date": "2026-08-02"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xeb7380c859e4eb8025aa04d8988d7655cd95b4fe002c4fedbb2970334e6ab549:1",
@@ -10288,10 +10288,10 @@
       "total_value_usd": 41503.02,
       "entry_price": 0.505,
       "end_date": "2026-08-05",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "Seattle Mariners",
-      "resolved_date": "2026-08-05"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xbf1148bb5341a7d8a077acccfc5e2de6b98d386e26621b0ec233634ea9fea93b:0",
@@ -11189,10 +11189,10 @@
       "total_value_usd": 12347.94,
       "entry_price": 0.505,
       "end_date": "2026-08-07",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "Taylah Preston",
-      "resolved_date": "2026-08-07"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xfc119a60ba76e6c4443bed1cfead88f346948b7b91c3b1535cf939693eb3310c:0",
@@ -11308,10 +11308,10 @@
       "total_value_usd": 32315.1,
       "entry_price": 0.505,
       "end_date": "2026-08-07",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "Alexandra Eala",
-      "resolved_date": "2026-08-07"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xd22957f0cc836227e85e99db33efd0d227b6317897e3a14184bda432533bf174:0",
@@ -11682,10 +11682,10 @@
       "total_value_usd": 9768.15,
       "entry_price": 0.0455,
       "end_date": "2026-08-09",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Colorado Rockies",
-      "resolved_date": "2026-08-09"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xc0660f55ce84d5b45fa446439905e5394dbeaecd20e224ae4198fb55b8a5471b:0",
@@ -12447,10 +12447,10 @@
       "total_value_usd": 62288.68,
       "entry_price": 0.0435,
       "end_date": "2026-08-12",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Weronika Falkowska",
-      "resolved_date": "2026-08-12"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x363d93b81017fbd5a128b880f67c61ad809e2a4c31566155e6954b01d4561cb3:1",
@@ -12549,10 +12549,10 @@
       "total_value_usd": 100964.9,
       "entry_price": 0.0475,
       "end_date": "2026-08-13",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Taylor Townsend",
-      "resolved_date": "2026-08-13"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x245ae49e57ac829474d2ae965312386cf60483513d03254bf9aa11aca5911874:0",
@@ -12753,10 +12753,10 @@
       "total_value_usd": 17084.11,
       "entry_price": 0.0475,
       "end_date": "2026-08-13",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "Rafael Jodar",
-      "resolved_date": "2026-08-13"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x98dffe8998f82fe5775ed316ab5729f06d681dd9155eb8159c42da155ad61ea4:0",
@@ -13348,10 +13348,10 @@
       "total_value_usd": 98397.16,
       "entry_price": 0.0445,
       "end_date": "2026-08-14",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "Tallon Griekspoor",
-      "resolved_date": "2026-08-14"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xc8c2d49665ab4bac36e685d801e733341b7e28cd2a17463864f218f0405c2b29:0",
@@ -13365,10 +13365,10 @@
       "total_value_usd": 31063.55,
       "entry_price": 0.0445,
       "end_date": "2026-08-14",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Tallon Griekspoor",
-      "resolved_date": "2026-08-14"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x19837aa660d59b55570415087706d88e381cccac29ad18dba3477441ed19b6a3:1",
@@ -13569,10 +13569,10 @@
       "total_value_usd": 20605.78,
       "entry_price": 0.0435,
       "end_date": "2026-09-07",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "San Francisco Giants",
-      "resolved_date": "2026-09-07"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x282e701965ef88eef5e9b68ea319a149be244ec605ae4f1968c7994476d54f31:1",
@@ -13807,10 +13807,10 @@
       "total_value_usd": 28476.36,
       "entry_price": 0.0445,
       "end_date": "2026-08-15",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Athletics",
-      "resolved_date": "2026-08-15"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xadea8e9130cea3878f4cb12841788d5353ccc94399d89e6fba4b71ca6df6bb2a:1",
@@ -13875,10 +13875,10 @@
       "total_value_usd": 163117.67,
       "entry_price": 0.0445,
       "end_date": "2026-08-16",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Tampa Bay Rays",
-      "resolved_date": "2026-08-16"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x8195a99c93660e18bc49209359cf9cb539af42cfa00cb5000f6f5aeecef8dc57:0",
@@ -13926,10 +13926,10 @@
       "total_value_usd": 157192.81,
       "entry_price": 0.0445,
       "end_date": "2026-08-16",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Washington Nationals",
-      "resolved_date": "2026-08-16"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xe9bb180cc6f12fba3547cff6e959f0ca9e3b12fbfce651edb33d0d17f7da5271:0",
@@ -14504,10 +14504,10 @@
       "total_value_usd": 156921.35,
       "entry_price": 0.0445,
       "end_date": "2026-08-19",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Tampa Bay Rays",
-      "resolved_date": "2026-08-19"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x7755dfdd422bd11df90d3ab0950b0fcacf0bb1b82662986726e742a25bef3aca:1",
@@ -14725,10 +14725,10 @@
       "total_value_usd": 28015.21,
       "entry_price": 0.0465,
       "end_date": "2026-08-19",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "Ben Shelton",
-      "resolved_date": "2026-08-19"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x486030835aa825fcdfddf1e98240a98fa3e130978a6618670d407f9ba8ed5ff6:1",
@@ -14776,10 +14776,10 @@
       "total_value_usd": 81677.07,
       "entry_price": 0.0465,
       "end_date": "2026-08-19",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "Toronto Blue Jays",
-      "resolved_date": "2026-08-19"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x73e1ee98289a1f2c5eb9a2d08ddc1a4663b5ecfe4ec7917b79219378151fcd73:0",
@@ -14810,10 +14810,10 @@
       "total_value_usd": 225264.14,
       "entry_price": 0.0465,
       "end_date": "2026-08-20",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "Los Angeles Angels",
-      "resolved_date": "2026-08-20"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xf8c1aa1f4c9fbdea7ece6130078c1fc7d856e929c1d9dda7f5fdee804b625289:1",
@@ -14861,10 +14861,10 @@
       "total_value_usd": 19198.74,
       "entry_price": 0.0465,
       "end_date": "2026-08-18",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Bernard Tomic",
-      "resolved_date": "2026-08-18"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x8320bef0f8a1ca820ee51a52e643cd28d31861997e3d54cba2cc7114a8906466:1",
@@ -14878,10 +14878,10 @@
       "total_value_usd": 12930.27,
       "entry_price": 0.0465,
       "end_date": "2026-08-19",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Kyrian Jacquet",
-      "resolved_date": "2026-08-19"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xb070077bf16827445a91856027beb8010c6242a24a47aae0af36e83894e81883:1",
@@ -15099,10 +15099,10 @@
       "total_value_usd": 88269.09,
       "entry_price": 0.0445,
       "end_date": "2026-08-21",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Baltimore Orioles",
-      "resolved_date": "2026-08-21"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xdbbb10621b41c1ea374f3cfceab9a8bc2875ae511ce5bc542be5aa423a2bbb9e:0",
@@ -15507,10 +15507,10 @@
       "total_value_usd": 19882.08,
       "entry_price": 0.0445,
       "end_date": "2026-08-23",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "Janice Tjen",
-      "resolved_date": "2026-08-23"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xfce78e37b67b31d0f1fec5f589bb1146968eab9b3744697d0d527fb534d96fa3:1",
@@ -15830,10 +15830,10 @@
       "total_value_usd": 52281.24,
       "entry_price": 0.0445,
       "end_date": "2026-08-23",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Elina Svitolina",
-      "resolved_date": "2026-08-23"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x1af38f6df567bdbb6e47c65da982f3d08320f38a4ea880236d432d17cb170b69:0",
@@ -16102,10 +16102,10 @@
       "total_value_usd": 40532.73,
       "entry_price": 0.045,
       "end_date": "2026-08-24",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "Tommy Paul",
-      "resolved_date": "2026-08-24"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xb8e41ef6e462cf664a460c8abd96248fad5324cbfdc664e6d73fd102ff3646dd:1",
@@ -16289,10 +16289,10 @@
       "total_value_usd": 8401.46,
       "entry_price": 0.045,
       "end_date": "2026-08-25",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Jaime Faria",
-      "resolved_date": "2026-08-25"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xd95b83e4544998f324a078d4f2a30a72374ebcf86d6c3a7534833717887dab03:0",
@@ -16374,10 +16374,10 @@
       "total_value_usd": 27616.59,
       "entry_price": 0.0455,
       "end_date": "2026-08-25",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Kansas City Royals",
-      "resolved_date": "2026-08-25"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x74a8c4daafb40392c2eae20e2fa42a2c0b58e43b3ac475d69011b57db78a37ad:0",
@@ -16425,10 +16425,10 @@
       "total_value_usd": 10325.94,
       "entry_price": 0.0455,
       "end_date": "2026-08-25",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Minnesota Twins",
-      "resolved_date": "2026-08-25"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xb64f0ee76137ad6424a2f2efc73d09d4fc0f2b3bb749a59e614d15d6f2627be9:0",
@@ -16442,10 +16442,10 @@
       "total_value_usd": 330761.5,
       "entry_price": 0.0445,
       "end_date": "2026-08-25",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "Kansas City Royals",
-      "resolved_date": "2026-08-25"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xb02fe0513e9d9cc7f8e790b030f700521e72ff45a37251350d0570585fcb6f57:0",
@@ -16493,10 +16493,10 @@
       "total_value_usd": 24210.9,
       "entry_price": 0.0445,
       "end_date": "2026-08-25",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Boston Red Sox",
-      "resolved_date": "2026-08-25"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x70de0744c8c2d7d31fab0f2d75b44e7d7577807cbff2e39b02ab547c68d81b45:0",
@@ -17224,10 +17224,10 @@
       "total_value_usd": 37971.89,
       "entry_price": 0.0415,
       "end_date": "2026-09-01",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Yes",
-      "resolved_date": "2026-09-01"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xf9b6b5c3c6e07afe4aad6ed9ce4fa7545f9c2baa9f1dc632cd81a085c99acfe4:1",
@@ -17326,10 +17326,10 @@
       "total_value_usd": 151445.22,
       "entry_price": 0.0415,
       "end_date": "2026-08-29",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Kansas City Royals",
-      "resolved_date": "2026-08-29"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x87ccad41c3c371e55d26316ce5bf47de07661564151d09a574a2370a965353da:1",
@@ -17683,10 +17683,10 @@
       "total_value_usd": 7630.38,
       "entry_price": 0.0485,
       "end_date": "2026-08-30",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "Atlanta Braves",
-      "resolved_date": "2026-08-30"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x7f668805bfee7909997562f60489ddef01e40a3dca43781efeb59ce380779295:1",
@@ -17972,10 +17972,10 @@
       "total_value_usd": 58539.77,
       "entry_price": 0.0505,
       "end_date": "2026-09-01",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "Luciano Darderi",
-      "resolved_date": "2026-09-01"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x6c9e41a94dfa04d934740c70d07aff22a1110a5b9767e12234101e45e38b8e09:1",
@@ -18040,10 +18040,10 @@
       "total_value_usd": 20987.77,
       "entry_price": 0.0495,
       "end_date": "2026-09-01",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Aleksandar Kovacevic",
-      "resolved_date": "2026-09-01"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x6c1ffd2050fd2d5ca9a684ce358538fc436a675e37e24aedf429de3e6a586f41:1",
@@ -18091,10 +18091,10 @@
       "total_value_usd": 34520.41,
       "entry_price": 0.0495,
       "end_date": "2026-09-01",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Priscilla Hon",
-      "resolved_date": "2026-09-01"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x455017aeeb812643f1ff38fede7650be6258297043384222b28ec9c59f1cf10c:0",
@@ -18312,10 +18312,10 @@
       "total_value_usd": 13089.81,
       "entry_price": 0.0495,
       "end_date": "2026-09-01",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Liam Draxl",
-      "resolved_date": "2026-09-01"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x802764873b0f1a02f3d018d91269a0e6355db8920a8ab42a307aa06b8b3d289f:1",
@@ -18329,10 +18329,10 @@
       "total_value_usd": 80590.64,
       "entry_price": 0.0495,
       "end_date": "2026-09-02",
-      "resolved": true,
-      "correct": false,
-      "resolved_outcome": "Pittsburgh Pirates",
-      "resolved_date": "2026-09-02"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xbc401a8bd55fbc0868c54ed25fa03591a3c192f5018c6bc3707e49c820d7d7b3:1",
@@ -18686,10 +18686,10 @@
       "total_value_usd": 16668.41,
       "entry_price": 0.0425,
       "end_date": "2026-09-02",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Lloyd Harris",
-      "resolved_date": "2026-09-02"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xa4653cf05a750f34cb269f4f16c508f204a97e77ac11dd39b2535930ee7f7f7c:1",
@@ -18941,10 +18941,10 @@
       "total_value_usd": 55283.92,
       "entry_price": 0.0445,
       "end_date": "2026-09-05",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Diane Parry",
-      "resolved_date": "2026-09-05"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x80b270f01faa95955d9254d455f4be3ac2b6264824adf6d405f86974bc55223b:0",
@@ -18975,10 +18975,10 @@
       "total_value_usd": 70838.59,
       "entry_price": 0.0445,
       "end_date": "2026-09-06",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Jacob Fearnley",
-      "resolved_date": "2026-09-06"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x9c62c626cfe36f5273fa016e27803a00c75a19a62a044a1941f83c55706bf97b:1",
@@ -19298,10 +19298,10 @@
       "total_value_usd": 206536.39,
       "entry_price": 0.0455,
       "end_date": "2026-09-08",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Minnesota Twins",
-      "resolved_date": "2026-09-08"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0xe027d19e7cb56a7bd645a443746154f8b00552d305988dfc19d1b55277a77796:0",
@@ -19400,10 +19400,10 @@
       "total_value_usd": 21746.36,
       "entry_price": 0.0455,
       "end_date": "2026-09-06",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Alexander Zverev",
-      "resolved_date": "2026-09-06"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x4c96c929f6dc846e84f0b75eb075fa16b50355ddc6aab4cf794b07424a63f2cb:1",
@@ -19740,6 +19740,23 @@
       "total_value_usd": 126702.84,
       "entry_price": 0.0475,
       "end_date": "2026-09-12",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x30174f3f46398e37c96a07b45916e01eab9a8a854ecb624ac73a91a8490fd074:1",
+      "condition_id": "0x30174f3f46398e37c96a07b45916e01eab9a8a854ecb624ac73a91a8490fd074",
+      "title": "US announces end of Iranian blockade by September 30, 2026?",
+      "category": "Iran",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Weak",
+      "score": 2.6857,
+      "total_value_usd": 10373.59,
+      "entry_price": 0.0465,
+      "end_date": "2026-10-01",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
