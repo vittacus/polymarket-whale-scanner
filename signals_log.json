@@ -339667,5 +339667,301 @@
         "entry_price": 0.049
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-05T00:02:19+00:00",
+    "whale_timeframes": {
+      "0x168a51f1cac0ad3b166797069382495a8aa10d24": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3a8aa345d5db7ec5138298c8c4f4540259be7699": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x83720820a8aa6c3f20ad71850e7a1a17d16c5223": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5a218c7ad04135830a45c41aaed7294df7809318": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa71093cafc0c099b4ccab24c3cb8018d817923c4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb859a551fcf56e49416160911476bea7307152f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x821dab0565ebf5b327f51db06223fdcfe01acf16": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x42477970683d4d0a52ec7082fee5d760cc5591c4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xccd81fbd3395dc43a0531f8484b21c2462daf4de": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x06dc51826bc524d9a83770e7de9dd7e005b04524": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x78becf0a4e4f2640380af0c19ad32e2557e6bde0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9ee8bbc36d378af72e5f6b8e2ea2eb67c05a89de": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa309f903dbbd559e87d8d368834b8e41355c4cf2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7e5e420a5cde8a322f3b5b93a12a164827f47315": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x876506d8b2bd7a0d3fa4fe18c024eee6e1dd81ee24c26795dadd6cfe4a7b5d0d:0",
+        "condition_id": "0x876506d8b2bd7a0d3fa4fe18c024eee6e1dd81ee24c26795dadd6cfe4a7b5d0d",
+        "title": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418",
+          "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991",
+          "0xa309f903dbbd559e87d8d368834b8e41355c4cf2"
+        ],
+        "ranks": [
+          3,
+          12,
+          14,
+          19
+        ],
+        "total_value_usd": 2348518.43,
+        "score": 13.8811,
+        "category": "fomc",
+        "end_date": "2026-09-16",
+        "entry_price": 0.0455
+      },
+      {
+        "signal_key": "0xf6035567bcde7f77d7eb8ed7c31016e7322a2580577bb5d1805f936072c28dfa:1",
+        "condition_id": "0xf6035567bcde7f77d7eb8ed7c31016e7322a2580577bb5d1805f936072c28dfa",
+        "title": "US Open ATP: Tomas Etcheverry vs Mariano Navone",
+        "outcome": "Mariano Navone",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xdb859a551fcf56e49416160911476bea7307152f",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0x78becf0a4e4f2640380af0c19ad32e2557e6bde0"
+        ],
+        "ranks": [
+          2,
+          8,
+          9,
+          16
+        ],
+        "total_value_usd": 17535.78,
+        "score": 13.6571,
+        "category": "Tennis",
+        "end_date": "2026-09-11",
+        "entry_price": 0.049
+      },
+      {
+        "signal_key": "0xf6035567bcde7f77d7eb8ed7c31016e7322a2580577bb5d1805f936072c28dfa:0",
+        "condition_id": "0xf6035567bcde7f77d7eb8ed7c31016e7322a2580577bb5d1805f936072c28dfa",
+        "title": "US Open ATP: Tomas Etcheverry vs Mariano Navone",
+        "outcome": "Tomas Etcheverry",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319"
+        ],
+        "ranks": [
+          2,
+          9,
+          17
+        ],
+        "total_value_usd": 110466.25,
+        "score": 13.6143,
+        "category": "Tennis",
+        "end_date": "2026-09-11",
+        "entry_price": 0.0485
+      },
+      {
+        "signal_key": "0x96d122b77a2da320561dc6ed56a8525692d2a54ebb38db127f88c14caba39b5e:1",
+        "condition_id": "0x96d122b77a2da320561dc6ed56a8525692d2a54ebb38db127f88c14caba39b5e",
+        "title": "US Open ATP: Alex Michelsen vs Daniel Merida Aguilar",
+        "outcome": "Daniel Merida Aguilar",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xdb859a551fcf56e49416160911476bea7307152f",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0x78becf0a4e4f2640380af0c19ad32e2557e6bde0"
+        ],
+        "ranks": [
+          2,
+          8,
+          9,
+          16
+        ],
+        "total_value_usd": 13185.68,
+        "score": 13.2587,
+        "category": "Tennis",
+        "end_date": "2026-09-11",
+        "entry_price": 0.0465
+      },
+      {
+        "signal_key": "0x80b3af88cb991980e8da1ce86b9794a0957f96ec98c29319dd7ba65e9744d82b:0",
+        "condition_id": "0x80b3af88cb991980e8da1ce86b9794a0957f96ec98c29319dd7ba65e9744d82b",
+        "title": "Fed rate hike in 2026?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418",
+          "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991",
+          "0xa309f903dbbd559e87d8d368834b8e41355c4cf2"
+        ],
+        "ranks": [
+          3,
+          12,
+          14,
+          19
+        ],
+        "total_value_usd": 504835.64,
+        "score": 12.4264,
+        "category": "CPI Release",
+        "end_date": "2026-12-09",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0xd4e77ba6f29fc093509d24f508631abd445ecf506bbdc9c4c80e60256a318527:0",
+        "condition_id": "0xd4e77ba6f29fc093509d24f508631abd445ecf506bbdc9c4c80e60256a318527",
+        "title": "Will no Fed rate cuts happen in 2026?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991",
+          "0xa309f903dbbd559e87d8d368834b8e41355c4cf2"
+        ],
+        "ranks": [
+          3,
+          14,
+          19
+        ],
+        "total_value_usd": 601102.31,
+        "score": 10.6511,
+        "category": "Rewards 200, 4.5, 50 Deprec",
+        "end_date": "2026-12-31",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0x73d8a8208d23a74937d114a713d6a56cd4161a1068056c52ac74c8419c99da7c:0",
+        "condition_id": "0x73d8a8208d23a74937d114a713d6a56cd4161a1068056c52ac74c8419c99da7c",
+        "title": "Fed Rate Hike by September 2026 Meeting?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418",
+          "0xa309f903dbbd559e87d8d368834b8e41355c4cf2"
+        ],
+        "ranks": [
+          3,
+          12,
+          19
+        ],
+        "total_value_usd": 64422.03,
+        "score": 9.0941,
+        "category": "Fed",
+        "end_date": "2026-12-09",
+        "entry_price": 0.505
+      }
+    ]
   }
 ]
