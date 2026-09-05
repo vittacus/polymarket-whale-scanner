@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-05T18:53:38+00:00",
-  "total_signals": 1163,
-  "total_resolved": 1100,
-  "total_correct": 694,
+  "generated_at": "2026-09-05T20:53:07+00:00",
+  "total_signals": 1164,
+  "total_resolved": 1102,
+  "total_correct": 695,
   "overall_hit_rate": 63.1,
   "by_tier": {
     "Strong": {
@@ -12,9 +12,9 @@
       "hit_rate": 65.1
     },
     "Moderate": {
-      "total": 609,
-      "resolved": 568,
-      "correct": 354,
+      "total": 610,
+      "resolved": 570,
+      "correct": 355,
       "hit_rate": 62.3
     },
     "Weak": {
@@ -19774,10 +19774,10 @@
       "total_value_usd": 15007.87,
       "entry_price": 0.0445,
       "end_date": "2026-09-11",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Francisco Cerundolo",
+      "resolved_date": "2026-09-11"
     },
     {
       "signal_key": "0xebc4621044189f62a138eb63323ead87b1f5b8cbc7846dbd3fe1b605df50b45f:0",
@@ -19791,6 +19791,23 @@
       "total_value_usd": 59767.5,
       "entry_price": 0.0445,
       "end_date": "2026-09-11",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Francisco Cerundolo",
+      "resolved_date": "2026-09-11"
+    },
+    {
+      "signal_key": "0x67a56e928076b8c7342b25e902cb6a62d5aa0b8a36f51b51ba806a5913f59c5e:1",
+      "condition_id": "0x67a56e928076b8c7342b25e902cb6a62d5aa0b8a36f51b51ba806a5913f59c5e",
+      "title": "San Francisco Giants vs. New York Mets",
+      "category": "MLB",
+      "whale_direction": "New York Mets",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 4.5903,
+      "total_value_usd": 88258.44,
+      "entry_price": 0.0445,
+      "end_date": "2026-09-12",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

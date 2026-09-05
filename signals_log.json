@@ -340876,5 +340876,155 @@
         "entry_price": 0.0445
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-05T20:43:43+00:00",
+    "whale_timeframes": {
+      "0x9319a045cdd0c2180e5eb7ad44374383db9a6410": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x29b52d98ac9ef9414b04164246c95bc63d74cc6c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x821dab0565ebf5b327f51db06223fdcfe01acf16": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x39d3c773be30fcc73161fc6768f46d563a779ef0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0f6f76ced62a911bccef92f50faaff143854d977": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1b47e9b128e6b671edebfb2cac23dd3efc40d814": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x83720820a8aa6c3f20ad71850e7a1a17d16c5223": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5a218c7ad04135830a45c41aaed7294df7809318": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9703676286b93c2eca71ca96e8757104519a69c2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbc43c8bfbc4d77c2fc9011adad38ba43b88996d3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb0c85813a7a4428f1139ff91d3118a92c391fe7f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe885f33c65fc6c244a297e9df9361b35975995b7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8075693f48668a264b9fa313b47f52712fcc12b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x67a56e928076b8c7342b25e902cb6a62d5aa0b8a36f51b51ba806a5913f59c5e:1",
+        "condition_id": "0x67a56e928076b8c7342b25e902cb6a62d5aa0b8a36f51b51ba806a5913f59c5e",
+        "title": "San Francisco Giants vs. New York Mets",
+        "outcome": "New York Mets",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1"
+        ],
+        "ranks": [
+          11,
+          13,
+          16
+        ],
+        "total_value_usd": 88258.44,
+        "score": 4.5903,
+        "category": "MLB",
+        "end_date": "2026-09-12",
+        "entry_price": 0.0445
+      }
+    ]
   }
 ]

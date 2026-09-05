@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-05T18:53:38+00:00",
-  "total_evaluated": 1163,
-  "total_pending": 63,
+  "generated_at": "2026-09-05T20:53:07+00:00",
+  "total_evaluated": 1164,
+  "total_pending": 62,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1163,
-      "correct": 694,
-      "wrong": 406,
-      "pending": 63,
+      "signals_evaluated": 1164,
+      "correct": 695,
+      "wrong": 407,
+      "pending": 62,
       "win_rate": 63.1,
       "signals": [
         {
@@ -16275,11 +16275,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Francisco Cerundolo",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Francisco Cerundolo",
+          "resolved_date": "2026-09-11",
           "end_date": "2026-09-11",
           "total_value_usd": 15007.87,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xebc4621044189f62a138eb63323ead87b1f5b8cbc7846dbd3fe1b605df50b45f:0",
@@ -16289,10 +16289,24 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Taylor Fritz",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Francisco Cerundolo",
+          "resolved_date": "2026-09-11",
           "end_date": "2026-09-11",
           "total_value_usd": 59767.5,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x67a56e928076b8c7342b25e902cb6a62d5aa0b8a36f51b51ba806a5913f59c5e:1",
+          "condition_id": "0x67a56e928076b8c7342b25e902cb6a62d5aa0b8a36f51b51ba806a5913f59c5e",
+          "title": "San Francisco Giants vs. New York Mets",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "New York Mets",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-12",
+          "total_value_usd": 88258.44,
           "result": "pending"
         }
       ]
@@ -16301,11 +16315,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 493,
-      "correct": 292,
-      "wrong": 165,
-      "pending": 36,
-      "win_rate": 63.9,
+      "signals_evaluated": 494,
+      "correct": 293,
+      "wrong": 166,
+      "pending": 35,
+      "win_rate": 63.8,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -23189,11 +23203,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Francisco Cerundolo",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Francisco Cerundolo",
+          "resolved_date": "2026-09-11",
           "end_date": "2026-09-11",
           "total_value_usd": 15007.87,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xebc4621044189f62a138eb63323ead87b1f5b8cbc7846dbd3fe1b605df50b45f:0",
@@ -23203,10 +23217,24 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Taylor Fritz",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Francisco Cerundolo",
+          "resolved_date": "2026-09-11",
           "end_date": "2026-09-11",
           "total_value_usd": 59767.5,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x67a56e928076b8c7342b25e902cb6a62d5aa0b8a36f51b51ba806a5913f59c5e:1",
+          "condition_id": "0x67a56e928076b8c7342b25e902cb6a62d5aa0b8a36f51b51ba806a5913f59c5e",
+          "title": "San Francisco Giants vs. New York Mets",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "New York Mets",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-12",
+          "total_value_usd": 88258.44,
           "result": "pending"
         }
       ]
@@ -23215,11 +23243,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 493,
-      "correct": 165,
-      "wrong": 292,
-      "pending": 36,
-      "win_rate": 36.1,
+      "signals_evaluated": 494,
+      "correct": 166,
+      "wrong": 293,
+      "pending": 35,
+      "win_rate": 36.2,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -30103,11 +30131,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Francisco Cerundolo",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Francisco Cerundolo",
+          "resolved_date": "2026-09-11",
           "end_date": "2026-09-11",
           "total_value_usd": 15007.87,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xebc4621044189f62a138eb63323ead87b1f5b8cbc7846dbd3fe1b605df50b45f:0",
@@ -30117,10 +30145,24 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Taylor Fritz",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Francisco Cerundolo",
+          "resolved_date": "2026-09-11",
           "end_date": "2026-09-11",
           "total_value_usd": 59767.5,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x67a56e928076b8c7342b25e902cb6a62d5aa0b8a36f51b51ba806a5913f59c5e:1",
+          "condition_id": "0x67a56e928076b8c7342b25e902cb6a62d5aa0b8a36f51b51ba806a5913f59c5e",
+          "title": "San Francisco Giants vs. New York Mets",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "New York Mets",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-12",
+          "total_value_usd": 88258.44,
           "result": "pending"
         }
       ]
