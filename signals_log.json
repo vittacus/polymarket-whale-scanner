@@ -340703,5 +340703,178 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-09-05T18:44:24+00:00",
+    "whale_timeframes": {
+      "0x9319a045cdd0c2180e5eb7ad44374383db9a6410": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x29b52d98ac9ef9414b04164246c95bc63d74cc6c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0f6f76ced62a911bccef92f50faaff143854d977": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5a218c7ad04135830a45c41aaed7294df7809318": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x821dab0565ebf5b327f51db06223fdcfe01acf16": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x67ac9e1ad7d7e74ef0215d14fc8edb538e4fedf1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb0c85813a7a4428f1139ff91d3118a92c391fe7f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb52e8b3afd9f0f0d502a5a76494b42816d67285c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe885f33c65fc6c244a297e9df9361b35975995b7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb9392e612a5b05063ca012b5dede548e16e5da70": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x52ecea7b3159f09db589e4f4ee64872fd0bba6f3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9703676286b93c2eca71ca96e8757104519a69c2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd3b034d7bfb2473fb252d0414646d9786bac329e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2dfa4e79eca44b7c774f40a45535adbc368a6f60": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xebc4621044189f62a138eb63323ead87b1f5b8cbc7846dbd3fe1b605df50b45f:1",
+        "condition_id": "0xebc4621044189f62a138eb63323ead87b1f5b8cbc7846dbd3fe1b605df50b45f",
+        "title": "US Open ATP: Taylor Fritz vs Francisco Cerundolo",
+        "outcome": "Francisco Cerundolo",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
+          "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16"
+        ],
+        "ranks": [
+          4,
+          6,
+          10
+        ],
+        "total_value_usd": 15007.87,
+        "score": 8.6948,
+        "category": "Tennis",
+        "end_date": "2026-09-11",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0xebc4621044189f62a138eb63323ead87b1f5b8cbc7846dbd3fe1b605df50b45f:0",
+        "condition_id": "0xebc4621044189f62a138eb63323ead87b1f5b8cbc7846dbd3fe1b605df50b45f",
+        "title": "US Open ATP: Taylor Fritz vs Francisco Cerundolo",
+        "outcome": "Taylor Fritz",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0x67ac9e1ad7d7e74ef0215d14fc8edb538e4fedf1"
+        ],
+        "ranks": [
+          4,
+          10,
+          11
+        ],
+        "total_value_usd": 59767.5,
+        "score": 8.4861,
+        "category": "Tennis",
+        "end_date": "2026-09-11",
+        "entry_price": 0.0445
+      }
+    ]
   }
 ]

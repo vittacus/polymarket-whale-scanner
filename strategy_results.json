@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-05T17:03:57+00:00",
-  "total_evaluated": 1161,
-  "total_pending": 61,
+  "generated_at": "2026-09-05T18:53:38+00:00",
+  "total_evaluated": 1163,
+  "total_pending": 63,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1161,
+      "signals_evaluated": 1163,
       "correct": 694,
       "wrong": 406,
-      "pending": 61,
+      "pending": 63,
       "win_rate": 63.1,
       "signals": [
         {
@@ -16266,6 +16266,34 @@
           "end_date": "2026-10-01",
           "total_value_usd": 10373.59,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xebc4621044189f62a138eb63323ead87b1f5b8cbc7846dbd3fe1b605df50b45f:1",
+          "condition_id": "0xebc4621044189f62a138eb63323ead87b1f5b8cbc7846dbd3fe1b605df50b45f",
+          "title": "US Open ATP: Taylor Fritz vs Francisco Cerundolo",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Francisco Cerundolo",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-11",
+          "total_value_usd": 15007.87,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xebc4621044189f62a138eb63323ead87b1f5b8cbc7846dbd3fe1b605df50b45f:0",
+          "condition_id": "0xebc4621044189f62a138eb63323ead87b1f5b8cbc7846dbd3fe1b605df50b45f",
+          "title": "US Open ATP: Taylor Fritz vs Francisco Cerundolo",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Taylor Fritz",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-11",
+          "total_value_usd": 59767.5,
+          "result": "pending"
         }
       ]
     },
@@ -16273,10 +16301,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 491,
+      "signals_evaluated": 493,
       "correct": 292,
       "wrong": 165,
-      "pending": 34,
+      "pending": 36,
       "win_rate": 63.9,
       "signals": [
         {
@@ -23152,6 +23180,34 @@
           "end_date": "2026-10-01",
           "total_value_usd": 10373.59,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xebc4621044189f62a138eb63323ead87b1f5b8cbc7846dbd3fe1b605df50b45f:1",
+          "condition_id": "0xebc4621044189f62a138eb63323ead87b1f5b8cbc7846dbd3fe1b605df50b45f",
+          "title": "US Open ATP: Taylor Fritz vs Francisco Cerundolo",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Francisco Cerundolo",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-11",
+          "total_value_usd": 15007.87,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xebc4621044189f62a138eb63323ead87b1f5b8cbc7846dbd3fe1b605df50b45f:0",
+          "condition_id": "0xebc4621044189f62a138eb63323ead87b1f5b8cbc7846dbd3fe1b605df50b45f",
+          "title": "US Open ATP: Taylor Fritz vs Francisco Cerundolo",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Taylor Fritz",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-11",
+          "total_value_usd": 59767.5,
+          "result": "pending"
         }
       ]
     },
@@ -23159,10 +23215,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 491,
+      "signals_evaluated": 493,
       "correct": 165,
       "wrong": 292,
-      "pending": 34,
+      "pending": 36,
       "win_rate": 36.1,
       "signals": [
         {
@@ -30037,6 +30093,34 @@
           "resolved_date": null,
           "end_date": "2026-10-01",
           "total_value_usd": 10373.59,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xebc4621044189f62a138eb63323ead87b1f5b8cbc7846dbd3fe1b605df50b45f:1",
+          "condition_id": "0xebc4621044189f62a138eb63323ead87b1f5b8cbc7846dbd3fe1b605df50b45f",
+          "title": "US Open ATP: Taylor Fritz vs Francisco Cerundolo",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Francisco Cerundolo",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-11",
+          "total_value_usd": 15007.87,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xebc4621044189f62a138eb63323ead87b1f5b8cbc7846dbd3fe1b605df50b45f:0",
+          "condition_id": "0xebc4621044189f62a138eb63323ead87b1f5b8cbc7846dbd3fe1b605df50b45f",
+          "title": "US Open ATP: Taylor Fritz vs Francisco Cerundolo",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Taylor Fritz",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-11",
+          "total_value_usd": 59767.5,
           "result": "pending"
         }
       ]
