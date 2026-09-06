@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-06T00:15:34+00:00",
-  "total_signals": 1164,
+  "generated_at": "2026-09-06T04:46:16+00:00",
+  "total_signals": 1165,
   "total_resolved": 1103,
   "total_correct": 695,
   "overall_hit_rate": 63.0,
@@ -12,7 +12,7 @@
       "hit_rate": 65.1
     },
     "Moderate": {
-      "total": 610,
+      "total": 611,
       "resolved": 571,
       "correct": 355,
       "hit_rate": 62.2
@@ -19812,6 +19812,23 @@
       "correct": false,
       "resolved_outcome": "San Francisco Giants",
       "resolved_date": "2026-09-12"
+    },
+    {
+      "signal_key": "0x895e01dbf3e6a33cd9a44ca0f8cdb5df1bd2b0b6ebed5300d28f8da7145145e4:0",
+      "condition_id": "0x895e01dbf3e6a33cd9a44ca0f8cdb5df1bd2b0b6ebed5300d28f8da7145145e4",
+      "title": "Will Donald Trump win the 2028 Republican presidential nomination?",
+      "category": "United States",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 4.5851,
+      "total_value_usd": 8568.25,
+      "entry_price": 0.0445,
+      "end_date": "2028-11-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
