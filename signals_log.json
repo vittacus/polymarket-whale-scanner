@@ -341959,5 +341959,226 @@
         "entry_price": 0.0425
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-06T19:58:36+00:00",
+    "whale_timeframes": {
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x04d5524a0a5af2eca6e39e03defc261d42fe66d8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0f6f76ced62a911bccef92f50faaff143854d977": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2dfa4e79eca44b7c774f40a45535adbc368a6f60": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7ad71d79a3bb90d0a87a06500fa0fe11663842aa": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd3a0b4e941b557d33a8efd5a51c581e7c79cf136": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0a39b3b29ab3b7dd753aa96fde4ecab3f2dbb0b9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x821dab0565ebf5b327f51db06223fdcfe01acf16": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9ee8bbc36d378af72e5f6b8e2ea2eb67c05a89de": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x78becf0a4e4f2640380af0c19ad32e2557e6bde0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xad2b18343919cf24b56b6f822360937ab322f091": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x384b622131b8897c3e431d5003c82cf7d8f07d78": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x397062018dfb77e855608fe23223592bc82c44ce": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x412fe1a101554f0b382181c3af932e4b2d8030fa": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x8d95b1c9e10f64d640b70d653c2dc738f3d3533171b765ba029e5407b3b87480:0",
+        "condition_id": "0x8d95b1c9e10f64d640b70d653c2dc738f3d3533171b765ba029e5407b3b87480",
+        "title": "Detroit Tigers vs. Cleveland Guardians",
+        "outcome": "Detroit Tigers",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0x78becf0a4e4f2640380af0c19ad32e2557e6bde0",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e"
+        ],
+        "ranks": [
+          1,
+          8,
+          10,
+          12
+        ],
+        "total_value_usd": 48527.09,
+        "score": 24.7044,
+        "category": "MLB",
+        "end_date": "2026-09-13",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0xeb23aea68a3b82e393bceec39f38e6f3415393c693d28a15dd27bc942bf48a70:0",
+        "condition_id": "0xeb23aea68a3b82e393bceec39f38e6f3415393c693d28a15dd27bc942bf48a70",
+        "title": "Tampa Bay Rays vs. Texas Rangers",
+        "outcome": "Tampa Bay Rays",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e"
+        ],
+        "ranks": [
+          1,
+          8,
+          12
+        ],
+        "total_value_usd": 15445.63,
+        "score": 20.3955,
+        "category": "MLB",
+        "end_date": "2026-09-13",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0x89590ca70d26c93f1813c2f1bd8eeaf028d40b06c5309e3bf2141f0da9b933cc:1",
+        "condition_id": "0x89590ca70d26c93f1813c2f1bd8eeaf028d40b06c5309e3bf2141f0da9b933cc",
+        "title": "US Open ATP: Tommy Paul vs Carlos Alcaraz",
+        "outcome": "Carlos Alcaraz",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xf0318c32136c2db7fec88b84869aee6a1106c80c"
+        ],
+        "ranks": [
+          8,
+          18,
+          20
+        ],
+        "total_value_usd": 236422.22,
+        "score": 4.9923,
+        "category": "Tennis",
+        "end_date": "2026-09-13",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0x3599129ed0727e6f2f5e461a1a48712d3eee96b48c4262c9f2fbe81beb4d0fba:1",
+        "condition_id": "0x3599129ed0727e6f2f5e461a1a48712d3eee96b48c4262c9f2fbe81beb4d0fba",
+        "title": "US Open ATP: Alex Michelsen vs Tomas Etcheverry",
+        "outcome": "Tomas Etcheverry",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563"
+        ],
+        "ranks": [
+          8,
+          12,
+          18
+        ],
+        "total_value_usd": 16127.35,
+        "score": 4.4741,
+        "category": "Tennis",
+        "end_date": "2026-09-13",
+        "entry_price": 0.0425
+      }
+    ]
   }
 ]
