@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-05T22:29:49+00:00",
+  "generated_at": "2026-09-06T00:15:34+00:00",
   "total_signals": 1164,
-  "total_resolved": 1102,
+  "total_resolved": 1103,
   "total_correct": 695,
-  "overall_hit_rate": 63.1,
+  "overall_hit_rate": 63.0,
   "by_tier": {
     "Strong": {
       "total": 491,
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 610,
-      "resolved": 570,
+      "resolved": 571,
       "correct": 355,
-      "hit_rate": 62.3
+      "hit_rate": 62.2
     },
     "Weak": {
       "total": 63,
@@ -19808,10 +19808,10 @@
       "total_value_usd": 88258.44,
       "entry_price": 0.0445,
       "end_date": "2026-09-12",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "San Francisco Giants",
+      "resolved_date": "2026-09-12"
     }
   ]
 }
