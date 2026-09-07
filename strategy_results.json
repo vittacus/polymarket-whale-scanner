@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-07T21:49:23+00:00",
-  "total_evaluated": 1179,
-  "total_pending": 66,
+  "generated_at": "2026-09-07T23:55:41+00:00",
+  "total_evaluated": 1182,
+  "total_pending": 67,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1179,
-      "correct": 700,
+      "signals_evaluated": 1182,
+      "correct": 702,
       "wrong": 413,
-      "pending": 66,
-      "win_rate": 62.9,
+      "pending": 67,
+      "win_rate": 63.0,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -16471,11 +16471,11 @@
           "tier": "Strong",
           "entry_price": 0.0405,
           "whale_direction": "Alexander Blockx",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alexander Blockx",
+          "resolved_date": "2026-09-13",
           "end_date": "2026-09-13",
           "total_value_usd": 315352.9,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x11602c3e49309dc1db6990df88cf31eddf034a44df2a0303ffb3188b94ce553e:0",
@@ -16513,10 +16513,52 @@
           "tier": "Moderate",
           "entry_price": 0.0405,
           "whale_direction": "Elena Rybakina",
+          "resolved_outcome": "Elena Rybakina",
+          "resolved_date": "2026-09-14",
+          "end_date": "2026-09-14",
+          "total_value_usd": 93128.09,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xc340bd1a00f838b4d6e01ef78737525e28611b010755af341b95cc909a6909a1:1",
+          "condition_id": "0xc340bd1a00f838b4d6e01ef78737525e28611b010755af341b95cc909a6909a1",
+          "title": "US Open ATP: Karen Khachanov vs Learner Tien",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0405,
+          "whale_direction": "Learner Tien",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-09-14",
-          "total_value_usd": 93128.09,
+          "total_value_usd": 387707.25,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x6cbe9b2a21f5588f68dc5adc9836741691a1574ff0c2bfd76f46e096c20e6568:1",
+          "condition_id": "0x6cbe9b2a21f5588f68dc5adc9836741691a1574ff0c2bfd76f46e096c20e6568",
+          "title": "Washington Nationals vs. San Diego Padres",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0405,
+          "whale_direction": "San Diego Padres",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-14",
+          "total_value_usd": 144981.75,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xc340bd1a00f838b4d6e01ef78737525e28611b010755af341b95cc909a6909a1:0",
+          "condition_id": "0xc340bd1a00f838b4d6e01ef78737525e28611b010755af341b95cc909a6909a1",
+          "title": "US Open ATP: Karen Khachanov vs Learner Tien",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0405,
+          "whale_direction": "Karen Khachanov",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-14",
+          "total_value_usd": 43619.07,
           "result": "pending"
         }
       ]
@@ -16525,11 +16567,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 509,
-      "correct": 298,
+      "signals_evaluated": 512,
+      "correct": 300,
       "wrong": 172,
-      "pending": 39,
-      "win_rate": 63.4,
+      "pending": 40,
+      "win_rate": 63.6,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -23609,11 +23651,11 @@
           "tier": "Strong",
           "entry_price": 0.0405,
           "whale_direction": "Alexander Blockx",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alexander Blockx",
+          "resolved_date": "2026-09-13",
           "end_date": "2026-09-13",
           "total_value_usd": 315352.9,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x11602c3e49309dc1db6990df88cf31eddf034a44df2a0303ffb3188b94ce553e:0",
@@ -23651,10 +23693,52 @@
           "tier": "Moderate",
           "entry_price": 0.0405,
           "whale_direction": "Elena Rybakina",
+          "resolved_outcome": "Elena Rybakina",
+          "resolved_date": "2026-09-14",
+          "end_date": "2026-09-14",
+          "total_value_usd": 93128.09,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xc340bd1a00f838b4d6e01ef78737525e28611b010755af341b95cc909a6909a1:1",
+          "condition_id": "0xc340bd1a00f838b4d6e01ef78737525e28611b010755af341b95cc909a6909a1",
+          "title": "US Open ATP: Karen Khachanov vs Learner Tien",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0405,
+          "whale_direction": "Learner Tien",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-09-14",
-          "total_value_usd": 93128.09,
+          "total_value_usd": 387707.25,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x6cbe9b2a21f5588f68dc5adc9836741691a1574ff0c2bfd76f46e096c20e6568:1",
+          "condition_id": "0x6cbe9b2a21f5588f68dc5adc9836741691a1574ff0c2bfd76f46e096c20e6568",
+          "title": "Washington Nationals vs. San Diego Padres",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0405,
+          "whale_direction": "San Diego Padres",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-14",
+          "total_value_usd": 144981.75,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xc340bd1a00f838b4d6e01ef78737525e28611b010755af341b95cc909a6909a1:0",
+          "condition_id": "0xc340bd1a00f838b4d6e01ef78737525e28611b010755af341b95cc909a6909a1",
+          "title": "US Open ATP: Karen Khachanov vs Learner Tien",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0405,
+          "whale_direction": "Karen Khachanov",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-14",
+          "total_value_usd": 43619.07,
           "result": "pending"
         }
       ]
@@ -23663,11 +23747,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 509,
+      "signals_evaluated": 512,
       "correct": 172,
-      "wrong": 298,
-      "pending": 39,
-      "win_rate": 36.6,
+      "wrong": 300,
+      "pending": 40,
+      "win_rate": 36.4,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -30747,11 +30831,11 @@
           "tier": "Strong",
           "entry_price": 0.0405,
           "whale_direction": "Alexander Blockx",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alexander Blockx",
+          "resolved_date": "2026-09-13",
           "end_date": "2026-09-13",
           "total_value_usd": 315352.9,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x11602c3e49309dc1db6990df88cf31eddf034a44df2a0303ffb3188b94ce553e:0",
@@ -30789,10 +30873,52 @@
           "tier": "Moderate",
           "entry_price": 0.0405,
           "whale_direction": "Elena Rybakina",
+          "resolved_outcome": "Elena Rybakina",
+          "resolved_date": "2026-09-14",
+          "end_date": "2026-09-14",
+          "total_value_usd": 93128.09,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xc340bd1a00f838b4d6e01ef78737525e28611b010755af341b95cc909a6909a1:1",
+          "condition_id": "0xc340bd1a00f838b4d6e01ef78737525e28611b010755af341b95cc909a6909a1",
+          "title": "US Open ATP: Karen Khachanov vs Learner Tien",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0405,
+          "whale_direction": "Learner Tien",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-09-14",
-          "total_value_usd": 93128.09,
+          "total_value_usd": 387707.25,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x6cbe9b2a21f5588f68dc5adc9836741691a1574ff0c2bfd76f46e096c20e6568:1",
+          "condition_id": "0x6cbe9b2a21f5588f68dc5adc9836741691a1574ff0c2bfd76f46e096c20e6568",
+          "title": "Washington Nationals vs. San Diego Padres",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0405,
+          "whale_direction": "San Diego Padres",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-14",
+          "total_value_usd": 144981.75,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xc340bd1a00f838b4d6e01ef78737525e28611b010755af341b95cc909a6909a1:0",
+          "condition_id": "0xc340bd1a00f838b4d6e01ef78737525e28611b010755af341b95cc909a6909a1",
+          "title": "US Open ATP: Karen Khachanov vs Learner Tien",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0405,
+          "whale_direction": "Karen Khachanov",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-14",
+          "total_value_usd": 43619.07,
           "result": "pending"
         }
       ]
