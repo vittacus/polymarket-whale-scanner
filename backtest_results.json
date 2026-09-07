@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-07T13:45:29+00:00",
-  "total_signals": 1174,
+  "generated_at": "2026-09-07T18:33:30+00:00",
+  "total_signals": 1175,
   "total_resolved": 1112,
   "total_correct": 700,
   "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
-      "total": 493,
+      "total": 494,
       "resolved": 475,
       "correct": 308,
       "hit_rate": 64.8
@@ -19982,6 +19982,23 @@
       "correct": true,
       "resolved_outcome": "Los Angeles Dodgers",
       "resolved_date": "2026-09-14"
+    },
+    {
+      "signal_key": "0x89239acef4899b6ac39c22064086f08fb565dab44d69b965bd22da7dd43b06a2:0",
+      "condition_id": "0x89239acef4899b6ac39c22064086f08fb565dab44d69b965bd22da7dd43b06a2",
+      "title": "Atlanta Braves vs. Philadelphia Phillies",
+      "category": "MLB",
+      "whale_direction": "Atlanta Braves",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 23.5034,
+      "total_value_usd": 57737.18,
+      "entry_price": 0.0405,
+      "end_date": "2026-09-14",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-07T13:45:29+00:00",
-  "total_evaluated": 1174,
-  "total_pending": 62,
+  "generated_at": "2026-09-07T18:33:31+00:00",
+  "total_evaluated": 1175,
+  "total_pending": 63,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1174,
+      "signals_evaluated": 1175,
       "correct": 700,
       "wrong": 412,
-      "pending": 62,
+      "pending": 63,
       "win_rate": 62.9,
       "signals": [
         {
@@ -16448,6 +16448,20 @@
           "end_date": "2026-09-14",
           "total_value_usd": 16527.56,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x89239acef4899b6ac39c22064086f08fb565dab44d69b965bd22da7dd43b06a2:0",
+          "condition_id": "0x89239acef4899b6ac39c22064086f08fb565dab44d69b965bd22da7dd43b06a2",
+          "title": "Atlanta Braves vs. Philadelphia Phillies",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0405,
+          "whale_direction": "Atlanta Braves",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-14",
+          "total_value_usd": 57737.18,
+          "result": "pending"
         }
       ]
     },
@@ -16455,10 +16469,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 504,
+      "signals_evaluated": 505,
       "correct": 298,
       "wrong": 171,
-      "pending": 35,
+      "pending": 36,
       "win_rate": 63.5,
       "signals": [
         {
@@ -23516,6 +23530,20 @@
           "end_date": "2026-09-14",
           "total_value_usd": 16527.56,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x89239acef4899b6ac39c22064086f08fb565dab44d69b965bd22da7dd43b06a2:0",
+          "condition_id": "0x89239acef4899b6ac39c22064086f08fb565dab44d69b965bd22da7dd43b06a2",
+          "title": "Atlanta Braves vs. Philadelphia Phillies",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0405,
+          "whale_direction": "Atlanta Braves",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-14",
+          "total_value_usd": 57737.18,
+          "result": "pending"
         }
       ]
     },
@@ -23523,10 +23551,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 504,
+      "signals_evaluated": 505,
       "correct": 171,
       "wrong": 298,
-      "pending": 35,
+      "pending": 36,
       "win_rate": 36.5,
       "signals": [
         {
@@ -30584,6 +30612,20 @@
           "end_date": "2026-09-14",
           "total_value_usd": 16527.56,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x89239acef4899b6ac39c22064086f08fb565dab44d69b965bd22da7dd43b06a2:0",
+          "condition_id": "0x89239acef4899b6ac39c22064086f08fb565dab44d69b965bd22da7dd43b06a2",
+          "title": "Atlanta Braves vs. Philadelphia Phillies",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0405,
+          "whale_direction": "Atlanta Braves",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-14",
+          "total_value_usd": 57737.18,
+          "result": "pending"
         }
       ]
     },

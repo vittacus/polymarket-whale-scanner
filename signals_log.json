@@ -342930,5 +342930,155 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-09-07T18:23:16+00:00",
+    "whale_timeframes": {
+      "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb1ca909e848cc24ec4e220ce1c453bc290c51705": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x709e8dcb133555794decc598e07f2c923b8366f5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa71093cafc0c099b4ccab24c3cb8018d817923c4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0e604be17c231a33dc01e38a722c7fe3984e3bad": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x78becf0a4e4f2640380af0c19ad32e2557e6bde0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb859a551fcf56e49416160911476bea7307152f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x23d81ba9371e576015c1e562db09c689f56b0288": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x821dab0565ebf5b327f51db06223fdcfe01acf16": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x208927449ac85131e4f34d0c499bfae71a24712e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x52f5efdfb8759d4b9be1fbe63f80401474445e8a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3a8aa345d5db7ec5138298c8c4f4540259be7699": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x288999fc80af0b29cd5b22fc1c2b8987db3b9226": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb9392e612a5b05063ca012b5dede548e16e5da70": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7ebf59f3a63072d03095c93640c6fd5c90ceafe2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x06dc51826bc524d9a83770e7de9dd7e005b04524": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x89239acef4899b6ac39c22064086f08fb565dab44d69b965bd22da7dd43b06a2:0",
+        "condition_id": "0x89239acef4899b6ac39c22064086f08fb565dab44d69b965bd22da7dd43b06a2",
+        "title": "Atlanta Braves vs. Philadelphia Phillies",
+        "outcome": "Atlanta Braves",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998",
+          "0xdb859a551fcf56e49416160911476bea7307152f",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16"
+        ],
+        "ranks": [
+          1,
+          8,
+          10
+        ],
+        "total_value_usd": 57737.18,
+        "score": 23.5034,
+        "category": "MLB",
+        "end_date": "2026-09-14",
+        "entry_price": 0.0405
+      }
+    ]
   }
 ]
