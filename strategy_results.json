@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-06T22:10:14+00:00",
-  "total_evaluated": 1171,
-  "total_pending": 65,
+  "generated_at": "2026-09-07T00:02:33+00:00",
+  "total_evaluated": 1173,
+  "total_pending": 64,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1171,
-      "correct": 696,
-      "wrong": 410,
-      "pending": 65,
-      "win_rate": 62.9,
+      "signals_evaluated": 1173,
+      "correct": 697,
+      "wrong": 412,
+      "pending": 64,
+      "win_rate": 62.8,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -16359,11 +16359,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Tampa Bay Rays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Texas Rangers",
+          "resolved_date": "2026-09-13",
           "end_date": "2026-09-13",
           "total_value_usd": 15445.63,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x89590ca70d26c93f1813c2f1bd8eeaf028d40b06c5309e3bf2141f0da9b933cc:1",
@@ -16387,11 +16387,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Tomas Etcheverry",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alex Michelsen",
+          "resolved_date": "2026-09-13",
           "end_date": "2026-09-13",
           "total_value_usd": 16127.35,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x7bfe038051234eae01398aff76a1706d1aa97cbe2dfa83781b4ed08cfb54f1a1:1",
@@ -16401,10 +16401,38 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Frances Tiafoe",
+          "resolved_outcome": "Frances Tiafoe",
+          "resolved_date": "2026-09-13",
+          "end_date": "2026-09-13",
+          "total_value_usd": 115800.86,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xa3dfcf60e40b5648c23ea1b7a2ca57b62977a4182b7a0988d23e748bef595596:0",
+          "condition_id": "0xa3dfcf60e40b5648c23ea1b7a2ca57b62977a4182b7a0988d23e748bef595596",
+          "title": "US Open ATP: Ben Shelton vs Stefanos Tsitsipas",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Ben Shelton",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-09-13",
-          "total_value_usd": 115800.86,
+          "total_value_usd": 543892.19,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x64439500b53cd74838b0cd455194ddbe1a2b3e67e8d4d71f4b6f45e8868efb35:0",
+          "condition_id": "0x64439500b53cd74838b0cd455194ddbe1a2b3e67e8d4d71f4b6f45e8868efb35",
+          "title": "US Open WTA: Jessica Pegula vs Sorana Cirstea",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Jessica Pegula",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-13",
+          "total_value_usd": 75094.72,
           "result": "pending"
         }
       ]
@@ -16413,11 +16441,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 501,
-      "correct": 294,
-      "wrong": 169,
-      "pending": 38,
-      "win_rate": 63.5,
+      "signals_evaluated": 503,
+      "correct": 295,
+      "wrong": 171,
+      "pending": 37,
+      "win_rate": 63.3,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -23385,11 +23413,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Tampa Bay Rays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Texas Rangers",
+          "resolved_date": "2026-09-13",
           "end_date": "2026-09-13",
           "total_value_usd": 15445.63,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x89590ca70d26c93f1813c2f1bd8eeaf028d40b06c5309e3bf2141f0da9b933cc:1",
@@ -23413,11 +23441,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Tomas Etcheverry",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alex Michelsen",
+          "resolved_date": "2026-09-13",
           "end_date": "2026-09-13",
           "total_value_usd": 16127.35,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x7bfe038051234eae01398aff76a1706d1aa97cbe2dfa83781b4ed08cfb54f1a1:1",
@@ -23427,10 +23455,38 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Frances Tiafoe",
+          "resolved_outcome": "Frances Tiafoe",
+          "resolved_date": "2026-09-13",
+          "end_date": "2026-09-13",
+          "total_value_usd": 115800.86,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xa3dfcf60e40b5648c23ea1b7a2ca57b62977a4182b7a0988d23e748bef595596:0",
+          "condition_id": "0xa3dfcf60e40b5648c23ea1b7a2ca57b62977a4182b7a0988d23e748bef595596",
+          "title": "US Open ATP: Ben Shelton vs Stefanos Tsitsipas",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Ben Shelton",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-09-13",
-          "total_value_usd": 115800.86,
+          "total_value_usd": 543892.19,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x64439500b53cd74838b0cd455194ddbe1a2b3e67e8d4d71f4b6f45e8868efb35:0",
+          "condition_id": "0x64439500b53cd74838b0cd455194ddbe1a2b3e67e8d4d71f4b6f45e8868efb35",
+          "title": "US Open WTA: Jessica Pegula vs Sorana Cirstea",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Jessica Pegula",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-13",
+          "total_value_usd": 75094.72,
           "result": "pending"
         }
       ]
@@ -23439,11 +23495,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 501,
-      "correct": 169,
-      "wrong": 294,
-      "pending": 38,
-      "win_rate": 36.5,
+      "signals_evaluated": 503,
+      "correct": 171,
+      "wrong": 295,
+      "pending": 37,
+      "win_rate": 36.7,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -30411,11 +30467,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Tampa Bay Rays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Texas Rangers",
+          "resolved_date": "2026-09-13",
           "end_date": "2026-09-13",
           "total_value_usd": 15445.63,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x89590ca70d26c93f1813c2f1bd8eeaf028d40b06c5309e3bf2141f0da9b933cc:1",
@@ -30439,11 +30495,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Tomas Etcheverry",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alex Michelsen",
+          "resolved_date": "2026-09-13",
           "end_date": "2026-09-13",
           "total_value_usd": 16127.35,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x7bfe038051234eae01398aff76a1706d1aa97cbe2dfa83781b4ed08cfb54f1a1:1",
@@ -30453,10 +30509,38 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Frances Tiafoe",
+          "resolved_outcome": "Frances Tiafoe",
+          "resolved_date": "2026-09-13",
+          "end_date": "2026-09-13",
+          "total_value_usd": 115800.86,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xa3dfcf60e40b5648c23ea1b7a2ca57b62977a4182b7a0988d23e748bef595596:0",
+          "condition_id": "0xa3dfcf60e40b5648c23ea1b7a2ca57b62977a4182b7a0988d23e748bef595596",
+          "title": "US Open ATP: Ben Shelton vs Stefanos Tsitsipas",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Ben Shelton",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-09-13",
-          "total_value_usd": 115800.86,
+          "total_value_usd": 543892.19,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x64439500b53cd74838b0cd455194ddbe1a2b3e67e8d4d71f4b6f45e8868efb35:0",
+          "condition_id": "0x64439500b53cd74838b0cd455194ddbe1a2b3e67e8d4d71f4b6f45e8868efb35",
+          "title": "US Open WTA: Jessica Pegula vs Sorana Cirstea",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Jessica Pegula",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-13",
+          "total_value_usd": 75094.72,
           "result": "pending"
         }
       ]
@@ -30465,10 +30549,10 @@
       "name": "Conviction Sizing",
       "description": "Total whale position >$500k",
       "hypothesis": "Signals where total position size exceeds $500k represent the highest-conviction whale bets. When top traders put serious capital behind a position, that's a qualitatively different signal from a small stake. This filters for only the highest-conviction consensus calls to test whether size predicts accuracy.",
-      "signals_evaluated": 37,
+      "signals_evaluated": 38,
       "correct": 22,
       "wrong": 9,
-      "pending": 6,
+      "pending": 7,
       "win_rate": 71.0,
       "signals": [
         {
@@ -30987,6 +31071,20 @@
           "resolved_date": null,
           "end_date": "2026-09-16",
           "total_value_usd": 4390351.9,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xa3dfcf60e40b5648c23ea1b7a2ca57b62977a4182b7a0988d23e748bef595596:0",
+          "condition_id": "0xa3dfcf60e40b5648c23ea1b7a2ca57b62977a4182b7a0988d23e748bef595596",
+          "title": "US Open ATP: Ben Shelton vs Stefanos Tsitsipas",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Ben Shelton",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-13",
+          "total_value_usd": 543892.19,
           "result": "pending"
         }
       ]
