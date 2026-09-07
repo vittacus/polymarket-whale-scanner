@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-07T02:32:49+00:00",
+  "generated_at": "2026-09-07T07:35:38+00:00",
   "total_signals": 1174,
-  "total_resolved": 1111,
-  "total_correct": 699,
+  "total_resolved": 1112,
+  "total_correct": 700,
   "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 618,
-      "resolved": 577,
-      "correct": 359,
-      "hit_rate": 62.2
+      "resolved": 578,
+      "correct": 360,
+      "hit_rate": 62.3
     },
     "Weak": {
       "total": 63,
@@ -19978,10 +19978,10 @@
       "total_value_usd": 16527.56,
       "entry_price": 0.0425,
       "end_date": "2026-09-14",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Los Angeles Dodgers",
+      "resolved_date": "2026-09-14"
     }
   ]
 }

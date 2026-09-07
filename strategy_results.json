@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-07T02:32:49+00:00",
+  "generated_at": "2026-09-07T07:35:38+00:00",
   "total_evaluated": 1174,
-  "total_pending": 63,
+  "total_pending": 62,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 1174,
-      "correct": 699,
+      "correct": 700,
       "wrong": 412,
-      "pending": 63,
+      "pending": 62,
       "win_rate": 62.9,
       "signals": [
         {
@@ -16443,11 +16443,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Dodgers",
+          "resolved_date": "2026-09-14",
           "end_date": "2026-09-14",
           "total_value_usd": 16527.56,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -16456,9 +16456,9 @@
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 504,
-      "correct": 297,
+      "correct": 298,
       "wrong": 171,
-      "pending": 36,
+      "pending": 35,
       "win_rate": 63.5,
       "signals": [
         {
@@ -23511,11 +23511,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Dodgers",
+          "resolved_date": "2026-09-14",
           "end_date": "2026-09-14",
           "total_value_usd": 16527.56,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -23525,8 +23525,8 @@
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 504,
       "correct": 171,
-      "wrong": 297,
-      "pending": 36,
+      "wrong": 298,
+      "pending": 35,
       "win_rate": 36.5,
       "signals": [
         {
@@ -30579,11 +30579,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Dodgers",
+          "resolved_date": "2026-09-14",
           "end_date": "2026-09-14",
           "total_value_usd": 16527.56,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
