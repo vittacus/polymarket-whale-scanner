@@ -343080,5 +343080,226 @@
         "entry_price": 0.0405
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-07T21:39:00+00:00",
+    "whale_timeframes": {
+      "0x0f6f76ced62a911bccef92f50faaff143854d977": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb1ca909e848cc24ec4e220ce1c453bc290c51705": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x78becf0a4e4f2640380af0c19ad32e2557e6bde0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x821dab0565ebf5b327f51db06223fdcfe01acf16": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa71093cafc0c099b4ccab24c3cb8018d817923c4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3a8aa345d5db7ec5138298c8c4f4540259be7699": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x23d81ba9371e576015c1e562db09c689f56b0288": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x208927449ac85131e4f34d0c499bfae71a24712e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdb859a551fcf56e49416160911476bea7307152f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe40ecff63ec661d218a86c048186ac83389a9770": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x52f5efdfb8759d4b9be1fbe63f80401474445e8a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb8ef617fd5d960e61e56c50d2971697300b32864": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd3b034d7bfb2473fb252d0414646d9786bac329e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f1d5ae26fc31472966e951af3183308736d8de2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x30c7ac0158499ddc6761047f7f69bcf7d036ac3b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xb7299024535d27679bef5f29ce57e7576d20655ebada1e2c40539b60102f4a20:1",
+        "condition_id": "0xb7299024535d27679bef5f29ce57e7576d20655ebada1e2c40539b60102f4a20",
+        "title": "US Open ATP: Francisco Cerundolo vs Alexander Blockx",
+        "outcome": "Alexander Blockx",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x78becf0a4e4f2640380af0c19ad32e2557e6bde0",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
+          "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7"
+        ],
+        "ranks": [
+          6,
+          7,
+          9,
+          10
+        ],
+        "total_value_usd": 315352.9,
+        "score": 11.536,
+        "category": "Tennis",
+        "end_date": "2026-09-13",
+        "entry_price": 0.0405
+      },
+      {
+        "signal_key": "0x11602c3e49309dc1db6990df88cf31eddf034a44df2a0303ffb3188b94ce553e:0",
+        "condition_id": "0x11602c3e49309dc1db6990df88cf31eddf034a44df2a0303ffb3188b94ce553e",
+        "title": "US Open ATP: Arthur Gea vs Botic van de Zandschulp",
+        "outcome": "Arthur Gea",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c"
+        ],
+        "ranks": [
+          3,
+          7,
+          9
+        ],
+        "total_value_usd": 46113.37,
+        "score": 11.0372,
+        "category": "Tennis",
+        "end_date": "2026-09-14",
+        "entry_price": 0.0405
+      },
+      {
+        "signal_key": "0x11602c3e49309dc1db6990df88cf31eddf034a44df2a0303ffb3188b94ce553e:1",
+        "condition_id": "0x11602c3e49309dc1db6990df88cf31eddf034a44df2a0303ffb3188b94ce553e",
+        "title": "US Open ATP: Arthur Gea vs Botic van de Zandschulp",
+        "outcome": "Botic van de Zandschulp",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x78becf0a4e4f2640380af0c19ad32e2557e6bde0",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0xdb859a551fcf56e49416160911476bea7307152f"
+        ],
+        "ranks": [
+          6,
+          7,
+          14
+        ],
+        "total_value_usd": 175062.23,
+        "score": 8.0486,
+        "category": "Tennis",
+        "end_date": "2026-09-14",
+        "entry_price": 0.0405
+      },
+      {
+        "signal_key": "0x72e6f4325ce193a0dfc3b27e00b8c300afeb2f435ae123592ad89963e7675eba:1",
+        "condition_id": "0x72e6f4325ce193a0dfc3b27e00b8c300afeb2f435ae123592ad89963e7675eba",
+        "title": "US Open WTA: Naomi Osaka vs Elena Rybakina",
+        "outcome": "Elena Rybakina",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0x208927449ac85131e4f34d0c499bfae71a24712e",
+          "0x52f5efdfb8759d4b9be1fbe63f80401474445e8a"
+        ],
+        "ranks": [
+          7,
+          13,
+          16
+        ],
+        "total_value_usd": 93128.09,
+        "score": 5.6521,
+        "category": "Tennis",
+        "end_date": "2026-09-14",
+        "entry_price": 0.0405
+      }
+    ]
   }
 ]
