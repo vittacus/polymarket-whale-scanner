@@ -342505,5 +342505,178 @@
         "entry_price": 0.0425
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-07T02:23:24+00:00",
+    "whale_timeframes": {
+      "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb1ca909e848cc24ec4e220ce1c453bc290c51705": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x92b66f8fd38cbf7526d97f6ce337231b256ff855": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x821dab0565ebf5b327f51db06223fdcfe01acf16": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x42477970683d4d0a52ec7082fee5d760cc5591c4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x06dc51826bc524d9a83770e7de9dd7e005b04524": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x52f5efdfb8759d4b9be1fbe63f80401474445e8a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x16bb9951a36fce71e2ef57890b786145e0ba8492": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f1d5ae26fc31472966e951af3183308736d8de2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5461052f2b30801b598d8090f9da01f870b192be": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x26b46988d027c6c03cfa12a7c0c6d778be49b8a9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9d84ce0306f8551e02efef1680475fc0f1dc1344": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbbf379252411511adab081f016dc991aa6bbaa3a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x86e99faea12fccd8925de5d9f052471baf7a4cdf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x9c49a169f2a83d408fd70970c7fcb214afed99be97a837ab8dea870e3db2a01e:1",
+        "condition_id": "0x9c49a169f2a83d408fd70970c7fcb214afed99be97a837ab8dea870e3db2a01e",
+        "title": "Washington Nationals vs. Los Angeles Dodgers",
+        "outcome": "Los Angeles Dodgers",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x92b66f8fd38cbf7526d97f6ce337231b256ff855",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
+        ],
+        "ranks": [
+          6,
+          13,
+          15
+        ],
+        "total_value_usd": 16527.56,
+        "score": 5.2736,
+        "category": "MLB",
+        "end_date": "2026-09-14",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0xa3b36b2d6104d34af4e6c6215fc818e43352e78a748fbfb0b85e3a35f71dec9a:0",
+        "condition_id": "0xa3b36b2d6104d34af4e6c6215fc818e43352e78a748fbfb0b85e3a35f71dec9a",
+        "title": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x42477970683d4d0a52ec7082fee5d760cc5591c4",
+          "0x9d84ce0306f8551e02efef1680475fc0f1dc1344",
+          "0x86e99faea12fccd8925de5d9f052471baf7a4cdf"
+        ],
+        "ranks": [
+          8,
+          18,
+          20
+        ],
+        "total_value_usd": 109282.96,
+        "score": 4.681,
+        "category": "fomc",
+        "end_date": "2026-09-16",
+        "entry_price": 0.505
+      }
+    ]
   }
 ]

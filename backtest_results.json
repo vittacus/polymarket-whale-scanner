@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-07T00:02:33+00:00",
-  "total_signals": 1173,
-  "total_resolved": 1109,
-  "total_correct": 697,
-  "overall_hit_rate": 62.8,
+  "generated_at": "2026-09-07T02:32:49+00:00",
+  "total_signals": 1174,
+  "total_resolved": 1111,
+  "total_correct": 699,
+  "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
       "total": 493,
@@ -12,10 +12,10 @@
       "hit_rate": 64.8
     },
     "Moderate": {
-      "total": 617,
-      "resolved": 575,
-      "correct": 357,
-      "hit_rate": 62.1
+      "total": 618,
+      "resolved": 577,
+      "correct": 359,
+      "hit_rate": 62.2
     },
     "Weak": {
       "total": 63,
@@ -19944,10 +19944,10 @@
       "total_value_usd": 543892.19,
       "entry_price": 0.0425,
       "end_date": "2026-09-13",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Ben Shelton",
+      "resolved_date": "2026-09-13"
     },
     {
       "signal_key": "0x64439500b53cd74838b0cd455194ddbe1a2b3e67e8d4d71f4b6f45e8868efb35:0",
@@ -19961,6 +19961,23 @@
       "total_value_usd": 75094.72,
       "entry_price": 0.0425,
       "end_date": "2026-09-13",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Jessica Pegula",
+      "resolved_date": "2026-09-13"
+    },
+    {
+      "signal_key": "0x9c49a169f2a83d408fd70970c7fcb214afed99be97a837ab8dea870e3db2a01e:1",
+      "condition_id": "0x9c49a169f2a83d408fd70970c7fcb214afed99be97a837ab8dea870e3db2a01e",
+      "title": "Washington Nationals vs. Los Angeles Dodgers",
+      "category": "MLB",
+      "whale_direction": "Los Angeles Dodgers",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 5.2736,
+      "total_value_usd": 16527.56,
+      "entry_price": 0.0425,
+      "end_date": "2026-09-14",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
