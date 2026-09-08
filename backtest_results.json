@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-07T23:55:41+00:00",
-  "total_signals": 1182,
-  "total_resolved": 1115,
-  "total_correct": 702,
-  "overall_hit_rate": 63.0,
+  "generated_at": "2026-09-08T02:45:47+00:00",
+  "total_signals": 1183,
+  "total_resolved": 1120,
+  "total_correct": 705,
+  "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
       "total": 498,
-      "resolved": 477,
-      "correct": 309,
-      "hit_rate": 64.8
+      "resolved": 480,
+      "correct": 310,
+      "hit_rate": 64.6
     },
     "Moderate": {
-      "total": 621,
-      "resolved": 579,
-      "correct": 361,
-      "hit_rate": 62.3
+      "total": 622,
+      "resolved": 581,
+      "correct": 363,
+      "hit_rate": 62.5
     },
     "Weak": {
       "total": 63,
@@ -20029,10 +20029,10 @@
       "total_value_usd": 46113.37,
       "entry_price": 0.0405,
       "end_date": "2026-09-14",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Botic van de Zandschulp",
+      "resolved_date": "2026-09-14"
     },
     {
       "signal_key": "0x11602c3e49309dc1db6990df88cf31eddf034a44df2a0303ffb3188b94ce553e:1",
@@ -20046,10 +20046,10 @@
       "total_value_usd": 175062.23,
       "entry_price": 0.0405,
       "end_date": "2026-09-14",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Botic van de Zandschulp",
+      "resolved_date": "2026-09-14"
     },
     {
       "signal_key": "0x72e6f4325ce193a0dfc3b27e00b8c300afeb2f435ae123592ad89963e7675eba:1",
@@ -20080,10 +20080,10 @@
       "total_value_usd": 387707.25,
       "entry_price": 0.0405,
       "end_date": "2026-09-14",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Karen Khachanov",
+      "resolved_date": "2026-09-14"
     },
     {
       "signal_key": "0x6cbe9b2a21f5588f68dc5adc9836741691a1574ff0c2bfd76f46e096c20e6568:1",
@@ -20097,10 +20097,10 @@
       "total_value_usd": 144981.75,
       "entry_price": 0.0405,
       "end_date": "2026-09-14",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "San Diego Padres",
+      "resolved_date": "2026-09-14"
     },
     {
       "signal_key": "0xc340bd1a00f838b4d6e01ef78737525e28611b010755af341b95cc909a6909a1:0",
@@ -20112,6 +20112,23 @@
       "tier": "Moderate",
       "score": 8.6845,
       "total_value_usd": 43619.07,
+      "entry_price": 0.0405,
+      "end_date": "2026-09-14",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Karen Khachanov",
+      "resolved_date": "2026-09-14"
+    },
+    {
+      "signal_key": "0x72f38d5d67a43790fca5028dd465318dfcb521a778baeb6f5ba3b10712ada032:0",
+      "condition_id": "0x72f38d5d67a43790fca5028dd465318dfcb521a778baeb6f5ba3b10712ada032",
+      "title": "US Open ATP: Alexander Zverev vs Luciano Darderi",
+      "category": "Tennis",
+      "whale_direction": "Alexander Zverev",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 6.4676,
+      "total_value_usd": 433748.55,
       "entry_price": 0.0405,
       "end_date": "2026-09-14",
       "resolved": false,

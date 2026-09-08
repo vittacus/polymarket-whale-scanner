@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-07T23:55:41+00:00",
-  "total_evaluated": 1182,
-  "total_pending": 67,
+  "generated_at": "2026-09-08T02:45:47+00:00",
+  "total_evaluated": 1183,
+  "total_pending": 63,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1182,
-      "correct": 702,
-      "wrong": 413,
-      "pending": 67,
-      "win_rate": 63.0,
+      "signals_evaluated": 1183,
+      "correct": 705,
+      "wrong": 415,
+      "pending": 63,
+      "win_rate": 62.9,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -16485,11 +16485,11 @@
           "tier": "Strong",
           "entry_price": 0.0405,
           "whale_direction": "Arthur Gea",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Botic van de Zandschulp",
+          "resolved_date": "2026-09-14",
           "end_date": "2026-09-14",
           "total_value_usd": 46113.37,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x11602c3e49309dc1db6990df88cf31eddf034a44df2a0303ffb3188b94ce553e:1",
@@ -16499,11 +16499,11 @@
           "tier": "Moderate",
           "entry_price": 0.0405,
           "whale_direction": "Botic van de Zandschulp",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Botic van de Zandschulp",
+          "resolved_date": "2026-09-14",
           "end_date": "2026-09-14",
           "total_value_usd": 175062.23,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x72e6f4325ce193a0dfc3b27e00b8c300afeb2f435ae123592ad89963e7675eba:1",
@@ -16527,11 +16527,11 @@
           "tier": "Strong",
           "entry_price": 0.0405,
           "whale_direction": "Learner Tien",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Karen Khachanov",
+          "resolved_date": "2026-09-14",
           "end_date": "2026-09-14",
           "total_value_usd": 387707.25,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x6cbe9b2a21f5588f68dc5adc9836741691a1574ff0c2bfd76f46e096c20e6568:1",
@@ -16541,11 +16541,11 @@
           "tier": "Strong",
           "entry_price": 0.0405,
           "whale_direction": "San Diego Padres",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "San Diego Padres",
+          "resolved_date": "2026-09-14",
           "end_date": "2026-09-14",
           "total_value_usd": 144981.75,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc340bd1a00f838b4d6e01ef78737525e28611b010755af341b95cc909a6909a1:0",
@@ -16555,10 +16555,24 @@
           "tier": "Moderate",
           "entry_price": 0.0405,
           "whale_direction": "Karen Khachanov",
+          "resolved_outcome": "Karen Khachanov",
+          "resolved_date": "2026-09-14",
+          "end_date": "2026-09-14",
+          "total_value_usd": 43619.07,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x72f38d5d67a43790fca5028dd465318dfcb521a778baeb6f5ba3b10712ada032:0",
+          "condition_id": "0x72f38d5d67a43790fca5028dd465318dfcb521a778baeb6f5ba3b10712ada032",
+          "title": "US Open ATP: Alexander Zverev vs Luciano Darderi",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0405,
+          "whale_direction": "Alexander Zverev",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-09-14",
-          "total_value_usd": 43619.07,
+          "total_value_usd": 433748.55,
           "result": "pending"
         }
       ]
@@ -16567,11 +16581,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 512,
-      "correct": 300,
-      "wrong": 172,
-      "pending": 40,
-      "win_rate": 63.6,
+      "signals_evaluated": 513,
+      "correct": 303,
+      "wrong": 174,
+      "pending": 36,
+      "win_rate": 63.5,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -23665,11 +23679,11 @@
           "tier": "Strong",
           "entry_price": 0.0405,
           "whale_direction": "Arthur Gea",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Botic van de Zandschulp",
+          "resolved_date": "2026-09-14",
           "end_date": "2026-09-14",
           "total_value_usd": 46113.37,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x11602c3e49309dc1db6990df88cf31eddf034a44df2a0303ffb3188b94ce553e:1",
@@ -23679,11 +23693,11 @@
           "tier": "Moderate",
           "entry_price": 0.0405,
           "whale_direction": "Botic van de Zandschulp",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Botic van de Zandschulp",
+          "resolved_date": "2026-09-14",
           "end_date": "2026-09-14",
           "total_value_usd": 175062.23,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x72e6f4325ce193a0dfc3b27e00b8c300afeb2f435ae123592ad89963e7675eba:1",
@@ -23707,11 +23721,11 @@
           "tier": "Strong",
           "entry_price": 0.0405,
           "whale_direction": "Learner Tien",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Karen Khachanov",
+          "resolved_date": "2026-09-14",
           "end_date": "2026-09-14",
           "total_value_usd": 387707.25,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x6cbe9b2a21f5588f68dc5adc9836741691a1574ff0c2bfd76f46e096c20e6568:1",
@@ -23721,11 +23735,11 @@
           "tier": "Strong",
           "entry_price": 0.0405,
           "whale_direction": "San Diego Padres",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "San Diego Padres",
+          "resolved_date": "2026-09-14",
           "end_date": "2026-09-14",
           "total_value_usd": 144981.75,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc340bd1a00f838b4d6e01ef78737525e28611b010755af341b95cc909a6909a1:0",
@@ -23735,10 +23749,24 @@
           "tier": "Moderate",
           "entry_price": 0.0405,
           "whale_direction": "Karen Khachanov",
+          "resolved_outcome": "Karen Khachanov",
+          "resolved_date": "2026-09-14",
+          "end_date": "2026-09-14",
+          "total_value_usd": 43619.07,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x72f38d5d67a43790fca5028dd465318dfcb521a778baeb6f5ba3b10712ada032:0",
+          "condition_id": "0x72f38d5d67a43790fca5028dd465318dfcb521a778baeb6f5ba3b10712ada032",
+          "title": "US Open ATP: Alexander Zverev vs Luciano Darderi",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0405,
+          "whale_direction": "Alexander Zverev",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-09-14",
-          "total_value_usd": 43619.07,
+          "total_value_usd": 433748.55,
           "result": "pending"
         }
       ]
@@ -23747,11 +23775,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 512,
-      "correct": 172,
-      "wrong": 300,
-      "pending": 40,
-      "win_rate": 36.4,
+      "signals_evaluated": 513,
+      "correct": 174,
+      "wrong": 303,
+      "pending": 36,
+      "win_rate": 36.5,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -30845,11 +30873,11 @@
           "tier": "Strong",
           "entry_price": 0.0405,
           "whale_direction": "Arthur Gea",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Botic van de Zandschulp",
+          "resolved_date": "2026-09-14",
           "end_date": "2026-09-14",
           "total_value_usd": 46113.37,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x11602c3e49309dc1db6990df88cf31eddf034a44df2a0303ffb3188b94ce553e:1",
@@ -30859,11 +30887,11 @@
           "tier": "Moderate",
           "entry_price": 0.0405,
           "whale_direction": "Botic van de Zandschulp",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Botic van de Zandschulp",
+          "resolved_date": "2026-09-14",
           "end_date": "2026-09-14",
           "total_value_usd": 175062.23,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x72e6f4325ce193a0dfc3b27e00b8c300afeb2f435ae123592ad89963e7675eba:1",
@@ -30887,11 +30915,11 @@
           "tier": "Strong",
           "entry_price": 0.0405,
           "whale_direction": "Learner Tien",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Karen Khachanov",
+          "resolved_date": "2026-09-14",
           "end_date": "2026-09-14",
           "total_value_usd": 387707.25,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x6cbe9b2a21f5588f68dc5adc9836741691a1574ff0c2bfd76f46e096c20e6568:1",
@@ -30901,11 +30929,11 @@
           "tier": "Strong",
           "entry_price": 0.0405,
           "whale_direction": "San Diego Padres",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "San Diego Padres",
+          "resolved_date": "2026-09-14",
           "end_date": "2026-09-14",
           "total_value_usd": 144981.75,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xc340bd1a00f838b4d6e01ef78737525e28611b010755af341b95cc909a6909a1:0",
@@ -30915,10 +30943,24 @@
           "tier": "Moderate",
           "entry_price": 0.0405,
           "whale_direction": "Karen Khachanov",
+          "resolved_outcome": "Karen Khachanov",
+          "resolved_date": "2026-09-14",
+          "end_date": "2026-09-14",
+          "total_value_usd": 43619.07,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x72f38d5d67a43790fca5028dd465318dfcb521a778baeb6f5ba3b10712ada032:0",
+          "condition_id": "0x72f38d5d67a43790fca5028dd465318dfcb521a778baeb6f5ba3b10712ada032",
+          "title": "US Open ATP: Alexander Zverev vs Luciano Darderi",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0405,
+          "whale_direction": "Alexander Zverev",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-09-14",
-          "total_value_usd": 43619.07,
+          "total_value_usd": 433748.55,
           "result": "pending"
         }
       ]
