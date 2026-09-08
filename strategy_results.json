@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-08T16:49:43+00:00",
-  "total_evaluated": 1183,
-  "total_pending": 62,
+  "generated_at": "2026-09-08T19:44:46+00:00",
+  "total_evaluated": 1184,
+  "total_pending": 63,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1183,
+      "signals_evaluated": 1184,
       "correct": 706,
       "wrong": 415,
-      "pending": 62,
+      "pending": 63,
       "win_rate": 63.0,
       "signals": [
         {
@@ -16574,6 +16574,20 @@
           "end_date": "2026-09-14",
           "total_value_usd": 433748.55,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x2e1e684b3312b9f06072575f01fb77237e0b94bdcfcc477a553e8685cea91b82:1",
+          "condition_id": "0x2e1e684b3312b9f06072575f01fb77237e0b94bdcfcc477a553e8685cea91b82",
+          "title": "US Open ATP: Frances Tiafoe vs Alex Michelsen",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0385,
+          "whale_direction": "Alex Michelsen",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-15",
+          "total_value_usd": 156163.03,
+          "result": "pending"
         }
       ]
     },
@@ -16581,10 +16595,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 513,
+      "signals_evaluated": 514,
       "correct": 304,
       "wrong": 174,
-      "pending": 35,
+      "pending": 36,
       "win_rate": 63.6,
       "signals": [
         {
@@ -23768,6 +23782,20 @@
           "end_date": "2026-09-14",
           "total_value_usd": 433748.55,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x2e1e684b3312b9f06072575f01fb77237e0b94bdcfcc477a553e8685cea91b82:1",
+          "condition_id": "0x2e1e684b3312b9f06072575f01fb77237e0b94bdcfcc477a553e8685cea91b82",
+          "title": "US Open ATP: Frances Tiafoe vs Alex Michelsen",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0385,
+          "whale_direction": "Alex Michelsen",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-15",
+          "total_value_usd": 156163.03,
+          "result": "pending"
         }
       ]
     },
@@ -23775,10 +23803,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 513,
+      "signals_evaluated": 514,
       "correct": 174,
       "wrong": 304,
-      "pending": 35,
+      "pending": 36,
       "win_rate": 36.4,
       "signals": [
         {
@@ -30962,6 +30990,20 @@
           "end_date": "2026-09-14",
           "total_value_usd": 433748.55,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x2e1e684b3312b9f06072575f01fb77237e0b94bdcfcc477a553e8685cea91b82:1",
+          "condition_id": "0x2e1e684b3312b9f06072575f01fb77237e0b94bdcfcc477a553e8685cea91b82",
+          "title": "US Open ATP: Frances Tiafoe vs Alex Michelsen",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0385,
+          "whale_direction": "Alex Michelsen",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-15",
+          "total_value_usd": 156163.03,
+          "result": "pending"
         }
       ]
     },

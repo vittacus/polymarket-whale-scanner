@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-08T16:49:43+00:00",
-  "total_signals": 1183,
+  "generated_at": "2026-09-08T19:44:45+00:00",
+  "total_signals": 1184,
   "total_resolved": 1121,
   "total_correct": 706,
   "overall_hit_rate": 63.0,
   "by_tier": {
     "Strong": {
-      "total": 498,
+      "total": 499,
       "resolved": 480,
       "correct": 310,
       "hit_rate": 64.6
@@ -20135,6 +20135,23 @@
       "correct": true,
       "resolved_outcome": "Alexander Zverev",
       "resolved_date": "2026-09-14"
+    },
+    {
+      "signal_key": "0x2e1e684b3312b9f06072575f01fb77237e0b94bdcfcc477a553e8685cea91b82:1",
+      "condition_id": "0x2e1e684b3312b9f06072575f01fb77237e0b94bdcfcc477a553e8685cea91b82",
+      "title": "US Open ATP: Frances Tiafoe vs Alex Michelsen",
+      "category": "Tennis",
+      "whale_direction": "Alex Michelsen",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 38.3674,
+      "total_value_usd": 156163.03,
+      "entry_price": 0.0385,
+      "end_date": "2026-09-15",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
