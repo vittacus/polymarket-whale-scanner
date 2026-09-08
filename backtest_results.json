@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-08T02:45:47+00:00",
+  "generated_at": "2026-09-08T07:34:47+00:00",
   "total_signals": 1183,
-  "total_resolved": 1120,
-  "total_correct": 705,
-  "overall_hit_rate": 62.9,
+  "total_resolved": 1121,
+  "total_correct": 706,
+  "overall_hit_rate": 63.0,
   "by_tier": {
     "Strong": {
       "total": 498,
@@ -13,8 +13,8 @@
     },
     "Moderate": {
       "total": 622,
-      "resolved": 581,
-      "correct": 363,
+      "resolved": 582,
+      "correct": 364,
       "hit_rate": 62.5
     },
     "Weak": {
@@ -20131,10 +20131,10 @@
       "total_value_usd": 433748.55,
       "entry_price": 0.0405,
       "end_date": "2026-09-14",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Alexander Zverev",
+      "resolved_date": "2026-09-14"
     }
   ]
 }
