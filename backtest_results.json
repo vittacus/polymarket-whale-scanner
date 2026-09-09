@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-09T04:50:54+00:00",
-  "total_signals": 1188,
-  "total_resolved": 1122,
-  "total_correct": 706,
-  "overall_hit_rate": 62.9,
+  "generated_at": "2026-09-09T09:22:24+00:00",
+  "total_signals": 1189,
+  "total_resolved": 1126,
+  "total_correct": 709,
+  "overall_hit_rate": 63.0,
   "by_tier": {
     "Strong": {
-      "total": 503,
-      "resolved": 481,
-      "correct": 310,
-      "hit_rate": 64.4
+      "total": 504,
+      "resolved": 485,
+      "correct": 313,
+      "hit_rate": 64.5
     },
     "Moderate": {
       "total": 622,
@@ -20165,10 +20165,10 @@
       "total_value_usd": 429719.61,
       "entry_price": 0.0385,
       "end_date": "2026-09-15",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Ben Shelton",
+      "resolved_date": "2026-09-15"
     },
     {
       "signal_key": "0x1e93e33beecbd9ae3dbe35a7c263b5d1a6d81084f6eed57e16b7fba56821ea1b:0",
@@ -20182,10 +20182,10 @@
       "total_value_usd": 127940.86,
       "entry_price": 0.0385,
       "end_date": "2026-09-15",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Ben Shelton",
+      "resolved_date": "2026-09-15"
     },
     {
       "signal_key": "0x7e706b11ce32a72f0dcfc45ed873bfb99a698751472416106489b365c672a375:1",
@@ -20199,10 +20199,10 @@
       "total_value_usd": 20951.95,
       "entry_price": 0.0385,
       "end_date": "2026-09-16",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Los Angeles Dodgers",
+      "resolved_date": "2026-09-16"
     },
     {
       "signal_key": "0x7f6c21fabbf97bb18ba07e445f72b0dbf0148a4fe0e0d5e8845724794371fefa:0",
@@ -20216,6 +20216,23 @@
       "total_value_usd": 46940.5,
       "entry_price": 0.0385,
       "end_date": "2026-09-16",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Texas Rangers",
+      "resolved_date": "2026-09-16"
+    },
+    {
+      "signal_key": "0xcf4cf0cf9882b50018054826d561f688e319e6e51de956437fa6dbf642696a40:1",
+      "condition_id": "0xcf4cf0cf9882b50018054826d561f688e319e6e51de956437fa6dbf642696a40",
+      "title": "Will Carlos Alcaraz win the 2026 Men's US Open?",
+      "category": "US Open",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 13.3055,
+      "total_value_usd": 305393.84,
+      "entry_price": 0.0385,
+      "end_date": "2026-09-13",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

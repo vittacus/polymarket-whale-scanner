@@ -344753,5 +344753,182 @@
         "entry_price": 0.505
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-09T09:11:42+00:00",
+    "whale_timeframes": {
+      "0xc2e7800b5af46e6093872b177b7a5e7f0563be51": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0e604be17c231a33dc01e38a722c7fe3984e3bad": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x709e8dcb133555794decc598e07f2c923b8366f5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x18aa8876fb0b103590ba8fd9744a6eabf5bdf959": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x29b52d98ac9ef9414b04164246c95bc63d74cc6c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xad7f8a6fa4a425f808d71fc4d79b0974a3fa0988": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5ad7346a9f6b4a1ad852ec8e0716d446527cae48": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa080dadd87036ad01dbf5e9c254b0c3dbdba234f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7c37b52eb226bcb9411375ec48b0169663fb6aeb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb1ca909e848cc24ec4e220ce1c453bc290c51705": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5fd86de46798abe62b3b1a45911477a6bd6cce32": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6f3e7f25baa7d2d49e15e2d2957ff3dec62cbcf8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x79ae097215202b5d01f98e4479fb219102469a4a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0a5392910ef4f236c60d212b4b4cd2c82adb077b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x21f333307ac6d2e65ac82f014b3dd2b64cbc35e3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xcf4cf0cf9882b50018054826d561f688e319e6e51de956437fa6dbf642696a40:1",
+        "condition_id": "0xcf4cf0cf9882b50018054826d561f688e319e6e51de956437fa6dbf642696a40",
+        "title": "Will Carlos Alcaraz win the 2026 Men's US Open?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x5ad7346a9f6b4a1ad852ec8e0716d446527cae48",
+          "0xa080dadd87036ad01dbf5e9c254b0c3dbdba234f",
+          "0x5fd86de46798abe62b3b1a45911477a6bd6cce32"
+        ],
+        "ranks": [
+          3,
+          9,
+          11,
+          15
+        ],
+        "total_value_usd": 305393.84,
+        "score": 13.3055,
+        "category": "US Open",
+        "end_date": "2026-09-13",
+        "entry_price": 0.0385
+      },
+      {
+        "signal_key": "0x39b718f6e0a66a3ae5e459e76c74a694b521eaff5f6015857d1d191f1fc03c61:0",
+        "condition_id": "0x39b718f6e0a66a3ae5e459e76c74a694b521eaff5f6015857d1d191f1fc03c61",
+        "title": "Will Alexander Zverev win the 2026 Men's US Open?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x5ad7346a9f6b4a1ad852ec8e0716d446527cae48",
+          "0xa080dadd87036ad01dbf5e9c254b0c3dbdba234f",
+          "0x6f3e7f25baa7d2d49e15e2d2957ff3dec62cbcf8"
+        ],
+        "ranks": [
+          3,
+          9,
+          11,
+          17
+        ],
+        "total_value_usd": 51024.82,
+        "score": 11.2716,
+        "category": "US Open",
+        "end_date": "2026-09-13",
+        "entry_price": 0.0445
+      }
+    ]
   }
 ]

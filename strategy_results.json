@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-09T04:50:54+00:00",
-  "total_evaluated": 1188,
-  "total_pending": 66,
+  "generated_at": "2026-09-09T09:22:24+00:00",
+  "total_evaluated": 1189,
+  "total_pending": 63,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1188,
-      "correct": 706,
-      "wrong": 416,
-      "pending": 66,
-      "win_rate": 62.9,
+      "signals_evaluated": 1189,
+      "correct": 709,
+      "wrong": 417,
+      "pending": 63,
+      "win_rate": 63.0,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -16597,11 +16597,11 @@
           "tier": "Strong",
           "entry_price": 0.0385,
           "whale_direction": "Carlos Alcaraz",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Ben Shelton",
+          "resolved_date": "2026-09-15",
           "end_date": "2026-09-15",
           "total_value_usd": 429719.61,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x1e93e33beecbd9ae3dbe35a7c263b5d1a6d81084f6eed57e16b7fba56821ea1b:0",
@@ -16611,11 +16611,11 @@
           "tier": "Strong",
           "entry_price": 0.0385,
           "whale_direction": "Ben Shelton",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Ben Shelton",
+          "resolved_date": "2026-09-15",
           "end_date": "2026-09-15",
           "total_value_usd": 127940.86,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x7e706b11ce32a72f0dcfc45ed873bfb99a698751472416106489b365c672a375:1",
@@ -16625,11 +16625,11 @@
           "tier": "Strong",
           "entry_price": 0.0385,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Dodgers",
+          "resolved_date": "2026-09-16",
           "end_date": "2026-09-16",
           "total_value_usd": 20951.95,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x7f6c21fabbf97bb18ba07e445f72b0dbf0148a4fe0e0d5e8845724794371fefa:0",
@@ -16639,10 +16639,24 @@
           "tier": "Strong",
           "entry_price": 0.0385,
           "whale_direction": "Texas Rangers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Texas Rangers",
+          "resolved_date": "2026-09-16",
           "end_date": "2026-09-16",
           "total_value_usd": 46940.5,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xcf4cf0cf9882b50018054826d561f688e319e6e51de956437fa6dbf642696a40:1",
+          "condition_id": "0xcf4cf0cf9882b50018054826d561f688e319e6e51de956437fa6dbf642696a40",
+          "title": "Will Carlos Alcaraz win the 2026 Men's US Open?",
+          "category": "US Open",
+          "tier": "Strong",
+          "entry_price": 0.0385,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-13",
+          "total_value_usd": 305393.84,
           "result": "pending"
         }
       ]
@@ -16651,11 +16665,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 518,
-      "correct": 304,
-      "wrong": 175,
-      "pending": 39,
-      "win_rate": 63.5,
+      "signals_evaluated": 519,
+      "correct": 307,
+      "wrong": 176,
+      "pending": 36,
+      "win_rate": 63.6,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -23861,11 +23875,11 @@
           "tier": "Strong",
           "entry_price": 0.0385,
           "whale_direction": "Carlos Alcaraz",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Ben Shelton",
+          "resolved_date": "2026-09-15",
           "end_date": "2026-09-15",
           "total_value_usd": 429719.61,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x1e93e33beecbd9ae3dbe35a7c263b5d1a6d81084f6eed57e16b7fba56821ea1b:0",
@@ -23875,11 +23889,11 @@
           "tier": "Strong",
           "entry_price": 0.0385,
           "whale_direction": "Ben Shelton",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Ben Shelton",
+          "resolved_date": "2026-09-15",
           "end_date": "2026-09-15",
           "total_value_usd": 127940.86,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x7e706b11ce32a72f0dcfc45ed873bfb99a698751472416106489b365c672a375:1",
@@ -23889,11 +23903,11 @@
           "tier": "Strong",
           "entry_price": 0.0385,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Dodgers",
+          "resolved_date": "2026-09-16",
           "end_date": "2026-09-16",
           "total_value_usd": 20951.95,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x7f6c21fabbf97bb18ba07e445f72b0dbf0148a4fe0e0d5e8845724794371fefa:0",
@@ -23903,10 +23917,24 @@
           "tier": "Strong",
           "entry_price": 0.0385,
           "whale_direction": "Texas Rangers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Texas Rangers",
+          "resolved_date": "2026-09-16",
           "end_date": "2026-09-16",
           "total_value_usd": 46940.5,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xcf4cf0cf9882b50018054826d561f688e319e6e51de956437fa6dbf642696a40:1",
+          "condition_id": "0xcf4cf0cf9882b50018054826d561f688e319e6e51de956437fa6dbf642696a40",
+          "title": "Will Carlos Alcaraz win the 2026 Men's US Open?",
+          "category": "US Open",
+          "tier": "Strong",
+          "entry_price": 0.0385,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-13",
+          "total_value_usd": 305393.84,
           "result": "pending"
         }
       ]
@@ -23915,11 +23943,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 518,
-      "correct": 175,
-      "wrong": 304,
-      "pending": 39,
-      "win_rate": 36.5,
+      "signals_evaluated": 519,
+      "correct": 176,
+      "wrong": 307,
+      "pending": 36,
+      "win_rate": 36.4,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -31125,11 +31153,11 @@
           "tier": "Strong",
           "entry_price": 0.0385,
           "whale_direction": "Carlos Alcaraz",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Ben Shelton",
+          "resolved_date": "2026-09-15",
           "end_date": "2026-09-15",
           "total_value_usd": 429719.61,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x1e93e33beecbd9ae3dbe35a7c263b5d1a6d81084f6eed57e16b7fba56821ea1b:0",
@@ -31139,11 +31167,11 @@
           "tier": "Strong",
           "entry_price": 0.0385,
           "whale_direction": "Ben Shelton",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Ben Shelton",
+          "resolved_date": "2026-09-15",
           "end_date": "2026-09-15",
           "total_value_usd": 127940.86,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x7e706b11ce32a72f0dcfc45ed873bfb99a698751472416106489b365c672a375:1",
@@ -31153,11 +31181,11 @@
           "tier": "Strong",
           "entry_price": 0.0385,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Dodgers",
+          "resolved_date": "2026-09-16",
           "end_date": "2026-09-16",
           "total_value_usd": 20951.95,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x7f6c21fabbf97bb18ba07e445f72b0dbf0148a4fe0e0d5e8845724794371fefa:0",
@@ -31167,10 +31195,24 @@
           "tier": "Strong",
           "entry_price": 0.0385,
           "whale_direction": "Texas Rangers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Texas Rangers",
+          "resolved_date": "2026-09-16",
           "end_date": "2026-09-16",
           "total_value_usd": 46940.5,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xcf4cf0cf9882b50018054826d561f688e319e6e51de956437fa6dbf642696a40:1",
+          "condition_id": "0xcf4cf0cf9882b50018054826d561f688e319e6e51de956437fa6dbf642696a40",
+          "title": "Will Carlos Alcaraz win the 2026 Men's US Open?",
+          "category": "US Open",
+          "tier": "Strong",
+          "entry_price": 0.0385,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-13",
+          "total_value_usd": 305393.84,
           "result": "pending"
         }
       ]
