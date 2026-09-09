@@ -344503,5 +344503,255 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-09-09T04:41:24+00:00",
+    "whale_timeframes": {
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x78becf0a4e4f2640380af0c19ad32e2557e6bde0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4ab9b54427ec4b7f3646b1a0ef1bed73bc708ebe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3d8a89a20aa73fba0f30d080e8120de9f9555724": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x821dab0565ebf5b327f51db06223fdcfe01acf16": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x16bb9951a36fce71e2ef57890b786145e0ba8492": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x531b6a892346bdad09a2f2197ea202fb41a132b6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0d18e30e252008d83f51dae00d36873ddd9e24a6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x96489abcb9f583d6835c8ef95ffc923d05a86825": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0f35109cc3ceaf729609c3109310791bd616c84a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xec981ed70ae69c5cbcac08c1ba063e734f6bafcd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x161a7f666ca49d592848cf415b42f49a84714103": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x782186952ef2ca75ea91c95aef25bbdcffb4bb1a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x1e93e33beecbd9ae3dbe35a7c263b5d1a6d81084f6eed57e16b7fba56821ea1b:1",
+        "condition_id": "0x1e93e33beecbd9ae3dbe35a7c263b5d1a6d81084f6eed57e16b7fba56821ea1b",
+        "title": "US Open ATP: Ben Shelton vs Carlos Alcaraz",
+        "outcome": "Carlos Alcaraz",
+        "outcome_index": 1,
+        "whale_count": 5,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x78becf0a4e4f2640380af0c19ad32e2557e6bde0",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+        ],
+        "ranks": [
+          1,
+          2,
+          8,
+          15,
+          19
+        ],
+        "total_value_usd": 429719.61,
+        "score": 39.5939,
+        "category": "Tennis",
+        "end_date": "2026-09-15",
+        "entry_price": 0.0385
+      },
+      {
+        "signal_key": "0x1e93e33beecbd9ae3dbe35a7c263b5d1a6d81084f6eed57e16b7fba56821ea1b:0",
+        "condition_id": "0x1e93e33beecbd9ae3dbe35a7c263b5d1a6d81084f6eed57e16b7fba56821ea1b",
+        "title": "US Open ATP: Ben Shelton vs Carlos Alcaraz",
+        "outcome": "Ben Shelton",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e"
+        ],
+        "ranks": [
+          1,
+          8,
+          19,
+          20
+        ],
+        "total_value_usd": 127940.86,
+        "score": 25.2632,
+        "category": "Tennis",
+        "end_date": "2026-09-15",
+        "entry_price": 0.0385
+      },
+      {
+        "signal_key": "0x7e706b11ce32a72f0dcfc45ed873bfb99a698751472416106489b365c672a375:1",
+        "condition_id": "0x7e706b11ce32a72f0dcfc45ed873bfb99a698751472416106489b365c672a375",
+        "title": "Cincinnati Reds vs. Los Angeles Dodgers",
+        "outcome": "Los Angeles Dodgers",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0xec981ed70ae69c5cbcac08c1ba063e734f6bafcd",
+          "0x161a7f666ca49d592848cf415b42f49a84714103"
+        ],
+        "ranks": [
+          1,
+          8,
+          14,
+          17
+        ],
+        "total_value_usd": 20951.95,
+        "score": 21.8572,
+        "category": "MLB",
+        "end_date": "2026-09-16",
+        "entry_price": 0.0385
+      },
+      {
+        "signal_key": "0x7f6c21fabbf97bb18ba07e445f72b0dbf0148a4fe0e0d5e8845724794371fefa:0",
+        "condition_id": "0x7f6c21fabbf97bb18ba07e445f72b0dbf0148a4fe0e0d5e8845724794371fefa",
+        "title": "Texas Rangers vs. Seattle Mariners",
+        "outcome": "Texas Rangers",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x78becf0a4e4f2640380af0c19ad32e2557e6bde0",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e"
+        ],
+        "ranks": [
+          2,
+          8,
+          20
+        ],
+        "total_value_usd": 46940.5,
+        "score": 12.7063,
+        "category": "MLB",
+        "end_date": "2026-09-16",
+        "entry_price": 0.0385
+      },
+      {
+        "signal_key": "0xa3b36b2d6104d34af4e6c6215fc818e43352e78a748fbfb0b85e3a35f71dec9a:0",
+        "condition_id": "0xa3b36b2d6104d34af4e6c6215fc818e43352e78a748fbfb0b85e3a35f71dec9a",
+        "title": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x96489abcb9f583d6835c8ef95ffc923d05a86825",
+          "0xec981ed70ae69c5cbcac08c1ba063e734f6bafcd",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e"
+        ],
+        "ranks": [
+          12,
+          14,
+          20
+        ],
+        "total_value_usd": 74472.58,
+        "score": 4.0199,
+        "category": "fomc",
+        "end_date": "2026-09-16",
+        "entry_price": 0.505
+      }
+    ]
   }
 ]

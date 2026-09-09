@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-09T00:20:58+00:00",
-  "total_evaluated": 1184,
-  "total_pending": 62,
+  "generated_at": "2026-09-09T04:50:54+00:00",
+  "total_evaluated": 1188,
+  "total_pending": 66,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1184,
+      "signals_evaluated": 1188,
       "correct": 706,
       "wrong": 416,
-      "pending": 62,
+      "pending": 66,
       "win_rate": 62.9,
       "signals": [
         {
@@ -16588,6 +16588,62 @@
           "end_date": "2026-09-15",
           "total_value_usd": 156163.03,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x1e93e33beecbd9ae3dbe35a7c263b5d1a6d81084f6eed57e16b7fba56821ea1b:1",
+          "condition_id": "0x1e93e33beecbd9ae3dbe35a7c263b5d1a6d81084f6eed57e16b7fba56821ea1b",
+          "title": "US Open ATP: Ben Shelton vs Carlos Alcaraz",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0385,
+          "whale_direction": "Carlos Alcaraz",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-15",
+          "total_value_usd": 429719.61,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x1e93e33beecbd9ae3dbe35a7c263b5d1a6d81084f6eed57e16b7fba56821ea1b:0",
+          "condition_id": "0x1e93e33beecbd9ae3dbe35a7c263b5d1a6d81084f6eed57e16b7fba56821ea1b",
+          "title": "US Open ATP: Ben Shelton vs Carlos Alcaraz",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0385,
+          "whale_direction": "Ben Shelton",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-15",
+          "total_value_usd": 127940.86,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x7e706b11ce32a72f0dcfc45ed873bfb99a698751472416106489b365c672a375:1",
+          "condition_id": "0x7e706b11ce32a72f0dcfc45ed873bfb99a698751472416106489b365c672a375",
+          "title": "Cincinnati Reds vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0385,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-16",
+          "total_value_usd": 20951.95,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x7f6c21fabbf97bb18ba07e445f72b0dbf0148a4fe0e0d5e8845724794371fefa:0",
+          "condition_id": "0x7f6c21fabbf97bb18ba07e445f72b0dbf0148a4fe0e0d5e8845724794371fefa",
+          "title": "Texas Rangers vs. Seattle Mariners",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0385,
+          "whale_direction": "Texas Rangers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-16",
+          "total_value_usd": 46940.5,
+          "result": "pending"
         }
       ]
     },
@@ -16595,10 +16651,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 514,
+      "signals_evaluated": 518,
       "correct": 304,
       "wrong": 175,
-      "pending": 35,
+      "pending": 39,
       "win_rate": 63.5,
       "signals": [
         {
@@ -23796,6 +23852,62 @@
           "end_date": "2026-09-15",
           "total_value_usd": 156163.03,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x1e93e33beecbd9ae3dbe35a7c263b5d1a6d81084f6eed57e16b7fba56821ea1b:1",
+          "condition_id": "0x1e93e33beecbd9ae3dbe35a7c263b5d1a6d81084f6eed57e16b7fba56821ea1b",
+          "title": "US Open ATP: Ben Shelton vs Carlos Alcaraz",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0385,
+          "whale_direction": "Carlos Alcaraz",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-15",
+          "total_value_usd": 429719.61,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x1e93e33beecbd9ae3dbe35a7c263b5d1a6d81084f6eed57e16b7fba56821ea1b:0",
+          "condition_id": "0x1e93e33beecbd9ae3dbe35a7c263b5d1a6d81084f6eed57e16b7fba56821ea1b",
+          "title": "US Open ATP: Ben Shelton vs Carlos Alcaraz",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0385,
+          "whale_direction": "Ben Shelton",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-15",
+          "total_value_usd": 127940.86,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x7e706b11ce32a72f0dcfc45ed873bfb99a698751472416106489b365c672a375:1",
+          "condition_id": "0x7e706b11ce32a72f0dcfc45ed873bfb99a698751472416106489b365c672a375",
+          "title": "Cincinnati Reds vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0385,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-16",
+          "total_value_usd": 20951.95,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x7f6c21fabbf97bb18ba07e445f72b0dbf0148a4fe0e0d5e8845724794371fefa:0",
+          "condition_id": "0x7f6c21fabbf97bb18ba07e445f72b0dbf0148a4fe0e0d5e8845724794371fefa",
+          "title": "Texas Rangers vs. Seattle Mariners",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0385,
+          "whale_direction": "Texas Rangers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-16",
+          "total_value_usd": 46940.5,
+          "result": "pending"
         }
       ]
     },
@@ -23803,10 +23915,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 514,
+      "signals_evaluated": 518,
       "correct": 175,
       "wrong": 304,
-      "pending": 35,
+      "pending": 39,
       "win_rate": 36.5,
       "signals": [
         {
@@ -31004,6 +31116,62 @@
           "end_date": "2026-09-15",
           "total_value_usd": 156163.03,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x1e93e33beecbd9ae3dbe35a7c263b5d1a6d81084f6eed57e16b7fba56821ea1b:1",
+          "condition_id": "0x1e93e33beecbd9ae3dbe35a7c263b5d1a6d81084f6eed57e16b7fba56821ea1b",
+          "title": "US Open ATP: Ben Shelton vs Carlos Alcaraz",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0385,
+          "whale_direction": "Carlos Alcaraz",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-15",
+          "total_value_usd": 429719.61,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x1e93e33beecbd9ae3dbe35a7c263b5d1a6d81084f6eed57e16b7fba56821ea1b:0",
+          "condition_id": "0x1e93e33beecbd9ae3dbe35a7c263b5d1a6d81084f6eed57e16b7fba56821ea1b",
+          "title": "US Open ATP: Ben Shelton vs Carlos Alcaraz",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0385,
+          "whale_direction": "Ben Shelton",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-15",
+          "total_value_usd": 127940.86,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x7e706b11ce32a72f0dcfc45ed873bfb99a698751472416106489b365c672a375:1",
+          "condition_id": "0x7e706b11ce32a72f0dcfc45ed873bfb99a698751472416106489b365c672a375",
+          "title": "Cincinnati Reds vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0385,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-16",
+          "total_value_usd": 20951.95,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x7f6c21fabbf97bb18ba07e445f72b0dbf0148a4fe0e0d5e8845724794371fefa:0",
+          "condition_id": "0x7f6c21fabbf97bb18ba07e445f72b0dbf0148a4fe0e0d5e8845724794371fefa",
+          "title": "Texas Rangers vs. Seattle Mariners",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0385,
+          "whale_direction": "Texas Rangers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-16",
+          "total_value_usd": 46940.5,
+          "result": "pending"
         }
       ]
     },
