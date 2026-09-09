@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-08T22:10:43+00:00",
+  "generated_at": "2026-09-09T00:20:58+00:00",
   "total_signals": 1184,
-  "total_resolved": 1121,
+  "total_resolved": 1122,
   "total_correct": 706,
-  "overall_hit_rate": 63.0,
+  "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
       "total": 499,
-      "resolved": 480,
+      "resolved": 481,
       "correct": 310,
-      "hit_rate": 64.6
+      "hit_rate": 64.4
     },
     "Moderate": {
       "total": 622,
@@ -20148,10 +20148,10 @@
       "total_value_usd": 156163.03,
       "entry_price": 0.0385,
       "end_date": "2026-09-15",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Frances Tiafoe",
+      "resolved_date": "2026-09-15"
     }
   ]
 }
