@@ -345432,5 +345432,224 @@
         "entry_price": 0.0445
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-09T22:09:57+00:00",
+    "whale_timeframes": {
+      "0x168a51f1cac0ad3b166797069382495a8aa10d24": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc2e7800b5af46e6093872b177b7a5e7f0563be51": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7c37b52eb226bcb9411375ec48b0169663fb6aeb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x51698a47f840a242abc2ca0351371c7ffac41842": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0f6f76ced62a911bccef92f50faaff143854d977": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0e604be17c231a33dc01e38a722c7fe3984e3bad": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6bfbba9d9b088cd5e17a2e0ce24df6e7970002c9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x709e8dcb133555794decc598e07f2c923b8366f5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x18aa8876fb0b103590ba8fd9744a6eabf5bdf959": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc7b555bf52c96d319e6d0431bb1a19caa3fa4527": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x73e3fec494611d73c170cb2f23850fd998b21be9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xad7f8a6fa4a425f808d71fc4d79b0974a3fa0988": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4d3079bd4c73bc0e8f7d9f64a9f64fadbd17a42d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5ad7346a9f6b4a1ad852ec8e0716d446527cae48": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa080dadd87036ad01dbf5e9c254b0c3dbdba234f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c557de3d1056971396317b2553b15b094a24a8c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xb2e4f1f05b4f3057baa0f3c69a3c7d7972cc3255e6040b76406bd1e462a3da7f:1",
+        "condition_id": "0xb2e4f1f05b4f3057baa0f3c69a3c7d7972cc3255e6040b76406bd1e462a3da7f",
+        "title": "US Open ATP: Karen Khachanov vs Alexander Blockx",
+        "outcome": "Alexander Blockx",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319"
+        ],
+        "ranks": [
+          3,
+          4,
+          9
+        ],
+        "total_value_usd": 285428.48,
+        "score": 15.266,
+        "category": "Tennis",
+        "end_date": "2026-09-16",
+        "entry_price": 0.0385
+      },
+      {
+        "signal_key": "0xb2e4f1f05b4f3057baa0f3c69a3c7d7972cc3255e6040b76406bd1e462a3da7f:0",
+        "condition_id": "0xb2e4f1f05b4f3057baa0f3c69a3c7d7972cc3255e6040b76406bd1e462a3da7f",
+        "title": "US Open ATP: Karen Khachanov vs Alexander Blockx",
+        "outcome": "Karen Khachanov",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x0e604be17c231a33dc01e38a722c7fe3984e3bad",
+          "0xa080dadd87036ad01dbf5e9c254b0c3dbdba234f"
+        ],
+        "ranks": [
+          3,
+          8,
+          19
+        ],
+        "total_value_usd": 134370.52,
+        "score": 10.5589,
+        "category": "Tennis",
+        "end_date": "2026-09-16",
+        "entry_price": 0.0385
+      },
+      {
+        "signal_key": "0x5d1e8a08b738d682ce49308c73f0a83ae192476cc9472cb82cc989e4d83a7e7f:0",
+        "condition_id": "0x5d1e8a08b738d682ce49308c73f0a83ae192476cc9472cb82cc989e4d83a7e7f",
+        "title": "Will Ben Shelton win the 2026 Men's US Open?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0xad7f8a6fa4a425f808d71fc4d79b0974a3fa0988",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
+        ],
+        "ranks": [
+          4,
+          15,
+          17
+        ],
+        "total_value_usd": 25009.33,
+        "score": 6.6546,
+        "category": "US Open",
+        "end_date": "2026-09-13",
+        "entry_price": 0.0385
+      },
+      {
+        "signal_key": "0x39b718f6e0a66a3ae5e459e76c74a694b521eaff5f6015857d1d191f1fc03c61:0",
+        "condition_id": "0x39b718f6e0a66a3ae5e459e76c74a694b521eaff5f6015857d1d191f1fc03c61",
+        "title": "Will Alexander Zverev win the 2026 Men's US Open?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x5ad7346a9f6b4a1ad852ec8e0716d446527cae48",
+          "0xa080dadd87036ad01dbf5e9c254b0c3dbdba234f"
+        ],
+        "ranks": [
+          4,
+          18,
+          19
+        ],
+        "total_value_usd": 22449.38,
+        "score": 6.2802,
+        "category": "US Open",
+        "end_date": "2026-09-13",
+        "entry_price": 0.0445
+      }
+    ]
   }
 ]
