@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-09T17:28:31+00:00",
-  "total_evaluated": 1190,
+  "generated_at": "2026-09-09T20:05:12+00:00",
+  "total_evaluated": 1191,
   "total_pending": 61,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1190,
+      "signals_evaluated": 1191,
       "correct": 712,
-      "wrong": 417,
+      "wrong": 418,
       "pending": 61,
-      "win_rate": 63.1,
+      "win_rate": 63.0,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -16667,10 +16667,24 @@
           "tier": "Strong",
           "entry_price": 0.0385,
           "whale_direction": "Qinwen Zheng",
+          "resolved_outcome": "Elena Rybakina",
+          "resolved_date": "2026-09-15",
+          "end_date": "2026-09-15",
+          "total_value_usd": 72162.09,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x93953a8ae1b4a59023067c35725491ef70ad6de52bba3ff1eecb1f3f6e0a484a:0",
+          "condition_id": "0x93953a8ae1b4a59023067c35725491ef70ad6de52bba3ff1eecb1f3f6e0a484a",
+          "title": "US Open WTA: Mirra Andreeva vs Coco Gauff",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0385,
+          "whale_direction": "Mirra Andreeva",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-09-15",
-          "total_value_usd": 72162.09,
+          "total_value_usd": 367445.19,
           "result": "pending"
         }
       ]
@@ -16679,11 +16693,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 520,
+      "signals_evaluated": 521,
       "correct": 309,
-      "wrong": 176,
+      "wrong": 177,
       "pending": 35,
-      "win_rate": 63.7,
+      "win_rate": 63.6,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -23959,10 +23973,24 @@
           "tier": "Strong",
           "entry_price": 0.0385,
           "whale_direction": "Qinwen Zheng",
+          "resolved_outcome": "Elena Rybakina",
+          "resolved_date": "2026-09-15",
+          "end_date": "2026-09-15",
+          "total_value_usd": 72162.09,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x93953a8ae1b4a59023067c35725491ef70ad6de52bba3ff1eecb1f3f6e0a484a:0",
+          "condition_id": "0x93953a8ae1b4a59023067c35725491ef70ad6de52bba3ff1eecb1f3f6e0a484a",
+          "title": "US Open WTA: Mirra Andreeva vs Coco Gauff",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0385,
+          "whale_direction": "Mirra Andreeva",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-09-15",
-          "total_value_usd": 72162.09,
+          "total_value_usd": 367445.19,
           "result": "pending"
         }
       ]
@@ -23971,11 +23999,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 520,
-      "correct": 176,
+      "signals_evaluated": 521,
+      "correct": 177,
       "wrong": 309,
       "pending": 35,
-      "win_rate": 36.3,
+      "win_rate": 36.4,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -31251,10 +31279,24 @@
           "tier": "Strong",
           "entry_price": 0.0385,
           "whale_direction": "Qinwen Zheng",
+          "resolved_outcome": "Elena Rybakina",
+          "resolved_date": "2026-09-15",
+          "end_date": "2026-09-15",
+          "total_value_usd": 72162.09,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x93953a8ae1b4a59023067c35725491ef70ad6de52bba3ff1eecb1f3f6e0a484a:0",
+          "condition_id": "0x93953a8ae1b4a59023067c35725491ef70ad6de52bba3ff1eecb1f3f6e0a484a",
+          "title": "US Open WTA: Mirra Andreeva vs Coco Gauff",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0385,
+          "whale_direction": "Mirra Andreeva",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-09-15",
-          "total_value_usd": 72162.09,
+          "total_value_usd": 367445.19,
           "result": "pending"
         }
       ]

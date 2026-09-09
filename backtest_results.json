@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-09T17:28:30+00:00",
-  "total_signals": 1190,
-  "total_resolved": 1129,
+  "generated_at": "2026-09-09T20:05:12+00:00",
+  "total_signals": 1191,
+  "total_resolved": 1130,
   "total_correct": 712,
-  "overall_hit_rate": 63.1,
+  "overall_hit_rate": 63.0,
   "by_tier": {
     "Strong": {
-      "total": 505,
-      "resolved": 486,
+      "total": 506,
+      "resolved": 487,
       "correct": 314,
-      "hit_rate": 64.6
+      "hit_rate": 64.5
     },
     "Moderate": {
       "total": 622,
@@ -20248,6 +20248,23 @@
       "tier": "Strong",
       "score": 20.742,
       "total_value_usd": 72162.09,
+      "entry_price": 0.0385,
+      "end_date": "2026-09-15",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Elena Rybakina",
+      "resolved_date": "2026-09-15"
+    },
+    {
+      "signal_key": "0x93953a8ae1b4a59023067c35725491ef70ad6de52bba3ff1eecb1f3f6e0a484a:0",
+      "condition_id": "0x93953a8ae1b4a59023067c35725491ef70ad6de52bba3ff1eecb1f3f6e0a484a",
+      "title": "US Open WTA: Mirra Andreeva vs Coco Gauff",
+      "category": "Tennis",
+      "whale_direction": "Mirra Andreeva",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 17.0324,
+      "total_value_usd": 367445.19,
       "entry_price": 0.0385,
       "end_date": "2026-09-15",
       "resolved": false,
