@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-10T22:03:13+00:00",
-  "total_evaluated": 1198,
+  "generated_at": "2026-09-10T23:46:20+00:00",
+  "total_evaluated": 1199,
   "total_pending": 64,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1198,
+      "signals_evaluated": 1199,
       "correct": 713,
-      "wrong": 421,
+      "wrong": 422,
       "pending": 64,
-      "win_rate": 62.9,
+      "win_rate": 62.8,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -16779,10 +16779,24 @@
           "tier": "Strong",
           "entry_price": 0.0385,
           "whale_direction": "Anastasia Tikhonova",
+          "resolved_outcome": "Elsa Jacquemot",
+          "resolved_date": "2026-09-17",
+          "end_date": "2026-09-17",
+          "total_value_usd": 52435.54,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xbb47790db576eca3cc72eeed5ef18cdcf6bf2f727642e2909f723aeefd53c0df:1",
+          "condition_id": "0xbb47790db576eca3cc72eeed5ef18cdcf6bf2f727642e2909f723aeefd53c0df",
+          "title": "Barranquilla: Carol Young Suh Lee vs Leolia Jeanjean",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0385,
+          "whale_direction": "Leolia Jeanjean",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-09-17",
-          "total_value_usd": 52435.54,
+          "total_value_usd": 100493.06,
           "result": "pending"
         }
       ]
@@ -16791,11 +16805,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 528,
+      "signals_evaluated": 529,
       "correct": 310,
-      "wrong": 180,
+      "wrong": 181,
       "pending": 38,
-      "win_rate": 63.3,
+      "win_rate": 63.1,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -24183,10 +24197,24 @@
           "tier": "Strong",
           "entry_price": 0.0385,
           "whale_direction": "Anastasia Tikhonova",
+          "resolved_outcome": "Elsa Jacquemot",
+          "resolved_date": "2026-09-17",
+          "end_date": "2026-09-17",
+          "total_value_usd": 52435.54,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xbb47790db576eca3cc72eeed5ef18cdcf6bf2f727642e2909f723aeefd53c0df:1",
+          "condition_id": "0xbb47790db576eca3cc72eeed5ef18cdcf6bf2f727642e2909f723aeefd53c0df",
+          "title": "Barranquilla: Carol Young Suh Lee vs Leolia Jeanjean",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0385,
+          "whale_direction": "Leolia Jeanjean",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-09-17",
-          "total_value_usd": 52435.54,
+          "total_value_usd": 100493.06,
           "result": "pending"
         }
       ]
@@ -24195,11 +24223,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 528,
-      "correct": 180,
+      "signals_evaluated": 529,
+      "correct": 181,
       "wrong": 310,
       "pending": 38,
-      "win_rate": 36.7,
+      "win_rate": 36.9,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -31587,10 +31615,24 @@
           "tier": "Strong",
           "entry_price": 0.0385,
           "whale_direction": "Anastasia Tikhonova",
+          "resolved_outcome": "Elsa Jacquemot",
+          "resolved_date": "2026-09-17",
+          "end_date": "2026-09-17",
+          "total_value_usd": 52435.54,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xbb47790db576eca3cc72eeed5ef18cdcf6bf2f727642e2909f723aeefd53c0df:1",
+          "condition_id": "0xbb47790db576eca3cc72eeed5ef18cdcf6bf2f727642e2909f723aeefd53c0df",
+          "title": "Barranquilla: Carol Young Suh Lee vs Leolia Jeanjean",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0385,
+          "whale_direction": "Leolia Jeanjean",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-09-17",
-          "total_value_usd": 52435.54,
+          "total_value_usd": 100493.06,
           "result": "pending"
         }
       ]

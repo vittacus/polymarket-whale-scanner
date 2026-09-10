@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-10T22:03:13+00:00",
-  "total_signals": 1198,
-  "total_resolved": 1134,
+  "generated_at": "2026-09-10T23:46:20+00:00",
+  "total_signals": 1199,
+  "total_resolved": 1135,
   "total_correct": 713,
-  "overall_hit_rate": 62.9,
+  "overall_hit_rate": 62.8,
   "by_tier": {
     "Strong": {
-      "total": 511,
-      "resolved": 491,
+      "total": 512,
+      "resolved": 492,
       "correct": 315,
-      "hit_rate": 64.2
+      "hit_rate": 64.0
     },
     "Moderate": {
       "total": 624,
@@ -20384,6 +20384,23 @@
       "tier": "Strong",
       "score": 23.2441,
       "total_value_usd": 52435.54,
+      "entry_price": 0.0385,
+      "end_date": "2026-09-17",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Elsa Jacquemot",
+      "resolved_date": "2026-09-17"
+    },
+    {
+      "signal_key": "0xbb47790db576eca3cc72eeed5ef18cdcf6bf2f727642e2909f723aeefd53c0df:1",
+      "condition_id": "0xbb47790db576eca3cc72eeed5ef18cdcf6bf2f727642e2909f723aeefd53c0df",
+      "title": "Barranquilla: Carol Young Suh Lee vs Leolia Jeanjean",
+      "category": "Tennis",
+      "whale_direction": "Leolia Jeanjean",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 24.5082,
+      "total_value_usd": 100493.06,
       "entry_price": 0.0385,
       "end_date": "2026-09-17",
       "resolved": false,
