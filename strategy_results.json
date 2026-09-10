@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-09T22:20:06+00:00",
-  "total_evaluated": 1194,
-  "total_pending": 63,
+  "generated_at": "2026-09-10T00:23:26+00:00",
+  "total_evaluated": 1195,
+  "total_pending": 62,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1194,
-      "correct": 712,
-      "wrong": 419,
-      "pending": 63,
-      "win_rate": 63.0,
+      "signals_evaluated": 1195,
+      "correct": 713,
+      "wrong": 420,
+      "pending": 62,
+      "win_rate": 62.9,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -16695,11 +16695,11 @@
           "tier": "Strong",
           "entry_price": 0.0385,
           "whale_direction": "Alexander Blockx",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Karen Khachanov",
+          "resolved_date": "2026-09-16",
           "end_date": "2026-09-16",
           "total_value_usd": 285428.48,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xb2e4f1f05b4f3057baa0f3c69a3c7d7972cc3255e6040b76406bd1e462a3da7f:0",
@@ -16709,11 +16709,11 @@
           "tier": "Strong",
           "entry_price": 0.0385,
           "whale_direction": "Karen Khachanov",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Karen Khachanov",
+          "resolved_date": "2026-09-16",
           "end_date": "2026-09-16",
           "total_value_usd": 134370.52,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x5d1e8a08b738d682ce49308c73f0a83ae192476cc9472cb82cc989e4d83a7e7f:0",
@@ -16728,6 +16728,20 @@
           "end_date": "2026-09-13",
           "total_value_usd": 25009.33,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xd318d7b6332b24e6c8a85a2b8ec780beebc0eee0a2b70ce8fe073bab2fad8d35:1",
+          "condition_id": "0xd318d7b6332b24e6c8a85a2b8ec780beebc0eee0a2b70ce8fe073bab2fad8d35",
+          "title": "US Open ATP: Alexander Zverev vs Botic van de Zandschulp",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0385,
+          "whale_direction": "Botic van de Zandschulp",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-16",
+          "total_value_usd": 207072.01,
+          "result": "pending"
         }
       ]
     },
@@ -16735,10 +16749,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 524,
-      "correct": 309,
-      "wrong": 178,
-      "pending": 37,
+      "signals_evaluated": 525,
+      "correct": 310,
+      "wrong": 179,
+      "pending": 36,
       "win_rate": 63.4,
       "signals": [
         {
@@ -24043,11 +24057,11 @@
           "tier": "Strong",
           "entry_price": 0.0385,
           "whale_direction": "Alexander Blockx",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Karen Khachanov",
+          "resolved_date": "2026-09-16",
           "end_date": "2026-09-16",
           "total_value_usd": 285428.48,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xb2e4f1f05b4f3057baa0f3c69a3c7d7972cc3255e6040b76406bd1e462a3da7f:0",
@@ -24057,11 +24071,11 @@
           "tier": "Strong",
           "entry_price": 0.0385,
           "whale_direction": "Karen Khachanov",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Karen Khachanov",
+          "resolved_date": "2026-09-16",
           "end_date": "2026-09-16",
           "total_value_usd": 134370.52,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x5d1e8a08b738d682ce49308c73f0a83ae192476cc9472cb82cc989e4d83a7e7f:0",
@@ -24076,6 +24090,20 @@
           "end_date": "2026-09-13",
           "total_value_usd": 25009.33,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xd318d7b6332b24e6c8a85a2b8ec780beebc0eee0a2b70ce8fe073bab2fad8d35:1",
+          "condition_id": "0xd318d7b6332b24e6c8a85a2b8ec780beebc0eee0a2b70ce8fe073bab2fad8d35",
+          "title": "US Open ATP: Alexander Zverev vs Botic van de Zandschulp",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0385,
+          "whale_direction": "Botic van de Zandschulp",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-16",
+          "total_value_usd": 207072.01,
+          "result": "pending"
         }
       ]
     },
@@ -24083,10 +24111,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 524,
-      "correct": 178,
-      "wrong": 309,
-      "pending": 37,
+      "signals_evaluated": 525,
+      "correct": 179,
+      "wrong": 310,
+      "pending": 36,
       "win_rate": 36.6,
       "signals": [
         {
@@ -31391,11 +31419,11 @@
           "tier": "Strong",
           "entry_price": 0.0385,
           "whale_direction": "Alexander Blockx",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Karen Khachanov",
+          "resolved_date": "2026-09-16",
           "end_date": "2026-09-16",
           "total_value_usd": 285428.48,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xb2e4f1f05b4f3057baa0f3c69a3c7d7972cc3255e6040b76406bd1e462a3da7f:0",
@@ -31405,11 +31433,11 @@
           "tier": "Strong",
           "entry_price": 0.0385,
           "whale_direction": "Karen Khachanov",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Karen Khachanov",
+          "resolved_date": "2026-09-16",
           "end_date": "2026-09-16",
           "total_value_usd": 134370.52,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x5d1e8a08b738d682ce49308c73f0a83ae192476cc9472cb82cc989e4d83a7e7f:0",
@@ -31423,6 +31451,20 @@
           "resolved_date": null,
           "end_date": "2026-09-13",
           "total_value_usd": 25009.33,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd318d7b6332b24e6c8a85a2b8ec780beebc0eee0a2b70ce8fe073bab2fad8d35:1",
+          "condition_id": "0xd318d7b6332b24e6c8a85a2b8ec780beebc0eee0a2b70ce8fe073bab2fad8d35",
+          "title": "US Open ATP: Alexander Zverev vs Botic van de Zandschulp",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0385,
+          "whale_direction": "Botic van de Zandschulp",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-16",
+          "total_value_usd": 207072.01,
           "result": "pending"
         }
       ]

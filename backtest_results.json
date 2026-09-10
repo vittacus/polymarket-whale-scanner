@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-09T22:20:06+00:00",
-  "total_signals": 1194,
-  "total_resolved": 1131,
-  "total_correct": 712,
-  "overall_hit_rate": 63.0,
+  "generated_at": "2026-09-10T00:23:26+00:00",
+  "total_signals": 1195,
+  "total_resolved": 1133,
+  "total_correct": 713,
+  "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
-      "total": 508,
-      "resolved": 488,
-      "correct": 314,
+      "total": 509,
+      "resolved": 490,
+      "correct": 315,
       "hit_rate": 64.3
     },
     "Moderate": {
@@ -20284,10 +20284,10 @@
       "total_value_usd": 285428.48,
       "entry_price": 0.0385,
       "end_date": "2026-09-16",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Karen Khachanov",
+      "resolved_date": "2026-09-16"
     },
     {
       "signal_key": "0xb2e4f1f05b4f3057baa0f3c69a3c7d7972cc3255e6040b76406bd1e462a3da7f:0",
@@ -20301,10 +20301,10 @@
       "total_value_usd": 134370.52,
       "entry_price": 0.0385,
       "end_date": "2026-09-16",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Karen Khachanov",
+      "resolved_date": "2026-09-16"
     },
     {
       "signal_key": "0x5d1e8a08b738d682ce49308c73f0a83ae192476cc9472cb82cc989e4d83a7e7f:0",
@@ -20318,6 +20318,23 @@
       "total_value_usd": 25009.33,
       "entry_price": 0.0385,
       "end_date": "2026-09-13",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xd318d7b6332b24e6c8a85a2b8ec780beebc0eee0a2b70ce8fe073bab2fad8d35:1",
+      "condition_id": "0xd318d7b6332b24e6c8a85a2b8ec780beebc0eee0a2b70ce8fe073bab2fad8d35",
+      "title": "US Open ATP: Alexander Zverev vs Botic van de Zandschulp",
+      "category": "Tennis",
+      "whale_direction": "Botic van de Zandschulp",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 11.6733,
+      "total_value_usd": 207072.01,
+      "entry_price": 0.0385,
+      "end_date": "2026-09-16",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
