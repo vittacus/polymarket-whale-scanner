@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-10T19:52:26+00:00",
-  "total_signals": 1197,
+  "generated_at": "2026-09-10T22:03:13+00:00",
+  "total_signals": 1198,
   "total_resolved": 1134,
   "total_correct": 713,
   "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
-      "total": 510,
+      "total": 511,
       "resolved": 491,
       "correct": 315,
       "hit_rate": 64.2
@@ -20369,6 +20369,23 @@
       "total_value_usd": 229391.3,
       "entry_price": 0.0375,
       "end_date": "2026-09-16",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x8b27591cc0c23a882f46db74722596d4f799343457ba803b4b26f69e41f52f23:1",
+      "condition_id": "0x8b27591cc0c23a882f46db74722596d4f799343457ba803b4b26f69e41f52f23",
+      "title": "Barranquilla: Elsa Jacquemot vs Anastasia Tikhonova",
+      "category": "Tennis",
+      "whale_direction": "Anastasia Tikhonova",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 23.2441,
+      "total_value_usd": 52435.54,
+      "entry_price": 0.0385,
+      "end_date": "2026-09-17",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
