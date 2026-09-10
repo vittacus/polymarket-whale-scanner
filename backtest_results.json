@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-10T13:48:01+00:00",
-  "total_signals": 1196,
+  "generated_at": "2026-09-10T17:23:01+00:00",
+  "total_signals": 1197,
   "total_resolved": 1134,
   "total_correct": 713,
   "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
-      "total": 509,
+      "total": 510,
       "resolved": 491,
       "correct": 315,
       "hit_rate": 64.2
@@ -20352,6 +20352,23 @@
       "total_value_usd": 18685.1,
       "entry_price": 0.0375,
       "end_date": "2028-11-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xa3b36b2d6104d34af4e6c6215fc818e43352e78a748fbfb0b85e3a35f71dec9a:1",
+      "condition_id": "0xa3b36b2d6104d34af4e6c6215fc818e43352e78a748fbfb0b85e3a35f71dec9a",
+      "title": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+      "category": "fomc",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 13.6619,
+      "total_value_usd": 229391.3,
+      "entry_price": 0.0375,
+      "end_date": "2026-09-16",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
