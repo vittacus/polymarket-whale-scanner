@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-10T09:21:46+00:00",
-  "total_signals": 1195,
+  "generated_at": "2026-09-10T13:48:01+00:00",
+  "total_signals": 1196,
   "total_resolved": 1134,
   "total_correct": 713,
   "overall_hit_rate": 62.9,
@@ -12,7 +12,7 @@
       "hit_rate": 64.2
     },
     "Moderate": {
-      "total": 623,
+      "total": 624,
       "resolved": 584,
       "correct": 366,
       "hit_rate": 62.7
@@ -20339,6 +20339,23 @@
       "correct": false,
       "resolved_outcome": "Alexander Zverev",
       "resolved_date": "2026-09-16"
+    },
+    {
+      "signal_key": "0xe6bcc2f1dd025ce5e1833190f7c60a71171c94f805df55b9ab0ded695ec93565:0",
+      "condition_id": "0xe6bcc2f1dd025ce5e1833190f7c60a71171c94f805df55b9ab0ded695ec93565",
+      "title": "Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?",
+      "category": "United States",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 4.6821,
+      "total_value_usd": 18685.1,
+      "entry_price": 0.0375,
+      "end_date": "2028-11-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }

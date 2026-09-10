@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-10T09:21:46+00:00",
-  "total_evaluated": 1195,
-  "total_pending": 61,
+  "generated_at": "2026-09-10T13:48:01+00:00",
+  "total_evaluated": 1196,
+  "total_pending": 62,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1195,
+      "signals_evaluated": 1196,
       "correct": 713,
       "wrong": 421,
-      "pending": 61,
+      "pending": 62,
       "win_rate": 62.9,
       "signals": [
         {
@@ -16742,6 +16742,20 @@
           "end_date": "2026-09-16",
           "total_value_usd": 207072.01,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0xe6bcc2f1dd025ce5e1833190f7c60a71171c94f805df55b9ab0ded695ec93565:0",
+          "condition_id": "0xe6bcc2f1dd025ce5e1833190f7c60a71171c94f805df55b9ab0ded695ec93565",
+          "title": "Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?",
+          "category": "United States",
+          "tier": "Moderate",
+          "entry_price": 0.0375,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2028-11-07",
+          "total_value_usd": 18685.1,
+          "result": "pending"
         }
       ]
     },
@@ -16749,10 +16763,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 525,
+      "signals_evaluated": 526,
       "correct": 310,
       "wrong": 180,
-      "pending": 35,
+      "pending": 36,
       "win_rate": 63.3,
       "signals": [
         {
@@ -24104,6 +24118,20 @@
           "end_date": "2026-09-16",
           "total_value_usd": 207072.01,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0xe6bcc2f1dd025ce5e1833190f7c60a71171c94f805df55b9ab0ded695ec93565:0",
+          "condition_id": "0xe6bcc2f1dd025ce5e1833190f7c60a71171c94f805df55b9ab0ded695ec93565",
+          "title": "Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?",
+          "category": "United States",
+          "tier": "Moderate",
+          "entry_price": 0.0375,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2028-11-07",
+          "total_value_usd": 18685.1,
+          "result": "pending"
         }
       ]
     },
@@ -24111,10 +24139,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 525,
+      "signals_evaluated": 526,
       "correct": 180,
       "wrong": 310,
-      "pending": 35,
+      "pending": 36,
       "win_rate": 36.7,
       "signals": [
         {
@@ -31466,6 +31494,20 @@
           "end_date": "2026-09-16",
           "total_value_usd": 207072.01,
           "result": "correct"
+        },
+        {
+          "signal_key": "0xe6bcc2f1dd025ce5e1833190f7c60a71171c94f805df55b9ab0ded695ec93565:0",
+          "condition_id": "0xe6bcc2f1dd025ce5e1833190f7c60a71171c94f805df55b9ab0ded695ec93565",
+          "title": "Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?",
+          "category": "United States",
+          "tier": "Moderate",
+          "entry_price": 0.0375,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2028-11-07",
+          "total_value_usd": 18685.1,
+          "result": "pending"
         }
       ]
     },
