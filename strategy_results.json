@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-11T15:21:52+00:00",
-  "total_evaluated": 1201,
-  "total_pending": 64,
+  "generated_at": "2026-09-11T18:44:01+00:00",
+  "total_evaluated": 1202,
+  "total_pending": 65,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1201,
+      "signals_evaluated": 1202,
       "correct": 715,
       "wrong": 422,
-      "pending": 64,
+      "pending": 65,
       "win_rate": 62.9,
       "signals": [
         {
@@ -16826,6 +16826,20 @@
           "end_date": "2026-10-28",
           "total_value_usd": 14703.42,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xb40b0cd531184a1e436d23ca898e1590418187b116f387158753d1adb9853e47:0",
+          "condition_id": "0xb40b0cd531184a1e436d23ca898e1590418187b116f387158753d1adb9853e47",
+          "title": "Will Anthropic IPO by December 31, 2026?",
+          "category": "Finance",
+          "tier": "Strong",
+          "entry_price": 0.0395,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2027-07-01",
+          "total_value_usd": 20622.17,
+          "result": "pending"
         }
       ]
     },
@@ -16833,10 +16847,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 531,
+      "signals_evaluated": 532,
       "correct": 312,
       "wrong": 181,
-      "pending": 38,
+      "pending": 39,
       "win_rate": 63.3,
       "signals": [
         {
@@ -24272,6 +24286,20 @@
           "end_date": "2026-10-28",
           "total_value_usd": 14703.42,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xb40b0cd531184a1e436d23ca898e1590418187b116f387158753d1adb9853e47:0",
+          "condition_id": "0xb40b0cd531184a1e436d23ca898e1590418187b116f387158753d1adb9853e47",
+          "title": "Will Anthropic IPO by December 31, 2026?",
+          "category": "Finance",
+          "tier": "Strong",
+          "entry_price": 0.0395,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2027-07-01",
+          "total_value_usd": 20622.17,
+          "result": "pending"
         }
       ]
     },
@@ -24279,10 +24307,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 531,
+      "signals_evaluated": 532,
       "correct": 181,
       "wrong": 312,
-      "pending": 38,
+      "pending": 39,
       "win_rate": 36.7,
       "signals": [
         {
@@ -31717,6 +31745,20 @@
           "resolved_date": null,
           "end_date": "2026-10-28",
           "total_value_usd": 14703.42,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xb40b0cd531184a1e436d23ca898e1590418187b116f387158753d1adb9853e47:0",
+          "condition_id": "0xb40b0cd531184a1e436d23ca898e1590418187b116f387158753d1adb9853e47",
+          "title": "Will Anthropic IPO by December 31, 2026?",
+          "category": "Finance",
+          "tier": "Strong",
+          "entry_price": 0.0395,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2027-07-01",
+          "total_value_usd": 20622.17,
           "result": "pending"
         }
       ]

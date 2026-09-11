@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-11T15:21:52+00:00",
-  "total_signals": 1201,
+  "generated_at": "2026-09-11T18:44:01+00:00",
+  "total_signals": 1202,
   "total_resolved": 1137,
   "total_correct": 715,
   "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
-      "total": 513,
+      "total": 514,
       "resolved": 493,
       "correct": 316,
       "hit_rate": 64.1
@@ -20437,6 +20437,23 @@
       "total_value_usd": 14703.42,
       "entry_price": 0.0395,
       "end_date": "2026-10-28",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xb40b0cd531184a1e436d23ca898e1590418187b116f387158753d1adb9853e47:0",
+      "condition_id": "0xb40b0cd531184a1e436d23ca898e1590418187b116f387158753d1adb9853e47",
+      "title": "Will Anthropic IPO by December 31, 2026?",
+      "category": "Finance",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 13.3283,
+      "total_value_usd": 20622.17,
+      "entry_price": 0.0395,
+      "end_date": "2027-07-01",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
