@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-11T11:50:52+00:00",
-  "total_evaluated": 1200,
-  "total_pending": 63,
+  "generated_at": "2026-09-11T15:21:52+00:00",
+  "total_evaluated": 1201,
+  "total_pending": 64,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1200,
+      "signals_evaluated": 1201,
       "correct": 715,
       "wrong": 422,
-      "pending": 63,
+      "pending": 64,
       "win_rate": 62.9,
       "signals": [
         {
@@ -16812,6 +16812,20 @@
           "end_date": "2026-09-18",
           "total_value_usd": 47630.71,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x12aa13b3da17ceae1b0a59b5d5b77121e91bb79b4bb0b52bf6543ed3f8d0953b:0",
+          "condition_id": "0x12aa13b3da17ceae1b0a59b5d5b77121e91bb79b4bb0b52bf6543ed3f8d0953b",
+          "title": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+          "category": "Fed",
+          "tier": "Strong",
+          "entry_price": 0.0395,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-28",
+          "total_value_usd": 14703.42,
+          "result": "pending"
         }
       ]
     },
@@ -16819,10 +16833,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 530,
+      "signals_evaluated": 531,
       "correct": 312,
       "wrong": 181,
-      "pending": 37,
+      "pending": 38,
       "win_rate": 63.3,
       "signals": [
         {
@@ -24244,6 +24258,20 @@
           "end_date": "2026-09-18",
           "total_value_usd": 47630.71,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x12aa13b3da17ceae1b0a59b5d5b77121e91bb79b4bb0b52bf6543ed3f8d0953b:0",
+          "condition_id": "0x12aa13b3da17ceae1b0a59b5d5b77121e91bb79b4bb0b52bf6543ed3f8d0953b",
+          "title": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+          "category": "Fed",
+          "tier": "Strong",
+          "entry_price": 0.0395,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-28",
+          "total_value_usd": 14703.42,
+          "result": "pending"
         }
       ]
     },
@@ -24251,10 +24279,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 530,
+      "signals_evaluated": 531,
       "correct": 181,
       "wrong": 312,
-      "pending": 37,
+      "pending": 38,
       "win_rate": 36.7,
       "signals": [
         {
@@ -31676,6 +31704,20 @@
           "end_date": "2026-09-18",
           "total_value_usd": 47630.71,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x12aa13b3da17ceae1b0a59b5d5b77121e91bb79b4bb0b52bf6543ed3f8d0953b:0",
+          "condition_id": "0x12aa13b3da17ceae1b0a59b5d5b77121e91bb79b4bb0b52bf6543ed3f8d0953b",
+          "title": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+          "category": "Fed",
+          "tier": "Strong",
+          "entry_price": 0.0395,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-28",
+          "total_value_usd": 14703.42,
+          "result": "pending"
         }
       ]
     },

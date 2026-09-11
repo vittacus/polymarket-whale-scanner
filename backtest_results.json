@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-11T11:50:52+00:00",
-  "total_signals": 1200,
+  "generated_at": "2026-09-11T15:21:52+00:00",
+  "total_signals": 1201,
   "total_resolved": 1137,
   "total_correct": 715,
   "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
-      "total": 512,
+      "total": 513,
       "resolved": 493,
       "correct": 316,
       "hit_rate": 64.1
@@ -20424,6 +20424,23 @@
       "correct": true,
       "resolved_outcome": "Elena Rybakina",
       "resolved_date": "2026-09-18"
+    },
+    {
+      "signal_key": "0x12aa13b3da17ceae1b0a59b5d5b77121e91bb79b4bb0b52bf6543ed3f8d0953b:0",
+      "condition_id": "0x12aa13b3da17ceae1b0a59b5d5b77121e91bb79b4bb0b52bf6543ed3f8d0953b",
+      "title": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+      "category": "Fed",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 18.9253,
+      "total_value_usd": 14703.42,
+      "entry_price": 0.0395,
+      "end_date": "2026-10-28",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
