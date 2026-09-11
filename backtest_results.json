@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-10T23:46:20+00:00",
-  "total_signals": 1199,
-  "total_resolved": 1135,
-  "total_correct": 713,
-  "overall_hit_rate": 62.8,
+  "generated_at": "2026-09-11T01:38:50+00:00",
+  "total_signals": 1200,
+  "total_resolved": 1136,
+  "total_correct": 714,
+  "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
       "total": 512,
-      "resolved": 492,
-      "correct": 315,
-      "hit_rate": 64.0
+      "resolved": 493,
+      "correct": 316,
+      "hit_rate": 64.1
     },
     "Moderate": {
-      "total": 624,
+      "total": 625,
       "resolved": 584,
       "correct": 366,
       "hit_rate": 62.7
@@ -20403,6 +20403,23 @@
       "total_value_usd": 100493.06,
       "entry_price": 0.0385,
       "end_date": "2026-09-17",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Leolia Jeanjean",
+      "resolved_date": "2026-09-17"
+    },
+    {
+      "signal_key": "0xa85e45264f68b269b379d480fb3cf8b7e52ec9124ce9afff4aea19adabfa8402:1",
+      "condition_id": "0xa85e45264f68b269b379d480fb3cf8b7e52ec9124ce9afff4aea19adabfa8402",
+      "title": "US Open WTA: Coco Gauff vs Elena Rybakina",
+      "category": "Tennis",
+      "whale_direction": "Elena Rybakina",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 9.8961,
+      "total_value_usd": 47630.71,
+      "entry_price": 0.0385,
+      "end_date": "2026-09-18",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
