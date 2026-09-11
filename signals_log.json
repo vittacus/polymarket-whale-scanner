@@ -348721,5 +348721,305 @@
         "entry_price": 0.0455
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-11T23:25:09+00:00",
+    "whale_timeframes": {
+      "0x168a51f1cac0ad3b166797069382495a8aa10d24": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x51698a47f840a242abc2ca0351371c7ffac41842": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7c37b52eb226bcb9411375ec48b0169663fb6aeb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x983eedfbd75803602e4a6e6ea9aab6dc6b9c6748": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3a8aa345d5db7ec5138298c8c4f4540259be7699": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0f6f76ced62a911bccef92f50faaff143854d977": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe9b710551dd82a44e79203c2394a2b10163ace7b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x924379a79c64b77ad5816ad362122a5f6228658e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbc43c8bfbc4d77c2fc9011adad38ba43b88996d3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x29b52d98ac9ef9414b04164246c95bc63d74cc6c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1058f156b207cafe61d102e97bf6796931d301c1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa309f903dbbd559e87d8d368834b8e41355c4cf2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc3ca1a42fd9217b2d02fb05980c1803af462688e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4ab9b54427ec4b7f3646b1a0ef1bed73bc708ebe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x876506d8b2bd7a0d3fa4fe18c024eee6e1dd81ee24c26795dadd6cfe4a7b5d0d:0",
+        "condition_id": "0x876506d8b2bd7a0d3fa4fe18c024eee6e1dd81ee24c26795dadd6cfe4a7b5d0d",
+        "title": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 6,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418",
+          "0x1058f156b207cafe61d102e97bf6796931d301c1",
+          "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991",
+          "0xa309f903dbbd559e87d8d368834b8e41355c4cf2",
+          "0xc3ca1a42fd9217b2d02fb05980c1803af462688e"
+        ],
+        "ranks": [
+          5,
+          10,
+          14,
+          15,
+          16,
+          18
+        ],
+        "total_value_usd": 6025923.31,
+        "score": 15.1942,
+        "category": "fomc",
+        "end_date": "2026-09-16",
+        "entry_price": 0.0455
+      },
+      {
+        "signal_key": "0x73d8a8208d23a74937d114a713d6a56cd4161a1068056c52ac74c8419c99da7c:0",
+        "condition_id": "0x73d8a8208d23a74937d114a713d6a56cd4161a1068056c52ac74c8419c99da7c",
+        "title": "Fed Rate Hike by September 2026 Meeting?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 6,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418",
+          "0x1058f156b207cafe61d102e97bf6796931d301c1",
+          "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991",
+          "0xa309f903dbbd559e87d8d368834b8e41355c4cf2",
+          "0xc3ca1a42fd9217b2d02fb05980c1803af462688e"
+        ],
+        "ranks": [
+          5,
+          10,
+          14,
+          15,
+          16,
+          18
+        ],
+        "total_value_usd": 141925.85,
+        "score": 11.5459,
+        "category": "Fed",
+        "end_date": "2026-12-09",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0xac02cbb049e46d6a3627c0fdf52fa554982a9025d45968207b362acb6ca4b830:1",
+        "condition_id": "0xac02cbb049e46d6a3627c0fdf52fa554982a9025d45968207b362acb6ca4b830",
+        "title": "Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0x1058f156b207cafe61d102e97bf6796931d301c1",
+          "0xc3ca1a42fd9217b2d02fb05980c1803af462688e"
+        ],
+        "ranks": [
+          5,
+          14,
+          18
+        ],
+        "total_value_usd": 4408046.02,
+        "score": 8.7544,
+        "category": "fomc",
+        "end_date": "2026-09-16",
+        "entry_price": 0.0455
+      },
+      {
+        "signal_key": "0x80b3af88cb991980e8da1ce86b9794a0957f96ec98c29319dd7ba65e9744d82b:0",
+        "condition_id": "0x80b3af88cb991980e8da1ce86b9794a0957f96ec98c29319dd7ba65e9744d82b",
+        "title": "Fed rate hike in 2026?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991",
+          "0xa309f903dbbd559e87d8d368834b8e41355c4cf2"
+        ],
+        "ranks": [
+          5,
+          15,
+          16
+        ],
+        "total_value_usd": 680608.01,
+        "score": 7.7367,
+        "category": "CPI Release",
+        "end_date": "2026-12-09",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0xd4e77ba6f29fc093509d24f508631abd445ecf506bbdc9c4c80e60256a318527:0",
+        "condition_id": "0xd4e77ba6f29fc093509d24f508631abd445ecf506bbdc9c4c80e60256a318527",
+        "title": "Will no Fed rate cuts happen in 2026?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991",
+          "0xa309f903dbbd559e87d8d368834b8e41355c4cf2"
+        ],
+        "ranks": [
+          5,
+          15,
+          16
+        ],
+        "total_value_usd": 607232.72,
+        "score": 7.671,
+        "category": "Rewards 200, 4.5, 50 Deprec",
+        "end_date": "2026-12-31",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0xa3b36b2d6104d34af4e6c6215fc818e43352e78a748fbfb0b85e3a35f71dec9a:1",
+        "condition_id": "0xa3b36b2d6104d34af4e6c6215fc818e43352e78a748fbfb0b85e3a35f71dec9a",
+        "title": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991",
+          "0xc3ca1a42fd9217b2d02fb05980c1803af462688e"
+        ],
+        "ranks": [
+          5,
+          15,
+          18
+        ],
+        "total_value_usd": 378982.56,
+        "score": 7.2433,
+        "category": "fomc",
+        "end_date": "2026-09-16",
+        "entry_price": 0.0375
+      },
+      {
+        "signal_key": "0x1b56e46dba9e7b2bf93db18e7a79de3f97037314a46f8ebc93b541ae5f396200:0",
+        "condition_id": "0x1b56e46dba9e7b2bf93db18e7a79de3f97037314a46f8ebc93b541ae5f396200",
+        "title": "Will the Fed decide differently in the next three decisions (Jun\u2013Jul\u2013Sep)?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0x1058f156b207cafe61d102e97bf6796931d301c1",
+          "0xc3ca1a42fd9217b2d02fb05980c1803af462688e"
+        ],
+        "ranks": [
+          5,
+          14,
+          18
+        ],
+        "total_value_usd": 23941.54,
+        "score": 5.77,
+        "category": "Fed",
+        "end_date": "2026-09-16",
+        "entry_price": 0.0455
+      }
+    ]
   }
 ]
