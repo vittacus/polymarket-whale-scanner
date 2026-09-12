@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-12T01:29:47+00:00",
+  "generated_at": "2026-09-12T06:14:57+00:00",
   "total_signals": 1205,
-  "total_resolved": 1137,
+  "total_resolved": 1140,
   "total_correct": 715,
-  "overall_hit_rate": 62.9,
+  "overall_hit_rate": 62.7,
   "by_tier": {
     "Strong": {
       "total": 517,
-      "resolved": 493,
+      "resolved": 496,
       "correct": 316,
-      "hit_rate": 64.1
+      "hit_rate": 63.7
     },
     "Moderate": {
       "total": 625,
@@ -20471,10 +20471,10 @@
       "total_value_usd": 60262.84,
       "entry_price": 0.0395,
       "end_date": "2026-09-18",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Kansas City Royals",
+      "resolved_date": "2026-09-18"
     },
     {
       "signal_key": "0x02a121eca49f2f521bc617439ce70fef0fdfc89d6fb1c129f4f7c8297edea423:0",
@@ -20488,10 +20488,10 @@
       "total_value_usd": 94388.81,
       "entry_price": 0.0395,
       "end_date": "2026-09-18",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Washington Nationals",
+      "resolved_date": "2026-09-18"
     },
     {
       "signal_key": "0x3e7b0b572b56b0b4d607fed4289f89e4c6fe99b5cb9affe978de57dae1091474:0",
@@ -20505,10 +20505,10 @@
       "total_value_usd": 80271.83,
       "entry_price": 0.0395,
       "end_date": "2026-09-18",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Ben Shelton",
+      "resolved_date": "2026-09-18"
     }
   ]
 }
