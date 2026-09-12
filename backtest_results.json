@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-12T18:56:01+00:00",
-  "total_signals": 1205,
+  "generated_at": "2026-09-12T21:17:05+00:00",
+  "total_signals": 1207,
   "total_resolved": 1140,
   "total_correct": 715,
   "overall_hit_rate": 62.7,
   "by_tier": {
     "Strong": {
-      "total": 517,
+      "total": 519,
       "resolved": 496,
       "correct": 316,
       "hit_rate": 63.7
@@ -20509,6 +20509,40 @@
       "correct": false,
       "resolved_outcome": "Ben Shelton",
       "resolved_date": "2026-09-18"
+    },
+    {
+      "signal_key": "0x358fac828edf5c64c2c274b859f45f9c7637e7932e601fed7067860db90d5ab5:1",
+      "condition_id": "0x358fac828edf5c64c2c274b859f45f9c7637e7932e601fed7067860db90d5ab5",
+      "title": "US Open WTA: Aryna Sabalenka vs Elena Rybakina",
+      "category": "Tennis",
+      "whale_direction": "Elena Rybakina",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 22.7619,
+      "total_value_usd": 163776.45,
+      "entry_price": 0.0405,
+      "end_date": "2026-09-19",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x358fac828edf5c64c2c274b859f45f9c7637e7932e601fed7067860db90d5ab5:0",
+      "condition_id": "0x358fac828edf5c64c2c274b859f45f9c7637e7932e601fed7067860db90d5ab5",
+      "title": "US Open WTA: Aryna Sabalenka vs Elena Rybakina",
+      "category": "Tennis",
+      "whale_direction": "Aryna Sabalenka",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 20.0172,
+      "total_value_usd": 38504.01,
+      "entry_price": 0.0405,
+      "end_date": "2026-09-19",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }

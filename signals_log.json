@@ -349899,5 +349899,178 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-09-12T21:08:02+00:00",
+    "whale_timeframes": {
+      "0x7c37b52eb226bcb9411375ec48b0169663fb6aeb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x821dab0565ebf5b327f51db06223fdcfe01acf16": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x168a51f1cac0ad3b166797069382495a8aa10d24": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x19c4aa3200949f1dfc0f84cc2c9a47d78ed18c95": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9cb990f1862568a63d8601efeebe0304225c32f2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x412fe1a101554f0b382181c3af932e4b2d8030fa": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1b47e9b128e6b671edebfb2cac23dd3efc40d814": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x17c4f7e008fe22d69865f73f29329b6e76b92471": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd3a0b4e941b557d33a8efd5a51c581e7c79cf136": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x85f031d069de300055900c4055c1baeb6bde3f67": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x39d3c773be30fcc73161fc6768f46d563a779ef0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x32ccd9015a900fde62040162a04bedf093c668b3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf28e42d20e4826f2b10a24bc952001697947cab2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2dc13c6bda81b202281e796953a7323de675b33c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcbc666209b4c17ea84c03c0dda71b5dab9e4ec62": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x73e3fec494611d73c170cb2f23850fd998b21be9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x358fac828edf5c64c2c274b859f45f9c7637e7932e601fed7067860db90d5ab5:1",
+        "condition_id": "0x358fac828edf5c64c2c274b859f45f9c7637e7932e601fed7067860db90d5ab5",
+        "title": "US Open WTA: Aryna Sabalenka vs Elena Rybakina",
+        "outcome": "Elena Rybakina",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7"
+        ],
+        "ranks": [
+          2,
+          3,
+          4
+        ],
+        "total_value_usd": 163776.45,
+        "score": 22.7619,
+        "category": "Tennis",
+        "end_date": "2026-09-19",
+        "entry_price": 0.0405
+      },
+      {
+        "signal_key": "0x358fac828edf5c64c2c274b859f45f9c7637e7932e601fed7067860db90d5ab5:0",
+        "condition_id": "0x358fac828edf5c64c2c274b859f45f9c7637e7932e601fed7067860db90d5ab5",
+        "title": "US Open WTA: Aryna Sabalenka vs Elena Rybakina",
+        "outcome": "Aryna Sabalenka",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7"
+        ],
+        "ranks": [
+          2,
+          3,
+          4
+        ],
+        "total_value_usd": 38504.01,
+        "score": 20.0172,
+        "category": "Tennis",
+        "end_date": "2026-09-19",
+        "entry_price": 0.0405
+      }
+    ]
   }
 ]
