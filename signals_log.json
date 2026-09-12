@@ -349021,5 +349021,253 @@
         "entry_price": 0.0455
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-12T01:19:30+00:00",
+    "whale_timeframes": {
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x918b42a06ff25eaaa4a79eca9da6a9de46f4ea63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x55a1f55fb021eb52f5233321f88ff8eca5aedb28": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x033f0346c007323030eb420305ffede19a95618e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1610db79f753a80207e1d66716be9e91e627ae49": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8075693f48668a264b9fa313b47f52712fcc12b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd84d7f9262516865553555751609fb6f52abec6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf5592765133941c40c77e52bc56bbe7ec167f462": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbc75cabb772f1da1c1772430620da0174c453f69": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbe189fc6c8298e832b7f988dde76a44b783f3be4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xeb739f5e4f45b0b68688bb252f08327bc01653b0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x032eb1bc893940263ad0b01889f262fc232f2a9e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x23d81ba9371e576015c1e562db09c689f56b0288": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x99f0d31fdced5b3a0e5ee2867730a6644a6c9495": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xdc28ed08b51e8a42befcfb12e50819fab3169e40844cb2b44ec9cbed2a2ecc86:1",
+        "condition_id": "0xdc28ed08b51e8a42befcfb12e50819fab3169e40844cb2b44ec9cbed2a2ecc86",
+        "title": "Kansas City Royals vs. Boston Red Sox",
+        "outcome": "Boston Red Sox",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563"
+        ],
+        "ranks": [
+          1,
+          2,
+          5
+        ],
+        "total_value_usd": 60262.84,
+        "score": 32.7443,
+        "category": "MLB",
+        "end_date": "2026-09-18",
+        "entry_price": 0.0395
+      },
+      {
+        "signal_key": "0x02a121eca49f2f521bc617439ce70fef0fdfc89d6fb1c129f4f7c8297edea423:0",
+        "condition_id": "0x02a121eca49f2f521bc617439ce70fef0fdfc89d6fb1c129f4f7c8297edea423",
+        "title": "Los Angeles Angels vs. Washington Nationals",
+        "outcome": "Los Angeles Angels",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf"
+        ],
+        "ranks": [
+          1,
+          2,
+          8
+        ],
+        "total_value_usd": 94388.81,
+        "score": 32.5757,
+        "category": "MLB",
+        "end_date": "2026-09-18",
+        "entry_price": 0.0395
+      },
+      {
+        "signal_key": "0x3e7b0b572b56b0b4d607fed4289f89e4c6fe99b5cb9affe978de57dae1091474:0",
+        "condition_id": "0x3e7b0b572b56b0b4d607fed4289f89e4c6fe99b5cb9affe978de57dae1091474",
+        "title": "US Open ATP: Frances Tiafoe vs Ben Shelton",
+        "outcome": "Frances Tiafoe",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0x23d81ba9371e576015c1e562db09c689f56b0288"
+        ],
+        "ranks": [
+          4,
+          5,
+          8,
+          19
+        ],
+        "total_value_usd": 80271.83,
+        "score": 12.4039,
+        "category": "Tennis",
+        "end_date": "2026-09-18",
+        "entry_price": 0.0395
+      },
+      {
+        "signal_key": "0xa3b36b2d6104d34af4e6c6215fc818e43352e78a748fbfb0b85e3a35f71dec9a:0",
+        "condition_id": "0xa3b36b2d6104d34af4e6c6215fc818e43352e78a748fbfb0b85e3a35f71dec9a",
+        "title": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 5,
+        "wallets": [
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0xf5592765133941c40c77e52bc56bbe7ec167f462",
+          "0xbe189fc6c8298e832b7f988dde76a44b783f3be4",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x032eb1bc893940263ad0b01889f262fc232f2a9e"
+        ],
+        "ranks": [
+          4,
+          12,
+          14,
+          17,
+          18
+        ],
+        "total_value_usd": 326313.45,
+        "score": 11.5339,
+        "category": "fomc",
+        "end_date": "2026-09-16",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x876506d8b2bd7a0d3fa4fe18c024eee6e1dd81ee24c26795dadd6cfe4a7b5d0d:0",
+        "condition_id": "0x876506d8b2bd7a0d3fa4fe18c024eee6e1dd81ee24c26795dadd6cfe4a7b5d0d",
+        "title": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x032eb1bc893940263ad0b01889f262fc232f2a9e"
+        ],
+        "ranks": [
+          4,
+          17,
+          18
+        ],
+        "total_value_usd": 289221.61,
+        "score": 8.0186,
+        "category": "fomc",
+        "end_date": "2026-09-16",
+        "entry_price": 0.0455
+      }
+    ]
   }
 ]

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-11T23:34:30+00:00",
-  "total_evaluated": 1202,
-  "total_pending": 65,
+  "generated_at": "2026-09-12T01:29:47+00:00",
+  "total_evaluated": 1205,
+  "total_pending": 68,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1202,
+      "signals_evaluated": 1205,
       "correct": 715,
       "wrong": 422,
-      "pending": 65,
+      "pending": 68,
       "win_rate": 62.9,
       "signals": [
         {
@@ -16840,6 +16840,48 @@
           "end_date": "2027-07-01",
           "total_value_usd": 20622.17,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xdc28ed08b51e8a42befcfb12e50819fab3169e40844cb2b44ec9cbed2a2ecc86:1",
+          "condition_id": "0xdc28ed08b51e8a42befcfb12e50819fab3169e40844cb2b44ec9cbed2a2ecc86",
+          "title": "Kansas City Royals vs. Boston Red Sox",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0395,
+          "whale_direction": "Boston Red Sox",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-18",
+          "total_value_usd": 60262.84,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x02a121eca49f2f521bc617439ce70fef0fdfc89d6fb1c129f4f7c8297edea423:0",
+          "condition_id": "0x02a121eca49f2f521bc617439ce70fef0fdfc89d6fb1c129f4f7c8297edea423",
+          "title": "Los Angeles Angels vs. Washington Nationals",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0395,
+          "whale_direction": "Los Angeles Angels",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-18",
+          "total_value_usd": 94388.81,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x3e7b0b572b56b0b4d607fed4289f89e4c6fe99b5cb9affe978de57dae1091474:0",
+          "condition_id": "0x3e7b0b572b56b0b4d607fed4289f89e4c6fe99b5cb9affe978de57dae1091474",
+          "title": "US Open ATP: Frances Tiafoe vs Ben Shelton",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0395,
+          "whale_direction": "Frances Tiafoe",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-18",
+          "total_value_usd": 80271.83,
+          "result": "pending"
         }
       ]
     },
@@ -16847,10 +16889,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 532,
+      "signals_evaluated": 535,
       "correct": 312,
       "wrong": 181,
-      "pending": 39,
+      "pending": 42,
       "win_rate": 63.3,
       "signals": [
         {
@@ -24300,6 +24342,48 @@
           "end_date": "2027-07-01",
           "total_value_usd": 20622.17,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xdc28ed08b51e8a42befcfb12e50819fab3169e40844cb2b44ec9cbed2a2ecc86:1",
+          "condition_id": "0xdc28ed08b51e8a42befcfb12e50819fab3169e40844cb2b44ec9cbed2a2ecc86",
+          "title": "Kansas City Royals vs. Boston Red Sox",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0395,
+          "whale_direction": "Boston Red Sox",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-18",
+          "total_value_usd": 60262.84,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x02a121eca49f2f521bc617439ce70fef0fdfc89d6fb1c129f4f7c8297edea423:0",
+          "condition_id": "0x02a121eca49f2f521bc617439ce70fef0fdfc89d6fb1c129f4f7c8297edea423",
+          "title": "Los Angeles Angels vs. Washington Nationals",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0395,
+          "whale_direction": "Los Angeles Angels",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-18",
+          "total_value_usd": 94388.81,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x3e7b0b572b56b0b4d607fed4289f89e4c6fe99b5cb9affe978de57dae1091474:0",
+          "condition_id": "0x3e7b0b572b56b0b4d607fed4289f89e4c6fe99b5cb9affe978de57dae1091474",
+          "title": "US Open ATP: Frances Tiafoe vs Ben Shelton",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0395,
+          "whale_direction": "Frances Tiafoe",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-18",
+          "total_value_usd": 80271.83,
+          "result": "pending"
         }
       ]
     },
@@ -24307,10 +24391,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 532,
+      "signals_evaluated": 535,
       "correct": 181,
       "wrong": 312,
-      "pending": 39,
+      "pending": 42,
       "win_rate": 36.7,
       "signals": [
         {
@@ -31759,6 +31843,48 @@
           "resolved_date": null,
           "end_date": "2027-07-01",
           "total_value_usd": 20622.17,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xdc28ed08b51e8a42befcfb12e50819fab3169e40844cb2b44ec9cbed2a2ecc86:1",
+          "condition_id": "0xdc28ed08b51e8a42befcfb12e50819fab3169e40844cb2b44ec9cbed2a2ecc86",
+          "title": "Kansas City Royals vs. Boston Red Sox",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0395,
+          "whale_direction": "Boston Red Sox",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-18",
+          "total_value_usd": 60262.84,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x02a121eca49f2f521bc617439ce70fef0fdfc89d6fb1c129f4f7c8297edea423:0",
+          "condition_id": "0x02a121eca49f2f521bc617439ce70fef0fdfc89d6fb1c129f4f7c8297edea423",
+          "title": "Los Angeles Angels vs. Washington Nationals",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0395,
+          "whale_direction": "Los Angeles Angels",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-18",
+          "total_value_usd": 94388.81,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x3e7b0b572b56b0b4d607fed4289f89e4c6fe99b5cb9affe978de57dae1091474:0",
+          "condition_id": "0x3e7b0b572b56b0b4d607fed4289f89e4c6fe99b5cb9affe978de57dae1091474",
+          "title": "US Open ATP: Frances Tiafoe vs Ben Shelton",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0395,
+          "whale_direction": "Frances Tiafoe",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-18",
+          "total_value_usd": 80271.83,
           "result": "pending"
         }
       ]
