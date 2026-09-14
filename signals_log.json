@@ -351411,5 +351411,203 @@
         "entry_price": 0.0455
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-14T10:15:48+00:00",
+    "whale_timeframes": {
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7ad71d79a3bb90d0a87a06500fa0fe11663842aa": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb1ca909e848cc24ec4e220ce1c453bc290c51705": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9ee49c02ae1ade698bf9e06d4ca271f236b8697b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9b11866433281ade9f2811dbde8acdefc45f5375": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x68df8708aadb901618f11abf2471805a66a24815": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7b023e54b7e217d16784ec8faa71e5dae0221fdd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1465b79bff7992bc703e1aafb3683b1089647072": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3a8aa345d5db7ec5138298c8c4f4540259be7699": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x288999fc80af0b29cd5b22fc1c2b8987db3b9226": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x17c4f7e008fe22d69865f73f29329b6e76b92471": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb1c27773dbe9bb5c45bcd10ca8575af4344f891a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x16bb9951a36fce71e2ef57890b786145e0ba8492": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x53e55bc7cb3d67ad177c023ce891ad076a9d6177": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x26b46988d027c6c03cfa12a7c0c6d778be49b8a9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x9cb23d04b2ded06147482076688b69b487a8d982c63ebdda2ab3678cf27cf390:0",
+        "condition_id": "0x9cb23d04b2ded06147482076688b69b487a8d982c63ebdda2ab3678cf27cf390",
+        "title": "Clarity Act (H.R.3633) signed into law in 2026?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x7b023e54b7e217d16784ec8faa71e5dae0221fdd",
+          "0xb1c27773dbe9bb5c45bcd10ca8575af4344f891a",
+          "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4",
+          "0x53e55bc7cb3d67ad177c023ce891ad076a9d6177"
+        ],
+        "ranks": [
+          9,
+          16,
+          18,
+          19
+        ],
+        "total_value_usd": 308724.06,
+        "score": 6.2335,
+        "category": "Crypto",
+        "end_date": "2027-01-01",
+        "entry_price": 0.0485
+      },
+      {
+        "signal_key": "0x876506d8b2bd7a0d3fa4fe18c024eee6e1dd81ee24c26795dadd6cfe4a7b5d0d:0",
+        "condition_id": "0x876506d8b2bd7a0d3fa4fe18c024eee6e1dd81ee24c26795dadd6cfe4a7b5d0d",
+        "title": "Will the Fed increase interest rates by 25 bps after the September 2026 meeting?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227",
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0x53e55bc7cb3d67ad177c023ce891ad076a9d6177"
+        ],
+        "ranks": [
+          11,
+          12,
+          19
+        ],
+        "total_value_usd": 3224003.39,
+        "score": 5.9499,
+        "category": "fomc",
+        "end_date": "2026-09-16",
+        "entry_price": 0.0455
+      },
+      {
+        "signal_key": "0xa3b36b2d6104d34af4e6c6215fc818e43352e78a748fbfb0b85e3a35f71dec9a:0",
+        "condition_id": "0xa3b36b2d6104d34af4e6c6215fc818e43352e78a748fbfb0b85e3a35f71dec9a",
+        "title": "Will there be no change in Fed interest rates after the September 2026 meeting?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227",
+          "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
+          "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4"
+        ],
+        "ranks": [
+          11,
+          17,
+          18
+        ],
+        "total_value_usd": 32203.63,
+        "score": 3.729,
+        "category": "fomc",
+        "end_date": "2026-09-16",
+        "entry_price": 0.505
+      }
+    ]
   }
 ]
