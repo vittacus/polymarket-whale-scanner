@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-14T20:33:23+00:00",
-  "total_signals": 1207,
+  "generated_at": "2026-09-14T23:25:57+00:00",
+  "total_signals": 1208,
   "total_resolved": 1144,
   "total_correct": 717,
   "overall_hit_rate": 62.7,
@@ -12,7 +12,7 @@
       "hit_rate": 63.7
     },
     "Moderate": {
-      "total": 625,
+      "total": 626,
       "resolved": 587,
       "correct": 368,
       "hit_rate": 62.7
@@ -20543,6 +20543,23 @@
       "correct": false,
       "resolved_outcome": "Elena Rybakina",
       "resolved_date": "2026-09-19"
+    },
+    {
+      "signal_key": "0x2e4b58fc18dbffd74d5275d89fb076943f21992763c45dcadd81391b83bde13c:0",
+      "condition_id": "0x2e4b58fc18dbffd74d5275d89fb076943f21992763c45dcadd81391b83bde13c",
+      "title": "Will the Fed increase interest rates by 50+ bps after the September 2026 meeting?",
+      "category": "fomc",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 5.719,
+      "total_value_usd": 19464.96,
+      "entry_price": 0.0355,
+      "end_date": "2026-09-16",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
