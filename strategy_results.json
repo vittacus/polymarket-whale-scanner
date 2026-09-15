@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-15T20:08:52+00:00",
-  "total_evaluated": 1214,
-  "total_pending": 65,
+  "generated_at": "2026-09-15T22:57:43+00:00",
+  "total_evaluated": 1216,
+  "total_pending": 67,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1214,
+      "signals_evaluated": 1216,
       "correct": 721,
       "wrong": 428,
-      "pending": 65,
+      "pending": 67,
       "win_rate": 62.8,
       "signals": [
         {
@@ -17008,6 +17008,34 @@
           "end_date": "2027-05-30",
           "total_value_usd": 11978.69,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xe52db14ce51708421d3a9d868e3db7c47f17ea76e3247ff6ff05e5e499154d3d:0",
+          "condition_id": "0xe52db14ce51708421d3a9d868e3db7c47f17ea76e3247ff6ff05e5e499154d3d",
+          "title": "Tiburon: Bryce Nakashima vs Andre Ilagan",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0405,
+          "whale_direction": "Bryce Nakashima",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-22",
+          "total_value_usd": 110364.02,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xc9fa413ac3658cd39efbcf931cce40bd0012072577d2ff45b53d031ea59b2ceb:0",
+          "condition_id": "0xc9fa413ac3658cd39efbcf931cce40bd0012072577d2ff45b53d031ea59b2ceb",
+          "title": "Sao Paulo Open: Xiaodi You vs Alina Charaeva",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0405,
+          "whale_direction": "Xiaodi You",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-21",
+          "total_value_usd": 15051.65,
+          "result": "pending"
         }
       ]
     },
@@ -17015,10 +17043,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 544,
+      "signals_evaluated": 546,
       "correct": 318,
       "wrong": 187,
-      "pending": 39,
+      "pending": 41,
       "win_rate": 63.0,
       "signals": [
         {
@@ -24636,6 +24664,34 @@
           "end_date": "2027-05-30",
           "total_value_usd": 11978.69,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xe52db14ce51708421d3a9d868e3db7c47f17ea76e3247ff6ff05e5e499154d3d:0",
+          "condition_id": "0xe52db14ce51708421d3a9d868e3db7c47f17ea76e3247ff6ff05e5e499154d3d",
+          "title": "Tiburon: Bryce Nakashima vs Andre Ilagan",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0405,
+          "whale_direction": "Bryce Nakashima",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-22",
+          "total_value_usd": 110364.02,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xc9fa413ac3658cd39efbcf931cce40bd0012072577d2ff45b53d031ea59b2ceb:0",
+          "condition_id": "0xc9fa413ac3658cd39efbcf931cce40bd0012072577d2ff45b53d031ea59b2ceb",
+          "title": "Sao Paulo Open: Xiaodi You vs Alina Charaeva",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0405,
+          "whale_direction": "Xiaodi You",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-21",
+          "total_value_usd": 15051.65,
+          "result": "pending"
         }
       ]
     },
@@ -24643,10 +24699,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 544,
+      "signals_evaluated": 546,
       "correct": 187,
       "wrong": 318,
-      "pending": 39,
+      "pending": 41,
       "win_rate": 37.0,
       "signals": [
         {
@@ -32263,6 +32319,34 @@
           "resolved_date": null,
           "end_date": "2027-05-30",
           "total_value_usd": 11978.69,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe52db14ce51708421d3a9d868e3db7c47f17ea76e3247ff6ff05e5e499154d3d:0",
+          "condition_id": "0xe52db14ce51708421d3a9d868e3db7c47f17ea76e3247ff6ff05e5e499154d3d",
+          "title": "Tiburon: Bryce Nakashima vs Andre Ilagan",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0405,
+          "whale_direction": "Bryce Nakashima",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-22",
+          "total_value_usd": 110364.02,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xc9fa413ac3658cd39efbcf931cce40bd0012072577d2ff45b53d031ea59b2ceb:0",
+          "condition_id": "0xc9fa413ac3658cd39efbcf931cce40bd0012072577d2ff45b53d031ea59b2ceb",
+          "title": "Sao Paulo Open: Xiaodi You vs Alina Charaeva",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0405,
+          "whale_direction": "Xiaodi You",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-21",
+          "total_value_usd": 15051.65,
           "result": "pending"
         }
       ]
