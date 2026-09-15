@@ -352557,5 +352557,247 @@
         "entry_price": 0.0355
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-15T01:38:34+00:00",
+    "whale_timeframes": {
+      "0x51698a47f840a242abc2ca0351371c7ffac41842": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4ab9b54427ec4b7f3646b1a0ef1bed73bc708ebe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3d8a89a20aa73fba0f30d080e8120de9f9555724": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbd36cbc3fc0819cb8a535ccf6960bcdf16adba9d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0f35109cc3ceaf729609c3109310791bd616c84a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x782186952ef2ca75ea91c95aef25bbdcffb4bb1a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x95b198f900d19a80d3d7e47b7b17708af254f9ac": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7fb23b0d330ea4ac4f3cecce1eb81fb0bfb3ed4b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f70929ba287ac85dc2431c85382ccd9e6b0d185": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xec981ed70ae69c5cbcac08c1ba063e734f6bafcd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x15ae79d7cd60b2a7f06ae46eb4c7a0eb16096ffd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x903221b1098263779ae19486028c844e8c338717": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf16ea77df0f38d332969ca58a42129eab9c943af": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf53e7cc2894cba22dcdc40de936513a502ef16e3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x5833f5c6ea430742f227f885927c13b67164301ee66603352958ded825d2d238:1",
+        "condition_id": "0x5833f5c6ea430742f227f885927c13b67164301ee66603352958ded825d2d238",
+        "title": "Detroit Tigers vs. Toronto Blue Jays",
+        "outcome": "Toronto Blue Jays",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
+        ],
+        "ranks": [
+          7,
+          11,
+          15
+        ],
+        "total_value_usd": 75382.57,
+        "score": 5.9044,
+        "category": "MLB",
+        "end_date": "2026-09-21",
+        "entry_price": 0.0355
+      },
+      {
+        "signal_key": "0xb9832aeb2830deba5fbaae08ff8026358645e0baeaacccf49f1269faed53a58f:0",
+        "condition_id": "0xb9832aeb2830deba5fbaae08ff8026358645e0baeaacccf49f1269faed53a58f",
+        "title": "Chicago White Sox vs. Cleveland Guardians",
+        "outcome": "Chicago White Sox",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
+        ],
+        "ranks": [
+          7,
+          11,
+          15
+        ],
+        "total_value_usd": 60307.24,
+        "score": 5.7871,
+        "category": "MLB",
+        "end_date": "2026-09-21",
+        "entry_price": 0.0355
+      },
+      {
+        "signal_key": "0x5833f5c6ea430742f227f885927c13b67164301ee66603352958ded825d2d238:0",
+        "condition_id": "0x5833f5c6ea430742f227f885927c13b67164301ee66603352958ded825d2d238",
+        "title": "Detroit Tigers vs. Toronto Blue Jays",
+        "outcome": "Detroit Tigers",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
+        ],
+        "ranks": [
+          7,
+          11,
+          15
+        ],
+        "total_value_usd": 14584.9,
+        "score": 5.0409,
+        "category": "MLB",
+        "end_date": "2026-09-21",
+        "entry_price": 0.0355
+      },
+      {
+        "signal_key": "0xf2b6f22346703c11acb9038e87c7354fa07dfd0ef6a73e5c12f80ce524eb911e:0",
+        "condition_id": "0xf2b6f22346703c11acb9038e87c7354fa07dfd0ef6a73e5c12f80ce524eb911e",
+        "title": "Baltimore Orioles vs. New York Mets",
+        "outcome": "Baltimore Orioles",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xec981ed70ae69c5cbcac08c1ba063e734f6bafcd",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
+        ],
+        "ranks": [
+          11,
+          14,
+          15
+        ],
+        "total_value_usd": 53436.29,
+        "score": 4.3628,
+        "category": "MLB",
+        "end_date": "2026-09-21",
+        "entry_price": 0.0355
+      },
+      {
+        "signal_key": "0xf94af197057437aadc0a3ccee340e1579824121e63b2f5e94fe2c2e7502e760e:0",
+        "condition_id": "0xf94af197057437aadc0a3ccee340e1579824121e63b2f5e94fe2c2e7502e760e",
+        "title": "New York Yankees vs. Minnesota Twins",
+        "outcome": "New York Yankees",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xec981ed70ae69c5cbcac08c1ba063e734f6bafcd",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
+        ],
+        "ranks": [
+          11,
+          14,
+          15
+        ],
+        "total_value_usd": 7211.26,
+        "score": 3.5601,
+        "category": "MLB",
+        "end_date": "2026-09-21",
+        "entry_price": 0.0355
+      }
+    ]
   }
 ]
