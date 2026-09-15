@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-15T01:49:25+00:00",
-  "total_evaluated": 1213,
-  "total_pending": 69,
+  "generated_at": "2026-09-15T06:53:05+00:00",
+  "total_evaluated": 1214,
+  "total_pending": 65,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1213,
-      "correct": 717,
-      "wrong": 427,
-      "pending": 69,
-      "win_rate": 62.7,
+      "signals_evaluated": 1214,
+      "correct": 721,
+      "wrong": 428,
+      "pending": 65,
+      "win_rate": 62.8,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -16933,11 +16933,11 @@
           "tier": "Moderate",
           "entry_price": 0.0355,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Detroit Tigers",
+          "resolved_date": "2026-09-21",
           "end_date": "2026-09-21",
           "total_value_usd": 75382.57,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xb9832aeb2830deba5fbaae08ff8026358645e0baeaacccf49f1269faed53a58f:0",
@@ -16947,11 +16947,11 @@
           "tier": "Moderate",
           "entry_price": 0.0355,
           "whale_direction": "Chicago White Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Chicago White Sox",
+          "resolved_date": "2026-09-21",
           "end_date": "2026-09-21",
           "total_value_usd": 60307.24,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x5833f5c6ea430742f227f885927c13b67164301ee66603352958ded825d2d238:0",
@@ -16961,11 +16961,11 @@
           "tier": "Moderate",
           "entry_price": 0.0355,
           "whale_direction": "Detroit Tigers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Detroit Tigers",
+          "resolved_date": "2026-09-21",
           "end_date": "2026-09-21",
           "total_value_usd": 14584.9,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf2b6f22346703c11acb9038e87c7354fa07dfd0ef6a73e5c12f80ce524eb911e:0",
@@ -16975,11 +16975,11 @@
           "tier": "Moderate",
           "entry_price": 0.0355,
           "whale_direction": "Baltimore Orioles",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Baltimore Orioles",
+          "resolved_date": "2026-09-21",
           "end_date": "2026-09-21",
           "total_value_usd": 53436.29,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf94af197057437aadc0a3ccee340e1579824121e63b2f5e94fe2c2e7502e760e:0",
@@ -16989,10 +16989,24 @@
           "tier": "Weak",
           "entry_price": 0.0355,
           "whale_direction": "New York Yankees",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-09-21",
           "end_date": "2026-09-21",
           "total_value_usd": 7211.26,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xf02d8d72bb96d84090d4f7d63e7837afb94f8d061e7a2cca8cf21732150e8815:0",
+          "condition_id": "0xf02d8d72bb96d84090d4f7d63e7837afb94f8d061e7a2cca8cf21732150e8815",
+          "title": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
+          "category": "EPL",
+          "tier": "Moderate",
+          "entry_price": 0.0365,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2027-05-30",
+          "total_value_usd": 11978.69,
           "result": "pending"
         }
       ]
@@ -17001,11 +17015,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 543,
-      "correct": 314,
-      "wrong": 186,
-      "pending": 43,
-      "win_rate": 62.8,
+      "signals_evaluated": 544,
+      "correct": 318,
+      "wrong": 187,
+      "pending": 39,
+      "win_rate": 63.0,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -24547,11 +24561,11 @@
           "tier": "Moderate",
           "entry_price": 0.0355,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Detroit Tigers",
+          "resolved_date": "2026-09-21",
           "end_date": "2026-09-21",
           "total_value_usd": 75382.57,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xb9832aeb2830deba5fbaae08ff8026358645e0baeaacccf49f1269faed53a58f:0",
@@ -24561,11 +24575,11 @@
           "tier": "Moderate",
           "entry_price": 0.0355,
           "whale_direction": "Chicago White Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Chicago White Sox",
+          "resolved_date": "2026-09-21",
           "end_date": "2026-09-21",
           "total_value_usd": 60307.24,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x5833f5c6ea430742f227f885927c13b67164301ee66603352958ded825d2d238:0",
@@ -24575,11 +24589,11 @@
           "tier": "Moderate",
           "entry_price": 0.0355,
           "whale_direction": "Detroit Tigers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Detroit Tigers",
+          "resolved_date": "2026-09-21",
           "end_date": "2026-09-21",
           "total_value_usd": 14584.9,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf2b6f22346703c11acb9038e87c7354fa07dfd0ef6a73e5c12f80ce524eb911e:0",
@@ -24589,11 +24603,11 @@
           "tier": "Moderate",
           "entry_price": 0.0355,
           "whale_direction": "Baltimore Orioles",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Baltimore Orioles",
+          "resolved_date": "2026-09-21",
           "end_date": "2026-09-21",
           "total_value_usd": 53436.29,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf94af197057437aadc0a3ccee340e1579824121e63b2f5e94fe2c2e7502e760e:0",
@@ -24603,10 +24617,24 @@
           "tier": "Weak",
           "entry_price": 0.0355,
           "whale_direction": "New York Yankees",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-09-21",
           "end_date": "2026-09-21",
           "total_value_usd": 7211.26,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xf02d8d72bb96d84090d4f7d63e7837afb94f8d061e7a2cca8cf21732150e8815:0",
+          "condition_id": "0xf02d8d72bb96d84090d4f7d63e7837afb94f8d061e7a2cca8cf21732150e8815",
+          "title": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
+          "category": "EPL",
+          "tier": "Moderate",
+          "entry_price": 0.0365,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2027-05-30",
+          "total_value_usd": 11978.69,
           "result": "pending"
         }
       ]
@@ -24615,11 +24643,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 543,
-      "correct": 186,
-      "wrong": 314,
-      "pending": 43,
-      "win_rate": 37.2,
+      "signals_evaluated": 544,
+      "correct": 187,
+      "wrong": 318,
+      "pending": 39,
+      "win_rate": 37.0,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -32161,11 +32189,11 @@
           "tier": "Moderate",
           "entry_price": 0.0355,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Detroit Tigers",
+          "resolved_date": "2026-09-21",
           "end_date": "2026-09-21",
           "total_value_usd": 75382.57,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xb9832aeb2830deba5fbaae08ff8026358645e0baeaacccf49f1269faed53a58f:0",
@@ -32175,11 +32203,11 @@
           "tier": "Moderate",
           "entry_price": 0.0355,
           "whale_direction": "Chicago White Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Chicago White Sox",
+          "resolved_date": "2026-09-21",
           "end_date": "2026-09-21",
           "total_value_usd": 60307.24,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x5833f5c6ea430742f227f885927c13b67164301ee66603352958ded825d2d238:0",
@@ -32189,11 +32217,11 @@
           "tier": "Moderate",
           "entry_price": 0.0355,
           "whale_direction": "Detroit Tigers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Detroit Tigers",
+          "resolved_date": "2026-09-21",
           "end_date": "2026-09-21",
           "total_value_usd": 14584.9,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xf2b6f22346703c11acb9038e87c7354fa07dfd0ef6a73e5c12f80ce524eb911e:0",
@@ -32203,11 +32231,11 @@
           "tier": "Moderate",
           "entry_price": 0.0355,
           "whale_direction": "Baltimore Orioles",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Baltimore Orioles",
+          "resolved_date": "2026-09-21",
           "end_date": "2026-09-21",
           "total_value_usd": 53436.29,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xf94af197057437aadc0a3ccee340e1579824121e63b2f5e94fe2c2e7502e760e:0",
@@ -32217,10 +32245,24 @@
           "tier": "Weak",
           "entry_price": 0.0355,
           "whale_direction": "New York Yankees",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-09-21",
           "end_date": "2026-09-21",
           "total_value_usd": 7211.26,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xf02d8d72bb96d84090d4f7d63e7837afb94f8d061e7a2cca8cf21732150e8815:0",
+          "condition_id": "0xf02d8d72bb96d84090d4f7d63e7837afb94f8d061e7a2cca8cf21732150e8815",
+          "title": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
+          "category": "EPL",
+          "tier": "Moderate",
+          "entry_price": 0.0365,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2027-05-30",
+          "total_value_usd": 11978.69,
           "result": "pending"
         }
       ]

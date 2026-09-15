@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-15T01:49:25+00:00",
-  "total_signals": 1213,
-  "total_resolved": 1144,
-  "total_correct": 717,
-  "overall_hit_rate": 62.7,
+  "generated_at": "2026-09-15T06:53:05+00:00",
+  "total_signals": 1214,
+  "total_resolved": 1149,
+  "total_correct": 721,
+  "overall_hit_rate": 62.8,
   "by_tier": {
     "Strong": {
       "total": 519,
@@ -12,16 +12,16 @@
       "hit_rate": 63.7
     },
     "Moderate": {
-      "total": 630,
-      "resolved": 587,
-      "correct": 368,
-      "hit_rate": 62.7
+      "total": 631,
+      "resolved": 591,
+      "correct": 371,
+      "hit_rate": 62.8
     },
     "Weak": {
       "total": 64,
-      "resolved": 59,
-      "correct": 32,
-      "hit_rate": 54.2
+      "resolved": 60,
+      "correct": 33,
+      "hit_rate": 55.0
     }
   },
   "signals": [
@@ -20573,10 +20573,10 @@
       "total_value_usd": 75382.57,
       "entry_price": 0.0355,
       "end_date": "2026-09-21",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Detroit Tigers",
+      "resolved_date": "2026-09-21"
     },
     {
       "signal_key": "0xb9832aeb2830deba5fbaae08ff8026358645e0baeaacccf49f1269faed53a58f:0",
@@ -20590,10 +20590,10 @@
       "total_value_usd": 60307.24,
       "entry_price": 0.0355,
       "end_date": "2026-09-21",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Chicago White Sox",
+      "resolved_date": "2026-09-21"
     },
     {
       "signal_key": "0x5833f5c6ea430742f227f885927c13b67164301ee66603352958ded825d2d238:0",
@@ -20607,10 +20607,10 @@
       "total_value_usd": 14584.9,
       "entry_price": 0.0355,
       "end_date": "2026-09-21",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Detroit Tigers",
+      "resolved_date": "2026-09-21"
     },
     {
       "signal_key": "0xf2b6f22346703c11acb9038e87c7354fa07dfd0ef6a73e5c12f80ce524eb911e:0",
@@ -20624,10 +20624,10 @@
       "total_value_usd": 53436.29,
       "entry_price": 0.0355,
       "end_date": "2026-09-21",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Baltimore Orioles",
+      "resolved_date": "2026-09-21"
     },
     {
       "signal_key": "0xf94af197057437aadc0a3ccee340e1579824121e63b2f5e94fe2c2e7502e760e:0",
@@ -20641,6 +20641,23 @@
       "total_value_usd": 7211.26,
       "entry_price": 0.0355,
       "end_date": "2026-09-21",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "New York Yankees",
+      "resolved_date": "2026-09-21"
+    },
+    {
+      "signal_key": "0xf02d8d72bb96d84090d4f7d63e7837afb94f8d061e7a2cca8cf21732150e8815:0",
+      "condition_id": "0xf02d8d72bb96d84090d4f7d63e7837afb94f8d061e7a2cca8cf21732150e8815",
+      "title": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
+      "category": "EPL",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 6.7791,
+      "total_value_usd": 11978.69,
+      "entry_price": 0.0365,
+      "end_date": "2027-05-30",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
