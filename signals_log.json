@@ -354486,5 +354486,320 @@
         "entry_price": 0.052
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-16T21:50:32+00:00",
+    "whale_timeframes": {
+      "0x3a8aa345d5db7ec5138298c8c4f4540259be7699": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5a218c7ad04135830a45c41aaed7294df7809318": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf28e42d20e4826f2b10a24bc952001697947cab2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5815db9fdf0e0ffdc1d1f759916b221339570ae7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc6587b11a2209e46dfe3928b31c5514a8e33b784": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2dc13c6bda81b202281e796953a7323de675b33c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1058f156b207cafe61d102e97bf6796931d301c1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd84d7f9262516865553555751609fb6f52abec6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4ab9b54427ec4b7f3646b1a0ef1bed73bc708ebe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5ecde7348ea5100af4360dd7a6e0a3fb1d420787": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0af037c59ede5b3b2a6625f23923057d8296d425": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x821dab0565ebf5b327f51db06223fdcfe01acf16": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x12aa13b3da17ceae1b0a59b5d5b77121e91bb79b4bb0b52bf6543ed3f8d0953b:0",
+        "condition_id": "0x12aa13b3da17ceae1b0a59b5d5b77121e91bb79b4bb0b52bf6543ed3f8d0953b",
+        "title": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991",
+          "0xc6587b11a2209e46dfe3928b31c5514a8e33b784"
+        ],
+        "ranks": [
+          1,
+          6,
+          10
+        ],
+        "total_value_usd": 119449.91,
+        "score": 25.9143,
+        "category": "Fed",
+        "end_date": "2026-10-28",
+        "entry_price": 0.0395
+      },
+      {
+        "signal_key": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846:1",
+        "condition_id": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
+        "title": "Will the U.S. invade Iran before 2027?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418",
+          "0x5ecde7348ea5100af4360dd7a6e0a3fb1d420787"
+        ],
+        "ranks": [
+          1,
+          9,
+          17
+        ],
+        "total_value_usd": 97080.61,
+        "score": 23.5108,
+        "category": "Military Strikes",
+        "end_date": "2027-01-01",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0xb40b0cd531184a1e436d23ca898e1590418187b116f387158753d1adb9853e47:0",
+        "condition_id": "0xb40b0cd531184a1e436d23ca898e1590418187b116f387158753d1adb9853e47",
+        "title": "Will Anthropic IPO by December 31, 2026?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x3a8aa345d5db7ec5138298c8c4f4540259be7699",
+          "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418",
+          "0xc6587b11a2209e46dfe3928b31c5514a8e33b784"
+        ],
+        "ranks": [
+          1,
+          9,
+          10
+        ],
+        "total_value_usd": 20416.55,
+        "score": 21.0337,
+        "category": "Finance",
+        "end_date": "2027-07-01",
+        "entry_price": 0.0395
+      },
+      {
+        "signal_key": "0xe6bcc2f1dd025ce5e1833190f7c60a71171c94f805df55b9ab0ded695ec93565:0",
+        "condition_id": "0xe6bcc2f1dd025ce5e1833190f7c60a71171c94f805df55b9ab0ded695ec93565",
+        "title": "Will Alexandria Ocasio-Cortez win the 2028 Democratic presidential nomination?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5a218c7ad04135830a45c41aaed7294df7809318",
+          "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991",
+          "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418"
+        ],
+        "ranks": [
+          2,
+          6,
+          9
+        ],
+        "total_value_usd": 54181.99,
+        "score": 14.8363,
+        "category": "United States",
+        "end_date": "2028-11-07",
+        "entry_price": 0.0375
+      },
+      {
+        "signal_key": "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d:1",
+        "condition_id": "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d",
+        "title": "2026 Balance of Power: D Senate, D House",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418",
+          "0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227"
+        ],
+        "ranks": [
+          5,
+          9,
+          15
+        ],
+        "total_value_usd": 2439915.01,
+        "score": 9.7233,
+        "category": "United States",
+        "end_date": "2026-11-03",
+        "entry_price": 0.048
+      },
+      {
+        "signal_key": "0x4e4f77e7dbf4cab666e9a1943674d7ae66348e862df03ea6f44b11eb95731928:1",
+        "condition_id": "0x4e4f77e7dbf4cab666e9a1943674d7ae66348e862df03ea6f44b11eb95731928",
+        "title": "Will the Republican Party control the House after the 2026 Midterm elections?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991",
+          "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418",
+          "0xc6587b11a2209e46dfe3928b31c5514a8e33b784",
+          "0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227"
+        ],
+        "ranks": [
+          6,
+          9,
+          10,
+          15
+        ],
+        "total_value_usd": 78373.98,
+        "score": 8.765,
+        "category": "Parent For Derivative",
+        "end_date": "2026-11-03",
+        "entry_price": 0.515
+      },
+      {
+        "signal_key": "0xd5d9fc47718bd553592d126b1fa5e87183d27f3936975b0c04cc0f2dec1f1bb4:0",
+        "condition_id": "0xd5d9fc47718bd553592d126b1fa5e87183d27f3936975b0c04cc0f2dec1f1bb4",
+        "title": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991",
+          "0xc8ab97a9089a9ff7e6ef0688e6e591a066946418",
+          "0xc6587b11a2209e46dfe3928b31c5514a8e33b784",
+          "0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227"
+        ],
+        "ranks": [
+          6,
+          9,
+          10,
+          15
+        ],
+        "total_value_usd": 50633.79,
+        "score": 8.4252,
+        "category": "Parent For Derivative",
+        "end_date": "2026-11-03",
+        "entry_price": 0.505
+      },
+      {
+        "signal_key": "0x45f98942d43f48d9360e387d16a596435bff0b86ee7ff48d494b9760b4eab0d5:1",
+        "condition_id": "0x45f98942d43f48d9360e387d16a596435bff0b86ee7ff48d494b9760b4eab0d5",
+        "title": "New York Yankees vs. Minnesota Twins",
+        "outcome": "Minnesota Twins",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xcd84d7f9262516865553555751609fb6f52abec6",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16"
+        ],
+        "ranks": [
+          5,
+          13,
+          19
+        ],
+        "total_value_usd": 97768.26,
+        "score": 6.6267,
+        "category": "MLB",
+        "end_date": "2026-09-23",
+        "entry_price": 0.048
+      }
+    ]
   }
 ]
