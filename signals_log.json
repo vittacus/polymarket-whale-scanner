@@ -354336,5 +354336,155 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-09-16T18:53:33+00:00",
+    "whale_timeframes": {
+      "0x5a218c7ad04135830a45c41aaed7294df7809318": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf28e42d20e4826f2b10a24bc952001697947cab2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2dc13c6bda81b202281e796953a7323de675b33c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd84d7f9262516865553555751609fb6f52abec6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5ecde7348ea5100af4360dd7a6e0a3fb1d420787": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x16bb9951a36fce71e2ef57890b786145e0ba8492": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x004c832cb3af8ee0771fdf5fc3d494fe8ca2bb89": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc32359bbc920b365a05cd310b9a998508c980077": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe3c9c84c9917d21351902f3bfde3420543ea4b9c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbe189fc6c8298e832b7f988dde76a44b783f3be4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x441909510a0b18a7df9f5ea588314a53d5bcfcf4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd1ed12197b7dc22dede923727e9b714024dbd7cb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x92187ce382e20da80d363ff3a8f2729e051d1d8b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5815db9fdf0e0ffdc1d1f759916b221339570ae7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x06dc51826bc524d9a83770e7de9dd7e005b04524": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x26b46988d027c6c03cfa12a7c0c6d778be49b8a9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xc7cfe6321679b46112548f5490c7da11f1422fd42d4c0d9bb0d316b43d13255d:0",
+        "condition_id": "0xc7cfe6321679b46112548f5490c7da11f1422fd42d4c0d9bb0d316b43d13255d",
+        "title": "Chicago White Sox vs. Cleveland Guardians",
+        "outcome": "Chicago White Sox",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xcd84d7f9262516865553555751609fb6f52abec6",
+          "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e"
+        ],
+        "ranks": [
+          4,
+          6,
+          7
+        ],
+        "total_value_usd": 63427.21,
+        "score": 10.8273,
+        "category": "MLB",
+        "end_date": "2026-09-23",
+        "entry_price": 0.052
+      }
+    ]
   }
 ]
