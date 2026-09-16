@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-15T22:57:43+00:00",
-  "total_evaluated": 1216,
-  "total_pending": 67,
+  "generated_at": "2026-09-16T01:09:10+00:00",
+  "total_evaluated": 1221,
+  "total_pending": 71,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1216,
-      "correct": 721,
+      "signals_evaluated": 1221,
+      "correct": 722,
       "wrong": 428,
-      "pending": 67,
+      "pending": 71,
       "win_rate": 62.8,
       "signals": [
         {
@@ -17017,11 +17017,11 @@
           "tier": "Strong",
           "entry_price": 0.0405,
           "whale_direction": "Bryce Nakashima",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Bryce Nakashima",
+          "resolved_date": "2026-09-22",
           "end_date": "2026-09-22",
           "total_value_usd": 110364.02,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc9fa413ac3658cd39efbcf931cce40bd0012072577d2ff45b53d031ea59b2ceb:0",
@@ -17036,6 +17036,76 @@
           "end_date": "2026-09-21",
           "total_value_usd": 15051.65,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xf8880d6dfb9c42d54d19be3b29d984c5df76cae0c707ce93e1ba0319c11bb18d:1",
+          "condition_id": "0xf8880d6dfb9c42d54d19be3b29d984c5df76cae0c707ce93e1ba0319c11bb18d",
+          "title": "Guadalajara Open Akron: Diane Parry vs Peyton Stearns",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Peyton Stearns",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-22",
+          "total_value_usd": 48922.3,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x4bcc7656936e485101cdf7ee9006963e1945dea88abf106195424b9ec49dc9c4:0",
+          "condition_id": "0x4bcc7656936e485101cdf7ee9006963e1945dea88abf106195424b9ec49dc9c4",
+          "title": "Tiburon: Darwin Blanch vs Stefan Kozlov",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Darwin Blanch",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-21",
+          "total_value_usd": 22975.17,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x4bcc7656936e485101cdf7ee9006963e1945dea88abf106195424b9ec49dc9c4:1",
+          "condition_id": "0x4bcc7656936e485101cdf7ee9006963e1945dea88abf106195424b9ec49dc9c4",
+          "title": "Tiburon: Darwin Blanch vs Stefan Kozlov",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Stefan Kozlov",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-21",
+          "total_value_usd": 21252.52,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xcaa3bf3f03adbd574e74476d20656908131f203fa7ade91791fe1e672cabfb96:0",
+          "condition_id": "0xcaa3bf3f03adbd574e74476d20656908131f203fa7ade91791fe1e672cabfb96",
+          "title": "Los Angeles Dodgers vs. Cincinnati Reds",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-22",
+          "total_value_usd": 43551.04,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x22ba2f7612bbac08df8577aebb848eeef342e32e12785595bdea626877e4d633:0",
+          "condition_id": "0x22ba2f7612bbac08df8577aebb848eeef342e32e12785595bdea626877e4d633",
+          "title": "Milwaukee Brewers vs. Pittsburgh Pirates",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Milwaukee Brewers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-22",
+          "total_value_usd": 27177.08,
+          "result": "pending"
         }
       ]
     },
@@ -17043,10 +17113,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 546,
-      "correct": 318,
+      "signals_evaluated": 551,
+      "correct": 319,
       "wrong": 187,
-      "pending": 41,
+      "pending": 45,
       "win_rate": 63.0,
       "signals": [
         {
@@ -24673,11 +24743,11 @@
           "tier": "Strong",
           "entry_price": 0.0405,
           "whale_direction": "Bryce Nakashima",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Bryce Nakashima",
+          "resolved_date": "2026-09-22",
           "end_date": "2026-09-22",
           "total_value_usd": 110364.02,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc9fa413ac3658cd39efbcf931cce40bd0012072577d2ff45b53d031ea59b2ceb:0",
@@ -24692,6 +24762,76 @@
           "end_date": "2026-09-21",
           "total_value_usd": 15051.65,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xf8880d6dfb9c42d54d19be3b29d984c5df76cae0c707ce93e1ba0319c11bb18d:1",
+          "condition_id": "0xf8880d6dfb9c42d54d19be3b29d984c5df76cae0c707ce93e1ba0319c11bb18d",
+          "title": "Guadalajara Open Akron: Diane Parry vs Peyton Stearns",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Peyton Stearns",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-22",
+          "total_value_usd": 48922.3,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x4bcc7656936e485101cdf7ee9006963e1945dea88abf106195424b9ec49dc9c4:0",
+          "condition_id": "0x4bcc7656936e485101cdf7ee9006963e1945dea88abf106195424b9ec49dc9c4",
+          "title": "Tiburon: Darwin Blanch vs Stefan Kozlov",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Darwin Blanch",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-21",
+          "total_value_usd": 22975.17,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x4bcc7656936e485101cdf7ee9006963e1945dea88abf106195424b9ec49dc9c4:1",
+          "condition_id": "0x4bcc7656936e485101cdf7ee9006963e1945dea88abf106195424b9ec49dc9c4",
+          "title": "Tiburon: Darwin Blanch vs Stefan Kozlov",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Stefan Kozlov",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-21",
+          "total_value_usd": 21252.52,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xcaa3bf3f03adbd574e74476d20656908131f203fa7ade91791fe1e672cabfb96:0",
+          "condition_id": "0xcaa3bf3f03adbd574e74476d20656908131f203fa7ade91791fe1e672cabfb96",
+          "title": "Los Angeles Dodgers vs. Cincinnati Reds",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-22",
+          "total_value_usd": 43551.04,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x22ba2f7612bbac08df8577aebb848eeef342e32e12785595bdea626877e4d633:0",
+          "condition_id": "0x22ba2f7612bbac08df8577aebb848eeef342e32e12785595bdea626877e4d633",
+          "title": "Milwaukee Brewers vs. Pittsburgh Pirates",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Milwaukee Brewers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-22",
+          "total_value_usd": 27177.08,
+          "result": "pending"
         }
       ]
     },
@@ -24699,10 +24839,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 546,
+      "signals_evaluated": 551,
       "correct": 187,
-      "wrong": 318,
-      "pending": 41,
+      "wrong": 319,
+      "pending": 45,
       "win_rate": 37.0,
       "signals": [
         {
@@ -32329,11 +32469,11 @@
           "tier": "Strong",
           "entry_price": 0.0405,
           "whale_direction": "Bryce Nakashima",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Bryce Nakashima",
+          "resolved_date": "2026-09-22",
           "end_date": "2026-09-22",
           "total_value_usd": 110364.02,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xc9fa413ac3658cd39efbcf931cce40bd0012072577d2ff45b53d031ea59b2ceb:0",
@@ -32347,6 +32487,76 @@
           "resolved_date": null,
           "end_date": "2026-09-21",
           "total_value_usd": 15051.65,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf8880d6dfb9c42d54d19be3b29d984c5df76cae0c707ce93e1ba0319c11bb18d:1",
+          "condition_id": "0xf8880d6dfb9c42d54d19be3b29d984c5df76cae0c707ce93e1ba0319c11bb18d",
+          "title": "Guadalajara Open Akron: Diane Parry vs Peyton Stearns",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Peyton Stearns",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-22",
+          "total_value_usd": 48922.3,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x4bcc7656936e485101cdf7ee9006963e1945dea88abf106195424b9ec49dc9c4:0",
+          "condition_id": "0x4bcc7656936e485101cdf7ee9006963e1945dea88abf106195424b9ec49dc9c4",
+          "title": "Tiburon: Darwin Blanch vs Stefan Kozlov",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Darwin Blanch",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-21",
+          "total_value_usd": 22975.17,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x4bcc7656936e485101cdf7ee9006963e1945dea88abf106195424b9ec49dc9c4:1",
+          "condition_id": "0x4bcc7656936e485101cdf7ee9006963e1945dea88abf106195424b9ec49dc9c4",
+          "title": "Tiburon: Darwin Blanch vs Stefan Kozlov",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Stefan Kozlov",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-21",
+          "total_value_usd": 21252.52,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xcaa3bf3f03adbd574e74476d20656908131f203fa7ade91791fe1e672cabfb96:0",
+          "condition_id": "0xcaa3bf3f03adbd574e74476d20656908131f203fa7ade91791fe1e672cabfb96",
+          "title": "Los Angeles Dodgers vs. Cincinnati Reds",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-22",
+          "total_value_usd": 43551.04,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x22ba2f7612bbac08df8577aebb848eeef342e32e12785595bdea626877e4d633:0",
+          "condition_id": "0x22ba2f7612bbac08df8577aebb848eeef342e32e12785595bdea626877e4d633",
+          "title": "Milwaukee Brewers vs. Pittsburgh Pirates",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Milwaukee Brewers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-22",
+          "total_value_usd": 27177.08,
           "result": "pending"
         }
       ]
