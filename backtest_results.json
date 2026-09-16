@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-16T01:09:10+00:00",
+  "generated_at": "2026-09-16T05:53:27+00:00",
   "total_signals": 1221,
-  "total_resolved": 1150,
-  "total_correct": 722,
-  "overall_hit_rate": 62.8,
+  "total_resolved": 1155,
+  "total_correct": 726,
+  "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
       "total": 524,
-      "resolved": 499,
-      "correct": 318,
+      "resolved": 502,
+      "correct": 320,
       "hit_rate": 63.7
     },
     "Moderate": {
       "total": 633,
-      "resolved": 591,
-      "correct": 371,
-      "hit_rate": 62.8
+      "resolved": 593,
+      "correct": 373,
+      "hit_rate": 62.9
     },
     "Weak": {
       "total": 64,
@@ -20709,10 +20709,10 @@
       "total_value_usd": 48922.3,
       "entry_price": 0.0425,
       "end_date": "2026-09-22",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Peyton Stearns",
+      "resolved_date": "2026-09-22"
     },
     {
       "signal_key": "0x4bcc7656936e485101cdf7ee9006963e1945dea88abf106195424b9ec49dc9c4:0",
@@ -20726,10 +20726,10 @@
       "total_value_usd": 22975.17,
       "entry_price": 0.0425,
       "end_date": "2026-09-21",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Darwin Blanch",
+      "resolved_date": "2026-09-21"
     },
     {
       "signal_key": "0x4bcc7656936e485101cdf7ee9006963e1945dea88abf106195424b9ec49dc9c4:1",
@@ -20743,10 +20743,10 @@
       "total_value_usd": 21252.52,
       "entry_price": 0.0425,
       "end_date": "2026-09-21",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Darwin Blanch",
+      "resolved_date": "2026-09-21"
     },
     {
       "signal_key": "0xcaa3bf3f03adbd574e74476d20656908131f203fa7ade91791fe1e672cabfb96:0",
@@ -20760,10 +20760,10 @@
       "total_value_usd": 43551.04,
       "entry_price": 0.0425,
       "end_date": "2026-09-22",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Los Angeles Dodgers",
+      "resolved_date": "2026-09-22"
     },
     {
       "signal_key": "0x22ba2f7612bbac08df8577aebb848eeef342e32e12785595bdea626877e4d633:0",
@@ -20777,10 +20777,10 @@
       "total_value_usd": 27177.08,
       "entry_price": 0.0425,
       "end_date": "2026-09-22",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Milwaukee Brewers",
+      "resolved_date": "2026-09-22"
     }
   ]
 }

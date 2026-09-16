@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-16T01:09:10+00:00",
+  "generated_at": "2026-09-16T05:53:27+00:00",
   "total_evaluated": 1221,
-  "total_pending": 71,
+  "total_pending": 66,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 1221,
-      "correct": 722,
-      "wrong": 428,
-      "pending": 71,
-      "win_rate": 62.8,
+      "correct": 726,
+      "wrong": 429,
+      "pending": 66,
+      "win_rate": 62.9,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -17045,11 +17045,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Peyton Stearns",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Peyton Stearns",
+          "resolved_date": "2026-09-22",
           "end_date": "2026-09-22",
           "total_value_usd": 48922.3,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x4bcc7656936e485101cdf7ee9006963e1945dea88abf106195424b9ec49dc9c4:0",
@@ -17059,11 +17059,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Darwin Blanch",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Darwin Blanch",
+          "resolved_date": "2026-09-21",
           "end_date": "2026-09-21",
           "total_value_usd": 22975.17,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x4bcc7656936e485101cdf7ee9006963e1945dea88abf106195424b9ec49dc9c4:1",
@@ -17073,11 +17073,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Stefan Kozlov",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Darwin Blanch",
+          "resolved_date": "2026-09-21",
           "end_date": "2026-09-21",
           "total_value_usd": 21252.52,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xcaa3bf3f03adbd574e74476d20656908131f203fa7ade91791fe1e672cabfb96:0",
@@ -17087,11 +17087,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Dodgers",
+          "resolved_date": "2026-09-22",
           "end_date": "2026-09-22",
           "total_value_usd": 43551.04,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x22ba2f7612bbac08df8577aebb848eeef342e32e12785595bdea626877e4d633:0",
@@ -17101,11 +17101,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Milwaukee Brewers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-09-22",
           "end_date": "2026-09-22",
           "total_value_usd": 27177.08,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -17114,10 +17114,10 @@
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 551,
-      "correct": 319,
-      "wrong": 187,
-      "pending": 45,
-      "win_rate": 63.0,
+      "correct": 323,
+      "wrong": 188,
+      "pending": 40,
+      "win_rate": 63.2,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -24771,11 +24771,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Peyton Stearns",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Peyton Stearns",
+          "resolved_date": "2026-09-22",
           "end_date": "2026-09-22",
           "total_value_usd": 48922.3,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x4bcc7656936e485101cdf7ee9006963e1945dea88abf106195424b9ec49dc9c4:0",
@@ -24785,11 +24785,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Darwin Blanch",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Darwin Blanch",
+          "resolved_date": "2026-09-21",
           "end_date": "2026-09-21",
           "total_value_usd": 22975.17,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x4bcc7656936e485101cdf7ee9006963e1945dea88abf106195424b9ec49dc9c4:1",
@@ -24799,11 +24799,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Stefan Kozlov",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Darwin Blanch",
+          "resolved_date": "2026-09-21",
           "end_date": "2026-09-21",
           "total_value_usd": 21252.52,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xcaa3bf3f03adbd574e74476d20656908131f203fa7ade91791fe1e672cabfb96:0",
@@ -24813,11 +24813,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Dodgers",
+          "resolved_date": "2026-09-22",
           "end_date": "2026-09-22",
           "total_value_usd": 43551.04,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x22ba2f7612bbac08df8577aebb848eeef342e32e12785595bdea626877e4d633:0",
@@ -24827,11 +24827,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Milwaukee Brewers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-09-22",
           "end_date": "2026-09-22",
           "total_value_usd": 27177.08,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -24840,10 +24840,10 @@
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 551,
-      "correct": 187,
-      "wrong": 319,
-      "pending": 45,
-      "win_rate": 37.0,
+      "correct": 188,
+      "wrong": 323,
+      "pending": 40,
+      "win_rate": 36.8,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -32497,11 +32497,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Peyton Stearns",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Peyton Stearns",
+          "resolved_date": "2026-09-22",
           "end_date": "2026-09-22",
           "total_value_usd": 48922.3,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x4bcc7656936e485101cdf7ee9006963e1945dea88abf106195424b9ec49dc9c4:0",
@@ -32511,11 +32511,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Darwin Blanch",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Darwin Blanch",
+          "resolved_date": "2026-09-21",
           "end_date": "2026-09-21",
           "total_value_usd": 22975.17,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x4bcc7656936e485101cdf7ee9006963e1945dea88abf106195424b9ec49dc9c4:1",
@@ -32525,11 +32525,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Stefan Kozlov",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Darwin Blanch",
+          "resolved_date": "2026-09-21",
           "end_date": "2026-09-21",
           "total_value_usd": 21252.52,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xcaa3bf3f03adbd574e74476d20656908131f203fa7ade91791fe1e672cabfb96:0",
@@ -32539,11 +32539,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Dodgers",
+          "resolved_date": "2026-09-22",
           "end_date": "2026-09-22",
           "total_value_usd": 43551.04,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x22ba2f7612bbac08df8577aebb848eeef342e32e12785595bdea626877e4d633:0",
@@ -32553,11 +32553,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Milwaukee Brewers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-09-22",
           "end_date": "2026-09-22",
           "total_value_usd": 27177.08,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
