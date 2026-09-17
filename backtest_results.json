@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-17T00:10:50+00:00",
-  "total_signals": 1226,
-  "total_resolved": 1167,
-  "total_correct": 733,
-  "overall_hit_rate": 62.8,
+  "generated_at": "2026-09-17T05:00:52+00:00",
+  "total_signals": 1227,
+  "total_resolved": 1169,
+  "total_correct": 735,
+  "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
       "total": 525,
@@ -12,10 +12,10 @@
       "hit_rate": 63.9
     },
     "Moderate": {
-      "total": 637,
-      "resolved": 598,
-      "correct": 375,
-      "hit_rate": 62.7
+      "total": 638,
+      "resolved": 600,
+      "correct": 377,
+      "hit_rate": 62.8
     },
     "Weak": {
       "total": 64,
@@ -20845,10 +20845,10 @@
       "total_value_usd": 226006.78,
       "entry_price": 0.0445,
       "end_date": "2026-09-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Baltimore Orioles",
+      "resolved_date": "2026-09-23"
     },
     {
       "signal_key": "0xc4e9b031555847e8b4edc34b81f2d3b736ee55cfe1a83ec0f3ee216e543b50e0:1",
@@ -20862,6 +20862,23 @@
       "total_value_usd": 59227.87,
       "entry_price": 0.0445,
       "end_date": "2026-09-23",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Cincinnati Reds",
+      "resolved_date": "2026-09-23"
+    },
+    {
+      "signal_key": "0xa8f38b6ebc86de4ac8b140d21080a66c001cca82b3858369060eb525c3287725:0",
+      "condition_id": "0xa8f38b6ebc86de4ac8b140d21080a66c001cca82b3858369060eb525c3287725",
+      "title": "Seattle Mariners vs. Los Angeles Angels",
+      "category": "MLB",
+      "whale_direction": "Seattle Mariners",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 5.747,
+      "total_value_usd": 36638.02,
+      "entry_price": 0.0455,
+      "end_date": "2026-09-24",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
