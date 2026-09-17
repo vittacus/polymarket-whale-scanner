@@ -355888,5 +355888,201 @@
         "entry_price": 0.0425
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-17T23:43:01+00:00",
+    "whale_timeframes": {
+      "0x63cf8544631c31e9fcea0b02141dd24d01d6e4d0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x369f46433349a57cd6d08abf2819da737c09873e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1465b79bff7992bc703e1aafb3683b1089647072": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0346afae2603313d2bbee96b628536c8cbe352a5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5815db9fdf0e0ffdc1d1f759916b221339570ae7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x30c7ac0158499ddc6761047f7f69bcf7d036ac3b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x26b46988d027c6c03cfa12a7c0c6d778be49b8a9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc9ae00eda811041a059f3eec9356b24067c1b9e0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe40ecff63ec661d218a86c048186ac83389a9770": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0259b2054f046fe0ee8f3e075fdb85fc3ba9769e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1610db79f753a80207e1d66716be9e91e627ae49": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd84d7f9262516865553555751609fb6f52abec6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xeb34b86ca3ca64eb3cee6c9a0cce668385df7268": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x52ecea7b3159f09db589e4f4ee64872fd0bba6f3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xa13a98a052d900310d229591c593a8b2314c2834b5416ff0a8f9e2e7e55864d0:0",
+        "condition_id": "0xa13a98a052d900310d229591c593a8b2314c2834b5416ff0a8f9e2e7e55864d0",
+        "title": "Will Arsenal FC win on 2026-09-19?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x0346afae2603313d2bbee96b628536c8cbe352a5",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e"
+        ],
+        "ranks": [
+          6,
+          7,
+          9
+        ],
+        "total_value_usd": 12158.86,
+        "score": 6.9238,
+        "category": "Soccer",
+        "end_date": "2026-09-19",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0x9278efc8d5ff06b4c45f205bfd5a9aacbbede6aaa734d63fcecdace137913b52:0",
+        "condition_id": "0x9278efc8d5ff06b4c45f205bfd5a9aacbbede6aaa734d63fcecdace137913b52",
+        "title": "Philadelphia Phillies vs. New York Mets",
+        "outcome": "Philadelphia Phillies",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x1610db79f753a80207e1d66716be9e91e627ae49",
+          "0xcd84d7f9262516865553555751609fb6f52abec6"
+        ],
+        "ranks": [
+          9,
+          17,
+          18
+        ],
+        "total_value_usd": 42728.28,
+        "score": 4.2076,
+        "category": "MLB",
+        "end_date": "2026-09-24",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0xebb137cc297595b66b04af7fecd79078fe4eaf1920d9fd26125dabec544a8134:0",
+        "condition_id": "0xebb137cc297595b66b04af7fecd79078fe4eaf1920d9fd26125dabec544a8134",
+        "title": "Kansas City Royals vs. Houston Astros",
+        "outcome": "Kansas City Royals",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x1610db79f753a80207e1d66716be9e91e627ae49",
+          "0xcd84d7f9262516865553555751609fb6f52abec6"
+        ],
+        "ranks": [
+          9,
+          17,
+          18
+        ],
+        "total_value_usd": 17177.42,
+        "score": 3.848,
+        "category": "MLB",
+        "end_date": "2026-09-24",
+        "entry_price": 0.0425
+      }
+    ]
   }
 ]
