@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-16T22:00:45+00:00",
-  "total_signals": 1224,
+  "generated_at": "2026-09-17T00:10:50+00:00",
+  "total_signals": 1226,
   "total_resolved": 1167,
   "total_correct": 733,
   "overall_hit_rate": 62.8,
@@ -12,7 +12,7 @@
       "hit_rate": 63.9
     },
     "Moderate": {
-      "total": 635,
+      "total": 637,
       "resolved": 598,
       "correct": 375,
       "hit_rate": 62.7
@@ -20832,6 +20832,40 @@
       "correct": true,
       "resolved_outcome": "Minnesota Twins",
       "resolved_date": "2026-09-23"
+    },
+    {
+      "signal_key": "0xeb93a532e0ed0b1366722e18927cc107ff95a35f3e7bba0881f5265b8c8b5aae:0",
+      "condition_id": "0xeb93a532e0ed0b1366722e18927cc107ff95a35f3e7bba0881f5265b8c8b5aae",
+      "title": "Baltimore Orioles vs. New York Mets",
+      "category": "MLB",
+      "whale_direction": "Baltimore Orioles",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 4.6114,
+      "total_value_usd": 226006.78,
+      "entry_price": 0.0445,
+      "end_date": "2026-09-23",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xc4e9b031555847e8b4edc34b81f2d3b736ee55cfe1a83ec0f3ee216e543b50e0:1",
+      "condition_id": "0xc4e9b031555847e8b4edc34b81f2d3b736ee55cfe1a83ec0f3ee216e543b50e0",
+      "title": "Los Angeles Dodgers vs. Cincinnati Reds",
+      "category": "MLB",
+      "whale_direction": "Cincinnati Reds",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 4.5473,
+      "total_value_usd": 59227.87,
+      "entry_price": 0.0445,
+      "end_date": "2026-09-23",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }

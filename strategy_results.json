@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-16T22:00:45+00:00",
-  "total_evaluated": 1224,
-  "total_pending": 57,
+  "generated_at": "2026-09-17T00:10:50+00:00",
+  "total_evaluated": 1226,
+  "total_pending": 59,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1224,
+      "signals_evaluated": 1226,
       "correct": 733,
       "wrong": 434,
-      "pending": 57,
+      "pending": 59,
       "win_rate": 62.8,
       "signals": [
         {
@@ -17148,6 +17148,34 @@
           "end_date": "2026-09-23",
           "total_value_usd": 97768.26,
           "result": "correct"
+        },
+        {
+          "signal_key": "0xeb93a532e0ed0b1366722e18927cc107ff95a35f3e7bba0881f5265b8c8b5aae:0",
+          "condition_id": "0xeb93a532e0ed0b1366722e18927cc107ff95a35f3e7bba0881f5265b8c8b5aae",
+          "title": "Baltimore Orioles vs. New York Mets",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Baltimore Orioles",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-23",
+          "total_value_usd": 226006.78,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xc4e9b031555847e8b4edc34b81f2d3b736ee55cfe1a83ec0f3ee216e543b50e0:1",
+          "condition_id": "0xc4e9b031555847e8b4edc34b81f2d3b736ee55cfe1a83ec0f3ee216e543b50e0",
+          "title": "Los Angeles Dodgers vs. Cincinnati Reds",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Cincinnati Reds",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-23",
+          "total_value_usd": 59227.87,
+          "result": "pending"
         }
       ]
     },
@@ -17155,10 +17183,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 554,
+      "signals_evaluated": 556,
       "correct": 328,
       "wrong": 192,
-      "pending": 34,
+      "pending": 36,
       "win_rate": 63.1,
       "signals": [
         {
@@ -24916,6 +24944,34 @@
           "end_date": "2026-09-23",
           "total_value_usd": 97768.26,
           "result": "correct"
+        },
+        {
+          "signal_key": "0xeb93a532e0ed0b1366722e18927cc107ff95a35f3e7bba0881f5265b8c8b5aae:0",
+          "condition_id": "0xeb93a532e0ed0b1366722e18927cc107ff95a35f3e7bba0881f5265b8c8b5aae",
+          "title": "Baltimore Orioles vs. New York Mets",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Baltimore Orioles",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-23",
+          "total_value_usd": 226006.78,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xc4e9b031555847e8b4edc34b81f2d3b736ee55cfe1a83ec0f3ee216e543b50e0:1",
+          "condition_id": "0xc4e9b031555847e8b4edc34b81f2d3b736ee55cfe1a83ec0f3ee216e543b50e0",
+          "title": "Los Angeles Dodgers vs. Cincinnati Reds",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Cincinnati Reds",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-23",
+          "total_value_usd": 59227.87,
+          "result": "pending"
         }
       ]
     },
@@ -24923,10 +24979,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 554,
+      "signals_evaluated": 556,
       "correct": 192,
       "wrong": 328,
-      "pending": 34,
+      "pending": 36,
       "win_rate": 36.9,
       "signals": [
         {
@@ -32684,6 +32740,34 @@
           "end_date": "2026-09-23",
           "total_value_usd": 97768.26,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0xeb93a532e0ed0b1366722e18927cc107ff95a35f3e7bba0881f5265b8c8b5aae:0",
+          "condition_id": "0xeb93a532e0ed0b1366722e18927cc107ff95a35f3e7bba0881f5265b8c8b5aae",
+          "title": "Baltimore Orioles vs. New York Mets",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Baltimore Orioles",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-23",
+          "total_value_usd": 226006.78,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xc4e9b031555847e8b4edc34b81f2d3b736ee55cfe1a83ec0f3ee216e543b50e0:1",
+          "condition_id": "0xc4e9b031555847e8b4edc34b81f2d3b736ee55cfe1a83ec0f3ee216e543b50e0",
+          "title": "Los Angeles Dodgers vs. Cincinnati Reds",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Cincinnati Reds",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-23",
+          "total_value_usd": 59227.87,
+          "result": "pending"
         }
       ]
     },
