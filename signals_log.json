@@ -355715,5 +355715,178 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-09-17T21:45:05+00:00",
+    "whale_timeframes": {
+      "0x63cf8544631c31e9fcea0b02141dd24d01d6e4d0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x369f46433349a57cd6d08abf2819da737c09873e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1465b79bff7992bc703e1aafb3683b1089647072": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5815db9fdf0e0ffdc1d1f759916b221339570ae7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0346afae2603313d2bbee96b628536c8cbe352a5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4ab9b54427ec4b7f3646b1a0ef1bed73bc708ebe": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1610db79f753a80207e1d66716be9e91e627ae49": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x30c7ac0158499ddc6761047f7f69bcf7d036ac3b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc9ae00eda811041a059f3eec9356b24067c1b9e0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe40ecff63ec661d218a86c048186ac83389a9770": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0259b2054f046fe0ee8f3e075fdb85fc3ba9769e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd84d7f9262516865553555751609fb6f52abec6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xa13a98a052d900310d229591c593a8b2314c2834b5416ff0a8f9e2e7e55864d0:0",
+        "condition_id": "0xa13a98a052d900310d229591c593a8b2314c2834b5416ff0a8f9e2e7e55864d0",
+        "title": "Will Arsenal FC win on 2026-09-19?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x0346afae2603313d2bbee96b628536c8cbe352a5",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e"
+        ],
+        "ranks": [
+          5,
+          7,
+          15
+        ],
+        "total_value_usd": 10937.56,
+        "score": 6.665,
+        "category": "Soccer",
+        "end_date": "2026-09-19",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0x9278efc8d5ff06b4c45f205bfd5a9aacbbede6aaa734d63fcecdace137913b52:0",
+        "condition_id": "0x9278efc8d5ff06b4c45f205bfd5a9aacbbede6aaa734d63fcecdace137913b52",
+        "title": "Philadelphia Phillies vs. New York Mets",
+        "outcome": "Philadelphia Phillies",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x1610db79f753a80207e1d66716be9e91e627ae49",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0xcd84d7f9262516865553555751609fb6f52abec6"
+        ],
+        "ranks": [
+          12,
+          15,
+          20
+        ],
+        "total_value_usd": 37316.31,
+        "score": 3.6845,
+        "category": "MLB",
+        "end_date": "2026-09-24",
+        "entry_price": 0.0425
+      }
+    ]
   }
 ]

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-17T18:42:47+00:00",
-  "total_signals": 1227,
+  "generated_at": "2026-09-17T21:55:20+00:00",
+  "total_signals": 1229,
   "total_resolved": 1170,
   "total_correct": 736,
   "overall_hit_rate": 62.9,
@@ -12,13 +12,13 @@
       "hit_rate": 63.9
     },
     "Moderate": {
-      "total": 638,
+      "total": 639,
       "resolved": 601,
       "correct": 378,
       "hit_rate": 62.9
     },
     "Weak": {
-      "total": 64,
+      "total": 65,
       "resolved": 60,
       "correct": 33,
       "hit_rate": 55.0
@@ -20883,6 +20883,40 @@
       "correct": true,
       "resolved_outcome": "Seattle Mariners",
       "resolved_date": "2026-09-24"
+    },
+    {
+      "signal_key": "0xa13a98a052d900310d229591c593a8b2314c2834b5416ff0a8f9e2e7e55864d0:0",
+      "condition_id": "0xa13a98a052d900310d229591c593a8b2314c2834b5416ff0a8f9e2e7e55864d0",
+      "title": "Will Arsenal FC win on 2026-09-19?",
+      "category": "Soccer",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 6.665,
+      "total_value_usd": 10937.56,
+      "entry_price": 0.0425,
+      "end_date": "2026-09-19",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x9278efc8d5ff06b4c45f205bfd5a9aacbbede6aaa734d63fcecdace137913b52:0",
+      "condition_id": "0x9278efc8d5ff06b4c45f205bfd5a9aacbbede6aaa734d63fcecdace137913b52",
+      "title": "Philadelphia Phillies vs. New York Mets",
+      "category": "MLB",
+      "whale_direction": "Philadelphia Phillies",
+      "outcome_index": 0,
+      "tier": "Weak",
+      "score": 3.6845,
+      "total_value_usd": 37316.31,
+      "entry_price": 0.0425,
+      "end_date": "2026-09-24",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
