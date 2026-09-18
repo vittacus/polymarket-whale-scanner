@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-17T23:52:51+00:00",
-  "total_evaluated": 1230,
-  "total_pending": 60,
+  "generated_at": "2026-09-18T01:43:34+00:00",
+  "total_evaluated": 1231,
+  "total_pending": 61,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1230,
+      "signals_evaluated": 1231,
       "correct": 736,
       "wrong": 434,
-      "pending": 60,
+      "pending": 61,
       "win_rate": 62.9,
       "signals": [
         {
@@ -17232,6 +17232,20 @@
           "end_date": "2026-09-24",
           "total_value_usd": 17177.42,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xaab58cad3348a57761c0417f6751487e2d4815edcb8ae7fd00e1f8dff8a091c6:1",
+          "condition_id": "0xaab58cad3348a57761c0417f6751487e2d4815edcb8ae7fd00e1f8dff8a091c6",
+          "title": "Boston Red Sox vs. Texas Rangers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Texas Rangers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-25",
+          "total_value_usd": 211413.11,
+          "result": "pending"
         }
       ]
     },
@@ -17239,10 +17253,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 560,
+      "signals_evaluated": 561,
       "correct": 331,
       "wrong": 192,
-      "pending": 37,
+      "pending": 38,
       "win_rate": 63.3,
       "signals": [
         {
@@ -25084,6 +25098,20 @@
           "end_date": "2026-09-24",
           "total_value_usd": 17177.42,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xaab58cad3348a57761c0417f6751487e2d4815edcb8ae7fd00e1f8dff8a091c6:1",
+          "condition_id": "0xaab58cad3348a57761c0417f6751487e2d4815edcb8ae7fd00e1f8dff8a091c6",
+          "title": "Boston Red Sox vs. Texas Rangers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Texas Rangers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-25",
+          "total_value_usd": 211413.11,
+          "result": "pending"
         }
       ]
     },
@@ -25091,10 +25119,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 560,
+      "signals_evaluated": 561,
       "correct": 192,
       "wrong": 331,
-      "pending": 37,
+      "pending": 38,
       "win_rate": 36.7,
       "signals": [
         {
@@ -32935,6 +32963,20 @@
           "resolved_date": null,
           "end_date": "2026-09-24",
           "total_value_usd": 17177.42,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xaab58cad3348a57761c0417f6751487e2d4815edcb8ae7fd00e1f8dff8a091c6:1",
+          "condition_id": "0xaab58cad3348a57761c0417f6751487e2d4815edcb8ae7fd00e1f8dff8a091c6",
+          "title": "Boston Red Sox vs. Texas Rangers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Texas Rangers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-25",
+          "total_value_usd": 211413.11,
           "result": "pending"
         }
       ]

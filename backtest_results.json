@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-17T23:52:51+00:00",
-  "total_signals": 1230,
+  "generated_at": "2026-09-18T01:43:34+00:00",
+  "total_signals": 1231,
   "total_resolved": 1170,
   "total_correct": 736,
   "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
-      "total": 525,
+      "total": 526,
       "resolved": 509,
       "correct": 325,
       "hit_rate": 63.9
@@ -20930,6 +20930,23 @@
       "total_value_usd": 17177.42,
       "entry_price": 0.0425,
       "end_date": "2026-09-24",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xaab58cad3348a57761c0417f6751487e2d4815edcb8ae7fd00e1f8dff8a091c6:1",
+      "condition_id": "0xaab58cad3348a57761c0417f6751487e2d4815edcb8ae7fd00e1f8dff8a091c6",
+      "title": "Boston Red Sox vs. Texas Rangers",
+      "category": "MLB",
+      "whale_direction": "Texas Rangers",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 13.5899,
+      "total_value_usd": 211413.11,
+      "entry_price": 0.0425,
+      "end_date": "2026-09-25",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
