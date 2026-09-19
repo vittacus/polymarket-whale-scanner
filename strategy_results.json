@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-18T23:30:20+00:00",
-  "total_evaluated": 1231,
-  "total_pending": 58,
+  "generated_at": "2026-09-19T01:33:05+00:00",
+  "total_evaluated": 1234,
+  "total_pending": 61,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1231,
+      "signals_evaluated": 1234,
       "correct": 737,
       "wrong": 436,
-      "pending": 58,
+      "pending": 61,
       "win_rate": 62.8,
       "signals": [
         {
@@ -17246,6 +17246,48 @@
           "end_date": "2026-09-25",
           "total_value_usd": 211413.11,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x502a94e5c525766d5ee7f16c6568131ba1b2cbadb69c703af05a6ef00336ed64:1",
+          "condition_id": "0x502a94e5c525766d5ee7f16c6568131ba1b2cbadb69c703af05a6ef00336ed64",
+          "title": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
+          "category": "International Election Props",
+          "tier": "Strong",
+          "entry_price": 0.0385,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-30",
+          "total_value_usd": 218774.02,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xc9615bb82d6535d630ff98e8094060bc767d8b9446516e98f84d2001a35e50e7:0",
+          "condition_id": "0xc9615bb82d6535d630ff98e8094060bc767d8b9446516e98f84d2001a35e50e7",
+          "title": "Will New People (NL) gain the most seats in the next Russian parliamentary election?",
+          "category": "International Election Props",
+          "tier": "Moderate",
+          "entry_price": 0.0385,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-30",
+          "total_value_usd": 149156.73,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe09e54a08669bc9d1bdddf390da30838efa387cc4a57e2e910cd70ee6229db53:1",
+          "condition_id": "0xe09e54a08669bc9d1bdddf390da30838efa387cc4a57e2e910cd70ee6229db53",
+          "title": "Chicago Cubs vs. Cincinnati Reds",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0385,
+          "whale_direction": "Cincinnati Reds",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-25",
+          "total_value_usd": 107521.88,
+          "result": "pending"
         }
       ]
     },
@@ -17253,10 +17295,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 561,
+      "signals_evaluated": 564,
       "correct": 332,
       "wrong": 194,
-      "pending": 35,
+      "pending": 38,
       "win_rate": 63.1,
       "signals": [
         {
@@ -25112,6 +25154,48 @@
           "end_date": "2026-09-25",
           "total_value_usd": 211413.11,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x502a94e5c525766d5ee7f16c6568131ba1b2cbadb69c703af05a6ef00336ed64:1",
+          "condition_id": "0x502a94e5c525766d5ee7f16c6568131ba1b2cbadb69c703af05a6ef00336ed64",
+          "title": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
+          "category": "International Election Props",
+          "tier": "Strong",
+          "entry_price": 0.0385,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-30",
+          "total_value_usd": 218774.02,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xc9615bb82d6535d630ff98e8094060bc767d8b9446516e98f84d2001a35e50e7:0",
+          "condition_id": "0xc9615bb82d6535d630ff98e8094060bc767d8b9446516e98f84d2001a35e50e7",
+          "title": "Will New People (NL) gain the most seats in the next Russian parliamentary election?",
+          "category": "International Election Props",
+          "tier": "Moderate",
+          "entry_price": 0.0385,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-30",
+          "total_value_usd": 149156.73,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe09e54a08669bc9d1bdddf390da30838efa387cc4a57e2e910cd70ee6229db53:1",
+          "condition_id": "0xe09e54a08669bc9d1bdddf390da30838efa387cc4a57e2e910cd70ee6229db53",
+          "title": "Chicago Cubs vs. Cincinnati Reds",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0385,
+          "whale_direction": "Cincinnati Reds",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-25",
+          "total_value_usd": 107521.88,
+          "result": "pending"
         }
       ]
     },
@@ -25119,10 +25203,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 561,
+      "signals_evaluated": 564,
       "correct": 194,
       "wrong": 332,
-      "pending": 35,
+      "pending": 38,
       "win_rate": 36.9,
       "signals": [
         {
@@ -32978,6 +33062,48 @@
           "end_date": "2026-09-25",
           "total_value_usd": 211413.11,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x502a94e5c525766d5ee7f16c6568131ba1b2cbadb69c703af05a6ef00336ed64:1",
+          "condition_id": "0x502a94e5c525766d5ee7f16c6568131ba1b2cbadb69c703af05a6ef00336ed64",
+          "title": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
+          "category": "International Election Props",
+          "tier": "Strong",
+          "entry_price": 0.0385,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-30",
+          "total_value_usd": 218774.02,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xc9615bb82d6535d630ff98e8094060bc767d8b9446516e98f84d2001a35e50e7:0",
+          "condition_id": "0xc9615bb82d6535d630ff98e8094060bc767d8b9446516e98f84d2001a35e50e7",
+          "title": "Will New People (NL) gain the most seats in the next Russian parliamentary election?",
+          "category": "International Election Props",
+          "tier": "Moderate",
+          "entry_price": 0.0385,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-30",
+          "total_value_usd": 149156.73,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe09e54a08669bc9d1bdddf390da30838efa387cc4a57e2e910cd70ee6229db53:1",
+          "condition_id": "0xe09e54a08669bc9d1bdddf390da30838efa387cc4a57e2e910cd70ee6229db53",
+          "title": "Chicago Cubs vs. Cincinnati Reds",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0385,
+          "whale_direction": "Cincinnati Reds",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-25",
+          "total_value_usd": 107521.88,
+          "result": "pending"
         }
       ]
     },

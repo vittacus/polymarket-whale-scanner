@@ -356990,5 +356990,211 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-09-19T01:21:24+00:00",
+    "whale_timeframes": {
+      "0x6c3aae17140c5e3cde62380daaa323e38575c459": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa8cf2ed8751f4e58ad039e1b68a8b58b4395031f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2dc13c6bda81b202281e796953a7323de675b33c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfde6d3106320cf7d22fa64822fdec909fa3f7ed6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0d18e30e252008d83f51dae00d36873ddd9e24a6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x682005011dd19c1e986cb060ed6ab83845f21c19": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0f35109cc3ceaf729609c3109310791bd616c84a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa08455c829a493054315e40e7817321e8c77bb99": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x782186952ef2ca75ea91c95aef25bbdcffb4bb1a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe4a7b5c3b60bbbaf33e4cf6d0fb5ddc3e3a2dc87": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xabb89972b21b304c1bed2bf26f35c8741ac9bba3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x26b46988d027c6c03cfa12a7c0c6d778be49b8a9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x202dfa295bb5a8ba123b66848ef70709982a369c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe5c215ac428d4143f9ebc817c9ac6e717a2e2ab0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x73f6a7cd42f1f2e0cfe822a588a88b0cfddc3fa9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x033f0346c007323030eb420305ffede19a95618e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6575759174ad221bba9947bc3f18750ec769b198": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0a7ed19909e9b4c6cd0fc1d59c1d481415a1fce4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x202b55f1fce57d15463c7691a66a2f03f62c7ed7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x502a94e5c525766d5ee7f16c6568131ba1b2cbadb69c703af05a6ef00336ed64:1",
+        "condition_id": "0x502a94e5c525766d5ee7f16c6568131ba1b2cbadb69c703af05a6ef00336ed64",
+        "title": "Will United Russia (ER) gain the most seats in the next Russian parliamentary election?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 6,
+        "wallets": [
+          "0xfde6d3106320cf7d22fa64822fdec909fa3f7ed6",
+          "0x202dfa295bb5a8ba123b66848ef70709982a369c",
+          "0xe5c215ac428d4143f9ebc817c9ac6e717a2e2ab0",
+          "0x73f6a7cd42f1f2e0cfe822a588a88b0cfddc3fa9",
+          "0x0a7ed19909e9b4c6cd0fc1d59c1d481415a1fce4",
+          "0x202b55f1fce57d15463c7691a66a2f03f62c7ed7"
+        ],
+        "ranks": [
+          5,
+          14,
+          15,
+          16,
+          19,
+          20
+        ],
+        "total_value_usd": 218774.02,
+        "score": 10.8283,
+        "category": "International Election Props",
+        "end_date": "2026-09-30",
+        "entry_price": 0.0385
+      },
+      {
+        "signal_key": "0xc9615bb82d6535d630ff98e8094060bc767d8b9446516e98f84d2001a35e50e7:0",
+        "condition_id": "0xc9615bb82d6535d630ff98e8094060bc767d8b9446516e98f84d2001a35e50e7",
+        "title": "Will New People (NL) gain the most seats in the next Russian parliamentary election?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 5,
+        "wallets": [
+          "0xfde6d3106320cf7d22fa64822fdec909fa3f7ed6",
+          "0x202dfa295bb5a8ba123b66848ef70709982a369c",
+          "0x73f6a7cd42f1f2e0cfe822a588a88b0cfddc3fa9",
+          "0x6575759174ad221bba9947bc3f18750ec769b198",
+          "0x202b55f1fce57d15463c7691a66a2f03f62c7ed7"
+        ],
+        "ranks": [
+          5,
+          14,
+          16,
+          18,
+          20
+        ],
+        "total_value_usd": 149156.73,
+        "score": 9.1621,
+        "category": "International Election Props",
+        "end_date": "2026-09-30",
+        "entry_price": 0.0385
+      },
+      {
+        "signal_key": "0xe09e54a08669bc9d1bdddf390da30838efa387cc4a57e2e910cd70ee6229db53:1",
+        "condition_id": "0xe09e54a08669bc9d1bdddf390da30838efa387cc4a57e2e910cd70ee6229db53",
+        "title": "Chicago Cubs vs. Cincinnati Reds",
+        "outcome": "Cincinnati Reds",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xa08455c829a493054315e40e7817321e8c77bb99",
+          "0xe4a7b5c3b60bbbaf33e4cf6d0fb5ddc3e3a2dc87",
+          "0xabb89972b21b304c1bed2bf26f35c8741ac9bba3"
+        ],
+        "ranks": [
+          9,
+          11,
+          12
+        ],
+        "total_value_usd": 107521.88,
+        "score": 5.7854,
+        "category": "MLB",
+        "end_date": "2026-09-25",
+        "entry_price": 0.0385
+      }
+    ]
   }
 ]
