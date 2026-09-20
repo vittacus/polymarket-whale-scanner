@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-20T12:30:29+00:00",
-  "total_signals": 1239,
+  "generated_at": "2026-09-20T16:30:12+00:00",
+  "total_signals": 1240,
   "total_resolved": 1180,
   "total_correct": 742,
   "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
-      "total": 531,
+      "total": 532,
       "resolved": 514,
       "correct": 329,
       "hit_rate": 64.0
@@ -21087,6 +21087,23 @@
       "correct": false,
       "resolved_outcome": "Los Angeles Angels",
       "resolved_date": "2026-09-27"
+    },
+    {
+      "signal_key": "0x87091dc5932f015d80c40e71e47cb043c3f8b6098484eb5bc3943cf35ee9afc1:0",
+      "condition_id": "0x87091dc5932f015d80c40e71e47cb043c3f8b6098484eb5bc3943cf35ee9afc1",
+      "title": "Will Kylian Mbapp\u00e9 win the 2026 Ballon d'Or?",
+      "category": "Soccer",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 11.5369,
+      "total_value_usd": 11455.96,
+      "entry_price": 0.0375,
+      "end_date": "2026-10-31",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
