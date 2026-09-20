@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-20T01:48:09+00:00",
+  "generated_at": "2026-09-20T07:10:49+00:00",
   "total_signals": 1239,
-  "total_resolved": 1175,
-  "total_correct": 738,
-  "overall_hit_rate": 62.8,
+  "total_resolved": 1180,
+  "total_correct": 742,
+  "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
       "total": 531,
-      "resolved": 510,
-      "correct": 325,
-      "hit_rate": 63.7
+      "resolved": 514,
+      "correct": 329,
+      "hit_rate": 64.0
     },
     "Moderate": {
       "total": 642,
-      "resolved": 603,
+      "resolved": 604,
       "correct": 379,
-      "hit_rate": 62.9
+      "hit_rate": 62.7
     },
     "Weak": {
       "total": 66,
@@ -21015,10 +21015,10 @@
       "total_value_usd": 127150.91,
       "entry_price": 0.0355,
       "end_date": "2026-09-27",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Arizona Diamondbacks",
+      "resolved_date": "2026-09-27"
     },
     {
       "signal_key": "0x96e190279b16f1cb3d724f7113851cf2dfb7c39490e3c814209db31bc6e151a1:1",
@@ -21032,10 +21032,10 @@
       "total_value_usd": 39894.25,
       "entry_price": 0.0355,
       "end_date": "2026-09-26",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Texas Rangers",
+      "resolved_date": "2026-09-26"
     },
     {
       "signal_key": "0xf721d8c374adb16fb5f5048508639c809dc3b4da8117acf72f042963967c3ae8:1",
@@ -21049,10 +21049,10 @@
       "total_value_usd": 12308.63,
       "entry_price": 0.0355,
       "end_date": "2026-09-27",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Colorado Rockies",
+      "resolved_date": "2026-09-27"
     },
     {
       "signal_key": "0xaaeadf5883d6e0b102a23a80baec4828eeb8c36f5b45545e993469535e138672:0",
@@ -21066,10 +21066,10 @@
       "total_value_usd": 194922.0,
       "entry_price": 0.0355,
       "end_date": "2026-09-26",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Washington Nationals",
+      "resolved_date": "2026-09-26"
     },
     {
       "signal_key": "0x31507678b813cbec2b9202fb5502c25c32b75f3502a5521980f82504d3ed083f:0",
@@ -21083,10 +21083,10 @@
       "total_value_usd": 38103.53,
       "entry_price": 0.0355,
       "end_date": "2026-09-27",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Los Angeles Angels",
+      "resolved_date": "2026-09-27"
     }
   ]
 }

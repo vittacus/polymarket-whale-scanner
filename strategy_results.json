@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-20T01:48:09+00:00",
+  "generated_at": "2026-09-20T07:10:49+00:00",
   "total_evaluated": 1239,
-  "total_pending": 64,
+  "total_pending": 59,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 1239,
-      "correct": 738,
-      "wrong": 437,
-      "pending": 64,
-      "win_rate": 62.8,
+      "correct": 742,
+      "wrong": 438,
+      "pending": 59,
+      "win_rate": 62.9,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -17297,11 +17297,11 @@
           "tier": "Strong",
           "entry_price": 0.0355,
           "whale_direction": "Arizona Diamondbacks",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Arizona Diamondbacks",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 127150.91,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x96e190279b16f1cb3d724f7113851cf2dfb7c39490e3c814209db31bc6e151a1:1",
@@ -17311,11 +17311,11 @@
           "tier": "Strong",
           "entry_price": 0.0355,
           "whale_direction": "Texas Rangers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Texas Rangers",
+          "resolved_date": "2026-09-26",
           "end_date": "2026-09-26",
           "total_value_usd": 39894.25,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf721d8c374adb16fb5f5048508639c809dc3b4da8117acf72f042963967c3ae8:1",
@@ -17325,11 +17325,11 @@
           "tier": "Strong",
           "entry_price": 0.0355,
           "whale_direction": "Colorado Rockies",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Colorado Rockies",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 12308.63,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xaaeadf5883d6e0b102a23a80baec4828eeb8c36f5b45545e993469535e138672:0",
@@ -17339,11 +17339,11 @@
           "tier": "Strong",
           "entry_price": 0.0355,
           "whale_direction": "Washington Nationals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Washington Nationals",
+          "resolved_date": "2026-09-26",
           "end_date": "2026-09-26",
           "total_value_usd": 194922.0,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x31507678b813cbec2b9202fb5502c25c32b75f3502a5521980f82504d3ed083f:0",
@@ -17353,11 +17353,11 @@
           "tier": "Moderate",
           "entry_price": 0.0355,
           "whale_direction": "Minnesota Twins",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Angels",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 38103.53,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
@@ -17366,10 +17366,10 @@
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 569,
-      "correct": 333,
-      "wrong": 195,
-      "pending": 41,
-      "win_rate": 63.1,
+      "correct": 337,
+      "wrong": 196,
+      "pending": 36,
+      "win_rate": 63.2,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -25275,11 +25275,11 @@
           "tier": "Strong",
           "entry_price": 0.0355,
           "whale_direction": "Arizona Diamondbacks",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Arizona Diamondbacks",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 127150.91,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x96e190279b16f1cb3d724f7113851cf2dfb7c39490e3c814209db31bc6e151a1:1",
@@ -25289,11 +25289,11 @@
           "tier": "Strong",
           "entry_price": 0.0355,
           "whale_direction": "Texas Rangers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Texas Rangers",
+          "resolved_date": "2026-09-26",
           "end_date": "2026-09-26",
           "total_value_usd": 39894.25,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf721d8c374adb16fb5f5048508639c809dc3b4da8117acf72f042963967c3ae8:1",
@@ -25303,11 +25303,11 @@
           "tier": "Strong",
           "entry_price": 0.0355,
           "whale_direction": "Colorado Rockies",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Colorado Rockies",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 12308.63,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xaaeadf5883d6e0b102a23a80baec4828eeb8c36f5b45545e993469535e138672:0",
@@ -25317,11 +25317,11 @@
           "tier": "Strong",
           "entry_price": 0.0355,
           "whale_direction": "Washington Nationals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Washington Nationals",
+          "resolved_date": "2026-09-26",
           "end_date": "2026-09-26",
           "total_value_usd": 194922.0,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x31507678b813cbec2b9202fb5502c25c32b75f3502a5521980f82504d3ed083f:0",
@@ -25331,11 +25331,11 @@
           "tier": "Moderate",
           "entry_price": 0.0355,
           "whale_direction": "Minnesota Twins",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Angels",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 38103.53,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
@@ -25344,10 +25344,10 @@
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 569,
-      "correct": 195,
-      "wrong": 333,
-      "pending": 41,
-      "win_rate": 36.9,
+      "correct": 196,
+      "wrong": 337,
+      "pending": 36,
+      "win_rate": 36.8,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -33253,11 +33253,11 @@
           "tier": "Strong",
           "entry_price": 0.0355,
           "whale_direction": "Arizona Diamondbacks",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Arizona Diamondbacks",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 127150.91,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x96e190279b16f1cb3d724f7113851cf2dfb7c39490e3c814209db31bc6e151a1:1",
@@ -33267,11 +33267,11 @@
           "tier": "Strong",
           "entry_price": 0.0355,
           "whale_direction": "Texas Rangers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Texas Rangers",
+          "resolved_date": "2026-09-26",
           "end_date": "2026-09-26",
           "total_value_usd": 39894.25,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xf721d8c374adb16fb5f5048508639c809dc3b4da8117acf72f042963967c3ae8:1",
@@ -33281,11 +33281,11 @@
           "tier": "Strong",
           "entry_price": 0.0355,
           "whale_direction": "Colorado Rockies",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Colorado Rockies",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 12308.63,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xaaeadf5883d6e0b102a23a80baec4828eeb8c36f5b45545e993469535e138672:0",
@@ -33295,11 +33295,11 @@
           "tier": "Strong",
           "entry_price": 0.0355,
           "whale_direction": "Washington Nationals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Washington Nationals",
+          "resolved_date": "2026-09-26",
           "end_date": "2026-09-26",
           "total_value_usd": 194922.0,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x31507678b813cbec2b9202fb5502c25c32b75f3502a5521980f82504d3ed083f:0",
@@ -33309,11 +33309,11 @@
           "tier": "Moderate",
           "entry_price": 0.0355,
           "whale_direction": "Minnesota Twins",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Los Angeles Angels",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 38103.53,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
