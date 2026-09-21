@@ -359128,5 +359128,253 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-09-21T01:08:01+00:00",
+    "whale_timeframes": {
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x395c354bf541b3d71d38130e380a415cb942ee8d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1465b79bff7992bc703e1aafb3683b1089647072": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc789d1196769518a3c8d15c61cdc6415e40d1a62": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x39d3c773be30fcc73161fc6768f46d563a779ef0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x89a636baae1c31a712eff86c564601ac4135429a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x032eb1bc893940263ad0b01889f262fc232f2a9e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x536075898ec928492dcd70efb372e641eede1f6f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9703676286b93c2eca71ca96e8757104519a69c2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x42f6aa13616870a33020989e448840ffbab451d9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x26b46988d027c6c03cfa12a7c0c6d778be49b8a9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x03805a13a0b3e058f55f6c6af95389d4f431073d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xf3845656c27e77b8b4af5382cd801398259cd5566d56d788c072b8082ad6fa67:0",
+        "condition_id": "0xf3845656c27e77b8b4af5382cd801398259cd5566d56d788c072b8082ad6fa67",
+        "title": "Milwaukee Brewers vs. Baltimore Orioles",
+        "outcome": "Milwaukee Brewers",
+        "outcome_index": 0,
+        "whale_count": 6,
+        "wallets": [
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x26b46988d027c6c03cfa12a7c0c6d778be49b8a9"
+        ],
+        "ranks": [
+          1,
+          2,
+          5,
+          10,
+          12,
+          19
+        ],
+        "total_value_usd": 212828.15,
+        "score": 41.5641,
+        "category": "MLB",
+        "end_date": "2026-09-27",
+        "entry_price": 0.0375
+      },
+      {
+        "signal_key": "0x4e4f77e7dbf4cab666e9a1943674d7ae66348e862df03ea6f44b11eb95731928:0",
+        "condition_id": "0x4e4f77e7dbf4cab666e9a1943674d7ae66348e862df03ea6f44b11eb95731928",
+        "title": "Will the Republican Party control the House after the 2026 Midterm elections?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x9703676286b93c2eca71ca96e8757104519a69c2"
+        ],
+        "ranks": [
+          2,
+          5,
+          17
+        ],
+        "total_value_usd": 13826.9,
+        "score": 12.6612,
+        "category": "Parent For Derivative",
+        "end_date": "2026-11-03",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x749d8eccbc0a99447e71fc5e40a0096842774bef4d5c8838b8adb39af068b3cb:0",
+        "condition_id": "0x749d8eccbc0a99447e71fc5e40a0096842774bef4d5c8838b8adb39af068b3cb",
+        "title": "Will the Los Angeles Dodgers win the 2026 World Series?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+          "0x9703676286b93c2eca71ca96e8757104519a69c2"
+        ],
+        "ranks": [
+          2,
+          14,
+          17
+        ],
+        "total_value_usd": 25613.63,
+        "score": 11.1959,
+        "category": "World Series",
+        "end_date": "2026-10-31",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x3df7be753c8b6ebbddf31d6d63535c4b31c836cb25b1a73085508a271bc103db:0",
+        "condition_id": "0x3df7be753c8b6ebbddf31d6d63535c4b31c836cb25b1a73085508a271bc103db",
+        "title": "Will the New York Yankees win the 2026 World Series?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+          "0x9703676286b93c2eca71ca96e8757104519a69c2"
+        ],
+        "ranks": [
+          2,
+          14,
+          17
+        ],
+        "total_value_usd": 5829.98,
+        "score": 9.5635,
+        "category": "World Series",
+        "end_date": "2026-10-31",
+        "entry_price": 0.0375
+      },
+      {
+        "signal_key": "0x9e238daa4cc2b89379314f5c1873e3c0d07d26bf2eb69a3d618a7b5d13b165a0:0",
+        "condition_id": "0x9e238daa4cc2b89379314f5c1873e3c0d07d26bf2eb69a3d618a7b5d13b165a0",
+        "title": "Will the Philadelphia Phillies win the 2026 World Series?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x032eb1bc893940263ad0b01889f262fc232f2a9e",
+          "0x9703676286b93c2eca71ca96e8757104519a69c2"
+        ],
+        "ranks": [
+          2,
+          14,
+          17
+        ],
+        "total_value_usd": 3043.65,
+        "score": 8.8468,
+        "category": "World Series",
+        "end_date": "2026-10-31",
+        "entry_price": 0.0375
+      }
+    ]
   }
 ]
