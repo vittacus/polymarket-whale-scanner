@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-21T01:17:31+00:00",
-  "total_signals": 1243,
-  "total_resolved": 1180,
-  "total_correct": 742,
+  "generated_at": "2026-09-21T06:29:12+00:00",
+  "total_signals": 1244,
+  "total_resolved": 1181,
+  "total_correct": 743,
   "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
-      "total": 533,
-      "resolved": 514,
-      "correct": 329,
-      "hit_rate": 64.0
+      "total": 534,
+      "resolved": 515,
+      "correct": 330,
+      "hit_rate": 64.1
     },
     "Moderate": {
       "total": 644,
@@ -21117,10 +21117,10 @@
       "total_value_usd": 212828.15,
       "entry_price": 0.0375,
       "end_date": "2026-09-27",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Milwaukee Brewers",
+      "resolved_date": "2026-09-27"
     },
     {
       "signal_key": "0x3df7be753c8b6ebbddf31d6d63535c4b31c836cb25b1a73085508a271bc103db:0",
@@ -21151,6 +21151,23 @@
       "total_value_usd": 3043.65,
       "entry_price": 0.0375,
       "end_date": "2026-10-31",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x915a7faaed0cc6dd1101ffe01c954ea9ead7352234f951d75df5fc94bc244403:1",
+      "condition_id": "0x915a7faaed0cc6dd1101ffe01c954ea9ead7352234f951d75df5fc94bc244403",
+      "title": "Korea Open: Xinxin Yao vs Maya Joint",
+      "category": "Tennis",
+      "whale_direction": "Maya Joint",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 14.3576,
+      "total_value_usd": 283846.1,
+      "entry_price": 0.0375,
+      "end_date": "2026-09-28",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

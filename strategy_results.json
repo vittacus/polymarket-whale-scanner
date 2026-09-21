@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-21T01:17:32+00:00",
-  "total_evaluated": 1243,
+  "generated_at": "2026-09-21T06:29:12+00:00",
+  "total_evaluated": 1244,
   "total_pending": 63,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1243,
-      "correct": 742,
+      "signals_evaluated": 1244,
+      "correct": 743,
       "wrong": 438,
       "pending": 63,
       "win_rate": 62.9,
@@ -17381,11 +17381,11 @@
           "tier": "Strong",
           "entry_price": 0.0375,
           "whale_direction": "Milwaukee Brewers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 212828.15,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x3df7be753c8b6ebbddf31d6d63535c4b31c836cb25b1a73085508a271bc103db:0",
@@ -17413,6 +17413,20 @@
           "resolved_date": null,
           "end_date": "2026-10-31",
           "total_value_usd": 3043.65,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x915a7faaed0cc6dd1101ffe01c954ea9ead7352234f951d75df5fc94bc244403:1",
+          "condition_id": "0x915a7faaed0cc6dd1101ffe01c954ea9ead7352234f951d75df5fc94bc244403",
+          "title": "Korea Open: Xinxin Yao vs Maya Joint",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0375,
+          "whale_direction": "Maya Joint",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-28",
+          "total_value_usd": 283846.1,
           "result": "pending"
         }
       ]
@@ -17421,11 +17435,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 573,
-      "correct": 337,
+      "signals_evaluated": 574,
+      "correct": 338,
       "wrong": 196,
       "pending": 40,
-      "win_rate": 63.2,
+      "win_rate": 63.3,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -25415,11 +25429,11 @@
           "tier": "Strong",
           "entry_price": 0.0375,
           "whale_direction": "Milwaukee Brewers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 212828.15,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x3df7be753c8b6ebbddf31d6d63535c4b31c836cb25b1a73085508a271bc103db:0",
@@ -25447,6 +25461,20 @@
           "resolved_date": null,
           "end_date": "2026-10-31",
           "total_value_usd": 3043.65,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x915a7faaed0cc6dd1101ffe01c954ea9ead7352234f951d75df5fc94bc244403:1",
+          "condition_id": "0x915a7faaed0cc6dd1101ffe01c954ea9ead7352234f951d75df5fc94bc244403",
+          "title": "Korea Open: Xinxin Yao vs Maya Joint",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0375,
+          "whale_direction": "Maya Joint",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-28",
+          "total_value_usd": 283846.1,
           "result": "pending"
         }
       ]
@@ -25455,11 +25483,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 573,
+      "signals_evaluated": 574,
       "correct": 196,
-      "wrong": 337,
+      "wrong": 338,
       "pending": 40,
-      "win_rate": 36.8,
+      "win_rate": 36.7,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -33449,11 +33477,11 @@
           "tier": "Strong",
           "entry_price": 0.0375,
           "whale_direction": "Milwaukee Brewers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 212828.15,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x3df7be753c8b6ebbddf31d6d63535c4b31c836cb25b1a73085508a271bc103db:0",
@@ -33481,6 +33509,20 @@
           "resolved_date": null,
           "end_date": "2026-10-31",
           "total_value_usd": 3043.65,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x915a7faaed0cc6dd1101ffe01c954ea9ead7352234f951d75df5fc94bc244403:1",
+          "condition_id": "0x915a7faaed0cc6dd1101ffe01c954ea9ead7352234f951d75df5fc94bc244403",
+          "title": "Korea Open: Xinxin Yao vs Maya Joint",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0375,
+          "whale_direction": "Maya Joint",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-28",
+          "total_value_usd": 283846.1,
           "result": "pending"
         }
       ]
