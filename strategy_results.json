@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-21T06:29:12+00:00",
+  "generated_at": "2026-09-21T13:16:09+00:00",
   "total_evaluated": 1244,
-  "total_pending": 63,
+  "total_pending": 58,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 1244,
-      "correct": 743,
-      "wrong": 438,
-      "pending": 63,
+      "correct": 746,
+      "wrong": 440,
+      "pending": 58,
       "win_rate": 62.9,
       "signals": [
         {
@@ -13825,11 +13825,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Yes",
+          "resolved_date": "2027-01-01",
           "end_date": "2027-01-01",
           "total_value_usd": 28098.98,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x84fdc3f917e34acca874f93d978e84ed0c08969903ddf40a5d65274b3a5b4fdf:0",
@@ -14413,11 +14413,11 @@
           "tier": "Weak",
           "entry_price": 0.0415,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Yes",
+          "resolved_date": "2026-09-30",
           "end_date": "2026-09-30",
           "total_value_usd": 4518.43,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x95959560144520f539cadad1509aaa3fc47e95aaeb1ade1849987ad5f1f6b58f:1",
@@ -17255,11 +17255,11 @@
           "tier": "Strong",
           "entry_price": 0.0385,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Yes",
+          "resolved_date": "2026-09-30",
           "end_date": "2026-09-30",
           "total_value_usd": 218774.02,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xc9615bb82d6535d630ff98e8094060bc767d8b9446516e98f84d2001a35e50e7:0",
@@ -17269,11 +17269,11 @@
           "tier": "Moderate",
           "entry_price": 0.0385,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-09-20",
           "end_date": "2026-09-30",
           "total_value_usd": 149156.73,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xe09e54a08669bc9d1bdddf390da30838efa387cc4a57e2e910cd70ee6229db53:1",
@@ -17423,11 +17423,11 @@
           "tier": "Strong",
           "entry_price": 0.0375,
           "whale_direction": "Maya Joint",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Maya Joint",
+          "resolved_date": "2026-09-28",
           "end_date": "2026-09-28",
           "total_value_usd": 283846.1,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -17436,9 +17436,9 @@
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 574,
-      "correct": 338,
-      "wrong": 196,
-      "pending": 40,
+      "correct": 341,
+      "wrong": 198,
+      "pending": 35,
       "win_rate": 63.3,
       "signals": [
         {
@@ -21873,11 +21873,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Yes",
+          "resolved_date": "2027-01-01",
           "end_date": "2027-01-01",
           "total_value_usd": 28098.98,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x84fdc3f917e34acca874f93d978e84ed0c08969903ddf40a5d65274b3a5b4fdf:0",
@@ -22461,11 +22461,11 @@
           "tier": "Weak",
           "entry_price": 0.0415,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Yes",
+          "resolved_date": "2026-09-30",
           "end_date": "2026-09-30",
           "total_value_usd": 4518.43,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x95959560144520f539cadad1509aaa3fc47e95aaeb1ade1849987ad5f1f6b58f:1",
@@ -25303,11 +25303,11 @@
           "tier": "Strong",
           "entry_price": 0.0385,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Yes",
+          "resolved_date": "2026-09-30",
           "end_date": "2026-09-30",
           "total_value_usd": 218774.02,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xc9615bb82d6535d630ff98e8094060bc767d8b9446516e98f84d2001a35e50e7:0",
@@ -25317,11 +25317,11 @@
           "tier": "Moderate",
           "entry_price": 0.0385,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-09-20",
           "end_date": "2026-09-30",
           "total_value_usd": 149156.73,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xe09e54a08669bc9d1bdddf390da30838efa387cc4a57e2e910cd70ee6229db53:1",
@@ -25471,11 +25471,11 @@
           "tier": "Strong",
           "entry_price": 0.0375,
           "whale_direction": "Maya Joint",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Maya Joint",
+          "resolved_date": "2026-09-28",
           "end_date": "2026-09-28",
           "total_value_usd": 283846.1,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -25484,9 +25484,9 @@
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 574,
-      "correct": 196,
-      "wrong": 338,
-      "pending": 40,
+      "correct": 198,
+      "wrong": 341,
+      "pending": 35,
       "win_rate": 36.7,
       "signals": [
         {
@@ -29921,11 +29921,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Yes",
+          "resolved_date": "2027-01-01",
           "end_date": "2027-01-01",
           "total_value_usd": 28098.98,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x84fdc3f917e34acca874f93d978e84ed0c08969903ddf40a5d65274b3a5b4fdf:0",
@@ -30509,11 +30509,11 @@
           "tier": "Weak",
           "entry_price": 0.0415,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Yes",
+          "resolved_date": "2026-09-30",
           "end_date": "2026-09-30",
           "total_value_usd": 4518.43,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x95959560144520f539cadad1509aaa3fc47e95aaeb1ade1849987ad5f1f6b58f:1",
@@ -33351,11 +33351,11 @@
           "tier": "Strong",
           "entry_price": 0.0385,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Yes",
+          "resolved_date": "2026-09-30",
           "end_date": "2026-09-30",
           "total_value_usd": 218774.02,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc9615bb82d6535d630ff98e8094060bc767d8b9446516e98f84d2001a35e50e7:0",
@@ -33365,11 +33365,11 @@
           "tier": "Moderate",
           "entry_price": 0.0385,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-09-20",
           "end_date": "2026-09-30",
           "total_value_usd": 149156.73,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xe09e54a08669bc9d1bdddf390da30838efa387cc4a57e2e910cd70ee6229db53:1",
@@ -33519,11 +33519,11 @@
           "tier": "Strong",
           "entry_price": 0.0375,
           "whale_direction": "Maya Joint",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Maya Joint",
+          "resolved_date": "2026-09-28",
           "end_date": "2026-09-28",
           "total_value_usd": 283846.1,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },

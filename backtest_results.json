@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-09-21T06:29:12+00:00",
+  "generated_at": "2026-09-21T13:16:09+00:00",
   "total_signals": 1244,
-  "total_resolved": 1181,
-  "total_correct": 743,
+  "total_resolved": 1186,
+  "total_correct": 746,
   "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
       "total": 534,
-      "resolved": 515,
-      "correct": 330,
-      "hit_rate": 64.1
+      "resolved": 517,
+      "correct": 331,
+      "hit_rate": 64.0
     },
     "Moderate": {
       "total": 644,
-      "resolved": 604,
-      "correct": 379,
+      "resolved": 606,
+      "correct": 380,
       "hit_rate": 62.7
     },
     "Weak": {
       "total": 66,
-      "resolved": 62,
-      "correct": 34,
-      "hit_rate": 54.8
+      "resolved": 63,
+      "correct": 35,
+      "hit_rate": 55.6
     }
   },
   "signals": [
@@ -16799,10 +16799,10 @@
       "total_value_usd": 28098.98,
       "entry_price": 0.0425,
       "end_date": "2027-01-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2027-01-01"
     },
     {
       "signal_key": "0x84fdc3f917e34acca874f93d978e84ed0c08969903ddf40a5d65274b3a5b4fdf:0",
@@ -17513,10 +17513,10 @@
       "total_value_usd": 4518.43,
       "entry_price": 0.0415,
       "end_date": "2026-09-30",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-09-30"
     },
     {
       "signal_key": "0x95959560144520f539cadad1509aaa3fc47e95aaeb1ade1849987ad5f1f6b58f:1",
@@ -20964,10 +20964,10 @@
       "total_value_usd": 218774.02,
       "entry_price": 0.0385,
       "end_date": "2026-09-30",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-09-30"
     },
     {
       "signal_key": "0xc9615bb82d6535d630ff98e8094060bc767d8b9446516e98f84d2001a35e50e7:0",
@@ -20981,10 +20981,10 @@
       "total_value_usd": 149156.73,
       "entry_price": 0.0385,
       "end_date": "2026-09-30",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-09-20"
     },
     {
       "signal_key": "0xe09e54a08669bc9d1bdddf390da30838efa387cc4a57e2e910cd70ee6229db53:1",
@@ -21168,10 +21168,10 @@
       "total_value_usd": 283846.1,
       "entry_price": 0.0375,
       "end_date": "2026-09-28",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Maya Joint",
+      "resolved_date": "2026-09-28"
     }
   ]
 }
