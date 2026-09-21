@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-21T18:51:34+00:00",
-  "total_evaluated": 1245,
-  "total_pending": 59,
+  "generated_at": "2026-09-21T22:22:50+00:00",
+  "total_evaluated": 1246,
+  "total_pending": 60,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1245,
+      "signals_evaluated": 1246,
       "correct": 746,
       "wrong": 440,
-      "pending": 59,
+      "pending": 60,
       "win_rate": 62.9,
       "signals": [
         {
@@ -17442,6 +17442,20 @@
           "end_date": "2026-09-28",
           "total_value_usd": 53827.14,
           "result": "pending"
+        },
+        {
+          "signal_key": "0x9e724ab9607323d70cebae0bca2cdea2704d7b8cd76d06169cf232e3dd5e2502:1",
+          "condition_id": "0x9e724ab9607323d70cebae0bca2cdea2704d7b8cd76d06169cf232e3dd5e2502",
+          "title": "Toronto Blue Jays vs. Baltimore Orioles",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Baltimore Orioles",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-28",
+          "total_value_usd": 65522.55,
+          "result": "pending"
         }
       ]
     },
@@ -17449,10 +17463,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 575,
+      "signals_evaluated": 576,
       "correct": 341,
       "wrong": 198,
-      "pending": 36,
+      "pending": 37,
       "win_rate": 63.3,
       "signals": [
         {
@@ -25504,6 +25518,20 @@
           "end_date": "2026-09-28",
           "total_value_usd": 53827.14,
           "result": "pending"
+        },
+        {
+          "signal_key": "0x9e724ab9607323d70cebae0bca2cdea2704d7b8cd76d06169cf232e3dd5e2502:1",
+          "condition_id": "0x9e724ab9607323d70cebae0bca2cdea2704d7b8cd76d06169cf232e3dd5e2502",
+          "title": "Toronto Blue Jays vs. Baltimore Orioles",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Baltimore Orioles",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-28",
+          "total_value_usd": 65522.55,
+          "result": "pending"
         }
       ]
     },
@@ -25511,10 +25539,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 575,
+      "signals_evaluated": 576,
       "correct": 198,
       "wrong": 341,
-      "pending": 36,
+      "pending": 37,
       "win_rate": 36.7,
       "signals": [
         {
@@ -33565,6 +33593,20 @@
           "resolved_date": null,
           "end_date": "2026-09-28",
           "total_value_usd": 53827.14,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x9e724ab9607323d70cebae0bca2cdea2704d7b8cd76d06169cf232e3dd5e2502:1",
+          "condition_id": "0x9e724ab9607323d70cebae0bca2cdea2704d7b8cd76d06169cf232e3dd5e2502",
+          "title": "Toronto Blue Jays vs. Baltimore Orioles",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Baltimore Orioles",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-28",
+          "total_value_usd": 65522.55,
           "result": "pending"
         }
       ]
