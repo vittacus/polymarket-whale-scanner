@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-21T13:16:09+00:00",
-  "total_signals": 1244,
+  "generated_at": "2026-09-21T18:51:34+00:00",
+  "total_signals": 1245,
   "total_resolved": 1186,
   "total_correct": 746,
   "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
-      "total": 534,
+      "total": 535,
       "resolved": 517,
       "correct": 331,
       "hit_rate": 64.0
@@ -21172,6 +21172,23 @@
       "correct": true,
       "resolved_outcome": "Maya Joint",
       "resolved_date": "2026-09-28"
+    },
+    {
+      "signal_key": "0x2a959d1b0b958823f3e0504c6e561c3f11432cde60a609f07ae43853e96e765f:0",
+      "condition_id": "0x2a959d1b0b958823f3e0504c6e561c3f11432cde60a609f07ae43853e96e765f",
+      "title": "Washington Nationals vs. Detroit Tigers",
+      "category": "MLB",
+      "whale_direction": "Washington Nationals",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 31.332,
+      "total_value_usd": 53827.14,
+      "entry_price": 0.0425,
+      "end_date": "2026-09-28",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
