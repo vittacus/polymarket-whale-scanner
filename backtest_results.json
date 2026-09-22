@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-22T01:02:12+00:00",
+  "generated_at": "2026-09-22T05:55:41+00:00",
   "total_signals": 1248,
-  "total_resolved": 1186,
-  "total_correct": 746,
+  "total_resolved": 1190,
+  "total_correct": 748,
   "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
       "total": 538,
-      "resolved": 517,
-      "correct": 331,
-      "hit_rate": 64.0
+      "resolved": 521,
+      "correct": 333,
+      "hit_rate": 63.9
     },
     "Moderate": {
       "total": 644,
@@ -21185,10 +21185,10 @@
       "total_value_usd": 53827.14,
       "entry_price": 0.0425,
       "end_date": "2026-09-28",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Detroit Tigers",
+      "resolved_date": "2026-09-28"
     },
     {
       "signal_key": "0x9e724ab9607323d70cebae0bca2cdea2704d7b8cd76d06169cf232e3dd5e2502:1",
@@ -21202,10 +21202,10 @@
       "total_value_usd": 65522.55,
       "entry_price": 0.0425,
       "end_date": "2026-09-28",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Baltimore Orioles",
+      "resolved_date": "2026-09-28"
     },
     {
       "signal_key": "0x9e724ab9607323d70cebae0bca2cdea2704d7b8cd76d06169cf232e3dd5e2502:0",
@@ -21219,10 +21219,10 @@
       "total_value_usd": 38454.63,
       "entry_price": 0.0425,
       "end_date": "2026-09-28",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Baltimore Orioles",
+      "resolved_date": "2026-09-28"
     },
     {
       "signal_key": "0x2a959d1b0b958823f3e0504c6e561c3f11432cde60a609f07ae43853e96e765f:1",
@@ -21236,10 +21236,10 @@
       "total_value_usd": 74207.6,
       "entry_price": 0.0425,
       "end_date": "2026-09-28",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Detroit Tigers",
+      "resolved_date": "2026-09-28"
     }
   ]
 }

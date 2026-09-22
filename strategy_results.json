@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-22T01:02:12+00:00",
+  "generated_at": "2026-09-22T05:55:41+00:00",
   "total_evaluated": 1248,
-  "total_pending": 62,
+  "total_pending": 58,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 1248,
-      "correct": 746,
-      "wrong": 440,
-      "pending": 62,
+      "correct": 748,
+      "wrong": 442,
+      "pending": 58,
       "win_rate": 62.9,
       "signals": [
         {
@@ -17437,11 +17437,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Washington Nationals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Detroit Tigers",
+          "resolved_date": "2026-09-28",
           "end_date": "2026-09-28",
           "total_value_usd": 53827.14,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x9e724ab9607323d70cebae0bca2cdea2704d7b8cd76d06169cf232e3dd5e2502:1",
@@ -17451,11 +17451,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Baltimore Orioles",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Baltimore Orioles",
+          "resolved_date": "2026-09-28",
           "end_date": "2026-09-28",
           "total_value_usd": 65522.55,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x9e724ab9607323d70cebae0bca2cdea2704d7b8cd76d06169cf232e3dd5e2502:0",
@@ -17465,11 +17465,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Baltimore Orioles",
+          "resolved_date": "2026-09-28",
           "end_date": "2026-09-28",
           "total_value_usd": 38454.63,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x2a959d1b0b958823f3e0504c6e561c3f11432cde60a609f07ae43853e96e765f:1",
@@ -17479,11 +17479,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Detroit Tigers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Detroit Tigers",
+          "resolved_date": "2026-09-28",
           "end_date": "2026-09-28",
           "total_value_usd": 74207.6,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -17492,10 +17492,10 @@
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 578,
-      "correct": 341,
-      "wrong": 198,
-      "pending": 39,
-      "win_rate": 63.3,
+      "correct": 343,
+      "wrong": 200,
+      "pending": 35,
+      "win_rate": 63.2,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -25541,11 +25541,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Washington Nationals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Detroit Tigers",
+          "resolved_date": "2026-09-28",
           "end_date": "2026-09-28",
           "total_value_usd": 53827.14,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x9e724ab9607323d70cebae0bca2cdea2704d7b8cd76d06169cf232e3dd5e2502:1",
@@ -25555,11 +25555,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Baltimore Orioles",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Baltimore Orioles",
+          "resolved_date": "2026-09-28",
           "end_date": "2026-09-28",
           "total_value_usd": 65522.55,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x9e724ab9607323d70cebae0bca2cdea2704d7b8cd76d06169cf232e3dd5e2502:0",
@@ -25569,11 +25569,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Baltimore Orioles",
+          "resolved_date": "2026-09-28",
           "end_date": "2026-09-28",
           "total_value_usd": 38454.63,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x2a959d1b0b958823f3e0504c6e561c3f11432cde60a609f07ae43853e96e765f:1",
@@ -25583,11 +25583,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Detroit Tigers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Detroit Tigers",
+          "resolved_date": "2026-09-28",
           "end_date": "2026-09-28",
           "total_value_usd": 74207.6,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -25596,10 +25596,10 @@
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 578,
-      "correct": 198,
-      "wrong": 341,
-      "pending": 39,
-      "win_rate": 36.7,
+      "correct": 200,
+      "wrong": 343,
+      "pending": 35,
+      "win_rate": 36.8,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -33645,11 +33645,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Washington Nationals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Detroit Tigers",
+          "resolved_date": "2026-09-28",
           "end_date": "2026-09-28",
           "total_value_usd": 53827.14,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x9e724ab9607323d70cebae0bca2cdea2704d7b8cd76d06169cf232e3dd5e2502:1",
@@ -33659,11 +33659,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Baltimore Orioles",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Baltimore Orioles",
+          "resolved_date": "2026-09-28",
           "end_date": "2026-09-28",
           "total_value_usd": 65522.55,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x9e724ab9607323d70cebae0bca2cdea2704d7b8cd76d06169cf232e3dd5e2502:0",
@@ -33673,11 +33673,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Baltimore Orioles",
+          "resolved_date": "2026-09-28",
           "end_date": "2026-09-28",
           "total_value_usd": 38454.63,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x2a959d1b0b958823f3e0504c6e561c3f11432cde60a609f07ae43853e96e765f:1",
@@ -33687,11 +33687,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Detroit Tigers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Detroit Tigers",
+          "resolved_date": "2026-09-28",
           "end_date": "2026-09-28",
           "total_value_usd": 74207.6,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
