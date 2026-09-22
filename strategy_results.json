@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-22T19:03:02+00:00",
-  "total_evaluated": 1251,
-  "total_pending": 60,
+  "generated_at": "2026-09-22T21:55:41+00:00",
+  "total_evaluated": 1254,
+  "total_pending": 61,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1251,
-      "correct": 749,
-      "wrong": 442,
-      "pending": 60,
+      "signals_evaluated": 1254,
+      "correct": 750,
+      "wrong": 443,
+      "pending": 61,
       "win_rate": 62.9,
       "signals": [
         {
@@ -17507,11 +17507,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "New York Yankees",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-09-29",
           "end_date": "2026-09-29",
           "total_value_usd": 232184.5,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x0da3005f7d57b33cac257bcd4633611dd601709d2fa8bcb55749a98a3114d99f:0",
@@ -17521,10 +17521,52 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Tampa Bay Rays",
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-09-29",
+          "end_date": "2026-09-29",
+          "total_value_usd": 105718.02,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x95f345095db7ade90544047a7b8dd285f73e9bb9d311828788ebf43185501a52:1",
+          "condition_id": "0x95f345095db7ade90544047a7b8dd285f73e9bb9d311828788ebf43185501a52",
+          "title": "Cincinnati Reds vs. Atlanta Braves",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Atlanta Braves",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-09-29",
-          "total_value_usd": 105718.02,
+          "total_value_usd": 2456087.23,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x381ea34de799962e25bad0e8bd3aae667c370b66f29a782f7c78ce0e303db406:1",
+          "condition_id": "0x381ea34de799962e25bad0e8bd3aae667c370b66f29a782f7c78ce0e303db406",
+          "title": "Falcons vs. Packers: O/U 44.5",
+          "category": "NFL (All)",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Under",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-25",
+          "total_value_usd": 23644.65,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x95f345095db7ade90544047a7b8dd285f73e9bb9d311828788ebf43185501a52:0",
+          "condition_id": "0x95f345095db7ade90544047a7b8dd285f73e9bb9d311828788ebf43185501a52",
+          "title": "Cincinnati Reds vs. Atlanta Braves",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Cincinnati Reds",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-29",
+          "total_value_usd": 535166.81,
           "result": "pending"
         }
       ]
@@ -17533,10 +17575,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 581,
-      "correct": 344,
-      "wrong": 200,
-      "pending": 37,
+      "signals_evaluated": 584,
+      "correct": 345,
+      "wrong": 201,
+      "pending": 38,
       "win_rate": 63.2,
       "signals": [
         {
@@ -25653,11 +25695,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "New York Yankees",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-09-29",
           "end_date": "2026-09-29",
           "total_value_usd": 232184.5,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x0da3005f7d57b33cac257bcd4633611dd601709d2fa8bcb55749a98a3114d99f:0",
@@ -25667,10 +25709,52 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Tampa Bay Rays",
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-09-29",
+          "end_date": "2026-09-29",
+          "total_value_usd": 105718.02,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x95f345095db7ade90544047a7b8dd285f73e9bb9d311828788ebf43185501a52:1",
+          "condition_id": "0x95f345095db7ade90544047a7b8dd285f73e9bb9d311828788ebf43185501a52",
+          "title": "Cincinnati Reds vs. Atlanta Braves",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Atlanta Braves",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-09-29",
-          "total_value_usd": 105718.02,
+          "total_value_usd": 2456087.23,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x381ea34de799962e25bad0e8bd3aae667c370b66f29a782f7c78ce0e303db406:1",
+          "condition_id": "0x381ea34de799962e25bad0e8bd3aae667c370b66f29a782f7c78ce0e303db406",
+          "title": "Falcons vs. Packers: O/U 44.5",
+          "category": "NFL (All)",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Under",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-25",
+          "total_value_usd": 23644.65,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x95f345095db7ade90544047a7b8dd285f73e9bb9d311828788ebf43185501a52:0",
+          "condition_id": "0x95f345095db7ade90544047a7b8dd285f73e9bb9d311828788ebf43185501a52",
+          "title": "Cincinnati Reds vs. Atlanta Braves",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Cincinnati Reds",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-29",
+          "total_value_usd": 535166.81,
           "result": "pending"
         }
       ]
@@ -25679,10 +25763,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 581,
-      "correct": 200,
-      "wrong": 344,
-      "pending": 37,
+      "signals_evaluated": 584,
+      "correct": 201,
+      "wrong": 345,
+      "pending": 38,
       "win_rate": 36.8,
       "signals": [
         {
@@ -33799,11 +33883,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "New York Yankees",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-09-29",
           "end_date": "2026-09-29",
           "total_value_usd": 232184.5,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x0da3005f7d57b33cac257bcd4633611dd601709d2fa8bcb55749a98a3114d99f:0",
@@ -33813,10 +33897,52 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Tampa Bay Rays",
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-09-29",
+          "end_date": "2026-09-29",
+          "total_value_usd": 105718.02,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x95f345095db7ade90544047a7b8dd285f73e9bb9d311828788ebf43185501a52:1",
+          "condition_id": "0x95f345095db7ade90544047a7b8dd285f73e9bb9d311828788ebf43185501a52",
+          "title": "Cincinnati Reds vs. Atlanta Braves",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Atlanta Braves",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-09-29",
-          "total_value_usd": 105718.02,
+          "total_value_usd": 2456087.23,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x381ea34de799962e25bad0e8bd3aae667c370b66f29a782f7c78ce0e303db406:1",
+          "condition_id": "0x381ea34de799962e25bad0e8bd3aae667c370b66f29a782f7c78ce0e303db406",
+          "title": "Falcons vs. Packers: O/U 44.5",
+          "category": "NFL (All)",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Under",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-25",
+          "total_value_usd": 23644.65,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x95f345095db7ade90544047a7b8dd285f73e9bb9d311828788ebf43185501a52:0",
+          "condition_id": "0x95f345095db7ade90544047a7b8dd285f73e9bb9d311828788ebf43185501a52",
+          "title": "Cincinnati Reds vs. Atlanta Braves",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Cincinnati Reds",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-29",
+          "total_value_usd": 535166.81,
           "result": "pending"
         }
       ]
@@ -33825,10 +33951,10 @@
       "name": "Conviction Sizing",
       "description": "Total whale position >$500k",
       "hypothesis": "Signals where total position size exceeds $500k represent the highest-conviction whale bets. When top traders put serious capital behind a position, that's a qualitatively different signal from a small stake. This filters for only the highest-conviction consensus calls to test whether size predicts accuracy.",
-      "signals_evaluated": 39,
+      "signals_evaluated": 41,
       "correct": 24,
       "wrong": 9,
-      "pending": 6,
+      "pending": 8,
       "win_rate": 72.7,
       "signals": [
         {
@@ -34375,6 +34501,34 @@
           "resolved_date": null,
           "end_date": "2026-11-03",
           "total_value_usd": 2439915.01,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x95f345095db7ade90544047a7b8dd285f73e9bb9d311828788ebf43185501a52:1",
+          "condition_id": "0x95f345095db7ade90544047a7b8dd285f73e9bb9d311828788ebf43185501a52",
+          "title": "Cincinnati Reds vs. Atlanta Braves",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0425,
+          "whale_direction": "Atlanta Braves",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-29",
+          "total_value_usd": 2456087.23,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x95f345095db7ade90544047a7b8dd285f73e9bb9d311828788ebf43185501a52:0",
+          "condition_id": "0x95f345095db7ade90544047a7b8dd285f73e9bb9d311828788ebf43185501a52",
+          "title": "Cincinnati Reds vs. Atlanta Braves",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0425,
+          "whale_direction": "Cincinnati Reds",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-29",
+          "total_value_usd": 535166.81,
           "result": "pending"
         }
       ]
