@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-22T10:31:41+00:00",
-  "total_evaluated": 1248,
-  "total_pending": 58,
+  "generated_at": "2026-09-22T15:16:29+00:00",
+  "total_evaluated": 1249,
+  "total_pending": 59,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1248,
+      "signals_evaluated": 1249,
       "correct": 748,
       "wrong": 442,
-      "pending": 58,
+      "pending": 59,
       "win_rate": 62.9,
       "signals": [
         {
@@ -17484,6 +17484,20 @@
           "end_date": "2026-09-28",
           "total_value_usd": 74207.6,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x8f2a39f3aa5d8c387d3c694b84cecd510e782c1844703a61bead6c8aa95f25ba:1",
+          "condition_id": "0x8f2a39f3aa5d8c387d3c694b84cecd510e782c1844703a61bead6c8aa95f25ba",
+          "title": "Tolentino: Aurora Zantedeschi vs Marta Lombardini",
+          "category": "Tennis",
+          "tier": "Weak",
+          "entry_price": 0.0425,
+          "whale_direction": "Marta Lombardini",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-28",
+          "total_value_usd": 48623.91,
+          "result": "pending"
         }
       ]
     },
@@ -17491,10 +17505,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 578,
+      "signals_evaluated": 579,
       "correct": 343,
       "wrong": 200,
-      "pending": 35,
+      "pending": 36,
       "win_rate": 63.2,
       "signals": [
         {
@@ -25588,6 +25602,20 @@
           "end_date": "2026-09-28",
           "total_value_usd": 74207.6,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x8f2a39f3aa5d8c387d3c694b84cecd510e782c1844703a61bead6c8aa95f25ba:1",
+          "condition_id": "0x8f2a39f3aa5d8c387d3c694b84cecd510e782c1844703a61bead6c8aa95f25ba",
+          "title": "Tolentino: Aurora Zantedeschi vs Marta Lombardini",
+          "category": "Tennis",
+          "tier": "Weak",
+          "entry_price": 0.0425,
+          "whale_direction": "Marta Lombardini",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-28",
+          "total_value_usd": 48623.91,
+          "result": "pending"
         }
       ]
     },
@@ -25595,10 +25623,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 578,
+      "signals_evaluated": 579,
       "correct": 200,
       "wrong": 343,
-      "pending": 35,
+      "pending": 36,
       "win_rate": 36.8,
       "signals": [
         {
@@ -33692,6 +33720,20 @@
           "end_date": "2026-09-28",
           "total_value_usd": 74207.6,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x8f2a39f3aa5d8c387d3c694b84cecd510e782c1844703a61bead6c8aa95f25ba:1",
+          "condition_id": "0x8f2a39f3aa5d8c387d3c694b84cecd510e782c1844703a61bead6c8aa95f25ba",
+          "title": "Tolentino: Aurora Zantedeschi vs Marta Lombardini",
+          "category": "Tennis",
+          "tier": "Weak",
+          "entry_price": 0.0425,
+          "whale_direction": "Marta Lombardini",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-28",
+          "total_value_usd": 48623.91,
+          "result": "pending"
         }
       ]
     },
