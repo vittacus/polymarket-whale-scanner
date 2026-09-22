@@ -360583,5 +360583,186 @@
         "entry_price": 0.0425
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-22T18:52:34+00:00",
+    "whale_timeframes": {
+      "0x6211f97a76ed5c4b1d658f637041ac5f293db89e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7f8e1877a0907f2b2c7cabf8bdb2e2a8f3854487": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa38a455bbdd4b68486548b7e19da99903f4f821d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd84d7f9262516865553555751609fb6f52abec6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7a75a4183e577123db9ff0adff520561ef95d288": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9f2fe025f84839ca81dd8e0338892605702d2ca8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x821dab0565ebf5b327f51db06223fdcfe01acf16": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf28e42d20e4826f2b10a24bc952001697947cab2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe40ecff63ec661d218a86c048186ac83389a9770": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x684baa57c338c2549aec0aa3f034f695d72a8409": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9b11866433281ade9f2811dbde8acdefc45f5375": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa2cced8bfae7d645f7f437fb76becf2fcbb70cbc": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x0da3005f7d57b33cac257bcd4633611dd601709d2fa8bcb55749a98a3114d99f:1",
+        "condition_id": "0x0da3005f7d57b33cac257bcd4633611dd601709d2fa8bcb55749a98a3114d99f",
+        "title": "Tampa Bay Rays vs. New York Yankees",
+        "outcome": "New York Yankees",
+        "outcome_index": 1,
+        "whale_count": 5,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xcd84d7f9262516865553555751609fb6f52abec6",
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0x684baa57c338c2549aec0aa3f034f695d72a8409"
+        ],
+        "ranks": [
+          3,
+          7,
+          9,
+          14,
+          17
+        ],
+        "total_value_usd": 232184.5,
+        "score": 15.5148,
+        "category": "MLB",
+        "end_date": "2026-09-29",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0x0da3005f7d57b33cac257bcd4633611dd601709d2fa8bcb55749a98a3114d99f:0",
+        "condition_id": "0x0da3005f7d57b33cac257bcd4633611dd601709d2fa8bcb55749a98a3114d99f",
+        "title": "Tampa Bay Rays vs. New York Yankees",
+        "outcome": "Tampa Bay Rays",
+        "outcome_index": 0,
+        "whale_count": 5,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xcd84d7f9262516865553555751609fb6f52abec6",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x9b11866433281ade9f2811dbde8acdefc45f5375"
+        ],
+        "ranks": [
+          3,
+          7,
+          14,
+          18,
+          19
+        ],
+        "total_value_usd": 105718.02,
+        "score": 13.2768,
+        "category": "MLB",
+        "end_date": "2026-09-29",
+        "entry_price": 0.0425
+      }
+    ]
   }
 ]

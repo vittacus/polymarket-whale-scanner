@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-22T15:16:29+00:00",
-  "total_signals": 1249,
-  "total_resolved": 1190,
-  "total_correct": 748,
+  "generated_at": "2026-09-22T19:03:02+00:00",
+  "total_signals": 1251,
+  "total_resolved": 1191,
+  "total_correct": 749,
   "overall_hit_rate": 62.9,
   "by_tier": {
     "Strong": {
-      "total": 538,
+      "total": 540,
       "resolved": 521,
       "correct": 333,
       "hit_rate": 63.9
@@ -19,9 +19,9 @@
     },
     "Weak": {
       "total": 67,
-      "resolved": 63,
-      "correct": 35,
-      "hit_rate": 55.6
+      "resolved": 64,
+      "correct": 36,
+      "hit_rate": 56.2
     }
   },
   "signals": [
@@ -21253,6 +21253,40 @@
       "total_value_usd": 48623.91,
       "entry_price": 0.0425,
       "end_date": "2026-09-28",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Marta Lombardini",
+      "resolved_date": "2026-09-28"
+    },
+    {
+      "signal_key": "0x0da3005f7d57b33cac257bcd4633611dd601709d2fa8bcb55749a98a3114d99f:1",
+      "condition_id": "0x0da3005f7d57b33cac257bcd4633611dd601709d2fa8bcb55749a98a3114d99f",
+      "title": "Tampa Bay Rays vs. New York Yankees",
+      "category": "MLB",
+      "whale_direction": "New York Yankees",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 15.5148,
+      "total_value_usd": 232184.5,
+      "entry_price": 0.0425,
+      "end_date": "2026-09-29",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x0da3005f7d57b33cac257bcd4633611dd601709d2fa8bcb55749a98a3114d99f:0",
+      "condition_id": "0x0da3005f7d57b33cac257bcd4633611dd601709d2fa8bcb55749a98a3114d99f",
+      "title": "Tampa Bay Rays vs. New York Yankees",
+      "category": "MLB",
+      "whale_direction": "Tampa Bay Rays",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 13.2768,
+      "total_value_usd": 105718.02,
+      "entry_price": 0.0425,
+      "end_date": "2026-09-29",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
