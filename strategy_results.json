@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-23T18:09:23+00:00",
-  "total_evaluated": 1281,
+  "generated_at": "2026-09-23T21:25:21+00:00",
+  "total_evaluated": 1287,
   "total_pending": 66,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1281,
-      "correct": 766,
-      "wrong": 449,
+      "signals_evaluated": 1287,
+      "correct": 770,
+      "wrong": 451,
       "pending": 66,
-      "win_rate": 63.0,
+      "win_rate": 63.1,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -17843,11 +17843,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "Detroit Tigers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Washington Nationals",
+          "resolved_date": "2026-09-30",
           "end_date": "2026-09-30",
           "total_value_usd": 9832.02,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x653ede1ddb92097f8942eb71e3cf86683424147574a9f4fe860e01bbf114ce0b:1",
@@ -17871,11 +17871,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Washington Nationals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Washington Nationals",
+          "resolved_date": "2026-09-30",
           "end_date": "2026-09-30",
           "total_value_usd": 1013313.94,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x7c0742db2ce035582fcd27373cf62ccc300f2fa2d7ad7fe7d4654f12bbc7b6da:1",
@@ -17899,11 +17899,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Baltimore Orioles",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Baltimore Orioles",
+          "resolved_date": "2026-09-30",
           "end_date": "2026-09-30",
           "total_value_usd": 47627.98,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x9b22f5e6eacebe7ca25c0ac6e5a4d3f3c364532e05481957442c89dbb5f8465f:0",
@@ -17913,11 +17913,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Baltimore Orioles",
+          "resolved_date": "2026-09-30",
           "end_date": "2026-09-30",
           "total_value_usd": 28658.94,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x14f1aea058db7b58c21f23c2fa7ae057f87204958d43f9026cd4c36d18ebf954:0",
@@ -17927,11 +17927,11 @@
           "tier": "Weak",
           "entry_price": 0.0445,
           "whale_direction": "Titouan Droguet",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Titouan Droguet",
+          "resolved_date": "2026-09-30",
           "end_date": "2026-09-30",
           "total_value_usd": 57690.49,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x2bb0415b37f6a6886fb0eb36fc0fa1033ba19f41959fe3ab7c9f4b147b1a8abb:1",
@@ -17941,10 +17941,94 @@
           "tier": "Weak",
           "entry_price": 0.0445,
           "whale_direction": "Juan Pablo Varillas",
+          "resolved_outcome": "Juan Pablo Varillas",
+          "resolved_date": "2026-09-30",
+          "end_date": "2026-09-30",
+          "total_value_usd": 32984.07,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xd03d029c9293f905e2b147413553343a4dbb74cb5abcede80ad0ed5c7fd17532:1",
+          "condition_id": "0xd03d029c9293f905e2b147413553343a4dbb74cb5abcede80ad0ed5c7fd17532",
+          "title": "Minnesota Twins vs. San Francisco Giants",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "San Francisco Giants",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-09-30",
-          "total_value_usd": 32984.07,
+          "total_value_usd": 50036.56,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd03d029c9293f905e2b147413553343a4dbb74cb5abcede80ad0ed5c7fd17532:0",
+          "condition_id": "0xd03d029c9293f905e2b147413553343a4dbb74cb5abcede80ad0ed5c7fd17532",
+          "title": "Minnesota Twins vs. San Francisco Giants",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Minnesota Twins",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-30",
+          "total_value_usd": 50328.21,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x8eee18eeea3f5bb9778240b1b41a383b22a51b2edd5004ac25735346100a7370:1",
+          "condition_id": "0x8eee18eeea3f5bb9778240b1b41a383b22a51b2edd5004ac25735346100a7370",
+          "title": "Toronto Blue Jays vs. Baltimore Orioles",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Baltimore Orioles",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-30",
+          "total_value_usd": 23803.9,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x0579363b837c00f668cd3bc83814085f1488784744c6278cd1ee5f020a295b67:1",
+          "condition_id": "0x0579363b837c00f668cd3bc83814085f1488784744c6278cd1ee5f020a295b67",
+          "title": "St. Louis Cardinals vs. Pittsburgh Pirates",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Pittsburgh Pirates",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-30",
+          "total_value_usd": 13743.39,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf8b9a1bafe910f5487c68b7745ca69c40ea102da3d80d86f6264041bf7aa0b03:1",
+          "condition_id": "0xf8b9a1bafe910f5487c68b7745ca69c40ea102da3d80d86f6264041bf7aa0b03",
+          "title": "Tolentino: Noemi Basiletti vs Mia Ristic",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Mia Ristic",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-30",
+          "total_value_usd": 68858.02,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x46991c8a2b6494ac93efb82d0a98096746eb822213d9489b6c5bf75358687f68:1",
+          "condition_id": "0x46991c8a2b6494ac93efb82d0a98096746eb822213d9489b6c5bf75358687f68",
+          "title": "Will Athletic Club win on 2026-09-16?",
+          "category": "Soccer",
+          "tier": "Weak",
+          "entry_price": 0.0445,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-21",
+          "total_value_usd": 20083.6,
           "result": "pending"
         }
       ]
@@ -17953,9 +18037,9 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 611,
-      "correct": 361,
-      "wrong": 207,
+      "signals_evaluated": 617,
+      "correct": 365,
+      "wrong": 209,
       "pending": 43,
       "win_rate": 63.6,
       "signals": [
@@ -26409,11 +26493,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "Detroit Tigers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Washington Nationals",
+          "resolved_date": "2026-09-30",
           "end_date": "2026-09-30",
           "total_value_usd": 9832.02,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x653ede1ddb92097f8942eb71e3cf86683424147574a9f4fe860e01bbf114ce0b:1",
@@ -26437,11 +26521,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Washington Nationals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Washington Nationals",
+          "resolved_date": "2026-09-30",
           "end_date": "2026-09-30",
           "total_value_usd": 1013313.94,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x7c0742db2ce035582fcd27373cf62ccc300f2fa2d7ad7fe7d4654f12bbc7b6da:1",
@@ -26465,11 +26549,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Baltimore Orioles",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Baltimore Orioles",
+          "resolved_date": "2026-09-30",
           "end_date": "2026-09-30",
           "total_value_usd": 47627.98,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x9b22f5e6eacebe7ca25c0ac6e5a4d3f3c364532e05481957442c89dbb5f8465f:0",
@@ -26479,11 +26563,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Baltimore Orioles",
+          "resolved_date": "2026-09-30",
           "end_date": "2026-09-30",
           "total_value_usd": 28658.94,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x14f1aea058db7b58c21f23c2fa7ae057f87204958d43f9026cd4c36d18ebf954:0",
@@ -26493,11 +26577,11 @@
           "tier": "Weak",
           "entry_price": 0.0445,
           "whale_direction": "Titouan Droguet",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Titouan Droguet",
+          "resolved_date": "2026-09-30",
           "end_date": "2026-09-30",
           "total_value_usd": 57690.49,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x2bb0415b37f6a6886fb0eb36fc0fa1033ba19f41959fe3ab7c9f4b147b1a8abb:1",
@@ -26507,10 +26591,94 @@
           "tier": "Weak",
           "entry_price": 0.0445,
           "whale_direction": "Juan Pablo Varillas",
+          "resolved_outcome": "Juan Pablo Varillas",
+          "resolved_date": "2026-09-30",
+          "end_date": "2026-09-30",
+          "total_value_usd": 32984.07,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xd03d029c9293f905e2b147413553343a4dbb74cb5abcede80ad0ed5c7fd17532:1",
+          "condition_id": "0xd03d029c9293f905e2b147413553343a4dbb74cb5abcede80ad0ed5c7fd17532",
+          "title": "Minnesota Twins vs. San Francisco Giants",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "San Francisco Giants",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-09-30",
-          "total_value_usd": 32984.07,
+          "total_value_usd": 50036.56,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd03d029c9293f905e2b147413553343a4dbb74cb5abcede80ad0ed5c7fd17532:0",
+          "condition_id": "0xd03d029c9293f905e2b147413553343a4dbb74cb5abcede80ad0ed5c7fd17532",
+          "title": "Minnesota Twins vs. San Francisco Giants",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Minnesota Twins",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-30",
+          "total_value_usd": 50328.21,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x8eee18eeea3f5bb9778240b1b41a383b22a51b2edd5004ac25735346100a7370:1",
+          "condition_id": "0x8eee18eeea3f5bb9778240b1b41a383b22a51b2edd5004ac25735346100a7370",
+          "title": "Toronto Blue Jays vs. Baltimore Orioles",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Baltimore Orioles",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-30",
+          "total_value_usd": 23803.9,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x0579363b837c00f668cd3bc83814085f1488784744c6278cd1ee5f020a295b67:1",
+          "condition_id": "0x0579363b837c00f668cd3bc83814085f1488784744c6278cd1ee5f020a295b67",
+          "title": "St. Louis Cardinals vs. Pittsburgh Pirates",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Pittsburgh Pirates",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-30",
+          "total_value_usd": 13743.39,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf8b9a1bafe910f5487c68b7745ca69c40ea102da3d80d86f6264041bf7aa0b03:1",
+          "condition_id": "0xf8b9a1bafe910f5487c68b7745ca69c40ea102da3d80d86f6264041bf7aa0b03",
+          "title": "Tolentino: Noemi Basiletti vs Mia Ristic",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Mia Ristic",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-30",
+          "total_value_usd": 68858.02,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x46991c8a2b6494ac93efb82d0a98096746eb822213d9489b6c5bf75358687f68:1",
+          "condition_id": "0x46991c8a2b6494ac93efb82d0a98096746eb822213d9489b6c5bf75358687f68",
+          "title": "Will Athletic Club win on 2026-09-16?",
+          "category": "Soccer",
+          "tier": "Weak",
+          "entry_price": 0.0445,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-21",
+          "total_value_usd": 20083.6,
           "result": "pending"
         }
       ]
@@ -26519,9 +26687,9 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 611,
-      "correct": 207,
-      "wrong": 361,
+      "signals_evaluated": 617,
+      "correct": 209,
+      "wrong": 365,
       "pending": 43,
       "win_rate": 36.4,
       "signals": [
@@ -34975,11 +35143,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "Detroit Tigers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Washington Nationals",
+          "resolved_date": "2026-09-30",
           "end_date": "2026-09-30",
           "total_value_usd": 9832.02,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x653ede1ddb92097f8942eb71e3cf86683424147574a9f4fe860e01bbf114ce0b:1",
@@ -35003,11 +35171,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Washington Nationals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Washington Nationals",
+          "resolved_date": "2026-09-30",
           "end_date": "2026-09-30",
           "total_value_usd": 1013313.94,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x7c0742db2ce035582fcd27373cf62ccc300f2fa2d7ad7fe7d4654f12bbc7b6da:1",
@@ -35031,11 +35199,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Baltimore Orioles",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Baltimore Orioles",
+          "resolved_date": "2026-09-30",
           "end_date": "2026-09-30",
           "total_value_usd": 47627.98,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x9b22f5e6eacebe7ca25c0ac6e5a4d3f3c364532e05481957442c89dbb5f8465f:0",
@@ -35045,11 +35213,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Toronto Blue Jays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Baltimore Orioles",
+          "resolved_date": "2026-09-30",
           "end_date": "2026-09-30",
           "total_value_usd": 28658.94,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x14f1aea058db7b58c21f23c2fa7ae057f87204958d43f9026cd4c36d18ebf954:0",
@@ -35059,11 +35227,11 @@
           "tier": "Weak",
           "entry_price": 0.0445,
           "whale_direction": "Titouan Droguet",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Titouan Droguet",
+          "resolved_date": "2026-09-30",
           "end_date": "2026-09-30",
           "total_value_usd": 57690.49,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x2bb0415b37f6a6886fb0eb36fc0fa1033ba19f41959fe3ab7c9f4b147b1a8abb:1",
@@ -35073,10 +35241,94 @@
           "tier": "Weak",
           "entry_price": 0.0445,
           "whale_direction": "Juan Pablo Varillas",
+          "resolved_outcome": "Juan Pablo Varillas",
+          "resolved_date": "2026-09-30",
+          "end_date": "2026-09-30",
+          "total_value_usd": 32984.07,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xd03d029c9293f905e2b147413553343a4dbb74cb5abcede80ad0ed5c7fd17532:1",
+          "condition_id": "0xd03d029c9293f905e2b147413553343a4dbb74cb5abcede80ad0ed5c7fd17532",
+          "title": "Minnesota Twins vs. San Francisco Giants",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "San Francisco Giants",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-09-30",
-          "total_value_usd": 32984.07,
+          "total_value_usd": 50036.56,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd03d029c9293f905e2b147413553343a4dbb74cb5abcede80ad0ed5c7fd17532:0",
+          "condition_id": "0xd03d029c9293f905e2b147413553343a4dbb74cb5abcede80ad0ed5c7fd17532",
+          "title": "Minnesota Twins vs. San Francisco Giants",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Minnesota Twins",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-30",
+          "total_value_usd": 50328.21,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x8eee18eeea3f5bb9778240b1b41a383b22a51b2edd5004ac25735346100a7370:1",
+          "condition_id": "0x8eee18eeea3f5bb9778240b1b41a383b22a51b2edd5004ac25735346100a7370",
+          "title": "Toronto Blue Jays vs. Baltimore Orioles",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Baltimore Orioles",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-30",
+          "total_value_usd": 23803.9,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x0579363b837c00f668cd3bc83814085f1488784744c6278cd1ee5f020a295b67:1",
+          "condition_id": "0x0579363b837c00f668cd3bc83814085f1488784744c6278cd1ee5f020a295b67",
+          "title": "St. Louis Cardinals vs. Pittsburgh Pirates",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Pittsburgh Pirates",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-30",
+          "total_value_usd": 13743.39,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf8b9a1bafe910f5487c68b7745ca69c40ea102da3d80d86f6264041bf7aa0b03:1",
+          "condition_id": "0xf8b9a1bafe910f5487c68b7745ca69c40ea102da3d80d86f6264041bf7aa0b03",
+          "title": "Tolentino: Noemi Basiletti vs Mia Ristic",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Mia Ristic",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-30",
+          "total_value_usd": 68858.02,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x46991c8a2b6494ac93efb82d0a98096746eb822213d9489b6c5bf75358687f68:1",
+          "condition_id": "0x46991c8a2b6494ac93efb82d0a98096746eb822213d9489b6c5bf75358687f68",
+          "title": "Will Athletic Club win on 2026-09-16?",
+          "category": "Soccer",
+          "tier": "Weak",
+          "entry_price": 0.0445,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-21",
+          "total_value_usd": 20083.6,
           "result": "pending"
         }
       ]
@@ -35086,10 +35338,10 @@
       "description": "Total whale position >$500k",
       "hypothesis": "Signals where total position size exceeds $500k represent the highest-conviction whale bets. When top traders put serious capital behind a position, that's a qualitatively different signal from a small stake. This filters for only the highest-conviction consensus calls to test whether size predicts accuracy.",
       "signals_evaluated": 42,
-      "correct": 25,
+      "correct": 26,
       "wrong": 10,
-      "pending": 7,
-      "win_rate": 71.4,
+      "pending": 6,
+      "win_rate": 72.2,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -35673,11 +35925,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Washington Nationals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Washington Nationals",
+          "resolved_date": "2026-09-30",
           "end_date": "2026-09-30",
           "total_value_usd": 1013313.94,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     }
