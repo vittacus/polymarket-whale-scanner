@@ -362787,5 +362787,630 @@
         "entry_price": 0.0445
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-23T23:43:25+00:00",
+    "whale_timeframes": {
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7c37b52eb226bcb9411375ec48b0169663fb6aeb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x16bb9951a36fce71e2ef57890b786145e0ba8492": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd84d7f9262516865553555751609fb6f52abec6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x821dab0565ebf5b327f51db06223fdcfe01acf16": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x336bf6f91a4619d54f0711a20fe468adf4d71233": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1610db79f753a80207e1d66716be9e91e627ae49": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe40ecff63ec661d218a86c048186ac83389a9770": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x32b484581fc5606de9c1e43af4636b6be9bc8b21": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf68a281980f8c13828e84e147e3822381d6e5b1b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9db82de5a71ae539bc82f4d9ac3a007c7d742eff": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9703676286b93c2eca71ca96e8757104519a69c2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x8eee18eeea3f5bb9778240b1b41a383b22a51b2edd5004ac25735346100a7370:0",
+        "condition_id": "0x8eee18eeea3f5bb9778240b1b41a383b22a51b2edd5004ac25735346100a7370",
+        "title": "Toronto Blue Jays vs. Baltimore Orioles",
+        "outcome": "Toronto Blue Jays",
+        "outcome_index": 0,
+        "whale_count": 5,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xcd84d7f9262516865553555751609fb6f52abec6",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21"
+        ],
+        "ranks": [
+          1,
+          2,
+          3,
+          9,
+          16
+        ],
+        "total_value_usd": 12634.07,
+        "score": 33.1696,
+        "category": "MLB",
+        "end_date": "2026-09-30",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x057bdb7ed25fe981d389ea6c8222f173cc92db7c5a7aefe6d08fc438a13a2383:0",
+        "condition_id": "0x057bdb7ed25fe981d389ea6c8222f173cc92db7c5a7aefe6d08fc438a13a2383",
+        "title": "Houston Astros vs. Seattle Mariners",
+        "outcome": "Houston Astros",
+        "outcome_index": 0,
+        "whale_count": 6,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0xcd84d7f9262516865553555751609fb6f52abec6",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21"
+        ],
+        "ranks": [
+          2,
+          3,
+          8,
+          9,
+          10,
+          16
+        ],
+        "total_value_usd": 63221.14,
+        "score": 23.8322,
+        "category": "MLB",
+        "end_date": "2026-10-01",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x7c0742db2ce035582fcd27373cf62ccc300f2fa2d7ad7fe7d4654f12bbc7b6da:1",
+        "condition_id": "0x7c0742db2ce035582fcd27373cf62ccc300f2fa2d7ad7fe7d4654f12bbc7b6da",
+        "title": "Tampa Bay Rays vs. New York Yankees",
+        "outcome": "New York Yankees",
+        "outcome_index": 1,
+        "whale_count": 5,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21"
+        ],
+        "ranks": [
+          2,
+          3,
+          8,
+          10,
+          16
+        ],
+        "total_value_usd": 71147.48,
+        "score": 21.9144,
+        "category": "MLB",
+        "end_date": "2026-09-30",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x0579363b837c00f668cd3bc83814085f1488784744c6278cd1ee5f020a295b67:0",
+        "condition_id": "0x0579363b837c00f668cd3bc83814085f1488784744c6278cd1ee5f020a295b67",
+        "title": "St. Louis Cardinals vs. Pittsburgh Pirates",
+        "outcome": "St. Louis Cardinals",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
+          "0xcd84d7f9262516865553555751609fb6f52abec6"
+        ],
+        "ranks": [
+          2,
+          3,
+          7,
+          9
+        ],
+        "total_value_usd": 77654.21,
+        "score": 21.4253,
+        "category": "MLB",
+        "end_date": "2026-09-30",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x193693a46d06c262c7f30aca3985c810a1155e35d394f03bab65e5833a0cf8da:0",
+        "condition_id": "0x193693a46d06c262c7f30aca3985c810a1155e35d394f03bab65e5833a0cf8da",
+        "title": "Milwaukee Brewers vs. Philadelphia Phillies",
+        "outcome": "Milwaukee Brewers",
+        "outcome_index": 0,
+        "whale_count": 5,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0x1610db79f753a80207e1d66716be9e91e627ae49"
+        ],
+        "ranks": [
+          2,
+          3,
+          10,
+          11,
+          13
+        ],
+        "total_value_usd": 57889.68,
+        "score": 21.1325,
+        "category": "MLB",
+        "end_date": "2026-09-30",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0xc7a7dba39f5cb96cfdd06bf99ae1de80eed82dc305fcb31c4601ad8e079c05ac:0",
+        "condition_id": "0xc7a7dba39f5cb96cfdd06bf99ae1de80eed82dc305fcb31c4601ad8e079c05ac",
+        "title": "Cincinnati Reds vs. Atlanta Braves",
+        "outcome": "Cincinnati Reds",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x1610db79f753a80207e1d66716be9e91e627ae49",
+          "0x9db82de5a71ae539bc82f4d9ac3a007c7d742eff"
+        ],
+        "ranks": [
+          2,
+          3,
+          13,
+          19
+        ],
+        "total_value_usd": 61635.61,
+        "score": 18.5845,
+        "category": "MLB",
+        "end_date": "2026-09-30",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x8eee18eeea3f5bb9778240b1b41a383b22a51b2edd5004ac25735346100a7370:1",
+        "condition_id": "0x8eee18eeea3f5bb9778240b1b41a383b22a51b2edd5004ac25735346100a7370",
+        "title": "Toronto Blue Jays vs. Baltimore Orioles",
+        "outcome": "Baltimore Orioles",
+        "outcome_index": 1,
+        "whale_count": 6,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0x1610db79f753a80207e1d66716be9e91e627ae49"
+        ],
+        "ranks": [
+          3,
+          7,
+          8,
+          10,
+          11,
+          13
+        ],
+        "total_value_usd": 95287.33,
+        "score": 17.4353,
+        "category": "MLB",
+        "end_date": "2026-09-30",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x193693a46d06c262c7f30aca3985c810a1155e35d394f03bab65e5833a0cf8da:1",
+        "condition_id": "0x193693a46d06c262c7f30aca3985c810a1155e35d394f03bab65e5833a0cf8da",
+        "title": "Milwaukee Brewers vs. Philadelphia Phillies",
+        "outcome": "Philadelphia Phillies",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xcd84d7f9262516865553555751609fb6f52abec6"
+        ],
+        "ranks": [
+          2,
+          3,
+          9
+        ],
+        "total_value_usd": 14944.92,
+        "score": 15.8868,
+        "category": "MLB",
+        "end_date": "2026-09-30",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x7c0742db2ce035582fcd27373cf62ccc300f2fa2d7ad7fe7d4654f12bbc7b6da:0",
+        "condition_id": "0x7c0742db2ce035582fcd27373cf62ccc300f2fa2d7ad7fe7d4654f12bbc7b6da",
+        "title": "Tampa Bay Rays vs. New York Yankees",
+        "outcome": "Tampa Bay Rays",
+        "outcome_index": 0,
+        "whale_count": 5,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
+          "0xcd84d7f9262516865553555751609fb6f52abec6",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0x1610db79f753a80207e1d66716be9e91e627ae49"
+        ],
+        "ranks": [
+          3,
+          7,
+          9,
+          11,
+          13
+        ],
+        "total_value_usd": 34862.11,
+        "score": 13.8216,
+        "category": "MLB",
+        "end_date": "2026-09-30",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x0579363b837c00f668cd3bc83814085f1488784744c6278cd1ee5f020a295b67:1",
+        "condition_id": "0x0579363b837c00f668cd3bc83814085f1488784744c6278cd1ee5f020a295b67",
+        "title": "St. Louis Cardinals vs. Pittsburgh Pirates",
+        "outcome": "Pittsburgh Pirates",
+        "outcome_index": 1,
+        "whale_count": 5,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0xcd84d7f9262516865553555751609fb6f52abec6",
+          "0x1610db79f753a80207e1d66716be9e91e627ae49",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21"
+        ],
+        "ranks": [
+          3,
+          8,
+          9,
+          13,
+          16
+        ],
+        "total_value_usd": 21628.25,
+        "score": 12.3826,
+        "category": "MLB",
+        "end_date": "2026-09-30",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x26d2f6a1f2c64bd47cc50ef8f446a31935a1a817814dc6daa199c722528b7e05:0",
+        "condition_id": "0x26d2f6a1f2c64bd47cc50ef8f446a31935a1a817814dc6daa199c722528b7e05",
+        "title": "Cleveland Guardians vs. Boston Red Sox",
+        "outcome": "Cleveland Guardians",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0xcd84d7f9262516865553555751609fb6f52abec6",
+          "0x9db82de5a71ae539bc82f4d9ac3a007c7d742eff"
+        ],
+        "ranks": [
+          2,
+          9,
+          19
+        ],
+        "total_value_usd": 33900.46,
+        "score": 12.1164,
+        "category": "MLB",
+        "end_date": "2026-09-30",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x58f945a99551a6ea5231adcdd1c80ee57d8b0c4c62914ac4739fd78d0e3e0255:0",
+        "condition_id": "0x58f945a99551a6ea5231adcdd1c80ee57d8b0c4c62914ac4739fd78d0e3e0255",
+        "title": "New York Mets vs. Texas Rangers",
+        "outcome": "New York Mets",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0xcd84d7f9262516865553555751609fb6f52abec6"
+        ],
+        "ranks": [
+          3,
+          5,
+          9
+        ],
+        "total_value_usd": 44568.73,
+        "score": 12.0726,
+        "category": "MLB",
+        "end_date": "2026-10-01",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x36d9f0a138755207c02938223b4726f86821f79fe361c34e536bd5dea1cf6f67:1",
+        "condition_id": "0x36d9f0a138755207c02938223b4726f86821f79fe361c34e536bd5dea1cf6f67",
+        "title": "Los Angeles Angels vs. Athletics",
+        "outcome": "Athletics",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xcd84d7f9262516865553555751609fb6f52abec6",
+          "0x1610db79f753a80207e1d66716be9e91e627ae49",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21"
+        ],
+        "ranks": [
+          3,
+          9,
+          13,
+          16
+        ],
+        "total_value_usd": 56140.68,
+        "score": 11.1737,
+        "category": "MLB",
+        "end_date": "2026-10-01",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x26d2f6a1f2c64bd47cc50ef8f446a31935a1a817814dc6daa199c722528b7e05:1",
+        "condition_id": "0x26d2f6a1f2c64bd47cc50ef8f446a31935a1a817814dc6daa199c722528b7e05",
+        "title": "Cleveland Guardians vs. Boston Red Sox",
+        "outcome": "Boston Red Sox",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x1610db79f753a80207e1d66716be9e91e627ae49"
+        ],
+        "ranks": [
+          3,
+          10,
+          13
+        ],
+        "total_value_usd": 37517.73,
+        "score": 9.4051,
+        "category": "MLB",
+        "end_date": "2026-09-30",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x114ba75acb5966431db9ff86908e70bc6e5cfeabdf3836293fa4d4a04f830614:1",
+        "condition_id": "0x114ba75acb5966431db9ff86908e70bc6e5cfeabdf3836293fa4d4a04f830614",
+        "title": "Miami Marlins vs. Chicago Cubs",
+        "outcome": "Chicago Cubs",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x1610db79f753a80207e1d66716be9e91e627ae49"
+        ],
+        "ranks": [
+          7,
+          10,
+          13
+        ],
+        "total_value_usd": 27519.33,
+        "score": 5.7208,
+        "category": "MLB",
+        "end_date": "2026-09-30",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x58f945a99551a6ea5231adcdd1c80ee57d8b0c4c62914ac4739fd78d0e3e0255:1",
+        "condition_id": "0x58f945a99551a6ea5231adcdd1c80ee57d8b0c4c62914ac4739fd78d0e3e0255",
+        "title": "New York Mets vs. Texas Rangers",
+        "outcome": "Texas Rangers",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xcd84d7f9262516865553555751609fb6f52abec6",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x1610db79f753a80207e1d66716be9e91e627ae49"
+        ],
+        "ranks": [
+          9,
+          10,
+          13
+        ],
+        "total_value_usd": 37455.13,
+        "score": 5.3082,
+        "category": "MLB",
+        "end_date": "2026-10-01",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x98cccc1bac44ec013e7e5ec132d4665ee8195749b883f12f1d77fd7698b12b30:0",
+        "condition_id": "0x98cccc1bac44ec013e7e5ec132d4665ee8195749b883f12f1d77fd7698b12b30",
+        "title": "Chicago White Sox vs. Kansas City Royals",
+        "outcome": "Chicago White Sox",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xcd84d7f9262516865553555751609fb6f52abec6",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x1610db79f753a80207e1d66716be9e91e627ae49"
+        ],
+        "ranks": [
+          9,
+          10,
+          13
+        ],
+        "total_value_usd": 33022.4,
+        "score": 5.2447,
+        "category": "MLB",
+        "end_date": "2026-09-30",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x4e4f77e7dbf4cab666e9a1943674d7ae66348e862df03ea6f44b11eb95731928:0",
+        "condition_id": "0x4e4f77e7dbf4cab666e9a1943674d7ae66348e862df03ea6f44b11eb95731928",
+        "title": "Will the Republican Party control the House after the 2026 Midterm elections?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x9703676286b93c2eca71ca96e8757104519a69c2"
+        ],
+        "ranks": [
+          8,
+          10,
+          20
+        ],
+        "total_value_usd": 13826.9,
+        "score": 4.5885,
+        "category": "Parent For Derivative",
+        "end_date": "2027-01-05",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x865ed84d04697b91dd521c949aac1551d98f76a9b1c98f90e2ca6f898df28429:0",
+        "condition_id": "0x865ed84d04697b91dd521c949aac1551d98f76a9b1c98f90e2ca6f898df28429",
+        "title": "Arizona Diamondbacks vs. Colorado Rockies",
+        "outcome": "Arizona Diamondbacks",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x1610db79f753a80207e1d66716be9e91e627ae49",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21"
+        ],
+        "ranks": [
+          10,
+          13,
+          16
+        ],
+        "total_value_usd": 31923.59,
+        "score": 4.3454,
+        "category": "MLB",
+        "end_date": "2026-10-01",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x46991c8a2b6494ac93efb82d0a98096746eb822213d9489b6c5bf75358687f68:1",
+        "condition_id": "0x46991c8a2b6494ac93efb82d0a98096746eb822213d9489b6c5bf75358687f68",
+        "title": "Will Athletic Club win on 2026-09-16?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+          "0xf68a281980f8c13828e84e147e3822381d6e5b1b"
+        ],
+        "ranks": [
+          11,
+          14,
+          18
+        ],
+        "total_value_usd": 20083.6,
+        "score": 3.7779,
+        "category": "Soccer",
+        "end_date": "2026-10-21",
+        "entry_price": 0.0445
+      }
+    ]
   }
 ]
