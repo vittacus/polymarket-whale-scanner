@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-23T03:02:16+00:00",
-  "total_signals": 1269,
-  "total_resolved": 1201,
-  "total_correct": 755,
-  "overall_hit_rate": 62.9,
+  "generated_at": "2026-09-23T08:21:39+00:00",
+  "total_signals": 1272,
+  "total_resolved": 1210,
+  "total_correct": 762,
+  "overall_hit_rate": 63.0,
   "by_tier": {
     "Strong": {
       "total": 546,
-      "resolved": 524,
-      "correct": 334,
+      "resolved": 529,
+      "correct": 337,
       "hit_rate": 63.7
     },
     "Moderate": {
-      "total": 656,
-      "resolved": 613,
-      "correct": 385,
-      "hit_rate": 62.8
+      "total": 659,
+      "resolved": 617,
+      "correct": 389,
+      "hit_rate": 63.0
     },
     "Weak": {
       "total": 67,
@@ -21457,10 +21457,10 @@
       "total_value_usd": 158195.61,
       "entry_price": 0.0425,
       "end_date": "2026-09-29",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Miami Marlins",
+      "resolved_date": "2026-09-29"
     },
     {
       "signal_key": "0x800b5a4870efed9495bc756287e4e90a44b87a36559de16393643fd72fef4ac7:1",
@@ -21474,10 +21474,10 @@
       "total_value_usd": 71738.17,
       "entry_price": 0.0425,
       "end_date": "2026-09-30",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Los Angeles Dodgers",
+      "resolved_date": "2026-09-30"
     },
     {
       "signal_key": "0xf02acfb85bae359a48fb3a438a328e2bd57765df0891eab75761afd229bcc129:1",
@@ -21491,10 +21491,10 @@
       "total_value_usd": 7031.09,
       "entry_price": 0.0425,
       "end_date": "2026-09-30",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Houston Astros",
+      "resolved_date": "2026-09-30"
     },
     {
       "signal_key": "0x626f5c6cca34abe7e1ac23a9a42e5b523a2b2c1453975d2a183d40b247dc1f3a:0",
@@ -21508,10 +21508,10 @@
       "total_value_usd": 34625.2,
       "entry_price": 0.0425,
       "end_date": "2026-09-29",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Miami Marlins",
+      "resolved_date": "2026-09-29"
     },
     {
       "signal_key": "0xf02acfb85bae359a48fb3a438a328e2bd57765df0891eab75761afd229bcc129:0",
@@ -21525,10 +21525,10 @@
       "total_value_usd": 93284.09,
       "entry_price": 0.0425,
       "end_date": "2026-09-30",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Houston Astros",
+      "resolved_date": "2026-09-30"
     },
     {
       "signal_key": "0x224ab7afdeea91a2a513a461a54b1b4d2a867511922e287348100ad559b0f377:0",
@@ -21542,10 +21542,10 @@
       "total_value_usd": 68938.51,
       "entry_price": 0.0425,
       "end_date": "2026-09-30",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Arizona Diamondbacks",
+      "resolved_date": "2026-09-30"
     },
     {
       "signal_key": "0xc82dca85bc5e90bffa35b2cbfc2cac0fa714433138efcfe5de4666bfc5acbae7:0",
@@ -21559,10 +21559,10 @@
       "total_value_usd": 40655.82,
       "entry_price": 0.0425,
       "end_date": "2026-09-30",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Minnesota Twins",
+      "resolved_date": "2026-09-30"
     },
     {
       "signal_key": "0x46090c36f1bd22a584dbe3aac5534b31f4edbab4abf5d5ac0b0ad42c8fb7ae78:0",
@@ -21576,10 +21576,10 @@
       "total_value_usd": 36448.31,
       "entry_price": 0.0425,
       "end_date": "2026-09-30",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "New York Mets",
+      "resolved_date": "2026-09-30"
     },
     {
       "signal_key": "0x8b74b39fec43b211f808ee13589b0d058d26aae2f3071e29ac069cad2f7f56bc:1",
@@ -21592,6 +21592,57 @@
       "score": 6.1745,
       "total_value_usd": 4758.65,
       "entry_price": 0.0425,
+      "end_date": "2026-09-30",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Athletics",
+      "resolved_date": "2026-09-30"
+    },
+    {
+      "signal_key": "0xf297d10a335e414ed98f12ee75ed4a9aef554fdc6dcf992efc47e393b2c1e16c:0",
+      "condition_id": "0xf297d10a335e414ed98f12ee75ed4a9aef554fdc6dcf992efc47e393b2c1e16c",
+      "title": "Chengdu Open, Qualification: Shintaro Mochizuki vs Pavel Kotov",
+      "category": "Tennis",
+      "whale_direction": "Shintaro Mochizuki",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 6.3458,
+      "total_value_usd": 104876.91,
+      "entry_price": 0.0415,
+      "end_date": "2026-09-30",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x0c6e2bafb54f5290621444bff38f459232ffc150e4866c757b0c0b0d31dba44e:1",
+      "condition_id": "0x0c6e2bafb54f5290621444bff38f459232ffc150e4866c757b0c0b0d31dba44e",
+      "title": "Hangzhou Open, Qualification: Bernard Tomic vs Fajing Sun",
+      "category": "Tennis",
+      "whale_direction": "Fajing Sun",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 4.871,
+      "total_value_usd": 64998.8,
+      "entry_price": 0.0415,
+      "end_date": "2026-09-30",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xf297d10a335e414ed98f12ee75ed4a9aef554fdc6dcf992efc47e393b2c1e16c:1",
+      "condition_id": "0xf297d10a335e414ed98f12ee75ed4a9aef554fdc6dcf992efc47e393b2c1e16c",
+      "title": "Chengdu Open, Qualification: Shintaro Mochizuki vs Pavel Kotov",
+      "category": "Tennis",
+      "whale_direction": "Pavel Kotov",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 4.0541,
+      "total_value_usd": 10131.92,
+      "entry_price": 0.0415,
       "end_date": "2026-09-30",
       "resolved": false,
       "correct": null,
