@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-23T08:21:39+00:00",
-  "total_evaluated": 1272,
+  "generated_at": "2026-09-23T13:48:15+00:00",
+  "total_evaluated": 1275,
   "total_pending": 62,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1272,
-      "correct": 762,
-      "wrong": 448,
+      "signals_evaluated": 1275,
+      "correct": 764,
+      "wrong": 449,
       "pending": 62,
       "win_rate": 63.0,
       "signals": [
@@ -17787,11 +17787,11 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "Shintaro Mochizuki",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Shintaro Mochizuki",
+          "resolved_date": "2026-09-30",
           "end_date": "2026-09-30",
           "total_value_usd": 104876.91,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x0c6e2bafb54f5290621444bff38f459232ffc150e4866c757b0c0b0d31dba44e:1",
@@ -17801,11 +17801,11 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "Fajing Sun",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Fajing Sun",
+          "resolved_date": "2026-09-30",
           "end_date": "2026-09-30",
           "total_value_usd": 64998.8,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf297d10a335e414ed98f12ee75ed4a9aef554fdc6dcf992efc47e393b2c1e16c:1",
@@ -17815,10 +17815,52 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "Pavel Kotov",
+          "resolved_outcome": "Shintaro Mochizuki",
+          "resolved_date": "2026-09-30",
+          "end_date": "2026-09-30",
+          "total_value_usd": 10131.92,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x5147fef356553fdac18ded0ade91843a62be125c3ba22d908e91bf4413eb1573:0",
+          "condition_id": "0x5147fef356553fdac18ded0ade91843a62be125c3ba22d908e91bf4413eb1573",
+          "title": "Hangzhou Open: Valentin Royer vs Adam Walton",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0435,
+          "whale_direction": "Valentin Royer",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-09-30",
-          "total_value_usd": 10131.92,
+          "total_value_usd": 77888.81,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xaf0dbca26c6b6ece765dc74d6ca39272369f69ebfbbd36ccd342f7705465a2a9:1",
+          "condition_id": "0xaf0dbca26c6b6ece765dc74d6ca39272369f69ebfbbd36ccd342f7705465a2a9",
+          "title": "Washington Nationals vs. Detroit Tigers",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Detroit Tigers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-30",
+          "total_value_usd": 9832.02,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x653ede1ddb92097f8942eb71e3cf86683424147574a9f4fe860e01bbf114ce0b:1",
+          "condition_id": "0x653ede1ddb92097f8942eb71e3cf86683424147574a9f4fe860e01bbf114ce0b",
+          "title": "Singapore Open: Alycia Parks vs Leylah Fernandez",
+          "category": "Tennis",
+          "tier": "Weak",
+          "entry_price": 0.0435,
+          "whale_direction": "Leylah Fernandez",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-30",
+          "total_value_usd": 18082.1,
           "result": "pending"
         }
       ]
@@ -17827,9 +17869,9 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 602,
-      "correct": 357,
-      "wrong": 206,
+      "signals_evaluated": 605,
+      "correct": 359,
+      "wrong": 207,
       "pending": 39,
       "win_rate": 63.4,
       "signals": [
@@ -26227,11 +26269,11 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "Shintaro Mochizuki",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Shintaro Mochizuki",
+          "resolved_date": "2026-09-30",
           "end_date": "2026-09-30",
           "total_value_usd": 104876.91,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x0c6e2bafb54f5290621444bff38f459232ffc150e4866c757b0c0b0d31dba44e:1",
@@ -26241,11 +26283,11 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "Fajing Sun",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Fajing Sun",
+          "resolved_date": "2026-09-30",
           "end_date": "2026-09-30",
           "total_value_usd": 64998.8,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf297d10a335e414ed98f12ee75ed4a9aef554fdc6dcf992efc47e393b2c1e16c:1",
@@ -26255,10 +26297,52 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "Pavel Kotov",
+          "resolved_outcome": "Shintaro Mochizuki",
+          "resolved_date": "2026-09-30",
+          "end_date": "2026-09-30",
+          "total_value_usd": 10131.92,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x5147fef356553fdac18ded0ade91843a62be125c3ba22d908e91bf4413eb1573:0",
+          "condition_id": "0x5147fef356553fdac18ded0ade91843a62be125c3ba22d908e91bf4413eb1573",
+          "title": "Hangzhou Open: Valentin Royer vs Adam Walton",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0435,
+          "whale_direction": "Valentin Royer",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-09-30",
-          "total_value_usd": 10131.92,
+          "total_value_usd": 77888.81,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xaf0dbca26c6b6ece765dc74d6ca39272369f69ebfbbd36ccd342f7705465a2a9:1",
+          "condition_id": "0xaf0dbca26c6b6ece765dc74d6ca39272369f69ebfbbd36ccd342f7705465a2a9",
+          "title": "Washington Nationals vs. Detroit Tigers",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Detroit Tigers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-30",
+          "total_value_usd": 9832.02,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x653ede1ddb92097f8942eb71e3cf86683424147574a9f4fe860e01bbf114ce0b:1",
+          "condition_id": "0x653ede1ddb92097f8942eb71e3cf86683424147574a9f4fe860e01bbf114ce0b",
+          "title": "Singapore Open: Alycia Parks vs Leylah Fernandez",
+          "category": "Tennis",
+          "tier": "Weak",
+          "entry_price": 0.0435,
+          "whale_direction": "Leylah Fernandez",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-30",
+          "total_value_usd": 18082.1,
           "result": "pending"
         }
       ]
@@ -26267,9 +26351,9 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 602,
-      "correct": 206,
-      "wrong": 357,
+      "signals_evaluated": 605,
+      "correct": 207,
+      "wrong": 359,
       "pending": 39,
       "win_rate": 36.6,
       "signals": [
@@ -34667,11 +34751,11 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "Shintaro Mochizuki",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Shintaro Mochizuki",
+          "resolved_date": "2026-09-30",
           "end_date": "2026-09-30",
           "total_value_usd": 104876.91,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x0c6e2bafb54f5290621444bff38f459232ffc150e4866c757b0c0b0d31dba44e:1",
@@ -34681,11 +34765,11 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "Fajing Sun",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Fajing Sun",
+          "resolved_date": "2026-09-30",
           "end_date": "2026-09-30",
           "total_value_usd": 64998.8,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xf297d10a335e414ed98f12ee75ed4a9aef554fdc6dcf992efc47e393b2c1e16c:1",
@@ -34695,10 +34779,52 @@
           "tier": "Moderate",
           "entry_price": 0.0415,
           "whale_direction": "Pavel Kotov",
+          "resolved_outcome": "Shintaro Mochizuki",
+          "resolved_date": "2026-09-30",
+          "end_date": "2026-09-30",
+          "total_value_usd": 10131.92,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x5147fef356553fdac18ded0ade91843a62be125c3ba22d908e91bf4413eb1573:0",
+          "condition_id": "0x5147fef356553fdac18ded0ade91843a62be125c3ba22d908e91bf4413eb1573",
+          "title": "Hangzhou Open: Valentin Royer vs Adam Walton",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0435,
+          "whale_direction": "Valentin Royer",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-09-30",
-          "total_value_usd": 10131.92,
+          "total_value_usd": 77888.81,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xaf0dbca26c6b6ece765dc74d6ca39272369f69ebfbbd36ccd342f7705465a2a9:1",
+          "condition_id": "0xaf0dbca26c6b6ece765dc74d6ca39272369f69ebfbbd36ccd342f7705465a2a9",
+          "title": "Washington Nationals vs. Detroit Tigers",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Detroit Tigers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-30",
+          "total_value_usd": 9832.02,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x653ede1ddb92097f8942eb71e3cf86683424147574a9f4fe860e01bbf114ce0b:1",
+          "condition_id": "0x653ede1ddb92097f8942eb71e3cf86683424147574a9f4fe860e01bbf114ce0b",
+          "title": "Singapore Open: Alycia Parks vs Leylah Fernandez",
+          "category": "Tennis",
+          "tier": "Weak",
+          "entry_price": 0.0435,
+          "whale_direction": "Leylah Fernandez",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-30",
+          "total_value_usd": 18082.1,
           "result": "pending"
         }
       ]

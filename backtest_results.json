@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-23T08:21:39+00:00",
-  "total_signals": 1272,
-  "total_resolved": 1210,
-  "total_correct": 762,
+  "generated_at": "2026-09-23T13:48:15+00:00",
+  "total_signals": 1275,
+  "total_resolved": 1213,
+  "total_correct": 764,
   "overall_hit_rate": 63.0,
   "by_tier": {
     "Strong": {
-      "total": 546,
+      "total": 547,
       "resolved": 529,
       "correct": 337,
       "hit_rate": 63.7
     },
     "Moderate": {
-      "total": 659,
-      "resolved": 617,
-      "correct": 389,
-      "hit_rate": 63.0
+      "total": 660,
+      "resolved": 620,
+      "correct": 391,
+      "hit_rate": 63.1
     },
     "Weak": {
-      "total": 67,
+      "total": 68,
       "resolved": 64,
       "correct": 36,
       "hit_rate": 56.2
@@ -21610,10 +21610,10 @@
       "total_value_usd": 104876.91,
       "entry_price": 0.0415,
       "end_date": "2026-09-30",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Shintaro Mochizuki",
+      "resolved_date": "2026-09-30"
     },
     {
       "signal_key": "0x0c6e2bafb54f5290621444bff38f459232ffc150e4866c757b0c0b0d31dba44e:1",
@@ -21627,10 +21627,10 @@
       "total_value_usd": 64998.8,
       "entry_price": 0.0415,
       "end_date": "2026-09-30",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Fajing Sun",
+      "resolved_date": "2026-09-30"
     },
     {
       "signal_key": "0xf297d10a335e414ed98f12ee75ed4a9aef554fdc6dcf992efc47e393b2c1e16c:1",
@@ -21643,6 +21643,57 @@
       "score": 4.0541,
       "total_value_usd": 10131.92,
       "entry_price": 0.0415,
+      "end_date": "2026-09-30",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Shintaro Mochizuki",
+      "resolved_date": "2026-09-30"
+    },
+    {
+      "signal_key": "0x5147fef356553fdac18ded0ade91843a62be125c3ba22d908e91bf4413eb1573:0",
+      "condition_id": "0x5147fef356553fdac18ded0ade91843a62be125c3ba22d908e91bf4413eb1573",
+      "title": "Hangzhou Open: Valentin Royer vs Adam Walton",
+      "category": "Tennis",
+      "whale_direction": "Valentin Royer",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 23.6798,
+      "total_value_usd": 77888.81,
+      "entry_price": 0.0435,
+      "end_date": "2026-09-30",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xaf0dbca26c6b6ece765dc74d6ca39272369f69ebfbbd36ccd342f7705465a2a9:1",
+      "condition_id": "0xaf0dbca26c6b6ece765dc74d6ca39272369f69ebfbbd36ccd342f7705465a2a9",
+      "title": "Washington Nationals vs. Detroit Tigers",
+      "category": "MLB",
+      "whale_direction": "Detroit Tigers",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 4.7113,
+      "total_value_usd": 9832.02,
+      "entry_price": 0.0435,
+      "end_date": "2026-09-30",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x653ede1ddb92097f8942eb71e3cf86683424147574a9f4fe860e01bbf114ce0b:1",
+      "condition_id": "0x653ede1ddb92097f8942eb71e3cf86683424147574a9f4fe860e01bbf114ce0b",
+      "title": "Singapore Open: Alycia Parks vs Leylah Fernandez",
+      "category": "Tennis",
+      "whale_direction": "Leylah Fernandez",
+      "outcome_index": 1,
+      "tier": "Weak",
+      "score": 3.8213,
+      "total_value_usd": 18082.1,
+      "entry_price": 0.0435,
       "end_date": "2026-09-30",
       "resolved": false,
       "correct": null,

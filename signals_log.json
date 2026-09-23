@@ -361908,5 +361908,226 @@
         "entry_price": 0.0415
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-23T13:38:19+00:00",
+    "whale_timeframes": {
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd84d7f9262516865553555751609fb6f52abec6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x16bb9951a36fce71e2ef57890b786145e0ba8492": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7c37b52eb226bcb9411375ec48b0169663fb6aeb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x336bf6f91a4619d54f0711a20fe468adf4d71233": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x821dab0565ebf5b327f51db06223fdcfe01acf16": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x32b484581fc5606de9c1e43af4636b6be9bc8b21": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf68a281980f8c13828e84e147e3822381d6e5b1b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9703676286b93c2eca71ca96e8757104519a69c2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb8ef617fd5d960e61e56c50d2971697300b32864": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9db82de5a71ae539bc82f4d9ac3a007c7d742eff": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2ce8505aa641791eb8460f6ac6bf5c0511e34527": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe40ecff63ec661d218a86c048186ac83389a9770": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x5147fef356553fdac18ded0ade91843a62be125c3ba22d908e91bf4413eb1573:0",
+        "condition_id": "0x5147fef356553fdac18ded0ade91843a62be125c3ba22d908e91bf4413eb1573",
+        "title": "Hangzhou Open: Valentin Royer vs Adam Walton",
+        "outcome": "Valentin Royer",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0xb8ef617fd5d960e61e56c50d2971697300b32864",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+        ],
+        "ranks": [
+          1,
+          12,
+          16,
+          18
+        ],
+        "total_value_usd": 77888.81,
+        "score": 23.6798,
+        "category": "Tennis",
+        "end_date": "2026-09-30",
+        "entry_price": 0.0435
+      },
+      {
+        "signal_key": "0x4e4f77e7dbf4cab666e9a1943674d7ae66348e862df03ea6f44b11eb95731928:0",
+        "condition_id": "0x4e4f77e7dbf4cab666e9a1943674d7ae66348e862df03ea6f44b11eb95731928",
+        "title": "Will the Republican Party control the House after the 2026 Midterm elections?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x9703676286b93c2eca71ca96e8757104519a69c2"
+        ],
+        "ranks": [
+          8,
+          11,
+          15
+        ],
+        "total_value_usd": 13826.9,
+        "score": 4.7149,
+        "category": "Parent For Derivative",
+        "end_date": "2027-01-05",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0xaf0dbca26c6b6ece765dc74d6ca39272369f69ebfbbd36ccd342f7705465a2a9:1",
+        "condition_id": "0xaf0dbca26c6b6ece765dc74d6ca39272369f69ebfbbd36ccd342f7705465a2a9",
+        "title": "Washington Nationals vs. Detroit Tigers",
+        "outcome": "Detroit Tigers",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21"
+        ],
+        "ranks": [
+          8,
+          11,
+          13
+        ],
+        "total_value_usd": 9832.02,
+        "score": 4.7113,
+        "category": "MLB",
+        "end_date": "2026-09-30",
+        "entry_price": 0.0435
+      },
+      {
+        "signal_key": "0x653ede1ddb92097f8942eb71e3cf86683424147574a9f4fe860e01bbf114ce0b:1",
+        "condition_id": "0x653ede1ddb92097f8942eb71e3cf86683424147574a9f4fe860e01bbf114ce0b",
+        "title": "Singapore Open: Alycia Parks vs Leylah Fernandez",
+        "outcome": "Leylah Fernandez",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21",
+          "0xb8ef617fd5d960e61e56c50d2971697300b32864"
+        ],
+        "ranks": [
+          12,
+          13,
+          16
+        ],
+        "total_value_usd": 18082.1,
+        "score": 3.8213,
+        "category": "Tennis",
+        "end_date": "2026-09-30",
+        "entry_price": 0.0435
+      }
+    ]
   }
 ]
