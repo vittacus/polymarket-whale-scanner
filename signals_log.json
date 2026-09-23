@@ -362129,5 +362129,340 @@
         "entry_price": 0.0435
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-23T17:58:02+00:00",
+    "whale_timeframes": {
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7c37b52eb226bcb9411375ec48b0169663fb6aeb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd84d7f9262516865553555751609fb6f52abec6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x16bb9951a36fce71e2ef57890b786145e0ba8492": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x336bf6f91a4619d54f0711a20fe468adf4d71233": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1610db79f753a80207e1d66716be9e91e627ae49": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x32b484581fc5606de9c1e43af4636b6be9bc8b21": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x821dab0565ebf5b327f51db06223fdcfe01acf16": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf68a281980f8c13828e84e147e3822381d6e5b1b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe40ecff63ec661d218a86c048186ac83389a9770": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9703676286b93c2eca71ca96e8757104519a69c2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb8ef617fd5d960e61e56c50d2971697300b32864": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xaf0dbca26c6b6ece765dc74d6ca39272369f69ebfbbd36ccd342f7705465a2a9:0",
+        "condition_id": "0xaf0dbca26c6b6ece765dc74d6ca39272369f69ebfbbd36ccd342f7705465a2a9",
+        "title": "Washington Nationals vs. Detroit Tigers",
+        "outcome": "Washington Nationals",
+        "outcome_index": 0,
+        "whale_count": 11,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0xcd84d7f9262516865553555751609fb6f52abec6",
+          "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
+          "0x4bff30af91642dc7d2b19a8664378fe55c45fc26",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x1610db79f753a80207e1d66716be9e91e627ae49",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16"
+        ],
+        "ranks": [
+          1,
+          2,
+          3,
+          6,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "total_value_usd": 1013313.94,
+        "score": 63.5348,
+        "category": "MLB",
+        "end_date": "2026-09-30",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0xaf0dbca26c6b6ece765dc74d6ca39272369f69ebfbbd36ccd342f7705465a2a9:1",
+        "condition_id": "0xaf0dbca26c6b6ece765dc74d6ca39272369f69ebfbbd36ccd342f7705465a2a9",
+        "title": "Washington Nationals vs. Detroit Tigers",
+        "outcome": "Detroit Tigers",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0xcd84d7f9262516865553555751609fb6f52abec6",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
+        ],
+        "ranks": [
+          2,
+          3,
+          6,
+          12
+        ],
+        "total_value_usd": 73737.09,
+        "score": 21.249,
+        "category": "MLB",
+        "end_date": "2026-09-30",
+        "entry_price": 0.0435
+      },
+      {
+        "signal_key": "0x7c0742db2ce035582fcd27373cf62ccc300f2fa2d7ad7fe7d4654f12bbc7b6da:1",
+        "condition_id": "0x7c0742db2ce035582fcd27373cf62ccc300f2fa2d7ad7fe7d4654f12bbc7b6da",
+        "title": "Tampa Bay Rays vs. New York Yankees",
+        "outcome": "New York Yankees",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21"
+        ],
+        "ranks": [
+          2,
+          11,
+          12,
+          14
+        ],
+        "total_value_usd": 20748.12,
+        "score": 12.9713,
+        "category": "MLB",
+        "end_date": "2026-09-30",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x9b22f5e6eacebe7ca25c0ac6e5a4d3f3c364532e05481957442c89dbb5f8465f:1",
+        "condition_id": "0x9b22f5e6eacebe7ca25c0ac6e5a4d3f3c364532e05481957442c89dbb5f8465f",
+        "title": "Toronto Blue Jays vs. Baltimore Orioles",
+        "outcome": "Baltimore Orioles",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0xcd84d7f9262516865553555751609fb6f52abec6",
+          "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21"
+        ],
+        "ranks": [
+          6,
+          8,
+          11,
+          14
+        ],
+        "total_value_usd": 47627.98,
+        "score": 8.5578,
+        "category": "MLB",
+        "end_date": "2026-09-30",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x9b22f5e6eacebe7ca25c0ac6e5a4d3f3c364532e05481957442c89dbb5f8465f:0",
+        "condition_id": "0x9b22f5e6eacebe7ca25c0ac6e5a4d3f3c364532e05481957442c89dbb5f8465f",
+        "title": "Toronto Blue Jays vs. Baltimore Orioles",
+        "outcome": "Toronto Blue Jays",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xcd84d7f9262516865553555751609fb6f52abec6",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xb8ef617fd5d960e61e56c50d2971697300b32864"
+        ],
+        "ranks": [
+          6,
+          11,
+          12,
+          20
+        ],
+        "total_value_usd": 28658.94,
+        "score": 7.021,
+        "category": "MLB",
+        "end_date": "2026-09-30",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x4e4f77e7dbf4cab666e9a1943674d7ae66348e862df03ea6f44b11eb95731928:0",
+        "condition_id": "0x4e4f77e7dbf4cab666e9a1943674d7ae66348e862df03ea6f44b11eb95731928",
+        "title": "Will the Republican Party control the House after the 2026 Midterm elections?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x9703676286b93c2eca71ca96e8757104519a69c2"
+        ],
+        "ranks": [
+          11,
+          12,
+          18
+        ],
+        "total_value_usd": 13826.9,
+        "score": 3.8342,
+        "category": "Parent For Derivative",
+        "end_date": "2027-01-05",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x14f1aea058db7b58c21f23c2fa7ae057f87204958d43f9026cd4c36d18ebf954:0",
+        "condition_id": "0x14f1aea058db7b58c21f23c2fa7ae057f87204958d43f9026cd4c36d18ebf954",
+        "title": "St. Tropez: Titouan Droguet vs Borna Gojo",
+        "outcome": "Titouan Droguet",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+        ],
+        "ranks": [
+          14,
+          15,
+          19
+        ],
+        "total_value_usd": 57690.49,
+        "score": 3.6591,
+        "category": "Tennis",
+        "end_date": "2026-09-30",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x2bb0415b37f6a6886fb0eb36fc0fa1033ba19f41959fe3ab7c9f4b147b1a8abb:1",
+        "condition_id": "0x2bb0415b37f6a6886fb0eb36fc0fa1033ba19f41959fe3ab7c9f4b147b1a8abb",
+        "title": "Buenos Aires 2: Murkel Dellien vs Juan Pablo Varillas",
+        "outcome": "Juan Pablo Varillas",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+        ],
+        "ranks": [
+          14,
+          15,
+          19
+        ],
+        "total_value_usd": 32984.07,
+        "score": 3.4725,
+        "category": "Tennis",
+        "end_date": "2026-09-30",
+        "entry_price": 0.0445
+      }
+    ]
   }
 ]
