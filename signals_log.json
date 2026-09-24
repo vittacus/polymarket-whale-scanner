@@ -364447,5 +364447,274 @@
         "entry_price": 0.0445
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-24T23:27:02+00:00",
+    "whale_timeframes": {
+      "0xe6ca6ebbec97e8a46ff3dbdb2a99d46254fbbff4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd84d7f9262516865553555751609fb6f52abec6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1e52bbdf389526f57abc62641d518868f4c5eb43": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7c37b52eb226bcb9411375ec48b0169663fb6aeb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x16bb9951a36fce71e2ef57890b786145e0ba8492": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xec981ed70ae69c5cbcac08c1ba063e734f6bafcd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7e5e420a5cde8a322f3b5b93a12a164827f47315": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x40047c2a7f97b6849ec2a665425c171dc4b6c40b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6d557fa6a5b26f8fe5f6390e2b5f89b812a91a65": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0346afae2603313d2bbee96b628536c8cbe352a5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x676c1bb692c76b57b06f1b93817515acfa5ce139": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb4f978be63cdf75554b0b46a4262a6db597cc9a7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xcb169452dc1771cc194ad61634b529c6df933c76b99fd28782f1c77f71f94955:1",
+        "condition_id": "0xcb169452dc1771cc194ad61634b529c6df933c76b99fd28782f1c77f71f94955",
+        "title": "Milwaukee Brewers vs. Philadelphia Phillies",
+        "outcome": "Philadelphia Phillies",
+        "outcome_index": 1,
+        "whale_count": 5,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0xec981ed70ae69c5cbcac08c1ba063e734f6bafcd",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf"
+        ],
+        "ranks": [
+          2,
+          4,
+          8,
+          12,
+          15
+        ],
+        "total_value_usd": 141421.44,
+        "score": 21.273,
+        "category": "MLB",
+        "end_date": "2026-10-01",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0xe3fe15e68d6d4d502228abaee82e7762adb7529c8543b81fc5eb524150d24f6f:0",
+        "condition_id": "0xe3fe15e68d6d4d502228abaee82e7762adb7529c8543b81fc5eb524150d24f6f",
+        "title": "Oregon State vs. UTEP: O/U 55.5",
+        "outcome": "Over",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5"
+        ],
+        "ranks": [
+          2,
+          4,
+          8
+        ],
+        "total_value_usd": 37783.01,
+        "score": 16.1388,
+        "category": "CFB (All)",
+        "end_date": "2026-09-27",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0xaaba03e832b1e2c7a65fd0e292898b69bc70b5241f6c95850d96b9d758661733:0",
+        "condition_id": "0xaaba03e832b1e2c7a65fd0e292898b69bc70b5241f6c95850d96b9d758661733",
+        "title": "Cleveland Guardians vs. Boston Red Sox",
+        "outcome": "Cleveland Guardians",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf"
+        ],
+        "ranks": [
+          2,
+          4,
+          15
+        ],
+        "total_value_usd": 18372.93,
+        "score": 14.0325,
+        "category": "MLB",
+        "end_date": "2026-10-01",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0xdff427fce82c22dca74075108b8d6dbe6c97395225b60e20f10ab782e221727c:0",
+        "condition_id": "0xdff427fce82c22dca74075108b8d6dbe6c97395225b60e20f10ab782e221727c",
+        "title": "Spread: Chiefs (-10.5)",
+        "outcome": "Chiefs",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
+        ],
+        "ranks": [
+          2,
+          4,
+          7
+        ],
+        "total_value_usd": 7837.44,
+        "score": 14.0106,
+        "category": "NFL (All)",
+        "end_date": "2026-09-27",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0xa69826a08aefbfb213677dc6c9e1203c53aef78aaf43a3728bce502b4e37d6ee:0",
+        "condition_id": "0xa69826a08aefbfb213677dc6c9e1203c53aef78aaf43a3728bce502b4e37d6ee",
+        "title": "Cincinnati Reds vs. Atlanta Braves",
+        "outcome": "Cincinnati Reds",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x16bb9951a36fce71e2ef57890b786145e0ba8492"
+        ],
+        "ranks": [
+          2,
+          8,
+          11
+        ],
+        "total_value_usd": 23659.14,
+        "score": 12.618,
+        "category": "MLB",
+        "end_date": "2026-10-01",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0xa052f3e8ac2920632993037fc14d0393727c8c678d5c588223067179bd79c7a9:1",
+        "condition_id": "0xa052f3e8ac2920632993037fc14d0393727c8c678d5c588223067179bd79c7a9",
+        "title": "Spread: Hawai'i (-3.5)",
+        "outcome": "Wyoming",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf"
+        ],
+        "ranks": [
+          4,
+          8,
+          15
+        ],
+        "total_value_usd": 30212.42,
+        "score": 7.9734,
+        "category": "CFB (All)",
+        "end_date": "2026-09-26",
+        "entry_price": 0.0445
+      }
+    ]
   }
 ]

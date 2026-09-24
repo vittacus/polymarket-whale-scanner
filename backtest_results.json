@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-24T20:49:29+00:00",
-  "total_signals": 1314,
-  "total_resolved": 1244,
-  "total_correct": 781,
+  "generated_at": "2026-09-24T23:38:35+00:00",
+  "total_signals": 1317,
+  "total_resolved": 1247,
+  "total_correct": 783,
   "overall_hit_rate": 62.8,
   "by_tier": {
     "Strong": {
-      "total": 571,
-      "resolved": 545,
-      "correct": 345,
+      "total": 574,
+      "resolved": 548,
+      "correct": 347,
       "hit_rate": 63.3
     },
     "Moderate": {
@@ -22307,10 +22307,10 @@
       "total_value_usd": 162514.89,
       "entry_price": 0.0445,
       "end_date": "2026-10-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Chicago White Sox",
+      "resolved_date": "2026-10-01"
     },
     {
       "signal_key": "0x297818ec9284265fd6bd9322f8a2cabe6820d977a56a5f30898ec68ac6f5d543:1",
@@ -22324,10 +22324,10 @@
       "total_value_usd": 68308.95,
       "entry_price": 0.0445,
       "end_date": "2026-10-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Chicago Cubs",
+      "resolved_date": "2026-10-01"
     },
     {
       "signal_key": "0x297818ec9284265fd6bd9322f8a2cabe6820d977a56a5f30898ec68ac6f5d543:0",
@@ -22341,10 +22341,10 @@
       "total_value_usd": 4050.39,
       "entry_price": 0.0445,
       "end_date": "2026-10-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Chicago Cubs",
+      "resolved_date": "2026-10-01"
     },
     {
       "signal_key": "0xa052f3e8ac2920632993037fc14d0393727c8c678d5c588223067179bd79c7a9:1",
@@ -22358,6 +22358,57 @@
       "total_value_usd": 30212.42,
       "entry_price": 0.0445,
       "end_date": "2026-09-26",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xcb169452dc1771cc194ad61634b529c6df933c76b99fd28782f1c77f71f94955:1",
+      "condition_id": "0xcb169452dc1771cc194ad61634b529c6df933c76b99fd28782f1c77f71f94955",
+      "title": "Milwaukee Brewers vs. Philadelphia Phillies",
+      "category": "MLB",
+      "whale_direction": "Philadelphia Phillies",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 21.273,
+      "total_value_usd": 141421.44,
+      "entry_price": 0.0445,
+      "end_date": "2026-10-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xaaba03e832b1e2c7a65fd0e292898b69bc70b5241f6c95850d96b9d758661733:0",
+      "condition_id": "0xaaba03e832b1e2c7a65fd0e292898b69bc70b5241f6c95850d96b9d758661733",
+      "title": "Cleveland Guardians vs. Boston Red Sox",
+      "category": "MLB",
+      "whale_direction": "Cleveland Guardians",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 14.0325,
+      "total_value_usd": 18372.93,
+      "entry_price": 0.0445,
+      "end_date": "2026-10-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xdff427fce82c22dca74075108b8d6dbe6c97395225b60e20f10ab782e221727c:0",
+      "condition_id": "0xdff427fce82c22dca74075108b8d6dbe6c97395225b60e20f10ab782e221727c",
+      "title": "Spread: Chiefs (-10.5)",
+      "category": "NFL (All)",
+      "whale_direction": "Chiefs",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 14.0106,
+      "total_value_usd": 7837.44,
+      "entry_price": 0.0445,
+      "end_date": "2026-09-27",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
