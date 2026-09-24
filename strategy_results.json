@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-24T17:36:18+00:00",
-  "total_evaluated": 1309,
-  "total_pending": 66,
+  "generated_at": "2026-09-24T20:49:29+00:00",
+  "total_evaluated": 1314,
+  "total_pending": 70,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1309,
+      "signals_evaluated": 1314,
       "correct": 781,
-      "wrong": 462,
-      "pending": 66,
+      "wrong": 463,
+      "pending": 70,
       "win_rate": 62.8,
       "signals": [
         {
@@ -18319,11 +18319,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "St. Louis Cardinals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Pittsburgh Pirates",
+          "resolved_date": "2026-10-01",
           "end_date": "2026-10-01",
           "total_value_usd": 45131.08,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xa69826a08aefbfb213677dc6c9e1203c53aef78aaf43a3728bce502b4e37d6ee:0",
@@ -18337,6 +18337,76 @@
           "resolved_date": null,
           "end_date": "2026-10-01",
           "total_value_usd": 16712.24,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe3fe15e68d6d4d502228abaee82e7762adb7529c8543b81fc5eb524150d24f6f:0",
+          "condition_id": "0xe3fe15e68d6d4d502228abaee82e7762adb7529c8543b81fc5eb524150d24f6f",
+          "title": "Oregon State vs. UTEP: O/U 55.5",
+          "category": "CFB (All)",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Over",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-27",
+          "total_value_usd": 37049.36,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x185a60d0897ce533cc31020f8bacc0e2c44d8ed4863ef97e200aa51ba2b7d4b1:0",
+          "condition_id": "0x185a60d0897ce533cc31020f8bacc0e2c44d8ed4863ef97e200aa51ba2b7d4b1",
+          "title": "Chicago White Sox vs. Kansas City Royals",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Chicago White Sox",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-01",
+          "total_value_usd": 162514.89,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x297818ec9284265fd6bd9322f8a2cabe6820d977a56a5f30898ec68ac6f5d543:1",
+          "condition_id": "0x297818ec9284265fd6bd9322f8a2cabe6820d977a56a5f30898ec68ac6f5d543",
+          "title": "Miami Marlins vs. Chicago Cubs",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Chicago Cubs",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-01",
+          "total_value_usd": 68308.95,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x297818ec9284265fd6bd9322f8a2cabe6820d977a56a5f30898ec68ac6f5d543:0",
+          "condition_id": "0x297818ec9284265fd6bd9322f8a2cabe6820d977a56a5f30898ec68ac6f5d543",
+          "title": "Miami Marlins vs. Chicago Cubs",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Miami Marlins",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-01",
+          "total_value_usd": 4050.39,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xa052f3e8ac2920632993037fc14d0393727c8c678d5c588223067179bd79c7a9:1",
+          "condition_id": "0xa052f3e8ac2920632993037fc14d0393727c8c678d5c588223067179bd79c7a9",
+          "title": "Spread: Hawai'i (-3.5)",
+          "category": "CFB (All)",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Wyoming",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-26",
+          "total_value_usd": 30212.42,
           "result": "pending"
         }
       ]
@@ -18345,11 +18415,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 639,
+      "signals_evaluated": 644,
       "correct": 376,
-      "wrong": 220,
-      "pending": 43,
-      "win_rate": 63.1,
+      "wrong": 221,
+      "pending": 47,
+      "win_rate": 63.0,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -27277,11 +27347,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "St. Louis Cardinals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Pittsburgh Pirates",
+          "resolved_date": "2026-10-01",
           "end_date": "2026-10-01",
           "total_value_usd": 45131.08,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xa69826a08aefbfb213677dc6c9e1203c53aef78aaf43a3728bce502b4e37d6ee:0",
@@ -27295,6 +27365,76 @@
           "resolved_date": null,
           "end_date": "2026-10-01",
           "total_value_usd": 16712.24,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe3fe15e68d6d4d502228abaee82e7762adb7529c8543b81fc5eb524150d24f6f:0",
+          "condition_id": "0xe3fe15e68d6d4d502228abaee82e7762adb7529c8543b81fc5eb524150d24f6f",
+          "title": "Oregon State vs. UTEP: O/U 55.5",
+          "category": "CFB (All)",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Over",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-27",
+          "total_value_usd": 37049.36,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x185a60d0897ce533cc31020f8bacc0e2c44d8ed4863ef97e200aa51ba2b7d4b1:0",
+          "condition_id": "0x185a60d0897ce533cc31020f8bacc0e2c44d8ed4863ef97e200aa51ba2b7d4b1",
+          "title": "Chicago White Sox vs. Kansas City Royals",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Chicago White Sox",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-01",
+          "total_value_usd": 162514.89,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x297818ec9284265fd6bd9322f8a2cabe6820d977a56a5f30898ec68ac6f5d543:1",
+          "condition_id": "0x297818ec9284265fd6bd9322f8a2cabe6820d977a56a5f30898ec68ac6f5d543",
+          "title": "Miami Marlins vs. Chicago Cubs",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Chicago Cubs",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-01",
+          "total_value_usd": 68308.95,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x297818ec9284265fd6bd9322f8a2cabe6820d977a56a5f30898ec68ac6f5d543:0",
+          "condition_id": "0x297818ec9284265fd6bd9322f8a2cabe6820d977a56a5f30898ec68ac6f5d543",
+          "title": "Miami Marlins vs. Chicago Cubs",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Miami Marlins",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-01",
+          "total_value_usd": 4050.39,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xa052f3e8ac2920632993037fc14d0393727c8c678d5c588223067179bd79c7a9:1",
+          "condition_id": "0xa052f3e8ac2920632993037fc14d0393727c8c678d5c588223067179bd79c7a9",
+          "title": "Spread: Hawai'i (-3.5)",
+          "category": "CFB (All)",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Wyoming",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-26",
+          "total_value_usd": 30212.42,
           "result": "pending"
         }
       ]
@@ -27303,11 +27443,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 639,
-      "correct": 220,
+      "signals_evaluated": 644,
+      "correct": 221,
       "wrong": 376,
-      "pending": 43,
-      "win_rate": 36.9,
+      "pending": 47,
+      "win_rate": 37.0,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -36235,11 +36375,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "St. Louis Cardinals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Pittsburgh Pirates",
+          "resolved_date": "2026-10-01",
           "end_date": "2026-10-01",
           "total_value_usd": 45131.08,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xa69826a08aefbfb213677dc6c9e1203c53aef78aaf43a3728bce502b4e37d6ee:0",
@@ -36253,6 +36393,76 @@
           "resolved_date": null,
           "end_date": "2026-10-01",
           "total_value_usd": 16712.24,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe3fe15e68d6d4d502228abaee82e7762adb7529c8543b81fc5eb524150d24f6f:0",
+          "condition_id": "0xe3fe15e68d6d4d502228abaee82e7762adb7529c8543b81fc5eb524150d24f6f",
+          "title": "Oregon State vs. UTEP: O/U 55.5",
+          "category": "CFB (All)",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Over",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-27",
+          "total_value_usd": 37049.36,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x185a60d0897ce533cc31020f8bacc0e2c44d8ed4863ef97e200aa51ba2b7d4b1:0",
+          "condition_id": "0x185a60d0897ce533cc31020f8bacc0e2c44d8ed4863ef97e200aa51ba2b7d4b1",
+          "title": "Chicago White Sox vs. Kansas City Royals",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Chicago White Sox",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-01",
+          "total_value_usd": 162514.89,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x297818ec9284265fd6bd9322f8a2cabe6820d977a56a5f30898ec68ac6f5d543:1",
+          "condition_id": "0x297818ec9284265fd6bd9322f8a2cabe6820d977a56a5f30898ec68ac6f5d543",
+          "title": "Miami Marlins vs. Chicago Cubs",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Chicago Cubs",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-01",
+          "total_value_usd": 68308.95,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x297818ec9284265fd6bd9322f8a2cabe6820d977a56a5f30898ec68ac6f5d543:0",
+          "condition_id": "0x297818ec9284265fd6bd9322f8a2cabe6820d977a56a5f30898ec68ac6f5d543",
+          "title": "Miami Marlins vs. Chicago Cubs",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0445,
+          "whale_direction": "Miami Marlins",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-01",
+          "total_value_usd": 4050.39,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xa052f3e8ac2920632993037fc14d0393727c8c678d5c588223067179bd79c7a9:1",
+          "condition_id": "0xa052f3e8ac2920632993037fc14d0393727c8c678d5c588223067179bd79c7a9",
+          "title": "Spread: Hawai'i (-3.5)",
+          "category": "CFB (All)",
+          "tier": "Moderate",
+          "entry_price": 0.0445,
+          "whale_direction": "Wyoming",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-26",
+          "total_value_usd": 30212.42,
           "result": "pending"
         }
       ]
