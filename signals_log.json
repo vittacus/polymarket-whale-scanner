@@ -364024,5 +364024,184 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-09-24T17:25:16+00:00",
+    "whale_timeframes": {
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd84d7f9262516865553555751609fb6f52abec6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1610db79f753a80207e1d66716be9e91e627ae49": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1e52bbdf389526f57abc62641d518868f4c5eb43": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7c37b52eb226bcb9411375ec48b0169663fb6aeb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5020e94877430aca70a641a807b4d2007c249f9f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xec981ed70ae69c5cbcac08c1ba063e734f6bafcd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x16bb9951a36fce71e2ef57890b786145e0ba8492": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x32b484581fc5606de9c1e43af4636b6be9bc8b21": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x40047c2a7f97b6849ec2a665425c171dc4b6c40b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6d557fa6a5b26f8fe5f6390e2b5f89b812a91a65": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb4f978be63cdf75554b0b46a4262a6db597cc9a7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x6d8649e086c8b94f81bf6e94afdb26eceee05991a22b4f8249b75ca9fad012e0:0",
+        "condition_id": "0x6d8649e086c8b94f81bf6e94afdb26eceee05991a22b4f8249b75ca9fad012e0",
+        "title": "St. Louis Cardinals vs. Pittsburgh Pirates",
+        "outcome": "St. Louis Cardinals",
+        "outcome_index": 0,
+        "whale_count": 6,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xcd84d7f9262516865553555751609fb6f52abec6",
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0x5020e94877430aca70a641a807b4d2007c249f9f",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
+        ],
+        "ranks": [
+          1,
+          2,
+          5,
+          10,
+          16,
+          18
+        ],
+        "total_value_usd": 45131.08,
+        "score": 35.9738,
+        "category": "MLB",
+        "end_date": "2026-10-01",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0xa69826a08aefbfb213677dc6c9e1203c53aef78aaf43a3728bce502b4e37d6ee:0",
+        "condition_id": "0xa69826a08aefbfb213677dc6c9e1203c53aef78aaf43a3728bce502b4e37d6ee",
+        "title": "Cincinnati Reds vs. Atlanta Braves",
+        "outcome": "Cincinnati Reds",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21"
+        ],
+        "ranks": [
+          1,
+          12,
+          16
+        ],
+        "total_value_usd": 16712.24,
+        "score": 19.4986,
+        "category": "MLB",
+        "end_date": "2026-10-01",
+        "entry_price": 0.0445
+      }
+    ]
   }
 ]
