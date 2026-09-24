@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-23T23:54:36+00:00",
-  "total_signals": 1302,
-  "total_resolved": 1224,
-  "total_correct": 772,
-  "overall_hit_rate": 63.1,
+  "generated_at": "2026-09-24T01:50:32+00:00",
+  "total_signals": 1306,
+  "total_resolved": 1228,
+  "total_correct": 774,
+  "overall_hit_rate": 63.0,
   "by_tier": {
     "Strong": {
-      "total": 561,
-      "resolved": 533,
-      "correct": 340,
-      "hit_rate": 63.8
+      "total": 564,
+      "resolved": 536,
+      "correct": 341,
+      "hit_rate": 63.6
     },
     "Moderate": {
-      "total": 670,
-      "resolved": 624,
-      "correct": 393,
+      "total": 671,
+      "resolved": 625,
+      "correct": 394,
       "hit_rate": 63.0
     },
     "Weak": {
@@ -21848,10 +21848,10 @@
       "total_value_usd": 23803.9,
       "entry_price": 0.0445,
       "end_date": "2026-09-30",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Baltimore Orioles",
+      "resolved_date": "2026-09-30"
     },
     {
       "signal_key": "0x0579363b837c00f668cd3bc83814085f1488784744c6278cd1ee5f020a295b67:1",
@@ -21916,10 +21916,10 @@
       "total_value_usd": 12634.07,
       "entry_price": 0.0445,
       "end_date": "2026-09-30",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Baltimore Orioles",
+      "resolved_date": "2026-09-30"
     },
     {
       "signal_key": "0x057bdb7ed25fe981d389ea6c8222f173cc92db7c5a7aefe6d08fc438a13a2383:0",
@@ -21967,10 +21967,10 @@
       "total_value_usd": 57889.68,
       "entry_price": 0.0445,
       "end_date": "2026-09-30",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Milwaukee Brewers",
+      "resolved_date": "2026-09-30"
     },
     {
       "signal_key": "0xc7a7dba39f5cb96cfdd06bf99ae1de80eed82dc305fcb31c4601ad8e079c05ac:0",
@@ -22001,10 +22001,10 @@
       "total_value_usd": 14944.92,
       "entry_price": 0.0445,
       "end_date": "2026-09-30",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Milwaukee Brewers",
+      "resolved_date": "2026-09-30"
     },
     {
       "signal_key": "0x7c0742db2ce035582fcd27373cf62ccc300f2fa2d7ad7fe7d4654f12bbc7b6da:0",
@@ -22154,6 +22154,74 @@
       "total_value_usd": 31923.59,
       "entry_price": 0.0445,
       "end_date": "2026-10-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xd9fb1184af0064e5e34b129f5b79afa5a17b7e32f2953ab05efed82315fee6d4:1",
+      "condition_id": "0xd9fb1184af0064e5e34b129f5b79afa5a17b7e32f2953ab05efed82315fee6d4",
+      "title": "Will China invade Taiwan by end of 2026?",
+      "category": "World",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 12.9562,
+      "total_value_usd": 714689.56,
+      "entry_price": 0.0445,
+      "end_date": "2027-01-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xa467b14d51f01b957109d9cbb1d6c124fab2a089d52ed8f471d23c2812e743b7:1",
+      "condition_id": "0xa467b14d51f01b957109d9cbb1d6c124fab2a089d52ed8f471d23c2812e743b7",
+      "title": "Xi Jinping out before 2027?",
+      "category": "HFC",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 10.8943,
+      "total_value_usd": 467158.54,
+      "entry_price": 0.0445,
+      "end_date": "2027-01-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x4c80df6f557bb0b9de08c0301ebdce500dd9bdc58400d9269fb8fab1709ed584:1",
+      "condition_id": "0x4c80df6f557bb0b9de08c0301ebdce500dd9bdc58400d9269fb8fab1709ed584",
+      "title": "China x Taiwan military clash before 2027?",
+      "category": "HFC",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 10.4262,
+      "total_value_usd": 115844.01,
+      "entry_price": 0.0445,
+      "end_date": "2027-01-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xc7a7dba39f5cb96cfdd06bf99ae1de80eed82dc305fcb31c4601ad8e079c05ac:1",
+      "condition_id": "0xc7a7dba39f5cb96cfdd06bf99ae1de80eed82dc305fcb31c4601ad8e079c05ac",
+      "title": "Cincinnati Reds vs. Atlanta Braves",
+      "category": "MLB",
+      "whale_direction": "Atlanta Braves",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 5.5553,
+      "total_value_usd": 73419.21,
+      "entry_price": 0.0445,
+      "end_date": "2026-09-30",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

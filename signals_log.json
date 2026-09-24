@@ -363412,5 +363412,341 @@
         "entry_price": 0.0445
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-24T01:39:26+00:00",
+    "whale_timeframes": {
+      "0x5e9458202b5817a72cf81105ec8a30e6f3705ba1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x40047c2a7f97b6849ec2a665425c171dc4b6c40b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6d557fa6a5b26f8fe5f6390e2b5f89b812a91a65": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x137060efbd6e6004b50f14b8ff8108254db22cfd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1e52bbdf389526f57abc62641d518868f4c5eb43": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc97b0b2a2547bb3ed57167092ef8a6e816c347e5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x69aa9fa621403e3a121b29ad77d32ba9eb5e8847": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb4f978be63cdf75554b0b46a4262a6db597cc9a7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfaf98181c44636998a194aa7660bcae1b977f4c4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xec981ed70ae69c5cbcac08c1ba063e734f6bafcd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2ada299aaaf27c806424ec6dcb0c169d1a9c2f28": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e04e12c3376a6a68f8cdffc8b972df3bd9e08a2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x58b3380f71bd6c706dd398a5e60bde55fa3a653c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfbc0b5bac35726f9d57fa1fc4b2ce4ef840babb3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0ead7a48afa30eba6413b8d5717569e514019572": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd84d7f9262516865553555751609fb6f52abec6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x057bdb7ed25fe981d389ea6c8222f173cc92db7c5a7aefe6d08fc438a13a2383:0",
+        "condition_id": "0x057bdb7ed25fe981d389ea6c8222f173cc92db7c5a7aefe6d08fc438a13a2383",
+        "title": "Houston Astros vs. Seattle Mariners",
+        "outcome": "Houston Astros",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xec981ed70ae69c5cbcac08c1ba063e734f6bafcd",
+          "0xcd84d7f9262516865553555751609fb6f52abec6"
+        ],
+        "ranks": [
+          2,
+          6,
+          12,
+          20
+        ],
+        "total_value_usd": 37320.92,
+        "score": 14.7383,
+        "category": "MLB",
+        "end_date": "2026-10-01",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x7c0742db2ce035582fcd27373cf62ccc300f2fa2d7ad7fe7d4654f12bbc7b6da:1",
+        "condition_id": "0x7c0742db2ce035582fcd27373cf62ccc300f2fa2d7ad7fe7d4654f12bbc7b6da",
+        "title": "Tampa Bay Rays vs. New York Yankees",
+        "outcome": "New York Yankees",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd"
+        ],
+        "ranks": [
+          2,
+          6,
+          18
+        ],
+        "total_value_usd": 106281.73,
+        "score": 14.6281,
+        "category": "MLB",
+        "end_date": "2026-09-30",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0xd9fb1184af0064e5e34b129f5b79afa5a17b7e32f2953ab05efed82315fee6d4:1",
+        "condition_id": "0xd9fb1184af0064e5e34b129f5b79afa5a17b7e32f2953ab05efed82315fee6d4",
+        "title": "Will China invade Taiwan by end of 2026?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x40047c2a7f97b6849ec2a665425c171dc4b6c40b",
+          "0xc97b0b2a2547bb3ed57167092ef8a6e816c347e5",
+          "0xfaf98181c44636998a194aa7660bcae1b977f4c4"
+        ],
+        "ranks": [
+          3,
+          8,
+          11
+        ],
+        "total_value_usd": 714689.56,
+        "score": 12.9562,
+        "category": "World",
+        "end_date": "2027-01-01",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0xa467b14d51f01b957109d9cbb1d6c124fab2a089d52ed8f471d23c2812e743b7:1",
+        "condition_id": "0xa467b14d51f01b957109d9cbb1d6c124fab2a089d52ed8f471d23c2812e743b7",
+        "title": "Xi Jinping out before 2027?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x40047c2a7f97b6849ec2a665425c171dc4b6c40b",
+          "0xfaf98181c44636998a194aa7660bcae1b977f4c4",
+          "0x0ead7a48afa30eba6413b8d5717569e514019572"
+        ],
+        "ranks": [
+          3,
+          11,
+          19
+        ],
+        "total_value_usd": 467158.54,
+        "score": 10.8943,
+        "category": "HFC",
+        "end_date": "2027-01-01",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x4c80df6f557bb0b9de08c0301ebdce500dd9bdc58400d9269fb8fab1709ed584:1",
+        "condition_id": "0x4c80df6f557bb0b9de08c0301ebdce500dd9bdc58400d9269fb8fab1709ed584",
+        "title": "China x Taiwan military clash before 2027?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x40047c2a7f97b6849ec2a665425c171dc4b6c40b",
+          "0xc97b0b2a2547bb3ed57167092ef8a6e816c347e5",
+          "0x0ead7a48afa30eba6413b8d5717569e514019572"
+        ],
+        "ranks": [
+          3,
+          8,
+          19
+        ],
+        "total_value_usd": 115844.01,
+        "score": 10.4262,
+        "category": "HFC",
+        "end_date": "2027-01-01",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x58f945a99551a6ea5231adcdd1c80ee57d8b0c4c62914ac4739fd78d0e3e0255:1",
+        "condition_id": "0x58f945a99551a6ea5231adcdd1c80ee57d8b0c4c62914ac4739fd78d0e3e0255",
+        "title": "New York Mets vs. Texas Rangers",
+        "outcome": "Texas Rangers",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xb4f978be63cdf75554b0b46a4262a6db597cc9a7",
+          "0xcd84d7f9262516865553555751609fb6f52abec6"
+        ],
+        "ranks": [
+          6,
+          10,
+          20
+        ],
+        "total_value_usd": 31613.12,
+        "score": 5.7419,
+        "category": "MLB",
+        "end_date": "2026-10-01",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x58f945a99551a6ea5231adcdd1c80ee57d8b0c4c62914ac4739fd78d0e3e0255:0",
+        "condition_id": "0x58f945a99551a6ea5231adcdd1c80ee57d8b0c4c62914ac4739fd78d0e3e0255",
+        "title": "New York Mets vs. Texas Rangers",
+        "outcome": "New York Mets",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0xcd84d7f9262516865553555751609fb6f52abec6"
+        ],
+        "ranks": [
+          6,
+          15,
+          20
+        ],
+        "total_value_usd": 89639.32,
+        "score": 5.6543,
+        "category": "MLB",
+        "end_date": "2026-10-01",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0xc7a7dba39f5cb96cfdd06bf99ae1de80eed82dc305fcb31c4601ad8e079c05ac:1",
+        "condition_id": "0xc7a7dba39f5cb96cfdd06bf99ae1de80eed82dc305fcb31c4601ad8e079c05ac",
+        "title": "Cincinnati Reds vs. Atlanta Braves",
+        "outcome": "Atlanta Braves",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0xcd84d7f9262516865553555751609fb6f52abec6"
+        ],
+        "ranks": [
+          6,
+          15,
+          20
+        ],
+        "total_value_usd": 73419.21,
+        "score": 5.5553,
+        "category": "MLB",
+        "end_date": "2026-09-30",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0x98cccc1bac44ec013e7e5ec132d4665ee8195749b883f12f1d77fd7698b12b30:0",
+        "condition_id": "0x98cccc1bac44ec013e7e5ec132d4665ee8195749b883f12f1d77fd7698b12b30",
+        "title": "Chicago White Sox vs. Kansas City Royals",
+        "outcome": "Chicago White Sox",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0xcd84d7f9262516865553555751609fb6f52abec6"
+        ],
+        "ranks": [
+          6,
+          15,
+          20
+        ],
+        "total_value_usd": 26255.17,
+        "score": 5.0454,
+        "category": "MLB",
+        "end_date": "2026-09-30",
+        "entry_price": 0.0445
+      }
+    ]
   }
 ]
