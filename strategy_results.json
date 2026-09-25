@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-25T06:49:26+00:00",
-  "total_evaluated": 1330,
-  "total_pending": 75,
+  "generated_at": "2026-09-25T12:25:05+00:00",
+  "total_evaluated": 1334,
+  "total_pending": 79,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1330,
+      "signals_evaluated": 1334,
       "correct": 786,
       "wrong": 469,
-      "pending": 75,
+      "pending": 79,
       "win_rate": 62.6,
       "signals": [
         {
@@ -18632,6 +18632,62 @@
           "end_date": "2026-09-27",
           "total_value_usd": 5876.43,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xfb7723570e5f574e9567d5635bba7b0c61c49fbfc36d8e872cff6617c5db4b25:0",
+          "condition_id": "0xfb7723570e5f574e9567d5635bba7b0c61c49fbfc36d8e872cff6617c5db4b25",
+          "title": "Korea Open: Katie Volynets vs Kimberly Birrell",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Katie Volynets",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-02",
+          "total_value_usd": 8327.29,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xfb7723570e5f574e9567d5635bba7b0c61c49fbfc36d8e872cff6617c5db4b25:1",
+          "condition_id": "0xfb7723570e5f574e9567d5635bba7b0c61c49fbfc36d8e872cff6617c5db4b25",
+          "title": "Korea Open: Katie Volynets vs Kimberly Birrell",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Kimberly Birrell",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-02",
+          "total_value_usd": 50172.31,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd007ef5d658f3a99ec7a39624bf0c59f0d2b18ccd5cffd61e65e6c7e77304e25:1",
+          "condition_id": "0xd007ef5d658f3a99ec7a39624bf0c59f0d2b18ccd5cffd61e65e6c7e77304e25",
+          "title": "Rams vs. Broncos",
+          "category": "NFL (All)",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Broncos",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-28",
+          "total_value_usd": 20659.5,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x4f3ee9d60b94cd5d9db7b0065791cf6498fb968e5c8ecf8562468084d5430b26:0",
+          "condition_id": "0x4f3ee9d60b94cd5d9db7b0065791cf6498fb968e5c8ecf8562468084d5430b26",
+          "title": "Spread: Jaguars (-2.5)",
+          "category": "NFL (All)",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Jaguars",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-27",
+          "total_value_usd": 32257.17,
+          "result": "pending"
         }
       ]
     },
@@ -18639,10 +18695,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 660,
+      "signals_evaluated": 664,
       "correct": 381,
       "wrong": 227,
-      "pending": 52,
+      "pending": 56,
       "win_rate": 62.7,
       "signals": [
         {
@@ -27884,6 +27940,62 @@
           "end_date": "2026-09-27",
           "total_value_usd": 5876.43,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xfb7723570e5f574e9567d5635bba7b0c61c49fbfc36d8e872cff6617c5db4b25:0",
+          "condition_id": "0xfb7723570e5f574e9567d5635bba7b0c61c49fbfc36d8e872cff6617c5db4b25",
+          "title": "Korea Open: Katie Volynets vs Kimberly Birrell",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Katie Volynets",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-02",
+          "total_value_usd": 8327.29,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xfb7723570e5f574e9567d5635bba7b0c61c49fbfc36d8e872cff6617c5db4b25:1",
+          "condition_id": "0xfb7723570e5f574e9567d5635bba7b0c61c49fbfc36d8e872cff6617c5db4b25",
+          "title": "Korea Open: Katie Volynets vs Kimberly Birrell",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Kimberly Birrell",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-02",
+          "total_value_usd": 50172.31,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd007ef5d658f3a99ec7a39624bf0c59f0d2b18ccd5cffd61e65e6c7e77304e25:1",
+          "condition_id": "0xd007ef5d658f3a99ec7a39624bf0c59f0d2b18ccd5cffd61e65e6c7e77304e25",
+          "title": "Rams vs. Broncos",
+          "category": "NFL (All)",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Broncos",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-28",
+          "total_value_usd": 20659.5,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x4f3ee9d60b94cd5d9db7b0065791cf6498fb968e5c8ecf8562468084d5430b26:0",
+          "condition_id": "0x4f3ee9d60b94cd5d9db7b0065791cf6498fb968e5c8ecf8562468084d5430b26",
+          "title": "Spread: Jaguars (-2.5)",
+          "category": "NFL (All)",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Jaguars",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-27",
+          "total_value_usd": 32257.17,
+          "result": "pending"
         }
       ]
     },
@@ -27891,10 +28003,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 660,
+      "signals_evaluated": 664,
       "correct": 227,
       "wrong": 381,
-      "pending": 52,
+      "pending": 56,
       "win_rate": 37.3,
       "signals": [
         {
@@ -37135,6 +37247,62 @@
           "resolved_date": null,
           "end_date": "2026-09-27",
           "total_value_usd": 5876.43,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xfb7723570e5f574e9567d5635bba7b0c61c49fbfc36d8e872cff6617c5db4b25:0",
+          "condition_id": "0xfb7723570e5f574e9567d5635bba7b0c61c49fbfc36d8e872cff6617c5db4b25",
+          "title": "Korea Open: Katie Volynets vs Kimberly Birrell",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Katie Volynets",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-02",
+          "total_value_usd": 8327.29,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xfb7723570e5f574e9567d5635bba7b0c61c49fbfc36d8e872cff6617c5db4b25:1",
+          "condition_id": "0xfb7723570e5f574e9567d5635bba7b0c61c49fbfc36d8e872cff6617c5db4b25",
+          "title": "Korea Open: Katie Volynets vs Kimberly Birrell",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Kimberly Birrell",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-02",
+          "total_value_usd": 50172.31,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd007ef5d658f3a99ec7a39624bf0c59f0d2b18ccd5cffd61e65e6c7e77304e25:1",
+          "condition_id": "0xd007ef5d658f3a99ec7a39624bf0c59f0d2b18ccd5cffd61e65e6c7e77304e25",
+          "title": "Rams vs. Broncos",
+          "category": "NFL (All)",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Broncos",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-28",
+          "total_value_usd": 20659.5,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x4f3ee9d60b94cd5d9db7b0065791cf6498fb968e5c8ecf8562468084d5430b26:0",
+          "condition_id": "0x4f3ee9d60b94cd5d9db7b0065791cf6498fb968e5c8ecf8562468084d5430b26",
+          "title": "Spread: Jaguars (-2.5)",
+          "category": "NFL (All)",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Jaguars",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-27",
+          "total_value_usd": 32257.17,
           "result": "pending"
         }
       ]
