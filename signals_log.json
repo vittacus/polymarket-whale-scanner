@@ -366275,5 +366275,606 @@
         "entry_price": 0.0425
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-25T20:30:17+00:00",
+    "whale_timeframes": {
+      "0xcbc666209b4c17ea84c03c0dda71b5dab9e4ec62": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbc43c8bfbc4d77c2fc9011adad38ba43b88996d3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa71093cafc0c099b4ccab24c3cb8018d817923c4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x17c4f7e008fe22d69865f73f29329b6e76b92471": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa080dadd87036ad01dbf5e9c254b0c3dbdba234f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x821dab0565ebf5b327f51db06223fdcfe01acf16": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x32b484581fc5606de9c1e43af4636b6be9bc8b21": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1610db79f753a80207e1d66716be9e91e627ae49": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x16bb9951a36fce71e2ef57890b786145e0ba8492": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x9d232fb0b16979c4b3f281d3a53a0441ace232a0b79e1aa0f45fac51e7870be3:1",
+        "condition_id": "0x9d232fb0b16979c4b3f281d3a53a0441ace232a0b79e1aa0f45fac51e7870be3",
+        "title": "Seahawks vs. Commanders: O/U 40.5",
+        "outcome": "Under",
+        "outcome_index": 1,
+        "whale_count": 5,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0xa080dadd87036ad01dbf5e9c254b0c3dbdba234f"
+        ],
+        "ranks": [
+          5,
+          7,
+          8,
+          12,
+          14
+        ],
+        "total_value_usd": 43290.58,
+        "score": 11.6321,
+        "category": "NFL (All)",
+        "end_date": "2026-09-27",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0x522f64ea4548bbed0edf8bbb0b59007c1a55e033b76f06cadaa2118afd1bfe9e:0",
+        "condition_id": "0x522f64ea4548bbed0edf8bbb0b59007c1a55e033b76f06cadaa2118afd1bfe9e",
+        "title": "Spread: Seahawks (-7.5)",
+        "outcome": "Seahawks",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x67542c3219b37fd1610aad290676ff91cdbfe3bc",
+          "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c"
+        ],
+        "ranks": [
+          5,
+          6,
+          7
+        ],
+        "total_value_usd": 140903.35,
+        "score": 10.5715,
+        "category": "NFL (All)",
+        "end_date": "2026-09-27",
+        "entry_price": 0.0435
+      },
+      {
+        "signal_key": "0x961bb302d2449056d5314dad54d7e12a8fcc5442dea13ffb74c9aa504eef2774:1",
+        "condition_id": "0x961bb302d2449056d5314dad54d7e12a8fcc5442dea13ffb74c9aa504eef2774",
+        "title": "Baltimore Orioles vs. New York Yankees",
+        "outcome": "New York Yankees",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x4bff30af91642dc7d2b19a8664378fe55c45fc26",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21"
+        ],
+        "ranks": [
+          3,
+          12,
+          17
+        ],
+        "total_value_usd": 152386.54,
+        "score": 9.9305,
+        "category": "MLB",
+        "end_date": "2026-10-02",
+        "entry_price": 0.0435
+      },
+      {
+        "signal_key": "0x95a01ebbdfe1d934bd35026d9a8877399d76ecf87b93f408bccd9bbcddd568c8:1",
+        "condition_id": "0x95a01ebbdfe1d934bd35026d9a8877399d76ecf87b93f408bccd9bbcddd568c8",
+        "title": "Cardinals vs. 49ers: O/U 48.5",
+        "outcome": "Under",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x67542c3219b37fd1610aad290676ff91cdbfe3bc",
+          "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c"
+        ],
+        "ranks": [
+          5,
+          6,
+          7
+        ],
+        "total_value_usd": 67238.83,
+        "score": 9.9118,
+        "category": "NFL (All)",
+        "end_date": "2026-09-27",
+        "entry_price": 0.0435
+      },
+      {
+        "signal_key": "0xd0ee09bc3955e774c42df27cc3b4685a483f8498000c2de26625f20fc9ed4f78:1",
+        "condition_id": "0xd0ee09bc3955e774c42df27cc3b4685a483f8498000c2de26625f20fc9ed4f78",
+        "title": "Spread: Lions (-6.5)",
+        "outcome": "Jets",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
+        ],
+        "ranks": [
+          5,
+          7,
+          8,
+          12
+        ],
+        "total_value_usd": 25598.62,
+        "score": 9.7908,
+        "category": "NFL (All)",
+        "end_date": "2026-09-27",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0xdff427fce82c22dca74075108b8d6dbe6c97395225b60e20f10ab782e221727c:0",
+        "condition_id": "0xdff427fce82c22dca74075108b8d6dbe6c97395225b60e20f10ab782e221727c",
+        "title": "Spread: Chiefs (-10.5)",
+        "outcome": "Chiefs",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
+        ],
+        "ranks": [
+          5,
+          7,
+          8,
+          12
+        ],
+        "total_value_usd": 20148.21,
+        "score": 9.5599,
+        "category": "NFL (All)",
+        "end_date": "2026-09-27",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0xe7cbc320665f2e0978f6864bec1c26b315d63a71593f94cfaeab933c5732b87f:0",
+        "condition_id": "0xe7cbc320665f2e0978f6864bec1c26b315d63a71593f94cfaeab933c5732b87f",
+        "title": "Baltimore Orioles vs. New York Yankees",
+        "outcome": "Baltimore Orioles",
+        "outcome_index": 0,
+        "whale_count": 5,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x16bb9951a36fce71e2ef57890b786145e0ba8492",
+          "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c"
+        ],
+        "ranks": [
+          5,
+          8,
+          12,
+          19,
+          20
+        ],
+        "total_value_usd": 31167.77,
+        "score": 9.2523,
+        "category": "MLB",
+        "end_date": "2026-10-02",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0x9971d93943dc93d5c4a4efe9c2908107fed8d34662d4494e8169c4701df7c819:1",
+        "condition_id": "0x9971d93943dc93d5c4a4efe9c2908107fed8d34662d4494e8169c4701df7c819",
+        "title": "Jets vs. Lions",
+        "outcome": "Lions",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x67542c3219b37fd1610aad290676ff91cdbfe3bc",
+          "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e"
+        ],
+        "ranks": [
+          6,
+          7,
+          8
+        ],
+        "total_value_usd": 108599.11,
+        "score": 8.8174,
+        "category": "NFL (All)",
+        "end_date": "2026-09-27",
+        "entry_price": 0.0435
+      },
+      {
+        "signal_key": "0xe7cbc320665f2e0978f6864bec1c26b315d63a71593f94cfaeab933c5732b87f:1",
+        "condition_id": "0xe7cbc320665f2e0978f6864bec1c26b315d63a71593f94cfaeab933c5732b87f",
+        "title": "Baltimore Orioles vs. New York Yankees",
+        "outcome": "New York Yankees",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x4bff30af91642dc7d2b19a8664378fe55c45fc26",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21"
+        ],
+        "ranks": [
+          3,
+          12,
+          17
+        ],
+        "total_value_usd": 26040.28,
+        "score": 8.4604,
+        "category": "MLB",
+        "end_date": "2026-10-02",
+        "entry_price": 0.0435
+      },
+      {
+        "signal_key": "0xed537832cbf6774d5b54da06732b53ce6866d82941e593ca71292f8e247babc5:0",
+        "condition_id": "0xed537832cbf6774d5b54da06732b53ce6866d82941e593ca71292f8e247babc5",
+        "title": "Chiefs vs. Dolphins",
+        "outcome": "Chiefs",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e"
+        ],
+        "ranks": [
+          5,
+          7,
+          8
+        ],
+        "total_value_usd": 23487.0,
+        "score": 8.2401,
+        "category": "NFL (All)",
+        "end_date": "2026-09-27",
+        "entry_price": 0.0435
+      },
+      {
+        "signal_key": "0x961bb302d2449056d5314dad54d7e12a8fcc5442dea13ffb74c9aa504eef2774:0",
+        "condition_id": "0x961bb302d2449056d5314dad54d7e12a8fcc5442dea13ffb74c9aa504eef2774",
+        "title": "Baltimore Orioles vs. New York Yankees",
+        "outcome": "Baltimore Orioles",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x67542c3219b37fd1610aad290676ff91cdbfe3bc",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21",
+          "0x16bb9951a36fce71e2ef57890b786145e0ba8492"
+        ],
+        "ranks": [
+          6,
+          12,
+          17,
+          19
+        ],
+        "total_value_usd": 138117.57,
+        "score": 7.4867,
+        "category": "MLB",
+        "end_date": "2026-10-02",
+        "entry_price": 0.0435
+      },
+      {
+        "signal_key": "0xaa1b9e9bc1e6b4f1d79e5e15c0451885478e61685bd3b3ff20b27c2cce681e87:0",
+        "condition_id": "0xaa1b9e9bc1e6b4f1d79e5e15c0451885478e61685bd3b3ff20b27c2cce681e87",
+        "title": "Ravens vs. Cowboys: O/U 52.5",
+        "outcome": "Over",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e"
+        ],
+        "ranks": [
+          5,
+          7,
+          8
+        ],
+        "total_value_usd": 8921.41,
+        "score": 7.4476,
+        "category": "NFL (All)",
+        "end_date": "2026-09-27",
+        "entry_price": 0.0435
+      },
+      {
+        "signal_key": "0xf7abe329b5bea6a7706fa70041a935053436df8d736a68a63d171a43f360afd3:0",
+        "condition_id": "0xf7abe329b5bea6a7706fa70041a935053436df8d736a68a63d171a43f360afd3",
+        "title": "Spread: Lions (-7.5)",
+        "outcome": "Lions",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
+        ],
+        "ranks": [
+          5,
+          7,
+          12
+        ],
+        "total_value_usd": 17844.83,
+        "score": 7.3014,
+        "category": "NFL (All)",
+        "end_date": "2026-09-27",
+        "entry_price": 0.0425
+      },
+      {
+        "signal_key": "0xd09c92cfc4b9dfed170984f10299242e6e83dd775aa4a390bf22ec445e6d479c:0",
+        "condition_id": "0xd09c92cfc4b9dfed170984f10299242e6e83dd775aa4a390bf22ec445e6d479c",
+        "title": "Spread: Texans (-2.5)",
+        "outcome": "Texans",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
+        ],
+        "ranks": [
+          5,
+          7,
+          12
+        ],
+        "total_value_usd": 15626.64,
+        "score": 7.2024,
+        "category": "NFL (All)",
+        "end_date": "2026-09-27",
+        "entry_price": 0.0435
+      },
+      {
+        "signal_key": "0xfb7723570e5f574e9567d5635bba7b0c61c49fbfc36d8e872cff6617c5db4b25:0",
+        "condition_id": "0xfb7723570e5f574e9567d5635bba7b0c61c49fbfc36d8e872cff6617c5db4b25",
+        "title": "Korea Open: Katie Volynets vs Kimberly Birrell",
+        "outcome": "Katie Volynets",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16"
+        ],
+        "ranks": [
+          4,
+          8,
+          16
+        ],
+        "total_value_usd": 9569.01,
+        "score": 7.018,
+        "category": "Tennis",
+        "end_date": "2026-10-02",
+        "entry_price": 0.0435
+      },
+      {
+        "signal_key": "0xd007ef5d658f3a99ec7a39624bf0c59f0d2b18ccd5cffd61e65e6c7e77304e25:0",
+        "condition_id": "0xd007ef5d658f3a99ec7a39624bf0c59f0d2b18ccd5cffd61e65e6c7e77304e25",
+        "title": "Rams vs. Broncos",
+        "outcome": "Rams",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
+        ],
+        "ranks": [
+          5,
+          7,
+          12
+        ],
+        "total_value_usd": 11280.02,
+        "score": 6.9593,
+        "category": "NFL (All)",
+        "end_date": "2026-09-28",
+        "entry_price": 0.0435
+      },
+      {
+        "signal_key": "0xfb7723570e5f574e9567d5635bba7b0c61c49fbfc36d8e872cff6617c5db4b25:1",
+        "condition_id": "0xfb7723570e5f574e9567d5635bba7b0c61c49fbfc36d8e872cff6617c5db4b25",
+        "title": "Korea Open: Katie Volynets vs Kimberly Birrell",
+        "outcome": "Kimberly Birrell",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21"
+        ],
+        "ranks": [
+          4,
+          16,
+          17
+        ],
+        "total_value_usd": 32168.57,
+        "score": 6.7443,
+        "category": "Tennis",
+        "end_date": "2026-10-02",
+        "entry_price": 0.0435
+      },
+      {
+        "signal_key": "0x3ce1a8eb83552ffab3794a33b4ab7d7da750a9cd2246da324b37c5e5b0478575:0",
+        "condition_id": "0x3ce1a8eb83552ffab3794a33b4ab7d7da750a9cd2246da324b37c5e5b0478575",
+        "title": "Eagles vs. Bears",
+        "outcome": "Eagles",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
+        ],
+        "ranks": [
+          7,
+          8,
+          12
+        ],
+        "total_value_usd": 19283.03,
+        "score": 6.0641,
+        "category": "NFL (All)",
+        "end_date": "2026-09-29",
+        "entry_price": 0.0435
+      },
+      {
+        "signal_key": "0xf25aa31fd56fa7789570095708b64b62d075705674ae3ba75481399563f918d4:0",
+        "condition_id": "0xf25aa31fd56fa7789570095708b64b62d075705674ae3ba75481399563f918d4",
+        "title": "Spread: Seahawks (-6.5)",
+        "outcome": "Seahawks",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x67542c3219b37fd1610aad290676ff91cdbfe3bc",
+          "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c",
+          "0x84cfffc3f16dcc353094de30d4a45226eccd2f63"
+        ],
+        "ranks": [
+          6,
+          7,
+          12
+        ],
+        "total_value_usd": 5876.43,
+        "score": 5.9667,
+        "category": "NFL (All)",
+        "end_date": "2026-09-27",
+        "entry_price": 0.0435
+      },
+      {
+        "signal_key": "0xeed1ff210ca4a6760d0127927efdeb9a6d6e48adcb29218dcd41618831962dc2:0",
+        "condition_id": "0xeed1ff210ca4a6760d0127927efdeb9a6d6e48adcb29218dcd41618831962dc2",
+        "title": "Raiders vs. Saints",
+        "outcome": "Raiders",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0xa080dadd87036ad01dbf5e9c254b0c3dbdba234f"
+        ],
+        "ranks": [
+          7,
+          8,
+          14
+        ],
+        "total_value_usd": 9546.47,
+        "score": 5.4411,
+        "category": "NFL (All)",
+        "end_date": "2026-09-27",
+        "entry_price": 0.0435
+      }
+    ]
   }
 ]

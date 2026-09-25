@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-25T17:26:02+00:00",
-  "total_evaluated": 1340,
-  "total_pending": 85,
+  "generated_at": "2026-09-25T20:40:38+00:00",
+  "total_evaluated": 1345,
+  "total_pending": 88,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1340,
-      "correct": 786,
-      "wrong": 469,
-      "pending": 85,
+      "signals_evaluated": 1345,
+      "correct": 787,
+      "wrong": 470,
+      "pending": 88,
       "win_rate": 62.6,
       "signals": [
         {
@@ -18697,11 +18697,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Chicago Cubs",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Boston Red Sox",
+          "resolved_date": "2026-10-02",
           "end_date": "2026-10-02",
           "total_value_usd": 71302.92,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x9d232fb0b16979c4b3f281d3a53a0441ace232a0b79e1aa0f45fac51e7870be3:1",
@@ -18753,11 +18753,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Boston Red Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Boston Red Sox",
+          "resolved_date": "2026-10-02",
           "end_date": "2026-10-02",
           "total_value_usd": 72599.14,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xe7cbc320665f2e0978f6864bec1c26b315d63a71593f94cfaeab933c5732b87f:0",
@@ -18771,6 +18771,76 @@
           "resolved_date": null,
           "end_date": "2026-10-02",
           "total_value_usd": 5702.57,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x961bb302d2449056d5314dad54d7e12a8fcc5442dea13ffb74c9aa504eef2774:1",
+          "condition_id": "0x961bb302d2449056d5314dad54d7e12a8fcc5442dea13ffb74c9aa504eef2774",
+          "title": "Baltimore Orioles vs. New York Yankees",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "New York Yankees",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-02",
+          "total_value_usd": 152386.54,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x95a01ebbdfe1d934bd35026d9a8877399d76ecf87b93f408bccd9bbcddd568c8:1",
+          "condition_id": "0x95a01ebbdfe1d934bd35026d9a8877399d76ecf87b93f408bccd9bbcddd568c8",
+          "title": "Cardinals vs. 49ers: O/U 48.5",
+          "category": "NFL (All)",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Under",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-27",
+          "total_value_usd": 67238.83,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe7cbc320665f2e0978f6864bec1c26b315d63a71593f94cfaeab933c5732b87f:1",
+          "condition_id": "0xe7cbc320665f2e0978f6864bec1c26b315d63a71593f94cfaeab933c5732b87f",
+          "title": "Baltimore Orioles vs. New York Yankees",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "New York Yankees",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-02",
+          "total_value_usd": 26040.28,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x961bb302d2449056d5314dad54d7e12a8fcc5442dea13ffb74c9aa504eef2774:0",
+          "condition_id": "0x961bb302d2449056d5314dad54d7e12a8fcc5442dea13ffb74c9aa504eef2774",
+          "title": "Baltimore Orioles vs. New York Yankees",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Baltimore Orioles",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-02",
+          "total_value_usd": 138117.57,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xeed1ff210ca4a6760d0127927efdeb9a6d6e48adcb29218dcd41618831962dc2:0",
+          "condition_id": "0xeed1ff210ca4a6760d0127927efdeb9a6d6e48adcb29218dcd41618831962dc2",
+          "title": "Raiders vs. Saints",
+          "category": "NFL (All)",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Raiders",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-27",
+          "total_value_usd": 9546.47,
           "result": "pending"
         }
       ]
@@ -18779,11 +18849,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 670,
-      "correct": 381,
-      "wrong": 227,
-      "pending": 62,
-      "win_rate": 62.7,
+      "signals_evaluated": 675,
+      "correct": 382,
+      "wrong": 228,
+      "pending": 65,
+      "win_rate": 62.6,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -28089,11 +28159,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Chicago Cubs",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Boston Red Sox",
+          "resolved_date": "2026-10-02",
           "end_date": "2026-10-02",
           "total_value_usd": 71302.92,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x9d232fb0b16979c4b3f281d3a53a0441ace232a0b79e1aa0f45fac51e7870be3:1",
@@ -28145,11 +28215,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Boston Red Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Boston Red Sox",
+          "resolved_date": "2026-10-02",
           "end_date": "2026-10-02",
           "total_value_usd": 72599.14,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xe7cbc320665f2e0978f6864bec1c26b315d63a71593f94cfaeab933c5732b87f:0",
@@ -28163,6 +28233,76 @@
           "resolved_date": null,
           "end_date": "2026-10-02",
           "total_value_usd": 5702.57,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x961bb302d2449056d5314dad54d7e12a8fcc5442dea13ffb74c9aa504eef2774:1",
+          "condition_id": "0x961bb302d2449056d5314dad54d7e12a8fcc5442dea13ffb74c9aa504eef2774",
+          "title": "Baltimore Orioles vs. New York Yankees",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "New York Yankees",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-02",
+          "total_value_usd": 152386.54,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x95a01ebbdfe1d934bd35026d9a8877399d76ecf87b93f408bccd9bbcddd568c8:1",
+          "condition_id": "0x95a01ebbdfe1d934bd35026d9a8877399d76ecf87b93f408bccd9bbcddd568c8",
+          "title": "Cardinals vs. 49ers: O/U 48.5",
+          "category": "NFL (All)",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Under",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-27",
+          "total_value_usd": 67238.83,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe7cbc320665f2e0978f6864bec1c26b315d63a71593f94cfaeab933c5732b87f:1",
+          "condition_id": "0xe7cbc320665f2e0978f6864bec1c26b315d63a71593f94cfaeab933c5732b87f",
+          "title": "Baltimore Orioles vs. New York Yankees",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "New York Yankees",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-02",
+          "total_value_usd": 26040.28,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x961bb302d2449056d5314dad54d7e12a8fcc5442dea13ffb74c9aa504eef2774:0",
+          "condition_id": "0x961bb302d2449056d5314dad54d7e12a8fcc5442dea13ffb74c9aa504eef2774",
+          "title": "Baltimore Orioles vs. New York Yankees",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Baltimore Orioles",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-02",
+          "total_value_usd": 138117.57,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xeed1ff210ca4a6760d0127927efdeb9a6d6e48adcb29218dcd41618831962dc2:0",
+          "condition_id": "0xeed1ff210ca4a6760d0127927efdeb9a6d6e48adcb29218dcd41618831962dc2",
+          "title": "Raiders vs. Saints",
+          "category": "NFL (All)",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Raiders",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-27",
+          "total_value_usd": 9546.47,
           "result": "pending"
         }
       ]
@@ -28171,11 +28311,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 670,
-      "correct": 227,
-      "wrong": 381,
-      "pending": 62,
-      "win_rate": 37.3,
+      "signals_evaluated": 675,
+      "correct": 228,
+      "wrong": 382,
+      "pending": 65,
+      "win_rate": 37.4,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -37481,11 +37621,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Chicago Cubs",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Boston Red Sox",
+          "resolved_date": "2026-10-02",
           "end_date": "2026-10-02",
           "total_value_usd": 71302.92,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x9d232fb0b16979c4b3f281d3a53a0441ace232a0b79e1aa0f45fac51e7870be3:1",
@@ -37537,11 +37677,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Boston Red Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Boston Red Sox",
+          "resolved_date": "2026-10-02",
           "end_date": "2026-10-02",
           "total_value_usd": 72599.14,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xe7cbc320665f2e0978f6864bec1c26b315d63a71593f94cfaeab933c5732b87f:0",
@@ -37555,6 +37695,76 @@
           "resolved_date": null,
           "end_date": "2026-10-02",
           "total_value_usd": 5702.57,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x961bb302d2449056d5314dad54d7e12a8fcc5442dea13ffb74c9aa504eef2774:1",
+          "condition_id": "0x961bb302d2449056d5314dad54d7e12a8fcc5442dea13ffb74c9aa504eef2774",
+          "title": "Baltimore Orioles vs. New York Yankees",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "New York Yankees",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-02",
+          "total_value_usd": 152386.54,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x95a01ebbdfe1d934bd35026d9a8877399d76ecf87b93f408bccd9bbcddd568c8:1",
+          "condition_id": "0x95a01ebbdfe1d934bd35026d9a8877399d76ecf87b93f408bccd9bbcddd568c8",
+          "title": "Cardinals vs. 49ers: O/U 48.5",
+          "category": "NFL (All)",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Under",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-27",
+          "total_value_usd": 67238.83,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe7cbc320665f2e0978f6864bec1c26b315d63a71593f94cfaeab933c5732b87f:1",
+          "condition_id": "0xe7cbc320665f2e0978f6864bec1c26b315d63a71593f94cfaeab933c5732b87f",
+          "title": "Baltimore Orioles vs. New York Yankees",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "New York Yankees",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-02",
+          "total_value_usd": 26040.28,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x961bb302d2449056d5314dad54d7e12a8fcc5442dea13ffb74c9aa504eef2774:0",
+          "condition_id": "0x961bb302d2449056d5314dad54d7e12a8fcc5442dea13ffb74c9aa504eef2774",
+          "title": "Baltimore Orioles vs. New York Yankees",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Baltimore Orioles",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-02",
+          "total_value_usd": 138117.57,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xeed1ff210ca4a6760d0127927efdeb9a6d6e48adcb29218dcd41618831962dc2:0",
+          "condition_id": "0xeed1ff210ca4a6760d0127927efdeb9a6d6e48adcb29218dcd41618831962dc2",
+          "title": "Raiders vs. Saints",
+          "category": "NFL (All)",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Raiders",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-27",
+          "total_value_usd": 9546.47,
           "result": "pending"
         }
       ]
