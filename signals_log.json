@@ -364716,5 +364716,251 @@
         "entry_price": 0.0445
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-25T01:43:29+00:00",
+    "whale_timeframes": {
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbc43c8bfbc4d77c2fc9011adad38ba43b88996d3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x17c4f7e008fe22d69865f73f29329b6e76b92471": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1610db79f753a80207e1d66716be9e91e627ae49": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x441909510a0b18a7df9f5ea588314a53d5bcfcf4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcbc666209b4c17ea84c03c0dda71b5dab9e4ec62": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7c1ee865a785de4c00ee90ed86a38489fb8bbab3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x67ac9e1ad7d7e74ef0215d14fc8edb538e4fedf1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8546a601f7c7cc3dae7141f20b0e09e42bbf35b8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd703c88c0b726ae01ee9602a422013ca8d4171bf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa4b7b1814b0da33f2b61be4939976898aa476008": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x32b484581fc5606de9c1e43af4636b6be9bc8b21": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0c154c190e293b7e5f8d453b5f690c4dc9599a45": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x519b0d49a99c794e2c721b6ad8bc010fdc20624e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb4f978be63cdf75554b0b46a4262a6db597cc9a7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xf58048b24d8c5721ebcead0f0968caba593042058bcf8948aaf5d359fa1ade73:1",
+        "condition_id": "0xf58048b24d8c5721ebcead0f0968caba593042058bcf8948aaf5d359fa1ade73",
+        "title": "Tampa Bay Rays vs. New York Yankees",
+        "outcome": "New York Yankees",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x7c1ee865a785de4c00ee90ed86a38489fb8bbab3",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          1,
+          10,
+          15,
+          18
+        ],
+        "total_value_usd": 33971.35,
+        "score": 22.3157,
+        "category": "MLB",
+        "end_date": "2026-10-01",
+        "entry_price": 0.0435
+      },
+      {
+        "signal_key": "0xa69826a08aefbfb213677dc6c9e1203c53aef78aaf43a3728bce502b4e37d6ee:1",
+        "condition_id": "0xa69826a08aefbfb213677dc6c9e1203c53aef78aaf43a3728bce502b4e37d6ee",
+        "title": "Cincinnati Reds vs. Atlanta Braves",
+        "outcome": "Atlanta Braves",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
+        ],
+        "ranks": [
+          1,
+          18,
+          20
+        ],
+        "total_value_usd": 11918.56,
+        "score": 18.1592,
+        "category": "MLB",
+        "end_date": "2026-10-01",
+        "entry_price": 0.0435
+      },
+      {
+        "signal_key": "0xf58048b24d8c5721ebcead0f0968caba593042058bcf8948aaf5d359fa1ade73:0",
+        "condition_id": "0xf58048b24d8c5721ebcead0f0968caba593042058bcf8948aaf5d359fa1ade73",
+        "title": "Tampa Bay Rays vs. New York Yankees",
+        "outcome": "Tampa Bay Rays",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x1610db79f753a80207e1d66716be9e91e627ae49",
+          "0x7c1ee865a785de4c00ee90ed86a38489fb8bbab3",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          6,
+          10,
+          18
+        ],
+        "total_value_usd": 26262.27,
+        "score": 5.7381,
+        "category": "MLB",
+        "end_date": "2026-10-01",
+        "entry_price": 0.0435
+      },
+      {
+        "signal_key": "0xa69826a08aefbfb213677dc6c9e1203c53aef78aaf43a3728bce502b4e37d6ee:0",
+        "condition_id": "0xa69826a08aefbfb213677dc6c9e1203c53aef78aaf43a3728bce502b4e37d6ee",
+        "title": "Cincinnati Reds vs. Atlanta Braves",
+        "outcome": "Cincinnati Reds",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x7c1ee865a785de4c00ee90ed86a38489fb8bbab3",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e"
+        ],
+        "ranks": [
+          10,
+          15,
+          18,
+          20
+        ],
+        "total_value_usd": 60469.9,
+        "score": 5.245,
+        "category": "MLB",
+        "end_date": "2026-10-01",
+        "entry_price": 0.0445
+      },
+      {
+        "signal_key": "0xb3e62cd9ca1025cc820f37f20a9e422e9a0b5894ed4a06fc6c1b7ab51a950281:1",
+        "condition_id": "0xb3e62cd9ca1025cc820f37f20a9e422e9a0b5894ed4a06fc6c1b7ab51a950281",
+        "title": "Houston Astros vs. Athletics",
+        "outcome": "Athletics",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          9,
+          15,
+          18
+        ],
+        "total_value_usd": 45530.23,
+        "score": 4.3798,
+        "category": "MLB",
+        "end_date": "2026-10-02",
+        "entry_price": 0.0435
+      }
+    ]
   }
 ]

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-24T23:38:35+00:00",
-  "total_evaluated": 1317,
-  "total_pending": 70,
+  "generated_at": "2026-09-25T01:54:31+00:00",
+  "total_evaluated": 1321,
+  "total_pending": 72,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1317,
-      "correct": 783,
-      "wrong": 464,
-      "pending": 70,
+      "signals_evaluated": 1321,
+      "correct": 784,
+      "wrong": 465,
+      "pending": 72,
       "win_rate": 62.8,
       "signals": [
         {
@@ -18417,11 +18417,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Philadelphia Phillies",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-10-01",
           "end_date": "2026-10-01",
           "total_value_usd": 141421.44,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xaaba03e832b1e2c7a65fd0e292898b69bc70b5241f6c95850d96b9d758661733:0",
@@ -18431,11 +18431,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Cleveland Guardians",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Cleveland Guardians",
+          "resolved_date": "2026-10-01",
           "end_date": "2026-10-01",
           "total_value_usd": 18372.93,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xdff427fce82c22dca74075108b8d6dbe6c97395225b60e20f10ab782e221727c:0",
@@ -18450,6 +18450,62 @@
           "end_date": "2026-09-27",
           "total_value_usd": 7837.44,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xf58048b24d8c5721ebcead0f0968caba593042058bcf8948aaf5d359fa1ade73:1",
+          "condition_id": "0xf58048b24d8c5721ebcead0f0968caba593042058bcf8948aaf5d359fa1ade73",
+          "title": "Tampa Bay Rays vs. New York Yankees",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0435,
+          "whale_direction": "New York Yankees",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-01",
+          "total_value_usd": 33971.35,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xa69826a08aefbfb213677dc6c9e1203c53aef78aaf43a3728bce502b4e37d6ee:1",
+          "condition_id": "0xa69826a08aefbfb213677dc6c9e1203c53aef78aaf43a3728bce502b4e37d6ee",
+          "title": "Cincinnati Reds vs. Atlanta Braves",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0435,
+          "whale_direction": "Atlanta Braves",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-01",
+          "total_value_usd": 11918.56,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf58048b24d8c5721ebcead0f0968caba593042058bcf8948aaf5d359fa1ade73:0",
+          "condition_id": "0xf58048b24d8c5721ebcead0f0968caba593042058bcf8948aaf5d359fa1ade73",
+          "title": "Tampa Bay Rays vs. New York Yankees",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Tampa Bay Rays",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-01",
+          "total_value_usd": 26262.27,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xb3e62cd9ca1025cc820f37f20a9e422e9a0b5894ed4a06fc6c1b7ab51a950281:1",
+          "condition_id": "0xb3e62cd9ca1025cc820f37f20a9e422e9a0b5894ed4a06fc6c1b7ab51a950281",
+          "title": "Houston Astros vs. Athletics",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Athletics",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-02",
+          "total_value_usd": 45530.23,
+          "result": "pending"
         }
       ]
     },
@@ -18457,10 +18513,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 647,
-      "correct": 378,
-      "wrong": 222,
-      "pending": 47,
+      "signals_evaluated": 651,
+      "correct": 379,
+      "wrong": 223,
+      "pending": 49,
       "win_rate": 63.0,
       "signals": [
         {
@@ -27487,11 +27543,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Philadelphia Phillies",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-10-01",
           "end_date": "2026-10-01",
           "total_value_usd": 141421.44,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xaaba03e832b1e2c7a65fd0e292898b69bc70b5241f6c95850d96b9d758661733:0",
@@ -27501,11 +27557,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Cleveland Guardians",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Cleveland Guardians",
+          "resolved_date": "2026-10-01",
           "end_date": "2026-10-01",
           "total_value_usd": 18372.93,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xdff427fce82c22dca74075108b8d6dbe6c97395225b60e20f10ab782e221727c:0",
@@ -27520,6 +27576,62 @@
           "end_date": "2026-09-27",
           "total_value_usd": 7837.44,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xf58048b24d8c5721ebcead0f0968caba593042058bcf8948aaf5d359fa1ade73:1",
+          "condition_id": "0xf58048b24d8c5721ebcead0f0968caba593042058bcf8948aaf5d359fa1ade73",
+          "title": "Tampa Bay Rays vs. New York Yankees",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0435,
+          "whale_direction": "New York Yankees",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-01",
+          "total_value_usd": 33971.35,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xa69826a08aefbfb213677dc6c9e1203c53aef78aaf43a3728bce502b4e37d6ee:1",
+          "condition_id": "0xa69826a08aefbfb213677dc6c9e1203c53aef78aaf43a3728bce502b4e37d6ee",
+          "title": "Cincinnati Reds vs. Atlanta Braves",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0435,
+          "whale_direction": "Atlanta Braves",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-01",
+          "total_value_usd": 11918.56,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf58048b24d8c5721ebcead0f0968caba593042058bcf8948aaf5d359fa1ade73:0",
+          "condition_id": "0xf58048b24d8c5721ebcead0f0968caba593042058bcf8948aaf5d359fa1ade73",
+          "title": "Tampa Bay Rays vs. New York Yankees",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Tampa Bay Rays",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-01",
+          "total_value_usd": 26262.27,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xb3e62cd9ca1025cc820f37f20a9e422e9a0b5894ed4a06fc6c1b7ab51a950281:1",
+          "condition_id": "0xb3e62cd9ca1025cc820f37f20a9e422e9a0b5894ed4a06fc6c1b7ab51a950281",
+          "title": "Houston Astros vs. Athletics",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Athletics",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-02",
+          "total_value_usd": 45530.23,
+          "result": "pending"
         }
       ]
     },
@@ -27527,10 +27639,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 647,
-      "correct": 222,
-      "wrong": 378,
-      "pending": 47,
+      "signals_evaluated": 651,
+      "correct": 223,
+      "wrong": 379,
+      "pending": 49,
       "win_rate": 37.0,
       "signals": [
         {
@@ -36557,11 +36669,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Philadelphia Phillies",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-10-01",
           "end_date": "2026-10-01",
           "total_value_usd": 141421.44,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xaaba03e832b1e2c7a65fd0e292898b69bc70b5241f6c95850d96b9d758661733:0",
@@ -36571,11 +36683,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Cleveland Guardians",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Cleveland Guardians",
+          "resolved_date": "2026-10-01",
           "end_date": "2026-10-01",
           "total_value_usd": 18372.93,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xdff427fce82c22dca74075108b8d6dbe6c97395225b60e20f10ab782e221727c:0",
@@ -36589,6 +36701,62 @@
           "resolved_date": null,
           "end_date": "2026-09-27",
           "total_value_usd": 7837.44,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf58048b24d8c5721ebcead0f0968caba593042058bcf8948aaf5d359fa1ade73:1",
+          "condition_id": "0xf58048b24d8c5721ebcead0f0968caba593042058bcf8948aaf5d359fa1ade73",
+          "title": "Tampa Bay Rays vs. New York Yankees",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0435,
+          "whale_direction": "New York Yankees",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-01",
+          "total_value_usd": 33971.35,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xa69826a08aefbfb213677dc6c9e1203c53aef78aaf43a3728bce502b4e37d6ee:1",
+          "condition_id": "0xa69826a08aefbfb213677dc6c9e1203c53aef78aaf43a3728bce502b4e37d6ee",
+          "title": "Cincinnati Reds vs. Atlanta Braves",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0435,
+          "whale_direction": "Atlanta Braves",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-01",
+          "total_value_usd": 11918.56,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf58048b24d8c5721ebcead0f0968caba593042058bcf8948aaf5d359fa1ade73:0",
+          "condition_id": "0xf58048b24d8c5721ebcead0f0968caba593042058bcf8948aaf5d359fa1ade73",
+          "title": "Tampa Bay Rays vs. New York Yankees",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Tampa Bay Rays",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-01",
+          "total_value_usd": 26262.27,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xb3e62cd9ca1025cc820f37f20a9e422e9a0b5894ed4a06fc6c1b7ab51a950281:1",
+          "condition_id": "0xb3e62cd9ca1025cc820f37f20a9e422e9a0b5894ed4a06fc6c1b7ab51a950281",
+          "title": "Houston Astros vs. Athletics",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0435,
+          "whale_direction": "Athletics",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-02",
+          "total_value_usd": 45530.23,
           "result": "pending"
         }
       ]
