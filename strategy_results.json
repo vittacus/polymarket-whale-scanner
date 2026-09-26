@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-26T02:10:39+00:00",
+  "generated_at": "2026-09-26T07:28:57+00:00",
   "total_evaluated": 1357,
-  "total_pending": 94,
+  "total_pending": 86,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 1357,
-      "correct": 790,
-      "wrong": 473,
-      "pending": 94,
+      "correct": 794,
+      "wrong": 477,
+      "pending": 86,
       "win_rate": 62.5,
       "signals": [
         {
@@ -18641,11 +18641,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "Katie Volynets",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Kimberly Birrell",
+          "resolved_date": "2026-10-02",
           "end_date": "2026-10-02",
           "total_value_usd": 8327.29,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xfb7723570e5f574e9567d5635bba7b0c61c49fbfc36d8e872cff6617c5db4b25:1",
@@ -18655,11 +18655,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "Kimberly Birrell",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Kimberly Birrell",
+          "resolved_date": "2026-10-02",
           "end_date": "2026-10-02",
           "total_value_usd": 50172.31,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xd007ef5d658f3a99ec7a39624bf0c59f0d2b18ccd5cffd61e65e6c7e77304e25:1",
@@ -18767,11 +18767,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Baltimore Orioles",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-10-02",
           "end_date": "2026-10-02",
           "total_value_usd": 5702.57,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x961bb302d2449056d5314dad54d7e12a8fcc5442dea13ffb74c9aa504eef2774:1",
@@ -18809,11 +18809,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "New York Yankees",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-10-02",
           "end_date": "2026-10-02",
           "total_value_usd": 26040.28,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x961bb302d2449056d5314dad54d7e12a8fcc5442dea13ffb74c9aa504eef2774:0",
@@ -18893,11 +18893,11 @@
           "tier": "Moderate",
           "entry_price": 0.042,
           "whale_direction": "Texas Rangers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Minnesota Twins",
+          "resolved_date": "2026-10-03",
           "end_date": "2026-10-03",
           "total_value_usd": 65716.23,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xb08965e979268e347cd4f3c8b6da098188261d491ecd9af4f157ef651369d8a2:1",
@@ -18935,11 +18935,11 @@
           "tier": "Moderate",
           "entry_price": 0.042,
           "whale_direction": "New York Mets",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Washington Nationals",
+          "resolved_date": "2026-10-02",
           "end_date": "2026-10-02",
           "total_value_usd": 18395.4,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x00c5537715464238fe3548f938a5ee91a7e8c6642451e9ebaa890a96ce8310b9:1",
@@ -18977,11 +18977,11 @@
           "tier": "Moderate",
           "entry_price": 0.042,
           "whale_direction": "Washington Nationals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Washington Nationals",
+          "resolved_date": "2026-10-02",
           "end_date": "2026-10-02",
           "total_value_usd": 16721.13,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x2ceeb57608aac6f5ec5cbb76137e9bb00789fea3b2049efde9c723b64c5194fb:0",
@@ -19005,11 +19005,11 @@
           "tier": "Moderate",
           "entry_price": 0.042,
           "whale_direction": "Anna Bondar",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Anna Bondar",
+          "resolved_date": "2026-10-02",
           "end_date": "2026-10-02",
           "total_value_usd": 3303.34,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -19018,10 +19018,10 @@
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 687,
-      "correct": 385,
-      "wrong": 231,
-      "pending": 71,
-      "win_rate": 62.5,
+      "correct": 389,
+      "wrong": 235,
+      "pending": 63,
+      "win_rate": 62.3,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -28271,11 +28271,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "Katie Volynets",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Kimberly Birrell",
+          "resolved_date": "2026-10-02",
           "end_date": "2026-10-02",
           "total_value_usd": 8327.29,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xfb7723570e5f574e9567d5635bba7b0c61c49fbfc36d8e872cff6617c5db4b25:1",
@@ -28285,11 +28285,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "Kimberly Birrell",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Kimberly Birrell",
+          "resolved_date": "2026-10-02",
           "end_date": "2026-10-02",
           "total_value_usd": 50172.31,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xd007ef5d658f3a99ec7a39624bf0c59f0d2b18ccd5cffd61e65e6c7e77304e25:1",
@@ -28397,11 +28397,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Baltimore Orioles",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-10-02",
           "end_date": "2026-10-02",
           "total_value_usd": 5702.57,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x961bb302d2449056d5314dad54d7e12a8fcc5442dea13ffb74c9aa504eef2774:1",
@@ -28439,11 +28439,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "New York Yankees",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-10-02",
           "end_date": "2026-10-02",
           "total_value_usd": 26040.28,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x961bb302d2449056d5314dad54d7e12a8fcc5442dea13ffb74c9aa504eef2774:0",
@@ -28523,11 +28523,11 @@
           "tier": "Moderate",
           "entry_price": 0.042,
           "whale_direction": "Texas Rangers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Minnesota Twins",
+          "resolved_date": "2026-10-03",
           "end_date": "2026-10-03",
           "total_value_usd": 65716.23,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xb08965e979268e347cd4f3c8b6da098188261d491ecd9af4f157ef651369d8a2:1",
@@ -28565,11 +28565,11 @@
           "tier": "Moderate",
           "entry_price": 0.042,
           "whale_direction": "New York Mets",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Washington Nationals",
+          "resolved_date": "2026-10-02",
           "end_date": "2026-10-02",
           "total_value_usd": 18395.4,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x00c5537715464238fe3548f938a5ee91a7e8c6642451e9ebaa890a96ce8310b9:1",
@@ -28607,11 +28607,11 @@
           "tier": "Moderate",
           "entry_price": 0.042,
           "whale_direction": "Washington Nationals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Washington Nationals",
+          "resolved_date": "2026-10-02",
           "end_date": "2026-10-02",
           "total_value_usd": 16721.13,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x2ceeb57608aac6f5ec5cbb76137e9bb00789fea3b2049efde9c723b64c5194fb:0",
@@ -28635,11 +28635,11 @@
           "tier": "Moderate",
           "entry_price": 0.042,
           "whale_direction": "Anna Bondar",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Anna Bondar",
+          "resolved_date": "2026-10-02",
           "end_date": "2026-10-02",
           "total_value_usd": 3303.34,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -28648,10 +28648,10 @@
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 687,
-      "correct": 231,
-      "wrong": 385,
-      "pending": 71,
-      "win_rate": 37.5,
+      "correct": 235,
+      "wrong": 389,
+      "pending": 63,
+      "win_rate": 37.7,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -37901,11 +37901,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "Katie Volynets",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Kimberly Birrell",
+          "resolved_date": "2026-10-02",
           "end_date": "2026-10-02",
           "total_value_usd": 8327.29,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xfb7723570e5f574e9567d5635bba7b0c61c49fbfc36d8e872cff6617c5db4b25:1",
@@ -37915,11 +37915,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "Kimberly Birrell",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Kimberly Birrell",
+          "resolved_date": "2026-10-02",
           "end_date": "2026-10-02",
           "total_value_usd": 50172.31,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xd007ef5d658f3a99ec7a39624bf0c59f0d2b18ccd5cffd61e65e6c7e77304e25:1",
@@ -38027,11 +38027,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Baltimore Orioles",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-10-02",
           "end_date": "2026-10-02",
           "total_value_usd": 5702.57,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x961bb302d2449056d5314dad54d7e12a8fcc5442dea13ffb74c9aa504eef2774:1",
@@ -38069,11 +38069,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "New York Yankees",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-10-02",
           "end_date": "2026-10-02",
           "total_value_usd": 26040.28,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x961bb302d2449056d5314dad54d7e12a8fcc5442dea13ffb74c9aa504eef2774:0",
@@ -38153,11 +38153,11 @@
           "tier": "Moderate",
           "entry_price": 0.042,
           "whale_direction": "Texas Rangers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Minnesota Twins",
+          "resolved_date": "2026-10-03",
           "end_date": "2026-10-03",
           "total_value_usd": 65716.23,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xb08965e979268e347cd4f3c8b6da098188261d491ecd9af4f157ef651369d8a2:1",
@@ -38195,11 +38195,11 @@
           "tier": "Moderate",
           "entry_price": 0.042,
           "whale_direction": "New York Mets",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Washington Nationals",
+          "resolved_date": "2026-10-02",
           "end_date": "2026-10-02",
           "total_value_usd": 18395.4,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x00c5537715464238fe3548f938a5ee91a7e8c6642451e9ebaa890a96ce8310b9:1",
@@ -38237,11 +38237,11 @@
           "tier": "Moderate",
           "entry_price": 0.042,
           "whale_direction": "Washington Nationals",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Washington Nationals",
+          "resolved_date": "2026-10-02",
           "end_date": "2026-10-02",
           "total_value_usd": 16721.13,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x2ceeb57608aac6f5ec5cbb76137e9bb00789fea3b2049efde9c723b64c5194fb:0",
@@ -38265,11 +38265,11 @@
           "tier": "Moderate",
           "entry_price": 0.042,
           "whale_direction": "Anna Bondar",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Anna Bondar",
+          "resolved_date": "2026-10-02",
           "end_date": "2026-10-02",
           "total_value_usd": 3303.34,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
