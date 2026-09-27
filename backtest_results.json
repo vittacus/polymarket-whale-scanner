@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-27T15:51:02+00:00",
-  "total_signals": 1362,
+  "generated_at": "2026-09-27T19:27:01+00:00",
+  "total_signals": 1363,
   "total_resolved": 1277,
   "total_correct": 796,
   "overall_hit_rate": 62.3,
   "by_tier": {
     "Strong": {
-      "total": 586,
+      "total": 587,
       "resolved": 557,
       "correct": 350,
       "hit_rate": 62.8
@@ -23172,6 +23172,23 @@
       "tier": "Strong",
       "score": 26.4775,
       "total_value_usd": 24019.32,
+      "entry_price": 0.0365,
+      "end_date": "2026-10-04",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xd5d09519dcbc24a5e2dfa65d6cb6a0a6f6682ab23d6f00f7306d666c243af420:1",
+      "condition_id": "0xd5d09519dcbc24a5e2dfa65d6cb6a0a6f6682ab23d6f00f7306d666c243af420",
+      "title": "Tampa Bay Rays vs. Philadelphia Phillies",
+      "category": "MLB",
+      "whale_direction": "Philadelphia Phillies",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 24.2914,
+      "total_value_usd": 90760.09,
       "entry_price": 0.0365,
       "end_date": "2026-10-04",
       "resolved": false,
