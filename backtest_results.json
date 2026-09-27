@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-27T11:22:31+00:00",
-  "total_signals": 1361,
-  "total_resolved": 1275,
-  "total_correct": 795,
-  "overall_hit_rate": 62.4,
+  "generated_at": "2026-09-27T15:51:02+00:00",
+  "total_signals": 1362,
+  "total_resolved": 1277,
+  "total_correct": 796,
+  "overall_hit_rate": 62.3,
   "by_tier": {
     "Strong": {
-      "total": 585,
+      "total": 586,
       "resolved": 557,
       "correct": 350,
       "hit_rate": 62.8
     },
     "Moderate": {
       "total": 705,
-      "resolved": 651,
-      "correct": 406,
-      "hit_rate": 62.4
+      "resolved": 653,
+      "correct": 407,
+      "hit_rate": 62.3
     },
     "Weak": {
       "total": 71,
@@ -23140,10 +23140,10 @@
       "total_value_usd": 139905.22,
       "entry_price": 0.0365,
       "end_date": "2026-10-04",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Leylah Fernandez",
+      "resolved_date": "2026-10-04"
     },
     {
       "signal_key": "0xf414c76ccd91e719aba4eca76e307b5d2d61c310c89339838c32cdfe2e3a670a:1",
@@ -23155,6 +23155,23 @@
       "tier": "Moderate",
       "score": 5.7884,
       "total_value_usd": 15788.63,
+      "entry_price": 0.0365,
+      "end_date": "2026-10-04",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Roman Safiullin",
+      "resolved_date": "2026-10-04"
+    },
+    {
+      "signal_key": "0xa91e7aa625f9bc3fe092931413dba564baea33aab9a923b2c14aace8bbaee320:0",
+      "condition_id": "0xa91e7aa625f9bc3fe092931413dba564baea33aab9a923b2c14aace8bbaee320",
+      "title": "New York Mets vs. Washington Nationals",
+      "category": "MLB",
+      "whale_direction": "New York Mets",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 26.4775,
+      "total_value_usd": 24019.32,
       "entry_price": 0.0365,
       "end_date": "2026-10-04",
       "resolved": false,
