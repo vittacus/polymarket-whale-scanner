@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-27T05:56:44+00:00",
-  "total_signals": 1359,
-  "total_resolved": 1274,
+  "generated_at": "2026-09-27T11:22:31+00:00",
+  "total_signals": 1361,
+  "total_resolved": 1275,
   "total_correct": 795,
   "overall_hit_rate": 62.4,
   "by_tier": {
@@ -12,10 +12,10 @@
       "hit_rate": 62.8
     },
     "Moderate": {
-      "total": 703,
-      "resolved": 650,
+      "total": 705,
+      "resolved": 651,
       "correct": 406,
-      "hit_rate": 62.5
+      "hit_rate": 62.4
     },
     "Weak": {
       "total": 71,
@@ -23121,6 +23121,40 @@
       "tier": "Moderate",
       "score": 4.727,
       "total_value_usd": 14549.14,
+      "entry_price": 0.0365,
+      "end_date": "2026-10-04",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Nikoloz Basilashvili",
+      "resolved_date": "2026-10-04"
+    },
+    {
+      "signal_key": "0x2a45c45e11e9674f3dd5ae0c0c5a3095da10059345fb3cee06b22679e487f111:0",
+      "condition_id": "0x2a45c45e11e9674f3dd5ae0c0c5a3095da10059345fb3cee06b22679e487f111",
+      "title": "Singapore Open: Leylah Fernandez vs Talia Gibson",
+      "category": "Tennis",
+      "whale_direction": "Leylah Fernandez",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 8.3907,
+      "total_value_usd": 139905.22,
+      "entry_price": 0.0365,
+      "end_date": "2026-10-04",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xf414c76ccd91e719aba4eca76e307b5d2d61c310c89339838c32cdfe2e3a670a:1",
+      "condition_id": "0xf414c76ccd91e719aba4eca76e307b5d2d61c310c89339838c32cdfe2e3a670a",
+      "title": "Hangzhou Open: Roman Safiullin vs Yunchaokete Bu",
+      "category": "Tennis",
+      "whale_direction": "Yunchaokete Bu",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 5.7884,
+      "total_value_usd": 15788.63,
       "entry_price": 0.0365,
       "end_date": "2026-10-04",
       "resolved": false,

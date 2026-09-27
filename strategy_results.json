@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-27T05:56:44+00:00",
-  "total_evaluated": 1359,
-  "total_pending": 85,
+  "generated_at": "2026-09-27T11:22:31+00:00",
+  "total_evaluated": 1361,
+  "total_pending": 86,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1359,
+      "signals_evaluated": 1361,
       "correct": 795,
-      "wrong": 479,
-      "pending": 85,
+      "wrong": 480,
+      "pending": 86,
       "win_rate": 62.4,
       "signals": [
         {
@@ -19033,10 +19033,38 @@
           "tier": "Moderate",
           "entry_price": 0.0365,
           "whale_direction": "Jenson Brooksby",
+          "resolved_outcome": "Nikoloz Basilashvili",
+          "resolved_date": "2026-10-04",
+          "end_date": "2026-10-04",
+          "total_value_usd": 14549.14,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x2a45c45e11e9674f3dd5ae0c0c5a3095da10059345fb3cee06b22679e487f111:0",
+          "condition_id": "0x2a45c45e11e9674f3dd5ae0c0c5a3095da10059345fb3cee06b22679e487f111",
+          "title": "Singapore Open: Leylah Fernandez vs Talia Gibson",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0365,
+          "whale_direction": "Leylah Fernandez",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-10-04",
-          "total_value_usd": 14549.14,
+          "total_value_usd": 139905.22,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf414c76ccd91e719aba4eca76e307b5d2d61c310c89339838c32cdfe2e3a670a:1",
+          "condition_id": "0xf414c76ccd91e719aba4eca76e307b5d2d61c310c89339838c32cdfe2e3a670a",
+          "title": "Hangzhou Open: Roman Safiullin vs Yunchaokete Bu",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0365,
+          "whale_direction": "Yunchaokete Bu",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-04",
+          "total_value_usd": 15788.63,
           "result": "pending"
         }
       ]
@@ -19045,11 +19073,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 689,
+      "signals_evaluated": 691,
       "correct": 390,
-      "wrong": 237,
-      "pending": 62,
-      "win_rate": 62.2,
+      "wrong": 238,
+      "pending": 63,
+      "win_rate": 62.1,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -28691,10 +28719,38 @@
           "tier": "Moderate",
           "entry_price": 0.0365,
           "whale_direction": "Jenson Brooksby",
+          "resolved_outcome": "Nikoloz Basilashvili",
+          "resolved_date": "2026-10-04",
+          "end_date": "2026-10-04",
+          "total_value_usd": 14549.14,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x2a45c45e11e9674f3dd5ae0c0c5a3095da10059345fb3cee06b22679e487f111:0",
+          "condition_id": "0x2a45c45e11e9674f3dd5ae0c0c5a3095da10059345fb3cee06b22679e487f111",
+          "title": "Singapore Open: Leylah Fernandez vs Talia Gibson",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0365,
+          "whale_direction": "Leylah Fernandez",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-10-04",
-          "total_value_usd": 14549.14,
+          "total_value_usd": 139905.22,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf414c76ccd91e719aba4eca76e307b5d2d61c310c89339838c32cdfe2e3a670a:1",
+          "condition_id": "0xf414c76ccd91e719aba4eca76e307b5d2d61c310c89339838c32cdfe2e3a670a",
+          "title": "Hangzhou Open: Roman Safiullin vs Yunchaokete Bu",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0365,
+          "whale_direction": "Yunchaokete Bu",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-04",
+          "total_value_usd": 15788.63,
           "result": "pending"
         }
       ]
@@ -28703,11 +28759,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 689,
-      "correct": 237,
+      "signals_evaluated": 691,
+      "correct": 238,
       "wrong": 390,
-      "pending": 62,
-      "win_rate": 37.8,
+      "pending": 63,
+      "win_rate": 37.9,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -38349,10 +38405,38 @@
           "tier": "Moderate",
           "entry_price": 0.0365,
           "whale_direction": "Jenson Brooksby",
+          "resolved_outcome": "Nikoloz Basilashvili",
+          "resolved_date": "2026-10-04",
+          "end_date": "2026-10-04",
+          "total_value_usd": 14549.14,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x2a45c45e11e9674f3dd5ae0c0c5a3095da10059345fb3cee06b22679e487f111:0",
+          "condition_id": "0x2a45c45e11e9674f3dd5ae0c0c5a3095da10059345fb3cee06b22679e487f111",
+          "title": "Singapore Open: Leylah Fernandez vs Talia Gibson",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0365,
+          "whale_direction": "Leylah Fernandez",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-10-04",
-          "total_value_usd": 14549.14,
+          "total_value_usd": 139905.22,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf414c76ccd91e719aba4eca76e307b5d2d61c310c89339838c32cdfe2e3a670a:1",
+          "condition_id": "0xf414c76ccd91e719aba4eca76e307b5d2d61c310c89339838c32cdfe2e3a670a",
+          "title": "Hangzhou Open: Roman Safiullin vs Yunchaokete Bu",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0365,
+          "whale_direction": "Yunchaokete Bu",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-04",
+          "total_value_usd": 15788.63,
           "result": "pending"
         }
       ]
