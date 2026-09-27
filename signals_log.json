@@ -368581,5 +368581,201 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-09-27T05:45:52+00:00",
+    "whale_timeframes": {
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x821dab0565ebf5b327f51db06223fdcfe01acf16": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd84d7f9262516865553555751609fb6f52abec6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84cfffc3f16dcc353094de30d4a45226eccd2f63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x39d3c773be30fcc73161fc6768f46d563a779ef0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7ad71d79a3bb90d0a87a06500fa0fe11663842aa": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc8075693f48668a264b9fa313b47f52712fcc12b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x27f738fe203827445690339104aae35b20bc44b0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe5b70fd855af9258d9463992e4f1ed7987905ee3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc69bd5567b40ef4d11922eaa57e1f9be1c642076": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf1528f12e645462c344799b62b1b421a6a4c64aa": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7c37b52eb226bcb9411375ec48b0169663fb6aeb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xd552a5135b5927972a646c1d93d72e972089985d285e222f34be5a9f78591799:1",
+        "condition_id": "0xd552a5135b5927972a646c1d93d72e972089985d285e222f34be5a9f78591799",
+        "title": "Spread: Eagles (-4.5)",
+        "outcome": "Bears",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x67542c3219b37fd1610aad290676ff91cdbfe3bc"
+        ],
+        "ranks": [
+          1,
+          2,
+          4
+        ],
+        "total_value_usd": 7765.85,
+        "score": 27.4327,
+        "category": "NFL (All)",
+        "end_date": "2026-09-29",
+        "entry_price": 0.0365
+      },
+      {
+        "signal_key": "0x3ce1a8eb83552ffab3794a33b4ab7d7da750a9cd2246da324b37c5e5b0478575:0",
+        "condition_id": "0x3ce1a8eb83552ffab3794a33b4ab7d7da750a9cd2246da324b37c5e5b0478575",
+        "title": "Eagles vs. Bears",
+        "outcome": "Eagles",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x27f738fe203827445690339104aae35b20bc44b0"
+        ],
+        "ranks": [
+          1,
+          2,
+          14
+        ],
+        "total_value_usd": 20347.14,
+        "score": 27.282,
+        "category": "NFL (All)",
+        "end_date": "2026-09-29",
+        "entry_price": 0.0435
+      },
+      {
+        "signal_key": "0x683feed0df35755c7c4c1b687101f82eb097a36741c5fe8978ec5712f9caad45:0",
+        "condition_id": "0x683feed0df35755c7c4c1b687101f82eb097a36741c5fe8978ec5712f9caad45",
+        "title": "Chengdu Open: Jenson Brooksby vs Nikoloz Basilashvili",
+        "outcome": "Jenson Brooksby",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16",
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294"
+        ],
+        "ranks": [
+          6,
+          16,
+          19
+        ],
+        "total_value_usd": 14549.14,
+        "score": 4.727,
+        "category": "Tennis",
+        "end_date": "2026-10-04",
+        "entry_price": 0.0365
+      }
+    ]
   }
 ]

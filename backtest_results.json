@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-27T00:46:03+00:00",
-  "total_signals": 1357,
-  "total_resolved": 1273,
+  "generated_at": "2026-09-27T05:56:44+00:00",
+  "total_signals": 1359,
+  "total_resolved": 1274,
   "total_correct": 795,
-  "overall_hit_rate": 62.5,
+  "overall_hit_rate": 62.4,
   "by_tier": {
     "Strong": {
-      "total": 584,
-      "resolved": 556,
+      "total": 585,
+      "resolved": 557,
       "correct": 350,
-      "hit_rate": 62.9
+      "hit_rate": 62.8
     },
     "Moderate": {
-      "total": 702,
+      "total": 703,
       "resolved": 650,
       "correct": 406,
       "hit_rate": 62.5
@@ -22290,10 +22290,10 @@
       "total_value_usd": 37049.36,
       "entry_price": 0.0445,
       "end_date": "2026-09-27",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Under",
+      "resolved_date": "2026-09-27"
     },
     {
       "signal_key": "0x185a60d0897ce533cc31020f8bacc0e2c44d8ed4863ef97e200aa51ba2b7d4b1:0",
@@ -23093,6 +23093,40 @@
       "correct": true,
       "resolved_outcome": "Anna Bondar",
       "resolved_date": "2026-10-02"
+    },
+    {
+      "signal_key": "0xd552a5135b5927972a646c1d93d72e972089985d285e222f34be5a9f78591799:1",
+      "condition_id": "0xd552a5135b5927972a646c1d93d72e972089985d285e222f34be5a9f78591799",
+      "title": "Spread: Eagles (-4.5)",
+      "category": "NFL (All)",
+      "whale_direction": "Bears",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 27.4327,
+      "total_value_usd": 7765.85,
+      "entry_price": 0.0365,
+      "end_date": "2026-09-29",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x683feed0df35755c7c4c1b687101f82eb097a36741c5fe8978ec5712f9caad45:0",
+      "condition_id": "0x683feed0df35755c7c4c1b687101f82eb097a36741c5fe8978ec5712f9caad45",
+      "title": "Chengdu Open: Jenson Brooksby vs Nikoloz Basilashvili",
+      "category": "Tennis",
+      "whale_direction": "Jenson Brooksby",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 4.727,
+      "total_value_usd": 14549.14,
+      "entry_price": 0.0365,
+      "end_date": "2026-10-04",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }

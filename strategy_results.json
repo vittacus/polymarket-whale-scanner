@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-27T00:46:03+00:00",
-  "total_evaluated": 1357,
-  "total_pending": 84,
+  "generated_at": "2026-09-27T05:56:44+00:00",
+  "total_evaluated": 1359,
+  "total_pending": 85,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1357,
+      "signals_evaluated": 1359,
       "correct": 795,
-      "wrong": 478,
-      "pending": 84,
-      "win_rate": 62.5,
+      "wrong": 479,
+      "pending": 85,
+      "win_rate": 62.4,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -18347,11 +18347,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Over",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Under",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 37049.36,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x185a60d0897ce533cc31020f8bacc0e2c44d8ed4863ef97e200aa51ba2b7d4b1:0",
@@ -19010,6 +19010,34 @@
           "end_date": "2026-10-02",
           "total_value_usd": 3303.34,
           "result": "correct"
+        },
+        {
+          "signal_key": "0xd552a5135b5927972a646c1d93d72e972089985d285e222f34be5a9f78591799:1",
+          "condition_id": "0xd552a5135b5927972a646c1d93d72e972089985d285e222f34be5a9f78591799",
+          "title": "Spread: Eagles (-4.5)",
+          "category": "NFL (All)",
+          "tier": "Strong",
+          "entry_price": 0.0365,
+          "whale_direction": "Bears",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-29",
+          "total_value_usd": 7765.85,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x683feed0df35755c7c4c1b687101f82eb097a36741c5fe8978ec5712f9caad45:0",
+          "condition_id": "0x683feed0df35755c7c4c1b687101f82eb097a36741c5fe8978ec5712f9caad45",
+          "title": "Chengdu Open: Jenson Brooksby vs Nikoloz Basilashvili",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0365,
+          "whale_direction": "Jenson Brooksby",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-04",
+          "total_value_usd": 14549.14,
+          "result": "pending"
         }
       ]
     },
@@ -19017,11 +19045,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 687,
+      "signals_evaluated": 689,
       "correct": 390,
-      "wrong": 236,
-      "pending": 61,
-      "win_rate": 62.3,
+      "wrong": 237,
+      "pending": 62,
+      "win_rate": 62.2,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -27977,11 +28005,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Over",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Under",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 37049.36,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x185a60d0897ce533cc31020f8bacc0e2c44d8ed4863ef97e200aa51ba2b7d4b1:0",
@@ -28640,6 +28668,34 @@
           "end_date": "2026-10-02",
           "total_value_usd": 3303.34,
           "result": "correct"
+        },
+        {
+          "signal_key": "0xd552a5135b5927972a646c1d93d72e972089985d285e222f34be5a9f78591799:1",
+          "condition_id": "0xd552a5135b5927972a646c1d93d72e972089985d285e222f34be5a9f78591799",
+          "title": "Spread: Eagles (-4.5)",
+          "category": "NFL (All)",
+          "tier": "Strong",
+          "entry_price": 0.0365,
+          "whale_direction": "Bears",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-29",
+          "total_value_usd": 7765.85,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x683feed0df35755c7c4c1b687101f82eb097a36741c5fe8978ec5712f9caad45:0",
+          "condition_id": "0x683feed0df35755c7c4c1b687101f82eb097a36741c5fe8978ec5712f9caad45",
+          "title": "Chengdu Open: Jenson Brooksby vs Nikoloz Basilashvili",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0365,
+          "whale_direction": "Jenson Brooksby",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-04",
+          "total_value_usd": 14549.14,
+          "result": "pending"
         }
       ]
     },
@@ -28647,11 +28703,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 687,
-      "correct": 236,
+      "signals_evaluated": 689,
+      "correct": 237,
       "wrong": 390,
-      "pending": 61,
-      "win_rate": 37.7,
+      "pending": 62,
+      "win_rate": 37.8,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -37607,11 +37663,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Over",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Under",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 37049.36,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x185a60d0897ce533cc31020f8bacc0e2c44d8ed4863ef97e200aa51ba2b7d4b1:0",
@@ -38270,6 +38326,34 @@
           "end_date": "2026-10-02",
           "total_value_usd": 3303.34,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0xd552a5135b5927972a646c1d93d72e972089985d285e222f34be5a9f78591799:1",
+          "condition_id": "0xd552a5135b5927972a646c1d93d72e972089985d285e222f34be5a9f78591799",
+          "title": "Spread: Eagles (-4.5)",
+          "category": "NFL (All)",
+          "tier": "Strong",
+          "entry_price": 0.0365,
+          "whale_direction": "Bears",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-09-29",
+          "total_value_usd": 7765.85,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x683feed0df35755c7c4c1b687101f82eb097a36741c5fe8978ec5712f9caad45:0",
+          "condition_id": "0x683feed0df35755c7c4c1b687101f82eb097a36741c5fe8978ec5712f9caad45",
+          "title": "Chengdu Open: Jenson Brooksby vs Nikoloz Basilashvili",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0365,
+          "whale_direction": "Jenson Brooksby",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-04",
+          "total_value_usd": 14549.14,
+          "result": "pending"
         }
       ]
     },
