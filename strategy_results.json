@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-27T19:27:01+00:00",
-  "total_evaluated": 1363,
-  "total_pending": 86,
+  "generated_at": "2026-09-27T22:37:18+00:00",
+  "total_evaluated": 1367,
+  "total_pending": 76,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1363,
-      "correct": 796,
-      "wrong": 481,
-      "pending": 86,
+      "signals_evaluated": 1367,
+      "correct": 804,
+      "wrong": 487,
+      "pending": 76,
       "win_rate": 62.3,
       "signals": [
         {
@@ -18445,11 +18445,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Chiefs",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Chiefs",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 7837.44,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf58048b24d8c5721ebcead0f0968caba593042058bcf8948aaf5d359fa1ade73:1",
@@ -18529,11 +18529,11 @@
           "tier": "Strong",
           "entry_price": 0.0435,
           "whale_direction": "Lions",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lions",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 108174.26,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xaa1b9e9bc1e6b4f1d79e5e15c0451885478e61685bd3b3ff20b27c2cce681e87:0",
@@ -18557,11 +18557,11 @@
           "tier": "Strong",
           "entry_price": 0.0435,
           "whale_direction": "Chiefs",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Chiefs",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 10417.57,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xd09c92cfc4b9dfed170984f10299242e6e83dd775aa4a390bf22ec445e6d479c:0",
@@ -18599,11 +18599,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "Lions",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lions",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 7835.28,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x522f64ea4548bbed0edf8bbb0b59007c1a55e033b76f06cadaa2118afd1bfe9e:0",
@@ -18613,11 +18613,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "Seahawks",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Commanders",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 60911.3,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xf25aa31fd56fa7789570095708b64b62d075705674ae3ba75481399563f918d4:0",
@@ -18683,11 +18683,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "Jaguars",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jaguars",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 32257.17,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x6a998811dcdae6f1f938d6dc64e566a9adbc0a8c2e91f9e952000916f38cc4b9:0",
@@ -18711,11 +18711,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Under",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Over",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 40429.63,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xd0ee09bc3955e774c42df27cc3b4685a483f8498000c2de26625f20fc9ed4f78:1",
@@ -18725,11 +18725,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Jets",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lions",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 49810.61,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xf7abe329b5bea6a7706fa70041a935053436df8d736a68a63d171a43f360afd3:0",
@@ -18739,11 +18739,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Lions",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jets",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 11021.25,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x6a998811dcdae6f1f938d6dc64e566a9adbc0a8c2e91f9e952000916f38cc4b9:1",
@@ -18851,11 +18851,11 @@
           "tier": "Strong",
           "entry_price": 0.042,
           "whale_direction": "Dolphins",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Chiefs",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 27590.59,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xbfa58160762354b2f56734ee8f0aa22d413b52f6f8fdb599457c13e375d88eb4:0",
@@ -18921,11 +18921,11 @@
           "tier": "Moderate",
           "entry_price": 0.042,
           "whale_direction": "Under",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Under",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 38838.14,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xe78c05c4c1d08a6a37045906edfc5595b1bd364d36ec1d96bd59ecef89a66aac:0",
@@ -18949,11 +18949,11 @@
           "tier": "Moderate",
           "entry_price": 0.042,
           "whale_direction": "Giants",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Giants",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 8995.93,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x2ceeb57608aac6f5ec5cbb76137e9bb00789fea3b2049efde9c723b64c5194fb:1",
@@ -19075,11 +19075,11 @@
           "tier": "Strong",
           "entry_price": 0.0365,
           "whale_direction": "New York Mets",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Washington Nationals",
+          "resolved_date": "2026-10-04",
           "end_date": "2026-10-04",
           "total_value_usd": 24019.32,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xd5d09519dcbc24a5e2dfa65d6cb6a0a6f6682ab23d6f00f7306d666c243af420:1",
@@ -19089,10 +19089,66 @@
           "tier": "Strong",
           "entry_price": 0.0365,
           "whale_direction": "Philadelphia Phillies",
+          "resolved_outcome": "Philadelphia Phillies",
+          "resolved_date": "2026-10-04",
+          "end_date": "2026-10-04",
+          "total_value_usd": 90760.09,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x1e115ec95fbcaa0c96afee1ce0fc397d7773132f97ba003e3f1a9137d5d6e27b:1",
+          "condition_id": "0x1e115ec95fbcaa0c96afee1ce0fc397d7773132f97ba003e3f1a9137d5d6e27b",
+          "title": "Arizona Diamondbacks vs. San Diego Padres",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0365,
+          "whale_direction": "San Diego Padres",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-10-04",
-          "total_value_usd": 90760.09,
+          "total_value_usd": 75061.28,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xdbd8a8ee2cc6cc4242ae46727dd199eec2a1c8d87a182ab802c01894f884d7cf:0",
+          "condition_id": "0xdbd8a8ee2cc6cc4242ae46727dd199eec2a1c8d87a182ab802c01894f884d7cf",
+          "title": "Los Angeles Dodgers vs. San Francisco Giants",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0365,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-04",
+          "total_value_usd": 25006.27,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf44cf137562b90cf6205e0b81a03aa63001c491e4d8f04c0098bfb9233f9d04f:1",
+          "condition_id": "0xf44cf137562b90cf6205e0b81a03aa63001c491e4d8f04c0098bfb9233f9d04f",
+          "title": "Will Philadelphia 76ers win the 2027 NBA Finals?",
+          "category": "NBA Finals",
+          "tier": "Moderate",
+          "entry_price": 0.0365,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2027-07-01",
+          "total_value_usd": 62024.76,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x747146a2c8e5bc983efe6f3f1942dd07279800f2d035df06acec164c39f8b71f:1",
+          "condition_id": "0x747146a2c8e5bc983efe6f3f1942dd07279800f2d035df06acec164c39f8b71f",
+          "title": "Los Angeles Angels vs. Seattle Mariners",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0365,
+          "whale_direction": "Seattle Mariners",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-04",
+          "total_value_usd": 31599.65,
           "result": "pending"
         }
       ]
@@ -19101,11 +19157,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 693,
-      "correct": 391,
-      "wrong": 239,
-      "pending": 63,
-      "win_rate": 62.1,
+      "signals_evaluated": 697,
+      "correct": 399,
+      "wrong": 245,
+      "pending": 53,
+      "win_rate": 62.0,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -28159,11 +28215,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Chiefs",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Chiefs",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 7837.44,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf58048b24d8c5721ebcead0f0968caba593042058bcf8948aaf5d359fa1ade73:1",
@@ -28243,11 +28299,11 @@
           "tier": "Strong",
           "entry_price": 0.0435,
           "whale_direction": "Lions",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lions",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 108174.26,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xaa1b9e9bc1e6b4f1d79e5e15c0451885478e61685bd3b3ff20b27c2cce681e87:0",
@@ -28271,11 +28327,11 @@
           "tier": "Strong",
           "entry_price": 0.0435,
           "whale_direction": "Chiefs",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Chiefs",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 10417.57,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xd09c92cfc4b9dfed170984f10299242e6e83dd775aa4a390bf22ec445e6d479c:0",
@@ -28313,11 +28369,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "Lions",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lions",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 7835.28,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x522f64ea4548bbed0edf8bbb0b59007c1a55e033b76f06cadaa2118afd1bfe9e:0",
@@ -28327,11 +28383,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "Seahawks",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Commanders",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 60911.3,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xf25aa31fd56fa7789570095708b64b62d075705674ae3ba75481399563f918d4:0",
@@ -28397,11 +28453,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "Jaguars",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jaguars",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 32257.17,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x6a998811dcdae6f1f938d6dc64e566a9adbc0a8c2e91f9e952000916f38cc4b9:0",
@@ -28425,11 +28481,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Under",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Over",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 40429.63,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xd0ee09bc3955e774c42df27cc3b4685a483f8498000c2de26625f20fc9ed4f78:1",
@@ -28439,11 +28495,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Jets",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lions",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 49810.61,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xf7abe329b5bea6a7706fa70041a935053436df8d736a68a63d171a43f360afd3:0",
@@ -28453,11 +28509,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Lions",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jets",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 11021.25,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x6a998811dcdae6f1f938d6dc64e566a9adbc0a8c2e91f9e952000916f38cc4b9:1",
@@ -28565,11 +28621,11 @@
           "tier": "Strong",
           "entry_price": 0.042,
           "whale_direction": "Dolphins",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Chiefs",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 27590.59,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xbfa58160762354b2f56734ee8f0aa22d413b52f6f8fdb599457c13e375d88eb4:0",
@@ -28635,11 +28691,11 @@
           "tier": "Moderate",
           "entry_price": 0.042,
           "whale_direction": "Under",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Under",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 38838.14,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xe78c05c4c1d08a6a37045906edfc5595b1bd364d36ec1d96bd59ecef89a66aac:0",
@@ -28663,11 +28719,11 @@
           "tier": "Moderate",
           "entry_price": 0.042,
           "whale_direction": "Giants",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Giants",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 8995.93,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x2ceeb57608aac6f5ec5cbb76137e9bb00789fea3b2049efde9c723b64c5194fb:1",
@@ -28789,11 +28845,11 @@
           "tier": "Strong",
           "entry_price": 0.0365,
           "whale_direction": "New York Mets",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Washington Nationals",
+          "resolved_date": "2026-10-04",
           "end_date": "2026-10-04",
           "total_value_usd": 24019.32,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xd5d09519dcbc24a5e2dfa65d6cb6a0a6f6682ab23d6f00f7306d666c243af420:1",
@@ -28803,10 +28859,66 @@
           "tier": "Strong",
           "entry_price": 0.0365,
           "whale_direction": "Philadelphia Phillies",
+          "resolved_outcome": "Philadelphia Phillies",
+          "resolved_date": "2026-10-04",
+          "end_date": "2026-10-04",
+          "total_value_usd": 90760.09,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x1e115ec95fbcaa0c96afee1ce0fc397d7773132f97ba003e3f1a9137d5d6e27b:1",
+          "condition_id": "0x1e115ec95fbcaa0c96afee1ce0fc397d7773132f97ba003e3f1a9137d5d6e27b",
+          "title": "Arizona Diamondbacks vs. San Diego Padres",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0365,
+          "whale_direction": "San Diego Padres",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-10-04",
-          "total_value_usd": 90760.09,
+          "total_value_usd": 75061.28,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xdbd8a8ee2cc6cc4242ae46727dd199eec2a1c8d87a182ab802c01894f884d7cf:0",
+          "condition_id": "0xdbd8a8ee2cc6cc4242ae46727dd199eec2a1c8d87a182ab802c01894f884d7cf",
+          "title": "Los Angeles Dodgers vs. San Francisco Giants",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0365,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-04",
+          "total_value_usd": 25006.27,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf44cf137562b90cf6205e0b81a03aa63001c491e4d8f04c0098bfb9233f9d04f:1",
+          "condition_id": "0xf44cf137562b90cf6205e0b81a03aa63001c491e4d8f04c0098bfb9233f9d04f",
+          "title": "Will Philadelphia 76ers win the 2027 NBA Finals?",
+          "category": "NBA Finals",
+          "tier": "Moderate",
+          "entry_price": 0.0365,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2027-07-01",
+          "total_value_usd": 62024.76,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x747146a2c8e5bc983efe6f3f1942dd07279800f2d035df06acec164c39f8b71f:1",
+          "condition_id": "0x747146a2c8e5bc983efe6f3f1942dd07279800f2d035df06acec164c39f8b71f",
+          "title": "Los Angeles Angels vs. Seattle Mariners",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0365,
+          "whale_direction": "Seattle Mariners",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-04",
+          "total_value_usd": 31599.65,
           "result": "pending"
         }
       ]
@@ -28815,11 +28927,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 693,
-      "correct": 239,
-      "wrong": 391,
-      "pending": 63,
-      "win_rate": 37.9,
+      "signals_evaluated": 697,
+      "correct": 245,
+      "wrong": 399,
+      "pending": 53,
+      "win_rate": 38.0,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -37873,11 +37985,11 @@
           "tier": "Strong",
           "entry_price": 0.0445,
           "whale_direction": "Chiefs",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Chiefs",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 7837.44,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xf58048b24d8c5721ebcead0f0968caba593042058bcf8948aaf5d359fa1ade73:1",
@@ -37957,11 +38069,11 @@
           "tier": "Strong",
           "entry_price": 0.0435,
           "whale_direction": "Lions",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lions",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 108174.26,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xaa1b9e9bc1e6b4f1d79e5e15c0451885478e61685bd3b3ff20b27c2cce681e87:0",
@@ -37985,11 +38097,11 @@
           "tier": "Strong",
           "entry_price": 0.0435,
           "whale_direction": "Chiefs",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Chiefs",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 10417.57,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xd09c92cfc4b9dfed170984f10299242e6e83dd775aa4a390bf22ec445e6d479c:0",
@@ -38027,11 +38139,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "Lions",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lions",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 7835.28,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x522f64ea4548bbed0edf8bbb0b59007c1a55e033b76f06cadaa2118afd1bfe9e:0",
@@ -38041,11 +38153,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "Seahawks",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Commanders",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 60911.3,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf25aa31fd56fa7789570095708b64b62d075705674ae3ba75481399563f918d4:0",
@@ -38111,11 +38223,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "Jaguars",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jaguars",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 32257.17,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x6a998811dcdae6f1f938d6dc64e566a9adbc0a8c2e91f9e952000916f38cc4b9:0",
@@ -38139,11 +38251,11 @@
           "tier": "Strong",
           "entry_price": 0.0425,
           "whale_direction": "Under",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Over",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 40429.63,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xd0ee09bc3955e774c42df27cc3b4685a483f8498000c2de26625f20fc9ed4f78:1",
@@ -38153,11 +38265,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Jets",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lions",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 49810.61,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf7abe329b5bea6a7706fa70041a935053436df8d736a68a63d171a43f360afd3:0",
@@ -38167,11 +38279,11 @@
           "tier": "Moderate",
           "entry_price": 0.0425,
           "whale_direction": "Lions",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jets",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 11021.25,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x6a998811dcdae6f1f938d6dc64e566a9adbc0a8c2e91f9e952000916f38cc4b9:1",
@@ -38279,11 +38391,11 @@
           "tier": "Strong",
           "entry_price": 0.042,
           "whale_direction": "Dolphins",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Chiefs",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 27590.59,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xbfa58160762354b2f56734ee8f0aa22d413b52f6f8fdb599457c13e375d88eb4:0",
@@ -38349,11 +38461,11 @@
           "tier": "Moderate",
           "entry_price": 0.042,
           "whale_direction": "Under",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Under",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 38838.14,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xe78c05c4c1d08a6a37045906edfc5595b1bd364d36ec1d96bd59ecef89a66aac:0",
@@ -38377,11 +38489,11 @@
           "tier": "Moderate",
           "entry_price": 0.042,
           "whale_direction": "Giants",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Giants",
+          "resolved_date": "2026-09-27",
           "end_date": "2026-09-27",
           "total_value_usd": 8995.93,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x2ceeb57608aac6f5ec5cbb76137e9bb00789fea3b2049efde9c723b64c5194fb:1",
@@ -38503,11 +38615,11 @@
           "tier": "Strong",
           "entry_price": 0.0365,
           "whale_direction": "New York Mets",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Washington Nationals",
+          "resolved_date": "2026-10-04",
           "end_date": "2026-10-04",
           "total_value_usd": 24019.32,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xd5d09519dcbc24a5e2dfa65d6cb6a0a6f6682ab23d6f00f7306d666c243af420:1",
@@ -38517,10 +38629,66 @@
           "tier": "Strong",
           "entry_price": 0.0365,
           "whale_direction": "Philadelphia Phillies",
+          "resolved_outcome": "Philadelphia Phillies",
+          "resolved_date": "2026-10-04",
+          "end_date": "2026-10-04",
+          "total_value_usd": 90760.09,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x1e115ec95fbcaa0c96afee1ce0fc397d7773132f97ba003e3f1a9137d5d6e27b:1",
+          "condition_id": "0x1e115ec95fbcaa0c96afee1ce0fc397d7773132f97ba003e3f1a9137d5d6e27b",
+          "title": "Arizona Diamondbacks vs. San Diego Padres",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0365,
+          "whale_direction": "San Diego Padres",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-10-04",
-          "total_value_usd": 90760.09,
+          "total_value_usd": 75061.28,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xdbd8a8ee2cc6cc4242ae46727dd199eec2a1c8d87a182ab802c01894f884d7cf:0",
+          "condition_id": "0xdbd8a8ee2cc6cc4242ae46727dd199eec2a1c8d87a182ab802c01894f884d7cf",
+          "title": "Los Angeles Dodgers vs. San Francisco Giants",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0365,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-04",
+          "total_value_usd": 25006.27,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf44cf137562b90cf6205e0b81a03aa63001c491e4d8f04c0098bfb9233f9d04f:1",
+          "condition_id": "0xf44cf137562b90cf6205e0b81a03aa63001c491e4d8f04c0098bfb9233f9d04f",
+          "title": "Will Philadelphia 76ers win the 2027 NBA Finals?",
+          "category": "NBA Finals",
+          "tier": "Moderate",
+          "entry_price": 0.0365,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2027-07-01",
+          "total_value_usd": 62024.76,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x747146a2c8e5bc983efe6f3f1942dd07279800f2d035df06acec164c39f8b71f:1",
+          "condition_id": "0x747146a2c8e5bc983efe6f3f1942dd07279800f2d035df06acec164c39f8b71f",
+          "title": "Los Angeles Angels vs. Seattle Mariners",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0365,
+          "whale_direction": "Seattle Mariners",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-04",
+          "total_value_usd": 31599.65,
           "result": "pending"
         }
       ]
