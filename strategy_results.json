@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-26T22:14:01+00:00",
+  "generated_at": "2026-09-27T00:46:03+00:00",
   "total_evaluated": 1357,
-  "total_pending": 86,
+  "total_pending": 84,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 1357,
-      "correct": 794,
-      "wrong": 477,
-      "pending": 86,
+      "correct": 795,
+      "wrong": 478,
+      "pending": 84,
       "win_rate": 62.5,
       "signals": [
         {
@@ -18305,11 +18305,11 @@
           "tier": "Strong",
           "entry_price": 0.0435,
           "whale_direction": "Ole Miss",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Florida",
+          "resolved_date": "2026-09-26",
           "end_date": "2026-09-26",
           "total_value_usd": 66807.55,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x6d8649e086c8b94f81bf6e94afdb26eceee05991a22b4f8249b75ca9fad012e0:0",
@@ -18403,11 +18403,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Wyoming",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Wyoming",
+          "resolved_date": "2026-09-26",
           "end_date": "2026-09-26",
           "total_value_usd": 30212.42,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xcb169452dc1771cc194ad61634b529c6df933c76b99fd28782f1c77f71f94955:1",
@@ -19018,9 +19018,9 @@
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 687,
-      "correct": 389,
-      "wrong": 235,
-      "pending": 63,
+      "correct": 390,
+      "wrong": 236,
+      "pending": 61,
       "win_rate": 62.3,
       "signals": [
         {
@@ -27935,11 +27935,11 @@
           "tier": "Strong",
           "entry_price": 0.0435,
           "whale_direction": "Ole Miss",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Florida",
+          "resolved_date": "2026-09-26",
           "end_date": "2026-09-26",
           "total_value_usd": 66807.55,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x6d8649e086c8b94f81bf6e94afdb26eceee05991a22b4f8249b75ca9fad012e0:0",
@@ -28033,11 +28033,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Wyoming",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Wyoming",
+          "resolved_date": "2026-09-26",
           "end_date": "2026-09-26",
           "total_value_usd": 30212.42,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xcb169452dc1771cc194ad61634b529c6df933c76b99fd28782f1c77f71f94955:1",
@@ -28648,9 +28648,9 @@
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 687,
-      "correct": 235,
-      "wrong": 389,
-      "pending": 63,
+      "correct": 236,
+      "wrong": 390,
+      "pending": 61,
       "win_rate": 37.7,
       "signals": [
         {
@@ -37565,11 +37565,11 @@
           "tier": "Strong",
           "entry_price": 0.0435,
           "whale_direction": "Ole Miss",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Florida",
+          "resolved_date": "2026-09-26",
           "end_date": "2026-09-26",
           "total_value_usd": 66807.55,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x6d8649e086c8b94f81bf6e94afdb26eceee05991a22b4f8249b75ca9fad012e0:0",
@@ -37663,11 +37663,11 @@
           "tier": "Moderate",
           "entry_price": 0.0445,
           "whale_direction": "Wyoming",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Wyoming",
+          "resolved_date": "2026-09-26",
           "end_date": "2026-09-26",
           "total_value_usd": 30212.42,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xcb169452dc1771cc194ad61634b529c6df933c76b99fd28782f1c77f71f94955:1",

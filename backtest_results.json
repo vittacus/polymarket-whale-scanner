@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-26T22:14:01+00:00",
+  "generated_at": "2026-09-27T00:46:03+00:00",
   "total_signals": 1357,
-  "total_resolved": 1271,
-  "total_correct": 794,
+  "total_resolved": 1273,
+  "total_correct": 795,
   "overall_hit_rate": 62.5,
   "by_tier": {
     "Strong": {
       "total": 584,
-      "resolved": 555,
+      "resolved": 556,
       "correct": 350,
-      "hit_rate": 63.1
+      "hit_rate": 62.9
     },
     "Moderate": {
       "total": 702,
-      "resolved": 649,
-      "correct": 405,
-      "hit_rate": 62.4
+      "resolved": 650,
+      "correct": 406,
+      "hit_rate": 62.5
     },
     "Weak": {
       "total": 71,
@@ -22239,10 +22239,10 @@
       "total_value_usd": 66807.55,
       "entry_price": 0.0435,
       "end_date": "2026-09-26",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Florida",
+      "resolved_date": "2026-09-26"
     },
     {
       "signal_key": "0x6d8649e086c8b94f81bf6e94afdb26eceee05991a22b4f8249b75ca9fad012e0:0",
@@ -22358,10 +22358,10 @@
       "total_value_usd": 30212.42,
       "entry_price": 0.0445,
       "end_date": "2026-09-26",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Wyoming",
+      "resolved_date": "2026-09-26"
     },
     {
       "signal_key": "0xcb169452dc1771cc194ad61634b529c6df933c76b99fd28782f1c77f71f94955:1",
