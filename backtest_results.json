@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-28T06:46:32+00:00",
-  "total_signals": 1369,
-  "total_resolved": 1302,
-  "total_correct": 811,
+  "generated_at": "2026-09-28T14:40:40+00:00",
+  "total_signals": 1370,
+  "total_resolved": 1304,
+  "total_correct": 813,
   "overall_hit_rate": 62.3,
   "by_tier": {
     "Strong": {
-      "total": 589,
+      "total": 590,
       "resolved": 567,
       "correct": 357,
       "hit_rate": 63.0
     },
     "Moderate": {
       "total": 709,
-      "resolved": 668,
-      "correct": 415,
-      "hit_rate": 62.1
+      "resolved": 670,
+      "correct": 417,
+      "hit_rate": 62.2
     },
     "Weak": {
       "total": 71,
@@ -23276,10 +23276,10 @@
       "total_value_usd": 279383.58,
       "entry_price": 0.0365,
       "end_date": "2026-10-05",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Tomas Machac",
+      "resolved_date": "2026-10-05"
     },
     {
       "signal_key": "0xbf56cb4134aeb16aadc93936d8f4ee0382c3136bc30f492da2ab77c801d68cc1:0",
@@ -23292,6 +23292,23 @@
       "score": 9.0178,
       "total_value_usd": 217423.34,
       "entry_price": 0.0365,
+      "end_date": "2026-10-05",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Arthur Fils",
+      "resolved_date": "2026-10-05"
+    },
+    {
+      "signal_key": "0xc382e292fc50958daa5d6692eb998a9936dd39e35dd0a0bf38e194a4da963223:1",
+      "condition_id": "0xc382e292fc50958daa5d6692eb998a9936dd39e35dd0a0bf38e194a4da963223",
+      "title": "Porto 2: Max Basing vs Mili Poljicak",
+      "category": "Tennis",
+      "whale_direction": "Mili Poljicak",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 13.5159,
+      "total_value_usd": 46043.12,
+      "entry_price": 0.0355,
       "end_date": "2026-10-05",
       "resolved": false,
       "correct": null,
