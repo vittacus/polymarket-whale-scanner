@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-28T01:11:42+00:00",
-  "total_signals": 1367,
-  "total_resolved": 1300,
-  "total_correct": 810,
+  "generated_at": "2026-09-28T06:46:32+00:00",
+  "total_signals": 1369,
+  "total_resolved": 1302,
+  "total_correct": 811,
   "overall_hit_rate": 62.3,
   "by_tier": {
     "Strong": {
@@ -12,10 +12,10 @@
       "hit_rate": 63.0
     },
     "Moderate": {
-      "total": 707,
-      "resolved": 666,
-      "correct": 414,
-      "hit_rate": 62.2
+      "total": 709,
+      "resolved": 668,
+      "correct": 415,
+      "hit_rate": 62.1
     },
     "Weak": {
       "total": 71,
@@ -22579,10 +22579,10 @@
       "total_value_usd": 10748.66,
       "entry_price": 0.0435,
       "end_date": "2026-09-28",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Broncos",
+      "resolved_date": "2026-09-28"
     },
     {
       "signal_key": "0xd0ee09bc3955e774c42df27cc3b4685a483f8498000c2de26625f20fc9ed4f78:0",
@@ -22681,10 +22681,10 @@
       "total_value_usd": 20659.5,
       "entry_price": 0.0435,
       "end_date": "2026-09-28",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Broncos",
+      "resolved_date": "2026-09-28"
     },
     {
       "signal_key": "0x4f3ee9d60b94cd5d9db7b0065791cf6498fb968e5c8ecf8562468084d5430b26:0",
@@ -23263,6 +23263,40 @@
       "correct": true,
       "resolved_outcome": "Seattle Mariners",
       "resolved_date": "2026-10-04"
+    },
+    {
+      "signal_key": "0x804b233b0a338e994fc5ed5af23fdb321a5697bb66a887f225699256e6eefbd3:1",
+      "condition_id": "0x804b233b0a338e994fc5ed5af23fdb321a5697bb66a887f225699256e6eefbd3",
+      "title": "China Open, Qualification: Yannick Hanfmann vs Tomas Machac",
+      "category": "Tennis",
+      "whale_direction": "Tomas Machac",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 9.2018,
+      "total_value_usd": 279383.58,
+      "entry_price": 0.0365,
+      "end_date": "2026-10-05",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xbf56cb4134aeb16aadc93936d8f4ee0382c3136bc30f492da2ab77c801d68cc1:0",
+      "condition_id": "0xbf56cb4134aeb16aadc93936d8f4ee0382c3136bc30f492da2ab77c801d68cc1",
+      "title": "Japan Open Tennis Championships, Qualification: Arthur Fils vs Martin Damm",
+      "category": "Tennis",
+      "whale_direction": "Arthur Fils",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 9.0178,
+      "total_value_usd": 217423.34,
+      "entry_price": 0.0365,
+      "end_date": "2026-10-05",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }

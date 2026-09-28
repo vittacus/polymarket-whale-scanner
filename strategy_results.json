@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-28T01:11:42+00:00",
-  "total_evaluated": 1367,
+  "generated_at": "2026-09-28T06:46:33+00:00",
+  "total_evaluated": 1369,
   "total_pending": 67,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1367,
-      "correct": 810,
-      "wrong": 490,
+      "signals_evaluated": 1369,
+      "correct": 811,
+      "wrong": 491,
       "pending": 67,
       "win_rate": 62.3,
       "signals": [
@@ -18585,11 +18585,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "Rams",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Broncos",
+          "resolved_date": "2026-09-28",
           "end_date": "2026-09-28",
           "total_value_usd": 10748.66,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xd0ee09bc3955e774c42df27cc3b4685a483f8498000c2de26625f20fc9ed4f78:0",
@@ -18669,11 +18669,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "Broncos",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Broncos",
+          "resolved_date": "2026-09-28",
           "end_date": "2026-09-28",
           "total_value_usd": 20659.5,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x4f3ee9d60b94cd5d9db7b0065791cf6498fb968e5c8ecf8562468084d5430b26:0",
@@ -19150,6 +19150,34 @@
           "end_date": "2026-10-04",
           "total_value_usd": 31599.65,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x804b233b0a338e994fc5ed5af23fdb321a5697bb66a887f225699256e6eefbd3:1",
+          "condition_id": "0x804b233b0a338e994fc5ed5af23fdb321a5697bb66a887f225699256e6eefbd3",
+          "title": "China Open, Qualification: Yannick Hanfmann vs Tomas Machac",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0365,
+          "whale_direction": "Tomas Machac",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-05",
+          "total_value_usd": 279383.58,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xbf56cb4134aeb16aadc93936d8f4ee0382c3136bc30f492da2ab77c801d68cc1:0",
+          "condition_id": "0xbf56cb4134aeb16aadc93936d8f4ee0382c3136bc30f492da2ab77c801d68cc1",
+          "title": "Japan Open Tennis Championships, Qualification: Arthur Fils vs Martin Damm",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0365,
+          "whale_direction": "Arthur Fils",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-05",
+          "total_value_usd": 217423.34,
+          "result": "pending"
         }
       ]
     },
@@ -19157,9 +19185,9 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 697,
-      "correct": 405,
-      "wrong": 248,
+      "signals_evaluated": 699,
+      "correct": 406,
+      "wrong": 249,
       "pending": 44,
       "win_rate": 62.0,
       "signals": [
@@ -28355,11 +28383,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "Rams",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Broncos",
+          "resolved_date": "2026-09-28",
           "end_date": "2026-09-28",
           "total_value_usd": 10748.66,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xd0ee09bc3955e774c42df27cc3b4685a483f8498000c2de26625f20fc9ed4f78:0",
@@ -28439,11 +28467,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "Broncos",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Broncos",
+          "resolved_date": "2026-09-28",
           "end_date": "2026-09-28",
           "total_value_usd": 20659.5,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x4f3ee9d60b94cd5d9db7b0065791cf6498fb968e5c8ecf8562468084d5430b26:0",
@@ -28920,6 +28948,34 @@
           "end_date": "2026-10-04",
           "total_value_usd": 31599.65,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x804b233b0a338e994fc5ed5af23fdb321a5697bb66a887f225699256e6eefbd3:1",
+          "condition_id": "0x804b233b0a338e994fc5ed5af23fdb321a5697bb66a887f225699256e6eefbd3",
+          "title": "China Open, Qualification: Yannick Hanfmann vs Tomas Machac",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0365,
+          "whale_direction": "Tomas Machac",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-05",
+          "total_value_usd": 279383.58,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xbf56cb4134aeb16aadc93936d8f4ee0382c3136bc30f492da2ab77c801d68cc1:0",
+          "condition_id": "0xbf56cb4134aeb16aadc93936d8f4ee0382c3136bc30f492da2ab77c801d68cc1",
+          "title": "Japan Open Tennis Championships, Qualification: Arthur Fils vs Martin Damm",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0365,
+          "whale_direction": "Arthur Fils",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-05",
+          "total_value_usd": 217423.34,
+          "result": "pending"
         }
       ]
     },
@@ -28927,9 +28983,9 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 697,
-      "correct": 248,
-      "wrong": 405,
+      "signals_evaluated": 699,
+      "correct": 249,
+      "wrong": 406,
       "pending": 44,
       "win_rate": 38.0,
       "signals": [
@@ -38125,11 +38181,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "Rams",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Broncos",
+          "resolved_date": "2026-09-28",
           "end_date": "2026-09-28",
           "total_value_usd": 10748.66,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xd0ee09bc3955e774c42df27cc3b4685a483f8498000c2de26625f20fc9ed4f78:0",
@@ -38209,11 +38265,11 @@
           "tier": "Moderate",
           "entry_price": 0.0435,
           "whale_direction": "Broncos",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Broncos",
+          "resolved_date": "2026-09-28",
           "end_date": "2026-09-28",
           "total_value_usd": 20659.5,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x4f3ee9d60b94cd5d9db7b0065791cf6498fb968e5c8ecf8562468084d5430b26:0",
@@ -38690,6 +38746,34 @@
           "end_date": "2026-10-04",
           "total_value_usd": 31599.65,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x804b233b0a338e994fc5ed5af23fdb321a5697bb66a887f225699256e6eefbd3:1",
+          "condition_id": "0x804b233b0a338e994fc5ed5af23fdb321a5697bb66a887f225699256e6eefbd3",
+          "title": "China Open, Qualification: Yannick Hanfmann vs Tomas Machac",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0365,
+          "whale_direction": "Tomas Machac",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-05",
+          "total_value_usd": 279383.58,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xbf56cb4134aeb16aadc93936d8f4ee0382c3136bc30f492da2ab77c801d68cc1:0",
+          "condition_id": "0xbf56cb4134aeb16aadc93936d8f4ee0382c3136bc30f492da2ab77c801d68cc1",
+          "title": "Japan Open Tennis Championships, Qualification: Arthur Fils vs Martin Damm",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0365,
+          "whale_direction": "Arthur Fils",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-05",
+          "total_value_usd": 217423.34,
+          "result": "pending"
         }
       ]
     },
