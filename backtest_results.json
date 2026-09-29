@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-29T06:22:43+00:00",
+  "generated_at": "2026-09-29T13:04:59+00:00",
   "total_signals": 1374,
-  "total_resolved": 1309,
-  "total_correct": 817,
+  "total_resolved": 1310,
+  "total_correct": 818,
   "overall_hit_rate": 62.4,
   "by_tier": {
     "Strong": {
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 712,
-      "resolved": 671,
-      "correct": 418,
-      "hit_rate": 62.3
+      "resolved": 672,
+      "correct": 419,
+      "hit_rate": 62.4
     },
     "Weak": {
       "total": 71,
@@ -12345,10 +12345,10 @@
       "total_value_usd": 17312.09,
       "entry_price": 0.0455,
       "end_date": "2026-08-12",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Andrea Guerrieri",
-      "resolved_date": "2026-08-12"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x8829c327e1a8115ae11f32d17a2041a4fa9983264e389a4c1cd0c6b92149888a:1",
@@ -23361,10 +23361,10 @@
       "total_value_usd": 33088.06,
       "entry_price": 0.0345,
       "end_date": "2026-10-06",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Alex Molcan",
+      "resolved_date": "2026-10-06"
     },
     {
       "signal_key": "0xf5ef6479b194efb5eacd3864fa1db7c2523ed2b54333c74d6560bdffb81036b5:1",
@@ -23378,10 +23378,10 @@
       "total_value_usd": 22188.76,
       "entry_price": 0.0345,
       "end_date": "2026-10-06",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Han Shi",
+      "resolved_date": "2026-10-06"
     }
   ]
 }
