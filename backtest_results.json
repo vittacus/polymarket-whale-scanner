@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-29T00:44:46+00:00",
-  "total_signals": 1372,
-  "total_resolved": 1307,
-  "total_correct": 816,
+  "generated_at": "2026-09-29T06:22:43+00:00",
+  "total_signals": 1374,
+  "total_resolved": 1309,
+  "total_correct": 817,
   "overall_hit_rate": 62.4,
   "by_tier": {
     "Strong": {
       "total": 591,
-      "resolved": 569,
-      "correct": 359,
-      "hit_rate": 63.1
+      "resolved": 571,
+      "correct": 360,
+      "hit_rate": 63.0
     },
     "Moderate": {
-      "total": 710,
+      "total": 712,
       "resolved": 671,
       "correct": 418,
       "hit_rate": 62.3
@@ -22494,10 +22494,10 @@
       "total_value_usd": 17717.37,
       "entry_price": 0.0435,
       "end_date": "2026-09-29",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Bears",
+      "resolved_date": "2026-09-29"
     },
     {
       "signal_key": "0x9971d93943dc93d5c4a4efe9c2908107fed8d34662d4494e8169c4701df7c819:1",
@@ -23106,10 +23106,10 @@
       "total_value_usd": 7765.85,
       "entry_price": 0.0365,
       "end_date": "2026-09-29",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Bears",
+      "resolved_date": "2026-09-29"
     },
     {
       "signal_key": "0x683feed0df35755c7c4c1b687101f82eb097a36741c5fe8978ec5712f9caad45:0",
@@ -23348,6 +23348,40 @@
       "correct": true,
       "resolved_outcome": "Clement Tabur",
       "resolved_date": "2026-10-05"
+    },
+    {
+      "signal_key": "0x12a1a1e22d57a9700520d2fa55bdd382c7f0d869ed5ae79ff219627dcc91783e:1",
+      "condition_id": "0x12a1a1e22d57a9700520d2fa55bdd382c7f0d869ed5ae79ff219627dcc91783e",
+      "title": "China Open, Qualification: Marco Trungelliti vs Alex Molcan",
+      "category": "Tennis",
+      "whale_direction": "Alex Molcan",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 9.7438,
+      "total_value_usd": 33088.06,
+      "entry_price": 0.0345,
+      "end_date": "2026-10-06",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xf5ef6479b194efb5eacd3864fa1db7c2523ed2b54333c74d6560bdffb81036b5:1",
+      "condition_id": "0xf5ef6479b194efb5eacd3864fa1db7c2523ed2b54333c74d6560bdffb81036b5",
+      "title": "China Open, Qualification: Elvina Kalieva vs Han Shi",
+      "category": "Tennis",
+      "whale_direction": "Han Shi",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 9.3697,
+      "total_value_usd": 22188.76,
+      "entry_price": 0.0345,
+      "end_date": "2026-10-06",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }

@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-29T00:44:46+00:00",
-  "total_evaluated": 1372,
+  "generated_at": "2026-09-29T06:22:43+00:00",
+  "total_evaluated": 1374,
   "total_pending": 65,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1372,
-      "correct": 816,
-      "wrong": 491,
+      "signals_evaluated": 1374,
+      "correct": 817,
+      "wrong": 492,
       "pending": 65,
       "win_rate": 62.4,
       "signals": [
@@ -18515,11 +18515,11 @@
           "tier": "Strong",
           "entry_price": 0.0435,
           "whale_direction": "Eagles",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Bears",
+          "resolved_date": "2026-09-29",
           "end_date": "2026-09-29",
           "total_value_usd": 17717.37,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x9971d93943dc93d5c4a4efe9c2908107fed8d34662d4494e8169c4701df7c819:1",
@@ -19019,11 +19019,11 @@
           "tier": "Strong",
           "entry_price": 0.0365,
           "whale_direction": "Bears",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Bears",
+          "resolved_date": "2026-09-29",
           "end_date": "2026-09-29",
           "total_value_usd": 7765.85,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x683feed0df35755c7c4c1b687101f82eb097a36741c5fe8978ec5712f9caad45:0",
@@ -19220,6 +19220,34 @@
           "end_date": "2026-10-05",
           "total_value_usd": 22606.14,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x12a1a1e22d57a9700520d2fa55bdd382c7f0d869ed5ae79ff219627dcc91783e:1",
+          "condition_id": "0x12a1a1e22d57a9700520d2fa55bdd382c7f0d869ed5ae79ff219627dcc91783e",
+          "title": "China Open, Qualification: Marco Trungelliti vs Alex Molcan",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0345,
+          "whale_direction": "Alex Molcan",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-06",
+          "total_value_usd": 33088.06,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf5ef6479b194efb5eacd3864fa1db7c2523ed2b54333c74d6560bdffb81036b5:1",
+          "condition_id": "0xf5ef6479b194efb5eacd3864fa1db7c2523ed2b54333c74d6560bdffb81036b5",
+          "title": "China Open, Qualification: Elvina Kalieva vs Han Shi",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0345,
+          "whale_direction": "Han Shi",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-06",
+          "total_value_usd": 22188.76,
+          "result": "pending"
         }
       ]
     },
@@ -19227,11 +19255,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 702,
-      "correct": 411,
-      "wrong": 249,
+      "signals_evaluated": 704,
+      "correct": 412,
+      "wrong": 250,
       "pending": 42,
-      "win_rate": 62.3,
+      "win_rate": 62.2,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -28355,11 +28383,11 @@
           "tier": "Strong",
           "entry_price": 0.0435,
           "whale_direction": "Eagles",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Bears",
+          "resolved_date": "2026-09-29",
           "end_date": "2026-09-29",
           "total_value_usd": 17717.37,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x9971d93943dc93d5c4a4efe9c2908107fed8d34662d4494e8169c4701df7c819:1",
@@ -28859,11 +28887,11 @@
           "tier": "Strong",
           "entry_price": 0.0365,
           "whale_direction": "Bears",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Bears",
+          "resolved_date": "2026-09-29",
           "end_date": "2026-09-29",
           "total_value_usd": 7765.85,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x683feed0df35755c7c4c1b687101f82eb097a36741c5fe8978ec5712f9caad45:0",
@@ -29060,6 +29088,34 @@
           "end_date": "2026-10-05",
           "total_value_usd": 22606.14,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x12a1a1e22d57a9700520d2fa55bdd382c7f0d869ed5ae79ff219627dcc91783e:1",
+          "condition_id": "0x12a1a1e22d57a9700520d2fa55bdd382c7f0d869ed5ae79ff219627dcc91783e",
+          "title": "China Open, Qualification: Marco Trungelliti vs Alex Molcan",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0345,
+          "whale_direction": "Alex Molcan",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-06",
+          "total_value_usd": 33088.06,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf5ef6479b194efb5eacd3864fa1db7c2523ed2b54333c74d6560bdffb81036b5:1",
+          "condition_id": "0xf5ef6479b194efb5eacd3864fa1db7c2523ed2b54333c74d6560bdffb81036b5",
+          "title": "China Open, Qualification: Elvina Kalieva vs Han Shi",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0345,
+          "whale_direction": "Han Shi",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-06",
+          "total_value_usd": 22188.76,
+          "result": "pending"
         }
       ]
     },
@@ -29067,11 +29123,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 702,
-      "correct": 249,
-      "wrong": 411,
+      "signals_evaluated": 704,
+      "correct": 250,
+      "wrong": 412,
       "pending": 42,
-      "win_rate": 37.7,
+      "win_rate": 37.8,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -38195,11 +38251,11 @@
           "tier": "Strong",
           "entry_price": 0.0435,
           "whale_direction": "Eagles",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Bears",
+          "resolved_date": "2026-09-29",
           "end_date": "2026-09-29",
           "total_value_usd": 17717.37,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x9971d93943dc93d5c4a4efe9c2908107fed8d34662d4494e8169c4701df7c819:1",
@@ -38699,11 +38755,11 @@
           "tier": "Strong",
           "entry_price": 0.0365,
           "whale_direction": "Bears",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Bears",
+          "resolved_date": "2026-09-29",
           "end_date": "2026-09-29",
           "total_value_usd": 7765.85,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x683feed0df35755c7c4c1b687101f82eb097a36741c5fe8978ec5712f9caad45:0",
@@ -38900,6 +38956,34 @@
           "end_date": "2026-10-05",
           "total_value_usd": 22606.14,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x12a1a1e22d57a9700520d2fa55bdd382c7f0d869ed5ae79ff219627dcc91783e:1",
+          "condition_id": "0x12a1a1e22d57a9700520d2fa55bdd382c7f0d869ed5ae79ff219627dcc91783e",
+          "title": "China Open, Qualification: Marco Trungelliti vs Alex Molcan",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0345,
+          "whale_direction": "Alex Molcan",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-06",
+          "total_value_usd": 33088.06,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf5ef6479b194efb5eacd3864fa1db7c2523ed2b54333c74d6560bdffb81036b5:1",
+          "condition_id": "0xf5ef6479b194efb5eacd3864fa1db7c2523ed2b54333c74d6560bdffb81036b5",
+          "title": "China Open, Qualification: Elvina Kalieva vs Han Shi",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0345,
+          "whale_direction": "Han Shi",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-06",
+          "total_value_usd": 22188.76,
+          "result": "pending"
         }
       ]
     },
