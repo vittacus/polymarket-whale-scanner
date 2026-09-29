@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-28T20:51:14+00:00",
+  "generated_at": "2026-09-29T00:44:46+00:00",
   "total_signals": 1372,
-  "total_resolved": 1305,
-  "total_correct": 814,
+  "total_resolved": 1307,
+  "total_correct": 816,
   "overall_hit_rate": 62.4,
   "by_tier": {
     "Strong": {
       "total": 591,
-      "resolved": 568,
-      "correct": 358,
-      "hit_rate": 63.0
+      "resolved": 569,
+      "correct": 359,
+      "hit_rate": 63.1
     },
     "Moderate": {
       "total": 710,
-      "resolved": 670,
-      "correct": 417,
-      "hit_rate": 62.2
+      "resolved": 671,
+      "correct": 418,
+      "hit_rate": 62.3
     },
     "Weak": {
       "total": 71,
@@ -23327,10 +23327,10 @@
       "total_value_usd": 56435.34,
       "entry_price": 0.0355,
       "end_date": "2026-10-05",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Mitchell Krueger",
+      "resolved_date": "2026-10-05"
     },
     {
       "signal_key": "0xcbd3abac4253430f04338ce80337f67a5390f47c92b3ef7ac7f1949a10e4b539:0",
@@ -23344,10 +23344,10 @@
       "total_value_usd": 22606.14,
       "entry_price": 0.0355,
       "end_date": "2026-10-05",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Clement Tabur",
+      "resolved_date": "2026-10-05"
     }
   ]
 }
