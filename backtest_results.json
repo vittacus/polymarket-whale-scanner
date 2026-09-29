@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-29T18:37:55+00:00",
-  "total_signals": 1374,
+  "generated_at": "2026-09-29T22:41:35+00:00",
+  "total_signals": 1377,
   "total_resolved": 1311,
   "total_correct": 819,
   "overall_hit_rate": 62.5,
   "by_tier": {
     "Strong": {
-      "total": 591,
+      "total": 592,
       "resolved": 571,
       "correct": 360,
       "hit_rate": 63.0
     },
     "Moderate": {
-      "total": 712,
+      "total": 714,
       "resolved": 673,
       "correct": 420,
       "hit_rate": 62.4
@@ -23382,6 +23382,57 @@
       "correct": true,
       "resolved_outcome": "Han Shi",
       "resolved_date": "2026-10-06"
+    },
+    {
+      "signal_key": "0xd4dcbb433f62e82a7d42ffbdb4f7d6ae2865169fe3458edae428612bad2903ae:0",
+      "condition_id": "0xd4dcbb433f62e82a7d42ffbdb4f7d6ae2865169fe3458edae428612bad2903ae",
+      "title": "Chicago White Sox vs. Houston Astros",
+      "category": "MLB",
+      "whale_direction": "Chicago White Sox",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 24.2898,
+      "total_value_usd": 293541.42,
+      "entry_price": 0.0345,
+      "end_date": "2026-10-06",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x95dade1e149c3ed92600ce1a28e3a63caf6cc96422b6d2411614e160be8e9ff0:1",
+      "condition_id": "0x95dade1e149c3ed92600ce1a28e3a63caf6cc96422b6d2411614e160be8e9ff0",
+      "title": "Spread: Colts (-3.5)",
+      "category": "NFL (All)",
+      "whale_direction": "Commanders",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 7.6856,
+      "total_value_usd": 74084.8,
+      "entry_price": 0.0345,
+      "end_date": "2026-10-04",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x0dc7d4a71a89164e7b02e2cb34911d5365895444c9da507436993ea47a6b06d3:1",
+      "condition_id": "0x0dc7d4a71a89164e7b02e2cb34911d5365895444c9da507436993ea47a6b06d3",
+      "title": "Colts vs. Commanders",
+      "category": "NFL (All)",
+      "whale_direction": "Commanders",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 5.2837,
+      "total_value_usd": 26512.72,
+      "entry_price": 0.0345,
+      "end_date": "2026-10-04",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }

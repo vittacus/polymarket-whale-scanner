@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-29T18:37:55+00:00",
-  "total_evaluated": 1374,
-  "total_pending": 63,
+  "generated_at": "2026-09-29T22:41:35+00:00",
+  "total_evaluated": 1377,
+  "total_pending": 66,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1374,
+      "signals_evaluated": 1377,
       "correct": 819,
       "wrong": 492,
-      "pending": 63,
+      "pending": 66,
       "win_rate": 62.5,
       "signals": [
         {
@@ -19248,6 +19248,48 @@
           "end_date": "2026-10-06",
           "total_value_usd": 22188.76,
           "result": "correct"
+        },
+        {
+          "signal_key": "0xd4dcbb433f62e82a7d42ffbdb4f7d6ae2865169fe3458edae428612bad2903ae:0",
+          "condition_id": "0xd4dcbb433f62e82a7d42ffbdb4f7d6ae2865169fe3458edae428612bad2903ae",
+          "title": "Chicago White Sox vs. Houston Astros",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0345,
+          "whale_direction": "Chicago White Sox",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-06",
+          "total_value_usd": 293541.42,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x95dade1e149c3ed92600ce1a28e3a63caf6cc96422b6d2411614e160be8e9ff0:1",
+          "condition_id": "0x95dade1e149c3ed92600ce1a28e3a63caf6cc96422b6d2411614e160be8e9ff0",
+          "title": "Spread: Colts (-3.5)",
+          "category": "NFL (All)",
+          "tier": "Moderate",
+          "entry_price": 0.0345,
+          "whale_direction": "Commanders",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-04",
+          "total_value_usd": 74084.8,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x0dc7d4a71a89164e7b02e2cb34911d5365895444c9da507436993ea47a6b06d3:1",
+          "condition_id": "0x0dc7d4a71a89164e7b02e2cb34911d5365895444c9da507436993ea47a6b06d3",
+          "title": "Colts vs. Commanders",
+          "category": "NFL (All)",
+          "tier": "Moderate",
+          "entry_price": 0.0345,
+          "whale_direction": "Commanders",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-04",
+          "total_value_usd": 26512.72,
+          "result": "pending"
         }
       ]
     },
@@ -19255,10 +19297,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 704,
+      "signals_evaluated": 707,
       "correct": 414,
       "wrong": 250,
-      "pending": 40,
+      "pending": 43,
       "win_rate": 62.3,
       "signals": [
         {
@@ -29116,6 +29158,48 @@
           "end_date": "2026-10-06",
           "total_value_usd": 22188.76,
           "result": "correct"
+        },
+        {
+          "signal_key": "0xd4dcbb433f62e82a7d42ffbdb4f7d6ae2865169fe3458edae428612bad2903ae:0",
+          "condition_id": "0xd4dcbb433f62e82a7d42ffbdb4f7d6ae2865169fe3458edae428612bad2903ae",
+          "title": "Chicago White Sox vs. Houston Astros",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0345,
+          "whale_direction": "Chicago White Sox",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-06",
+          "total_value_usd": 293541.42,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x95dade1e149c3ed92600ce1a28e3a63caf6cc96422b6d2411614e160be8e9ff0:1",
+          "condition_id": "0x95dade1e149c3ed92600ce1a28e3a63caf6cc96422b6d2411614e160be8e9ff0",
+          "title": "Spread: Colts (-3.5)",
+          "category": "NFL (All)",
+          "tier": "Moderate",
+          "entry_price": 0.0345,
+          "whale_direction": "Commanders",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-04",
+          "total_value_usd": 74084.8,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x0dc7d4a71a89164e7b02e2cb34911d5365895444c9da507436993ea47a6b06d3:1",
+          "condition_id": "0x0dc7d4a71a89164e7b02e2cb34911d5365895444c9da507436993ea47a6b06d3",
+          "title": "Colts vs. Commanders",
+          "category": "NFL (All)",
+          "tier": "Moderate",
+          "entry_price": 0.0345,
+          "whale_direction": "Commanders",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-04",
+          "total_value_usd": 26512.72,
+          "result": "pending"
         }
       ]
     },
@@ -29123,10 +29207,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 704,
+      "signals_evaluated": 707,
       "correct": 250,
       "wrong": 414,
-      "pending": 40,
+      "pending": 43,
       "win_rate": 37.7,
       "signals": [
         {
@@ -38984,6 +39068,48 @@
           "end_date": "2026-10-06",
           "total_value_usd": 22188.76,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0xd4dcbb433f62e82a7d42ffbdb4f7d6ae2865169fe3458edae428612bad2903ae:0",
+          "condition_id": "0xd4dcbb433f62e82a7d42ffbdb4f7d6ae2865169fe3458edae428612bad2903ae",
+          "title": "Chicago White Sox vs. Houston Astros",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0345,
+          "whale_direction": "Chicago White Sox",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-06",
+          "total_value_usd": 293541.42,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x95dade1e149c3ed92600ce1a28e3a63caf6cc96422b6d2411614e160be8e9ff0:1",
+          "condition_id": "0x95dade1e149c3ed92600ce1a28e3a63caf6cc96422b6d2411614e160be8e9ff0",
+          "title": "Spread: Colts (-3.5)",
+          "category": "NFL (All)",
+          "tier": "Moderate",
+          "entry_price": 0.0345,
+          "whale_direction": "Commanders",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-04",
+          "total_value_usd": 74084.8,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x0dc7d4a71a89164e7b02e2cb34911d5365895444c9da507436993ea47a6b06d3:1",
+          "condition_id": "0x0dc7d4a71a89164e7b02e2cb34911d5365895444c9da507436993ea47a6b06d3",
+          "title": "Colts vs. Commanders",
+          "category": "NFL (All)",
+          "tier": "Moderate",
+          "entry_price": 0.0345,
+          "whale_direction": "Commanders",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-04",
+          "total_value_usd": 26512.72,
+          "result": "pending"
         }
       ]
     },

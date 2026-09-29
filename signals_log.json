@@ -370860,5 +370860,207 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-09-29T22:29:13+00:00",
+    "whale_timeframes": {
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x224a89dbe0db0d6124b335edabd15b3f877da3d5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbc43c8bfbc4d77c2fc9011adad38ba43b88996d3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcbc666209b4c17ea84c03c0dda71b5dab9e4ec62": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa38a455bbdd4b68486548b7e19da99903f4f821d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcfe8f6cc8ff9cb68985b7af650ef6dbe9a373a6c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x68df8708aadb901618f11abf2471805a66a24815": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7f7351b5ba33a4be08b7111911b227cdd82414f1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x922c7c11daacdcd652c934ed064ba4c251e8d8ba": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f1d5ae26fc31472966e951af3183308736d8de2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7c37b52eb226bcb9411375ec48b0169663fb6aeb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9b11866433281ade9f2811dbde8acdefc45f5375": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9f2fe025f84839ca81dd8e0338892605702d2ca8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x866056133a70de9282a080758858d1a0c8b393ed": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd84d7f9262516865553555751609fb6f52abec6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xd4dcbb433f62e82a7d42ffbdb4f7d6ae2865169fe3458edae428612bad2903ae:0",
+        "condition_id": "0xd4dcbb433f62e82a7d42ffbdb4f7d6ae2865169fe3458edae428612bad2903ae",
+        "title": "Chicago White Sox vs. Houston Astros",
+        "outcome": "Chicago White Sox",
+        "outcome_index": 0,
+        "whale_count": 6,
+        "wallets": [
+          "0x224a89dbe0db0d6124b335edabd15b3f877da3d5",
+          "0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c",
+          "0x9b11866433281ade9f2811dbde8acdefc45f5375",
+          "0x9f2fe025f84839ca81dd8e0338892605702d2ca8"
+        ],
+        "ranks": [
+          2,
+          4,
+          6,
+          14,
+          17,
+          18
+        ],
+        "total_value_usd": 293541.42,
+        "score": 24.2898,
+        "category": "MLB",
+        "end_date": "2026-10-06",
+        "entry_price": 0.0345
+      },
+      {
+        "signal_key": "0x95dade1e149c3ed92600ce1a28e3a63caf6cc96422b6d2411614e160be8e9ff0:1",
+        "condition_id": "0x95dade1e149c3ed92600ce1a28e3a63caf6cc96422b6d2411614e160be8e9ff0",
+        "title": "Spread: Colts (-3.5)",
+        "outcome": "Commanders",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xa38a455bbdd4b68486548b7e19da99903f4f821d",
+          "0x68df8708aadb901618f11abf2471805a66a24815"
+        ],
+        "ranks": [
+          6,
+          8,
+          10
+        ],
+        "total_value_usd": 74084.8,
+        "score": 7.6856,
+        "category": "NFL (All)",
+        "end_date": "2026-10-04",
+        "entry_price": 0.0345
+      },
+      {
+        "signal_key": "0x0dc7d4a71a89164e7b02e2cb34911d5365895444c9da507436993ea47a6b06d3:1",
+        "condition_id": "0x0dc7d4a71a89164e7b02e2cb34911d5365895444c9da507436993ea47a6b06d3",
+        "title": "Colts vs. Commanders",
+        "outcome": "Commanders",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xa38a455bbdd4b68486548b7e19da99903f4f821d",
+          "0x68df8708aadb901618f11abf2471805a66a24815",
+          "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c"
+        ],
+        "ranks": [
+          8,
+          10,
+          14
+        ],
+        "total_value_usd": 26512.72,
+        "score": 5.2837,
+        "category": "NFL (All)",
+        "end_date": "2026-10-04",
+        "entry_price": 0.0345
+      }
+    ]
   }
 ]
