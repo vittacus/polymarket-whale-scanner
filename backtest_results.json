@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-29T13:04:59+00:00",
+  "generated_at": "2026-09-29T18:37:55+00:00",
   "total_signals": 1374,
-  "total_resolved": 1310,
-  "total_correct": 818,
-  "overall_hit_rate": 62.4,
+  "total_resolved": 1311,
+  "total_correct": 819,
+  "overall_hit_rate": 62.5,
   "by_tier": {
     "Strong": {
       "total": 591,
@@ -13,8 +13,8 @@
     },
     "Moderate": {
       "total": 712,
-      "resolved": 672,
-      "correct": 419,
+      "resolved": 673,
+      "correct": 420,
       "hit_rate": 62.4
     },
     "Weak": {
@@ -12345,10 +12345,10 @@
       "total_value_usd": 17312.09,
       "entry_price": 0.0455,
       "end_date": "2026-08-12",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Andrea Guerrieri",
+      "resolved_date": "2026-08-12"
     },
     {
       "signal_key": "0x8829c327e1a8115ae11f32d17a2041a4fa9983264e389a4c1cd0c6b92149888a:1",
