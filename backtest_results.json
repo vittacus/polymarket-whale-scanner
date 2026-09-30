@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-30T13:51:33+00:00",
-  "total_signals": 1379,
+  "generated_at": "2026-09-30T18:46:06+00:00",
+  "total_signals": 1381,
   "total_resolved": 1314,
   "total_correct": 821,
   "overall_hit_rate": 62.5,
   "by_tier": {
     "Strong": {
-      "total": 593,
+      "total": 594,
       "resolved": 573,
       "correct": 362,
       "hit_rate": 63.2
     },
     "Moderate": {
-      "total": 715,
+      "total": 716,
       "resolved": 674,
       "correct": 420,
       "hit_rate": 62.3
@@ -23467,6 +23467,40 @@
       "correct": false,
       "resolved_outcome": "New York Yankees",
       "resolved_date": "2026-10-07"
+    },
+    {
+      "signal_key": "0x8fd193a928cfac7e7fc613c03ea746c305aa73a58e850feabe04695fdaa7173e:0",
+      "condition_id": "0x8fd193a928cfac7e7fc613c03ea746c305aa73a58e850feabe04695fdaa7173e",
+      "title": "Adana: Leolia Jeanjean vs Melisa Ercan",
+      "category": "Tennis",
+      "whale_direction": "Leolia Jeanjean",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 15.5846,
+      "total_value_usd": 110843.86,
+      "entry_price": 0.0335,
+      "end_date": "2026-10-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x3c80445e6248383d45606d5c8cde91ffc86f8312fa366b68e62d18d8b5019322:0",
+      "condition_id": "0x3c80445e6248383d45606d5c8cde91ffc86f8312fa366b68e62d18d8b5019322",
+      "title": "Philadelphia Phillies vs. Atlanta Braves",
+      "category": "MLB",
+      "whale_direction": "Philadelphia Phillies",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 7.2201,
+      "total_value_usd": 69750.1,
+      "entry_price": 0.0335,
+      "end_date": "2026-10-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
