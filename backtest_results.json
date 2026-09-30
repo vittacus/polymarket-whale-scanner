@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-29T22:41:35+00:00",
-  "total_signals": 1377,
-  "total_resolved": 1311,
-  "total_correct": 819,
+  "generated_at": "2026-09-30T01:38:18+00:00",
+  "total_signals": 1379,
+  "total_resolved": 1312,
+  "total_correct": 820,
   "overall_hit_rate": 62.5,
   "by_tier": {
     "Strong": {
-      "total": 592,
-      "resolved": 571,
-      "correct": 360,
-      "hit_rate": 63.0
+      "total": 593,
+      "resolved": 572,
+      "correct": 361,
+      "hit_rate": 63.1
     },
     "Moderate": {
-      "total": 714,
+      "total": 715,
       "resolved": 673,
       "correct": 420,
       "hit_rate": 62.4
@@ -23395,10 +23395,10 @@
       "total_value_usd": 293541.42,
       "entry_price": 0.0345,
       "end_date": "2026-10-06",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Chicago White Sox",
+      "resolved_date": "2026-10-06"
     },
     {
       "signal_key": "0x95dade1e149c3ed92600ce1a28e3a63caf6cc96422b6d2411614e160be8e9ff0:1",
@@ -23429,6 +23429,40 @@
       "total_value_usd": 26512.72,
       "entry_price": 0.0345,
       "end_date": "2026-10-04",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x727f3420ffe4492fa6a31dc8912bca1938d105ecc3c3e88cfb78faaaa2fa4d26:1",
+      "condition_id": "0x727f3420ffe4492fa6a31dc8912bca1938d105ecc3c3e88cfb78faaaa2fa4d26",
+      "title": "Boston Red Sox vs. New York Yankees",
+      "category": "MLB",
+      "whale_direction": "New York Yankees",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 17.8456,
+      "total_value_usd": 246695.35,
+      "entry_price": 0.0335,
+      "end_date": "2026-10-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x727f3420ffe4492fa6a31dc8912bca1938d105ecc3c3e88cfb78faaaa2fa4d26:0",
+      "condition_id": "0x727f3420ffe4492fa6a31dc8912bca1938d105ecc3c3e88cfb78faaaa2fa4d26",
+      "title": "Boston Red Sox vs. New York Yankees",
+      "category": "MLB",
+      "whale_direction": "Boston Red Sox",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 7.3546,
+      "total_value_usd": 12689.75,
+      "entry_price": 0.0335,
+      "end_date": "2026-10-07",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
