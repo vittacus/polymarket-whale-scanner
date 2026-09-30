@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-30T01:38:18+00:00",
+  "generated_at": "2026-09-30T07:19:04+00:00",
   "total_signals": 1379,
-  "total_resolved": 1312,
-  "total_correct": 820,
+  "total_resolved": 1314,
+  "total_correct": 821,
   "overall_hit_rate": 62.5,
   "by_tier": {
     "Strong": {
       "total": 593,
-      "resolved": 572,
-      "correct": 361,
-      "hit_rate": 63.1
+      "resolved": 573,
+      "correct": 362,
+      "hit_rate": 63.2
     },
     "Moderate": {
       "total": 715,
-      "resolved": 673,
+      "resolved": 674,
       "correct": 420,
-      "hit_rate": 62.4
+      "hit_rate": 62.3
     },
     "Weak": {
       "total": 71,
@@ -23446,10 +23446,10 @@
       "total_value_usd": 246695.35,
       "entry_price": 0.0335,
       "end_date": "2026-10-07",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "New York Yankees",
+      "resolved_date": "2026-10-07"
     },
     {
       "signal_key": "0x727f3420ffe4492fa6a31dc8912bca1938d105ecc3c3e88cfb78faaaa2fa4d26:0",
@@ -23463,10 +23463,10 @@
       "total_value_usd": 12689.75,
       "entry_price": 0.0335,
       "end_date": "2026-10-07",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "New York Yankees",
+      "resolved_date": "2026-10-07"
     }
   ]
 }
