@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-30T18:46:06+00:00",
-  "total_evaluated": 1381,
+  "generated_at": "2026-09-30T22:49:12+00:00",
+  "total_evaluated": 1383,
   "total_pending": 67,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1381,
-      "correct": 821,
+      "signals_evaluated": 1383,
+      "correct": 823,
       "wrong": 493,
       "pending": 67,
       "win_rate": 62.5,
@@ -19327,11 +19327,11 @@
           "tier": "Strong",
           "entry_price": 0.0335,
           "whale_direction": "Leolia Jeanjean",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Leolia Jeanjean",
+          "resolved_date": "2026-10-07",
           "end_date": "2026-10-07",
           "total_value_usd": 110843.86,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x3c80445e6248383d45606d5c8cde91ffc86f8312fa366b68e62d18d8b5019322:0",
@@ -19341,10 +19341,38 @@
           "tier": "Moderate",
           "entry_price": 0.0335,
           "whale_direction": "Philadelphia Phillies",
+          "resolved_outcome": "Philadelphia Phillies",
+          "resolved_date": "2026-10-07",
+          "end_date": "2026-10-07",
+          "total_value_usd": 69750.1,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x26f0870ce04043d458ea2f8b185d5b83ee8a95b9001d7cd45d2fe5834d2588c1:0",
+          "condition_id": "0x26f0870ce04043d458ea2f8b185d5b83ee8a95b9001d7cd45d2fe5834d2588c1",
+          "title": "Chicago White Sox vs. Houston Astros",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.033,
+          "whale_direction": "Chicago White Sox",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-10-07",
-          "total_value_usd": 69750.1,
+          "total_value_usd": 174351.91,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x26f0870ce04043d458ea2f8b185d5b83ee8a95b9001d7cd45d2fe5834d2588c1:1",
+          "condition_id": "0x26f0870ce04043d458ea2f8b185d5b83ee8a95b9001d7cd45d2fe5834d2588c1",
+          "title": "Chicago White Sox vs. Houston Astros",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.033,
+          "whale_direction": "Houston Astros",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-07",
+          "total_value_usd": 27137.32,
           "result": "pending"
         }
       ]
@@ -19353,11 +19381,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 711,
-      "correct": 416,
+      "signals_evaluated": 713,
+      "correct": 418,
       "wrong": 251,
       "pending": 44,
-      "win_rate": 62.4,
+      "win_rate": 62.5,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -29293,11 +29321,11 @@
           "tier": "Strong",
           "entry_price": 0.0335,
           "whale_direction": "Leolia Jeanjean",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Leolia Jeanjean",
+          "resolved_date": "2026-10-07",
           "end_date": "2026-10-07",
           "total_value_usd": 110843.86,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x3c80445e6248383d45606d5c8cde91ffc86f8312fa366b68e62d18d8b5019322:0",
@@ -29307,10 +29335,38 @@
           "tier": "Moderate",
           "entry_price": 0.0335,
           "whale_direction": "Philadelphia Phillies",
+          "resolved_outcome": "Philadelphia Phillies",
+          "resolved_date": "2026-10-07",
+          "end_date": "2026-10-07",
+          "total_value_usd": 69750.1,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x26f0870ce04043d458ea2f8b185d5b83ee8a95b9001d7cd45d2fe5834d2588c1:0",
+          "condition_id": "0x26f0870ce04043d458ea2f8b185d5b83ee8a95b9001d7cd45d2fe5834d2588c1",
+          "title": "Chicago White Sox vs. Houston Astros",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.033,
+          "whale_direction": "Chicago White Sox",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-10-07",
-          "total_value_usd": 69750.1,
+          "total_value_usd": 174351.91,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x26f0870ce04043d458ea2f8b185d5b83ee8a95b9001d7cd45d2fe5834d2588c1:1",
+          "condition_id": "0x26f0870ce04043d458ea2f8b185d5b83ee8a95b9001d7cd45d2fe5834d2588c1",
+          "title": "Chicago White Sox vs. Houston Astros",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.033,
+          "whale_direction": "Houston Astros",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-07",
+          "total_value_usd": 27137.32,
           "result": "pending"
         }
       ]
@@ -29319,11 +29375,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 711,
+      "signals_evaluated": 713,
       "correct": 251,
-      "wrong": 416,
+      "wrong": 418,
       "pending": 44,
-      "win_rate": 37.6,
+      "win_rate": 37.5,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -39259,11 +39315,11 @@
           "tier": "Strong",
           "entry_price": 0.0335,
           "whale_direction": "Leolia Jeanjean",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Leolia Jeanjean",
+          "resolved_date": "2026-10-07",
           "end_date": "2026-10-07",
           "total_value_usd": 110843.86,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x3c80445e6248383d45606d5c8cde91ffc86f8312fa366b68e62d18d8b5019322:0",
@@ -39273,10 +39329,38 @@
           "tier": "Moderate",
           "entry_price": 0.0335,
           "whale_direction": "Philadelphia Phillies",
+          "resolved_outcome": "Philadelphia Phillies",
+          "resolved_date": "2026-10-07",
+          "end_date": "2026-10-07",
+          "total_value_usd": 69750.1,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x26f0870ce04043d458ea2f8b185d5b83ee8a95b9001d7cd45d2fe5834d2588c1:0",
+          "condition_id": "0x26f0870ce04043d458ea2f8b185d5b83ee8a95b9001d7cd45d2fe5834d2588c1",
+          "title": "Chicago White Sox vs. Houston Astros",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.033,
+          "whale_direction": "Chicago White Sox",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-10-07",
-          "total_value_usd": 69750.1,
+          "total_value_usd": 174351.91,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x26f0870ce04043d458ea2f8b185d5b83ee8a95b9001d7cd45d2fe5834d2588c1:1",
+          "condition_id": "0x26f0870ce04043d458ea2f8b185d5b83ee8a95b9001d7cd45d2fe5834d2588c1",
+          "title": "Chicago White Sox vs. Houston Astros",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.033,
+          "whale_direction": "Houston Astros",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-07",
+          "total_value_usd": 27137.32,
           "result": "pending"
         }
       ]

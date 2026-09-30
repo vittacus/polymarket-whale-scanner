@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-30T18:46:06+00:00",
-  "total_signals": 1381,
-  "total_resolved": 1314,
-  "total_correct": 821,
+  "generated_at": "2026-09-30T22:49:12+00:00",
+  "total_signals": 1383,
+  "total_resolved": 1316,
+  "total_correct": 823,
   "overall_hit_rate": 62.5,
   "by_tier": {
     "Strong": {
-      "total": 594,
-      "resolved": 573,
-      "correct": 362,
+      "total": 595,
+      "resolved": 574,
+      "correct": 363,
       "hit_rate": 63.2
     },
     "Moderate": {
-      "total": 716,
-      "resolved": 674,
-      "correct": 420,
-      "hit_rate": 62.3
+      "total": 717,
+      "resolved": 675,
+      "correct": 421,
+      "hit_rate": 62.4
     },
     "Weak": {
       "total": 71,
@@ -23480,10 +23480,10 @@
       "total_value_usd": 110843.86,
       "entry_price": 0.0335,
       "end_date": "2026-10-07",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Leolia Jeanjean",
+      "resolved_date": "2026-10-07"
     },
     {
       "signal_key": "0x3c80445e6248383d45606d5c8cde91ffc86f8312fa366b68e62d18d8b5019322:0",
@@ -23496,6 +23496,40 @@
       "score": 7.2201,
       "total_value_usd": 69750.1,
       "entry_price": 0.0335,
+      "end_date": "2026-10-07",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Philadelphia Phillies",
+      "resolved_date": "2026-10-07"
+    },
+    {
+      "signal_key": "0x26f0870ce04043d458ea2f8b185d5b83ee8a95b9001d7cd45d2fe5834d2588c1:0",
+      "condition_id": "0x26f0870ce04043d458ea2f8b185d5b83ee8a95b9001d7cd45d2fe5834d2588c1",
+      "title": "Chicago White Sox vs. Houston Astros",
+      "category": "MLB",
+      "whale_direction": "Chicago White Sox",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 30.7085,
+      "total_value_usd": 174351.91,
+      "entry_price": 0.033,
+      "end_date": "2026-10-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x26f0870ce04043d458ea2f8b185d5b83ee8a95b9001d7cd45d2fe5834d2588c1:1",
+      "condition_id": "0x26f0870ce04043d458ea2f8b185d5b83ee8a95b9001d7cd45d2fe5834d2588c1",
+      "title": "Chicago White Sox vs. Houston Astros",
+      "category": "MLB",
+      "whale_direction": "Houston Astros",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 7.0185,
+      "total_value_usd": 27137.32,
+      "entry_price": 0.033,
       "end_date": "2026-10-07",
       "resolved": false,
       "correct": null,
