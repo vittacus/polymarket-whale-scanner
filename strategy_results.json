@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-01T07:59:50+00:00",
-  "total_evaluated": 1391,
-  "total_pending": 68,
+  "generated_at": "2026-10-01T15:12:02+00:00",
+  "total_evaluated": 1392,
+  "total_pending": 64,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1391,
-      "correct": 828,
-      "wrong": 495,
-      "pending": 68,
-      "win_rate": 62.6,
+      "signals_evaluated": 1392,
+      "correct": 832,
+      "wrong": 496,
+      "pending": 64,
+      "win_rate": 62.7,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -19411,11 +19411,11 @@
           "tier": "Strong",
           "entry_price": 0.0325,
           "whale_direction": "Zizou Bergs",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jiri Lehecka",
+          "resolved_date": "2026-10-07",
           "end_date": "2026-10-07",
           "total_value_usd": 3656.88,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xa600aca585d382491862d55a6f913a126dc60f03fa8231c42fd7c5ed2d3559e7:1",
@@ -19439,11 +19439,11 @@
           "tier": "Strong",
           "entry_price": 0.0315,
           "whale_direction": "Alina Charaeva",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alina Charaeva",
+          "resolved_date": "2026-10-07",
           "end_date": "2026-10-07",
           "total_value_usd": 112988.97,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x0daedf10cebbe7081ff052b90d576fdb8c209a3df0848f22162523d390e27dce:0",
@@ -19453,11 +19453,11 @@
           "tier": "Strong",
           "entry_price": 0.0315,
           "whale_direction": "Jessica Bouzas Maneiro",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jessica Bouzas Maneiro",
+          "resolved_date": "2026-10-08",
           "end_date": "2026-10-08",
           "total_value_usd": 37791.86,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x97861c699e92693271937124caf301c6235803e388d6c168689e903871e27473:0",
@@ -19467,11 +19467,11 @@
           "tier": "Strong",
           "entry_price": 0.0315,
           "whale_direction": "Roman Safiullin",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Roman Safiullin",
+          "resolved_date": "2026-10-07",
           "end_date": "2026-10-07",
           "total_value_usd": 41593.41,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xe9d1b30b464f5105b025dc8ec9a892b50fc4dd86fd1670c21fd9ddc110d4be38:0",
@@ -19481,10 +19481,24 @@
           "tier": "Strong",
           "entry_price": 0.0315,
           "whale_direction": "Paula Badosa",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Paula Badosa",
+          "resolved_date": "2026-10-07",
           "end_date": "2026-10-07",
           "total_value_usd": 31941.07,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x56843c39ee842fae25c33d55a160628192506e5a4d3df922ebd7f1faee8114dc:0",
+          "condition_id": "0x56843c39ee842fae25c33d55a160628192506e5a4d3df922ebd7f1faee8114dc",
+          "title": "Philadelphia Phillies vs. Atlanta Braves",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0295,
+          "whale_direction": "Philadelphia Phillies",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-09",
+          "total_value_usd": 49979.08,
           "result": "pending"
         }
       ]
@@ -19493,11 +19507,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 721,
-      "correct": 422,
-      "wrong": 253,
-      "pending": 46,
-      "win_rate": 62.5,
+      "signals_evaluated": 722,
+      "correct": 426,
+      "wrong": 254,
+      "pending": 42,
+      "win_rate": 62.6,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -29517,11 +29531,11 @@
           "tier": "Strong",
           "entry_price": 0.0325,
           "whale_direction": "Zizou Bergs",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jiri Lehecka",
+          "resolved_date": "2026-10-07",
           "end_date": "2026-10-07",
           "total_value_usd": 3656.88,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xa600aca585d382491862d55a6f913a126dc60f03fa8231c42fd7c5ed2d3559e7:1",
@@ -29545,11 +29559,11 @@
           "tier": "Strong",
           "entry_price": 0.0315,
           "whale_direction": "Alina Charaeva",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alina Charaeva",
+          "resolved_date": "2026-10-07",
           "end_date": "2026-10-07",
           "total_value_usd": 112988.97,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x0daedf10cebbe7081ff052b90d576fdb8c209a3df0848f22162523d390e27dce:0",
@@ -29559,11 +29573,11 @@
           "tier": "Strong",
           "entry_price": 0.0315,
           "whale_direction": "Jessica Bouzas Maneiro",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jessica Bouzas Maneiro",
+          "resolved_date": "2026-10-08",
           "end_date": "2026-10-08",
           "total_value_usd": 37791.86,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x97861c699e92693271937124caf301c6235803e388d6c168689e903871e27473:0",
@@ -29573,11 +29587,11 @@
           "tier": "Strong",
           "entry_price": 0.0315,
           "whale_direction": "Roman Safiullin",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Roman Safiullin",
+          "resolved_date": "2026-10-07",
           "end_date": "2026-10-07",
           "total_value_usd": 41593.41,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xe9d1b30b464f5105b025dc8ec9a892b50fc4dd86fd1670c21fd9ddc110d4be38:0",
@@ -29587,10 +29601,24 @@
           "tier": "Strong",
           "entry_price": 0.0315,
           "whale_direction": "Paula Badosa",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Paula Badosa",
+          "resolved_date": "2026-10-07",
           "end_date": "2026-10-07",
           "total_value_usd": 31941.07,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x56843c39ee842fae25c33d55a160628192506e5a4d3df922ebd7f1faee8114dc:0",
+          "condition_id": "0x56843c39ee842fae25c33d55a160628192506e5a4d3df922ebd7f1faee8114dc",
+          "title": "Philadelphia Phillies vs. Atlanta Braves",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0295,
+          "whale_direction": "Philadelphia Phillies",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-09",
+          "total_value_usd": 49979.08,
           "result": "pending"
         }
       ]
@@ -29599,11 +29627,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 721,
-      "correct": 253,
-      "wrong": 422,
-      "pending": 46,
-      "win_rate": 37.5,
+      "signals_evaluated": 722,
+      "correct": 254,
+      "wrong": 426,
+      "pending": 42,
+      "win_rate": 37.4,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -39623,11 +39651,11 @@
           "tier": "Strong",
           "entry_price": 0.0325,
           "whale_direction": "Zizou Bergs",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jiri Lehecka",
+          "resolved_date": "2026-10-07",
           "end_date": "2026-10-07",
           "total_value_usd": 3656.88,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xa600aca585d382491862d55a6f913a126dc60f03fa8231c42fd7c5ed2d3559e7:1",
@@ -39651,11 +39679,11 @@
           "tier": "Strong",
           "entry_price": 0.0315,
           "whale_direction": "Alina Charaeva",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Alina Charaeva",
+          "resolved_date": "2026-10-07",
           "end_date": "2026-10-07",
           "total_value_usd": 112988.97,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x0daedf10cebbe7081ff052b90d576fdb8c209a3df0848f22162523d390e27dce:0",
@@ -39665,11 +39693,11 @@
           "tier": "Strong",
           "entry_price": 0.0315,
           "whale_direction": "Jessica Bouzas Maneiro",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Jessica Bouzas Maneiro",
+          "resolved_date": "2026-10-08",
           "end_date": "2026-10-08",
           "total_value_usd": 37791.86,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x97861c699e92693271937124caf301c6235803e388d6c168689e903871e27473:0",
@@ -39679,11 +39707,11 @@
           "tier": "Strong",
           "entry_price": 0.0315,
           "whale_direction": "Roman Safiullin",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Roman Safiullin",
+          "resolved_date": "2026-10-07",
           "end_date": "2026-10-07",
           "total_value_usd": 41593.41,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xe9d1b30b464f5105b025dc8ec9a892b50fc4dd86fd1670c21fd9ddc110d4be38:0",
@@ -39693,10 +39721,24 @@
           "tier": "Strong",
           "entry_price": 0.0315,
           "whale_direction": "Paula Badosa",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Paula Badosa",
+          "resolved_date": "2026-10-07",
           "end_date": "2026-10-07",
           "total_value_usd": 31941.07,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x56843c39ee842fae25c33d55a160628192506e5a4d3df922ebd7f1faee8114dc:0",
+          "condition_id": "0x56843c39ee842fae25c33d55a160628192506e5a4d3df922ebd7f1faee8114dc",
+          "title": "Philadelphia Phillies vs. Atlanta Braves",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0295,
+          "whale_direction": "Philadelphia Phillies",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-09",
+          "total_value_usd": 49979.08,
           "result": "pending"
         }
       ]
