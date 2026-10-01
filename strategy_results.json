@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-01T01:44:39+00:00",
-  "total_evaluated": 1387,
-  "total_pending": 69,
+  "generated_at": "2026-10-01T07:59:50+00:00",
+  "total_evaluated": 1391,
+  "total_pending": 68,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1387,
-      "correct": 824,
-      "wrong": 494,
-      "pending": 69,
-      "win_rate": 62.5,
+      "signals_evaluated": 1391,
+      "correct": 828,
+      "wrong": 495,
+      "pending": 68,
+      "win_rate": 62.6,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -7161,11 +7161,11 @@
           "tier": "Moderate",
           "entry_price": 0.505,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-10-01",
           "end_date": "2026-09-30",
           "total_value_usd": 23351.43,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x080f9a1940a57f74e1a418810add5ffeed367ba357f5d9e8b40226ed81a4806b:1",
@@ -16261,11 +16261,11 @@
           "tier": "Weak",
           "entry_price": 0.0465,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-10-01",
           "end_date": "2026-10-01",
           "total_value_usd": 10373.59,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xebc4621044189f62a138eb63323ead87b1f5b8cbc7846dbd3fe1b605df50b45f:1",
@@ -19383,11 +19383,11 @@
           "tier": "Strong",
           "entry_price": 0.0325,
           "whale_direction": "Boston Red Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-10-08",
           "end_date": "2026-10-08",
           "total_value_usd": 37775.67,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xd315e9b718c2c0184df8f72828d707b6efd8244eed76297a372c3cbad54d05f3:1",
@@ -19397,11 +19397,11 @@
           "tier": "Strong",
           "entry_price": 0.0325,
           "whale_direction": "New York Yankees",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-10-08",
           "end_date": "2026-10-08",
           "total_value_usd": 39039.84,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xe79d24bef3d86bff900c8af91e32d7a4018a0391ad2b0697745049c021d26faf:1",
@@ -19425,10 +19425,66 @@
           "tier": "Moderate",
           "entry_price": 0.0325,
           "whale_direction": "Matheus Pucinelli de Almeida",
+          "resolved_outcome": "Matheus Pucinelli de Almeida",
+          "resolved_date": "2026-10-07",
+          "end_date": "2026-10-07",
+          "total_value_usd": 50148.3,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xd22ff64ccf11860e2399cc8661f2f0a548887ecaf4344fe57fcaec51e9833959:1",
+          "condition_id": "0xd22ff64ccf11860e2399cc8661f2f0a548887ecaf4344fe57fcaec51e9833959",
+          "title": "China Open: Yulia Starodubtseva vs Alina Charaeva",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0315,
+          "whale_direction": "Alina Charaeva",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-10-07",
-          "total_value_usd": 50148.3,
+          "total_value_usd": 112988.97,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x0daedf10cebbe7081ff052b90d576fdb8c209a3df0848f22162523d390e27dce:0",
+          "condition_id": "0x0daedf10cebbe7081ff052b90d576fdb8c209a3df0848f22162523d390e27dce",
+          "title": "Jingshan: Jessica Bouzas Maneiro vs Yuhan Wang",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0315,
+          "whale_direction": "Jessica Bouzas Maneiro",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-08",
+          "total_value_usd": 37791.86,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x97861c699e92693271937124caf301c6235803e388d6c168689e903871e27473:0",
+          "condition_id": "0x97861c699e92693271937124caf301c6235803e388d6c168689e903871e27473",
+          "title": "China Open: Roman Safiullin vs Flavio Cobolli",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0315,
+          "whale_direction": "Roman Safiullin",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-07",
+          "total_value_usd": 41593.41,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe9d1b30b464f5105b025dc8ec9a892b50fc4dd86fd1670c21fd9ddc110d4be38:0",
+          "condition_id": "0xe9d1b30b464f5105b025dc8ec9a892b50fc4dd86fd1670c21fd9ddc110d4be38",
+          "title": "China Open: Paula Badosa vs Daria Kasatkina",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0315,
+          "whale_direction": "Paula Badosa",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-07",
+          "total_value_usd": 31941.07,
           "result": "pending"
         }
       ]
@@ -19437,11 +19493,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 717,
-      "correct": 419,
-      "wrong": 252,
+      "signals_evaluated": 721,
+      "correct": 422,
+      "wrong": 253,
       "pending": 46,
-      "win_rate": 62.4,
+      "win_rate": 62.5,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -26311,11 +26367,11 @@
           "tier": "Weak",
           "entry_price": 0.0465,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-10-01",
           "end_date": "2026-10-01",
           "total_value_usd": 10373.59,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xebc4621044189f62a138eb63323ead87b1f5b8cbc7846dbd3fe1b605df50b45f:1",
@@ -29433,11 +29489,11 @@
           "tier": "Strong",
           "entry_price": 0.0325,
           "whale_direction": "Boston Red Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-10-08",
           "end_date": "2026-10-08",
           "total_value_usd": 37775.67,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xd315e9b718c2c0184df8f72828d707b6efd8244eed76297a372c3cbad54d05f3:1",
@@ -29447,11 +29503,11 @@
           "tier": "Strong",
           "entry_price": 0.0325,
           "whale_direction": "New York Yankees",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-10-08",
           "end_date": "2026-10-08",
           "total_value_usd": 39039.84,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xe79d24bef3d86bff900c8af91e32d7a4018a0391ad2b0697745049c021d26faf:1",
@@ -29475,10 +29531,66 @@
           "tier": "Moderate",
           "entry_price": 0.0325,
           "whale_direction": "Matheus Pucinelli de Almeida",
+          "resolved_outcome": "Matheus Pucinelli de Almeida",
+          "resolved_date": "2026-10-07",
+          "end_date": "2026-10-07",
+          "total_value_usd": 50148.3,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xd22ff64ccf11860e2399cc8661f2f0a548887ecaf4344fe57fcaec51e9833959:1",
+          "condition_id": "0xd22ff64ccf11860e2399cc8661f2f0a548887ecaf4344fe57fcaec51e9833959",
+          "title": "China Open: Yulia Starodubtseva vs Alina Charaeva",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0315,
+          "whale_direction": "Alina Charaeva",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-10-07",
-          "total_value_usd": 50148.3,
+          "total_value_usd": 112988.97,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x0daedf10cebbe7081ff052b90d576fdb8c209a3df0848f22162523d390e27dce:0",
+          "condition_id": "0x0daedf10cebbe7081ff052b90d576fdb8c209a3df0848f22162523d390e27dce",
+          "title": "Jingshan: Jessica Bouzas Maneiro vs Yuhan Wang",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0315,
+          "whale_direction": "Jessica Bouzas Maneiro",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-08",
+          "total_value_usd": 37791.86,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x97861c699e92693271937124caf301c6235803e388d6c168689e903871e27473:0",
+          "condition_id": "0x97861c699e92693271937124caf301c6235803e388d6c168689e903871e27473",
+          "title": "China Open: Roman Safiullin vs Flavio Cobolli",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0315,
+          "whale_direction": "Roman Safiullin",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-07",
+          "total_value_usd": 41593.41,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe9d1b30b464f5105b025dc8ec9a892b50fc4dd86fd1670c21fd9ddc110d4be38:0",
+          "condition_id": "0xe9d1b30b464f5105b025dc8ec9a892b50fc4dd86fd1670c21fd9ddc110d4be38",
+          "title": "China Open: Paula Badosa vs Daria Kasatkina",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0315,
+          "whale_direction": "Paula Badosa",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-07",
+          "total_value_usd": 31941.07,
           "result": "pending"
         }
       ]
@@ -29487,11 +29599,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 717,
-      "correct": 252,
-      "wrong": 419,
+      "signals_evaluated": 721,
+      "correct": 253,
+      "wrong": 422,
       "pending": 46,
-      "win_rate": 37.6,
+      "win_rate": 37.5,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -36361,11 +36473,11 @@
           "tier": "Weak",
           "entry_price": 0.0465,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-10-01",
           "end_date": "2026-10-01",
           "total_value_usd": 10373.59,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xebc4621044189f62a138eb63323ead87b1f5b8cbc7846dbd3fe1b605df50b45f:1",
@@ -39483,11 +39595,11 @@
           "tier": "Strong",
           "entry_price": 0.0325,
           "whale_direction": "Boston Red Sox",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-10-08",
           "end_date": "2026-10-08",
           "total_value_usd": 37775.67,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xd315e9b718c2c0184df8f72828d707b6efd8244eed76297a372c3cbad54d05f3:1",
@@ -39497,11 +39609,11 @@
           "tier": "Strong",
           "entry_price": 0.0325,
           "whale_direction": "New York Yankees",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "New York Yankees",
+          "resolved_date": "2026-10-08",
           "end_date": "2026-10-08",
           "total_value_usd": 39039.84,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xe79d24bef3d86bff900c8af91e32d7a4018a0391ad2b0697745049c021d26faf:1",
@@ -39525,10 +39637,66 @@
           "tier": "Moderate",
           "entry_price": 0.0325,
           "whale_direction": "Matheus Pucinelli de Almeida",
+          "resolved_outcome": "Matheus Pucinelli de Almeida",
+          "resolved_date": "2026-10-07",
+          "end_date": "2026-10-07",
+          "total_value_usd": 50148.3,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xd22ff64ccf11860e2399cc8661f2f0a548887ecaf4344fe57fcaec51e9833959:1",
+          "condition_id": "0xd22ff64ccf11860e2399cc8661f2f0a548887ecaf4344fe57fcaec51e9833959",
+          "title": "China Open: Yulia Starodubtseva vs Alina Charaeva",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0315,
+          "whale_direction": "Alina Charaeva",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-10-07",
-          "total_value_usd": 50148.3,
+          "total_value_usd": 112988.97,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x0daedf10cebbe7081ff052b90d576fdb8c209a3df0848f22162523d390e27dce:0",
+          "condition_id": "0x0daedf10cebbe7081ff052b90d576fdb8c209a3df0848f22162523d390e27dce",
+          "title": "Jingshan: Jessica Bouzas Maneiro vs Yuhan Wang",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0315,
+          "whale_direction": "Jessica Bouzas Maneiro",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-08",
+          "total_value_usd": 37791.86,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x97861c699e92693271937124caf301c6235803e388d6c168689e903871e27473:0",
+          "condition_id": "0x97861c699e92693271937124caf301c6235803e388d6c168689e903871e27473",
+          "title": "China Open: Roman Safiullin vs Flavio Cobolli",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0315,
+          "whale_direction": "Roman Safiullin",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-07",
+          "total_value_usd": 41593.41,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xe9d1b30b464f5105b025dc8ec9a892b50fc4dd86fd1670c21fd9ddc110d4be38:0",
+          "condition_id": "0xe9d1b30b464f5105b025dc8ec9a892b50fc4dd86fd1670c21fd9ddc110d4be38",
+          "title": "China Open: Paula Badosa vs Daria Kasatkina",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0315,
+          "whale_direction": "Paula Badosa",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-07",
+          "total_value_usd": 31941.07,
           "result": "pending"
         }
       ]

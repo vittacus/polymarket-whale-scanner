@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-10-01T01:44:39+00:00",
-  "total_signals": 1387,
-  "total_resolved": 1318,
-  "total_correct": 824,
-  "overall_hit_rate": 62.5,
+  "generated_at": "2026-10-01T07:59:50+00:00",
+  "total_signals": 1391,
+  "total_resolved": 1323,
+  "total_correct": 828,
+  "overall_hit_rate": 62.6,
   "by_tier": {
     "Strong": {
-      "total": 598,
-      "resolved": 575,
-      "correct": 364,
+      "total": 602,
+      "resolved": 577,
+      "correct": 365,
       "hit_rate": 63.3
     },
     "Moderate": {
       "total": 718,
-      "resolved": 676,
-      "correct": 421,
-      "hit_rate": 62.3
+      "resolved": 678,
+      "correct": 423,
+      "hit_rate": 62.4
     },
     "Weak": {
       "total": 71,
-      "resolved": 67,
-      "correct": 39,
-      "hit_rate": 58.2
+      "resolved": 68,
+      "correct": 40,
+      "hit_rate": 58.8
     }
   },
   "signals": [
@@ -8707,10 +8707,10 @@
       "total_value_usd": 23351.43,
       "entry_price": 0.505,
       "end_date": "2026-09-30",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-10-01"
     },
     {
       "signal_key": "0x080f9a1940a57f74e1a418810add5ffeed367ba357f5d9e8b40226ed81a4806b:1",
@@ -19757,10 +19757,10 @@
       "total_value_usd": 10373.59,
       "entry_price": 0.0465,
       "end_date": "2026-10-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-10-01"
     },
     {
       "signal_key": "0xebc4621044189f62a138eb63323ead87b1f5b8cbc7846dbd3fe1b605df50b45f:1",
@@ -23548,10 +23548,10 @@
       "total_value_usd": 37775.67,
       "entry_price": 0.0325,
       "end_date": "2026-10-08",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "New York Yankees",
+      "resolved_date": "2026-10-08"
     },
     {
       "signal_key": "0xd315e9b718c2c0184df8f72828d707b6efd8244eed76297a372c3cbad54d05f3:1",
@@ -23565,10 +23565,10 @@
       "total_value_usd": 39039.84,
       "entry_price": 0.0325,
       "end_date": "2026-10-08",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "New York Yankees",
+      "resolved_date": "2026-10-08"
     },
     {
       "signal_key": "0xe79d24bef3d86bff900c8af91e32d7a4018a0391ad2b0697745049c021d26faf:1",
@@ -23598,6 +23598,74 @@
       "score": 5.9814,
       "total_value_usd": 50148.3,
       "entry_price": 0.0325,
+      "end_date": "2026-10-07",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Matheus Pucinelli de Almeida",
+      "resolved_date": "2026-10-07"
+    },
+    {
+      "signal_key": "0xd22ff64ccf11860e2399cc8661f2f0a548887ecaf4344fe57fcaec51e9833959:1",
+      "condition_id": "0xd22ff64ccf11860e2399cc8661f2f0a548887ecaf4344fe57fcaec51e9833959",
+      "title": "China Open: Yulia Starodubtseva vs Alina Charaeva",
+      "category": "Tennis",
+      "whale_direction": "Alina Charaeva",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 22.7368,
+      "total_value_usd": 112988.97,
+      "entry_price": 0.0315,
+      "end_date": "2026-10-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x0daedf10cebbe7081ff052b90d576fdb8c209a3df0848f22162523d390e27dce:0",
+      "condition_id": "0x0daedf10cebbe7081ff052b90d576fdb8c209a3df0848f22162523d390e27dce",
+      "title": "Jingshan: Jessica Bouzas Maneiro vs Yuhan Wang",
+      "category": "Tennis",
+      "whale_direction": "Jessica Bouzas Maneiro",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 21.7239,
+      "total_value_usd": 37791.86,
+      "entry_price": 0.0315,
+      "end_date": "2026-10-08",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x97861c699e92693271937124caf301c6235803e388d6c168689e903871e27473:0",
+      "condition_id": "0x97861c699e92693271937124caf301c6235803e388d6c168689e903871e27473",
+      "title": "China Open: Roman Safiullin vs Flavio Cobolli",
+      "category": "Tennis",
+      "whale_direction": "Roman Safiullin",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 20.784,
+      "total_value_usd": 41593.41,
+      "entry_price": 0.0315,
+      "end_date": "2026-10-07",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xe9d1b30b464f5105b025dc8ec9a892b50fc4dd86fd1670c21fd9ddc110d4be38:0",
+      "condition_id": "0xe9d1b30b464f5105b025dc8ec9a892b50fc4dd86fd1670c21fd9ddc110d4be38",
+      "title": "China Open: Paula Badosa vs Daria Kasatkina",
+      "category": "Tennis",
+      "whale_direction": "Paula Badosa",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 20.268,
+      "total_value_usd": 31941.07,
+      "entry_price": 0.0315,
       "end_date": "2026-10-07",
       "resolved": false,
       "correct": null,
