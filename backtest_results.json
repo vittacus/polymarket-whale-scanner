@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-01T15:12:02+00:00",
-  "total_signals": 1392,
+  "generated_at": "2026-10-01T20:29:20+00:00",
+  "total_signals": 1393,
   "total_resolved": 1328,
   "total_correct": 832,
   "overall_hit_rate": 62.7,
   "by_tier": {
     "Strong": {
-      "total": 603,
+      "total": 604,
       "resolved": 582,
       "correct": 369,
       "hit_rate": 63.4
@@ -23684,6 +23684,23 @@
       "total_value_usd": 49979.08,
       "entry_price": 0.0295,
       "end_date": "2026-10-09",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x5fe0cff9381175cd1a8cf45b510f9414b6b5feb4ebfb67ae3cbde1c887336ad1:0",
+      "condition_id": "0x5fe0cff9381175cd1a8cf45b510f9414b6b5feb4ebfb67ae3cbde1c887336ad1",
+      "title": "Mouilleron-Le-Captif: Harold Mayot vs Tristan Schoolkate",
+      "category": "Tennis",
+      "whale_direction": "Harold Mayot",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 25.4313,
+      "total_value_usd": 47313.94,
+      "entry_price": 0.028,
+      "end_date": "2026-10-08",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
