@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-02T00:12:05+00:00",
-  "total_evaluated": 1393,
+  "generated_at": "2026-10-02T05:31:33+00:00",
+  "total_evaluated": 1394,
   "total_pending": 64,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1393,
+      "signals_evaluated": 1394,
       "correct": 833,
-      "wrong": 496,
+      "wrong": 497,
       "pending": 64,
-      "win_rate": 62.7,
+      "win_rate": 62.6,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -19495,11 +19495,11 @@
           "tier": "Strong",
           "entry_price": 0.0295,
           "whale_direction": "Philadelphia Phillies",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Atlanta Braves",
+          "resolved_date": "2026-10-09",
           "end_date": "2026-10-09",
           "total_value_usd": 49979.08,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x5fe0cff9381175cd1a8cf45b510f9414b6b5feb4ebfb67ae3cbde1c887336ad1:0",
@@ -19514,6 +19514,20 @@
           "end_date": "2026-10-08",
           "total_value_usd": 47313.94,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x95dade1e149c3ed92600ce1a28e3a63caf6cc96422b6d2411614e160be8e9ff0:0",
+          "condition_id": "0x95dade1e149c3ed92600ce1a28e3a63caf6cc96422b6d2411614e160be8e9ff0",
+          "title": "Spread: Colts (-3.5)",
+          "category": "NFL (All)",
+          "tier": "Moderate",
+          "entry_price": 0.0255,
+          "whale_direction": "Colts",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-04",
+          "total_value_usd": 42302.6,
+          "result": "pending"
         }
       ]
     },
@@ -19521,11 +19535,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 723,
+      "signals_evaluated": 724,
       "correct": 427,
-      "wrong": 254,
+      "wrong": 255,
       "pending": 42,
-      "win_rate": 62.7,
+      "win_rate": 62.6,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -29629,11 +29643,11 @@
           "tier": "Strong",
           "entry_price": 0.0295,
           "whale_direction": "Philadelphia Phillies",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Atlanta Braves",
+          "resolved_date": "2026-10-09",
           "end_date": "2026-10-09",
           "total_value_usd": 49979.08,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x5fe0cff9381175cd1a8cf45b510f9414b6b5feb4ebfb67ae3cbde1c887336ad1:0",
@@ -29648,6 +29662,20 @@
           "end_date": "2026-10-08",
           "total_value_usd": 47313.94,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x95dade1e149c3ed92600ce1a28e3a63caf6cc96422b6d2411614e160be8e9ff0:0",
+          "condition_id": "0x95dade1e149c3ed92600ce1a28e3a63caf6cc96422b6d2411614e160be8e9ff0",
+          "title": "Spread: Colts (-3.5)",
+          "category": "NFL (All)",
+          "tier": "Moderate",
+          "entry_price": 0.0255,
+          "whale_direction": "Colts",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-04",
+          "total_value_usd": 42302.6,
+          "result": "pending"
         }
       ]
     },
@@ -29655,11 +29683,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 723,
-      "correct": 254,
+      "signals_evaluated": 724,
+      "correct": 255,
       "wrong": 427,
       "pending": 42,
-      "win_rate": 37.3,
+      "win_rate": 37.4,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -39763,11 +39791,11 @@
           "tier": "Strong",
           "entry_price": 0.0295,
           "whale_direction": "Philadelphia Phillies",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Atlanta Braves",
+          "resolved_date": "2026-10-09",
           "end_date": "2026-10-09",
           "total_value_usd": 49979.08,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x5fe0cff9381175cd1a8cf45b510f9414b6b5feb4ebfb67ae3cbde1c887336ad1:0",
@@ -39782,6 +39810,20 @@
           "end_date": "2026-10-08",
           "total_value_usd": 47313.94,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x95dade1e149c3ed92600ce1a28e3a63caf6cc96422b6d2411614e160be8e9ff0:0",
+          "condition_id": "0x95dade1e149c3ed92600ce1a28e3a63caf6cc96422b6d2411614e160be8e9ff0",
+          "title": "Spread: Colts (-3.5)",
+          "category": "NFL (All)",
+          "tier": "Moderate",
+          "entry_price": 0.0255,
+          "whale_direction": "Colts",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-04",
+          "total_value_usd": 42302.6,
+          "result": "pending"
         }
       ]
     },
