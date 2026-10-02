@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-02T05:31:33+00:00",
-  "total_signals": 1394,
-  "total_resolved": 1330,
+  "generated_at": "2026-10-02T11:23:42+00:00",
+  "total_signals": 1396,
+  "total_resolved": 1331,
   "total_correct": 833,
   "overall_hit_rate": 62.6,
   "by_tier": {
     "Strong": {
-      "total": 604,
+      "total": 605,
       "resolved": 584,
       "correct": 370,
       "hit_rate": 63.4
     },
     "Moderate": {
-      "total": 719,
-      "resolved": 678,
+      "total": 720,
+      "resolved": 679,
       "correct": 423,
-      "hit_rate": 62.4
+      "hit_rate": 62.3
     },
     "Weak": {
       "total": 71,
@@ -21151,10 +21151,10 @@
       "total_value_usd": 3043.65,
       "entry_price": 0.0375,
       "end_date": "2026-10-31",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-10-31"
     },
     {
       "signal_key": "0x915a7faaed0cc6dd1101ffe01c954ea9ead7352234f951d75df5fc94bc244403:1",
@@ -23718,6 +23718,40 @@
       "total_value_usd": 42302.6,
       "entry_price": 0.0255,
       "end_date": "2026-10-04",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xd4d5c70779cb2e5907aeeae0fecdba7017ad807b87e1d3d5ae5e12cd1f07c6cd:1",
+      "condition_id": "0xd4d5c70779cb2e5907aeeae0fecdba7017ad807b87e1d3d5ae5e12cd1f07c6cd",
+      "title": "China Open: Maria Timofeeva vs Naomi Osaka",
+      "category": "Tennis",
+      "whale_direction": "Naomi Osaka",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 11.0459,
+      "total_value_usd": 151455.02,
+      "entry_price": 0.0255,
+      "end_date": "2026-10-09",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x8e6c3ce37f1c9a7464b6e80c2fc16ce96c8a480605f76845980307dc4cbf1f5e:0",
+      "condition_id": "0x8e6c3ce37f1c9a7464b6e80c2fc16ce96c8a480605f76845980307dc4cbf1f5e",
+      "title": "Japan Open Tennis Championships: Arthur Fils vs Frances Tiafoe",
+      "category": "Tennis",
+      "whale_direction": "Arthur Fils",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 9.5642,
+      "total_value_usd": 89832.21,
+      "entry_price": 0.0255,
+      "end_date": "2026-10-09",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

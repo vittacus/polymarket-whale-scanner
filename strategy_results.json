@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-02T05:31:33+00:00",
-  "total_evaluated": 1394,
-  "total_pending": 64,
+  "generated_at": "2026-10-02T11:23:42+00:00",
+  "total_evaluated": 1396,
+  "total_pending": 65,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1394,
+      "signals_evaluated": 1396,
       "correct": 833,
-      "wrong": 497,
-      "pending": 64,
+      "wrong": 498,
+      "pending": 65,
       "win_rate": 62.6,
       "signals": [
         {
@@ -17409,11 +17409,11 @@
           "tier": "Moderate",
           "entry_price": 0.0375,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-10-31",
           "end_date": "2026-10-31",
           "total_value_usd": 3043.65,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x915a7faaed0cc6dd1101ffe01c954ea9ead7352234f951d75df5fc94bc244403:1",
@@ -19527,6 +19527,34 @@
           "resolved_date": null,
           "end_date": "2026-10-04",
           "total_value_usd": 42302.6,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd4d5c70779cb2e5907aeeae0fecdba7017ad807b87e1d3d5ae5e12cd1f07c6cd:1",
+          "condition_id": "0xd4d5c70779cb2e5907aeeae0fecdba7017ad807b87e1d3d5ae5e12cd1f07c6cd",
+          "title": "China Open: Maria Timofeeva vs Naomi Osaka",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0255,
+          "whale_direction": "Naomi Osaka",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-09",
+          "total_value_usd": 151455.02,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x8e6c3ce37f1c9a7464b6e80c2fc16ce96c8a480605f76845980307dc4cbf1f5e:0",
+          "condition_id": "0x8e6c3ce37f1c9a7464b6e80c2fc16ce96c8a480605f76845980307dc4cbf1f5e",
+          "title": "Japan Open Tennis Championships: Arthur Fils vs Frances Tiafoe",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0255,
+          "whale_direction": "Arthur Fils",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-09",
+          "total_value_usd": 89832.21,
           "result": "pending"
         }
       ]
@@ -19535,11 +19563,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 724,
+      "signals_evaluated": 726,
       "correct": 427,
-      "wrong": 255,
-      "pending": 42,
-      "win_rate": 62.6,
+      "wrong": 256,
+      "pending": 43,
+      "win_rate": 62.5,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -27557,11 +27585,11 @@
           "tier": "Moderate",
           "entry_price": 0.0375,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-10-31",
           "end_date": "2026-10-31",
           "total_value_usd": 3043.65,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x915a7faaed0cc6dd1101ffe01c954ea9ead7352234f951d75df5fc94bc244403:1",
@@ -29675,6 +29703,34 @@
           "resolved_date": null,
           "end_date": "2026-10-04",
           "total_value_usd": 42302.6,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd4d5c70779cb2e5907aeeae0fecdba7017ad807b87e1d3d5ae5e12cd1f07c6cd:1",
+          "condition_id": "0xd4d5c70779cb2e5907aeeae0fecdba7017ad807b87e1d3d5ae5e12cd1f07c6cd",
+          "title": "China Open: Maria Timofeeva vs Naomi Osaka",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0255,
+          "whale_direction": "Naomi Osaka",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-09",
+          "total_value_usd": 151455.02,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x8e6c3ce37f1c9a7464b6e80c2fc16ce96c8a480605f76845980307dc4cbf1f5e:0",
+          "condition_id": "0x8e6c3ce37f1c9a7464b6e80c2fc16ce96c8a480605f76845980307dc4cbf1f5e",
+          "title": "Japan Open Tennis Championships: Arthur Fils vs Frances Tiafoe",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0255,
+          "whale_direction": "Arthur Fils",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-09",
+          "total_value_usd": 89832.21,
           "result": "pending"
         }
       ]
@@ -29683,11 +29739,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 724,
-      "correct": 255,
+      "signals_evaluated": 726,
+      "correct": 256,
       "wrong": 427,
-      "pending": 42,
-      "win_rate": 37.4,
+      "pending": 43,
+      "win_rate": 37.5,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -37705,11 +37761,11 @@
           "tier": "Moderate",
           "entry_price": 0.0375,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-10-31",
           "end_date": "2026-10-31",
           "total_value_usd": 3043.65,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x915a7faaed0cc6dd1101ffe01c954ea9ead7352234f951d75df5fc94bc244403:1",
@@ -39823,6 +39879,34 @@
           "resolved_date": null,
           "end_date": "2026-10-04",
           "total_value_usd": 42302.6,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd4d5c70779cb2e5907aeeae0fecdba7017ad807b87e1d3d5ae5e12cd1f07c6cd:1",
+          "condition_id": "0xd4d5c70779cb2e5907aeeae0fecdba7017ad807b87e1d3d5ae5e12cd1f07c6cd",
+          "title": "China Open: Maria Timofeeva vs Naomi Osaka",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0255,
+          "whale_direction": "Naomi Osaka",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-09",
+          "total_value_usd": 151455.02,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x8e6c3ce37f1c9a7464b6e80c2fc16ce96c8a480605f76845980307dc4cbf1f5e:0",
+          "condition_id": "0x8e6c3ce37f1c9a7464b6e80c2fc16ce96c8a480605f76845980307dc4cbf1f5e",
+          "title": "Japan Open Tennis Championships: Arthur Fils vs Frances Tiafoe",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0255,
+          "whale_direction": "Arthur Fils",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-09",
+          "total_value_usd": 89832.21,
           "result": "pending"
         }
       ]
