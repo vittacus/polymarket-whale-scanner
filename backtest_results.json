@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-01T20:29:20+00:00",
+  "generated_at": "2026-10-02T00:12:05+00:00",
   "total_signals": 1393,
-  "total_resolved": 1328,
-  "total_correct": 832,
+  "total_resolved": 1329,
+  "total_correct": 833,
   "overall_hit_rate": 62.7,
   "by_tier": {
     "Strong": {
       "total": 604,
-      "resolved": 582,
-      "correct": 369,
-      "hit_rate": 63.4
+      "resolved": 583,
+      "correct": 370,
+      "hit_rate": 63.5
     },
     "Moderate": {
       "total": 718,
@@ -23701,10 +23701,10 @@
       "total_value_usd": 47313.94,
       "entry_price": 0.028,
       "end_date": "2026-10-08",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Harold Mayot",
+      "resolved_date": "2026-10-08"
     }
   ]
 }

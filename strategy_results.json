@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-01T20:29:20+00:00",
+  "generated_at": "2026-10-02T00:12:05+00:00",
   "total_evaluated": 1393,
-  "total_pending": 65,
+  "total_pending": 64,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 1393,
-      "correct": 832,
+      "correct": 833,
       "wrong": 496,
-      "pending": 65,
+      "pending": 64,
       "win_rate": 62.7,
       "signals": [
         {
@@ -19509,11 +19509,11 @@
           "tier": "Strong",
           "entry_price": 0.028,
           "whale_direction": "Harold Mayot",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Harold Mayot",
+          "resolved_date": "2026-10-08",
           "end_date": "2026-10-08",
           "total_value_usd": 47313.94,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -19522,10 +19522,10 @@
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 723,
-      "correct": 426,
+      "correct": 427,
       "wrong": 254,
-      "pending": 43,
-      "win_rate": 62.6,
+      "pending": 42,
+      "win_rate": 62.7,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -29643,11 +29643,11 @@
           "tier": "Strong",
           "entry_price": 0.028,
           "whale_direction": "Harold Mayot",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Harold Mayot",
+          "resolved_date": "2026-10-08",
           "end_date": "2026-10-08",
           "total_value_usd": 47313.94,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
@@ -29657,9 +29657,9 @@
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 723,
       "correct": 254,
-      "wrong": 426,
-      "pending": 43,
-      "win_rate": 37.4,
+      "wrong": 427,
+      "pending": 42,
+      "win_rate": 37.3,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -39777,11 +39777,11 @@
           "tier": "Strong",
           "entry_price": 0.028,
           "whale_direction": "Harold Mayot",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Harold Mayot",
+          "resolved_date": "2026-10-08",
           "end_date": "2026-10-08",
           "total_value_usd": 47313.94,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
