@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-03T05:33:28+00:00",
+  "generated_at": "2026-10-03T10:42:53+00:00",
   "total_signals": 1397,
-  "total_resolved": 1333,
-  "total_correct": 835,
-  "overall_hit_rate": 62.6,
+  "total_resolved": 1334,
+  "total_correct": 836,
+  "overall_hit_rate": 62.7,
   "by_tier": {
     "Strong": {
       "total": 605,
@@ -13,8 +13,8 @@
     },
     "Moderate": {
       "total": 721,
-      "resolved": 680,
-      "correct": 424,
+      "resolved": 681,
+      "correct": 425,
       "hit_rate": 62.4
     },
     "Weak": {
@@ -23769,10 +23769,10 @@
       "total_value_usd": 60623.4,
       "entry_price": 0.0255,
       "end_date": "2026-10-09",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Alex de Minaur",
+      "resolved_date": "2026-10-09"
     }
   ]
 }
