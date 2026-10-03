@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-03T10:42:53+00:00",
-  "total_signals": 1397,
+  "generated_at": "2026-10-03T15:06:38+00:00",
+  "total_signals": 1399,
   "total_resolved": 1334,
   "total_correct": 836,
   "overall_hit_rate": 62.7,
   "by_tier": {
     "Strong": {
-      "total": 605,
+      "total": 606,
       "resolved": 585,
       "correct": 371,
       "hit_rate": 63.4
     },
     "Moderate": {
-      "total": 721,
+      "total": 722,
       "resolved": 681,
       "correct": 425,
       "hit_rate": 62.4
@@ -23773,6 +23773,40 @@
       "correct": true,
       "resolved_outcome": "Alex de Minaur",
       "resolved_date": "2026-10-09"
+    },
+    {
+      "signal_key": "0x0abb4adbd25a2acac8f50b89939c2d720864223b06caa24d6d5116d680355aae:1",
+      "condition_id": "0x0abb4adbd25a2acac8f50b89939c2d720864223b06caa24d6d5116d680355aae",
+      "title": "China Open: Elena Rybakina vs Alina Charaeva",
+      "category": "Tennis",
+      "whale_direction": "Alina Charaeva",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 13.1751,
+      "total_value_usd": 210221.03,
+      "entry_price": 0.0255,
+      "end_date": "2026-10-09",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xdd6b1ad32d035192469c0bbd1fb297d2d36c16f0960988b466c2deddd62ad34b:1",
+      "condition_id": "0xdd6b1ad32d035192469c0bbd1fb297d2d36c16f0960988b466c2deddd62ad34b",
+      "title": "Adana: Erika Andreeva vs Lois Boisson",
+      "category": "Tennis",
+      "whale_direction": "Lois Boisson",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 7.8083,
+      "total_value_usd": 61297.68,
+      "entry_price": 0.0255,
+      "end_date": "2026-10-10",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
