@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-04T16:09:52+00:00",
+  "generated_at": "2026-10-04T19:32:08+00:00",
   "total_signals": 1399,
-  "total_resolved": 1336,
-  "total_correct": 838,
+  "total_resolved": 1339,
+  "total_correct": 839,
   "overall_hit_rate": 62.7,
   "by_tier": {
     "Strong": {
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 722,
-      "resolved": 682,
-      "correct": 426,
-      "hit_rate": 62.5
+      "resolved": 685,
+      "correct": 427,
+      "hit_rate": 62.3
     },
     "Weak": {
       "total": 71,
@@ -23412,10 +23412,10 @@
       "total_value_usd": 74084.8,
       "entry_price": 0.0345,
       "end_date": "2026-10-04",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Colts",
+      "resolved_date": "2026-10-04"
     },
     {
       "signal_key": "0x0dc7d4a71a89164e7b02e2cb34911d5365895444c9da507436993ea47a6b06d3:1",
@@ -23429,10 +23429,10 @@
       "total_value_usd": 26512.72,
       "entry_price": 0.0345,
       "end_date": "2026-10-04",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Colts",
+      "resolved_date": "2026-10-04"
     },
     {
       "signal_key": "0x727f3420ffe4492fa6a31dc8912bca1938d105ecc3c3e88cfb78faaaa2fa4d26:1",
@@ -23718,10 +23718,10 @@
       "total_value_usd": 42302.6,
       "entry_price": 0.0255,
       "end_date": "2026-10-04",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Colts",
+      "resolved_date": "2026-10-04"
     },
     {
       "signal_key": "0xd4d5c70779cb2e5907aeeae0fecdba7017ad807b87e1d3d5ae5e12cd1f07c6cd:1",
