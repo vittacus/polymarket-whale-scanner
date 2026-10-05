@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-05T01:18:53+00:00",
+  "generated_at": "2026-10-05T07:12:10+00:00",
   "total_signals": 1401,
-  "total_resolved": 1340,
+  "total_resolved": 1341,
   "total_correct": 839,
   "overall_hit_rate": 62.6,
   "by_tier": {
     "Strong": {
       "total": 608,
-      "resolved": 587,
+      "resolved": 588,
       "correct": 372,
-      "hit_rate": 63.4
+      "hit_rate": 63.3
     },
     "Moderate": {
       "total": 722,
@@ -23820,10 +23820,10 @@
       "total_value_usd": 1255108.85,
       "entry_price": 0.0255,
       "end_date": "2026-10-12",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Atlanta Braves",
+      "resolved_date": "2026-10-12"
     },
     {
       "signal_key": "0x628e2f7b18d74764e2dd0388708d1d69ddec2b62c415958fb4ee99062e721012:0",
