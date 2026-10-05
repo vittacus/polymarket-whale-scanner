@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T22:39:37+00:00",
+  "generated_at": "2026-10-05T01:18:53+00:00",
   "total_evaluated": 1401,
-  "total_pending": 62,
+  "total_pending": 61,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
@@ -9,9 +9,9 @@
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 1401,
       "correct": 839,
-      "wrong": 500,
-      "pending": 62,
-      "win_rate": 62.7,
+      "wrong": 501,
+      "pending": 61,
+      "win_rate": 62.6,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -19621,11 +19621,11 @@
           "tier": "Strong",
           "entry_price": 0.0255,
           "whale_direction": "San Diego Padres",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-10-11",
           "end_date": "2026-10-11",
           "total_value_usd": 34678.37,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
@@ -19635,9 +19635,9 @@
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 731,
       "correct": 433,
-      "wrong": 258,
-      "pending": 40,
-      "win_rate": 62.7,
+      "wrong": 259,
+      "pending": 39,
+      "win_rate": 62.6,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -29867,11 +29867,11 @@
           "tier": "Strong",
           "entry_price": 0.0255,
           "whale_direction": "San Diego Padres",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-10-11",
           "end_date": "2026-10-11",
           "total_value_usd": 34678.37,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
@@ -29880,10 +29880,10 @@
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 731,
-      "correct": 258,
+      "correct": 259,
       "wrong": 433,
-      "pending": 40,
-      "win_rate": 37.3,
+      "pending": 39,
+      "win_rate": 37.4,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -40113,11 +40113,11 @@
           "tier": "Strong",
           "entry_price": 0.0255,
           "whale_direction": "San Diego Padres",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-10-11",
           "end_date": "2026-10-11",
           "total_value_usd": 34678.37,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },

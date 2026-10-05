@@ -374926,5 +374926,178 @@
         "entry_price": 0.0255
       }
     ]
+  },
+  {
+    "timestamp": "2026-10-05T01:05:40+00:00",
+    "whale_timeframes": {
+      "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe6ca6ebbec97e8a46ff3dbdb2a99d46254fbbff4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa38a455bbdd4b68486548b7e19da99903f4f821d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2dfa4e79eca44b7c774f40a45535adbc368a6f60": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x96489abcb9f583d6835c8ef95ffc923d05a86825": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5fdd66ffd0325d4e8d1d86fbec50caa31770a747": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa2cced8bfae7d645f7f437fb76becf2fcbb70cbc": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe4a57385a34b0b32fd86be72efd25cda41003cad": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x924379a79c64b77ad5816ad362122a5f6228658e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7b6c6d1279098054b0c630a4b871002a7cd46305": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2cff41636fe21fad120fed603d54d4fdd96259db": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe18ecc345e00ee7c4f2d1f676f3dd2acb112f826": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6575759174ad221bba9947bc3f18750ec769b198": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x27f738fe203827445690339104aae35b20bc44b0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1465b79bff7992bc703e1aafb3683b1089647072": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x23d81ba9371e576015c1e562db09c689f56b0288": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbeb1c94b4260398f93f418e349a15a40b2ae4687": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x66f9fbea80942a3424cc5cb4f19eb53960a965913c0152f8348fa46ab7d3eb25:1",
+        "condition_id": "0x66f9fbea80942a3424cc5cb4f19eb53960a965913c0152f8348fa46ab7d3eb25",
+        "title": "Atlanta Braves vs. Los Angeles Dodgers",
+        "outcome": "Los Angeles Dodgers",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+          "0xe6ca6ebbec97e8a46ff3dbdb2a99d46254fbbff4",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          1,
+          3,
+          4
+        ],
+        "total_value_usd": 939638.05,
+        "score": 38.108,
+        "category": "MLB",
+        "end_date": "2026-10-12",
+        "entry_price": 0.0255
+      },
+      {
+        "signal_key": "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d:1",
+        "condition_id": "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d",
+        "title": "2026 Balance of Power: D Senate, D House",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+          "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e",
+          "0x23d81ba9371e576015c1e562db09c689f56b0288"
+        ],
+        "ranks": [
+          2,
+          5,
+          19
+        ],
+        "total_value_usd": 527407.42,
+        "score": 17.3538,
+        "category": "United States",
+        "end_date": "2026-11-04",
+        "entry_price": 0.048
+      }
+    ]
   }
 ]
