@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-05T16:10:43+00:00",
-  "total_signals": 1401,
+  "generated_at": "2026-10-05T22:35:12+00:00",
+  "total_signals": 1402,
   "total_resolved": 1343,
   "total_correct": 840,
   "overall_hit_rate": 62.5,
   "by_tier": {
     "Strong": {
-      "total": 608,
+      "total": 609,
       "resolved": 589,
       "correct": 372,
       "hit_rate": 63.2
@@ -23841,6 +23841,23 @@
       "correct": false,
       "resolved_outcome": "Milwaukee Brewers",
       "resolved_date": "2026-10-11"
+    },
+    {
+      "signal_key": "0xb77a88986eed71d203e1259c283c9f135d6130e08009a18b8a277879e1cc719e:0",
+      "condition_id": "0xb77a88986eed71d203e1259c283c9f135d6130e08009a18b8a277879e1cc719e",
+      "title": "Chicago White Sox vs. Cleveland Guardians",
+      "category": "MLB",
+      "whale_direction": "Chicago White Sox",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 28.6954,
+      "total_value_usd": 37841.19,
+      "entry_price": 0.0245,
+      "end_date": "2026-10-12",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
