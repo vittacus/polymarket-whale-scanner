@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-05T22:35:12+00:00",
-  "total_signals": 1402,
-  "total_resolved": 1343,
-  "total_correct": 840,
-  "overall_hit_rate": 62.5,
+  "generated_at": "2026-10-06T02:34:36+00:00",
+  "total_signals": 1403,
+  "total_resolved": 1344,
+  "total_correct": 841,
+  "overall_hit_rate": 62.6,
   "by_tier": {
     "Strong": {
       "total": 609,
-      "resolved": 589,
-      "correct": 372,
+      "resolved": 590,
+      "correct": 373,
       "hit_rate": 63.2
     },
     "Moderate": {
-      "total": 722,
+      "total": 723,
       "resolved": 686,
       "correct": 428,
       "hit_rate": 62.4
@@ -23854,6 +23854,23 @@
       "total_value_usd": 37841.19,
       "entry_price": 0.0245,
       "end_date": "2026-10-12",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Chicago White Sox",
+      "resolved_date": "2026-10-12"
+    },
+    {
+      "signal_key": "0xc249f8f8b909aeb0a6a200eb0b4d8719acb25cd248cb1f37047426540e8f1700:1",
+      "condition_id": "0xc249f8f8b909aeb0a6a200eb0b4d8719acb25cd248cb1f37047426540e8f1700",
+      "title": "New York Yankees vs. Tampa Bay Rays",
+      "category": "MLB",
+      "whale_direction": "Tampa Bay Rays",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 7.3529,
+      "total_value_usd": 64214.37,
+      "entry_price": 0.0245,
+      "end_date": "2026-10-13",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

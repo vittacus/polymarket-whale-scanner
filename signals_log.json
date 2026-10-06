@@ -375501,5 +375501,155 @@
         "entry_price": 0.0245
       }
     ]
+  },
+  {
+    "timestamp": "2026-10-06T02:22:42+00:00",
+    "whale_timeframes": {
+      "0xcbc666209b4c17ea84c03c0dda71b5dab9e4ec62": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6211f97a76ed5c4b1d658f637041ac5f293db89e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe1787252abc9db4d5bfac51c253a68e0162ffe19": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe5b70fd855af9258d9463992e4f1ed7987905ee3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9db82de5a71ae539bc82f4d9ac3a007c7d742eff": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc430e5b17128df7ce78d69fa28bc7de038641ebf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9ee49c02ae1ade698bf9e06d4ca271f236b8697b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa90429bc88a1d22eb40e4aac9aaf0bcefd29d20c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd81e5bc01e4a98d0af93d82dc2c542a4c0f9e3d0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe4a57385a34b0b32fd86be72efd25cda41003cad": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa2cced8bfae7d645f7f437fb76becf2fcbb70cbc": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9b11866433281ade9f2811dbde8acdefc45f5375": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7a8885c8dc075f0578b648f29fa233408a7d41cc": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xc249f8f8b909aeb0a6a200eb0b4d8719acb25cd248cb1f37047426540e8f1700:1",
+        "condition_id": "0xc249f8f8b909aeb0a6a200eb0b4d8719acb25cd248cb1f37047426540e8f1700",
+        "title": "New York Yankees vs. Tampa Bay Rays",
+        "outcome": "Tampa Bay Rays",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x9b11866433281ade9f2811dbde8acdefc45f5375"
+        ],
+        "ranks": [
+          4,
+          13,
+          19
+        ],
+        "total_value_usd": 64214.37,
+        "score": 7.3529,
+        "category": "MLB",
+        "end_date": "2026-10-13",
+        "entry_price": 0.0245
+      }
+    ]
   }
 ]
