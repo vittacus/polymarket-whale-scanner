@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-06T02:34:36+00:00",
-  "total_signals": 1403,
-  "total_resolved": 1344,
-  "total_correct": 841,
+  "generated_at": "2026-10-06T09:22:01+00:00",
+  "total_signals": 1406,
+  "total_resolved": 1345,
+  "total_correct": 842,
   "overall_hit_rate": 62.6,
   "by_tier": {
     "Strong": {
@@ -12,9 +12,9 @@
       "hit_rate": 63.2
     },
     "Moderate": {
-      "total": 723,
-      "resolved": 686,
-      "correct": 428,
+      "total": 726,
+      "resolved": 687,
+      "correct": 429,
       "hit_rate": 62.4
     },
     "Weak": {
@@ -23871,6 +23871,57 @@
       "total_value_usd": 64214.37,
       "entry_price": 0.0245,
       "end_date": "2026-10-13",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Tampa Bay Rays",
+      "resolved_date": "2026-10-13"
+    },
+    {
+      "signal_key": "0x40441021a9ff6b0230e8b6e87bc9866a8df7337b692dfdf1d10da832bc05a944:0",
+      "condition_id": "0x40441021a9ff6b0230e8b6e87bc9866a8df7337b692dfdf1d10da832bc05a944",
+      "title": "Spread: Cowboys (-9.5)",
+      "category": "NFL (All)",
+      "whale_direction": "Cowboys",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 8.0991,
+      "total_value_usd": 19770.74,
+      "entry_price": 0.0255,
+      "end_date": "2026-10-09",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x1522d3943a6535571880a41fc6461b739885977b294cef5b54e1e52c2bb2d4ba:1",
+      "condition_id": "0x1522d3943a6535571880a41fc6461b739885977b294cef5b54e1e52c2bb2d4ba",
+      "title": "China Open: Karolina Muchova vs Naomi Osaka",
+      "category": "Tennis",
+      "whale_direction": "Naomi Osaka",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 6.8051,
+      "total_value_usd": 47784.05,
+      "entry_price": 0.0255,
+      "end_date": "2026-10-13",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xd43898f7e10c30da1adf9c23c808fc8861ec7c0a53195e4a187c199a9b19f376:1",
+      "condition_id": "0xd43898f7e10c30da1adf9c23c808fc8861ec7c0a53195e4a187c199a9b19f376",
+      "title": "Buccaneers vs. Cowboys",
+      "category": "NFL (All)",
+      "whale_direction": "Cowboys",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 5.658,
+      "total_value_usd": 24054.36,
+      "entry_price": 0.0255,
+      "end_date": "2026-10-09",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
