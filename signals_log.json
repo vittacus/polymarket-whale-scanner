@@ -376068,5 +376068,201 @@
         "entry_price": 0.0255
       }
     ]
+  },
+  {
+    "timestamp": "2026-10-06T20:46:26+00:00",
+    "whale_timeframes": {
+      "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcbc666209b4c17ea84c03c0dda71b5dab9e4ec62": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6211f97a76ed5c4b1d658f637041ac5f293db89e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe40ecff63ec661d218a86c048186ac83389a9770": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x924379a79c64b77ad5816ad362122a5f6228658e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe1787252abc9db4d5bfac51c253a68e0162ffe19": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9b11866433281ade9f2811dbde8acdefc45f5375": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc430e5b17128df7ce78d69fa28bc7de038641ebf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x32b484581fc5606de9c1e43af4636b6be9bc8b21": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe5b70fd855af9258d9463992e4f1ed7987905ee3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9ee49c02ae1ade698bf9e06d4ca271f236b8697b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x446884aa55e3dcf7123d9a3d6243c4e34b70b165": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9db82de5a71ae539bc82f4d9ac3a007c7d742eff": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xec5fca6c7b0e45f83e7b2acb0e7d7da2db4886c82027a130b7b797374147bcd5:0",
+        "condition_id": "0xec5fca6c7b0e45f83e7b2acb0e7d7da2db4886c82027a130b7b797374147bcd5",
+        "title": "Antofagasta: Gustavo Heide vs Maximo Zeitune",
+        "outcome": "Gustavo Heide",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21"
+        ],
+        "ranks": [
+          6,
+          8,
+          16
+        ],
+        "total_value_usd": 28051.19,
+        "score": 6.3478,
+        "category": "Tennis",
+        "end_date": "2026-10-13",
+        "entry_price": 0.0265
+      },
+      {
+        "signal_key": "0xec5fca6c7b0e45f83e7b2acb0e7d7da2db4886c82027a130b7b797374147bcd5:1",
+        "condition_id": "0xec5fca6c7b0e45f83e7b2acb0e7d7da2db4886c82027a130b7b797374147bcd5",
+        "title": "Antofagasta: Gustavo Heide vs Maximo Zeitune",
+        "outcome": "Maximo Zeitune",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21"
+        ],
+        "ranks": [
+          6,
+          8,
+          16
+        ],
+        "total_value_usd": 8844.08,
+        "score": 5.6324,
+        "category": "Tennis",
+        "end_date": "2026-10-13",
+        "entry_price": 0.0265
+      },
+      {
+        "signal_key": "0x7849245484a838816650314f7a826d1bf0a5f5c1e6d46956d14a278d47dae3bb:0",
+        "condition_id": "0x7849245484a838816650314f7a826d1bf0a5f5c1e6d46956d14a278d47dae3bb",
+        "title": "Los Angeles Dodgers vs. Atlanta Braves",
+        "outcome": "Los Angeles Dodgers",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21"
+        ],
+        "ranks": [
+          8,
+          10,
+          16
+        ],
+        "total_value_usd": 9727.42,
+        "score": 4.6201,
+        "category": "MLB",
+        "end_date": "2026-10-13",
+        "entry_price": 0.0255
+      }
+    ]
   }
 ]
