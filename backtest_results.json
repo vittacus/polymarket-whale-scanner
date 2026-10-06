@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-06T09:22:01+00:00",
-  "total_signals": 1406,
-  "total_resolved": 1345,
+  "generated_at": "2026-10-06T16:10:24+00:00",
+  "total_signals": 1408,
+  "total_resolved": 1347,
   "total_correct": 842,
-  "overall_hit_rate": 62.6,
+  "overall_hit_rate": 62.5,
   "by_tier": {
     "Strong": {
       "total": 609,
@@ -12,10 +12,10 @@
       "hit_rate": 63.2
     },
     "Moderate": {
-      "total": 726,
-      "resolved": 687,
+      "total": 728,
+      "resolved": 689,
       "correct": 429,
-      "hit_rate": 62.4
+      "hit_rate": 62.3
     },
     "Weak": {
       "total": 71,
@@ -11767,10 +11767,10 @@
       "total_value_usd": 24505.15,
       "entry_price": 0.0455,
       "end_date": "2026-09-30",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-10-01"
     },
     {
       "signal_key": "0x58998da8fa20593cf07618032acd580344a79279a8bcc3ed128b668d793c3d6f:1",
@@ -23905,10 +23905,10 @@
       "total_value_usd": 47784.05,
       "entry_price": 0.0255,
       "end_date": "2026-10-13",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Karolina Muchova",
+      "resolved_date": "2026-10-13"
     },
     {
       "signal_key": "0xd43898f7e10c30da1adf9c23c808fc8861ec7c0a53195e4a187c199a9b19f376:1",
@@ -23922,6 +23922,40 @@
       "total_value_usd": 24054.36,
       "entry_price": 0.0255,
       "end_date": "2026-10-09",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x7849245484a838816650314f7a826d1bf0a5f5c1e6d46956d14a278d47dae3bb:0",
+      "condition_id": "0x7849245484a838816650314f7a826d1bf0a5f5c1e6d46956d14a278d47dae3bb",
+      "title": "Los Angeles Dodgers vs. Atlanta Braves",
+      "category": "MLB",
+      "whale_direction": "Los Angeles Dodgers",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 6.581,
+      "total_value_usd": 9727.42,
+      "entry_price": 0.0255,
+      "end_date": "2026-10-13",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x9363a660e5b0203ae13801ec52059abe0318e9192541419ae2159208e48d0bbf:1",
+      "condition_id": "0x9363a660e5b0203ae13801ec52059abe0318e9192541419ae2159208e48d0bbf",
+      "title": "Samsun: Cagla Buyukakcay vs Linda Klimovicova",
+      "category": "Tennis",
+      "whale_direction": "Linda Klimovicova",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 5.6251,
+      "total_value_usd": 15412.46,
+      "entry_price": 0.0255,
+      "end_date": "2026-10-12",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-06T09:22:01+00:00",
-  "total_evaluated": 1406,
+  "generated_at": "2026-10-06T16:10:24+00:00",
+  "total_evaluated": 1408,
   "total_pending": 61,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1406,
+      "signals_evaluated": 1408,
       "correct": 842,
-      "wrong": 503,
+      "wrong": 505,
       "pending": 61,
-      "win_rate": 62.6,
+      "win_rate": 62.5,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -9681,11 +9681,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-10-01",
           "end_date": "2026-09-30",
           "total_value_usd": 24505.15,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x58998da8fa20593cf07618032acd580344a79279a8bcc3ed128b668d793c3d6f:1",
@@ -19677,11 +19677,11 @@
           "tier": "Moderate",
           "entry_price": 0.0255,
           "whale_direction": "Naomi Osaka",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Karolina Muchova",
+          "resolved_date": "2026-10-13",
           "end_date": "2026-10-13",
           "total_value_usd": 47784.05,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xd43898f7e10c30da1adf9c23c808fc8861ec7c0a53195e4a187c199a9b19f376:1",
@@ -19695,6 +19695,34 @@
           "resolved_date": null,
           "end_date": "2026-10-09",
           "total_value_usd": 24054.36,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x7849245484a838816650314f7a826d1bf0a5f5c1e6d46956d14a278d47dae3bb:0",
+          "condition_id": "0x7849245484a838816650314f7a826d1bf0a5f5c1e6d46956d14a278d47dae3bb",
+          "title": "Los Angeles Dodgers vs. Atlanta Braves",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0255,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-13",
+          "total_value_usd": 9727.42,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x9363a660e5b0203ae13801ec52059abe0318e9192541419ae2159208e48d0bbf:1",
+          "condition_id": "0x9363a660e5b0203ae13801ec52059abe0318e9192541419ae2159208e48d0bbf",
+          "title": "Samsun: Cagla Buyukakcay vs Linda Klimovicova",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0255,
+          "whale_direction": "Linda Klimovicova",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-12",
+          "total_value_usd": 15412.46,
           "result": "pending"
         }
       ]
@@ -19703,11 +19731,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 736,
+      "signals_evaluated": 738,
       "correct": 435,
-      "wrong": 260,
+      "wrong": 262,
       "pending": 41,
-      "win_rate": 62.6,
+      "win_rate": 62.4,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -19997,11 +20025,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-10-01",
           "end_date": "2026-09-30",
           "total_value_usd": 24505.15,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x58998da8fa20593cf07618032acd580344a79279a8bcc3ed128b668d793c3d6f:1",
@@ -29993,11 +30021,11 @@
           "tier": "Moderate",
           "entry_price": 0.0255,
           "whale_direction": "Naomi Osaka",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Karolina Muchova",
+          "resolved_date": "2026-10-13",
           "end_date": "2026-10-13",
           "total_value_usd": 47784.05,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xd43898f7e10c30da1adf9c23c808fc8861ec7c0a53195e4a187c199a9b19f376:1",
@@ -30011,6 +30039,34 @@
           "resolved_date": null,
           "end_date": "2026-10-09",
           "total_value_usd": 24054.36,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x7849245484a838816650314f7a826d1bf0a5f5c1e6d46956d14a278d47dae3bb:0",
+          "condition_id": "0x7849245484a838816650314f7a826d1bf0a5f5c1e6d46956d14a278d47dae3bb",
+          "title": "Los Angeles Dodgers vs. Atlanta Braves",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0255,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-13",
+          "total_value_usd": 9727.42,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x9363a660e5b0203ae13801ec52059abe0318e9192541419ae2159208e48d0bbf:1",
+          "condition_id": "0x9363a660e5b0203ae13801ec52059abe0318e9192541419ae2159208e48d0bbf",
+          "title": "Samsun: Cagla Buyukakcay vs Linda Klimovicova",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0255,
+          "whale_direction": "Linda Klimovicova",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-12",
+          "total_value_usd": 15412.46,
           "result": "pending"
         }
       ]
@@ -30019,11 +30075,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 736,
-      "correct": 260,
+      "signals_evaluated": 738,
+      "correct": 262,
       "wrong": 435,
       "pending": 41,
-      "win_rate": 37.4,
+      "win_rate": 37.6,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -30313,11 +30369,11 @@
           "tier": "Moderate",
           "entry_price": 0.0455,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-10-01",
           "end_date": "2026-09-30",
           "total_value_usd": 24505.15,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x58998da8fa20593cf07618032acd580344a79279a8bcc3ed128b668d793c3d6f:1",
@@ -40309,11 +40365,11 @@
           "tier": "Moderate",
           "entry_price": 0.0255,
           "whale_direction": "Naomi Osaka",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Karolina Muchova",
+          "resolved_date": "2026-10-13",
           "end_date": "2026-10-13",
           "total_value_usd": 47784.05,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xd43898f7e10c30da1adf9c23c808fc8861ec7c0a53195e4a187c199a9b19f376:1",
@@ -40327,6 +40383,34 @@
           "resolved_date": null,
           "end_date": "2026-10-09",
           "total_value_usd": 24054.36,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x7849245484a838816650314f7a826d1bf0a5f5c1e6d46956d14a278d47dae3bb:0",
+          "condition_id": "0x7849245484a838816650314f7a826d1bf0a5f5c1e6d46956d14a278d47dae3bb",
+          "title": "Los Angeles Dodgers vs. Atlanta Braves",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0255,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-13",
+          "total_value_usd": 9727.42,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x9363a660e5b0203ae13801ec52059abe0318e9192541419ae2159208e48d0bbf:1",
+          "condition_id": "0x9363a660e5b0203ae13801ec52059abe0318e9192541419ae2159208e48d0bbf",
+          "title": "Samsun: Cagla Buyukakcay vs Linda Klimovicova",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0255,
+          "whale_direction": "Linda Klimovicova",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-12",
+          "total_value_usd": 15412.46,
           "result": "pending"
         }
       ]
