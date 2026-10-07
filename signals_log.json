@@ -376264,5 +376264,180 @@
         "entry_price": 0.0255
       }
     ]
+  },
+  {
+    "timestamp": "2026-10-07T00:18:07+00:00",
+    "whale_timeframes": {
+      "0xcdcccd0f2d86e450d973da415ad2430e5cc7935a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcbc666209b4c17ea84c03c0dda71b5dab9e4ec62": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6211f97a76ed5c4b1d658f637041ac5f293db89e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe40ecff63ec661d218a86c048186ac83389a9770": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7c37b52eb226bcb9411375ec48b0169663fb6aeb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x924379a79c64b77ad5816ad362122a5f6228658e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe1787252abc9db4d5bfac51c253a68e0162ffe19": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x162ca4c5249987872fea1e15c846d7fe80316c47": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9b11866433281ade9f2811dbde8acdefc45f5375": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x446884aa55e3dcf7123d9a3d6243c4e34b70b165": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc430e5b17128df7ce78d69fa28bc7de038641ebf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe5b70fd855af9258d9463992e4f1ed7987905ee3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x7849245484a838816650314f7a826d1bf0a5f5c1e6d46956d14a278d47dae3bb:1",
+        "condition_id": "0x7849245484a838816650314f7a826d1bf0a5f5c1e6d46956d14a278d47dae3bb",
+        "title": "Los Angeles Dodgers vs. Atlanta Braves",
+        "outcome": "Atlanta Braves",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x7c37b52eb226bcb9411375ec48b0169663fb6aeb",
+          "0x9b11866433281ade9f2811dbde8acdefc45f5375"
+        ],
+        "ranks": [
+          4,
+          8,
+          9,
+          16
+        ],
+        "total_value_usd": 37128.11,
+        "score": 10.102,
+        "category": "MLB",
+        "end_date": "2026-10-13",
+        "entry_price": 0.0265
+      },
+      {
+        "signal_key": "0x7849245484a838816650314f7a826d1bf0a5f5c1e6d46956d14a278d47dae3bb:0",
+        "condition_id": "0x7849245484a838816650314f7a826d1bf0a5f5c1e6d46956d14a278d47dae3bb",
+        "title": "Los Angeles Dodgers vs. Atlanta Braves",
+        "outcome": "Los Angeles Dodgers",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c"
+        ],
+        "ranks": [
+          4,
+          8,
+          11
+        ],
+        "total_value_usd": 24577.51,
+        "score": 8.2428,
+        "category": "MLB",
+        "end_date": "2026-10-13",
+        "entry_price": 0.0255
+      }
+    ]
   }
 ]
