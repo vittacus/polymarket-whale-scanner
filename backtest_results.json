@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T06:28:37+00:00",
+  "generated_at": "2026-10-07T13:55:09+00:00",
   "total_signals": 1411,
   "total_resolved": 1352,
   "total_correct": 844,
@@ -7,14 +7,14 @@
   "by_tier": {
     "Strong": {
       "total": 610,
-      "resolved": 591,
-      "correct": 373,
+      "resolved": 590,
+      "correct": 372,
       "hit_rate": 63.1
     },
     "Moderate": {
       "total": 730,
-      "resolved": 693,
-      "correct": 431,
+      "resolved": 694,
+      "correct": 432,
       "hit_rate": 62.2
     },
     "Weak": {
@@ -14283,10 +14283,10 @@
       "total_value_usd": 303434.58,
       "entry_price": 0.0465,
       "end_date": "2026-08-17",
-      "resolved": true,
-      "correct": true,
-      "resolved_outcome": "Sergey Fomin",
-      "resolved_date": "2026-08-17"
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     },
     {
       "signal_key": "0x6ded831dded2f10792a3d7f2d180c3a21def5d78e16223a35ce8ac6027448fb2:1",
@@ -23956,10 +23956,10 @@
       "total_value_usd": 15412.46,
       "entry_price": 0.0255,
       "end_date": "2026-10-12",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Linda Klimovicova",
+      "resolved_date": "2026-10-12"
     },
     {
       "signal_key": "0xec5fca6c7b0e45f83e7b2acb0e7d7da2db4886c82027a130b7b797374147bcd5:0",
