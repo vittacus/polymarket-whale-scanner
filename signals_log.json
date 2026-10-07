@@ -376691,5 +376691,226 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-10-07T19:31:52+00:00",
+    "whale_timeframes": {
+      "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x31e5d54aded22aa7cd80dbe9e33102abe2504879": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x751a2b86cab503496efd325c8344e10159349ea1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc9ae00eda811041a059f3eec9356b24067c1b9e0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa19cbababc312f9df185e49d7004c249ed1ade6b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x252d7bae5ec87553dcafb23e275c202ac0d3c456": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x918b42a06ff25eaaa4a79eca9da6a9de46f4ea63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc35049bc7b6bd28a49a40b261466ca91aad63669": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7c37b52eb226bcb9411375ec48b0169663fb6aeb": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x16bb9951a36fce71e2ef57890b786145e0ba8492": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb4f978be63cdf75554b0b46a4262a6db597cc9a7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x076daa87c4fe1a85402a9b6b8e0a866224388d4c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x26b46988d027c6c03cfa12a7c0c6d778be49b8a9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xae9508c5623b068b7e81f050c359b87a079317b8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x06dc51826bc524d9a83770e7de9dd7e005b04524": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xc02f22c25226ff155f018908878fe2ca79e8a9150dbcc474f66992f0c4c14d1a:1",
+        "condition_id": "0xc02f22c25226ff155f018908878fe2ca79e8a9150dbcc474f66992f0c4c14d1a",
+        "title": "Will Ethereum dip to $2,100 in October?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x751a2b86cab503496efd325c8344e10159349ea1",
+          "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
+          "0x252d7bae5ec87553dcafb23e275c202ac0d3c456",
+          "0x06dc51826bc524d9a83770e7de9dd7e005b04524"
+        ],
+        "ranks": [
+          3,
+          5,
+          7,
+          20
+        ],
+        "total_value_usd": 76454.4,
+        "score": 14.2898,
+        "category": "Ethereum",
+        "end_date": "2026-11-01",
+        "entry_price": 0.0265
+      },
+      {
+        "signal_key": "0xd286cc1c4d999a56b39b00c38aed976ad0e05c5435404077ae93bcb5a4b19842:1",
+        "condition_id": "0xd286cc1c4d999a56b39b00c38aed976ad0e05c5435404077ae93bcb5a4b19842",
+        "title": "Will Ethereum reach $2,800 in October?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
+          "0x252d7bae5ec87553dcafb23e275c202ac0d3c456",
+          "0x06dc51826bc524d9a83770e7de9dd7e005b04524"
+        ],
+        "ranks": [
+          5,
+          7,
+          20
+        ],
+        "total_value_usd": 27861.76,
+        "score": 7.0366,
+        "category": "Ethereum",
+        "end_date": "2026-11-01",
+        "entry_price": 0.0265
+      },
+      {
+        "signal_key": "0x4db48df8959b4043791eadfddb025ef54267741bcefdfb04ee97a21043cf171b:0",
+        "condition_id": "0x4db48df8959b4043791eadfddb025ef54267741bcefdfb04ee97a21043cf171b",
+        "title": "Will Ethereum dip to $2,500 October 5-11?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
+          "0x252d7bae5ec87553dcafb23e275c202ac0d3c456",
+          "0x06dc51826bc524d9a83770e7de9dd7e005b04524"
+        ],
+        "ranks": [
+          5,
+          7,
+          20
+        ],
+        "total_value_usd": 12993.38,
+        "score": 6.5122,
+        "category": "Ethereum",
+        "end_date": "2026-10-12",
+        "entry_price": 0.0265
+      },
+      {
+        "signal_key": "0x26af9f34f480490dc6fdc05090eed88c9fcf541e5b76a3c4d974f4b2e4781999:1",
+        "condition_id": "0x26af9f34f480490dc6fdc05090eed88c9fcf541e5b76a3c4d974f4b2e4781999",
+        "title": "Braga: Mackenzie McDonald vs Ryan Nijboer",
+        "outcome": "Ryan Nijboer",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+          "0x26b46988d027c6c03cfa12a7c0c6d778be49b8a9"
+        ],
+        "ranks": [
+          14,
+          16,
+          18
+        ],
+        "total_value_usd": 61764.84,
+        "score": 3.6579,
+        "category": "Tennis",
+        "end_date": "2026-10-13",
+        "entry_price": 0.0265
+      }
+    ]
   }
 ]

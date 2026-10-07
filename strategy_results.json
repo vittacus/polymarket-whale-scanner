@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-07T13:55:09+00:00",
-  "total_evaluated": 1411,
-  "total_pending": 59,
+  "generated_at": "2026-10-07T19:45:29+00:00",
+  "total_evaluated": 1415,
+  "total_pending": 62,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1411,
-      "correct": 844,
+      "signals_evaluated": 1415,
+      "correct": 845,
       "wrong": 508,
-      "pending": 59,
-      "win_rate": 62.4,
+      "pending": 62,
+      "win_rate": 62.5,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -11753,11 +11753,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Sergey Fomin",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Sergey Fomin",
+          "resolved_date": "2026-08-17",
           "end_date": "2026-08-17",
           "total_value_usd": 303434.58,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x6ded831dded2f10792a3d7f2d180c3a21def5d78e16223a35ce8ac6027448fb2:1",
@@ -19766,6 +19766,62 @@
           "end_date": "2026-10-13",
           "total_value_usd": 37128.11,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0xc02f22c25226ff155f018908878fe2ca79e8a9150dbcc474f66992f0c4c14d1a:1",
+          "condition_id": "0xc02f22c25226ff155f018908878fe2ca79e8a9150dbcc474f66992f0c4c14d1a",
+          "title": "Will Ethereum dip to $2,100 in October?",
+          "category": "Ethereum",
+          "tier": "Strong",
+          "entry_price": 0.0265,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-01",
+          "total_value_usd": 76454.4,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd286cc1c4d999a56b39b00c38aed976ad0e05c5435404077ae93bcb5a4b19842:1",
+          "condition_id": "0xd286cc1c4d999a56b39b00c38aed976ad0e05c5435404077ae93bcb5a4b19842",
+          "title": "Will Ethereum reach $2,800 in October?",
+          "category": "Ethereum",
+          "tier": "Moderate",
+          "entry_price": 0.0265,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-01",
+          "total_value_usd": 27861.76,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x4db48df8959b4043791eadfddb025ef54267741bcefdfb04ee97a21043cf171b:0",
+          "condition_id": "0x4db48df8959b4043791eadfddb025ef54267741bcefdfb04ee97a21043cf171b",
+          "title": "Will Ethereum dip to $2,500 October 5-11?",
+          "category": "Ethereum",
+          "tier": "Moderate",
+          "entry_price": 0.0265,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-12",
+          "total_value_usd": 12993.38,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x26af9f34f480490dc6fdc05090eed88c9fcf541e5b76a3c4d974f4b2e4781999:1",
+          "condition_id": "0x26af9f34f480490dc6fdc05090eed88c9fcf541e5b76a3c4d974f4b2e4781999",
+          "title": "Braga: Mackenzie McDonald vs Ryan Nijboer",
+          "category": "Tennis",
+          "tier": "Weak",
+          "entry_price": 0.0265,
+          "whale_direction": "Ryan Nijboer",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-13",
+          "total_value_usd": 61764.84,
+          "result": "pending"
         }
       ]
     },
@@ -19773,10 +19829,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 741,
-      "correct": 437,
+      "signals_evaluated": 745,
+      "correct": 438,
       "wrong": 265,
-      "pending": 39,
+      "pending": 42,
       "win_rate": 62.3,
       "signals": [
         {
@@ -22139,11 +22195,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Sergey Fomin",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Sergey Fomin",
+          "resolved_date": "2026-08-17",
           "end_date": "2026-08-17",
           "total_value_usd": 303434.58,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x6ded831dded2f10792a3d7f2d180c3a21def5d78e16223a35ce8ac6027448fb2:1",
@@ -30152,6 +30208,62 @@
           "end_date": "2026-10-13",
           "total_value_usd": 37128.11,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0xc02f22c25226ff155f018908878fe2ca79e8a9150dbcc474f66992f0c4c14d1a:1",
+          "condition_id": "0xc02f22c25226ff155f018908878fe2ca79e8a9150dbcc474f66992f0c4c14d1a",
+          "title": "Will Ethereum dip to $2,100 in October?",
+          "category": "Ethereum",
+          "tier": "Strong",
+          "entry_price": 0.0265,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-01",
+          "total_value_usd": 76454.4,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd286cc1c4d999a56b39b00c38aed976ad0e05c5435404077ae93bcb5a4b19842:1",
+          "condition_id": "0xd286cc1c4d999a56b39b00c38aed976ad0e05c5435404077ae93bcb5a4b19842",
+          "title": "Will Ethereum reach $2,800 in October?",
+          "category": "Ethereum",
+          "tier": "Moderate",
+          "entry_price": 0.0265,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-01",
+          "total_value_usd": 27861.76,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x4db48df8959b4043791eadfddb025ef54267741bcefdfb04ee97a21043cf171b:0",
+          "condition_id": "0x4db48df8959b4043791eadfddb025ef54267741bcefdfb04ee97a21043cf171b",
+          "title": "Will Ethereum dip to $2,500 October 5-11?",
+          "category": "Ethereum",
+          "tier": "Moderate",
+          "entry_price": 0.0265,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-12",
+          "total_value_usd": 12993.38,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x26af9f34f480490dc6fdc05090eed88c9fcf541e5b76a3c4d974f4b2e4781999:1",
+          "condition_id": "0x26af9f34f480490dc6fdc05090eed88c9fcf541e5b76a3c4d974f4b2e4781999",
+          "title": "Braga: Mackenzie McDonald vs Ryan Nijboer",
+          "category": "Tennis",
+          "tier": "Weak",
+          "entry_price": 0.0265,
+          "whale_direction": "Ryan Nijboer",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-13",
+          "total_value_usd": 61764.84,
+          "result": "pending"
         }
       ]
     },
@@ -30159,10 +30271,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 741,
+      "signals_evaluated": 745,
       "correct": 265,
-      "wrong": 437,
-      "pending": 39,
+      "wrong": 438,
+      "pending": 42,
       "win_rate": 37.7,
       "signals": [
         {
@@ -32525,11 +32637,11 @@
           "tier": "Strong",
           "entry_price": 0.0465,
           "whale_direction": "Sergey Fomin",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Sergey Fomin",
+          "resolved_date": "2026-08-17",
           "end_date": "2026-08-17",
           "total_value_usd": 303434.58,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x6ded831dded2f10792a3d7f2d180c3a21def5d78e16223a35ce8ac6027448fb2:1",
@@ -40538,6 +40650,62 @@
           "end_date": "2026-10-13",
           "total_value_usd": 37128.11,
           "result": "correct"
+        },
+        {
+          "signal_key": "0xc02f22c25226ff155f018908878fe2ca79e8a9150dbcc474f66992f0c4c14d1a:1",
+          "condition_id": "0xc02f22c25226ff155f018908878fe2ca79e8a9150dbcc474f66992f0c4c14d1a",
+          "title": "Will Ethereum dip to $2,100 in October?",
+          "category": "Ethereum",
+          "tier": "Strong",
+          "entry_price": 0.0265,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-01",
+          "total_value_usd": 76454.4,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd286cc1c4d999a56b39b00c38aed976ad0e05c5435404077ae93bcb5a4b19842:1",
+          "condition_id": "0xd286cc1c4d999a56b39b00c38aed976ad0e05c5435404077ae93bcb5a4b19842",
+          "title": "Will Ethereum reach $2,800 in October?",
+          "category": "Ethereum",
+          "tier": "Moderate",
+          "entry_price": 0.0265,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-01",
+          "total_value_usd": 27861.76,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x4db48df8959b4043791eadfddb025ef54267741bcefdfb04ee97a21043cf171b:0",
+          "condition_id": "0x4db48df8959b4043791eadfddb025ef54267741bcefdfb04ee97a21043cf171b",
+          "title": "Will Ethereum dip to $2,500 October 5-11?",
+          "category": "Ethereum",
+          "tier": "Moderate",
+          "entry_price": 0.0265,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-12",
+          "total_value_usd": 12993.38,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x26af9f34f480490dc6fdc05090eed88c9fcf541e5b76a3c4d974f4b2e4781999:1",
+          "condition_id": "0x26af9f34f480490dc6fdc05090eed88c9fcf541e5b76a3c4d974f4b2e4781999",
+          "title": "Braga: Mackenzie McDonald vs Ryan Nijboer",
+          "category": "Tennis",
+          "tier": "Weak",
+          "entry_price": 0.0265,
+          "whale_direction": "Ryan Nijboer",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-13",
+          "total_value_usd": 61764.84,
+          "result": "pending"
         }
       ]
     },

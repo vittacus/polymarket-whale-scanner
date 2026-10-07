@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-07T13:55:09+00:00",
-  "total_signals": 1411,
-  "total_resolved": 1352,
-  "total_correct": 844,
-  "overall_hit_rate": 62.4,
+  "generated_at": "2026-10-07T19:45:29+00:00",
+  "total_signals": 1415,
+  "total_resolved": 1353,
+  "total_correct": 845,
+  "overall_hit_rate": 62.5,
   "by_tier": {
     "Strong": {
-      "total": 610,
-      "resolved": 590,
-      "correct": 372,
+      "total": 611,
+      "resolved": 591,
+      "correct": 373,
       "hit_rate": 63.1
     },
     "Moderate": {
-      "total": 730,
+      "total": 732,
       "resolved": 694,
       "correct": 432,
       "hit_rate": 62.2
     },
     "Weak": {
-      "total": 71,
+      "total": 72,
       "resolved": 68,
       "correct": 40,
       "hit_rate": 58.8
@@ -14283,10 +14283,10 @@
       "total_value_usd": 303434.58,
       "entry_price": 0.0465,
       "end_date": "2026-08-17",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Sergey Fomin",
+      "resolved_date": "2026-08-17"
     },
     {
       "signal_key": "0x6ded831dded2f10792a3d7f2d180c3a21def5d78e16223a35ce8ac6027448fb2:1",
@@ -24011,6 +24011,74 @@
       "correct": false,
       "resolved_outcome": "Los Angeles Dodgers",
       "resolved_date": "2026-10-13"
+    },
+    {
+      "signal_key": "0xc02f22c25226ff155f018908878fe2ca79e8a9150dbcc474f66992f0c4c14d1a:1",
+      "condition_id": "0xc02f22c25226ff155f018908878fe2ca79e8a9150dbcc474f66992f0c4c14d1a",
+      "title": "Will Ethereum dip to $2,100 in October?",
+      "category": "Ethereum",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 14.2898,
+      "total_value_usd": 76454.4,
+      "entry_price": 0.0265,
+      "end_date": "2026-11-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xd286cc1c4d999a56b39b00c38aed976ad0e05c5435404077ae93bcb5a4b19842:1",
+      "condition_id": "0xd286cc1c4d999a56b39b00c38aed976ad0e05c5435404077ae93bcb5a4b19842",
+      "title": "Will Ethereum reach $2,800 in October?",
+      "category": "Ethereum",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 7.0366,
+      "total_value_usd": 27861.76,
+      "entry_price": 0.0265,
+      "end_date": "2026-11-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x4db48df8959b4043791eadfddb025ef54267741bcefdfb04ee97a21043cf171b:0",
+      "condition_id": "0x4db48df8959b4043791eadfddb025ef54267741bcefdfb04ee97a21043cf171b",
+      "title": "Will Ethereum dip to $2,500 October 5-11?",
+      "category": "Ethereum",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 6.5122,
+      "total_value_usd": 12993.38,
+      "entry_price": 0.0265,
+      "end_date": "2026-10-12",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x26af9f34f480490dc6fdc05090eed88c9fcf541e5b76a3c4d974f4b2e4781999:1",
+      "condition_id": "0x26af9f34f480490dc6fdc05090eed88c9fcf541e5b76a3c4d974f4b2e4781999",
+      "title": "Braga: Mackenzie McDonald vs Ryan Nijboer",
+      "category": "Tennis",
+      "whale_direction": "Ryan Nijboer",
+      "outcome_index": 1,
+      "tier": "Weak",
+      "score": 3.6579,
+      "total_value_usd": 61764.84,
+      "entry_price": 0.0265,
+      "end_date": "2026-10-13",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
