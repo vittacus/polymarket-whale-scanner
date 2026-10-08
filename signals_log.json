@@ -377133,5 +377133,219 @@
         "entry_price": 0.0265
       }
     ]
+  },
+  {
+    "timestamp": "2026-10-08T04:02:30+00:00",
+    "whale_timeframes": {
+      "0x7ad71d79a3bb90d0a87a06500fa0fe11663842aa": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x17c4f7e008fe22d69865f73f29329b6e76b92471": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa96274cc1b321afc8cbdc1ba07f7e2d471e6f7c8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa2cced8bfae7d645f7f437fb76becf2fcbb70cbc": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84ec4b5b2dbf75d07041b7b89f0a82647e3a72c1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x32b484581fc5606de9c1e43af4636b6be9bc8b21": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3435519d1d620440c7dab8b5c9ec5d79c1a5a1ed": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x664a25f165a0150ce687410470f3352f5783fc5f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa38a455bbdd4b68486548b7e19da99903f4f821d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x16bb9951a36fce71e2ef57890b786145e0ba8492": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x20d6436849f930584892730c7f96ebb2ac763856": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x385edd359037625b95dd057794ba3ea25a9c40ce": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xaa075924e1dc7cff3b9fab67401126338c4d2125": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x2c7b652965ce7820f538ef8dd0e8fdd2fb707e3a09d11f0a40aef7ea28c66302:0",
+        "condition_id": "0x2c7b652965ce7820f538ef8dd0e8fdd2fb707e3a09d11f0a40aef7ea28c66302",
+        "title": "Tampa Bay Rays vs. New York Yankees",
+        "outcome": "Tampa Bay Rays",
+        "outcome_index": 0,
+        "whale_count": 8,
+        "wallets": [
+          "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563",
+          "0x4bff30af91642dc7d2b19a8664378fe55c45fc26",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x84ec4b5b2dbf75d07041b7b89f0a82647e3a72c1",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+          "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882",
+          "0x20d6436849f930584892730c7f96ebb2ac763856"
+        ],
+        "ranks": [
+          3,
+          5,
+          8,
+          10,
+          11,
+          14,
+          17,
+          18
+        ],
+        "total_value_usd": 259612.27,
+        "score": 22.5819,
+        "category": "MLB",
+        "end_date": "2026-10-15",
+        "entry_price": 0.0265
+      },
+      {
+        "signal_key": "0x51906540bbd76873106a9589f2867e0f3ca1adf6db2e2a191a5f6079add02926:0",
+        "condition_id": "0x51906540bbd76873106a9589f2867e0f3ca1adf6db2e2a191a5f6079add02926",
+        "title": "Milwaukee Brewers vs. San Diego Padres",
+        "outcome": "Milwaukee Brewers",
+        "outcome_index": 0,
+        "whale_count": 6,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x84ec4b5b2dbf75d07041b7b89f0a82647e3a72c1",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21",
+          "0x3435519d1d620440c7dab8b5c9ec5d79c1a5a1ed",
+          "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e",
+          "0x9e3ed7b661a903fc97afcf49e0f014ebe869f882"
+        ],
+        "ranks": [
+          8,
+          10,
+          11,
+          12,
+          14,
+          17
+        ],
+        "total_value_usd": 77183.51,
+        "score": 10.4281,
+        "category": "MLB",
+        "end_date": "2026-10-15",
+        "entry_price": 0.0265
+      },
+      {
+        "signal_key": "0x51906540bbd76873106a9589f2867e0f3ca1adf6db2e2a191a5f6079add02926:1",
+        "condition_id": "0x51906540bbd76873106a9589f2867e0f3ca1adf6db2e2a191a5f6079add02926",
+        "title": "Milwaukee Brewers vs. San Diego Padres",
+        "outcome": "San Diego Padres",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21",
+          "0x3435519d1d620440c7dab8b5c9ec5d79c1a5a1ed"
+        ],
+        "ranks": [
+          8,
+          9,
+          11,
+          12
+        ],
+        "total_value_usd": 29446.21,
+        "score": 7.3897,
+        "category": "MLB",
+        "end_date": "2026-10-15",
+        "entry_price": 0.0265
+      }
+    ]
   }
 ]
