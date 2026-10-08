@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-08T04:13:33+00:00",
-  "total_evaluated": 1419,
-  "total_pending": 64,
+  "generated_at": "2026-10-08T11:34:08+00:00",
+  "total_evaluated": 1421,
+  "total_pending": 62,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1419,
-      "correct": 846,
-      "wrong": 509,
-      "pending": 64,
+      "signals_evaluated": 1421,
+      "correct": 848,
+      "wrong": 511,
+      "pending": 62,
       "win_rate": 62.4,
       "signals": [
         {
@@ -17395,11 +17395,11 @@
           "tier": "Moderate",
           "entry_price": 0.0375,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-10-31",
           "end_date": "2026-10-31",
           "total_value_usd": 5829.98,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x9e238daa4cc2b89379314f5c1873e3c0d07d26bf2eb69a3d618a7b5d13b165a0:0",
@@ -19845,11 +19845,11 @@
           "tier": "Strong",
           "entry_price": 0.0265,
           "whale_direction": "Tampa Bay Rays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Tampa Bay Rays",
+          "resolved_date": "2026-10-15",
           "end_date": "2026-10-15",
           "total_value_usd": 259612.27,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x51906540bbd76873106a9589f2867e0f3ca1adf6db2e2a191a5f6079add02926:0",
@@ -19859,11 +19859,11 @@
           "tier": "Strong",
           "entry_price": 0.0265,
           "whale_direction": "Milwaukee Brewers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-10-15",
           "end_date": "2026-10-15",
           "total_value_usd": 77183.51,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x51906540bbd76873106a9589f2867e0f3ca1adf6db2e2a191a5f6079add02926:1",
@@ -19873,10 +19873,38 @@
           "tier": "Moderate",
           "entry_price": 0.0265,
           "whale_direction": "San Diego Padres",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-10-15",
           "end_date": "2026-10-15",
           "total_value_usd": 29446.21,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xa27b335fa588914fcf268035580fac783a943f5955cca72f5089ed6447fabc12:0",
+          "condition_id": "0xa27b335fa588914fcf268035580fac783a943f5955cca72f5089ed6447fabc12",
+          "title": "Shanghai Rolex Masters: Botic van de Zandschulp vs Daniel Merida Aguilar",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0265,
+          "whale_direction": "Botic van de Zandschulp",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-14",
+          "total_value_usd": 170932.2,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x8b9cf3876645246f07f3998002928c5a3038d7bc2502d68ffe6dfe56afff53fb:1",
+          "condition_id": "0x8b9cf3876645246f07f3998002928c5a3038d7bc2502d68ffe6dfe56afff53fb",
+          "title": "Shanghai Rolex Masters: Martin Landaluce vs Jan-Lennard Struff",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0265,
+          "whale_direction": "Jan-Lennard Struff",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-14",
+          "total_value_usd": 37266.12,
           "result": "pending"
         }
       ]
@@ -19885,11 +19913,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 749,
-      "correct": 439,
-      "wrong": 266,
-      "pending": 44,
-      "win_rate": 62.3,
+      "signals_evaluated": 751,
+      "correct": 441,
+      "wrong": 268,
+      "pending": 42,
+      "win_rate": 62.2,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -27893,11 +27921,11 @@
           "tier": "Moderate",
           "entry_price": 0.0375,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-10-31",
           "end_date": "2026-10-31",
           "total_value_usd": 5829.98,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x9e238daa4cc2b89379314f5c1873e3c0d07d26bf2eb69a3d618a7b5d13b165a0:0",
@@ -30343,11 +30371,11 @@
           "tier": "Strong",
           "entry_price": 0.0265,
           "whale_direction": "Tampa Bay Rays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Tampa Bay Rays",
+          "resolved_date": "2026-10-15",
           "end_date": "2026-10-15",
           "total_value_usd": 259612.27,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x51906540bbd76873106a9589f2867e0f3ca1adf6db2e2a191a5f6079add02926:0",
@@ -30357,11 +30385,11 @@
           "tier": "Strong",
           "entry_price": 0.0265,
           "whale_direction": "Milwaukee Brewers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-10-15",
           "end_date": "2026-10-15",
           "total_value_usd": 77183.51,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x51906540bbd76873106a9589f2867e0f3ca1adf6db2e2a191a5f6079add02926:1",
@@ -30371,10 +30399,38 @@
           "tier": "Moderate",
           "entry_price": 0.0265,
           "whale_direction": "San Diego Padres",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-10-15",
           "end_date": "2026-10-15",
           "total_value_usd": 29446.21,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xa27b335fa588914fcf268035580fac783a943f5955cca72f5089ed6447fabc12:0",
+          "condition_id": "0xa27b335fa588914fcf268035580fac783a943f5955cca72f5089ed6447fabc12",
+          "title": "Shanghai Rolex Masters: Botic van de Zandschulp vs Daniel Merida Aguilar",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0265,
+          "whale_direction": "Botic van de Zandschulp",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-14",
+          "total_value_usd": 170932.2,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x8b9cf3876645246f07f3998002928c5a3038d7bc2502d68ffe6dfe56afff53fb:1",
+          "condition_id": "0x8b9cf3876645246f07f3998002928c5a3038d7bc2502d68ffe6dfe56afff53fb",
+          "title": "Shanghai Rolex Masters: Martin Landaluce vs Jan-Lennard Struff",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0265,
+          "whale_direction": "Jan-Lennard Struff",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-14",
+          "total_value_usd": 37266.12,
           "result": "pending"
         }
       ]
@@ -30383,11 +30439,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 749,
-      "correct": 266,
-      "wrong": 439,
-      "pending": 44,
-      "win_rate": 37.7,
+      "signals_evaluated": 751,
+      "correct": 268,
+      "wrong": 441,
+      "pending": 42,
+      "win_rate": 37.8,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -38391,11 +38447,11 @@
           "tier": "Moderate",
           "entry_price": 0.0375,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-10-31",
           "end_date": "2026-10-31",
           "total_value_usd": 5829.98,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x9e238daa4cc2b89379314f5c1873e3c0d07d26bf2eb69a3d618a7b5d13b165a0:0",
@@ -40841,11 +40897,11 @@
           "tier": "Strong",
           "entry_price": 0.0265,
           "whale_direction": "Tampa Bay Rays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Tampa Bay Rays",
+          "resolved_date": "2026-10-15",
           "end_date": "2026-10-15",
           "total_value_usd": 259612.27,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x51906540bbd76873106a9589f2867e0f3ca1adf6db2e2a191a5f6079add02926:0",
@@ -40855,11 +40911,11 @@
           "tier": "Strong",
           "entry_price": 0.0265,
           "whale_direction": "Milwaukee Brewers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-10-15",
           "end_date": "2026-10-15",
           "total_value_usd": 77183.51,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x51906540bbd76873106a9589f2867e0f3ca1adf6db2e2a191a5f6079add02926:1",
@@ -40869,10 +40925,38 @@
           "tier": "Moderate",
           "entry_price": 0.0265,
           "whale_direction": "San Diego Padres",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-10-15",
           "end_date": "2026-10-15",
           "total_value_usd": 29446.21,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xa27b335fa588914fcf268035580fac783a943f5955cca72f5089ed6447fabc12:0",
+          "condition_id": "0xa27b335fa588914fcf268035580fac783a943f5955cca72f5089ed6447fabc12",
+          "title": "Shanghai Rolex Masters: Botic van de Zandschulp vs Daniel Merida Aguilar",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0265,
+          "whale_direction": "Botic van de Zandschulp",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-14",
+          "total_value_usd": 170932.2,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x8b9cf3876645246f07f3998002928c5a3038d7bc2502d68ffe6dfe56afff53fb:1",
+          "condition_id": "0x8b9cf3876645246f07f3998002928c5a3038d7bc2502d68ffe6dfe56afff53fb",
+          "title": "Shanghai Rolex Masters: Martin Landaluce vs Jan-Lennard Struff",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0265,
+          "whale_direction": "Jan-Lennard Struff",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-14",
+          "total_value_usd": 37266.12,
           "result": "pending"
         }
       ]
