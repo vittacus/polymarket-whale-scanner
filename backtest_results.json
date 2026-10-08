@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-08T18:11:52+00:00",
+  "generated_at": "2026-10-08T23:00:03+00:00",
   "total_signals": 1431,
-  "total_resolved": 1363,
-  "total_correct": 852,
+  "total_resolved": 1367,
+  "total_correct": 855,
   "overall_hit_rate": 62.5,
   "by_tier": {
     "Strong": {
       "total": 624,
-      "resolved": 597,
-      "correct": 378,
-      "hit_rate": 63.3
+      "resolved": 600,
+      "correct": 381,
+      "hit_rate": 63.5
     },
     "Moderate": {
       "total": 734,
@@ -19,9 +19,9 @@
     },
     "Weak": {
       "total": 73,
-      "resolved": 69,
+      "resolved": 70,
       "correct": 41,
-      "hit_rate": 59.4
+      "hit_rate": 58.6
     }
   },
   "signals": [
@@ -24262,10 +24262,10 @@
       "total_value_usd": 50239.1,
       "entry_price": 0.0265,
       "end_date": "2026-10-14",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Elmer Moeller",
+      "resolved_date": "2026-10-14"
     },
     {
       "signal_key": "0xc4c41407dd3e1be7fae485778117cd12832edebb652609cd34ba8eb60b817ee2:0",
@@ -24296,10 +24296,10 @@
       "total_value_usd": 29666.26,
       "entry_price": 0.0265,
       "end_date": "2026-10-15",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Francesco Passaro",
+      "resolved_date": "2026-10-15"
     },
     {
       "signal_key": "0x77848ea57d4f4af31890a7960a2c80e842ee56a39b2a8d6b1c08915b68e005e1:1",
@@ -24313,10 +24313,10 @@
       "total_value_usd": 12862.14,
       "entry_price": 0.0265,
       "end_date": "2026-10-15",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Lautaro Midon",
+      "resolved_date": "2026-10-15"
     },
     {
       "signal_key": "0xc45ab97bfa9d0ca06d54d1756d174ce33b090d3d5e1b404679c186a9836564c6:1",
@@ -24347,10 +24347,10 @@
       "total_value_usd": 3933.22,
       "entry_price": 0.0265,
       "end_date": "2026-10-15",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Francesco Passaro",
+      "resolved_date": "2026-10-15"
     }
   ]
 }

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-08T18:11:52+00:00",
+  "generated_at": "2026-10-08T23:00:03+00:00",
   "total_evaluated": 1431,
-  "total_pending": 68,
+  "total_pending": 64,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 1431,
-      "correct": 852,
-      "wrong": 511,
-      "pending": 68,
+      "correct": 855,
+      "wrong": 512,
+      "pending": 64,
       "win_rate": 62.5,
       "signals": [
         {
@@ -19971,11 +19971,11 @@
           "tier": "Strong",
           "entry_price": 0.0265,
           "whale_direction": "Elmer Moeller",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elmer Moeller",
+          "resolved_date": "2026-10-14",
           "end_date": "2026-10-14",
           "total_value_usd": 50239.1,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc4c41407dd3e1be7fae485778117cd12832edebb652609cd34ba8eb60b817ee2:0",
@@ -19999,11 +19999,11 @@
           "tier": "Strong",
           "entry_price": 0.0265,
           "whale_direction": "Francesco Passaro",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Francesco Passaro",
+          "resolved_date": "2026-10-15",
           "end_date": "2026-10-15",
           "total_value_usd": 29666.26,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x77848ea57d4f4af31890a7960a2c80e842ee56a39b2a8d6b1c08915b68e005e1:1",
@@ -20013,11 +20013,11 @@
           "tier": "Strong",
           "entry_price": 0.0265,
           "whale_direction": "Lautaro Midon",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lautaro Midon",
+          "resolved_date": "2026-10-15",
           "end_date": "2026-10-15",
           "total_value_usd": 12862.14,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc45ab97bfa9d0ca06d54d1756d174ce33b090d3d5e1b404679c186a9836564c6:1",
@@ -20041,11 +20041,11 @@
           "tier": "Weak",
           "entry_price": 0.0265,
           "whale_direction": "Carlo Alberto Caniato",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Francesco Passaro",
+          "resolved_date": "2026-10-15",
           "end_date": "2026-10-15",
           "total_value_usd": 3933.22,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
@@ -20054,10 +20054,10 @@
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 761,
-      "correct": 445,
-      "wrong": 268,
-      "pending": 48,
-      "win_rate": 62.4,
+      "correct": 448,
+      "wrong": 269,
+      "pending": 44,
+      "win_rate": 62.5,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -30637,11 +30637,11 @@
           "tier": "Strong",
           "entry_price": 0.0265,
           "whale_direction": "Elmer Moeller",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elmer Moeller",
+          "resolved_date": "2026-10-14",
           "end_date": "2026-10-14",
           "total_value_usd": 50239.1,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc4c41407dd3e1be7fae485778117cd12832edebb652609cd34ba8eb60b817ee2:0",
@@ -30665,11 +30665,11 @@
           "tier": "Strong",
           "entry_price": 0.0265,
           "whale_direction": "Francesco Passaro",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Francesco Passaro",
+          "resolved_date": "2026-10-15",
           "end_date": "2026-10-15",
           "total_value_usd": 29666.26,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x77848ea57d4f4af31890a7960a2c80e842ee56a39b2a8d6b1c08915b68e005e1:1",
@@ -30679,11 +30679,11 @@
           "tier": "Strong",
           "entry_price": 0.0265,
           "whale_direction": "Lautaro Midon",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lautaro Midon",
+          "resolved_date": "2026-10-15",
           "end_date": "2026-10-15",
           "total_value_usd": 12862.14,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xc45ab97bfa9d0ca06d54d1756d174ce33b090d3d5e1b404679c186a9836564c6:1",
@@ -30707,11 +30707,11 @@
           "tier": "Weak",
           "entry_price": 0.0265,
           "whale_direction": "Carlo Alberto Caniato",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Francesco Passaro",
+          "resolved_date": "2026-10-15",
           "end_date": "2026-10-15",
           "total_value_usd": 3933.22,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
@@ -30720,10 +30720,10 @@
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 761,
-      "correct": 268,
-      "wrong": 445,
-      "pending": 48,
-      "win_rate": 37.6,
+      "correct": 269,
+      "wrong": 448,
+      "pending": 44,
+      "win_rate": 37.5,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -41303,11 +41303,11 @@
           "tier": "Strong",
           "entry_price": 0.0265,
           "whale_direction": "Elmer Moeller",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elmer Moeller",
+          "resolved_date": "2026-10-14",
           "end_date": "2026-10-14",
           "total_value_usd": 50239.1,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xc4c41407dd3e1be7fae485778117cd12832edebb652609cd34ba8eb60b817ee2:0",
@@ -41331,11 +41331,11 @@
           "tier": "Strong",
           "entry_price": 0.0265,
           "whale_direction": "Francesco Passaro",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Francesco Passaro",
+          "resolved_date": "2026-10-15",
           "end_date": "2026-10-15",
           "total_value_usd": 29666.26,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x77848ea57d4f4af31890a7960a2c80e842ee56a39b2a8d6b1c08915b68e005e1:1",
@@ -41345,11 +41345,11 @@
           "tier": "Strong",
           "entry_price": 0.0265,
           "whale_direction": "Lautaro Midon",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lautaro Midon",
+          "resolved_date": "2026-10-15",
           "end_date": "2026-10-15",
           "total_value_usd": 12862.14,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xc45ab97bfa9d0ca06d54d1756d174ce33b090d3d5e1b404679c186a9836564c6:1",
@@ -41373,11 +41373,11 @@
           "tier": "Weak",
           "entry_price": 0.0265,
           "whale_direction": "Carlo Alberto Caniato",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Francesco Passaro",
+          "resolved_date": "2026-10-15",
           "end_date": "2026-10-15",
           "total_value_usd": 3933.22,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
