@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-07T19:45:29+00:00",
-  "total_evaluated": 1415,
+  "generated_at": "2026-10-08T00:02:23+00:00",
+  "total_evaluated": 1416,
   "total_pending": 62,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1415,
-      "correct": 845,
+      "signals_evaluated": 1416,
+      "correct": 846,
       "wrong": 508,
       "pending": 62,
       "win_rate": 62.5,
@@ -19817,10 +19817,24 @@
           "tier": "Weak",
           "entry_price": 0.0265,
           "whale_direction": "Ryan Nijboer",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Ryan Nijboer",
+          "resolved_date": "2026-10-13",
           "end_date": "2026-10-13",
           "total_value_usd": 61764.84,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x4008dc12ad72c82ddc861770cf6fbe556446af7b4e3d826900f4f6ef64478d7b:1",
+          "condition_id": "0x4008dc12ad72c82ddc861770cf6fbe556446af7b4e3d826900f4f6ef64478d7b",
+          "title": "Los Angeles Dodgers vs. Atlanta Braves",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0265,
+          "whale_direction": "Atlanta Braves",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-14",
+          "total_value_usd": 97106.75,
           "result": "pending"
         }
       ]
@@ -19829,11 +19843,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 745,
-      "correct": 438,
+      "signals_evaluated": 746,
+      "correct": 439,
       "wrong": 265,
       "pending": 42,
-      "win_rate": 62.3,
+      "win_rate": 62.4,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -30259,10 +30273,24 @@
           "tier": "Weak",
           "entry_price": 0.0265,
           "whale_direction": "Ryan Nijboer",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Ryan Nijboer",
+          "resolved_date": "2026-10-13",
           "end_date": "2026-10-13",
           "total_value_usd": 61764.84,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x4008dc12ad72c82ddc861770cf6fbe556446af7b4e3d826900f4f6ef64478d7b:1",
+          "condition_id": "0x4008dc12ad72c82ddc861770cf6fbe556446af7b4e3d826900f4f6ef64478d7b",
+          "title": "Los Angeles Dodgers vs. Atlanta Braves",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0265,
+          "whale_direction": "Atlanta Braves",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-14",
+          "total_value_usd": 97106.75,
           "result": "pending"
         }
       ]
@@ -30271,11 +30299,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 745,
+      "signals_evaluated": 746,
       "correct": 265,
-      "wrong": 438,
+      "wrong": 439,
       "pending": 42,
-      "win_rate": 37.7,
+      "win_rate": 37.6,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -40701,10 +40729,24 @@
           "tier": "Weak",
           "entry_price": 0.0265,
           "whale_direction": "Ryan Nijboer",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Ryan Nijboer",
+          "resolved_date": "2026-10-13",
           "end_date": "2026-10-13",
           "total_value_usd": 61764.84,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x4008dc12ad72c82ddc861770cf6fbe556446af7b4e3d826900f4f6ef64478d7b:1",
+          "condition_id": "0x4008dc12ad72c82ddc861770cf6fbe556446af7b4e3d826900f4f6ef64478d7b",
+          "title": "Los Angeles Dodgers vs. Atlanta Braves",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0265,
+          "whale_direction": "Atlanta Braves",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-14",
+          "total_value_usd": 97106.75,
           "result": "pending"
         }
       ]

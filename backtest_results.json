@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-07T19:45:29+00:00",
-  "total_signals": 1415,
-  "total_resolved": 1353,
-  "total_correct": 845,
+  "generated_at": "2026-10-08T00:02:23+00:00",
+  "total_signals": 1416,
+  "total_resolved": 1354,
+  "total_correct": 846,
   "overall_hit_rate": 62.5,
   "by_tier": {
     "Strong": {
-      "total": 611,
+      "total": 612,
       "resolved": 591,
       "correct": 373,
       "hit_rate": 63.1
@@ -19,9 +19,9 @@
     },
     "Weak": {
       "total": 72,
-      "resolved": 68,
-      "correct": 40,
-      "hit_rate": 58.8
+      "resolved": 69,
+      "correct": 41,
+      "hit_rate": 59.4
     }
   },
   "signals": [
@@ -24075,6 +24075,23 @@
       "total_value_usd": 61764.84,
       "entry_price": 0.0265,
       "end_date": "2026-10-13",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Ryan Nijboer",
+      "resolved_date": "2026-10-13"
+    },
+    {
+      "signal_key": "0x4008dc12ad72c82ddc861770cf6fbe556446af7b4e3d826900f4f6ef64478d7b:1",
+      "condition_id": "0x4008dc12ad72c82ddc861770cf6fbe556446af7b4e3d826900f4f6ef64478d7b",
+      "title": "Los Angeles Dodgers vs. Atlanta Braves",
+      "category": "MLB",
+      "whale_direction": "Atlanta Braves",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 10.5054,
+      "total_value_usd": 97106.75,
+      "entry_price": 0.0265,
+      "end_date": "2026-10-14",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
