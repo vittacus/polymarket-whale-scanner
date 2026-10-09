@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-08T23:00:03+00:00",
-  "total_evaluated": 1431,
-  "total_pending": 64,
+  "generated_at": "2026-10-09T02:55:16+00:00",
+  "total_evaluated": 1435,
+  "total_pending": 68,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1431,
+      "signals_evaluated": 1435,
       "correct": 855,
       "wrong": 512,
-      "pending": 64,
+      "pending": 68,
       "win_rate": 62.5,
       "signals": [
         {
@@ -20046,6 +20046,62 @@
           "end_date": "2026-10-15",
           "total_value_usd": 3933.22,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x427594c0b18b8c7df7c964b0ecee173ca0e4eb6bb28c982cb04192c066ab51dd:1",
+          "condition_id": "0x427594c0b18b8c7df7c964b0ecee173ca0e4eb6bb28c982cb04192c066ab51dd",
+          "title": "Cleveland Guardians vs. Chicago White Sox",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0265,
+          "whale_direction": "Chicago White Sox",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-16",
+          "total_value_usd": 4877.77,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x5405990b7e6689c74e9437da151abcfcfd261d0c3104e51d31d82bbc92222225:0",
+          "condition_id": "0x5405990b7e6689c74e9437da151abcfcfd261d0c3104e51d31d82bbc92222225",
+          "title": "Will Ethereum dip to $2,400 in October?",
+          "category": "Ethereum",
+          "tier": "Moderate",
+          "entry_price": 0.0265,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-01",
+          "total_value_usd": 16034.74,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf19de4f7018fc921c0db1a238af94136e9ee68d506d8030aac8f63b2ebe4ce26:1",
+          "condition_id": "0xf19de4f7018fc921c0db1a238af94136e9ee68d506d8030aac8f63b2ebe4ce26",
+          "title": "Will Ethereum reach $3,000 in October?",
+          "category": "Ethereum",
+          "tier": "Moderate",
+          "entry_price": 0.0265,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-01",
+          "total_value_usd": 34573.54,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x1d02752bdc9d722256c79b239f67f747f0c931525e0d10b2187e3ef48bfe2ec9:1",
+          "condition_id": "0x1d02752bdc9d722256c79b239f67f747f0c931525e0d10b2187e3ef48bfe2ec9",
+          "title": "Will Ethereum dip to $2,000 in October?",
+          "category": "Ethereum",
+          "tier": "Weak",
+          "entry_price": 0.0265,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-01",
+          "total_value_usd": 8704.43,
+          "result": "pending"
         }
       ]
     },
@@ -20053,10 +20109,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 761,
+      "signals_evaluated": 765,
       "correct": 448,
       "wrong": 269,
-      "pending": 44,
+      "pending": 48,
       "win_rate": 62.5,
       "signals": [
         {
@@ -30712,6 +30768,62 @@
           "end_date": "2026-10-15",
           "total_value_usd": 3933.22,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x427594c0b18b8c7df7c964b0ecee173ca0e4eb6bb28c982cb04192c066ab51dd:1",
+          "condition_id": "0x427594c0b18b8c7df7c964b0ecee173ca0e4eb6bb28c982cb04192c066ab51dd",
+          "title": "Cleveland Guardians vs. Chicago White Sox",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0265,
+          "whale_direction": "Chicago White Sox",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-16",
+          "total_value_usd": 4877.77,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x5405990b7e6689c74e9437da151abcfcfd261d0c3104e51d31d82bbc92222225:0",
+          "condition_id": "0x5405990b7e6689c74e9437da151abcfcfd261d0c3104e51d31d82bbc92222225",
+          "title": "Will Ethereum dip to $2,400 in October?",
+          "category": "Ethereum",
+          "tier": "Moderate",
+          "entry_price": 0.0265,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-01",
+          "total_value_usd": 16034.74,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf19de4f7018fc921c0db1a238af94136e9ee68d506d8030aac8f63b2ebe4ce26:1",
+          "condition_id": "0xf19de4f7018fc921c0db1a238af94136e9ee68d506d8030aac8f63b2ebe4ce26",
+          "title": "Will Ethereum reach $3,000 in October?",
+          "category": "Ethereum",
+          "tier": "Moderate",
+          "entry_price": 0.0265,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-01",
+          "total_value_usd": 34573.54,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x1d02752bdc9d722256c79b239f67f747f0c931525e0d10b2187e3ef48bfe2ec9:1",
+          "condition_id": "0x1d02752bdc9d722256c79b239f67f747f0c931525e0d10b2187e3ef48bfe2ec9",
+          "title": "Will Ethereum dip to $2,000 in October?",
+          "category": "Ethereum",
+          "tier": "Weak",
+          "entry_price": 0.0265,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-01",
+          "total_value_usd": 8704.43,
+          "result": "pending"
         }
       ]
     },
@@ -30719,10 +30831,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 761,
+      "signals_evaluated": 765,
       "correct": 269,
       "wrong": 448,
-      "pending": 44,
+      "pending": 48,
       "win_rate": 37.5,
       "signals": [
         {
@@ -41378,6 +41490,62 @@
           "end_date": "2026-10-15",
           "total_value_usd": 3933.22,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x427594c0b18b8c7df7c964b0ecee173ca0e4eb6bb28c982cb04192c066ab51dd:1",
+          "condition_id": "0x427594c0b18b8c7df7c964b0ecee173ca0e4eb6bb28c982cb04192c066ab51dd",
+          "title": "Cleveland Guardians vs. Chicago White Sox",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0265,
+          "whale_direction": "Chicago White Sox",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-16",
+          "total_value_usd": 4877.77,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x5405990b7e6689c74e9437da151abcfcfd261d0c3104e51d31d82bbc92222225:0",
+          "condition_id": "0x5405990b7e6689c74e9437da151abcfcfd261d0c3104e51d31d82bbc92222225",
+          "title": "Will Ethereum dip to $2,400 in October?",
+          "category": "Ethereum",
+          "tier": "Moderate",
+          "entry_price": 0.0265,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-01",
+          "total_value_usd": 16034.74,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf19de4f7018fc921c0db1a238af94136e9ee68d506d8030aac8f63b2ebe4ce26:1",
+          "condition_id": "0xf19de4f7018fc921c0db1a238af94136e9ee68d506d8030aac8f63b2ebe4ce26",
+          "title": "Will Ethereum reach $3,000 in October?",
+          "category": "Ethereum",
+          "tier": "Moderate",
+          "entry_price": 0.0265,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-01",
+          "total_value_usd": 34573.54,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x1d02752bdc9d722256c79b239f67f747f0c931525e0d10b2187e3ef48bfe2ec9:1",
+          "condition_id": "0x1d02752bdc9d722256c79b239f67f747f0c931525e0d10b2187e3ef48bfe2ec9",
+          "title": "Will Ethereum dip to $2,000 in October?",
+          "category": "Ethereum",
+          "tier": "Weak",
+          "entry_price": 0.0265,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-01",
+          "total_value_usd": 8704.43,
+          "result": "pending"
         }
       ]
     },

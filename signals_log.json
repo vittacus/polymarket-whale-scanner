@@ -378192,5 +378192,366 @@
         "entry_price": 0.0265
       }
     ]
+  },
+  {
+    "timestamp": "2026-10-09T02:41:25+00:00",
+    "whale_timeframes": {
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7ad71d79a3bb90d0a87a06500fa0fe11663842aa": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa19cbababc312f9df185e49d7004c249ed1ade6b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbc43c8bfbc4d77c2fc9011adad38ba43b88996d3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x252d7bae5ec87553dcafb23e275c202ac0d3c456": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd38b71f3e8ed1af71983e5c309eac3dfa9b35029": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4be1fa92e6ceaf886aac0bbec3be6c527133aa70": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x32b484581fc5606de9c1e43af4636b6be9bc8b21": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f1d5ae26fc31472966e951af3183308736d8de2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1610db79f753a80207e1d66716be9e91e627ae49": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x17c4f7e008fe22d69865f73f29329b6e76b92471": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0259b2054f046fe0ee8f3e075fdb85fc3ba9769e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x06dc51826bc524d9a83770e7de9dd7e005b04524": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf705fa045201391d9632b7f3cde06a5e24453ca7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc8f4237ded78506b43cb895f887897ef606d0e4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x111f73e91f85b6fe4de1ddec3de2fe32122e355b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x103721386ec40df5ab93df0bd0964e8fe70b5b09": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x427594c0b18b8c7df7c964b0ecee173ca0e4eb6bb28c982cb04192c066ab51dd:1",
+        "condition_id": "0x427594c0b18b8c7df7c964b0ecee173ca0e4eb6bb28c982cb04192c066ab51dd",
+        "title": "Cleveland Guardians vs. Chicago White Sox",
+        "outcome": "Chicago White Sox",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x4be1fa92e6ceaf886aac0bbec3be6c527133aa70",
+          "0x32b484581fc5606de9c1e43af4636b6be9bc8b21"
+        ],
+        "ranks": [
+          2,
+          10,
+          11
+        ],
+        "total_value_usd": 4877.77,
+        "score": 10.2684,
+        "category": "MLB",
+        "end_date": "2026-10-16",
+        "entry_price": 0.0265
+      },
+      {
+        "signal_key": "0x99a1879635bc8873891cc472d5e39ca0efaf2017c562ae244810747a7f8edbd5:0",
+        "condition_id": "0x99a1879635bc8873891cc472d5e39ca0efaf2017c562ae244810747a7f8edbd5",
+        "title": "Will Ethereum dip to $2,250 by December 31, 2026?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
+          "0x252d7bae5ec87553dcafb23e275c202ac0d3c456",
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7"
+        ],
+        "ranks": [
+          5,
+          8,
+          17
+        ],
+        "total_value_usd": 704051.66,
+        "score": 9.0441,
+        "category": "Ethereum",
+        "end_date": "2027-01-01",
+        "entry_price": 0.0265
+      },
+      {
+        "signal_key": "0xc02f22c25226ff155f018908878fe2ca79e8a9150dbcc474f66992f0c4c14d1a:1",
+        "condition_id": "0xc02f22c25226ff155f018908878fe2ca79e8a9150dbcc474f66992f0c4c14d1a",
+        "title": "Will Ethereum dip to $2,100 in October?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
+          "0x252d7bae5ec87553dcafb23e275c202ac0d3c456",
+          "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7"
+        ],
+        "ranks": [
+          5,
+          8,
+          16,
+          17
+        ],
+        "total_value_usd": 97671.08,
+        "score": 8.974,
+        "category": "Ethereum",
+        "end_date": "2026-11-01",
+        "entry_price": 0.0265
+      },
+      {
+        "signal_key": "0xd286cc1c4d999a56b39b00c38aed976ad0e05c5435404077ae93bcb5a4b19842:1",
+        "condition_id": "0xd286cc1c4d999a56b39b00c38aed976ad0e05c5435404077ae93bcb5a4b19842",
+        "title": "Will Ethereum reach $2,800 in October?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
+          "0x252d7bae5ec87553dcafb23e275c202ac0d3c456",
+          "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7"
+        ],
+        "ranks": [
+          5,
+          8,
+          16,
+          17
+        ],
+        "total_value_usd": 55153.04,
+        "score": 8.5276,
+        "category": "Ethereum",
+        "end_date": "2026-11-01",
+        "entry_price": 0.0265
+      },
+      {
+        "signal_key": "0x42945ea5657d6f6e77969a06661b29d6f6295083d1ef3479b42efd90647c9dfc:1",
+        "condition_id": "0x42945ea5657d6f6e77969a06661b29d6f6295083d1ef3479b42efd90647c9dfc",
+        "title": "Will Ethereum reach $3,500 by December 31, 2026?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
+          "0x252d7bae5ec87553dcafb23e275c202ac0d3c456",
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7"
+        ],
+        "ranks": [
+          5,
+          8,
+          17
+        ],
+        "total_value_usd": 99053.07,
+        "score": 7.7267,
+        "category": "Ethereum",
+        "end_date": "2027-01-01",
+        "entry_price": 0.0265
+      },
+      {
+        "signal_key": "0xb7e5cbd9d857bc23b5d7937aebaef0465bdf4c7f1d119d18c84ed43fdf5c91fd:0",
+        "condition_id": "0xb7e5cbd9d857bc23b5d7937aebaef0465bdf4c7f1d119d18c84ed43fdf5c91fd",
+        "title": "Will Ethereum dip to $2,000 by December 31, 2026?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
+          "0x252d7bae5ec87553dcafb23e275c202ac0d3c456",
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7"
+        ],
+        "ranks": [
+          5,
+          8,
+          17
+        ],
+        "total_value_usd": 87572.16,
+        "score": 7.644,
+        "category": "Ethereum",
+        "end_date": "2027-01-01",
+        "entry_price": 0.0265
+      },
+      {
+        "signal_key": "0xc4c41407dd3e1be7fae485778117cd12832edebb652609cd34ba8eb60b817ee2:0",
+        "condition_id": "0xc4c41407dd3e1be7fae485778117cd12832edebb652609cd34ba8eb60b817ee2",
+        "title": "Will Ethereum dip to $1,750 by December 31, 2026?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
+          "0x252d7bae5ec87553dcafb23e275c202ac0d3c456",
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7"
+        ],
+        "ranks": [
+          5,
+          8,
+          17
+        ],
+        "total_value_usd": 35131.9,
+        "score": 7.0305,
+        "category": "Ethereum",
+        "end_date": "2027-01-01",
+        "entry_price": 0.0265
+      },
+      {
+        "signal_key": "0x5405990b7e6689c74e9437da151abcfcfd261d0c3104e51d31d82bbc92222225:0",
+        "condition_id": "0x5405990b7e6689c74e9437da151abcfcfd261d0c3104e51d31d82bbc92222225",
+        "title": "Will Ethereum dip to $2,400 in October?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xa19cbababc312f9df185e49d7004c249ed1ade6b",
+          "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7"
+        ],
+        "ranks": [
+          5,
+          16,
+          17
+        ],
+        "total_value_usd": 16034.74,
+        "score": 5.4447,
+        "category": "Ethereum",
+        "end_date": "2026-11-01",
+        "entry_price": 0.0265
+      },
+      {
+        "signal_key": "0xf19de4f7018fc921c0db1a238af94136e9ee68d506d8030aac8f63b2ebe4ce26:1",
+        "condition_id": "0xf19de4f7018fc921c0db1a238af94136e9ee68d506d8030aac8f63b2ebe4ce26",
+        "title": "Will Ethereum reach $3,000 in October?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x252d7bae5ec87553dcafb23e275c202ac0d3c456",
+          "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7"
+        ],
+        "ranks": [
+          8,
+          16,
+          17
+        ],
+        "total_value_usd": 34573.54,
+        "score": 4.505,
+        "category": "Ethereum",
+        "end_date": "2026-11-01",
+        "entry_price": 0.0265
+      },
+      {
+        "signal_key": "0x1d02752bdc9d722256c79b239f67f747f0c931525e0d10b2187e3ef48bfe2ec9:1",
+        "condition_id": "0x1d02752bdc9d722256c79b239f67f747f0c931525e0d10b2187e3ef48bfe2ec9",
+        "title": "Will Ethereum dip to $2,000 in October?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x252d7bae5ec87553dcafb23e275c202ac0d3c456",
+          "0x06dc51826bc524d9a83770e7de9dd7e005b04524",
+          "0xf705fa045201391d9632b7f3cde06a5e24453ca7"
+        ],
+        "ranks": [
+          8,
+          16,
+          17
+        ],
+        "total_value_usd": 8704.43,
+        "score": 3.9105,
+        "category": "Ethereum",
+        "end_date": "2026-11-01",
+        "entry_price": 0.0265
+      }
+    ]
   }
 ]

@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-08T23:00:03+00:00",
-  "total_signals": 1431,
+  "generated_at": "2026-10-09T02:55:16+00:00",
+  "total_signals": 1435,
   "total_resolved": 1367,
   "total_correct": 855,
   "overall_hit_rate": 62.5,
   "by_tier": {
     "Strong": {
-      "total": 624,
+      "total": 625,
       "resolved": 600,
       "correct": 381,
       "hit_rate": 63.5
     },
     "Moderate": {
-      "total": 734,
+      "total": 736,
       "resolved": 697,
       "correct": 433,
       "hit_rate": 62.1
     },
     "Weak": {
-      "total": 73,
+      "total": 74,
       "resolved": 70,
       "correct": 41,
       "hit_rate": 58.6
@@ -24351,6 +24351,74 @@
       "correct": false,
       "resolved_outcome": "Francesco Passaro",
       "resolved_date": "2026-10-15"
+    },
+    {
+      "signal_key": "0x427594c0b18b8c7df7c964b0ecee173ca0e4eb6bb28c982cb04192c066ab51dd:1",
+      "condition_id": "0x427594c0b18b8c7df7c964b0ecee173ca0e4eb6bb28c982cb04192c066ab51dd",
+      "title": "Cleveland Guardians vs. Chicago White Sox",
+      "category": "MLB",
+      "whale_direction": "Chicago White Sox",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 10.2684,
+      "total_value_usd": 4877.77,
+      "entry_price": 0.0265,
+      "end_date": "2026-10-16",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x5405990b7e6689c74e9437da151abcfcfd261d0c3104e51d31d82bbc92222225:0",
+      "condition_id": "0x5405990b7e6689c74e9437da151abcfcfd261d0c3104e51d31d82bbc92222225",
+      "title": "Will Ethereum dip to $2,400 in October?",
+      "category": "Ethereum",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 5.4447,
+      "total_value_usd": 16034.74,
+      "entry_price": 0.0265,
+      "end_date": "2026-11-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xf19de4f7018fc921c0db1a238af94136e9ee68d506d8030aac8f63b2ebe4ce26:1",
+      "condition_id": "0xf19de4f7018fc921c0db1a238af94136e9ee68d506d8030aac8f63b2ebe4ce26",
+      "title": "Will Ethereum reach $3,000 in October?",
+      "category": "Ethereum",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 4.505,
+      "total_value_usd": 34573.54,
+      "entry_price": 0.0265,
+      "end_date": "2026-11-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x1d02752bdc9d722256c79b239f67f747f0c931525e0d10b2187e3ef48bfe2ec9:1",
+      "condition_id": "0x1d02752bdc9d722256c79b239f67f747f0c931525e0d10b2187e3ef48bfe2ec9",
+      "title": "Will Ethereum dip to $2,000 in October?",
+      "category": "Ethereum",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Weak",
+      "score": 3.9105,
+      "total_value_usd": 8704.43,
+      "entry_price": 0.0265,
+      "end_date": "2026-11-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
