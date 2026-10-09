@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-09T02:55:16+00:00",
-  "total_signals": 1435,
-  "total_resolved": 1367,
+  "generated_at": "2026-10-09T09:49:11+00:00",
+  "total_signals": 1436,
+  "total_resolved": 1370,
   "total_correct": 855,
-  "overall_hit_rate": 62.5,
+  "overall_hit_rate": 62.4,
   "by_tier": {
     "Strong": {
-      "total": 625,
-      "resolved": 600,
+      "total": 626,
+      "resolved": 601,
       "correct": 381,
-      "hit_rate": 63.5
+      "hit_rate": 63.4
     },
     "Moderate": {
       "total": 736,
-      "resolved": 697,
+      "resolved": 699,
       "correct": 433,
-      "hit_rate": 62.1
+      "hit_rate": 61.9
     },
     "Weak": {
       "total": 74,
@@ -23888,10 +23888,10 @@
       "total_value_usd": 19770.74,
       "entry_price": 0.0255,
       "end_date": "2026-10-09",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Buccaneers",
+      "resolved_date": "2026-10-09"
     },
     {
       "signal_key": "0x1522d3943a6535571880a41fc6461b739885977b294cef5b54e1e52c2bb2d4ba:1",
@@ -23922,10 +23922,10 @@
       "total_value_usd": 24054.36,
       "entry_price": 0.0255,
       "end_date": "2026-10-09",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Buccaneers",
+      "resolved_date": "2026-10-09"
     },
     {
       "signal_key": "0x7849245484a838816650314f7a826d1bf0a5f5c1e6d46956d14a278d47dae3bb:0",
@@ -24364,10 +24364,10 @@
       "total_value_usd": 4877.77,
       "entry_price": 0.0265,
       "end_date": "2026-10-16",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Cleveland Guardians",
+      "resolved_date": "2026-10-16"
     },
     {
       "signal_key": "0x5405990b7e6689c74e9437da151abcfcfd261d0c3104e51d31d82bbc92222225:0",
@@ -24415,6 +24415,23 @@
       "total_value_usd": 8704.43,
       "entry_price": 0.0265,
       "end_date": "2026-11-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x58251a1a43830e12c81e6f82691c3bdcad6550bfc6e43e0bf7ed479f4a5f8600:0",
+      "condition_id": "0x58251a1a43830e12c81e6f82691c3bdcad6550bfc6e43e0bf7ed479f4a5f8600",
+      "title": "Bears vs. Packers",
+      "category": "NFL (All)",
+      "whale_direction": "Bears",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 11.4777,
+      "total_value_usd": 37824.04,
+      "entry_price": 0.0345,
+      "end_date": "2026-10-11",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
