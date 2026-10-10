@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-10T01:16:12+00:00",
-  "total_evaluated": 1436,
-  "total_pending": 66,
+  "generated_at": "2026-10-10T07:14:04+00:00",
+  "total_evaluated": 1439,
+  "total_pending": 69,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1436,
+      "signals_evaluated": 1439,
       "correct": 855,
       "wrong": 515,
-      "pending": 66,
+      "pending": 69,
       "win_rate": 62.4,
       "signals": [
         {
@@ -20116,6 +20116,48 @@
           "end_date": "2026-10-11",
           "total_value_usd": 37824.04,
           "result": "pending"
+        },
+        {
+          "signal_key": "0x4de72138204727d2821bff847d8158819ab5b591db1b5b263676126cbb3a0430:1",
+          "condition_id": "0x4de72138204727d2821bff847d8158819ab5b591db1b5b263676126cbb3a0430",
+          "title": "Will the Democrats win the South Carolina Senate race in 2026?",
+          "category": "South Carolina Midterm",
+          "tier": "Weak",
+          "entry_price": 0.029,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-04",
+          "total_value_usd": 201246.5,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x460d3942d385cdeda20519c0c5ad804ae48dc18efc9a82e1f1be87a29e69adb3:1",
+          "condition_id": "0x460d3942d385cdeda20519c0c5ad804ae48dc18efc9a82e1f1be87a29e69adb3",
+          "title": "Will the Democrats win the Kansas Senate race in 2026?",
+          "category": "Kansas Midterm",
+          "tier": "Weak",
+          "entry_price": 0.029,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-04",
+          "total_value_usd": 119797.58,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd50c016598c499fceea10a1a714e48d9b4953487fe215daeaf916068fae722f1:1",
+          "condition_id": "0xd50c016598c499fceea10a1a714e48d9b4953487fe215daeaf916068fae722f1",
+          "title": "Will the Democrats win the Iowa Senate race in 2026?",
+          "category": "Iowa Midterm",
+          "tier": "Weak",
+          "entry_price": 0.029,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-04",
+          "total_value_usd": 86439.95,
+          "result": "pending"
         }
       ]
     },
@@ -20123,10 +20165,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 766,
+      "signals_evaluated": 769,
       "correct": 448,
       "wrong": 272,
-      "pending": 46,
+      "pending": 49,
       "win_rate": 62.2,
       "signals": [
         {
@@ -30852,6 +30894,48 @@
           "end_date": "2026-10-11",
           "total_value_usd": 37824.04,
           "result": "pending"
+        },
+        {
+          "signal_key": "0x4de72138204727d2821bff847d8158819ab5b591db1b5b263676126cbb3a0430:1",
+          "condition_id": "0x4de72138204727d2821bff847d8158819ab5b591db1b5b263676126cbb3a0430",
+          "title": "Will the Democrats win the South Carolina Senate race in 2026?",
+          "category": "South Carolina Midterm",
+          "tier": "Weak",
+          "entry_price": 0.029,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-04",
+          "total_value_usd": 201246.5,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x460d3942d385cdeda20519c0c5ad804ae48dc18efc9a82e1f1be87a29e69adb3:1",
+          "condition_id": "0x460d3942d385cdeda20519c0c5ad804ae48dc18efc9a82e1f1be87a29e69adb3",
+          "title": "Will the Democrats win the Kansas Senate race in 2026?",
+          "category": "Kansas Midterm",
+          "tier": "Weak",
+          "entry_price": 0.029,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-04",
+          "total_value_usd": 119797.58,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd50c016598c499fceea10a1a714e48d9b4953487fe215daeaf916068fae722f1:1",
+          "condition_id": "0xd50c016598c499fceea10a1a714e48d9b4953487fe215daeaf916068fae722f1",
+          "title": "Will the Democrats win the Iowa Senate race in 2026?",
+          "category": "Iowa Midterm",
+          "tier": "Weak",
+          "entry_price": 0.029,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-04",
+          "total_value_usd": 86439.95,
+          "result": "pending"
         }
       ]
     },
@@ -30859,10 +30943,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 766,
+      "signals_evaluated": 769,
       "correct": 272,
       "wrong": 448,
-      "pending": 46,
+      "pending": 49,
       "win_rate": 37.8,
       "signals": [
         {
@@ -41587,6 +41671,48 @@
           "resolved_date": null,
           "end_date": "2026-10-11",
           "total_value_usd": 37824.04,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x4de72138204727d2821bff847d8158819ab5b591db1b5b263676126cbb3a0430:1",
+          "condition_id": "0x4de72138204727d2821bff847d8158819ab5b591db1b5b263676126cbb3a0430",
+          "title": "Will the Democrats win the South Carolina Senate race in 2026?",
+          "category": "South Carolina Midterm",
+          "tier": "Weak",
+          "entry_price": 0.029,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-04",
+          "total_value_usd": 201246.5,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x460d3942d385cdeda20519c0c5ad804ae48dc18efc9a82e1f1be87a29e69adb3:1",
+          "condition_id": "0x460d3942d385cdeda20519c0c5ad804ae48dc18efc9a82e1f1be87a29e69adb3",
+          "title": "Will the Democrats win the Kansas Senate race in 2026?",
+          "category": "Kansas Midterm",
+          "tier": "Weak",
+          "entry_price": 0.029,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-04",
+          "total_value_usd": 119797.58,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd50c016598c499fceea10a1a714e48d9b4953487fe215daeaf916068fae722f1:1",
+          "condition_id": "0xd50c016598c499fceea10a1a714e48d9b4953487fe215daeaf916068fae722f1",
+          "title": "Will the Democrats win the Iowa Senate race in 2026?",
+          "category": "Iowa Midterm",
+          "tier": "Weak",
+          "entry_price": 0.029,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-04",
+          "total_value_usd": 86439.95,
           "result": "pending"
         }
       ]
