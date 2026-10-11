@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-11T06:28:51+00:00",
-  "total_signals": 1439,
+  "generated_at": "2026-10-11T13:25:04+00:00",
+  "total_signals": 1440,
   "total_resolved": 1370,
   "total_correct": 855,
   "overall_hit_rate": 62.4,
   "by_tier": {
     "Strong": {
-      "total": 626,
+      "total": 627,
       "resolved": 601,
       "correct": 381,
       "hit_rate": 63.4
@@ -24483,6 +24483,23 @@
       "total_value_usd": 86439.95,
       "entry_price": 0.029,
       "end_date": "2026-11-04",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xb9a47da1c8b62eeddcd6d76de7666b77d973599afbb49332c6e53564b406c745:0",
+      "condition_id": "0xb9a47da1c8b62eeddcd6d76de7666b77d973599afbb49332c6e53564b406c745",
+      "title": "China Open: Qinwen Zheng vs Mirra Andreeva",
+      "category": "Tennis",
+      "whale_direction": "Qinwen Zheng",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 14.0155,
+      "total_value_usd": 24745.32,
+      "entry_price": 0.0285,
+      "end_date": "2026-10-18",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
