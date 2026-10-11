@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-11T18:16:45+00:00",
+  "generated_at": "2026-10-11T22:07:33+00:00",
   "total_signals": 1441,
-  "total_resolved": 1371,
+  "total_resolved": 1372,
   "total_correct": 856,
   "overall_hit_rate": 62.4,
   "by_tier": {
     "Strong": {
       "total": 627,
-      "resolved": 602,
+      "resolved": 603,
       "correct": 382,
-      "hit_rate": 63.5
+      "hit_rate": 63.3
     },
     "Moderate": {
       "total": 737,
@@ -24432,10 +24432,10 @@
       "total_value_usd": 37824.04,
       "entry_price": 0.0345,
       "end_date": "2026-10-11",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Packers",
+      "resolved_date": "2026-10-11"
     },
     {
       "signal_key": "0x4de72138204727d2821bff847d8158819ab5b591db1b5b263676126cbb3a0430:1",
