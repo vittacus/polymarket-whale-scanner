@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-12T16:34:39+00:00",
-  "total_evaluated": 1442,
-  "total_pending": 69,
+  "generated_at": "2026-10-12T23:17:42+00:00",
+  "total_evaluated": 1444,
+  "total_pending": 70,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1442,
-      "correct": 856,
+      "signals_evaluated": 1444,
+      "correct": 857,
       "wrong": 517,
-      "pending": 69,
-      "win_rate": 62.3,
+      "pending": 70,
+      "win_rate": 62.4,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -20195,10 +20195,38 @@
           "tier": "Moderate",
           "entry_price": 0.0285,
           "whale_direction": "Lorenzo Carboni",
+          "resolved_outcome": "Lorenzo Carboni",
+          "resolved_date": "2026-10-19",
+          "end_date": "2026-10-19",
+          "total_value_usd": 96085.97,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xf543bef8af4f7f1047265f4df15df1266f01212f7266f23f0ebe3f32c922a9c6:1",
+          "condition_id": "0xf543bef8af4f7f1047265f4df15df1266f01212f7266f23f0ebe3f32c922a9c6",
+          "title": "Los Angeles Dodgers vs. Milwaukee Brewers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0275,
+          "whale_direction": "Milwaukee Brewers",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-10-19",
-          "total_value_usd": 96085.97,
+          "total_value_usd": 155254.74,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf543bef8af4f7f1047265f4df15df1266f01212f7266f23f0ebe3f32c922a9c6:0",
+          "condition_id": "0xf543bef8af4f7f1047265f4df15df1266f01212f7266f23f0ebe3f32c922a9c6",
+          "title": "Los Angeles Dodgers vs. Milwaukee Brewers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0275,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-19",
+          "total_value_usd": 247180.45,
           "result": "pending"
         }
       ]
@@ -20207,11 +20235,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 772,
-      "correct": 449,
+      "signals_evaluated": 774,
+      "correct": 450,
       "wrong": 274,
-      "pending": 49,
-      "win_rate": 62.1,
+      "pending": 50,
+      "win_rate": 62.2,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -31015,10 +31043,38 @@
           "tier": "Moderate",
           "entry_price": 0.0285,
           "whale_direction": "Lorenzo Carboni",
+          "resolved_outcome": "Lorenzo Carboni",
+          "resolved_date": "2026-10-19",
+          "end_date": "2026-10-19",
+          "total_value_usd": 96085.97,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xf543bef8af4f7f1047265f4df15df1266f01212f7266f23f0ebe3f32c922a9c6:1",
+          "condition_id": "0xf543bef8af4f7f1047265f4df15df1266f01212f7266f23f0ebe3f32c922a9c6",
+          "title": "Los Angeles Dodgers vs. Milwaukee Brewers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0275,
+          "whale_direction": "Milwaukee Brewers",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-10-19",
-          "total_value_usd": 96085.97,
+          "total_value_usd": 155254.74,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf543bef8af4f7f1047265f4df15df1266f01212f7266f23f0ebe3f32c922a9c6:0",
+          "condition_id": "0xf543bef8af4f7f1047265f4df15df1266f01212f7266f23f0ebe3f32c922a9c6",
+          "title": "Los Angeles Dodgers vs. Milwaukee Brewers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0275,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-19",
+          "total_value_usd": 247180.45,
           "result": "pending"
         }
       ]
@@ -31027,11 +31083,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 772,
+      "signals_evaluated": 774,
       "correct": 274,
-      "wrong": 449,
-      "pending": 49,
-      "win_rate": 37.9,
+      "wrong": 450,
+      "pending": 50,
+      "win_rate": 37.8,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -41835,10 +41891,38 @@
           "tier": "Moderate",
           "entry_price": 0.0285,
           "whale_direction": "Lorenzo Carboni",
+          "resolved_outcome": "Lorenzo Carboni",
+          "resolved_date": "2026-10-19",
+          "end_date": "2026-10-19",
+          "total_value_usd": 96085.97,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xf543bef8af4f7f1047265f4df15df1266f01212f7266f23f0ebe3f32c922a9c6:1",
+          "condition_id": "0xf543bef8af4f7f1047265f4df15df1266f01212f7266f23f0ebe3f32c922a9c6",
+          "title": "Los Angeles Dodgers vs. Milwaukee Brewers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0275,
+          "whale_direction": "Milwaukee Brewers",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-10-19",
-          "total_value_usd": 96085.97,
+          "total_value_usd": 155254.74,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xf543bef8af4f7f1047265f4df15df1266f01212f7266f23f0ebe3f32c922a9c6:0",
+          "condition_id": "0xf543bef8af4f7f1047265f4df15df1266f01212f7266f23f0ebe3f32c922a9c6",
+          "title": "Los Angeles Dodgers vs. Milwaukee Brewers",
+          "category": "MLB",
+          "tier": "Strong",
+          "entry_price": 0.0275,
+          "whale_direction": "Los Angeles Dodgers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-19",
+          "total_value_usd": 247180.45,
           "result": "pending"
         }
       ]
