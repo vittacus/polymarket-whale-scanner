@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-12T07:03:26+00:00",
-  "total_signals": 1441,
+  "generated_at": "2026-10-12T16:34:39+00:00",
+  "total_signals": 1442,
   "total_resolved": 1373,
   "total_correct": 856,
   "overall_hit_rate": 62.3,
@@ -12,7 +12,7 @@
       "hit_rate": 63.3
     },
     "Moderate": {
-      "total": 737,
+      "total": 738,
       "resolved": 700,
       "correct": 433,
       "hit_rate": 61.9
@@ -24521,6 +24521,23 @@
       "correct": false,
       "resolved_outcome": "Milwaukee Brewers",
       "resolved_date": "2026-10-19"
+    },
+    {
+      "signal_key": "0x0af965d742206462c89e7c198345f71b024ad502323bec1e87a811a5c00389af:0",
+      "condition_id": "0x0af965d742206462c89e7c198345f71b024ad502323bec1e87a811a5c00389af",
+      "title": "Olbia: Lorenzo Carboni vs Mackenzie McDonald",
+      "category": "Tennis",
+      "whale_direction": "Lorenzo Carboni",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 8.2083,
+      "total_value_usd": 96085.97,
+      "entry_price": 0.0285,
+      "end_date": "2026-10-19",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
