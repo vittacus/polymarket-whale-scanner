@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-12T23:17:41+00:00",
+  "generated_at": "2026-10-13T03:43:39+00:00",
   "total_signals": 1444,
-  "total_resolved": 1374,
-  "total_correct": 857,
+  "total_resolved": 1376,
+  "total_correct": 858,
   "overall_hit_rate": 62.4,
   "by_tier": {
     "Strong": {
       "total": 629,
-      "resolved": 603,
-      "correct": 382,
+      "resolved": 605,
+      "correct": 383,
       "hit_rate": 63.3
     },
     "Moderate": {
@@ -24551,10 +24551,10 @@
       "total_value_usd": 155254.74,
       "entry_price": 0.0275,
       "end_date": "2026-10-19",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Milwaukee Brewers",
+      "resolved_date": "2026-10-19"
     },
     {
       "signal_key": "0xf543bef8af4f7f1047265f4df15df1266f01212f7266f23f0ebe3f32c922a9c6:0",
@@ -24568,10 +24568,10 @@
       "total_value_usd": 247180.45,
       "entry_price": 0.0275,
       "end_date": "2026-10-19",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Milwaukee Brewers",
+      "resolved_date": "2026-10-19"
     }
   ]
 }
