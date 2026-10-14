@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-14T01:54:01+00:00",
+  "generated_at": "2026-10-14T06:53:09+00:00",
   "total_evaluated": 1447,
-  "total_pending": 71,
+  "total_pending": 69,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 1447,
-      "correct": 858,
-      "wrong": 518,
-      "pending": 71,
-      "win_rate": 62.4,
+      "correct": 859,
+      "wrong": 519,
+      "pending": 69,
+      "win_rate": 62.3,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -20237,11 +20237,11 @@
           "tier": "Moderate",
           "entry_price": 0.0275,
           "whale_direction": "Tampa Bay Rays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Tampa Bay Rays",
+          "resolved_date": "2026-10-21",
           "end_date": "2026-10-21",
           "total_value_usd": 67401.29,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xd5e7fc59b4289ee7fd0e4b812558299b08221f07360b63901b9f57a93b50f3b9:0",
@@ -20251,11 +20251,11 @@
           "tier": "Moderate",
           "entry_price": 0.0275,
           "whale_direction": "Cleveland Guardians",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Tampa Bay Rays",
+          "resolved_date": "2026-10-21",
           "end_date": "2026-10-21",
           "total_value_usd": 6797.41,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xa4477f5f7fe81699b162492181a425d69de1adb1a6831ea695381cfa276596ba:1",
@@ -20278,9 +20278,9 @@
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 777,
-      "correct": 451,
-      "wrong": 275,
-      "pending": 51,
+      "correct": 452,
+      "wrong": 276,
+      "pending": 49,
       "win_rate": 62.1,
       "signals": [
         {
@@ -31127,11 +31127,11 @@
           "tier": "Moderate",
           "entry_price": 0.0275,
           "whale_direction": "Tampa Bay Rays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Tampa Bay Rays",
+          "resolved_date": "2026-10-21",
           "end_date": "2026-10-21",
           "total_value_usd": 67401.29,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xd5e7fc59b4289ee7fd0e4b812558299b08221f07360b63901b9f57a93b50f3b9:0",
@@ -31141,11 +31141,11 @@
           "tier": "Moderate",
           "entry_price": 0.0275,
           "whale_direction": "Cleveland Guardians",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Tampa Bay Rays",
+          "resolved_date": "2026-10-21",
           "end_date": "2026-10-21",
           "total_value_usd": 6797.41,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xa4477f5f7fe81699b162492181a425d69de1adb1a6831ea695381cfa276596ba:1",
@@ -31168,9 +31168,9 @@
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 777,
-      "correct": 275,
-      "wrong": 451,
-      "pending": 51,
+      "correct": 276,
+      "wrong": 452,
+      "pending": 49,
       "win_rate": 37.9,
       "signals": [
         {
@@ -42017,11 +42017,11 @@
           "tier": "Moderate",
           "entry_price": 0.0275,
           "whale_direction": "Tampa Bay Rays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Tampa Bay Rays",
+          "resolved_date": "2026-10-21",
           "end_date": "2026-10-21",
           "total_value_usd": 67401.29,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xd5e7fc59b4289ee7fd0e4b812558299b08221f07360b63901b9f57a93b50f3b9:0",
@@ -42031,11 +42031,11 @@
           "tier": "Moderate",
           "entry_price": 0.0275,
           "whale_direction": "Cleveland Guardians",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Tampa Bay Rays",
+          "resolved_date": "2026-10-21",
           "end_date": "2026-10-21",
           "total_value_usd": 6797.41,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xa4477f5f7fe81699b162492181a425d69de1adb1a6831ea695381cfa276596ba:1",

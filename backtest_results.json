@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-14T01:54:01+00:00",
+  "generated_at": "2026-10-14T06:53:09+00:00",
   "total_signals": 1447,
-  "total_resolved": 1376,
-  "total_correct": 858,
-  "overall_hit_rate": 62.4,
+  "total_resolved": 1378,
+  "total_correct": 859,
+  "overall_hit_rate": 62.3,
   "by_tier": {
     "Strong": {
       "total": 629,
@@ -13,8 +13,8 @@
     },
     "Moderate": {
       "total": 741,
-      "resolved": 701,
-      "correct": 434,
+      "resolved": 703,
+      "correct": 435,
       "hit_rate": 61.9
     },
     "Weak": {
@@ -24585,10 +24585,10 @@
       "total_value_usd": 67401.29,
       "entry_price": 0.0275,
       "end_date": "2026-10-21",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Tampa Bay Rays",
+      "resolved_date": "2026-10-21"
     },
     {
       "signal_key": "0xd5e7fc59b4289ee7fd0e4b812558299b08221f07360b63901b9f57a93b50f3b9:0",
@@ -24602,10 +24602,10 @@
       "total_value_usd": 6797.41,
       "entry_price": 0.0275,
       "end_date": "2026-10-21",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Tampa Bay Rays",
+      "resolved_date": "2026-10-21"
     },
     {
       "signal_key": "0xa4477f5f7fe81699b162492181a425d69de1adb1a6831ea695381cfa276596ba:1",
