@@ -381488,5 +381488,207 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-10-14T01:42:16+00:00",
+    "whale_timeframes": {
+      "0x7ad71d79a3bb90d0a87a06500fa0fe11663842aa": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa71093cafc0c099b4ccab24c3cb8018d817923c4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc3acf5878a03523d09a3ac859943445d7baeb964": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfe787d2da716d60e8acff57fb87eb13cd4d10319": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe8d78397160e13edc306a63b1d88c9c1f3dd1252": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9a5e78f769d30fb320f084ed64d58fcbc09acd58": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x21f333307ac6d2e65ac82f014b3dd2b64cbc35e3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x492442eab586f242b53bda933fd5de859c8a3782": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1465b79bff7992bc703e1aafb3683b1089647072": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9703676286b93c2eca71ca96e8757104519a69c2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3a8aa345d5db7ec5138298c8c4f4540259be7699": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f29e103339919c4baaea2a60195cf1c8bb27a7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7c75be8139d0e333e7c8c2e17b53575ef0804d1d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9e53cfe3e881636f9415af925c3a9620f3ad53ae": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe7d35952ac1792cec67765261a85a4ccb466b483": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9aeb534c42b58b21673d5e03e9da14fbd15b2729": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xd5e7fc59b4289ee7fd0e4b812558299b08221f07360b63901b9f57a93b50f3b9:1",
+        "condition_id": "0xd5e7fc59b4289ee7fd0e4b812558299b08221f07360b63901b9f57a93b50f3b9",
+        "title": "Cleveland Guardians vs. Tampa Bay Rays",
+        "outcome": "Tampa Bay Rays",
+        "outcome_index": 1,
+        "whale_count": 5,
+        "wallets": [
+          "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+          "0x9a5e78f769d30fb320f084ed64d58fcbc09acd58",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xe7d35952ac1792cec67765261a85a4ccb466b483",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf"
+        ],
+        "ranks": [
+          5,
+          8,
+          15,
+          18,
+          19
+        ],
+        "total_value_usd": 67401.29,
+        "score": 9.7258,
+        "category": "MLB",
+        "end_date": "2026-10-21",
+        "entry_price": 0.0275
+      },
+      {
+        "signal_key": "0xd5e7fc59b4289ee7fd0e4b812558299b08221f07360b63901b9f57a93b50f3b9:0",
+        "condition_id": "0xd5e7fc59b4289ee7fd0e4b812558299b08221f07360b63901b9f57a93b50f3b9",
+        "title": "Cleveland Guardians vs. Tampa Bay Rays",
+        "outcome": "Cleveland Guardians",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x9a5e78f769d30fb320f084ed64d58fcbc09acd58",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          5,
+          7,
+          8,
+          15
+        ],
+        "total_value_usd": 6797.41,
+        "score": 8.2545,
+        "category": "MLB",
+        "end_date": "2026-10-21",
+        "entry_price": 0.0275
+      },
+      {
+        "signal_key": "0xa4477f5f7fe81699b162492181a425d69de1adb1a6831ea695381cfa276596ba:1",
+        "condition_id": "0xa4477f5f7fe81699b162492181a425d69de1adb1a6831ea695381cfa276596ba",
+        "title": "Spread: Seahawks (-2.5)",
+        "outcome": "Broncos",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf"
+        ],
+        "ranks": [
+          7,
+          15,
+          19
+        ],
+        "total_value_usd": 9676.24,
+        "score": 4.2104,
+        "category": "NFL (All)",
+        "end_date": "2026-10-16",
+        "entry_price": 0.0275
+      }
+    ]
   }
 ]
