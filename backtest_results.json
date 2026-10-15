@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-15T07:01:25+00:00",
-  "total_signals": 1452,
-  "total_resolved": 1381,
-  "total_correct": 861,
-  "overall_hit_rate": 62.3,
+  "generated_at": "2026-10-15T12:35:05+00:00",
+  "total_signals": 1453,
+  "total_resolved": 1382,
+  "total_correct": 862,
+  "overall_hit_rate": 62.4,
   "by_tier": {
     "Strong": {
       "total": 631,
@@ -12,9 +12,9 @@
       "hit_rate": 63.2
     },
     "Moderate": {
-      "total": 744,
-      "resolved": 705,
-      "correct": 437,
+      "total": 745,
+      "resolved": 706,
+      "correct": 438,
       "hit_rate": 62.0
     },
     "Weak": {
@@ -24704,6 +24704,23 @@
       "total_value_usd": 50506.81,
       "entry_price": 0.0285,
       "end_date": "2026-10-22",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Elina Svitolina",
+      "resolved_date": "2026-10-22"
+    },
+    {
+      "signal_key": "0xcf25ccc8360f3952139fb5e3f14cb9bb0636cb53d0e30e947321ceccab7e9780:0",
+      "condition_id": "0xcf25ccc8360f3952139fb5e3f14cb9bb0636cb53d0e30e947321ceccab7e9780",
+      "title": "Will Ethereum dip to $1,500 by December 31, 2026?",
+      "category": "Ethereum",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 5.6432,
+      "total_value_usd": 4452.95,
+      "entry_price": 0.0285,
+      "end_date": "2027-01-01",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

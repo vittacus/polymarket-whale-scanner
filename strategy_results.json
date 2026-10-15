@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-15T07:01:26+00:00",
-  "total_evaluated": 1452,
+  "generated_at": "2026-10-15T12:35:05+00:00",
+  "total_evaluated": 1453,
   "total_pending": 71,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1452,
-      "correct": 861,
+      "signals_evaluated": 1453,
+      "correct": 862,
       "wrong": 520,
       "pending": 71,
-      "win_rate": 62.3,
+      "win_rate": 62.4,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -20335,10 +20335,24 @@
           "tier": "Moderate",
           "entry_price": 0.0285,
           "whale_direction": "Elina Svitolina",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elina Svitolina",
+          "resolved_date": "2026-10-22",
           "end_date": "2026-10-22",
           "total_value_usd": 50506.81,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xcf25ccc8360f3952139fb5e3f14cb9bb0636cb53d0e30e947321ceccab7e9780:0",
+          "condition_id": "0xcf25ccc8360f3952139fb5e3f14cb9bb0636cb53d0e30e947321ceccab7e9780",
+          "title": "Will Ethereum dip to $1,500 by December 31, 2026?",
+          "category": "Ethereum",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2027-01-01",
+          "total_value_usd": 4452.95,
           "result": "pending"
         }
       ]
@@ -20347,11 +20361,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 782,
-      "correct": 454,
+      "signals_evaluated": 783,
+      "correct": 455,
       "wrong": 277,
       "pending": 51,
-      "win_rate": 62.1,
+      "win_rate": 62.2,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -31295,10 +31309,24 @@
           "tier": "Moderate",
           "entry_price": 0.0285,
           "whale_direction": "Elina Svitolina",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elina Svitolina",
+          "resolved_date": "2026-10-22",
           "end_date": "2026-10-22",
           "total_value_usd": 50506.81,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0xcf25ccc8360f3952139fb5e3f14cb9bb0636cb53d0e30e947321ceccab7e9780:0",
+          "condition_id": "0xcf25ccc8360f3952139fb5e3f14cb9bb0636cb53d0e30e947321ceccab7e9780",
+          "title": "Will Ethereum dip to $1,500 by December 31, 2026?",
+          "category": "Ethereum",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2027-01-01",
+          "total_value_usd": 4452.95,
           "result": "pending"
         }
       ]
@@ -31307,11 +31335,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 782,
+      "signals_evaluated": 783,
       "correct": 277,
-      "wrong": 454,
+      "wrong": 455,
       "pending": 51,
-      "win_rate": 37.9,
+      "win_rate": 37.8,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -42255,10 +42283,24 @@
           "tier": "Moderate",
           "entry_price": 0.0285,
           "whale_direction": "Elina Svitolina",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Elina Svitolina",
+          "resolved_date": "2026-10-22",
           "end_date": "2026-10-22",
           "total_value_usd": 50506.81,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0xcf25ccc8360f3952139fb5e3f14cb9bb0636cb53d0e30e947321ceccab7e9780:0",
+          "condition_id": "0xcf25ccc8360f3952139fb5e3f14cb9bb0636cb53d0e30e947321ceccab7e9780",
+          "title": "Will Ethereum dip to $1,500 by December 31, 2026?",
+          "category": "Ethereum",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2027-01-01",
+          "total_value_usd": 4452.95,
           "result": "pending"
         }
       ]
