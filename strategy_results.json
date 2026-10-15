@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-14T23:47:56+00:00",
-  "total_evaluated": 1448,
-  "total_pending": 70,
+  "generated_at": "2026-10-15T02:01:28+00:00",
+  "total_evaluated": 1451,
+  "total_pending": 73,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1448,
+      "signals_evaluated": 1451,
       "correct": 859,
       "wrong": 519,
-      "pending": 70,
+      "pending": 73,
       "win_rate": 62.3,
       "signals": [
         {
@@ -20284,6 +20284,48 @@
           "end_date": "2026-10-22",
           "total_value_usd": 264067.14,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xdf9bf27ee5757c55b44b8b9826ddc9ec3a8809aa3278634c45edbb7fc8f1a3e3:0",
+          "condition_id": "0xdf9bf27ee5757c55b44b8b9826ddc9ec3a8809aa3278634c45edbb7fc8f1a3e3",
+          "title": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+          "category": "Fed",
+          "tier": "Strong",
+          "entry_price": 0.0285,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-29",
+          "total_value_usd": 623673.27,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x75ee71f41c90708fd891f13384bf563016523828c13fe64a268169c5bf68e062:0",
+          "condition_id": "0x75ee71f41c90708fd891f13384bf563016523828c13fe64a268169c5bf68e062",
+          "title": "Milwaukee Brewers vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "Milwaukee Brewers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-22",
+          "total_value_usd": 88027.69,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x12aa13b3da17ceae1b0a59b5d5b77121e91bb79b4bb0b52bf6543ed3f8d0953b:1",
+          "condition_id": "0x12aa13b3da17ceae1b0a59b5d5b77121e91bb79b4bb0b52bf6543ed3f8d0953b",
+          "title": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+          "category": "Fed",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-29",
+          "total_value_usd": 33263.32,
+          "result": "pending"
         }
       ]
     },
@@ -20291,10 +20333,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 778,
+      "signals_evaluated": 781,
       "correct": 452,
       "wrong": 276,
-      "pending": 50,
+      "pending": 53,
       "win_rate": 62.1,
       "signals": [
         {
@@ -31188,6 +31230,48 @@
           "end_date": "2026-10-22",
           "total_value_usd": 264067.14,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xdf9bf27ee5757c55b44b8b9826ddc9ec3a8809aa3278634c45edbb7fc8f1a3e3:0",
+          "condition_id": "0xdf9bf27ee5757c55b44b8b9826ddc9ec3a8809aa3278634c45edbb7fc8f1a3e3",
+          "title": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+          "category": "Fed",
+          "tier": "Strong",
+          "entry_price": 0.0285,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-29",
+          "total_value_usd": 623673.27,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x75ee71f41c90708fd891f13384bf563016523828c13fe64a268169c5bf68e062:0",
+          "condition_id": "0x75ee71f41c90708fd891f13384bf563016523828c13fe64a268169c5bf68e062",
+          "title": "Milwaukee Brewers vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "Milwaukee Brewers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-22",
+          "total_value_usd": 88027.69,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x12aa13b3da17ceae1b0a59b5d5b77121e91bb79b4bb0b52bf6543ed3f8d0953b:1",
+          "condition_id": "0x12aa13b3da17ceae1b0a59b5d5b77121e91bb79b4bb0b52bf6543ed3f8d0953b",
+          "title": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+          "category": "Fed",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-29",
+          "total_value_usd": 33263.32,
+          "result": "pending"
         }
       ]
     },
@@ -31195,10 +31279,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 778,
+      "signals_evaluated": 781,
       "correct": 276,
       "wrong": 452,
-      "pending": 50,
+      "pending": 53,
       "win_rate": 37.9,
       "signals": [
         {
@@ -42092,6 +42176,48 @@
           "end_date": "2026-10-22",
           "total_value_usd": 264067.14,
           "result": "pending"
+        },
+        {
+          "signal_key": "0xdf9bf27ee5757c55b44b8b9826ddc9ec3a8809aa3278634c45edbb7fc8f1a3e3:0",
+          "condition_id": "0xdf9bf27ee5757c55b44b8b9826ddc9ec3a8809aa3278634c45edbb7fc8f1a3e3",
+          "title": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+          "category": "Fed",
+          "tier": "Strong",
+          "entry_price": 0.0285,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-29",
+          "total_value_usd": 623673.27,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x75ee71f41c90708fd891f13384bf563016523828c13fe64a268169c5bf68e062:0",
+          "condition_id": "0x75ee71f41c90708fd891f13384bf563016523828c13fe64a268169c5bf68e062",
+          "title": "Milwaukee Brewers vs. Los Angeles Dodgers",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "Milwaukee Brewers",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-22",
+          "total_value_usd": 88027.69,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x12aa13b3da17ceae1b0a59b5d5b77121e91bb79b4bb0b52bf6543ed3f8d0953b:1",
+          "condition_id": "0x12aa13b3da17ceae1b0a59b5d5b77121e91bb79b4bb0b52bf6543ed3f8d0953b",
+          "title": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+          "category": "Fed",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-29",
+          "total_value_usd": 33263.32,
+          "result": "pending"
         }
       ]
     },
@@ -42099,10 +42225,10 @@
       "name": "Conviction Sizing",
       "description": "Total whale position >$500k",
       "hypothesis": "Signals where total position size exceeds $500k represent the highest-conviction whale bets. When top traders put serious capital behind a position, that's a qualitatively different signal from a small stake. This filters for only the highest-conviction consensus calls to test whether size predicts accuracy.",
-      "signals_evaluated": 45,
+      "signals_evaluated": 46,
       "correct": 26,
       "wrong": 11,
-      "pending": 8,
+      "pending": 9,
       "win_rate": 70.3,
       "signals": [
         {
@@ -42733,6 +42859,20 @@
           "resolved_date": null,
           "end_date": "2027-01-01",
           "total_value_usd": 773759.75,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xdf9bf27ee5757c55b44b8b9826ddc9ec3a8809aa3278634c45edbb7fc8f1a3e3:0",
+          "condition_id": "0xdf9bf27ee5757c55b44b8b9826ddc9ec3a8809aa3278634c45edbb7fc8f1a3e3",
+          "title": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+          "category": "Fed",
+          "tier": "Strong",
+          "entry_price": 0.0285,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-29",
+          "total_value_usd": 623673.27,
           "result": "pending"
         }
       ]

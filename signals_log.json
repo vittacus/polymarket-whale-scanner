@@ -382368,5 +382368,228 @@
         "entry_price": 0.0285
       }
     ]
+  },
+  {
+    "timestamp": "2026-10-15T01:50:20+00:00",
+    "whale_timeframes": {
+      "0x918b42a06ff25eaaa4a79eca9da6a9de46f4ea63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7ad71d79a3bb90d0a87a06500fa0fe11663842aa": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x285faa3e3d1465cf3ff1bff1e1d14891f5b8495f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb6192410f9c651ee55eb0bc98d695d732cc86586": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2117ae94a97d69b78cbc81b6680a62deb1955c26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xffbbf885454e6930e54b720ad5224175b8ae36e9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfbe66593e49c4e7a7180a2582f041158bfb800f8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x91feec8af2b517f024d91564ee108d707cc0c1c6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1d1ade627d0bb0205758580b20d808573e720df6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd84d7f9262516865553555751609fb6f52abec6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfc0847fe2ea938d6e2624650eb29ef8d8142a137": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcc32068e0d0b19790e3376bc1751552adcca92d2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3f3aa7005f8006bfcc367d43a25cde25509fe8fd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x602785cdf56a03221130d3d42a577ac6cf444320": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x457f2814dac53a0a9951b5c2ea5a9db20896aa1a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0979bad57d7a1403db89cbcd9c52bf43f2138d9b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xdf9bf27ee5757c55b44b8b9826ddc9ec3a8809aa3278634c45edbb7fc8f1a3e3:0",
+        "condition_id": "0xdf9bf27ee5757c55b44b8b9826ddc9ec3a8809aa3278634c45edbb7fc8f1a3e3",
+        "title": "Will there be no change in Fed interest rates after the October 2026 meeting?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x2117ae94a97d69b78cbc81b6680a62deb1955c26",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0xfbe66593e49c4e7a7180a2582f041158bfb800f8"
+        ],
+        "ranks": [
+          6,
+          7,
+          9,
+          10
+        ],
+        "total_value_usd": 623673.27,
+        "score": 12.1573,
+        "category": "Fed",
+        "end_date": "2026-10-29",
+        "entry_price": 0.0285
+      },
+      {
+        "signal_key": "0x75ee71f41c90708fd891f13384bf563016523828c13fe64a268169c5bf68e062:0",
+        "condition_id": "0x75ee71f41c90708fd891f13384bf563016523828c13fe64a268169c5bf68e062",
+        "title": "Milwaukee Brewers vs. Los Angeles Dodgers",
+        "outcome": "Milwaukee Brewers",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e",
+          "0xcd84d7f9262516865553555751609fb6f52abec6",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          3,
+          13,
+          14
+        ],
+        "total_value_usd": 88027.69,
+        "score": 9.5973,
+        "category": "MLB",
+        "end_date": "2026-10-22",
+        "entry_price": 0.0285
+      },
+      {
+        "signal_key": "0x75ee71f41c90708fd891f13384bf563016523828c13fe64a268169c5bf68e062:1",
+        "condition_id": "0x75ee71f41c90708fd891f13384bf563016523828c13fe64a268169c5bf68e062",
+        "title": "Milwaukee Brewers vs. Los Angeles Dodgers",
+        "outcome": "Los Angeles Dodgers",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x2117ae94a97d69b78cbc81b6680a62deb1955c26",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d"
+        ],
+        "ranks": [
+          6,
+          7,
+          9,
+          14
+        ],
+        "total_value_usd": 37206.05,
+        "score": 9.0626,
+        "category": "MLB",
+        "end_date": "2026-10-22",
+        "entry_price": 0.0285
+      },
+      {
+        "signal_key": "0x12aa13b3da17ceae1b0a59b5d5b77121e91bb79b4bb0b52bf6543ed3f8d0953b:1",
+        "condition_id": "0x12aa13b3da17ceae1b0a59b5d5b77121e91bb79b4bb0b52bf6543ed3f8d0953b",
+        "title": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x2117ae94a97d69b78cbc81b6680a62deb1955c26",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6"
+        ],
+        "ranks": [
+          6,
+          7,
+          9
+        ],
+        "total_value_usd": 33263.32,
+        "score": 7.6646,
+        "category": "Fed",
+        "end_date": "2026-10-29",
+        "entry_price": 0.0285
+      }
+    ]
   }
 ]
