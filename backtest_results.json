@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-16T11:29:48+00:00",
+  "generated_at": "2026-10-16T15:37:26+00:00",
   "total_signals": 1462,
-  "total_resolved": 1391,
-  "total_correct": 866,
+  "total_resolved": 1392,
+  "total_correct": 867,
   "overall_hit_rate": 62.3,
   "by_tier": {
     "Strong": {
@@ -13,9 +13,9 @@
     },
     "Moderate": {
       "total": 750,
-      "resolved": 712,
-      "correct": 441,
-      "hit_rate": 61.9
+      "resolved": 713,
+      "correct": 442,
+      "hit_rate": 62.0
     },
     "Weak": {
       "total": 77,
@@ -24874,10 +24874,10 @@
       "total_value_usd": 38293.77,
       "entry_price": 0.0285,
       "end_date": "2026-10-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Daniil Medvedev",
+      "resolved_date": "2026-10-23"
     }
   ]
 }
