@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-16T01:31:20+00:00",
-  "total_evaluated": 1456,
-  "total_pending": 73,
+  "generated_at": "2026-10-16T06:16:17+00:00",
+  "total_evaluated": 1461,
+  "total_pending": 75,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1456,
-      "correct": 862,
-      "wrong": 521,
-      "pending": 73,
+      "signals_evaluated": 1461,
+      "correct": 864,
+      "wrong": 522,
+      "pending": 75,
       "win_rate": 62.3,
       "signals": [
         {
@@ -20265,11 +20265,11 @@
           "tier": "Moderate",
           "entry_price": 0.0275,
           "whale_direction": "Broncos",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Broncos",
+          "resolved_date": "2026-10-16",
           "end_date": "2026-10-16",
           "total_value_usd": 9676.24,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x75ee71f41c90708fd891f13384bf563016523828c13fe64a268169c5bf68e062:1",
@@ -20377,11 +20377,11 @@
           "tier": "Strong",
           "entry_price": 0.0295,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-10-23",
           "end_date": "2026-10-23",
           "total_value_usd": 111224.03,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x759904f6184c7a3824c3d083d78faa1253b22ccf88a4f9643cef63ff7a67518e:0",
@@ -20391,10 +20391,80 @@
           "tier": "Strong",
           "entry_price": 0.0295,
           "whale_direction": "Milwaukee Brewers",
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-10-23",
+          "end_date": "2026-10-23",
+          "total_value_usd": 84644.56,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x86bfb53af7250a40928975c551d12c185b762fa4ce0b40c6a64a50c946d72587:1",
+          "condition_id": "0x86bfb53af7250a40928975c551d12c185b762fa4ce0b40c6a64a50c946d72587",
+          "title": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+          "category": "Senate",
+          "tier": "Strong",
+          "entry_price": 0.0285,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-04",
+          "total_value_usd": 132087.78,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd5f52155cd4caa160a679992c25179bc073a635b0f8bbc59827a921329ec3f7a:0",
+          "condition_id": "0xd5f52155cd4caa160a679992c25179bc073a635b0f8bbc59827a921329ec3f7a",
+          "title": "Wuhan Tennis Open: Elina Svitolina vs Sonay Kartal",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "Elina Svitolina",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-10-23",
-          "total_value_usd": 84644.56,
+          "total_value_usd": 61910.56,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd5f52155cd4caa160a679992c25179bc073a635b0f8bbc59827a921329ec3f7a:1",
+          "condition_id": "0xd5f52155cd4caa160a679992c25179bc073a635b0f8bbc59827a921329ec3f7a",
+          "title": "Wuhan Tennis Open: Elina Svitolina vs Sonay Kartal",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "Sonay Kartal",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-23",
+          "total_value_usd": 37227.66,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x5c8c4fd23582a3658de1f3b3224bcca4d54edb0144f2ffc05b7277d307746a0e:0",
+          "condition_id": "0x5c8c4fd23582a3658de1f3b3224bcca4d54edb0144f2ffc05b7277d307746a0e",
+          "title": "Mallorca: Ane Mintegi Del Olmo vs Rebeka Masarova",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "Ane Mintegi Del Olmo",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-22",
+          "total_value_usd": 50110.35,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x5c8c4fd23582a3658de1f3b3224bcca4d54edb0144f2ffc05b7277d307746a0e:1",
+          "condition_id": "0x5c8c4fd23582a3658de1f3b3224bcca4d54edb0144f2ffc05b7277d307746a0e",
+          "title": "Mallorca: Ane Mintegi Del Olmo vs Rebeka Masarova",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "Rebeka Masarova",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-22",
+          "total_value_usd": 20843.72,
           "result": "pending"
         }
       ]
@@ -20403,10 +20473,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 786,
-      "correct": 455,
-      "wrong": 278,
-      "pending": 53,
+      "signals_evaluated": 791,
+      "correct": 457,
+      "wrong": 279,
+      "pending": 55,
       "win_rate": 62.1,
       "signals": [
         {
@@ -31281,11 +31351,11 @@
           "tier": "Moderate",
           "entry_price": 0.0275,
           "whale_direction": "Broncos",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Broncos",
+          "resolved_date": "2026-10-16",
           "end_date": "2026-10-16",
           "total_value_usd": 9676.24,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x75ee71f41c90708fd891f13384bf563016523828c13fe64a268169c5bf68e062:1",
@@ -31393,11 +31463,11 @@
           "tier": "Strong",
           "entry_price": 0.0295,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-10-23",
           "end_date": "2026-10-23",
           "total_value_usd": 111224.03,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x759904f6184c7a3824c3d083d78faa1253b22ccf88a4f9643cef63ff7a67518e:0",
@@ -31407,10 +31477,80 @@
           "tier": "Strong",
           "entry_price": 0.0295,
           "whale_direction": "Milwaukee Brewers",
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-10-23",
+          "end_date": "2026-10-23",
+          "total_value_usd": 84644.56,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x86bfb53af7250a40928975c551d12c185b762fa4ce0b40c6a64a50c946d72587:1",
+          "condition_id": "0x86bfb53af7250a40928975c551d12c185b762fa4ce0b40c6a64a50c946d72587",
+          "title": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+          "category": "Senate",
+          "tier": "Strong",
+          "entry_price": 0.0285,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-04",
+          "total_value_usd": 132087.78,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd5f52155cd4caa160a679992c25179bc073a635b0f8bbc59827a921329ec3f7a:0",
+          "condition_id": "0xd5f52155cd4caa160a679992c25179bc073a635b0f8bbc59827a921329ec3f7a",
+          "title": "Wuhan Tennis Open: Elina Svitolina vs Sonay Kartal",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "Elina Svitolina",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-10-23",
-          "total_value_usd": 84644.56,
+          "total_value_usd": 61910.56,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd5f52155cd4caa160a679992c25179bc073a635b0f8bbc59827a921329ec3f7a:1",
+          "condition_id": "0xd5f52155cd4caa160a679992c25179bc073a635b0f8bbc59827a921329ec3f7a",
+          "title": "Wuhan Tennis Open: Elina Svitolina vs Sonay Kartal",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "Sonay Kartal",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-23",
+          "total_value_usd": 37227.66,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x5c8c4fd23582a3658de1f3b3224bcca4d54edb0144f2ffc05b7277d307746a0e:0",
+          "condition_id": "0x5c8c4fd23582a3658de1f3b3224bcca4d54edb0144f2ffc05b7277d307746a0e",
+          "title": "Mallorca: Ane Mintegi Del Olmo vs Rebeka Masarova",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "Ane Mintegi Del Olmo",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-22",
+          "total_value_usd": 50110.35,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x5c8c4fd23582a3658de1f3b3224bcca4d54edb0144f2ffc05b7277d307746a0e:1",
+          "condition_id": "0x5c8c4fd23582a3658de1f3b3224bcca4d54edb0144f2ffc05b7277d307746a0e",
+          "title": "Mallorca: Ane Mintegi Del Olmo vs Rebeka Masarova",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "Rebeka Masarova",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-22",
+          "total_value_usd": 20843.72,
           "result": "pending"
         }
       ]
@@ -31419,10 +31559,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 786,
-      "correct": 278,
-      "wrong": 455,
-      "pending": 53,
+      "signals_evaluated": 791,
+      "correct": 279,
+      "wrong": 457,
+      "pending": 55,
       "win_rate": 37.9,
       "signals": [
         {
@@ -42297,11 +42437,11 @@
           "tier": "Moderate",
           "entry_price": 0.0275,
           "whale_direction": "Broncos",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Broncos",
+          "resolved_date": "2026-10-16",
           "end_date": "2026-10-16",
           "total_value_usd": 9676.24,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x75ee71f41c90708fd891f13384bf563016523828c13fe64a268169c5bf68e062:1",
@@ -42409,11 +42549,11 @@
           "tier": "Strong",
           "entry_price": 0.0295,
           "whale_direction": "Los Angeles Dodgers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-10-23",
           "end_date": "2026-10-23",
           "total_value_usd": 111224.03,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x759904f6184c7a3824c3d083d78faa1253b22ccf88a4f9643cef63ff7a67518e:0",
@@ -42423,10 +42563,80 @@
           "tier": "Strong",
           "entry_price": 0.0295,
           "whale_direction": "Milwaukee Brewers",
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-10-23",
+          "end_date": "2026-10-23",
+          "total_value_usd": 84644.56,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x86bfb53af7250a40928975c551d12c185b762fa4ce0b40c6a64a50c946d72587:1",
+          "condition_id": "0x86bfb53af7250a40928975c551d12c185b762fa4ce0b40c6a64a50c946d72587",
+          "title": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+          "category": "Senate",
+          "tier": "Strong",
+          "entry_price": 0.0285,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-04",
+          "total_value_usd": 132087.78,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd5f52155cd4caa160a679992c25179bc073a635b0f8bbc59827a921329ec3f7a:0",
+          "condition_id": "0xd5f52155cd4caa160a679992c25179bc073a635b0f8bbc59827a921329ec3f7a",
+          "title": "Wuhan Tennis Open: Elina Svitolina vs Sonay Kartal",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "Elina Svitolina",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-10-23",
-          "total_value_usd": 84644.56,
+          "total_value_usd": 61910.56,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0xd5f52155cd4caa160a679992c25179bc073a635b0f8bbc59827a921329ec3f7a:1",
+          "condition_id": "0xd5f52155cd4caa160a679992c25179bc073a635b0f8bbc59827a921329ec3f7a",
+          "title": "Wuhan Tennis Open: Elina Svitolina vs Sonay Kartal",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "Sonay Kartal",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-23",
+          "total_value_usd": 37227.66,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x5c8c4fd23582a3658de1f3b3224bcca4d54edb0144f2ffc05b7277d307746a0e:0",
+          "condition_id": "0x5c8c4fd23582a3658de1f3b3224bcca4d54edb0144f2ffc05b7277d307746a0e",
+          "title": "Mallorca: Ane Mintegi Del Olmo vs Rebeka Masarova",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "Ane Mintegi Del Olmo",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-22",
+          "total_value_usd": 50110.35,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x5c8c4fd23582a3658de1f3b3224bcca4d54edb0144f2ffc05b7277d307746a0e:1",
+          "condition_id": "0x5c8c4fd23582a3658de1f3b3224bcca4d54edb0144f2ffc05b7277d307746a0e",
+          "title": "Mallorca: Ane Mintegi Del Olmo vs Rebeka Masarova",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "Rebeka Masarova",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-22",
+          "total_value_usd": 20843.72,
           "result": "pending"
         }
       ]
