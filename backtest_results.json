@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-16T19:05:45+00:00",
-  "total_signals": 1462,
+  "generated_at": "2026-10-16T22:04:40+00:00",
+  "total_signals": 1463,
   "total_resolved": 1392,
   "total_correct": 867,
   "overall_hit_rate": 62.3,
   "by_tier": {
     "Strong": {
-      "total": 635,
+      "total": 636,
       "resolved": 609,
       "correct": 384,
       "hit_rate": 63.1
@@ -24878,6 +24878,23 @@
       "correct": true,
       "resolved_outcome": "Daniil Medvedev",
       "resolved_date": "2026-10-23"
+    },
+    {
+      "signal_key": "0xa212f42192d390e56f3deba016d0a8272ddec9961932e9f12128460ae12f380b:0",
+      "condition_id": "0xa212f42192d390e56f3deba016d0a8272ddec9961932e9f12128460ae12f380b",
+      "title": "Santa Cruz 2: Juan Manuel La Serna vs Franco Roncadelli",
+      "category": "Tennis",
+      "whale_direction": "Juan Manuel La Serna",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 10.317,
+      "total_value_usd": 19819.26,
+      "entry_price": 0.0285,
+      "end_date": "2026-10-23",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
