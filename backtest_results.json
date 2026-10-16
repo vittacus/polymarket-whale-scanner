@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-16T06:16:17+00:00",
-  "total_signals": 1461,
-  "total_resolved": 1386,
-  "total_correct": 864,
+  "generated_at": "2026-10-16T11:29:48+00:00",
+  "total_signals": 1462,
+  "total_resolved": 1391,
+  "total_correct": 866,
   "overall_hit_rate": 62.3,
   "by_tier": {
     "Strong": {
@@ -12,10 +12,10 @@
       "hit_rate": 63.1
     },
     "Moderate": {
-      "total": 749,
-      "resolved": 707,
-      "correct": 439,
-      "hit_rate": 62.1
+      "total": 750,
+      "resolved": 712,
+      "correct": 441,
+      "hit_rate": 61.9
     },
     "Weak": {
       "total": 77,
@@ -4525,10 +4525,10 @@
       "total_value_usd": 15658.63,
       "entry_price": 0.51,
       "end_date": "2026-10-31",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-10-31"
     },
     {
       "signal_key": "0xb465c0d920be7fa9413909befc3989247de10a1d4feca2621bb36f9a62191a12:0",
@@ -24806,10 +24806,10 @@
       "total_value_usd": 61910.56,
       "entry_price": 0.0285,
       "end_date": "2026-10-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Sonay Kartal",
+      "resolved_date": "2026-10-23"
     },
     {
       "signal_key": "0xd5f52155cd4caa160a679992c25179bc073a635b0f8bbc59827a921329ec3f7a:1",
@@ -24823,10 +24823,10 @@
       "total_value_usd": 37227.66,
       "entry_price": 0.0285,
       "end_date": "2026-10-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Sonay Kartal",
+      "resolved_date": "2026-10-23"
     },
     {
       "signal_key": "0x5c8c4fd23582a3658de1f3b3224bcca4d54edb0144f2ffc05b7277d307746a0e:0",
@@ -24840,10 +24840,10 @@
       "total_value_usd": 50110.35,
       "entry_price": 0.0285,
       "end_date": "2026-10-22",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Rebeka Masarova",
+      "resolved_date": "2026-10-22"
     },
     {
       "signal_key": "0x5c8c4fd23582a3658de1f3b3224bcca4d54edb0144f2ffc05b7277d307746a0e:1",
@@ -24857,6 +24857,23 @@
       "total_value_usd": 20843.72,
       "entry_price": 0.0285,
       "end_date": "2026-10-22",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Rebeka Masarova",
+      "resolved_date": "2026-10-22"
+    },
+    {
+      "signal_key": "0xa03d8bcc940eda5fe62eb3a56bfdc0f8955606caf4734d2e451852894ed53eb2:0",
+      "condition_id": "0xa03d8bcc940eda5fe62eb3a56bfdc0f8955606caf4734d2e451852894ed53eb2",
+      "title": "Shanghai Rolex Masters: Daniil Medvedev vs Tommy Paul",
+      "category": "Tennis",
+      "whale_direction": "Daniil Medvedev",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 5.2186,
+      "total_value_usd": 38293.77,
+      "entry_price": 0.0285,
+      "end_date": "2026-10-23",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,

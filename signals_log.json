@@ -384057,5 +384057,270 @@
         "entry_price": 0.0285
       }
     ]
+  },
+  {
+    "timestamp": "2026-10-16T11:18:35+00:00",
+    "whale_timeframes": {
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x05f6cb63d4ffdfaecd7ad8acd0765b6f6a5a25a1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1465b79bff7992bc703e1aafb3683b1089647072": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7ad71d79a3bb90d0a87a06500fa0fe11663842aa": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x11dee4993359477f1705643435a4ac88dc53bb27": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc95ed399d2fbaec9461f2abd70e0d96df1921288": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdaef2be2a19ad331737d06545f85615b094554e9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x93683d55f0ea67212bc179e9802f00e271c9f390": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfbe66593e49c4e7a7180a2582f041158bfb800f8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x27f738fe203827445690339104aae35b20bc44b0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb4f978be63cdf75554b0b46a4262a6db597cc9a7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc44f432b014f36679e13615f95996eac32bbd49f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb70c4f38ce25d986a9da3f3190cbae87660934ca": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xf02d8d72bb96d84090d4f7d63e7837afb94f8d061e7a2cca8cf21732150e8815:0",
+        "condition_id": "0xf02d8d72bb96d84090d4f7d63e7837afb94f8d061e7a2cca8cf21732150e8815",
+        "title": "Will Arsenal win the 2026-27 English Premier League (EPL) Championship?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0xc95ed399d2fbaec9461f2abd70e0d96df1921288"
+        ],
+        "ranks": [
+          1,
+          8,
+          9
+        ],
+        "total_value_usd": 270985.26,
+        "score": 27.0612,
+        "category": "EPL",
+        "end_date": "2027-05-30",
+        "entry_price": 0.0365
+      },
+      {
+        "signal_key": "0x86bfb53af7250a40928975c551d12c185b762fa4ce0b40c6a64a50c946d72587:1",
+        "condition_id": "0x86bfb53af7250a40928975c551d12c185b762fa4ce0b40c6a64a50c946d72587",
+        "title": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+          "0xc95ed399d2fbaec9461f2abd70e0d96df1921288",
+          "0xdaef2be2a19ad331737d06545f85615b094554e9"
+        ],
+        "ranks": [
+          1,
+          9,
+          12
+        ],
+        "total_value_usd": 132087.78,
+        "score": 24.6469,
+        "category": "Senate",
+        "end_date": "2026-11-04",
+        "entry_price": 0.0285
+      },
+      {
+        "signal_key": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846:1",
+        "condition_id": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
+        "title": "Will the U.S. invade Iran before 2027?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x05f6cb63d4ffdfaecd7ad8acd0765b6f6a5a25a1",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0xb70c4f38ce25d986a9da3f3190cbae87660934ca"
+        ],
+        "ranks": [
+          3,
+          8,
+          20
+        ],
+        "total_value_usd": 269299.64,
+        "score": 11.123,
+        "category": "Military Strikes",
+        "end_date": "2027-01-01",
+        "entry_price": 0.51
+      },
+      {
+        "signal_key": "0x9cb23d04b2ded06147482076688b69b487a8d982c63ebdda2ab3678cf27cf390:0",
+        "condition_id": "0x9cb23d04b2ded06147482076688b69b487a8d982c63ebdda2ab3678cf27cf390",
+        "title": "Clarity Act (H.R.3633) signed into law in 2026?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x05f6cb63d4ffdfaecd7ad8acd0765b6f6a5a25a1",
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0xdaef2be2a19ad331737d06545f85615b094554e9"
+        ],
+        "ranks": [
+          3,
+          8,
+          12
+        ],
+        "total_value_usd": 7335.38,
+        "score": 8.437,
+        "category": "Crypto",
+        "end_date": "2027-01-01",
+        "entry_price": 0.0485
+      },
+      {
+        "signal_key": "0x5c8c4fd23582a3658de1f3b3224bcca4d54edb0144f2ffc05b7277d307746a0e:1",
+        "condition_id": "0x5c8c4fd23582a3658de1f3b3224bcca4d54edb0144f2ffc05b7277d307746a0e",
+        "title": "Mallorca: Ane Mintegi Del Olmo vs Rebeka Masarova",
+        "outcome": "Rebeka Masarova",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+        ],
+        "ranks": [
+          4,
+          11,
+          15
+        ],
+        "total_value_usd": 93073.05,
+        "score": 8.1605,
+        "category": "Tennis",
+        "end_date": "2026-10-22",
+        "entry_price": 0.0285
+      },
+      {
+        "signal_key": "0xa03d8bcc940eda5fe62eb3a56bfdc0f8955606caf4734d2e451852894ed53eb2:0",
+        "condition_id": "0xa03d8bcc940eda5fe62eb3a56bfdc0f8955606caf4734d2e451852894ed53eb2",
+        "title": "Shanghai Rolex Masters: Daniil Medvedev vs Tommy Paul",
+        "outcome": "Daniil Medvedev",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea"
+        ],
+        "ranks": [
+          8,
+          11,
+          15
+        ],
+        "total_value_usd": 38293.77,
+        "score": 5.2186,
+        "category": "Tennis",
+        "end_date": "2026-10-23",
+        "entry_price": 0.0285
+      }
+    ]
   }
 ]
