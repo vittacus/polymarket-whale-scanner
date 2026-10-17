@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-16T22:04:40+00:00",
+  "generated_at": "2026-10-17T00:16:45+00:00",
   "total_signals": 1463,
-  "total_resolved": 1392,
-  "total_correct": 867,
+  "total_resolved": 1393,
+  "total_correct": 868,
   "overall_hit_rate": 62.3,
   "by_tier": {
     "Strong": {
       "total": 636,
-      "resolved": 609,
-      "correct": 384,
+      "resolved": 610,
+      "correct": 385,
       "hit_rate": 63.1
     },
     "Moderate": {
@@ -24891,10 +24891,10 @@
       "total_value_usd": 19819.26,
       "entry_price": 0.0285,
       "end_date": "2026-10-23",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Juan Manuel La Serna",
+      "resolved_date": "2026-10-23"
     }
   ]
 }
