@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-17T04:32:18+00:00",
-  "total_evaluated": 1463,
-  "total_pending": 70,
+  "generated_at": "2026-10-17T08:53:18+00:00",
+  "total_evaluated": 1464,
+  "total_pending": 71,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1463,
+      "signals_evaluated": 1464,
       "correct": 868,
       "wrong": 525,
-      "pending": 70,
+      "pending": 71,
       "win_rate": 62.3,
       "signals": [
         {
@@ -20494,6 +20494,20 @@
           "end_date": "2026-10-23",
           "total_value_usd": 19819.26,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x26b5ef627ebddd730da4491dfac7f4ac22e4b4a73c4ac0fa8ea211d9da6af3a4:0",
+          "condition_id": "0x26b5ef627ebddd730da4491dfac7f4ac22e4b4a73c4ac0fa8ea211d9da6af3a4",
+          "title": "Tampa Bay Rays vs. Cleveland Guardians",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0275,
+          "whale_direction": "Tampa Bay Rays",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-25",
+          "total_value_usd": 72688.75,
+          "result": "pending"
         }
       ]
     },
@@ -20501,10 +20515,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 793,
+      "signals_evaluated": 794,
       "correct": 461,
       "wrong": 281,
-      "pending": 51,
+      "pending": 52,
       "win_rate": 62.1,
       "signals": [
         {
@@ -31608,6 +31622,20 @@
           "end_date": "2026-10-23",
           "total_value_usd": 19819.26,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x26b5ef627ebddd730da4491dfac7f4ac22e4b4a73c4ac0fa8ea211d9da6af3a4:0",
+          "condition_id": "0x26b5ef627ebddd730da4491dfac7f4ac22e4b4a73c4ac0fa8ea211d9da6af3a4",
+          "title": "Tampa Bay Rays vs. Cleveland Guardians",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0275,
+          "whale_direction": "Tampa Bay Rays",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-25",
+          "total_value_usd": 72688.75,
+          "result": "pending"
         }
       ]
     },
@@ -31615,10 +31643,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 793,
+      "signals_evaluated": 794,
       "correct": 281,
       "wrong": 461,
-      "pending": 51,
+      "pending": 52,
       "win_rate": 37.9,
       "signals": [
         {
@@ -42722,6 +42750,20 @@
           "end_date": "2026-10-23",
           "total_value_usd": 19819.26,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x26b5ef627ebddd730da4491dfac7f4ac22e4b4a73c4ac0fa8ea211d9da6af3a4:0",
+          "condition_id": "0x26b5ef627ebddd730da4491dfac7f4ac22e4b4a73c4ac0fa8ea211d9da6af3a4",
+          "title": "Tampa Bay Rays vs. Cleveland Guardians",
+          "category": "MLB",
+          "tier": "Moderate",
+          "entry_price": 0.0275,
+          "whale_direction": "Tampa Bay Rays",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-25",
+          "total_value_usd": 72688.75,
+          "result": "pending"
         }
       ]
     },
