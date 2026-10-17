@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-17T08:53:17+00:00",
-  "total_signals": 1464,
+  "generated_at": "2026-10-17T12:36:07+00:00",
+  "total_signals": 1465,
   "total_resolved": 1393,
   "total_correct": 868,
   "overall_hit_rate": 62.3,
   "by_tier": {
     "Strong": {
-      "total": 636,
+      "total": 637,
       "resolved": 610,
       "correct": 385,
       "hit_rate": 63.1
@@ -24908,6 +24908,23 @@
       "total_value_usd": 72688.75,
       "entry_price": 0.0275,
       "end_date": "2026-10-25",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xf0bcb2c342ff81a657231e85df5b68f82b25e1764cd07f27611617e429fb7b20:0",
+      "condition_id": "0xf0bcb2c342ff81a657231e85df5b68f82b25e1764cd07f27611617e429fb7b20",
+      "title": "Shanghai Rolex Masters: Rafael Jodar vs Daniil Medvedev",
+      "category": "Tennis",
+      "whale_direction": "Rafael Jodar",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 11.0989,
+      "total_value_usd": 55831.75,
+      "entry_price": 0.0275,
+      "end_date": "2026-10-24",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
