@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-17T22:51:21+00:00",
-  "total_evaluated": 1466,
+  "generated_at": "2026-10-18T00:30:14+00:00",
+  "total_evaluated": 1467,
   "total_pending": 72,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1466,
-      "correct": 869,
+      "signals_evaluated": 1467,
+      "correct": 870,
       "wrong": 525,
       "pending": 72,
-      "win_rate": 62.3,
+      "win_rate": 62.4,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -20536,6 +20536,20 @@
           "end_date": "2026-10-25",
           "total_value_usd": 99168.67,
           "result": "pending"
+        },
+        {
+          "signal_key": "0x7665416eea43b5c70aee3a400ca4120d8b6cf6b8924ebeebe5d2aa9ac57b8ab4:1",
+          "condition_id": "0x7665416eea43b5c70aee3a400ca4120d8b6cf6b8924ebeebe5d2aa9ac57b8ab4",
+          "title": "Santa Cruz 2: Francisco Comesana vs Thiago Seyboth Wild",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0265,
+          "whale_direction": "Thiago Seyboth Wild",
+          "resolved_outcome": "Thiago Seyboth Wild",
+          "resolved_date": "2026-10-24",
+          "end_date": "2026-10-24",
+          "total_value_usd": 120895.52,
+          "result": "correct"
         }
       ]
     },
@@ -20543,8 +20557,8 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 796,
-      "correct": 462,
+      "signals_evaluated": 797,
+      "correct": 463,
       "wrong": 281,
       "pending": 53,
       "win_rate": 62.2,
@@ -31692,6 +31706,20 @@
           "end_date": "2026-10-25",
           "total_value_usd": 99168.67,
           "result": "pending"
+        },
+        {
+          "signal_key": "0x7665416eea43b5c70aee3a400ca4120d8b6cf6b8924ebeebe5d2aa9ac57b8ab4:1",
+          "condition_id": "0x7665416eea43b5c70aee3a400ca4120d8b6cf6b8924ebeebe5d2aa9ac57b8ab4",
+          "title": "Santa Cruz 2: Francisco Comesana vs Thiago Seyboth Wild",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0265,
+          "whale_direction": "Thiago Seyboth Wild",
+          "resolved_outcome": "Thiago Seyboth Wild",
+          "resolved_date": "2026-10-24",
+          "end_date": "2026-10-24",
+          "total_value_usd": 120895.52,
+          "result": "correct"
         }
       ]
     },
@@ -31699,9 +31727,9 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 796,
+      "signals_evaluated": 797,
       "correct": 281,
-      "wrong": 462,
+      "wrong": 463,
       "pending": 53,
       "win_rate": 37.8,
       "signals": [
@@ -42848,6 +42876,20 @@
           "end_date": "2026-10-25",
           "total_value_usd": 99168.67,
           "result": "pending"
+        },
+        {
+          "signal_key": "0x7665416eea43b5c70aee3a400ca4120d8b6cf6b8924ebeebe5d2aa9ac57b8ab4:1",
+          "condition_id": "0x7665416eea43b5c70aee3a400ca4120d8b6cf6b8924ebeebe5d2aa9ac57b8ab4",
+          "title": "Santa Cruz 2: Francisco Comesana vs Thiago Seyboth Wild",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0265,
+          "whale_direction": "Thiago Seyboth Wild",
+          "resolved_outcome": "Thiago Seyboth Wild",
+          "resolved_date": "2026-10-24",
+          "end_date": "2026-10-24",
+          "total_value_usd": 120895.52,
+          "result": "wrong"
         }
       ]
     },

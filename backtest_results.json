@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-17T22:51:21+00:00",
-  "total_signals": 1466,
-  "total_resolved": 1394,
-  "total_correct": 869,
-  "overall_hit_rate": 62.3,
+  "generated_at": "2026-10-18T00:30:14+00:00",
+  "total_signals": 1467,
+  "total_resolved": 1395,
+  "total_correct": 870,
+  "overall_hit_rate": 62.4,
   "by_tier": {
     "Strong": {
       "total": 637,
@@ -12,9 +12,9 @@
       "hit_rate": 63.2
     },
     "Moderate": {
-      "total": 752,
-      "resolved": 713,
-      "correct": 442,
+      "total": 753,
+      "resolved": 714,
+      "correct": 443,
       "hit_rate": 62.0
     },
     "Weak": {
@@ -24946,6 +24946,23 @@
       "correct": null,
       "resolved_outcome": null,
       "resolved_date": null
+    },
+    {
+      "signal_key": "0x7665416eea43b5c70aee3a400ca4120d8b6cf6b8924ebeebe5d2aa9ac57b8ab4:1",
+      "condition_id": "0x7665416eea43b5c70aee3a400ca4120d8b6cf6b8924ebeebe5d2aa9ac57b8ab4",
+      "title": "Santa Cruz 2: Francisco Comesana vs Thiago Seyboth Wild",
+      "category": "Tennis",
+      "whale_direction": "Thiago Seyboth Wild",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 5.2731,
+      "total_value_usd": 120895.52,
+      "entry_price": 0.0265,
+      "end_date": "2026-10-24",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Thiago Seyboth Wild",
+      "resolved_date": "2026-10-24"
     }
   ]
 }
