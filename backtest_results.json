@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-18T09:27:26+00:00",
-  "total_signals": 1467,
+  "generated_at": "2026-10-18T13:36:59+00:00",
+  "total_signals": 1468,
   "total_resolved": 1397,
   "total_correct": 871,
   "overall_hit_rate": 62.3,
@@ -12,7 +12,7 @@
       "hit_rate": 63.2
     },
     "Moderate": {
-      "total": 753,
+      "total": 754,
       "resolved": 716,
       "correct": 444,
       "hit_rate": 62.0
@@ -24963,6 +24963,23 @@
       "correct": true,
       "resolved_outcome": "Thiago Seyboth Wild",
       "resolved_date": "2026-10-24"
+    },
+    {
+      "signal_key": "0x9ce673cd9b762f7db412e786d2e3d2c46a98b5bbd4c43fa71aef9310302b20ff:0",
+      "condition_id": "0x9ce673cd9b762f7db412e786d2e3d2c46a98b5bbd4c43fa71aef9310302b20ff",
+      "title": "Wuhan Tennis Open: Maja Chwalinska vs Sonay Kartal",
+      "category": "Tennis",
+      "whale_direction": "Maja Chwalinska",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 8.7319,
+      "total_value_usd": 32843.35,
+      "entry_price": 0.0265,
+      "end_date": "2026-10-25",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
