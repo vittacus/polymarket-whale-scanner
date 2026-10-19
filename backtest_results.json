@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-18T23:27:55+00:00",
+  "generated_at": "2026-10-19T01:40:59+00:00",
   "total_signals": 1469,
-  "total_resolved": 1398,
+  "total_resolved": 1399,
   "total_correct": 872,
-  "overall_hit_rate": 62.4,
+  "overall_hit_rate": 62.3,
   "by_tier": {
     "Strong": {
       "total": 637,
@@ -19,9 +19,9 @@
     },
     "Weak": {
       "total": 78,
-      "resolved": 70,
+      "resolved": 71,
       "correct": 41,
-      "hit_rate": 58.6
+      "hit_rate": 57.7
     }
   },
   "signals": [
@@ -24993,10 +24993,10 @@
       "total_value_usd": 42051.57,
       "entry_price": 0.0265,
       "end_date": "2026-10-25",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Tampa Bay Rays",
+      "resolved_date": "2026-10-25"
     }
   ]
 }
