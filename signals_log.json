@@ -388024,5 +388024,203 @@
         "entry_price": 0.0255
       }
     ]
+  },
+  {
+    "timestamp": "2026-10-20T07:00:35+00:00",
+    "whale_timeframes": {
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x924379a79c64b77ad5816ad362122a5f6228658e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x91e67d77b45558ce69238bf8a79e2e902b1ee9c5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xccd81fbd3395dc43a0531f8484b21c2462daf4de": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf4c95b636c71243531dfc82a97565a94c106f88c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe4a57385a34b0b32fd86be72efd25cda41003cad": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcbd4e59cd04a74291e3333630eeec431e4814e22": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf2f6af4f27ec2dcf4072095ab804016e14cd5817": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8a260ebadf8ef07e693dd1b0be120b3330dd73c3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa71093cafc0c099b4ccab24c3cb8018d817923c4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1d1ade627d0bb0205758580b20d808573e720df6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe7870d0e1bfc65a23e3d66caf00ca1b9129e5034": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xebfdb8164f0e0748818d6c7a9ac85a323267fd63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7ad71d79a3bb90d0a87a06500fa0fe11663842aa": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x821dab0565ebf5b327f51db06223fdcfe01acf16": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb4f978be63cdf75554b0b46a4262a6db597cc9a7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5a218c7ad04135830a45c41aaed7294df7809318": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xabf104699d61eacd165be2c1fd9020f243aea9698d9e287cb22af6f4d9c133fb:1",
+        "condition_id": "0xabf104699d61eacd165be2c1fd9020f243aea9698d9e287cb22af6f4d9c133fb",
+        "title": "Ningbo Open: Yulia Putintseva vs Diana Shnaider",
+        "outcome": "Diana Shnaider",
+        "outcome_index": 1,
+        "whale_count": 4,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+          "0xe7870d0e1bfc65a23e3d66caf00ca1b9129e5034",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16"
+        ],
+        "ranks": [
+          6,
+          10,
+          15,
+          18
+        ],
+        "total_value_usd": 65317.08,
+        "score": 7.5453,
+        "category": "Tennis",
+        "end_date": "2026-10-27",
+        "entry_price": 0.0255
+      },
+      {
+        "signal_key": "0xf1781f905001907ba25a210cc61399fe4cdc4e964da0a51566af2daa802dd166:0",
+        "condition_id": "0xf1781f905001907ba25a210cc61399fe4cdc4e964da0a51566af2daa802dd166",
+        "title": "Japan Women's Open: Paula Badosa vs Antonia Ruzic",
+        "outcome": "Paula Badosa",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16"
+        ],
+        "ranks": [
+          6,
+          10,
+          18
+        ],
+        "total_value_usd": 22965.61,
+        "score": 5.6625,
+        "category": "Tennis",
+        "end_date": "2026-10-26",
+        "entry_price": 0.0255
+      },
+      {
+        "signal_key": "0xabf104699d61eacd165be2c1fd9020f243aea9698d9e287cb22af6f4d9c133fb:0",
+        "condition_id": "0xabf104699d61eacd165be2c1fd9020f243aea9698d9e287cb22af6f4d9c133fb",
+        "title": "Ningbo Open: Yulia Putintseva vs Diana Shnaider",
+        "outcome": "Yulia Putintseva",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+          "0x821dab0565ebf5b327f51db06223fdcfe01acf16"
+        ],
+        "ranks": [
+          6,
+          10,
+          18
+        ],
+        "total_value_usd": 17000.13,
+        "score": 5.4929,
+        "category": "Tennis",
+        "end_date": "2026-10-27",
+        "entry_price": 0.0255
+      }
+    ]
   }
 ]
