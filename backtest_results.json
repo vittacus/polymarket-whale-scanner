@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-19T23:16:11+00:00",
-  "total_signals": 1469,
+  "generated_at": "2026-10-20T02:01:21+00:00",
+  "total_signals": 1470,
   "total_resolved": 1399,
   "total_correct": 872,
   "overall_hit_rate": 62.3,
   "by_tier": {
     "Strong": {
-      "total": 637,
+      "total": 638,
       "resolved": 611,
       "correct": 386,
       "hit_rate": 63.2
@@ -24997,6 +24997,23 @@
       "correct": false,
       "resolved_outcome": "Tampa Bay Rays",
       "resolved_date": "2026-10-25"
+    },
+    {
+      "signal_key": "0x80c0fc991c03fe4a8b736469e941b8e90bd02b52e6077bfd40802c6e773a26da:1",
+      "condition_id": "0x80c0fc991c03fe4a8b736469e941b8e90bd02b52e6077bfd40802c6e773a26da",
+      "title": "Cleveland Guardians vs. Tampa Bay Rays",
+      "category": "MLB",
+      "whale_direction": "Tampa Bay Rays",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 14.3557,
+      "total_value_usd": 64947.38,
+      "entry_price": 0.0255,
+      "end_date": "2026-10-27",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
