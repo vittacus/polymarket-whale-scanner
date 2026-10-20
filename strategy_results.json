@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-20T07:11:20+00:00",
-  "total_evaluated": 1473,
-  "total_pending": 73,
+  "generated_at": "2026-10-20T12:53:57+00:00",
+  "total_evaluated": 1474,
+  "total_pending": 71,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1473,
-      "correct": 873,
-      "wrong": 527,
-      "pending": 73,
-      "win_rate": 62.4,
+      "signals_evaluated": 1474,
+      "correct": 874,
+      "wrong": 529,
+      "pending": 71,
+      "win_rate": 62.3,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -20601,11 +20601,11 @@
           "tier": "Moderate",
           "entry_price": 0.0255,
           "whale_direction": "Diana Shnaider",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Diana Shnaider",
+          "resolved_date": "2026-10-27",
           "end_date": "2026-10-27",
           "total_value_usd": 65317.08,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf1781f905001907ba25a210cc61399fe4cdc4e964da0a51566af2daa802dd166:0",
@@ -20615,11 +20615,11 @@
           "tier": "Moderate",
           "entry_price": 0.0255,
           "whale_direction": "Paula Badosa",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Antonia Ruzic",
+          "resolved_date": "2026-10-26",
           "end_date": "2026-10-26",
           "total_value_usd": 22965.61,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xabf104699d61eacd165be2c1fd9020f243aea9698d9e287cb22af6f4d9c133fb:0",
@@ -20629,10 +20629,24 @@
           "tier": "Moderate",
           "entry_price": 0.0255,
           "whale_direction": "Yulia Putintseva",
+          "resolved_outcome": "Diana Shnaider",
+          "resolved_date": "2026-10-27",
+          "end_date": "2026-10-27",
+          "total_value_usd": 17000.13,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x1b150843b335473a857cec289132af2217c9c4d496f8ac349ea99ebb8965fb4e:1",
+          "condition_id": "0x1b150843b335473a857cec289132af2217c9c4d496f8ac349ea99ebb8965fb4e",
+          "title": "European Open: Botic van de Zandschulp vs Clement Chidekh",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0265,
+          "whale_direction": "Clement Chidekh",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-10-27",
-          "total_value_usd": 17000.13,
+          "total_value_usd": 19653.25,
           "result": "pending"
         }
       ]
@@ -20641,11 +20655,11 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 803,
-      "correct": 466,
-      "wrong": 283,
-      "pending": 54,
-      "win_rate": 62.2,
+      "signals_evaluated": 804,
+      "correct": 467,
+      "wrong": 285,
+      "pending": 52,
+      "win_rate": 62.1,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -31855,11 +31869,11 @@
           "tier": "Moderate",
           "entry_price": 0.0255,
           "whale_direction": "Diana Shnaider",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Diana Shnaider",
+          "resolved_date": "2026-10-27",
           "end_date": "2026-10-27",
           "total_value_usd": 65317.08,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xf1781f905001907ba25a210cc61399fe4cdc4e964da0a51566af2daa802dd166:0",
@@ -31869,11 +31883,11 @@
           "tier": "Moderate",
           "entry_price": 0.0255,
           "whale_direction": "Paula Badosa",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Antonia Ruzic",
+          "resolved_date": "2026-10-26",
           "end_date": "2026-10-26",
           "total_value_usd": 22965.61,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xabf104699d61eacd165be2c1fd9020f243aea9698d9e287cb22af6f4d9c133fb:0",
@@ -31883,10 +31897,24 @@
           "tier": "Moderate",
           "entry_price": 0.0255,
           "whale_direction": "Yulia Putintseva",
+          "resolved_outcome": "Diana Shnaider",
+          "resolved_date": "2026-10-27",
+          "end_date": "2026-10-27",
+          "total_value_usd": 17000.13,
+          "result": "wrong"
+        },
+        {
+          "signal_key": "0x1b150843b335473a857cec289132af2217c9c4d496f8ac349ea99ebb8965fb4e:1",
+          "condition_id": "0x1b150843b335473a857cec289132af2217c9c4d496f8ac349ea99ebb8965fb4e",
+          "title": "European Open: Botic van de Zandschulp vs Clement Chidekh",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0265,
+          "whale_direction": "Clement Chidekh",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-10-27",
-          "total_value_usd": 17000.13,
+          "total_value_usd": 19653.25,
           "result": "pending"
         }
       ]
@@ -31895,11 +31923,11 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 803,
-      "correct": 283,
-      "wrong": 466,
-      "pending": 54,
-      "win_rate": 37.8,
+      "signals_evaluated": 804,
+      "correct": 285,
+      "wrong": 467,
+      "pending": 52,
+      "win_rate": 37.9,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -43109,11 +43137,11 @@
           "tier": "Moderate",
           "entry_price": 0.0255,
           "whale_direction": "Diana Shnaider",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Diana Shnaider",
+          "resolved_date": "2026-10-27",
           "end_date": "2026-10-27",
           "total_value_usd": 65317.08,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xf1781f905001907ba25a210cc61399fe4cdc4e964da0a51566af2daa802dd166:0",
@@ -43123,11 +43151,11 @@
           "tier": "Moderate",
           "entry_price": 0.0255,
           "whale_direction": "Paula Badosa",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Antonia Ruzic",
+          "resolved_date": "2026-10-26",
           "end_date": "2026-10-26",
           "total_value_usd": 22965.61,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xabf104699d61eacd165be2c1fd9020f243aea9698d9e287cb22af6f4d9c133fb:0",
@@ -43137,10 +43165,24 @@
           "tier": "Moderate",
           "entry_price": 0.0255,
           "whale_direction": "Yulia Putintseva",
+          "resolved_outcome": "Diana Shnaider",
+          "resolved_date": "2026-10-27",
+          "end_date": "2026-10-27",
+          "total_value_usd": 17000.13,
+          "result": "correct"
+        },
+        {
+          "signal_key": "0x1b150843b335473a857cec289132af2217c9c4d496f8ac349ea99ebb8965fb4e:1",
+          "condition_id": "0x1b150843b335473a857cec289132af2217c9c4d496f8ac349ea99ebb8965fb4e",
+          "title": "European Open: Botic van de Zandschulp vs Clement Chidekh",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0265,
+          "whale_direction": "Clement Chidekh",
           "resolved_outcome": null,
           "resolved_date": null,
           "end_date": "2026-10-27",
-          "total_value_usd": 17000.13,
+          "total_value_usd": 19653.25,
           "result": "pending"
         }
       ]
