@@ -389128,5 +389128,155 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-10-21T18:04:25+00:00",
+    "whale_timeframes": {
+      "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0d6a1ada6d7ff785ab4b7263d9ce8e2baa85aa98": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9f2fe025f84839ca81dd8e0338892605702d2ca8": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x285faa3e3d1465cf3ff1bff1e1d14891f5b8495f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe5b70fd855af9258d9463992e4f1ed7987905ee3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb9c7d35d1f04d08624fabcfd3b6cee2d3c9baade": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f1d5ae26fc31472966e951af3183308736d8de2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1465b79bff7992bc703e1aafb3683b1089647072": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x27f738fe203827445690339104aae35b20bc44b0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x20d6436849f930584892730c7f96ebb2ac763856": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe7870d0e1bfc65a23e3d66caf00ca1b9129e5034": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x918b42a06ff25eaaa4a79eca9da6a9de46f4ea63": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x93683d55f0ea67212bc179e9802f00e271c9f390": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd84d7f9262516865553555751609fb6f52abec6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5e6e2c3f06686f2607b86c90e35f536e81a1be00": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0xd81f943a9320a9c7dc83ebcf3d40d14025f1a6364478d2608353d4d60240228f:0",
+        "condition_id": "0xd81f943a9320a9c7dc83ebcf3d40d14025f1a6364478d2608353d4d60240228f",
+        "title": "Lyon Open: Moise Kouame vs Lorenzo Musetti",
+        "outcome": "Moise Kouame",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xe7870d0e1bfc65a23e3d66caf00ca1b9129e5034",
+          "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7"
+        ],
+        "ranks": [
+          5,
+          13,
+          17
+        ],
+        "total_value_usd": 6697.55,
+        "score": 5.1762,
+        "category": "Tennis",
+        "end_date": "2026-10-28",
+        "entry_price": 0.0275
+      }
+    ]
   }
 ]
