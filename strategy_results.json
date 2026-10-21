@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-21T18:17:22+00:00",
+  "generated_at": "2026-10-21T21:52:55+00:00",
   "total_evaluated": 1475,
-  "total_pending": 71,
+  "total_pending": 69,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 1475,
-      "correct": 875,
-      "wrong": 529,
-      "pending": 71,
+      "correct": 876,
+      "wrong": 530,
+      "pending": 69,
       "win_rate": 62.3,
       "signals": [
         {
@@ -18025,11 +18025,11 @@
           "tier": "Weak",
           "entry_price": 0.0445,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-10-21",
           "end_date": "2026-10-21",
           "total_value_usd": 20083.6,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x8eee18eeea3f5bb9778240b1b41a383b22a51b2edd5004ac25735346100a7370:0",
@@ -20657,11 +20657,11 @@
           "tier": "Moderate",
           "entry_price": 0.0275,
           "whale_direction": "Moise Kouame",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lorenzo Musetti",
+          "resolved_date": "2026-10-28",
           "end_date": "2026-10-28",
           "total_value_usd": 6697.55,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
@@ -20670,10 +20670,10 @@
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 805,
-      "correct": 468,
-      "wrong": 285,
-      "pending": 52,
-      "win_rate": 62.2,
+      "correct": 469,
+      "wrong": 286,
+      "pending": 50,
+      "win_rate": 62.1,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -29307,11 +29307,11 @@
           "tier": "Weak",
           "entry_price": 0.0445,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-10-21",
           "end_date": "2026-10-21",
           "total_value_usd": 20083.6,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x8eee18eeea3f5bb9778240b1b41a383b22a51b2edd5004ac25735346100a7370:0",
@@ -31939,11 +31939,11 @@
           "tier": "Moderate",
           "entry_price": 0.0275,
           "whale_direction": "Moise Kouame",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lorenzo Musetti",
+          "resolved_date": "2026-10-28",
           "end_date": "2026-10-28",
           "total_value_usd": 6697.55,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
@@ -31952,10 +31952,10 @@
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 805,
-      "correct": 285,
-      "wrong": 468,
-      "pending": 52,
-      "win_rate": 37.8,
+      "correct": 286,
+      "wrong": 469,
+      "pending": 50,
+      "win_rate": 37.9,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -40589,11 +40589,11 @@
           "tier": "Weak",
           "entry_price": 0.0445,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-10-21",
           "end_date": "2026-10-21",
           "total_value_usd": 20083.6,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x8eee18eeea3f5bb9778240b1b41a383b22a51b2edd5004ac25735346100a7370:0",
@@ -43221,11 +43221,11 @@
           "tier": "Moderate",
           "entry_price": 0.0275,
           "whale_direction": "Moise Kouame",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Lorenzo Musetti",
+          "resolved_date": "2026-10-28",
           "end_date": "2026-10-28",
           "total_value_usd": 6697.55,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
