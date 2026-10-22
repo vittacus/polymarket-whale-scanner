@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-22T09:58:30+00:00",
+  "generated_at": "2026-10-22T14:59:48+00:00",
   "total_signals": 1477,
-  "total_resolved": 1406,
-  "total_correct": 876,
+  "total_resolved": 1407,
+  "total_correct": 877,
   "overall_hit_rate": 62.3,
   "by_tier": {
     "Strong": {
       "total": 640,
-      "resolved": 612,
-      "correct": 387,
-      "hit_rate": 63.2
+      "resolved": 613,
+      "correct": 388,
+      "hit_rate": 63.3
     },
     "Moderate": {
       "total": 759,
@@ -25129,10 +25129,10 @@
       "total_value_usd": 68946.12,
       "entry_price": 0.0255,
       "end_date": "2026-10-29",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Terence Atmane",
+      "resolved_date": "2026-10-29"
     }
   ]
 }
