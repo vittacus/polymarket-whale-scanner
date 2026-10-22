@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-22T05:02:53+00:00",
-  "total_signals": 1475,
+  "generated_at": "2026-10-22T09:58:30+00:00",
+  "total_signals": 1477,
   "total_resolved": 1406,
   "total_correct": 876,
   "overall_hit_rate": 62.3,
   "by_tier": {
     "Strong": {
-      "total": 638,
+      "total": 640,
       "resolved": 612,
       "correct": 387,
       "hit_rate": 63.2
@@ -25099,6 +25099,40 @@
       "correct": false,
       "resolved_outcome": "Lorenzo Musetti",
       "resolved_date": "2026-10-28"
+    },
+    {
+      "signal_key": "0xd5d9fc47718bd553592d126b1fa5e87183d27f3936975b0c04cc0f2dec1f1bb4:1",
+      "condition_id": "0xd5d9fc47718bd553592d126b1fa5e87183d27f3936975b0c04cc0f2dec1f1bb4",
+      "title": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+      "category": "Parent For Derivative",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Strong",
+      "score": 24.9678,
+      "total_value_usd": 96706.56,
+      "entry_price": 0.0255,
+      "end_date": "2026-11-04",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x4aa4952b25c75717516e531555fba4c7487c378d68079a9f70f7b14f956865c2:0",
+      "condition_id": "0x4aa4952b25c75717516e531555fba4c7487c378d68079a9f70f7b14f956865c2",
+      "title": "Almaty Open: Terence Atmane vs Mattia Bellucci",
+      "category": "Tennis",
+      "whale_direction": "Terence Atmane",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 14.1585,
+      "total_value_usd": 68946.12,
+      "entry_price": 0.0255,
+      "end_date": "2026-10-29",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
