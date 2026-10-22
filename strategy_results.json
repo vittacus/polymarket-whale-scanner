@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-22T14:59:48+00:00",
-  "total_evaluated": 1477,
-  "total_pending": 70,
+  "generated_at": "2026-10-22T19:12:14+00:00",
+  "total_evaluated": 1478,
+  "total_pending": 71,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1477,
+      "signals_evaluated": 1478,
       "correct": 877,
       "wrong": 530,
-      "pending": 70,
+      "pending": 71,
       "win_rate": 62.3,
       "signals": [
         {
@@ -20690,6 +20690,20 @@
           "end_date": "2026-10-29",
           "total_value_usd": 68946.12,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x427e2c9ed5ceaeb8d41055a41a7b50fb8698f00de995968ff9f5db7a1f2c2a8a:0",
+          "condition_id": "0x427e2c9ed5ceaeb8d41055a41a7b50fb8698f00de995968ff9f5db7a1f2c2a8a",
+          "title": "Lyon Open: Kyrian Jacquet vs Brandon Nakashima",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0265,
+          "whale_direction": "Kyrian Jacquet",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-29",
+          "total_value_usd": 13335.02,
+          "result": "pending"
         }
       ]
     },
@@ -20697,10 +20711,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 807,
+      "signals_evaluated": 808,
       "correct": 470,
       "wrong": 286,
-      "pending": 51,
+      "pending": 52,
       "win_rate": 62.2,
       "signals": [
         {
@@ -32000,6 +32014,20 @@
           "end_date": "2026-10-29",
           "total_value_usd": 68946.12,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x427e2c9ed5ceaeb8d41055a41a7b50fb8698f00de995968ff9f5db7a1f2c2a8a:0",
+          "condition_id": "0x427e2c9ed5ceaeb8d41055a41a7b50fb8698f00de995968ff9f5db7a1f2c2a8a",
+          "title": "Lyon Open: Kyrian Jacquet vs Brandon Nakashima",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0265,
+          "whale_direction": "Kyrian Jacquet",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-29",
+          "total_value_usd": 13335.02,
+          "result": "pending"
         }
       ]
     },
@@ -32007,10 +32035,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 807,
+      "signals_evaluated": 808,
       "correct": 286,
       "wrong": 470,
-      "pending": 51,
+      "pending": 52,
       "win_rate": 37.8,
       "signals": [
         {
@@ -43310,6 +43338,20 @@
           "end_date": "2026-10-29",
           "total_value_usd": 68946.12,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x427e2c9ed5ceaeb8d41055a41a7b50fb8698f00de995968ff9f5db7a1f2c2a8a:0",
+          "condition_id": "0x427e2c9ed5ceaeb8d41055a41a7b50fb8698f00de995968ff9f5db7a1f2c2a8a",
+          "title": "Lyon Open: Kyrian Jacquet vs Brandon Nakashima",
+          "category": "Tennis",
+          "tier": "Moderate",
+          "entry_price": 0.0265,
+          "whale_direction": "Kyrian Jacquet",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-10-29",
+          "total_value_usd": 13335.02,
+          "result": "pending"
         }
       ]
     },

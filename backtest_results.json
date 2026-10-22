@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T14:59:48+00:00",
-  "total_signals": 1477,
+  "generated_at": "2026-10-22T19:12:14+00:00",
+  "total_signals": 1478,
   "total_resolved": 1407,
   "total_correct": 877,
   "overall_hit_rate": 62.3,
@@ -12,7 +12,7 @@
       "hit_rate": 63.3
     },
     "Moderate": {
-      "total": 759,
+      "total": 760,
       "resolved": 722,
       "correct": 447,
       "hit_rate": 61.9
@@ -25133,6 +25133,23 @@
       "correct": true,
       "resolved_outcome": "Terence Atmane",
       "resolved_date": "2026-10-29"
+    },
+    {
+      "signal_key": "0x427e2c9ed5ceaeb8d41055a41a7b50fb8698f00de995968ff9f5db7a1f2c2a8a:0",
+      "condition_id": "0x427e2c9ed5ceaeb8d41055a41a7b50fb8698f00de995968ff9f5db7a1f2c2a8a",
+      "title": "Lyon Open: Kyrian Jacquet vs Brandon Nakashima",
+      "category": "Tennis",
+      "whale_direction": "Kyrian Jacquet",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 8.8056,
+      "total_value_usd": 13335.02,
+      "entry_price": 0.0265,
+      "end_date": "2026-10-29",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
