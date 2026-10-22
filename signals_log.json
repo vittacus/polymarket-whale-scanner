@@ -389530,5 +389530,155 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-10-22T04:50:05+00:00",
+    "whale_timeframes": {
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd84d7f9262516865553555751609fb6f52abec6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9f15613ebf1f36d4bc679e1211d1fc567cf9bdb3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9703676286b93c2eca71ca96e8757104519a69c2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe9b710551dd82a44e79203c2394a2b10163ace7b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9052a5f2324b8efa264a2a37e942770284143c2d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfea31bc088000ff909be1dfd8d0e3f2c7ef2d227": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2879ded7fe05df00eddbb2fba412a0d30964411a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x91e67d77b45558ce69238bf8a79e2e902b1ee9c5": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfb07f48542d2b655e9d0bf1cc92a8a6feee8e2cc": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2759769cd371bee44ec5bfc5e72c7f1f092b2b38": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x4e4f77e7dbf4cab666e9a1943674d7ae66348e862df03ea6f44b11eb95731928:0",
+        "condition_id": "0x4e4f77e7dbf4cab666e9a1943674d7ae66348e862df03ea6f44b11eb95731928",
+        "title": "Will the Republican Party control the House after the 2026 Midterm elections?",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+          "0x9703676286b93c2eca71ca96e8757104519a69c2",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e"
+        ],
+        "ranks": [
+          1,
+          8,
+          14
+        ],
+        "total_value_usd": 9615.63,
+        "score": 19.2023,
+        "category": "Parent For Derivative",
+        "end_date": "2026-11-04",
+        "entry_price": 0.51
+      }
+    ]
   }
 ]
