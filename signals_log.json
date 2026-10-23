@@ -390819,5 +390819,203 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-10-23T15:27:47+00:00",
+    "whale_timeframes": {
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x57a85952044f2c8e4d31b475aab6987d2f98ebc2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf4c95b636c71243531dfc82a97565a94c106f88c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x285faa3e3d1465cf3ff1bff1e1d14891f5b8495f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb4f978be63cdf75554b0b46a4262a6db597cc9a7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xcd84d7f9262516865553555751609fb6f52abec6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5f39816a09e0e460e775f4a386b46336847a24e4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa71093cafc0c099b4ccab24c3cb8018d817923c4": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x85f031d069de300055900c4055c1baeb6bde3f67": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf28e42d20e4826f2b10a24bc952001697947cab2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe7870d0e1bfc65a23e3d66caf00ca1b9129e5034": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x796fc6fda8f8e03c03e2a2d012155989960300f6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x79ae097215202b5d01f98e4479fb219102469a4a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x84ec4b5b2dbf75d07041b7b89f0a82647e3a72c1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x10a6fadcbacd66330862206f6199b197e3ad4d8b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x20292bdf3f8c63b70db663ae5ca2715ca5a96dedb3c0a05c05d21f72640f3260:0",
+        "condition_id": "0x20292bdf3f8c63b70db663ae5ca2715ca5a96dedb3c0a05c05d21f72640f3260",
+        "title": "Lisbon: Elmer Moeller vs Henrique Rocha",
+        "outcome": "Elmer Moeller",
+        "outcome_index": 0,
+        "whale_count": 4,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x796fc6fda8f8e03c03e2a2d012155989960300f6"
+        ],
+        "ranks": [
+          4,
+          7,
+          14,
+          17
+        ],
+        "total_value_usd": 36080.13,
+        "score": 9.6062,
+        "category": "Tennis",
+        "end_date": "2026-10-30",
+        "entry_price": 0.0265
+      },
+      {
+        "signal_key": "0xb053a82af4529781662a5e53ff37ca1e8df97c9d01badf85c100453a017f3517:1",
+        "condition_id": "0xb053a82af4529781662a5e53ff37ca1e8df97c9d01badf85c100453a017f3517",
+        "title": "Almaty Open: Alexander Bublik vs Karen Khachanov",
+        "outcome": "Karen Khachanov",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+          "0x796fc6fda8f8e03c03e2a2d012155989960300f6"
+        ],
+        "ranks": [
+          4,
+          12,
+          17
+        ],
+        "total_value_usd": 33311.77,
+        "score": 7.1467,
+        "category": "Tennis",
+        "end_date": "2026-10-30",
+        "entry_price": 0.0265
+      },
+      {
+        "signal_key": "0x4c85551adaee3c390ce909887210afef62ce0bea8b66d65d325bb1c309c122f0:1",
+        "condition_id": "0x4c85551adaee3c390ce909887210afef62ce0bea8b66d65d325bb1c309c122f0",
+        "title": "Florence: Francesco Forti vs Oriol Roca Batalla",
+        "outcome": "Oriol Roca Batalla",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+          "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+          "0x796fc6fda8f8e03c03e2a2d012155989960300f6"
+        ],
+        "ranks": [
+          4,
+          14,
+          17
+        ],
+        "total_value_usd": 19565.77,
+        "score": 6.5756,
+        "category": "Tennis",
+        "end_date": "2026-10-30",
+        "entry_price": 0.0265
+      }
+    ]
   }
 ]
