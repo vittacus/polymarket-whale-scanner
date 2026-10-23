@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-23T19:40:15+00:00",
-  "total_signals": 1484,
-  "total_resolved": 1410,
-  "total_correct": 878,
+  "generated_at": "2026-10-23T22:42:48+00:00",
+  "total_signals": 1485,
+  "total_resolved": 1411,
+  "total_correct": 879,
   "overall_hit_rate": 62.3,
   "by_tier": {
     "Strong": {
       "total": 642,
-      "resolved": 613,
-      "correct": 388,
-      "hit_rate": 63.3
+      "resolved": 614,
+      "correct": 389,
+      "hit_rate": 63.4
     },
     "Moderate": {
-      "total": 764,
+      "total": 765,
       "resolved": 725,
       "correct": 448,
       "hit_rate": 61.8
@@ -25246,6 +25246,23 @@
       "tier": "Strong",
       "score": 10.3106,
       "total_value_usd": 92828.21,
+      "entry_price": 0.0265,
+      "end_date": "2026-10-30",
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Flavio Cobolli",
+      "resolved_date": "2026-10-30"
+    },
+    {
+      "signal_key": "0x02b95f54169144201324d43089a7fe7ba6b42268f7ce0acb5cbe9ab7a31d7313:0",
+      "condition_id": "0x02b95f54169144201324d43089a7fe7ba6b42268f7ce0acb5cbe9ab7a31d7313",
+      "title": "Lyon Open: Luca Van Assche vs Lorenzo Musetti",
+      "category": "Tennis",
+      "whale_direction": "Luca Van Assche",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 5.3696,
+      "total_value_usd": 49660.47,
       "entry_price": 0.0265,
       "end_date": "2026-10-30",
       "resolved": false,
