@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-23T15:40:36+00:00",
-  "total_signals": 1482,
-  "total_resolved": 1408,
-  "total_correct": 877,
+  "generated_at": "2026-10-23T19:40:15+00:00",
+  "total_signals": 1484,
+  "total_resolved": 1410,
+  "total_correct": 878,
   "overall_hit_rate": 62.3,
   "by_tier": {
     "Strong": {
-      "total": 640,
+      "total": 642,
       "resolved": 613,
       "correct": 388,
       "hit_rate": 63.3
     },
     "Moderate": {
       "total": 764,
-      "resolved": 723,
-      "correct": 447,
+      "resolved": 725,
+      "correct": 448,
       "hit_rate": 61.8
     },
     "Weak": {
@@ -25180,10 +25180,10 @@
       "total_value_usd": 36080.13,
       "entry_price": 0.0265,
       "end_date": "2026-10-30",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Elmer Moeller",
+      "resolved_date": "2026-10-30"
     },
     {
       "signal_key": "0xb053a82af4529781662a5e53ff37ca1e8df97c9d01badf85c100453a017f3517:1",
@@ -25197,10 +25197,10 @@
       "total_value_usd": 33311.77,
       "entry_price": 0.0265,
       "end_date": "2026-10-30",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Alexander Bublik",
+      "resolved_date": "2026-10-30"
     },
     {
       "signal_key": "0x4c85551adaee3c390ce909887210afef62ce0bea8b66d65d325bb1c309c122f0:1",
@@ -25212,6 +25212,40 @@
       "tier": "Moderate",
       "score": 6.5756,
       "total_value_usd": 19565.77,
+      "entry_price": 0.0265,
+      "end_date": "2026-10-30",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0xc5f590356b401a3d7b259437fcc9257889534b2846a8179b74cb0ab253f3ac2b:0",
+      "condition_id": "0xc5f590356b401a3d7b259437fcc9257889534b2846a8179b74cb0ab253f3ac2b",
+      "title": "Bengals vs. Ravens",
+      "category": "NFL (All)",
+      "whale_direction": "Bengals",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 10.7574,
+      "total_value_usd": 12796.84,
+      "entry_price": 0.0265,
+      "end_date": "2026-10-25",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x2c5807fff386f8814399576284c4d4906c8c78f388353dcdb118353d9bac1ebd:0",
+      "condition_id": "0x2c5807fff386f8814399576284c4d4906c8c78f388353dcdb118353d9bac1ebd",
+      "title": "Lyon Open: Flavio Cobolli vs Brandon Nakashima",
+      "category": "Tennis",
+      "whale_direction": "Flavio Cobolli",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 10.3106,
+      "total_value_usd": 92828.21,
       "entry_price": 0.0265,
       "end_date": "2026-10-30",
       "resolved": false,
