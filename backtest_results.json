@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-23T22:42:48+00:00",
-  "total_signals": 1485,
-  "total_resolved": 1411,
+  "generated_at": "2026-10-24T01:11:23+00:00",
+  "total_signals": 1486,
+  "total_resolved": 1412,
   "total_correct": 879,
   "overall_hit_rate": 62.3,
   "by_tier": {
     "Strong": {
-      "total": 642,
+      "total": 643,
       "resolved": 614,
       "correct": 389,
       "hit_rate": 63.4
     },
     "Moderate": {
       "total": 765,
-      "resolved": 725,
+      "resolved": 726,
       "correct": 448,
-      "hit_rate": 61.8
+      "hit_rate": 61.7
     },
     "Weak": {
       "total": 78,
@@ -25265,6 +25265,23 @@
       "total_value_usd": 49660.47,
       "entry_price": 0.0265,
       "end_date": "2026-10-30",
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Lorenzo Musetti",
+      "resolved_date": "2026-10-30"
+    },
+    {
+      "signal_key": "0xcf6e911182be62ab1fc431dea052e1b357a5e528140c48d3f835a631ddc2918e:0",
+      "condition_id": "0xcf6e911182be62ab1fc431dea052e1b357a5e528140c48d3f835a631ddc2918e",
+      "title": "Tampa Bay Rays vs. Milwaukee Brewers",
+      "category": "MLB",
+      "whale_direction": "Tampa Bay Rays",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 11.8048,
+      "total_value_usd": 19371.25,
+      "entry_price": 0.0265,
+      "end_date": "2026-10-31",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
