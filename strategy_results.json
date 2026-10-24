@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-24T01:11:23+00:00",
+  "generated_at": "2026-10-24T05:42:45+00:00",
   "total_evaluated": 1486,
-  "total_pending": 74,
+  "total_pending": 72,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 1486,
-      "correct": 879,
-      "wrong": 533,
-      "pending": 74,
-      "win_rate": 62.3,
+      "correct": 880,
+      "wrong": 534,
+      "pending": 72,
+      "win_rate": 62.2,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -20713,11 +20713,11 @@
           "tier": "Moderate",
           "entry_price": 0.0265,
           "whale_direction": "Milwaukee Brewers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-10-31",
           "end_date": "2026-10-31",
           "total_value_usd": 33444.24,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x20292bdf3f8c63b70db663ae5ca2715ca5a96dedb3c0a05c05d21f72640f3260:0",
@@ -20811,11 +20811,11 @@
           "tier": "Strong",
           "entry_price": 0.0265,
           "whale_direction": "Tampa Bay Rays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-10-31",
           "end_date": "2026-10-31",
           "total_value_usd": 19371.25,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
@@ -20824,9 +20824,9 @@
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 816,
-      "correct": 472,
-      "wrong": 289,
-      "pending": 55,
+      "correct": 473,
+      "wrong": 290,
+      "pending": 53,
       "win_rate": 62.0,
       "signals": [
         {
@@ -32149,11 +32149,11 @@
           "tier": "Moderate",
           "entry_price": 0.0265,
           "whale_direction": "Milwaukee Brewers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-10-31",
           "end_date": "2026-10-31",
           "total_value_usd": 33444.24,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x20292bdf3f8c63b70db663ae5ca2715ca5a96dedb3c0a05c05d21f72640f3260:0",
@@ -32247,11 +32247,11 @@
           "tier": "Strong",
           "entry_price": 0.0265,
           "whale_direction": "Tampa Bay Rays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-10-31",
           "end_date": "2026-10-31",
           "total_value_usd": 19371.25,
-          "result": "pending"
+          "result": "wrong"
         }
       ]
     },
@@ -32260,9 +32260,9 @@
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 816,
-      "correct": 289,
-      "wrong": 472,
-      "pending": 55,
+      "correct": 290,
+      "wrong": 473,
+      "pending": 53,
       "win_rate": 38.0,
       "signals": [
         {
@@ -43585,11 +43585,11 @@
           "tier": "Moderate",
           "entry_price": 0.0265,
           "whale_direction": "Milwaukee Brewers",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-10-31",
           "end_date": "2026-10-31",
           "total_value_usd": 33444.24,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x20292bdf3f8c63b70db663ae5ca2715ca5a96dedb3c0a05c05d21f72640f3260:0",
@@ -43683,11 +43683,11 @@
           "tier": "Strong",
           "entry_price": 0.0265,
           "whale_direction": "Tampa Bay Rays",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Milwaukee Brewers",
+          "resolved_date": "2026-10-31",
           "end_date": "2026-10-31",
           "total_value_usd": 19371.25,
-          "result": "pending"
+          "result": "correct"
         }
       ]
     },
