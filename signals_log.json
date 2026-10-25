@@ -392399,5 +392399,155 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-10-25T03:03:55+00:00",
+    "whale_timeframes": {
+      "0x57a85952044f2c8e4d31b475aab6987d2f98ebc2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe5b70fd855af9258d9463992e4f1ed7987905ee3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdc41c39b95453c943174f369926018f6963bdd7e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9b89ef1f344d3e17b37ccdff3bccf62d04f04244": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb7271c112cbd83eb4c1ef1b554ff963604ae2a9d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x602785cdf56a03221130d3d42a577ac6cf444320": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb9c7d35d1f04d08624fabcfd3b6cee2d3c9baade": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x64ceab3becc143e1b97a8e16dc270c2297566015": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc69bd5567b40ef4d11922eaa57e1f9be1c642076": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2b5920274740ca61745eeb077587bf5bb4ff9db6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x8a8685a792c184e5c2ee8c7d4d4baba7c2c94998": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x285faa3e3d1465cf3ff1bff1e1d14891f5b8495f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x511f9c771449162349795d17becf8b37031acbe1": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbfd40a4fcb43d80eb4fb425f75d4fa090c61526f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7e3a1f95c558f39a51ff334d789e3e039b553246": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe1787252abc9db4d5bfac51c253a68e0162ffe19": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe18ecc345e00ee7c4f2d1f676f3dd2acb112f826": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x75d422c9dfcf2a2f66840bea4576b307714dec6e88675d4a50abe026ce7f3871:0",
+        "condition_id": "0x75d422c9dfcf2a2f66840bea4576b307714dec6e88675d4a50abe026ce7f3871",
+        "title": "Tampa Bay Rays vs. Milwaukee Brewers",
+        "outcome": "Tampa Bay Rays",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xdc41c39b95453c943174f369926018f6963bdd7e",
+          "0x9b89ef1f344d3e17b37ccdff3bccf62d04f04244",
+          "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7"
+        ],
+        "ranks": [
+          4,
+          5,
+          16
+        ],
+        "total_value_usd": 19792.41,
+        "score": 8.8729,
+        "category": "MLB",
+        "end_date": "2026-11-01",
+        "entry_price": 0.0325
+      }
+    ]
   }
 ]

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-25T00:08:41+00:00",
-  "total_signals": 1486,
+  "generated_at": "2026-10-25T03:16:54+00:00",
+  "total_signals": 1487,
   "total_resolved": 1415,
   "total_correct": 881,
   "overall_hit_rate": 62.3,
@@ -12,7 +12,7 @@
       "hit_rate": 63.3
     },
     "Moderate": {
-      "total": 765,
+      "total": 766,
       "resolved": 728,
       "correct": 450,
       "hit_rate": 61.8
@@ -25286,6 +25286,23 @@
       "correct": false,
       "resolved_outcome": "Milwaukee Brewers",
       "resolved_date": "2026-10-31"
+    },
+    {
+      "signal_key": "0x75d422c9dfcf2a2f66840bea4576b307714dec6e88675d4a50abe026ce7f3871:0",
+      "condition_id": "0x75d422c9dfcf2a2f66840bea4576b307714dec6e88675d4a50abe026ce7f3871",
+      "title": "Tampa Bay Rays vs. Milwaukee Brewers",
+      "category": "MLB",
+      "whale_direction": "Tampa Bay Rays",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 8.8729,
+      "total_value_usd": 19792.41,
+      "entry_price": 0.0325,
+      "end_date": "2026-11-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
