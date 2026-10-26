@@ -393753,5 +393753,155 @@
       ]
     },
     "signals": []
+  },
+  {
+    "timestamp": "2026-10-26T21:43:59+00:00",
+    "whale_timeframes": {
+      "0xe9b710551dd82a44e79203c2394a2b10163ace7b": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4f1d5ae26fc31472966e951af3183308736d8de2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf4c95b636c71243531dfc82a97565a94c106f88c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xb0e74df9430a089aa102e2207af5fde1967439d2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x1f3a646ce5cbe2c70270e7a46161d89b7c7b895d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x67542c3219b37fd1610aad290676ff91cdbfe3bc": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x684baa57c338c2549aec0aa3f034f695d72a8409": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x85f031d069de300055900c4055c1baeb6bde3f67": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xbc43c8bfbc4d77c2fc9011adad38ba43b88996d3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdaef2be2a19ad331737d06545f85615b094554e9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe221be3b45dfe5ed562ee9dc16f47205728e06f6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfd557e6db670c9704bc1d0d8e8b585c7d9c9f905": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2b2dbd6524cd314a9b1651ec46f7bb1dfa461031": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x79ae097215202b5d01f98e4479fb219102469a4a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0a39b3b29ab3b7dd753aa96fde4ecab3f2dbb0b9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2005d16a84ceefa912d4e380cd32e7ff827875ea": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x86bfb53af7250a40928975c551d12c185b762fa4ce0b40c6a64a50c946d72587:1",
+        "condition_id": "0x86bfb53af7250a40928975c551d12c185b762fa4ce0b40c6a64a50c946d72587",
+        "title": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0x4f1d5ae26fc31472966e951af3183308736d8de2",
+          "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+          "0xdaef2be2a19ad331737d06545f85615b094554e9"
+        ],
+        "ranks": [
+          2,
+          11,
+          12
+        ],
+        "total_value_usd": 47383.8,
+        "score": 12.7031,
+        "category": "Senate",
+        "end_date": "2026-11-04",
+        "entry_price": 0.0285
+      }
+    ]
   }
 ]
