@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-25T22:13:15+00:00",
-  "total_signals": 1487,
+  "generated_at": "2026-10-26T00:31:43+00:00",
+  "total_signals": 1489,
   "total_resolved": 1417,
   "total_correct": 882,
   "overall_hit_rate": 62.2,
@@ -12,7 +12,7 @@
       "hit_rate": 63.3
     },
     "Moderate": {
-      "total": 766,
+      "total": 768,
       "resolved": 729,
       "correct": 450,
       "hit_rate": 61.7
@@ -25303,6 +25303,40 @@
       "correct": false,
       "resolved_outcome": "Milwaukee Brewers",
       "resolved_date": "2026-11-01"
+    },
+    {
+      "signal_key": "0x998bc71817b2d76921d1999ce0f3431cfd5945583667a371280ca2b430b0c06e:0",
+      "condition_id": "0x998bc71817b2d76921d1999ce0f3431cfd5945583667a371280ca2b430b0c06e",
+      "title": "2026 Balance of Power: R Senate, D House",
+      "category": "United States",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 6.2391,
+      "total_value_usd": 88358.58,
+      "entry_price": 0.0285,
+      "end_date": "2026-11-04",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x34918035a590555ba1fb1d6a019d766ab6e557d63e7f3140b63b4550eee7f417:0",
+      "condition_id": "0x34918035a590555ba1fb1d6a019d766ab6e557d63e7f3140b63b4550eee7f417",
+      "title": "Will the Democrats win the Texas Senate race in 2026?",
+      "category": "Texas Senate",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 4.6491,
+      "total_value_usd": 30266.95,
+      "entry_price": 0.0285,
+      "end_date": "2026-11-04",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }
