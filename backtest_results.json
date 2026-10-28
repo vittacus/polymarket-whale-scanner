@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-28T18:47:32+00:00",
-  "total_signals": 1490,
-  "total_resolved": 1421,
-  "total_correct": 884,
+  "generated_at": "2026-10-28T23:03:48+00:00",
+  "total_signals": 1491,
+  "total_resolved": 1424,
+  "total_correct": 886,
   "overall_hit_rate": 62.2,
   "by_tier": {
     "Strong": {
       "total": 644,
-      "resolved": 617,
-      "correct": 390,
+      "resolved": 619,
+      "correct": 391,
       "hit_rate": 63.2
     },
     "Moderate": {
-      "total": 768,
-      "resolved": 731,
-      "correct": 452,
-      "hit_rate": 61.8
+      "total": 769,
+      "resolved": 732,
+      "correct": 453,
+      "hit_rate": 61.9
     },
     "Weak": {
       "total": 78,
@@ -20437,10 +20437,10 @@
       "total_value_usd": 14703.42,
       "entry_price": 0.0395,
       "end_date": "2026-10-28",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-10-29"
     },
     {
       "signal_key": "0xb40b0cd531184a1e436d23ca898e1590418187b116f387158753d1adb9853e47:0",
@@ -24653,10 +24653,10 @@
       "total_value_usd": 623673.27,
       "entry_price": 0.0285,
       "end_date": "2026-10-29",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-10-29"
     },
     {
       "signal_key": "0x75ee71f41c90708fd891f13384bf563016523828c13fe64a268169c5bf68e062:0",
@@ -24687,10 +24687,10 @@
       "total_value_usd": 33263.32,
       "entry_price": 0.0285,
       "end_date": "2026-10-29",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-10-29"
     },
     {
       "signal_key": "0xebd27b2a70d87186c2342f8dd5c5895c06180c3830ac19184990f83faf328c4c:0",
@@ -25350,6 +25350,23 @@
       "total_value_usd": 16645.74,
       "entry_price": 0.0425,
       "end_date": "2027-07-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x81d2499991ba8ab9fdac6c8db06573b3da6dc562075b6304453964ab033d2523:1",
+      "condition_id": "0x81d2499991ba8ab9fdac6c8db06573b3da6dc562075b6304453964ab033d2523",
+      "title": "Milwaukee Brewers vs. Tampa Bay Rays",
+      "category": "MLB",
+      "whale_direction": "Tampa Bay Rays",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 9.8063,
+      "total_value_usd": 39242.07,
+      "entry_price": 0.0345,
+      "end_date": "2026-11-05",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
