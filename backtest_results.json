@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-28T00:41:09+00:00",
-  "total_signals": 1489,
+  "generated_at": "2026-10-28T06:20:20+00:00",
+  "total_signals": 1490,
   "total_resolved": 1421,
   "total_correct": 884,
   "overall_hit_rate": 62.2,
   "by_tier": {
     "Strong": {
-      "total": 643,
+      "total": 644,
       "resolved": 617,
       "correct": 390,
       "hit_rate": 63.2
@@ -25333,6 +25333,23 @@
       "total_value_usd": 30266.95,
       "entry_price": 0.0285,
       "end_date": "2026-11-04",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x422b44717de3606ba08c2e00503d29e8330583b00b0bed63f89772b9c384e41f:0",
+      "condition_id": "0x422b44717de3606ba08c2e00503d29e8330583b00b0bed63f89772b9c384e41f",
+      "title": "Will Oklahoma City Thunder win the 2027 NBA Finals?",
+      "category": "NBA Finals",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 10.854,
+      "total_value_usd": 16645.74,
+      "entry_price": 0.0425,
+      "end_date": "2027-07-01",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
