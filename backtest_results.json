@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-30T11:51:31+00:00",
+  "generated_at": "2026-10-30T17:22:55+00:00",
   "total_signals": 1499,
-  "total_resolved": 1427,
-  "total_correct": 888,
-  "overall_hit_rate": 62.2,
+  "total_resolved": 1428,
+  "total_correct": 889,
+  "overall_hit_rate": 62.3,
   "by_tier": {
     "Strong": {
       "total": 647,
-      "resolved": 621,
-      "correct": 393,
+      "resolved": 622,
+      "correct": 394,
       "hit_rate": 63.3
     },
     "Moderate": {
@@ -25503,10 +25503,10 @@
       "total_value_usd": 31076.36,
       "entry_price": 0.0295,
       "end_date": "2026-11-06",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Xinran Sun",
+      "resolved_date": "2026-11-06"
     }
   ]
 }
