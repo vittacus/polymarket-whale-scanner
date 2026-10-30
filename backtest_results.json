@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-29T20:35:34+00:00",
-  "total_signals": 1492,
-  "total_resolved": 1426,
-  "total_correct": 887,
+  "generated_at": "2026-10-30T00:14:34+00:00",
+  "total_signals": 1497,
+  "total_resolved": 1427,
+  "total_correct": 888,
   "overall_hit_rate": 62.2,
   "by_tier": {
     "Strong": {
       "total": 645,
-      "resolved": 620,
-      "correct": 392,
-      "hit_rate": 63.2
+      "resolved": 621,
+      "correct": 393,
+      "hit_rate": 63.3
     },
     "Moderate": {
-      "total": 769,
+      "total": 774,
       "resolved": 733,
       "correct": 453,
       "hit_rate": 61.8
@@ -24211,10 +24211,10 @@
       "total_value_usd": 773759.75,
       "entry_price": 0.0265,
       "end_date": "2027-01-01",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2027-01-01"
     },
     {
       "signal_key": "0x42945ea5657d6f6e77969a06661b29d6f6295083d1ef3479b42efd90647c9dfc:1",
@@ -25388,6 +25388,91 @@
       "correct": true,
       "resolved_outcome": "Milwaukee Brewers",
       "resolved_date": "2026-11-05"
+    },
+    {
+      "signal_key": "0x766996108017c3b6452c23db79ab1c714d8d9d9da846a4c316f5e047754a229d:1",
+      "condition_id": "0x766996108017c3b6452c23db79ab1c714d8d9d9da846a4c316f5e047754a229d",
+      "title": "Will Ethereum dip to $1,250 by December 31, 2026?",
+      "category": "Ethereum",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 6.1727,
+      "total_value_usd": 118498.76,
+      "entry_price": 0.0285,
+      "end_date": "2027-01-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x4498837aed920b74352dd0abaf37d8b47498057d89896718a071c1a88f33c6fb:1",
+      "condition_id": "0x4498837aed920b74352dd0abaf37d8b47498057d89896718a071c1a88f33c6fb",
+      "title": "Will Ethereum reach $2,600 in October?",
+      "category": "Ethereum",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 5.5124,
+      "total_value_usd": 33957.25,
+      "entry_price": 0.0285,
+      "end_date": "2026-11-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x344c04442a0e545be4d8e4fd1895254b16d5efcc0b0f8e2f168a489e6dc2b3e8:1",
+      "condition_id": "0x344c04442a0e545be4d8e4fd1895254b16d5efcc0b0f8e2f168a489e6dc2b3e8",
+      "title": "Will Ethereum reach $2,700 in October?",
+      "category": "Ethereum",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 4.817,
+      "total_value_usd": 22231.75,
+      "entry_price": 0.0285,
+      "end_date": "2026-11-01",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x291dae888f95a91112d0295b2977a4c7ce5a9b9e660788906653b51d9069668b:1",
+      "condition_id": "0x291dae888f95a91112d0295b2977a4c7ce5a9b9e660788906653b51d9069668b",
+      "title": "Will Ethereum reach $2,400 October 26-November 1?",
+      "category": "Ethereum",
+      "whale_direction": "No",
+      "outcome_index": 1,
+      "tier": "Moderate",
+      "score": 4.7657,
+      "total_value_usd": 8263.86,
+      "entry_price": 0.0285,
+      "end_date": "2026-11-02",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x5003c63f5d334ec8cad173d504bbaa841af5b38f676d756c7549602c2b623c6f:0",
+      "condition_id": "0x5003c63f5d334ec8cad173d504bbaa841af5b38f676d756c7549602c2b623c6f",
+      "title": "Will Ethereum dip to $2,100 October 26-November 1?",
+      "category": "Ethereum",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Moderate",
+      "score": 4.3686,
+      "total_value_usd": 3897.05,
+      "entry_price": 0.0285,
+      "end_date": "2026-11-02",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
     }
   ]
 }

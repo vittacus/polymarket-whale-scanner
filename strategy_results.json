@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-29T20:35:34+00:00",
-  "total_evaluated": 1492,
-  "total_pending": 66,
+  "generated_at": "2026-10-30T00:14:35+00:00",
+  "total_evaluated": 1497,
+  "total_pending": 70,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1492,
-      "correct": 887,
+      "signals_evaluated": 1497,
+      "correct": 888,
       "wrong": 539,
-      "pending": 66,
+      "pending": 70,
       "win_rate": 62.2,
       "signals": [
         {
@@ -19929,11 +19929,11 @@
           "tier": "Strong",
           "entry_price": 0.0265,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Yes",
+          "resolved_date": "2027-01-01",
           "end_date": "2027-01-01",
           "total_value_usd": 773759.75,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x42945ea5657d6f6e77969a06661b29d6f6295083d1ef3479b42efd90647c9dfc:1",
@@ -20900,6 +20900,76 @@
           "end_date": "2026-11-05",
           "total_value_usd": 44310.44,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x766996108017c3b6452c23db79ab1c714d8d9d9da846a4c316f5e047754a229d:1",
+          "condition_id": "0x766996108017c3b6452c23db79ab1c714d8d9d9da846a4c316f5e047754a229d",
+          "title": "Will Ethereum dip to $1,250 by December 31, 2026?",
+          "category": "Ethereum",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2027-01-01",
+          "total_value_usd": 118498.76,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x4498837aed920b74352dd0abaf37d8b47498057d89896718a071c1a88f33c6fb:1",
+          "condition_id": "0x4498837aed920b74352dd0abaf37d8b47498057d89896718a071c1a88f33c6fb",
+          "title": "Will Ethereum reach $2,600 in October?",
+          "category": "Ethereum",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-01",
+          "total_value_usd": 33957.25,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x344c04442a0e545be4d8e4fd1895254b16d5efcc0b0f8e2f168a489e6dc2b3e8:1",
+          "condition_id": "0x344c04442a0e545be4d8e4fd1895254b16d5efcc0b0f8e2f168a489e6dc2b3e8",
+          "title": "Will Ethereum reach $2,700 in October?",
+          "category": "Ethereum",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-01",
+          "total_value_usd": 22231.75,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x291dae888f95a91112d0295b2977a4c7ce5a9b9e660788906653b51d9069668b:1",
+          "condition_id": "0x291dae888f95a91112d0295b2977a4c7ce5a9b9e660788906653b51d9069668b",
+          "title": "Will Ethereum reach $2,400 October 26-November 1?",
+          "category": "Ethereum",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-02",
+          "total_value_usd": 8263.86,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x5003c63f5d334ec8cad173d504bbaa841af5b38f676d756c7549602c2b623c6f:0",
+          "condition_id": "0x5003c63f5d334ec8cad173d504bbaa841af5b38f676d756c7549602c2b623c6f",
+          "title": "Will Ethereum dip to $2,100 October 26-November 1?",
+          "category": "Ethereum",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-02",
+          "total_value_usd": 3897.05,
+          "result": "pending"
         }
       ]
     },
@@ -20907,10 +20977,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 822,
-      "correct": 479,
+      "signals_evaluated": 827,
+      "correct": 480,
       "wrong": 295,
-      "pending": 48,
+      "pending": 52,
       "win_rate": 61.9,
       "signals": [
         {
@@ -31449,11 +31519,11 @@
           "tier": "Strong",
           "entry_price": 0.0265,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Yes",
+          "resolved_date": "2027-01-01",
           "end_date": "2027-01-01",
           "total_value_usd": 773759.75,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x42945ea5657d6f6e77969a06661b29d6f6295083d1ef3479b42efd90647c9dfc:1",
@@ -32420,6 +32490,76 @@
           "end_date": "2026-11-05",
           "total_value_usd": 44310.44,
           "result": "correct"
+        },
+        {
+          "signal_key": "0x766996108017c3b6452c23db79ab1c714d8d9d9da846a4c316f5e047754a229d:1",
+          "condition_id": "0x766996108017c3b6452c23db79ab1c714d8d9d9da846a4c316f5e047754a229d",
+          "title": "Will Ethereum dip to $1,250 by December 31, 2026?",
+          "category": "Ethereum",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2027-01-01",
+          "total_value_usd": 118498.76,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x4498837aed920b74352dd0abaf37d8b47498057d89896718a071c1a88f33c6fb:1",
+          "condition_id": "0x4498837aed920b74352dd0abaf37d8b47498057d89896718a071c1a88f33c6fb",
+          "title": "Will Ethereum reach $2,600 in October?",
+          "category": "Ethereum",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-01",
+          "total_value_usd": 33957.25,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x344c04442a0e545be4d8e4fd1895254b16d5efcc0b0f8e2f168a489e6dc2b3e8:1",
+          "condition_id": "0x344c04442a0e545be4d8e4fd1895254b16d5efcc0b0f8e2f168a489e6dc2b3e8",
+          "title": "Will Ethereum reach $2,700 in October?",
+          "category": "Ethereum",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-01",
+          "total_value_usd": 22231.75,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x291dae888f95a91112d0295b2977a4c7ce5a9b9e660788906653b51d9069668b:1",
+          "condition_id": "0x291dae888f95a91112d0295b2977a4c7ce5a9b9e660788906653b51d9069668b",
+          "title": "Will Ethereum reach $2,400 October 26-November 1?",
+          "category": "Ethereum",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-02",
+          "total_value_usd": 8263.86,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x5003c63f5d334ec8cad173d504bbaa841af5b38f676d756c7549602c2b623c6f:0",
+          "condition_id": "0x5003c63f5d334ec8cad173d504bbaa841af5b38f676d756c7549602c2b623c6f",
+          "title": "Will Ethereum dip to $2,100 October 26-November 1?",
+          "category": "Ethereum",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-02",
+          "total_value_usd": 3897.05,
+          "result": "pending"
         }
       ]
     },
@@ -32427,10 +32567,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 822,
+      "signals_evaluated": 827,
       "correct": 295,
-      "wrong": 479,
-      "pending": 48,
+      "wrong": 480,
+      "pending": 52,
       "win_rate": 38.1,
       "signals": [
         {
@@ -42969,11 +43109,11 @@
           "tier": "Strong",
           "entry_price": 0.0265,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Yes",
+          "resolved_date": "2027-01-01",
           "end_date": "2027-01-01",
           "total_value_usd": 773759.75,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x42945ea5657d6f6e77969a06661b29d6f6295083d1ef3479b42efd90647c9dfc:1",
@@ -43940,6 +44080,76 @@
           "end_date": "2026-11-05",
           "total_value_usd": 44310.44,
           "result": "wrong"
+        },
+        {
+          "signal_key": "0x766996108017c3b6452c23db79ab1c714d8d9d9da846a4c316f5e047754a229d:1",
+          "condition_id": "0x766996108017c3b6452c23db79ab1c714d8d9d9da846a4c316f5e047754a229d",
+          "title": "Will Ethereum dip to $1,250 by December 31, 2026?",
+          "category": "Ethereum",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2027-01-01",
+          "total_value_usd": 118498.76,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x4498837aed920b74352dd0abaf37d8b47498057d89896718a071c1a88f33c6fb:1",
+          "condition_id": "0x4498837aed920b74352dd0abaf37d8b47498057d89896718a071c1a88f33c6fb",
+          "title": "Will Ethereum reach $2,600 in October?",
+          "category": "Ethereum",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-01",
+          "total_value_usd": 33957.25,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x344c04442a0e545be4d8e4fd1895254b16d5efcc0b0f8e2f168a489e6dc2b3e8:1",
+          "condition_id": "0x344c04442a0e545be4d8e4fd1895254b16d5efcc0b0f8e2f168a489e6dc2b3e8",
+          "title": "Will Ethereum reach $2,700 in October?",
+          "category": "Ethereum",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-01",
+          "total_value_usd": 22231.75,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x291dae888f95a91112d0295b2977a4c7ce5a9b9e660788906653b51d9069668b:1",
+          "condition_id": "0x291dae888f95a91112d0295b2977a4c7ce5a9b9e660788906653b51d9069668b",
+          "title": "Will Ethereum reach $2,400 October 26-November 1?",
+          "category": "Ethereum",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "No",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-02",
+          "total_value_usd": 8263.86,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x5003c63f5d334ec8cad173d504bbaa841af5b38f676d756c7549602c2b623c6f:0",
+          "condition_id": "0x5003c63f5d334ec8cad173d504bbaa841af5b38f676d756c7549602c2b623c6f",
+          "title": "Will Ethereum dip to $2,100 October 26-November 1?",
+          "category": "Ethereum",
+          "tier": "Moderate",
+          "entry_price": 0.0285,
+          "whale_direction": "Yes",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-02",
+          "total_value_usd": 3897.05,
+          "result": "pending"
         }
       ]
     },
@@ -43948,10 +44158,10 @@
       "description": "Total whale position >$500k",
       "hypothesis": "Signals where total position size exceeds $500k represent the highest-conviction whale bets. When top traders put serious capital behind a position, that's a qualitatively different signal from a small stake. This filters for only the highest-conviction consensus calls to test whether size predicts accuracy.",
       "signals_evaluated": 46,
-      "correct": 27,
+      "correct": 28,
       "wrong": 11,
-      "pending": 8,
-      "win_rate": 71.1,
+      "pending": 7,
+      "win_rate": 71.8,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -44577,11 +44787,11 @@
           "tier": "Strong",
           "entry_price": 0.0265,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Yes",
+          "resolved_date": "2027-01-01",
           "end_date": "2027-01-01",
           "total_value_usd": 773759.75,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xdf9bf27ee5757c55b44b8b9826ddc9ec3a8809aa3278634c45edbb7fc8f1a3e3:0",
