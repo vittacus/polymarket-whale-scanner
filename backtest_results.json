@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-30T00:14:34+00:00",
-  "total_signals": 1497,
+  "generated_at": "2026-10-30T05:53:39+00:00",
+  "total_signals": 1498,
   "total_resolved": 1427,
   "total_correct": 888,
   "overall_hit_rate": 62.2,
   "by_tier": {
     "Strong": {
-      "total": 645,
+      "total": 646,
       "resolved": 621,
       "correct": 393,
       "hit_rate": 63.3
@@ -25469,6 +25469,23 @@
       "total_value_usd": 3897.05,
       "entry_price": 0.0285,
       "end_date": "2026-11-02",
+      "resolved": false,
+      "correct": null,
+      "resolved_outcome": null,
+      "resolved_date": null
+    },
+    {
+      "signal_key": "0x71e9f5312aac62bdc9b87fa8d171fa929eca6243d815298c4c7d61303f7d53dd:0",
+      "condition_id": "0x71e9f5312aac62bdc9b87fa8d171fa929eca6243d815298c4c7d61303f7d53dd",
+      "title": "Will the Republicans win the Nebraska Senate race in 2026?",
+      "category": "Nebraska Midterm",
+      "whale_direction": "Yes",
+      "outcome_index": 0,
+      "tier": "Strong",
+      "score": 12.8446,
+      "total_value_usd": 66316.53,
+      "entry_price": 0.0285,
+      "end_date": "2026-11-04",
       "resolved": false,
       "correct": null,
       "resolved_outcome": null,
