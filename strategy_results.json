@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-30T05:53:39+00:00",
-  "total_evaluated": 1498,
-  "total_pending": 71,
+  "generated_at": "2026-10-30T11:51:31+00:00",
+  "total_evaluated": 1499,
+  "total_pending": 72,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
-      "signals_evaluated": 1498,
+      "signals_evaluated": 1499,
       "correct": 888,
       "wrong": 539,
-      "pending": 71,
+      "pending": 72,
       "win_rate": 62.2,
       "signals": [
         {
@@ -20984,6 +20984,20 @@
           "end_date": "2026-11-04",
           "total_value_usd": 66316.53,
           "result": "pending"
+        },
+        {
+          "signal_key": "0x25d2041a4ee26dd34d19026429f994d1e3d2194ecd4ebb783bc00a304565a456:0",
+          "condition_id": "0x25d2041a4ee26dd34d19026429f994d1e3d2194ecd4ebb783bc00a304565a456",
+          "title": "Guangzhou Open: Xinran Sun vs Claire Liu",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0295,
+          "whale_direction": "Xinran Sun",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-06",
+          "total_value_usd": 31076.36,
+          "result": "pending"
         }
       ]
     },
@@ -20991,10 +21005,10 @@
       "name": "Contrarian",
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
-      "signals_evaluated": 828,
+      "signals_evaluated": 829,
       "correct": 480,
       "wrong": 295,
-      "pending": 53,
+      "pending": 54,
       "win_rate": 61.9,
       "signals": [
         {
@@ -32588,6 +32602,20 @@
           "end_date": "2026-11-04",
           "total_value_usd": 66316.53,
           "result": "pending"
+        },
+        {
+          "signal_key": "0x25d2041a4ee26dd34d19026429f994d1e3d2194ecd4ebb783bc00a304565a456:0",
+          "condition_id": "0x25d2041a4ee26dd34d19026429f994d1e3d2194ecd4ebb783bc00a304565a456",
+          "title": "Guangzhou Open: Xinran Sun vs Claire Liu",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0295,
+          "whale_direction": "Xinran Sun",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-06",
+          "total_value_usd": 31076.36,
+          "result": "pending"
         }
       ]
     },
@@ -32595,10 +32623,10 @@
       "name": "Heavy Favorite",
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
-      "signals_evaluated": 828,
+      "signals_evaluated": 829,
       "correct": 295,
       "wrong": 480,
-      "pending": 53,
+      "pending": 54,
       "win_rate": 38.1,
       "signals": [
         {
@@ -44191,6 +44219,20 @@
           "resolved_date": null,
           "end_date": "2026-11-04",
           "total_value_usd": 66316.53,
+          "result": "pending"
+        },
+        {
+          "signal_key": "0x25d2041a4ee26dd34d19026429f994d1e3d2194ecd4ebb783bc00a304565a456:0",
+          "condition_id": "0x25d2041a4ee26dd34d19026429f994d1e3d2194ecd4ebb783bc00a304565a456",
+          "title": "Guangzhou Open: Xinran Sun vs Claire Liu",
+          "category": "Tennis",
+          "tier": "Strong",
+          "entry_price": 0.0295,
+          "whale_direction": "Xinran Sun",
+          "resolved_outcome": null,
+          "resolved_date": null,
+          "end_date": "2026-11-06",
+          "total_value_usd": 31076.36,
           "result": "pending"
         }
       ]
