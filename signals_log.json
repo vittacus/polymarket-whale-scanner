@@ -396734,5 +396734,178 @@
         "entry_price": 0.51
       }
     ]
+  },
+  {
+    "timestamp": "2026-10-30T21:29:01+00:00",
+    "whale_timeframes": {
+      "0x684baa57c338c2549aec0aa3f034f695d72a8409": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x57a85952044f2c8e4d31b475aab6987d2f98ebc2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xf0318c32136c2db7fec88b84869aee6a1106c80c": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x2c335066fe58fe9237c3d3dc7b275c2a034a0563": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x5268527977f700f9bf9b6d5cd843859e4e70135d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xd202bf6d89dc6bab1b9f00ead175f75466348973": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x4bff30af91642dc7d2b19a8664378fe55c45fc26": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9703676286b93c2eca71ca96e8757104519a69c2": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xfbf3d501e88815464642d0e913f15379c3eeb218": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xa38a455bbdd4b68486548b7e19da99903f4f821d": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc44f432b014f36679e13615f95996eac32bbd49f": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x43372356634781eea88d61bbdd7824cdce958882": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xdaef2be2a19ad331737d06545f85615b094554e9": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x7ad71d79a3bb90d0a87a06500fa0fe11663842aa": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x9b11866433281ade9f2811dbde8acdefc45f5375": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x21f333307ac6d2e65ac82f014b3dd2b64cbc35e3": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0xc9bfc7986767173b4f1c3fc9b2c6b255fc7381c0": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ],
+      "0x0224bb9eb0a5c9fd261ac9123a72cbdd5748292a": [
+        "All",
+        "Monthly",
+        "Weekly",
+        "Daily"
+      ]
+    },
+    "signals": [
+      {
+        "signal_key": "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d:0",
+        "condition_id": "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d",
+        "title": "2026 Balance of Power: D Senate, D House",
+        "outcome": "Yes",
+        "outcome_index": 0,
+        "whale_count": 3,
+        "wallets": [
+          "0xf0318c32136c2db7fec88b84869aee6a1106c80c",
+          "0x6ac5bb06a9eb05641fd5e82640268b92f3ab4b6e",
+          "0x0224bb9eb0a5c9fd261ac9123a72cbdd5748292a"
+        ],
+        "ranks": [
+          3,
+          19,
+          20
+        ],
+        "total_value_usd": 890984.78,
+        "score": 10.4523,
+        "category": "United States",
+        "end_date": "2026-11-04",
+        "entry_price": 0.0475
+      },
+      {
+        "signal_key": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846:1",
+        "condition_id": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
+        "title": "Will the U.S. invade Iran before 2027?",
+        "outcome": "No",
+        "outcome_index": 1,
+        "whale_count": 3,
+        "wallets": [
+          "0xe9076a87c5ed90ef16e6fe6529c943baeca0cff6",
+          "0x43372356634781eea88d61bbdd7824cdce958882",
+          "0x0224bb9eb0a5c9fd261ac9123a72cbdd5748292a"
+        ],
+        "ranks": [
+          4,
+          13,
+          20
+        ],
+        "total_value_usd": 67114.56,
+        "score": 7.3311,
+        "category": "Military Strikes",
+        "end_date": "2027-01-01",
+        "entry_price": 0.51
+      }
+    ]
   }
 ]
