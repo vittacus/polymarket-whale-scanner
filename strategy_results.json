@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-02T04:07:42+00:00",
+  "generated_at": "2026-11-02T12:08:23+00:00",
   "total_evaluated": 1499,
-  "total_pending": 65,
+  "total_pending": 63,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 1499,
-      "correct": 895,
-      "wrong": 539,
-      "pending": 65,
+      "correct": 896,
+      "wrong": 540,
+      "pending": 63,
       "win_rate": 62.4,
       "signals": [
         {
@@ -20951,11 +20951,11 @@
           "tier": "Moderate",
           "entry_price": 0.0285,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-11-02",
           "end_date": "2026-11-02",
           "total_value_usd": 8263.86,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x5003c63f5d334ec8cad173d504bbaa841af5b38f676d756c7549602c2b623c6f:0",
@@ -20965,11 +20965,11 @@
           "tier": "Moderate",
           "entry_price": 0.0285,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-11-02",
           "end_date": "2026-11-02",
           "total_value_usd": 3897.05,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x71e9f5312aac62bdc9b87fa8d171fa929eca6243d815298c4c7d61303f7d53dd:0",
@@ -21006,10 +21006,10 @@
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 829,
-      "correct": 487,
-      "wrong": 295,
-      "pending": 47,
-      "win_rate": 62.3,
+      "correct": 488,
+      "wrong": 296,
+      "pending": 45,
+      "win_rate": 62.2,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -32569,11 +32569,11 @@
           "tier": "Moderate",
           "entry_price": 0.0285,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-11-02",
           "end_date": "2026-11-02",
           "total_value_usd": 8263.86,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x5003c63f5d334ec8cad173d504bbaa841af5b38f676d756c7549602c2b623c6f:0",
@@ -32583,11 +32583,11 @@
           "tier": "Moderate",
           "entry_price": 0.0285,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-11-02",
           "end_date": "2026-11-02",
           "total_value_usd": 3897.05,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x71e9f5312aac62bdc9b87fa8d171fa929eca6243d815298c4c7d61303f7d53dd:0",
@@ -32624,10 +32624,10 @@
       "description": "Market priced >85% one side \u2014 bet with the crowd",
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 829,
-      "correct": 295,
-      "wrong": 487,
-      "pending": 47,
-      "win_rate": 37.7,
+      "correct": 296,
+      "wrong": 488,
+      "pending": 45,
+      "win_rate": 37.8,
       "signals": [
         {
           "signal_key": "0xcd6fde5dbe1305e949c1db4414d87cb184aa33e92c61085849a89d9d939f3a0d:1",
@@ -44187,11 +44187,11 @@
           "tier": "Moderate",
           "entry_price": 0.0285,
           "whale_direction": "No",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-11-02",
           "end_date": "2026-11-02",
           "total_value_usd": 8263.86,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0x5003c63f5d334ec8cad173d504bbaa841af5b38f676d756c7549602c2b623c6f:0",
@@ -44201,11 +44201,11 @@
           "tier": "Moderate",
           "entry_price": 0.0285,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "No",
+          "resolved_date": "2026-11-02",
           "end_date": "2026-11-02",
           "total_value_usd": 3897.05,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0x71e9f5312aac62bdc9b87fa8d171fa929eca6243d815298c4c7d61303f7d53dd:0",
