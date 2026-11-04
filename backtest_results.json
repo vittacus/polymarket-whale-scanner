@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-11-04T03:16:42+00:00",
+  "generated_at": "2026-11-04T18:34:30+00:00",
   "total_signals": 1499,
-  "total_resolved": 1436,
-  "total_correct": 896,
-  "overall_hit_rate": 62.4,
+  "total_resolved": 1451,
+  "total_correct": 902,
+  "overall_hit_rate": 62.2,
   "by_tier": {
     "Strong": {
       "total": 647,
-      "resolved": 623,
-      "correct": 395,
-      "hit_rate": 63.4
+      "resolved": 627,
+      "correct": 398,
+      "hit_rate": 63.5
     },
     "Moderate": {
       "total": 774,
-      "resolved": 739,
-      "correct": 458,
-      "hit_rate": 62.0
+      "resolved": 747,
+      "correct": 461,
+      "hit_rate": 61.7
     },
     "Weak": {
       "total": 78,
-      "resolved": 74,
+      "resolved": 77,
       "correct": 43,
-      "hit_rate": 58.1
+      "hit_rate": 55.8
     }
   },
   "signals": [
@@ -1176,10 +1176,10 @@
       "total_value_usd": 23610.54,
       "entry_price": 0.52,
       "end_date": "2026-11-03",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-11-04"
     },
     {
       "signal_key": "0x4f3421fb2daf5cca7430ed8d8132463963081572d75434393a1808fdb8829fe8:0",
@@ -2944,10 +2944,10 @@
       "total_value_usd": 44873.31,
       "entry_price": 0.51,
       "end_date": "2026-11-03",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-11-04"
     },
     {
       "signal_key": "0x25fb28382075f418a944a781a9f8840e2f541152eea0d9798d1cabfa1466adbb:0",
@@ -4508,10 +4508,10 @@
       "total_value_usd": 18179.4,
       "entry_price": 0.51,
       "end_date": "2026-11-03",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-11-04"
     },
     {
       "signal_key": "0x749d8eccbc0a99447e71fc5e40a0096842774bef4d5c8838b8adb39af068b3cb:0",
@@ -8894,10 +8894,10 @@
       "total_value_usd": 80212.31,
       "entry_price": 0.505,
       "end_date": "2026-11-03",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-11-04"
     },
     {
       "signal_key": "0xa6f18041a9e4db4936e9da82108169296ade7b2d7c9f0bcf2aec7402db9bfd3b:1",
@@ -9166,10 +9166,10 @@
       "total_value_usd": 6601.75,
       "entry_price": 0.515,
       "end_date": "2026-11-03",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-11-04"
     },
     {
       "signal_key": "0xbbe121ffa9fc47b8c012bb20bb68ace100fc8358032a423115c2b62d360a9efe:1",
@@ -18754,10 +18754,10 @@
       "total_value_usd": 2998363.32,
       "entry_price": 0.0475,
       "end_date": "2026-11-03",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-11-04"
     },
     {
       "signal_key": "0x7586a96520578acaaaa4ea84a2582f197f84255da1f3392a7aa300386c187b37:1",
@@ -20811,10 +20811,10 @@
       "total_value_usd": 2439915.01,
       "entry_price": 0.048,
       "end_date": "2026-11-03",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-11-04"
     },
     {
       "signal_key": "0x45f98942d43f48d9360e387d16a596435bff0b86ee7ff48d494b9760b4eab0d5:1",
@@ -24449,10 +24449,10 @@
       "total_value_usd": 201246.5,
       "entry_price": 0.029,
       "end_date": "2026-11-04",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-11-04"
     },
     {
       "signal_key": "0x460d3942d385cdeda20519c0c5ad804ae48dc18efc9a82e1f1be87a29e69adb3:1",
@@ -24466,10 +24466,10 @@
       "total_value_usd": 119797.58,
       "entry_price": 0.029,
       "end_date": "2026-11-04",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-11-04"
     },
     {
       "signal_key": "0xd50c016598c499fceea10a1a714e48d9b4953487fe215daeaf916068fae722f1:1",
@@ -24483,10 +24483,10 @@
       "total_value_usd": 86439.95,
       "entry_price": 0.029,
       "end_date": "2026-11-04",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-11-04"
     },
     {
       "signal_key": "0xb9a47da1c8b62eeddcd6d76de7666b77d973599afbb49332c6e53564b406c745:0",
@@ -24789,10 +24789,10 @@
       "total_value_usd": 132087.78,
       "entry_price": 0.0285,
       "end_date": "2026-11-04",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-11-04"
     },
     {
       "signal_key": "0xd5f52155cd4caa160a679992c25179bc073a635b0f8bbc59827a921329ec3f7a:0",
@@ -25112,10 +25112,10 @@
       "total_value_usd": 96706.56,
       "entry_price": 0.0255,
       "end_date": "2026-11-04",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-11-04"
     },
     {
       "signal_key": "0x4aa4952b25c75717516e531555fba4c7487c378d68079a9f70f7b14f956865c2:0",
@@ -25316,10 +25316,10 @@
       "total_value_usd": 88358.58,
       "entry_price": 0.0285,
       "end_date": "2026-11-04",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": false,
+      "resolved_outcome": "No",
+      "resolved_date": "2026-11-04"
     },
     {
       "signal_key": "0x34918035a590555ba1fb1d6a019d766ab6e557d63e7f3140b63b4550eee7f417:0",
@@ -25333,10 +25333,10 @@
       "total_value_usd": 30266.95,
       "entry_price": 0.0285,
       "end_date": "2026-11-04",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-11-04"
     },
     {
       "signal_key": "0x422b44717de3606ba08c2e00503d29e8330583b00b0bed63f89772b9c384e41f:0",
@@ -25486,10 +25486,10 @@
       "total_value_usd": 66316.53,
       "entry_price": 0.0285,
       "end_date": "2026-11-04",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-11-04"
     },
     {
       "signal_key": "0x25d2041a4ee26dd34d19026429f994d1e3d2194ecd4ebb783bc00a304565a456:0",
