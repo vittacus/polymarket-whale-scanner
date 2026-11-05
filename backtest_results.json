@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-05T00:03:06+00:00",
+  "generated_at": "2026-11-05T04:54:42+00:00",
   "total_signals": 1499,
-  "total_resolved": 1451,
-  "total_correct": 902,
+  "total_resolved": 1452,
+  "total_correct": 903,
   "overall_hit_rate": 62.2,
   "by_tier": {
     "Strong": {
       "total": 647,
-      "resolved": 627,
-      "correct": 398,
+      "resolved": 628,
+      "correct": 399,
       "hit_rate": 63.5
     },
     "Moderate": {
@@ -7602,10 +7602,10 @@
       "total_value_usd": 3340.06,
       "entry_price": 0.505,
       "end_date": "2026-12-06",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Yes",
+      "resolved_date": "2026-12-06"
     },
     {
       "signal_key": "0x7976b8dbacf9077eb1453a62bcefd6ab2df199acd28aad276ff0d920d6992892:1",
