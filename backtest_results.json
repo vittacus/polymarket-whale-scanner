@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-12T16:42:20+00:00",
+  "generated_at": "2026-11-12T22:35:23+00:00",
   "total_signals": 1499,
-  "total_resolved": 1452,
-  "total_correct": 903,
+  "total_resolved": 1453,
+  "total_correct": 904,
   "overall_hit_rate": 62.2,
   "by_tier": {
     "Strong": {
       "total": 647,
-      "resolved": 628,
-      "correct": 399,
-      "hit_rate": 63.5
+      "resolved": 629,
+      "correct": 400,
+      "hit_rate": 63.6
     },
     "Moderate": {
       "total": 774,
@@ -12056,10 +12056,10 @@
       "total_value_usd": 67620.73,
       "entry_price": 0.0445,
       "end_date": "2026-08-10",
-      "resolved": false,
-      "correct": null,
-      "resolved_outcome": null,
-      "resolved_date": null
+      "resolved": true,
+      "correct": true,
+      "resolved_outcome": "Pittsburgh Pirates",
+      "resolved_date": "2026-08-10"
     },
     {
       "signal_key": "0x01a85ca8e7cbbaeec3012b79fc16c785a7fb148da94316848b0c77b840670cc5:0",
