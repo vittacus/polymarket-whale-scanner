@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-19T18:24:25+00:00",
+  "generated_at": "2026-11-20T00:49:36+00:00",
   "total_evaluated": 1499,
-  "total_pending": 45,
+  "total_pending": 44,
   "strategies": {
     "A": {
       "name": "Whale Consensus",
       "description": "3+ top-PnL wallets on same side",
       "hypothesis": "When 3+ top-PnL traders independently hold the same position in the same market, their collective judgment should outperform random chance. These traders have real track records and real money at stake \u2014 consensus among them is a stronger signal than any individual call.",
       "signals_evaluated": 1499,
-      "correct": 905,
+      "correct": 906,
       "wrong": 549,
-      "pending": 45,
-      "win_rate": 62.2,
+      "pending": 44,
+      "win_rate": 62.3,
       "signals": [
         {
           "signal_key": "0xc0915e57bfa81e7c625bbb7154b9d4f19c2b06a7713cbc96f0cb5ea38c28878e:0",
@@ -16835,11 +16835,11 @@
           "tier": "Strong",
           "entry_price": 0.0395,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Yes",
+          "resolved_date": "2027-01-01",
           "end_date": "2027-07-01",
           "total_value_usd": 20622.17,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xdc28ed08b51e8a42befcfb12e50819fab3169e40844cb2b44ec9cbed2a2ecc86:1",
@@ -21006,9 +21006,9 @@
       "description": "Market priced >85% one side \u2014 bet the other",
       "hypothesis": "When a market is priced above 85% on one side, it may be overconfident. Prediction markets systematically overprice certainty at the extremes. Betting against extreme favorites should show positive returns if markets are miscalibrated at the tails. Note: Strategies B and C are tested on identical markets \u2014 same trigger, opposite bets \u2014 so the results are a direct comparison.",
       "signals_evaluated": 829,
-      "correct": 494,
+      "correct": 495,
       "wrong": 302,
-      "pending": 33,
+      "pending": 32,
       "win_rate": 62.1,
       "signals": [
         {
@@ -28453,11 +28453,11 @@
           "tier": "Strong",
           "entry_price": 0.0395,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Yes",
+          "resolved_date": "2027-01-01",
           "end_date": "2027-07-01",
           "total_value_usd": 20622.17,
-          "result": "pending"
+          "result": "correct"
         },
         {
           "signal_key": "0xdc28ed08b51e8a42befcfb12e50819fab3169e40844cb2b44ec9cbed2a2ecc86:1",
@@ -32625,8 +32625,8 @@
       "hypothesis": "Betting the side the market has priced above 85% is a profitable baseline strategy. If the crowd is right most of the time on high-confidence markets, this should show a strong win rate and establish a floor for what any other strategy needs to beat. This is the natural counterpart to Strategy B \u2014 same markets, opposite calls.",
       "signals_evaluated": 829,
       "correct": 302,
-      "wrong": 494,
-      "pending": 33,
+      "wrong": 495,
+      "pending": 32,
       "win_rate": 37.9,
       "signals": [
         {
@@ -40071,11 +40071,11 @@
           "tier": "Strong",
           "entry_price": 0.0395,
           "whale_direction": "Yes",
-          "resolved_outcome": null,
-          "resolved_date": null,
+          "resolved_outcome": "Yes",
+          "resolved_date": "2027-01-01",
           "end_date": "2027-07-01",
           "total_value_usd": 20622.17,
-          "result": "pending"
+          "result": "wrong"
         },
         {
           "signal_key": "0xdc28ed08b51e8a42befcfb12e50819fab3169e40844cb2b44ec9cbed2a2ecc86:1",
